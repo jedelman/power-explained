@@ -2,7 +2,7 @@
 
 ## In Progress
 - [x] Piece 01 — "Why your city doesn't work (and why it's not an accident)"
-- [ ] Piece 02 — "Your city knows less about your street than you do"
+- [x] Piece 02 — "Your city knows less about your street than you do"
 - [ ] Piece 03 — "Who gets paid when you show up?"
 
 ## Done
