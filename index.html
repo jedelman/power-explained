@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power Explained</title>
+  <meta name="description" content="How power works. In plain language. And what people can actually do about it." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ── Reset ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ── Tokens ── */
+    :root {
+      --ink:       #1a1714;
+      --paper:     #f2ece0;
+      --paper-mid: #e8dfc8;
+      --red:       #a0291c;
+      --red-dim:   #7a2015;
+      --rule:      rgba(26,23,20,0.18);
+      --rule-strong: rgba(26,23,20,0.45);
+
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body:    'Lora', Georgia, serif;
+      --mono:    'DM Mono', monospace;
+
+      --max: 780px;
+      --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    /* ── Base ── */
+    html { font-size: 18px; scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--body);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    /* ── Masthead ── */
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding: 1.25rem 0 1rem;
+    }
+
+    header .container {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .site-name {
+      font-family: var(--display);
+      font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .issue-line {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: rgba(26,23,20,0.5);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      padding: clamp(3rem, 8vw, 6rem) 0 clamp(2rem, 5vw, 4rem);
+      border-bottom: 1px solid var(--rule-strong);
+    }
+
+    .hero-label {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .hero-label::before {
+      content: '';
+      display: block;
+      width: 2rem;
+      height: 1px;
+      background: var(--red);
+      flex-shrink: 0;
+    }
+
+    .hero-headline {
+      font-family: var(--display);
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      font-weight: 700;
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      margin-bottom: 2rem;
+      color: var(--ink);
+    }
+
+    .hero-headline em {
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .hero-deck {
+      max-width: 520px;
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      line-height: 1.65;
+      color: rgba(26,23,20,0.8);
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-rule {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 2.5rem;
+    }
+
+    .hero-rule::before, .hero-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .scroll-hint {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.4);
+      white-space: nowrap;
+    }
+
+    /* ── Pull quote banner ── */
+    .banner {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 2.5rem var(--gutter);
+      text-align: center;
+    }
+
+    .banner blockquote {
+      font-family: var(--display);
+      font-size: clamp(1.4rem, 4vw, 2.2rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.3;
+      max-width: 640px;
+      margin: 0 auto;
+      letter-spacing: 0.01em;
+    }
+
+    .banner blockquote strong {
+      font-style: normal;
+      font-weight: 700;
+      color: #d4a088;
+    }
+
+    /* ── Sections ── */
+    .section-grid {
+      padding: clamp(3rem, 7vw, 5rem) 0;
+    }
+
+    .section-grid .container {
+      display: grid;
+      gap: 0;
+    }
+
+    .piece {
+      padding: clamp(2rem, 5vw, 3.5rem) 0;
+      border-bottom: 1px solid var(--rule);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .piece:last-child {
+      border-bottom: none;
+    }
+
+    @media (min-width: 600px) {
+      .piece {
+        grid-template-columns: 180px 1fr;
+        gap: 0 3rem;
+        align-items: start;
+      }
+    }
+
+    .piece-number {
+      font-family: var(--display);
+      font-size: 5rem;
+      font-weight: 700;
+      line-height: 1;
+      color: var(--paper-mid);
+      margin-bottom: 0.5rem;
+      display: block;
+      user-select: none;
+      transition: color 0.3s ease;
+    }
+
+    .piece:hover .piece-number {
+      color: rgba(160,41,28,0.15);
+    }
+
+    .piece-label {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .piece-title {
+      font-family: var(--display);
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    .piece-body {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: rgba(26,23,20,0.82);
+    }
+
+    .piece-body p + p {
+      margin-top: 0.85rem;
+    }
+
+    .piece-body strong {
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    /* ── CTA section ── */
+    .cta-section {
+      background: var(--paper-mid);
+      border-top: 2px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
+      padding: clamp(2.5rem, 6vw, 4rem) 0;
+      text-align: center;
+    }
+
+    .cta-section h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .cta-section p {
+      font-size: 1rem;
+      color: rgba(26,23,20,0.75);
+      max-width: 480px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .btn {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.85rem 2rem;
+      border: 1.5px solid var(--ink);
+      display: inline-block;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .btn-primary:hover {
+      background: var(--red);
+      border-color: var(--red);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+    }
+
+    .btn-secondary:hover {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    /* ── Footer ── */
+    footer {
+      padding: 2rem 0;
+      border-top: 1px solid var(--rule);
+      margin-top: 0;
+    }
+
+    footer .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .footer-text {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.45);
+    }
+
+    /* ── Entrance animations ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-label    { animation: fadeUp 0.6s ease both; animation-delay: 0.1s; }
+    .hero-headline { animation: fadeUp 0.7s ease both; animation-delay: 0.25s; }
+    .hero-deck     { animation: fadeUp 0.7s ease both; animation-delay: 0.4s; }
+    .hero-rule     { animation: fadeUp 0.5s ease both; animation-delay: 0.55s; }
+
+    .piece {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .piece.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      .piece-number { font-size: 3.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Masthead -->
+  <header>
+    <div class="container">
+      <a href="/" class="site-name">Power Explained</a>
+      <span class="issue-line">An honest look at how things work</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-label">Start here</div>
+      <h1 class="hero-headline">Something<br/><em>is</em> wrong.<br/>Here's how<br/>it works.</h1>
+      <p class="hero-deck">
+        Not a lecture. Not a sales pitch. No jargon, no party line.
+        Just an honest look at how power works — and what people can actually do about it.
+      </p>
+      <div class="hero-rule">
+        <span class="scroll-hint">Read on</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pull quote -->
+  <div class="banner">
+    <blockquote>
+      The system runs on something it <strong>can't produce itself</strong> —
+      your attention, your relationships, your care for people around you.
+      It can capture those things. It can profit from them.
+      But it can't fake them.
+    </blockquote>
+  </div>
+
+  <!-- Core sections -->
+  <section class="section-grid">
+    <div class="container">
+
+      <div class="piece">
+        <div>
+          <span class="piece-number">01</span>
+        </div>
+        <div>
+          <span class="piece-label">The hardest thing to understand</span>
+          <h2 class="piece-title">Nobody is running this. That's the point.</h2>
+          <div class="piece-body">
+            <p>When things go badly — when the rent is too high, when the news makes you anxious, when your job feels meaningless — it's natural to look for who's responsible.</p>
+            <p>There are responsible people. CEOs make real choices. Politicians pick sides. Platforms decide what you see. Those choices matter, and we should name them.</p>
+            <p>But here's what most explanations miss: if you replaced every one of them tomorrow, most of the same things would keep happening. Not because the new people are secretly the same. Because the <strong>rules of the game</strong> produce the outcomes, not just the players.</p>
+            <p>The machine runs itself. Understanding that is the first step to doing anything real about it.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="piece">
+        <div>
+          <span class="piece-number">02</span>
+        </div>
+        <div>
+          <span class="piece-label">What most people miss</span>
+          <h2 class="piece-title">The whole system needs you. You don't need it.</h2>
+          <div class="piece-body">
+            <p>Here's something they'd rather you not sit with too long.</p>
+            <p>Every platform, every app, every media company — they run on something they can't make themselves. Your attention. Your creativity. Your relationships. Your knowledge of your own neighborhood, your own life, your own people.</p>
+            <p>They can harvest it. They can package it and sell it. But they can't produce it. When you share knowledge with a neighbor, when you help someone through a hard time, when people build something together — that's real. That's the raw material.</p>
+            <p><strong>The thing they're selling started with you.</strong> That's not a small thing.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="piece">
+        <div>
+          <span class="piece-number">03</span>
+        </div>
+        <div>
+          <span class="piece-label">Two kinds of systems</span>
+          <h2 class="piece-title">Some things capture. Some things build.</h2>
+          <div class="piece-body">
+            <p>There's a useful way to look at almost anything: ask whether it's designed to <strong>capture</strong> value or to <strong>build</strong> it.</p>
+            <p>A platform that takes your attention and sells it to advertisers is capturing. A community that pools resources to help members in a crisis is building. An algorithm that keeps you angry and clicking is capturing. A neighborhood tool library where people share what they have is building.</p>
+            <p>Most of what we interact with every day is designed to capture. Most of what actually keeps people alive — fed, housed, not alone — is built through cooperation.</p>
+            <p>You already know the difference. You've felt it. This is just giving it a name.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="piece">
+        <div>
+          <span class="piece-number">04</span>
+        </div>
+        <div>
+          <span class="piece-label">What actually works</span>
+          <h2 class="piece-title">Big changes don't happen gradually. They happen after long preparation.</h2>
+          <div class="piece-body">
+            <p>For a long time — sometimes years, sometimes decades — it looks like nothing is working. People are building things. Relationships are forming. Skills are developing. Local institutions are taking root. And then something shifts, and everything reorganizes fast.</p>
+            <p>The preparation is what makes the shift land somewhere real instead of dissolving.</p>
+            <p>This means the work isn't waiting for the right moment or the right leader. The work is building the conditions: real relationships with real people near you, shared skills, local institutions that route resources differently, a common language for what's actually happening.</p>
+            <p><strong>That's not small work. That's the work.</strong></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Read more. Think it through.</h2>
+      <p>More pieces coming. Each one takes a specific question and follows it honestly — no shortcuts, no slogans.</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn btn-primary">Coming soon</a>
+        <a href="https://github.com/jedelman/power-explained" class="btn btn-secondary">Follow on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <span class="footer-text">Power Explained — Public domain. Share freely.</span>
+      <span class="footer-text">No ads. No tracking. No algorithm.</span>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll-triggered entrance for .piece elements
+    const pieces = document.querySelectorAll('.piece');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          // Stagger delay based on position in viewport batch
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, 80 * (Array.from(pieces).indexOf(entry.target) % 4));
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    pieces.forEach(p => observer.observe(p));
+  </script>
+
+</body>
+</html>
