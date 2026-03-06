@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Linux Became the Internet — Power Explained</title>
+  <meta name="description" content="For twenty years, Linux looked like a hobby. Then it was everywhere. That's not a coincidence — it's a pattern. And it tells you something important about how real change works." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:        #1a1714;
+      --paper:      #f2ece0;
+      --paper-mid:  #e8dfc8;
+      --paper-dark: #ddd3b8;
+      --red:        #a0291c;
+      --rule:       rgba(26,23,20,0.18);
+      --rule-strong:rgba(26,23,20,0.45);
+
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body:    'Lora', Georgia, serif;
+      --mono:    'DM Mono', monospace;
+
+      --max: 680px;
+      --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    html { font-size: 18px; scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--body);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding: 1.25rem var(--gutter) 1rem;
+    }
+    header .inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    .site-name {
+      font-family: var(--display);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .site-name:hover { color: var(--red); }
+
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    .kicker {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: clamp(2rem, 5vw, 3.5rem) 0 1.5rem;
+    }
+    .kicker-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      color: rgba(26,23,20,0.35);
+    }
+
+    h1 {
+      font-family: var(--display);
+      font-size: clamp(2.6rem, 8vw, 4.8rem);
+      font-weight: 700;
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+
+    .dek {
+      font-family: var(--display);
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.5;
+      color: rgba(26,23,20,0.75);
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 2rem;
+    }
+
+    .body-text p {
+      margin-bottom: 1.3rem;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+
+    .body-text h2 {
+      font-family: var(--display);
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 3rem 0 1rem;
+    }
+
+    /* ── Timeline ── */
+    .timeline {
+      margin: 2.5rem 0;
+      position: relative;
+      padding-left: 1.5rem;
+      border-left: 2px solid var(--rule-strong);
+    }
+
+    .timeline-item {
+      margin-bottom: 1.75rem;
+      position: relative;
+    }
+
+    .timeline-item:last-child { margin-bottom: 0; }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -1.6rem;
+      top: 0.45rem;
+      width: 0.6rem;
+      height: 0.6rem;
+      background: var(--paper-dark);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .timeline-item.highlight::before {
+      background: var(--red);
+      border-color: var(--red);
+    }
+
+    .timeline-year {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      color: rgba(26,23,20,0.45);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    .timeline-item.highlight .timeline-year {
+      color: var(--red);
+    }
+
+    .timeline-event {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: rgba(26,23,20,0.85);
+    }
+
+    .timeline-item.highlight .timeline-event {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* ── Pull quote ── */
+    .pull {
+      border-top: 2px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
+      padding: 1.75rem 0;
+      margin: 3rem 0;
+      text-align: center;
+    }
+    .pull p {
+      font-family: var(--display);
+      font-size: clamp(1.3rem, 3.5vw, 1.9rem);
+      font-style: italic;
+      line-height: 1.3;
+    }
+    .pull p strong { font-style: normal; font-weight: 700; }
+
+    /* ── Callout ── */
+    .callout {
+      background: var(--paper-mid);
+      border-left: 3px solid var(--paper-dark);
+      padding: 1.5rem 1.75rem;
+      margin: 2.5rem 0;
+    }
+    .callout-label {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.45);
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    .callout p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 0.75rem;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* ── Footer ── */
+    .article-footer {
+      border-top: 1px solid var(--rule);
+      margin-top: 4rem;
+      padding: 2rem 0 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .back-link {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+
+    .next-link {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .next-link::after { content: '→'; }
+    .next-link:hover { text-decoration: underline; }
+
+    .series-note {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.4);
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+    </div>
+  </header>
+
+  <main class="article-wrap">
+
+    <div class="kicker">
+      <span class="kicker-label">Piece 06 — Small Things Build Big Conditions</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#006</span>
+    </div>
+
+    <h1>How Linux Became the Internet</h1>
+
+    <p class="dek">
+      For twenty years, Linux looked like a niche hobby for university nerds.
+      Then it was running most of the world's computers.
+      That's not luck. It's a pattern — and it tells you something
+      important about how real change actually works.
+    </p>
+
+    <div class="body-text">
+
+      <p>In 1991, a Finnish college student named Linus Torvalds posted a message to an internet forum. He was building a small operating system — the software that manages a computer's basic functions — and he wanted feedback. He described it as "just a hobby" and said it "won't be big and professional."</p>
+
+      <p>He was wrong about that last part.</p>
+
+      <p>Today, Linux runs the majority of the world's servers, most supercomputers, every Android phone, and most of the infrastructure that powers the internet. Microsoft, Google, Amazon, and virtually every major tech company depend on it. It is, by many measures, the most important piece of software ever written.</p>
+
+      <p>And for most of the 1990s, it looked like nothing was happening.</p>
+
+      <h2>The long preparation</h2>
+
+      <p>This is the part of the story that almost never gets told, because it's not dramatic. While Microsoft and Apple dominated the computer market, Linux was quietly getting built — by volunteers, in their spare time, for free. No venture capital. No marketing department. No product roadmap. Just thousands of people around the world, each fixing the piece they cared about, contributing back to a shared codebase anyone could use.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-year">1991</span>
+          <span class="timeline-event">Torvalds releases the first version. A few hundred nerds notice.</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">Mid-1990s</span>
+          <span class="timeline-event">Linux spreads through universities and research labs. Microsoft calls it a toy. The press mostly ignores it.</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">Late 1990s</span>
+          <span class="timeline-event">Companies start quietly using Linux for servers — it's more stable and cheaper than the alternatives. Still not mainstream.</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">Early 2000s</span>
+          <span class="timeline-event">IBM bets big on Linux, contributing thousands of engineers. Google builds its entire infrastructure on it. The codebase becomes enormous, mature, battle-tested.</span>
+        </div>
+        <div class="timeline-item highlight">
+          <span class="timeline-year">2007–2011</span>
+          <span class="timeline-event">Google launches Android — a version of Linux for smartphones. Within four years it runs on the majority of phones worldwide. Microsoft and Apple never catch up.</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-year">Today</span>
+          <span class="timeline-event">Linux is everywhere. The phone in your pocket. The server storing your photos. The systems running traffic lights, hospital equipment, financial markets.</span>
+        </div>
+      </div>
+
+      <p>The shift from "hobby project" to "runs the world" didn't happen gradually. It happened fast, after very long preparation. For most of the 1990s, if you'd pointed to Linux and said "this is going to beat Microsoft," people would have laughed at you. The conditions weren't visible from the outside. The work was happening anyway.</p>
+
+      <div class="pull">
+        <p>For a long time, it looks like<br/>nothing is working.<br/>Then something shifts and<br/><strong>everything reorganizes fast.</strong></p>
+      </div>
+
+      <h2>Why it won</h2>
+
+      <p>Linux didn't beat Microsoft and Apple by being better-funded or better-marketed. It won for structural reasons — because of how it was built, not just what it was.</p>
+
+      <p>First, it was built by people who used it. Every contributor had a direct stake in the quality of their piece. The person fixing the networking code was also running their own server on it. The person improving the filesystem was also storing their own files on it. That's different from employees building software for customers they'll never meet. The knowledge was local. The feedback was immediate.</p>
+
+      <p>Second, it got smarter over time instead of more brittle. In a traditional software company, the codebase belongs to the company. When an employee leaves, their knowledge mostly leaves with them. In Linux, every fix, every improvement, every hard-won lesson gets written into the shared codebase. The project accumulates knowledge. It doesn't lose it to turnover or reorganization.</p>
+
+      <p>Third — and this is the key — it was infinitely adaptable. Because anyone could modify it, Linux could be shaped to fit situations its original creators never imagined. Smartphones. Supercomputers. Submarines. Mars rovers. No centrally planned product roadmap could have anticipated all of those. But a system that anyone can adapt doesn't need to anticipate them. It just needs people who care about those problems to show up and do the work.</p>
+
+      <p>That adaptability is what made the Android moment possible. When smartphone hardware became viable, the Linux community had twenty years of mature, stable, adaptable code ready to run on it. Microsoft had to start from scratch. They never recovered.</p>
+
+      <h2>What this has to do with your street</h2>
+
+      <p>The Linux story is usually told as a tech story. But the pattern it demonstrates is much older and much broader than software.</p>
+
+      <p>Big changes don't accumulate gradually and then arrive. They arrive suddenly — after long, mostly invisible preparation. The preparation builds the conditions: the relationships, the skills, the shared tools, the common language, the organizational capacity. When something shifts in the environment — a new technology, a crisis, a political opening — the prepared system can move fast. The unprepared one can't.</p>
+
+      <p>The Civil Rights Movement didn't emerge from nowhere in 1955. It emerged from decades of legal groundwork by the NAACP, organizing infrastructure built through Black churches and civic organizations, generations of leaders trained in historically Black colleges, and a network of relationships across the South that could mobilize quickly when the moment came. Rosa Parks was a trained organizer, not a tired seamstress who spontaneously refused to move. The moment was real. The preparation made it land.</p>
+
+      <p>The same pattern shows up in cities. Neighborhoods that successfully fight off destructive development, or win genuine changes to policing, or secure real resources for their schools — they almost never do it on the first try, starting from scratch. They do it because someone started building the organization years earlier, when there was no immediate crisis to justify it. The tenant association that existed before the eviction wave hit. The neighborhood group that had been meeting monthly for three years before the rezoning proposal landed.</p>
+
+      <div class="callout">
+        <span class="callout-label">The preparation isn't wasted</span>
+        <p>One of the most demoralizing things about slow, patient organizing work is that it looks like nothing for a long time. You're building relationships. You're developing shared language. You're learning how local power actually works. You're creating structures that can absorb new people and move quickly when needed.</p>
+        <p>None of that is visible as "winning." But it's exactly what winning requires. The Linux developers writing networking code in 1994 weren't winning. They were building the conditions for winning — which arrived thirteen years later in the form of Android.</p>
+        <p>The work that looks like nothing is often the work that matters most.</p>
+      </div>
+
+      <h2>What you're actually building</h2>
+
+      <p>If you've read this far in this series, you probably already sense that the usual options — vote, petition, attend a meeting, post online — aren't sufficient on their own. They're not useless. But they don't build the conditions for the kind of change that actually reorganizes how things work.</p>
+
+      <p>What does build those conditions?</p>
+
+      <p>Relationships with real people in your immediate community — not followers, not contacts, but people you'd call in a crisis and who would call you. Organizations with track records, however small — a tenant group that has successfully resolved three disputes, a mutual aid network that delivered during the last emergency, a neighborhood association that got one thing changed and knows how it did it. Shared language for what's actually happening — so when the moment comes, you're not spending your energy arguing about whether the problem is real. Skills that transfer — knowing how local government actually works, how to run a meeting, how to read a budget, how to escalate effectively.</p>
+
+      <p>None of that is glamorous. None of it trends. It doesn't feel like winning while you're doing it.</p>
+
+      <p>But when something shifts — and things do shift, faster than anyone expects — the question is whether the preparation is there for it to land on. Linux was ready when smartphones arrived. The question is whether your neighborhood, your city, your community is building toward being ready for its moment.</p>
+
+      <p>That moment will come. The preparation is the work.</p>
+
+    </div>
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <a href="mutual-aid-isnt-charity.html" class="next-link">Next: Mutual Aid Isn't Charity</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+
+  </main>
+
+</body>
+</html>

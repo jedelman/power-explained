@@ -13,7 +13,7 @@
 
 ### Content
 - [x] Piece 05 — "Open data isn't enough"
-- [ ] Piece 06 — "How Linux became the internet — and what that has to do with your street"
+- [x] Piece 06 — "How Linux became the internet — and what that has to do with your street"
 - [ ] Piece 07 — "Mutual aid isn't charity"
 - [ ] Glossary page — plain definitions for key terms (composition, open procurement, change tracking, etc.)
 
