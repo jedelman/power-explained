@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mutual Aid Isn't Charity — Power Explained</title>
+  <meta name="description" content="Charity asks you to give. Mutual aid asks you to belong. That difference turns out to matter enormously — for how communities survive, and for how they build power." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:        #1a1714;
+      --paper:      #f2ece0;
+      --paper-mid:  #e8dfc8;
+      --paper-dark: #ddd3b8;
+      --red:        #a0291c;
+      --rule:       rgba(26,23,20,0.18);
+      --rule-strong:rgba(26,23,20,0.45);
+
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body:    'Lora', Georgia, serif;
+      --mono:    'DM Mono', monospace;
+
+      --max: 680px;
+      --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    html { font-size: 18px; scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--body);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding: 1.25rem var(--gutter) 1rem;
+    }
+    header .inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    .site-name {
+      font-family: var(--display);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .site-name:hover { color: var(--red); }
+
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    .kicker {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: clamp(2rem, 5vw, 3.5rem) 0 1.5rem;
+    }
+    .kicker-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      color: rgba(26,23,20,0.35);
+    }
+
+    h1 {
+      font-family: var(--display);
+      font-size: clamp(2.6rem, 8vw, 4.8rem);
+      font-weight: 700;
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+
+    .dek {
+      font-family: var(--display);
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.5;
+      color: rgba(26,23,20,0.75);
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 2rem;
+    }
+
+    .body-text p {
+      margin-bottom: 1.3rem;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+
+    .body-text h2 {
+      font-family: var(--display);
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 3rem 0 1rem;
+    }
+
+    /* ── Contrast table ── */
+    .contrast {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--rule-strong);
+      border: 1px solid var(--rule-strong);
+      margin: 2.5rem 0;
+    }
+    .contrast-col { background: var(--paper); padding: 1.5rem; }
+    .contrast-col:last-child { background: rgba(160,41,28,0.04); }
+    .contrast-label {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.4);
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .contrast-col:last-child .contrast-label { color: var(--red); }
+    .contrast-col ul { list-style: none; padding: 0; }
+    .contrast-col ul li {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      color: rgba(26,23,20,0.82);
+    }
+    .contrast-col ul li:last-child { border-bottom: none; }
+    @media (max-width: 480px) { .contrast { grid-template-columns: 1fr; } }
+
+    /* ── Pull quote ── */
+    .pull {
+      border-top: 2px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
+      padding: 1.75rem 0;
+      margin: 3rem 0;
+      text-align: center;
+    }
+    .pull p {
+      font-family: var(--display);
+      font-size: clamp(1.3rem, 3.5vw, 1.9rem);
+      font-style: italic;
+      line-height: 1.3;
+    }
+    .pull p strong { font-style: normal; font-weight: 700; }
+
+    /* ── Callout ── */
+    .callout {
+      background: var(--paper-mid);
+      border-left: 3px solid var(--paper-dark);
+      padding: 1.5rem 1.75rem;
+      margin: 2.5rem 0;
+    }
+    .callout-label {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.45);
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    .callout p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 0.75rem;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* ── Series end banner ── */
+    .series-end {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 2.5rem var(--gutter);
+      margin: 4rem calc(-1 * var(--gutter)) 0;
+      text-align: center;
+    }
+
+    .series-end h3 {
+      font-family: var(--display);
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .series-end p {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: rgba(242,236,224,0.7);
+      max-width: 460px;
+      margin: 0 auto 1.75rem;
+    }
+
+    .series-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+
+    .series-link {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(242,236,224,0.6);
+      text-decoration: none;
+      padding: 0.6rem 1.1rem;
+      border: 1px solid rgba(242,236,224,0.2);
+      transition: all 0.2s ease;
+    }
+    .series-link:hover {
+      color: var(--paper);
+      border-color: rgba(242,236,224,0.6);
+    }
+
+    /* ── Footer ── */
+    .article-footer {
+      border-top: 1px solid var(--rule);
+      margin-top: 4rem;
+      padding: 2rem 0 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .back-link {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+
+    .series-note {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.4);
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+    </div>
+  </header>
+
+  <main class="article-wrap">
+
+    <div class="kicker">
+      <span class="kicker-label">Piece 07 — What To Do About It</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#007</span>
+    </div>
+
+    <h1>Mutual Aid Isn't Charity</h1>
+
+    <p class="dek">
+      Charity asks you to give. Mutual aid asks you to belong.
+      That difference turns out to matter enormously —
+      for how communities survive, and for how they build power.
+    </p>
+
+    <div class="body-text">
+
+      <p>When a hurricane hits, two things happen. Emergency management agencies mobilize — FEMA, state resources, the National Guard. And neighbors start helping neighbors. People with boats go looking for people who need rescue. Strangers cook food and hand it out in parking lots. Someone with a generator runs an extension cord to the elderly woman next door.</p>
+
+      <p>The official response gets the coverage. The informal one keeps more people alive.</p>
+
+      <p>This isn't unique to disasters. It happens quietly, all the time, in every community that functions at all. People share childcare because formal childcare is unaffordable. They lend tools because buying everything is wasteful. They sit with sick neighbors because hospitals discharge people too soon. They translate for each other because the systems that should help are only available in English.</p>
+
+      <p>None of it shows up in GDP. Most of it doesn't show up anywhere. But take it away and communities collapse within days.</p>
+
+      <h2>The difference that matters</h2>
+
+      <p>Charity and mutual aid can look similar from the outside. Both involve people helping people who need something. But the structure is completely different.</p>
+
+      <div class="contrast">
+        <div class="contrast-col">
+          <span class="contrast-label">Charity</span>
+          <ul>
+            <li>Flows one way: from giver to receiver</li>
+            <li>Giver decides what help looks like</li>
+            <li>Receiver is a beneficiary</li>
+            <li>Relationship ends when the need is met</li>
+            <li>Depends on continued generosity from above</li>
+            <li>Addresses symptoms; leaves the system intact</li>
+          </ul>
+        </div>
+        <div class="contrast-col">
+          <span class="contrast-label">Mutual aid</span>
+          <ul>
+            <li>Flows in all directions: everyone gives, everyone receives</li>
+            <li>The community decides what help looks like</li>
+            <li>Everyone is a member</li>
+            <li>Relationship is the point; it outlasts any single need</li>
+            <li>Self-sustaining because everyone has a stake</li>
+            <li>Builds alternative infrastructure; creates new options</li>
+          </ul>
+        </div>
+      </div>
+
+      <p>That last row is the one that matters most for power. Charity is a transaction. Mutual aid is infrastructure.</p>
+
+      <p>A food pantry that distributes donated food is doing something real. But it requires an ongoing supply of donations, and it positions recipients as people who receive rather than people who act. A community food cooperative where members pool money to buy wholesale, share cooking, and distribute to each other builds something different — organizational capacity, shared decision-making, relationships that persist, and a material resource that the community controls rather than depends on others to provide.</p>
+
+      <p>Same need. Different structure. Very different politics.</p>
+
+      <div class="pull">
+        <p>Charity manages poverty.<br/>Mutual aid <strong>builds the conditions</strong><br/>to end it.</p>
+      </div>
+
+      <h2>Why it keeps coming back</h2>
+
+      <p>Mutual aid is not a new idea. It predates the welfare state by centuries. Immigrant communities built it the moment they arrived in new countries — rotating credit associations, burial societies, fraternal organizations that provided sick pay and death benefits long before any employer or government did. The Black church was mutual aid infrastructure. Indigenous communities ran on it. The labor movement ran on it. The early LGBTQ community built it from scratch during the AIDS crisis when the government refused to act.</p>
+
+      <p>It keeps getting built because it meets a need that neither markets nor governments have ever fully met: the need for communities to take care of themselves on their own terms, with their own knowledge, through their own relationships.</p>
+
+      <p>Markets provide services to people who can pay for them. Governments provide services to people who qualify for them. Mutual aid provides support to people who are part of the community — which is a completely different criterion, and a much harder one to fail.</p>
+
+      <p>That's also why it's repeatedly been targeted for suppression. The Black Panther Party's free breakfast program fed tens of thousands of children every day before the government called it a threat and worked to destroy it. The FBI's own documents show they understood that feeding children was building community loyalty that competed with state authority. The mutual aid was working. That's exactly why it had to go.</p>
+
+      <div class="callout">
+        <span class="callout-label">A live example</span>
+        <p>During COVID, mutual aid networks formed in cities across the world in a matter of days — matching people who needed groceries or medication with neighbors who could get them. In many places, these networks moved faster and reached further than official emergency systems.</p>
+        <p>Three years later, a significant number of them were still running. Not because there was still a pandemic, but because the relationships and the structures that formed had become genuinely useful for ongoing community needs. The crisis revealed the capacity. The capacity outlasted the crisis.</p>
+        <p>That's the pattern. Mutual aid starts somewhere specific and builds from there.</p>
+      </div>
+
+      <h2>What this has to do with everything else in this series</h2>
+
+      <p>We started with the observation that the system runs itself — that replacing bad actors doesn't change outcomes if the template stays the same. We said the machine runs on things it can't produce itself: your attention, your relationships, your care for the people around you. We drew a distinction between systems that capture and systems that build.</p>
+
+      <p>Mutual aid is the building in practice.</p>
+
+      <p>When a community routes care, knowledge, labor, and resources through horizontal relationships — through each other — instead of through markets or state intermediaries, several things happen at once. The community builds organizational capacity that lives outside official institutions. It develops shared knowledge about what actually works for its members. It creates relationships strong enough to act on. It demonstrates, concretely, that people can solve their own problems without waiting for permission or resources from above.</p>
+
+      <p>That last part matters for power in a specific way. A community with functioning mutual aid infrastructure is harder to control through scarcity. If your food, your childcare, your sick care, your emergency resources run through relationships you control — the levers that usually produce compliance become less effective. You have less reason to accept bad terms. You have more capacity to refuse.</p>
+
+      <p>This isn't theory. It's why every authoritarian project, in every era, has targeted mutual aid networks. Not because they're violent or threatening in any conventional sense — but because they represent a community that is less dependent on the systems that demand deference.</p>
+
+      <h2>Where to start</h2>
+
+      <p>The most common failure mode in thinking about mutual aid is to treat it as a project — something you launch, fund, and run. Some mutual aid does take that form, and some of it works well. But most of what has actually lasted started with something simpler: people who already knew each other deciding to be more intentional about what they were already doing informally.</p>
+
+      <p>Start with what's already there. Who in your immediate community is already helping people? Who already has skills or resources that get shared informally? What already happens in a crisis that could be made more reliable? You're probably not building from scratch. You're probably making visible and more organized something that already exists.</p>
+
+      <p>Start small and local enough to be real. A mutual aid network of two thousand strangers is hard to build and easy to lose. A group of twelve people on three blocks who know each other's names, skills, and needs is simple to start and surprisingly durable. The network comes later, when the local nodes connect.</p>
+
+      <p>Make the reciprocity explicit. The difference between mutual aid and volunteering is that mutual aid isn't something you do for others — it's something you do with others. Everyone contributes something. Everyone receives something. The relationships are horizontal, not hierarchical. If people are showing up to give but not to ask for anything in return, gently rebalance that. The asking is as important as the giving. It's what makes it mutual.</p>
+
+      <p>And then — keep meeting. This is the part that sounds obvious and turns out to be the whole thing. The mutual aid network that met during a crisis and stopped meeting afterward left no infrastructure behind. The one that kept meeting monthly, even when there was no emergency, built something that compounded. Relationships deepened. New people joined. Skills got shared. When the next crisis hit, they moved in hours instead of days.</p>
+
+      <p><strong>The meeting is the infrastructure.</strong> The care is the politics. The community is the point.</p>
+
+    </div>
+
+    <!-- Series end -->
+    <div class="series-end">
+      <h3>That's the whole series.</h3>
+      <p>Seven pieces. One argument: the system runs on what we produce together. The question is whether that production gets captured — or builds something we control.</p>
+      <div class="series-links">
+        <a href="why-your-city-doesnt-work.html" class="series-link">01 — Why Your City Doesn't Work</a>
+        <a href="your-city-knows-less.html" class="series-link">02 — Your City Knows Less</a>
+        <a href="who-gets-paid.html" class="series-link">03 — Who Gets Paid</a>
+        <a href="two-ways-to-fix-a-pothole.html" class="series-link">04 — Two Ways to Fix a Pothole</a>
+        <a href="open-data-isnt-enough.html" class="series-link">05 — Open Data Isn't Enough</a>
+        <a href="how-linux-became-the-internet.html" class="series-link">06 — How Linux Became the Internet</a>
+        <a href="mutual-aid-isnt-charity.html" class="series-link">07 — Mutual Aid Isn't Charity</a>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+
+  </main>
+
+</body>
+</html>
