@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Your City Doesn't Work — Power Explained</title>
+  <meta name="description" content="Cities seem to fail despite good intentions. That's not a coincidence. It's structural — and understanding why is the first step to doing anything real about it." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:        #1a1714;
+      --paper:      #f2ece0;
+      --paper-mid:  #e8dfc8;
+      --paper-dark: #ddd3b8;
+      --red:        #a0291c;
+      --rule:       rgba(26,23,20,0.18);
+      --rule-strong:rgba(26,23,20,0.45);
+
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body:    'Lora', Georgia, serif;
+      --mono:    'DM Mono', monospace;
+
+      --max: 680px;
+      --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    html { font-size: 18px; scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--body);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Masthead ── */
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding: 1.25rem var(--gutter) 1rem;
+    }
+    header .inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .site-name {
+      font-family: var(--display);
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .site-name:hover { color: var(--red); }
+
+    /* ── Article layout ── */
+    .article-wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+
+    /* ── Kicker ── */
+    .kicker {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: clamp(2rem, 5vw, 3.5rem) 0 1.5rem;
+    }
+    .kicker-label {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+    .kicker-rule {
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+    .kicker-num {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      color: rgba(26,23,20,0.35);
+    }
+
+    /* ── Headline ── */
+    h1 {
+      font-family: var(--display);
+      font-size: clamp(2.6rem, 8vw, 4.8rem);
+      font-weight: 700;
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+
+    .dek {
+      font-family: var(--display);
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.5;
+      color: rgba(26,23,20,0.75);
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 2rem;
+    }
+
+    /* ── Body ── */
+    .body-text p {
+      margin-bottom: 1.3rem;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .body-text strong { font-weight: 700; color: var(--ink); }
+
+    .body-text h2 {
+      font-family: var(--display);
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 3rem 0 1rem;
+    }
+
+    /* ── Pull quote ── */
+    .pull {
+      border-top: 2px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
+      padding: 1.75rem 0;
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .pull p {
+      font-family: var(--display);
+      font-size: clamp(1.3rem, 3.5vw, 1.9rem);
+      font-style: italic;
+      line-height: 1.3;
+    }
+
+    .pull p strong {
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    /* ── Callout box ── */
+    .callout {
+      background: var(--paper-mid);
+      border-left: 3px solid var(--paper-dark);
+      padding: 1.5rem 1.75rem;
+      margin: 2.5rem 0;
+    }
+
+    .callout-label {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.45);
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    .callout p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 0.75rem;
+      color: rgba(26,23,20,0.85);
+    }
+
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* ── Three-column failure modes ── */
+    .failure-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule-strong);
+      margin: 2.5rem 0;
+      border: 1px solid var(--rule-strong);
+    }
+
+    .failure-item {
+      background: var(--paper);
+      padding: 1.5rem 1.25rem;
+    }
+
+    .failure-word {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .failure-desc {
+      font-family: var(--body);
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: rgba(26,23,20,0.75);
+    }
+
+    @media (max-width: 480px) {
+      .failure-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── Footer ── */
+    .article-footer {
+      border-top: 1px solid var(--rule);
+      margin-top: 4rem;
+      padding: 2rem 0 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .back-link {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+
+    .next-link {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .next-link::after { content: '→'; }
+    .next-link:hover { text-decoration: underline; }
+
+    .series-note {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.4);
+    }
+
+    /* ── Entrance ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+    </div>
+  </header>
+
+  <main class="article-wrap">
+
+    <div class="kicker">
+      <span class="kicker-label">Piece 01 — The System Runs Itself</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#001</span>
+    </div>
+
+    <h1>Why Your City Doesn't Work<br/>(and Why It's Not an Accident)</h1>
+
+    <p class="dek">
+      Your city keeps doing things you don't want. Your elected officials seem reasonable.
+      Nothing changes. Here's why — and why replacing the people in charge won't fix it.
+    </p>
+
+    <div class="body-text">
+
+      <p>You went to the meeting. Maybe you even spoke. The council members nodded. A staff person wrote something down. The decision went ahead anyway, exactly as planned before you walked in the door.</p>
+
+      <p>Or maybe you didn't bother with the meeting, because you already knew how it would go. You've seen this before. The rent keeps going up. The park got sold. The bus route got cut. The new development went through. And the people who made those decisions will tell you, with a straight face, that they care deeply about the community.</p>
+
+      <p>Some of them are lying. But a lot of them aren't.</p>
+
+      <p>That's the part that's hard to sit with. The problem isn't just that the wrong people are in charge. It's that <strong>the system produces these outcomes regardless of who's in charge.</strong> Understanding that is the first step to doing anything real about it.</p>
+
+      <h2>The template is the problem</h2>
+
+      <p>Every city — and every large organization — runs on a template for how decisions get made. The template looks roughly like this: a small group at the top sets priorities. Managers in the middle figure out how to carry them out. Workers at the bottom do the actual work. Information flows up. Orders flow down.</p>
+
+      <p>This is called a command structure, and it's not unique to cities. It's how the military works. It's how most corporations work. It's how most governments work. We've used it for so long that it can feel like the only way to run something complicated.</p>
+
+      <p>But the command structure has a specific set of failure modes. They're not random. They show up, predictably, every time you use this template at scale.</p>
+
+      <div class="failure-grid">
+        <div class="failure-item">
+          <span class="failure-word">Complex</span>
+          <span class="failure-desc">Decisions pile up at the top. Nobody can process everything. So shortcuts get taken, details get lost, and nobody has the full picture.</span>
+        </div>
+        <div class="failure-item">
+          <span class="failure-word">Opaque</span>
+          <span class="failure-desc">The people making decisions don't have time to explain them. The people affected don't have access to the reasoning. Everything gets harder to see.</span>
+        </div>
+        <div class="failure-item">
+          <span class="failure-word">Disjointed</span>
+          <span class="failure-desc">Departments develop their own priorities, fight over the same budget, and stop talking to each other. The left hand doesn't know what the right hand is doing.</span>
+        </div>
+      </div>
+
+      <p>Sound familiar? That's because you've seen all three. In your city. In your workplace. In most large institutions you've ever dealt with.</p>
+
+      <p>These aren't failures of the people running the system. They're <strong>outputs of the system itself.</strong> You can replace every elected official and every department head, and within a few years you'll have the same three problems with new faces attached.</p>
+
+      <div class="pull">
+        <p>The template produces the outcomes.<br/><strong>The players just run the template.</strong></p>
+      </div>
+
+      <h2>Why good people produce bad results</h2>
+
+      <p>Let's take the most charitable possible view of your city council. Say they genuinely want to do right by everyone. They ran for office because they care. They work long hours. They read the reports.</p>
+
+      <p>Here's what they're up against.</p>
+
+      <p>A city of any real size is producing more information every day than any small group of people can process. Which streets need repair and why. Which neighborhoods are losing businesses and which are gaining them. Which schools are struggling and what the teachers in those buildings actually think is going wrong. Which residents are being squeezed out and where they're going. The full picture of a city is immense, constantly changing, and mostly invisible from any single vantage point.</p>
+
+      <p>Your council members don't live on every block. They don't ride every bus route. They don't know what it's like to need childcare in your zip code, or to navigate the permitting office, or to wait three years for a housing voucher. They get summaries. They get reports. They get the version of reality that fits in a presentation.</p>
+
+      <p>Meanwhile, the people who <em>do</em> have that ground-level knowledge — the residents, the workers, the people directly affected — have almost no way to get it into the decision-making process. You can go to a meeting and make a three-minute comment. You can vote every few years. That's mostly it.</p>
+
+      <p>So the people with the power don't have the information. And the people with the information don't have the power. This isn't a design flaw. <strong>It's the design.</strong></p>
+
+      <h2>Who benefits from confusion</h2>
+
+      <p>Here's the part that moves this from "unfortunate" to "not an accident."</p>
+
+      <p>Complexity, opacity, and disjointed-ness aren't just inconvenient for residents. They're also very useful for anyone who wants to influence city decisions without public scrutiny.</p>
+
+      <p>When a process is complicated enough, most people give up trying to follow it. When it's opaque enough, deals can be made without anyone noticing. When departments are disjointed enough, a well-connected developer or contractor can work each one separately — playing them off each other, building relationships, knowing where the real decisions happen — while ordinary residents are stuck trying to figure out which meeting to attend.</p>
+
+      <p>The people with money and connections navigate the complexity just fine. The template that makes things hard for you makes things easy for them.</p>
+
+      <p>That's not a conspiracy. It doesn't require anyone to have designed it that way on purpose. It just requires a system with these properties to exist — and for the people who benefit from it to have more resources to maintain it than the people who don't.</p>
+
+      <div class="callout">
+        <span class="callout-label">The test</span>
+        <p>When something in your city feels natural, inevitable, or too complicated to change — ask one question: who benefits from you believing that?</p>
+        <p>Not to assume bad faith everywhere. But because "this is just how it works" is often doing a lot of work on behalf of someone.</p>
+      </div>
+
+      <h2>So what do you do with this</h2>
+
+      <p>The point of understanding the template isn't to feel hopeless. It's to stop directing your energy at the wrong targets.</p>
+
+      <p>Voting out a bad mayor matters. Holding officials accountable matters. But if the template stays the same, the new mayor will face the same pressures, the same information gaps, the same structural incentives — and produce a lot of the same outcomes. You'll be back in the same meeting in four years, wondering what happened.</p>
+
+      <p>The deeper work is changing the template. That means building different ways for local knowledge to reach decisions. It means creating processes where the people closest to a problem have real power to address it — not just the power to complain about it. It means designing systems that get smarter over time instead of more opaque.</p>
+
+      <p>None of that is quick. None of it runs on outrage. It requires the kind of patient, unglamorous work that doesn't get covered on the news.</p>
+
+      <p>But it's the work that actually changes things. And it's already happening — in cities where residents have real budget control over their neighborhoods, in places where open data means anyone can see what the city is actually doing, in communities that have stopped waiting for permission to fix their own problems.</p>
+
+      <p>The template isn't permanent. It just has a head start.</p>
+
+    </div>
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <a href="two-ways-to-fix-a-pothole.html" class="next-link">Next: Two Ways to Fix a Pothole</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+
+  </main>
+
+</body>
+</html>
