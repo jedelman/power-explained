@@ -3,7 +3,7 @@
 ## In Progress
 - [x] Piece 01 — "Why your city doesn't work (and why it's not an accident)"
 - [x] Piece 02 — "Your city knows less about your street than you do"
-- [ ] Piece 03 — "Who gets paid when you show up?"
+- [x] Piece 03 — "Who gets paid when you show up?"
 
 ## Done
 - [x] Landing page (index.html)
@@ -23,5 +23,6 @@
 - [ ] Wire up nav between all published pieces
 - [ ] GitHub Pages config (enable in repo settings)
 
-### Ongoing
+### Revisions
+- [ ] Punch-up pass on all pieces once series is complete
 - [ ] Keep index.html current with every new published piece
