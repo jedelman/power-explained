@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build It Now — Power Explained</title>
+  <meta name="description" content="Not a blueprint. Not a vanguard. Not after the revolution. The alternative to authoritarian socialism is being built right now, in the present tense, by people who already gave up on waiting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,1.9rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Against Authoritarianism — Series III</span>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Part IV — The Practice</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">IV</span>
+    </div>
+    <h1>Build It Now</h1>
+    <p class="dek">Not a blueprint. Not a vanguard. Not after the revolution. The alternative to authoritarian socialism is being built right now, in the present tense, by people who already gave up on waiting.</p>
+    <div class="body-text">
+
+      <p>So you've accepted that capitalism is bad and has to go. You've accepted that building a Leninist vanguard party reliably reproduces domination. You've accepted that the tradition with better answers mostly got crushed. Now what?</p>
+
+      <p>This is the point where a lot of political analysis either goes abstract ("we need a revolutionary rupture with the existing order") or defeatist ("nothing works, everything is captured, we're doomed"). Both responses are wrong, and both are ways of avoiding the actual question: what do you do on Monday?</p>
+
+      <h2>The prefigurative claim</h2>
+
+      <p>Prefigurative politics is the idea that you build the world you want to live in by living in it — now, in the present, in the interstices of the current system. You don't wait for the revolution to start building institutions of collective self-governance. You build them in the present, with the people you have, in the conditions you're actually in.</p>
+
+      <p>This is not a consolation prize for people who gave up on real politics. It's a specific claim about how change at scale actually happens, based on the historical record of what actually works.</p>
+
+      <p>The argument runs like this. The existing system is not held in place only by force — if it were, it would be much more fragile. It's held in place by the absence of functioning alternatives. People stay in bad arrangements because there's nowhere else to go. The landlord can extract because there's no collective housing. The employer can dictate because there's no alternative income. The state can coerce because there's no alternative security. Every institution that builds a genuine alternative — that actually routes care, resources, or security through something other than the market or the state — makes the existing system slightly less necessary and therefore slightly less stable.</p>
+
+      <p>This doesn't mean prefigurative work is the whole answer. It's not. It needs to connect to other forms of power — labor organizing, electoral fights where they're winnable, legal challenges, direct action. But it is the load-bearing foundation that most political strategy either ignores or treats as an afterthought. And it's the piece that the authoritarian socialist tradition got most wrong, by treating every existing form of community self-organization as subordinate to the party's revolutionary project.</p>
+
+      <div class="pull">
+        The revolution isn't the moment<br/>you seize the state.<br/>It's the <strong>capacity</strong> you build before that.
+      </div>
+
+      <h2>What this actually looks like</h2>
+
+      <p>Mutual aid networks that provide material support — food, housing, medical care, childcare — outside of market and state channels. Not charity: infrastructure. The distinction matters because charity makes recipients dependent on donors, while mutual aid builds the organizational capacity of the community itself. When you build a mutual aid network, you're building the logistical and relational capacity to coordinate people and resources. That capacity is durable and multipurpose.</p>
+
+      <p>Tenant unions and housing cooperatives. The landlord's power derives entirely from the fact that you need housing and there's no alternative to paying him for it. Tenant organizing makes eviction costly and collective action feasible. Housing cooperatives route housing outside the rental market entirely. Both reduce dependence on an extraction mechanism. Both build organizational capacity. Both make the existing arrangement less necessary.</p>
+
+      <p>Worker cooperatives and solidarity economy networks. Same logic: route economic activity through collectively owned institutions rather than capitalist firms. This is not a fantasy — there are large successful worker cooperatives operating in almost every sector of the economy. Mondragon in Spain is the famous example, but there are thousands of others. The goal is not to individually opt out of capitalism but to build sectors of the economy that operate on different principles and that create real alternatives for people who need them.</p>
+
+      <p>Transformative justice and community accountability. The criminal legal system is a capture mechanism that manages poverty and social abandonment while claiming to manage crime. Every community accountability process that addresses harm without calling the police is an institution that routes justice through horizontal relationships rather than through state coercion. Over time, these build the organizational infrastructure — the capacity to address conflict collectively, to hold people accountable without caging them, to repair relationships rather than severing them — that makes the carceral system less necessary.</p>
+
+      <h2>The honest accounting</h2>
+
+      <p>The prefigurative tradition has also failed, just differently. Worker cooperatives get bought out or go under. Mutual aid networks burn out their organizers and collapse. Housing cooperatives get gentrified out of existence. Community organizations get absorbed by nonprofits that route them back into the existing system. The Spanish anarchists got crushed. The Zapatistas are still holding on in Chiapas but haven't scaled. There's no version of this story where the good guys are winning decisively.</p>
+
+      <p>But "failing differently" is important. Authoritarian socialism failed by becoming what it was supposed to replace — by building institutions of domination in the name of liberation, by killing the people making the most honest critiques, by producing decades of misery and then collapsing while bequeathing a generation of demoralized ex-believers to the right. The prefigurative tradition fails by not scaling, by burning out, by getting crushed. That's a different kind of failure. The failures don't corrupt the institutions from within, because the institutions are built to be accountable to their members.</p>
+
+      <p>And the failures are instructive rather than terminal. You can learn from a mutual aid network that burned out in ways you can't learn from a Stalinist party that imprisoned its critics.</p>
+
+      <div class="callout">
+        <span class="callout-label">The Zapatistas</span>
+        <p>On January 1, 1994 — the day NAFTA took effect — the Zapatista Army of National Liberation seized several towns in Chiapas, Mexico, and issued a declaration of war against the Mexican state. Then they did something unusual: they stopped trying to seize state power and started building autonomous governance in the territories they controlled.</p>
+        <p>For thirty years, the Zapatista communities have been running their own schools, health clinics, justice systems, and economic institutions — without state resources, against sustained military pressure, in extreme poverty. It's not a model that scales straightforwardly. But it's a demonstration that complex self-governance is possible under conditions far more difficult than most political organizing faces.</p>
+        <p>The Zapatistas are also explicit about the prefigurative claim: they are not trying to seize the Mexican state. They are building, in the territory they hold, the kind of society they want to live in. "Preguntando caminamos" — asking, we walk. The path is made by walking.</p>
+      </div>
+
+      <h2>The connection to everything before this</h2>
+
+      <p>We started with Luxemburg: the system runs on an outside it cannot produce itself. The commons — shared knowledge, mutual care, collective self-governance — is what capital feeds on. When it runs out, the system cannibalizes itself.</p>
+
+      <p>We went through the feminist theorists who showed that the commons has always been gendered and raced — that the outside capital requires is maintained by specific bodies, specific labor, specific people who have been systematically excluded from the count.</p>
+
+      <p>We showed that authoritarian socialism, for all its genuine breaks with capitalism, reproduced the fundamental structure: separation of workers from control over their own conditions, concentrated in a party hierarchy that substituted itself for the class it claimed to represent.</p>
+
+      <p>And we showed a tradition — suppressed, defeated, imperfect — that understood the alternative: build the commons. Build it now. Build it in the present tense, with the people you have, in the conditions you're actually in. Not as a path to seizing state power, but as the construction of an alternative substrate — communities that can take care of themselves, coordinate themselves, and hold themselves accountable through horizontal relationships rather than through markets or states.</p>
+
+      <p>This is not a blueprint. There is no blueprint. There is practice, accumulated over time, through experiments that fail instructively and occasionally succeed durably. There is the patient work of building relationships strong enough to act on, institutions accountable enough to be corrected, and capacity durable enough to survive the inevitable attempts to capture or destroy it.</p>
+
+      <p>The system depends on the commons. The commons can be rebuilt. That is where every genuine alternative begins — not after the revolution, but now, in the work that's already underway.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="the-tradition-they-buried.html" class="nav-link nav-prev">← III — The Tradition They Buried</a>
+      <span></span>
+    </div>
+    <div class="series-end">
+      <h3>Against Authoritarianism — the full series</h3>
+      <p>Four pieces on why authoritarian socialism failed, what it buried, and what to build instead.</p>
+      <div class="series-links">
+        <a href="they-were-right-about-the-problem.html" class="series-link">I — They Were Right About the Problem</a>
+        <a href="the-party-ate-the-revolution.html" class="series-link">II — The Party Ate the Revolution</a>
+        <a href="the-tradition-they-buried.html" class="series-link">III — The Tradition They Buried</a>
+        <a href="build-it-now.html" class="series-link">IV — Build It Now</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Power Explained — Advanced Track</span>
+    </div>
+  </main>
+</body>
+</html>
