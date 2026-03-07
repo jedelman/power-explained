@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Which Women — Power Explained</title>
+  <meta name="description" content="Angela Davis showed what happens when feminist analysis uses 'women' as if it describes everyone equally. It doesn't. And the movement that didn't ask that question made choices it can't take back." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem, 2.5vw, 1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.6rem,8vw,4.8rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">The Hidden Engine — Series II</span>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Piece 11 — Which Women</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#011</span>
+    </div>
+    <h1>Which Women</h1>
+    <p class="dek">Angela Davis showed what happens when feminist analysis uses 'women' as if it describes everyone equally. It doesn't. And the movement that didn't ask that question made choices it can't take back.</p>
+    <div class="body-text">
+
+      <p>Angela Davis begins <em>Women, Race & Class</em> with a scene from the early American women's suffrage movement. White suffragists have been working alongside abolitionists — fighting both for the end of slavery and for women's right to vote. Then the Fifteenth Amendment passes, giving Black men the vote. And something breaks.</p>
+
+      <p>Leading white suffragists — women who had spoken at antislavery conventions, who had claimed solidarity with enslaved people — publicly oppose the amendment. They argue that it is obscene for Black men to vote while white women cannot. Some make explicitly racist arguments. The movement splits, and a significant strand of it chooses white womanhood over Black freedom.</p>
+
+      <p>Davis's point is not just that these women were racist, though they were. Her point is structural. The choice they made reveals that "women" — as a political category, as a basis for organizing — had a hidden default. When the interests of white women and Black women diverged, the movement chose white women. The universal turned out to be particular all along.</p>
+
+      <h2>Who the system actually targeted</h2>
+
+      <p>To understand what's wrong with de Beauvoir's framework — and with single-axis feminist analysis generally — Davis goes back to slavery. She asks: what was the experience of Black women under this system, and how does it differ from the experience that defines the feminist critique?</p>
+
+      <p>De Beauvoir's analysis is built on the assignment of immanence — women are relegated to the domestic sphere, to care work, to the body and nature, while men claim transcendence. This is a real arrangement. But it describes the experience of women who were admitted to the domestic sphere.</p>
+
+      <p>Black women under American slavery were not admitted to the domestic sphere. They were not protected by the ideology of feminine fragility and domesticity. They worked in the fields alongside men. They were subject to physical violence without the legal protections that, however inadequate, constrained the treatment of white women. Their bodies were not treated as private and domestic — they were treated as productive and reproductive assets to be managed by the enslaver.</p>
+
+      <p>Enslaved women were expected to reproduce — to produce more enslaved people, whose labor and whose sale generated profit. This is reproductive labor, but it is the opposite of the domestic ideal de Beauvoir analyzed. It is not invisible, unpaid work organized around the needs of a family. It is a form of forced reproduction organized around the needs of capital accumulation.</p>
+
+      <div class="pull">
+        The domestic "protection"<br/>that feminism fought against<br/>was <strong>never offered to everyone.</strong>
+      </div>
+
+      <h2>Why single-axis analysis fails</h2>
+
+      <p>When you try to understand oppression using only one category — gender, or race, or class — you get a partial picture that systematically distorts what you're looking at.</p>
+
+      <p>Analyze only gender: you end up with an account of "women's experience" that is actually the experience of relatively privileged women. The specific conditions facing Black women, Indigenous women, poor women, colonized women — conditions shaped by the intersection of multiple systems of domination — are either absent or treated as special cases.</p>
+
+      <p>Analyze only race: you end up with an account of "Black experience" in which the specific conditions facing Black women — who face both racist and sexist systems simultaneously — are marginalized in favor of experiences centered on Black men.</p>
+
+      <p>Analyze only class: you get an account of exploitation that treats race and gender as distractions from the "real" issue, when in fact they are the specific forms that exploitation takes for the majority of people it targets.</p>
+
+      <p>These aren't just theoretical errors. They produce real political consequences. Movements organized around a single axis exclude people at the intersections. Policies designed to address a single axis fail the people most severely harmed by multiple overlapping systems. The analysis shapes the organizing, and the organizing either reaches the people most in need or it doesn't.</p>
+
+      <div class="callout">
+        <span class="callout-label">The capture of liberation movements</span>
+        <p>Davis's historical analysis reveals a pattern: liberation movements are most vulnerable to capture when they haven't examined the hierarchies operating within them. The suffrage movement was partially captured by racism — white women used the language of liberation to reinforce racial hierarchy. Labor movements were repeatedly captured by excluding workers of color. The pattern is reliable.</p>
+        <p>A movement built on an unmarked universal always has a remainder — people who don't fit the default. That remainder is exploitable. It becomes the basis for dividing the movement against itself.</p>
+      </div>
+
+      <h2>Toward abolition</h2>
+
+      <p>Davis's later work, <em>Are Prisons Obsolete?</em>, extends this analysis into the present. Prisons in the United States were built on the infrastructure of slavery — this is literal, not metaphorical. The Thirteenth Amendment, which abolished slavery, included an exception for those convicted of crimes. The convict leasing system that replaced formal slavery routed Black people through the criminal legal system and into forced labor for private companies.</p>
+
+      <p>This history shapes the present. The communities most targeted by mass incarceration are the same communities that were most targeted by slavery and its successors. The argument that prisons keep society safe from criminals collapses under scrutiny — crime is produced by poverty and social abandonment, and prisons reproduce and deepen those conditions rather than addressing them.</p>
+
+      <p>The abolitionist argument isn't that there's nothing wrong with individual criminals. It's that prisons are a structural response to a problem they don't actually solve, producing immense harm while failing at their stated purpose. The question is what alternative infrastructure — what systems of care, accountability, mental health support, economic security — would address the conditions that produce harm without warehousing the people most harmed by those conditions.</p>
+
+      <p>That question is the one the final article in this series is built around. Davis names it. The work of answering it belongs to the next generation of organizers — and to the people doing that work right now.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="the-other-and-the-outside.html" class="nav-link nav-prev">← 10 — The Other and the Outside</a>
+      <a href="falling-through-the-gap.html" class="nav-link nav-next">12 — Falling Through the Gap →</a>
+    </div>
+    <div class="series-end">
+      <h3>The full series.</h3>
+      <p>Fourteen pieces. One argument: power runs on what people produce together — and that production has always been gendered, raced, and hidden.</p>
+      <div class="series-links">
+        <a href="why-your-city-doesnt-work.html" class="series-link">01 — Why Your City Doesn't Work</a>
+        <a href="your-city-knows-less.html" class="series-link">02 — Your City Knows Less</a>
+        <a href="who-gets-paid.html" class="series-link">03 — Who Gets Paid</a>
+        <a href="two-ways-to-fix-a-pothole.html" class="series-link">04 — Two Ways to Fix a Pothole</a>
+        <a href="open-data-isnt-enough.html" class="series-link">05 — Open Data Isn't Enough</a>
+        <a href="how-linux-became-the-internet.html" class="series-link">06 — How Linux Became the Internet</a>
+        <a href="mutual-aid-isnt-charity.html" class="series-link">07 — Mutual Aid Isn't Charity</a>
+        <a href="the-outside-capital-needs.html" class="series-link">08 — The Outside Capital Needs</a>
+        <a href="who-pays-for-the-next-shift.html" class="series-link">09 — Who Pays for the Next Shift</a>
+        <a href="the-other-and-the-outside.html" class="series-link">10 — The Other and the Outside</a>
+        <a href="which-women.html" class="series-link">11 — Which Women</a>
+        <a href="falling-through-the-gap.html" class="series-link">12 — Falling Through the Gap</a>
+        <a href="what-they-burned.html" class="series-link">13 — What They Burned</a>
+        <a href="what-we-do-on-monday.html" class="series-link">14 — What We Do on Monday</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+  </main>
+</body>
+</html>

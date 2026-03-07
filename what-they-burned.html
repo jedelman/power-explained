@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What They Burned — Power Explained</title>
+  <meta name="description" content="Silvia Federici reread the witch hunts as an economic project: the systematic destruction of women's reproductive knowledge and the communal commons that sustained village life. It wasn't hysteria. It was enclosure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem, 2.5vw, 1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.6rem,8vw,4.8rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">The Hidden Engine — Series II</span>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Piece 13 — What They Burned</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#013</span>
+    </div>
+    <h1>What They Burned</h1>
+    <p class="dek">Silvia Federici reread the witch hunts as an economic project: the systematic destruction of women's reproductive knowledge and the communal commons that sustained village life. It wasn't hysteria. It was enclosure.</p>
+    <div class="body-text">
+
+      <p>Between roughly 1400 and 1700, somewhere between 50,000 and 200,000 people were executed in Europe on charges of witchcraft. The overwhelming majority were women.</p>
+
+      <p>The standard explanation is superstition — a pre-scientific world in which fear and religious hysteria produced mass violence against innocent people. Tragic, but essentially irrational. Not really connected to anything we'd recognize as politics or economics.</p>
+
+      <p>Silvia Federici's argument in <em>Caliban and the Witch</em> is that this explanation is wrong. The witch hunts were not irrational. They were not simply religious hysteria. They were part of a coordinated project — carried out by state authorities, church institutions, and the emerging capitalist class — to destroy a specific set of social arrangements and replace them with arrangements that served accumulation.</p>
+
+      <p>Understanding what was destroyed is the key to understanding what capitalism is built on.</p>
+
+      <h2>What the commons actually looked like</h2>
+
+      <p>In the feudal villages of late medieval Europe, subsistence communities held resources in common. Common fields where animals grazed. Common forests where people gathered wood and food. Common water. These weren't romantic idylls — they were functional arrangements for managing shared resources in ways that ensured everyone had enough to survive.</p>
+
+      <p>But the commons extended beyond land. It extended to knowledge. Women were the primary keepers of reproductive knowledge in these communities. Midwives managed birth. Healers managed illness, using accumulated knowledge of plants, remedies, and body processes developed over generations. Women managed contraception and abortion. They were the primary coordinators of communal life — the people who knew who was sick, who needed food, where the resources were, how to move things through the community when they were needed.</p>
+
+      <p>This was the reproductive commons: a distributed system of knowledge and mutual aid, held collectively, managed primarily by women, that sustained the community's ability to reproduce itself across generations.</p>
+
+      <div class="pull">
+        The commons wasn't just land.<br/>It was <strong>knowledge, care, and the body</strong>.
+      </div>
+
+      <h2>Why it had to be destroyed</h2>
+
+      <p>Capital, in its early stages, needed several things. It needed labor — people who had no other option than to sell their time for wages. It needed to control the reproduction of that labor — to ensure that the next generation of workers was produced reliably, in the right numbers, under conditions that served accumulation rather than community self-sufficiency. And it needed to destroy the alternatives — the arrangements that allowed people to subsist without entering the wage market.</p>
+
+      <p>The enclosure of common land addressed part of this. When common fields were fenced off and made private, the peasants who had depended on them had nowhere else to go. They became available as wage labor. Their subsistence was now mediated by the market rather than by the commons.</p>
+
+      <p>But enclosing land wasn't enough. The reproductive commons also had to be enclosed. As long as communities controlled their own reproductive knowledge — as long as women could manage birth, health, and survival using collectively held practices — communities retained a degree of autonomy that threatened the control of both the state and emerging capital.</p>
+
+      <p>The witch hunts were the mechanism of this second enclosure.</p>
+
+      <p>The women most targeted were those who held and transmitted reproductive knowledge — midwives, healers, practitioners of herbal medicine, women who provided contraception and abortion. They were also frequently women who led community resistance to enclosure, who organized defense of common land, who refused the new arrangements being imposed on their communities.</p>
+
+      <p>The campaign against them was not just execution. It was the systematic delegitimization of their knowledge. After the witch hunts, reproductive medicine was reorganized — taken from women's informal networks and placed under the authority of male physicians, licensed by the state. The knowledge wasn't destroyed; it was captured, formalized, and placed under new management. The commons became a profession.</p>
+
+      <div class="callout">
+        <span class="callout-label">An important caution</span>
+        <p>Federici's historical argument about the scale and coordination of the witch hunts is contested by some historians. The evidence for a systematically organized campaign — as opposed to regionally dispersed events with multiple causes — is not universally accepted. Her core structural argument — that the period involved a deliberate attack on women's reproductive autonomy and communal knowledge as part of primitive accumulation — is more broadly supported. Readers should know both the argument and the debate.</p>
+      </div>
+
+      <h2>Primitive accumulation is gendered</h2>
+
+      <p>Marx described primitive accumulation as the historical process by which the conditions for capitalism were created — primarily the enclosure of common land and the creation of a class of people with nothing to sell but their labor. Federici's intervention is to show that this account is incomplete in a specific way: it doesn't describe the simultaneous enclosure of women's bodies and reproductive autonomy that occurred in the same period, through the same processes, for the same structural reasons.</p>
+
+      <p>This is not a supplement to Marx's analysis. It's a correction. The transition to capitalism required not just the enclosure of land but the enclosure of reproduction — the reorganization of birth, death, illness, and care under new forms of control that served accumulation. That reorganization required destroying the commons of women's knowledge, because that commons was the basis for community autonomy.</p>
+
+      <p>What Luxemburg described as the "outside" that capital requires was never just geographic. It was intimate. It lived in the bodies and knowledge of women in every European village. And the creation of capitalism required its destruction.</p>
+
+      <h2>What it looks like to rebuild</h2>
+
+      <p>Federici's later work, <em>Re-enchanting the World</em>, asks what it looks like to rebuild the reproductive commons today. She looks at feminist organizing projects — collective childcare, community gardens, mutual aid networks, experiments in cooperative living — and argues that these are not peripheral to political struggle. They are political struggle, at its most fundamental level: rebuilding the substrate of collective life that capital depends on and cannot replace.</p>
+
+      <p>This is not nostalgia for an idealized past. It is a claim about where genuine alternatives to capture begin. Not in policy reform. Not in electoral victory. In the patient work of rebuilding the capacity of communities to take care of themselves — through relationships, through shared knowledge, through the collective management of the things that sustain life.</p>
+
+      <p>The commons was destroyed. It can be rebuilt. That's what the last article in this series is about.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="falling-through-the-gap.html" class="nav-link nav-prev">← 12 — Falling Through the Gap</a>
+      <a href="what-we-do-on-monday.html" class="nav-link nav-next">14 — What We Do on Monday →</a>
+    </div>
+    <div class="series-end">
+      <h3>The full series.</h3>
+      <p>Fourteen pieces. One argument: power runs on what people produce together — and that production has always been gendered, raced, and hidden.</p>
+      <div class="series-links">
+        <a href="why-your-city-doesnt-work.html" class="series-link">01 — Why Your City Doesn't Work</a>
+        <a href="your-city-knows-less.html" class="series-link">02 — Your City Knows Less</a>
+        <a href="who-gets-paid.html" class="series-link">03 — Who Gets Paid</a>
+        <a href="two-ways-to-fix-a-pothole.html" class="series-link">04 — Two Ways to Fix a Pothole</a>
+        <a href="open-data-isnt-enough.html" class="series-link">05 — Open Data Isn't Enough</a>
+        <a href="how-linux-became-the-internet.html" class="series-link">06 — How Linux Became the Internet</a>
+        <a href="mutual-aid-isnt-charity.html" class="series-link">07 — Mutual Aid Isn't Charity</a>
+        <a href="the-outside-capital-needs.html" class="series-link">08 — The Outside Capital Needs</a>
+        <a href="who-pays-for-the-next-shift.html" class="series-link">09 — Who Pays for the Next Shift</a>
+        <a href="the-other-and-the-outside.html" class="series-link">10 — The Other and the Outside</a>
+        <a href="which-women.html" class="series-link">11 — Which Women</a>
+        <a href="falling-through-the-gap.html" class="series-link">12 — Falling Through the Gap</a>
+        <a href="what-they-burned.html" class="series-link">13 — What They Burned</a>
+        <a href="what-we-do-on-monday.html" class="series-link">14 — What We Do on Monday</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+  </main>
+</body>
+</html>

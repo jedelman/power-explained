@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Falling Through the Gap — Power Explained</title>
+  <meta name="description" content="Kimberlé Crenshaw named a structural problem: institutions built to process categories one at a time are blind to people whose oppression is produced by the combination. They fall through the gap." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem, 2.5vw, 1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.6rem,8vw,4.8rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">The Hidden Engine — Series II</span>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Piece 12 — Falling Through the Gap</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#012</span>
+    </div>
+    <h1>Falling Through the Gap</h1>
+    <p class="dek">Kimberlé Crenshaw named a structural problem: institutions built to process categories one at a time are blind to people whose oppression is produced by the combination. They fall through the gap.</p>
+    <div class="body-text">
+
+      <p>In the late 1980s, a group of Black women who worked at a General Motors plant in Cincinnati filed a discrimination lawsuit. Their argument: GM had discriminated against them on the basis of race and sex.</p>
+
+      <p>The court rejected the claim. Here's why.</p>
+
+      <p>GM could demonstrate that it hired Black people. The evidence: the mostly Black men working on the assembly floor. GM could also demonstrate that it hired women. The evidence: the mostly white women working in clerical positions. Therefore, the court reasoned, GM did not discriminate on the basis of race or sex.</p>
+
+      <p>The women who filed the suit occupied a position the legal framework could not see. They were Black and women — and it was the combination, not either factor alone, that produced their exclusion. There was no legal category for what had happened to them. They fell through the gap.</p>
+
+      <p>Kimberlé Crenshaw named this gap intersectionality.</p>
+
+      <h2>What the word actually means</h2>
+
+      <p>Intersectionality has become a buzzword in ways that have obscured what it originally meant. It wasn't a theory of identity. It wasn't a claim about how many kinds of oppression someone experiences. It was a specific legal and structural argument: institutions built to process categories one at a time are systematically blind to people whose oppression is produced by the combination of categories.</p>
+
+      <p>The GM case is the archetype. The legal system could analyze race discrimination. It could analyze sex discrimination. It could not analyze the specific way those systems combined to produce an outcome that neither alone would predict. The two-dimensional analysis had a blind spot at the intersection, and the people in that blind spot had no legal recourse.</p>
+
+      <p>This is not a coincidence. It follows from how the categories were constructed in the first place. Anti-discrimination law was developed primarily in response to the experiences of people who faced discrimination on a single axis — Black men fighting race discrimination, white women fighting sex discrimination. The legal categories reflect those experiences. People whose experiences are produced by both systems simultaneously were not centered in the design. They were its remainder.</p>
+
+      <div class="pull">
+        The gap isn't an oversight.<br/>It's <strong>built into the architecture</strong>.
+      </div>
+
+      <h2>Three dimensions of the problem</h2>
+
+      <p>In her 1991 paper, Crenshaw identified three distinct ways intersectionality shows up.</p>
+
+      <p><strong>Structural intersectionality</strong>: The actual material conditions of people at the intersection are different from the conditions of people on any single axis. A Black woman experiencing domestic violence faces a different set of barriers than a white woman — immigration status may be a factor, fear of police may prevent her from calling for help, shelters may be located in ways that are inaccessible to her. The structural conditions of her life are different in specific, concrete ways. Policy designed around the generic "domestic violence victim" will miss her.</p>
+
+      <p><strong>Political intersectionality</strong>: Mainstream feminist movements have historically organized around the experiences of white women. Mainstream antiracist movements have historically centered Black men. Black women are both members of these movements and not quite fully represented by either. When the interests of the two movements conflict — or when each movement has to choose what to prioritize — women of color find themselves in a position where both movements can claim them instrumentally without centering their specific needs.</p>
+
+      <p><strong>Representational intersectionality</strong>: Cultural images of Black women operate simultaneously through racist and sexist frames, reinforcing both sets of stereotypes at once. The way Black women are represented in media, in political discourse, and in cultural imagination is not simply "women's stereotypes + racial stereotypes." It's a specific set of images produced by the combination — images that have their own history, logic, and effects.</p>
+
+      <div class="callout">
+        <span class="callout-label">The unmarked default</span>
+        <p>Every category has an unmarked default — the person who is assumed when the category is invoked without further specification. "Workers" defaults to white men. "Women" defaults to white women. "Black people" defaults to Black men. These defaults aren't accidental; they reflect who was centered in the construction of each category and whose experience the category was built to describe.</p>
+        <p>The unmarked default is the hidden alibi. It makes the category appear universal when it is actually particular. And it determines who falls through the gap when the category fails to account for them.</p>
+      </div>
+
+      <h2>What intersectionality is not</h2>
+
+      <p>It's worth being precise about what Crenshaw's framework doesn't claim.</p>
+
+      <p>It doesn't say that everyone is oppressed in multiple ways, or that oppression is infinitely divisible, or that you can't analyze systems without accounting for every possible combination of factors. It says that when the conditions of people's lives are produced by the combination of multiple systems of domination, analysis that treats those systems as separate and independent will systematically misrepresent those conditions — and policy designed on that misrepresentation will fail the people who most need it to work.</p>
+
+      <p>It also doesn't provide a prescription. Intersectionality is a diagnostic tool. It tells you where the gaps are. It tells you who is falling through them. It doesn't tell you how to build institutions that don't have those gaps. That's the harder work — and it's where the next article in this series begins.</p>
+
+      <h2>The connection to the commons</h2>
+
+      <p>Capture, in this framework, operates at the level of category formation. When a system processes people through single-axis categories, the people at the intersections are structurally excluded from the system's protections — but not from the system's extractions. They still pay taxes. They still produce value. They still show up in the statistics that justify the system's existence. But the benefits of the system don't reach them in proportion to their contributions, because the categories through which benefits are distributed were built without them in mind.</p>
+
+      <p>This is not a metaphor. It's a description of how institutions work when they're designed around unmarked defaults. The GM workers contributed their labor. The legal system's protections didn't reach them. The contribution and the protection operated through different categories, and the categories didn't overlap where those workers lived.</p>
+
+      <p>Building systems without these gaps requires starting from the people at the intersection — from the people most harmed by the combination of systems — rather than from the unmarked defaults. That is both an ethical and a practical claim. Ethically: it's just. Practically: systems designed around the hardest cases are more likely to work for everyone than systems designed around the easy cases and extended awkwardly to everyone else.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="which-women.html" class="nav-link nav-prev">← 11 — Which Women</a>
+      <a href="what-they-burned.html" class="nav-link nav-next">13 — What They Burned →</a>
+    </div>
+    <div class="series-end">
+      <h3>The full series.</h3>
+      <p>Fourteen pieces. One argument: power runs on what people produce together — and that production has always been gendered, raced, and hidden.</p>
+      <div class="series-links">
+        <a href="why-your-city-doesnt-work.html" class="series-link">01 — Why Your City Doesn't Work</a>
+        <a href="your-city-knows-less.html" class="series-link">02 — Your City Knows Less</a>
+        <a href="who-gets-paid.html" class="series-link">03 — Who Gets Paid</a>
+        <a href="two-ways-to-fix-a-pothole.html" class="series-link">04 — Two Ways to Fix a Pothole</a>
+        <a href="open-data-isnt-enough.html" class="series-link">05 — Open Data Isn't Enough</a>
+        <a href="how-linux-became-the-internet.html" class="series-link">06 — How Linux Became the Internet</a>
+        <a href="mutual-aid-isnt-charity.html" class="series-link">07 — Mutual Aid Isn't Charity</a>
+        <a href="the-outside-capital-needs.html" class="series-link">08 — The Outside Capital Needs</a>
+        <a href="who-pays-for-the-next-shift.html" class="series-link">09 — Who Pays for the Next Shift</a>
+        <a href="the-other-and-the-outside.html" class="series-link">10 — The Other and the Outside</a>
+        <a href="which-women.html" class="series-link">11 — Which Women</a>
+        <a href="falling-through-the-gap.html" class="series-link">12 — Falling Through the Gap</a>
+        <a href="what-they-burned.html" class="series-link">13 — What They Burned</a>
+        <a href="what-we-do-on-monday.html" class="series-link">14 — What We Do on Monday</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What We Do on Monday — Power Explained</title>
+  <meta name="description" content="Mariame Kaba asks the question that makes political theory nervous: okay, but what do we actually do? Her answer is concrete, present-tense, and already underway." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem, 2.5vw, 1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.6rem,8vw,4.8rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; color: var(--ink); }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">The Hidden Engine — Series II</span>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Piece 14 — What We Do on Monday</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">#014</span>
+    </div>
+    <h1>What We Do on Monday</h1>
+    <p class="dek">Mariame Kaba asks the question that makes political theory nervous: okay, but what do we actually do? Her answer is concrete, present-tense, and already underway.</p>
+    <div class="body-text">
+
+      <p>Mariame Kaba starts with a fact: the United States has the highest incarceration rate in the world. More people per capita behind bars than any other country, including authoritarian states that the U.S. government regularly criticizes for human rights abuses.</p>
+
+      <p>The standard defense of this system is that it keeps people safe. Crime is addressed by removing the people who commit it from society, deterring others who might consider it, and — in principle — rehabilitating those who can be changed.</p>
+
+      <p>Kaba's question is: does it work? By its own stated criteria, does it work?</p>
+
+      <p>The evidence says no. The communities most intensively policed and incarcerated are not the safest. They're among the most dangerous. Mass incarceration has not produced the safety it promised. What it has produced is the warehousing of poverty, mental illness, addiction, and social abandonment — at enormous financial cost, with enormous harm to individuals, families, and communities — while leaving the conditions that produce harm entirely intact.</p>
+
+      <h2>The false binary</h2>
+
+      <p>When abolition is raised as a response to this evidence, the immediate objection is: but then what? Without prisons, what do you do about violence? What do you do about people who harm others?</p>
+
+      <p>Kaba calls this a false binary. The question "prisons or chaos" assumes that the only alternative to the current system is no system at all — that without cages, there's nothing. But this is not how communities actually work. Communities have always managed harm, conflict, and danger. They did it before prisons existed. They do it now, in the everyday acts of care and accountability that don't involve the state.</p>
+
+      <p>The abolitionist question isn't "how do we get rid of prisons" and then stop. It's: what would need to exist in their place? What infrastructure of mental health care, housing security, economic stability, and community accountability would address the conditions that produce harm? What processes — restorative justice, community accountability circles, transformative justice practices — could address harm that has occurred in ways that don't replicate the harm?</p>
+
+      <p>These aren't hypothetical. They exist. They work. They're not working at the scale that would allow us to close prisons tomorrow. But the question of how to build them to that scale is a practical question with practical answers — not a fantasy.</p>
+
+      <div class="pull">
+        The question isn't prisons or chaos.<br/>The question is: <strong>what do we build?</strong>
+      </div>
+
+      <h2>Centering the people most harmed</h2>
+
+      <p>Kaba's organizing principle — center the people most harmed — is both ethical and practical.</p>
+
+      <p>Ethical: the people most harmed by a system are the ones whose suffering is most directly at stake. Justice requires taking their experience as the starting point, not the edge case.</p>
+
+      <p>Practical: the people most harmed by a system understand its mechanics most precisely. They can't afford not to. They know where the gaps are, where the interventions fail, where the official story diverges from what actually happens. Centering them in the design of alternatives is not charity — it's the epistemically correct approach to building something that works.</p>
+
+      <p>This is a specific application of a broader principle this series has been building toward. Systems designed around the hardest cases — around the people most excluded, most harmed, most failed by existing arrangements — tend to work better for everyone than systems designed around the easy cases and extended awkwardly to everyone else. The people at the intersection that Crenshaw identified are not the exception to design around. They are the design constraint that produces better outcomes.</p>
+
+      <h2>Prefigurative politics</h2>
+
+      <p>"We do this 'til we free us" — the phrase Kaba uses for both her book and her organizing approach — is not a statement about a future revolutionary moment. It's a description of practice.</p>
+
+      <p>Prefigurative politics means: you build the world you want to live in by living in it, now, in the interstices of the current one. You don't wait for the revolution to start practicing mutual aid. You don't wait for the state to sanction community accountability processes. You build them in the present, with the people you have, in the conditions you're in.</p>
+
+      <p>This is what Luxemburg saw in the mass strike — distributed coordination that didn't wait for instructions from above. This is what Kollontai wanted from the soviets before the party captured them. This is what Federici describes when she looks at feminist commons experiments. The prefigurative move runs through the entire sequence: the alternative is not something you wait for. It is something you practice.</p>
+
+      <div class="callout">
+        <span class="callout-label">What this looks like concretely</span>
+        <p>Community accountability circles that address harm without involving police. Mutual aid networks that provide material support and build relationships simultaneously. Transformative justice processes that ask not just what rule was broken but what conditions produced the harm and how those conditions can change. Organizations that practice horizontal decision-making rather than reproducing hierarchies internally.</p>
+        <p>None of these are perfect. All of them are real. The work of scaling them — and connecting them to each other — is underway, in cities and towns across the country, largely invisible to mainstream political coverage.</p>
+      </div>
+
+      <h2>Closing the sequence</h2>
+
+      <p>We started with Luxemburg's observation that capital depends on a productive substrate it cannot produce itself — the commons. The entire series since has been tracing what that commons is made of.</p>
+
+      <p>Kollontai: it's reproductive labor, performed primarily by women, without which the economy stops functioning.</p>
+
+      <p>De Beauvoir: it's made invisible by an ideology that calls it natural, placing women in the domain of immanence so their labor seems like what they are rather than what they do.</p>
+
+      <p>Davis: it's raced — the construction of "women" that obscures women of color, whose reproductive labor was and is extracted under different and often more brutal conditions.</p>
+
+      <p>Crenshaw: the systems that capture this labor are multiply-determined, and liberation architectures built on single-axis categories reproduce the exclusions that allow partial co-optation.</p>
+
+      <p>Federici: the destruction of the commons was a specific historical project — carried out through witch hunts, enclosures, and the reorganization of reproductive knowledge under state and market control — that created the conditions capitalism required. It can be undone.</p>
+
+      <p>Kaba: undoing it is not a future project. It is a present practice. It is the work of building the infrastructure of care, accountability, and mutual support that makes communities less dependent on systems that harm them. It is the work of meeting in rooms, sharing resources, sitting with people in crisis, and building — slowly, together, "til we're free" — the world that should exist.</p>
+
+      <p>That is the commons. That is the work. The system can capture it, but it cannot replace it. And the fact that it cannot replace it is where every alternative begins.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="what-they-burned.html" class="nav-link nav-prev">← 13 — What They Burned</a>
+      
+    </div>
+    <div class="series-end">
+      <h3>The full series.</h3>
+      <p>Fourteen pieces. One argument: power runs on what people produce together — and that production has always been gendered, raced, and hidden.</p>
+      <div class="series-links">
+        <a href="why-your-city-doesnt-work.html" class="series-link">01 — Why Your City Doesn't Work</a>
+        <a href="your-city-knows-less.html" class="series-link">02 — Your City Knows Less</a>
+        <a href="who-gets-paid.html" class="series-link">03 — Who Gets Paid</a>
+        <a href="two-ways-to-fix-a-pothole.html" class="series-link">04 — Two Ways to Fix a Pothole</a>
+        <a href="open-data-isnt-enough.html" class="series-link">05 — Open Data Isn't Enough</a>
+        <a href="how-linux-became-the-internet.html" class="series-link">06 — How Linux Became the Internet</a>
+        <a href="mutual-aid-isnt-charity.html" class="series-link">07 — Mutual Aid Isn't Charity</a>
+        <a href="the-outside-capital-needs.html" class="series-link">08 — The Outside Capital Needs</a>
+        <a href="who-pays-for-the-next-shift.html" class="series-link">09 — Who Pays for the Next Shift</a>
+        <a href="the-other-and-the-outside.html" class="series-link">10 — The Other and the Outside</a>
+        <a href="which-women.html" class="series-link">11 — Which Women</a>
+        <a href="falling-through-the-gap.html" class="series-link">12 — Falling Through the Gap</a>
+        <a href="what-they-burned.html" class="series-link">13 — What They Burned</a>
+        <a href="what-we-do-on-monday.html" class="series-link">14 — What We Do on Monday</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Part of a series on how power works and what people can do about it.</span>
+    </div>
+  </main>
+</body>
+</html>
