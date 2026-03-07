@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glossary — Power Explained</title>
+  <meta name="description" content="Key terms used across all three series. Plain definitions, no jargon." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .page-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+
+    /* Hero */
+    .page-hero { padding: clamp(2.5rem,6vw,4rem) 0 2rem; border-bottom: 1px solid var(--rule-strong); }
+    .page-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .page-label::before { content: ''; display: block; width: 2rem; height: 1px; background: var(--red); flex-shrink: 0; }
+    h1 { font-family: var(--display); font-size: clamp(2.5rem,8vw,4rem); font-weight: 700; line-height: 1.0; margin-bottom: 1rem; }
+    .page-dek { font-family: var(--display); font-size: clamp(1.05rem,2.5vw,1.3rem); font-style: italic; color: rgba(26,23,20,0.7); line-height: 1.55; max-width: 500px; }
+
+    /* Jump nav */
+    .jump-nav { padding: 1.75rem 0; border-bottom: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .jump-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; padding: 0.4rem 0.75rem; border: 1px solid var(--rule-strong); transition: all 0.2s; }
+    .jump-link:hover { background: var(--ink); color: var(--paper); }
+
+    /* Terms */
+    .terms { padding: 2rem 0 4rem; }
+    .term-block { padding: 2.5rem 0; border-bottom: 1px solid var(--rule); }
+    .term-block:last-child { border-bottom: none; }
+    .term-anchor { display: block; position: relative; top: -5rem; visibility: hidden; }
+
+    .term-header { display: flex; align-items: baseline; gap: 1.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .term-name { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.6rem); font-weight: 700; line-height: 1.1; }
+    .term-series { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); white-space: nowrap; }
+
+    .term-def { font-size: 1rem; line-height: 1.8; margin-bottom: 1rem; }
+    .term-def + .term-def { margin-top: -0.25rem; }
+    .term-extended { font-size: 0.95rem; line-height: 1.8; color: rgba(26,23,20,0.75); border-left: 2px solid var(--rule); padding-left: 1.25rem; margin-top: 1rem; }
+
+    .appears-in { margin-top: 1.25rem; display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.4rem; }
+    .appears-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.45); flex-shrink: 0; }
+    .appears-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--red); text-decoration: none; }
+    .appears-link:hover { text-decoration: underline; }
+
+    /* Section heads */
+    .section-head { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(26,23,20,0.35); padding: 2rem 0 0.5rem; border-top: 2px solid var(--ink); margin-top: 1rem; }
+
+    /* Footer */
+    .page-footer { border-top: 1px solid var(--rule); padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .footer-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .page-hero { animation: fadeUp 0.6s ease both; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+
+    <div class="page-hero">
+      <div class="page-label">Reference</div>
+      <h1>Glossary</h1>
+      <p class="page-dek">Key terms used across all three series. Plain definitions. No jargon required to understand the jargon.</p>
+    </div>
+
+    <nav class="jump-nav">
+      <a href="#abolition" class="jump-link">Abolition</a>
+      <a href="#alibi" class="jump-link">Alibi</a>
+      <a href="#capture" class="jump-link">Capture</a>
+      <a href="#the-commons" class="jump-link">The Commons</a>
+      <a href="#council-communism" class="jump-link">Council Communism</a>
+      <a href="#double-shift" class="jump-link">Double Shift</a>
+      <a href="#enclosure" class="jump-link">Enclosure</a>
+      <a href="#immanence" class="jump-link">Immanence / Transcendence</a>
+      <a href="#intersectionality" class="jump-link">Intersectionality</a>
+      <a href="#mass-strike" class="jump-link">Mass Strike</a>
+      <a href="#mutual-aid" class="jump-link">Mutual Aid</a>
+      <a href="#the-outside" class="jump-link">The Outside</a>
+      <a href="#prefigurative" class="jump-link">Prefigurative Politics</a>
+      <a href="#primitive-accumulation" class="jump-link">Primitive Accumulation</a>
+      <a href="#reproductive-labor" class="jump-link">Reproductive Labor</a>
+      <a href="#routing" class="jump-link">Routing Architecture</a>
+      <a href="#soviet" class="jump-link">Soviet</a>
+      <a href="#state-capitalism" class="jump-link">State Capitalism</a>
+      <a href="#transformative-justice" class="jump-link">Transformative Justice</a>
+      <a href="#vanguard" class="jump-link">Vanguard Party</a>
+    </nav>
+
+    <div class="terms">
+
+      <span class="section-head">Series I — Power and the City</span>
+
+      <div class="term-block">
+        <span class="term-anchor" id="capture"></span>
+        <div class="term-header">
+          <span class="term-name">Capture</span>
+          <span class="term-series">Series I, II, III</span>
+        </div>
+        <p class="term-def">When a system takes something people built collectively — their knowledge, attention, labor, relationships, or institutions — and routes it through a mechanism that extracts value for someone else. The captured thing still works. It just works for different people now.</p>
+        <p class="term-extended">Capture operates at escalating levels of subtlety. The crude version is coercion: do this or face consequences. More sophisticated versions work through incentives, norms, and eventually through the structure of desire itself — when you want the thing that makes the system function, you've been captured without knowing it. The most durable capture doesn't look like capture at all.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="why-your-city-doesnt-work.html" class="appears-link">01</a>
+          <a href="who-gets-paid.html" class="appears-link">03</a>
+          <a href="the-outside-capital-needs.html" class="appears-link">08</a>
+          <a href="who-pays-for-the-next-shift.html" class="appears-link">09</a>
+          <a href="falling-through-the-gap.html" class="appears-link">12</a>
+          <a href="the-party-ate-the-revolution.html" class="appears-link">III·II</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="routing"></span>
+        <div class="term-header">
+          <span class="term-name">Routing Architecture</span>
+          <span class="term-series">Series I, II, III</span>
+        </div>
+        <p class="term-def">The underlying structure that determines where things flow — money, information, decisions, care, attention. As opposed to content, which is what gets said or shown. Two systems can produce identical content while routing things completely differently.</p>
+        <p class="term-extended">The distinction matters because content-level change is easily capturable. New faces, new messaging, new branding — all content. Routing-level change is structurally harder to co-opt, because it changes who controls the flow, not just what flows. A city council that publishes all its data but doesn't change how decisions get made has changed content. A neighborhood that routes its own emergency response through mutual relationships instead of 911 has changed routing.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="two-ways-to-fix-a-pothole.html" class="appears-link">04</a>
+          <a href="open-data-isnt-enough.html" class="appears-link">05</a>
+          <a href="who-pays-for-the-next-shift.html" class="appears-link">09</a>
+          <a href="the-party-ate-the-revolution.html" class="appears-link">III·II</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="alibi"></span>
+        <div class="term-header">
+          <span class="term-name">Alibi</span>
+          <span class="term-series">Series I, II</span>
+        </div>
+        <p class="term-def">What a system needs you to believe in order to seem legitimate. Not necessarily a lie — often a partial truth that does ideological work by making an arrangement seem natural, necessary, or just.</p>
+        <p class="term-extended">When an alibi is working, it's invisible. It doesn't feel like an argument — it feels like reality. The housing market produces homelessness, but the alibi ("people make choices") makes that feel like a personal failure rather than a structural outcome. The gendered division of labor extracts unpaid work from women, but the alibi ("women are naturally nurturing") makes that feel like a description of who they are rather than what power has organized. When an alibi becomes visible as an alibi, the system it justifies becomes temporarily unstable.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="who-gets-paid.html" class="appears-link">03</a>
+          <a href="the-other-and-the-outside.html" class="appears-link">10</a>
+          <a href="falling-through-the-gap.html" class="appears-link">12</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="mutual-aid"></span>
+        <div class="term-header">
+          <span class="term-name">Mutual Aid</span>
+          <span class="term-series">Series I, III</span>
+        </div>
+        <p class="term-def">A practice where people in a community support each other directly — not through an institution that manages the giving, but through horizontal relationships where everyone both gives and receives. The point isn't the transfer; it's the infrastructure the relationships build.</p>
+        <p class="term-extended">Mutual aid is distinct from charity, which flows in one direction and positions recipients as beneficiaries rather than members. It's also distinct from the welfare state, which routes support through bureaucratic institutions with eligibility criteria. Mutual aid routes through relationships — which means it builds organizational capacity, shared knowledge, and trust that outlasts any single exchange. This is why authoritarian governments have historically targeted it: a community that can take care of itself is harder to control through scarcity.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="mutual-aid-isnt-charity.html" class="appears-link">07</a>
+          <a href="what-we-do-on-monday.html" class="appears-link">14</a>
+          <a href="build-it-now.html" class="appears-link">III·IV</a>
+        </div>
+      </div>
+
+      <span class="section-head">Series II — The Hidden Engine</span>
+
+      <div class="term-block">
+        <span class="term-anchor" id="the-commons"></span>
+        <div class="term-header">
+          <span class="term-name">The Commons</span>
+          <span class="term-series">Series I, II, III</span>
+        </div>
+        <p class="term-def">Resources, knowledge, and capacity that a community builds and manages together — outside of private ownership and outside of state control. The shared language people use for free. The informal networks that move care around. The ecological systems that sustain life. The social trust that makes anything work at all.</p>
+        <p class="term-extended">The commons isn't just nice to have. It's the substrate every economic system runs on, including capitalism, which depends on the commons while claiming to have produced it. This is Rosa Luxemburg's core insight: capital requires an outside it cannot produce itself. That outside is the commons — and capital's relationship to it is always extractive. It can enclose the commons, privatize it, commodify it. It cannot create it from scratch. Once enclosed, the commons stops being what it was. The social trust becomes a brand. The shared knowledge becomes intellectual property. The ecological system becomes a liability.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="how-linux-became-the-internet.html" class="appears-link">06</a>
+          <a href="mutual-aid-isnt-charity.html" class="appears-link">07</a>
+          <a href="the-outside-capital-needs.html" class="appears-link">08</a>
+          <a href="who-pays-for-the-next-shift.html" class="appears-link">09</a>
+          <a href="what-they-burned.html" class="appears-link">13</a>
+          <a href="what-we-do-on-monday.html" class="appears-link">14</a>
+          <a href="build-it-now.html" class="appears-link">III·IV</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="the-outside"></span>
+        <div class="term-header">
+          <span class="term-name">The Outside</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">Rosa Luxemburg's term for what capitalism structurally requires but cannot produce: non-capitalist economies, subsistence communities, colonial territories — any space that hasn't yet been fully incorporated into the market. Capital expands by incorporating the outside; when the outside runs out, the system cannibalizes itself.</p>
+        <p class="term-extended">Luxemburg mapped the outside geographically — colonies, peasant economies. Later theorists, especially Silvia Federici, showed that the outside was also intimate and domestic: the unpaid reproductive labor performed primarily by women, inside households, which sustains the workforce at zero cost to capital. The outside isn't somewhere else. It's in every household where someone cooks dinner without getting paid for it.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-outside-capital-needs.html" class="appears-link">08</a>
+          <a href="what-they-burned.html" class="appears-link">13</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="primitive-accumulation"></span>
+        <div class="term-header">
+          <span class="term-name">Primitive Accumulation</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">Marx's term for how capitalism got started: not by people saving and investing wisely, but by forcibly separating people from the resources they'd shared — enclosing common land, destroying subsistence economies, creating a class of people with nothing to sell but their labor. "Primitive" here means "original" or "prior," not unsophisticated.</p>
+        <p class="term-extended">Silvia Federici's key contribution is showing that primitive accumulation didn't end — it's ongoing, and it was never only about land. The witch hunts of the 15th–17th centuries were a form of primitive accumulation targeting women's reproductive knowledge and autonomy: destroying the communal systems that gave communities independence from wage labor and state control. Every new wave of enclosure — of digital commons, of genetic material, of attention — is another round of primitive accumulation.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="what-they-burned.html" class="appears-link">13</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="reproductive-labor"></span>
+        <div class="term-header">
+          <span class="term-name">Reproductive Labor</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">The work that reproduces the workforce from day to day and generation to generation: cooking, childcare, elder care, emotional support, housework, nursing. Not "reproductive" in the biological sense only — in the sense of reproducing the conditions that make productive labor possible.</p>
+        <p class="term-extended">Reproductive labor is the hidden subsidy that makes the entire profit calculation work. If every act of care had to be purchased at market rates, most businesses would be unprofitable. The system doesn't just fail to pay for this labor — it depends on not paying for it. Alexandra Kollontai saw this clearly in 1909. The feminist economists who formalized it in the 1970s — including Federici's "Wages Against Housework" campaign — were building on her foundation. The labor is still mostly unpaid. The dependency is still structural.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="who-pays-for-the-next-shift.html" class="appears-link">09</a>
+          <a href="which-women.html" class="appears-link">11</a>
+          <a href="what-they-burned.html" class="appears-link">13</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="enclosure"></span>
+        <div class="term-header">
+          <span class="term-name">Enclosure</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">The process of taking something held in common and making it private or state property. Historically: fencing off common land in England, destroying peasant subsistence, forcing people into wage labor. Ongoing: privatizing water, patenting seeds, commodifying attention, enclosing digital commons.</p>
+        <p class="term-extended">Enclosure is not a historical event that ended. It's a structural tendency of capital — the ongoing conversion of commons into assets. Every commons that gets enclosed stops regenerating itself the way commons do. Social trust sold as a service is not social trust. Community knowledge patented is not community knowledge. The thing that made the commons valuable — its capacity to produce more than was put in, to regenerate, to self-organize — is precisely what enclosure destroys.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-outside-capital-needs.html" class="appears-link">08</a>
+          <a href="what-they-burned.html" class="appears-link">13</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="double-shift"></span>
+        <div class="term-header">
+          <span class="term-name">The Double Shift</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">The situation where someone — most often a woman — works a full day of paid employment and then comes home to perform another full shift of unpaid reproductive labor: cooking, childcare, housework, care for elderly relatives.</p>
+        <p class="term-extended">The double shift isn't just exhausting. It's structural. It means women's paid labor is subsidized by their unpaid labor — employers get full participation while the costs of that participation are externalized onto households, and specifically onto women within those households. Equal pay without addressing the double shift doesn't solve the problem; it just adds a second income stream to the same underlying arrangement.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="who-pays-for-the-next-shift.html" class="appears-link">09</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="immanence"></span>
+        <div class="term-header">
+          <span class="term-name">Immanence / Transcendence</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">Simone de Beauvoir's terms for the two positions assigned in patriarchal society. Immanence: being bound to repetition, the body, nature, maintenance — the work of keeping things the same. Transcendence: acting in history, making things, building the future. Men are culturally assigned transcendence; women, immanence.</p>
+        <p class="term-extended">De Beauvoir's point is that this assignment is not biological — it's imposed and enforced. And it does real work: it makes the gendered division of labor feel natural rather than organized. If women "are" immanent by nature, then of course they do the care work. The ideological claim ("this is what women are") justifies the economic arrangement ("this is what women do, for free") in a way that makes both seem inevitable. Naming the assignment as an assignment is the first move toward undoing it.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-other-and-the-outside.html" class="appears-link">10</a>
+          <a href="which-women.html" class="appears-link">11</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="intersectionality"></span>
+        <div class="term-header">
+          <span class="term-name">Intersectionality</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">Kimberlé Crenshaw's term for the way multiple systems of oppression — race, gender, class, and others — interact to produce conditions that can't be understood by looking at any one system alone. Not a description of how many kinds of oppression someone faces, but a structural argument about how institutions that process categories separately are blind to people whose situation is produced by the combination.</p>
+        <p class="term-extended">The concept came out of a legal case: Black women suing General Motors for discrimination couldn't win because the legal system handled race and gender as separate tracks, and GM could show it hired Black men and white women. The combination — Black women — had no legal category. Intersectionality names the gap. It has since been broadened far beyond its legal origins, sometimes usefully (as a framework for understanding overlapping systems of power) and sometimes in ways that lose the structural precision of the original argument.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="falling-through-the-gap.html" class="appears-link">12</a>
+          <a href="which-women.html" class="appears-link">11</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="abolition"></span>
+        <div class="term-header">
+          <span class="term-name">Abolition / Abolitionism</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">The position that prisons and policing don't solve the problems they claim to solve, and should be replaced — not reformed — with alternative infrastructure: mental health care, housing security, economic stability, and community accountability processes that actually address the conditions producing harm.</p>
+        <p class="term-extended">Abolition is often misread as "no consequences for harm." It's the opposite: it takes harm seriously enough to ask what actually addresses it, rather than accepting a carceral system whose track record shows it makes things worse. The abolitionist tradition connects to the commons argument: the alternative to prisons is not an absence of anything, it's a presence — the presence of genuine community capacity to care for people and hold them accountable through relationships rather than cages. Angela Davis named the question; Mariame Kaba operationalizes it.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="which-women.html" class="appears-link">11</a>
+          <a href="what-we-do-on-monday.html" class="appears-link">14</a>
+          <a href="build-it-now.html" class="appears-link">III·IV</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="transformative-justice"></span>
+        <div class="term-header">
+          <span class="term-name">Transformative Justice</span>
+          <span class="term-series">Series II</span>
+        </div>
+        <p class="term-def">An approach to harm that asks not just "what rule was broken and what punishment follows" but "what conditions produced this harm, and how do we change those conditions?" It tries to address harm, support people who were hurt, hold people accountable, and transform the underlying situation — rather than removing someone from the community.</p>
+        <p class="term-extended">Transformative justice is related to but distinct from restorative justice. Restorative justice focuses on repairing relationships between specific people — perpetrator, victim, community. Transformative justice goes further, asking what structural conditions (poverty, isolation, untreated trauma, racism) produced the harm and need to change. Both are alternatives to the punitive model that says the appropriate response to harm is pain and removal. Neither is appropriate for every situation; neither claims to be.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="what-we-do-on-monday.html" class="appears-link">14</a>
+          <a href="build-it-now.html" class="appears-link">III·IV</a>
+        </div>
+      </div>
+
+      <span class="section-head">Series III — Against Authoritarianism</span>
+
+      <div class="term-block">
+        <span class="term-anchor" id="vanguard"></span>
+        <div class="term-header">
+          <span class="term-name">Vanguard Party</span>
+          <span class="term-series">Series III</span>
+        </div>
+        <p class="term-def">Lenin's model of the revolutionary organization: a disciplined party of professional revolutionaries who have developed the correct political theory and lead the working class toward revolution. The party acts as the "vanguard" — the advanced section that sees further than the class it represents.</p>
+        <p class="term-extended">The critique of the vanguard model — made by Luxemburg in 1904, before the Russian Revolution happened — is that it's structurally incapable of being corrected by the people it claims to represent. If the party knows better than the workers, then worker criticism of the party is always potentially a sign of false consciousness, not a valid input. This architecture reliably produces organizations that suppress the distributed intelligence they depend on. Luxemburg's alternative: organizations that process distributed intelligence rather than replace it.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-party-ate-the-revolution.html" class="appears-link">III·II</a>
+          <a href="the-tradition-they-buried.html" class="appears-link">III·III</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="soviet"></span>
+        <div class="term-header">
+          <span class="term-name">Soviet</span>
+          <span class="term-series">Series III</span>
+        </div>
+        <p class="term-def">Russian for "council." In the context of the Russian Revolution: workers' councils that formed organically in factories and neighborhoods before and during 1917 — self-organized bodies where workers made collective decisions about their own conditions without being directed by any party.</p>
+        <p class="term-extended">The soviets were the genuinely revolutionary form of the Russian Revolution — distributed, self-organizing, processing local knowledge locally. The Bolshevik slogan "All Power to the Soviets" was appealing because it pointed to these existing structures as the model for socialist governance. After 1917, the Bolshevik party systematically absorbed and neutralized the soviets, routing decision-making through the party hierarchy. By the early 1920s, the soviets were functionally irrelevant. The word "Soviet" remained in the name of the state ("USSR") long after the actual councils had been hollowed out.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-party-ate-the-revolution.html" class="appears-link">III·II</a>
+          <a href="who-pays-for-the-next-shift.html" class="appears-link">09</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="state-capitalism"></span>
+        <div class="term-header">
+          <span class="term-name">State Capitalism</span>
+          <span class="term-series">Series III</span>
+        </div>
+        <p class="term-def">A system where the state owns and manages the means of production, but workers remain separated from control over their own labor — just as under private capitalism, only now the boss is the state rather than a private employer. The council communist critique of the Soviet Union: it replaced private capitalists with state managers, not with worker self-governance.</p>
+        <p class="term-extended">The term is used by both left critics of the Soviet model (like the council communists) and occasionally by defenders of capitalism (who use it to describe any heavy state intervention in the economy). The left usage is the precise one: state capitalism describes a situation where nationalization of property did not produce genuine worker control, because the state retained all decision-making authority. From the worker's perspective, showing up and doing what you're told for a state manager is structurally similar to showing up and doing what you're told for a private one.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-party-ate-the-revolution.html" class="appears-link">III·II</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="mass-strike"></span>
+        <div class="term-header">
+          <span class="term-name">The Mass Strike</span>
+          <span class="term-series">Series II, III</span>
+        </div>
+        <p class="term-def">Rosa Luxemburg's description, from her 1906 pamphlet, of spontaneous and distributed political action: strikes spreading from factory to factory without a central command directing them, workers reading each other and coordinating without instructions from a party hierarchy.</p>
+        <p class="term-extended">Luxemburg wasn't inventing a tactic — she was describing something she observed happening during the 1905 Russian revolution. Her point was that this distributed coordination was more effective than centralized command for the same reason distributed knowledge is often more accurate than expert knowledge: it processes local conditions locally, in real time. The mass strike is what the commons looks like when it acts politically. The party that tries to direct and channel it often kills it.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-outside-capital-needs.html" class="appears-link">08</a>
+          <a href="the-tradition-they-buried.html" class="appears-link">III·III</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="council-communism"></span>
+        <div class="term-header">
+          <span class="term-name">Council Communism</span>
+          <span class="term-series">Series III</span>
+        </div>
+        <p class="term-def">A tendency within socialist thought that argued workers' councils — not vanguard parties — are the genuine organizational form of working-class self-governance. The council communists developed Luxemburg's critique of Lenin into a full alternative theory: federated councils, organized at the point of production, coordinating horizontally without a commanding party above them.</p>
+        <p class="term-extended">Key figures include Anton Pannekoek (Dutch astronomer and socialist theorist), Herman Gorter (Dutch poet and political writer), and Otto Rühle (German socialist who broke with the Communist International). They were marginalized by the Comintern, which was controlled by Moscow and committed to the Bolshevik model. Lenin dismissed their position as an "infantile disorder." Their ideas were more thoroughly vindicated by the historical record than Lenin's were, which is why you've probably never heard of them.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-tradition-they-buried.html" class="appears-link">III·III</a>
+        </div>
+      </div>
+
+      <div class="term-block">
+        <span class="term-anchor" id="prefigurative"></span>
+        <div class="term-header">
+          <span class="term-name">Prefigurative Politics</span>
+          <span class="term-series">Series II, III</span>
+        </div>
+        <p class="term-def">The practice of building the world you want to live in now — in the present, in the interstices of the current system — rather than deferring all change to a future revolutionary moment. The organization is built to embody its values: horizontal rather than hierarchical, accountable to its members, practicing the kind of relationships it's trying to produce.</p>
+        <p class="term-extended">Prefigurative politics is sometimes dismissed as naive — as if playing nice in your community organization while capitalism continues is meaningless. The more serious version of the argument is that means produce ends: a movement organized through command will build institutions of command. A movement organized through horizontal accountability will build different institutions. This doesn't make the question of state power irrelevant. It makes the organizational form of the movement the first question, not an afterthought.</p>
+        <div class="appears-in">
+          <span class="appears-label">Appears in:</span>
+          <a href="the-outside-capital-needs.html" class="appears-link">08</a>
+          <a href="what-we-do-on-monday.html" class="appears-link">14</a>
+          <a href="build-it-now.html" class="appears-link">III·IV</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="page-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="footer-note">Power Explained — Public domain. Share freely.</span>
+    </div>
+
+  </main>
+
+</body>
+</html>
