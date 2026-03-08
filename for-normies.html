@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Everything Costs So Much — Power Explained</title>
+  <meta name="description" content="Housing is unaffordable. Healthcare is bankrupting people. Wages haven't kept up with productivity in fifty years. This isn't a string of bad luck. It's a pattern — and patterns have explanations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+
+    /* Hero — warm paper, clean, accessible */
+    .hero { background: var(--paper-dark); border-bottom: 2px solid var(--ink); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .entry-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(26,23,20,0.45); display: block; margin-bottom: 1.5rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.6rem,9vw,5rem); font-weight: 700; line-height: 0.95; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 1.5rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(26,23,20,0.72); max-width: 560px; }
+
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .body-text { padding-top: clamp(2rem,5vw,3rem); }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* Stat comparison */
+    .stat-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 2.5rem 0; }
+    .stat-side { background: var(--paper); padding: 1.75rem; }
+    .stat-side.then { background: var(--paper-mid); }
+    .stat-era { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.4); margin-bottom: 0.75rem; display: block; }
+    .stat-num { font-family: var(--display); font-size: clamp(2rem,6vw,3rem); font-weight: 700; color: var(--red); line-height: 1; margin-bottom: 0.35rem; }
+    .stat-label { font-size: 0.85rem; line-height: 1.55; color: rgba(26,23,20,0.7); }
+
+    /* What changed list */
+    .change-list { list-style: none; margin: 2rem 0; border: 1px solid var(--rule); }
+    .change-list li { padding: 1rem 1.5rem; border-bottom: 1px solid var(--rule); display: flex; gap: 1rem; align-items: baseline; font-size: 0.95rem; line-height: 1.65; }
+    .change-list li:last-child { border-bottom: none; }
+    .change-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; color: var(--red); white-space: nowrap; flex-shrink: 0; }
+
+    .action-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(242,236,224,0.5); display: block; margin-bottom: 1rem; }
+    .action-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
+    .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.82; margin-bottom: 0.8rem; }
+    .action-box p:last-child { margin-bottom: 0; }
+    .action-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
+    .action-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.65); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.25); transition: all 0.2s; }
+    .action-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.8); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(26,23,20,0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .hero      { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.3s; }
+
+    .xl  { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+
+    @media (max-width: 480px) {
+      .stat-compare { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Entry Points</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="entry-flag">Start here if you've ever wondered why everything got so hard</span>
+      <h1>Why Everything<br/>Costs So Much</h1>
+      <p class="hero-dek">Housing is unaffordable. Healthcare is bankrupting people. Wages haven't kept up with productivity in fifty years. This isn't a string of bad luck. Patterns have explanations.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <p>You're not imagining it. A full-time job used to be enough to rent an apartment, save a little, and not think about it constantly. Now a significant chunk of the country spends more than a third of their income on rent alone — and that's considered normal. Healthcare costs have tripled as a share of household spending since 1960. The average American worker is roughly twice as productive as in 1979, but median wages — adjusted for inflation — have barely budged.</p>
+
+      <p>These aren't separate problems with separate causes. They're the same thing happening in different sectors. Understanding what connects them is the first step toward doing something about it.</p>
+
+      <h2>What changed — and when</h2>
+
+      <p>There was a period, roughly from the 1940s through the 1970s, when wages and productivity actually tracked each other, when housing costs were manageable relative to income, and when a significant portion of public services were funded and run collectively. It wasn't paradise — <a href="racial-capitalism.html" class="xl">who got access to those goods was deeply unequal</a>. But the basic material floor was higher, and it was being built on purpose.</p>
+
+      <p>Then, starting around 1980, a series of deliberate policy choices began shifting how the economy worked. <a href="why-your-city-doesnt-work.html" class="xl">Things that had been shared got privatized.</a> Things that had been regulated got deregulated. Things that had been public goods got turned into markets. The results show up in the numbers:</p>
+
+      <div class="stat-compare">
+        <div class="stat-side then">
+          <span class="stat-era">1970s</span>
+          <div class="stat-num">~22%</div>
+          <div class="stat-label">Share of income a median household spent on housing</div>
+        </div>
+        <div class="stat-side">
+          <span class="stat-era">Now</span>
+          <div class="stat-num">~37%</div>
+          <div class="stat-label">Share of income a median renter spends on housing — over 50% in major cities</div>
+        </div>
+        <div class="stat-side then">
+          <span class="stat-era">1979</span>
+          <div class="stat-num">~$23/hr</div>
+          <div class="stat-label">Median US wage in 2023 dollars</div>
+        </div>
+        <div class="stat-side">
+          <span class="stat-era">2023</span>
+          <div class="stat-num">~$29/hr</div>
+          <div class="stat-label">Median US wage — while productivity roughly doubled. The gap is the extraction.</div>
+        </div>
+      </div>
+
+      <h2>It's not a bug</h2>
+
+      <p>The tempting explanation is that this happened because of mistakes — bad politicians, greedy executives, unfortunate circumstances. And yes, all of those contributed. But the pattern is too consistent and too global to be mainly about individual decisions. <a href="the-outside-capital-needs.html" class="xl">The economy extracts because it's structured to extract.</a></p>
+
+      <p>Here's the short version: when something people need — housing, healthcare, water, education — gets turned into a <em>market</em>, a few things reliably follow. Whoever owns the supply has enormous power over whoever needs it. Prices rise to whatever people can be pushed to pay, not whatever it costs to provide. The gap between cost and price — <a href="glossary.html#rent-seeking" class="xl">economists call this "rent"</a>, though it shows up in a lot more than apartments — flows upward to owners, not to the workers who produce the actual thing. And the people at the bottom, who have the least negotiating power, pay the highest prices relative to their income.</p>
+
+      <p>This is not a conspiracy. It doesn't require anyone to be unusually evil. It's just what markets in necessities produce when there's no countervailing structure — no public provision, no community ownership, no commons — to check the extraction.</p>
+
+      <div class="pull">
+        The question isn't who to blame.<br/>It's <strong>what structures</strong><br/>produce what outcomes —<br/>and what we can build instead.
+      </div>
+
+      <h2>What "the commons" actually means</h2>
+
+      <p>Before housing was a market, many communities governed land collectively. Before healthcare was an industry, care was organized through mutual aid networks, community hospitals, and public provision. Before water was a utility bill, most places had some form of shared governance over water. These weren't perfect systems. But they had a different internal logic: resources managed for the people who depend on them, rather than for the people who own them.</p>
+
+      <p>The <a href="glossary.html#commons" class="xl">commons</a> just means: things held and governed in common, rather than by private owners or by distant states. It's an old idea with a very modern set of applications — and it's being rebuilt right now, everywhere, in response to exactly the problem we're describing.</p>
+
+      <ul class="change-list">
+        <li>
+          <span class="change-num">Housing</span>
+          <span><a href="glossary.html#community-land-trust" class="xl">Community land trusts</a> remove land permanently from the speculative market, making housing permanently affordable without ongoing subsidy. There are over 250 in the US right now. <a href="build-it-now.html" class="xl">They work.</a></span>
+        </li>
+        <li>
+          <span class="change-num">Healthcare</span>
+          <span>Federally Qualified Health Centers — community-governed clinics that operate as nonprofits — serve 30 million Americans regardless of ability to pay. <a href="mutual-aid-isnt-charity.html" class="xl">Mutual aid health networks</a> fill the gaps where even those don't reach.</span>
+        </li>
+        <li>
+          <span class="change-num">Energy</span>
+          <span>Community energy cooperatives produce power at cost for their members rather than at profit for shareholders. Rural electric cooperatives — a New Deal-era commons — still power 56% of US land area today.</span>
+        </li>
+        <li>
+          <span class="change-num">Banking</span>
+          <span>Credit unions are member-owned financial cooperatives. They charge lower fees, pay higher savings rates, and make lending decisions based on community needs rather than shareholder returns. 130 million Americans belong to one.</span>
+        </li>
+        <li>
+          <span class="change-num">Food</span>
+          <span>Food co-ops, community gardens, seed libraries, and <a href="the-commons-they-never-stopped-building.html" class="xl">community-supported agriculture</a> all route food through relationships rather than supply chains — keeping more value local and more control with the people eating.</span>
+        </li>
+        <li>
+          <span class="change-num">Care</span>
+          <span><a href="who-pays-for-the-next-shift.html" class="xl">The care work that makes everything else possible</a> — childcare, eldercare, emotional labor — is increasingly being organized through worker cooperatives and community care networks that value it rather than extract it.</span>
+        </li>
+      </ul>
+
+      <h2>This isn't about left or right</h2>
+
+      <p>Credit unions aren't a radical idea — 130 million people use them. Rural electric cooperatives were championed by Franklin Roosevelt and beloved by conservative farming communities for decades. Community land trusts have been started by everyone from affordable housing advocates to libertarian-leaning intentional communities. <a href="two-ways-to-fix-a-pothole.html" class="xl">The question of who fixes the pothole</a> doesn't have an obvious partisan answer — it has a practical one: who actually knows where the potholes are and has a stake in getting them fixed?</p>
+
+      <p>What all of these have in common isn't an ideology. It's a structure: the people who depend on a resource have meaningful say in how it's governed. That's less abstract than it sounds. It's the difference between your landlord raising rent because the market allows it, and a land trust where your housing costs are governed by a board that includes you.</p>
+
+      <div class="callout">
+        <span class="callout-label">The Kerala test</span>
+        <p>India's state of Kerala has been governed by a communist-led coalition for most of the past four decades. It has near-universal healthcare and education, the highest life expectancy in India (75 years, vs. a national average of 70), and its Kottayam district became the <a href="case-study-india.html" class="xl">first in India to eradicate extreme poverty</a> in 2025 — on a GDP that ranks eleventh among Indian states.</p>
+        <p>That last part matters. Kerala isn't rich. It achieved those outcomes through deliberate collective governance of public goods, not through economic growth trickling down. The experiment is imperfect and contested — but the numbers are real.</p>
+        <p><a href="case-study-india.html" class="xl">Read the full India case study →</a></p>
+      </div>
+
+      <div class="callout">
+        <span class="callout-label">Your city already knows this</span>
+        <p>Libraries are a commons. Public parks are a commons. Public transit is a commons. <a href="your-city-knows-less.html" class="xl">The governance of your city</a> already includes things maintained for collective use rather than private profit — and everywhere those things are strong, the quality of life is measurably better. The question is why some of those commons have been defended and expanded while others have been sold off or starved of funding.</p>
+        <p>The answer, almost always, is organized political pressure from people with an interest in keeping them public — and organized political pressure from people with an interest in privatizing them. <a href="why-your-city-doesnt-work.html" class="xl">Power determines which interest wins.</a></p>
+      </div>
+
+      <div class="action-box">
+        <span class="action-label">Practical entry points</span>
+        <h3>Things you can actually do</h3>
+        <p>Move your money to a <strong>credit union</strong>. It's a direct, personal act of preferring cooperative ownership to shareholder extraction — and you get better rates. Search "credit union near me" and take twenty minutes to switch.</p>
+        <p>Find out if there's a <strong>community land trust</strong> in your area. If you're a renter, they may have permanently affordable units. If you're a homeowner, you can donate or sell your home into the trust when you're ready to move. If there isn't one, your city's housing advocates probably know how to start one.</p>
+        <p>Show up for the <strong>public goods fights</strong> in your community — library funding, transit referendums, public hospital governance, school board elections. These are the places where the commons gets defended or surrendered, and they're decided by whoever shows up. <a href="two-ways-to-fix-a-pothole.html" style="color:rgba(242,236,224,0.85);text-decoration:none;border-bottom:1px solid rgba(242,236,224,0.3);">Local governance is where the lever is.</a></p>
+        <div class="action-links">
+          <a href="why-your-city-doesnt-work.html" class="action-link">Why your city doesn't work</a>
+          <a href="two-ways-to-fix-a-pothole.html" class="action-link">Two ways to fix a pothole</a>
+          <a href="mutual-aid-isnt-charity.html" class="action-link">Mutual aid isn't charity</a>
+          <a href="build-it-now.html" class="action-link">Build it now</a>
+          <a href="hardin-was-wrong.html" class="action-link">The evidence for the commons</a>
+          <a href="case-study-india.html" class="action-link">The Kerala test</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="read-more">
+      <div class="read-more-inner">
+        <h3>Go deeper</h3>
+        <p>Where this entry point connects to the rest of the series.</p>
+        <div class="read-links">
+          <a href="why-your-city-doesnt-work.html" class="read-link-btn">Why your city doesn't work</a>
+          <a href="the-outside-capital-needs.html" class="read-link-btn">The outside capital needs</a>
+          <a href="who-gets-paid.html" class="read-link-btn">Who gets paid when you show up?</a>
+          <a href="who-pays-for-the-next-shift.html" class="read-link-btn">Who pays for the next shift</a>
+          <a href="hardin-was-wrong.html" class="read-link-btn">Hardin Was Wrong</a>
+          <a href="build-the-commune-without-the-state.html" class="read-link-btn">Build the commune without the state</a>
+          <a href="the-commons-they-never-stopped-building.html" class="read-link-btn">The commons they never stopped building</a>
+          <a href="case-studies.html" class="read-link-btn">All case studies</a>
+          <a href="index.html" class="read-link-btn">Start from the beginning</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+    </div>
+  </main>
+</body>
+</html>
