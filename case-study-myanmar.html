@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Myanmar: What Full-Spectrum Refusal Looks Like — Power Explained</title>
+  <meta name="description" content="When the military seized power in 2021, millions stopped working. Then they built parallel institutions. Then they took up arms. All three at once. This is the most radical ongoing experiment in non-collaboration anywhere on earth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+    .action-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .action-box h3 { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.8rem); font-weight: 700; margin-bottom: 1rem; }
+    .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.8; margin-bottom: 0.8rem; }
+    .action-box p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--paper-mid); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; border-top: 2px solid var(--ink); }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.9rem; line-height: 1.7; color: rgba(26,23,20,0.7); margin-bottom: 1.5rem; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--ink); border-color: var(--ink); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Case Studies — Power in Practice</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Case Study — Myanmar / Burma — 2021 to present</span>
+      <div class="kicker-rule"></div>
+    </div>
+    <h1>What Full-Spectrum Refusal Looks Like</h1>
+    <p class="dek">When the military seized power in February 2021, millions stopped working. Then they built parallel institutions. Then they took up arms. All three at once. This is the most radical ongoing experiment in non-collaboration anywhere on earth.</p>
+    <div class="body-text">
+
+      <p>On February 1, 2021, Myanmar's military — the Tatmadaw — launched a coup, arrested Aung San Suu Kyi and most of the elected government, and declared a year-long state of emergency. Within days, something remarkable happened: instead of waiting to see how events would unfold, workers across the country simply stopped. Doctors left hospitals. Teachers left schools. Railway workers stopped trains. Civil servants abandoned their offices. Банки closed not because of orders but because employees refused to process transactions for the junta.</p>
+
+      <p>The Civil Disobedience Movement (CDM) was not organized from above. It was not led by a party or a union. It spread through social networks, through hospitals where nurses made a collective decision, through government departments where workers voted informally to leave, through factories where line workers walked out. Within weeks, large sections of Myanmar's formal economy had effectively withdrawn their labor from any institution that served the military government.</p>
+
+      <p>This is what the theoretical literature calls non-collaboration — the withdrawal of the productive cooperation that any system of power requires to function. A state cannot administer what civil servants refuse to administer. A bank cannot clear transactions that tellers refuse to process. A military junta cannot govern a country whose bureaucracy simply doesn't show up.</p>
+
+      <h2>The parallel institutions</h2>
+
+      <p>The CDM workers needed to survive without their salaries, which the junta stopped paying. This created an immediate pressure to build alternatives. The National Unity Government (NUG) — a parallel government formed by elected legislators who escaped arrest — began raising funds internationally and distributing support to CDM participants. Neighborhood-level People's Administration Teams began coordinating services in areas where the government had effectively collapsed. Community mutual aid networks fed workers who had lost income. Crypto fundraising campaigns — unusual in the context but effective — moved money across borders that the junta couldn't control.</p>
+
+      <p>The parallel governance went further. In some areas, townships established their own administrative structures. The NUG built ministries — health, education, finance — that operated alongside and in direct competition with the junta's ministries. Doctors who had walked out of government hospitals began running free clinics funded through the parallel structures. Teachers ran underground schools. The alternative state wasn't a future aspiration — it was being assembled week by week, out of necessity, by people who had no blueprint.</p>
+
+      <div class="pull">
+        They didn't plan a revolution.<br/>They withdrew their cooperation —<br/><strong>and had to build everything the state had been doing.</strong>
+      </div>
+
+      <h2>The armed resistance</h2>
+
+      <p>Myanmar's situation is further complicated by the existence of long-established Ethnic Revolutionary Organizations (EROs) — armed groups representing Karen, Kachin, Shan, Chin, and other ethnic minorities who had been fighting the Tatmadaw for decades, in some cases since independence. After the coup, many of these groups aligned with the resistance and provided territory, training, and military capacity to the new People's Defense Force (PDF) — a militia formed by the NUG and by independent local groups.</p>
+
+      <p>The armed resistance has achieved significant territorial gains. By 2023 and into 2024, the military had lost control of substantial areas of the country, particularly in border regions. The Tatmadaw — long considered one of Southeast Asia's most powerful militaries — has struggled to hold territory against a distributed, locally-rooted armed opposition. Conscription was introduced in 2024, a measure of the military's manpower crisis, which provoked a new wave of young people fleeing the country or joining the resistance.</p>
+
+      <p>The armed dimension is real and it matters. Non-collaboration without any capacity for defense can be suppressed by sufficient violence. Myanmar's armed resistance is not separate from the civil disobedience and parallel institution-building — it's the military shield behind which the alternative structures operate. In areas controlled by the EROs or the PDF, the parallel governance functions more freely. The CDM workers in those areas have more protection. The relationship is symbiotic.</p>
+
+      <div class="callout">
+        <span class="callout-label">The costs</span>
+        <p>Nothing about Myanmar should be romanticized. As of 2025, the junta has killed thousands of civilians, imprisoned tens of thousands more, and conducted aerial bombardment of villages. Millions have been displaced. The CDM workers who left their jobs often left behind their savings, their homes, their families. Many have lived in hiding for years. Some have been killed.</p>
+        <p>The non-collaboration strategy carries enormous personal costs for the individuals who practice it. What makes Myanmar significant is not that it's easy or safe, but that people chose it anyway — that when given the choice between complicity with an illegitimate government and the risks of refusal, enormous numbers chose refusal, and then built something in the space that refusal opened.</p>
+      </div>
+
+      <h2>The framework angle: non-collaboration as theory</h2>
+
+      <p>The Myanmar case illuminates something that purely electoral or protest-based movements often miss: the power that any system of domination depends on is largely produced by the people being dominated. The military cannot run a modern state without civil servants. The junta cannot process taxes without accountants. The system requires the active participation of the people it controls, and that participation can be withdrawn.</p>
+
+      <p>Gene Sharp, the American theorist of nonviolent resistance, catalogued 198 methods of non-violent action. The CDM used dozens of them simultaneously. But Myanmar also shows that non-collaboration and armed resistance are not opposites — they can be, and in this case are, parts of a single integrated strategy. The CDM creates the ungovernable space; the PDF defends it; the parallel institutions fill it.</p>
+
+      <p>This is the fullest spectrum of resistance in the contemporary world. It also shows what's required to sustain it: enormous courage, robust alternative support networks, outside funding (diaspora and international solidarity were crucial), and the willingness of armed groups to work within a broader political framework rather than impose their own dominance. The last point is fragile — coordination between the NUG, the PDF, and the EROs has been imperfect and sometimes conflictual. But it has held, more or less, far longer than most observers predicted.</p>
+
+      <div class="action-box">
+        <span class="action-label">What this means where you are</span>
+        <h3>Refusal is a real strategy — but it requires the alternative</h3>
+        <p>Myanmar's lesson is not "go to war." It's: the withdrawal of cooperation is itself a form of power, and it works best when it's accompanied by the construction of alternatives that make the withdrawal sustainable.</p>
+        <p>In your context: what systems do you currently participate in that you could refuse? What would you need — mutual support, alternative income, legal protection, community infrastructure — to make refusal sustainable? The CDM workers didn't survive on ideology. They survived because the parallel networks fed them, housed them, and paid them enough to keep going.</p>
+        <p>Build the support network before you need to withdraw. Identify the dependencies. Figure out which ones can be replaced by commons-based alternatives and which require building new institutions. The refusal strategy without the alternative infrastructure is just sacrifice. With the infrastructure, it's power.</p>
+      </div>
+
+    </div>
+
+    <div class="article-nav">
+      <a href="case-study-chile.html" class="nav-link">← Chile</a>
+      <a href="case-study-india.html" class="nav-link">India →</a>
+    </div>
+
+    <div class="series-end">
+      <h3>More case studies</h3>
+      <p>Each case tests a different aspect of the framework against the actual record.</p>
+      <div class="series-links">
+        <a href="case-study-zapatistas.html" class="series-link">Zapatistas</a>
+        <a href="case-study-rojava.html" class="series-link">Rojava</a>
+        <a href="case-study-occupy.html" class="series-link">Occupy</a>
+        <a href="case-study-chile.html" class="series-link">Chile</a>
+        <a href="case-study-india.html" class="series-link">India</a>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="case-studies.html" class="back-link">Back to case studies</a>
+      <a href="index.html" class="back-link" style="margin-top:0.25rem;">Back to all pieces</a>
+      <span class="series-note">Power Explained — Case Studies</span>
+    </div>
+  </main>
+</body>
+</html>

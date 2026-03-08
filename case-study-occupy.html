@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Occupy: What It Built and What It Couldn't — Power Explained</title>
+  <meta name="description" content="Occupy changed the language of American politics and seeded a decade of organizing. It also collapsed in months. Both things matter. The question isn't whether it succeeded — it's what kind of success it was." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+    .action-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .action-box h3 { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.8rem); font-weight: 700; margin-bottom: 1rem; }
+    .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.8; margin-bottom: 0.8rem; }
+    .action-box p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--paper-mid); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; border-top: 2px solid var(--ink); }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.9rem; line-height: 1.7; color: rgba(26,23,20,0.7); margin-bottom: 1.5rem; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--ink); border-color: var(--ink); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Case Studies — Power in Practice</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Case Study — United States &amp; Worldwide — 2011</span>
+      <div class="kicker-rule"></div>
+    </div>
+    <h1>What It Built and What It Couldn't</h1>
+    <p class="dek">Occupy changed the language of American politics. It seeded a decade of organizing. It also collapsed in months. The question isn't whether it succeeded — it's what kind of success it was, and what the failure teaches.</p>
+    <div class="body-text">
+
+      <p>In September 2011, a few hundred people camped in Zuccotti Park near Wall Street in lower Manhattan. Within weeks, there were Occupy encampments in over 900 cities worldwide. The movement had no central leadership, no list of formal demands, and no headquarters. It was coordinated through a principle — the general assembly, a leaderless decision-making body requiring broad consensus — and a slogan: We are the 99%.</p>
+
+      <p>By November, most encampments had been cleared by police, often violently, sometimes in coordinated actions across multiple cities on the same night. By 2012, Occupy was officially over as a visible presence. Critics declared it a failure. They were wrong — but so were the people who declared it a success. The reality is more instructive than either verdict.</p>
+
+      <h2>What Occupy actually produced</h2>
+
+      <p>The most immediate effect was linguistic. Before Occupy, American political discourse didn't have a mainstream vocabulary for economic inequality as a structural phenomenon rather than a personal failing. "The 1%" and "the 99%" entered ordinary speech within weeks and have never left. The framing — that the economic system is designed to extract from the many and concentrate among the few — became common sense in a way it had not been before September 2011. This is not a small thing. The frame shapes what solutions seem possible. Bernie Sanders's 2016 campaign was built directly on Occupy's vocabulary.</p>
+
+      <p>The second effect was organizational. The networks built in the encampments didn't dissolve when the tents came down. Strike Debt, an Occupy offshoot, launched Rolling Jubilee in 2012 — it raised $700,000 and used it to buy distressed medical and student debt for pennies on the dollar, then abolished it. The Debt Collective, which grew from this, developed the first ever student debt strike and won $6 billion in debt cancellation for defrauded students. This is a direct line from Occupy to concrete material victories for real people.</p>
+
+      <p>Mutual Aid Disaster Relief, the network that coordinated community response to Hurricane Sandy in 2012, was built from Occupy networks. Occupy Our Homes connected the movement's housing analysis to direct action against foreclosures. The Working Families Party, DSA's explosive post-2016 growth, the Movement for Black Lives infrastructure — all of these drew organizers, frames, and practices from the Occupy moment.</p>
+
+      <div class="pull">
+        The encampments were the visible part.<br/>What grew from the roots<br/><strong>is still growing.</strong>
+      </div>
+
+      <h2>What Occupy couldn't do</h2>
+
+      <p>David Graeber, one of Occupy's central organizers and theorists, was honest about this in his writing afterward. The movement was extraordinarily good at one thing: creating spaces where different social relations could be practiced. The general assembly was real participatory democracy. The kitchen, the library, the free clinic, the child care — these were commons, built from scratch in public space, demonstrating that people would build and maintain shared resources without being forced to by the market or the state. The camps were proof of concept.</p>
+
+      <p>What they weren't was durable. Proof of concept requires somewhere to go after the proof. The Occupy camps demonstrated that horizontal organizing works, that mutual aid works, that people will participate in genuine self-governance when given the opportunity. But the camps couldn't survive eviction, because they had no territorial anchor, no institutional permanence, no way to be present when the police weren't arresting them.</p>
+
+      <p>Graeber's phrase for what the camps produced is "the excess" — the creative energy, the new relationships, the expanded sense of possibility. His diagnosis of what was missing is the container: the durable institutional form that could hold the excess after the intensity of the moment passed. The Zapatistas had the container — autonomous territories with genuine governance. Occupy had the excess without the container.</p>
+
+      <div class="callout">
+        <span class="callout-label">The demand question</span>
+        <p>The most common criticism of Occupy — that it had no clear demands — misunderstands what it was doing. Graeber, who had studied anarchist movements extensively, argued that the refusal to issue demands was a principled position: demands addressed to a government accept the government's authority to grant or deny them. The camps were practicing a different relationship to power — not petitioning it, but ignoring it, demonstrating that other forms of social organization were possible.</p>
+        <p>The problem wasn't the absence of demands. The problem was that the alternative form of social organization demonstrated in the camps couldn't sustain itself through eviction. A movement that refuses to petition power needs to be able to build power that doesn't depend on permission. The camps didn't get there. The networks they seeded sometimes did.</p>
+      </div>
+
+      <h2>Graeber's contribution to the framework</h2>
+
+      <p>Graeber died in 2020, leaving behind a body of work that is indispensable to understanding what's possible and why. His <em>Debt: The First 5,000 Years</em> reframed debt as a moral and political instrument — a mechanism of capture that works by transforming social obligations into numerical claims enforced by the state. His <em>Bullshit Jobs</em> documented the degree to which contemporary capitalism requires enormous amounts of pointless work, not because pointless work is economically necessary, but because the alternative — people with time and energy to pursue their own purposes — is politically dangerous.</p>
+
+      <p>His contribution to the theory of prefigurative politics — building the world you want now, in the spaces available to you — is the intellectual backbone of every case study in this series. The question he kept asking: why do we assume that the moment of revolutionary change has to come before the practice of revolutionary values? Why can't the practice be the change?</p>
+
+      <p>Occupy was Graeber's theory in action. It proved the prefigurative premise. It also revealed its limits: prefiguration without durability produces beautiful demonstrations that can be cleared by midnight. The cases that work — Zapatistas, Rojava — are the ones that combined the prefigurative practice with institutions that could survive the morning after.</p>
+
+      <div class="action-box">
+        <span class="action-label">What this means where you are</span>
+        <h3>Don't just demonstrate — institutionalize</h3>
+        <p>The Occupy lesson is not that horizontal organizing doesn't work. The camps proved it works, powerfully and quickly. The lesson is that the thing you build during the intensity of a moment needs a permanent form to survive into ordinary time.</p>
+        <p>If you're organizing right now: what's the institutional form that comes after the protest? The rolling jubilee after the encampment. The tenant union after the rent strike. The cooperative after the boycott. The mutual aid network after the disaster response. Every successful radical experiment has a moment of prefigurative intensity and a durable institution that carries it forward.</p>
+        <p>Build the institution before you need it. Don't wait for the eviction notice to ask what comes next. The debt strike worked because Strike Debt had already done the legal and organizational groundwork before the action. That's the model: the prefigurative moment as launch, the institution as landing.</p>
+      </div>
+
+    </div>
+
+    <div class="article-nav">
+      <a href="case-study-rojava.html" class="nav-link">← Rojava</a>
+      <a href="case-study-chile.html" class="nav-link">Chile →</a>
+    </div>
+
+    <div class="series-end">
+      <h3>More case studies</h3>
+      <p>Each case tests a different aspect of the framework against the actual record.</p>
+      <div class="series-links">
+        <a href="case-study-zapatistas.html" class="series-link">Zapatistas</a>
+        <a href="case-study-rojava.html" class="series-link">Rojava</a>
+        <a href="case-study-chile.html" class="series-link">Chile</a>
+        <a href="case-study-myanmar.html" class="series-link">Myanmar</a>
+        <a href="case-study-india.html" class="series-link">India</a>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="case-studies.html" class="back-link">Back to case studies</a>
+      <a href="index.html" class="back-link" style="margin-top:0.25rem;">Back to all pieces</a>
+      <span class="series-note">Power Explained — Case Studies</span>
+    </div>
+  </main>
+</body>
+</html>

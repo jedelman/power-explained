@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chile: The Uprising That Won the Vote and Lost the Revolution — Power Explained</title>
+  <meta name="description" content="Millions in the streets. A constituent assembly. Two failed constitutional drafts. A left president. How does insurgent energy get absorbed by the processes designed to contain it?" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+    .action-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .action-box h3 { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.8rem); font-weight: 700; margin-bottom: 1rem; }
+    .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.8; margin-bottom: 0.8rem; }
+    .action-box p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--paper-mid); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; border-top: 2px solid var(--ink); }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.9rem; line-height: 1.7; color: rgba(26,23,20,0.7); margin-bottom: 1.5rem; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--ink); border-color: var(--ink); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker    { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Case Studies — Power in Practice</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Case Study — Chile — 2019 to 2022</span>
+      <div class="kicker-rule"></div>
+    </div>
+    <h1>The Uprising That Won the Vote and Lost the Revolution</h1>
+    <p class="dek">Millions in the streets. A constituent assembly. Two failed constitutional drafts. A left president contained by inherited structures. Chile is the clearest recent example of how insurgent energy gets absorbed by the processes designed to contain it.</p>
+    <div class="body-text">
+
+      <p>It started with a subway fare increase of 30 pesos — about four cents. On October 18, 2019, students in Santiago began jumping turnstiles in protest. By that evening, there were fires in subway stations across the city. By the weekend, over a million people were in the streets of Santiago alone — the largest mobilization in Chilean history since the 1988 plebiscite that ended Pinochet's dictatorship.</p>
+
+      <p>The uprising — Chileans called it the <em>estallido social</em>, the social explosion — was not about the fare increase. The fare increase was a spark in a room full of gas. Chile had been the poster child for neoliberal economic policy since Pinochet imposed it with military force in 1973: privatized healthcare, privatized pensions, privatized water, among the highest income inequality in the OECD. After thirty years of this being called a success story, the people who actually lived in it had a different assessment.</p>
+
+      <p>The Plaza Italia in central Santiago became Plaza Dignidad — Dignity Square. Every Friday for months, hundreds of thousands gathered. The slogans were not a program; they were a rejection. <em>No son 30 pesos, son 30 años</em>: It's not 30 pesos, it's 30 years. The question was what would follow.</p>
+
+      <h2>How the constituent process worked — and how it was designed to work</h2>
+
+      <p>In November 2019, Chile's political parties reached an agreement: a referendum on whether to write a new constitution, and if yes, to elect a constituent assembly to write it. The October 2020 referendum passed with 78% in favor. The constituent assembly was elected in 2021 — and it was remarkable: majority women, significant Indigenous representation, large independent and left contingents. For the first time in Chilean history, the people writing the rules looked like the people who lived by them.</p>
+
+      <p>The draft they produced was genuinely transformative. It recognized the rights of nature. It enshrined water as a commons, removing it from private ownership. It guaranteed abortion rights, Indigenous territorial autonomy, and housing as a right. It was the most progressive constitutional text ever put to a democratic vote.</p>
+
+      <p>In September 2022, Chilean voters rejected it by 62% to 38%.</p>
+
+      <div class="pull">
+        The most progressive constitution<br/>ever put to a vote<br/><strong>was voted down.</strong>
+      </div>
+
+      <p>Then came a second process. A new drafting body, this time with stricter rules, more conservative composition, and a right-wing majority. That draft, finished in 2023, was also rejected — this time for being too conservative. Chile entered 2024 with its Pinochet-era constitution still in force, the status quo entirely intact despite the most significant popular uprising in a generation.</p>
+
+      <h2>The framework angle: constituent capture</h2>
+
+      <p>What happened in Chile is a nearly textbook example of what we might call <em>constituent capture</em>: the process by which insurgent popular energy is routed through institutional channels designed to neutralize it.</p>
+
+      <p>The agreement reached in November 2019 — before the uprising had run its course, before the government had been seriously threatened — was itself an act of capture. The establishment parties, including the center-left, agreed to a process that had several built-in features: it required a two-thirds supermajority in the assembly to pass any provision, giving conservative minorities veto power over transformative proposals; it maintained the existing legal and economic framework during drafting; it put the final text to a popular vote rather than direct implementation, opening it to a well-funded disinformation campaign; and it established clear time limits that prevented the assembly from building the popular base necessary to defend its work.</p>
+
+      <p>Each of these features is reasonable-sounding in isolation. Two-thirds supermajorities ensure broad consensus. Popular ratification is democratic. Time limits prevent institutional capture. But taken together, they ensured that a constituent body elected with a mandate for transformation could produce a text that the existing order could campaign against, fund opposition to, and ultimately defeat — while appearing to respect the democratic process throughout.</p>
+
+      <div class="callout">
+        <span class="callout-label">Gabriel Boric and the limits of electoral left</span>
+        <p>Gabriel Boric, a former student leader who had participated in the 2011 student movement that prefigured the estallido, was elected president in December 2021 at age 35. He was the most left-wing president in Chilean history since Salvador Allende. He was also contained from day one by the constitutional structure he inherited, the economic constraints imposed by financial markets, and the political necessity of governing a divided country.</p>
+        <p>Boric's presidency is not a failure of character or courage. It's a demonstration of the limits of electoral capture of institutional power in a context where the deeper structures — economic, constitutional, judicial — remain in place. The lesson isn't "don't run for office." It's: winning an election is one thing; changing the rules that constrain what an election winner can do is a different, harder thing, and it requires different tools than winning elections.</p>
+      </div>
+
+      <h2>What the estallido actually changed</h2>
+
+      <p>The constitutional process failed. The underlying social changes are harder to reverse. Chilean feminism, mobilized in the wake of the estallido through the movement "Un Violador en Tu Camino" (A Rapist in Your Path), created a cultural shift whose effects persist. Indigenous rights claims were made more visible and more politically costly to ignore. The pension privatization that Pinochet created — the AFP system — was partially reformed. The language of inequality changed.</p>
+
+      <p>These are not small things. But they are not the transformation that millions demanded in Plaza Dignidad. The gap between the energy of the uprising and the outcomes of the process is exactly the gap this framework is designed to explain: capture mechanisms are most powerful not when they suppress movements by force, but when they absorb and redirect movement energy through processes that feel like progress but produce continuity.</p>
+
+      <div class="action-box">
+        <span class="action-label">What this means where you are</span>
+        <h3>Know when the process is the capture</h3>
+        <p>Chile's lesson is not "don't engage with institutions." It's: know what any given process can and cannot produce, and don't confuse participating in a process with winning the thing the process is nominally about.</p>
+        <p>When your movement gets offered a seat at the table — a commission, a working group, a stakeholder process, a constituent assembly — ask: who controls the agenda? What are the decision rules? Who can veto the outcome? What happens to our organizing capacity while we're sitting at the table? A process designed to absorb your energy without changing outcomes is worse than no process, because it produces the appearance of participation while delivering the reality of defeat.</p>
+        <p>The antidote: maintain independent organizing capacity outside any formal process you engage with. The threat of walking away has to be real. The capacity to build outside the process has to be active. The moment the process becomes the only game in town, the movement has already lost.</p>
+      </div>
+
+    </div>
+
+    <div class="article-nav">
+      <a href="case-study-occupy.html" class="nav-link">← Occupy</a>
+      <a href="case-study-myanmar.html" class="nav-link">Myanmar →</a>
+    </div>
+
+    <div class="series-end">
+      <h3>More case studies</h3>
+      <p>Each case tests a different aspect of the framework against the actual record.</p>
+      <div class="series-links">
+        <a href="case-study-zapatistas.html" class="series-link">Zapatistas</a>
+        <a href="case-study-rojava.html" class="series-link">Rojava</a>
+        <a href="case-study-occupy.html" class="series-link">Occupy</a>
+        <a href="case-study-myanmar.html" class="series-link">Myanmar</a>
+        <a href="case-study-india.html" class="series-link">India</a>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="case-studies.html" class="back-link">Back to case studies</a>
+      <a href="index.html" class="back-link" style="margin-top:0.25rem;">Back to all pieces</a>
+      <span class="series-note">Power Explained — Case Studies</span>
+    </div>
+  </main>
+</body>
+</html>
