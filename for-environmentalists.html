@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Commons Is the Ecology — Power Explained</title>
-  <meta name="description" content="Ecosystems don't collapse randomly. They collapse when the commons that maintained them gets enclosed. The inverse is also true: where the commons holds, the ecology holds. Here's what that means — and what people are already building." />
+  <meta name="description" content="Ecosystems don't collapse randomly. They collapse when the commons that maintained them gets enclosed. The inverse is also true: where the commons holds, the ecology holds. Here's what's already growing." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
@@ -12,7 +12,7 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c; --green: #2d6a4f; --green-light: #e8f4ee;
+      --red: #a0291c; --green: #2d6a4f; --green-light: #e8f4ee; --green-mid: #d0eadb;
       --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
       --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
@@ -25,65 +25,55 @@
     .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
     .site-name:hover { color: var(--red); }
     .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
-    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-
-    /* Hero — warm green tint for this entry point */
-    .hero { background: var(--green-light); border-bottom: 2px solid var(--green); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); margin: 0 calc(-1 * var(--gutter)); }
+    .hero { background: var(--green-light); border-bottom: 2px solid var(--green); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
     .hero-inner { max-width: var(--max); margin: 0 auto; }
     .entry-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1.5rem; }
     .hero h1 { font-family: var(--display); font-size: clamp(2.6rem,9vw,5rem); font-weight: 700; line-height: 0.95; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 1.5rem; }
     .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(26,23,20,0.75); max-width: 560px; }
-
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
     .body-text { padding-top: clamp(2rem,5vw,3rem); }
     .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
     .body-text strong { font-weight: 700; }
     .body-text em { font-style: italic; }
     .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
-
     .pull { background: var(--green-light); border-left: 3px solid var(--green); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; color: var(--ink); }
     .pull strong { font-style: normal; font-weight: 700; }
-
     .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
     .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1rem; }
     .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
     .callout p:last-child { margin-bottom: 0; }
-
-    /* Already-growing grid */
-    .examples-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 2.5rem 0; }
-    .example { background: var(--paper); padding: 1.5rem 1.25rem; }
+    .examples-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); gap: 1px; background: var(--green); border: 1px solid var(--green); margin: 2.5rem 0; }
+    .example { background: var(--paper); padding: 1.5rem 1.25rem; transition: background 0.15s; }
+    .example:hover { background: var(--green-light); }
     .example-icon { font-size: 1.5rem; margin-bottom: 0.5rem; line-height: 1; }
     .example-title { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green); margin-bottom: 0.35rem; }
     .example-body { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.7); }
-
     .action-box { background: var(--green); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
-    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(242,236,224,0.65); display: block; margin-bottom: 1rem; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(242,236,224,0.6); display: block; margin-bottom: 1rem; }
     .action-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
     .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.85; margin-bottom: 0.8rem; }
     .action-box p:last-child { margin-bottom: 0; }
     .action-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
     .action-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.7); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.3); transition: all 0.2s; }
-    .action-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.8); }
-
+    .action-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.85); }
     .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
-    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; max-width: var(--max); margin-left: auto; margin-right: auto; }
-    .read-more p { font-size: 0.9rem; color: rgba(26,23,20,0.65); margin-bottom: 1.5rem; max-width: var(--max); margin-left: auto; margin-right: auto; }
-    .read-links { max-width: var(--max); margin: 0 auto; display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .read-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s; }
-    .read-link:hover { color: var(--ink); border-color: var(--ink); }
-
-    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; max-width: var(--max); margin-left: auto; margin-right: auto; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(26,23,20,0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
     .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
     .back-link::before { content: '←'; }
     .back-link:hover { color: var(--red); }
-
     @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-    .hero       { animation: fadeUp 0.6s ease both; animation-delay: 0.1s; }
+    .hero       { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
     .body-text  { animation: fadeUp 0.6s ease both; animation-delay: 0.3s; }
-
-    .xl { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(45,106,79,0.3); transition: border-color 0.15s; }
-    .xl:hover { border-bottom-color: var(--green); }
-    .xl-red { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
-    .xl-red:hover { border-bottom-color: var(--red); }
+    .xl  { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(45,106,79,0.3); transition: border-color 0.15s; }
+    .xl:hover  { border-bottom-color: var(--green); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
   </style>
 </head>
 <body>
@@ -98,115 +88,96 @@
 
   <div class="hero">
     <div class="hero-inner">
-      <span class="entry-flag">For environmentalists — and everyone who's ever loved a place</span>
+      <span class="entry-flag">For people who love living things</span>
       <h1>The Commons<br/>Is the Ecology</h1>
-      <p class="hero-dek">Ecosystems don't collapse randomly. They collapse when the commons that maintained them gets enclosed. The inverse is also true — and that's the hopeful part.</p>
+      <p class="hero-dek">Where the commons holds, the ecology holds. That's not a slogan — it's what the evidence shows. And right now, all over the world, people are rebuilding both.</p>
     </div>
   </div>
 
   <main class="article-wrap">
     <div class="body-text">
 
-      <p>For most of human history, forests were managed by the communities that lived in them. Fisheries were governed by the people who fished them. Water flowed under rules negotiated by the villages that drank from it. Not perfectly. Not without conflict. But sustainably — often for centuries, in living relationships with the ecosystems they depended on, because they depended on them.</p>
+      <p>For most of human history, forests were managed by the communities that lived in them. Fisheries were governed by the people who fished them. Water flowed under rules negotiated by the villages that drank from it. Not perfectly — but sustainably, often for centuries, because the people doing the managing had long-term stakes in the living systems they depended on.</p>
 
-      <p>Then came enclosure. The long process — beginning in England in the 15th century, accelerating globally through colonialism, continuing right now through the privatization of seeds and spectrum and water and genetic code — by which shared resources held in common were transferred into private ownership. Separated from the communities that maintained them. Transformed from relationships into assets. From places into commodities.</p>
+      <p>Then came <a href="glossary.html#enclosure" class="xl">enclosure</a>: the long transfer of shared resources out of community hands and into private ownership. What had been a relationship became a commodity. What had been governed by the people who lived in it got managed for whoever held the title. The <a href="what-they-burned.html" class="xlr">destruction of the commons</a> and the destruction of the ecology are, in most cases, the same event.</p>
 
-      <p>This is not a metaphor. It is the mechanism. Ecological collapse is, in most cases, what happens downstream of enclosure.</p>
+      <p>But here's the part that gets left out: <strong>the inverse is also true.</strong> Rebuild the commons, and the ecology follows. And people are doing exactly that — right now, everywhere.</p>
 
-      <h2>Why private ownership destroys what common ownership maintained</h2>
+      <h2>Ostrom proved it</h2>
 
-      <p>Here's the simple version: when a forest is held in common by the people who live around it, those people have a reason to maintain it that goes beyond this year's revenue. Their children will need it. Their water comes from it. Their identity is bound up in it. Commons governance typically includes rules about how much can be extracted, enforced by the community, because the community has a long-term stake in the forest's survival.</p>
+      <p>In 2009, Elinor Ostrom won the Nobel Prize in Economics for documenting what communities had known for centuries: shared resources governed by the people who depend on them are maintained sustainably, routinely outperforming both private ownership and state management. Swiss alpine meadows managed continuously for 500 years. Japanese community forests. Irrigation systems in Valencia running since the Moorish period. Maine lobstermen's territorial governance. Kenyan pastoralist grazing commons.</p>
 
-      <p>When the same forest is enclosed — sold to a timber company, claimed by a state, privatized by a developer — the new owner has a fundamentally different relationship to it. The incentive structure changes. Now the question is: what return does this asset generate, and on what timeline? If the answer is "maximum timber revenue in the next decade," the centuries of sustainable management that preceded private ownership don't survive the first financial quarter.</p>
-
-      <p>This isn't about bad people making bad decisions. It's about what different ownership structures produce. Private ownership of an ecosystem, by an entity whose obligations run to shareholders rather than to the ecosystem and the community that depends on it, predictably produces extraction and collapse. This is the design, not a bug.</p>
+      <p>The <a href="hardin-was-wrong.html" class="xl">"tragedy of the commons"</a> — the claim that shared resources inevitably get destroyed — was never describing commons governance. It was describing the <em>absence</em> of it. Hardin's model assumed no communication, no rules, no community. Real commons have all three. The tragedy, when it happens, is what <a href="hardin-was-wrong.html" class="xl">enclosure produces — not what the commons produces</a>.</p>
 
       <div class="pull">
-        Elinor Ostrom won the Nobel Prize<br/>for proving what communities<br/><strong>had known for centuries.</strong>
+        The commons doesn't cause ecological collapse.<br/><strong>Enclosure does.</strong><br/>Which means rebuilding the commons<br/>is the ecological project.
       </div>
 
-      <p>In 2009, Elinor Ostrom became the first woman to win the Nobel Prize in Economics. Her life's work was a refutation of one of the most influential — and most wrong — ideas in modern economics: the "tragedy of the commons," which claimed that any shared resource would inevitably be destroyed by individual self-interest.</p>
+      <h2>What's already growing</h2>
 
-      <p>Ostrom spent decades studying real commons — Swiss alpine meadows managed for centuries, Japanese forests, irrigation systems in Spain and the Philippines, Maine lobster fisheries, Kenyan grazing lands. What she found was that communities routinely develop sophisticated governance systems for managing shared resources sustainably, that these systems work better than either privatization or state management in many contexts, and that the "tragedy" was not inevitable but was specifically produced by the breakdown of commons governance — often by enclosure. The tragedy of the commons isn't a natural law. It's what happens when you destroy the commons.</p>
-
-      <div class="callout">
-        <span class="callout-label">Rojava grew trees during a war</span>
-        <p>In the Autonomous Administration of North and East Syria — the Rojava experiment in democratic self-governance — ecology is written into the founding charter as a core principle alongside democracy and women's liberation. Not as a policy preference. As a structural commitment.</p>
-        <p>In practice: communal control of agricultural land, cooperative farming, and reforestation projects — maintained through years of active military conflict, economic blockade, and international isolation. While being bombed by Turkey and blockaded by multiple neighboring states, the communes were planting trees. Because the commons treats land as something to be maintained for the people who live on it, not extracted for whoever currently holds title to it.</p>
-        <p>This is what it looks like when ecological stewardship is the architecture, not the aspiration. <a href="case-study-rojava.html" class="xl">Read the full Rojava case study →</a></p>
-      </div>
-
-      <h2>The commons isn't the past — it's what people are building right now</h2>
-
-      <p>The solarpunk imagination — the vision of a future that is lush rather than scorched, abundant rather than scarce, communal rather than isolated — is not fantasy. It's a description of what commons governance produces when it works. And people are building it, right now, in cities and towns and rural communities everywhere.</p>
-
-      <p>These aren't small things. They're early infrastructure for a different relationship between communities and the living systems they inhabit.</p>
+      <p>The regenerative future isn't waiting for a revolution. It's being seeded right now in <a href="two-ways-to-fix-a-pothole.html" class="xl">neighborhood governance experiments</a>, <a href="build-it-now.html" class="xl">cooperative infrastructure</a>, and <a href="the-commons-they-never-stopped-building.html" class="xl">commons that never stopped being built</a>. These aren't peripheral. They're proof of concept at scale.</p>
 
       <div class="examples-grid">
         <div class="example">
           <div class="example-icon">🌱</div>
           <div class="example-title">Community Land Trusts</div>
-          <div class="example-body">Remove land permanently from speculative markets. Hold it in common for housing, agriculture, ecological preservation. Over 250 active CLTs in the US.</div>
+          <div class="example-body">Remove land permanently from speculative markets — for housing, agriculture, ecological preservation. <strong>250+ active CLTs</strong> in the US alone, hundreds more globally.</div>
         </div>
         <div class="example">
           <div class="example-icon">☀️</div>
           <div class="example-title">Energy Cooperatives</div>
-          <div class="example-body">Community-owned solar and wind that generates collective energy wealth rather than extracting it. Germany has 900+. The US is building fast.</div>
+          <div class="example-body">Community-owned solar and wind that builds collective energy wealth rather than extracting it. <strong>900+ in Germany.</strong> The US is building fast.</div>
         </div>
         <div class="example">
           <div class="example-icon">🌾</div>
           <div class="example-title">Seed Libraries</div>
-          <div class="example-body">Reclaim seeds from corporate enclosure. Preserve genetic diversity. Distribute food sovereignty one packet at a time. Thousands exist in public libraries worldwide.</div>
+          <div class="example-body">Reclaim seeds from corporate enclosure. Preserve genetic diversity. Distribute food sovereignty one packet at a time. <strong>Thousands</strong> in public libraries worldwide.</div>
         </div>
         <div class="example">
           <div class="example-icon">🔧</div>
           <div class="example-title">Repair Cafes</div>
-          <div class="example-body">Extend the life of objects through shared skill. Refuse the planned obsolescence that disposal capitalism requires. 2,500+ worldwide and growing.</div>
+          <div class="example-body">Extend object life through shared skill. Refuse the planned obsolescence that extraction capitalism requires. <strong>2,500+ worldwide</strong> and growing.</div>
         </div>
         <div class="example">
           <div class="example-icon">🪴</div>
           <div class="example-title">Urban Commons</div>
-          <div class="example-body">Community gardens, urban orchards, shared composting networks. Reclaiming land from asphalt and vacancy, building ecological knowledge into neighborhoods.</div>
+          <div class="example-body">Community gardens, urban orchards, shared composting. Reclaiming land from asphalt and vacancy, building ecological knowledge back into neighborhoods.</div>
         </div>
         <div class="example">
           <div class="example-icon">🐟</div>
           <div class="example-title">Fishing Commons</div>
-          <div class="example-body">Community-governed fisheries — from Maine lobstermen's territorial governance to Pacific Islander traditional marine management — outperforming private and state management on sustainability.</div>
+          <div class="example-body">From Maine lobstermen's territorial governance to Pacific Islander traditional marine management — community-governed fisheries <strong>consistently outperform</strong> private extraction on sustainability.</div>
         </div>
       </div>
 
-      <h2>The frame shift: from stopping to growing</h2>
+      <h2>Defense and construction — both, always</h2>
 
-      <p>Environmental movements have spent decades — necessarily, correctly — in defensive mode. Stop this pipeline. Prevent this clearcut. Block this development. These fights are worth fighting. They've saved real things. The legal and advocacy infrastructure built through that work is part of the commons in its own way.</p>
+      <p>Environmental movements have spent decades in defensive mode — stop this pipeline, protect this forest, block this development. That work is necessary. The legal and advocacy infrastructure built through those fights is <a href="the-commons-they-never-stopped-building.html" class="xl">part of the commons</a> in its own right.</p>
 
-      <p>But defense alone can't win a regenerative future. You can prevent the worst deforestation and still live in a world that's slowly becoming less habitable. The commons frame offers a second mode that runs alongside defense: construction. Not just stopping extraction — building the ownership structures and governance systems that change the incentive landscape at the root.</p>
+      <p>But defense alone can't produce a regenerative future. <a href="mutual-aid-isnt-charity.html" class="xl">Construction runs alongside it</a>: not just stopping extraction but building the ownership structures that change the incentive landscape at the root. A <a href="glossary.html#community-land-trust" class="xl">community land trust</a> doesn't stop a developer by winning in court — it removes the land from the market permanently. A community energy cooperative doesn't just generate clean power — it changes who controls energy decisions going forward. A seed library reclaims the means of food production from <a href="the-outside-capital-needs.html" class="xlr">corporate enclosure of the genetic commons</a>.</p>
 
-      <p>A community land trust doesn't stop a developer by fighting in court. It stops the developer by removing the land from the market entirely, permanently. A community energy cooperative doesn't just generate clean power — it changes who owns the power infrastructure and therefore who controls energy decisions in the future. A seed library doesn't just preserve genetic diversity — it reclaims the means of food production from the corporate enclosure of intellectual property.</p>
+      <p>Same fight. Two modes. Each makes the other more effective.</p>
 
-      <p>These are the same fights. Defense and construction are the same movement, running in parallel, each making the other more effective.</p>
+      <div class="callout">
+        <span class="callout-label">Rojava grew trees during a war</span>
+        <p>In the <a href="case-study-rojava.html" class="xl">Autonomous Administration of North and East Syria</a>, ecology is written into the founding charter alongside democracy and women's liberation — not as a policy preference but as load-bearing structure. In practice: communal land governance, cooperative farming, reforestation projects — maintained through active military conflict, economic blockade, and international isolation.</p>
+        <p>While being bombed and blockaded, the communes were planting trees. Because when land is governed as a <a href="glossary.html#commons" class="xl">commons</a>, the incentive is maintenance — not extraction. That's not idealism. That's what different ownership structures produce. <a href="case-study-rojava.html" class="xl">Read the Rojava case study →</a></p>
+      </div>
 
       <div class="callout">
         <span class="callout-label">Thirty years of forest commons in Chiapas</span>
-        <p>The Zapatista communities in Chiapas, Mexico have been managing their territories autonomously since 1994. The forests they govern have been maintained, not extracted, because the communities that live in them have long-term stakes in their survival — as water sources, as climate protection, as places their children will inherit.</p>
-        <p>This isn't romantic primitivism. It's a practical demonstration that commons governance produces different ecological outcomes than either private extraction or state administration. The forests are still there. The communities are still in them. <a href="case-study-zapatistas.html" class="xl">Read the full Zapatistas case study →</a></p>
+        <p>The <a href="case-study-zapatistas.html" class="xl">Zapatista communities</a> have governed their territories autonomously since 1994. The forests they manage have been maintained — as water sources, climate protection, and places their children will inherit — because the communities living in them have long-term stakes in their survival. <a href="case-study-zapatistas.html" class="xl">Read the Zapatistas case study →</a></p>
       </div>
-
-      <h2>What enclosure looks like now</h2>
-
-      <p>Enclosure hasn't stopped. It's accelerating, taking forms that don't always look like fences around fields. Water privatization — the transfer of municipal water systems to private operators — is happening across Africa, Latin America, and increasingly in the US. The Rohingya in Myanmar were driven from their land partly to open it to extraction. Seed patents by Bayer-Monsanto enclose the genetic commons of agricultural diversity accumulated over ten thousand years of farming. "Land grabs" — large-scale purchases of agricultural land in the Global South by sovereign wealth funds, private equity, and corporate agriculture — have transferred tens of millions of hectares out of smallholder and commons governance in the past two decades.</p>
-
-      <p>Each of these is an ecological event as well as an economic one. When water is privatized, the incentive shifts from maintenance to revenue. When seeds are patented, the incentive shifts from diversity to yield optimization for single-crop monoculture. When land is grabbed, the incentive shifts from community food production to export commodity agriculture. The ecological outcomes of these shifts are not surprises. They are predicted by the logic of enclosure.</p>
-
-      <p>Understanding this doesn't make climate change less urgent. It makes the solution less mysterious: rebuild the commons, and the ecology follows.</p>
 
       <div class="action-box">
         <span class="action-label">Where to plug in</span>
         <h3>Grow the commons you can reach</h3>
-        <p>The most powerful thing you can do for the ecology is not necessarily what produces the best Instagram content. It's identifying a piece of your local commons — land, water, energy, seeds, knowledge — and working to deepen community control over it.</p>
-        <p>Find the community land trust in your area and support it, join it, or help start one if it doesn't exist. Look for community energy cooperatives and join the board. Donate seeds to and borrow seeds from your local seed library. Join the repair cafe or start one in a library that doesn't have one. Find out who governs the water in your area and make that governance more democratic.</p>
-        <p>And when you're doing the defense work — the pipeline fight, the forest protection campaign, the regulatory hearing — ask what comes after the defense. What ownership structure, what governance form, removes this piece of the commons from the market permanently? Defense plus construction is the long game. Either one alone is not enough.</p>
+        <p>Find the <a href="glossary.html#community-land-trust" style="color:rgba(242,236,224,0.9);border-bottom:1px solid rgba(242,236,224,0.35);text-decoration:none;">community land trust</a> in your area — support it, join it, or help start one. Join a community energy cooperative board. Donate seeds to and borrow from your local seed library. Start a repair cafe at a library that doesn't have one. Find out who governs the water in your city and make that governance more democratic.</p>
+        <p>And when you're in the fight — the pipeline campaign, the forest protection case, the regulatory hearing — ask what permanent commons structure comes after the defense. What removes this piece of the living world from the market for good? <a href="build-it-now.html" style="color:rgba(242,236,224,0.9);border-bottom:1px solid rgba(242,236,224,0.35);text-decoration:none;">Defense plus construction</a> is the long game. Either one alone isn't enough.</p>
         <div class="action-links">
-          <a href="hardin-was-wrong.html" class="action-link">Hardin Was Wrong — the evidence</a>
+          <a href="hardin-was-wrong.html" class="action-link">Hardin Was Wrong</a>
+          <a href="build-it-now.html" class="action-link">Build It Now</a>
+          <a href="mutual-aid-isnt-charity.html" class="action-link">Mutual aid isn't charity</a>
           <a href="case-study-rojava.html" class="action-link">Rojava: ecology as structure</a>
           <a href="case-study-zapatistas.html" class="action-link">Zapatistas: 30 years of forest commons</a>
           <a href="build-the-commune-without-the-state.html" class="action-link">Build the commune</a>
@@ -216,14 +187,19 @@
     </div>
 
     <div class="read-more">
-      <h3>Go deeper</h3>
-      <p>The framework this entry point draws from — where these ideas connect to power, capture, and the commons at large.</p>
-      <div class="read-links">
-        <a href="the-commons-they-never-stopped-building.html" class="read-link">The commons they never stopped building</a>
-        <a href="hardin-was-wrong.html" class="read-link">Hardin Was Wrong</a>
-        <a href="what-they-burned.html" class="read-link">What They Burned</a>
-        <a href="case-studies.html" class="read-link">All case studies</a>
-        <a href="index.html" class="read-link">Start from the beginning</a>
+      <div class="read-more-inner">
+        <h3>Go deeper into the framework</h3>
+        <p>Where this entry point connects to the rest of the series.</p>
+        <div class="read-links">
+          <a href="the-commons-they-never-stopped-building.html" class="read-link-btn">The commons they never stopped building</a>
+          <a href="what-they-burned.html" class="read-link-btn">What they burned</a>
+          <a href="hardin-was-wrong.html" class="read-link-btn">Hardin Was Wrong</a>
+          <a href="two-ways-to-fix-a-pothole.html" class="read-link-btn">Two ways to fix a pothole</a>
+          <a href="the-outside-capital-needs.html" class="read-link-btn">The outside capital needs</a>
+          <a href="underdevelopment-is-a-verb.html" class="read-link-btn">Underdevelopment is a verb</a>
+          <a href="case-studies.html" class="read-link-btn">All case studies</a>
+          <a href="index.html" class="read-link-btn">Start from the beginning</a>
+        </div>
       </div>
     </div>
 
