@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Underdevelopment Is a Verb — Power Explained</title>
+  <meta name="description" content="Walter Rodney didn't ask why Africa was underdeveloped. He asked how Europe produced that underdevelopment — deliberately, systematically, over centuries. The answer is one of the most important economic arguments of the twentieth century." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,1.9rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1 { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">The World the Framework Missed — Series IV</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Part II — Rodney</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">IV·II</span>
+    </div>
+    <h1>Underdevelopment Is a Verb</h1>
+    <p class="dek">Walter Rodney didn't ask why Africa was underdeveloped. He asked how Europe produced that underdevelopment — deliberately, systematically, over centuries. The answer is one of the most important economic arguments of the twentieth century.</p>
+    <div class="body-text">
+
+      <p>The standard story about global poverty goes something like this: some parts of the world developed modern economies and some didn't. The ones that didn't are "developing" — meaning they're behind, catching up, on the same path but further back. The job of development economics is to figure out how to help them get to where the developed world already is.</p>
+
+      <p>Walter Rodney's 1972 book <em>How Europe Underdeveloped Africa</em> takes that story apart from the first sentence. The title itself is the argument. Underdevelopment is not a state. It's an action. Something that is done, by specific actors, to specific places and peoples, for specific reasons. Africa did not fail to develop. Africa was actively underdeveloped — its productive capacity destroyed, its surpluses extracted, its institutions restructured to serve external accumulation rather than internal wellbeing.</p>
+
+      <p>This is not a claim about African deficiency. It is a claim about European agency and its consequences. Rodney was a Guyanese historian, and he was writing at the moment of African independence — when newly sovereign states were discovering that political independence without economic restructuring left the colonial relationship largely intact. Understanding how that relationship had been built was not academic. It was strategic.</p>
+
+      <h2>The difference between undevelopment and underdevelopment</h2>
+
+      <p>Rodney draws a distinction that does a lot of work. <strong>Undevelopment</strong> means a place hasn't yet developed — there's nothing in particular to explain, it just hasn't happened yet. <strong>Underdevelopment</strong> means a place has been actively prevented from developing, or had its existing development reversed. These are completely different situations requiring completely different analyses.</p>
+
+      <p>Before European contact, African societies were not undeveloped. They had agriculture, metallurgy, long-distance trade networks, urban centers, political institutions, and sophisticated craft production. West Africa was integrated into trans-Saharan trade routes that connected it to North Africa, the Mediterranean, and the Middle East. Great Zimbabwe and the Kingdom of Kongo were complex political and economic entities. The empire of Mali at its height in the fourteenth century was one of the wealthiest political structures on earth.</p>
+
+      <p>None of this was static or perfect. African societies had their own internal inequalities and conflicts. But the trajectory before European contact was not one of stagnation. It was one of ongoing development — the normal, uneven, sometimes contradictory process of societies building capacity over time.</p>
+
+      <p>The slave trade ended that trajectory. And not just by removing people.</p>
+
+      <div class="pull">
+        Europe didn't find Africa behind<br/>and leave it there.<br/>
+        Europe <strong>produced Africa's underdevelopment</strong><br/>
+        as a condition of its own development.
+      </div>
+
+      <h2>The mechanism: how extraction produced destruction</h2>
+
+      <p>Between roughly 1500 and 1900, an estimated 12 to 15 million Africans were transported across the Atlantic in the slave trade. The demographic effect alone is staggering: African population growth stagnated or reversed during centuries when European and Asian populations were growing. The people removed were disproportionately young and male — exactly the productive labor that drives economic development.</p>
+
+      <p>But Rodney's argument goes beyond the body count. The slave trade restructured African political economies from the inside. African rulers who participated in the trade — and the trade's scale required African participation — were rewarded with European goods, weapons, and political support. Those who didn't participate faced raids from neighbors who did. The incentive structure pushed African political organization toward capture and extraction rather than production and accumulation.</p>
+
+      <p>Conflict increased. Stable long-distance trade networks were disrupted. Agricultural production declined as populations moved away from exposed coastal areas. Political energy that might have gone into institution-building went into raiding, fortification, and managing the slave economy. The slave trade didn't just take people out of Africa. It reorganized African societies around the logic of extraction.</p>
+
+      <div class="callout">
+        <span class="callout-label">The terms of trade</span>
+        <p>The goods exchanged for enslaved Africans — guns, textiles, alcohol, manufactured goods — were not equivalent in economic value to what was received. They were consumption goods, not capital goods. They could not be used to build productive capacity. African rulers received things that made them powerful in the short term and dependent in the long term. European merchants received human beings whose labor built the plantation economies that financed European industrialization.</p>
+        <p>Eric Williams documented this connection in <em>Capitalism and Slavery</em> (1944): profits from the slave trade and plantation production provided a significant share of the capital that funded Britain's industrial revolution. The steam engine, the textile mills, the financial institutions that made industrial capitalism possible — they were built partly with money that originated in the Atlantic slave system. African underdevelopment and European development were not parallel processes. They were the same process, running in opposite directions.</p>
+      </div>
+
+      <h2>Colonial restructuring: the second phase</h2>
+
+      <p>When formal colonialism replaced the slave trade in the nineteenth century, the basic logic continued but the mechanisms changed. Now European powers directly controlled African territories, tax systems, labor markets, and trade. The restructuring was comprehensive.</p>
+
+      <p>African economies were reorganized around export monocultures: cocoa in Ghana, groundnuts in Senegal, cotton in Sudan, rubber in the Congo. These were not crops chosen to feed African populations or build African industry. They were chosen to supply European factories at minimum cost. The same land that had grown food for local consumption was converted to cash crops for export. Food security declined. Local manufacturing — which had produced textiles, metalwork, and other goods competitive with European imports — was destroyed by colonial trade policies that flooded African markets with cheaper European products.</p>
+
+      <p>Infrastructure was built — railways, roads, ports — but built to move resources from interior to coast, not to connect African cities to each other. The infrastructure of extraction, not the infrastructure of development. When African countries became independent in the 1950s and 60s, they inherited transportation networks designed for colonial purposes that made intra-African trade more difficult than trade with former colonizers.</p>
+
+      <p>Education was structured to produce clerks and low-level administrators — Africans who could operate within colonial bureaucracies but not engineer, design, or govern at the level required to run modern economies. Technical and professional education was systematically withheld. The epistemic incompetence of colonialism was manufactured, not found.</p>
+
+      <h2>What independence left intact</h2>
+
+      <p>Rodney was writing in 1972, more than a decade into the era of African independence. His observation was that formal political independence — sovereignty, flags, governments — had not changed the underlying economic structure. African countries were still exporting raw materials at prices set by European markets. They were still importing manufactured goods at prices set by European producers. The terms of trade still ran against them. The surplus still flowed out.</p>
+
+      <p>This is what the dependency theorists — Rodney, André Gunder Frank, Samir Amin — called neocolonialism: the continuation of colonial economic relationships after political independence. The mechanism was different. Instead of direct administration, it worked through debt, trade agreements, currency arrangements, and International Monetary Fund conditions that required African governments to maintain economic policies favorable to foreign capital.</p>
+
+      <p>For this site's framework: this is the routing question applied at the level of national economies. Colonial infrastructure was routing architecture — it determined where resources flowed, how value was extracted, who accumulated and who was left with the residue. Political independence changed the flag at the routing node without changing the routes.</p>
+
+      <div class="pull">
+        The routes were the power.<br/>
+        Changing the government<br/>
+        without changing the routes<br/>
+        left <strong>the architecture of extraction intact.</strong>
+      </div>
+
+      <h2>What happened to Rodney</h2>
+
+      <p>Walter Rodney was assassinated in Georgetown, Guyana, on June 13, 1980. He was thirty-eight years old. A bomb placed in a walkie-talkie exploded as he sat in his car. He had been active in Guyanese opposition politics, leading the Working People's Alliance against the government of Forbes Burnham. The Guyanese government denied involvement. A commission of inquiry in 2014 concluded that agents of the Burnham government were responsible.</p>
+
+      <p>This is not a footnote. Rodney's assassination is part of the argument. He was killed because his analysis was considered dangerous — not dangerous in the sense of wrong, but dangerous in the sense of actionable. <em>How Europe Underdeveloped Africa</em> was not an academic exercise. It was a tool for political education, used in freedom schools, study circles, and labor organizing across the African diaspora and the Global South. The people in power understood what it was for.</p>
+
+      <p>The routing question, applied to Walter Rodney's life: the analysis of how power works made him a target of the power he analyzed. That's a kind of confirmation.</p>
+
+      <p>The next piece moves from the economic structure to the human being produced within it — what colonialism does not just to economies but to the minds, bodies, and psyches of the people it classifies as outside the human.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="racial-capitalism.html" class="nav-link nav-prev">← I — The Outside Was Always People</a>
+      <a href="the-alibi-was-a-mirror.html" class="nav-link nav-next">III — The Alibi Was Also a Mirror →</a>
+    </div>
+    <div class="series-end">
+      <h3>The World the Framework Missed — Series IV</h3>
+      <p>Six pieces applying the commons/capture framework from the South and the East — the places where it was lived before it was theorized.</p>
+      <div class="series-links">
+        <a href="racial-capitalism.html" class="series-link">I — The Outside Was Always People</a>
+        <a href="underdevelopment-is-a-verb.html" class="series-link">II — Underdevelopment Is a Verb</a>
+        <a href="the-alibi-was-a-mirror.html" class="series-link">III — The Alibi Was Also a Mirror</a>
+        <a href="who-gets-to-die.html" class="series-link">IV — Who Gets to Die</a>
+        <a href="the-commons-they-never-stopped-building.html" class="series-link">V — The Commons They Never Stopped Building</a>
+        <a href="build-the-commune-without-the-state.html" class="series-link">VI — Build the Commune Without the State</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Power Explained — Advanced Track</span>
+    </div>
+  </main>
+</body>
+</html>

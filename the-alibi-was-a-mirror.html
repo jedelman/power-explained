@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Alibi Was Also a Mirror — Power Explained</title>
+  <meta name="description" content="Frantz Fanon was a psychiatrist who studied colonialism as a psychological structure. His finding: the colony doesn't just extract wealth. It produces a human being — the colonized subject — and then requires that subject's cooperation in their own subjection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
+    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
+    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.35); }
+    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+    .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .nav-link:hover { color: var(--red); }
+    .series-end { background: var(--ink); color: var(--paper); padding: 3rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,1.9rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .kicker { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    h1 { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+    .dek { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
+    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">The World the Framework Missed — Series IV</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="kicker">
+      <span class="kicker-label">Part III — Fanon</span>
+      <div class="kicker-rule"></div>
+      <span class="kicker-num">IV·III</span>
+    </div>
+    <h1>The Alibi Was Also a Mirror</h1>
+    <p class="dek">Frantz Fanon was a psychiatrist who studied colonialism as a psychological structure. His finding: the colony doesn't just extract wealth. It produces a human being — the colonized subject — and then requires that subject's cooperation in their own subjection.</p>
+    <div class="body-text">
+
+      <p>The previous two pieces tracked the economic architecture of colonial capitalism — how race was built into the system from the start, how extraction produced the poverty it then blamed on the places it extracted from. But there's a dimension those analyses leave underspecified: what happens inside the people who live within that architecture? Not just what is done to them economically, but what is done to their sense of themselves, their relationship to their own bodies, their understanding of what is possible.</p>
+
+      <p>Frantz Fanon was a Martinican psychiatrist who worked in Algeria during the independence war against France in the 1950s. He treated both Algerian patients traumatized by colonial violence and French soldiers traumatized by committing it. He saw colonialism's effects in clinical detail, from the inside. His two major books — <em>Black Skin, White Masks</em> (1952) and <em>The Wretched of the Earth</em> (1961) — are attempts to understand what he was seeing: not just economic exploitation but a total assault on the psyche of the colonized.</p>
+
+      <h2>The Manichean world</h2>
+
+      <p>Fanon's starting point is the spatial and social organization of the colonial city. The settler's quarter and the native's quarter. Clean streets, solid buildings, permanent structures on one side. Mud, overcrowding, impermanence on the other. The line between them is maintained by violence — police, military checkpoints, the ever-present threat of what happens if you cross without permission.</p>
+
+      <p>This is not just poverty. It's a spatial argument about what kind of being you are. The settler's quarter says: these people belong here, their presence is natural, this space was made for them. The native's quarter says: these people are tolerated here, their presence is a problem to be managed, this space is what's left after the real space was taken.</p>
+
+      <p>The colonized person internalizes this message whether they want to or not. It is encoded in every interaction — every time you must show papers, every time you are addressed by your first name by a stranger who expects to be addressed as "sir," every time you enter a space and feel the ambient attention of people who consider your presence out of place. Fanon's clinical observation was that this produces a specific kind of psychic wound: a split between the self you know yourself to be and the self the colonial system reflects back at you.</p>
+
+      <div class="pull">
+        The colony produces a subject.<br/>
+        Not just an exploited worker —<br/>
+        a <strong>particular kind of human being</strong><br/>
+        defined by what they are not.
+      </div>
+
+      <h2>Black Skin, White Masks: the psychology of colonial capture</h2>
+
+      <p>In <em>Black Skin, White Masks</em>, Fanon analyzes what happens when the colonized person tries to resolve that split by assimilation — by becoming, as much as possible, the image the colonizer projects as fully human. In the French colonial context, this meant speaking perfect French, adopting French culture, obtaining French education. The Antillean who returns from France having mastered the language finds that it changes how they are perceived at home — but not how they are perceived in France, where the body is always already marked.</p>
+
+      <p>The trap: the colonized person is invited to aspire to the colonizer's humanity while being structurally prevented from achieving it. The invitation is what makes the system work. Pure coercion — just forbid everything and beat anyone who objects — is costly and unstable. Much more efficient to make the colonized person aspire to something they can approach but never fully reach, so that their energy goes into approaching rather than refusing.</p>
+
+      <p>This is alibi structure applied to psychology. The alibi of colonial capitalism is "civilization" — the colonized are being lifted toward a universal humanity that the colonizer already possesses. The alibi does ideological work by making extraction look like uplift. But it also does psychological work by making the colonized person measure themselves against a standard they cannot meet, generating a perpetual sense of inadequacy that is then attributed to something about them rather than something about the structure.</p>
+
+      <div class="callout">
+        <span class="callout-label">The zone of non-being</span>
+        <p>Fanon describes what he calls the "zone of non-being" — the psychological space occupied by the colonized and racialized person who has been defined as outside the human. This is not poverty, exactly. It's the condition of being treated as something less than a full subject: as an object, a problem, a resource, a body, a statistic.</p>
+        <p>His analysis was later extended by the Martinican philosopher Sylvia Wynter, who showed that the colonial category of "human" was itself a production — a specific historical construction that required a constitutive outside (the non-human, the sub-human, the native) to define itself against. Wynter calls this "the coloniality of being": the way that colonial power structured not just economics and politics but the very categories through which human beings understand themselves and each other. To decolonize, she argues, is not just to redistribute resources or achieve sovereignty — it's to unravel and reconstruct the category of the human itself.</p>
+      </div>
+
+      <h2>The Wretched of the Earth: decolonization and its pitfalls</h2>
+
+      <p><em>The Wretched of the Earth</em>, published the year Fanon died of leukemia at thirty-six, is a different kind of book — more political, more urgent, written as the Algerian war was at its most brutal. It opens with a chapter on violence that has been debated and misread ever since.</p>
+
+      <p>Fanon's argument on violence is diagnostic, not prescriptive. He is not saying that violence is good, or that the colonized should pursue violence as a strategy. He is saying that colonial rule is founded on violence — the spatial division, the paper-checking, the labor coercion, all of it rests ultimately on the threat and use of force — and that decolonization therefore necessarily involves a confrontation with that violence. You cannot politely request the end of a system that is maintained by force. The violence of the independence movement is not injected from outside into an otherwise peaceful situation. It is a response to the prior and ongoing violence of colonial rule.</p>
+
+      <p>The more politically consequential chapters are the ones that don't get quoted as often. "The Pitfalls of National Consciousness" is a devastating analysis of what happens after independence — and it reads like a prophecy of what actually did happen across the decolonized world in the decades after Fanon wrote it.</p>
+
+      <p>The pitfall: independence transfers state power from the colonial administration to a native elite — educated in colonial schools, shaped by colonial aspiration, oriented toward the colonizer's model of development and governance. This elite does not decolonize the state. It inherits it. The routing architecture of extraction remains intact. The surplus that used to flow to European metropoles now flows to a comprador class that has taken over the extraction apparatus and uses it for its own accumulation. Rodney documented the economic dimension of this. Fanon named the political mechanism.</p>
+
+      <div class="pull">
+        The colonized bourgeoisie<br/>doesn't transform the colonial state.<br/>
+        It <strong>moves into it.</strong>
+      </div>
+
+      <p>Fanon's alternative to this trap is what he calls "national consciousness" — not nationalism in the sense of a flag, an anthem, and a dominant ethnic identity, but a collective awareness rooted in the specific experience and culture of the people, capable of building genuinely new institutions rather than inheriting colonial ones. The distinction matters enormously. Nationalism that simply replaces the face at the top of the hierarchy while leaving the hierarchy intact is not liberation. National consciousness that builds from the ground up — from peasant organization, from cultural forms that survived colonialism, from the distributed knowledge of people who know their own lives — is something else.</p>
+
+      <h2>What Fanon adds to the framework</h2>
+
+      <p>Earlier pieces in this series identified the alibi structure as the ideological mechanism that makes capture legible as something other than capture. Fanon shows that the colonial alibi is the most complete form this mechanism has ever taken — because it doesn't just justify extraction, it produces the subject who is extracted from, shapes their self-understanding, and recruits their aspiration into the project of their own subjection.</p>
+
+      <p>This is capture at the deepest level. Not just routing resources through particular channels. Routing the colonized person's desire, aspiration, and self-image through channels that serve the colonial system. The alibi doesn't just face outward (telling the colonizer their project is civilization). It faces inward — it's also a mirror, showing the colonized person a reflection that produces the very inadequacy it claims to describe.</p>
+
+      <p>His warning about the native bourgeoisie applies to every liberation movement that takes over existing institutions without transforming them. The routing question is not just about resources. It's about governance forms. A movement that captures the state but doesn't change the state's relationship to the people it governs has changed the personnel without changing the architecture. That's how most revolutions end. Fanon saw it coming.</p>
+
+      <p>The next piece extends Fanon's analysis of what happens when the alibi drops away entirely — when sovereign power exercises itself without the pretense of civilizing mission or legal order. That is Mbembe's necropolitics: the power not just to govern life but to decide who is exposed to death.</p>
+
+    </div>
+    <div class="article-nav">
+      <a href="underdevelopment-is-a-verb.html" class="nav-link nav-prev">← II — Underdevelopment Is a Verb</a>
+      <a href="who-gets-to-die.html" class="nav-link nav-next">IV — Who Gets to Die →</a>
+    </div>
+    <div class="series-end">
+      <h3>The World the Framework Missed — Series IV</h3>
+      <p>Six pieces applying the commons/capture framework from the South and the East — the places where it was lived before it was theorized.</p>
+      <div class="series-links">
+        <a href="racial-capitalism.html" class="series-link">I — The Outside Was Always People</a>
+        <a href="underdevelopment-is-a-verb.html" class="series-link">II — Underdevelopment Is a Verb</a>
+        <a href="the-alibi-was-a-mirror.html" class="series-link">III — The Alibi Was Also a Mirror</a>
+        <a href="who-gets-to-die.html" class="series-link">IV — Who Gets to Die</a>
+        <a href="the-commons-they-never-stopped-building.html" class="series-link">V — The Commons They Never Stopped Building</a>
+        <a href="build-the-commune-without-the-state.html" class="series-link">VI — Build the Commune Without the State</a>
+      </div>
+    </div>
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+      <span class="series-note">Power Explained — Advanced Track</span>
+    </div>
+  </main>
+</body>
+</html>
