@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonio Gramsci: The Feeling That This Is Just How Things Are — Power Explained</title>
+  <meta name="description" content="You've felt it: the instinct that tells you an idea is unrealistic before you've thought it through. That reflex isn't yours. It was built. Antonio Gramsci spent his life in prison trying to explain how that happens — and what to do about it." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+
+    /* Hero */
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem); position: relative; overflow: hidden; }
+    .hero::before {
+      content: 'GRAMSCI';
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      font-family: var(--display); font-size: clamp(5rem, 22vw, 14rem); font-weight: 700;
+      letter-spacing: -0.04em; opacity: 0.05; white-space: nowrap; pointer-events: none;
+      line-height: 1;
+    }
+    .hero-inner { max-width: var(--max); margin: 0 auto; position: relative; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(242,236,224,0.45); display: block; margin-bottom: 1.5rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,9vw,5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.75rem; }
+    .hero h1 em { font-style: italic; color: rgba(242,236,224,0.7); }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.8vw,1.45rem); font-style: italic; line-height: 1.55; color: rgba(242,236,224,0.72); max-width: 560px; border-top: 1px solid rgba(242,236,224,0.2); padding-top: 1.5rem; margin-top: 0.25rem; }
+    .hero-bio { display: flex; gap: 1.5rem; align-items: flex-start; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(242,236,224,0.15); }
+    .bio-dates { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.35); white-space: nowrap; padding-top: 0.15rem; }
+    .bio-line { font-size: 0.9rem; color: rgba(242,236,224,0.55); line-height: 1.6; }
+
+    /* Contents nav */
+    .contents-nav { border: 1px solid var(--rule-strong); margin: clamp(2rem,5vw,3.5rem) 0 0; }
+    .contents-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--rule); display: block; }
+    .contents-nav ol { list-style: none; }
+    .contents-nav li { border-bottom: 1px solid var(--rule); }
+    .contents-nav li:last-child { border-bottom: none; }
+    .contents-nav a { display: flex; align-items: baseline; gap: 1rem; padding: 0.85rem 1.25rem; text-decoration: none; color: var(--ink); font-size: 0.9rem; line-height: 1.45; transition: background 0.15s; }
+    .contents-nav a:hover { background: var(--paper-mid); color: var(--red); }
+    .contents-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.3); white-space: nowrap; flex-shrink: 0; }
+
+    /* Article body */
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .body-text { padding-top: clamp(2rem,5vw,3.5rem); }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2.1rem); font-weight: 700; line-height: 1.1; margin: 3.5rem 0 1.1rem; scroll-margin-top: 2rem; }
+    .section-anchor { display: block; height: 0; }
+
+    /* Section number labels */
+    .section-kicker { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; margin-top: 3.5rem; }
+    .section-num { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .section-rule { flex: 1; height: 1px; background: var(--rule); }
+
+    /* Pull quote */
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    /* Callout box */
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* The versus block */
+    .versus { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 2.5rem 0; }
+    .versus-side { background: var(--paper); padding: 1.75rem; }
+    .versus-side.false { background: var(--paper-mid); }
+    .versus-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 0.75rem; }
+    .versus-label.red { color: var(--red); }
+    .versus-claim { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.25rem); font-weight: 600; line-height: 1.3; color: var(--ink); margin-bottom: 0.6rem; }
+    .versus-note { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.65); }
+
+    /* The invitation block — dark, final */
+    .invitation { background: var(--ink); color: var(--paper); padding: clamp(2.5rem,6vw,4rem) clamp(2rem,5vw,3rem); margin: 4rem 0 0; }
+    .inv-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(242,236,224,0.4); display: block; margin-bottom: 1.5rem; }
+    .invitation h2 { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.8rem); font-weight: 700; line-height: 1.1; margin-bottom: 1.25rem; }
+    .invitation p { font-size: 0.97rem; line-height: 1.75; opacity: 0.78; margin-bottom: 1rem; max-width: 520px; }
+    .invitation p:last-of-type { margin-bottom: 0; }
+    .inv-coda { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; color: rgba(242,236,224,0.6); margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(242,236,224,0.15); line-height: 1.4; }
+    .inv-coda strong { font-style: normal; color: var(--paper); }
+
+    /* Next reads */
+    .next-reads { border-top: 2px solid var(--ink); padding: 2.5rem 0 0; margin-top: 4rem; }
+    .next-reads-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .next-reads-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+    .next-read { background: var(--paper); padding: 1.5rem; text-decoration: none; color: var(--ink); transition: background 0.15s; }
+    .next-read:hover { background: var(--paper-mid); }
+    .next-read-cat { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.6rem; }
+    .next-read-title { font-family: var(--display); font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
+
+    /* Footnotes */
+    sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a { color: var(--red); text-decoration: none; }
+    sup a:hover { text-decoration: underline; }
+    .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
+
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .hero      { animation: fadeUp 0.5s ease both; animation-delay: 0.05s; }
+    .article-wrap { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
+
+    @media (max-width: 520px) {
+      .versus { grid-template-columns: 1fr; }
+      .next-reads-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Thinkers</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Thinker — Hegemony — The Architecture of Common Sense</span>
+      <h1>The Feeling That<br/><em>This Is Just</em><br/>How Things Are</h1>
+      <p class="hero-dek">You've felt it: the instinct that tells you an idea is unrealistic before you've thought it through. That reflex isn't yours. It was built. Antonio Gramsci spent his life in prison trying to explain how that happens — and what it means that it can be undone.</p>
+      <div class="hero-bio">
+        <span class="bio-dates">1891 — 1937</span>
+        <p class="bio-line">Antonio Gramsci: Sardinian journalist, Communist Party leader, prisoner of Mussolini's fascist state. Arrested in 1926, dead in custody eleven years later. Wrote nearly three thousand pages of notebooks while in prison — on history, culture, education, language, and how power maintains itself without violence. The notebooks were smuggled out after his death and changed how the world thinks about politics.</p>
+      </div>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+
+    <nav class="contents-nav" aria-label="Sections">
+      <span class="contents-label">What's in this piece</span>
+      <ol>
+        <li><a href="#the-reflex"><span class="contents-num">01</span> The reflex that isn't yours</a></li>
+        <li><a href="#gramsci-question"><span class="contents-num">02</span> The question Gramsci couldn't let go</a></li>
+        <li><a href="#what-hegemony-is"><span class="contents-num">03</span> What hegemony actually is</a></li>
+        <li><a href="#where-it-lives"><span class="contents-num">04</span> Where it lives — not in your head, in the furniture</a></li>
+        <li><a href="#the-crack"><span class="contents-num">05</span> When the stitching shows</a></li>
+        <li><a href="#counter"><span class="contents-num">06</span> Counter-hegemony as everyday work</a></li>
+        <li><a href="#what-now"><span class="contents-num">07</span> Once you can see it</a></li>
+      </ol>
+    </nav>
+
+    <div class="body-text">
+
+      <span id="the-reflex" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
+      <h2>The reflex that isn't yours</h2>
+
+      <p>Think about the last time someone floated an idea — maybe about housing, or healthcare, or how a workplace could be structured — and your gut said <em>that's not realistic</em> before you'd actually thought about whether it was. Not an argument. A feeling. The kind of quiet, immediate dismissal that doesn't feel like a decision because it doesn't feel like anything at all. It just feels like knowing.</p>
+
+      <p>That's the thing Gramsci was trying to explain.</p>
+
+      <p>Or think about it the other way: have you ever caught yourself defending an arrangement that costs you — defending your landlord's right to raise your rent, defending a policy that cuts your services, defending a company against its workers — and then, a beat later, wondered why? Not why you said it out loud. Why you believed it, at least for a moment, before you caught yourself?</p>
+
+      <p>These are not failures of intelligence. They are not evidence that you've been fooled. They are evidence that something has been built into the structure of how the world feels — what seems possible, what seems natural, what seems like just the way things are. Gramsci's name for this structure is hegemony. His life's work was understanding how it's built, how it's maintained, and how it sometimes comes apart.</p>
+
+      <span id="gramsci-question" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
+      <h2>The question Gramsci couldn't let go</h2>
+
+      <p>Gramsci came of age in a tradition that expected revolution to be inevitable — that as capitalism produced more suffering, more workers would understand the system clearly and move to replace it. It didn't happen. Worse: in Italy in the 1920s, workers who suffered under capitalism voted for fascism. Not because they were stupid. Because fascism gave them something that felt true, felt urgent, felt like it named their enemy correctly. The left, at that moment, did not.</p>
+
+      <p>The question that consumed Gramsci: why? If the material conditions for change were there, why did the ideological conditions lag so far behind? How does a system that hurts people convince those same people that it is natural, legitimate, even worth defending?<sup><a href="#fn1" id="ref1">1</a></sup></p>
+
+      <p>He was arrested in 1926. Mussolini's prosecutor reportedly said in court: <em>we must stop this brain from functioning for twenty years.</em><sup><a href="#fn2" id="ref2">2</a></sup> What happened instead is that Gramsci, in prison, with limited access to materials, produced a body of work that answered the question in ways that are still being argued about a century later.</p>
+
+      <span id="what-hegemony-is" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">03</span><div class="section-rule"></div></div>
+      <h2>What hegemony actually is</h2>
+
+      <p>Hegemony is a word people use loosely — often just to mean dominance, or influence, or control. Gramsci meant something more specific and stranger: he meant the process by which a ruling group's worldview becomes everyone's common sense.</p>
+
+      <p>Not through force. Not through propaganda you can identify and reject. Through the slower, more thorough process of shaping what feels obvious — what counts as realistic, what counts as extreme, what sounds like common sense and what sounds like ideology. The difference between hegemony and propaganda is that propaganda you know is happening. Hegemony you don't.</p>
+
+      <div class="versus">
+        <div class="versus-side false">
+          <span class="versus-label">Domination through force</span>
+          <div class="versus-claim">The state tells you what to do and punishes you if you don't comply.</div>
+          <div class="versus-note">Visible, resisted, unstable. Requires constant enforcement. People know they're being coerced.</div>
+        </div>
+        <div class="versus-side">
+          <span class="versus-label red">Hegemony</span>
+          <div class="versus-claim">You tell yourself what to do, in the terms someone else built, and it feels like your own judgment.</div>
+          <div class="versus-note">Invisible, internalized, self-reinforcing. The most durable form of power — because you maintain it yourself.</div>
+        </div>
+      </div>
+
+      <p>Gramsci's key distinction is between political society — the state, the army, the police, the courts, everything that can compel you — and civil society — the schools, the churches, the media, the professional norms, the culture that shapes how you understand the world before any of those compulsions are needed. Political society rules by force when it has to. Hegemony operates through civil society, all the time, and mostly doesn't have to.<sup><a href="#fn3" id="ref3">3</a></sup></p>
+
+      <div class="pull">
+        The most powerful ideas<br/>are the ones that feel<br/><strong>like facts about the world</strong><br/>rather than choices about it.
+      </div>
+
+      <p>A concrete example: the phrase <em>there is no alternative</em>. It was used repeatedly in the 1980s to describe market economics — not as an argument that markets were good, but as a statement that alternatives weren't real options. That framing didn't compel anyone. It didn't punish anyone who disagreed. But it shaped what kinds of proposals got taken seriously in policy debates, what journalists treated as mainstream versus fringe, what politicians felt they needed to respond to versus dismiss. Hegemony operates at the level of what's thinkable before anyone decides whether to think it.</p>
+
+      <span id="where-it-lives" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
+      <h2>Where it lives — not in your head, in the furniture</h2>
+
+      <p>This is where the theory gets useful in daily life: hegemony isn't primarily a psychological phenomenon. It isn't about what's in your mind. It's encoded in institutions — in the questions that get asked and the ones that don't, in who gets to speak as an expert and about what, in what a job application assumes about how you'll structure your time, in what a zoning law treats as a normal use of land.</p>
+
+      <p>Think about how a school teaches history: which events are legible as causes of other events, which are treated as background conditions, which people are agents and which are forces. No teacher has to be conspiring to produce a worldview. The curriculum does it. The format of the textbook does it. The standardized test that shapes what the teacher teaches does it. Every child who goes through that system internalizes not just facts but a framework for what kinds of facts count.</p>
+
+      <p>Or think about a performance review. The categories on the form — productivity, initiative, leadership — aren't neutral descriptions of value. They're a particular theory of what makes a worker good, derived from a particular theory of what an organization is for, which is derived from a particular theory of ownership. You don't argue with the categories. You try to score well on them. And in trying to score well, you practice thinking about your work in those terms until they feel like the natural way to think about work.</p>
+
+      <p>This is <a href="the-alibi-was-a-mirror.html" class="xl">the alibi structure</a> operating at the level of lived experience. The system doesn't need to tell you what to think. It needs you to practice being in it long enough that its categories feel like your own.</p>
+
+      <div class="callout">
+        <span class="callout-label">Three places to look for it</span>
+        <p><strong>What gets called realistic.</strong> When a proposal is dismissed as unrealistic, the question worth asking is: realistic according to whose model of how the world works? Markets producing housing efficiently is not a natural law. It's an empirical claim with a specific track record. When "realistic" forecloses the question rather than opening it, that's hegemony at work.</p>
+        <p><strong>What expertise covers.</strong> When an economic crisis is analyzed primarily by economists, a housing shortage by real estate developers, a labor dispute by management consultants, the framing of the problem is already decided before the analysis begins. Expertise as a category has edges — things it treats as its domain and things it treats as someone else's problem. Those edges are not neutral.</p>
+        <p><strong>What counts as political.</strong> Policy proposals are "political." The assumptions embedded in existing institutions are "just how things are." The asymmetry is itself a hegemonic move: it treats the status quo as the absence of a position rather than as one position among several.</p>
+      </div>
+
+      <p>None of this requires anyone to be running a conspiracy. Gramsci's insight — and this is the one most commonly misunderstood — is that hegemony doesn't need central coordination to function. It needs institutions that share enough of the same underlying assumptions that their outputs reinforce each other. Schools and media and professional norms and legal frameworks and architectural standards can all produce a coherent common sense without anyone deciding that they should. The coherence is the product of shared assumptions, not shared intent.</p>
+
+      <span id="the-crack" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
+      <h2>When the stitching shows</h2>
+
+      <p>Hegemony is not a wall. It's a fabric. And fabric has moments when it tears — when the assumptions embedded in institutions become visible because they're suddenly failing to produce what they promised.</p>
+
+      <p>The 2008 financial crisis is a clear example. For a generation, the efficient markets hypothesis — the idea that financial markets correctly price risk and that deregulation allows them to do this better — had functioned hegemically. It wasn't argued for in most policy contexts; it was assumed. Regulators internalized it. Journalists used it as background. It shaped what proposals got serious hearings. Then the crisis happened, and a world-historical amount of wealth evaporated while the institutions that had been deregulating markets scrambled to bail them out, and suddenly the assumption was visible as an assumption. People who had never heard the words "efficient markets hypothesis" found themselves wondering: <em>wait, who decided this was how it was supposed to work?</em></p>
+
+      <p>These are the moments Gramsci called crises of hegemony — not just economic or political crises, but crises of legitimacy, when the common sense that had organized people's expectations breaks down and alternatives become thinkable that weren't before.<sup><a href="#fn4" id="ref4">4</a></sup></p>
+
+      <p>You can look for smaller versions of this everywhere. A neighborhood that <a href="two-ways-to-fix-a-pothole.html" class="xl">organizes itself to solve a problem</a> the city government can't or won't solve produces a visible alternative. A cooperative that works makes "who owns this?" into a question rather than a given. A mutual aid network that <a href="mutual-aid-isnt-charity.html" class="xl">actually feeds people during a crisis</a> makes visible that this was possible all along — which means the absence of it, normally, was a choice, not a necessity.</p>
+
+      <div class="pull">
+        The cracks aren't failures.<br/>They're <strong>the stitching becoming visible.</strong><br/>That's information.
+      </div>
+
+      <p>Learning to read these cracks as data rather than anomalies is one of the most practical skills Gramsci's framework offers. When something that "couldn't work" works, or when something that was supposed to work collapses, the question isn't <em>how do we restore normal?</em> It's <em>what does this tell us about what normal actually was?</em></p>
+
+      <span id="counter" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">06</span><div class="section-rule"></div></div>
+      <h2>Counter-hegemony as everyday work</h2>
+
+      <p>If hegemony is how existing arrangements maintain themselves through culture and institutions, counter-hegemony is the process of building alternative common sense — not just different opinions, but different frameworks for what's natural, realistic, and thinkable.</p>
+
+      <p>Gramsci didn't think this was primarily a matter of winning arguments. It was a matter of building institutions that embody different assumptions — institutions whose daily practice makes a different world seem ordinary. He called this the war of position: not a frontal assault on existing power, but the patient, long-term work of constructing the cultural and institutional conditions in which a different kind of politics becomes possible.<sup><a href="#fn5" id="ref5">5</a></sup></p>
+
+      <p>He also introduced a concept that doesn't translate cleanly but matters enormously: the <em>organic intellectual</em>. Traditional intellectuals are the ones who maintain existing culture — journalists, professors, priests, the people who explain the world from within its existing frameworks. Organic intellectuals are people who emerge from a class or community and articulate its experience in terms that community can recognize and use. They're not necessarily credentialed. They're the person in the neighborhood who explains what the zoning change actually means, the union steward who connects a shop-floor grievance to a broader pattern, the organizer who frames a local problem in a way that suddenly makes it make sense to people who've been living with it for years.</p>
+
+      <div class="callout">
+        <span class="callout-label">What counter-hegemony looks like in practice</span>
+        <p><strong>Naming things differently.</strong> When <a href="hardin-was-wrong.html" class="xl">the commons is described as inefficient</a>, that description does work — it makes enclosure feel like a correction rather than a choice. Naming it as enclosure instead is not just semantic. It changes what questions are available. Language that describes a situation in its own terms rather than the system's terms is counter-hegemonic.</p>
+        <p><strong>Building institutions that assume differently.</strong> A community land trust doesn't argue for housing as a right — it <em>practices</em> it. A worker cooperative doesn't debate whether workers can govern themselves — it does it. <a href="build-it-now.html" class="xl">These institutions produce evidence</a>: evidence that alternatives are not only possible but functional, which means the absence of them elsewhere is a choice, not a given.</p>
+        <p><strong>Producing a different common sense about what's realistic.</strong> This is the long work. Every institution that functions differently, every story that makes a different world legible, every person who names what they're experiencing in terms that connect it to structure rather than personal failure — all of this is building the conditions in which alternatives become thinkable before they become politically possible.</p>
+      </div>
+
+      <p>This is what the commons-wire dispatches are doing — not just reporting on events through the framework, but practicing a different way of reading the news. Every analysis that asks <em>what's being enclosed here, and who benefits from the enclosure?</em> is building a counter-hegemonic vocabulary, one story at a time.</p>
+
+      <p>It's unglamorous work. Gramsci knew this. He was writing from prison, in fragments, with no certainty that anyone would ever read it. The war of position doesn't produce dramatic victories. It produces the conditions for them, slowly, across generations, through the patient construction of a world that more and more people can recognize as possible.</p>
+
+      <span id="what-now" class="section-anchor"></span>
+    </div>
+
+    <div class="invitation">
+      <span class="inv-label">07 — Once You Can See It</span>
+      <h2>What do you do<br/>with that?</h2>
+      <p>Gramsci's framework doesn't come with instructions. It comes with a tool: the ability to notice when you're moving through a structure rather than choosing freely within it. That noticing is not small. Most of the time, hegemony is invisible precisely because it's so complete — when everyone agrees on what's realistic, realism feels like perception rather than politics.</p>
+      <p>Once you start seeing it, you see it everywhere. In what your city funds and what it doesn't. In whose complaints get called policy problems and whose get called personal failures. In which alternatives get serious analysis and which get dismissed as idealistic before the analysis starts. In what your job asks you to optimize for. In what kind of help you think it's appropriate to ask for, and from whom.</p>
+      <p>None of this tells you what to do. That's deliberate. The point of the thinkers on this site — Kropotkin, Ostrom, Graeber, Gramsci — is not to hand you a program. It's to build a set of lenses that make more of the world available to your own thinking. The commons were <a href="the-tradition-they-buried.html" class="xl">buried so thoroughly</a> that we were taught they never existed. They did. They do. The question of how to build them is more tractable once you can see that the main obstacle is a set of assumptions, not a set of facts.</p>
+      <p>What Gramsci was working on, in those prison notebooks, was the question of how a world gets remade at the level where it matters most: not in the laws, first, but in what people believe is possible before they get to the laws. That work is still happening. It's being done in every institution that operates differently, every analysis that names a structure rather than a personal failure, every community that builds something the system said couldn't work.</p>
+      <div class="inv-coda">
+        The world feels like facts.<br/>
+        <strong>It's made of choices.</strong><br/>
+        That's the beginning.
+      </div>
+    </div>
+
+    <nav class="next-reads" aria-label="Continue reading">
+      <span class="next-reads-label">Where to go next</span>
+      <div class="next-reads-grid">
+        <a href="the-alibi-was-a-mirror.html" class="next-read">
+          <span class="next-read-cat">Framework</span>
+          <span class="next-read-title">The Alibi Was a Mirror</span>
+        </a>
+        <a href="kropotkin.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Kropotkin: You Were Lied to About Human Nature</span>
+        </a>
+        <a href="hardin-was-wrong.html" class="next-read">
+          <span class="next-read-cat">The Science</span>
+          <span class="next-read-title">Hardin Was Wrong — The "Tragedy of the Commons" Is a Myth</span>
+        </a>
+        <a href="build-it-now.html" class="next-read">
+          <span class="next-read-cat">Build</span>
+          <span class="next-read-title">Build It Now — What The Alternative Looks Like</span>
+        </a>
+        <a href="two-ways-to-fix-a-pothole.html" class="next-read">
+          <span class="next-read-cat">Practice</span>
+          <span class="next-read-title">Two Ways to Fix a Pothole</span>
+        </a>
+        <a href="https://jedelman.github.io/commons-wire" class="next-read">
+          <span class="next-read-cat">Dispatches</span>
+          <span class="next-read-title">Commons Wire — The Framework Applied to Current Events</span>
+        </a>
+      </div>
+    </nav>
+
+    <section class="footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1">
+          <span class="fn-num">1</span>
+          <span>This question — why revolutionary consciousness lagged behind material conditions — drove the theoretical program of the <em>Prison Notebooks</em>. Gramsci worked on them between 1929 and 1935, filling 33 notebooks with roughly 3,000 pages of fragmentary, coded analysis. The coding was partly to evade censors; the fragmentation was partly a result of deteriorating health and prison conditions. The notebooks were rescued by Gramsci's sister-in-law Tatiana Schucht after his death and eventually published in Italian beginning in the 1940s. The standard English translation is <strong>Selections from the Prison Notebooks</strong>, edited and translated by Quintin Hoare and Geoffrey Nowell Smith (Lawrence &amp; Wishart, 1971). Readers should be aware that the <em>Selections</em> is exactly that — a partial and editorially arranged excerpt. The full notebooks are more fragmented and more contested than the curated version suggests. <a href="#ref1" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn2">
+          <span class="fn-num">2</span>
+          <span>The prosecutor's statement — attributed to Michele Isgro — is widely quoted in Gramsci scholarship but the original court transcript is not easily accessible in English. The phrase circulates as: <em>per vent'anni dobbiamo impedire a questo cervello di funzionare</em> ("for twenty years we must stop this brain from functioning"). Gramsci died in 1937, eleven years after his arrest in November 1926, under house arrest after years of severe deterioration. He was 46. The most thorough English-language biography is <strong>Antonio Gramsci: Life of a Revolutionary</strong> by Giuseppe Fiori, translated by Tom Nairn (Verso, 1990). <a href="#ref2" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn3">
+          <span class="fn-num">3</span>
+          <span>The distinction between political society and civil society, and the role of each in maintaining class rule, is developed across several sections of the <em>Prison Notebooks</em>. Gramsci's formulation is not a clean binary — he's explicit that the two spheres interpenetrate and that hegemony in civil society is always backed by the potential coercion of political society. The key point is that the most stable and efficient form of power operates primarily through the first so that the second is rarely required. For a clear secondary analysis, see <strong>Gramsci's Political Thought</strong> by Roger Simon (Lawrence &amp; Wishart, 1982), which remains one of the most accessible introductions to the concepts. <a href="#ref3" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn4">
+          <span class="fn-num">4</span>
+          <span>Gramsci uses the term "organic crisis" for the deeper crises in which hegemony itself fractures — when the leading group loses the consent of the allied groups that have been won over to its worldview and interests. His analysis of the conditions for these crises is in the sections of the <em>Prison Notebooks</em> dealing with the "Modern Prince" and with the analysis of Italian history. The concept was extended and applied to contemporary politics by Stuart Hall and colleagues in <strong>Policing the Crisis</strong> (Macmillan, 1978), which remains an exemplary demonstration of Gramscian analysis applied to a specific historical conjuncture. <a href="#ref4" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn5">
+          <span class="fn-num">5</span>
+          <span>The war of position/war of maneuver distinction is one of Gramsci's most cited and most contested concepts. In simplified form: the war of maneuver is a frontal assault on state power (Gramsci associated this with the Bolshevik model, which he saw as suited to conditions where civil society was weak and the state was the primary terrain of power); the war of position is a long, patient struggle for cultural and institutional dominance in societies where civil society is dense and complex. Gramsci's argument was that the war of maneuver was not viable in Western European conditions and that the left had to fight the war of position first. This is sometimes read as a reformist position; it is more accurately a strategic argument about what kind of organizing work produces durable conditions for transformation. <a href="#ref5" aria-label="Return to text">↩</a></span>
+        </li>
+      </ol>
+    </section>
+
+    <footer class="article-footer">
+      <a href="index.html" class="back-link">Back to Power Explained</a>
+      <span class="series-note">Thinkers — Antonio Gramsci — Selections from the Prison Notebooks (1929–1935, published 1971)</span>
+    </footer>
+
+  </main>
+</body>
+</html>
