@@ -379,7 +379,204 @@
       transform: none;
     }
 
-    /* ── Responsive ── */
+    /* ── Entry Points grid ── */
+    .entry-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule-strong);
+      border: 1px solid var(--rule-strong);
+      margin-top: 0;
+    }
+
+    .entry-card {
+      background: var(--paper);
+      padding: 2rem 1.75rem;
+      text-decoration: none;
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: background 0.15s;
+    }
+
+    .entry-card:hover { background: var(--paper-mid); }
+
+    .entry-card-label {
+      font-family: var(--mono);
+      font-size: 0.56rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+
+    .entry-card-title {
+      font-family: var(--display);
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .entry-card-desc {
+      font-size: 0.88rem;
+      line-height: 1.65;
+      color: rgba(26,23,20,0.7);
+      flex: 1;
+    }
+
+    .entry-card-cta {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+
+    /* ── Thinkers grid ── */
+    .thinker-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--ink);
+      border: 1px solid var(--ink);
+    }
+
+    .thinker-card {
+      background: var(--paper-dark);
+      padding: 2rem 1.75rem;
+      text-decoration: none;
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: background 0.15s;
+    }
+
+    .thinker-card:hover { background: var(--paper-mid); }
+
+    .thinker-card-eyebrow {
+      font-family: var(--mono);
+      font-size: 0.54rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+
+    .thinker-card-name {
+      font-family: var(--display);
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .thinker-card-dates {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.08em;
+      color: rgba(26,23,20,0.4);
+    }
+
+    .thinker-card-desc {
+      font-size: 0.88rem;
+      line-height: 1.65;
+      color: rgba(26,23,20,0.72);
+      flex: 1;
+      padding-top: 0.25rem;
+      border-top: 1px solid var(--rule);
+      margin-top: 0.25rem;
+    }
+
+    .thinker-card-cta {
+      font-family: var(--mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+
+    /* ── Case study cards ── */
+    .case-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule-strong);
+      margin-top: 1rem;
+    }
+
+    .case-card {
+      background: var(--paper);
+      padding: 1.5rem;
+      text-decoration: none;
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: background 0.15s;
+    }
+
+    .case-card:hover { background: var(--paper-mid); }
+
+    .case-card-label {
+      font-family: var(--mono);
+      font-size: 0.54rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(26,23,20,0.4);
+    }
+
+    .case-card-title {
+      font-family: var(--display);
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .case-card-desc {
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: rgba(26,23,20,0.65);
+    }
+
+    /* ── Series IV fix ── */
+    .pieces-section {
+      padding: clamp(2rem, 5vw, 3rem) 0;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding-left: var(--gutter);
+      padding-right: var(--gutter);
+    }
+
+    .pieces-grid {
+      display: grid;
+      gap: 0;
+    }
+
+    .piece-card {
+      padding: clamp(1.5rem, 4vw, 2.5rem) 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .piece-card:last-child { border-bottom: none; }
+
+    .piece-kicker {
+      margin-bottom: 0.6rem;
+    }
+
+    .kicker-label {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--red);
+    }
+
+    @media (max-width: 600px) {
+      .entry-grid { grid-template-columns: 1fr; }
+      .thinker-grid { grid-template-columns: 1fr; }
+      .case-grid { grid-template-columns: 1fr 1fr; }
+    }
+
     @media (max-width: 480px) {
       .piece-number { font-size: 3.5rem; }
     }
@@ -392,7 +589,8 @@
     <div class="container">
       <a href="/" class="site-name">Power Explained</a>
       <span class="issue-line">An honest look at how things work</span>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;">Glossary</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
     </div>
   </header>
 
@@ -419,6 +617,35 @@
       It can capture those things. It can profit from them.
       But it can't fake them.
     </blockquote>
+  </div>
+
+  <!-- Entry Points -->
+  <div style="border-bottom: 1px solid var(--rule-strong); padding: 1.5rem var(--gutter) 0.75rem;">
+    <div class="container" style="max-width:var(--max);">
+      <span style="font-family:var(--mono);font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,23,20,0.4);">Start where you are</span>
+    </div>
+  </div>
+  <div style="max-width:var(--max);margin:0 auto;padding:0 var(--gutter) 0;">
+    <div class="entry-grid">
+      <a href="for-normies.html" class="entry-card">
+        <span class="entry-card-label">Entry Point</span>
+        <span class="entry-card-title">Why Everything Costs So Much</span>
+        <span class="entry-card-desc">Housing, healthcare, wages. It's not bad luck. Start here if you're new to all of this.</span>
+        <span class="entry-card-cta">Read →</span>
+      </a>
+      <a href="for-libertarians.html" class="entry-card">
+        <span class="entry-card-label">Entry Point</span>
+        <span class="entry-card-title">For People Who Think the Government Is the Problem</span>
+        <span class="entry-card-desc">You're half right. The state and the market are the same problem. The alternative isn't either of them.</span>
+        <span class="entry-card-cta">Read →</span>
+      </a>
+      <a href="for-environmentalists.html" class="entry-card">
+        <span class="entry-card-label">Entry Point</span>
+        <span class="entry-card-title">For People Who Love Living Things</span>
+        <span class="entry-card-desc">The ecological crisis and the social crisis are the same crisis. Here's the argument and the evidence.</span>
+        <span class="entry-card-cta">Read →</span>
+      </a>
+    </div>
   </div>
 
   <!-- Core sections -->
@@ -788,13 +1015,83 @@
     </div>
   </section>
 
+  <!-- Thinkers -->
+  <div style="background:var(--paper-dark);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:2rem var(--gutter);text-align:center;">
+    <div class="container" style="display:flex;flex-direction:column;align-items:center;gap:0.75rem;">
+      <span style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.14em;text-transform:uppercase;opacity:0.5;">Thinkers</span>
+      <span style="font-family:var(--display);font-size:clamp(1.4rem,4vw,2rem);font-weight:700;font-style:italic;">The Three Master Keys</span>
+      <span style="font-family:var(--mono);font-size:0.65rem;letter-spacing:0.06em;text-transform:uppercase;opacity:0.5;max-width:480px;line-height:1.7;">Kropotkin showed that cooperation is natural. Ostrom proved communities can govern themselves. Graeber named what you're already doing.</span>
+    </div>
+  </div>
+  <div style="max-width:var(--max);margin:0 auto;padding:0 var(--gutter);">
+    <div class="thinker-grid">
+      <a href="kropotkin.html" class="thinker-card">
+        <span class="thinker-card-eyebrow">Science — Mutual Aid</span>
+        <span class="thinker-card-name">Peter Kropotkin</span>
+        <span class="thinker-card-dates">1842 — 1921</span>
+        <span class="thinker-card-desc">The story you were told about human nature — competition, hierarchy, survival of the fittest — is false. The evidence says so. Start here if the world breaking open scares you.</span>
+        <span class="thinker-card-cta">Read →</span>
+      </a>
+      <a href="ostrom.html" class="thinker-card">
+        <span class="thinker-card-eyebrow">Economics — Governing the Commons</span>
+        <span class="thinker-card-name">Elinor Ostrom</span>
+        <span class="thinker-card-dates">1933 — 2012</span>
+        <span class="thinker-card-desc">Hardin's model was wrong. Ostrom spent thirty years proving it — Swiss villages, Japanese forests, Spanish water courts, all still running. Nobel Prize 2009. The argument from evidence.</span>
+        <span class="thinker-card-cta">Read →</span>
+      </a>
+      <a href="graeber.html" class="thinker-card">
+        <span class="thinker-card-eyebrow">Anthropology — Prefigurative Politics</span>
+        <span class="thinker-card-name">David Graeber</span>
+        <span class="thinker-card-dates">1961 — 2020</span>
+        <span class="thinker-card-desc">The meeting you ran last week with rotating facilitation and horizontal decision-making — that was political theory in action. Here's what it's called and why it works.</span>
+        <span class="thinker-card-cta">Read →</span>
+      </a>
+    </div>
+  </div>
+
   <!-- Case Studies divider -->
   <div style="background:var(--ink);color:var(--paper);padding:2rem var(--gutter);text-align:center;">
     <div class="container" style="display:flex;flex-direction:column;align-items:center;gap:0.75rem;">
       <span style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.14em;text-transform:uppercase;opacity:0.75;">Case Studies — Power in Practice</span>
       <span style="font-family:var(--display);font-size:clamp(1.4rem,4vw,2rem);font-weight:700;font-style:italic;">It Has Been Done</span>
       <span style="font-family:var(--mono);font-size:0.65rem;letter-spacing:0.06em;text-transform:uppercase;opacity:0.75;max-width:480px;line-height:1.7;">Six places where people built something different — and what survived. Not inspiration. Evidence.</span>
-      <a href="case-studies.html" style="margin-top:0.5rem;font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--paper);text-decoration:none;padding:0.6rem 1.2rem;border:1px solid rgba(242,236,224,0.4);">Read the case studies →</a>
+    </div>
+  </div>
+  <div style="max-width:var(--max);margin:0 auto;padding:0 var(--gutter) clamp(2rem,5vw,3rem);">
+    <div class="case-grid">
+      <a href="case-study-zapatistas.html" class="case-card">
+        <span class="case-card-label">Chiapas, Mexico — 1994 to present</span>
+        <span class="case-card-title">The Zapatistas</span>
+        <span class="case-card-desc">Thirty years of autonomous governance. No state capture. Still there.</span>
+      </a>
+      <a href="case-study-rojava.html" class="case-card">
+        <span class="case-card-label">Northern Syria — 2012 to present</span>
+        <span class="case-card-title">Rojava</span>
+        <span class="case-card-desc">Four million people. Commune system. Women's revolution built into the constitution. Under bombardment.</span>
+      </a>
+      <a href="case-study-occupy.html" class="case-card">
+        <span class="case-card-label">US &amp; Worldwide — 2011</span>
+        <span class="case-card-title">Occupy Wall Street</span>
+        <span class="case-card-desc">The camps were cleared. The networks weren't. What it built and what it didn't.</span>
+      </a>
+      <a href="case-study-india.html" class="case-card">
+        <span class="case-card-label">India — 1957 to present</span>
+        <span class="case-card-title">The Kerala Model</span>
+        <span class="case-card-desc">Health and education outcomes that outpace countries ten times richer. Built through distributed governance.</span>
+      </a>
+      <a href="case-study-chile.html" class="case-card">
+        <span class="case-card-label">Chile — 2019 to 2022</span>
+        <span class="case-card-title">The Chilean Uprising</span>
+        <span class="case-card-desc">The social explosion, the constitutional process, and what the defeat revealed about prefigurative limits.</span>
+      </a>
+      <a href="case-study-myanmar.html" class="case-card">
+        <span class="case-card-label">Myanmar — 2021 to present</span>
+        <span class="case-card-title">The Spring Revolution</span>
+        <span class="case-card-desc">After the coup: mutual aid, parallel governance, and the Civil Disobedience Movement.</span>
+      </a>
+    </div>
+    <div style="text-align:center;padding:1.5rem 0 0;">
+      <a href="case-studies.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.5);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.5)'">All case studies →</a>
     </div>
   </div>
 
@@ -805,9 +1102,10 @@
       <p>Thirty-three pieces across four series plus case studies. Power, capture, the commons — and what to do about all of it.</p>
       <div class="cta-buttons">
         <a href="why-your-city-doesnt-work.html" class="btn btn-primary">Start from the beginning</a>
+        <a href="kropotkin.html" class="btn btn-secondary">Thinkers</a>
         <a href="the-outside-capital-needs.html" class="btn btn-secondary">Series II — The Hidden Engine</a>
         <a href="they-were-right-about-the-problem.html" class="btn btn-secondary">Series III — Against Authoritarianism</a>
-        <a href="case-studies.html" class="btn btn-secondary">Case Studies — Power in Practice</a>
+        <a href="case-studies.html" class="btn btn-secondary">Case Studies</a>
       </div>
     </div>
   </section>
