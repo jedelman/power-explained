@@ -63,6 +63,17 @@
 
     .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
+    sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a { color: var(--red); text-decoration: none; }
+    sup a:hover { text-decoration: underline; }
+    .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
   </style>
 </head>
 <body>
@@ -90,7 +101,7 @@
 
       <h2>The prefigurative claim</h2>
 
-      <p>Prefigurative politics is the idea that you build the world you want to live in by living in it — now, in the present, in the interstices of the current system. You don't wait for the revolution to start building institutions of collective self-governance. You build them in the present, with the people you have, in the conditions you're actually in.</p>
+      <p><a href="glossary.html#prefigurative" class="xl">Prefigurative politics</a> is the idea that you build the world you want to live in by living in it — now, in the present, in the interstices of the current system. You don't wait for the revolution to start building institutions of collective self-governance. You build them in the present, with the people you have, in the conditions you're actually in.</p>
 
       <p>This is not a consolation prize for people who gave up on real politics. It's a specific claim about how change at scale actually happens, based on the historical record of what actually works.</p>
 
@@ -108,9 +119,9 @@
 
       <p>The same logic applies to housing. <strong>Tenant unions and housing cooperatives</strong> both attack the same thing: the landlord's power derives entirely from the fact that you need housing and there's no alternative to paying him for it. Tenant organizing makes eviction costly and collective action feasible. Housing cooperatives route housing outside the rental market entirely. Both reduce dependence on an extraction mechanism. Both build organizational capacity. Both make the existing arrangement less necessary.</p>
 
-      <p>Extend it to the economy as a whole. <strong>Worker cooperatives and solidarity economy networks</strong> route economic activity through collectively owned institutions rather than capitalist firms. This is not a fantasy — there are large successful worker cooperatives operating in almost every sector of the economy. Mondragon in Spain's Basque Country is the famous example — a federation of over a hundred cooperatives employing roughly 80,000 people across manufacturing, retail, and finance — but there are thousands of others. The goal is not to individually opt out of capitalism but to build sectors of the economy that operate on different principles and create real alternatives for people who need them.</p>
+      <p>Extend it to the economy as a whole. <strong>Worker cooperatives and solidarity economy networks</strong> route economic activity through collectively owned institutions rather than capitalist firms. This is not a fantasy — there are large successful worker cooperatives operating in almost every sector of the economy. Mondragon in Spain's Basque Country is the famous example — a federation of over a hundred cooperatives employing roughly 80,000 people across manufacturing, retail, and finance<sup><a href="#fn1" id="ref1">1</a></sup> — but there are thousands of others. The goal is not to individually opt out of capitalism but to build sectors of the economy that operate on different principles and create real alternatives for people who need them.</p>
 
-      <p>And extend it to harm and accountability. <strong>Transformative justice and community accountability</strong> processes address harm without calling the police — routing justice through horizontal relationships rather than state coercion. Over time, these build the organizational infrastructure — the capacity to address conflict collectively, to hold people accountable without caging them, to repair relationships rather than severing them — that makes the carceral system less necessary. <a href="what-we-do-on-monday.html" class="xl">Mariame Kaba's work</a> is the clearest account of how this already operates in practice.</p>
+      <p>And extend it to harm and accountability. <strong><a href="glossary.html#transformative-justice" class="xl">Transformative justice and community accountability</a></strong> processes address harm without calling the police — routing justice through horizontal relationships rather than state coercion. Over time, these build the organizational infrastructure — the capacity to address conflict collectively, to hold people accountable without caging them, to repair relationships rather than severing them — that makes the carceral system less necessary. <a href="what-we-do-on-monday.html" class="xl">Mariame Kaba's work</a><sup><a href="#fn3" id="ref3">3</a></sup> is the clearest account of how this already operates in practice.</p>
 
       <h2>The honest accounting</h2>
 
@@ -122,7 +133,7 @@
 
       <div class="callout">
         <span class="callout-label">The Zapatistas</span>
-        <p>On January 1, 1994 — the day NAFTA took effect — the Zapatista Army of National Liberation seized several towns in Chiapas, Mexico, and issued a declaration of war against the Mexican state. Then they did something unusual: they stopped trying to seize state power and started building autonomous governance in the territories they controlled.</p>
+        <p>On January 1, 1994 — the day NAFTA took effect<sup><a href="#fn2" id="ref2">2</a></sup> — the Zapatista Army of National Liberation seized several towns in Chiapas, Mexico, and issued a declaration of war against the Mexican state. Then they did something unusual: they stopped trying to seize state power and started building autonomous governance in the territories they controlled.</p>
         <p>For thirty years, the Zapatista communities have been running their own schools, health clinics, justice systems, and economic institutions — without state resources, against sustained military pressure, in extreme poverty. It's not a model that scales straightforwardly. But it's a demonstration that complex self-governance is possible under conditions far more difficult than most political organizing faces.</p>
         <p>The Zapatistas are also explicit about the prefigurative claim: they are not trying to seize the Mexican state. They are building, in the territory they hold, the kind of society they want to live in. "Preguntando caminamos" — asking, we walk. The path is made by walking.</p>
       </div>
@@ -142,6 +153,14 @@
       <p>The system depends on the commons. The commons can be rebuilt. That is where every genuine alternative begins — not after the revolution, but now, in the work that's already underway.</p>
 
     </div>
+    <section class="footnotes" aria-label="Footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1"><span class="fn-num">1</span><span>Mondragon Corporation was founded in 1956 by Father José María Arizmendiarrieta in Arrasate-Mondragón, Basque Country. The figures frequently cited in the literature — roughly 80,000 employees across 100+ cooperatives — reflect the period before 2022, when ULMA Group and Orona departed from the cooperative federation. As of 2023, Mondragon comprises approximately 81 cooperatives with roughly 70,000 worker-owners across manufacturing, retail, finance, and education. Annual reports are published at mondragon.com. The standard critical analysis is Sharryn Kasmir, <em>The Myth of Mondragón: Cooperatives, Politics, and Working-Class Life in a Basque Town</em> (SUNY Press, 1996), which argues that worker ownership has not eliminated workplace hierarchy or conflict. George Cheney's <em>Values at Work</em> (ILR Press, 1999) provides a more balanced assessment. <a href="#ref1">↩</a></span></li>
+        <li id="fn2"><span class="fn-num">2</span><span>The Ejército Zapatista de Liberación Nacional (EZLN) issued its declaration and occupied San Cristóbal de las Casas and several other Chiapas municipalities on January 1, 1994, the day NAFTA entered into force. The EZLN's <em>Primera Declaración de la Selva Lacandona</em> identified NAFTA's agricultural provisions as "a death sentence for the indigenous peoples of Mexico." The Mexican army retook the occupied towns within days; the Zapatistas have since controlled rural territories in highland and jungle Chiapas. They established the Juntas de Buen Gobierno (Good Government Councils) in 2003 as formal autonomous governance structures. Their slogan "Preguntando caminamos" (Asking, we walk; or: We make the path by walking) is generally attributed to Subcomandante Marcos, drawing on the earlier Antonio Machado line "Caminante, son tus huellas el camino, y nada más." <a href="#ref2">↩</a></span></li>
+        <li id="fn3"><span class="fn-num">3</span><span>Kaba, Mariame. <em>We Do This 'Til We Free Us: Abolitionist Organizing and Transformative Justice</em>. Edited by Tamara K. Nopper. Chicago: Haymarket Books, 2021. Kaba is a co-founder of Project NIA (focused on ending youth incarceration) and Survived &amp; Punished (supporting criminalized survivors of violence). The book collects essays and interviews spanning her decades of organizing work. Her essay "So You're Thinking About Becoming an Abolitionist" provides the most accessible entry point to her framework; "Yes, We Mean Literally Abolish the Police" (New York Times, 2020) is the most widely read statement of the abolitionist position. <a href="#ref3">↩</a></span></li>
+      </ol>
+    </section>
     <div class="article-nav">
       <a href="the-tradition-they-buried.html" class="nav-link nav-prev">← III — The Tradition They Buried</a>
       <a href="hardin-was-wrong.html" class="nav-link nav-next">V — The Evidence →</a>

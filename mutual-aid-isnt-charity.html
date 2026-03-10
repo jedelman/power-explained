@@ -282,6 +282,19 @@
     h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
     .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
     .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+    sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a { color: var(--red); text-decoration: none; }
+    sup a:hover { text-decoration: underline; }
+    .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
   </style>
 </head>
 <body>
@@ -367,7 +380,7 @@
 
       <p>Markets provide services to people who can pay for them. Governments provide services to people who qualify for them. Mutual aid provides support to people who are part of the community — which is a completely different criterion, and a much harder one to fail.</p>
 
-      <p>That's also why it's repeatedly been targeted for suppression. The Black Panther Party's free breakfast program fed tens of thousands of children every day before the government called it a threat and worked to destroy it. The FBI's own documents show they understood that feeding children was building community loyalty that competed with state authority. The mutual aid was working. That's exactly why it had to go.</p>
+      <p>That's also why it's repeatedly been targeted for suppression. The Black Panther Party's free breakfast program fed tens of thousands of children every day before the government called it a threat and worked to destroy it.<sup><a href="#fn1" id="ref1">1</a></sup> The FBI's own documents show they understood that feeding children was building community loyalty that competed with state authority.<sup><a href="#fn2" id="ref2">2</a></sup> The mutual aid was working. That's exactly why it had to go.</p>
 
       <div class="callout">
         <span class="callout-label">A live example</span>
@@ -386,7 +399,7 @@
 
       <p>That last part matters for power in a specific way. A community with functioning mutual aid infrastructure is harder to control through scarcity. If your food, your childcare, your sick care, your emergency resources run through relationships you control — the levers that usually produce compliance become less effective. You have less reason to accept bad terms. You have more capacity to refuse.</p>
 
-      <p>This isn't theory. It's why every authoritarian project, in every era, has targeted mutual aid networks. Not because they're violent or threatening in any conventional sense — but because they represent a community that is less dependent on the systems that demand deference.</p>
+      <p>This isn't theory. It's why every authoritarian project, in every era, has targeted mutual aid networks. Not because they're violent or threatening in any conventional sense — but because they represent a community that is less dependent on the systems that demand deference. <a href="the-outside-capital-needs.html" class="xl">That dependence is the system's power source.</a> Mutual aid is what drains it.</p>
 
       <h2>Where to start</h2>
 
@@ -401,6 +414,14 @@
       <p><strong>The meeting is the infrastructure.</strong> The care is the politics. The community is the point.</p>
 
     </div>
+
+    <section class="footnotes" aria-label="Footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1"><span class="fn-num">1</span><span>The BPP Free Breakfast for School Children Program launched in January 1969 at St. Augustine's Episcopal Church in Oakland. By November 1969, it operated in 23 cities; at its peak in 1971, it served roughly 20,000 children per day across approximately 36 cities. Primary source: Joshua Bloom and Waldo Martin, <em>Black against Empire: The History and Politics of the Black Panther Party</em> (University of California Press, 2013). The program is credited as a direct impetus for the expansion of the federal school breakfast program: the BPP shamed the government into action by demonstrating that a revolutionary organization could feed children more effectively than the state. The program was eventually phased out as the party declined under COINTELPRO pressure; the BPP formally dissolved in 1982. <a href="#ref1">↩</a></span></li>
+        <li id="fn2"><span class="fn-num">2</span><span>The FBI's characterization of the breakfast program as a threat comes from COINTELPRO documents. J. Edgar Hoover described the BPP as "the greatest threat to the internal security of the country" in 1968. Internal FBI documents — released through FOIA requests, civil suits, and the 1971 burglary of the Media, Pennsylvania field office — show that Hoover directed agents to "neutralize" the breakfast program specifically because it was "the best and most influential activity going for the BPP" and was building community support. Note that the full COINTELPRO files on the BPP remain classified; the documentary record comes primarily from partially redacted documents, the 1976 Church Committee report, and subsequent lawsuits. See Ward Churchill and Jim Vander Wall, <em>Agents of Repression: The FBI's Secret Wars Against the Black Panther Party and the American Indian Movement</em> (South End Press, 1990). <a href="#ref2">↩</a></span></li>
+      </ol>
+    </section>
 
     <div class="article-footer">
       <a href="index.html" class="back-link">Back to all pieces</a>
