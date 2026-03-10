@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For People Who Build the Internet — Power Explained</title>
+  <meta name="description" content="You already understand open source: shared resources, governed by contributors, producing value nobody owns. That's the argument. Applied to housing, healthcare, cities, and everything else." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem); position: relative; overflow: hidden; }
+    .hero::before { content: 'OPEN'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-family: var(--display); font-size: clamp(5rem,22vw,14rem); font-weight: 700; letter-spacing: -0.04em; opacity: 0.05; white-space: nowrap; pointer-events: none; }
+    .hero-inner { max-width: var(--max); margin: 0 auto; position: relative; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(242,236,224,0.45); display: block; margin-bottom: 1.5rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,9vw,5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.75rem; }
+    .hero h1 em { font-style: italic; color: rgba(242,236,224,0.7); }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.8vw,1.45rem); font-style: italic; line-height: 1.55; color: rgba(242,236,224,0.72); max-width: 560px; border-top: 1px solid rgba(242,236,224,0.2); padding-top: 1.5rem; }
+
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .body-text { padding-top: clamp(2rem,5vw,3.5rem); }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2.1rem); font-weight: 700; line-height: 1.1; margin: 3rem 0 1rem; }
+
+    .section-kicker { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; margin-top: 3rem; }
+    .section-num { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .section-rule { flex: 1; height: 1px; background: var(--rule); }
+
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+
+    .versus { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 2.5rem 0; }
+    .versus-side { background: var(--paper); padding: 1.75rem; }
+    .versus-side.dim { background: var(--paper-mid); }
+    .versus-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 0.75rem; }
+    .versus-label.red { color: var(--red); }
+    .versus-claim { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; line-height: 1.3; margin-bottom: 0.5rem; }
+    .versus-note { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.65); }
+
+    .read-more { background: var(--paper-dark); border-top: 2px solid var(--ink); padding: clamp(2rem,5vw,3.5rem) var(--gutter); margin-top: 4rem; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.3rem,3vw,1.8rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .read-more p { font-size: 0.95rem; line-height: 1.75; margin-bottom: 1.5rem; color: rgba(26,23,20,0.75); }
+    .read-links { display: flex; flex-direction: column; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; padding: 0.75rem 1rem; border: 1px solid var(--rule-strong); background: var(--paper); display: block; transition: background 0.15s; }
+    .read-link-btn:hover { background: var(--paper-mid); color: var(--red); }
+
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 0; padding: 2rem var(--gutter) 3rem; max-width: 100%; }
+    .article-footer-inner { max-width: var(--max); margin: 0 auto; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .hero { animation: fadeUp 0.5s ease both; }
+    .article-wrap { animation: fadeUp 0.6s ease both; animation-delay: 0.15s; }
+
+    @media (max-width: 520px) {
+      .versus { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.4);">Entry Point</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Entry Point — Tech Workers — Open Source as Political Theory</span>
+      <h1>You Already<br/>Understand <em>This</em></h1>
+      <p class="hero-dek">Open source: shared resources, governed by contributors, producing value that no single actor owns. Linux runs the internet. Wikipedia has outcompeted every encyclopedia ever funded. The argument works. You already know it. This is what it looks like applied to everything else.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
+      <h2>The thing you built your career on</h2>
+
+      <p>Linux was written by thousands of contributors who weren't paid to write it, don't own it, and can't be excluded from using it. It now runs the majority of the world's servers, every Android phone, and the infrastructure of most of the internet economy. The companies that depend on it contributed back, or they didn't, but the kernel kept compiling either way.</p>
+
+      <p>This is a governance success story. A shared resource, maintained collectively, producing value at a scale no private actor could have funded or controlled. The "tragedy of the commons" — <a href="hardin-was-wrong.html" class="xl">which was never an accurate description of actual commons governance anyway</a> — does not describe Linux. It doesn't describe Wikipedia, or the TCP/IP stack, or HTTPS, or the programming languages most of your codebase runs on.</p>
+
+      <p>The open source model works because it solves a genuine governance problem: how do you maintain a shared resource when contributors have heterogeneous incentives, no one owns the output, and the cost of defection is low? The answer, it turns out, is not private property or state control. It's <a href="ostrom.html" class="xl">a specific set of institutional arrangements</a> — clear contribution rules, transparent governance, mechanisms for resolving disputes, and norms that make free-riding costly enough that most contributors don't.</p>
+
+      <p><a href="how-linux-became-the-internet.html" class="xl">This site has a piece on exactly that.</a> But the argument extends further than software.</p>
+
+      <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
+      <h2>The enclosure of the commons you built</h2>
+
+      <p>Here's the pattern you've watched happen in real time: a commons gets built — open protocols, shared infrastructure, network effects generated by millions of users — and then a platform encloses it. Extracts value from it. Routes everything through a proprietary layer that charges rent for access to what was built collectively.</p>
+
+      <p>Twitter's API was open. Developers built a whole ecosystem on it. Then the API got paywalled, the ecosystem got destroyed, and the platform extracted the value those developers had created. Facebook's news feed was a commons of attention and social connection; it got enclosed into an advertising auction. App stores take 30% of revenue from developers building on shared infrastructure the developers' own customers purchased.</p>
+
+      <div class="versus">
+        <div class="versus-side dim">
+          <span class="versus-label">The commons phase</span>
+          <div class="versus-claim">Open API. Developer ecosystem. Network effects built by users. Platform grows on shared contribution.</div>
+          <div class="versus-note">Value created collectively. Access open. Rules stable enough to build on.</div>
+        </div>
+        <div class="versus-side">
+          <span class="versus-label red">The enclosure phase</span>
+          <div class="versus-claim">API paywalled. Terms changed. Value extracted. Developers locked out or charged rent to access what they built.</div>
+          <div class="versus-note">This is not a bug or a betrayal. It's the business model. <a href="glossary.html#capture" class="xl">Capture</a> was always the plan.</div>
+        </div>
+      </div>
+
+      <p>This is <a href="glossary.html#primitive-accumulation" class="xl">primitive accumulation</a> in digital form — the process by which a commons gets converted into private property. It happened to common land in England across three centuries. It's happening to digital infrastructure in real time, and you have a front-row seat.</p>
+
+      <p><a href="open-data-isnt-enough.html" class="xl">Open data is not enough.</a> Transparency without governance is just a better-looking black box. What makes a commons a commons is not that you can see it — it's that the people who depend on it have meaningful say in how it's run.</p>
+
+      <div class="section-kicker"><span class="section-num">03</span><div class="section-rule"></div></div>
+      <h2>The AI enclosure is happening right now</h2>
+
+      <p>The large language models were trained on the commons: the accumulated written output of millions of people across decades of public internet. Stack Overflow answers, Wikipedia articles, GitHub repositories, forum posts, blog entries, academic papers. None of those contributors were compensated. None of them consented to their work being used as training data. The value of the commons — the accumulated knowledge infrastructure of the internet — was ingested and converted into proprietary weights.</p>
+
+      <p>This is not a legal argument. It may or may not be copyright infringement in any particular jurisdiction. It is a commons argument: a shared resource was treated as free input for private extraction, and the people who built the resource have no governance over the output.</p>
+
+      <p>The federated web — ActivityPub, AT Protocol, the network of Mastodon instances and other decentralized platforms — is a live experiment in the alternative. Not perfect. Not yet at scale for most uses. But architecturally committed to the principle that the governance of the infrastructure should belong to the people who depend on it, not to a platform with different incentives.</p>
+
+      <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
+      <h2>The same argument, applied to everything</h2>
+
+      <p>Housing works the same way. A neighborhood's value — its walkability, its social fabric, its accumulated character — is produced collectively by everyone who lives there. A landlord who owns property in that neighborhood captures rent from that collectively produced value without having contributed to it. When the neighborhood becomes desirable enough, the landlord can extract enough rent to displace the people who made it desirable. The commons gets enclosed. <a href="why-your-city-doesnt-work.html" class="xl">This is why your city doesn't work.</a></p>
+
+      <p>Healthcare works the same way. Medical knowledge is built collectively — through publicly funded research, clinical training in public hospitals, accumulated practice shared across a profession — and then enclosed behind insurance systems, pharmaceutical patents, and billing architectures that extract rent from the commons of medical knowledge.</p>
+
+      <p>The pattern is consistent: a community builds something shared, an extraction system routes value from that shared thing through private ownership before it reaches the people who built it, and a story gets told that makes the arrangement seem natural or inevitable. <a href="gramsci.html" class="xl">That story is hegemony.</a> The arrangement it justifies is capture. And there's always an alternative — which is why the story has to keep being told.</p>
+
+      <div class="pull">
+        Open source is not a software philosophy.<br/>It's a <strong>theory of governance</strong><br/>that turns out to be correct.
+      </div>
+
+      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
+      <h2>What's being built</h2>
+
+      <p>Platform cooperatives are worker-owned digital platforms that apply the cooperative model to gig work. Driver-owned rideshare cooperatives, cleaner-owned domestic work platforms, journalist-owned media outlets. They're smaller than Uber or DoorDash. They're also not designed to extract value from their workers and route it to investors. The trade-off is explicit.</p>
+
+      <p>Community land trusts remove housing from the speculative market permanently — the land is owned by a trust, the housing on it is affordable by legal obligation, and residents have governance over the trust. There are over 250 in the United States right now. They work. <a href="build-it-now.html" class="xl">The evidence is public.</a></p>
+
+      <p>The federated social web is live and growing. Mastodon, Pixelfed, PeerTube, Bluesky's AT Protocol — architecturally decentralized platforms where no single actor can enclose the network. Not perfect governance. But governance that belongs to the participants rather than to a platform with advertising revenue to maximize.</p>
+
+      <div class="callout">
+        <span class="callout-label">The governance question is always the same</span>
+        <p>For any shared resource — a software project, a neighborhood, a healthcare system, a social network, a fishery — the question is: who sets the rules, who enforces them, who benefits from what the resource produces, and what happens when the rules need to change?</p>
+        <p>Private ownership answers: whoever holds the property rights. State control answers: whoever runs the regulatory apparatus. Commons governance answers: the people who depend on and contribute to the resource.</p>
+        <p>You already know the third answer produces better software. The argument is that it produces better cities, better healthcare systems, and better social infrastructure for the same reasons it produces better kernels.</p>
+      </div>
+
+    </div>
+
+    <div class="read-more">
+      <div class="read-more-inner">
+        <h3>Go deeper</h3>
+        <p>Where this entry point connects to the rest of the framework.</p>
+        <div class="read-links">
+          <a href="how-linux-became-the-internet.html" class="read-link-btn">How Linux became the internet</a>
+          <a href="open-data-isnt-enough.html" class="read-link-btn">Open data isn't enough</a>
+          <a href="hardin-was-wrong.html" class="read-link-btn">Hardin was wrong — the "tragedy of the commons" is a myth</a>
+          <a href="ostrom.html" class="read-link-btn">Ostrom — the argument from evidence</a>
+          <a href="gramsci.html" class="read-link-btn">Gramsci — why the enclosure feels natural</a>
+          <a href="build-it-now.html" class="read-link-btn">Build it now — what the alternative looks like</a>
+          <a href="why-your-city-doesnt-work.html" class="read-link-btn">Why your city doesn't work</a>
+          <a href="case-studies.html" class="read-link-btn">All case studies</a>
+          <a href="index.html" class="read-link-btn">Start from the beginning</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <div class="article-footer-inner">
+        <a href="index.html" class="back-link">Back to all pieces</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
