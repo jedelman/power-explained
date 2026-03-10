@@ -139,6 +139,19 @@
     .next-read-cat { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.6rem; }
     .next-read-title { font-family: var(--display); font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
 
+    /* Footnotes */
+    sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a { color: var(--red); text-decoration: none; }
+    sup a:hover { text-decoration: underline; }
+    .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
+
     .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
     .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
     .back-link::before { content: '←'; }
@@ -218,7 +231,7 @@
       <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
       <h2>The category error: commons vs. open access</h2>
 
-      <p>Garrett Hardin's "The Tragedy of the Commons" (<em>Science</em>, 1968) is built on a scenario: a pasture open to all herders. Each herder, acting rationally, will add one more animal because the benefit accrues to them while the cost of overgrazing is shared across all users. The logic iterates to collapse. Hardin concluded that <em>shared</em> governance of common-pool resources is structurally unstable. The only escapes are private property or state regulation.</p>
+      <p>Garrett Hardin's "The Tragedy of the Commons" (<em>Science</em>, 1968)<sup><a href="#fn1" id="ref1">1</a></sup> is built on a scenario: a pasture open to all herders. Each herder, acting rationally, will add one more animal because the benefit accrues to them while the cost of overgrazing is shared across all users. The logic iterates to collapse. Hardin concluded that <em>shared</em> governance of common-pool resources is structurally unstable. The only escapes are private property or state regulation.</p>
 
       <p>This conclusion followed analytically from the model. The model's central assumption — a pasture "open to all," with no membership rules, no communication, no governance history — was never interrogated. Hardin labeled it "a commons." It isn't. It's an <strong>open-access regime</strong>, which is the opposite of a commons.</p>
 
@@ -229,7 +242,7 @@
         <p>The error is not minor. Privatization advocates spent decades using a model that assumes the absence of governance to argue against governance. Ostrom's first and most lasting contribution is demonstrating that the variable Hardin held constant — community governance capacity — is empirically the decisive one.</p>
       </div>
 
-      <p>Hardin himself eventually acknowledged the error. In a 1994 paper he wrote that he should have titled his article "The Tragedy of the <em>Unmanaged</em> Commons." The policy apparatus built on the original formulation did not adjust accordingly. Ostrom's work is, in part, the extended empirical brief for why it should have.</p>
+      <p>Hardin himself eventually acknowledged the error, in stages. In a 1991 book chapter he first reframed the argument around the "unmanaged" commons.<sup><a href="#fn3" id="ref3">3</a></sup> A brief 1994 note in <em>Trends in Ecology &amp; Evolution</em> used "unmanaged" in its title.<sup><a href="#fn4" id="ref4">4</a></sup> In a 1998 <em>Science</em> essay he was explicit: the "weightiest mistake" in his original paper "was the omission of the modifying adjective 'unmanaged'" — and a managed commons "describes either socialism or the privatism of free enterprise. Either one may work; either one may fail: 'The devil is in the details.'"<sup><a href="#fn5" id="ref5">5</a></sup> The policy apparatus built on the 1968 formulation did not adjust accordingly. Ostrom's work is, in part, the extended empirical brief for why it should have.</p>
 
       <span id="empirical-record" class="section-anchor"></span>
       <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
@@ -246,9 +259,9 @@
         <div class="case-row">
           <div class="case-cell">
             <span class="case-name">Törbel, Switzerland</span>
-            <span class="case-desc">Alpine village governing summer mountain pastures, forests, and irrigation systems through documented bylaws. Membership and inheritance rules in continuous operation.</span>
+            <span class="case-desc">Alpine village (Canton Valais) governing summer mountain pastures, forests, and irrigation channels. Records of communal agreements date to 1224; formal bylaws regulating collective use documented from 1483. Studied first by anthropologist Robert Netting (1981),<sup><a href="#fn6" id="ref6">6</a></sup> then by Ostrom.</span>
           </div>
-          <div class="case-cell"><span class="case-since">1224 CE</span></div>
+          <div class="case-cell"><span class="case-since">Records from 1224;<br/>bylaws from 1483</span></div>
           <div class="case-cell"><span class="case-status active">Active</span></div>
         </div>
         <div class="case-row">
@@ -351,7 +364,7 @@
       <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
       <h2>The eight design principles: annotated</h2>
 
-      <p>Ostrom's eight design principles are the empirical core of <em>Governing the Commons</em>. They are not prescriptions derived from theory. They are recurring patterns extracted from the cases — present in durable, successful commons and absent in failures. Ostrom herself noted that subsequent research has supported, qualified, and extended these principles but not refuted them as a class.</p>
+      <p>Ostrom's eight design principles are the empirical core of <em>Governing the Commons</em> (Cambridge University Press, 1990).<sup><a href="#fn9" id="ref9">9</a></sup> They are not prescriptions derived from theory. They are recurring patterns extracted from the cases — present in durable, successful commons and absent in failures. Ostrom herself noted that subsequent research has supported, qualified, and extended these principles but not refuted them as a class.</p>
 
       <div class="principles-block">
         <div class="principles-header">
@@ -404,7 +417,7 @@
             <span class="principle-name">Conflict resolution mechanisms</span>
           </div>
           <div class="principle-body">Appropriators and officials have rapid access to low-cost, local arenas for resolving disputes over rules and their application.</div>
-          <div class="principle-note">Transaction costs matter enormously in governance. A dispute mechanism that requires months and professional legal fees will not be used. Disputes that go unresolved escalate into defection. The Spanish water courts — the Tribunal de las Aguas de Valencia, which has met continuously since the tenth century — are specifically designed to resolve disputes on the day they are raised, before water conflicts can compound into harvest failures.</div>
+          <div class="principle-note">Transaction costs matter enormously in governance. A dispute mechanism that requires months and professional legal fees will not be used. Disputes that go unresolved escalate into defection. The Spanish water courts — the Tribunal de las Aguas de Valencia, operating continuously since at least the tenth century<sup><a href="#fn10" id="ref10">10</a></sup> — are specifically designed to resolve disputes on the day they are raised, before water conflicts can compound into harvest failures.</div>
         </div>
         <div class="principle">
           <div class="principle-head">
@@ -430,7 +443,7 @@
 
       <p>The deepest implication of Ostrom's work is not about fisheries or irrigation canals. It is about the architecture of governance itself. Hardin's framing produced a binary: private property or state regulation. These are described as the only two mechanisms capable of aligning individual incentives with collective welfare in the management of shared resources. Ostrom's evidence shows that both branches of this binary routinely fail, and that the cases of success involve a third option the model cannot see: polycentric self-governance.</p>
 
-      <p>The concept of polycentric order was developed by Vincent Ostrom, Elinor's husband and long-term collaborator, in a 1961 paper on metropolitan governance with Charles Tiebout and Robert Warren. The core claim: governance systems with multiple overlapping decision centers — each with bounded autonomy, none with monopoly authority, all subject to the same overarching rules — outperform monocentric systems on virtually every dimension when governing complex, spatially distributed problems.</p>
+      <p>The concept of polycentric order was developed by Vincent Ostrom, Elinor's husband and long-term collaborator, in a 1961 paper on metropolitan governance with Charles Tiebout and Robert Warren.<sup><a href="#fn7" id="ref7">7</a></sup> The core claim: governance systems with multiple overlapping decision centers — each with bounded autonomy, none with monopoly authority, all subject to the same overarching rules — outperform monocentric systems on virtually every dimension when governing complex, spatially distributed problems.</p>
 
       <div class="pull">
         Privatization replaces governance with ownership.<br/>Nationalization replaces governance with administration.<br/>Polycentric governance <strong>is</strong> governance —<br/>at the scale and density the problem requires.
@@ -474,7 +487,7 @@
         <div class="objection-q">What about global commons? Climate, biodiversity, the atmosphere? The framework obviously can't scale to that.</div>
         <div class="objection-a">
           <p>This is the hardest case, and Ostrom was explicit that global commons governance is a distinct and harder problem. She did not claim that polycentric self-governance of local communities directly solves climate change. Her argument for global commons was more modest: polycentric governance systems — multiple overlapping institutions operating at different scales, including national and international levels — outperform the monocentric global treaty approach that has characterized international climate negotiations.</p>
-          <p>Her 2009 Nobel lecture explicitly extended the framework to the climate case. The argument: a polycentric approach allows experimentation, learning, and adjustment across many institutional contexts simultaneously. It builds social capital at local scales that changes the political conditions for higher-level action. It does not require universal agreement before action begins. The alternative — waiting for comprehensive global agreement — has a thirty-year track record of failure. The comparison class matters.</p>
+          <p>Her Nobel lecture — delivered December 2009, published as "Beyond Markets and States: Polycentric Governance of Complex Economic Systems" in the <em>American Economic Review</em> (2010)<sup><a href="#fn8" id="ref8">8</a></sup> — explicitly extended the framework to the climate case. The argument: a polycentric approach allows experimentation, learning, and adjustment across many institutional contexts simultaneously. It builds social capital at local scales that changes the political conditions for higher-level action. It does not require universal agreement before action begins. The alternative — waiting for comprehensive global agreement — has a thirty-year track record of failure. The comparison class matters.</p>
         </div>
       </div>
 
@@ -523,6 +536,22 @@
         </a>
       </div>
     </nav>
+
+    <section class="footnotes" aria-label="Footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1"><span class="fn-num">1</span><span>Hardin, G. (1968). "The Tragedy of the Commons." <em>Science</em> 162(3859):1243–1248. doi:10.1126/science.162.3859.1243. One of the most-cited papers in academic history; reprinted in over 100 anthologies. <a href="#ref1">↩</a></span></li>
+        <li id="fn2"><span class="fn-num">2</span><span>Huxley, T.H. (1888). "The Struggle for Existence in Human Society." <em>The Nineteenth Century</em> 23 (February 1888). Huxley described nature as "a continuous free fight" and the natural state of mankind as "a Hobbesian war of each against all." Kropotkin's <em>Mutual Aid</em> (1902) was written explicitly in response to this lecture and the scientific tradition it represented. <a href="#ref2">↩</a></span></li>
+        <li id="fn3"><span class="fn-num">3</span><span>Hardin, G. (1991). "The Tragedy of the 'Unmanaged' Commons: Population and the Disguises of Providence." In R.V. Andelson (ed.), <em>Commons Without Tragedy</em>. London: Shepheard-Walwyn. This is the earliest appearance of Hardin's reframing of his 1968 argument around the "unmanaged" qualifier. <a href="#ref3">↩</a></span></li>
+        <li id="fn4"><span class="fn-num">4</span><span>Hardin, G. (1994). "The tragedy of the unmanaged commons." <em>Trends in Ecology &amp; Evolution</em> 9(5):199. doi:10.1016/0169-5347(94)90097-3. A one-page note; the title adopts the "unmanaged" framing but does not contain the explicit "weightiest mistake" language. <a href="#ref4">↩</a></span></li>
+        <li id="fn5"><span class="fn-num">5</span><span>Hardin, G. (1998). "Extensions of 'The Tragedy of the Commons'." <em>Science</em> 280(5364):682–683. doi:10.1126/science.280.5364.682. The direct quotation: "To judge from the critical literature, the weightiest mistake in my synthesizing paper was the omission of the modifying adjective 'unmanaged.'" He then writes: "A 'managed commons' describes either socialism or the privatism of free enterprise. Either one may work; either one may fail: 'The devil is in the details.' But with an unmanaged commons, you can forget about the devil: As overuse of resources reduces carrying capacity, ruin is inevitable." Note that Hardin frames this as a "nuance" rather than a refutation of his original policy conclusions. Ostrom's critique goes further: the category error corrupts the analysis, not just the title. <a href="#ref5">↩</a></span></li>
+        <li id="fn6"><span class="fn-num">6</span><span>Netting, R.M. (1981). <em>Balancing on an Alp: Ecological Change and Continuity in a Swiss Mountain Community</em>. Cambridge University Press. Netting's ethnographic study of Törbel, drawing on community records going back 350 years, preceded Ostrom's use of the case. He documented the "Kuh-Regel" (cow rule): no citizen could send more cattle to the alp than they could feed through winter. Ostrom cites documents from 1224, 1483, 1517, and later. The 1224 document is the earliest dated record of communal governance; the 1483 bylaws are the founding formal charter of the commons institution as Ostrom analyzes it. <a href="#ref6">↩</a></span></li>
+        <li id="fn7"><span class="fn-num">7</span><span>Ostrom, V., Tiebout, C.M., &amp; Warren, R. (1961). "The Organization of Government in Metropolitan Areas: A Theoretical Inquiry." <em>American Political Science Review</em> 55(4):831–842. doi:10.2307/1952530. This paper introduced "polycentricity" into political science, though Vincent Ostrom later acknowledged that the term itself originated with philosopher and chemist Michael Polanyi (1951). The paper challenged the dominant view that the "multiplicity of political units in a metropolitan area is essentially a pathological phenomenon." <a href="#ref7">↩</a></span></li>
+        <li id="fn8"><span class="fn-num">8</span><span>Ostrom, E. (2010). "Beyond Markets and States: Polycentric Governance of Complex Economic Systems." <em>American Economic Review</em> 100(3):641–672. doi:10.1257/aer.100.3.641. This is the published version of her December 8, 2009 Nobel Prize lecture delivered in Stockholm. The lecture is also available as a Nobel Foundation recording. <a href="#ref8">↩</a></span></li>
+        <li id="fn9"><span class="fn-num">9</span><span>Ostrom, E. (1990). <em>Governing the Commons: The Evolution of Institutions for Collective Action</em>. Cambridge University Press. The eight design principles appear in Chapter 3. Subsequent scholarship has refined and in some cases expanded the principles (see Cox, Arnold, &amp; Tomás 2010, "A Review of Design Principles for Community-based Natural Resource Management," <em>Ecology and Society</em>), but the original formulation remains the canonical reference. <a href="#ref9">↩</a></span></li>
+        <li id="fn10"><span class="fn-num">10</span><span>The Tribunal de las Aguas de Valencia is described by Britannica as having been "in existence at least since the 10th century." The most commonly cited founding date is approximately 960 CE, during the reigns of Caliphs Abd al-Rahman III and Al-Hakam II — though scholars note this is partly reconstructed tradition rather than a documented historical fact, as the Tribunal conducted all proceedings orally and kept no written records. King James I of Aragon formally confirmed the Tribunal's authority after the 1238 Christian reconquest of Valencia, decreeing it should continue "as was established and become custom." UNESCO inscribed the Tribunal as Intangible Cultural Heritage of Humanity in 2009 (alongside the Council of Good Men of the plain of Murcia). It meets every Thursday at noon outside Valencia Cathedral and remains in continuous operation. <a href="#ref10">↩</a></span></li>
+      </ol>
+    </section>
 
     <footer class="article-footer">
       <a href="index.html" class="back-link">Back to Power Explained</a>
