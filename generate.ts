@@ -115,7 +115,7 @@ async function generateImage(prompt: string): Promise<Buffer> {
       parameters: {
         sampleCount: 1,
         aspectRatio: ASPECT_RATIO,
-        safetySetting: 'block_only_high',
+        safetySetting: 'block_low_and_above',
         personGeneration: 'dont_allow',
       }
     })
