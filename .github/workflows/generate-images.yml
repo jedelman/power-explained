@@ -36,8 +36,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install ts-node and typescript
-        run: npm install -g ts-node typescript @types/node
+      - name: Install dependencies
+        run: npm install
 
       - name: Check queue
         run: |
@@ -54,7 +54,7 @@ jobs:
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           QUEUE_FILE: ./prompts/queue.yaml
-        run: ts-node generate.ts
+        run: npx ts-node --project tsconfig.json generate.ts
 
       - name: Commit generated images and updated queue
         if: env.NOTHING_PENDING != 'true' && github.event.inputs.dry_run != 'true'
