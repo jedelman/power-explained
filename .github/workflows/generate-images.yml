@@ -1,0 +1,71 @@
+name: Generate Images (Imagen 4)
+
+on:
+  schedule:
+    # 8am UTC daily
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of images to generate (default: 5)'
+        required: false
+        default: '5'
+      dry_run:
+        description: 'Preview without calling API'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ts-node and typescript
+        run: npm install -g ts-node typescript @types/node
+
+      - name: Check queue
+        run: |
+          PENDING=$(grep -c 'status: pending' prompts/queue.yaml || true)
+          echo "Pending prompts: $PENDING"
+          if [ "$PENDING" = "0" ]; then
+            echo "NOTHING_PENDING=true" >> $GITHUB_ENV
+          fi
+
+      - name: Generate images
+        if: env.NOTHING_PENDING != 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          QUEUE_FILE: ./prompts/queue.yaml
+        run: ts-node generate.ts
+
+      - name: Commit generated images and updated queue
+        if: env.NOTHING_PENDING != 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.email "claude@anthropic.com"
+          git config user.name "Claude"
+          git add assets/generated/ prompts/queue.yaml
+          if git diff --staged --quiet; then
+            echo "No new images to commit"
+          else
+            COUNT=$(git diff --staged --name-only | grep -c '\.png' || true)
+            git commit -m "feat: generate $COUNT image(s) via Imagen 4 [skip ci]"
+            git push
+          fi

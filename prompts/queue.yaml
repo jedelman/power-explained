@@ -1,0 +1,165 @@
+# Imagen 4 generation queue for power-explained
+# status: pending | done | skip
+# output: path relative to assets/generated/ (set automatically)
+
+prompts:
+
+  - id: core-the-common
+    status: pending
+    output_path: assets/generated/core-the-common.png
+    prompt: >
+      An abstract conceptual illustration. A vast, luminous underground root network
+      stretches across the entire frame, glowing faintly warm amber — this is the common
+      substrate. From it, thin mechanical extraction tubes descend from above, drawing
+      upward into cold blue corporate silhouettes. But the root network grows faster than
+      the tubes can drain; it spills outward beyond the edges of the frame. The composition
+      conveys abundance escaping capture. Dark soil background, warm amber and cold steel
+      blue palette, no text, no labels. Square format.
+
+  - id: core-power-explained
+    status: pending
+    output_path: assets/generated/core-power-explained.png
+    prompt: >
+      An abstract illustration of two overlapping systems rendered as geometric
+      transparencies. One system is a rigid hierarchical lattice descending from the top —
+      angular, cold blue-grey. The other is an organic, self-organizing web of nodes
+      spreading from the bottom — warm ochre and terracotta, no center. Where they overlap,
+      the organic web shows through and around the lattice. The lattice does not contain
+      the web. Soft paper-toned background, no text. Square format.
+
+  - id: case-zapatistas
+    status: pending
+    output_path: assets/generated/case-zapatistas.png
+    prompt: >
+      An abstract conceptual illustration inspired by Mesoamerican textile geometry and
+      autonomous governance. A circular arrangement of interlocking diamond patterns in
+      deep red, black, and earth tones radiates outward from a central empty commons space —
+      no single dominant point, only shared perimeter. The outer edge is open, not closed.
+      Dense, hand-crafted texture suggesting weaving or woodblock print. No text, no figures.
+      Square format.
+
+  - id: case-rojava
+    status: pending
+    output_path: assets/generated/case-rojava.png
+    prompt: >
+      An abstract illustration of a federated structure rendered as a constellation. Small
+      bright nodes arranged in a decentralized cluster, each connected by fine lines of
+      equal weight — no hub, no hierarchy. The background is deep desert night sky
+      transitioning to warm dawn at the bottom edge. The nodes pulse with warm amber light.
+      The overall form suggests resilience without center. No text. Square format.
+
+  - id: case-occupy
+    status: pending
+    output_path: assets/generated/case-occupy.png
+    prompt: >
+      An abstract illustration of a public square as contested space. A warm circle of
+      light radiates outward from a central gathering point on cold urban stone. At the
+      edges, angular shadows press inward but cannot reach the center. The composition
+      captures the tension between public warmth and institutional enclosure without
+      resolving it. No figures, no text, muted concrete grey and candlelight amber palette.
+      Square format.
+
+  - id: case-chile
+    status: pending
+    output_path: assets/generated/case-chile.png
+    prompt: >
+      An abstract illustration of democratic possibility and its interruption. A bright
+      geometric sunrise — warm yellow-gold rays fanning upward from the bottom center —
+      is bisected by a single hard horizontal shadow line cutting across the middle of
+      the frame. Above the line: cold grey. Below the line: the warmth continues,
+      compressed but present. The composition does not resolve. No text, no figures.
+      Square format.
+
+  - id: case-myanmar
+    status: pending
+    output_path: assets/generated/case-myanmar.png
+    prompt: >
+      An abstract illustration of distributed resistance under pressure. A grid of small
+      warm nodes — arranged in loose, organic clusters rather than rows — glows against
+      a dark oppressive field. Some nodes are dimmed but not extinguished. Fine connecting
+      threads between them remain intact even where individual nodes have gone dark. The
+      overall form is a network that cannot be decapitated because it has no head. No text.
+      Square format.
+
+  - id: case-kerala
+    status: pending
+    output_path: assets/generated/case-kerala.png
+    prompt: >
+      An abstract illustration of cooperative abundance. A dense, layered composition of
+      interlocking organic forms — suggesting agricultural terracing, collective ledgers,
+      and root systems simultaneously — rendered in deep green, warm ochre, and red earth
+      tones. The forms repeat and tile without a dominant center, each unit contributing
+      to a larger coherent whole. Handcrafted texture, slightly worn at the edges.
+      No text, no labels. Square format.
+
+  - id: glossary-enclosure
+    status: pending
+    output_path: assets/generated/glossary-enclosure.png
+    prompt: >
+      An abstract illustration: a single precise fence line cuts diagonally across a lush
+      organic field. Left of the fence — warm, textured, alive. Right of the fence — cold,
+      bare, geometric. The fence itself is thin but absolute. The composition asks which
+      side you're on without telling you. Muted earth tones and cold grey, no text.
+      Square format.
+
+  - id: glossary-commons
+    status: pending
+    output_path: assets/generated/glossary-commons.png
+    prompt: >
+      An abstract illustration of shared infrastructure rendered as a root network seen
+      from above — a map with no owner, no center, no edge. Warm amber threads branch and
+      rebranch across the frame in all directions, each endpoint connecting back into the
+      whole. The pattern is complex but not chaotic; it has logic without hierarchy. Dark
+      soil background, glowing filaments. No text. Square format.
+
+  - id: glossary-capture
+    status: pending
+    output_path: assets/generated/glossary-capture.png
+    prompt: >
+      An abstract illustration of extraction. A single luminous organic form at the center
+      of the frame — warm, rounded, generative — is encircled by thin mechanical arms
+      reaching inward from the edges, not quite touching yet. The arms cast cold blue
+      shadows inward. The organic form is undiminished but surrounded. Tension without
+      resolution. No text. Square format.
+
+  - id: glossary-substrate
+    status: pending
+    output_path: assets/generated/glossary-substrate.png
+    prompt: >
+      An abstract illustration of the invisible foundation. A vast, dark underground layer
+      fills the bottom two-thirds of the frame — dense, warm, alive with subtle texture.
+      Above it, a thin bright surface layer catches all the light and attention. Fine
+      structural lines connect the underground layer to the surface, visible only on close
+      inspection. The surface is impressive. The substrate is everything. No text.
+      Square format.
+
+  - id: glossary-mutual-aid
+    status: pending
+    output_path: assets/generated/glossary-mutual-aid.png
+    prompt: >
+      An abstract illustration of lateral exchange. A field of small nodes arranged
+      horizontally — no vertical hierarchy — with threads flowing between them in both
+      directions simultaneously. The threads vary in weight but none dominate. The overall
+      composition feels like a breathing, reciprocal system rather than a market or a
+      command structure. Warm amber and soft green palette, paper texture background.
+      No text. Square format.
+
+  - id: glossary-hegemony
+    status: pending
+    output_path: assets/generated/glossary-hegemony.png
+    prompt: >
+      An abstract illustration of manufactured consent. A single large geometric form casts
+      a long shadow that covers most of the frame. Within the shadow, smaller forms have
+      arranged themselves to mirror the large form's geometry — not by force, but by ambient
+      pressure. At the far edge of the shadow, one small form faces a slightly different
+      direction. No text, no labels. Cool grey and muted gold palette. Square format.
+
+  - id: glossary-prefigurative
+    status: pending
+    output_path: assets/generated/glossary-prefigurative.png
+    prompt: >
+      An abstract illustration of building the new inside the old. Two systems coexist in
+      the same frame: a rigid rectilinear structure in cold grey occupies the outer frame;
+      within it, a warmer organic lattice has grown up through the gaps — not breaking the
+      outer structure, but filling the negative space with something coherent and alive.
+      The inner form is not yet dominant. It is sufficient. No text. Square format.
