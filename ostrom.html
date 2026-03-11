@@ -171,6 +171,10 @@
       .case-table-header span:not(:first-child) { display: none; }
       .iad-grid { grid-template-columns: 1fr; }
     }
+    .case-image { margin: 2rem 0 2.5rem; }
+    .case-image img { width: 100%; display: block; border: 1px solid var(--rule); }
+    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.45); padding: 0.6rem 0 0; line-height: 1.5; }
+    .case-image figcaption a { color: inherit; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -224,6 +228,11 @@
         <li><a href="#argument"><span class="contents-num">07</span> The argument assembled</a></li>
       </ol>
     </nav>
+
+    <figure class="case-image">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Elinor_Ostrom_in_2009.jpg" alt="Elinor Ostrom, 2009" loading="lazy" />
+      <figcaption>Elinor Ostrom, 2009 — <a href="https://commons.wikimedia.org/wiki/File:Elinor_Ostrom_in_2009.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 3.0</figcaption>
+    </figure>
 
     <div class="body-text">
 

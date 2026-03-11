@@ -69,6 +69,10 @@
     .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
     .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
+    .case-image { margin: 2rem 0 2.5rem; }
+    .case-image img { width: 100%; display: block; border: 1px solid var(--rule); }
+    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.45); padding: 0.6rem 0 0; line-height: 1.5; }
+    .case-image figcaption a { color: inherit; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -88,6 +92,10 @@
     </div>
     <h1>Hardin Gave Capitalism Its Alibi. Ostrom Took It Apart.</h1>
     <p class="dek">In 1968, an ecologist wrote a paper that became the intellectual foundation for privatizing everything. In 1990, a political scientist went and looked at actual commons. She found the opposite of what he predicted.</p>
+    <figure class="case-image">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Toerbel-overview.jpg" alt="Törbel, Valais, Switzerland — a commons community since the 13th century" loading="lazy" />
+      <figcaption>Törbel, Valais — commons since the 13th century — <a href="https://commons.wikimedia.org/wiki/File:Toerbel-overview.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 3.0</figcaption>
+    </figure>
     <div class="body-text">
 
       <p>In 1968, a biologist named Garrett Hardin published a paper in <em>Science</em> called "The Tragedy of the Commons." The argument was simple: if a resource is shared — a pasture, a fishery, a stretch of ocean — every individual has an incentive to take as much as they can before someone else does. Nobody has an incentive to hold back. So the resource gets destroyed. Every time. Inevitable as math.</p>

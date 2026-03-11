@@ -266,6 +266,10 @@
 
     .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
+    .case-image { margin: 2rem 0 2.5rem; }
+    .case-image img { width: 100%; display: block; border: 1px solid var(--rule); }
+    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.45); padding: 0.6rem 0 0; line-height: 1.5; }
+    .case-image figcaption a { color: inherit; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -294,6 +298,10 @@
       and why the difference matters far beyond potholes.
     </p>
 
+    <figure class="case-image">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Potholes_in_a_street_in_Minsk.jpg" alt="Potholes in a city street" loading="lazy" />
+      <figcaption>The pothole — who fixes it, and how? — <a href="https://commons.wikimedia.org/wiki/File:Potholes_in_a_street_in_Minsk.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, CC BY-SA 3.0</figcaption>
+    </figure>
     <div class="body-text">
 
       <p>There's a pothole on your street. It appeared after the last winter. You've been driving around it for three months. Your neighbor hit it last week and bent a rim.</p>

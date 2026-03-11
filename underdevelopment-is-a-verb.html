@@ -62,6 +62,10 @@
     .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
     .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
+    .case-image { margin: 2rem 0 2.5rem; }
+    .case-image img { width: 100%; display: block; border: 1px solid var(--rule); }
+    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.45); padding: 0.6rem 0 0; line-height: 1.5; }
+    .case-image figcaption a { color: inherit; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -81,6 +85,10 @@
     </div>
     <h1>Underdevelopment Is a Verb</h1>
     <p class="dek">Walter Rodney didn't ask why Africa was underdeveloped. He asked how Europe produced that underdevelopment — deliberately, systematically, over centuries. The answer is one of the most important economic arguments of the twentieth century.</p>
+    <figure class="case-image">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Walter_Rodney.jpg" alt="Walter Rodney, Guyanese historian and activist" loading="lazy" />
+      <figcaption>Walter Rodney — <a href="https://commons.wikimedia.org/wiki/File:Walter_Rodney.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, Public domain</figcaption>
+    </figure>
     <div class="body-text">
 
       <p>The standard story about global poverty goes something like this: some parts of the world developed modern economies and some didn't. The ones that didn't are "developing" — meaning they're behind, catching up, on the same path but further back. The job of development economics is to figure out how to help them get to where the developed world already is.</p>

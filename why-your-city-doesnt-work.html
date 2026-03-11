@@ -276,6 +276,10 @@
 
     .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
+    .case-image { margin: 2rem 0 2.5rem; }
+    .case-image img { width: 100%; display: block; border: 1px solid var(--rule); }
+    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.45); padding: 0.6rem 0 0; line-height: 1.5; }
+    .case-image figcaption a { color: inherit; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -303,6 +307,10 @@
       Nothing changes. Here's why — and why replacing the people in charge won't fix it.
     </p>
 
+    <figure class="case-image">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Los_Angeles_from_the_air.jpg" alt="Los Angeles urban sprawl from the air" loading="lazy" />
+      <figcaption>Los Angeles — capital of the car-dependent city — <a href="https://commons.wikimedia.org/wiki/File:Los_Angeles_from_the_air.jpg" target="_blank" rel="noopener">Wikimedia Commons</a>, Public domain</figcaption>
+    </figure>
     <div class="body-text">
 
       <p>You went to the meeting. Maybe you even spoke. The council members nodded. A staff person wrote something down. The decision went ahead anyway, exactly as planned before you walked in the door.</p>
