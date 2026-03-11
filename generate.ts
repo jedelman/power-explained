@@ -20,8 +20,8 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY
 const QUEUE_FILE = process.env.QUEUE_FILE ?? './prompts/queue.yaml'
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE ?? '5', 10)
 const DRY_RUN = process.env.DRY_RUN === 'true'
-const MODEL = 'imagen-4.0-generate-001'
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:predict`
+const MODEL = 'gemini-3.1-flash-image-preview'
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`
 const ASPECT_RATIO = '1:1'
 
 if (!GEMINI_API_KEY && !DRY_RUN) {
@@ -111,31 +111,32 @@ async function generateImage(prompt: string): Promise<Buffer> {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      instances: [{ prompt }],
-      parameters: {
-        sampleCount: 1,
-        aspectRatio: ASPECT_RATIO,
-        safetySetting: 'block_low_and_above',
-        personGeneration: 'dont_allow',
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: {
+        responseModalities: ['TEXT', 'IMAGE'],
+        imageConfig: { aspectRatio: ASPECT_RATIO },
       }
     })
   })
 
   if (!response.ok) {
     const text = await response.text()
-    throw new Error(`Imagen API error ${response.status}: ${text}`)
+    throw new Error(`Nano Banana API error ${response.status}: ${text}`)
   }
 
   const data = await response.json() as {
-    predictions: Array<{ bytesBase64Encoded: string; mimeType: string }>
+    candidates: Array<{
+      content: { parts: Array<{ text?: string; inlineData?: { mimeType: string; data: string } }> }
+    }>
   }
 
-  const prediction = data.predictions?.[0]
-  if (!prediction?.bytesBase64Encoded) {
+  const parts = data.candidates?.[0]?.content?.parts ?? []
+  const imagePart = parts.find(p => p.inlineData?.data)
+  if (!imagePart?.inlineData) {
     throw new Error(`No image in response: ${JSON.stringify(data)}`)
   }
 
-  return Buffer.from(prediction.bytesBase64Encoded, 'base64')
+  return Buffer.from(imagePart.inlineData.data, 'base64')
 }
 
 // ---------------------------------------------------------------------------
