@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Same Enclosure, Different Faces — Power Explained</title>
+  <meta name="description" content="Race, gender, and immigration aren't separate issues that got tacked onto economic struggle. They're the same mechanism: the enclosure of people, labor, land, and life — with identity categories invented to justify who gets enclosed. The commons framework makes this structural." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root { --plum: #5c2d72; --plum-rgb: 92,45,114; --plum-light: #f2ecf7; }
+
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .entry-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,7vw,4rem); font-weight: 700; line-height: 1.08; margin-bottom: 1.25rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--paper-rgb),0.72); max-width: 560px; }
+
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; border-left: 3px solid var(--red); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; color: rgba(var(--ink-rgb),0.85); }
+    .pull strong { font-style: normal; font-weight: 700; color: var(--red); }
+
+    .mechanism-list { margin: 2rem 0; display: flex; flex-direction: column; gap: 0; }
+    .mechanism { border-top: 1px solid var(--rule); padding: 1.5rem 0; display: grid; grid-template-columns: 2fr 5fr; gap: 1.5rem; align-items: start; }
+    .mechanism:last-child { border-bottom: 1px solid var(--rule); }
+    .mechanism-name { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); padding-top: 0.15rem; }
+    .mechanism-text { font-size: 0.95rem; line-height: 1.7; }
+    .mechanism-text a { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); }
+    .mechanism-text a:hover { border-bottom-color: var(--red); }
+    @media (max-width: 520px) { .mechanism { grid-template-columns: 1fr; gap: 0.5rem; } }
+
+    .action-box { background: var(--red); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.5); display: block; margin-bottom: 1rem; }
+    .action-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
+    .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.85; margin-bottom: 0.8rem; }
+    .action-box p:last-of-type { margin-bottom: 0; }
+    .action-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
+    .action-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.7); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--paper-rgb),0.3); transition: all 0.2s; }
+    .action-link:hover { color: var(--paper); border-color: rgba(var(--paper-rgb),0.85); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .xl { color: rgba(var(--ink-rgb),0.75); text-decoration: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.25); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: rgba(var(--ink-rgb),0.7); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Entry Points</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="entry-flag">For people fighting for justice</span>
+      <h1>The Same<br/>Enclosure,<br/>Different Faces</h1>
+      <p class="hero-dek">Race, gender, and immigration status aren't separate issues tacked onto economic struggle. They're the same mechanism — the enclosure of people, labor, land, and life — with identity categories invented to justify who gets enclosed.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <p>Every social justice movement eventually runs into the same wall: the problem is structural. Not individual bias, not bad actors who need to be educated, not policies that need minor reform. The systems producing racial inequality, gender exploitation, and the criminalization of migrants were designed to produce those outcomes — because enclosure requires justification, and identity categories are how that justification gets built.</p>
+
+      <p>The commons framework doesn't replace anti-racism or feminism or immigrant rights. It gives them a structural account. It answers the question activists keep getting asked: <em>why does this keep happening?</em> Because the mechanism that produces it — the capture of shared resources, the enclosure of human lives — hasn't been dismantled. Winning a policy fight without changing the underlying structure means the enclosure finds another form.</p>
+
+      <h2>One mechanism, multiple targets</h2>
+
+      <div class="mechanism-list">
+        <div class="mechanism">
+          <div class="mechanism-name">Race &amp; Land</div>
+          <div class="mechanism-text">
+            <p><a href="racial-capitalism.html">Racial capitalism</a> isn't capitalism with racism added. It's the specific use of racial categories to justify differential enclosure. The plantation was an enclosure — of land, of bodies, of labor. Redlining was urban enclosure enforced by the state. The destruction of Black Wall Street was the enclosure of a self-sufficient commons. <a href="underdevelopment-is-a-verb.html">Underdevelopment</a> is not something that happened to Black and Brown communities — it is something that was done to them, systematically, to transfer wealth upward.</p>
+          </div>
+        </div>
+        <div class="mechanism">
+          <div class="mechanism-name">Gender &amp; Labor</div>
+          <div class="mechanism-text">
+            <p>The commons framework has always had a gender analysis: women's reproductive labor — childcare, care work, household maintenance — is the substrate that capital extracts for free. <a href="the-outside-capital-needs.html">The outside the commons needs</a> describes exactly this: the uncompensated labor that makes wage labor possible. Feminist economists from Federici to Fraser have shown that capitalism's accumulation depends on enclosing women's time and calling it love. The domestic sphere was never outside the economy; it was the economy's unacknowledged foundation.</p>
+          </div>
+        </div>
+        <div class="mechanism">
+          <div class="mechanism-name">Immigration &amp; Borders</div>
+          <div class="mechanism-text">
+            <p>Borders are enclosures of movement. The freedom to move — across land, across jurisdictions, toward better conditions — was not given to anyone by capital; it was slowly enclosed, first for the poor and colonized, gradually for everyone. Migrant labor is the most explicit form of labor-without-rights: workers stripped of the political standing that would let them organize, housed in the enclosed space of the worksite, deportable on demand. This isn't a failure of the immigration system — it's how the system was designed to function.</p>
+          </div>
+        </div>
+        <div class="mechanism">
+          <div class="mechanism-name">Colonialism &amp; Knowledge</div>
+          <div class="mechanism-text">
+            <p><a href="the-tradition-they-buried.html">What colonialism buried</a> wasn't just land and bodies — it was epistemic commons: centuries of accumulated knowledge about ecology, governance, medicine, and collective life. <a href="the-other-and-the-outside.html">The human was a story</a> told to exclude: deciding who counted as fully human determined who could be enclosed. The ongoing fight over whose knowledge gets treated as legitimate, whose history gets taught, whose language gets resources — that's the fight over the epistemic commons.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pull">
+        Identity categories weren't discovered.<br/>They were <strong>invented</strong> — to justify<br/>who gets enclosed.
+      </div>
+
+      <h2>Why the structural account matters</h2>
+
+      <p>The dominant frame in mainstream social justice work is disparity: document the gap, demand a remedy. That work is necessary. It is not sufficient, because closing a disparity within an enclosing system just means the enclosed find a new target. The fight against racial wealth gaps that doesn't touch land ownership and <a href="racial-capitalism.html" class="xlr">the commons of capital accumulation</a> closes gaps at the margin while the underlying mechanism keeps producing them.</p>
+
+      <p>The radical tradition — from Ida B. Wells to Angela Davis to Sylvia Wynter to Ruth Wilson Gilmore — has always known this. Gilmore's formulation is precise: racism is the state-sanctioned or extralegal production and exploitation of group-differentiated vulnerability to premature death. It's not a feeling or an attitude. It's a <em>production process</em>, built into the structures of land, labor, incarceration, and policy. <a href="the-human-was-a-story.html" class="xlr">The human was a story</a> that determined who got produced into vulnerability.</p>
+
+      <p>Abolition, meanwhile, is a commons project: <a href="build-the-commune-without-the-state.html" class="xlr">build the commune without the state</a> means building the mutual aid infrastructure, cooperative economics, and collective governance that make enclosure — including carceral enclosure — structurally unnecessary. You don't just dismantle the prison. You build the world that doesn't need one.</p>
+
+      <h2>What commons-aligned organizing looks like</h2>
+
+      <p>The most durable social justice organizing has always been commons-building alongside resistance: <a href="mutual-aid-isnt-charity.html" class="xl">mutual aid networks</a> that don't wait for the state to provide, cooperative economic institutions that don't depend on private employers, <a href="the-commons-they-never-stopped-building.html" class="xl">commons that never stopped being built</a> even under conditions of extreme repression. The Black Panther Party's free breakfast program was mutual aid. The Zapatista communities in Chiapas are <a href="case-study-zapatistas.html" class="xlr">governed as commons</a>. The Rojava experiment is running a feminist commons under military siege.</p>
+
+      <p>These aren't romantic exceptions. They're proofs of concept. The commons is not utopian — it's the historically demonstrated alternative to enclosure, running everywhere that enclosure hasn't fully won yet.</p>
+
+      <div class="action-box">
+        <span class="action-label">Where to go from here</span>
+        <h3>The structural fight and the building fight are the same fight.</h3>
+        <p>Anti-enclosure organizing — tenant unions, cooperative workplaces, community land trusts, mutual aid — is social justice organizing. It changes who owns the means of life, not just who holds the policy lever. The most powerful interventions work on both fronts at once: resist the enclosure while building the alternative that makes the enclosure structurally unnecessary.</p>
+        <p>Find the tenant union in your city. Support the <a href="glossary.html#community-land-trust" style="color:rgba(var(--paper-rgb),0.9);border-bottom:1px solid rgba(var(--paper-rgb),0.35);text-decoration:none;">community land trust</a>. Join or start the mutual aid network. These are not supplements to political struggle — they are the political struggle, fought at the level of material conditions.</p>
+        <div class="action-links">
+          <a href="racial-capitalism.html" class="action-link">Racial capitalism →</a>
+          <a href="the-human-was-a-story.html" class="action-link">Who counts as human →</a>
+          <a href="build-the-commune-without-the-state.html" class="action-link">Build the commune →</a>
+          <a href="mutual-aid-isnt-charity.html" class="action-link">Mutual aid →</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="read-more">
+    <div class="read-more-inner">
+      <h3>Go deeper</h3>
+      <p>The framework behind this entry point.</p>
+      <div class="read-links">
+        <a href="start-here.html" class="read-link-btn">Start here →</a>
+        <a href="underdevelopment-is-a-verb.html" class="read-link-btn">Underdevelopment →</a>
+        <a href="the-other-and-the-outside.html" class="read-link-btn">The other and outside →</a>
+        <a href="the-tradition-they-buried.html" class="read-link-btn">What they buried →</a>
+        <a href="what-they-burned.html" class="read-link-btn">What they burned →</a>
+        <a href="case-study-zapatistas.html" class="read-link-btn">Zapatistas →</a>
+        <a href="glossary.html" class="read-link-btn">Glossary →</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

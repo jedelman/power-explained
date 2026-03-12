@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The City Is a Commons — Power Explained</title>
+  <meta name="description" content="The housing crisis, the transit crisis, the gentrification crisis — they're not separate failures. They're the same enclosure. And cities are also where the most interesting alternatives are already being built." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root { --blue: #2e4e7e; --blue-rgb: 46,78,126; --blue-light: #eaeff8; }
+
+    .hero { background: var(--blue-light); border-bottom: 2px solid var(--blue); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .entry-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blue); display: block; margin-bottom: 1.5rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,7vw,4rem); font-weight: 700; line-height: 1.08; margin-bottom: 1.25rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--ink-rgb),0.75); max-width: 560px; }
+
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; color: var(--blue); border-left: 3px solid var(--blue); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    .crisis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2.5rem 0; }
+    @media (max-width: 540px) { .crisis-grid { grid-template-columns: 1fr; } }
+    .crisis-card { background: var(--paper-mid); padding: 1.5rem 1.25rem; border-top: 3px solid var(--blue); }
+    .crisis-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); display: block; margin-bottom: 0.5rem; }
+    .crisis-card p { font-size: 0.9rem; line-height: 1.65; color: rgba(var(--ink-rgb),0.8); margin: 0; }
+
+    .examples-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); gap: 1px; background: var(--blue); border: 1px solid var(--blue); margin: 2.5rem 0; }
+    .example { background: var(--paper); padding: 1.5rem 1.25rem; transition: background 0.15s; }
+    .example:hover { background: var(--blue-light); }
+    .example-icon { font-size: 1.5rem; margin-bottom: 0.5rem; line-height: 1; }
+    .example-title { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); margin-bottom: 0.35rem; }
+    .example p { font-size: 0.85rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); margin: 0; }
+
+    .action-box { background: var(--blue); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.5); display: block; margin-bottom: 1rem; }
+    .action-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
+    .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.85; margin-bottom: 0.8rem; }
+    .action-box p:last-of-type { margin-bottom: 0; }
+    .action-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
+    .action-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.7); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--paper-rgb),0.3); transition: all 0.2s; }
+    .action-link:hover { color: var(--paper); border-color: rgba(var(--paper-rgb),0.85); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .xl { color: rgba(var(--ink-rgb),0.75); text-decoration: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.25); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: rgba(var(--ink-rgb),0.7); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Entry Points</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="entry-flag">For people who care about cities</span>
+      <h1>The City<br/>Is a Commons</h1>
+      <p class="hero-dek">The housing crisis, the transit crisis, the gentrification crisis — they're not separate failures. They're the same enclosure. And cities are also where the most durable alternatives are already being built.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <p>Cities concentrate everything: wealth, poverty, infrastructure, possibility, and the clearest view of how power actually works. Every urban crisis — housing unaffordable, transit gutted, neighborhoods flipped, parks privatized, public squares controlled by developers — follows the same logic: a shared resource gets transferred out of public hands and into private ones. That's not bad governance. That's <a href="glossary.html#enclosure" class="xl">enclosure</a>, and it's been the dominant strategy of urban capital for a century.</p>
+
+      <p>But cities are also where the commons is most actively being rebuilt. Because density creates the conditions for collective governance: people close enough together to organize, shared infrastructure too expensive to abandon, and long enough histories of mutual dependence to produce real institutions. The <a href="what-they-burned.html" class="xlr">commons they tried to destroy</a> is visible in every city if you know what to look for.</p>
+
+      <h2>The same crisis, four times</h2>
+
+      <p>The urban crises that consume policy attention look different on the surface. They share one mechanism.</p>
+
+      <div class="crisis-grid">
+        <div class="crisis-card">
+          <span class="crisis-label">Housing</span>
+          <p>Land is a commons — its value is created by the whole city: transit built nearby, schools improved, neighborhoods made safe through collective effort. When that value gets captured by private title holders who did nothing to produce it, the result is unaffordable housing. The <a href="glossary.html#community-land-trust" class="xl">community land trust</a> is the structural correction: remove the land from the market permanently and the value stays with the community that made it.</p>
+        </div>
+        <div class="crisis-card">
+          <span class="crisis-label">Transit</span>
+          <p>Public transit is a commons. It only works when everyone uses it — the wealthy taking the subway is not charity, it's what makes the system function. When transit gets defunded to justify privatization, or car-dominated planning makes it unviable, the commons collapses. The cities with working transit — Vienna, Tokyo, Singapore — treat it as infrastructure that belongs to everyone.</p>
+        </div>
+        <div class="crisis-card">
+          <span class="crisis-label">Gentrification</span>
+          <p>Neighborhoods are commons: the culture, the social networks, the institutions, the feel of a place are collectively produced over decades. Gentrification is the privatization of that collective product — the neighborhood value created by residents gets captured by developers and landlords who arrive after. <a href="racial-capitalism.html" class="xlr">Racial displacement</a> is not a side effect. It is, historically, the mechanism.</p>
+        </div>
+        <div class="crisis-card">
+          <span class="crisis-label">Public Space</span>
+          <p>Parks, plazas, libraries, markets — public space is where democratic life happens. The privatization of public space (Business Improvement Districts controlling sidewalks, "public" plazas with private security, parks defunded then "adopted" by corporations) is the enclosure of the commons of civic life. <a href="two-ways-to-fix-a-pothole.html" class="xlr">Who governs public space</a> determines whose city this actually is.</p>
+        </div>
+      </div>
+
+      <h2>What Ostrom means for cities</h2>
+
+      <p>Elinor Ostrom's Nobel-winning research documented something city planners have repeatedly rediscovered and repeatedly forgotten: communities can govern shared resources sustainably without privatization or top-down state management, when they have real power over the rules. Her <a href="ostrom.html" class="xl">eight design principles</a> — clear boundaries, rules matched to local conditions, collective choice arrangements, monitoring, graduated sanctions, conflict resolution, recognition by external authorities, nested governance — describe not just fisheries and forests but everything from housing cooperatives to participatory budgeting to community land trusts.</p>
+
+      <p>The reason urban commons keep failing isn't that they can't work. It's that <a href="gramsci.html" class="xlr">civic capture</a> — the infiltration of public institutions by private interests — prevents the conditions Ostrom identified from taking hold. Zoning boards captured by developers. Planning commissions captured by real estate. Parks departments captured by corporate "partners." The commons doesn't fail on its own; it gets enclosed.</p>
+
+      <div class="pull">
+        The city's value is <strong>collectively produced.</strong><br/>The question is whether it gets<br/>collectively held.
+      </div>
+
+      <h2>What's already working</h2>
+
+      <p>The alternatives aren't theoretical. They're running.</p>
+
+      <div class="examples-grid">
+        <div class="example">
+          <div class="example-icon">🏘️</div>
+          <div class="example-title">Community Land Trusts</div>
+          <p>Permanently affordable housing through community land ownership. Burlington, Vermont's CLT — started in 1984 — has kept hundreds of units affordable through multiple real estate cycles. London, Brussels, Brussels, and Nairobi have active CLT movements.</p>
+        </div>
+        <div class="example">
+          <div class="example-icon">🗳️</div>
+          <div class="example-title">Participatory Budgeting</div>
+          <p>Porto Alegre, Brazil invented modern participatory budgeting in 1989. Residents vote directly on capital spending. The process has been adopted in hundreds of cities globally and consistently shifts resources toward lower-income neighborhoods.</p>
+        </div>
+        <div class="example">
+          <div class="example-icon">⚡</div>
+          <div class="example-title">Community Energy</div>
+          <p>Schönau, Germany's community-owned grid started when residents bought out the utility after Chernobyl. Now hundreds of German cities have energy cooperatives. Barcelona's Som Energia has 80,000+ members. Energy governance as democratic commons.</p>
+        </div>
+        <div class="example">
+          <div class="example-icon">🌱</div>
+          <div class="example-title">Urban Land Commons</div>
+          <p>Community gardens, cooperative food markets, neighborhood land trusts for commercial space. When communities own the land, they control what gets built — and what stays. The longest-running urban gardens in New York City have survived four real estate cycles.</p>
+        </div>
+      </div>
+
+      <h2>The governance question</h2>
+
+      <p>Urban planning has spent decades oscillating between two failed poles: privatize everything, or centralize everything. The commons offers a third path that most planning curricula barely acknowledge. Cooperative ownership. Participatory governance. Institutions with clear democratic accountability and long-term stakes. Not charity or subsidy — structural alternatives to enclosure.</p>
+
+      <p>The <a href="falling-through-the-gap.html" class="xl">people who fall through the gaps</a> in urban systems are precisely the people whose collective needs don't register in markets and whose organized advocacy doesn't reach centralized bureaucracies. Commons-based governance is the mechanism by which their needs become constitutive rather than marginal. That's not a nice-to-have. That's the difference between a city that works for everyone and one that works only for the people who can afford it.</p>
+
+      <p><a href="open-data-isnt-enough.html" class="xl">Open data</a> and transparency, meanwhile, are necessary but not sufficient: the question isn't just whether the data is available, but who governs the decisions the data informs. Civic tech that routes around accountability is still enclosure.</p>
+
+      <div class="action-box">
+        <span class="action-label">Where to go from here</span>
+        <h3>The building is already happening.</h3>
+        <p>Community land trusts need supporters, board members, and donors. Participatory budgeting processes need organized neighborhood participation to keep them honest. Community energy cooperatives need members to stay democratic. Urban commons institutions don't run themselves — they require the ongoing participation of people who understand what's at stake.</p>
+        <p>Find the CLT in your city and join it. Attend your city's participatory budgeting process. Push for community benefit agreements on every major development. The <a href="build-it-now.html" style="color:rgba(var(--paper-rgb),0.9);border-bottom:1px solid rgba(var(--paper-rgb),0.35);text-decoration:none;">infrastructure of the commons</a> is built incrementally, institution by institution, neighborhood by neighborhood.</p>
+        <div class="action-links">
+          <a href="two-ways-to-fix-a-pothole.html" class="action-link">City governance →</a>
+          <a href="build-it-now.html" class="action-link">Build it now →</a>
+          <a href="ostrom.html" class="action-link">Ostrom's framework →</a>
+          <a href="gramsci.html" class="action-link">How capture works →</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="read-more">
+    <div class="read-more-inner">
+      <h3>Go deeper</h3>
+      <p>The framework behind this entry point.</p>
+      <div class="read-links">
+        <a href="start-here.html" class="read-link-btn">Start here →</a>
+        <a href="hardin-was-wrong.html" class="read-link-btn">Hardin was wrong →</a>
+        <a href="mutual-aid-isnt-charity.html" class="read-link-btn">Mutual aid →</a>
+        <a href="racial-capitalism.html" class="read-link-btn">Racial capitalism →</a>
+        <a href="the-commons-they-never-stopped-building.html" class="read-link-btn">What's being built →</a>
+        <a href="glossary.html" class="read-link-btn">Glossary →</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

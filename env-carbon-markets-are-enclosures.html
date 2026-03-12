@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carbon Markets Are the New Enclosures — Power Explained</title>
+  <meta name="description" content="REDD+, nature-based solutions, biodiversity credits — the financialization of the atmosphere and the living world is being sold as climate action. It is, structurally, the same mechanism that caused the problem: enclosure dressed in green." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root { --green: #2d6a2d; --green-rgb: 45,106,45; --green-light: #edf5ed; }
+
+    .hero { background: var(--paper-mid); border-bottom: 2px solid var(--ink); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .series-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 0.5rem; }
+    .series-title { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.55); display: block; margin-bottom: 1.75rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.75rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,7vw,4rem); font-weight: 700; line-height: 1.08; margin-bottom: 1.25rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.6vw,1.4rem); font-style: italic; line-height: 1.55; color: rgba(var(--ink-rgb),0.72); max-width: 560px; }
+
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; border-left: 3px solid var(--red); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .pull strong { font-style: normal; font-weight: 700; color: var(--red); }
+
+    .critique-block { background: var(--paper-dark); padding: 1.75rem; margin: 2rem 0; border-top: 2px solid var(--ink); }
+    .critique-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.5); display: block; margin-bottom: 0.75rem; }
+    .critique-block h3 { font-family: var(--display); font-size: 1.15rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .critique-block p { font-size: 0.92rem; line-height: 1.7; margin-bottom: 0.6rem; }
+    .critique-block p:last-child { margin-bottom: 0; }
+    .critique-block a { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); }
+    .critique-block a:hover { border-bottom-color: var(--red); }
+
+    .contrast { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); margin: 2.5rem 0; }
+    .contrast-col { background: var(--paper); padding: 1.5rem 1.25rem; }
+    .contrast-col.bad { background: var(--paper-mid); }
+    .contrast-col-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); display: block; margin-bottom: 1rem; }
+    .contrast-col h3 { font-family: var(--display); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .contrast-col p { font-size: 0.88rem; line-height: 1.65; margin-bottom: 0.5rem; color: rgba(var(--ink-rgb),0.8); }
+    @media (max-width: 520px) { .contrast { grid-template-columns: 1fr; } }
+
+    .nav-strip { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 2.5rem 0; padding: 1.25rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-strip a { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.5); text-decoration: none; padding: 0.4rem 0.8rem; border: 1px solid rgba(var(--ink-rgb),0.15); transition: all 0.2s; }
+    .nav-strip a:hover { color: var(--ink); border-color: var(--ink); }
+    .nav-strip a.current { color: var(--red); border-color: var(--red); }
+
+    .close-box { background: var(--green); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .close-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.5); display: block; margin-bottom: 1rem; }
+    .close-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
+    .close-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.85; margin-bottom: 0.8rem; }
+    .close-box p:last-of-type { margin-bottom: 0; }
+    .close-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
+    .close-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.7); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--paper-rgb),0.3); transition: all 0.2s; }
+    .close-link:hover { color: var(--paper); border-color: rgba(var(--paper-rgb),0.85); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .xl { color: rgba(var(--ink-rgb),0.75); text-decoration: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.25); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: rgba(var(--ink-rgb),0.7); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
+    .xlg { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(var(--green-rgb),0.3); transition: border-color 0.15s; }
+    .xlg:hover { border-bottom-color: var(--green); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">For Environmentalists</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="series-eyebrow">For Environmentalists · Series</span>
+      <span class="series-title">Part III of III</span>
+      <h1>Carbon Markets<br/>Are the<br/>New Enclosures</h1>
+      <p class="hero-dek">REDD+, nature-based solutions, biodiversity credits — the financialization of the atmosphere and the living world is being sold as climate action. It is, structurally, the same mechanism that caused the problem.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <div class="nav-strip">
+        <a href="for-environmentalists.html">Overview</a>
+        <a href="env-enclosure-and-extinction.html">I. Enclosure &amp; extinction</a>
+        <a href="env-indigenous-land-governance.html">II. Indigenous governance</a>
+        <a href="env-carbon-markets-are-enclosures.html" class="current">III. Carbon markets</a>
+      </div>
+
+      <p>The logic of carbon markets goes like this: emitting carbon has a cost, but no one is currently paying it. So create a price for carbon, let markets allocate reductions to wherever they're cheapest, and emissions fall efficiently. It sounds clean. It has the aesthetic of pragmatism — working with markets rather than against them, not waiting for political consensus on hard limits.</p>
+
+      <p>The problem is not the logic. The problem is what happens when you try to build a property right over the atmosphere and the living systems that regulate it. You get enclosure: the conversion of shared commons — the carbon cycle, standing forests, the living systems Indigenous communities govern — into tradeable assets controlled by whoever structures the deal first.</p>
+
+      <h2>How REDD+ became a land grab</h2>
+
+      <p>REDD+ (Reducing Emissions from Deforestation and Forest Degradation) was designed to pay for keeping forests standing. The mechanism: governments and companies in the Global North pay for "carbon credits" generated by forests in the Global South that aren't being cut down. On paper, everyone wins — emitters offset their pollution, forest nations get revenue, forests stay standing.</p>
+
+      <p>In practice, REDD+ projects have repeatedly dispossessed the communities most responsible for forest protection. The credits require defined territories with tradeable carbon rights. But in many cases, the communities actually governing the forests don't hold legal title that a carbon market can recognize — their governance is <a href="env-indigenous-land-governance.html" class="xlg">customary rather than formal</a>. So the credits go to whoever does hold recognizable title: national governments, regional authorities, or NGOs that structured the deal. The communities keep the obligation to protect the forest; the value of the carbon flows elsewhere.</p>
+
+      <div class="critique-block">
+        <span class="critique-label">What the research shows</span>
+        <h3>The Guardian's REDD+ investigation (2023)</h3>
+        <p>A year-long investigation by The Guardian, Die Zeit, and SourceMaterial examined carbon credits generated by Verra — the largest certifier of voluntary carbon offsets. More than 90 percent of their rainforest offset credits were found to be "phantom credits" that didn't represent real carbon reductions. The forest areas generating the credits weren't at significant risk of deforestation in the first place, meaning the credits were selling the non-destruction of forests that weren't going to be destroyed anyway.</p>
+        <p>This is not a technical accounting error. It's the predictable outcome of a market structure where the incentive is to generate certifiable credits, not to produce actual carbon reductions. <a href="the-alibi-was-a-mirror.html" class="xlr">The alibi was the point</a> — giving fossil fuel companies a mechanism to continue operating at current levels while claiming climate action.</p>
+      </div>
+
+      <h2>The deeper problem: commodifying the commons</h2>
+
+      <p>Even a well-functioning carbon market has a structural problem that no amount of improved accounting can fix: it converts a global commons — the atmosphere's capacity to absorb carbon — into a system of privately held property rights. The atmosphere's carbon-processing capacity doesn't belong to anyone. It's the collective inheritance of every living thing on Earth. When you assign that capacity as tradeable credits, you're doing <a href="glossary.html#enclosure" class="xl">enclosure</a> of a commons that no one had the authority to enclose.</p>
+
+      <p>The same logic applies to "biodiversity credits" and "natural capital accounting." These frameworks turn the living world into an asset class — quantifying ecosystem services, assigning them property rights, and creating markets where companies can buy the right to damage one ecosystem by protecting another. This isn't conservation. It's the extension of enclosure to the remaining commons.</p>
+
+      <div class="pull">
+        You can't solve an enclosure crisis<br/>by <strong>enclosing what's left.</strong>
+      </div>
+
+      <h2>The contrast: what actually works</h2>
+
+      <div class="contrast">
+        <div class="contrast-col bad">
+          <span class="contrast-col-label">Carbon market approach</span>
+          <h3>Commodify the forest</h3>
+          <p>Assign carbon rights to forest area. Sell those rights to emitters as offsets. Allow companies to maintain current emission levels in exchange for payment. Generate certifiable credits that represent abstractly "equivalent" carbon reductions elsewhere.</p>
+          <p>Leaves the governance of the forest as a secondary concern — what matters is the accounting, not the institution that maintains it. Systematically undervalues the community governance that's actually doing the work of protection.</p>
+        </div>
+        <div class="contrast-col">
+          <span class="contrast-col-label">Commons governance approach</span>
+          <h3>Strengthen the institution</h3>
+          <p>Recognize and legally secure Indigenous territorial rights. Fund community-based monitoring and enforcement. Transfer real governance authority — not advisory roles — to the communities that have demonstrated they can maintain the ecosystems. Direct finance to those communities, not to intermediaries who hold the tradeable instruments.</p>
+          <p>Targets the actual mechanism producing protection outcomes: the <a href="env-indigenous-land-governance.html" class="xlg">governance institution</a> with long-term stakes in the ecosystem's survival.</p>
+        </div>
+      </div>
+
+      <h2>What the environmental movement needs to decide</h2>
+
+      <p>Carbon markets have become the dominant framing for climate finance because they're politically easier than alternatives: they don't require capping emissions directly, don't require confronting fossil fuel companies politically, and generate revenue flows that environmental organizations can participate in and benefit from. They're also endorsed by the same financial sector that has spent decades funding the fossil fuel industry — which should be a signal, not a reassurance.</p>
+
+      <p>The alternative framing isn't "do nothing." It's direct investment in the governance institutions that produce ecological outcomes: Indigenous territorial rights, community land ownership, <a href="build-it-now.html" class="xl">cooperative resource management</a>, and hard limits on extraction rather than tradeable rights to continue it. This requires confronting the political economy of fossil fuel extraction rather than routing around it.</p>
+
+      <p>It also requires the environmental movement to <a href="for-social-justice.html" class="xlr">take seriously its relationship with social justice movements</a> — because the communities on the front lines of both ecological protection and carbon market displacement are the same communities that <a href="racial-capitalism.html" class="xlr">racial capitalism</a> has put there. Climate justice is not a subset of climate action. It's the precondition for it.</p>
+
+      <div class="close-box">
+        <span class="close-label">Series conclusion</span>
+        <h3>The commons is the climate solution.</h3>
+        <p>Enclosure caused the ecological crisis. More enclosure — of the atmosphere, of the genetic commons, of the forests that Indigenous communities govern — is not the solution. The most effective climate and biodiversity interventions available are also the most redistributive: secure territorial rights, real governance authority, and direct finance to the communities already doing the work of maintaining living systems.</p>
+        <p>That's not a romantic vision. It's what the evidence shows. The question is whether the environmental movement is willing to fight for it — which means fighting against the financial structures that offer an easier path to continued extraction dressed in green.</p>
+        <div class="close-links">
+          <a href="for-environmentalists.html" class="close-link">Back to overview →</a>
+          <a href="the-commons-they-never-stopped-building.html" class="close-link">What's being built →</a>
+          <a href="build-it-now.html" class="close-link">Build it now →</a>
+        </div>
+      </div>
+
+      <div class="nav-strip">
+        <a href="env-indigenous-land-governance.html">← Indigenous governance</a>
+        <a href="for-environmentalists.html">Back to overview →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="read-more">
+    <div class="read-more-inner">
+      <h3>Related reading</h3>
+      <p>The framework behind this series.</p>
+      <div class="read-links">
+        <a href="for-environmentalists.html" class="read-link-btn">Entry point →</a>
+        <a href="the-outside-capital-needs.html" class="read-link-btn">Outside capital needs →</a>
+        <a href="racial-capitalism.html" class="read-link-btn">Racial capitalism →</a>
+        <a href="underdevelopment-is-a-verb.html" class="read-link-btn">Underdevelopment →</a>
+        <a href="for-social-justice.html" class="read-link-btn">For social justice →</a>
+        <a href="what-we-do-on-monday.html" class="read-link-btn">What we do Monday →</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
