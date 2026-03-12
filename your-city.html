@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your City: A Power Analysis — Power Explained</title>
+  <meta name="description" content="Six questions that reveal who actually runs your city — and who pays the price. Research it yourself or hand it to an agent." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--paper-dark); border-bottom: 2px solid var(--ink); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .tool-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--ink-rgb),0.72); max-width: 560px; margin-top: 1rem; }
+
+    /* Track selector */
+    .track-bar { border-bottom: 1px solid var(--rule-strong); padding: 0; margin: 0; background: var(--paper-mid); }
+    .track-bar-inner { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); display: flex; gap: 0; }
+    .track-btn { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 1rem 1.5rem 0.85rem; border: none; border-bottom: 3px solid transparent; background: none; cursor: pointer; color: rgba(var(--ink-rgb),0.45); transition: all 0.15s; margin-bottom: -1px; }
+    .track-btn.active { color: var(--ink); border-bottom-color: var(--red); }
+    .track-btn:hover:not(.active) { color: rgba(var(--ink-rgb),0.75); }
+
+    /* Tracks */
+    .track { display: none; }
+    .track.active { display: block; }
+
+    /* Question cards */
+    .question-list { list-style: none; margin: 2.5rem 0; padding: 0; }
+    .question-item { border: 1px solid var(--rule); margin-bottom: -1px; }
+    .question-header { padding: 1.5rem; display: flex; gap: 1.25rem; align-items: baseline; }
+    .q-num { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; color: var(--red); flex-shrink: 0; text-transform: uppercase; }
+    .q-title { font-family: var(--display); font-size: 1.2rem; font-weight: 700; line-height: 1.3; }
+    .q-body { padding: 0 1.5rem 1.5rem 3rem; }
+    .q-body p { font-size: 0.92rem; line-height: 1.7; color: rgba(var(--ink-rgb),0.8); margin-bottom: 0.75rem; }
+    .q-body p:last-child { margin-bottom: 0; }
+    .data-sources { background: var(--paper-mid); border-top: 1px solid var(--rule); padding: 1rem 1.5rem 1rem 3rem; }
+    .data-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); margin-bottom: 0.5rem; }
+    .data-sources ul { list-style: none; margin: 0; padding: 0; }
+    .data-sources li { font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.7); padding: 0.15rem 0; }
+    .data-sources li::before { content: "→ "; color: var(--red); font-family: var(--mono); font-size: 0.7em; }
+
+    /* Agent prompt */
+    .prompt-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 2.5rem 0; position: relative; }
+    .prompt-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(240,232,216,0.4); display: block; margin-bottom: 1.25rem; }
+    .prompt-text { font-family: var(--mono); font-size: 0.78rem; line-height: 1.8; color: rgba(240,232,216,0.88); white-space: pre-wrap; }
+    .prompt-var { color: var(--red); font-weight: 600; }
+    .copy-btn { position: absolute; top: 1.25rem; right: 1.25rem; font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; background: none; border: 1px solid rgba(240,232,216,0.25); color: rgba(240,232,216,0.5); padding: 0.4rem 0.75rem; cursor: pointer; transition: all 0.15s; }
+    .copy-btn:hover { color: rgba(240,232,216,0.9); border-color: rgba(240,232,216,0.6); }
+    .copy-btn.copied { color: rgba(var(--red-rgb),0.9); border-color: rgba(var(--red-rgb),0.5); }
+
+    /* Instructions */
+    .how-to { border: 1px solid var(--rule); margin: 2.5rem 0; }
+    .how-to-header { padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 0.75rem; }
+    .how-to-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); }
+    .how-to-body { padding: 1.25rem 1.5rem; }
+    .how-to-body ol { padding-left: 1.25rem; margin: 0; }
+    .how-to-body li { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.5rem; color: rgba(var(--ink-rgb),0.8); }
+
+    .theory-note { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .theory-note-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 0.6rem; display: block; }
+    .theory-note p { font-size: 0.9rem; line-height: 1.7; margin: 0; color: rgba(var(--ink-rgb),0.8); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Tools</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="tool-flag">Tool — Power Analysis</span>
+      <h1>Your City:<br/>A Power Brief</h1>
+      <p class="hero-dek">Six questions that reveal who actually runs your city — and who's paying for it. Research it yourself or hand it to an agent.</p>
+    </div>
+  </div>
+
+  <div class="track-bar">
+    <div class="track-bar-inner">
+      <button class="track-btn active" onclick="setTrack('diy', this)">DIY Track</button>
+      <button class="track-btn" onclick="setTrack('agent', this)">Agent Track</button>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <!-- DIY TRACK -->
+      <div id="track-diy" class="track active">
+
+        <p>Power isn't invisible — it's just usually spread across documents nobody bothers to read. Property records, planning commission minutes, developer disclosure filings, 990s from major nonprofits. Everything you need to understand who actually runs your city is public. Here's what to look for.</p>
+
+        <div class="theory-note">
+          <span class="theory-note-label">The frame</span>
+          <p>This analysis uses the framework from <a href="why-your-city-doesnt-work.html" class="xl">Why Your City Doesn't Work</a> and <a href="urban-capture.html" class="xl">How Cities Get Captured</a>. The six questions below map directly to how <a href="the-outside-capital-needs.html" class="xl">capture mechanisms operate</a> at the local level.</p>
+        </div>
+
+        <ul class="question-list">
+
+          <li class="question-item">
+            <div class="question-header">
+              <span class="q-num">Q1</span>
+              <span class="q-title">Who owns the land — and what are they doing with it?</span>
+            </div>
+            <div class="q-body">
+              <p>Land ownership is the first axis of local power. In most American cities, a surprisingly small number of entities own a large share of developable land. Identifying them tells you whose interests dominate planning decisions.</p>
+              <p>Look for: large single owners near transit corridors; out-of-state LLCs holding vacant or underused parcels; <a href="urban-land-value.html" class="xl">land banking patterns</a> (buying and holding without developing); and who received recent rezonings.</p>
+            </div>
+            <div class="data-sources">
+              <div class="data-label">Where to look</div>
+              <ul>
+                <li>County assessor's property records (most are searchable online)</li>
+                <li>State LLC filings — check who owns the LLCs holding large parcels</li>
+                <li>City planning department: recent rezoning applications and approvals</li>
+                <li>ProPublica Nonprofit Explorer for major landholding nonprofits</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-header">
+              <span class="q-num">Q2</span>
+              <span class="q-title">Who funds city government — and what do they want?</span>
+            </div>
+            <div class="q-body">
+              <p>Municipal budgets are a power map. Where does the revenue actually come from? Sales tax, property tax, fees, state transfers, federal grants, and developer exactions each carry different constituencies. Cities dependent on sales tax revenue have different political pressures than those relying on property tax. <a href="why-your-city-doesnt-work.html" class="xl">Revenue structure shapes whose interests city government serves.</a></p>
+              <p>Also look at: campaign finance for city council races; who funds local political action committees; which developers have active projects and which council members approved them.</p>
+            </div>
+            <div class="data-sources">
+              <div class="data-label">Where to look</div>
+              <ul>
+                <li>City's Comprehensive Annual Financial Report (CAFR) — usually on city website</li>
+                <li>State campaign finance database — search city council candidates</li>
+                <li>OpenSecrets local race data where available</li>
+                <li>City clerk: developer agreements and exaction records</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-header">
+              <span class="q-num">Q3</span>
+              <span class="q-title">Who sits on the boards that matter?</span>
+            </div>
+            <div class="q-body">
+              <p>Most real land-use decisions in American cities pass through appointed bodies: planning commissions, port authorities, redevelopment agencies, housing authorities, utility boards. These are rarely elected. Who appoints the members? What are their professional backgrounds and financial interests? Who shows up to their meetings?</p>
+              <p>This is <a href="urban-capture.html" class="xl">where civic capture actually happens</a> — in low-visibility appointed bodies with high-stakes authority. The pattern: industry insiders appointed to regulate their own industry, serving consecutive terms, with minimal public oversight.</p>
+            </div>
+            <div class="data-sources">
+              <div class="data-label">Where to look</div>
+              <ul>
+                <li>City website: boards and commissions roster + appointment history</li>
+                <li>Planning commission agendas and minutes (especially dissenting votes)</li>
+                <li>LinkedIn: cross-reference board members with developer/industry affiliations</li>
+                <li>Property records: do board members own land that might benefit from their decisions?</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-header">
+              <span class="q-num">Q4</span>
+              <span class="q-title">What got privatized — and what stayed public?</span>
+            </div>
+            <div class="q-body">
+              <p>Every city has a history of enclosure — the conversion of shared goods into private markets. Water, transit, parking, waste, energy, broadband. The question is not just what's currently private, but when it was privatized, by whom, and on what terms. Long-term privatization contracts (25–99 years) effectively remove the asset from democratic control for generations.</p>
+              <p>Compare to: what's still governed as a commons, and whether those institutions are being defunded or destabilized. <a href="the-outside-capital-needs.html" class="xl">The commons that remain tell you what the enclosure drive hasn't finished yet.</a></p>
+            </div>
+            <div class="data-sources">
+              <div class="data-label">Where to look</div>
+              <ul>
+                <li>City budget: what services were once in-house vs. contracted out?</li>
+                <li>City clerk: long-term concession agreements (parking, water, waste)</li>
+                <li>In the Public Interest (inthepublicinterest.org) for privatization research</li>
+                <li>Local journalism archives: past coverage of privatization votes</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-header">
+              <span class="q-num">Q5</span>
+              <span class="q-title">Who builds the housing — and on what terms?</span>
+            </div>
+            <div class="q-body">
+              <p>Housing production is the sharpest lens on local power. In most cities, a handful of developers have relationships with city hall that determine what gets built, at what price, and who can afford it. The alternative — <a href="hardin-was-wrong.html" class="xl">community land trusts</a>, <a href="build-it-now.html" class="xl">limited-equity cooperatives</a>, social housing — exists but typically operates in the margins unless there's organized political pressure to expand it.</p>
+              <p>Look for: how much affordable housing is built vs. permitted vs. promised; how much is being converted to market-rate; what happened to the last affordable housing bond.</p>
+            </div>
+            <div class="data-sources">
+              <div class="data-label">Where to look</div>
+              <ul>
+                <li>City housing department: annual housing production report</li>
+                <li>NLIHC (nlihc.org) for state/local housing data</li>
+                <li>Community land trust directory: cltnetwork.org</li>
+                <li>HUD AFFH data for subsidized housing location and condition</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="question-item">
+            <div class="question-header">
+              <span class="q-num">Q6</span>
+              <span class="q-title">Where does mutual aid actually exist?</span>
+            </div>
+            <div class="q-body">
+              <p>The commons isn't only what gets taken. It's also what gets built in the spaces capital ignores. <a href="mutual-aid-isnt-charity.html" class="xl">Mutual aid networks, food cooperatives, tenant unions, community land trusts, credit unions, tool libraries</a> — these are the productive substrate that capture depends on but can't produce. Mapping what exists tells you where the leverage is.</p>
+              <p>This question inverts the power analysis: instead of asking who has power over the city, ask where residents have built durable power outside the capture structure.</p>
+            </div>
+            <div class="data-sources">
+              <div class="data-label">Where to look</div>
+              <ul>
+                <li>Mutual Aid Hub (mutualaidhub.org): searchable map of local networks</li>
+                <li>NCBA CLUSA (ncba.coop): local cooperative directory</li>
+                <li>Your state's credit union league: local member institutions</li>
+                <li>City's SNAP/food access map: compare with community garden and food co-op locations</li>
+                <li><a href="the-commons-they-never-stopped-building.html" class="xl">The commons they never stopped building →</a></li>
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="how-to">
+          <div class="how-to-header">
+            <span class="how-to-label">Putting it together</span>
+          </div>
+          <div class="how-to-body">
+            <ol>
+              <li>Run through all six questions for your city. Take notes — even rough ones.</li>
+              <li>Look for the same names and entities appearing across multiple questions. Overlap is the signal.</li>
+              <li>Map the relationship: who owns land <em>and</em> funds campaigns <em>and</em> sits on boards? That entity is the center of the capture structure.</li>
+              <li>Map the counter: who is building commons infrastructure in your city right now? That's the leverage point.</li>
+              <li>The brief doesn't need to be comprehensive to be useful. Three specific findings are worth more than a vague general analysis.</li>
+            </ol>
+          </div>
+        </div>
+
+      </div><!-- /track-diy -->
+
+      <!-- AGENT TRACK -->
+      <div id="track-agent" class="track">
+
+        <p>If you're running an AI research agent, paste the prompt below. Fill in the variables in <span style="color:var(--red);font-family:var(--mono);font-size:0.9em;">[brackets]</span> before sending. The output should be a structured brief you can publish, share, or use as a foundation for organizing.</p>
+
+        <div class="how-to">
+          <div class="how-to-header">
+            <span class="how-to-label">Before you run</span>
+          </div>
+          <div class="how-to-body">
+            <ol>
+              <li>Give the agent web search access — most of the relevant data is in public records and local journalism archives.</li>
+              <li>Set output length to ~1500–2500 words. Enough for depth but short enough to be readable.</li>
+              <li>Tell the agent to flag when it can't find something rather than speculate. Gaps are findings.</li>
+              <li>Review the output before publishing — agents miss context that local knowledge catches.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="prompt-box">
+          <span class="prompt-label">Pasteable agent prompt</span>
+          <button class="copy-btn" id="copy-prompt-btn" onclick="copyPrompt()">Copy</button>
+          <div class="prompt-text" id="prompt-content">You are a researcher conducting a power analysis of a city. Your job is to produce a structured brief that reveals who actually controls key decisions — land use, housing, public services, municipal governance — and where residents have built durable alternatives.
+
+<span class="prompt-var">City:</span> [CITY NAME, STATE]
+<span class="prompt-var">Research depth:</span> [QUICK (1–2 hours of research) / THOROUGH (full investigation)]
+<span class="prompt-var">Output format:</span> [BRIEF (summary + key findings) / FULL REPORT (all six sections with detail)]
+
+Investigate and report on each of the following six areas. For each, provide: key findings, the most important entities and relationships you discovered, what's missing or unclear, and what it implies for residents trying to change things.
+
+1. LAND OWNERSHIP
+Who are the largest landowners in [CITY]? Focus on: large single owners near transit corridors; out-of-state LLCs holding vacant or underused parcels; recent rezonings and who requested them. Sources: county assessor records, state LLC filings, planning commission agendas.
+
+2. MUNICIPAL FINANCE AND POLITICAL FUNDING
+What is the revenue structure of [CITY]'s municipal budget? Who funds city council campaigns — which developers, industries, and interests? Have any council members received significant contributions from entities with business before the city? Sources: city CAFR, state campaign finance database, city council meeting records.
+
+3. APPOINTED BOARDS AND COMMISSIONS
+What are the key appointed bodies governing land use, housing, utilities, and redevelopment in [CITY]? Who are the current members? What are their professional backgrounds and financial interests? Do any have conflicts of interest regarding decisions their bodies have made? Sources: city website boards roster, LinkedIn, property records.
+
+4. PRIVATIZATION HISTORY
+What services or assets in [CITY] have been privatized or contracted out in the last 30 years? Are there any long-term concession agreements currently in effect? What was publicly owned in 1990 that is now privately operated? Sources: city budget history, local journalism archives, city clerk contracts.
+
+5. HOUSING PRODUCTION AND AFFORDABILITY
+Who are the dominant developers in [CITY]? How much affordable housing has been built vs. promised in the last decade? Is there a community land trust operating in the city? What happened to affordable housing stock in the last major development cycle? Sources: city housing report, HUD data, cltnetwork.org.
+
+6. COMMONS INFRASTRUCTURE
+What mutual aid networks, housing cooperatives, food cooperatives, credit unions, tenant unions, or other commons institutions currently operate in [CITY]? Where are they concentrated? What gaps exist? Sources: mutualaidhub.org, ncba.coop, local cooperative league, city food access data.
+
+SYNTHESIS
+After completing all six sections, write a 200–300 word synthesis that:
+- Names the 2–3 entities that appear across multiple sections (this is the capture structure)
+- Names the 2–3 commons institutions with the most organizational capacity
+- Identifies the single most vulnerable decision point — the place where organized resident pressure is most likely to change something
+- Flags what couldn't be verified and why it matters
+
+Be specific. Vague analysis is not useful. If you can't find something, say so and explain what that absence might mean.</div>
+        </div>
+
+        <div class="theory-note">
+          <span class="theory-note-label">What the prompt is built on</span>
+          <p>The six questions come from the framework in <a href="why-your-city-doesnt-work.html" class="xl">Why Your City Doesn't Work</a>, <a href="urban-capture.html" class="xl">How Cities Get Captured</a>, and <a href="the-outside-capital-needs.html" class="xl">The Outside Capital Needs</a>. The synthesis step is designed to identify both the capture structure and the productive substrate — <a href="hardin-was-wrong.html" class="xl">the commons that already exists</a> and can be strengthened.</p>
+        </div>
+
+        <div class="how-to">
+          <div class="how-to-header">
+            <span class="how-to-label">After you get results</span>
+          </div>
+          <div class="how-to-body">
+            <ol>
+              <li>Verify the three to five most specific claims before sharing publicly. Agents hallucinate details.</li>
+              <li>Share the brief with people who know the city. Local knowledge catches what research misses.</li>
+              <li>The synthesis section is the most useful for organizing — it tells you where to apply pressure.</li>
+              <li>If you publish it, link back to this site. The more city briefs exist, the more useful the pattern becomes.</li>
+            </ol>
+          </div>
+        </div>
+
+      </div><!-- /track-agent -->
+
+    </div><!-- /body-text -->
+
+    <div class="read-more">
+      <div class="read-more-inner">
+        <h3>The theory behind the questions</h3>
+        <p>Where this tool connects to the rest of the framework.</p>
+        <div class="read-links">
+          <a href="why-your-city-doesnt-work.html" class="read-link-btn">Why your city doesn't work</a>
+          <a href="urban-capture.html" class="read-link-btn">How cities get captured</a>
+          <a href="the-outside-capital-needs.html" class="read-link-btn">The outside capital needs</a>
+          <a href="urban-land-value.html" class="read-link-btn">Land value and who captures it</a>
+          <a href="hardin-was-wrong.html" class="read-link-btn">Hardin was wrong</a>
+          <a href="mutual-aid-isnt-charity.html" class="read-link-btn">Mutual aid isn't charity</a>
+          <a href="build-it-now.html" class="read-link-btn">Build it now</a>
+          <a href="build-the-commons.html" class="read-link-btn">Build the commons →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+    </div>
+  </main>
+
+  <script>
+    function setTrack(id, btn) {
+      document.querySelectorAll('.track').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.track-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('track-' + id).classList.add('active');
+      btn.classList.add('active');
+    }
+
+    function copyPrompt() {
+      const text = document.getElementById('prompt-content').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-prompt-btn');
+        btn.textContent = 'Copied';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>

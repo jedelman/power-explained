@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How This Was Done — Power Explained</title>
+  <meta name="description" content="Power Explained was built by one person with AI assistance, using free tools, in about two weeks. Here's exactly how — and how you can build something like it for your city or movement." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--paper-dark); border-bottom: 2px solid var(--ink); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .tool-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--ink-rgb),0.72); max-width: 560px; margin-top: 1rem; }
+
+    /* Stack table */
+    .stack-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-size: 0.88rem; }
+    .stack-table th { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); text-align: left; padding: 0.6rem 1rem; border-bottom: 2px solid var(--ink); }
+    .stack-table td { padding: 0.9rem 1rem; border-bottom: 1px solid var(--rule); vertical-align: top; line-height: 1.6; }
+    .stack-table tr:last-child td { border-bottom: none; }
+    .stack-table td:first-child { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.04em; color: var(--red); white-space: nowrap; }
+    .stack-table td:nth-child(2) { font-weight: 600; color: var(--ink); }
+    .stack-table td:nth-child(3) { color: rgba(var(--ink-rgb),0.7); }
+
+    /* Process steps */
+    .process-steps { margin: 2.5rem 0; }
+    .step { display: grid; grid-template-columns: 2.5rem 1fr; gap: 1rem; margin-bottom: 0; border-top: 1px solid var(--rule); padding: 1.5rem 0; }
+    .step:last-child { border-bottom: 1px solid var(--rule); }
+    .step-num { font-family: var(--display); font-size: 2rem; font-weight: 700; color: rgba(var(--ink-rgb),0.15); line-height: 1; padding-top: 0.1rem; }
+    .step-content h3 { font-family: var(--display); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .step-content p { font-size: 0.9rem; line-height: 1.7; color: rgba(var(--ink-rgb),0.8); margin: 0 0 0.5rem; }
+    .step-content p:last-child { margin: 0; }
+
+    /* Honest box */
+    .honest-box { background: var(--paper-mid); border: 1px solid var(--rule-strong); padding: 2rem; margin: 3rem 0; }
+    .honest-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 1rem; }
+    .honest-box h3 { font-family: var(--display); font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; }
+    .honest-box p { font-size: 0.92rem; line-height: 1.75; color: rgba(var(--ink-rgb),0.85); margin-bottom: 0.75rem; }
+    .honest-box p:last-child { margin-bottom: 0; }
+
+    /* Fork guide */
+    .fork-section { margin: 3rem 0; }
+    .fork-step-list { list-style: none; margin: 1.5rem 0; padding: 0; }
+    .fork-step-list li { padding: 1rem 1.25rem; border: 1px solid var(--rule); margin-bottom: -1px; font-size: 0.9rem; line-height: 1.65; display: flex; gap: 1rem; align-items: baseline; color: rgba(var(--ink-rgb),0.8); }
+    .fork-step-list li:last-child { margin-bottom: 0; }
+    .fork-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.08em; color: var(--red); flex-shrink: 0; }
+
+    /* Contribution */
+    .contrib-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 1.5rem 0; }
+    .contrib-cell { background: var(--paper); padding: 1.5rem; }
+    .contrib-cell.shade { background: var(--paper-mid); }
+    .contrib-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 0.75rem; display: block; }
+    .contrib-cell p { font-size: 0.88rem; line-height: 1.7; margin: 0 0 0.5rem; color: rgba(var(--ink-rgb),0.8); }
+    .contrib-cell p:last-child { margin-bottom: 0; }
+
+    .theory-note { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .theory-note-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 0.6rem; display: block; }
+    .theory-note p { font-size: 0.9rem; line-height: 1.7; margin: 0; color: rgba(var(--ink-rgb),0.8); }
+
+    code { font-family: var(--mono); font-size: 0.82em; background: var(--paper-dark); padding: 0.1em 0.4em; border-radius: 2px; color: var(--ink); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    @media (max-width: 560px) { .contrib-grid { grid-template-columns: 1fr; } }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Tools</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="tool-flag">Tool — Meta / Open Source</span>
+      <h1>How This<br/>Was Done</h1>
+      <p class="hero-dek">One person. AI assistance. Free tools. About two weeks. Here's the full process — so you can build something like this for your city, your movement, or your framework.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <p>Power Explained is an open-source editorial project. Everything here was built in public, using tools that are either free or cheap, by one person working with an AI collaborator. The goal was always to make the process as reproducible as the content — if the framework is right, more people should be able to apply it to their own context, not just read this version of it.</p>
+
+      <p>This page explains exactly how it was built, what the editorial standards are, and how you can fork it, contribute to it, or build something similar from scratch.</p>
+
+      <h2>The stack</h2>
+
+      <p>Everything runs on infrastructure that's either free or well under $20/month. No CMS, no database, no backend. Static HTML and CSS, deployed via GitHub Pages. The design system is inlined per file — it's verbose but makes each file standalone and portable.</p>
+
+      <table class="stack-table">
+        <thead>
+          <tr>
+            <th>Layer</th>
+            <th>Tool</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Writing &amp; editing</td>
+            <td>Claude (Anthropic)</td>
+            <td>Primary AI collaborator — drafts, revisions, research synthesis, code. The author directs; Claude executes and pushes back when something's wrong.</td>
+          </tr>
+          <tr>
+            <td>Version control</td>
+            <td>Git + GitHub</td>
+            <td>Every change tracked. Full history available. Enables collaboration and contribution without requiring trust.</td>
+          </tr>
+          <tr>
+            <td>Hosting</td>
+            <td>GitHub Pages</td>
+            <td>Free static site hosting. No server, no deployment pipeline. Push to main, site updates.</td>
+          </tr>
+          <tr>
+            <td>Design</td>
+            <td>Custom CSS (no framework)</td>
+            <td>Full control, no dependencies. Design tokens in CSS custom properties — consistent across 60+ files without an external stylesheet.</td>
+          </tr>
+          <tr>
+            <td>News pipeline</td>
+            <td>commons-wire (Python + GitHub Actions)</td>
+            <td>Daily RSS aggregation + Claude-based scoring against the framework. Posts scored 0–10 for relevance. Open source, forkable. <a href="https://jedelman.github.io/commons-wire" class="xl">Live at commons-wire</a>.</td>
+          </tr>
+          <tr>
+            <td>Memory / continuity</td>
+            <td>GitHub (claude-memory repo)</td>
+            <td>Claude doesn't have persistent memory across sessions. The memory repo stores context files that get read at the start of each session — project state, editorial standards, decisions made.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>The process</h2>
+
+      <div class="process-steps">
+
+        <div class="step">
+          <span class="step-num">1</span>
+          <div class="step-content">
+            <h3>Framework first</h3>
+            <p>The framework came before the site. A structured reading sequence — Kropotkin → Gramsci → Benjamin → Debord → Baudrillard → Deleuze &amp; Guattari → Hardt &amp; Negri — produced a working theory about power, capture, and the commons. That theory is the backbone. Everything on this site is either an application of the framework to a specific domain, or evidence for a claim the framework makes.</p>
+            <p>If you're building something similar: start with the framework. The site is an artifact of having a coherent argument. Without the argument, you just have content.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="step-num">2</span>
+          <div class="step-content">
+            <h3>Editorial voice before the first piece</h3>
+            <p>Before writing anything, we established the editorial standards: eighth-grade reading level, concrete before abstract, no jargon (or jargon always defined inline), no false balance, link density high. The voice was defined by negation as much as aspiration — not academic, not activist-coded, not dumbed down.</p>
+            <p>The standards got codified in a <code>prompts.md</code> file in the memory repo. Every new piece references them. Consistency across 60+ pieces required having written them down before piece one.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="step-num">3</span>
+          <div class="step-content">
+            <h3>Build in series, not one-offs</h3>
+            <p>Every piece was commissioned as part of a series with a defined arc — not as a standalone article. The series structure forces coherence: each piece has to do work in relation to the others, not just be interesting on its own. Series I covers structural failure. Series II covers capture. Series III covers the commons in practice. Series IV covers the world the framework initially missed. The case studies are a fifth layer.</p>
+            <p>This also made cross-linking natural rather than forced. When pieces are designed to connect, the links feel like navigation rather than SEO.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="step-num">4</span>
+          <div class="step-content">
+            <h3>Fact-check before publishing</h3>
+            <p>Any specific date, paper title, statistic, or empirical claim gets verified before a piece goes live. We caught several errors in early drafts — a Hardin recantation that was actually a three-stage process, not a single 1994 paper; a Törbel commons that dated to 1224, not 1483. The <a href="https://github.com/jedelman/claude-memory/blob/main/protocols/fact-checking.md" class="xl" target="_blank" rel="noopener">fact-checking protocol</a> is codified and public. Gaps are flagged rather than papered over.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="step-num">5</span>
+          <div class="step-content">
+            <h3>Ship, then iterate</h3>
+            <p>Every piece went live as soon as it was solid enough to be useful, not when it was perfect. The site has been substantially revised multiple times — cross-linking passes, design updates, additional entry points, corrections. Treating it as a living document rather than a publication means it gets better rather than staler over time.</p>
+            <p>TASKS.md in the repo tracks what's next. It's public — if you want to see what's in progress, that's the place to look.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="honest-box">
+        <span class="honest-label">On AI's role — honestly</span>
+        <h3>What Claude did and didn't do</h3>
+        <p>Every piece on this site was directed, shaped, and reviewed by a human author. Claude drafted — sometimes extensively — and the author edited, pushed back, fact-checked, redirected, and took responsibility for the final product. The distinction matters: the framework, the editorial judgments, the choice of what to include and what to cut — those are human decisions. The velocity of production, the consistency of the design system, the code — Claude contributed substantially to all of those.</p>
+        <p>AI writing assistance produces slop at the default settings. Getting something useful requires: a coherent framework to constrain it, editorial standards to measure against, pushback when it drifts toward the generic, and a human who can tell the difference between a good sentence and a plausible one. Claude is good at plausible. The author's job is to enforce good.</p>
+        <p>We're also using Claude as an agent — <a href="https://github.com/jedelman/commons-wire" class="xl" target="_blank" rel="noopener">commons-wire</a> runs a daily pipeline that scores news against the framework and generates short analysis posts. The agent is more autonomous there, with human review before anything gets highlighted. The approach is to use AI to extend what one person can do, not to replace the judgment that makes the output worth reading.</p>
+        <p>If you're building something similar and want to use AI effectively: the memory repo pattern matters. Claude doesn't remember between sessions. Codifying your editorial standards, project state, and decisions in files that get read at session start is what makes multi-session AI collaboration coherent rather than repetitive.</p>
+      </div>
+
+      <h2>How to fork this for your city or movement</h2>
+
+      <div class="theory-note">
+        <span class="theory-note-label">The point</span>
+        <p>The goal was never for this to be <em>the</em> application of the framework — just an example of what applying it looks like. A version of this for Detroit's auto industry history, for Appalachian energy extraction, for Indigenous land governance, for a specific labor union's organizing context — each of those would be more useful to its audience than this general version is. Fork it.</p>
+      </div>
+
+      <ul class="fork-step-list">
+        <li>
+          <span class="fork-num">01</span>
+          <span><strong>Fork the GitHub repo.</strong> <a href="https://github.com/jedelman/power-explained" class="xl" target="_blank" rel="noopener">github.com/jedelman/power-explained</a>. All the HTML, CSS, and content is there. Enable GitHub Pages on your fork (Settings → Pages → Branch: main, root). Your site is live in about two minutes, at <code>yourusername.github.io/power-explained</code>.</span>
+        </li>
+        <li>
+          <span class="fork-num">02</span>
+          <span><strong>Replace the framework with yours.</strong> The articles are applications of a specific political framework. Your fork should apply your framework — or none at all, if you're building a straightforward local guide. The design system is reusable regardless of content.</span>
+        </li>
+        <li>
+          <span class="fork-num">03</span>
+          <span><strong>Write your editorial standards before you start.</strong> What reading level? What voice? What's in scope and out? What are you willing to say that most publications won't? Write it down. It's the most important thing you'll do before the first piece.</span>
+        </li>
+        <li>
+          <span class="fork-num">04</span>
+          <span><strong>If you're using AI: set up a memory repo.</strong> Fork or adapt the <a href="https://github.com/jedelman/claude-memory" class="xl" target="_blank" rel="noopener">claude-memory pattern</a>. Store your editorial standards, project state, and decisions in <code>context/</code>. Reference them at the start of every session. This is what makes AI collaboration coherent over time.</span>
+        </li>
+        <li>
+          <span class="fork-num">05</span>
+          <span><strong>Build in series, not one-offs.</strong> Plan at least three pieces before writing any of them. The connections between pieces are often more important than the pieces themselves. A framework explains by accumulation, not by individual article.</span>
+        </li>
+        <li>
+          <span class="fork-num">06</span>
+          <span><strong>Fork commons-wire for your news pipeline.</strong> <a href="https://github.com/jedelman/commons-wire" class="xl" target="_blank" rel="noopener">github.com/jedelman/commons-wire</a>. Replace the feed list with sources relevant to your context. Replace FRAMEWORK.md with your framework. The scoring pipeline runs daily via GitHub Actions at no cost.</span>
+        </li>
+      </ul>
+
+      <h2>How to contribute to this site</h2>
+
+      <div class="contrib-grid">
+        <div class="contrib-cell shade">
+          <span class="contrib-label">Content contributions</span>
+          <p>Open a GitHub issue with your proposed piece — what argument it makes, how it connects to existing content, what evidence it draws on. If it fits the framework and passes the editorial bar, it can go in.</p>
+          <p>The editorial bar: eighth-grade reading level, concrete before abstract, every empirical claim sourced, no jargon without inline definition, no false balance, no academic hedging.</p>
+        </div>
+        <div class="contrib-cell">
+          <span class="contrib-label">Case studies</span>
+          <p>The most useful contributions are local case studies — places where the framework is visible in action. If you have deep knowledge of a city, region, sector, or movement, a case study applying the framework to that context is more valuable than another abstract piece.</p>
+          <p>See the <a href="case-studies.html" class="xl">existing case studies</a> for the format and approach.</p>
+        </div>
+        <div class="contrib-cell">
+          <span class="contrib-label">Corrections</span>
+          <p>If you find a factual error — a date, a paper title, a statistic, a claim that doesn't hold up — open a GitHub issue with the correction and your source. We'll fix it and add it to the fact-checking log.</p>
+          <p>Getting facts right matters more than protecting the site's authority. Corrections are not embarrassments; they're the process working.</p>
+        </div>
+        <div class="contrib-cell shade">
+          <span class="contrib-label">Translations and adaptations</span>
+          <p>If you want to translate the framework into another language, or adapt specific pieces for a different national context, reach out via GitHub. The goal is wider reach, not protecting this particular version of the argument.</p>
+          <p>Adaptations that apply the framework to a specific country, region, or sector are especially valuable — and can live in their own repos, linked from here.</p>
+        </div>
+      </div>
+
+      <p style="margin-top:2.5rem;">The repo is at <a href="https://github.com/jedelman/power-explained" class="xl" target="_blank" rel="noopener">github.com/jedelman/power-explained</a>. Everything is public. Issues and pull requests are open.</p>
+
+    </div><!-- /body-text -->
+
+    <div class="read-more">
+      <div class="read-more-inner">
+        <h3>Start using the tools</h3>
+        <p>The framework in practice.</p>
+        <div class="read-links">
+          <a href="your-city.html" class="read-link-btn">Your city: a power brief</a>
+          <a href="build-the-commons.html" class="read-link-btn">Build the commons</a>
+          <a href="start-here.html" class="read-link-btn">Five-minute overview</a>
+          <a href="glossary.html" class="read-link-btn">Glossary</a>
+          <a href="case-studies.html" class="read-link-btn">Case studies</a>
+          <a href="index.html" class="read-link-btn">Back to all pieces</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-footer">
+      <a href="index.html" class="back-link">Back to all pieces</a>
+    </div>
+  </main>
+</body>
+</html>
