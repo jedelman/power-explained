@@ -11,8 +11,10 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c; --red-dim: #7a2015; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --ink: #1a1714;
+      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c;
+      --red-rgb:   160,41,28; --red-dim: #7a2015; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
       --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
       --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
@@ -20,13 +22,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --ink:        #f0e8d8;
+        --ink-rgb:   240,232,216;
         --paper:      #1e1b17;
         --paper-mid:  #28231d;
         --paper-dark: #242019;
         --red:        #d4604f;
+        --red-rgb:   212,96,79;
         --red-dim:    #b84d3d;
-        --rule:       rgba(240,232,216,0.12);
-        --rule-strong: rgba(240,232,216,0.3);
+        --rule:       rgba(var(--ink-rgb),0.12);
+        --rule-strong: rgba(var(--ink-rgb),0.3);
       }
     }
 
@@ -37,7 +41,7 @@
     header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
     .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
     .site-name:hover { color: var(--red); }
-    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); white-space: nowrap; }
 
     .hero { background: var(--paper); border-bottom: 2px solid var(--ink); padding: 0; }
     .hero-stripe { background: var(--red); padding: 0.6rem var(--gutter); }
@@ -53,7 +57,7 @@
       border-left: 3px solid var(--red); padding-left: 1.5rem;
       margin-bottom: 2rem; max-width: 520px;
     }
-    .hero-dek { font-family: var(--body); font-size: 0.97rem; line-height: 1.8; color: rgba(26,23,20,0.78); max-width: 560px; border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+    .hero-dek { font-family: var(--body); font-size: 0.97rem; line-height: 1.8; color: rgba(var(--ink-rgb),0.78); max-width: 560px; border-top: 1px solid var(--rule); padding-top: 1.5rem; }
 
     .contents-nav { border: 1px solid var(--rule-strong); margin: clamp(2rem,5vw,3.5rem) 0 0; }
     .contents-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--rule); display: block; }
@@ -62,7 +66,7 @@
     .contents-nav li:last-child { border-bottom: none; }
     .contents-nav a { display: flex; align-items: baseline; gap: 1rem; padding: 0.85rem 1.25rem; text-decoration: none; color: var(--ink); font-size: 0.88rem; line-height: 1.45; transition: background 0.15s; }
     .contents-nav a:hover { background: var(--paper-mid); color: var(--red); }
-    .contents-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.3); white-space: nowrap; flex-shrink: 0; }
+    .contents-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; color: rgba(var(--ink-rgb),0.3); white-space: nowrap; flex-shrink: 0; }
 
     .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
     .body-text { padding-top: clamp(2rem,5vw,3.5rem); }
@@ -91,7 +95,7 @@
     .cm-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--rule); border-top: 1px solid var(--rule); }
     .cm-cell { background: var(--paper); padding: 1.1rem 1.25rem; }
     .cm-cell.capture { background: var(--paper-mid); }
-    .cm-cell-label { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 0.4rem; }
+    .cm-cell-label { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.35); display: block; margin-bottom: 0.4rem; }
     .cm-cell-text { font-size: 0.9rem; line-height: 1.6; }
     .cm-cell-text strong { font-weight: 700; font-size: 0.95rem; display: block; margin-bottom: 0.2rem; }
 
@@ -99,27 +103,27 @@
     .book { border: 1px solid var(--rule-strong); padding: 1.5rem; }
     .book-title { font-family: var(--display); font-size: 1.05rem; font-weight: 700; font-style: italic; margin-bottom: 0.3rem; line-height: 1.2; }
     .book-year { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.1em; color: var(--red); display: block; margin-bottom: 0.6rem; }
-    .book-desc { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .book-desc { font-size: 0.85rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
 
     .witness { background: var(--paper-dark); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: clamp(2rem,5vw,3.5rem) 0; margin: 3rem 0; }
     .witness-inner { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-    .witness-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .witness-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 1.5rem; }
     .witness-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
     .witness-place { }
     .witness-place-name { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.8rem); font-weight: 700; margin-bottom: 0.3rem; }
     .witness-place-sub { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.8rem; }
-    .witness-place-text { font-size: 0.9rem; line-height: 1.7; color: rgba(26,23,20,0.78); }
+    .witness-place-text { font-size: 0.9rem; line-height: 1.7; color: rgba(var(--ink-rgb),0.78); }
     .witness-divider { border: none; border-left: 1px solid var(--rule-strong); }
 
     .closing { padding: clamp(2.5rem,6vw,4rem) 0 0; margin-top: 3.5rem; border-top: 2px solid var(--ink); }
-    .closing-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 1.5rem; }
+    .closing-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.35); display: block; margin-bottom: 1.5rem; }
     .closing h2 { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.8rem); font-weight: 700; line-height: 1.1; margin-bottom: 1.25rem; }
     .closing p { font-size: 0.97rem; line-height: 1.8; margin-bottom: 1rem; max-width: 580px; }
     .closing-coda { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; color: var(--red); margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); line-height: 1.4; }
     .closing-coda strong { font-style: normal; color: var(--ink); }
 
     .next-reads { border-top: 2px solid var(--ink); padding: 2.5rem 0 0; margin-top: 4rem; }
-    .next-reads-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .next-reads-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 1.5rem; }
     .next-reads-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
     .next-read { background: var(--paper); padding: 1.5rem; text-decoration: none; color: var(--ink); transition: background 0.15s; }
     .next-read:hover { background: var(--paper-mid); }
@@ -130,18 +134,18 @@
     .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
     .back-link::before { content: '←'; }
     .back-link:hover { color: var(--red); }
-    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); }
 
-    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
 
     sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
     sup a { color: var(--red); text-decoration: none; }
     sup a:hover { text-decoration: underline; }
     .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
-    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 1.5rem; }
     .fn-list { list-style: none; }
-    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
     .fn-list li:last-child { border-bottom: none; }
     .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
     .fn-list em { font-style: italic; }
@@ -165,8 +169,8 @@
     <div class="inner">
       <a href="index.html" class="site-name">Power Explained</a>
       <span class="series-tag">Thinkers</span>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
     </div>
   </header>
 
@@ -407,7 +411,7 @@
     </div>
 
     <div class="book-shelf" style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--rule);">
-      <div style="font-family:var(--mono);font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,23,20,0.4);grid-column:1/-1;margin-bottom:0.5rem;">Key Works</div>
+      <div style="font-family:var(--mono);font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.4);grid-column:1/-1;margin-bottom:0.5rem;">Key Works</div>
       <div class="book">
         <span class="book-year">2000</span>
         <div class="book-title">Empire</div>

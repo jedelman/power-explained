@@ -14,12 +14,14 @@
 
     :root {
       --ink:        #1a1714;
+      --ink-rgb:   26,23,20;
       --paper:      #f2ece0;
       --paper-mid:  #e8dfc8;
       --paper-dark: #ddd3b8;
       --red:        #a0291c;
-      --rule:       rgba(26,23,20,0.18);
-      --rule-strong:rgba(26,23,20,0.45);
+      --red-rgb:   160,41,28;
+      --rule:       rgba(var(--ink-rgb),0.18);
+      --rule-strong:rgba(var(--ink-rgb),0.45);
 
       --display: 'Cormorant Garamond', Georgia, serif;
       --body:    'Lora', Georgia, serif;
@@ -31,13 +33,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --ink:        #f0e8d8;
+        --ink-rgb:   240,232,216;
         --paper:      #1e1b17;
         --paper-mid:  #28231d;
         --paper-dark: #242019;
         --red:        #d4604f;
+        --red-rgb:   212,96,79;
         --red-dim:    #b84d3d;
-        --rule:       rgba(240,232,216,0.12);
-        --rule-strong: rgba(240,232,216,0.3);
+        --rule:       rgba(var(--ink-rgb),0.12);
+        --rule-strong: rgba(var(--ink-rgb),0.3);
       }
     }
 
@@ -98,7 +102,7 @@
       font-family: var(--mono);
       font-size: 0.62rem;
       letter-spacing: 0.1em;
-      color: rgba(26,23,20,0.35);
+      color: rgba(var(--ink-rgb),0.35);
     }
 
     h1 {
@@ -116,7 +120,7 @@
       font-style: italic;
       font-weight: 400;
       line-height: 1.5;
-      color: rgba(26,23,20,0.75);
+      color: rgba(var(--ink-rgb),0.75);
       margin-bottom: 2rem;
       border-bottom: 1px solid var(--rule);
       padding-bottom: 2rem;
@@ -148,13 +152,13 @@
       margin: 2.5rem 0;
     }
     .contrast-col { background: var(--paper); padding: 1.5rem; }
-    .contrast-col:last-child { background: rgba(160,41,28,0.04); }
+    .contrast-col:last-child { background: rgba(var(--red-rgb),0.04); }
     .contrast-label {
       font-family: var(--mono);
       font-size: 0.6rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: rgba(26,23,20,0.4);
+      color: rgba(var(--ink-rgb),0.4);
       display: block;
       margin-bottom: 1rem;
     }
@@ -165,7 +169,7 @@
       line-height: 1.65;
       padding: 0.5rem 0;
       border-bottom: 1px solid var(--rule);
-      color: rgba(26,23,20,0.82);
+      color: rgba(var(--ink-rgb),0.82);
     }
     .contrast-col ul li:last-child { border-bottom: none; }
     @media (max-width: 480px) { .contrast { grid-template-columns: 1fr; } }
@@ -198,7 +202,7 @@
       font-size: 0.6rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: rgba(26,23,20,0.45);
+      color: rgba(var(--ink-rgb),0.45);
       display: block;
       margin-bottom: 0.75rem;
     }
@@ -284,7 +288,7 @@
       font-size: 0.6rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: rgba(26,23,20,0.4);
+      color: rgba(var(--ink-rgb),0.4);
     }
 
     @keyframes fadeUp {
@@ -295,22 +299,22 @@
     h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
     .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
     .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
-    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
     sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
     sup a { color: var(--red); text-decoration: none; }
     sup a:hover { text-decoration: underline; }
     .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
-    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 1.5rem; }
     .fn-list { list-style: none; }
-    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
     .fn-list li:last-child { border-bottom: none; }
     .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
     .fn-list em { font-style: italic; }
     .fn-list strong { font-weight: 700; color: var(--ink); }
     .case-image { margin: 2rem 0 2.5rem; }
     .case-image img { width: 100%; display: block; border: 1px solid var(--rule); }
-    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.45); padding: 0.6rem 0 0; line-height: 1.5; }
+    .case-image figcaption { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); padding: 0.6rem 0 0; line-height: 1.5; }
     .case-image figcaption a { color: inherit; text-decoration: underline; }
   </style>
 </head>
@@ -319,8 +323,8 @@
   <header>
     <div class="inner">
       <a href="index.html" class="site-name">Power Explained</a>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
     </div>
   </header>
 

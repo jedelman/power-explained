@@ -11,8 +11,10 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --ink: #1a1714;
+      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c;
+      --red-rgb:   160,41,28; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
       --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
       --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
@@ -20,13 +22,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --ink:        #f0e8d8;
+        --ink-rgb:   240,232,216;
         --paper:      #1e1b17;
         --paper-mid:  #28231d;
         --paper-dark: #242019;
         --red:        #d4604f;
+        --red-rgb:   212,96,79;
         --red-dim:    #b84d3d;
-        --rule:       rgba(240,232,216,0.12);
-        --rule-strong: rgba(240,232,216,0.3);
+        --rule:       rgba(var(--ink-rgb),0.12);
+        --rule-strong: rgba(var(--ink-rgb),0.3);
       }
     }
 
@@ -36,13 +40,13 @@
     header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
     .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
     .site-name:hover { color: var(--red); }
-    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); white-space: nowrap; }
     .page-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
     .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
     .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
     .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
     h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
-    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(26,23,20,0.75); margin-bottom: 2.5rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
+    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(var(--ink-rgb),0.75); margin-bottom: 2.5rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
     .intro { font-size: 1rem; line-height: 1.8; margin-bottom: 3rem; }
     .intro p { margin-bottom: 1.3rem; }
     .case-grid { display: flex; flex-direction: column; gap: 0; margin: 0 0 4rem; }
@@ -51,10 +55,10 @@
     .case-card:hover { background: var(--paper-mid); margin: 0 calc(-1 * var(--gutter)); padding-left: var(--gutter); padding-right: var(--gutter); }
     .card-meta { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
     .card-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
-    .card-status { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.35); }
+    .card-status { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.35); }
     .card-title { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.7rem); font-weight: 700; line-height: 1.15; margin-bottom: 0.5rem; }
-    .card-dek { font-size: 0.9rem; line-height: 1.65; color: rgba(26,23,20,0.7); }
-    .card-angle { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); margin-top: 0.75rem; }
+    .card-dek { font-size: 0.9rem; line-height: 1.65; color: rgba(var(--ink-rgb),0.7); }
+    .card-angle { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); margin-top: 0.75rem; }
     .card-arrow { font-family: var(--mono); font-size: 0.8rem; color: var(--red); align-self: center; }
     .frame-note { background: var(--ink); color: var(--paper); padding: 2.5rem var(--gutter); margin: 0 calc(-1 * var(--gutter)) 4rem; }
     .frame-note h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 1rem; }
@@ -80,8 +84,8 @@
     <div class="inner">
       <a href="index.html" class="site-name">Power Explained</a>
       <span class="series-tag">Case Studies — Power in Practice</span>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
     </div>
   </header>
   <main class="page-wrap">

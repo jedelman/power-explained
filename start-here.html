@@ -11,8 +11,10 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --ink: #1a1714;
+      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c;
+      --red-rgb:   160,41,28; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
       --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
       --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
@@ -20,13 +22,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --ink:        #f0e8d8;
+        --ink-rgb:   240,232,216;
         --paper:      #1e1b17;
         --paper-mid:  #28231d;
         --paper-dark: #242019;
         --red:        #d4604f;
+        --red-rgb:   212,96,79;
         --red-dim:    #b84d3d;
-        --rule:       rgba(240,232,216,0.12);
-        --rule-strong: rgba(240,232,216,0.3);
+        --rule:       rgba(var(--ink-rgb),0.12);
+        --rule-strong: rgba(var(--ink-rgb),0.3);
       }
     }
 
@@ -65,10 +69,10 @@
     .where-card:hover { background: var(--paper-mid); }
     .where-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); }
     .where-title { font-family: var(--display); font-size: 1.1rem; font-weight: 700; line-height: 1.2; }
-    .where-desc { font-size: 0.88rem; line-height: 1.6; color: rgba(26,23,20,0.65); }
+    .where-desc { font-size: 0.88rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.65); }
     .where-cta { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-top: auto; padding-top: 0.75rem; }
 
-    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
 
     .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
@@ -89,8 +93,8 @@
   <header>
     <div class="inner">
       <a href="index.html" class="site-name">Power Explained</a>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
     </div>
   </header>
 
@@ -191,7 +195,7 @@
     </div>
 
     <div class="body-text" style="padding-top:0;">
-      <p style="font-size:0.9rem;color:rgba(26,23,20,0.6);font-style:italic;">Everything on this site is free, public domain, and written for an eighth-grade reading level by design. Share it. Build on it. The commons is the point.</p>
+      <p style="font-size:0.9rem;color:rgba(var(--ink-rgb),0.6);font-style:italic;">Everything on this site is free, public domain, and written for an eighth-grade reading level by design. Share it. Build on it. The commons is the point.</p>
     </div>
 
     <footer class="article-footer">

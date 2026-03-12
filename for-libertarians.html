@@ -11,9 +11,11 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c; --dim: rgba(242,236,224,0.65);
-      --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --ink: #1a1714;
+      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c;
+      --red-rgb:   160,41,28; --dim: rgba(242,236,224,0.65);
+      --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
       --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
       --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
@@ -21,13 +23,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --ink:        #f0e8d8;
+        --ink-rgb:   240,232,216;
         --paper:      #1e1b17;
         --paper-mid:  #28231d;
         --paper-dark: #242019;
         --red:        #d4604f;
+        --red-rgb:   212,96,79;
         --red-dim:    #b84d3d;
-        --rule:       rgba(240,232,216,0.12);
-        --rule-strong: rgba(240,232,216,0.3);
+        --rule:       rgba(var(--ink-rgb),0.12);
+        --rule-strong: rgba(var(--ink-rgb),0.3);
       }
     }
 
@@ -37,7 +41,7 @@
     header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
     .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
     .site-name:hover { color: var(--red); }
-    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); white-space: nowrap; }
 
     /* Hero — dark, insider, conspiratorial */
     .hero { background: var(--ink); color: var(--paper); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
@@ -68,13 +72,13 @@
     .receipt-row { display: grid; grid-template-columns: 1fr 1.6fr; gap: 1rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--rule); align-items: start; }
     .receipt-row:last-child { border-bottom: none; }
     .receipt-item { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em; font-weight: 500; }
-    .receipt-detail { font-size: 0.88rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
-    .receipt-detail a { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); }
+    .receipt-detail { font-size: 0.88rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
+    .receipt-detail a { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); }
     .receipt-detail a:hover { border-bottom-color: var(--red); }
 
     /* The old deal */
     .old-deal { background: var(--paper-mid); border-left: 3px solid var(--ink); padding: 1.5rem 2rem; margin: 2.5rem 0; }
-    .old-deal-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 0.75rem; }
+    .old-deal-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 0.75rem; }
     .old-deal p { font-size: 0.95rem; line-height: 1.75; margin-bottom: 0.8rem; }
     .old-deal p:last-child { margin-bottom: 0; }
 
@@ -90,9 +94,9 @@
     .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
     .read-more-inner { max-width: var(--max); margin: 0 auto; }
     .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
-    .read-more p { font-size: 0.9rem; color: rgba(26,23,20,0.65); margin-bottom: 1.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
     .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
     .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
 
     .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
@@ -104,7 +108,7 @@
     .hero      { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
     .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.3s; }
 
-    .xl  { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl  { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
     .xl:hover { border-bottom-color: var(--red); }
   </style>
 </head>
@@ -113,8 +117,8 @@
     <div class="inner">
       <a href="index.html" class="site-name">Power Explained</a>
       <span class="series-tag">Entry Points</span>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
     </div>
   </header>
 

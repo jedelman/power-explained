@@ -11,9 +11,11 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c; --green: #2d6a4f; --green-light: #e8f4ee; --green-mid: #d0eadb;
-      --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --ink: #1a1714;
+      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c;
+      --red-rgb:   160,41,28; --green: #2d6a4f; --green-light: #e8f4ee; --green-mid: #d0eadb;
+      --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
       --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
       --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
@@ -21,13 +23,15 @@
     @media (prefers-color-scheme: dark) {
       :root {
         --ink:        #f0e8d8;
+        --ink-rgb:   240,232,216;
         --paper:      #1e1b17;
         --paper-mid:  #28231d;
         --paper-dark: #242019;
         --red:        #d4604f;
+        --red-rgb:   212,96,79;
         --red-dim:    #b84d3d;
-        --rule:       rgba(240,232,216,0.12);
-        --rule-strong: rgba(240,232,216,0.3);
+        --rule:       rgba(var(--ink-rgb),0.12);
+        --rule-strong: rgba(var(--ink-rgb),0.3);
       }
     }
 
@@ -37,12 +41,12 @@
     header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
     .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
     .site-name:hover { color: var(--red); }
-    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); white-space: nowrap; }
     .hero { background: var(--green-light); border-bottom: 2px solid var(--green); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
     .hero-inner { max-width: var(--max); margin: 0 auto; }
     .entry-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1.5rem; }
     .hero h1 { font-family: var(--display); font-size: clamp(2.6rem,9vw,5rem); font-weight: 700; line-height: 0.95; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 1.5rem; }
-    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(26,23,20,0.75); max-width: 560px; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--ink-rgb),0.75); max-width: 560px; }
     .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
     .body-text { padding-top: clamp(2rem,5vw,3rem); }
     .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
@@ -60,7 +64,7 @@
     .example:hover { background: var(--green-light); }
     .example-icon { font-size: 1.5rem; margin-bottom: 0.5rem; line-height: 1; }
     .example-title { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--green); margin-bottom: 0.35rem; }
-    .example-body { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.7); }
+    .example-body { font-size: 0.85rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.7); }
     .action-box { background: var(--green); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
     .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(242,236,224,0.6); display: block; margin-bottom: 1rem; }
     .action-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
@@ -72,9 +76,9 @@
     .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
     .read-more-inner { max-width: var(--max); margin: 0 auto; }
     .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
-    .read-more p { font-size: 0.9rem; color: rgba(26,23,20,0.65); margin-bottom: 1.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
     .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(26,23,20,0.2); transition: all 0.2s; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
     .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
     .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
     .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
@@ -85,7 +89,7 @@
     .body-text  { animation: fadeUp 0.6s ease both; animation-delay: 0.3s; }
     .xl  { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(45,106,79,0.3); transition: border-color 0.15s; }
     .xl:hover  { border-bottom-color: var(--green); }
-    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
     .xlr:hover { border-bottom-color: var(--red); }
   </style>
 </head>
@@ -94,8 +98,8 @@
     <div class="inner">
       <a href="index.html" class="site-name">Power Explained</a>
       <span class="series-tag">Entry Points</span>
-      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
     </div>
   </header>
 
