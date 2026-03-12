@@ -160,7 +160,7 @@
           <div class="step-content">
             <h3>Editorial voice before the first piece</h3>
             <p>Before writing anything, we established the editorial standards: eighth-grade reading level, concrete before abstract, no jargon (or jargon always defined inline), no false balance, link density high. The voice was defined by negation as much as aspiration — not academic, not activist-coded, not dumbed down.</p>
-            <p>The standards got codified in a <code>prompts.md</code> file in the memory repo. Every new piece references them. Consistency across 60+ pieces required having written them down before piece one.</p>
+            <p>The standards got codified in a <code>prompts.md</code> file in the memory repo. Every new piece references them. Consistency across fifty pieces required having written them down before piece one.</p>
           </div>
         </div>
 
@@ -177,7 +177,7 @@
           <span class="step-num">4</span>
           <div class="step-content">
             <h3>Fact-check before publishing</h3>
-            <p>Any specific date, paper title, statistic, or empirical claim gets verified before a piece goes live. We caught several errors in early drafts — a Hardin recantation that was actually a three-stage process, not a single 1994 paper; a Törbel commons that dated to 1224, not 1483. The <a href="https://github.com/jedelman/claude-memory/blob/main/protocols/fact-checking.md" class="xl" target="_blank" rel="noopener">fact-checking protocol</a> is codified and public. Gaps are flagged rather than papered over.</p>
+            <p>Any specific date, paper title, statistic, or empirical claim gets verified before a piece goes live. We caught several errors in early drafts — a Hardin recantation that was actually a three-stage process, not a single 1994 paper; a Törbel commons that dated to 1224, not 1483. The fact-checking protocol is codified and lives in the project's memory files. Gaps are flagged rather than papered over.</p>
           </div>
         </div>
 
@@ -223,8 +223,60 @@
         </li>
         <li>
           <span class="fork-num">04</span>
-          <span><strong>If you're using AI: set up a memory repo.</strong> Fork or adapt the <a href="https://github.com/jedelman/claude-memory" class="xl" target="_blank" rel="noopener">claude-memory pattern</a>. Store your editorial standards, project state, and decisions in <code>context/</code>. Reference them at the start of every session. This is what makes AI collaboration coherent over time.</span>
+          <span><strong>If you're using AI: set up a memory repo.</strong> Claude doesn't remember between sessions. The solution is a simple GitHub repo that stores your editorial standards, project state, and decisions in plain text files — and gets cloned and read at the start of each session. The prompt below will walk an agent through setting yours up.</span>
         </li>
+      </ul>
+
+      <div style="background:#1a1714;color:#f0e8d8;padding:2rem;margin:1.5rem 0;position:relative;">
+        <span style="font-family:var(--mono);font-size:0.55rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(240,232,216,0.4);display:block;margin-bottom:1rem;">Agent prompt — memory repo setup</span>
+        <button onclick="copyMemPrompt()" id="copy-mem-btn" style="position:absolute;top:1.25rem;right:1.25rem;font-family:var(--mono);font-size:0.55rem;letter-spacing:0.1em;text-transform:uppercase;background:none;border:1px solid rgba(240,232,216,0.25);color:rgba(240,232,216,0.5);padding:0.4rem 0.75rem;cursor:pointer;">Copy</button>
+        <pre id="mem-prompt-content" style="font-family:var(--mono);font-size:0.76rem;line-height:1.8;color:rgba(240,232,216,0.88);white-space:pre-wrap;margin:0;">You are helping me set up a persistent memory system for AI-assisted writing and development.
+The goal: a GitHub repo that stores project context in plain text files,
+cloned and read by Claude at the start of each session so it has consistent
+knowledge of my project, editorial standards, and prior decisions.
+
+My project: <span style="color:#d4604f;font-weight:600;">[BRIEF DESCRIPTION OF YOUR PROJECT]</span>
+My GitHub username: <span style="color:#d4604f;font-weight:600;">[USERNAME]</span>
+
+Please do the following:
+
+1. REPO STRUCTURE
+Create a GitHub repo named "claude-memory" with this file structure:
+  context/
+    user.md       — my name, working style, communication preferences
+    projects.md   — active projects, their status, key decisions made
+  protocols/
+    (empty to start — I'll add fact-checking and other protocols here)
+  conversations/
+    (empty to start — session logs go here)
+  README.md       — explains the system and how to use it
+
+2. POPULATE THE FILES
+For context/user.md: ask me 3–5 questions about my working style and preferences,
+then write the file based on my answers.
+
+For context/projects.md: ask me to describe my current project in plain terms —
+what it is, what's been built, what's next — then write the file in a structured
+format with sections for status, key decisions, and outstanding tasks.
+
+For README.md: write a short explanation of the memory system, including the
+session startup instructions Claude should follow (clone the repo, read context/
+files, write a session log to conversations/ before the context fills up).
+
+3. SESSION STARTUP SNIPPET
+After creating the repo, write a short snippet I can paste into Claude's user
+preferences that instructs it to clone and read the memory repo at the start of
+every conversation. Include placeholder text for my GitHub token.
+
+4. FIRST SESSION LOG
+Write a starter entry in conversations/ dated today that records: what the project
+is, what the initial context files contain, and the date the system was initialized.
+
+Ask me any clarifying questions you need before starting. Confirm each file before
+writing it.</pre>
+      </div>
+
+      <ul class="fork-step-list" style="margin-top:0;">
         <li>
           <span class="fork-num">05</span>
           <span><strong>Build in series, not one-offs.</strong> Plan at least three pieces before writing any of them. The connections between pieces are often more important than the pieces themselves. A framework explains by accumulation, not by individual article.</span>
@@ -283,5 +335,16 @@
       <a href="index.html" class="back-link">Back to all pieces</a>
     </div>
   </main>
+  <script>
+    function copyMemPrompt() {
+      const text = document.getElementById('mem-prompt-content').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-mem-btn');
+        btn.textContent = 'Copied';
+        btn.style.color = '#d4604f';
+        setTimeout(() => { btn.textContent = 'Copy'; btn.style.color = 'rgba(240,232,216,0.5)'; }, 2000);
+      });
+    }
+  </script>
 </body>
 </html>
