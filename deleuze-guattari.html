@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deleuze &amp; Guattari: The Map of Capture and the Exits — Power Explained</title>
-  <meta name="description" content="Rhizomes. Smooth and striated space. Deterritorialization. The war machine. Lines of flight. Deleuze and Guattari built the most precise vocabulary we have for how power spreads without a center — and where resistance moves when it can't storm a headquarters." />
+  <title>Deleuze &amp; Guattari: How Power Moves — Power Explained</title>
+  <meta name="description" content="The rhizome. Desiring-production. Deterritorialization. Gilles Deleuze and Félix Guattari spent two decades mapping how power operates through capture rather than prohibition — and where the exits are." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
@@ -85,31 +85,22 @@
     .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
     .callout p:last-child { margin-bottom: 0; }
 
-    .space-map { border: 2px solid var(--ink); margin: 2.5rem 0; }
-    .space-map-header { background: var(--ink); color: var(--paper); padding: 0.85rem 1.5rem; display: flex; justify-content: space-between; align-items: baseline; }
-    .sm-title { font-family: var(--display); font-size: 0.95rem; font-weight: 700; }
-    .sm-subtitle { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.4); }
-    .sm-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border-top: 1px solid var(--rule); }
-    .sm-cell { background: var(--paper); padding: 1.1rem 1.25rem; }
-    .sm-cell.smooth { background: var(--paper-mid); }
-    .sm-cell-label { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 0.4rem; }
-    .sm-cell-text { font-size: 0.9rem; line-height: 1.6; }
-    .sm-cell-text strong { font-weight: 700; font-size: 0.95rem; display: block; margin-bottom: 0.2rem; }
+    .concept-table { border: 2px solid var(--ink); margin: 2.5rem 0; }
+    .concept-table-header { background: var(--ink); color: var(--paper); padding: 0.85rem 1.5rem; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+    .ct-title { font-family: var(--display); font-size: 0.95rem; font-weight: 700; }
+    .ct-subtitle { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.4); }
+    .ct-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border-top: 1px solid var(--rule); }
+    .ct-cell { background: var(--paper); padding: 1.1rem 1.25rem; }
+    .ct-cell.dim { background: var(--paper-mid); }
+    .ct-cell-label { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 0.4rem; }
+    .ct-cell-text { font-size: 0.9rem; line-height: 1.6; }
+    .ct-cell-text strong { font-weight: 700; font-size: 0.95rem; display: block; margin-bottom: 0.2rem; }
 
     .book-shelf { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2.5rem 0; }
     .book { border: 1px solid var(--rule-strong); padding: 1.5rem; }
     .book-title { font-family: var(--display); font-size: 1.05rem; font-weight: 700; font-style: italic; margin-bottom: 0.3rem; line-height: 1.2; }
     .book-year { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.1em; color: var(--red); display: block; margin-bottom: 0.6rem; }
     .book-desc { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
-
-    .witness { background: var(--paper-dark); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: clamp(2rem,5vw,3.5rem) 0; margin: 3rem 0; }
-    .witness-inner { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-    .witness-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
-    .witness-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-    .witness-place-name { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.8rem); font-weight: 700; margin-bottom: 0.3rem; }
-    .witness-place-sub { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.8rem; }
-    .witness-place-text { font-size: 0.9rem; line-height: 1.7; color: rgba(26,23,20,0.78); margin-bottom: 0.9rem; }
-    .witness-divider { border: none; border-left: 1px solid var(--rule-strong); }
 
     .closing { padding: clamp(2.5rem,6vw,4rem) 0 0; margin-top: 3.5rem; border-top: 2px solid var(--ink); }
     .closing-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 1.5rem; }
@@ -153,10 +144,8 @@
 
     @media (max-width: 540px) {
       .next-reads-grid { grid-template-columns: 1fr; }
-      .sm-row { grid-template-columns: 1fr; }
+      .ct-row { grid-template-columns: 1fr; }
       .book-shelf { grid-template-columns: 1fr; }
-      .witness-grid { grid-template-columns: 1fr; }
-      .witness-divider { display: none; }
     }
   </style>
 </head>
@@ -173,15 +162,15 @@
   <div class="hero">
     <div class="hero-stripe">
       <div class="hero-stripe-inner">
-        <span class="hero-stripe-label">Thinkers — Post-Structuralism — Capitalism and Schizophrenia</span>
+        <span class="hero-stripe-label">Thinkers — Post-Structuralism — Flows &amp; Capture — The War Machine</span>
         <span class="hero-stripe-dates">Deleuze 1925–1995 · Guattari 1930–1992</span>
       </div>
     </div>
     <div class="hero-body">
       <div class="hero-inner">
         <h1>Deleuze &amp;<br/>Guattari</h1>
-        <p class="hero-address">You've noticed that the movement which wins the election changes nothing, while the one that changes everything never wins the election. You've noticed that capital moves faster than the resistance to it — that every time you block one route it finds three others. Deleuze and Guattari spent their careers mapping why this is, and where the exits actually are.</p>
-        <p class="hero-dek">Gilles Deleuze was a philosopher at Paris VIII. Félix Guattari was a psychoanalyst and activist who ran a radical psychiatric clinic outside Paris for four decades. Together they produced two volumes under the title <em>Capitalism and Schizophrenia</em> — <em>Anti-Oedipus</em> (1972) and <em>A Thousand Plateaus</em> (1980) — that remain the most rigorous attempt in Western philosophy to describe how power operates without a center, and what movements look like when they stop trying to find one to storm.</p>
+        <p class="hero-address">That movement you were in — the one that started as a genuine rupture and ended up with a logo, a nonprofit status, and a seat at the table it was founded to overturn. Deleuze and Guattari had a name for what happened. It happens every time, by the same mechanism. Understanding it is the difference between building something durable and feeding the machine you're trying to replace.</p>
+        <p class="hero-dek">Gilles Deleuze was a philosopher at Paris VIII. Félix Guattari was a psychoanalyst and political activist who ran an experimental psychiatric clinic at La Borde. They collaborated for twenty years across two major projects: a theory of desire and capitalism in <em>Anti-Oedipus</em> and <em>A Thousand Plateaus</em>, and a theory of philosophy in <em>What Is Philosophy?</em> Their work is famously difficult. But the core — how power operates through capture rather than prohibition, and where the exits are — is essential to understanding anything that comes after.</p>
       </div>
     </div>
   </div>
@@ -191,13 +180,12 @@
     <nav class="contents-nav" aria-label="Sections">
       <span class="contents-label">Contents</span>
       <ol>
-        <li><a href="#rhizome"><span class="contents-num">01</span> The rhizome: against the root, for the network</a></li>
-        <li><a href="#smooth-striated"><span class="contents-num">02</span> Smooth and striated space: the map of capture</a></li>
-        <li><a href="#deterritorialization"><span class="contents-num">03</span> Deterritorialization and reterritorialization: how capital moves</a></li>
-        <li><a href="#war-machine"><span class="contents-num">04</span> The war machine: what exists before the state gets to it</a></li>
-        <li><a href="#becoming-minor"><span class="contents-num">05</span> Becoming-minor: not identity, something stranger</a></li>
-        <li><a href="#lines-of-flight"><span class="contents-num">06</span> Lines of flight: the politics of escape</a></li>
-        <li><a href="#continues"><span class="contents-num">07</span> The difficulty, and why it's worth it</a></li>
+        <li><a href="#rhizome"><span class="contents-num">01</span> The rhizome: why weeds beat trees</a></li>
+        <li><a href="#desiring-production"><span class="contents-num">02</span> Desiring-production: you want your own subjection</a></li>
+        <li><a href="#deterritorialization"><span class="contents-num">03</span> Deterritorialization and reterritorialization: how capture actually works</a></li>
+        <li><a href="#war-machine"><span class="contents-num">04</span> The war machine vs. the state apparatus</a></li>
+        <li><a href="#lines-of-flight"><span class="contents-num">05</span> Lines of flight: exodus before exodus had a name</a></li>
+        <li><a href="#continues"><span class="contents-num">06</span> What holds, what to do with the difficulty</a></li>
       </ol>
     </nav>
 
@@ -205,195 +193,154 @@
 
       <span id="rhizome" class="section-anchor"></span>
       <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
-      <h2>The rhizome: against the root, for the network</h2>
+      <h2>The rhizome: why weeds beat trees</h2>
 
-      <p>Western thought, Deleuze and Guattari argued, is organized around the metaphor of the tree. A trunk. Roots that go down to a single origin. Branches that extend outward from the center but always lead back to it. The tree is the implicit shape of most philosophy, most political theory, most organizational thinking: there is a foundation, a first principle, a central command, and everything else derives from it. Find the root and you understand the whole. Cut the root and the whole falls.</p>
+      <p>Most thinking about organization — political, intellectual, biological — uses the tree as its implicit model. A trunk, branches, roots: a single origin point from which everything else derives. The Marxist-Leninist party is a tree. The org chart is a tree. The textbook history of ideas is a tree — one thinker leads to the next, one tradition branches into sub-traditions, all of it traceable to origins and classifiable into a hierarchy.</p>
 
-      <p>This metaphor produces a specific theory of power and a specific theory of resistance. Power is a hierarchy with a center. Resistance is about identifying and attacking that center. Revolution is the moment the root is pulled up and replaced with a different one. The logic runs all the way from organizational charts to theories of the state to the structure of academic disciplines — always, there is a root, and everything else is derivation.</p>
+      <p>The tree model has one enormous practical advantage: it is easy to command. If you control the trunk, you control the branches. If you know the origin, you can police what counts as legitimate development from it. Power loves the tree because the tree is a capture structure — every node is locatable, every deviation is traceable, every connection passes through a center that can be monitored and controlled.</p>
 
-      <p>They proposed a different metaphor: the <strong>rhizome</strong>.<sup><a href="#fn1" id="ref1">1</a></sup> Not a tree but a grass, a tuber, a fungal network. Rhizomes have no center, no origin point, no privileged node. They grow laterally, they connect anything to anything, they can be entered from any point and every point connects to every other. Cut a rhizome and it doesn't die — it produces two rhizomes. The network is the form, not the hierarchy. There is no root to find, no trunk to fell.</p>
-
-      <p>The claim is not merely aesthetic. It is descriptive of how certain kinds of power actually work, and prescriptive of how certain kinds of resistance need to be organized. <a href="hardt-negri.html" class="xl">Hardt and Negri's Empire is rhizomatic</a> — there is no headquarters to storm, because the network reroutes around any node you disable. The internet was designed as a rhizome — a network that survives the destruction of any single point by routing around it. The commons is rhizomatic — it grows laterally through connection, not vertically through command.</p>
+      <p>Deleuze and Guattari proposed a different model: the <strong>rhizome</strong>.<sup><a href="#fn1" id="ref1">1</a></sup> A rhizome — think grass, not oak — has no center, no origin, no fixed root. It spreads horizontally, underground, connecting any point to any other point without passing through a trunk. It can be cut at any point and continue from somewhere else. You cannot kill it by attacking its center because it has no center. You cannot trace it to an origin because it has many beginnings and no first one.</p>
 
       <div class="pull">
-        The root looks for the origin.<br/>
-        The rhizome asks only:<br/>
-        <strong>what can this connect to?</strong>
+        A rhizome has no beginning<br/>
+        and no end —<br/>
+        only a <strong>middle</strong>,<br/>
+        from which it grows<br/>
+        and overspills.
       </div>
 
-      <p>The organizational implication is direct and unsettling. A movement organized as a tree — a party with a central committee, a hierarchy with a line — can be decapitated. Arrest the leadership and the movement collapses, because the structure requires the center. A movement organized as a rhizome cannot be decapitated, because it has no head. The Zapatistas operate as a rhizome: "preguntando caminamos" — asking, we walk — means there is no central authority whose answer the movement waits for. The Arab Spring spread as a rhizome: no single organization, no single leadership, coordinating through horizontal connection rather than vertical command. Both produced outcomes that confused analysts trained on tree-thinking, who kept looking for the leader to negotiate with or arrest.</p>
+      <p>The political implication is exact. A movement organized as a tree is vulnerable to decapitation: find the leadership, arrest or co-opt them, and the movement collapses or gets redirected. This is not a strategic failure — it is a structural consequence of the organizational form. The rhizome resists decapitation because there is no head. Every node is leadership. Every connection is a potential organizing center. The most resilient movements in history — <a href="case-study-zapatistas.html" class="xl">the Zapatistas</a>, <a href="case-study-rojava.html" class="xl">the Kurdish communes</a>, the labor organizing traditions that survived the most sustained state repression — have all organized rhizomatically, whether or not they used that word.</p>
 
-      <span id="smooth-striated" class="section-anchor"></span>
+      <p>The rhizome is also the model of the internet before platform capture — or of a well-maintained commons: anyone can enter from anywhere, connections proliferate without permission, there is no authorized version that all other versions must defer to. <a href="open-data-isnt-enough.html" class="xl">The difference between open data and a genuine commons is exactly this: open data is a tree with public branches. A commons is a rhizome.</a></p>
+
+      <span id="desiring-production" class="section-anchor"></span>
       <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
-      <h2>Smooth and striated space: the map of capture</h2>
+      <h2>Desiring-production: you want your own subjection</h2>
 
-      <p>One of the most useful conceptual tools in all of <em>A Thousand Plateaus</em> is the distinction between <strong>smooth space</strong> and <strong>striated space</strong>. Smooth space is open, traversable in any direction, unenclosed — the sea, the desert, the steppe, the open plain. Striated space is measured, divided, organized by parallel lines and perpendicular coordinates — the grid of city streets, the surveyed agricultural field, the property map with its clear boundaries.</p>
+      <p>The hardest question in radical politics has always been: why do people consent to arrangements that are obviously against their interests? Why do workers vote for parties that cut their wages? Why does the revolutionary energy of one generation become the conservative orthodoxy of the next?</p>
 
-      <p>These are not just descriptions of physical geography. They describe a relationship to power. Striated space is the space the state produces and requires. The state cannot govern what it cannot measure and map. Enclosure, cadastral surveys, property registration, census-taking, zoning codes — these are all operations that striate: that impose grid and measure on spaces that were previously open to traversal. The commons was smooth. Enclosure striated it.</p>
+      <p><a href="gramsci.html" class="xl">Gramsci's answer was hegemony</a>: the ruling class manufactures consent by making its worldview seem like common sense, naturalizing arrangements that are actually historical and changeable. This is a powerful and largely correct answer. But it has a limit: it treats desire as something that gets redirected or manipulated — a natural impulse pointed the wrong way by ideological machinery. The implication is that if you could clear away the false consciousness, the real desire for liberation would reassert itself.</p>
 
-      <div class="space-map">
-        <div class="space-map-header">
-          <span class="sm-title">Smooth space vs. striated space — the same territory, two logics</span>
-          <span class="sm-subtitle">Neither is purely good or bad — the politics is in the movement between them</span>
-        </div>
-        <div class="sm-row">
-          <div class="sm-cell smooth">
-            <span class="sm-cell-label">Smooth</span>
-            <div class="sm-cell-text"><strong>Open-source code</strong>Traversable in any direction. Fork it, modify it, combine it with anything. No boundary between "yours" and "mine." The codebase is a commons — a space without internal fences.</div>
-          </div>
-          <div class="sm-cell">
-            <span class="sm-cell-label">Striated</span>
-            <div class="sm-cell-text"><strong>Proprietary software</strong>Terms of service, license restrictions, API rate limits. The same code, now divided into inside and outside, permitted and prohibited, billable and free. The fence arrives after the productive substrate is built.</div>
-          </div>
-        </div>
-        <div class="sm-row">
-          <div class="sm-cell smooth">
-            <span class="sm-cell-label">Smooth</span>
-            <div class="sm-cell-text"><strong>The neighborhood before gentrification</strong>Informal economies, shared space, uses accumulating organically, community memory of who belongs and what the rules are — held collectively, not written down.</div>
-          </div>
-          <div class="sm-cell">
-            <span class="sm-cell-label">Striated</span>
-            <div class="sm-cell-text"><strong>The neighborhood after</strong>Zoning enforcement, property values, noise ordinances, business licensing. The informal uses that made the neighborhood livable become violations. The space is re-measured against a grid of extraction.</div>
-          </div>
-        </div>
-        <div class="sm-row">
-          <div class="sm-cell smooth">
-            <span class="sm-cell-label">Smooth</span>
-            <div class="sm-cell-text"><strong>The internet, 1994</strong>No dominant platforms. Every node equal in principle. Protocol-based, open, traversable from any point to any other point without passing through a center.</div>
-          </div>
-          <div class="sm-cell">
-            <span class="sm-cell-label">Striated</span>
-            <div class="sm-cell-text"><strong>The internet, now</strong>Five platforms mediate most communication. Algorithms decide what is visible. Terms of service determine what speech is permitted. The smooth space was striated by enclosure — the same move, different medium.</div>
-          </div>
-        </div>
-        <div class="sm-row">
-          <div class="sm-cell smooth">
-            <span class="sm-cell-label">Smooth</span>
-            <div class="sm-cell-text"><strong>Subsistence agriculture</strong>A commons of land, seed varieties, and accumulated agricultural knowledge, held and governed by the community, traversable and sharable without transaction.</div>
-          </div>
-          <div class="sm-cell">
-            <span class="sm-cell-label">Striated</span>
-            <div class="sm-cell-text"><strong>Industrial monoculture + IP law</strong>Patented seed varieties. Contract farming. Knowledge owned by the corporation. The same land, now striated with property relations that route value upward and make subsistence illegal.</div>
-          </div>
-        </div>
+      <p>Deleuze and Guattari pushed further: people do not merely accept their subjection. They <em>want</em> it. Not because they have been tricked into wanting the wrong thing, but because desire itself is productive — it produces reality, including the reality of its own constraints. The factory worker who identifies with the company is not suffering false consciousness. They are producing a real social arrangement through the investment of real desire. The family that reproduces gender norms generation after generation is not merely imitating — it is desiring those norms as the structure of its own pleasures and attachments.</p>
+
+      <div class="callout">
+        <span class="callout-label">What desiring-production means practically</span>
+        <p><em>Anti-Oedipus</em> opens with a provocation: fascism is not imposed on people against their desires. People desire fascism. Not abstractly, not metaphorically — they invest libidinal energy in the structures that oppress them because those structures provide something desire requires: intensity, meaning, the satisfaction of belonging to something larger than oneself.</p>
+        <p>Guattari, who had worked with patients whose suffering was produced by the psychiatric institution itself, understood this from the inside. The institution was not merely oppressive — it was desirable, because it organized the patient's world into a coherent structure, provided roles and relationships, gave the symptoms a home. Liberation from it required not just removing the oppressive structure but producing something else for desire to inhabit. You cannot liberate desire by negation alone.</p>
+        <p>For organizers: this means the movement has to be not just correct but <em>desirable</em>. If the experience of organizing is grim, hierarchical, and self-denying — if it asks people to suppress what they want in service of what they should want — it will lose to the arrangements that actually organize people's pleasures, however toxic those arrangements are. <a href="graeber.html" class="xl">Graeber understood the same thing through play.</a> The commons has to feel like somewhere desire wants to live.</p>
       </div>
-
-      <p>The insight that changes everything: smooth and striated are not stable conditions. Space is constantly being smoothed and striated — opened and enclosed, liberated and captured. <strong>Capital's primary operation is the striation of smooth space.</strong> Every enclosure is a striation. And every commons is an attempt to maintain or recover smooth space — to keep territory traversable in common rather than divided by property.</p>
-
-      <p>Crucially, Deleuze and Guattari were not naive about smooth space. Smooth space is not inherently liberatory. The sea can be a space of nomadic freedom or the medium of slave ships. The desert can be a smooth space of escape or of death. What matters is who is moving through the space and in which direction. The politics of smooth and striated is always a politics of the specific movement, not an abstract celebration of openness.</p>
 
       <span id="deterritorialization" class="section-anchor"></span>
       <div class="section-kicker"><span class="section-num">03</span><div class="section-rule"></div></div>
-      <h2>Deterritorialization and reterritorialization: how capital moves</h2>
+      <h2>Deterritorialization and reterritorialization: how capture actually works</h2>
 
-      <p>This is the hardest of their concepts to name concisely and the most important for understanding what capitalism actually does. <strong>Territorialization</strong> is the process by which connections, flows, and relations get organized into a stable territory — a defined space with rules, borders, and a governing code. A feudal manor is a territory. A nation-state is a territory. A corporate platform is a territory. The family is a territory. Territories encode what belongs inside, what belongs outside, and what the rules of movement are.</p>
+      <p>The most useful conceptual pair in Deleuze and Guattari for understanding political economy is deterritorialization and reterritorialization. These describe the fundamental dynamic by which power operates on flows of energy, money, bodies, desire, and meaning.</p>
 
-      <p><strong>Deterritorialization</strong> is the disruption of that organization — the moment when flows escape the territory, when the code breaks down, when people and ideas and capital move in ways the territory didn't intend. <strong>Reterritorialization</strong> is the reconstruction of a new territory around those flows — the capture of the deterritorializing movement into a new (usually more extractive) organization.</p>
+      <p><strong>Deterritorialization</strong> is the release of something from its existing structure — the breaking of a code, the freeing of a flow from its current channel. Capitalism is a deterritorializing force: it dissolves the fixed structures of feudalism — the village, the guild, the commons — liberating people and resources from their inherited forms. This is why capitalism appears as a force of liberation: it genuinely frees things from existing structures.</p>
 
-      <p>Capitalism is the system that has most fully understood and exploited this dynamic. It is the most powerful deterritorializing force in history — dissolving feudal bonds, destroying local economies, breaking up traditional communities, rendering everything mobile and fungible. Marx saw this: everything solid melts into air. But capitalism does not simply leave smooth space behind. Every deterritorialization is followed by a reterritorialization — the decoded flows are captured in new forms, new markets, new property relations. The serfs are freed from the land and reterritorialized as wage labor. The commons is enclosed and reterritorialized as private property. <a href="the-outside-capital-needs.html" class="xl">The subsistence economy is dissolved and reterritorialized as dependency on commodity markets.</a></p>
+      <p><strong>Reterritorialization</strong> is the recapture of those freed flows into a new structure. The peasant liberated from the commons becomes the wage laborer captured by the factory. The land freed from feudal tenure becomes private property enrolled in the real estate market. The cultural form that escapes official channels gets absorbed by a major label. The open-source project that disrupts proprietary software becomes the infrastructure a platform company builds its enclosure on.</p>
 
-      <div class="callout">
-        <span class="callout-label">The platform cycle — deterritorialization and reterritorialization in real time</span>
-        <p>A new communications technology emerges — email, the web, social media, the smartphone. For a brief window it operates as smooth space: open, traversable, no dominant player, the rules not yet written. Communities form, practices develop, a commons accumulates. This is the deterritorializing moment — the new technology disrupts existing media territories and opens possibilities that weren't there before.</p>
-        <p>Then the reterritorialization: platforms emerge, network effects concentrate users, venture capital finances the land grab, and the open space is striated. The community that formed in the smooth space finds itself tenant to a landlord. The practices that developed in the commons are now subject to terms of service. The accumulated social value — the relationships, the content, the behavioral data — is now owned by a shareholder. The cycle takes roughly a decade. We have watched it happen three times since 1994 and are watching the fourth now with AI.</p>
-        <p>The political question Deleuze and Guattari raise is whether deterritorialization can outrun reterritorialization — whether it's possible to keep opening new smooth spaces faster than capital can enclose them, or whether the exit strategy has to be something other than speed.</p>
+      <div class="concept-table">
+        <div class="concept-table-header">
+          <span class="ct-title">Deterritorialization → Reterritorialization in practice</span>
+          <span class="ct-subtitle">The same move, at every scale</span>
+        </div>
+        <div class="ct-row">
+          <div class="ct-cell">
+            <span class="ct-cell-label">The deterritorialization</span>
+            <div class="ct-cell-text"><strong>The internet frees communication</strong>Anyone can publish, broadcast, organize — without gatekeepers or broadcast licenses. The old media structures dissolve.</div>
+          </div>
+          <div class="ct-cell dim">
+            <span class="ct-cell-label">The reterritorialization</span>
+            <div class="ct-cell-text">Platform corporations capture the flow. Communication is now Facebook, YouTube, X — each a new territory with its own rules and mechanisms for extracting rent from the connections that pass through it.</div>
+          </div>
+        </div>
+        <div class="ct-row">
+          <div class="ct-cell">
+            <span class="ct-cell-label">The deterritorialization</span>
+            <div class="ct-cell-text"><strong>The union breaks the factory's control</strong>Collective organizing dissolves the isolated relationship between individual worker and employer. The wage relation's terms become contestable.</div>
+          </div>
+          <div class="ct-cell dim">
+            <span class="ct-cell-label">The reterritorialization</span>
+            <div class="ct-cell-text">The union becomes an institution — with offices, dues structures, relationships with management, and interests of its own that diverge from the workers it represents. The liberation gets incorporated into a new hierarchy.</div>
+          </div>
+        </div>
+        <div class="ct-row">
+          <div class="ct-cell">
+            <span class="ct-cell-label">The deterritorialization</span>
+            <div class="ct-cell-text"><strong>The movement disrupts the political order</strong>Occupy, the Arab Spring, the Indignados — genuine ruptures that put questions on the table the existing order could not answer.</div>
+          </div>
+          <div class="ct-cell dim">
+            <span class="ct-cell-label">The reterritorialization</span>
+            <div class="ct-cell-text">The energy gets absorbed into electoral politics, into NGOs, into cultural representation. The rupture becomes a brand. The slogan becomes a hashtag. The demand becomes a policy proposal negotiated away in committee.</div>
+          </div>
+        </div>
+        <div class="ct-row">
+          <div class="ct-cell">
+            <span class="ct-cell-label">The deterritorialization</span>
+            <div class="ct-cell-text"><strong>The commons produces new knowledge</strong>Open-source software, Wikipedia, scientific publication — collective production that escapes the enclosures of proprietary IP and corporate R&amp;D.</div>
+          </div>
+          <div class="ct-cell dim">
+            <span class="ct-cell-label">The reterritorialization</span>
+            <div class="ct-cell-text">The knowledge becomes infrastructure that capital builds on. The open-source library becomes the dependency of the venture-backed platform. The academic paper becomes AI training data that gets patented. The commons produces; the enclosure harvests.</div>
+          </div>
+        </div>
       </div>
+
+      <p>The critical insight is that capitalism does not simply prohibit deterritorialization — it <em>requires</em> it. The system needs things to be freed from existing structures so they can be captured in new ones. It needs constant dissolution and constant re-enclosure. This is why reforming individual enclosures is insufficient: the dynamic produces new ones. <a href="hardt-negri.html" class="xl">Hardt and Negri's analysis of Empire as a system that operates through flows rather than fixed territories is built directly on this insight.</a> The question is not how to stop deterritorialization but how to intervene in the reterritorialization — how to ensure that what gets freed from one capture doesn't immediately get absorbed into another.</p>
 
       <span id="war-machine" class="section-anchor"></span>
       <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
-      <h2>The war machine: what exists before the state gets to it</h2>
+      <h2>The war machine vs. the state apparatus</h2>
 
-      <p>The concept of the <strong>war machine</strong> is perhaps their most misunderstood — and most politically generative. It does not mean military force. It means something almost the opposite: the form of collective organization that exists prior to and in resistance to State capture.</p>
+      <p>One of the most productive and most misunderstood concepts in <em>A Thousand Plateaus</em> is the war machine. The name is misleading. Deleuze and Guattari are not primarily talking about military force — they are arguing that actual military institutions are a secondary, captured form of what they mean.</p>
 
-      <p>The State, for Deleuze and Guattari, is not primarily defined by its military monopoly or its legal authority. It is defined by its operation of striation — its compulsion to measure, code, record, and organize all flows that pass through its territory. The State needs everything to be legible: land surveyed, population counted, labor contracted, identity documented. Anything that resists legibility threatens the State's capacity to govern — and therefore threatens the State.</p>
+      <p>The war machine, in their analysis, is any social formation that exists <em>outside</em> the state and resists its logic of capture. Its defining characteristic is not violence but exteriority: it operates according to its own rules, produces its own social relations, and cannot be fully incorporated into the state's mechanisms of command without ceasing to be what it is. Nomadic peoples before state formation were the original model — not because they were warlike but because their mode of life organized territory, movement, and social relation in a way that could not simply be annexed by the state without being destroyed.<sup><a href="#fn2" id="ref2">2</a></sup></p>
 
-      <p>The war machine is what resists legibility. Nomadic peoples who move through territory without recognizing its property divisions. Communities whose governance is oral and customary rather than written and legal. Practices of care and mutual aid that circulate outside the market and therefore outside the State's accounting. Open-source development communities that produce value through contribution norms that cannot be fully contracted. These are all war machines in Deleuze and Guattari's sense — not because they are violent, but because they operate through a logic the State cannot fully capture without destroying.</p>
-
-      <p>The State's response to the war machine is always the same: capture or destroy. The nomad is forced to settle or expelled. The customary commons is converted to property or enclosed. The informal economy is formalized or criminalized. The open-source community is acquired or regulated. And here the insight sharpens: <strong>when the State captures the war machine, it becomes the most destructive force on earth.</strong><sup><a href="#fn2" id="ref2">2</a></sup> The captured war machine — the army — applies the war machine's capacity for radical outside-the-rules action in the service of the State's striation project. This is how colonial violence works: the deterritorializing energy of the war machine, now in State service, destroying the smooth spaces of colonized peoples to impose property grids.</p>
-
-      <p>For organizers the question is always: are we building a war machine or capturing the State's war machine? The distinction matters more than the question of electoral versus direct action. A movement can pursue both electoral and direct action while operating as a war machine — maintaining the capacity to move outside the State's coding, to build social infrastructure that doesn't need the State's permission, to keep smooth spaces open that the State would otherwise striate. <a href="build-it-now.html" class="xl">The alternative is being built now, not awaited after victory.</a></p>
-
-      <span id="becoming-minor" class="section-anchor"></span>
-      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
-      <h2>Becoming-minor: not identity, something stranger</h2>
-
-      <p>Majority and minority, for Deleuze and Guattari, are not about numbers. The majority is the standard — the norm against which everything else is measured. In a given social arrangement, the majority is the white, adult, male, property-owning, heterosexual, nationally-identified subject who serves as the implicit reference point for law, culture, and politics. Everyone else is minor — not in quantity, but in relation to the norm. Women are a majority of the population and a minority in the political sense.</p>
-
-      <p>The political tradition that follows from this observation usually proposes <strong>becoming-major</strong> for the minor: claiming full inclusion in the majority standard, achieving recognition on the majority's terms, being counted as equal within the existing measurement system. This is the politics of representation, of rights claims, of inclusion. It is not nothing. But it has a ceiling: it cannot transform the standard itself, only extend who gets to meet it.</p>
-
-      <p><strong>Becoming-minor</strong> is something different — and stranger. It is not the minor group claiming majoritarian status. It is the process by which the majority standard itself is destabilized — by which what counts as normal is put in question, by which the measurement system loses its self-evidence. Becoming-minor is not about any particular identity group. It is a process available to anyone: the movement away from the norm, toward what the norm excludes, toward what cannot be measured by the existing standard.</p>
+      <p>The state apparatus, by contrast, is defined by capture: it strives to bring everything within its territory under its codes — taxable, legible, governable. The state does not create society; it overcodes it. It arrives at existing social formations and insists on translating them into its own language: property rights, citizenship, taxation, census, contract law. What cannot be translated — the nomad, the commons, the informal economy, the mutual aid network — is either eliminated or absorbed.</p>
 
       <div class="pull">
-        Becoming-minor is not<br/>
-        the demand to be counted.<br/>
-        It is the refusal<br/>
-        to be <strong>measured by their scale.</strong>
+        The state does not create.<br/>
+        It <strong>overcodes</strong>.<br/>
+        It arrives at what already exists<br/>
+        and insists on translation.
       </div>
 
-      <p>In <em>Kafka: Toward a Minor Literature</em> (1975),<sup><a href="#fn3" id="ref3">3</a></sup> they used Kafka — a Czech Jew writing in German, a language that was not quite his, in a literary tradition he could not fully inhabit — as the model of a minor literature. Minor literature does not use the major language as intended. It uses it to make it stammer, to expose its assumptions, to turn the majority's instrument against its own normativity. The same dynamic applies to minor politics: using the majority's institutions, languages, and legal forms against the grain, to open space that the institutions were designed to close.</p>
+      <p>What makes this politically generative is that the war machine does not have to be military or explicitly oppositional. Any social formation that maintains its exteriority — that operates by its own logic, produces its own social relations, refuses the state's translation without necessarily confronting it — functions as a war machine in this sense. The Zapatista autonomous communities are a war machine. The Kurdish commune system is a war machine. <a href="how-linux-became-the-internet.html" class="xl">The early open-source movement, before it got absorbed into the corporate software stack, was a war machine.</a> What they share is not violence but the stubborn maintenance of a different social logic that the state and capital cannot fully incorporate.</p>
+
+      <p>The risk Deleuze and Guattari document carefully is that the war machine gets captured — becomes a standing army, an institution, a state of its own. The revolutionary movement that seizes state power and then becomes the state. The commune that gets legally recognized and then has to operate by the state's rules. <a href="the-party-ate-the-revolution.html" class="xl">The reterritorialization of the war machine is the central problem of every liberation movement that succeeds.</a></p>
 
       <span id="lines-of-flight" class="section-anchor"></span>
-      <div class="section-kicker"><span class="section-num">06</span><div class="section-rule"></div></div>
-      <h2>Lines of flight: the politics of escape</h2>
+      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
+      <h2>Lines of flight: exodus before exodus had a name</h2>
 
-      <p>Every territory has <strong>lines of flight</strong> — trajectories along which something can escape the territory's coding, move outside its rules, become something the territory did not intend. These are not metaphors. They are actual paths: the refugee who crosses the border, the worker who quits, the community that builds mutual aid infrastructure that makes the market less necessary, the developer who forks the code. The line of flight is the exit from the captured territory.</p>
+      <p>The concept that connects Deleuze and Guattari most directly to the practical politics of the commons is the <strong>line of flight</strong> — <em>ligne de fuite</em>, which also means "vanishing line" in French, as in perspective drawing.<sup><a href="#fn3" id="ref3">3</a></sup> It is the movement by which something escapes a territory, breaks from a structure, finds a way out that was not previously visible.</p>
 
-      <p>Lines of flight are not guaranteed to be liberatory. They can be re-captured — reterritorialized into new and worse territories. The line of flight from one platform leads to another platform. The exit from wage labor leads to the gig economy. The escape from one nationalist territory leads to another. The line of flight is a direction and a possibility, not a destination. What it becomes depends on whether it connects with other lines of flight, whether it builds smooth space rather than just moving through captured space, whether the movement generates something — a commons, a new form of governance, a new set of social relations — rather than just escaping.</p>
+      <p>Lines of flight are not planned escapes. They are the cracks that appear in every structure under pressure — the unexpected openings, the moments when something moves in a direction the system's logic did not anticipate. The worker who stops believing the company's story about what their labor is worth. The tenant who realizes that her neighbors' problems are structurally identical to hers. The developer who decides that the code they write should be owned by everyone. These are lines of flight — not because they immediately produce revolution but because they are the first movements toward a different territory.</p>
 
-      <p><a href="hardt-negri.html" class="xl">Hardt and Negri's exodus is a theory of lines of flight at the political scale</a> — the withdrawal of the multitude's productive energy from the capture apparatus, combined with the direct construction of alternatives. The line of flight is not just leaving. It is leaving <em>toward</em> something — building the smooth space that reterritorialization is always trying to close.</p>
+      <p><a href="hardt-negri.html" class="xl">Hardt and Negri's concept of exodus — building the alternative by withdrawing productive activity from capture — is lines of flight made into strategy.</a> But Deleuze and Guattari are careful about the limits of strategy: lines of flight can be captured and reterritorialized. The escape from one structure becomes the founding movement of another. This is why the question is not just how to flee but what to build during the flight — what new territory, what new social relations, what institutions of the common get constructed in the spaces that open up.</p>
 
       <div class="callout">
-        <span class="callout-label">Three kinds of lines — and why only one builds something</span>
-        <p>Deleuze and Guattari distinguished three types of lines in any social formation. <strong>Molar lines</strong> are the lines of rigid segmentation — the hard boundaries that define territories, identities, and roles. State borders. Property lines. Job categories. The binary divisions (citizen/alien, owner/renter, employed/unemployed) that the State requires for its coding. Molar lines organize social life but also trap it.</p>
-        <p><strong>Molecular lines</strong> are the lines of flexibility within the molar organization — the ways people actually live their lives in the spaces between the hard categories. Friendships that cross class lines. Informal economies that operate below the tax threshold. Communities of practice that don't map onto official institutions. Molecular lines are not escapes; they are the texture of real life within a striated space.</p>
-        <p><strong>Lines of flight</strong> are the ruptures — the points where something escapes both the molar and molecular, where genuinely new territory becomes possible. Lines of flight are where the interesting political action is: where a movement becomes something its own origins didn't predict, where a technology opens space that no one planned, where a community builds an institution that should not exist given the surrounding conditions. They are also the most dangerous: they can lead to transformation, but they can equally lead to re-capture or to self-destruction. The commune that builds itself in a line of flight from the state can become a new state, or can be destroyed by the old one, or can become something genuinely new. The line of flight does not determine the outcome — it opens the possibility.</p>
+        <span class="callout-label">Three kinds of line</span>
+        <p>Deleuze and Guattari describe social life as composed of three kinds of line running simultaneously. <strong>Molar lines</strong> are the rigid segmentations of official social life: classes, genders, races, nations, institutions — the identities and structures that the state and capital can name and manage. <strong>Molecular lines</strong> are the more fluid movements that run beneath the molar — the ways everyday life actually works, the informal economies, the care networks, the practices that don't quite fit the official categories. <strong>Lines of flight</strong> are the breaks that rupture the whole arrangement — moments when something moves so far from the existing territory that the existing maps no longer apply.</p>
+        <p>For organizers: most political work happens at the molar level, because that's where power is legible. But most of the energy for transformation accumulates at the molecular level — in the informal networks, the relationships that don't show up on org charts, the practices that are already commons even though no one is calling them that. The art is to recognize the molecular lines and help them become lines of flight before the reterritorialization arrives to absorb them.</p>
       </div>
 
     </div><!-- end body-text -->
 
-    <div class="witness">
-      <div class="witness-inner">
-        <span class="witness-label">06 — Where the Concepts Lived</span>
-        <div class="witness-grid">
-          <div class="witness-place">
-            <span class="witness-place-name">La Borde Clinic</span>
-            <span class="witness-place-sub">Cour-Cheverny, France — 1955 to 1992</span>
-            <p class="witness-place-text">Félix Guattari arrived at La Borde, a psychiatric clinic in the Loire Valley, in 1955 — the year he turned twenty-five — as a student of its founder Jean Oury. He would remain there for the rest of his life, forty years of daily practice that was inseparable from his theoretical work.</p>
-            <p class="witness-place-text">La Borde practiced what it called institutional psychotherapy: the idea that the psychiatric institution itself was a therapeutic — or anti-therapeutic — force, and that healing required transforming the social relations of the clinic rather than simply treating individual patients. Staff and patients rotated through administrative roles. Hierarchies were deliberately flattened. The institution was treated as a living commons, governed collectively, its structure subject to constant revision.</p>
-            <p class="witness-place-text">What Guattari was building at La Borde was a war machine in Deleuze and Guattari's sense: an institution that operated against the State's coding of madness, that refused the striation of the clinic into the zones of the curable and the incurable, the rational and the irrational, the therapeutic and the custodial. The concepts in <em>Anti-Oedipus</em> are not abstractions that came down from philosophy. They are the theory that forty years of psychiatric practice produced.<sup><a href="#fn4" id="ref4">4</a></sup></p>
-          </div>
-          <hr class="witness-divider" />
-          <div class="witness-place">
-            <span class="witness-place-name">May '68 and After</span>
-            <span class="witness-place-sub">Paris and the movements it generated</span>
-            <p class="witness-place-text">Both Deleuze and Guattari were in Paris in May 1968 — Deleuze teaching at Lyon, Guattari active in multiple radical networks in the city. The uprising transformed both of them, not because it succeeded (it didn't, in any conventional sense) but because of what it revealed about the failure of existing political categories.</p>
-            <p class="witness-place-text">The PCF — the French Communist Party — had managed the uprising as much as it had supported it, and had ultimately helped ensure its containment. The vanguard party, confronted with a genuine mass rupture, found the rupture threatening to its own organizational logic and moved to control it. <a href="the-party-ate-the-revolution.html" class="xl">The party ate the revolution.</a> This confirmed for Guattari what he had been arguing against in psychiatric terms for over a decade: hierarchical organizations produce hierarchical outcomes, regardless of their stated ideology. The organizational form is the politics.</p>
-            <p class="witness-place-text"><em>Anti-Oedipus</em>, published four years later in 1972, was explicitly written as a response to '68's failure — an attempt to understand why the largest social rupture in postwar France had been captured and contained, and what a politics that could not be so easily re-coded would look like. It was received as one of the defining texts of what came after — a map of the terrain that the failed revolution had exposed.<sup><a href="#fn5" id="ref5">5</a></sup></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="body-text">
-      <span id="continues" class="section-anchor"></span>
-    </div>
-
     <div class="closing">
-      <span class="closing-label">07 — The Difficulty, and Why It's Worth It</span>
-      <h2>The hardest vocabulary<br/>for the most important problem.</h2>
-      <p>Deleuze and Guattari are genuinely difficult. <em>A Thousand Plateaus</em> is not a book that yields its argument on first reading — or third. The vocabulary is dense by design: they were trying to create concepts that could not be immediately re-absorbed into the frameworks they were critiquing, that could not be instantly translated back into the tree-thinking they were proposing to escape. This is not obscurantism. It is a deliberate attempt to produce thought that is actually new rather than merely different-sounding.</p>
-      <p>The price is real. The concepts have been appropriated in precisely the ways they were designed to prevent: rhizome became a Silicon Valley buzzword for flat organizations that remained hierarchical in practice. Lines of flight became a justification for abandoning rather than building. Smooth space became an aesthetic rather than a political category. The concepts are not immune to reterritorialization — nothing is. But they remain the sharpest tools available for the specific problem of power without a center, which is the dominant form of power now.</p>
-      <p>What Deleuze and Guattari give organizers is a vocabulary for the terrain that Gramsci's cultural analysis and Hardt and Negri's political economy describe but do not fully map. If <a href="gramsci.html" class="xl">Gramsci tells you that the battle is for common sense</a>, Deleuze and Guattari tell you what the territory of common sense looks like and how striation works. If <a href="hardt-negri.html" class="xl">Hardt and Negri tell you that exodus is the strategy</a>, Deleuze and Guattari tell you what a line of flight is, what can go wrong with it, and what it needs to connect to in order to build something rather than just escape.</p>
-      <p>Gilles Deleuze died in Paris on November 4, 1995. Félix Guattari died of a heart attack at La Borde on August 29, 1992, still working. The clinic continued without him, practicing institutional psychotherapy, governed as a commons. The war machine kept moving.</p>
+      <span class="closing-label">06 — What Holds, What to Do with the Difficulty</span>
+      <h2>They were right about the mechanism.<br/>The jargon is the toll, not the destination.</h2>
+      <p>Deleuze died in Paris in November 1995. Guattari died in August 1992, three years before him, having never stopped running La Borde and never stopped organizing. Their work is genuinely difficult — not as performance but because the phenomena they are describing resist ordinary language. Power that operates through flows, desire that produces its own constraints, organization that works best without a center — these are hard to say clearly, and some of the obscurity is the cost of saying them at all.</p>
+      <p>But the core is not obscure. It is the most accurate account available of how capture operates in systems that have no headquarters, no single mechanism of control, no fixed territory to defend. <a href="gramsci.html" class="xl">Gramsci showed that domination is cultural as much as economic.</a> Deleuze and Guattari showed that it is also libidinal — that desire itself gets organized into the reproduction of the arrangements that constrain it, and that liberation requires producing different objects for desire to inhabit, not just removing the constraints. <a href="hardt-negri.html" class="xl">Hardt and Negri took this analysis and built a theory of what the productive commons looks like in the age of immaterial labor.</a></p>
+      <p>What Deleuze and Guattari give organizers is a diagnostic toolkit for the hardest problem: why movements fail even when they succeed. Why the rupture gets absorbed. Why the liberated space becomes a new enclosure. Why the war machine becomes a state. The answer is always the same mechanism — reterritorialization — and naming it accurately is the first step to intervening in it. The line of flight is real. The capture that follows is also real. What you build during the flight is the only thing that survives.</p>
       <div class="closing-coda">
-        The territory is always<br/>
-        being striated.<br/>
-        The line of flight is always<br/>
-        being reterritorialized.<br/>
-        <strong>Keep moving.<br/>
-        Keep connecting.<br/>
-        Build in the smooth space<br/>
-        before the fences arrive.</strong>
+        The crack is real.<br/>
+        The absorption is also real.<br/>
+        <strong>What you build in the gap</strong><br/>
+        between rupture and recapture<br/>
+        is the only thing<br/>
+        that matters.
       </div>
     </div>
 
@@ -402,43 +349,31 @@
       <div class="book">
         <span class="book-year">1972</span>
         <div class="book-title">Anti-Oedipus: Capitalism and Schizophrenia, Vol. 1</div>
-        <div class="book-desc">The opening salvo. Against psychoanalysis's reduction of desire to lack and family. For desire as productive force — the actual engine of both capitalism and its alternatives. Dense but exhilarating. Foucault called it "an introduction to the non-fascist life."</div>
+        <div class="book-desc">The foundational provocation: capitalism runs on desire, not against it. The critique of psychoanalysis as a capture mechanism is the key argument. Start with Foucault's preface — it is the best short introduction to what the book is actually doing.</div>
       </div>
       <div class="book">
         <span class="book-year">1980</span>
         <div class="book-title">A Thousand Plateaus: Capitalism and Schizophrenia, Vol. 2</div>
-        <div class="book-desc">The main event. Rhizome. Smooth and striated space. Deterritorialization. The war machine. Becoming-minor. Lines of flight. Each chapter ("plateau") can be read independently. Start with the introduction (the rhizome) and plateau 12 (the war machine) if the whole seems too large.</div>
-      </div>
-      <div class="book">
-        <span class="book-year">1975</span>
-        <div class="book-title">Kafka: Toward a Minor Literature</div>
-        <div class="book-desc">Their most accessible joint work. Uses Kafka to develop the theory of minor literature and minor politics — the use of a majority's tools against the majority's grain. Short, concrete, and a practical demonstration of everything they theorize more abstractly elsewhere.</div>
+        <div class="book-desc">The rhizome, the war machine, lines of flight, deterritorialization — all developed in full. Not a book to read cover to cover. The introduction and Plateau 12 ("Treatise on Nomadology") are the political core. Each plateau stands alone.</div>
       </div>
       <div class="book">
         <span class="book-year">1991</span>
-        <div class="book-title">What is Philosophy?</div>
-        <div class="book-desc">Their final collaboration. A clear statement of what philosophy is for — the creation of concepts, not the discovery of truths. The cleanest entry point into Deleuze's philosophical project for readers who want the theory before the politics.</div>
+        <div class="book-title">What Is Philosophy?</div>
+        <div class="book-desc">Their final collaboration. Easier to read than the earlier work. Defines philosophy as the creation of concepts — not the representation of reality but its transformation. A useful entry point to the whole project.</div>
       </div>
       <div class="book">
-        <span class="book-year">1989</span>
-        <div class="book-title">The Three Ecologies <em>(Guattari, solo)</em></div>
-        <div class="book-desc">Guattari's late work connecting mental ecology, social ecology, and environmental ecology as a single problem. The argument that the environmental crisis, the social fragmentation crisis, and the crisis of subjectivity are expressions of the same underlying dynamic.</div>
-      </div>
-      <div class="book">
-        <span class="book-year">1968</span>
-        <div class="book-title">Difference and Repetition <em>(Deleuze, solo)</em></div>
-        <div class="book-desc">Deleuze's major solo philosophical work, predating the collaboration. The argument that difference is primary — that identity is derived, constructed, always a simplification of a more complex underlying reality. The philosophical foundation for everything that follows.</div>
+        <span class="book-year">1984</span>
+        <div class="book-title">Molecular Revolution: Psychiatry and Politics (Guattari)</div>
+        <div class="book-desc">Guattari's political essays, more accessible than the collaborative work. Directly addresses the relationship between psychiatric practice and political organizing. Shows the clinical grounding of the theoretical argument about desire and institutions.</div>
       </div>
     </div>
 
     <section class="footnotes" aria-label="Footnotes">
       <span class="footnotes-label">Notes &amp; Sources</span>
       <ol class="fn-list">
-        <li id="fn1"><span class="fn-num">1</span><span>The rhizome as philosophical concept is introduced in the opening pages of <em>A Thousand Plateaus</em> (1980), which Deleuze and Guattari titled "Introduction: Rhizome." They were explicit that the concept was borrowed from botany but used philosophically — the rhizome as an organizational form, not a plant. The contrast with "arborescent" (tree-based) thinking runs throughout both volumes of <em>Capitalism and Schizophrenia</em> and structures the critique of both psychoanalysis and Marxist party organization. <a href="#ref1">↩</a></span></li>
-        <li id="fn2"><span class="fn-num">2</span><span>The claim that the captured war machine becomes the most destructive force on earth appears in Plateau 12, "1227: Treatise on Nomadology — The War Machine," in <em>A Thousand Plateaus</em>. This plateau is the most sustained treatment of the war machine concept and the one most directly relevant to political organizing. The argument: the State does not itself possess a war machine; it appropriates one, and in doing so converts the nomadic, outside-the-coding energy of the war machine into an instrument of total conquest. The Nazi state and nuclear deterrence are the extreme examples they have in mind. <a href="#ref2">↩</a></span></li>
-        <li id="fn3"><span class="fn-num">3</span><span>Deleuze, G. &amp; Guattari, F. (1975). <em>Kafka: Pour une littérature mineure</em>. Éditions de Minuit. English translation: <em>Kafka: Toward a Minor Literature</em>, trans. Dana Polan (University of Minnesota Press, 1986). The concept of "minor literature" — which uses the major language in a way that makes it stammer, that refuses its normative function — is the literary application of the broader political concept of becoming-minor. <a href="#ref3">↩</a></span></li>
-        <li id="fn4"><span class="fn-num">4</span><span>Guattari's work at La Borde is documented in his collected writings, including <em>Psychanalyse et transversalité</em> (1972) and <em>La révolution moléculaire</em> (1977). The concept of "institutional psychotherapy" was developed by Jean Oury (La Borde's founder) and François Tosquelles, and Guattari extended it into a political theory of the institution. Gary Genosko's <em>Félix Guattari: An Aberrant Introduction</em> (2002) is the most thorough English-language account of Guattari's practice at La Borde and its relationship to his theoretical work. <a href="#ref4">↩</a></span></li>
-        <li id="fn5"><span class="fn-num">5</span><span>Foucault's preface to the English translation of <em>Anti-Oedipus</em> (Viking Press, 1977) described it as "a book of ethics" and "an introduction to the non-fascist life" — the question of how to stop desiring one's own repression. The relationship between <em>Anti-Oedipus</em> and May '68 is discussed in François Dosse's dual biography <em>Gilles Deleuze and Félix Guattari: Intersecting Lives</em> (Columbia University Press, 2010), which remains the most reliable account of both figures' intellectual and political development. <a href="#ref5">↩</a></span></li>
+        <li id="fn1"><span class="fn-num">1</span><span>The rhizome concept is introduced in "Introduction: Rhizome," the opening section of Deleuze, G. &amp; Guattari, F. (1987). <em>A Thousand Plateaus: Capitalism and Schizophrenia</em>. University of Minnesota Press. (Orig. French: <em>Mille Plateaux</em>, Minuit, 1980.) The introduction was also published as a standalone pamphlet. Their botanical reference is precise: a rhizome is a horizontal underground stem that produces roots and shoots from its nodes — grass, ferns, ginger — as distinct from the root-trunk-branch structure of an arboreal plant. The political analogy is explicit throughout. <a href="#ref1">↩</a></span></li>
+        <li id="fn2"><span class="fn-num">2</span><span>The war machine analysis appears in Plateau 12: "1227: Treatise on Nomadology — The War Machine," in <em>A Thousand Plateaus</em>. The anthropological grounding draws on the work of Pierre Clastres, especially <em>Society Against the State</em> (Zone Books, 1987; orig. French 1974), which argued that many stateless societies actively organized to prevent state formation rather than simply lacking it — a point directly relevant to the political argument that the commons is not a pre-political primitive but a deliberate social achievement. <a href="#ref2">↩</a></span></li>
+        <li id="fn3"><span class="fn-num">3</span><span><em>Ligne de fuite</em> carries both meanings in French — "line of flight" and the vanishing point in a perspective drawing where parallel lines converge toward the horizon. The double meaning is intentional throughout Deleuze and Guattari's work: a line of flight is not an escape to nowhere but a movement that reorganizes the space through which one moves. The concept runs through both volumes of <em>Capitalism and Schizophrenia</em> and is developed most extensively in <em>A Thousand Plateaus</em>, particularly in Plateau 9 ("1933: Micropolitics and Segmentarity"). <a href="#ref3">↩</a></span></li>
       </ol>
     </section>
 
@@ -453,13 +388,13 @@
           <span class="next-read-cat">Thinker</span>
           <span class="next-read-title">Gramsci: The Feeling That This Is Just How Things Are</span>
         </a>
+        <a href="the-party-ate-the-revolution.html" class="next-read">
+          <span class="next-read-cat">Theory</span>
+          <span class="next-read-title">The Party Ate the Revolution</span>
+        </a>
         <a href="build-it-now.html" class="next-read">
           <span class="next-read-cat">Practice</span>
           <span class="next-read-title">Build It Now — What The Alternative Looks Like</span>
-        </a>
-        <a href="the-party-ate-the-revolution.html" class="next-read">
-          <span class="next-read-cat">History</span>
-          <span class="next-read-title">The Party Ate the Revolution</span>
         </a>
         <a href="case-study-rojava.html" class="next-read">
           <span class="next-read-cat">Case Study</span>
@@ -468,14 +403,6 @@
         <a href="case-study-zapatistas.html" class="next-read">
           <span class="next-read-cat">Case Study</span>
           <span class="next-read-title">The Zapatistas: Thirty Years of Asking, Walking</span>
-        </a>
-        <a href="the-outside-capital-needs.html" class="next-read">
-          <span class="next-read-cat">Theory</span>
-          <span class="next-read-title">The Outside Capital Needs</span>
-        </a>
-        <a href="graeber.html" class="next-read">
-          <span class="next-read-cat">Thinker</span>
-          <span class="next-read-title">Graeber: The Work You're Already Doing Has a Name</span>
         </a>
       </div>
     </nav>
