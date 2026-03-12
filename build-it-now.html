@@ -17,6 +17,19 @@
       --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
       --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
     }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink:        #f0e8d8;
+        --paper:      #1e1b17;
+        --paper-mid:  #28231d;
+        --paper-dark: #242019;
+        --red:        #d4604f;
+        --red-dim:    #b84d3d;
+        --rule:       rgba(240,232,216,0.12);
+        --rule-strong: rgba(240,232,216,0.3);
+      }
+    }
+
     html { font-size: 18px; scroll-behavior: smooth; }
     body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
     header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }

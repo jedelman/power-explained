@@ -18,6 +18,7 @@
       --ink:       #1a1714;
       --paper:     #f2ece0;
       --paper-mid: #e8dfc8;
+      --paper-dark: #ddd3b8;
       --red:       #a0291c;
       --red-dim:   #7a2015;
       --rule:      rgba(26,23,20,0.18);
@@ -29,6 +30,19 @@
 
       --max: 780px;
       --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink:        #f0e8d8;
+        --paper:      #1e1b17;
+        --paper-mid:  #28231d;
+        --paper-dark: #242019;
+        --red:        #d4604f;
+        --red-dim:    #b84d3d;
+        --rule:       rgba(240,232,216,0.12);
+        --rule-strong: rgba(240,232,216,0.3);
+      }
     }
 
     /* ── Base ── */
