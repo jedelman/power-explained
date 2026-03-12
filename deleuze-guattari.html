@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deleuze &amp; Guattari: The Map of Capture and the Exits — Power Explained</title>
+  <meta name="description" content="Rhizomes. Smooth and striated space. Deterritorialization. The war machine. Lines of flight. Deleuze and Guattari built the most precise vocabulary we have for how power spreads without a center — and where resistance moves when it can't storm a headquarters." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #1a1714; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
+      --red: #a0291c; --red-dim: #7a2015; --rule: rgba(26,23,20,0.18); --rule-strong: rgba(26,23,20,0.45);
+      --display: 'Cormorant Garamond', Georgia, serif;
+      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
+      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink:        #f0e8d8;
+        --paper:      #1e1b17;
+        --paper-mid:  #28231d;
+        --paper-dark: #242019;
+        --red:        #d4604f;
+        --red-dim:    #b84d3d;
+        --rule:       rgba(240,232,216,0.12);
+        --rule-strong: rgba(240,232,216,0.3);
+      }
+    }
+
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+
+    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
+    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+    .site-name:hover { color: var(--red); }
+    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(26,23,20,0.4); white-space: nowrap; }
+
+    .hero { background: var(--paper); border-bottom: 2px solid var(--ink); padding: 0; }
+    .hero-stripe { background: var(--red); padding: 0.6rem var(--gutter); }
+    .hero-stripe-inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .hero-stripe-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(242,236,224,0.7); }
+    .hero-stripe-dates { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; color: rgba(242,236,224,0.5); }
+    .hero-body { padding: clamp(2.5rem,6vw,4.5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,9vw,5rem); font-weight: 700; line-height: 0.97; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 1.5rem; }
+    .hero-address {
+      font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem);
+      font-style: italic; line-height: 1.5; color: var(--red);
+      border-left: 3px solid var(--red); padding-left: 1.5rem;
+      margin-bottom: 2rem; max-width: 520px;
+    }
+    .hero-dek { font-family: var(--body); font-size: 0.97rem; line-height: 1.8; color: rgba(26,23,20,0.78); max-width: 560px; border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+
+    .contents-nav { border: 1px solid var(--rule-strong); margin: clamp(2rem,5vw,3.5rem) 0 0; }
+    .contents-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--rule); display: block; }
+    .contents-nav ol { list-style: none; }
+    .contents-nav li { border-bottom: 1px solid var(--rule); }
+    .contents-nav li:last-child { border-bottom: none; }
+    .contents-nav a { display: flex; align-items: baseline; gap: 1rem; padding: 0.85rem 1.25rem; text-decoration: none; color: var(--ink); font-size: 0.88rem; line-height: 1.45; transition: background 0.15s; }
+    .contents-nav a:hover { background: var(--paper-mid); color: var(--red); }
+    .contents-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; color: rgba(26,23,20,0.3); white-space: nowrap; flex-shrink: 0; }
+
+    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .body-text { padding-top: clamp(2rem,5vw,3.5rem); }
+    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
+    .body-text strong { font-weight: 700; }
+    .body-text em { font-style: italic; }
+    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2.1rem); font-weight: 700; line-height: 1.1; margin: 3.5rem 0 1.1rem; scroll-margin-top: 2rem; }
+
+    .section-kicker { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; margin-top: 3.5rem; }
+    .section-num { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
+    .section-rule { flex: 1; height: 1px; background: var(--rule); }
+    .section-anchor { display: block; height: 0; }
+
+    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
+    .callout p:last-child { margin-bottom: 0; }
+
+    .space-map { border: 2px solid var(--ink); margin: 2.5rem 0; }
+    .space-map-header { background: var(--ink); color: var(--paper); padding: 0.85rem 1.5rem; display: flex; justify-content: space-between; align-items: baseline; }
+    .sm-title { font-family: var(--display); font-size: 0.95rem; font-weight: 700; }
+    .sm-subtitle { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.4); }
+    .sm-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border-top: 1px solid var(--rule); }
+    .sm-cell { background: var(--paper); padding: 1.1rem 1.25rem; }
+    .sm-cell.smooth { background: var(--paper-mid); }
+    .sm-cell-label { font-family: var(--mono); font-size: 0.54rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 0.4rem; }
+    .sm-cell-text { font-size: 0.9rem; line-height: 1.6; }
+    .sm-cell-text strong { font-weight: 700; font-size: 0.95rem; display: block; margin-bottom: 0.2rem; }
+
+    .book-shelf { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2.5rem 0; }
+    .book { border: 1px solid var(--rule-strong); padding: 1.5rem; }
+    .book-title { font-family: var(--display); font-size: 1.05rem; font-weight: 700; font-style: italic; margin-bottom: 0.3rem; line-height: 1.2; }
+    .book-year { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.1em; color: var(--red); display: block; margin-bottom: 0.6rem; }
+    .book-desc { font-size: 0.85rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+
+    .witness { background: var(--paper-dark); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding: clamp(2rem,5vw,3.5rem) 0; margin: 3rem 0; }
+    .witness-inner { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+    .witness-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .witness-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .witness-place-name { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.8rem); font-weight: 700; margin-bottom: 0.3rem; }
+    .witness-place-sub { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.8rem; }
+    .witness-place-text { font-size: 0.9rem; line-height: 1.7; color: rgba(26,23,20,0.78); margin-bottom: 0.9rem; }
+    .witness-divider { border: none; border-left: 1px solid var(--rule-strong); }
+
+    .closing { padding: clamp(2.5rem,6vw,4rem) 0 0; margin-top: 3.5rem; border-top: 2px solid var(--ink); }
+    .closing-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(26,23,20,0.35); display: block; margin-bottom: 1.5rem; }
+    .closing h2 { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.8rem); font-weight: 700; line-height: 1.1; margin-bottom: 1.25rem; }
+    .closing p { font-size: 0.97rem; line-height: 1.8; margin-bottom: 1rem; max-width: 580px; }
+    .closing-coda { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; color: var(--red); margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); line-height: 1.4; }
+    .closing-coda strong { font-style: normal; color: var(--ink); }
+
+    .next-reads { border-top: 2px solid var(--ink); padding: 2.5rem 0 0; margin-top: 4rem; }
+    .next-reads-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .next-reads-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+    .next-read { background: var(--paper); padding: 1.5rem; text-decoration: none; color: var(--ink); transition: background 0.15s; }
+    .next-read:hover { background: var(--paper-mid); }
+    .next-read-cat { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.6rem; }
+    .next-read-title { font-family: var(--display); font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
+
+    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
+    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .back-link::before { content: '←'; }
+    .back-link:hover { color: var(--red); }
+    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(26,23,20,0.4); }
+
+    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(160,41,28,0.28); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: var(--red); }
+
+    sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a { color: var(--red); text-decoration: none; }
+    sup a:hover { text-decoration: underline; }
+    .footnotes { border-top: 2px solid var(--ink); margin-top: 4rem; padding: 2rem 0 0; }
+    .footnotes-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(26,23,20,0.4); display: block; margin-bottom: 1.5rem; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(26,23,20,0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .hero      { animation: fadeUp 0.4s ease both; animation-delay: 0.05s; }
+    .article-wrap { animation: fadeUp 0.5s ease both; animation-delay: 0.15s; }
+
+    @media (max-width: 540px) {
+      .next-reads-grid { grid-template-columns: 1fr; }
+      .sm-row { grid-template-columns: 1fr; }
+      .book-shelf { grid-template-columns: 1fr; }
+      .witness-grid { grid-template-columns: 1fr; }
+      .witness-divider { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Thinkers</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(26,23,20,0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(26,23,20,0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-stripe">
+      <div class="hero-stripe-inner">
+        <span class="hero-stripe-label">Thinkers — Post-Structuralism — Capitalism and Schizophrenia</span>
+        <span class="hero-stripe-dates">Deleuze 1925–1995 · Guattari 1930–1992</span>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="hero-inner">
+        <h1>Deleuze &amp;<br/>Guattari</h1>
+        <p class="hero-address">You've noticed that the movement which wins the election changes nothing, while the one that changes everything never wins the election. You've noticed that capital moves faster than the resistance to it — that every time you block one route it finds three others. Deleuze and Guattari spent their careers mapping why this is, and where the exits actually are.</p>
+        <p class="hero-dek">Gilles Deleuze was a philosopher at Paris VIII. Félix Guattari was a psychoanalyst and activist who ran a radical psychiatric clinic outside Paris for four decades. Together they produced two volumes under the title <em>Capitalism and Schizophrenia</em> — <em>Anti-Oedipus</em> (1972) and <em>A Thousand Plateaus</em> (1980) — that remain the most rigorous attempt in Western philosophy to describe how power operates without a center, and what movements look like when they stop trying to find one to storm.</p>
+      </div>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+
+    <nav class="contents-nav" aria-label="Sections">
+      <span class="contents-label">Contents</span>
+      <ol>
+        <li><a href="#rhizome"><span class="contents-num">01</span> The rhizome: against the root, for the network</a></li>
+        <li><a href="#smooth-striated"><span class="contents-num">02</span> Smooth and striated space: the map of capture</a></li>
+        <li><a href="#deterritorialization"><span class="contents-num">03</span> Deterritorialization and reterritorialization: how capital moves</a></li>
+        <li><a href="#war-machine"><span class="contents-num">04</span> The war machine: what exists before the state gets to it</a></li>
+        <li><a href="#becoming-minor"><span class="contents-num">05</span> Becoming-minor: not identity, something stranger</a></li>
+        <li><a href="#lines-of-flight"><span class="contents-num">06</span> Lines of flight: the politics of escape</a></li>
+        <li><a href="#continues"><span class="contents-num">07</span> The difficulty, and why it's worth it</a></li>
+      </ol>
+    </nav>
+
+    <div class="body-text">
+
+      <span id="rhizome" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
+      <h2>The rhizome: against the root, for the network</h2>
+
+      <p>Western thought, Deleuze and Guattari argued, is organized around the metaphor of the tree. A trunk. Roots that go down to a single origin. Branches that extend outward from the center but always lead back to it. The tree is the implicit shape of most philosophy, most political theory, most organizational thinking: there is a foundation, a first principle, a central command, and everything else derives from it. Find the root and you understand the whole. Cut the root and the whole falls.</p>
+
+      <p>This metaphor produces a specific theory of power and a specific theory of resistance. Power is a hierarchy with a center. Resistance is about identifying and attacking that center. Revolution is the moment the root is pulled up and replaced with a different one. The logic runs all the way from organizational charts to theories of the state to the structure of academic disciplines — always, there is a root, and everything else is derivation.</p>
+
+      <p>They proposed a different metaphor: the <strong>rhizome</strong>.<sup><a href="#fn1" id="ref1">1</a></sup> Not a tree but a grass, a tuber, a fungal network. Rhizomes have no center, no origin point, no privileged node. They grow laterally, they connect anything to anything, they can be entered from any point and every point connects to every other. Cut a rhizome and it doesn't die — it produces two rhizomes. The network is the form, not the hierarchy. There is no root to find, no trunk to fell.</p>
+
+      <p>The claim is not merely aesthetic. It is descriptive of how certain kinds of power actually work, and prescriptive of how certain kinds of resistance need to be organized. <a href="hardt-negri.html" class="xl">Hardt and Negri's Empire is rhizomatic</a> — there is no headquarters to storm, because the network reroutes around any node you disable. The internet was designed as a rhizome — a network that survives the destruction of any single point by routing around it. The commons is rhizomatic — it grows laterally through connection, not vertically through command.</p>
+
+      <div class="pull">
+        The root looks for the origin.<br/>
+        The rhizome asks only:<br/>
+        <strong>what can this connect to?</strong>
+      </div>
+
+      <p>The organizational implication is direct and unsettling. A movement organized as a tree — a party with a central committee, a hierarchy with a line — can be decapitated. Arrest the leadership and the movement collapses, because the structure requires the center. A movement organized as a rhizome cannot be decapitated, because it has no head. The Zapatistas operate as a rhizome: "preguntando caminamos" — asking, we walk — means there is no central authority whose answer the movement waits for. The Arab Spring spread as a rhizome: no single organization, no single leadership, coordinating through horizontal connection rather than vertical command. Both produced outcomes that confused analysts trained on tree-thinking, who kept looking for the leader to negotiate with or arrest.</p>
+
+      <span id="smooth-striated" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
+      <h2>Smooth and striated space: the map of capture</h2>
+
+      <p>One of the most useful conceptual tools in all of <em>A Thousand Plateaus</em> is the distinction between <strong>smooth space</strong> and <strong>striated space</strong>. Smooth space is open, traversable in any direction, unenclosed — the sea, the desert, the steppe, the open plain. Striated space is measured, divided, organized by parallel lines and perpendicular coordinates — the grid of city streets, the surveyed agricultural field, the property map with its clear boundaries.</p>
+
+      <p>These are not just descriptions of physical geography. They describe a relationship to power. Striated space is the space the state produces and requires. The state cannot govern what it cannot measure and map. Enclosure, cadastral surveys, property registration, census-taking, zoning codes — these are all operations that striate: that impose grid and measure on spaces that were previously open to traversal. The commons was smooth. Enclosure striated it.</p>
+
+      <div class="space-map">
+        <div class="space-map-header">
+          <span class="sm-title">Smooth space vs. striated space — the same territory, two logics</span>
+          <span class="sm-subtitle">Neither is purely good or bad — the politics is in the movement between them</span>
+        </div>
+        <div class="sm-row">
+          <div class="sm-cell smooth">
+            <span class="sm-cell-label">Smooth</span>
+            <div class="sm-cell-text"><strong>Open-source code</strong>Traversable in any direction. Fork it, modify it, combine it with anything. No boundary between "yours" and "mine." The codebase is a commons — a space without internal fences.</div>
+          </div>
+          <div class="sm-cell">
+            <span class="sm-cell-label">Striated</span>
+            <div class="sm-cell-text"><strong>Proprietary software</strong>Terms of service, license restrictions, API rate limits. The same code, now divided into inside and outside, permitted and prohibited, billable and free. The fence arrives after the productive substrate is built.</div>
+          </div>
+        </div>
+        <div class="sm-row">
+          <div class="sm-cell smooth">
+            <span class="sm-cell-label">Smooth</span>
+            <div class="sm-cell-text"><strong>The neighborhood before gentrification</strong>Informal economies, shared space, uses accumulating organically, community memory of who belongs and what the rules are — held collectively, not written down.</div>
+          </div>
+          <div class="sm-cell">
+            <span class="sm-cell-label">Striated</span>
+            <div class="sm-cell-text"><strong>The neighborhood after</strong>Zoning enforcement, property values, noise ordinances, business licensing. The informal uses that made the neighborhood livable become violations. The space is re-measured against a grid of extraction.</div>
+          </div>
+        </div>
+        <div class="sm-row">
+          <div class="sm-cell smooth">
+            <span class="sm-cell-label">Smooth</span>
+            <div class="sm-cell-text"><strong>The internet, 1994</strong>No dominant platforms. Every node equal in principle. Protocol-based, open, traversable from any point to any other point without passing through a center.</div>
+          </div>
+          <div class="sm-cell">
+            <span class="sm-cell-label">Striated</span>
+            <div class="sm-cell-text"><strong>The internet, now</strong>Five platforms mediate most communication. Algorithms decide what is visible. Terms of service determine what speech is permitted. The smooth space was striated by enclosure — the same move, different medium.</div>
+          </div>
+        </div>
+        <div class="sm-row">
+          <div class="sm-cell smooth">
+            <span class="sm-cell-label">Smooth</span>
+            <div class="sm-cell-text"><strong>Subsistence agriculture</strong>A commons of land, seed varieties, and accumulated agricultural knowledge, held and governed by the community, traversable and sharable without transaction.</div>
+          </div>
+          <div class="sm-cell">
+            <span class="sm-cell-label">Striated</span>
+            <div class="sm-cell-text"><strong>Industrial monoculture + IP law</strong>Patented seed varieties. Contract farming. Knowledge owned by the corporation. The same land, now striated with property relations that route value upward and make subsistence illegal.</div>
+          </div>
+        </div>
+      </div>
+
+      <p>The insight that changes everything: smooth and striated are not stable conditions. Space is constantly being smoothed and striated — opened and enclosed, liberated and captured. <strong>Capital's primary operation is the striation of smooth space.</strong> Every enclosure is a striation. And every commons is an attempt to maintain or recover smooth space — to keep territory traversable in common rather than divided by property.</p>
+
+      <p>Crucially, Deleuze and Guattari were not naive about smooth space. Smooth space is not inherently liberatory. The sea can be a space of nomadic freedom or the medium of slave ships. The desert can be a smooth space of escape or of death. What matters is who is moving through the space and in which direction. The politics of smooth and striated is always a politics of the specific movement, not an abstract celebration of openness.</p>
+
+      <span id="deterritorialization" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">03</span><div class="section-rule"></div></div>
+      <h2>Deterritorialization and reterritorialization: how capital moves</h2>
+
+      <p>This is the hardest of their concepts to name concisely and the most important for understanding what capitalism actually does. <strong>Territorialization</strong> is the process by which connections, flows, and relations get organized into a stable territory — a defined space with rules, borders, and a governing code. A feudal manor is a territory. A nation-state is a territory. A corporate platform is a territory. The family is a territory. Territories encode what belongs inside, what belongs outside, and what the rules of movement are.</p>
+
+      <p><strong>Deterritorialization</strong> is the disruption of that organization — the moment when flows escape the territory, when the code breaks down, when people and ideas and capital move in ways the territory didn't intend. <strong>Reterritorialization</strong> is the reconstruction of a new territory around those flows — the capture of the deterritorializing movement into a new (usually more extractive) organization.</p>
+
+      <p>Capitalism is the system that has most fully understood and exploited this dynamic. It is the most powerful deterritorializing force in history — dissolving feudal bonds, destroying local economies, breaking up traditional communities, rendering everything mobile and fungible. Marx saw this: everything solid melts into air. But capitalism does not simply leave smooth space behind. Every deterritorialization is followed by a reterritorialization — the decoded flows are captured in new forms, new markets, new property relations. The serfs are freed from the land and reterritorialized as wage labor. The commons is enclosed and reterritorialized as private property. <a href="the-outside-capital-needs.html" class="xl">The subsistence economy is dissolved and reterritorialized as dependency on commodity markets.</a></p>
+
+      <div class="callout">
+        <span class="callout-label">The platform cycle — deterritorialization and reterritorialization in real time</span>
+        <p>A new communications technology emerges — email, the web, social media, the smartphone. For a brief window it operates as smooth space: open, traversable, no dominant player, the rules not yet written. Communities form, practices develop, a commons accumulates. This is the deterritorializing moment — the new technology disrupts existing media territories and opens possibilities that weren't there before.</p>
+        <p>Then the reterritorialization: platforms emerge, network effects concentrate users, venture capital finances the land grab, and the open space is striated. The community that formed in the smooth space finds itself tenant to a landlord. The practices that developed in the commons are now subject to terms of service. The accumulated social value — the relationships, the content, the behavioral data — is now owned by a shareholder. The cycle takes roughly a decade. We have watched it happen three times since 1994 and are watching the fourth now with AI.</p>
+        <p>The political question Deleuze and Guattari raise is whether deterritorialization can outrun reterritorialization — whether it's possible to keep opening new smooth spaces faster than capital can enclose them, or whether the exit strategy has to be something other than speed.</p>
+      </div>
+
+      <span id="war-machine" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
+      <h2>The war machine: what exists before the state gets to it</h2>
+
+      <p>The concept of the <strong>war machine</strong> is perhaps their most misunderstood — and most politically generative. It does not mean military force. It means something almost the opposite: the form of collective organization that exists prior to and in resistance to State capture.</p>
+
+      <p>The State, for Deleuze and Guattari, is not primarily defined by its military monopoly or its legal authority. It is defined by its operation of striation — its compulsion to measure, code, record, and organize all flows that pass through its territory. The State needs everything to be legible: land surveyed, population counted, labor contracted, identity documented. Anything that resists legibility threatens the State's capacity to govern — and therefore threatens the State.</p>
+
+      <p>The war machine is what resists legibility. Nomadic peoples who move through territory without recognizing its property divisions. Communities whose governance is oral and customary rather than written and legal. Practices of care and mutual aid that circulate outside the market and therefore outside the State's accounting. Open-source development communities that produce value through contribution norms that cannot be fully contracted. These are all war machines in Deleuze and Guattari's sense — not because they are violent, but because they operate through a logic the State cannot fully capture without destroying.</p>
+
+      <p>The State's response to the war machine is always the same: capture or destroy. The nomad is forced to settle or expelled. The customary commons is converted to property or enclosed. The informal economy is formalized or criminalized. The open-source community is acquired or regulated. And here the insight sharpens: <strong>when the State captures the war machine, it becomes the most destructive force on earth.</strong><sup><a href="#fn2" id="ref2">2</a></sup> The captured war machine — the army — applies the war machine's capacity for radical outside-the-rules action in the service of the State's striation project. This is how colonial violence works: the deterritorializing energy of the war machine, now in State service, destroying the smooth spaces of colonized peoples to impose property grids.</p>
+
+      <p>For organizers the question is always: are we building a war machine or capturing the State's war machine? The distinction matters more than the question of electoral versus direct action. A movement can pursue both electoral and direct action while operating as a war machine — maintaining the capacity to move outside the State's coding, to build social infrastructure that doesn't need the State's permission, to keep smooth spaces open that the State would otherwise striate. <a href="build-it-now.html" class="xl">The alternative is being built now, not awaited after victory.</a></p>
+
+      <span id="becoming-minor" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
+      <h2>Becoming-minor: not identity, something stranger</h2>
+
+      <p>Majority and minority, for Deleuze and Guattari, are not about numbers. The majority is the standard — the norm against which everything else is measured. In a given social arrangement, the majority is the white, adult, male, property-owning, heterosexual, nationally-identified subject who serves as the implicit reference point for law, culture, and politics. Everyone else is minor — not in quantity, but in relation to the norm. Women are a majority of the population and a minority in the political sense.</p>
+
+      <p>The political tradition that follows from this observation usually proposes <strong>becoming-major</strong> for the minor: claiming full inclusion in the majority standard, achieving recognition on the majority's terms, being counted as equal within the existing measurement system. This is the politics of representation, of rights claims, of inclusion. It is not nothing. But it has a ceiling: it cannot transform the standard itself, only extend who gets to meet it.</p>
+
+      <p><strong>Becoming-minor</strong> is something different — and stranger. It is not the minor group claiming majoritarian status. It is the process by which the majority standard itself is destabilized — by which what counts as normal is put in question, by which the measurement system loses its self-evidence. Becoming-minor is not about any particular identity group. It is a process available to anyone: the movement away from the norm, toward what the norm excludes, toward what cannot be measured by the existing standard.</p>
+
+      <div class="pull">
+        Becoming-minor is not<br/>
+        the demand to be counted.<br/>
+        It is the refusal<br/>
+        to be <strong>measured by their scale.</strong>
+      </div>
+
+      <p>In <em>Kafka: Toward a Minor Literature</em> (1975),<sup><a href="#fn3" id="ref3">3</a></sup> they used Kafka — a Czech Jew writing in German, a language that was not quite his, in a literary tradition he could not fully inhabit — as the model of a minor literature. Minor literature does not use the major language as intended. It uses it to make it stammer, to expose its assumptions, to turn the majority's instrument against its own normativity. The same dynamic applies to minor politics: using the majority's institutions, languages, and legal forms against the grain, to open space that the institutions were designed to close.</p>
+
+      <span id="lines-of-flight" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">06</span><div class="section-rule"></div></div>
+      <h2>Lines of flight: the politics of escape</h2>
+
+      <p>Every territory has <strong>lines of flight</strong> — trajectories along which something can escape the territory's coding, move outside its rules, become something the territory did not intend. These are not metaphors. They are actual paths: the refugee who crosses the border, the worker who quits, the community that builds mutual aid infrastructure that makes the market less necessary, the developer who forks the code. The line of flight is the exit from the captured territory.</p>
+
+      <p>Lines of flight are not guaranteed to be liberatory. They can be re-captured — reterritorialized into new and worse territories. The line of flight from one platform leads to another platform. The exit from wage labor leads to the gig economy. The escape from one nationalist territory leads to another. The line of flight is a direction and a possibility, not a destination. What it becomes depends on whether it connects with other lines of flight, whether it builds smooth space rather than just moving through captured space, whether the movement generates something — a commons, a new form of governance, a new set of social relations — rather than just escaping.</p>
+
+      <p><a href="hardt-negri.html" class="xl">Hardt and Negri's exodus is a theory of lines of flight at the political scale</a> — the withdrawal of the multitude's productive energy from the capture apparatus, combined with the direct construction of alternatives. The line of flight is not just leaving. It is leaving <em>toward</em> something — building the smooth space that reterritorialization is always trying to close.</p>
+
+      <div class="callout">
+        <span class="callout-label">Three kinds of lines — and why only one builds something</span>
+        <p>Deleuze and Guattari distinguished three types of lines in any social formation. <strong>Molar lines</strong> are the lines of rigid segmentation — the hard boundaries that define territories, identities, and roles. State borders. Property lines. Job categories. The binary divisions (citizen/alien, owner/renter, employed/unemployed) that the State requires for its coding. Molar lines organize social life but also trap it.</p>
+        <p><strong>Molecular lines</strong> are the lines of flexibility within the molar organization — the ways people actually live their lives in the spaces between the hard categories. Friendships that cross class lines. Informal economies that operate below the tax threshold. Communities of practice that don't map onto official institutions. Molecular lines are not escapes; they are the texture of real life within a striated space.</p>
+        <p><strong>Lines of flight</strong> are the ruptures — the points where something escapes both the molar and molecular, where genuinely new territory becomes possible. Lines of flight are where the interesting political action is: where a movement becomes something its own origins didn't predict, where a technology opens space that no one planned, where a community builds an institution that should not exist given the surrounding conditions. They are also the most dangerous: they can lead to transformation, but they can equally lead to re-capture or to self-destruction. The commune that builds itself in a line of flight from the state can become a new state, or can be destroyed by the old one, or can become something genuinely new. The line of flight does not determine the outcome — it opens the possibility.</p>
+      </div>
+
+    </div><!-- end body-text -->
+
+    <div class="witness">
+      <div class="witness-inner">
+        <span class="witness-label">06 — Where the Concepts Lived</span>
+        <div class="witness-grid">
+          <div class="witness-place">
+            <span class="witness-place-name">La Borde Clinic</span>
+            <span class="witness-place-sub">Cour-Cheverny, France — 1955 to 1992</span>
+            <p class="witness-place-text">Félix Guattari arrived at La Borde, a psychiatric clinic in the Loire Valley, in 1955 — the year he turned twenty-five — as a student of its founder Jean Oury. He would remain there for the rest of his life, forty years of daily practice that was inseparable from his theoretical work.</p>
+            <p class="witness-place-text">La Borde practiced what it called institutional psychotherapy: the idea that the psychiatric institution itself was a therapeutic — or anti-therapeutic — force, and that healing required transforming the social relations of the clinic rather than simply treating individual patients. Staff and patients rotated through administrative roles. Hierarchies were deliberately flattened. The institution was treated as a living commons, governed collectively, its structure subject to constant revision.</p>
+            <p class="witness-place-text">What Guattari was building at La Borde was a war machine in Deleuze and Guattari's sense: an institution that operated against the State's coding of madness, that refused the striation of the clinic into the zones of the curable and the incurable, the rational and the irrational, the therapeutic and the custodial. The concepts in <em>Anti-Oedipus</em> are not abstractions that came down from philosophy. They are the theory that forty years of psychiatric practice produced.<sup><a href="#fn4" id="ref4">4</a></sup></p>
+          </div>
+          <hr class="witness-divider" />
+          <div class="witness-place">
+            <span class="witness-place-name">May '68 and After</span>
+            <span class="witness-place-sub">Paris and the movements it generated</span>
+            <p class="witness-place-text">Both Deleuze and Guattari were in Paris in May 1968 — Deleuze teaching at Lyon, Guattari active in multiple radical networks in the city. The uprising transformed both of them, not because it succeeded (it didn't, in any conventional sense) but because of what it revealed about the failure of existing political categories.</p>
+            <p class="witness-place-text">The PCF — the French Communist Party — had managed the uprising as much as it had supported it, and had ultimately helped ensure its containment. The vanguard party, confronted with a genuine mass rupture, found the rupture threatening to its own organizational logic and moved to control it. <a href="the-party-ate-the-revolution.html" class="xl">The party ate the revolution.</a> This confirmed for Guattari what he had been arguing against in psychiatric terms for over a decade: hierarchical organizations produce hierarchical outcomes, regardless of their stated ideology. The organizational form is the politics.</p>
+            <p class="witness-place-text"><em>Anti-Oedipus</em>, published four years later in 1972, was explicitly written as a response to '68's failure — an attempt to understand why the largest social rupture in postwar France had been captured and contained, and what a politics that could not be so easily re-coded would look like. It was received as one of the defining texts of what came after — a map of the terrain that the failed revolution had exposed.<sup><a href="#fn5" id="ref5">5</a></sup></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-text">
+      <span id="continues" class="section-anchor"></span>
+    </div>
+
+    <div class="closing">
+      <span class="closing-label">07 — The Difficulty, and Why It's Worth It</span>
+      <h2>The hardest vocabulary<br/>for the most important problem.</h2>
+      <p>Deleuze and Guattari are genuinely difficult. <em>A Thousand Plateaus</em> is not a book that yields its argument on first reading — or third. The vocabulary is dense by design: they were trying to create concepts that could not be immediately re-absorbed into the frameworks they were critiquing, that could not be instantly translated back into the tree-thinking they were proposing to escape. This is not obscurantism. It is a deliberate attempt to produce thought that is actually new rather than merely different-sounding.</p>
+      <p>The price is real. The concepts have been appropriated in precisely the ways they were designed to prevent: rhizome became a Silicon Valley buzzword for flat organizations that remained hierarchical in practice. Lines of flight became a justification for abandoning rather than building. Smooth space became an aesthetic rather than a political category. The concepts are not immune to reterritorialization — nothing is. But they remain the sharpest tools available for the specific problem of power without a center, which is the dominant form of power now.</p>
+      <p>What Deleuze and Guattari give organizers is a vocabulary for the terrain that Gramsci's cultural analysis and Hardt and Negri's political economy describe but do not fully map. If <a href="gramsci.html" class="xl">Gramsci tells you that the battle is for common sense</a>, Deleuze and Guattari tell you what the territory of common sense looks like and how striation works. If <a href="hardt-negri.html" class="xl">Hardt and Negri tell you that exodus is the strategy</a>, Deleuze and Guattari tell you what a line of flight is, what can go wrong with it, and what it needs to connect to in order to build something rather than just escape.</p>
+      <p>Gilles Deleuze died in Paris on November 4, 1995. Félix Guattari died of a heart attack at La Borde on August 29, 1992, still working. The clinic continued without him, practicing institutional psychotherapy, governed as a commons. The war machine kept moving.</p>
+      <div class="closing-coda">
+        The territory is always<br/>
+        being striated.<br/>
+        The line of flight is always<br/>
+        being reterritorialized.<br/>
+        <strong>Keep moving.<br/>
+        Keep connecting.<br/>
+        Build in the smooth space<br/>
+        before the fences arrive.</strong>
+      </div>
+    </div>
+
+    <div class="book-shelf" style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--rule);">
+      <div style="font-family:var(--mono);font-size:0.58rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(26,23,20,0.4);grid-column:1/-1;margin-bottom:0.5rem;">Key Works</div>
+      <div class="book">
+        <span class="book-year">1972</span>
+        <div class="book-title">Anti-Oedipus: Capitalism and Schizophrenia, Vol. 1</div>
+        <div class="book-desc">The opening salvo. Against psychoanalysis's reduction of desire to lack and family. For desire as productive force — the actual engine of both capitalism and its alternatives. Dense but exhilarating. Foucault called it "an introduction to the non-fascist life."</div>
+      </div>
+      <div class="book">
+        <span class="book-year">1980</span>
+        <div class="book-title">A Thousand Plateaus: Capitalism and Schizophrenia, Vol. 2</div>
+        <div class="book-desc">The main event. Rhizome. Smooth and striated space. Deterritorialization. The war machine. Becoming-minor. Lines of flight. Each chapter ("plateau") can be read independently. Start with the introduction (the rhizome) and plateau 12 (the war machine) if the whole seems too large.</div>
+      </div>
+      <div class="book">
+        <span class="book-year">1975</span>
+        <div class="book-title">Kafka: Toward a Minor Literature</div>
+        <div class="book-desc">Their most accessible joint work. Uses Kafka to develop the theory of minor literature and minor politics — the use of a majority's tools against the majority's grain. Short, concrete, and a practical demonstration of everything they theorize more abstractly elsewhere.</div>
+      </div>
+      <div class="book">
+        <span class="book-year">1991</span>
+        <div class="book-title">What is Philosophy?</div>
+        <div class="book-desc">Their final collaboration. A clear statement of what philosophy is for — the creation of concepts, not the discovery of truths. The cleanest entry point into Deleuze's philosophical project for readers who want the theory before the politics.</div>
+      </div>
+      <div class="book">
+        <span class="book-year">1989</span>
+        <div class="book-title">The Three Ecologies <em>(Guattari, solo)</em></div>
+        <div class="book-desc">Guattari's late work connecting mental ecology, social ecology, and environmental ecology as a single problem. The argument that the environmental crisis, the social fragmentation crisis, and the crisis of subjectivity are expressions of the same underlying dynamic.</div>
+      </div>
+      <div class="book">
+        <span class="book-year">1968</span>
+        <div class="book-title">Difference and Repetition <em>(Deleuze, solo)</em></div>
+        <div class="book-desc">Deleuze's major solo philosophical work, predating the collaboration. The argument that difference is primary — that identity is derived, constructed, always a simplification of a more complex underlying reality. The philosophical foundation for everything that follows.</div>
+      </div>
+    </div>
+
+    <section class="footnotes" aria-label="Footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1"><span class="fn-num">1</span><span>The rhizome as philosophical concept is introduced in the opening pages of <em>A Thousand Plateaus</em> (1980), which Deleuze and Guattari titled "Introduction: Rhizome." They were explicit that the concept was borrowed from botany but used philosophically — the rhizome as an organizational form, not a plant. The contrast with "arborescent" (tree-based) thinking runs throughout both volumes of <em>Capitalism and Schizophrenia</em> and structures the critique of both psychoanalysis and Marxist party organization. <a href="#ref1">↩</a></span></li>
+        <li id="fn2"><span class="fn-num">2</span><span>The claim that the captured war machine becomes the most destructive force on earth appears in Plateau 12, "1227: Treatise on Nomadology — The War Machine," in <em>A Thousand Plateaus</em>. This plateau is the most sustained treatment of the war machine concept and the one most directly relevant to political organizing. The argument: the State does not itself possess a war machine; it appropriates one, and in doing so converts the nomadic, outside-the-coding energy of the war machine into an instrument of total conquest. The Nazi state and nuclear deterrence are the extreme examples they have in mind. <a href="#ref2">↩</a></span></li>
+        <li id="fn3"><span class="fn-num">3</span><span>Deleuze, G. &amp; Guattari, F. (1975). <em>Kafka: Pour une littérature mineure</em>. Éditions de Minuit. English translation: <em>Kafka: Toward a Minor Literature</em>, trans. Dana Polan (University of Minnesota Press, 1986). The concept of "minor literature" — which uses the major language in a way that makes it stammer, that refuses its normative function — is the literary application of the broader political concept of becoming-minor. <a href="#ref3">↩</a></span></li>
+        <li id="fn4"><span class="fn-num">4</span><span>Guattari's work at La Borde is documented in his collected writings, including <em>Psychanalyse et transversalité</em> (1972) and <em>La révolution moléculaire</em> (1977). The concept of "institutional psychotherapy" was developed by Jean Oury (La Borde's founder) and François Tosquelles, and Guattari extended it into a political theory of the institution. Gary Genosko's <em>Félix Guattari: An Aberrant Introduction</em> (2002) is the most thorough English-language account of Guattari's practice at La Borde and its relationship to his theoretical work. <a href="#ref4">↩</a></span></li>
+        <li id="fn5"><span class="fn-num">5</span><span>Foucault's preface to the English translation of <em>Anti-Oedipus</em> (Viking Press, 1977) described it as "a book of ethics" and "an introduction to the non-fascist life" — the question of how to stop desiring one's own repression. The relationship between <em>Anti-Oedipus</em> and May '68 is discussed in François Dosse's dual biography <em>Gilles Deleuze and Félix Guattari: Intersecting Lives</em> (Columbia University Press, 2010), which remains the most reliable account of both figures' intellectual and political development. <a href="#ref5">↩</a></span></li>
+      </ol>
+    </section>
+
+    <nav class="next-reads" aria-label="Continue reading">
+      <span class="next-reads-label">Where to go next</span>
+      <div class="next-reads-grid">
+        <a href="hardt-negri.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Hardt &amp; Negri: The Wealth That Capital Cannot Build</span>
+        </a>
+        <a href="gramsci.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Gramsci: The Feeling That This Is Just How Things Are</span>
+        </a>
+        <a href="build-it-now.html" class="next-read">
+          <span class="next-read-cat">Practice</span>
+          <span class="next-read-title">Build It Now — What The Alternative Looks Like</span>
+        </a>
+        <a href="the-party-ate-the-revolution.html" class="next-read">
+          <span class="next-read-cat">History</span>
+          <span class="next-read-title">The Party Ate the Revolution</span>
+        </a>
+        <a href="case-study-rojava.html" class="next-read">
+          <span class="next-read-cat">Case Study</span>
+          <span class="next-read-title">Rojava: A Revolution in the Middle of a War</span>
+        </a>
+        <a href="case-study-zapatistas.html" class="next-read">
+          <span class="next-read-cat">Case Study</span>
+          <span class="next-read-title">The Zapatistas: Thirty Years of Asking, Walking</span>
+        </a>
+        <a href="the-outside-capital-needs.html" class="next-read">
+          <span class="next-read-cat">Theory</span>
+          <span class="next-read-title">The Outside Capital Needs</span>
+        </a>
+        <a href="graeber.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Graeber: The Work You're Already Doing Has a Name</span>
+        </a>
+      </div>
+    </nav>
+
+    <footer class="article-footer">
+      <a href="index.html" class="back-link">Back to Power Explained</a>
+      <span class="series-note">Thinkers — Deleuze &amp; Guattari — Anti-Oedipus (1972) — A Thousand Plateaus (1980)</span>
+    </footer>
+
+  </main>
+</body>
+</html>
