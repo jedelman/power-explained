@@ -23,6 +23,16 @@
   --rule:       rgba(var(--ink-rgb),0.18);
   --rule-strong: rgba(var(--ink-rgb),0.45);
 
+  --green:       #2d6a2d;
+  --green-rgb:   45,106,45;
+  --green-light: #edf5ed;
+  --blue:        #2e4e7e;
+  --blue-rgb:    46,78,126;
+  --blue-light:  #eaeff8;
+  --plum:        #5c2d72;
+  --plum-rgb:    92,45,114;
+  --plum-light:  #f2ecf7;
+
   --display: 'Cormorant Garamond', Georgia, serif;
   --body:    'Lora', Georgia, serif;
   --mono:    'DM Mono', monospace;
@@ -45,6 +55,15 @@
     --red-warm:   #c47a60;
     --rule:       rgba(var(--ink-rgb),0.12);
     --rule-strong: rgba(var(--ink-rgb),0.3);
+    --green:       #4a9e4a;
+    --green-rgb:   74,158,74;
+    --green-light: #1a2e1a;
+    --blue:        #5b82c0;
+    --blue-rgb:    91,130,192;
+    --blue-light:  #161e2e;
+    --plum:        #9c5ec0;
+    --plum-rgb:    156,94,192;
+    --plum-light:  #1e1228;
   }
 }
 
