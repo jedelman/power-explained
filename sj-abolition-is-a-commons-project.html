@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abolition Is a Commons Project — Power Explained</title>
+  <meta name="description" content="The abolitionist demand isn't just to close prisons and defund police. It's to build the world that doesn't need them. Ruth Wilson Gilmore calls this 'abolition geography.' It's the commons project applied to the question of what we do when the enclosure itself becomes the institution." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--red); color: var(--paper); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .series-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.5); display: block; margin-bottom: 0.5rem; }
+    .series-title { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.65); display: block; margin-bottom: 1.75rem; border-bottom: 1px solid rgba(var(--paper-rgb),0.2); padding-bottom: 0.75rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,7vw,4rem); font-weight: 700; line-height: 1.08; margin-bottom: 1.25rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.6vw,1.4rem); font-style: italic; line-height: 1.55; color: rgba(var(--paper-rgb),0.75); max-width: 560px; }
+
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; border-left: 3px solid var(--red); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    .build-list { margin: 2rem 0; display: flex; flex-direction: column; gap: 0; }
+    .build-item { border-top: 1px solid var(--rule); padding: 1.5rem 0; display: grid; grid-template-columns: 1.5rem 1fr; gap: 1.25rem; align-items: start; }
+    .build-item:last-child { border-bottom: 1px solid var(--rule); }
+    .build-bullet { width: 1.5rem; height: 1.5rem; background: var(--red); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.2rem; }
+    .build-bullet span { display: block; width: 0.5rem; height: 0.5rem; background: var(--paper); }
+    .build-text { font-size: 0.95rem; line-height: 1.75; }
+    .build-text strong { font-weight: 600; }
+
+    .close-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
+    .close-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.45); display: block; margin-bottom: 1rem; }
+    .close-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
+    .close-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.85; margin-bottom: 0.8rem; }
+    .close-box p:last-of-type { margin-bottom: 0; }
+    .close-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
+    .close-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.65); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--paper-rgb),0.25); transition: all 0.2s; }
+    .close-link:hover { color: var(--paper); border-color: rgba(var(--paper-rgb),0.8); }
+
+    .nav-strip { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 2.5rem 0; padding: 1.25rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-strip a { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.5); text-decoration: none; padding: 0.4rem 0.8rem; border: 1px solid rgba(var(--ink-rgb),0.15); transition: all 0.2s; }
+    .nav-strip a:hover { color: var(--ink); border-color: var(--ink); }
+    .nav-strip a.current { color: var(--red); border-color: var(--red); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .xl { color: rgba(var(--ink-rgb),0.75); text-decoration: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.25); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: rgba(var(--ink-rgb),0.7); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">For Social Justice</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="series-eyebrow">For Social Justice · Series</span>
+      <span class="series-title">Part III of III</span>
+      <h1>Abolition Is<br/>a Commons<br/>Project</h1>
+      <p class="hero-dek">The abolitionist demand isn't just to close prisons and defund police. It's to build the world that doesn't need them. Ruth Wilson Gilmore calls this abolition geography. It's the commons project applied to carceral enclosure.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <div class="nav-strip">
+        <a href="for-social-justice.html">Overview</a>
+        <a href="sj-racial-capitalism.html">I. Racial capitalism</a>
+        <a href="sj-reproductive-commons.html">II. The reproductive commons</a>
+        <a href="sj-abolition-is-a-commons-project.html" class="current">III. Abolition</a>
+      </div>
+
+      <p>The criticism of abolition that gets asked most often is: what do you put in its place? The question assumes that carceral institutions are filling a need that must be filled by something. Abolitionists don't dispute this. They're specific about what replaces prisons and police: the material conditions under which the harms those institutions claim to address no longer arise at scale — housing, healthcare, mental health support, economic security, community governance — and the community institutions that can address conflict and harm without enclosure when they do arise.</p>
+
+      <p>This is, structurally, the commons argument. <a href="sj-racial-capitalism.html" class="xlr">As Gilmore showed</a>, mass incarceration was a solution to surpluses — land, labor, capital, state capacity — not primarily to crime. It enclosed excess population into institutions that absorbed them from the political economy without requiring the social investment that would address the conditions producing the surplus. Abolition is the demand to make those social investments: to build the commons infrastructure that makes carceral enclosure structurally unnecessary.</p>
+
+      <h2>What abolition geography means</h2>
+
+      <p>Gilmore's concept of abolition geography is precise: change the geographic organization of resources so that people are not rendered surplus to begin with. The prison sits at the end of a long chain of decisions about where investment goes and where it doesn't — which neighborhoods get schools, which get drug treatment, which get living wage jobs, which get abandoned and then policed. Abolition geography means following that chain back to its origins and changing the investment decisions that produce the surplus populations that become incarceration's raw material.</p>
+
+      <p>This is not a utopian demand. It's a description of what every social investment study shows: investment in housing stability reduces incarceration rates. Investment in mental health care reduces incarceration rates. Investment in education and economic opportunity reduces incarceration rates. The carceral system is expensive precisely because it substitutes for cheaper investments that were politically unavailable. The political unavailability was not accidental — it reflected the same <a href="urban-capture.html" class="xl">capture of public institutions</a> by interests that benefit from the enclosure of surplus population rather than its integration.</p>
+
+      <div class="pull">
+        You don't just dismantle the prison.<br/>You build the world<br/><strong>that doesn't need one.</strong>
+      </div>
+
+      <h2>The commons institutions abolition requires</h2>
+
+      <div class="build-list">
+        <div class="build-item">
+          <div class="build-bullet"><span></span></div>
+          <div class="build-text"><strong>Housing as a commons right.</strong> The largest single predictor of incarceration is housing instability. <a href="glossary.html#community-land-trust" class="xl">Community land trusts</a>, public housing with real investment, tenant unions with real power — these are abolitionist infrastructure, not just housing policy. Every permanently affordable home reduces the pipeline into carceral institutions.</div>
+        </div>
+        <div class="build-item">
+          <div class="build-bullet"><span></span></div>
+          <div class="build-text"><strong>Mental health as community care.</strong> A significant fraction of people in US jails and prisons have serious mental illness. The deinstitutionalization of the 1970s and 1980s moved people out of psychiatric institutions without building the community mental health infrastructure that was supposed to replace them. The result was transinstitutionalization into the carceral system. Community mental health — peer support, crisis response teams, community care networks — is abolition work.</div>
+        </div>
+        <div class="build-item">
+          <div class="build-bullet"><span></span></div>
+          <div class="build-text"><strong><a href="mutual-aid-isnt-charity.html" class="xl">Mutual aid</a> as non-carceral conflict resolution.</strong> Community accountability processes — <a href="glossary.html#transformative-justice" class="xl">transformative justice</a> circles, restorative practices, community mediation — address harm without the severing of community bonds that incarceration produces. These are not soft alternatives for minor offenses. They are, in documented practice, more effective than incarceration at reducing recurrence of harm, because they maintain the social fabric that incarceration destroys.</div>
+        </div>
+        <div class="build-item">
+          <div class="build-bullet"><span></span></div>
+          <div class="build-text"><strong>Economic commons.</strong> Worker cooperatives, <a href="build-it-now.html" class="xl">cooperative economic institutions</a>, and community ownership structures reduce the economic precarity that drives both incarceration and the conditions that carceral systems claim to address. Angela Davis and the tradition of prison abolitionist organizing has always connected economic democracy to carceral abolition — you can't abolish the prison without building the economic alternatives that make mass human surplus structurally impossible.</div>
+        </div>
+        <div class="build-item">
+          <div class="build-bullet"><span></span></div>
+          <div class="build-text"><strong>Political commons.</strong> Community governance institutions — participatory budgeting, neighborhood councils with real authority, democratic oversight of policing — change who makes decisions about public safety resources. Communities that govern themselves produce different safety outcomes than communities that are policed from outside. <a href="case-study-zapatistas.html" class="xlr">The Zapatistas</a> have maintained community safety without a carceral system for thirty years through community governance. <a href="case-study-rojava.html" class="xlr">Rojava</a> operates neighborhood-level justice systems explicitly designed on restorative principles.</div>
+        </div>
+      </div>
+
+      <h2>The reform trap</h2>
+
+      <p>Prison reform — better conditions, reduced sentences, body cameras on police, civilian review boards — addresses specific harms within the carceral system without changing its structural function. This matters for the people inside it. It doesn't change the rate at which people enter it, which is determined by the political economy of surplus and the capture of public institutions that directs investment away from communities and toward enclosure.</p>
+
+      <p>The reform trap is the same trap that appears everywhere in commons politics: improvements within an enclosing system don't address the enclosure. A more humane prison is still a mechanism for removing surplus population from the political economy without making the social investment that would address their material conditions. A police department with better training is still an institution whose function is managing the consequences of disinvestment rather than ending the disinvestment.</p>
+
+      <p>Abolition is not the demand for immediate overnight closure of all prisons, though the demands of the movement are immediate and concrete: <a href="https://8toabolition.com" style="color:var(--red);text-decoration:none;border-bottom:1px solid rgba(var(--red-rgb),0.28);">eight specific policy changes</a> that reduce the footprint of carceral institutions while building the alternatives. The structural demand is the commons demand: build the institutions that make surplus population impossible, and the carceral institutions that manage it will become unnecessary.</p>
+
+      <div class="close-box">
+        <span class="close-label">Series conclusion</span>
+        <h3>The structural fight and the building fight are the same fight.</h3>
+        <p>Racial capitalism, reproductive enclosure, and carceral enclosure are three expressions of the same mechanism: the removal of people, labor, and life from the commons, and the concentration of the resulting surplus in the hands of those who didn't produce it. The commons project — building cooperative ownership, mutual aid, democratic governance, and community institutions with legal permanence — is simultaneously the anti-racist project, the feminist project, and the abolitionist project.</p>
+        <p>These movements are strongest when they understand themselves as parts of the same structural demand: declosure. Building the world where enclosure is structurally unnecessary, institution by institution, neighborhood by neighborhood, until the commons is large enough that the enclosure can no longer sustain itself.</p>
+        <div class="close-links">
+          <a href="for-social-justice.html" class="close-link">Back to overview →</a>
+          <a href="build-the-commune-without-the-state.html" class="close-link">Build the commune →</a>
+          <a href="what-we-do-on-monday.html" class="close-link">What we do Monday →</a>
+        </div>
+      </div>
+
+      <div class="nav-strip">
+        <a href="sj-reproductive-commons.html">← The reproductive commons</a>
+        <a href="for-social-justice.html">Back to overview →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="read-more">
+    <div class="read-more-inner">
+      <h3>Related reading</h3>
+      <p>The framework behind this series.</p>
+      <div class="read-links">
+        <a href="for-social-justice.html" class="read-link-btn">Entry point →</a>
+        <a href="mutual-aid-isnt-charity.html" class="read-link-btn">Mutual aid →</a>
+        <a href="build-the-commune-without-the-state.html" class="read-link-btn">Build the commune →</a>
+        <a href="case-study-zapatistas.html" class="read-link-btn">Zapatistas →</a>
+        <a href="case-study-rojava.html" class="read-link-btn">Rojava →</a>
+        <a href="what-we-do-on-monday.html" class="read-link-btn">What we do Monday →</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Reproductive Commons — Power Explained</title>
+  <meta name="description" content="Silvia Federici showed that capitalism's primitive accumulation didn't just enclose land — it enclosed women's bodies and labor. Care work, childrearing, domestic maintenance: the unpaid substrate without which wage labor would be impossible. The enclosure of women is the enclosure that makes all other enclosure work." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--paper-dark); border-bottom: 2px solid var(--red); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .series-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.5rem; }
+    .series-title { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); display: block; margin-bottom: 1.75rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.75rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,7vw,4rem); font-weight: 700; line-height: 1.08; margin-bottom: 1.25rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.6vw,1.4rem); font-style: italic; line-height: 1.55; color: rgba(var(--ink-rgb),0.72); max-width: 560px; }
+
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; border-left: 3px solid var(--red); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .pull strong { font-style: normal; font-weight: 700; color: var(--red); }
+
+    .claim-response { margin: 2.5rem 0; display: flex; flex-direction: column; gap: 0; }
+    .cr-row { border-top: 1px solid var(--rule); padding: 1.5rem 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .cr-row:last-child { border-bottom: 1px solid var(--rule); }
+    .cr-claim { font-family: var(--display); font-style: italic; font-size: 1.05rem; line-height: 1.5; color: rgba(var(--ink-rgb),0.55); }
+    .cr-claim-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.35); display: block; margin-bottom: 0.5rem; }
+    .cr-response { font-size: 0.92rem; line-height: 1.7; }
+    .cr-response-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.5rem; }
+    @media (max-width: 540px) { .cr-row { grid-template-columns: 1fr; } }
+
+    .nav-strip { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 2.5rem 0; padding: 1.25rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-strip a { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.5); text-decoration: none; padding: 0.4rem 0.8rem; border: 1px solid rgba(var(--ink-rgb),0.15); transition: all 0.2s; }
+    .nav-strip a:hover { color: var(--ink); border-color: var(--ink); }
+    .nav-strip a.current { color: var(--red); border-color: var(--red); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .xl { color: rgba(var(--ink-rgb),0.75); text-decoration: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.25); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: rgba(var(--ink-rgb),0.7); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">For Social Justice</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="series-eyebrow">For Social Justice · Series</span>
+      <span class="series-title">Part II of III</span>
+      <h1>The Reproductive<br/>Commons</h1>
+      <p class="hero-dek">Capitalism's primitive accumulation didn't just enclose land — it enclosed women's bodies and labor. The unpaid work of care and reproduction is the substrate without which wage labor would be impossible. The enclosure of women is the enclosure that makes all other enclosure work.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <div class="nav-strip">
+        <a href="for-social-justice.html">Overview</a>
+        <a href="sj-racial-capitalism.html">I. Racial capitalism</a>
+        <a href="sj-reproductive-commons.html" class="current">II. The reproductive commons</a>
+        <a href="sj-abolition-is-a-commons-project.html">III. Abolition</a>
+      </div>
+
+      <p>The standard political economy of enclosure focuses on land. The English enclosure acts, the Highland Clearances, the colonial seizure of common resources — all of these are real and important. What Silvia Federici's <em>Caliban and the Witch</em> (2004) showed is that the same transition produced a parallel and equally fundamental enclosure that has received far less attention: the enclosure of women's bodies and reproductive labor.</p>
+
+      <p>This is not a metaphorical extension of the commons concept. It's the literal argument that the transformation from feudal to capitalist Europe required, alongside land enclosure, the subjugation of women as producers of the labor force — the enclosure of bodies and the reproductive work of maintaining and producing workers, carried out without compensation, under threat of violence enforced by law and by the witch trials that Federici analyzes as instruments of that enforcement.</p>
+
+      <h2>The argument in full</h2>
+
+      <p>Before capitalism, women's labor — in the household, in the commons, in care work — was not considered separate from or lesser than other labor. It was part of the general productive activity of the community. The subsistence economy of pre-enclosure Europe included women's reproductive work as economic work, not as a private obligation outside the economy.</p>
+
+      <p>Capitalist accumulation required a specific reorganization: it needed a workforce that could be reproduced without that reproduction appearing on the balance sheet as a cost. The solution — achieved through the transition period of the sixteenth through eighteenth centuries, enforced through law, religion, and violence — was to define reproductive labor as women's private obligation rather than economic production. The work of producing and maintaining workers became invisible as work, while remaining absolutely essential to the system that depended on it.</p>
+
+      <p><a href="the-outside-capital-needs.html" class="xlr">The outside capital needs</a> captures this precisely: every system of extraction depends on a productive substrate it claims not to be extracting from. Women's reproductive labor is the most fundamental of those substrates — the original outside that makes the inside possible.</p>
+
+      <div class="pull">
+        The domestic sphere was never<br/>outside the economy.<br/>It was the economy's<br/><strong>unacknowledged foundation.</strong>
+      </div>
+
+      <h2>Where this shows up today</h2>
+
+      <div class="claim-response">
+        <div class="cr-row">
+          <div class="cr-claim">
+            <span class="cr-claim-label">The claim</span>
+            Women's lower wages reflect their choices and qualifications.
+          </div>
+          <div class="cr-response">
+            <span class="cr-response-label">The structure</span>
+            The wage gap is largest in occupations and sectors with the most care content — childcare workers, home health aides, nurses, teachers. This is not coincidence. The devaluation of care work is structural: care has been defined as women's natural duty, which means it can be paid less than work that has been defined as productive. The individual qualifications of the workers are not what determines the wage floor of care work; the ideological status of care as non-economic labor does.
+          </div>
+        </div>
+        <div class="cr-row">
+          <div class="cr-claim">
+            <span class="cr-claim-label">The claim</span>
+            Childcare is a personal choice that families must fund privately.
+          </div>
+          <div class="cr-response">
+            <span class="cr-response-label">The structure</span>
+            Childcare is the reproduction of the labor force — the work of producing and maintaining the workers that the entire economy depends on. Treating it as a private family cost rather than a social cost that employers and the state should bear is exactly the ideological move Federici describes: defining reproductive labor as outside the economy so that its costs don't appear as production costs. Universal childcare is not a welfare benefit. It's the social recognition of a cost that has been externalized onto women and families.
+          </div>
+        </div>
+        <div class="cr-row">
+          <div class="cr-claim">
+            <span class="cr-claim-label">The claim</span>
+            Feminism is a separate movement from economic justice organizing.
+          </div>
+          <div class="cr-response">
+            <span class="cr-response-label">The structure</span>
+            The enclosure of reproductive labor is economic. It produced differential wages, differential political power, differential vulnerability to poverty and domestic violence, and differential access to the public commons. Feminism that doesn't address the structural devaluation of care work — that only pursues representation in existing enclosing institutions — doesn't address the enclosure. And economic justice organizing that doesn't account for reproductive labor is analyzing an economy with half of its production missing.
+          </div>
+        </div>
+      </div>
+
+      <h2>The commons response</h2>
+
+      <p>If reproductive labor is an enclosed commons, then the demand is its declosure: social recognition and social support for care work as the productive foundation of everything else. This is the argument behind campaigns for universal childcare, paid family leave, and the valuation of domestic and care work in national accounts. It's also the argument behind <a href="mutual-aid-isnt-charity.html" class="xl">mutual aid networks</a> that treat care as a collective responsibility rather than a private obligation — not just in emergencies but as the ongoing organizational form of communities that refuse the enclosure.</p>
+
+      <p>The feminist commons tradition — from the Wages for Housework campaign of the 1970s to contemporary care work organizing — has always understood this structurally. The goal isn't to get women into the workforce on men's terms, which is just integrating women into an enclosing system. The goal is to recognize and structurally support the reproductive commons that the enclosing system depends on and refuses to acknowledge.</p>
+
+      <p>Federici herself connects this directly to the ecological commons: the same logic that enclosed women's bodies and land in the transition to capitalism is operating in contemporary accumulation. <a href="env-carbon-markets-are-enclosures.html" class="xl">Carbon markets and nature-based solutions</a> are performing the same ideological move on the natural world — defining its productive capacity as outside the economy until capital figures out how to enclose it as an asset class.</p>
+
+      <p>The third piece in this series looks at what happens when communities build the alternative to enclosure from the ground up — and what abolition has to do with it.</p>
+
+      <div class="nav-strip">
+        <a href="sj-racial-capitalism.html">← Racial capitalism</a>
+        <a href="sj-abolition-is-a-commons-project.html">Next: Abolition →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="read-more">
+    <div class="read-more-inner">
+      <h3>Related reading</h3>
+      <p>The framework behind this series.</p>
+      <div class="read-links">
+        <a href="for-social-justice.html" class="read-link-btn">Entry point →</a>
+        <a href="the-outside-capital-needs.html" class="read-link-btn">Outside capital needs →</a>
+        <a href="what-they-burned.html" class="read-link-btn">What they burned →</a>
+        <a href="mutual-aid-isnt-charity.html" class="read-link-btn">Mutual aid →</a>
+        <a href="hardt-negri.html" class="read-link-btn">Hardt &amp; Negri →</a>
+        <a href="env-carbon-markets-are-enclosures.html" class="read-link-btn">Carbon markets →</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

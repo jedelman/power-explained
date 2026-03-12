@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Cities Get Captured — Power Explained</title>
+  <meta name="description" content="Zoning boards, planning commissions, city councils — the institutions that govern land and development don't fail randomly. They get taken, systematically, by the interests with the most to gain from favorable decisions. Here's how it happens and what the record shows." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .series-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.4); display: block; margin-bottom: 0.5rem; }
+    .series-title { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.55); display: block; margin-bottom: 1.75rem; border-bottom: 1px solid rgba(var(--paper-rgb),0.15); padding-bottom: 0.75rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,7vw,4rem); font-weight: 700; line-height: 1.08; margin-bottom: 1.25rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.6vw,1.4rem); font-style: italic; line-height: 1.55; color: rgba(var(--paper-rgb),0.72); max-width: 560px; }
+
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; border-left: 3px solid var(--blue); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    .capture-list { margin: 2rem 0; display: flex; flex-direction: column; gap: 0; }
+    .capture-item { border-top: 1px solid var(--rule); padding: 1.5rem 0; display: grid; grid-template-columns: 1.75fr 5fr; gap: 1.5rem; align-items: start; }
+    .capture-item:last-child { border-bottom: 1px solid var(--rule); }
+    .capture-venue { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); padding-top: 0.15rem; }
+    .capture-text { font-size: 0.95rem; line-height: 1.7; }
+    @media (max-width: 520px) { .capture-item { grid-template-columns: 1fr; gap: 0.5rem; } }
+
+    .case { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 1.75rem; margin: 2.5rem 0; }
+    .case-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.75rem; }
+    .case h3 { font-family: var(--display); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .case p { font-size: 0.92rem; line-height: 1.7; margin-bottom: 0.65rem; }
+    .case p:last-child { margin-bottom: 0; }
+
+    .nav-strip { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 2.5rem 0; padding: 1.25rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .nav-strip a { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.5); text-decoration: none; padding: 0.4rem 0.8rem; border: 1px solid rgba(var(--ink-rgb),0.15); transition: all 0.2s; }
+    .nav-strip a:hover { color: var(--ink); border-color: var(--ink); }
+    .nav-strip a.current { color: var(--blue); border-color: var(--blue); }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+    .xl { color: rgba(var(--ink-rgb),0.75); text-decoration: none; border-bottom: 1px solid rgba(var(--ink-rgb),0.25); transition: border-color 0.15s; }
+    .xl:hover { border-bottom-color: rgba(var(--ink-rgb),0.7); }
+    .xlr { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
+    .xlr:hover { border-bottom-color: var(--red); }
+    .xlb { color: var(--blue); text-decoration: none; border-bottom: 1px solid rgba(var(--blue-rgb),0.3); transition: border-color 0.15s; }
+    .xlb:hover { border-bottom-color: var(--blue); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">For Urbanists</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="series-eyebrow">For Urbanists · Series</span>
+      <span class="series-title">Part II of III</span>
+      <h1>How Cities<br/>Get Captured</h1>
+      <p class="hero-dek">Zoning boards, planning commissions, city councils — the institutions that govern land and development don't fail randomly. They get taken, systematically, by the interests with the most to gain from favorable decisions.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <div class="nav-strip">
+        <a href="for-urbanists.html">Overview</a>
+        <a href="urban-land-value.html">I. Land value</a>
+        <a href="urban-capture.html" class="current">II. How cities get captured</a>
+        <a href="urban-cooperative-infrastructure.html">III. What's being built</a>
+      </div>
+
+      <p><a href="gramsci.html" class="xl">Gramsci's concept of hegemony</a> — the way dominant groups maintain power not just through force but through controlling how institutions think and what they treat as common sense — is nowhere more visible than in urban planning. The "common sense" of American urban governance is a set of assumptions so thoroughly captured by real estate and development interests that most practitioners don't recognize them as positions: that rising property values are good, that growth means development, that affordability is a charity problem rather than a structural one, that the purpose of zoning is to manage market outcomes rather than shape them.</p>
+
+      <p>These aren't neutral technical frameworks. They're the residue of a century of systematic <a href="glossary.html#civic-capture" class="xl">civic capture</a> — the slow infiltration of public institutions by the private interests they're supposed to regulate. Urban capture operates across multiple venues simultaneously, which is what makes it so durable.</p>
+
+      <h2>The venues of capture</h2>
+
+      <div class="capture-list">
+        <div class="capture-item">
+          <div class="capture-venue">Zoning boards</div>
+          <div class="capture-text">Variance and exception processes are theoretically limited safety valves. In practice, they become the primary governance mechanism for development in most cities: developers propose projects that don't conform to zoning, apply for variances, and win them because the process is designed for experts — meaning lawyers, consultants, and commissioners who are typically drawn from the real estate industry or aspire to work in it. Community members who object face the same process without resources to navigate it.</div>
+        </div>
+        <div class="capture-item">
+          <div class="capture-venue">Planning commissions</div>
+          <div class="capture-text">General plan updates, area plans, and upzoning decisions flow through planning commissions that, in most jurisdictions, are appointed rather than elected. Appointment processes are heavily lobbied. The result is commissions populated by people with professional or financial connections to development — not by tenants, transit riders, or the low-income residents most affected by planning decisions. The professional norm of "balanced" commissions often means one tenant advocate among six development-aligned members.</div>
+        </div>
+        <div class="capture-item">
+          <div class="capture-venue">Campaign finance</div>
+          <div class="capture-text">Real estate is consistently among the largest sources of local campaign contributions in every major US city. City council members who make key votes on zoning, development fees, and affordable housing requirements are financially dependent on the industry they regulate. The relationship is legal, normalized, and structural. Politicians who depend on real estate money to run for office make different decisions about land use than politicians who don't — not because they're corrupt, but because they've absorbed the worldview of their funders.</div>
+        </div>
+        <div class="capture-item">
+          <div class="capture-venue">Civic institutions</div>
+          <div class="capture-text">Urban planning schools, architecture firms, nonprofit developers, business improvement districts, and civic foundations are all funded in part by real estate and development interests. The effect on what gets treated as a legitimate idea — what counts as good urbanism, what's "practical," what's worth proposing — is diffuse but real. Ideas that challenge the commodity status of land don't get foundation grants, don't get invited to conferences, don't get taught in programs funded by development interests.</div>
+        </div>
+        <div class="capture-item">
+          <div class="capture-venue">State preemption</div>
+          <div class="capture-text">When cities do develop strong tenant protections, inclusionary zoning, or anti-speculation measures, state legislatures preempt them. This is the escalation move: when capture at the city level fails, developer interests shift to state politics where campaign finance is even more lopsided and the distance from affected communities is greater. More than twenty states have preempted local rent control in recent decades, removing the tool from cities that had used it effectively.</div>
+        </div>
+      </div>
+
+      <div class="pull">
+        The institutions that are supposed<br/>to govern land for the public<br/>are governed <strong>by the land industry</strong>.
+      </div>
+
+      <div class="case">
+        <span class="case-label">Case: Houston's Non-Zoning Myth</span>
+        <h3>Deregulation in the interest of developers</h3>
+        <p>Houston is regularly cited as proof that deregulation solves housing affordability — a city without zoning, where market forces allocate land use freely. The reality is more instructive: Houston has extensive deed restrictions (private contracts governing land use in most residential neighborhoods), <a href="racial-capitalism.html" class="xlr">racially exclusionary housing history</a> baked into those private agreements, and a development regime that has consistently served large-scale commercial and single-family interests over multifamily affordable housing.</p>
+        <p>Houston's affordability — real but selective — comes from cheap peripheral land in a flat, auto-dependent metro, not from market freedom. The city has produced abundant market-rate housing while making sustained investment in affordable housing difficult and allowing significant gentrification displacement in historically Black and Latino neighborhoods near the urban core. "No zoning" means land use is governed by private agreement and political access rather than by public process — which is not the same as governing it democratically. It's governance by wealth instead of governance by vote.</p>
+      </div>
+
+      <h2>What anti-capture looks like</h2>
+
+      <p>The antidote to civic capture is not better-intentioned commissioners or stricter ethics rules — though neither hurts. It's structural: governance institutions that are accountable to the people most affected by their decisions, funded by sources independent of the interests they regulate, and empowered with real authority to hold the commons of land against enclosure.</p>
+
+      <p><a href="two-ways-to-fix-a-pothole.html" class="xl">Participatory governance</a> — processes that give organized residents real decision-making power, not just consultative roles — consistently shifts planning outcomes toward lower-income communities. Publicly funded elections remove the campaign finance dependency. Community benefit agreements that run with land rather than with specific projects create durable protections that survive developer turnover. Tenant representation on planning bodies changes whose expertise is treated as legitimate.</p>
+
+      <p>None of these eliminate the structural pressure of real estate interests on urban politics. They change the terrain enough to make the commons defensible. The third piece in this series looks at what's actually being built on that terrain — the cooperative infrastructure that changes who controls urban resources structurally, not just politically.</p>
+
+      <div class="nav-strip">
+        <a href="urban-land-value.html">← Land value</a>
+        <a href="urban-cooperative-infrastructure.html">Next: What's being built →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="read-more">
+    <div class="read-more-inner">
+      <h3>Related reading</h3>
+      <p>The framework behind this series.</p>
+      <div class="read-links">
+        <a href="for-urbanists.html" class="read-link-btn">Entry point →</a>
+        <a href="gramsci.html" class="read-link-btn">Gramsci →</a>
+        <a href="two-ways-to-fix-a-pothole.html" class="read-link-btn">Two ways to fix a pothole →</a>
+        <a href="falling-through-the-gap.html" class="read-link-btn">Falling through the gap →</a>
+        <a href="open-data-isnt-enough.html" class="read-link-btn">Open data isn't enough →</a>
+        <a href="racial-capitalism.html" class="read-link-btn">Racial capitalism →</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
