@@ -5,62 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Start Here — Power Explained</title>
   <meta name="description" content="What this project is, what it argues, and where to begin. A five-minute introduction to the whole thing." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --ink: #1a1714;
-      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c;
-      --red-rgb:   160,41,28; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
-      --display: 'Cormorant Garamond', Georgia, serif;
-      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
-      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --ink:        #f0e8d8;
-        --ink-rgb:   240,232,216;
-        --paper:      #1e1b17;
-        --paper-mid:  #28231d;
-        --paper-dark: #242019;
-        --red:        #d4604f;
-        --red-rgb:   212,96,79;
-        --red-dim:    #b84d3d;
-        --rule:       rgba(var(--ink-rgb),0.12);
-        --rule-strong: rgba(var(--ink-rgb),0.3);
-      }
-    }
-
-    html { font-size: 18px; scroll-behavior: smooth; }
-    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
-
-    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
-    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
-    .site-name:hover { color: var(--red); }
-
-    .hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem); }
+  <link rel="stylesheet" href="style.css" />
+  <style>.hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem); }
     .hero-inner { max-width: var(--max); margin: 0 auto; }
-    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(242,236,224,0.45); display: block; margin-bottom: 1.5rem; }
-    .hero h1 { font-family: var(--display); font-size: clamp(2.4rem,9vw,5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.75rem; }
-    .hero h1 em { font-style: italic; color: rgba(242,236,224,0.7); }
-    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.8vw,1.45rem); font-style: italic; line-height: 1.55; color: rgba(242,236,224,0.72); max-width: 560px; border-top: 1px solid rgba(242,236,224,0.2); padding-top: 1.5rem; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero 
+    .hero h1 em { font-style: italic; color: rgba(var(--paper-rgb),0.7); }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.8vw,1.45rem); font-style: italic; line-height: 1.55; color: rgba(var(--paper-rgb),0.72); max-width: 560px; border-top: 1px solid rgba(var(--paper-rgb),0.2); padding-top: 1.5rem; }
 
-    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-    .body-text { padding-top: clamp(2rem,5vw,3.5rem); }
-    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
-    .body-text strong { font-weight: 700; }
-    .body-text em { font-style: italic; }
-    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2.1rem); font-weight: 700; line-height: 1.1; margin: 3rem 0 1rem; }
+    
+    
+    
+    
+    
+    
 
-    .section-kicker { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; margin-top: 3rem; }
-    .section-num { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
-    .section-rule { flex: 1; height: 1px; background: var(--rule); }
+    
+    
+    
 
-    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    
     .pull strong { font-style: normal; font-weight: 700; }
 
     /* Where to go grid */
@@ -72,22 +36,20 @@
     .where-desc { font-size: 0.88rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.65); }
     .where-cta { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-top: auto; padding-top: 0.75rem; }
 
-    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
-    .xl:hover { border-bottom-color: var(--red); }
+    
+    
 
-    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
-    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
-    .back-link::before { content: '←'; }
-    .back-link:hover { color: var(--red); }
+    
+    
+    
+    
 
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+     }
     .hero { animation: fadeUp 0.5s ease both; }
-    .article-wrap { animation: fadeUp 0.6s ease both; animation-delay: 0.15s; }
+    
 
     @media (max-width: 520px) {
-      .where-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+      .where-grid { grid-template-columns: 1fr; }</style>
 </head>
 <body>
   <header>

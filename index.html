@@ -5,15 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Power Explained</title>
   <meta name="description" content="How power works. In plain language. And what people can actually do about it." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
-
-  <style>
-    /* ── Reset ── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    /* ── Tokens ── */
+  <link rel="stylesheet" href="style.css" />
+  <style>/* ── Tokens ── */
     :root {
       --ink:       #1a1714;
       --ink-rgb:   26,23,20;
@@ -378,9 +371,6 @@
     }
 
     /* ── Entrance animations ── */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to   { opacity: 1; transform: translateY(0); }
     }
 
     .hero-label    { animation: fadeUp 0.6s ease both; animation-delay: 0.1s; }
@@ -599,8 +589,7 @@
 
     @media (max-width: 480px) {
       .piece-number { font-size: 3.5rem; }
-    }
-  </style>
+    }</style>
 </head>
 <body>
 

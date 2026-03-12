@@ -5,64 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Why Everything Costs So Much — Power Explained</title>
   <meta name="description" content="Housing is unaffordable. Healthcare is bankrupting people. Wages haven't kept up with productivity in fifty years. This isn't a string of bad luck. It's a pattern — and patterns have explanations." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --ink: #1a1714;
-      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c;
-      --red-rgb:   160,41,28; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
-      --display: 'Cormorant Garamond', Georgia, serif;
-      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
-      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --ink:        #f0e8d8;
-        --ink-rgb:   240,232,216;
-        --paper:      #1e1b17;
-        --paper-mid:  #28231d;
-        --paper-dark: #242019;
-        --red:        #d4604f;
-        --red-rgb:   212,96,79;
-        --red-dim:    #b84d3d;
-        --rule:       rgba(var(--ink-rgb),0.12);
-        --rule-strong: rgba(var(--ink-rgb),0.3);
-      }
-    }
-
-    html { font-size: 18px; scroll-behavior: smooth; }
-    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
-    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
-    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
-    .site-name:hover { color: var(--red); }
-    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); white-space: nowrap; }
-
-    /* Hero — warm paper, clean, accessible */
+  <link rel="stylesheet" href="style.css" />
+  <style>/* Hero — warm paper, clean, accessible */
     .hero { background: var(--paper-dark); border-bottom: 2px solid var(--ink); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
     .hero-inner { max-width: var(--max); margin: 0 auto; }
     .entry-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); display: block; margin-bottom: 1.5rem; }
-    .hero h1 { font-family: var(--display); font-size: clamp(2.6rem,9vw,5rem); font-weight: 700; line-height: 0.95; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 1.5rem; }
+    .hero 
     .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--ink-rgb),0.72); max-width: 560px; }
 
-    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-    .body-text { padding-top: clamp(2rem,5vw,3rem); }
-    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
-    .body-text strong { font-weight: 700; }
-    .body-text em { font-style: italic; }
-    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
+    
+    
+    
+    
+    
+    
 
-    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
+    
     .pull strong { font-style: normal; font-weight: 700; }
 
-    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
-    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
-    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
-    .callout p:last-child { margin-bottom: 0; }
+    
+    
+    
+    
 
     /* Stat comparison */
     .stat-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 2.5rem 0; }
@@ -79,13 +43,13 @@
     .change-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; color: var(--red); white-space: nowrap; flex-shrink: 0; }
 
     .action-box { background: var(--ink); color: var(--paper); padding: 2.5rem; margin: 3rem 0; }
-    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(242,236,224,0.5); display: block; margin-bottom: 1rem; }
+    .action-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.5); display: block; margin-bottom: 1rem; }
     .action-box h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,2rem); font-weight: 700; margin-bottom: 1rem; }
     .action-box p { font-size: 0.95rem; line-height: 1.7; opacity: 0.82; margin-bottom: 0.8rem; }
     .action-box p:last-child { margin-bottom: 0; }
     .action-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
-    .action-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.65); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.25); transition: all 0.2s; }
-    .action-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.8); }
+    .action-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.65); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--paper-rgb),0.25); transition: all 0.2s; }
+    .action-link:hover { color: var(--paper); border-color: rgba(var(--paper-rgb),0.8); }
 
     .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
     .read-more-inner { max-width: var(--max); margin: 0 auto; }
@@ -95,22 +59,20 @@
     .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
     .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
 
-    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
-    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
-    .back-link::before { content: '←'; }
-    .back-link:hover { color: var(--red); }
+    
+    
+    
+    
 
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+     }
     .hero      { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
-    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.3s; }
+    
 
-    .xl  { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
-    .xl:hover { border-bottom-color: var(--red); }
+    
+    
 
     @media (max-width: 480px) {
-      .stat-compare { grid-template-columns: 1fr; }
-    }
-  </style>
+      .stat-compare { grid-template-columns: 1fr; }</style>
 </head>
 <body>
   <header>
@@ -237,7 +199,7 @@
         <h3>Things you can actually do</h3>
         <p>Move your money to a <strong>credit union</strong>. It's a direct, personal act of preferring cooperative ownership to shareholder extraction — and you get better rates. Search "credit union near me" and take twenty minutes to switch.</p>
         <p>Find out if there's a <strong>community land trust</strong> in your area. If you're a renter, they may have permanently affordable units. If you're a homeowner, you can donate or sell your home into the trust when you're ready to move. If there isn't one, your city's housing advocates probably know how to start one.</p>
-        <p>Show up for the <strong>public goods fights</strong> in your community — library funding, transit referendums, public hospital governance, school board elections. These are the places where the commons gets defended or surrendered, and they're decided by whoever shows up. <a href="two-ways-to-fix-a-pothole.html" style="color:rgba(242,236,224,0.85);text-decoration:none;border-bottom:1px solid rgba(242,236,224,0.3);">Local governance is where the lever is.</a></p>
+        <p>Show up for the <strong>public goods fights</strong> in your community — library funding, transit referendums, public hospital governance, school board elections. These are the places where the commons gets defended or surrendered, and they're decided by whoever shows up. <a href="two-ways-to-fix-a-pothole.html" style="color:rgba(var(--paper-rgb),0.85);text-decoration:none;border-bottom:1px solid rgba(var(--paper-rgb),0.3);">Local governance is where the lever is.</a></p>
         <div class="action-links">
           <a href="why-your-city-doesnt-work.html" class="action-link">Why your city doesn't work</a>
           <a href="two-ways-to-fix-a-pothole.html" class="action-link">Two ways to fix a pothole</a>

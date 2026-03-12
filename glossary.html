@@ -5,48 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Glossary — Power Explained</title>
   <meta name="description" content="Key terms used across all three series. Plain definitions, no jargon." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --ink: #1a1714;
-      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c;
-      --red-rgb:   160,41,28; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
-      --display: 'Cormorant Garamond', Georgia, serif;
-      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
-      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --ink:        #f0e8d8;
-        --ink-rgb:   240,232,216;
-        --paper:      #1e1b17;
-        --paper-mid:  #28231d;
-        --paper-dark: #242019;
-        --red:        #d4604f;
-        --red-rgb:   212,96,79;
-        --red-dim:    #b84d3d;
-        --rule:       rgba(var(--ink-rgb),0.12);
-        --rule-strong: rgba(var(--ink-rgb),0.3);
-      }
-    }
-
-    html { font-size: 18px; scroll-behavior: smooth; }
-    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
-    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
-    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
-    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
-    .site-name:hover { color: var(--red); }
-    .page-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+  <link rel="stylesheet" href="style.css" />
+  <style>.page-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
 
     /* Hero */
     .page-hero { padding: clamp(2.5rem,6vw,4rem) 0 2rem; border-bottom: 1px solid var(--rule-strong); }
     .page-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
     .page-label::before { content: ''; display: block; width: 2rem; height: 1px; background: var(--red); flex-shrink: 0; }
-    h1 { font-family: var(--display); font-size: clamp(2.5rem,8vw,4rem); font-weight: 700; line-height: 1.0; margin-bottom: 1rem; }
+    
     .page-dek { font-family: var(--display); font-size: clamp(1.05rem,2.5vw,1.3rem); font-style: italic; color: rgba(var(--ink-rgb),0.7); line-height: 1.55; max-width: 500px; }
 
     /* Jump nav */
@@ -60,7 +26,7 @@
     .term-block:last-child { border-bottom: none; }
     .term-anchor { display: block; position: relative; top: -5rem; visibility: hidden; }
 
-    .term-header { display: flex; align-items: baseline; gap: 1.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .term-
     .term-name { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.6rem); font-weight: 700; line-height: 1.1; }
     .term-series { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); white-space: nowrap; }
 
@@ -78,14 +44,13 @@
 
     /* Footer */
     .page-footer { border-top: 1px solid var(--rule); padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
-    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
-    .back-link::before { content: '←'; }
-    .back-link:hover { color: var(--red); }
+    
+    
+    
     .footer-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); }
 
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-    .page-hero { animation: fadeUp 0.6s ease both; }
-  </style>
+     }
+    .page-hero { animation: fadeUp 0.6s ease both; }</style>
 </head>
 <body>
 

@@ -5,59 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Human Was a Story We Told Ourselves — Power Explained</title>
   <meta name="description" content="Sylvia Wynter spent fifty years asking a question that sounds philosophical but is politically explosive: what is the human? Her answer: a specific historical invention, designed to exclude, that we mistake for a universal description." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --ink: #1a1714;
-      --ink-rgb:   26,23,20; --paper: #f2ece0; --paper-mid: #e8dfc8; --paper-dark: #ddd3b8;
-      --red: #a0291c;
-      --red-rgb:   160,41,28; --rule: rgba(var(--ink-rgb),0.18); --rule-strong: rgba(var(--ink-rgb),0.45);
-      --display: 'Cormorant Garamond', Georgia, serif;
-      --body: 'Lora', Georgia, serif; --mono: 'DM Mono', monospace;
-      --max: 680px; --gutter: clamp(1.5rem, 5vw, 4rem);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --ink:        #f0e8d8;
-        --ink-rgb:   240,232,216;
-        --paper:      #1e1b17;
-        --paper-mid:  #28231d;
-        --paper-dark: #242019;
-        --red:        #d4604f;
-        --red-rgb:   212,96,79;
-        --red-dim:    #b84d3d;
-        --rule:       rgba(var(--ink-rgb),0.12);
-        --rule-strong: rgba(var(--ink-rgb),0.3);
-      }
-    }
-
-    html { font-size: 18px; scroll-behavior: smooth; }
-    body { background: var(--paper); color: var(--ink); font-family: var(--body); line-height: 1.75; -webkit-font-smoothing: antialiased; }
-    header { border-bottom: 2px solid var(--ink); padding: 1.25rem var(--gutter) 1rem; }
-    header .inner { max-width: var(--max); margin: 0 auto; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-    .site-name { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.2rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
-    .site-name:hover { color: var(--red); }
-    .series-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); white-space: nowrap; }
-    .article-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
-    .kicker { display: flex; align-items: center; gap: 1rem; padding: clamp(2rem,5vw,3.5rem) 0 1.5rem; }
-    .kicker-label { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); }
-    .kicker-rule { flex: 1; height: 1px; background: var(--rule); }
-    .kicker-num { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; color: rgba(var(--ink-rgb),0.35); }
-    h1 { font-family: var(--display); font-size: clamp(2.4rem,8vw,4.5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.01em; margin-bottom: 1.5rem; }
-    .dek { font-family: var(--display); font-size: clamp(1.1rem,2.5vw,1.4rem); font-style: italic; font-weight: 400; line-height: 1.5; color: rgba(var(--ink-rgb),0.75); margin-bottom: 2rem; border-bottom: 1px solid var(--rule); padding-bottom: 2rem; }
-    .body-text p { margin-bottom: 1.3rem; font-size: 1rem; line-height: 1.8; }
-    .body-text strong { font-weight: 700; color: var(--ink); }
-    .body-text em { font-style: italic; }
-    .body-text h2 { font-family: var(--display); font-size: clamp(1.5rem,4vw,2rem); font-weight: 700; line-height: 1.15; margin: 3rem 0 1rem; }
-    .pull { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 2rem; margin: 2.5rem 0; font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-style: italic; line-height: 1.4; }
-    .pull strong { font-style: normal; font-weight: 700; }
-    .callout { border: 1px solid var(--rule-strong); padding: 2rem; margin: 2.5rem 0; }
-    .callout-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
-    .callout p { margin-bottom: 0.8rem; font-size: 0.95rem; line-height: 1.75; }
-    .callout p:last-child { margin-bottom: 0; }
+  <link rel="stylesheet" href="style.css" />
+  <style>.pull strong { font-style: normal; font-weight: 700; }
+    
+    
+    
+    
     .article-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0; padding: 1.5rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
     .nav-link { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
     .nav-link:hover { color: var(--red); }
@@ -65,22 +18,9 @@
     .series-end h3 { font-family: var(--display); font-size: clamp(1.4rem,4vw,1.9rem); font-weight: 700; margin-bottom: 0.75rem; }
     .series-end p { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; margin-bottom: 2rem; max-width: 520px; }
     .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(242,236,224,0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(242,236,224,0.2); transition: all 0.2s ease; }
-    .series-link:hover { color: var(--paper); border-color: rgba(242,236,224,0.6); }
-    .series-link.current { color: var(--paper); border-color: rgba(242,236,224,0.5); background: rgba(242,236,224,0.08); }
-    .article-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding: 2rem 0 3rem; display: flex; flex-direction: column; gap: 0.75rem; }
-    .back-link { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
-    .back-link::before { content: '←'; }
-    .back-link:hover { color: var(--red); }
-    .series-note { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-    .kicker { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
-    h1 { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
-    .dek { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
-    .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
-    .xl { color: var(--red); text-decoration: none; border-bottom: 1px solid rgba(var(--red-rgb),0.28); transition: border-color 0.15s; }
-    .xl:hover { border-bottom-color: var(--red); }
-  </style>
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--paper-rgb),0.2); transition: all 0.2s ease; }
+    .series-link:hover { color: var(--paper); border-color: rgba(var(--paper-rgb),0.6); }
+    .series-link.current { color: var(--paper); border-color: rgba(var(--paper-rgb),0.5); background: rgba(var(--paper-rgb),0.08); }</style>
 </head>
 <body>
   <header>
