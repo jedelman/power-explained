@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Bazaar Was Right, the Politics Were Wrong — Power Explained</title>
+  <meta name="description" content="Eric Raymond wrote the most influential description of how open source actually works. His theory was correct. His political conclusions pointed in exactly the wrong direction." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem); position: relative; overflow: hidden; }
+    .hero::before { content: 'BAZAAR'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-family: var(--display); font-size: clamp(3.5rem,16vw,10rem); font-weight: 700; letter-spacing: -0.04em; opacity: 0.05; white-space: nowrap; pointer-events: none; line-height: 1; }
+    .hero-inner { max-width: var(--max); margin: 0 auto; position: relative; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.8vw,1.45rem); font-style: italic; line-height: 1.55; color: rgba(var(--paper-rgb),0.72); max-width: 560px; border-top: 1px solid rgba(var(--paper-rgb),0.2); padding-top: 1.5rem; margin-top: 0.25rem; }
+    .hero-bio { display: flex; gap: 1.5rem; align-items: flex-start; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(var(--paper-rgb),0.15); }
+    .bio-dates { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.35); white-space: nowrap; padding-top: 0.15rem; }
+    .bio-line { font-size: 0.9rem; color: rgba(var(--paper-rgb),0.55); line-height: 1.6; }
+    .contents-nav { border: 1px solid var(--rule-strong); margin: clamp(2rem,5vw,3.5rem) 0 0; }
+    .contents-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--rule); display: block; }
+    .contents-nav ol { list-style: none; }
+    .contents-nav li { border-bottom: 1px solid var(--rule); }
+    .contents-nav li:last-child { border-bottom: none; }
+    .contents-nav a { display: flex; align-items: baseline; gap: 1rem; padding: 0.85rem 1.25rem; text-decoration: none; color: var(--ink); font-size: 0.9rem; line-height: 1.45; transition: background 0.15s; }
+    .contents-nav a:hover { background: var(--paper-mid); color: var(--red); }
+    .contents-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; color: rgba(var(--ink-rgb),0.3); white-space: nowrap; flex-shrink: 0; }
+    .section-anchor { display: block; height: 0; }
+    .pull { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; line-height: 1.3; color: var(--ink); border-left: 3px solid var(--red); padding: 1.25rem 0 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .pull strong { font-style: normal; font-weight: 700; }
+    .callout { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.5rem 1.75rem; margin: 2.5rem 0; }
+    .callout-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { font-size: 0.93rem; line-height: 1.7; margin-bottom: 0.75rem; }
+    .callout p:last-child { margin-bottom: 0; }
+    .callout strong { font-weight: 700; color: var(--ink); }
+    .versus { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 2.5rem 0; }
+    .versus-side { background: var(--paper); padding: 1.75rem; }
+    .versus-side.false { background: var(--paper-mid); }
+    .versus-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 0.75rem; }
+    .versus-label.red { color: var(--red); }
+    .versus-claim { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.25rem); font-weight: 600; line-height: 1.3; color: var(--ink); margin-bottom: 0.6rem; }
+    .versus-note { font-size: 0.85rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.65); }
+    .invitation { background: var(--ink); color: var(--paper); padding: clamp(2.5rem,6vw,4rem) clamp(2rem,5vw,3rem); margin: 4rem 0 0; }
+    .inv-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.4); display: block; margin-bottom: 1.5rem; }
+    .invitation h2 { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.8rem); font-weight: 700; line-height: 1.1; margin-bottom: 1.25rem; }
+    .invitation p { font-size: 0.97rem; line-height: 1.75; opacity: 0.78; margin-bottom: 1rem; max-width: 520px; }
+    .inv-coda { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; color: rgba(var(--paper-rgb),0.6); margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(var(--paper-rgb),0.15); line-height: 1.4; }
+    .inv-coda strong { font-style: normal; color: var(--paper); }
+    .series-end { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem 0 0; }
+    .series-end h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.75rem; }
+    .series-end p { font-size: 0.9rem; line-height: 1.7; color: rgba(var(--ink-rgb),0.7); margin-bottom: 1.5rem; max-width: 520px; }
+    .series-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .series-link { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.55); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid var(--rule-strong); transition: all 0.2s; }
+    .series-link:hover { color: var(--ink); border-color: var(--ink); }
+    .series-link.current { color: var(--ink); border-color: var(--ink); background: var(--paper-dark); }
+    sup { font-family: var(--mono); font-size: 0.58rem; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a { color: var(--red); text-decoration: none; }
+    sup a:hover { text-decoration: underline; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
+    @media (max-width: 520px) { .versus { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">For People Who Build the Internet — Part IV</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">For People Who Build the Internet — Part IV — Raymond</span>
+      <h1>The Bazaar<br/><em>Was Right,</em><br/>the Politics<br/>Were Wrong</h1>
+      <p class="hero-dek">Eric Raymond wrote the most influential description of how open source actually works. His theory of why distributed development outcompetes hierarchical development was correct and important. His political conclusions pointed in exactly the wrong direction.</p>
+      <div class="hero-bio">
+        <span class="bio-dates">b. 1957</span>
+        <p class="bio-line">Eric Steven Raymond: programmer, author, open source advocate, libertarian. Best known for "The Cathedral and the Bazaar" (1997), a field observation of the Linux development model that became the foundational text of the open source movement. Coined the term "open source" (with Christine Peterson) as a deliberate alternative to "free software," positioning the movement in terms of development efficiency rather than software freedom. Has held increasingly extreme libertarian political positions since the early 2000s.</p>
+      </div>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+
+    <nav class="contents-nav" aria-label="Sections">
+      <span class="contents-label">What's in this piece</span>
+      <ol>
+        <li><a href="#the-essay"><span class="contents-num">01</span> The essay that changed how we think about software</a></li>
+        <li><a href="#what-raymond-got-right"><span class="contents-num">02</span> What Raymond got right</a></li>
+        <li><a href="#the-wrong-turn"><span class="contents-num">03</span> The wrong turn</a></li>
+        <li><a href="#ostrom-vs-raymond"><span class="contents-num">04</span> What Ostrom adds</a></li>
+        <li><a href="#the-capture"><span class="contents-num">05</span> How the framework got captured</a></li>
+        <li><a href="#what-it-means"><span class="contents-num">06</span> What it means for tech workers now</a></li>
+        <li><a href="#what-now"><span class="contents-num">07</span> The correct conclusion</a></li>
+      </ol>
+    </nav>
+
+    <div class="body-text">
+
+      <span id="the-essay" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
+      <h2>The essay that changed how we think about software</h2>
+
+      <p>In 1997, Eric Raymond presented "The Cathedral and the Bazaar" at a Linux conference in Germany. The essay described, from the inside, what was actually happening in the Linux development community — and why it was producing software that was outcompeting the products of large, well-funded, hierarchically managed software companies.</p>
+
+      <p>The cathedral was the traditional software development model: a small, carefully chosen team, building in private, releasing finished versions to the public. Controlled, planned, hierarchical. The bazaar was Linux: a chaotic-seeming, globally distributed community of contributors, developing in the open, releasing early and often, with Linus Torvalds as a coordinator rather than an architect. No master plan. No finished design. Constant iteration driven by thousands of people scratching their own itches.</p>
+
+      <p>The essay's central observation — "given enough eyeballs, all bugs are shallow" — became famous as Linus's Law. The claim was that open development, with many contributors examining the code, finds and fixes bugs faster than closed development with a small team. The distributed, open model was not just more ethical or more ideologically consistent. It was better engineering.<sup><a href="#fn1" id="ref1">1</a></sup></p>
+
+      <p>The essay helped catalyze the rebranding of "free software" as "open source" in 1998, a deliberate move to frame the movement in terms of development methodology rather than software freedom — to make it legible to corporations as a business argument rather than as a political one. This framing was enormously effective. Within a decade, major corporations were contributing to Linux. Today it runs most of the world's servers, phones, and infrastructure.</p>
+
+      <span id="what-raymond-got-right" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
+      <h2>What Raymond got right</h2>
+
+      <p>Raymond's description of why the bazaar works is a description of the commons in operation. He identified, from observation rather than theory, exactly the properties that <a href="ostrom.html" class="xl">Elinor Ostrom</a> spent her career documenting in non-software commons: distributed knowledge, peer monitoring, community governance, adaptation through iteration.</p>
+
+      <p>The key insight is that knowledge about a software system is distributed — no single person, no matter how skilled, knows everything about a complex codebase. The people who know about particular bugs are often the people who encountered them in use. The people who know the best fix for an edge case are often the people who hit the edge case. A development model that enlists all of that distributed knowledge will outperform one that tries to centralize it.</p>
+
+      <p>This is <a href="your-city-knows-less.html" class="xl">the same argument applied to city governance</a>: the people who know which intersection is dangerous, which building is deteriorating, which service is failing are the people who use those things. A governance model that enlists that distributed knowledge will outperform one that tries to centralize it in an agency that doesn't have it.</p>
+
+      <div class="pull">
+        The bazaar works for the same reason<br/>the commons works:<br/><strong>distributed knowledge beats centralized ignorance.</strong>
+      </div>
+
+      <p>Raymond also identified, implicitly, the importance of <a href="hardin-was-wrong.html" class="xl">Ostrom's governance design principles</a>: clear community norms, peer monitoring, conflict resolution mechanisms, the ability to modify rules. Linux's development process has all of these. The Linus's Law claim — that many eyes find bugs — is the software version of Ostrom's finding that communities with good governance manage commons resources better than either private ownership or central control.</p>
+
+      <span id="the-wrong-turn" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">03</span><div class="section-rule"></div></div>
+      <h2>The wrong turn</h2>
+
+      <p>Raymond drew the wrong conclusion from his own correct observations. His political framework was libertarian: the bazaar worked because it was like a market — decentralized, voluntary, driven by self-interest. The implication was that open source demonstrated the superiority of market mechanisms over hierarchical control.</p>
+
+      <div class="versus">
+        <div class="versus-side false">
+          <span class="versus-label">Raymond's conclusion</span>
+          <div class="versus-claim">The bazaar works because it's like a market. Decentralized, voluntary exchange. Self-interest produces emergent order.</div>
+          <div class="versus-note">Implies: maximize individual freedom, minimize coordination, trust self-interest to produce good outcomes. Open source as vindication of market liberalism.</div>
+        </div>
+        <div class="versus-side">
+          <span class="versus-label red">What the evidence shows</span>
+          <div class="versus-claim">The bazaar works because it's a commons. Shared governance, collective maintenance, norms enforced by the community.</div>
+          <div class="versus-note">Implies: the commons outperforms both market and hierarchy for certain kinds of resources. Open source as vindication of commons governance.</div>
+        </div>
+      </div>
+
+      <p>The distinction is not semantic. Markets allocate by price, which means resources go to whoever can pay most. Commons governance allocates by need and collective decision, which means resources go where the community decides they're most useful. Linux did not get better because contributors were paid to improve it. It got better because contributors improved it in ways they cared about, governed by community norms that channeled those contributions productively.</p>
+
+      <p>Raymond's market framing made open source legible to corporations, which was strategically effective in the short term. But it also opened the door to exactly the enclosure that <a href="tech-berners-lee.html" class="xl">Berners-Lee watched happen to the web</a>: corporations could participate in open source as contributors while simultaneously building proprietary layers on top of it, capturing the value of the commons without contributing proportionally to its maintenance. The "open core" model — open source foundation, proprietary extensions — is the direct product of Raymond's framing, and it's a form of enclosure.<sup><a href="#fn2" id="ref2">2</a></sup></p>
+
+      <span id="ostrom-vs-raymond" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
+      <h2>What Ostrom adds</h2>
+
+      <p>Elinor Ostrom's research on commons governance — the Swiss villages, the Japanese forests, the Spanish water courts — found the same thing Raymond found in Linux, but theorized it correctly. She didn't find that commons worked because they were like markets. She found that commons worked because they had specific governance properties: defined membership, rules matched to local conditions, collective choice arrangements, monitoring, graduated sanctions, and the ability to modify the rules.<sup><a href="#fn3" id="ref3">3</a></sup></p>
+
+      <p>Applied to software: Linux works not because contributors are pursuing self-interest in a market, but because the Linux community has governance — maintainer hierarchies, patch review processes, community norms about code quality, mechanisms for resolving disputes about what to include and what to reject. The governance is what makes the distributed knowledge usable. Without it, the bazaar is just noise.</p>
+
+      <p>Ostrom's framework also explains why some open source projects fail. Projects without clear governance — where anyone can commit anything, where there are no maintainers with authority to make decisions, where conflicts get resolved by forking rather than by working through — often produce mediocre software or collapse into inactivity. The commons requires governance. Raymond's market framing obscures this, because markets (in the ideology) govern themselves through price signals and don't require explicit institutional design.</p>
+
+      <span id="the-capture" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
+      <h2>How the framework got captured</h2>
+
+      <p>Raymond's libertarian reframing of open source had a strategic goal: make it palatable to corporations that were hostile to Richard Stallman's "free software" framework, which emphasized political freedom and was explicitly critical of proprietary software as an ethical failure. The rebranding worked. Netscape released its browser source code in 1998 partly on the basis of Raymond's arguments. IBM, Red Hat, and others built open source businesses in the following years.</p>
+
+      <p>What the rebranding also did was remove the political teeth from the movement. "Free software" was a political claim: software freedom matters, proprietary software is a form of power over users, the commons should be defended on principle. "Open source" was a development methodology claim: distributed development produces better software. The first framing makes enclosure a political problem. The second makes it a neutral business decision.</p>
+
+      <div class="callout">
+        <span class="callout-label">The strategic trade-off</span>
+        <p><strong>What the rebranding gained:</strong> corporate adoption, mainstream legitimacy, Linux on every server, Android on every phone, open source as default infrastructure for the internet economy.</p>
+        <p><strong>What the rebranding cost:</strong> the political framework for resisting enclosure. When Amazon builds massive businesses on open source code while contributing minimally to its maintenance, the "open source" framing has no vocabulary for calling that what it is. The "free software" framing does: it's a free rider problem, and it's a political problem, not just a governance puzzle.</p>
+        <p>This is <a href="gramsci.html" class="xl">hegemony in technical culture</a>: the commons got institutionalized, but the language used to institutionalize it stripped out the politics that would have defended it against enclosure. The bazaar won the software argument and lost the political one.</p>
+      </div>
+
+      <span id="what-it-means" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">06</span><div class="section-rule"></div></div>
+      <h2>What it means for tech workers now</h2>
+
+      <p>If you work in tech, you work on a commons substrate you almost certainly didn't pay for. The programming languages, the frameworks, the libraries, the protocols, the operating systems — most of what you use to build things is open source, collectively maintained, given freely. Your employer's proprietary product rides on a commons that your employer did not produce and typically contributes to minimally.</p>
+
+      <p>Raymond's framework says this is fine — the market will sort it out, contributors will be compensated through reputation and employment, the bazaar will maintain itself. The evidence says otherwise. Open source maintainers are chronically underfunded, burnt out, and subject to harassment from users who treat them as service providers rather than community members.<sup><a href="#fn4" id="ref4">4</a></sup> The commons that the internet runs on is maintained by a small number of people who are doing it for reasons that have nothing to do with market incentives.</p>
+
+      <p>Linus Torvalds has maintained the Linux kernel for thirty years. Steve Wozniak gave away his early designs at the Homebrew Computer Club with no expectation of return. John Carmack open-sourced the Quake engine in 1999, making possible a generation of game developers who built on it freely. None of these were market decisions. They were gifts — acts of contribution to a commons that these builders understood was the substrate their own work depended on. The market framing doesn't explain them and doesn't protect them.</p>
+
+      <span id="what-now" class="section-anchor"></span>
+
+    </div>
+
+    <div class="invitation">
+      <span class="inv-label">07 — The Correct Conclusion</span>
+      <h2>The bazaar works<br/>because it's a commons,<br/>not a market.</h2>
+      <p>Raymond's essay is still worth reading. His observation of what was happening in the Linux community was accurate and important. The distributed model does outperform the hierarchical one for the reasons he identified: distributed knowledge, many eyes, rapid iteration, community-governed standards.</p>
+      <p>But the conclusion to draw from this is Ostrom's, not Hayek's. What the bazaar demonstrates is that commons governance — shared resources, collective maintenance, community norms, distributed decision-making — outperforms both hierarchical control and uncoordinated individual competition for certain kinds of resources. Software is one of those resources. Knowledge is another. Infrastructure is a third.</p>
+      <p>The political implication is not libertarianism. It's the opposite: the commons requires active governance and active defense against enclosure. The bazaar doesn't maintain itself. Linux has maintainers, processes, governance. The web has the W3C. Wikipedia has an editorial community. None of these are markets. They are commons institutions — collectively governed, collectively maintained, defended against the enclosure that their own value attracts.</p>
+      <p>If you build the internet, you are a commons producer. The question is whether you have the political vocabulary to defend what you produce — or whether you've been handed a framework that strips out the politics just when you need them most.</p>
+      <div class="inv-coda">
+        Raymond described the commons correctly.<br/>
+        He just didn't know<br/>
+        <strong>that's what it was.</strong>
+      </div>
+    </div>
+
+    <div class="series-end">
+      <h3>For People Who Build the Internet</h3>
+      <p>Four pieces on the commons theory embedded in tech culture — from the mathematics of shared infrastructure to the political betrayal of the open web.</p>
+      <div class="series-links">
+        <a href="tech-shannon.html" class="series-link">I — Shannon: The Channel</a>
+        <a href="tech-turing.html" class="series-link">II — Turing: The Universal Machine</a>
+        <a href="tech-berners-lee.html" class="series-link">III — Berners-Lee: The Gift</a>
+        <a href="tech-raymond.html" class="series-link current">IV — Raymond: The Bazaar</a>
+      </div>
+    </div>
+
+    <section class="footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1">
+          <span class="fn-num">1</span>
+          <span>Eric S. Raymond, "The Cathedral and the Bazaar," first presented at the Linux Kongress, Würzburg, Germany, May 1997; published in revised form in <em>First Monday</em> 3, no. 3 (March 1998) and collected in <strong>The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</strong> (O'Reilly, 1999). The essay is freely available at catb.org. "Linus's Law" — Raymond's coinage, not Torvalds's — states: "Given enough eyeballs, all bugs are shallow." The empirical validity of the claim has been debated; the strongest evidence comes from the security record of widely-reviewed open source cryptographic implementations versus closed-source alternatives. <a href="#ref1" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn2">
+          <span class="fn-num">2</span>
+          <span>The "open core" business model — a free, open source core product with proprietary extensions or services — has been criticized by free software advocates as a form of commons enclosure since the early 2000s. The most prominent recent controversy was the Redis Labs relicensing in 2018 and the HashiCorp Business Source License adoption in 2023, both of which restricted use of popular open source tools by cloud providers. These cases illustrate both the vulnerability of open source commons to enclosure by original developers and the difficulty of maintaining commons governance when commercial interests are large. The analysis of open core as enclosure is developed in detail in Dirk Riehle's work on commercial open source. <a href="#ref2" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn3">
+          <span class="fn-num">3</span>
+          <span>Elinor Ostrom, <strong>Governing the Commons: The Evolution of Institutions for Collective Action</strong> (Cambridge University Press, 1990). Ostrom's eight design principles for robust commons institutions are listed in chapter 3. The application of Ostrom's framework to open source software governance has been developed by several researchers; see in particular Yochai Benkler, "Coase's Penguin, or Linux and the Nature of the Firm," <em>Yale Law Journal</em> 112 (2002): 369–446, which is the most rigorous academic analysis of why commons-based peer production works and why it differs from both markets and firms. <a href="#ref3" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn4">
+          <span class="fn-num">4</span>
+          <span>The underfunding and burnout of open source maintainers has been documented extensively since the 2014 Heartbleed vulnerability revealed that the OpenSSL library — used by the majority of the internet's encrypted connections — was maintained by two people, one of whom was part-time. The Ford Foundation and others subsequently funded the Core Infrastructure Initiative to address this. The problem is structural: open source commons produce enormous external value that is captured by commercial users, while the maintenance costs remain with voluntary contributors. For a comprehensive treatment, see Nadia Eghbal, <strong>Working in Public: The Making and Maintenance of Open Source Software</strong> (Stripe Press, 2020). <a href="#ref4" aria-label="Return to text">↩</a></span>
+        </li>
+      </ol>
+    </section>
+
+    <footer class="article-footer">
+      <a href="index.html" class="back-link">Back to Power Explained</a>
+      <span class="series-note">For People Who Build the Internet — Part IV — Raymond</span>
+    </footer>
+
+  </main>
+</body>
+</html>
