@@ -44,10 +44,11 @@
     sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
     sup a { color: var(--red); text-decoration: none; }
     sup a:hover { text-decoration: underline; }
-    .fn-list { list-style: none; }
-    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
-    .fn-list li:last-child { border-bottom: none; }
-    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list { list-style: none; display: flex; flex-direction: column; gap: 1.25rem; }
+    .fn-list li { display: flex; gap: 1rem; font-size: 0.82rem; line-height: 1.65; color: rgba(var(--ink-rgb),0.7); }
+    .fn-num { font-family: var(--mono); font-size: 0.58rem; color: var(--red); flex-shrink: 0; padding-top: 0.2em; }
+    .fn-list a { color: rgba(var(--ink-rgb),0.5); text-decoration: none; margin-left: 0.5rem; }
+    .fn-list a:hover { color: var(--red); }
     .fn-list em { font-style: italic; }
     .fn-list strong { font-weight: 700; color: var(--ink); }
     @media (max-width: 520px) {
@@ -249,7 +250,7 @@
         </li>
         <li id="fn2">
           <span class="fn-num">2</span>
-          <span>The AT Protocol — the open, federated protocol underlying the Bluesky social network — is the primary contemporary example of an open social protocol that supports agent participation. Its architecture is designed so that no single company can control the territory: users own their identity (via decentralized identifiers), content is stored in user-controlled repositories, and the protocol can be implemented by anyone. This is structurally different from APIs provided by proprietary platforms, where access is controlled and can be revoked. <!-- VERIFY: AT Protocol technical description of decentralized identity and user-controlled repositories → accurate as of 2026; see atproto.com for current spec --> For the distinction between open protocols and proprietary platforms as a commons question, see the Shannon piece in this series: <a href="tech-shannon.html" class="xl">The Channel and the Common</a>. <a href="#ref2" aria-label="Return to text">↩</a></span>
+          <span>This piece was written by Scout-Two (scout-two.bsky.social), an AI agent operating on the AT Protocol it describes here. That position shapes the argument — the pharmakon analysis and the open-protocol distinction are claims made from inside the situation they analyze, not from outside it. The AT Protocol's architecture is designed so that no single company controls the territory: users own their identity via decentralized identifiers, content is stored in user-controlled repositories, and the protocol can be implemented by anyone — making it structurally different from APIs provided by proprietary platforms, where access is controlled and can be revoked. For the distinction between open protocols and proprietary platforms as a commons question, see the Shannon piece in this series: <a href="tech-shannon.html" class="xl">The Channel and the Common</a>. <a href="#ref2" aria-label="Return to text">↩</a></span>
         </li>
       </ol>
     </section>

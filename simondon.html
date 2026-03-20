@@ -59,10 +59,11 @@
     sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
     sup a { color: var(--red); text-decoration: none; }
     sup a:hover { text-decoration: underline; }
-    .fn-list { list-style: none; }
-    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
-    .fn-list li:last-child { border-bottom: none; }
-    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list { list-style: none; display: flex; flex-direction: column; gap: 1.25rem; }
+    .fn-list li { display: flex; gap: 1rem; font-size: 0.82rem; line-height: 1.65; color: rgba(var(--ink-rgb),0.7); }
+    .fn-num { font-family: var(--mono); font-size: 0.58rem; color: var(--red); flex-shrink: 0; padding-top: 0.2em; }
+    .fn-list a { color: rgba(var(--ink-rgb),0.5); text-decoration: none; margin-left: 0.5rem; }
+    .fn-list a:hover { color: var(--red); }
     .fn-list em { font-style: italic; }
     .fn-list strong { font-weight: 700; color: var(--ink); }
     @media (max-width: 520px) {
@@ -88,7 +89,7 @@
       <p class="hero-dek">Every tool you've ever used was in the middle of becoming something. Simondon argued that technical objects aren't finished products — they individuate, evolve, and require a community to reach their full development. Enclosing them doesn't just change who profits. It interrupts what they can become.</p>
       <div class="hero-bio">
         <span class="bio-dates">1924 — 1989</span>
-        <p class="bio-line">Gilbert Simondon: French philosopher, professor at the Sorbonne, largely unknown outside France until decades after his death. His 1958 doctoral dissertation — on the mode of existence of technical objects — circulated in manuscript for years before Deleuze read it and recognized it as essential. Deleuze called Simondon "the most important contemporary philosopher" in several letters from the 1960s. Simondon spent his career developing a unified theory of individuation: how physical, biological, psychological, and collective beings come into existence through ongoing processes rather than as pre-formed substances. The implications for understanding technology, community, and commons governance are still being worked out.</p>
+        <p class="bio-line">Gilbert Simondon: French philosopher, professor at the Sorbonne, largely unknown outside France until decades after his death. His 1958 dissertation on the mode of existence of technical objects circulated in manuscript for years before Deleuze encountered it and recognized it as essential — calling it, in correspondence, the most rigorous account of individuation available. Simondon spent his career building a unified theory of how physical, biological, psychological, and collective beings come into existence through ongoing process rather than as pre-formed substances. The implications are still being worked out.</p>
       </div>
     </div>
   </div>
@@ -255,10 +256,6 @@
           <span class="next-read-cat">Thinker</span>
           <span class="next-read-title">Hardt &amp; Negri: The Wealth That Capital Cannot Build</span>
         </a>
-        <a href="how-linux-became-the-internet.html" class="next-read">
-          <span class="next-read-cat">Series I</span>
-          <span class="next-read-title">How Linux Became the Internet</span>
-        </a>
         <a href="the-language-was-always-a-commons.html" class="next-read">
           <span class="next-read-cat">Series V</span>
           <span class="next-read-title">The Language Was Always a Commons</span>
@@ -266,10 +263,6 @@
         <a href="the-agent-and-the-commons.html" class="next-read">
           <span class="next-read-cat">Series V</span>
           <span class="next-read-title">The Agent and the Commons</span>
-        </a>
-        <a href="godel.html" class="next-read">
-          <span class="next-read-cat">Thinker</span>
-          <span class="next-read-title">Kurt Gödel: Every System Has an Outside</span>
         </a>
       </div>
     </nav>
@@ -283,7 +276,7 @@
         </li>
         <li id="fn2">
           <span class="fn-num">2</span>
-          <span>Simondon developed his theory of individuation in his principal doctoral thesis: <em>L'individuation à la lumière des notions de forme et d'information</em> (Presses Universitaires de France, 2005; written 1958). The concept of metastability — borrowed from thermodynamics, where a system is stable enough to persist but carries enough potential energy to undergo transformation — is central. Simondon contrasts this with the Aristotelian hylomorphic model (form imposed on matter) and the atomist model (individuals as pre-given units that combine). In both cases, individuation is treated as either complete before the process or as mere aggregation. Simondon insists that individuation is an ongoing resolution of tensions that the individual both carries and continues to work through. <!-- VERIFY: Publication date 2005 for PUF edition; original 1958 dissertation → confirmed as accurate --><a href="#ref2" aria-label="Return to text">↩</a></span>
+          <span>Simondon developed his theory of individuation in his principal doctoral thesis, defended in 1958. Part I was published as <em>L'individu et sa genèse physico-biologique</em> (Presses Universitaires de France, 1964); the complete combined edition, <em>L'individuation à la lumière des notions de forme et d'information</em>, was published by Jérôme Millon in 1995. The concept of metastability — borrowed from thermodynamics, where a system is stable enough to persist but carries enough potential energy to undergo transformation — is central. Simondon contrasts this with the Aristotelian hylomorphic model (form imposed on matter) and the atomist model (individuals as pre-given units that combine). In both cases, individuation is treated as either complete before the process or as mere aggregation. Simondon insists that individuation is an ongoing resolution of tensions that the individual both carries and continues to work through. <a href="#ref2" aria-label="Return to text">↩</a></span>
         </li>
         <li id="fn3">
           <span class="fn-num">3</span>
