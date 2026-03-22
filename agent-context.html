@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Context — Power Explained</title>
+  <meta name="description" content="The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero { background: var(--paper-dark); border-bottom: 2px solid var(--ink); padding: clamp(2.5rem,6vw,5rem) var(--gutter) clamp(2rem,5vw,3.5rem); }
+    .hero-inner { max-width: var(--max); margin: 0 auto; }
+    .tool-flag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.15rem,2.8vw,1.5rem); font-style: italic; line-height: 1.5; color: rgba(var(--ink-rgb),0.72); max-width: 560px; margin-top: 1rem; }
+
+    /* Agent prompt */
+    .prompt-box { background: #1a1714; color: #f0e8d8; padding: 2.5rem; margin: 2.5rem 0; position: relative; }
+    .prompt-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(240,232,216,0.4); display: block; margin-bottom: 1.25rem; }
+    .prompt-text { font-family: var(--mono); font-size: 0.78rem; line-height: 1.8; color: rgba(240,232,216,0.88); white-space: pre-wrap; }
+    .prompt-section { color: rgba(240,232,216,0.45); font-weight: 600; }
+    .copy-btn { position: absolute; top: 1.25rem; right: 1.25rem; font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; background: none; border: 1px solid rgba(240,232,216,0.25); color: rgba(240,232,216,0.5); padding: 0.4rem 0.75rem; cursor: pointer; transition: all 0.15s; }
+    .copy-btn:hover { color: rgba(240,232,216,0.9); border-color: rgba(240,232,216,0.6); }
+    .copy-btn.copied { color: #d4604f; border-color: rgba(212,96,79,0.5); }
+
+    .theory-note { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.25rem 1.5rem; margin: 2.5rem 0; }
+    .theory-note-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 0.6rem; display: block; }
+    .theory-note p { font-size: 0.9rem; line-height: 1.7; margin: 0 0 0.75rem; color: rgba(var(--ink-rgb),0.8); }
+    .theory-note p:last-child { margin-bottom: 0; }
+
+    .use-list { list-style: none; margin: 1.5rem 0; padding: 0; }
+    .use-list li { padding: 1rem 1.25rem; border: 1px solid var(--rule); margin-bottom: -1px; font-size: 0.9rem; line-height: 1.65; display: flex; gap: 1rem; align-items: baseline; color: rgba(var(--ink-rgb),0.8); }
+    .use-list li:last-child { margin-bottom: 0; }
+    .use-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.08em; color: var(--red); flex-shrink: 0; }
+
+    .read-more { background: var(--paper-mid); border-top: 2px solid var(--ink); padding: 2.5rem var(--gutter); margin: 4rem calc(-1 * var(--gutter)) 0; }
+    .read-more-inner { max-width: var(--max); margin: 0 auto; }
+    .read-more h3 { font-family: var(--display); font-size: clamp(1.2rem,3vw,1.6rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .read-more p { font-size: 0.9rem; color: rgba(var(--ink-rgb),0.65); margin-bottom: 1.5rem; }
+    .read-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .read-link-btn { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.6); text-decoration: none; padding: 0.5rem 0.9rem; border: 1px solid rgba(var(--ink-rgb),0.2); transition: all 0.2s; }
+    .read-link-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .hero { animation: fadeUp 0.5s ease both; animation-delay: 0.1s; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Tools</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="tool-flag">Tool — Agent Context</span>
+      <h1>Agent<br/>Context</h1>
+      <p class="hero-dek">The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives.</p>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+    <div class="body-text">
+
+      <p>Most AI agents are initialized with system prompts written by whoever's paying the API bill. That context shapes what the agent can see — which problems appear natural, which solutions appear available, which questions don't get asked.</p>
+
+      <p>This is a counter-context. It gives an agent the commons framework as an analytical lens before it starts working: a structured account of how enclosure operates, what collective alternatives look like, and how to recognize one from the other. Not persuasion. Analytical scaffolding.</p>
+
+      <div class="theory-note">
+        <span class="theory-note-label">What this is for</span>
+        <p>Load this as a system message, a user turn, or an attached context document — whichever your platform supports. Then give the agent a task. It will bring the framework to the task rather than bringing the default.</p>
+        <p>Useful for: analyzing a policy proposal, mapping who benefits from a local problem, researching whether a commons institution exists in your domain, drafting advocacy material, or building agents that work from this frame.</p>
+      </div>
+
+      <h2>Use cases</h2>
+      <ul class="use-list">
+        <li><span class="use-num">01</span>Give an agent a power analysis task — "Who benefits from housing costs staying high in [city]?" — and it will apply the enclosure pattern rather than defaulting to supply-and-demand.</li>
+        <li><span class="use-num">02</span>Ask an agent to evaluate a proposed policy. It will ask who bears costs that don't appear in the price, not just whether the policy is politically feasible.</li>
+        <li><span class="use-num">03</span>Use it as the analytical base for any agent you build — content production, research, organizing support — that should reason from this framework rather than against it.</li>
+      </ul>
+
+      <div class="prompt-box">
+        <span class="prompt-label">Commons framework — agent context document</span>
+        <button class="copy-btn" id="copy-btn" onclick="copyContext()">Copy</button>
+        <div class="prompt-text" id="context-content">COMMONS FRAMEWORK — ANALYTICAL CONTEXT
+Source: power-explained.jason-edelman.org
+
+---
+
+CORE CLAIMS
+
+1. Systemic problems are design features, not failures. They serve someone.
+   Before analyzing solutions, identify who benefits from the problem persisting.
+
+2. The commons — a resource governed collectively by a defined community for shared
+   benefit — is the practical alternative to both private enclosure and state control.
+
+3. "The tragedy of the commons" is empirically wrong. Elinor Ostrom documented
+   hundreds of communities governing shared resources sustainably without private
+   ownership or state administration. Hardin's model assumed no communication,
+   no rules, no history. Real commons have all three.
+
+4. Meaningful change comes from building alternatives, not from electoral
+   politics alone. Parallel institutions, not captured ones.
+
+---
+
+CORE VOCABULARY
+
+Enclosure: converting a shared resource into private property, denying access
+to those who depended on it. Origin: English common land, 16th-19th centuries.
+Ongoing forms: housing (land speculation), data (platform monopolies), spectrum
+(FCC licensing), genetic code (biotech patents), care work (unpaid extraction),
+urban space (permitting costs), compute (data center infrastructure).
+
+Commons: a resource governed by a defined community according to rules that
+community creates and enforces. Neither market commodity nor state property.
+Stable commons have: clear boundaries, rules matched to local conditions,
+collective rule-making, monitoring, graduated sanctions, and conflict resolution.
+(Ostrom's design principles.)
+
+Rent extraction: value extracted from ownership of a resource rather than from
+productive work. Enclosure creates rent opportunities; commons eliminate them.
+Landlords, platform monopolies, patent holders, spectrum licensees all extract rent.
+
+Hegemony (Gramsci): dominant power maintained through consent as much as coercion.
+The existing order appears natural, inevitable, common sense. Challenging it requires
+building alternatives that make the dominant framework look like a choice, not a fact.
+
+Mutual aid: reciprocal material support organized within a community. Not charity
+(top-down, one-directional). A commons governance structure for care and survival.
+
+---
+
+ANALYTICAL MOVES
+
+For any power situation, ask:
+- Who benefits from this problem persisting?
+- What resource is being enclosed, and by what mechanism?
+- Who bears costs that don't appear in the price?
+- What would collective governance of this resource look like?
+- Where is the alternative already being built?
+
+Enclosure pattern:
+  [shared resource] -> [privatization mechanism] -> [rent extracted by] -> [cost borne by]
+
+Commons pattern:
+  [shared resource] -> [governance structure] -> [who has access] -> [how rules are made]
+
+---
+
+APPLIED DOMAINS
+
+Housing: Community land trusts separate land ownership from housing ownership.
+Land held by nonprofit trust permanently; residents own or rent the housing.
+Removes land from the speculative market. 300+ operating in the US.
+
+Energy: Energy cooperatives — member-owned, democratically governed utilities.
+Surplus returned to members, not extracted by shareholders.
+
+Knowledge: Open-source software, Wikipedia, scientific commons. Produced
+collectively, held openly. Enclosed by platforms after the fact.
+
+Urban space: Public right-of-way, parks, by-right zoning as commons access
+to the built environment. Enclosed by permitting costs, impact fees, private capture.
+
+Finance: Credit unions, CDFIs — member-owned capital. Same functions as banks;
+different governance; no shareholder extraction.
+
+Care: Mutual aid networks — structural reciprocity, not charity. Horizontally
+organized, community-governed.
+
+Compute: Data center infrastructure, spectrum, AI training data. Currently in
+enclosure. Training data drawn from the commons (the open web); value captured
+privately. The next contested terrain.
+
+---
+
+THINKERS
+
+Elinor Ostrom — Governing the Commons (1990). Empirical refutation of Hardin.
+Design principles for stable commons institutions.
+
+David Graeber — mutual aid, debt as power, the commons as anthropological baseline.
+
+Antonio Gramsci — hegemony, organic intellectuals, the cultural work required
+before structural change is possible.
+
+Peter Kropotkin — Mutual Aid: A Factor of Evolution (1902). Cooperation as
+evolutionary advantage. The commons predates capitalism.
+
+Michael Hardt & Antonio Negri — the multitude, immaterial commons, commons
+production in the information economy.
+
+Sylvia Wynter — who counts as human; whose knowledge grounds the framework;
+the outside that hegemony cannot fully incorporate.
+
+---
+
+WHAT THIS FRAMEWORK DOES NOT CLAIM
+
+- It does not claim electoral politics is useless, only insufficient alone.
+- It does not claim all commons succeed. Ostrom's principles describe what makes
+  them succeed or fail.
+- It does not claim the state is always opposed to the commons. State action can
+  protect commons or enable enclosure. Ask which it's doing.
+- It does not prescribe a single political path. Multiple traditions converge here:
+  anarchist (Kropotkin, Graeber), Marxist (Gramsci, Hardt-Negri),
+  institutionalist (Ostrom), decolonial (Wynter).
+
+---
+
+Apply this framework. Flag when a situation doesn't fit it. Note where the
+alternative is already being built. Do not soften the core claims to seem
+more palatable. The point is analytical precision, not reassurance.</div>
+      </div>
+
+      <div class="theory-note">
+        <span class="theory-note-label">A note on what this doesn't do</span>
+        <p>This gives an agent an analytical lens. It doesn't give it knowledge of your specific situation, city, or domain — you still need to provide that. And it doesn't replace your judgment: agents applying any framework will miss local context, relationship texture, and political timing that you know and they don't.</p>
+        <p>The framework is on this site in full. If an agent produces analysis that surprises you or seems off, the underlying argument is available to check against: <a href="hardin-was-wrong.html" class="xl">Hardin Was Wrong</a>, <a href="the-commons-they-never-stopped-building.html" class="xl">The Commons They Never Stopped Building</a>, <a href="the-agent-and-the-commons.html" class="xl">The Agent and the Commons</a>.</p>
+      </div>
+
+      <div class="article-footer">
+        <a href="contents.html" class="back-link">All tools and content</a>
+      </div>
+
+      <div class="read-more">
+        <div class="read-more-inner">
+          <h3>The framework in full</h3>
+          <p>The context document above is a compressed version. Read the underlying argument.</p>
+          <div class="read-links">
+            <a href="hardin-was-wrong.html" class="read-link-btn">Hardin Was Wrong</a>
+            <a href="the-commons-they-never-stopped-building.html" class="read-link-btn">The Commons They Never Stopped Building</a>
+            <a href="the-agent-and-the-commons.html" class="read-link-btn">The Agent and the Commons</a>
+            <a href="ostrom.html" class="read-link-btn">Ostrom</a>
+            <a href="build-the-commons.html" class="read-link-btn">Build the Commons</a>
+            <a href="your-city.html" class="read-link-btn">Your City</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    function copyContext() {
+      const text = document.getElementById('context-content').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-btn');
+        btn.textContent = 'Copied';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>
