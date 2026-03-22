@@ -12,7 +12,7 @@ This is a new repo. Do not clone power-explained into it.
 
 ## Repository setup
 
-- Repo name: `power-explained-social` (new, empty repo)
+- Repo name: `the-lockout` (repo already created at `github.com/jedelman/the-lockout`)
 - Stack: Python 3.11+, `anthropic` SDK, `httpx` for fetching source HTML, `pyyaml`
   for the queue
 - No framework. No ORM. No database. Three files and a queue.
