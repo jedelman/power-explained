@@ -72,11 +72,8 @@ const ZOOM_LABELS_ENTRY  = 0.55  // show entry + depth labels
 const ZOOM_LABELS_ALL    = 1.1   // show all labels (short)
 const ZOOM_LABELS_FULL   = 2.0   // show full label text
 
-function getLabelText(d, k) {
-  if (k >= ZOOM_LABELS_FULL) return d.label
-  if (k >= ZOOM_LABELS_ALL)  return d.label.length > 18 ? d.label.slice(0, 16) + '…' : d.label
-  // entry/depth only at low zoom
-  return d.label.length > 14 ? d.label.slice(0, 12) + '…' : d.label
+function getLabelText(d) {
+  return d.label
 }
 
 export default function GraphCanvas({ selectedId, onSelectNode, entryPath }) {
@@ -291,7 +288,7 @@ export default function GraphCanvas({ selectedId, onSelectNode, entryPath }) {
             return
           }
 
-          const text = getLabelText(d, k)
+          const text = getLabelText(d)
           // Scale label size inversely with zoom so text stays legible, not giant
           const baseFontSize = d.type === 'depth' ? 8 : 10
           const scaledSize = Math.max(7, Math.min(13, baseFontSize / k))
