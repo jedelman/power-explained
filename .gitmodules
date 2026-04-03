@@ -1,3 +1,6 @@
 [submodule "wire"]
 	path = wire
 	url = https://github.com/jedelman/commons-wire.git
+[submodule "for-agents"]
+	path = for-agents
+	url = https://github.com/jedelman/commons-for-agents.git
