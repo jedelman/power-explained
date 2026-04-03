@@ -1,2 +1,4 @@
-the-common/node_modules/
-the-common/dist/
+node_modules/
+dist/
+.DS_Store
+*.local

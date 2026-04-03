@@ -1,5 +1,8 @@
-# the-common React app — external redirect
+# the-common React app — external
 /the-common https://the-common.netlify.app 301
 
-# for-agents submodule bare path
+# for-agents submodule index
 /for-agents /for-agents/index.html 200
+
+# SPA fallback — only hits if no static file exists in dist/
+/* /index.html 200
