@@ -18,12 +18,11 @@
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
-# Proxy the React graph app to its own Netlify site
+# the-common React app lives at its own Netlify site
 [[redirects]]
-  from   = "/the-common/*"
-  to     = "https://the-common.netlify.app/:splat"
-  status = 200
-  force  = true
+  from   = "/the-common"
+  to     = "https://the-common.netlify.app"
+  status = 301
 
 # Submodule path — redirect for-agents bare path to index
 [[redirects]]

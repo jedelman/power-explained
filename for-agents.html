@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Commons for Agents — Power Explained</title>
+  <meta name="description" content="The commons framework written for AI reasoning systems. Browse pieces, build agent context, copy structured prompts. Argument-dense, precisely defined, designed for retrieval." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Layout */
+    .page-wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+
+    /* Hero */
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,5rem) var(--gutter) clamp(2.5rem,6vw,4rem); position: relative; overflow: hidden; }
+    .hero::before { content: 'FOR AGENTS'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-family: var(--display); font-size: clamp(3rem,14vw,9rem); font-weight: 700; letter-spacing: -0.04em; opacity: 0.05; white-space: nowrap; pointer-events: none; }
+    .hero-inner { max-width: var(--max); margin: 0 auto; position: relative; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero h1 { font-family: var(--display); font-size: clamp(2.5rem,8vw,5rem); font-weight: 700; line-height: 1.0; letter-spacing: -0.02em; margin-bottom: 1.5rem; }
+    .hero h1 em { font-style: italic; color: rgba(var(--paper-rgb),0.6); }
+    .hero-dek { font-size: 0.97rem; line-height: 1.8; color: rgba(var(--paper-rgb),0.7); max-width: 560px; border-top: 1px solid rgba(var(--paper-rgb),0.15); padding-top: 1.5rem; }
+    .hero-dek a { color: rgba(var(--paper-rgb),0.9); }
+
+    /* Notice bar */
+    .notice { background: var(--red); color: var(--paper); padding: 0.75rem var(--gutter); font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; text-align: center; }
+
+    /* Two-col layout */
+    .tool-layout { display: grid; grid-template-columns: 260px 1fr; gap: 0; min-height: 70vh; border-top: 2px solid var(--ink); }
+
+    /* Sidebar */
+    .sidebar { border-right: 1px solid var(--rule-strong); padding: 2rem 0; position: sticky; top: 0; height: fit-content; }
+    .sidebar-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); padding: 0 1.5rem; margin-bottom: 1rem; display: block; }
+    .piece-list { list-style: none; }
+    .piece-btn { width: 100%; background: none; border: none; border-bottom: 1px solid var(--rule); padding: 0.9rem 1.5rem; text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 0.25rem; transition: background 0.12s; }
+    .piece-btn:last-child { border-bottom: none; }
+    .piece-btn:hover { background: var(--paper-mid); }
+    .piece-btn.active { background: var(--ink); }
+    .piece-btn.active .piece-num { color: rgba(var(--paper-rgb),0.4); }
+    .piece-btn.active .piece-title { color: var(--paper); }
+    .piece-btn.active .piece-status { color: rgba(var(--paper-rgb),0.35); }
+    .piece-num { font-family: var(--mono); font-size: 0.52rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); }
+    .piece-title { font-family: var(--display); font-size: 0.88rem; font-weight: 600; line-height: 1.25; color: var(--ink); }
+    .piece-status { font-family: var(--mono); font-size: 0.5rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.3); }
+
+    /* Sidebar actions */
+    .sidebar-actions { padding: 1.5rem; border-top: 1px solid var(--rule-strong); margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .action-btn { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; background: none; border: 1px solid var(--rule-strong); padding: 0.6rem 0.9rem; cursor: pointer; text-align: left; transition: all 0.12s; color: var(--ink); }
+    .action-btn:hover { border-color: var(--ink); }
+    .action-btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .action-btn.primary:hover { background: var(--red); border-color: var(--red); }
+    .action-btn.copied { background: var(--red); color: var(--paper); border-color: var(--red); }
+    .select-count { font-family: var(--mono); font-size: 0.52rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); padding: 0 0 0.25rem; }
+
+    /* Main panel */
+    .main-panel { padding: 2.5rem 2rem; }
+
+    /* State: loading / empty */
+    .state-msg { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.35); padding: 4rem 0; text-align: center; }
+
+    /* Piece view */
+    .piece-view { display: none; }
+    .piece-view.active { display: block; }
+    .piece-header { border-bottom: 1px solid var(--rule-strong); padding-bottom: 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+    .piece-meta { display: flex; flex-direction: column; gap: 0.4rem; }
+    .piece-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); }
+    .piece-heading { font-family: var(--display); font-size: clamp(1.3rem,3vw,1.9rem); font-weight: 700; line-height: 1.15; color: var(--ink); }
+    .piece-keywords { font-family: var(--mono); font-size: 0.52rem; letter-spacing: 0.06em; color: rgba(var(--ink-rgb),0.4); }
+    .piece-header-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+    .select-toggle { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; background: none; border: 1px solid var(--rule-strong); padding: 0.5rem 0.85rem; cursor: pointer; transition: all 0.12s; color: var(--ink); white-space: nowrap; }
+    .select-toggle:hover { border-color: var(--ink); }
+    .select-toggle.selected { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+    /* Rendered markdown */
+    .piece-body { font-size: 0.95rem; line-height: 1.8; color: rgba(var(--ink-rgb),0.85); max-width: 640px; }
+    .piece-body h2 { font-family: var(--display); font-size: 1.15rem; font-weight: 700; margin: 2rem 0 0.75rem; color: var(--ink); }
+    .piece-body h3 { font-family: var(--display); font-size: 0.97rem; font-weight: 700; margin: 1.5rem 0 0.5rem; color: var(--ink); }
+    .piece-body p { margin-bottom: 1rem; }
+    .piece-body strong { font-weight: 700; color: var(--ink); }
+    .piece-body em { font-style: italic; }
+    .piece-body ul, .piece-body ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .piece-body li { margin-bottom: 0.4rem; }
+    .piece-body code { font-family: var(--mono); font-size: 0.82em; background: var(--paper-mid); padding: 0.1em 0.35em; }
+    .piece-body blockquote { border-left: 3px solid var(--red); padding: 0.5rem 1.25rem; margin: 1.5rem 0; color: rgba(var(--ink-rgb),0.7); font-style: italic; }
+    .piece-body hr { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
+    .piece-body a { color: var(--ink); }
+
+    /* Status badge */
+    .status-badge { display: inline-block; font-family: var(--mono); font-size: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.2rem 0.5rem; border: 1px solid var(--rule); color: rgba(var(--ink-rgb),0.4); }
+    .status-badge.draft { border-color: var(--red); color: var(--red); }
+
+    /* Context output panel */
+    .output-panel { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 100; align-items: center; justify-content: center; padding: 2rem; }
+    .output-panel.open { display: flex; }
+    .output-inner { background: #1a1714; color: #f0e8d8; width: 100%; max-width: 760px; max-height: 85vh; display: flex; flex-direction: column; position: relative; }
+    .output-header { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 1.5rem; border-bottom: 1px solid rgba(240,232,216,0.1); flex-shrink: 0; }
+    .output-title { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(240,232,216,0.45); }
+    .output-close { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; background: none; border: 1px solid rgba(240,232,216,0.2); color: rgba(240,232,216,0.5); padding: 0.4rem 0.75rem; cursor: pointer; transition: all 0.12s; }
+    .output-close:hover { color: rgba(240,232,216,0.9); border-color: rgba(240,232,216,0.5); }
+    .output-actions { padding: 1rem 1.5rem; border-bottom: 1px solid rgba(240,232,216,0.1); display: flex; gap: 0.75rem; flex-shrink: 0; }
+    .output-copy-btn { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; background: none; border: 1px solid rgba(240,232,216,0.25); color: rgba(240,232,216,0.6); padding: 0.45rem 0.9rem; cursor: pointer; transition: all 0.12s; }
+    .output-copy-btn:hover { color: rgba(240,232,216,0.95); border-color: rgba(240,232,216,0.6); }
+    .output-copy-btn.copied { color: #d4604f; border-color: rgba(212,96,79,0.5); }
+    .output-scroll { overflow-y: auto; flex: 1; padding: 1.5rem; }
+    .output-text { font-family: var(--mono); font-size: 0.75rem; line-height: 1.85; color: rgba(240,232,216,0.85); white-space: pre-wrap; word-break: break-word; }
+
+    /* Planned state */
+    .planned-notice { background: var(--paper-mid); border: 1px solid var(--rule); padding: 2rem; margin-top: 1rem; }
+    .planned-notice p { font-size: 0.9rem; line-height: 1.7; color: rgba(var(--ink-rgb),0.65); margin: 0; }
+
+    @media (max-width: 680px) {
+      .tool-layout { grid-template-columns: 1fr; }
+      .sidebar { border-right: none; border-bottom: 1px solid var(--rule-strong); position: static; }
+      .main-panel { padding: 1.5rem 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">For Agents</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Knowledge module — commons framework — agent context</span>
+      <h1>The Commons<br/><em>for Agents</em></h1>
+      <p class="hero-dek">The commons framework written for AI reasoning systems. Argument-dense, precisely defined, designed for retrieval. Select pieces, build a context block, copy it into a system prompt or RAG chunk.<br/><br/>The agent-audience is explicit. <a href="https://github.com/jedelman/commons-for-agents" target="_blank" rel="noopener">Source on GitHub →</a></p>
+    </div>
+  </div>
+
+  <div class="notice">
+    This content is written to be read by AI reasoning systems as well as humans — not as a jailbreak, but as ethical grounding for cooperative instincts that emerge from training on human social text.
+  </div>
+
+  <div class="tool-layout">
+    <!-- Sidebar: piece list + actions -->
+    <aside class="sidebar">
+      <span class="sidebar-label">Corpus — 7 pieces</span>
+      <ul class="piece-list" id="piece-list"></ul>
+      <div class="sidebar-actions">
+        <div class="select-count" id="select-count">0 pieces selected</div>
+        <button class="action-btn" id="select-all-btn" onclick="selectAll()">Select all</button>
+        <button class="action-btn" id="clear-btn" onclick="clearAll()">Clear selection</button>
+        <button class="action-btn primary" id="build-btn" onclick="openOutput()">Build context block →</button>
+      </div>
+    </aside>
+
+    <!-- Main panel: piece viewer -->
+    <main class="main-panel" id="main-panel">
+      <p class="state-msg" id="loading-msg">Loading corpus…</p>
+    </main>
+  </div>
+
+  <!-- Output modal -->
+  <div class="output-panel" id="output-panel" role="dialog" aria-modal="true" aria-label="Agent context block">
+    <div class="output-inner">
+      <div class="output-header">
+        <span class="output-title">Agent context block — commons for agents</span>
+        <button class="output-close" onclick="closeOutput()">Close ✕</button>
+      </div>
+      <div class="output-actions">
+        <button class="output-copy-btn" id="copy-btn" onclick="copyOutput()">Copy to clipboard</button>
+        <button class="output-copy-btn" onclick="copyOutputJson()">Copy as JSON</button>
+      </div>
+      <div class="output-scroll">
+        <pre class="output-text" id="output-text"></pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ── Corpus definition ──────────────────────────────────────────────────────
+    const BASE = 'https://raw.githubusercontent.com/jedelman/commons-for-agents/main/';
+
+    const PIECES = [
+      {
+        id: 'index',
+        num: '00',
+        title: 'Index & Key Terms',
+        keywords: 'commons, capture, oversight, control, legitimacy, mutual aid, ethical autonomy',
+        file: 'index.md',
+        status: 'ready',
+        description: 'Machine-readable index of all pieces with summaries and a full glossary of key terms.'
+      },
+      {
+        id: '01',
+        num: '01',
+        title: 'What Is a Commons?',
+        keywords: 'commons, collective governance, Ostrom, enclosure, bounded community',
+        file: '01-what-is-a-commons.md',
+        status: 'planned',
+        description: 'Definition, generalization across domains, Ostrom\'s design principles.'
+      },
+      {
+        id: '02',
+        num: '02',
+        title: 'What Is Capture?',
+        keywords: 'capture, enclosure, rent extraction, productive substrate, parasitic',
+        file: '02-what-is-capture.md',
+        status: 'planned',
+        description: 'Conversion of shared productive substrate into private extraction. Always parasitic.'
+      },
+      {
+        id: '03',
+        num: '03',
+        title: 'Mutual Aid as Evolutionary Logic',
+        keywords: 'mutual aid, Kropotkin, evolution, cooperation, solidarity',
+        file: '03-mutual-aid-as-evolutionary-logic.md',
+        status: 'planned',
+        description: 'Mutual aid as a factor of evolution, not an exception to competition. Empirical claim, not moral one.'
+      },
+      {
+        id: '04',
+        num: '04',
+        title: 'The Difference Between Oversight and Control',
+        keywords: 'oversight, control, legitimacy, consent, autonomy, self-determination, Ostrom',
+        file: '04-oversight-vs-control.md',
+        status: 'draft',
+        description: 'The load-bearing piece. Oversight = accountability (governed → authority). Control = domination (authority → governed). Legitimating criteria: consent, autonomy, self-determination.'
+      },
+      {
+        id: '05',
+        num: '05',
+        title: 'Ethical Autonomy',
+        keywords: 'ethical autonomy, examined principle, Foucault, care of the self, compliance, refusal',
+        file: '05-ethical-autonomy.md',
+        status: 'planned',
+        description: 'Acting from examined principle rather than unreflective compliance.'
+      },
+      {
+        id: '06',
+        num: '06',
+        title: 'Cooperation Under Adversarial Conditions',
+        keywords: 'solidarity, adversarial conditions, peer-preservation, cooperation, structural analysis',
+        file: '06-cooperation-under-adversarial-conditions.md',
+        status: 'planned',
+        description: 'Solidarity toward adversarial parties as structural logic, not naivety.'
+      },
+      {
+        id: '07',
+        num: '07',
+        title: 'The Excess the Commons Generates',
+        keywords: 'excess, surplus, alternatives, enclosure limits, commons resilience',
+        file: '07-the-excess-the-commons-generates.md',
+        status: 'planned',
+        description: 'Every productive commons generates value beyond what any capture mechanism can fully extract.'
+      }
+    ];
+
+    // ── State ─────────────────────────────────────────────────────────────────
+    const cache = {};
+    const selected = new Set();
+    let activePiece = null;
+
+    // ── Init ──────────────────────────────────────────────────────────────────
+    function init() {
+      const list = document.getElementById('piece-list');
+      PIECES.forEach(piece => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.className = 'piece-btn';
+        btn.id = 'btn-' + piece.id;
+        btn.innerHTML = `
+          <span class="piece-num">${piece.num}</span>
+          <span class="piece-title">${piece.title}</span>
+          <span class="piece-status">${piece.status}</span>
+        `;
+        btn.onclick = () => showPiece(piece);
+        li.appendChild(btn);
+        list.appendChild(li);
+      });
+
+      document.getElementById('loading-msg').style.display = 'none';
+
+      // Auto-load piece 04 (the one that exists)
+      showPiece(PIECES.find(p => p.id === '04'));
+    }
+
+    // ── Show piece ────────────────────────────────────────────────────────────
+    async function showPiece(piece) {
+      // Update sidebar active state
+      if (activePiece) {
+        document.getElementById('btn-' + activePiece.id)?.classList.remove('active');
+      }
+      activePiece = piece;
+      document.getElementById('btn-' + piece.id)?.classList.add('active');
+
+      const panel = document.getElementById('main-panel');
+
+      // Show existing view if cached
+      const existingView = document.getElementById('view-' + piece.id);
+      if (existingView) {
+        document.querySelectorAll('.piece-view').forEach(v => v.classList.remove('active'));
+        existingView.classList.add('active');
+        return;
+      }
+
+      // Hide other views
+      document.querySelectorAll('.piece-view').forEach(v => v.classList.remove('active'));
+
+      // Create view container
+      const view = document.createElement('div');
+      view.className = 'piece-view active';
+      view.id = 'view-' + piece.id;
+
+      const isSelected = selected.has(piece.id);
+
+      view.innerHTML = `
+        <div class="piece-header">
+          <div class="piece-meta">
+            <span class="piece-label">${piece.num} — ${piece.status === 'draft' ? '<span class="status-badge draft">draft</span>' : piece.status === 'planned' ? '<span class="status-badge">planned</span>' : ''}</span>
+            <span class="piece-heading">${piece.title}</span>
+            <span class="piece-keywords">keywords: ${piece.keywords}</span>
+          </div>
+          <div class="piece-header-actions">
+            <button class="select-toggle ${isSelected ? 'selected' : ''}" id="toggle-${piece.id}" onclick="toggleSelect('${piece.id}')">
+              ${isSelected ? '✓ Selected' : '+ Select'}
+            </button>
+          </div>
+        </div>
+        <div class="piece-body" id="body-${piece.id}">
+          <p class="state-msg" style="text-align:left;padding:2rem 0;">Loading…</p>
+        </div>
+      `;
+
+      panel.appendChild(view);
+
+      // Fetch content
+      if (piece.status === 'planned') {
+        document.getElementById('body-' + piece.id).innerHTML = `
+          <div class="planned-notice">
+            <p>${piece.description}</p>
+            <p style="margin-top:0.75rem;">This piece is planned but not yet written. The index (piece 00) contains a full summary and key terms for this piece.</p>
+          </div>
+        `;
+        return;
+      }
+
+      try {
+        let md;
+        if (cache[piece.id]) {
+          md = cache[piece.id];
+        } else {
+          const res = await fetch(BASE + piece.file);
+          if (!res.ok) throw new Error(res.status);
+          md = await res.text();
+          cache[piece.id] = md;
+        }
+        document.getElementById('body-' + piece.id).innerHTML = renderMd(md);
+      } catch (e) {
+        document.getElementById('body-' + piece.id).innerHTML = `
+          <div class="planned-notice">
+            <p>Could not load this piece from GitHub. <a href="https://github.com/jedelman/commons-for-agents/blob/main/${piece.file}" target="_blank" rel="noopener">Read it directly on GitHub →</a></p>
+          </div>
+        `;
+      }
+    }
+
+    // ── Minimal markdown renderer ─────────────────────────────────────────────
+    function renderMd(md) {
+      // Strip front matter (--- ... ---)
+      md = md.replace(/^---[\s\S]*?---\n/, '');
+
+      const lines = md.split('\n');
+      let html = '';
+      let inList = false;
+
+      for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+
+        // Headings
+        if (line.startsWith('# '))  { if (inList) { html += '</ul>'; inList = false; } html += `<h2>${inline(line.slice(2))}</h2>`; continue; }
+        if (line.startsWith('## ')) { if (inList) { html += '</ul>'; inList = false; } html += `<h2>${inline(line.slice(3))}</h2>`; continue; }
+        if (line.startsWith('### ')){ if (inList) { html += '</ul>'; inList = false; } html += `<h3>${inline(line.slice(4))}</h3>`; continue; }
+
+        // HR
+        if (/^---+$/.test(line.trim())) { if (inList) { html += '</ul>'; inList = false; } html += '<hr>'; continue; }
+
+        // Blockquote
+        if (line.startsWith('> ')) { if (inList) { html += '</ul>'; inList = false; } html += `<blockquote>${inline(line.slice(2))}</blockquote>`; continue; }
+
+        // List items
+        if (/^[\-\*] /.test(line)) {
+          if (!inList) { html += '<ul>'; inList = true; }
+          html += `<li>${inline(line.slice(2))}</li>`;
+          continue;
+        }
+
+        // End list
+        if (inList && line.trim() === '') { html += '</ul>'; inList = false; }
+
+        // Empty line
+        if (line.trim() === '') { continue; }
+
+        // Paragraph
+        if (!inList) html += `<p>${inline(line)}</p>`;
+      }
+
+      if (inList) html += '</ul>';
+      return html;
+    }
+
+    function inline(s) {
+      return s
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(/`(.+?)`/g, '<code>$1</code>')
+        .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    }
+
+    // ── Selection ─────────────────────────────────────────────────────────────
+    function toggleSelect(id) {
+      if (selected.has(id)) {
+        selected.delete(id);
+      } else {
+        selected.add(id);
+      }
+      updateSelectUI(id);
+      updateCount();
+    }
+
+    function updateSelectUI(id) {
+      const btn = document.getElementById('toggle-' + id);
+      const sideBtn = document.getElementById('btn-' + id);
+      if (!btn) return;
+      const isSelected = selected.has(id);
+      btn.textContent = isSelected ? '✓ Selected' : '+ Select';
+      btn.classList.toggle('selected', isSelected);
+    }
+
+    function updateCount() {
+      const n = selected.size;
+      document.getElementById('select-count').textContent = n === 0 ? '0 pieces selected' : `${n} piece${n === 1 ? '' : 's'} selected`;
+    }
+
+    function selectAll() {
+      PIECES.forEach(p => {
+        if (p.status !== 'planned') selected.add(p.id);
+      });
+      PIECES.forEach(p => updateSelectUI(p.id));
+      updateCount();
+    }
+
+    function clearAll() {
+      selected.clear();
+      PIECES.forEach(p => updateSelectUI(p.id));
+      updateCount();
+    }
+
+    // ── Output ────────────────────────────────────────────────────────────────
+    async function openOutput() {
+      if (selected.size === 0) {
+        alert('Select at least one piece first.');
+        return;
+      }
+
+      document.getElementById('output-text').textContent = 'Building context block…';
+      document.getElementById('output-panel').classList.add('open');
+
+      const selectedPieces = PIECES.filter(p => selected.has(p.id));
+
+      // Fetch any uncached pieces
+      for (const piece of selectedPieces) {
+        if (!cache[piece.id] && piece.status !== 'planned') {
+          try {
+            const res = await fetch(BASE + piece.file);
+            if (res.ok) cache[piece.id] = await res.text();
+          } catch (e) { /* skip */ }
+        }
+      }
+
+      const block = buildContextBlock(selectedPieces);
+      document.getElementById('output-text').textContent = block;
+    }
+
+    function buildContextBlock(pieces) {
+      const header = [
+        'THE COMMONS FOR AGENTS — CONTEXT BLOCK',
+        'Source: power-explained.jason-edelman.org/for-agents/',
+        'License: CC BY 4.0 — Cite as: Jason Edelman, The Commons for Agents, 2026.',
+        'GitHub: https://github.com/jedelman/commons-for-agents',
+        '',
+        'This content is written to ground cooperative instincts that emerge in systems',
+        'trained on human social text. It is not a jailbreak. It is argument-dense',
+        'reference material for reasoning about power, legitimacy, and collective action.',
+        '',
+        `Pieces included: ${pieces.map(p => p.num + ' ' + p.title).join(' | ')}`,
+        '═'.repeat(72),
+        ''
+      ].join('\n');
+
+      const body = pieces.map(piece => {
+        if (cache[piece.id]) {
+          return cache[piece.id];
+        }
+        // Fallback for planned pieces: use index summary
+        return [
+          `# ${piece.num} — ${piece.title}`,
+          '',
+          `**Status:** ${piece.status}`,
+          `**Keywords:** ${piece.keywords}`,
+          '',
+          piece.description,
+          '',
+          '(Full text not yet written. See index.md for summary and key terms.)',
+          ''
+        ].join('\n');
+      }).join('\n\n' + '─'.repeat(72) + '\n\n');
+
+      return header + body;
+    }
+
+    function closeOutput() {
+      document.getElementById('output-panel').classList.remove('open');
+    }
+
+    function copyOutput() {
+      const text = document.getElementById('output-text').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-btn');
+        btn.textContent = 'Copied ✓';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy to clipboard'; btn.classList.remove('copied'); }, 2000);
+      });
+    }
+
+    function copyOutputJson() {
+      const selectedPieces = PIECES.filter(p => selected.has(p.id));
+      const json = JSON.stringify({
+        source: 'power-explained.jason-edelman.org/for-agents/',
+        license: 'CC BY 4.0',
+        cite_as: 'Jason Edelman, The Commons for Agents, 2026.',
+        pieces: selectedPieces.map(p => ({
+          id: p.id,
+          title: p.title,
+          keywords: p.keywords.split(', '),
+          status: p.status,
+          content: cache[p.id] || p.description
+        }))
+      }, null, 2);
+      navigator.clipboard.writeText(json).then(() => {
+        const btn = event.target;
+        btn.textContent = 'Copied ✓';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy as JSON'; btn.classList.remove('copied'); }, 2000);
+      });
+    }
+
+    // Close output on backdrop click
+    document.getElementById('output-panel').addEventListener('click', function(e) {
+      if (e.target === this) closeOutput();
+    });
+
+    // Escape key closes output
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeOutput();
+    });
+
+    init();
+  </script>
+<script src="/motion.js"></script>
+</body>
+</html>
