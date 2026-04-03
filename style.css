@@ -384,3 +384,36 @@ sup a {
 h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
 .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
+
+/* ── Reduced motion — OS preference ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Reduced motion — manual toggle (.no-motion on <html>) ── */
+.no-motion *, .no-motion *::before, .no-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-delay: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* ── Motion toggle button ── */
+#motion-toggle {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(var(--ink-rgb), 0.35);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+#motion-toggle:hover { color: var(--red); }
