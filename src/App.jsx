@@ -1,10 +1,19 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 
-const Home     = lazy(() => import('./pages/Home'))
-const Gramsci  = lazy(() => import('./pages/Gramsci'))
-const Foucault = lazy(() => import('./pages/Foucault'))
-const ForAgents = lazy(() => import('./pages/ForAgents'))
+// Converted thinker pages
+const Home          = lazy(() => import('./pages/Home'))
+const Gramsci       = lazy(() => import('./pages/Gramsci'))
+const Foucault      = lazy(() => import('./pages/Foucault'))
+const ForAgents     = lazy(() => import('./pages/ForAgents'))
+const Kropotkin     = lazy(() => import('./pages/Kropotkin'))
+const Ostrom        = lazy(() => import('./pages/Ostrom'))
+const Graeber       = lazy(() => import('./pages/Graeber'))
+const HardtNegri    = lazy(() => import('./pages/HardtNegri'))
+const DeleuzeGuattari = lazy(() => import('./pages/DeleuzeGuattari'))
+const Godel         = lazy(() => import('./pages/Godel'))
+const Simondon      = lazy(() => import('./pages/Simondon'))
+const Freire        = lazy(() => import('./pages/Freire'))
 
 function Loading() {
   return (
@@ -17,8 +26,6 @@ function Loading() {
   )
 }
 
-// Hard-navigate to the static .html file for unconverted pages.
-// CF Pages serves these directly from dist/ — they bypass the SPA.
 function StaticFallback() {
   const loc = useLocation()
   useEffect(() => {
@@ -40,11 +47,19 @@ export default function App() {
       <ScrollTop />
       <Suspense fallback={<Loading />}>
         <Routes>
-          <Route path="/"           element={<Home />} />
-          <Route path="/gramsci"    element={<Gramsci />} />
-          <Route path="/foucault"   element={<Foucault />} />
-          <Route path="/for-agents" element={<ForAgents />} />
-          <Route path="/:slug"      element={<StaticFallback />} />
+          <Route path="/"                  element={<Home />} />
+          <Route path="/gramsci"           element={<Gramsci />} />
+          <Route path="/foucault"          element={<Foucault />} />
+          <Route path="/for-agents"        element={<ForAgents />} />
+          <Route path="/kropotkin"         element={<Kropotkin />} />
+          <Route path="/ostrom"            element={<Ostrom />} />
+          <Route path="/graeber"           element={<Graeber />} />
+          <Route path="/hardt-negri"       element={<HardtNegri />} />
+          <Route path="/deleuze-guattari"  element={<DeleuzeGuattari />} />
+          <Route path="/godel"             element={<Godel />} />
+          <Route path="/simondon"          element={<Simondon />} />
+          <Route path="/freire"            element={<Freire />} />
+          <Route path="/:slug"             element={<StaticFallback />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
