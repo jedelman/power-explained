@@ -1,0 +1,303 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = []
+
+export default function BuildTheCommons() {
+  return (
+    <Layout
+      title="Build the Commons — Power Explained"
+      description="You don't have to wait. Community land trusts, energy cooperatives, mutual aid networks, food co-ops — the commons is being built right now. Here's how to find one and how to start one."
+      seriesTag="Tools"
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          
+          <h1 dangerouslySetInnerHTML={{ __html: `Build<br />the Commons` }} />
+          <p className="hero-dek">You don't have to wait. The commons is being built right now, in every domain where people decided to stop waiting. Here's how to find one, join one, or start one in your city.</p>
+          
+        </div>
+      </div>
+
+      <ArticleWrap>
+        
+        <div className="body-text">
+          
+          <div dangerouslySetInnerHTML={{ __html: `<!-- DIY TRACK -->
+<div class="track active" id="track-diy">
+<p>The commons isn't a future project. It's infrastructure that already exists — usually underfunded, often invisible in mainstream political conversation, and almost always looking for people who want to be involved. This is organized by domain. Find your entry point, then go deep.</p>
+<div class="theory-note">
+<span class="theory-note-label">Why this matters</span>
+<p>Every commons institution you find or build is a place where people who depend on a resource have a say in how it's governed. That's the structural alternative to both private extraction and distant state administration. The theory is in <a class="xl" href="hardin-was-wrong.html">Hardin Was Wrong</a> and <a class="xl" href="the-commons-they-never-stopped-building.html">The Commons They Never Stopped Building</a>. This page is the practical counterpart.</p>
+</div>
+<!-- Housing -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">01</span>
+<h2>Housing</h2>
+</div>
+<p class="domain-tagline">Land permanently removed from the speculative market.</p>
+<p>Community land trusts (CLTs) separate the ownership of land from the ownership of housing built on it. The trust holds the land permanently; residents own or rent the homes. Because land isn't speculating, neither is the housing. Units stay affordable across decades without ongoing subsidy — not because of good intentions but because the structure prevents extraction. There are over 300 CLTs in the US right now. <a class="xl" href="build-it-now.html">They work.</a></p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>The Grounded Solutions Network maintains the national CLT directory. Search by city or zip code.</p>
+<p>Also look for: limited-equity housing cooperatives, community development financial institutions (CDFIs) with housing programs, and resident-owned manufactured housing communities.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://groundedsolutions.org/strengthening-neighborhoods/community-land-trusts/clt-database" rel="noopener" target="_blank">Grounded Solutions CLT directory</a></li>
+<li><a class="xl" href="https://ncb.coop" rel="noopener" target="_blank">NCB: housing cooperative locator</a></li>
+<li><a class="xl" href="https://www.rocc.coop" rel="noopener" target="_blank">ROC USA: resident-owned communities</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>CLTs usually start with a coalition of housing advocates, an anchor nonprofit, and a willing local government partner. The model is well-documented and replicable.</p>
+<p>Grounded Solutions offers technical assistance. The Burlington CLT (now Champlain Housing Trust) is the canonical model — started with $200K from city government in 1984, now holds 650+ permanently affordable units.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://groundedsolutions.org" rel="noopener" target="_blank">Grounded Solutions: CLT start-up resources</a></li>
+<li><a class="xl" href="https://www.lincolninst.edu" rel="noopener" target="_blank">Lincoln Institute of Land Policy: CLT toolkit</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Energy -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">02</span>
+<h2>Energy</h2>
+</div>
+<p class="domain-tagline">Power at cost, governed by the people who use it.</p>
+<p>Rural electric cooperatives already power 56% of US land area — a New Deal-era commons that most people have forgotten is a commons. Community energy cooperatives and municipal utilities bring the same logic to generation: produce power for members at cost, reinvest surpluses locally, make governance decisions through member democracy rather than shareholder return. <a class="xl" href="the-commons-they-never-stopped-building.html">The infrastructure already exists in most of the country.</a></p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>If you're outside a major city, you may already be served by a rural electric cooperative. Check your electric bill — if it says "co-op" or "cooperative" anywhere, you're a member.</p>
+<p>For community solar and energy co-ops: the Energy Democracy Alliance and CESA maintain maps of community energy projects.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.electric.coop" rel="noopener" target="_blank">NRECA: find your electric cooperative</a></li>
+<li><a class="xl" href="https://energydemocracyalliance.org" rel="noopener" target="_blank">Energy Democracy Alliance</a></li>
+<li><a class="xl" href="https://www.cleanegroup.org/cesa" rel="noopener" target="_blank">CESA: community solar map</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>Community energy co-ops typically start by aggregating demand — pooling buying power for solar installations or community wind projects before moving to ownership.</p>
+<p>The Energy Democracy Alliance provides organizing support. Mosaic Power and Cooperative Energy Futures are models for urban community energy cooperatives.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://cooperativeenergyfutures.com" rel="noopener" target="_blank">Cooperative Energy Futures: urban co-op model</a></li>
+<li><a class="xl" href="https://institute.coop/community-energy-co-ops" rel="noopener" target="_blank">Democracy at Work Institute: energy co-op guide</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Food -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">03</span>
+<h2>Food</h2>
+</div>
+<p class="domain-tagline">Food through relationships rather than supply chains.</p>
+<p>Food co-ops, community gardens, seed libraries, food forests, and community-supported agriculture all do the same basic thing: route food through relationships rather than markets. This keeps more value local, gives more control to people doing the eating, and builds the relational infrastructure that mutual aid runs on. The food system is a commons waiting to be rebuilt almost everywhere.</p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>The National Cooperative Grocers Association maintains a directory of food cooperatives. For community gardens and urban farms: most cities have a parks department or urban agriculture program that maps them.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.ncga.coop/food-coops-in-your-area" rel="noopener" target="_blank">NCGA: food co-op locator</a></li>
+<li><a class="xl" href="https://www.communitygarden.org" rel="noopener" target="_blank">American Community Gardening Association</a></li>
+<li><a class="xl" href="https://www.localharvest.org" rel="noopener" target="_blank">LocalHarvest: CSAs and co-ops near you</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>Food co-ops usually start as buying clubs — a small group pooling orders directly from distributors or farms. The NCGA's "How to Start a Food Co-op" guide covers the full pathway from buying club to storefront.</p>
+<p>Community gardens typically need: a willing landlord (often a city parks department), liability insurance, and about fifteen committed people to start.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.ncga.coop/shared-resources/starting-a-food-coop" rel="noopener" target="_blank">NCGA: how to start a food co-op</a></li>
+<li><a class="xl" href="https://institute.coop" rel="noopener" target="_blank">Democracy at Work Institute: co-op development</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Finance -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">04</span>
+<h2>Finance</h2>
+</div>
+<p class="domain-tagline">Member-owned money that stays in the community.</p>
+<p>Credit unions are member-owned financial cooperatives. They charge lower fees, pay higher savings rates, make lending decisions based on community needs rather than shareholder returns, and are structurally incapable of the behavior that caused the 2008 financial crisis. 130 million Americans belong to one. Moving your money from a bank to a credit union is one of the most direct personal acts of preferring cooperative ownership to extraction. <a class="xl" href="two-ways-to-fix-a-pothole.html">It takes about twenty minutes.</a></p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>Credit Union Finder searches by location and field of membership. Community Development Credit Unions (CDCUs) specifically serve low-income communities — they're worth seeking out if you're in an underbanked area.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.ncua.gov/consumers/credit-union-locator" rel="noopener" target="_blank">NCUA: credit union locator</a></li>
+<li><a class="xl" href="https://www.cdfi.org" rel="noopener" target="_blank">CDFI Fund: community development lenders</a></li>
+<li><a class="xl" href="https://www.inclusiv.org/find-a-credit-union" rel="noopener" target="_blank">Inclusiv: CDCUs serving underserved communities</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>Starting a credit union requires a charter from the NCUA, a defined field of membership (a neighborhood, employer, union, affinity group), and a founding group of at least five people with startup capital. The NCUA's "Starting a Credit Union" guide walks through every step.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.ncua.gov/regulation-supervision/chartering-field-membership/charter-new-credit-union" rel="noopener" target="_blank">NCUA: how to charter a credit union</a></li>
+<li><a class="xl" href="https://www.inclusiv.org" rel="noopener" target="_blank">Inclusiv: CDCU organizing support</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Labor / Worker Co-ops -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">05</span>
+<h2>Work</h2>
+</div>
+<p class="domain-tagline">Businesses owned by the people who work in them.</p>
+<p>Worker cooperatives are businesses where workers own and govern the enterprise. They don't eliminate markets or competition, but they change the internal logic of the firm: decisions are made by workers, surpluses are distributed to workers, and closing or relocating requires a vote of the people it most affects. The Mondragon cooperatives in the Basque Country are the largest example — but there are over 800 worker co-ops operating in the US right now, across every industry. <a class="xl" href="who-gets-paid.html">Who captures the value you produce matters.</a></p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>The USFWC maintains the most complete directory of US worker cooperatives. You can search by industry, city, and size.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.usfwc.org/find-a-co-op" rel="noopener" target="_blank">USFWC: worker co-op directory</a></li>
+<li><a class="xl" href="https://institute.coop/resources/looking-work-cooperative" rel="noopener" target="_blank">DAWI: find co-op employment</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>The Democracy at Work Institute (DAWI) provides technical assistance for new worker co-ops, including business conversions — transitioning an existing business to worker ownership when the current owner retires. This is one of the fastest-growing entry points.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://institute.coop" rel="noopener" target="_blank">Democracy at Work Institute</a></li>
+<li><a class="xl" href="https://www.usfwc.org/start-a-worker-co-op" rel="noopener" target="_blank">USFWC: start a worker co-op</a></li>
+<li><a class="xl" href="https://www.project-equity.org" rel="noopener" target="_blank">Project Equity: business-to-co-op conversions</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Mutual Aid / Care -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">06</span>
+<h2>Care &amp; Mutual Aid</h2>
+</div>
+<p class="domain-tagline">Organized solidarity, not managed charity.</p>
+<p><a class="xl" href="mutual-aid-isnt-charity.html">Mutual aid is different from charity.</a> It's horizontal — people who share a condition or geography supporting each other, not a nonprofit managing the poor. It builds relationships and political capacity, not just services. It operated everywhere before the welfare state and is being rebuilt everywhere the welfare state is failing. The pandemic mutual aid networks that formed in 2020 are still running in most cities.</p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>Mutual Aid Hub has the most comprehensive searchable map of mutual aid networks in the US. Dean Spade's Big Door Brigade directory is also worth checking for older, more established networks.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.mutualaidhub.org" rel="noopener" target="_blank">Mutual Aid Hub: find a network near you</a></li>
+<li><a class="xl" href="https://bigdoorbrigade.com" rel="noopener" target="_blank">Big Door Brigade: mutual aid directory</a></li>
+<li><a class="xl" href="https://www.who-gives-a-care.org" rel="noopener" target="_blank">Care co-op locator</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>You don't need infrastructure to start. Start with: what do people in your immediate geography need, and what can you actually provide? A group chat, a shared spreadsheet for matching needs and offers, and a commitment to showing up consistently is a mutual aid network.</p>
+<p>Dean Spade's <em>Mutual Aid: Building Solidarity During This Crisis (and the Next)</em> is the practical guide. Free download available from Verso Books.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.mutualaidhub.org/resources" rel="noopener" target="_blank">Mutual Aid Hub: organizing resources</a></li>
+<li><a class="xl" href="https://www.versobooks.com/books/3847-mutual-aid" rel="noopener" target="_blank">Dean Spade: Mutual Aid (free download)</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Knowledge / Tech -->
+<div class="domain">
+<div class="domain-header">
+<span class="domain-num">07</span>
+<h2>Knowledge &amp; Technology</h2>
+</div>
+<p class="domain-tagline">Infrastructure that can't be enclosed because it already belongs to everyone.</p>
+<p>Open source software, Creative Commons content, Wikipedia, public libraries, open data portals — the knowledge commons is vast and constantly contested. The fight over who controls AI training data, who owns genomic research, who can patent seeds, who can publish science — these are all the same fight as who owns the land. <a class="xl" href="open-data-isnt-enough.html">Open data is necessary but not sufficient.</a> The governance model matters as much as the openness.</p>
+<div class="two-col">
+<div class="col-card">
+<span class="col-label">Find one</span>
+<p>Your public library is a commons. It is also, right now, under sustained attack by privatization advocates and book banning campaigns. Show up for it. Tool libraries, seed libraries, repair cafes, and open source software projects are all in the same category: shared infrastructure governed for common benefit.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://www.shareable.net/how-to-start-a-tool-lending-library" rel="noopener" target="_blank">Shareable: how to start a tool library</a></li>
+<li><a class="xl" href="https://www.seedlibraries.net" rel="noopener" target="_blank">Seed Libraries: find and join one</a></li>
+<li><a class="xl" href="https://repaircafe.org/en/visit" rel="noopener" target="_blank">Repair Café: find one near you</a></li>
+</ul>
+</div>
+<div class="col-card">
+<span class="col-label">Start one</span>
+<p>Open source contributions, Wikipedia editing, Creative Commons licensing for your own work, and supporting open access publishing are all acts of building the knowledge commons. They compound. A seed library can start in a library branch with a mason jar and a volunteer to tend it.</p>
+<ul class="link-list">
+<li><a class="xl" href="https://creativecommons.org/choose" rel="noopener" target="_blank">Creative Commons: license your work</a></li>
+<li><a class="xl" href="https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia" rel="noopener" target="_blank">Wikipedia: how to contribute</a></li>
+<li><a class="xl" href="https://www.seedlibraries.net/start-a-seed-library" rel="noopener" target="_blank">How to start a seed library</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div><!-- /track-diy -->
+<!-- AGENT TRACK -->
+<div class="track" id="track-agent">
+<p>Give this to an AI research agent to map the commons infrastructure already operating in your city. The output is a structured inventory — what exists, where, and what gaps are most critical to fill.</p>
+<div class="how-to">
+<div class="how-to-header">
+<span class="how-to-label">Before you run</span>
+</div>
+<div class="how-to-body">
+<ol>
+<li>Give the agent web search access. Most of this data is in national directories, local nonprofit filings, and city government databases.</li>
+<li>Tell the agent to report gaps with the same specificity as findings. What's missing is as informative as what exists.</li>
+<li>The output is most useful if you then share it with a local organizer. An agent can map infrastructure; it can't tell you which relationships are healthy and which are hollow.</li>
+</ol>
+</div>
+</div>
+<div class="prompt-box">
+<span class="prompt-label">Pasteable agent prompt</span>
+<button class="copy-btn" id="copy-prompt-btn" onclick="copyPrompt()">Copy</button>
+<div class="prompt-text" id="prompt-content">You are a researcher mapping commons infrastructure in a city. Your job is to produce a structured inventory of cooperative and commons institutions currently operating in the city — organized by domain — and identify which gaps are most critical to fill.
+
+<span class="prompt-var">City:</span> [CITY NAME, STATE]
+<span class="prompt-var">Research depth:</span> [QUICK (surface-level inventory) / THOROUGH (with organizational details)]
+
+For each of the seven domains below, find and report: (a) institutions currently operating in [CITY], including name, type, size if available, and a one-sentence description; (b) national or regional networks active in [CITY] that could support new institutions; (c) any notable gaps — what exists in most cities that's absent here.
+
+DOMAINS:
+1. Housing commons — community land trusts, limited-equity housing cooperatives, resident-owned manufactured housing communities, social housing projects
+2. Energy commons — electric cooperatives, community solar projects, community energy cooperatives, municipal utilities
+3. Food commons — food cooperatives, community gardens, food forests, community-supported agriculture, seed libraries
+4. Financial commons — credit unions, community development financial institutions (CDFIs), community development credit unions (CDCUs)
+5. Work commons — worker cooperatives, platform cooperatives, cooperative conversions of existing businesses
+6. Care and mutual aid — mutual aid networks, care cooperatives, tenant unions, time banks
+7. Knowledge commons — tool libraries, repair cafes, seed libraries, open data projects, community broadband initiatives
+
+SOURCES to check for each domain:
+- Housing: cltnetwork.org, groundedsolutions.org, ncb.coop, rocc.coop
+- Energy: electric.coop, energydemocracyalliance.org, CESA community solar map
+- Food: ncga.coop/food-coops-in-your-area, localharvest.org, communitygarden.org
+- Finance: ncua.gov credit union locator, inclusiv.org, cdfi.org
+- Work: usfwc.org/find-a-co-op, institute.coop
+- Care/mutual aid: mutualaidhub.org, bigdoorbrigade.com
+- Knowledge: repaircafe.org, seedlibraries.net, city open data portal
+
+SYNTHESIS
+After completing all seven domains, write a 150–200 word synthesis that:
+- Identifies which domains have strong existing infrastructure in [CITY]
+- Identifies which domains have critical gaps
+- Names 1–2 national organizations most positioned to support gap-filling in [CITY]
+- Recommends which domain is the highest-leverage starting point for organizing (consider: population need, existing capacity, and replicability)
+
+Flag when you can't find something. Absence of information about a domain in a city is itself a finding.</div>
+</div>
+<div class="theory-note">
+<span class="theory-note-label">Why this matters</span>
+<p>The commons inventory is the productive counterpart to the power analysis in <a class="xl" href="your-city.html">Your City</a>. The power analysis maps the capture structure. This maps the substrate that capture depends on but can't produce — and where the alternatives are already being built. Together, the two briefs tell you where you are and where the leverage is. The theory is in <a class="xl" href="the-outside-capital-needs.html">The Outside Capital Needs</a> and <a class="xl" href="hardin-was-wrong.html">Hardin Was Wrong</a>.</p>
+</div>
+</div><!-- /track-agent -->` }} />
+        </div>
+        
+        
+        
+        <ArticleFooter seriesNote="" />
+      </ArticleWrap>
+    </Layout>
+  )
+}

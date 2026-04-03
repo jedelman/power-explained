@@ -1,0 +1,85 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = []
+
+export default function WhyYourCityDoesntWork() {
+  return (
+    <Layout
+      title="Why Your City Doesn't Work — Power Explained"
+      description="Cities seem to fail despite good intentions. That's not a coincidence. It's structural — and understanding why is the first step to doing anything real about it."
+      seriesTag=""
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          
+          <h1 dangerouslySetInnerHTML={{ __html: `Why Your City Doesn't Work<br />(and Why It's Not an Accident)` }} />
+          
+          
+        </div>
+      </div>
+
+      <ArticleWrap>
+        
+        <div className="body-text">
+          
+          <div dangerouslySetInnerHTML={{ __html: `<p>You went to the meeting. Maybe you even spoke. The council members nodded. A staff person wrote something down. The decision went ahead anyway, exactly as planned before you walked in the door.</p>
+<p>Or maybe you didn't bother with the meeting, because you already knew how it would go. You've seen this before. The rent keeps going up. The park got sold. The bus route got cut. The new development went through. And the people who made those decisions will tell you, with a straight face, that they care deeply about the community.</p>
+<p>Some of them are lying. But a lot of them aren't.</p>
+<p>That's the part that's hard to sit with. The problem isn't just that the wrong people are in charge. It's that <strong>the system produces these outcomes regardless of who's in charge.</strong> Understanding that is the first step to doing anything real about it.</p>
+<h2>The template is the problem</h2>
+<p>Every city — and every large organization — runs on a template for how decisions get made. The template looks roughly like this: a small group at the top sets priorities. Managers in the middle figure out how to carry them out. Workers at the bottom do the actual work. Information flows up. Orders flow down.</p>
+<p>This is called a command structure, and it's not unique to cities. It's how the military works. It's how most corporations work. It's how most governments work. We've used it for so long that it can feel like the only way to run something complicated.</p>
+<p>But the command structure has a specific set of failure modes. They're not random. They show up, predictably, every time you use this template at scale.</p>
+<div class="failure-grid">
+<div class="failure-item">
+<span class="failure-word">Complex</span>
+<span class="failure-desc">Decisions pile up at the top. Nobody can process everything. So shortcuts get taken, details get lost, and nobody has the full picture.</span>
+</div>
+<div class="failure-item">
+<span class="failure-word">Opaque</span>
+<span class="failure-desc">The people making decisions don't have time to explain them. The people affected don't have access to the reasoning. Everything gets harder to see.</span>
+</div>
+<div class="failure-item">
+<span class="failure-word">Disjointed</span>
+<span class="failure-desc">Departments develop their own priorities, fight over the same budget, and stop talking to each other. The left hand doesn't know what the right hand is doing.</span>
+</div>
+</div>
+<p>Sound familiar? That's because you've seen all three. In your city. In your workplace. In most large institutions you've ever dealt with.</p>
+<p>These aren't failures of the people running the system. They're <strong>outputs of the system itself.</strong> You can replace every elected official and every department head, and within a few years you'll have the same three problems with new faces attached.</p>
+<div class="pull">
+<p>The template produces the outcomes.<br/><strong>The players just run the template.</strong></p>
+</div>
+<h2>Why good people produce bad results</h2>
+<p>Let's take the most charitable possible view of your city council. Say they genuinely want to do right by everyone. They ran for office because they care. They work long hours. They read the reports.</p>
+<p>Here's what they're up against.</p>
+<p>A city of any real size is producing more information every day than any small group of people can process. Which streets need repair and why. Which neighborhoods are losing businesses and which are gaining them. Which schools are struggling and what the teachers in those buildings actually think is going wrong. Which residents are being squeezed out and where they're going. The full picture of a city is immense, constantly changing, and mostly invisible from any single vantage point.</p>
+<p>Your council members don't live on every block. They don't ride every bus route. They don't know what it's like to need childcare in your zip code, or to navigate the permitting office, or to wait three years for a housing voucher. They get summaries. They get reports. They get the version of reality that fits in a presentation.</p>
+<p>Meanwhile, the people who <em>do</em> have that ground-level knowledge — the residents, the workers, the people directly affected — have almost no way to get it into the decision-making process. You can go to a meeting and make a three-minute comment. You can vote every few years. That's mostly it.</p>
+<p>So the people with the power don't have the information. And the people with the information don't have the power. This isn't a design flaw. <strong>It's the design.</strong></p>
+<h2>Who benefits from confusion</h2>
+<p>Complexity, opacity, and fragmentation aren't just inconvenient for residents. They're very useful for anyone who wants to influence city decisions without public scrutiny.</p>
+<p>When a process is complicated enough, most people give up trying to follow it. When it's opaque enough, deals can be made without anyone noticing. When departments are fragmented enough, a well-connected developer or contractor can work each one separately — playing them off each other, knowing where the real decisions happen — while ordinary residents are still trying to figure out which meeting to attend.</p>
+<p>The people with money and connections navigate the complexity just fine. The template that makes things hard for you makes things easy for them. That's not a conspiracy. Nobody had to design it that way. It just requires a system with these properties to exist — and for the people who benefit from it to have more resources to maintain it than the people who don't.</p>
+<div class="callout">
+<span class="callout-label">The test</span>
+<p>When something in your city feels natural, inevitable, or too complicated to change — ask one question: <strong>who benefits from you believing that?</strong></p>
+<p><a class="xl" href="gramsci.html">"This is just how it works" is always doing work on behalf of someone.</a></p>
+</div>
+<h2>So what do you do with this</h2>
+<p>The point of understanding the template isn't to feel hopeless. It's to stop directing your energy at the wrong targets.</p>
+<p>Voting out a bad mayor matters. Holding officials accountable matters. But if the template stays the same, the new mayor will face the same pressures, the same information gaps, the same structural incentives — and produce a lot of the same outcomes. You'll be back in the same meeting in four years, wondering what happened.</p>
+<p>The deeper work is changing the template. That means building different ways for local knowledge to reach decisions. It means creating processes where the people closest to a problem have real power to address it — not just the power to complain about it. It means designing systems that get smarter over time instead of more opaque.</p>
+<p>None of that is quick. None of it runs on outrage. It requires the kind of patient, unglamorous work that doesn't get covered on the news.</p>
+<p>But it's the work that actually changes things. And it's already happening — in cities where residents have real budget control over their neighborhoods, in places where open data means anyone can see what the city is actually doing, in communities that have stopped waiting for permission to fix their own problems.</p>
+<p>The template isn't permanent. It just has a head start.</p>` }} />
+        </div>
+        
+        
+        
+        <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
+      </ArticleWrap>
+    </Layout>
+  )
+}

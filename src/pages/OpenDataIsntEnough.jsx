@@ -1,0 +1,97 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = []
+
+export default function OpenDataIsntEnough() {
+  return (
+    <Layout
+      title="Open Data Isn't Enough — Power Explained"
+      description="Your city publishes its data. You can look at it. Nothing changes. Here's why transparency without participation is just a better-looking black box."
+      seriesTag=""
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          
+          <h1 dangerouslySetInnerHTML={{ __html: `Open Data Isn't Enough` }} />
+          
+          
+        </div>
+      </div>
+
+      <ArticleWrap>
+        
+        <div className="body-text">
+          
+          <div dangerouslySetInnerHTML={{ __html: `<p>A few years ago, cities got very excited about open data. They built portals. They published spreadsheets. They hired open data coordinators and held hackathons and gave TED talks about government transparency.</p>
+<p>Some of it was genuinely useful. Some of it still is.</p>
+<p>But here's what happened in most cities: the data went up. Journalists and researchers dug into it. Occasionally a story ran. Occasionally a council member expressed concern. The underlying thing the data revealed — the pattern of neglect, the inequity in service delivery, the money flowing to the same contractors year after year — mostly continued.</p>
+<p>The data was visible. The decisions weren't touched.</p>
+<p>This isn't a mystery. It's the difference between being able to see a system and being able to change it.</p>
+<h2>Seeing is not the same as doing</h2>
+<p>Imagine you can watch every move in a chess game — but you're not one of the players. You can see the bad moves. You can see the strategy unfolding. You might even be able to predict what happens next. But you can't touch the board.</p>
+<p>That's what transparency without participation looks like. You get information. You don't get agency.</p>
+<p>Open data, at its best, gives citizens a clearer view of the board. That's not nothing — a clearer view is better than a foggy one, and it can create political pressure that eventually moves things. But pressure from outside a system is much weaker than participation inside it. A city that publishes its pothole data but routes all repair decisions through a central department hasn't changed who controls the board. It's just let you watch more closely.</p>
+<div class="pull">
+<p>Transparency tells you <strong>what happened.</strong><br/>Participation lets you change<br/><strong>what happens next.</strong></p>
+</div>
+<h2>The question open data doesn't answer</h2>
+<p>Every dataset has a question baked into it that most people don't think to ask: <em>who decides what gets done with this?</em></p>
+<p>Your city publishes response times for service requests. Great. Who decides whether slow response times in certain neighborhoods get addressed? Not you. The data shows the problem. The decision about whether to fix it belongs to someone else.</p>
+<p>Your city publishes building permit records. Useful. Who decides whether a pattern of permits in a neighborhood signals something worth investigating? A planner, maybe. A journalist if you're lucky. You get to read about it afterward.</p>
+<p>Your city publishes budget expenditures. Informative. Who decides how next year's money gets allocated? The council, with input from departments, shaped by lobbyists and longtime relationships and the political cost of changing anything. The spreadsheet you downloaded doesn't vote.</p>
+<p>The data shows you what's happening. <strong>The routing architecture determines what happens next.</strong> Open data reforms the first part. It mostly leaves the second part alone.</p>
+<h2>What open actually means</h2>
+<p>In software, "open" means something more specific than "visible." Open source code isn't just code you can read. It's code you can run, modify, and improve. The openness isn't just about transparency — it's about participation. Anyone can find a bug. Anyone can propose a fix. Anyone can build on what exists.</p>
+<p>That's a fundamentally different relationship to information than publishing a dataset and hoping someone writes a story about it.</p>
+<div class="contrast">
+<div class="contrast-col">
+<span class="contrast-label">Transparency (what most cities do)</span>
+<ul>
+<li>Data is published for viewing</li>
+<li>Citizens can see what happened</li>
+<li>Errors require a formal request to correct</li>
+<li>Patterns require a journalist to surface</li>
+<li>Decisions still made centrally</li>
+<li>Accountability depends on political pressure</li>
+</ul>
+</div>
+<div class="contrast-col">
+<span class="contrast-label">Participation (what open actually means)</span>
+<ul>
+<li>Data is open for contributing</li>
+<li>Citizens can see <em>and add to</em> what's happening</li>
+<li>Errors can be flagged or corrected directly</li>
+<li>Patterns surface from the people who live them</li>
+<li>Some decisions made by the people closest to them</li>
+<li>Accountability built into the process, not bolted on</li>
+</ul>
+</div>
+</div>
+<p>The difference isn't cosmetic. A system where citizens can contribute information — not just consume it — produces different data. It captures things the official systems miss: the flooding that happens at 2am and drains before anyone from the city arrives, the harassment that goes unreported because the reporting process is itself intimidating, the informal economy that keeps a neighborhood running but never appears in any official count.</p>
+<p>And a system where some decisions belong to the people with direct knowledge — not just advisory input, but real authority over defined things — produces different outcomes. Not always better ones. But different ones, informed by people who actually have to live with the consequences.</p>
+<h2>Who benefits from transparency theater</h2>
+<p>There's a reason most open data reforms stop at visibility and don't touch participation.</p>
+<p>Visibility is cheap to provide and hard to act on. Publishing a dataset costs relatively little. It generates goodwill. It satisfies reformers who can point to it as progress. And crucially, it doesn't change who makes decisions. The people currently controlling those decisions — department heads, longtime contractors, council members with established relationships — don't have to give anything up.</p>
+<p>Real participation costs something. It means sharing authority. It means some decisions getting made differently than they would have been. It means established interests competing with people who previously had no seat at the table. That's why it's rare, and why it usually requires sustained pressure to achieve — not just a hackathon and a data portal launch.</p>
+<div class="callout">
+<span class="callout-label">How to tell the difference</span>
+<p>When your city announces an open data or transparency initiative, the question to ask is simple: <strong>can citizens change anything, or just see it?</strong></p>
+<p>Can residents flag errors in city records and have them corrected? Can neighborhoods add information the city doesn't collect? Can a community group with a track record get direct authority over a piece of the budget or a category of local decisions?</p>
+<p>If the answer to all of those is no — if the initiative is purely about visibility — it's transparency theater. Worth something. Not worth confusing with change.</p>
+</div>
+<h2>The routing question</h2>
+<p>Every system has a routing architecture — a set of rules about what connects to what, who can do what, where things go after they happen. Content flows through that architecture. The architecture shapes everything content can do.</p>
+<p>Open data changes the content. You can see more. You know more. But if the routing stays the same — if all decisions still travel the same channels, get made by the same people, run through the same processes — the content you can now see will mostly produce the same outcomes it always has, just with better documentation.</p>
+<p>The harder, more important work is changing the routing. Which decisions get made where. Who has authority over what. How local knowledge actually reaches the people responsible for acting on it. How communities build track records that earn them real authority over things that directly affect them.</p>
+<p>That's not a data problem. That's a power problem. And data, however open, doesn't solve it on its own.</p>` }} />
+        </div>
+        
+        
+        
+        <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
+      </ArticleWrap>
+    </Layout>
+  )
+}

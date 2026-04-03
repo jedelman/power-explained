@@ -1,0 +1,63 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = []
+
+export default function WhichWomen() {
+  return (
+    <Layout
+      title="Which Women — Power Explained"
+      description="Angela Davis showed what happens when feminist analysis uses 'women' as if it describes everyone equally. It doesn't. And the movement that didn't ask that question made choices it can't take back."
+      seriesTag="The Hidden Engine — Series II"
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          
+          <h1 dangerouslySetInnerHTML={{ __html: `Which Women` }} />
+          
+          
+        </div>
+      </div>
+
+      <ArticleWrap>
+        
+        <div className="body-text">
+          
+          <div dangerouslySetInnerHTML={{ __html: `<p>Angela Davis begins <em>Women, Race &amp; Class</em> with a scene from the early American women's suffrage movement. White suffragists have been working alongside abolitionists — fighting both for the end of slavery and for women's right to vote. Then the Fifteenth Amendment passes — the 1870 amendment to the U.S. Constitution that gave Black men the right to vote — and something breaks.</p>
+<p>Leading white suffragists — women who had spoken at antislavery conventions, who had claimed solidarity with enslaved people — publicly oppose the amendment. They argue that it is obscene for Black men to vote while white women cannot. Some make explicitly racist arguments. The movement splits, and a significant strand of it chooses white womanhood over Black freedom.</p>
+<p>Davis didn't analyze this from a distance. In 1970, after she was identified as a Communist Party member and Black liberation activist, the FBI placed her on their Most Wanted list. She was arrested, charged with conspiracy, kidnapping, and murder — charges that carried the death penalty in California. An international campaign demanded her freedom. She was acquitted of all charges in 1972. She went on to become a professor of philosophy and one of the foundational voices for prison abolition. When she writes about the machinery of state violence targeting Black communities, she is describing something she survived.</p>
+<p>Davis's point is not just that these women were racist, though they were. Her point is structural. The choice they made reveals that "women" — as a political category, as a basis for organizing — had a hidden default. When the interests of white women and Black women diverged, the movement chose white women. The universal turned out to be particular all along.</p>
+<h2>Who the system actually targeted</h2>
+<p>To understand what's wrong with <a class="xl" href="the-other-and-the-outside.html">de Beauvoir's framework</a> — and with single-axis feminist analysis generally — Davis goes back to slavery. She asks: what was the experience of Black women under this system, and how does it differ from the experience that defines the feminist critique?</p>
+<p>De Beauvoir's analysis is built on the assignment of <a class="xl" href="glossary.html#immanence">immanence</a> — women are relegated to the domestic sphere, to care work, to the body and nature, while men claim transcendence. This is a real arrangement. But it describes the experience of women who were admitted to the domestic sphere.</p>
+<p>Black women under American slavery were not admitted to the domestic sphere. They were not protected by the ideology of feminine fragility and domesticity. They worked in the fields alongside men. They were subject to physical violence without the legal protections that, however inadequate, constrained the treatment of white women. Their bodies were not treated as private and domestic — they were treated as productive and reproductive assets to be managed by the enslaver.</p>
+<p>Enslaved women were expected to reproduce — to produce more enslaved people, whose labor and whose sale generated profit. This is reproductive labor, but it is the opposite of the domestic ideal de Beauvoir analyzed. It is not invisible, unpaid work organized around the needs of a family. It is a form of forced reproduction organized around the needs of capital accumulation.</p>
+<div class="pull">
+        The domestic "protection"<br/>that feminism fought against<br/>was <strong>never offered to everyone.</strong>
+</div>
+<h2>Why single-axis analysis fails</h2>
+<p>When you try to understand oppression using only one category — gender, or race, or class — you get a partial picture that systematically distorts what you're looking at.</p>
+<p>Analyze only gender: you end up with an account of "women's experience" that is actually the experience of relatively privileged women. The specific conditions facing Black women, Indigenous women, poor women, colonized women — conditions shaped by the intersection of multiple systems of domination — are either absent or treated as special cases.</p>
+<p>Analyze only race: you end up with an account of "Black experience" in which the specific conditions facing Black women — who face both racist and sexist systems simultaneously — are marginalized in favor of experiences centered on Black men.</p>
+<p>Analyze only class: you get an account of exploitation that treats race and gender as distractions from the "real" issue, when in fact they are the specific forms that exploitation takes for the majority of people it targets.</p>
+<p>These aren't just theoretical errors. They produce real political consequences. Movements organized around a single axis exclude people at the intersections. Policies designed to address a single axis fail the people most severely harmed by multiple overlapping systems. The analysis shapes the organizing, and the organizing either reaches the people most in need or it doesn't.</p>
+<div class="callout">
+<span class="callout-label">The <a class="xl" href="glossary.html#capture">capture</a> of liberation movements</span>
+<p>Davis's historical analysis reveals a pattern: liberation movements are most vulnerable to capture when they haven't examined the hierarchies operating within them. The suffrage movement was partially captured by racism — white women used the language of liberation to reinforce racial hierarchy. Labor movements were repeatedly captured by excluding workers of color. The pattern is reliable.</p>
+<p>A movement built on an unmarked universal always has a remainder — people who don't fit the default. That remainder is exploitable. It becomes the basis for dividing the movement against itself.</p>
+</div>
+<h2>Toward abolition</h2>
+<p>Davis's later work, <em>Are Prisons Obsolete?</em>, extends this analysis into the present. Prisons in the United States were built on the infrastructure of slavery — this is literal, not metaphorical. The Thirteenth Amendment, which abolished slavery, included an exception for those convicted of crimes. The convict leasing system that replaced formal slavery routed Black people through the criminal legal system and into forced labor for private companies.</p>
+<p>This history shapes the present. The communities most targeted by mass incarceration are the same communities that were most targeted by slavery and its successors. The argument that prisons keep society safe from criminals collapses under scrutiny — crime is produced by poverty and social abandonment, and prisons reproduce and deepen those conditions rather than addressing them.</p>
+<p>The abolitionist argument isn't that there's nothing wrong with individual criminals. It's that prisons are a structural response to a problem they don't actually solve, producing immense harm while failing at their stated purpose. The question is what alternative infrastructure — what systems of care, accountability, mental health support, economic security — would address the conditions that produce harm without warehousing the people most harmed by those conditions.</p>
+<p>That question is the one <a class="xl" href="what-we-do-on-monday.html">the final article in this series</a> is built around. Davis frames it precisely. What comes next is already being built.</p>` }} />
+        </div>
+        
+        
+        
+        <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
+      </ArticleWrap>
+    </Layout>
+  )
+}
