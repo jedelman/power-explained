@@ -1,0 +1,5 @@
+# the-common React app — external redirect
+/the-common https://the-common.netlify.app 301
+
+# for-agents submodule bare path
+/for-agents /for-agents/index.html 200
