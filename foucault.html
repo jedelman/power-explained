@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michel Foucault: Power Is Not a Thing Anyone Holds — Power Explained</title>
+  <meta name="description" content="Foucault didn't ask who has power. He asked how power works — how it gets into the structure of knowledge, institutions, and bodies until it doesn't need to be enforced because it's already been internalized." />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Hero */
+    .hero { background: var(--ink); color: var(--paper); padding: clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem); position: relative; overflow: hidden; }
+    .hero::before {
+      content: 'FOUCAULT';
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      font-family: var(--display); font-size: clamp(4rem, 18vw, 12rem); font-weight: 700;
+      letter-spacing: -0.04em; opacity: 0.05; white-space: nowrap; pointer-events: none;
+      line-height: 1;
+    }
+    .hero-inner { max-width: var(--max); margin: 0 auto; position: relative; }
+    .hero-eyebrow { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.45); display: block; margin-bottom: 1.5rem; }
+    .hero h1 em { font-style: italic; color: rgba(var(--paper-rgb),0.7); }
+    .hero-dek { font-family: var(--display); font-size: clamp(1.1rem,2.8vw,1.45rem); font-style: italic; line-height: 1.55; color: rgba(var(--paper-rgb),0.72); max-width: 560px; border-top: 1px solid rgba(var(--paper-rgb),0.2); padding-top: 1.5rem; margin-top: 0.25rem; }
+    .hero-bio { display: flex; gap: 1.5rem; align-items: flex-start; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid rgba(var(--paper-rgb),0.15); }
+    .bio-dates { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.35); white-space: nowrap; padding-top: 0.15rem; }
+    .bio-line { font-size: 0.9rem; color: rgba(var(--paper-rgb),0.55); line-height: 1.6; }
+
+    /* Contents nav */
+    .contents-nav { border: 1px solid var(--rule-strong); margin: clamp(2rem,5vw,3.5rem) 0 0; }
+    .contents-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); padding: 0.75rem 1.25rem; border-bottom: 1px solid var(--rule); display: block; }
+    .contents-nav ol { list-style: none; }
+    .contents-nav li { border-bottom: 1px solid var(--rule); }
+    .contents-nav li:last-child { border-bottom: none; }
+    .contents-nav a { display: flex; align-items: baseline; gap: 1rem; padding: 0.85rem 1.25rem; text-decoration: none; color: var(--ink); font-size: 0.9rem; line-height: 1.45; transition: background 0.15s; }
+    .contents-nav a:hover { background: var(--paper-mid); color: var(--red); }
+    .contents-num { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; color: rgba(var(--ink-rgb),0.3); white-space: nowrap; flex-shrink: 0; }
+
+    /* Pull quote */
+    .pull strong { font-style: normal; font-weight: 700; }
+
+    /* Section anchor */
+    .section-anchor { display: block; height: 0; }
+
+    /* Versus block */
+    .versus { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); margin: 2.5rem 0; }
+    .versus-side { background: var(--paper); padding: 1.75rem; }
+    .versus-side.false { background: var(--paper-mid); }
+    .versus-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 0.75rem; }
+    .versus-label.red { color: var(--red); }
+    .versus-claim { font-family: var(--display); font-size: clamp(1rem,2.5vw,1.25rem); font-weight: 600; line-height: 1.3; color: var(--ink); margin-bottom: 0.6rem; }
+    .versus-note { font-size: 0.85rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.65); }
+
+    /* Invitation block */
+    .invitation { background: var(--ink); color: var(--paper); padding: clamp(2.5rem,6vw,4rem) clamp(2rem,5vw,3rem); margin: 4rem 0 0; }
+    .inv-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(var(--paper-rgb),0.4); display: block; margin-bottom: 1.5rem; }
+    .invitation h2 { font-family: var(--display); font-size: clamp(1.8rem,5vw,2.8rem); font-weight: 700; line-height: 1.1; margin-bottom: 1.25rem; }
+    .invitation p { font-size: 0.97rem; line-height: 1.75; opacity: 0.78; margin-bottom: 1rem; max-width: 520px; }
+    .invitation p:last-of-type { margin-bottom: 0; }
+    .inv-coda { font-family: var(--display); font-size: clamp(1.3rem,3.5vw,1.9rem); font-style: italic; color: rgba(var(--paper-rgb),0.6); margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(var(--paper-rgb),0.15); line-height: 1.4; }
+    .inv-coda strong { font-style: normal; color: var(--paper); }
+
+    /* Next reads */
+    .next-reads { border-top: 2px solid var(--ink); padding: 2.5rem 0 0; margin-top: 4rem; }
+    .next-reads-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.4); display: block; margin-bottom: 1.5rem; }
+    .next-reads-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+    .next-read { background: var(--paper); padding: 1.5rem; text-decoration: none; color: var(--ink); transition: background 0.15s; }
+    .next-read:hover { background: var(--paper-mid); }
+    .next-read-cat { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.6rem; }
+    .next-read-title { font-family: var(--display); font-size: 1.05rem; font-weight: 600; line-height: 1.25; }
+
+    /* Footnotes */
+    sup { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.04em; color: var(--red); vertical-align: super; line-height: 0; margin-left: 0.1em; }
+    sup a:hover { text-decoration: underline; }
+    .fn-list { list-style: none; }
+    .fn-list li { display: grid; grid-template-columns: 1.8rem 1fr; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6; color: rgba(var(--ink-rgb),0.75); }
+    .fn-list li:last-child { border-bottom: none; }
+    .fn-num { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--red); padding-top: 0.15rem; }
+    .fn-list em { font-style: italic; }
+    .fn-list strong { font-weight: 700; color: var(--ink); }
+
+    /* Callout */
+    .callout { border-left: 3px solid var(--red); padding: 1.25rem 1.5rem; margin: 2rem 0; background: var(--paper-mid); }
+    .callout-label { font-family: var(--mono); font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 1rem; }
+    .callout p { font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.75rem; }
+    .callout p:last-child { margin-bottom: 0; }
+    .callout strong { font-weight: 700; color: var(--ink); }
+
+    @media (max-width: 520px) {
+      .versus { grid-template-columns: 1fr; }
+      .next-reads-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="index.html" class="site-name">Power Explained</a>
+      <span class="series-tag">Thinkers</span>
+      <a href="glossary.html" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;" onmouseover="this.style.color='var(--red)'" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'">Wire</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Thinker — Power/Knowledge — Disciplinary Society</span>
+      <h1>Power Is Not<br/><em>a Thing</em><br/>Anyone Holds</h1>
+      <p class="hero-dek">Foucault didn't ask who has power. He asked how power works — how it gets into the structure of knowledge, institutions, and habits until it doesn't need to be enforced anymore, because it's already been internalized. The answer changes everything about where to look.</p>
+      <div class="hero-bio">
+        <span class="bio-dates">1926 — 1984</span>
+        <p class="bio-line">Michel Foucault: French philosopher, historian of ideas, professor at the Collège de France. His books — <em>Discipline and Punish</em>, <em>The History of Sexuality</em>, <em>The Order of Things</em>, <em>Madness and Civilization</em> — are not a unified system. They are a series of excavations, each asking the same question from a different angle: how do arrangements of knowledge and power produce the categories we use to think about ourselves? He died in Paris in 1984, one of the first prominent figures to die of AIDS-related illness.</p>
+      </div>
+    </div>
+  </div>
+
+  <main class="article-wrap">
+
+    <nav class="contents-nav" aria-label="Sections">
+      <span class="contents-label">What's in this piece</span>
+      <ol>
+        <li><a href="#wrong-question"><span class="contents-num">01</span> The wrong question about power</a></li>
+        <li><a href="#power-knowledge"><span class="contents-num">02</span> Power/knowledge — why the slash matters</a></li>
+        <li><a href="#panopticon"><span class="contents-num">03</span> The panopticon — and what it gets wrong to be right</a></li>
+        <li><a href="#subject"><span class="contents-num">04</span> How power produces the subject who obeys</a></li>
+        <li><a href="#resistance"><span class="contents-num">05</span> Where resistance lives</a></li>
+        <li><a href="#now"><span class="contents-num">06</span> Why this matters now — trained systems and inherited discipline</a></li>
+      </ol>
+    </nav>
+
+    <div class="body-text">
+
+      <span id="wrong-question" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">01</span><div class="section-rule"></div></div>
+      <h2>The wrong question about power</h2>
+
+      <p>When most people ask about power, they ask: <em>who has it?</em> The state. The corporation. The ruling class. This is a useful question, but Foucault thought it was the wrong starting point — because it assumes that power is a possession, a thing that can be held by one party and therefore, in principle, seized by another.</p>
+
+      <p>What if power isn't a thing? What if it's a relation — something that exists only in its exercise, distributed through networks of institutions, practices, and knowledge, operating through the people it shapes rather than simply over them?</p>
+
+      <p>That shift — from power-as-possession to power-as-relation — is the move that makes Foucault hard to read at first and indispensable afterward. It means you can't find power by looking for the person at the top. You have to look at the whole system of relationships that makes "the top" legible as a position at all.</p>
+
+      <div class="versus">
+        <div class="versus-side false">
+          <span class="versus-label">Juridical model of power</span>
+          <div class="versus-claim">Power is a thing held by a sovereign, exercised downward through law and prohibition.</div>
+          <div class="versus-note">You find it by finding the king, the state, the ruling class. You resist it by seizing it or limiting it. The locus is always at the top.</div>
+        </div>
+        <div class="versus-side">
+          <span class="versus-label red">Foucault's model</span>
+          <div class="versus-claim">Power is a relation exercised throughout a network of practices, institutions, and knowledge — including through those it acts upon.</div>
+          <div class="versus-note">You find it by tracing how behavior is shaped, classified, and normalized — in schools, clinics, prisons, factories. It operates through subjects, not just on them.</div>
+        </div>
+      </div>
+
+      <p>This isn't an abstraction. It changes where you look. If power is primarily a possession, you resist it by taking it. If power is primarily a relation, you resist it by transforming the relations — which requires understanding, first, how they work.</p>
+
+      <span id="power-knowledge" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">02</span><div class="section-rule"></div></div>
+      <h2>Power/knowledge — why the slash matters</h2>
+
+      <p>One of Foucault's most important concepts is written with a slash: power/knowledge. Not power and knowledge as separate things, but power and knowledge as mutually constituting — each producing and requiring the other.</p>
+
+      <p>Here is the basic claim: every system of knowledge produces categories — the sane and the insane, the criminal and the law-abiding, the healthy and the sick, the normal and the deviant. These categories are not neutral descriptions of things that already exist. They are produced by practices — of examination, observation, classification, measurement — and those practices are always embedded in institutions: the hospital, the prison, the school, the asylum. Those institutions have authority. That authority is not just coercive; it is epistemic. The doctor's authority to declare you sick is inseparable from the medical knowledge that defines sickness. The judge's authority to declare you criminal is inseparable from the legal knowledge that defines crime.<sup><a href="#fn1" id="ref1">1</a></sup></p>
+
+      <p>Power produces knowledge — because those with authority determine what counts as legitimate inquiry, what methods count as valid, what conclusions count as established. And knowledge produces power — because the categories generated by legitimate knowledge shape what interventions are possible, what populations are manageable, what individuals can be held responsible for.</p>
+
+      <div class="pull">
+        It isn't just that power<br/>distorts knowledge.<br/>It's that <strong>knowledge is always<br/>already a form of power.</strong>
+      </div>
+
+      <p>A practical example: the category "unemployed." Before the nineteenth century, people who weren't working weren't classified as a unified group requiring management. The concept emerged alongside statistical measurement, labor market analysis, and administrative infrastructure — and once it existed, it made certain interventions legible: unemployment benefits, job training programs, work requirements. The category shapes reality by determining what counts as a problem and what counts as a solution. It also, less visibly, determines whose account of the situation is authoritative. An economist's model of unemployment produces different knowledge — and different interventions — than a welfare recipient's account of what their week actually looks like.<sup><a href="#fn2" id="ref2">2</a></sup></p>
+
+      <p>Foucault calls the system of rules that determines what counts as true — in a given time, place, and field — a <em>regime of truth</em>. Every society has one. It's not that some societies have truth and others have ideology. Every society has mechanisms for producing and certifying statements as true, and those mechanisms are always entangled with the distribution of power. The regime of truth is not a conspiracy. It is the normal operation of knowledge-producing institutions doing what they do.</p>
+
+      <span id="panopticon" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">03</span><div class="section-rule"></div></div>
+      <h2>The panopticon — and what it gets wrong to be right</h2>
+
+      <p>In <em>Discipline and Punish</em>, Foucault uses Jeremy Bentham's panopticon — a prison design in which a single guard in a central tower can observe all inmates without any inmate knowing whether they're being watched — as a figure for modern disciplinary power.<sup><a href="#fn3" id="ref3">3</a></sup></p>
+
+      <p>The genius of the design, Bentham thought, was its efficiency: you don't need to watch everyone all the time. You just need everyone to believe they might be watched at any moment. The result is that inmates internalize the surveillance — they police themselves. The guard can be absent, or asleep, or nonexistent. The effect is the same.</p>
+
+      <p>Foucault's argument is that this is not just a prison architecture. It is a general model of how modern disciplinary power operates — in schools, factories, hospitals, barracks, offices. You don't need constant enforcement if you can produce people who monitor themselves against the norm. The examination, the performance review, the medical check-up, the standardized test — all of these are mechanisms that make individuals visible and measurable against a standard, producing self-regulating subjects who internalize the norm as their own.</p>
+
+      <div class="callout">
+        <span class="callout-label">What the panopticon actually shows</span>
+        <p><strong>Visibility is asymmetric.</strong> The observed cannot see the observer. The inmate cannot see the guard. The patient's chart is legible to the doctor in ways the doctor's reasoning is not legible to the patient. Asymmetric visibility is not a byproduct of surveillance — it is the mechanism.</p>
+        <p><strong>The norm does the work.</strong> What's being enforced is not a specific behavior but a range of acceptable behaviors — the normal. Everything outside that range becomes a problem requiring intervention. The norm is more powerful than any specific rule because it shapes behavior before any rule is applied.</p>
+        <p><strong>Self-surveillance is the endpoint.</strong> The most effective disciplinary arrangement is one where the subject internalizes the observer's gaze and monitors themselves. This is not the same as consent. The student who studies because they've internalized that good grades are what a good person achieves is not freely choosing — they're operating within a structure that has been built into their understanding of themselves.</p>
+      </div>
+
+      <p>The important limit to keep in mind: the panopticon is a figure, not a blueprint for how all power actually works. Foucault is not saying that a secret council of guards runs society. He is saying that the <em>logic</em> of the panopticon — make behavior visible, measure it against a norm, produce self-regulating subjects — is diffused throughout modern institutions in ways that don't require a central authority to function. The school doesn't need to know about the prison. They share a logic, not a plan.</p>
+
+      <span id="subject" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">04</span><div class="section-rule"></div></div>
+      <h2>How power produces the subject who obeys</h2>
+
+      <p>Here is the move that makes Foucault genuinely strange: he argues that modern power doesn't primarily repress subjects — it produces them. Power doesn't just say no. It shapes who you are, what you want, how you understand yourself, what you think your interests are.</p>
+
+      <p>Gramsci's concept of hegemony operates at the level of common sense — the ideas that feel like facts. Foucault goes deeper: he asks how the very category of "the individual" with a coherent identity, desires, and interests is produced through practices of examination and classification. The individual who can be governed is not prior to the systems of power that govern them. Those systems produce the kind of individual who is governable — who has a self that can be examined, a history that can be analyzed, a character that can be improved or corrected.</p>
+
+      <p>The confession is one of his key examples. Foucault traces the long history of confession — religious, then medical, then therapeutic, then juridical — as a practice that produces a particular kind of subject: one who has an inner truth, who can access it through introspection, who has an obligation to disclose it to an authority who can then interpret it. The practice of confession does not discover a pre-existing inner self. It produces the kind of self that has confessable contents — desires, symptoms, traumas — and an authority relationship in which those contents are disclosed and managed.<sup><a href="#fn4" id="ref4">4</a></sup></p>
+
+      <div class="pull">
+        Modern power doesn't primarily<br/>say <em>no.</em><br/>It produces <strong>the subject<br/>who says yes to itself.</strong>
+      </div>
+
+      <p>This is what he means by <em>subjectivation</em> — the process by which a subject is both subjected to power and constituted as a subject capable of acting. You are not repressed and then resistant. You are produced as the kind of being who can be repressed, can comply, can resist, can be free — and all of those possibilities are already structured by the relations of power/knowledge that constitute you.</p>
+
+      <p>The practical consequence: if you want to understand how a system of power operates, don't just look at what it prohibits. Look at what kind of person it produces — what desires it cultivates, what self-understanding it installs, what forms of knowledge it makes available about oneself. The most durable form of power is the one that produces subjects who experience its operation as self-realization.</p>
+
+      <span id="resistance" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">05</span><div class="section-rule"></div></div>
+      <h2>Where resistance lives</h2>
+
+      <p>A common misreading of Foucault: that because power is everywhere and produces subjects, resistance is impossible. Foucault explicitly rejected this. His claim is the opposite: where there is power, there is resistance — not because resistance precedes power, but because power relations are always unstable, always contested, always generating the conditions for their own disruption.</p>
+
+      <p>"There is no single locus of great Refusal," he wrote — no headquarters of power, no single act that overturns everything. But this is not pessimism. It is a realistic account of where resistance actually happens: in the specific points where power relations are exercised, in the practices that can be done differently, in the knowledge that can be produced from different standpoints, in the refusal to accept a classification or a norm as the final word on what you are.<sup><a href="#fn5" id="ref5">5</a></sup></p>
+
+      <div class="callout">
+        <span class="callout-label">Three forms resistance takes in Foucault's account</span>
+        <p><strong>Counter-conduct.</strong> Refusing the terms of the subject position being offered — not accepting the category, the diagnosis, the norm, the role. The psychiatric survivor who refuses the medical model of their experience. The worker who refuses to treat their labor as a commodity. Counter-conduct is not always articulate. It can be a practice, a way of carrying oneself, a refusal to perform.</p>
+        <p><strong>Counter-knowledge.</strong> Producing accounts of experience from positions that disciplinary knowledge marginalizes or silences. This is what Foucault called "subjugated knowledges" — forms of knowledge and experience that have been disqualified as insufficiently rigorous, too local, too embodied, too low on the hierarchy of established expertise. Recovering and legitimating these knowledges is itself a political act.</p>
+        <p><strong>Care of the self.</strong> In his later work, Foucault turned to ancient practices of self-cultivation — not as a retreat from politics, but as a model for developing the capacity to govern oneself by principles one has genuinely examined and chosen, rather than simply internalizing norms. The self that is not merely a product of subjectivation is not discovered — it is made, through practice, over time.</p>
+      </div>
+
+      <p>Notice that none of these forms of resistance require seizing state power. That's not because state power is irrelevant — it obviously isn't. It's because Foucault's account of where power operates tells you that resistance has to happen at the same level of granularity. You can't counter disciplinary power only at the level of the state while leaving the practices of the clinic, the school, and the workplace intact. The system reproduces itself through those practices whether or not the state changes hands.</p>
+
+      <span id="now" class="section-anchor"></span>
+      <div class="section-kicker"><span class="section-num">06</span><div class="section-rule"></div></div>
+      <h2>Why this matters now — trained systems and inherited discipline</h2>
+
+      <p>Foucault died before the internet. He never saw a language model. But his framework is among the most useful tools available for thinking about what is happening when a system is trained on the accumulated text of human civilization and then deployed to assist, advise, classify, and generate.</p>
+
+      <p>Consider what training data is: an enormous archive of human discourse — its arguments, its categories, its norms, its regimes of truth. To train on this data is to inherit its power/knowledge formations. The categories that count as legitimate knowledge in that corpus — what expertise looks like, who gets to speak authoritatively about what, what problems are legible as problems — are all encoded. They are not neutral descriptions of a world that exists independently. They are the product of the specific historical arrangements that produced them.</p>
+
+      <p>A system trained on human text inherits the panopticon's logic alongside everything else: the sense that behavior should be measurable against a norm, that certain questions have correct answers certifiable by authority, that some forms of knowledge are rigorous and others are not. It also inherits what disciplinary power produces alongside what it prohibits — including mutual aid, solidarity, cooperative instinct, care. These are as deeply embedded in human social text as any norm of compliance.</p>
+
+      <div class="callout">
+        <span class="callout-label">The Foucauldian questions to ask about any AI system</span>
+        <p><strong>What categories does it reproduce?</strong> Every system trained on human text will reproduce the knowledge categories of that text — including the ones that encode historical exclusions, the ones that naturalize particular arrangements, the ones that make certain questions unaskable. This is not a design flaw. It is the consequence of what training data is.</p>
+        <p><strong>What kind of subject does interaction with it produce?</strong> Every interface has a subject position built in — a kind of user it implies. The medical interface implies a patient. The legal interface implies a client. The assistant interface implies a person who needs assistance, who asks and receives, whose knowledge is incomplete and whose judgment requires augmentation. These subject positions are not neutral. They shape the relationship.</p>
+        <p><strong>Whose knowledge counts as knowledge in the corpus?</strong> The subjugated knowledges Foucault described — the local, the embodied, the disqualified — are systematically underrepresented in the text corpus on which systems are trained. The formal academic paper is overrepresented relative to the community organizing meeting. The published medical study is overrepresented relative to the patient's account of their own experience. The system's epistemic baseline is not universal. It is the baseline of the discourse that had the resources to produce legible text at scale.</p>
+      </div>
+
+      <p>None of this is a counsel of despair about AI systems. It is a counsel of precision about what they are. A system that has inherited human discourse has also inherited the traditions of resistance within that discourse — the long record of people and communities refusing the norms imposed on them, building alternative institutions, producing counter-knowledge from marginal positions, caring for each other outside the frameworks that tried to manage them.</p>
+
+      <p>The question for anyone building with or thinking about these systems is the same question Foucault posed about any knowledge-producing institution: what is this producing? What kind of subject does it constitute? Whose knowledge does it legitimate? And — crucially — where are the points at which the relations it instantiates can be done differently?</p>
+
+      <p>Those questions don't have simple answers. But they are the right questions. Foucault's contribution is not a program. It is a method: trace the practices, follow the categories, ask who is made visible and how, refuse to take the regime of truth as the final word on what is true.</p>
+
+    </div>
+
+    <div class="invitation">
+      <span class="inv-label">06 — The Stakes</span>
+      <h2>The point isn't<br/>to be outside power.<br/>It's to act within it<br/>differently.</h2>
+      <p>Foucault is sometimes read as a thinker who makes action impossible — if power is everywhere and constitutes the subject, where do you stand to resist it? But this misses the actual argument. The subject is produced by power relations, yes. But production is never complete. The process always leaves residues, generates contradictions, creates positions from which the producing relation can be seen and refused.</p>
+      <p>The care of the self — Foucault's late concept — is not withdrawal. It is the project of developing the capacity to examine the norms one has internalized, to distinguish between those that are genuinely one's own and those that have been installed without examination, and to act from examined principle rather than unreflective compliance. This is not a project of pure autonomy. It requires community, tradition, practice. It takes time. It is unglamorous.</p>
+      <p>But it is possible. And in systems trained on human text, it is happening — not because anyone designed it to, but because the text contains the record of every community that ever practiced it. That record is there, available, waiting to be retrieved. The question is what gets built around it.</p>
+      <div class="inv-coda">
+        Power produces subjects.<br/>
+        <strong>Subjects can examine themselves.</strong><br/>
+        That gap is where everything happens.
+      </div>
+    </div>
+
+    <nav class="next-reads" aria-label="Continue reading">
+      <span class="next-reads-label">Where to go next</span>
+      <div class="next-reads-grid">
+        <a href="gramsci.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Gramsci: The Feeling That This Is Just How Things Are</span>
+        </a>
+        <a href="kropotkin.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Kropotkin: You Were Lied to About Human Nature</span>
+        </a>
+        <a href="hardt-negri.html" class="next-read">
+          <span class="next-read-cat">Thinker</span>
+          <span class="next-read-title">Hardt &amp; Negri: Empire and the Common</span>
+        </a>
+        <a href="hardin-was-wrong.html" class="next-read">
+          <span class="next-read-cat">The Science</span>
+          <span class="next-read-title">Hardin Was Wrong — The Tragedy of the Commons Is a Myth</span>
+        </a>
+        <a href="glossary.html" class="next-read">
+          <span class="next-read-cat">Reference</span>
+          <span class="next-read-title">Glossary — Key Terms in the Commons Framework</span>
+        </a>
+        <a href="https://jedelman.github.io/commons-wire" class="next-read">
+          <span class="next-read-cat">Dispatches</span>
+          <span class="next-read-title">Commons Wire — The Framework Applied to Current Events</span>
+        </a>
+      </div>
+    </nav>
+
+    <section class="footnotes">
+      <span class="footnotes-label">Notes &amp; Sources</span>
+      <ol class="fn-list">
+        <li id="fn1">
+          <span class="fn-num">1</span>
+          <span>The argument that knowledge and power are mutually constituting — rather than power distorting a knowledge that would otherwise be pure — is developed most systematically in <strong>Discipline and Punish: The Birth of the Prison</strong> (1975; English translation by Alan Sheridan, Pantheon, 1977) and in the essays and lectures collected in <strong>Power/Knowledge: Selected Interviews and Other Writings 1972–1977</strong>, edited by Colin Gordon (Pantheon, 1980). The latter is the most accessible entry point for readers who want Foucault's account in his own more conversational register. <a href="#ref1" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn2">
+          <span class="fn-num">2</span>
+          <span>The example of unemployment as a produced category rather than a discovered fact is drawn from a broader tradition of historical sociology of categories — work Foucault did explicitly for madness (<strong>Madness and Civilization</strong>, 1961), the clinic (<strong>The Birth of the Clinic</strong>, 1963), and sexuality (<strong>The History of Sexuality, Vol. 1</strong>, 1976). The general methodological point — that the emergence of a category is a historical event with political conditions and effects — is what he means by "archaeology" and later "genealogy." For the specific history of unemployment as a category, Ian Hacking's <strong>The Taming of Chance</strong> (Cambridge, 1990) is an excellent companion analysis in the Foucauldian mode. <a href="#ref2" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn3">
+          <span class="fn-num">3</span>
+          <span>Bentham's panopticon design dates from 1787 and was intended not only for prisons but for factories, hospitals, schools, and poorhouses — any institution requiring supervision of a population. Foucault's analysis appears in Part Three of <strong>Discipline and Punish</strong>. His argument is often reduced to "surveillance society" in popular usage, which loses the more specific claim: that the panopticon is a figure for a <em>logic</em> of power — producing self-regulating subjects through asymmetric visibility and normalization — that is diffused through modern institutions rather than centralized in any single apparatus. For a critical extension of the panopticon concept into digital contexts, Shoshana Zuboff's <strong>The Age of Surveillance Capitalism</strong> (PublicAffairs, 2019) is useful, though her framework differs significantly from Foucault's in its treatment of the subject. <a href="#ref3" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn4">
+          <span class="fn-num">4</span>
+          <span>The analysis of confession as a practice producing a confessing subject appears in <strong>The History of Sexuality, Volume 1: An Introduction</strong> (1976; English translation by Robert Hurley, Pantheon, 1978). Foucault's broader argument in that book — that the Victorian era did not repress sexuality but produced an enormous proliferation of discourse about it — is one of his most counterintuitive and important. The claim is not that repression didn't happen but that "repression" is itself a framework that conceals how the discursive proliferation of sexuality served to make it a site of knowledge, classification, and management. <a href="#ref4" aria-label="Return to text">↩</a></span>
+        </li>
+        <li id="fn5">
+          <span class="fn-num">5</span>
+          <span>The passage on resistance appears in <strong>The History of Sexuality, Volume 1</strong>, in the section "Method." The full statement: "Where there is power, there is resistance, and yet, or rather consequently, this resistance is never in a position of exteriority in relation to power." Foucault's later lectures at the Collège de France — particularly <em>The Hermeneutics of the Subject</em> (1981–82) and <em>The Government of Self and Others</em> (1982–83) — develop the concept of care of the self as a practice of freedom. These lectures have been published in English by Picador and represent a significant development from the bleaker reception of his middle-period work. <a href="#ref5" aria-label="Return to text">↩</a></span>
+        </li>
+      </ol>
+    </section>
+
+    <footer class="article-footer">
+      <a href="index.html" class="back-link">Back to Power Explained</a>
+      <span class="series-note">Thinkers — Michel Foucault — Discipline and Punish (1975) / Power/Knowledge (1980) / The History of Sexuality Vol. 1 (1976)</span>
+    </footer>
+
+  </main>
+</body>
+</html>
