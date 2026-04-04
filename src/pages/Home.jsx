@@ -28,18 +28,7 @@ function NavLink({ href, children }) {
   return <Link to={`/${href}`}>{children}</Link>
 }
 
-function EntryCard({ href, label, title, desc }) {
-  return (
-    <NavLink href={href}>
-      <a className="entry-card">
-        <span className="entry-card-label">{label}</span>
-        <span className="entry-card-title">{title}</span>
-        <span className="entry-card-desc">{desc}</span>
-        <span className="entry-card-cta">Read →</span>
-      </a>
-    </NavLink>
-  )
-}
+// EntryCard unused — cards rendered inline below with Link directly
 
 export default function Home() {
   return (

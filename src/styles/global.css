@@ -385,6 +385,284 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .dek       { animation: fadeUp 0.6s ease both; animation-delay: 0.35s; }
 .body-text { animation: fadeUp 0.6s ease both; animation-delay: 0.45s; }
 
+/* ═══════════════════════════════════════════════════════
+   HOME PAGE
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Hero ── */
+.hero {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.hero-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(3.5rem, 8vw, 5rem) var(--gutter) clamp(3rem, 6vw, 4rem);
+}
+
+.hero-label {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(var(--paper-rgb), 0.5);
+  margin-bottom: 1.5rem;
+}
+
+.hero-headline {
+  font-family: var(--display);
+  font-size: clamp(3rem, 9vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: -0.01em;
+  color: var(--paper);
+  margin-bottom: 1.75rem;
+  animation: none; /* override article animation */
+}
+
+.hero-headline em {
+  font-style: italic;
+  color: var(--red-warm);
+}
+
+.hero-deck {
+  font-family: var(--body);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  line-height: 1.75;
+  color: rgba(var(--paper-rgb), 0.75);
+  max-width: 520px;
+  margin-bottom: 2.5rem;
+  animation: none;
+}
+
+/* ── CTA strip ── */
+.start-strip {
+  background: var(--ink);
+  border-top: 1px solid rgba(var(--paper-rgb), 0.12);
+  border-bottom: 2px solid var(--ink);
+}
+
+.sinner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.25rem var(--gutter);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.start-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--paper);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color 0.15s;
+}
+
+.start-link:hover {
+  color: var(--red-warm);
+}
+
+.browse-link {
+  color: rgba(var(--paper-rgb), 0.5);
+}
+
+.browse-link:hover {
+  color: var(--paper);
+}
+
+/* ── Entry section (Start where you are) ── */
+.entry-section {
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+
+.section-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vw, 4rem) var(--gutter);
+}
+
+.section-eyebrow {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 1.75rem;
+}
+
+.entry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+}
+
+.entry-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.entry-card:hover {
+  background: var(--paper-mid);
+}
+
+.entry-card-label {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.entry-card-title {
+  font-family: var(--display);
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.entry-card-desc {
+  font-family: var(--body);
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: rgba(var(--ink-rgb), 0.65);
+  flex: 1;
+}
+
+.entry-card-cta {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-top: 0.5rem;
+}
+
+/* ── Agent banner ── */
+.banner {
+  background: var(--ink);
+  border-top: 1px solid rgba(var(--paper-rgb), 0.1);
+  border-bottom: 1px solid rgba(var(--paper-rgb), 0.1);
+}
+
+.banner-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0.9rem var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ── Overview section (Everything on this site) ── */
+.overview-section {
+  background: var(--paper);
+}
+
+.overview-heading {
+  font-family: var(--display);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 2rem;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+}
+
+.overview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.overview-card.dark {
+  background: var(--paper-mid);
+}
+
+.overview-card:hover {
+  background: var(--paper-dark);
+}
+
+.overview-card-eyebrow {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.overview-card-title {
+  font-family: var(--display);
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.overview-card-desc {
+  font-family: var(--body);
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: rgba(var(--ink-rgb), 0.65);
+}
+
+.overview-card-count {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  color: rgba(var(--ink-rgb), 0.4);
+  margin-top: 0.25rem;
+}
+
+.overview-card-cta {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-top: 0.25rem;
+}
+
+/* ── Footer ── */
+.footer-text {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(var(--ink-rgb), 0.4);
+}
+
 /* ── Reduced motion — OS preference ── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
