@@ -1,32 +1,8 @@
+import { useState } from 'react'
 import Layout from '../components/Layout'
-import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
 
-const SECTIONS = []
-
-export default function YourCity() {
-  return (
-    <Layout
-      title="Your City: A Power Analysis — Power Explained"
-      description="Six questions that reveal who actually runs your city — and who pays the price. Research it yourself, hand it to an agent, or run it as a facilitated process with a room of people."
-      seriesTag="Tools"
-    >
-      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
-        
-        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          
-          <h1 dangerouslySetInnerHTML={{ __html: `Your City:<br />A Power Brief` }} />
-          <p className="hero-dek">Six questions that reveal who actually runs your city — and who's paying for it. Research it yourself, hand it to an agent, or run it as a facilitated process with a room of people who live there.</p>
-          
-        </div>
-      </div>
-
-      <ArticleWrap>
-        
-        <div className="body-text">
-          
-          <div dangerouslySetInnerHTML={{ __html: `<!-- DIY TRACK -->
-<div class="track active" id="track-diy">
-<p>Power isn't invisible — it's just usually spread across documents nobody bothers to read. Property records, planning commission minutes, developer disclosure filings, 990s from major nonprofits. Everything you need to understand who actually runs your city is public. Here's what to look for.</p>
+const TRACKS = [
+  { id: 'diy', label: 'DIY Track', html: `<p>Power isn't invisible — it's just usually spread across documents nobody bothers to read. Property records, planning commission minutes, developer disclosure filings, 990s from major nonprofits. Everything you need to understand who actually runs your city is public. Here's what to look for.</p>
 <div class="theory-note">
 <span class="theory-note-label">The frame</span>
 <p>This analysis uses the framework from <a class="xl" href="why-your-city-doesnt-work.html">Why Your City Doesn't Work</a> and <a class="xl" href="urban-capture.html">How Cities Get Captured</a>. The six questions below map directly to how <a class="xl" href="the-outside-capital-needs.html">capture mechanisms operate</a> at the local level.</p>
@@ -161,11 +137,8 @@ export default function YourCity() {
 <li>The brief doesn't need to be comprehensive to be useful. Three specific findings are worth more than a vague general analysis.</li>
 </ol>
 </div>
-</div>
-</div><!-- /track-diy -->
-<!-- AGENT TRACK -->
-<div class="track" id="track-agent">
-<p>If you're running an AI research agent, paste the prompt below. Fill in the variables in <span style="color:var(--red);font-family:var(--mono);font-size:0.9em;">[brackets]</span> before sending. The output should be a structured brief you can publish, share, or use as a foundation for organizing.</p>
+</div>` },
+  { id: 'agent', label: 'Agent Track', html: `<p>If you're running an AI research agent, paste the prompt below. Fill in the variables in <span style="color:var(--red);font-family:var(--mono);font-size:0.9em;">[brackets]</span> before sending. The output should be a structured brief you can publish, share, or use as a foundation for organizing.</p>
 <div class="how-to">
 <div class="how-to-header">
 <span class="how-to-label">Before you run</span>
@@ -233,11 +206,8 @@ Be specific. Vague analysis is not useful. If you can't find something, say so a
 <li>If you publish it, link back to this site. The more city briefs exist, the more useful the pattern becomes.</li>
 </ol>
 </div>
-</div>
-</div><!-- /track-agent -->
-<!-- ORGANIZER TRACK -->
-<div class="track" id="track-organizer">
-<p>This track is for running the power analysis as a facilitated process — in a room, with a group. Tenant meeting, neighborhood assembly, study circle, union hall, community organization. The analysis is the same. The difference is that the knowledge comes from the people in the room, not from a researcher working alone.</p>
+</div>` },
+  { id: 'organizer', label: 'Organizer Track', html: `<p>This track is for running the power analysis as a facilitated process — in a room, with a group. Tenant meeting, neighborhood assembly, study circle, union hall, community organization. The analysis is the same. The difference is that the knowledge comes from the people in the room, not from a researcher working alone.</p>
 <div class="theory-note">
 <span class="theory-note-label">The Freirean premise</span>
 <p>Paulo Freire showed that people who are most affected by unjust arrangements usually know more about how those arrangements work than any outside researcher does — they just haven't had a structured process for naming what they know. <a class="xl" href="freire.html">Conscientization</a> isn't about delivering analysis to people who lack it. It's about creating conditions where people can name their situation together, see it as a situation rather than fate, and decide what to do about it. This facilitation guide is built on that premise.</p>
@@ -387,14 +357,105 @@ Be specific. Vague analysis is not useful. If you can't find something, say so a
 <div class="theory-note">
 <span class="theory-note-label">The theory behind this structure</span>
 <p>This facilitation guide applies Freire's <strong>problem-posing method</strong> to the power analysis framework. The six questions are posed as contradictions to investigate together, not conclusions to deliver. The sequence — from lived experience (what broke) to structural analysis (who owns, who decides) to existing alternatives (what we still have) to strategy (what would have to change) — follows the conscientization arc: naming the situation, understanding it as historical and therefore changeable, and orienting toward action. <a class="xl" href="freire.html">Freire →</a></p>
-</div>
-</div><!-- /track-organizer -->` }} />
+</div>` }
+]
+
+const PROMPT = `You are a researcher conducting a power analysis of a city. Your job is to produce a structured brief that reveals who actually controls key decisions — land use, housing, public services, municipal governance — and where residents have built durable alternatives.
+
+City: [CITY NAME, STATE]
+Research depth: [QUICK (1–2 hours of research) / THOROUGH (full investigation)]
+Output format: [BRIEF (summary + key findings) / FULL REPORT (all six sections with detail)]
+
+Investigate and report on each of the following six areas. For each, provide: key findings, the most important entities and relationships you discovered, what's missing or unclear, and what it implies for residents trying to change things.
+
+1. LAND OWNERSHIP
+Who are the largest landowners in [CITY]? Focus on: large single owners near transit corridors; out-of-state LLCs holding vacant or underused parcels; recent rezonings and who requested them. Sources: county assessor records, state LLC filings, planning commission agendas.
+
+2. MUNICIPAL FINANCE AND POLITICAL FUNDING
+What is the revenue structure of [CITY]'s municipal budget? Who funds city council campaigns — which developers, industries, and interests? Have any council members received significant contributions from entities with business before the city? Sources: city CAFR, state campaign finance database, city council meeting records.
+
+3. APPOINTED BOARDS AND COMMISSIONS
+What are the key appointed bodies governing land use, housing, utilities, and redevelopment in [CITY]? Who are the current members? What are their professional backgrounds and financial interests? Do any have conflicts of interest regarding decisions their bodies have made? Sources: city website boards roster, LinkedIn, property records.
+
+4. PRIVATIZATION HISTORY
+What services or assets in [CITY] have been privatized or contracted out in the last 30 years? Are there any long-term concession agreements currently in effect? What was publicly owned in 1990 that is now privately operated? Sources: city budget history, local journalism archives, city clerk contracts.
+
+5. HOUSING PRODUCTION AND AFFORDABILITY
+Who are the dominant developers in [CITY]? How much affordable housing has been built vs. promised in the last decade? Is there a community land trust operating in the city? What happened to affordable housing stock in the last major development cycle? Sources: city housing report, HUD data, cltnetwork.org.
+
+6. COMMONS INFRASTRUCTURE
+What mutual aid networks, housing cooperatives, food cooperatives, credit unions, tenant unions, or other commons institutions currently operate in [CITY]? Where are they concentrated? What gaps exist? Sources: mutualaidhub.org, ncba.coop, local cooperative league, city food access data.
+
+SYNTHESIS
+After completing all six sections, write a 200–300 word synthesis that:
+- Names the 2–3 entities that appear across multiple sections (this is the capture structure)
+- Names the 2–3 commons institutions with the most organizational capacity
+- Identifies the single most vulnerable decision point — the place where organized resident pressure is most likely to change something
+- Flags what couldn't be verified and why it matters
+
+Be specific. Vague analysis is not useful. If you can't find something, say so and explain what that absence might mean.`
+
+export default function YourCity() {
+  const [activeTrack, setActiveTrack] = useState(TRACKS[0]?.id || '')
+  const [copied, setCopied] = useState(false)
+
+  const copy = () => {
+    navigator.clipboard.writeText(PROMPT).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
+
+  const current = TRACKS.find(t => t.id === activeTrack)
+
+  return (
+    <Layout
+      title="Your City: A Power Analysis — Power Explained"
+      description="Six questions that reveal who actually runs your city — and who pays the price. Research it yourself, hand it to an agent, or run it as a facilitated process with a room of people."
+      seriesTag="Tools"
+    >
+      <div dangerouslySetInnerHTML={{ __html: `` }} />
+
+      <div style={{ maxWidth: 'var(--max)', margin: '0 auto', padding: '0 var(--gutter)' }}>
+        {TRACKS.length > 1 && (
+          <div style={{ display: 'flex', gap: '1px', marginBottom: '2rem', background: 'var(--rule-strong)', border: '1px solid var(--rule-strong)' }}>
+            {TRACKS.map(t => (
+              <button
+                key={t.id}
+                onClick={() => setActiveTrack(t.id)}
+                style={{
+                  flex: 1, padding: '0.85rem 1.25rem',
+                  fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase',
+                  background: activeTrack === t.id ? 'var(--ink)' : 'var(--paper)',
+                  color: activeTrack === t.id ? 'var(--paper)' : 'rgba(var(--ink-rgb),0.5)',
+                  border: 'none', cursor: 'pointer', transition: 'all 0.15s',
+                }}
+              >{t.label}</button>
+            ))}
+          </div>
+        )}
+
+        {current && <div dangerouslySetInnerHTML={{ __html: current.html }} />}
+
+        <div style={{ background: '#1a1714', color: '#f0e8d8', padding: '2.5rem', position: 'relative', marginTop: '2rem' }}>
+          <span style={{ fontFamily: 'var(--mono)', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,232,216,0.4)', display: 'block', marginBottom: '1.25rem' }}>Agent prompt — city power analysis</span>
+          <button
+            onClick={copy}
+            style={{
+              position: 'absolute', top: '1.25rem', right: '1.25rem',
+              fontFamily: 'var(--mono)', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase',
+              background: 'none', border: '1px solid rgba(240,232,216,0.25)',
+              color: copied ? '#d4604f' : 'rgba(240,232,216,0.5)',
+              padding: '0.4rem 0.75rem', cursor: 'pointer',
+            }}
+          >{copied ? 'Copied' : 'Copy'}</button>
+          <pre style={{ fontFamily: 'var(--mono)', fontSize: '0.78rem', lineHeight: 1.8, color: 'rgba(240,232,216,0.88)', whiteSpace: 'pre-wrap', margin: 0 }}>{PROMPT}</pre>
         </div>
-        
-        
-        
-        <ArticleFooter seriesNote="" />
-      </ArticleWrap>
+
+        <div dangerouslySetInnerHTML={{ __html: `<div class="article-footer">
+<a class="back-link" href="index.html">Back to all pieces</a>
+</div>` }} style={{ marginTop: '2rem' }} />
+      </div>
     </Layout>
   )
 }

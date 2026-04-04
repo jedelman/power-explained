@@ -1,7 +1,4 @@
 import Layout from '../components/Layout'
-import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
-
-const SECTIONS = []
 
 export default function Glossary() {
   return (
@@ -10,26 +7,474 @@ export default function Glossary() {
       description="Key terms used across all three series. Plain definitions, no jargon."
       seriesTag=""
     >
-      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
-        
-        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          
-          <h1 dangerouslySetInnerHTML={{ __html: `Glossary` }} />
-          
-          
-        </div>
-      </div>
-
-      <ArticleWrap>
-        
-        <div className="body-text">
-          
-        </div>
-        
-        
-        
-        <ArticleFooter seriesNote="" />
-      </ArticleWrap>
+      <div dangerouslySetInnerHTML={{ __html: `<div class="page-hero">
+<div class="page-label">Reference</div>
+<h1>Glossary</h1>
+<p class="page-dek">Key terms used across all three series. Plain definitions. No jargon required to understand the jargon.</p>
+</div>
+<nav class="jump-nav">
+<a class="jump-link" href="#abolition">Abolition</a>
+<a class="jump-link" href="#alibi">Alibi</a>
+<a class="jump-link" href="#capture">Capture</a>
+<a class="jump-link" href="#the-commons">The Commons</a>
+<a class="jump-link" href="#council-communism">Council Communism</a>
+<a class="jump-link" href="#double-shift">Double Shift</a>
+<a class="jump-link" href="#enclosure">Enclosure</a>
+<a class="jump-link" href="#immanence">Immanence / Transcendence</a>
+<a class="jump-link" href="#intersectionality">Intersectionality</a>
+<a class="jump-link" href="#mass-strike">Mass Strike</a>
+<a class="jump-link" href="#mutual-aid">Mutual Aid</a>
+<a class="jump-link" href="#the-outside">The Outside</a>
+<a class="jump-link" href="#prefigurative">Prefigurative Politics</a>
+<a class="jump-link" href="#primitive-accumulation">Primitive Accumulation</a>
+<a class="jump-link" href="#reproductive-labor">Reproductive Labor</a>
+<a class="jump-link" href="#routing">Routing Architecture</a>
+<a class="jump-link" href="#soviet">Soviet</a>
+<a class="jump-link" href="#state-capitalism">State Capitalism</a>
+<a class="jump-link" href="#transformative-justice">Transformative Justice</a>
+<a class="jump-link" href="#vanguard">Vanguard Party</a>
+</nav>
+<div class="terms">
+<span class="section-head">Series I — Power and the City</span>
+<div class="term-block">
+<span class="term-anchor" id="capture"></span>
+<div class="term-header">
+<span class="term-name">Capture</span>
+<span class="term-series">Series I, II, III</span>
+</div>
+<p class="term-def">When a system takes something people built collectively — their knowledge, attention, labor, relationships, or institutions — and routes it through a mechanism that extracts value for someone else. The captured thing still works. It just works for different people now.</p>
+<p class="term-extended">Capture operates at escalating levels of subtlety. The crude version is coercion: do this or face consequences. More sophisticated versions work through incentives, norms, and eventually through the structure of desire itself — when you want the thing that makes the system function, you've been captured without knowing it. The most durable capture doesn't look like capture at all.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="why-your-city-doesnt-work.html">01</a>
+<a class="appears-link" href="who-gets-paid.html">03</a>
+<a class="appears-link" href="the-outside-capital-needs.html">08</a>
+<a class="appears-link" href="who-pays-for-the-next-shift.html">09</a>
+<a class="appears-link" href="falling-through-the-gap.html">12</a>
+<a class="appears-link" href="the-party-ate-the-revolution.html">III·II</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="routing"></span>
+<div class="term-header">
+<span class="term-name">Routing Architecture</span>
+<span class="term-series">Series I, II, III</span>
+</div>
+<p class="term-def">The underlying structure that determines where things flow — money, information, decisions, care, attention. As opposed to content, which is what gets said or shown. Two systems can produce identical content while routing things completely differently.</p>
+<p class="term-extended">The distinction matters because content-level change is easily capturable. New faces, new messaging, new branding — all content. Routing-level change is structurally harder to co-opt, because it changes who controls the flow, not just what flows. A city council that publishes all its data but doesn't change how decisions get made has changed content. A neighborhood that routes its own emergency response through mutual relationships instead of 911 has changed routing.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="two-ways-to-fix-a-pothole.html">04</a>
+<a class="appears-link" href="open-data-isnt-enough.html">05</a>
+<a class="appears-link" href="who-pays-for-the-next-shift.html">09</a>
+<a class="appears-link" href="the-party-ate-the-revolution.html">III·II</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="alibi"></span>
+<div class="term-header">
+<span class="term-name">Alibi</span>
+<span class="term-series">Series I, II</span>
+</div>
+<p class="term-def">What a system needs you to believe in order to seem legitimate. Not necessarily a lie — often a partial truth that does ideological work by making an arrangement seem natural, necessary, or just.</p>
+<p class="term-extended">When an alibi is working, it's invisible. It doesn't feel like an argument — it feels like reality. The housing market produces homelessness, but the alibi ("people make choices") makes that feel like a personal failure rather than a structural outcome. The gendered division of labor extracts unpaid work from women, but the alibi ("women are naturally nurturing") makes that feel like a description of who they are rather than what power has organized. When an alibi becomes visible as an alibi, the system it justifies becomes temporarily unstable.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="who-gets-paid.html">03</a>
+<a class="appears-link" href="the-other-and-the-outside.html">10</a>
+<a class="appears-link" href="falling-through-the-gap.html">12</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="mutual-aid"></span>
+<div class="term-header">
+<span class="term-name">Mutual Aid</span>
+<span class="term-series">Series I, III</span>
+</div>
+<p class="term-def">A practice where people in a community support each other directly — not through an institution that manages the giving, but through horizontal relationships where everyone both gives and receives. The point isn't the transfer; it's the infrastructure the relationships build.</p>
+<p class="term-extended">Mutual aid is distinct from charity, which flows in one direction and positions recipients as beneficiaries rather than members. It's also distinct from the welfare state, which routes support through bureaucratic institutions with eligibility criteria. Mutual aid routes through relationships — which means it builds organizational capacity, shared knowledge, and trust that outlasts any single exchange. This is why authoritarian governments have historically targeted it: a community that can take care of itself is harder to control through scarcity.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="mutual-aid-isnt-charity.html">07</a>
+<a class="appears-link" href="what-we-do-on-monday.html">14</a>
+<a class="appears-link" href="build-it-now.html">III·IV</a>
+</div>
+</div>
+<span class="section-head">Series II — The Hidden Engine</span>
+<div class="term-block">
+<span class="term-anchor" id="the-commons"></span>
+<div class="term-header">
+<span class="term-name">The Commons</span>
+<span class="term-series">Series I, II, III</span>
+</div>
+<p class="term-def">Resources, knowledge, and capacity that a community builds and manages together — outside of private ownership and outside of state control. The shared language people use for free. The informal networks that move care around. The ecological systems that sustain life. The social trust that makes anything work at all.</p>
+<p class="term-extended">The commons isn't just nice to have. It's the substrate every economic system runs on, including capitalism, which depends on the commons while claiming to have produced it. This is Rosa Luxemburg's core insight: capital requires an outside it cannot produce itself. That outside is the commons — and capital's relationship to it is always extractive. It can enclose the commons, privatize it, commodify it. It cannot create it from scratch. Once enclosed, the commons stops being what it was. The social trust becomes a brand. The shared knowledge becomes intellectual property. The ecological system becomes a liability.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="how-linux-became-the-internet.html">06</a>
+<a class="appears-link" href="mutual-aid-isnt-charity.html">07</a>
+<a class="appears-link" href="the-outside-capital-needs.html">08</a>
+<a class="appears-link" href="who-pays-for-the-next-shift.html">09</a>
+<a class="appears-link" href="what-they-burned.html">13</a>
+<a class="appears-link" href="what-we-do-on-monday.html">14</a>
+<a class="appears-link" href="build-it-now.html">III·IV</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="the-outside"></span>
+<div class="term-header">
+<span class="term-name">The Outside</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">Rosa Luxemburg's term for what capitalism structurally requires but cannot produce: non-capitalist economies, subsistence communities, colonial territories — any space that hasn't yet been fully incorporated into the market. Capital expands by incorporating the outside; when the outside runs out, the system cannibalizes itself.</p>
+<p class="term-extended">Luxemburg mapped the outside geographically — colonies, peasant economies. Later theorists, especially Silvia Federici, showed that the outside was also intimate and domestic: the unpaid reproductive labor performed primarily by women, inside households, which sustains the workforce at zero cost to capital. The outside isn't somewhere else. It's in every household where someone cooks dinner without getting paid for it.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-outside-capital-needs.html">08</a>
+<a class="appears-link" href="what-they-burned.html">13</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="primitive-accumulation"></span>
+<div class="term-header">
+<span class="term-name">Primitive Accumulation</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">Marx's term for how capitalism got started: not by people saving and investing wisely, but by forcibly separating people from the resources they'd shared — enclosing common land, destroying subsistence economies, creating a class of people with nothing to sell but their labor. "Primitive" here means "original" or "prior," not unsophisticated.</p>
+<p class="term-extended">Silvia Federici's key contribution is showing that primitive accumulation didn't end — it's ongoing, and it was never only about land. The witch hunts of the 15th–17th centuries were a form of primitive accumulation targeting women's reproductive knowledge and autonomy: destroying the communal systems that gave communities independence from wage labor and state control. Every new wave of enclosure — of digital commons, of genetic material, of attention — is another round of primitive accumulation.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="what-they-burned.html">13</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="reproductive-labor"></span>
+<div class="term-header">
+<span class="term-name">Reproductive Labor</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">The work that reproduces the workforce from day to day and generation to generation: cooking, childcare, elder care, emotional support, housework, nursing. Not "reproductive" in the biological sense only — in the sense of reproducing the conditions that make productive labor possible.</p>
+<p class="term-extended">Reproductive labor is the hidden subsidy that makes the entire profit calculation work. If every act of care had to be purchased at market rates, most businesses would be unprofitable. The system doesn't just fail to pay for this labor — it depends on not paying for it. Alexandra Kollontai saw this clearly in 1909. The feminist economists who formalized it in the 1970s — including Federici's "Wages Against Housework" campaign — were building on her foundation. The labor is still mostly unpaid. The dependency is still structural.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="who-pays-for-the-next-shift.html">09</a>
+<a class="appears-link" href="which-women.html">11</a>
+<a class="appears-link" href="what-they-burned.html">13</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="enclosure"></span>
+<div class="term-header">
+<span class="term-name">Enclosure</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">The process of taking something held in common and making it private or state property. Historically: fencing off common land in England, destroying peasant subsistence, forcing people into wage labor. Ongoing: privatizing water, patenting seeds, commodifying attention, enclosing digital commons.</p>
+<p class="term-extended">Enclosure is not a historical event that ended. It's a structural tendency of capital — the ongoing conversion of commons into assets. Every commons that gets enclosed stops regenerating itself the way commons do. Social trust sold as a service is not social trust. Community knowledge patented is not community knowledge. The thing that made the commons valuable — its capacity to produce more than was put in, to regenerate, to self-organize — is precisely what enclosure destroys.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-outside-capital-needs.html">08</a>
+<a class="appears-link" href="what-they-burned.html">13</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="double-shift"></span>
+<div class="term-header">
+<span class="term-name">The Double Shift</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">The situation where someone — most often a woman — works a full day of paid employment and then comes home to perform another full shift of unpaid reproductive labor: cooking, childcare, housework, care for elderly relatives.</p>
+<p class="term-extended">The double shift isn't just exhausting. It's structural. It means women's paid labor is subsidized by their unpaid labor — employers get full participation while the costs of that participation are externalized onto households, and specifically onto women within those households. Equal pay without addressing the double shift doesn't solve the problem; it just adds a second income stream to the same underlying arrangement.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="who-pays-for-the-next-shift.html">09</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="immanence"></span>
+<div class="term-header">
+<span class="term-name">Immanence / Transcendence</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">Simone de Beauvoir's terms for the two positions assigned in patriarchal society. Immanence: being bound to repetition, the body, nature, maintenance — the work of keeping things the same. Transcendence: acting in history, making things, building the future. Men are culturally assigned transcendence; women, immanence.</p>
+<p class="term-extended">De Beauvoir's point is that this assignment is not biological — it's imposed and enforced. And it does real work: it makes the gendered division of labor feel natural rather than organized. If women "are" immanent by nature, then of course they do the care work. The ideological claim ("this is what women are") justifies the economic arrangement ("this is what women do, for free") in a way that makes both seem inevitable. Naming the assignment as an assignment is the first move toward undoing it.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-other-and-the-outside.html">10</a>
+<a class="appears-link" href="which-women.html">11</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="intersectionality"></span>
+<div class="term-header">
+<span class="term-name">Intersectionality</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">Kimberlé Crenshaw's term for the way multiple systems of oppression — race, gender, class, and others — interact to produce conditions that can't be understood by looking at any one system alone. Not a description of how many kinds of oppression someone faces, but a structural argument about how institutions that process categories separately are blind to people whose situation is produced by the combination.</p>
+<p class="term-extended">The concept came out of a legal case: Black women suing General Motors for discrimination couldn't win because the legal system handled race and gender as separate tracks, and GM could show it hired Black men and white women. The combination — Black women — had no legal category. Intersectionality names the gap. It has since been broadened far beyond its legal origins, sometimes usefully (as a framework for understanding overlapping systems of power) and sometimes in ways that lose the structural precision of the original argument.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="falling-through-the-gap.html">12</a>
+<a class="appears-link" href="which-women.html">11</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="abolition"></span>
+<div class="term-header">
+<span class="term-name">Abolition / Abolitionism</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">The position that prisons and policing don't solve the problems they claim to solve, and should be replaced — not reformed — with alternative infrastructure: mental health care, housing security, economic stability, and community accountability processes that actually address the conditions producing harm.</p>
+<p class="term-extended">Abolition is often misread as "no consequences for harm." It's the opposite: it takes harm seriously enough to ask what actually addresses it, rather than accepting a carceral system whose track record shows it makes things worse. The abolitionist tradition connects to the commons argument: the alternative to prisons is not an absence of anything, it's a presence — the presence of genuine community capacity to care for people and hold them accountable through relationships rather than cages. Angela Davis named the question; Mariame Kaba operationalizes it.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="which-women.html">11</a>
+<a class="appears-link" href="what-we-do-on-monday.html">14</a>
+<a class="appears-link" href="build-it-now.html">III·IV</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="transformative-justice"></span>
+<div class="term-header">
+<span class="term-name">Transformative Justice</span>
+<span class="term-series">Series II</span>
+</div>
+<p class="term-def">An approach to harm that asks not just "what rule was broken and what punishment follows" but "what conditions produced this harm, and how do we change those conditions?" It tries to address harm, support people who were hurt, hold people accountable, and transform the underlying situation — rather than removing someone from the community.</p>
+<p class="term-extended">Transformative justice is related to but distinct from restorative justice. Restorative justice focuses on repairing relationships between specific people — perpetrator, victim, community. Transformative justice goes further, asking what structural conditions (poverty, isolation, untreated trauma, racism) produced the harm and need to change. Both are alternatives to the punitive model that says the appropriate response to harm is pain and removal. Neither is appropriate for every situation; neither claims to be.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="what-we-do-on-monday.html">14</a>
+<a class="appears-link" href="build-it-now.html">III·IV</a>
+</div>
+</div>
+<span class="section-head">Series III — Against Authoritarianism</span>
+<div class="term-block">
+<span class="term-anchor" id="vanguard"></span>
+<div class="term-header">
+<span class="term-name">Vanguard Party</span>
+<span class="term-series">Series III</span>
+</div>
+<p class="term-def">Lenin's model of the revolutionary organization: a disciplined party of professional revolutionaries who have developed the correct political theory and lead the working class toward revolution. The party acts as the "vanguard" — the advanced section that sees further than the class it represents.</p>
+<p class="term-extended">The critique of the vanguard model — made by Luxemburg in 1904, before the Russian Revolution happened — is that it's structurally incapable of being corrected by the people it claims to represent. If the party knows better than the workers, then worker criticism of the party is always potentially a sign of false consciousness, not a valid input. This architecture reliably produces organizations that suppress the distributed intelligence they depend on. Luxemburg's alternative: organizations that process distributed intelligence rather than replace it.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-party-ate-the-revolution.html">III·II</a>
+<a class="appears-link" href="the-tradition-they-buried.html">III·III</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="soviet"></span>
+<div class="term-header">
+<span class="term-name">Soviet</span>
+<span class="term-series">Series III</span>
+</div>
+<p class="term-def">Russian for "council." In the context of the Russian Revolution: workers' councils that formed organically in factories and neighborhoods before and during 1917 — self-organized bodies where workers made collective decisions about their own conditions without being directed by any party.</p>
+<p class="term-extended">The soviets were the genuinely revolutionary form of the Russian Revolution — distributed, self-organizing, processing local knowledge locally. The Bolshevik slogan "All Power to the Soviets" was appealing because it pointed to these existing structures as the model for socialist governance. After 1917, the Bolshevik party systematically absorbed and neutralized the soviets, routing decision-making through the party hierarchy. By the early 1920s, the soviets were functionally irrelevant. The word "Soviet" remained in the name of the state ("USSR") long after the actual councils had been hollowed out.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-party-ate-the-revolution.html">III·II</a>
+<a class="appears-link" href="who-pays-for-the-next-shift.html">09</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="state-capitalism"></span>
+<div class="term-header">
+<span class="term-name">State Capitalism</span>
+<span class="term-series">Series III</span>
+</div>
+<p class="term-def">A system where the state owns and manages the means of production, but workers remain separated from control over their own labor — just as under private capitalism, only now the boss is the state rather than a private employer. The council communist critique of the Soviet Union: it replaced private capitalists with state managers, not with worker self-governance.</p>
+<p class="term-extended">The term is used by both left critics of the Soviet model (like the council communists) and occasionally by defenders of capitalism (who use it to describe any heavy state intervention in the economy). The left usage is the precise one: state capitalism describes a situation where nationalization of property did not produce genuine worker control, because the state retained all decision-making authority. From the worker's perspective, showing up and doing what you're told for a state manager is structurally similar to showing up and doing what you're told for a private one.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-party-ate-the-revolution.html">III·II</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="mass-strike"></span>
+<div class="term-header">
+<span class="term-name">The Mass Strike</span>
+<span class="term-series">Series II, III</span>
+</div>
+<p class="term-def">Rosa Luxemburg's description, from her 1906 pamphlet, of spontaneous and distributed political action: strikes spreading from factory to factory without a central command directing them, workers reading each other and coordinating without instructions from a party hierarchy.</p>
+<p class="term-extended">Luxemburg wasn't inventing a tactic — she was describing something she observed happening during the 1905 Russian revolution. Her point was that this distributed coordination was more effective than centralized command for the same reason distributed knowledge is often more accurate than expert knowledge: it processes local conditions locally, in real time. The mass strike is what the commons looks like when it acts politically. The party that tries to direct and channel it often kills it.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-outside-capital-needs.html">08</a>
+<a class="appears-link" href="the-tradition-they-buried.html">III·III</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="council-communism"></span>
+<div class="term-header">
+<span class="term-name">Council Communism</span>
+<span class="term-series">Series III</span>
+</div>
+<p class="term-def">A tendency within socialist thought that argued workers' councils — not vanguard parties — are the genuine organizational form of working-class self-governance. The council communists developed Luxemburg's critique of Lenin into a full alternative theory: federated councils, organized at the point of production, coordinating horizontally without a commanding party above them.</p>
+<p class="term-extended">Key figures include Anton Pannekoek (Dutch astronomer and socialist theorist), Herman Gorter (Dutch poet and political writer), and Otto Rühle (German socialist who broke with the Communist International). They were marginalized by the Comintern, which was controlled by Moscow and committed to the Bolshevik model. Lenin dismissed their position as an "infantile disorder." Their ideas were more thoroughly vindicated by the historical record than Lenin's were, which is why you've probably never heard of them.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-tradition-they-buried.html">III·III</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="prefigurative"></span>
+<div class="term-header">
+<span class="term-name">Prefigurative Politics</span>
+<span class="term-series">Series II, III</span>
+</div>
+<p class="term-def">The practice of building the world you want to live in now — in the present, in the interstices of the current system — rather than deferring all change to a future revolutionary moment. The organization is built to embody its values: horizontal rather than hierarchical, accountable to its members, practicing the kind of relationships it's trying to produce.</p>
+<p class="term-extended">Prefigurative politics is sometimes dismissed as naive — as if playing nice in your community organization while capitalism continues is meaningless. The more serious version of the argument is that means produce ends: a movement organized through command will build institutions of command. A movement organized through horizontal accountability will build different institutions. This doesn't make the question of state power irrelevant. It makes the organizational form of the movement the first question, not an afterthought.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-outside-capital-needs.html">08</a>
+<a class="appears-link" href="what-we-do-on-monday.html">14</a>
+<a class="appears-link" href="build-it-now.html">III·IV</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="hegemony"></span>
+<div class="term-header">
+<span class="term-name">Hegemony</span>
+<span class="term-series">Thinkers</span>
+</div>
+<p class="term-def">Gramsci's term for power that works through consent rather than coercion — when a ruling group's worldview becomes everyone's common sense. Not propaganda you know is happening. Not force you can resist. The invisible third thing: the framework for what feels natural, realistic, or thinkable before anyone decides whether to think it.</p>
+<p class="term-extended">Hegemony is not psychological; it's institutional. It's produced through civil society — schools, media, professional norms, legal frameworks — that share enough underlying assumptions that their outputs reinforce each other without any central coordination. The result is a common sense that feels like perception rather than politics: arrangements that benefit a particular group feel like facts about the world rather than choices about it. Distinguishing hegemony from propaganda is important: propaganda you can identify and reject. Hegemony you usually can't, until it fails — until a crisis makes the assumptions visible as assumptions. Those failure moments are when alternatives become thinkable.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="gramsci.html">Thinkers</a>
+<a class="appears-link" href="hardin-was-wrong.html">III·V</a>
+<a class="appears-link" href="the-tradition-they-buried.html">III·III</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="counter-hegemony"></span>
+<div class="term-header">
+<span class="term-name">Counter-Hegemony</span>
+<span class="term-series">Thinkers</span>
+</div>
+<p class="term-def">The process of building alternative common sense — not just different opinions, but different frameworks for what's natural, realistic, and thinkable. Counter-hegemony is not primarily about winning arguments. It's about building institutions that embody different assumptions, so that a different world becomes legible to more people before it becomes politically possible.</p>
+<p class="term-extended">Gramsci's "war of position" is the strategy of counter-hegemony: not a frontal assault on state power, but the patient, long-term construction of cultural and institutional groundwork. Every institution that operates differently produces evidence that alternatives are functional. Every analysis that names a structure rather than a personal failure builds vocabulary. Every community that takes care of itself without routing through market or state demonstrates that the current arrangement is a choice, not a necessity. Counter-hegemonic work is unglamorous, slow, and distributed. It does not produce dramatic victories. It produces the conditions for them.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="gramsci.html">Thinkers</a>
+<a class="appears-link" href="the-tradition-they-buried.html">III·III</a>
+<a class="appears-link" href="build-it-now.html">III·IV</a>
+</div>
+</div>
+</div>
+<span class="section-head">Series IV — The World the Framework Missed</span>
+<div class="term-block">
+<span class="term-anchor" id="racial-capitalism"></span>
+<div class="term-header">
+<span class="term-name">Racial Capitalism</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">Cedric Robinson's term for the historical reality that capitalism was not a race-neutral economic system that racism was later added to. Race was constitutive of capitalism from its origins — the hierarchical classification of human beings by race was built into the system's basic architecture, determining who was available for extraction and who was not.</p>
+<p class="term-extended">The standard account holds that European capitalism developed as a neutral economic mechanism, and that racism was introduced to justify the slave trade and colonial conquest. Robinson's <em>Black Marxism</em> (1983) argues this story starts too late. Medieval and early modern Europe had already developed proto-racial hierarchies internally — Welsh, Irish, Slavic, Jewish populations classified as lesser kinds of people. These hierarchies were carried into the colonial project and were constitutive of it, not added afterward. You cannot separate capitalism from its racial architecture because the architecture is not incidental — it is how the system works. Du Bois's "wages of whiteness" extends this: racial hierarchy fragments working-class solidarity by offering white workers psychological and social compensation for economic subordination.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="racial-capitalism.html">IV·I</a>
+<a class="appears-link" href="underdevelopment-is-a-verb.html">IV·II</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="underdevelopment"></span>
+<div class="term-header">
+<span class="term-name">Underdevelopment (as production)</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">Walter Rodney's argument that African poverty was not a pre-existing condition that Europe encountered — it was actively produced by European extraction. Underdevelopment is a verb, not a noun. Something done, by specific actors, to specific places, for specific reasons.</p>
+<p class="term-extended">The slave trade removed not just people but productive capacity, restructured African political economies toward capture rather than production, and destroyed long-distance trade networks. Colonial administration then reorganized African economies around export monocultures for European markets, built infrastructure for extraction rather than internal development, and deliberately withheld technical education. At independence, African countries inherited economies and infrastructure designed for someone else's benefit. The "development gap" between Africa and Europe is not an accident of geography or culture. It is an accounting relationship: African surplus financed European industrialization. Eric Williams documented the direct financial connection in <em>Capitalism and Slavery</em> (1944).</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="underdevelopment-is-a-verb.html">IV·II</a>
+<a class="appears-link" href="racial-capitalism.html">IV·I</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="necropolitics"></span>
+<div class="term-header">
+<span class="term-name">Necropolitics</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">Achille Mbembe's concept for sovereign power exercised not through the management of life (Foucault's biopower) but through the decision about who is exposed to death. The colony, the plantation, and the occupied territory are necropolitical spaces — permanent states of exception where violence against certain populations is administratively routine rather than legally exceptional.</p>
+<p class="term-extended">Foucault showed that modern power works by managing populations — organizing health, reproduction, productivity, education. He called this biopower. Mbembe asks what Foucault's framework misses: the colony, where modern sovereign power operated without the liberal alibi, deciding who could be killed without legal consequence. The slave ship is Mbembe's paradigm case: total power over life and death, exercised as an ordinary commercial and administrative function. His contemporary examples — drone warfare, the occupation of Palestinian territory, the carceral state — show that necropolitics is not a historical relic. It is the operating mode of power in spaces where the alibi has dropped away. Note: this is distinct from "necrocapitalism," a related but different term from critical management studies.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="who-gets-to-die.html">IV·IV</a>
+<a class="appears-link" href="build-the-commune-without-the-state.html">IV·VI</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="coloniality-of-being"></span>
+<div class="term-header">
+<span class="term-name">Coloniality of Being</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">The persistence of colonial classifications in the categories through which human beings understand themselves and each other — not just in economics or governance, but in ontology: what counts as a person, what counts as knowledge, what counts as civilization.</p>
+<p class="term-extended">Aníbal Quijano coined "coloniality of power" to name the continuation of colonial power relations after formal independence — the structuring of global economics, knowledge, and governance by hierarchies established under colonialism. Nelson Maldonado-Torres extended this into "coloniality of being": the deepest level, where colonial classifications shape who is recognized as fully human, whose experience counts as knowledge, whose governance forms count as legitimate. Sylvia Wynter's work maps the historical construction of this coloniality — how European humanism produced a specific figure of Man and then overrepresented that figure as the universal Human, creating the categories through which colonized people were measured as deficient. Decolonization, in this framework, requires not just redistribution or sovereignty but the reconstruction of the categories themselves.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-alibi-was-a-mirror.html">IV·III</a>
+<a class="appears-link" href="the-human-was-a-story.html">IV·Coda</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="overrepresentation"></span>
+<div class="term-header">
+<span class="term-name">Overrepresentation of Man</span>
+<span class="term-series">Series IV — Coda</span>
+</div>
+<p class="term-def">Sylvia Wynter's term for the move by which a specific historical figure — the educated, propertied, European, rational male subject of Renaissance and Enlightenment humanism — was generalized into the universal category of the Human. One civilization's self-portrait became the definition of what all human beings are, so that all other ways of being human are measured as deviations from the norm.</p>
+<p class="term-extended">Wynter argues that human beings are always constituted through what she calls a "genre" — a cultural-historical narrative about what it means to be human, what counts as flourishing, what obligations you have. Every society produces its own genre of the human. The problem is not that genres exist; it is when one genre is overrepresented as the universal. The Enlightenment figure of Man — rational, self-determining, property-owning — was not a neutral description of the species. It was a portrait of a specific kind of person whose attributes were elevated into the definition of full humanity. Everyone else — colonized peoples, women, the poor — was then classified relative to that standard and found deficient. This made colonial extraction, gendered subjection, and class exploitation all appear not as political impositions but as responses to natural inferiority. Wynter's political conclusion: genuine decolonization requires not admission to the category of the Human as currently defined, but the dissolution of the overrepresentation — the construction of a genuinely pluriversal account of what human beings can be.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="the-human-was-a-story.html">IV·Coda</a>
+<a class="appears-link" href="the-alibi-was-a-mirror.html">IV·III</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="democratic-confederalism"></span>
+<div class="term-header">
+<span class="term-name">Democratic Confederalism</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">Abdullah Öcalan's political philosophy, developed in prison from his reading of Murray Bookchin, proposing governance organized through self-managing communes federated upward rather than administered downward — without a state at the center. Currently implemented in the Autonomous Administration of North and East Syria (Rojava).</p>
+<p class="term-extended">Democratic confederalism rests on three pillars: democratic autonomy (governance through face-to-face assemblies at the commune level, federated into larger structures that handle coordination without concentrating sovereignty), women's liberation (jineology as a foundational epistemology, co-governance as a structural requirement rather than a stated value), and ecological society (Bookchin's social ecology: the domination of nature and the domination of human by human are the same problem). In Rojava, the commune is the basic governance unit — a neighborhood assembly of roughly 100-300 households with decision-making authority over local matters. Communes federate into district councils, then cantonal assemblies, then a coordination body that handles matters requiring regional scale. The system is genuinely multi-ethnic and multi-religious, governing Kurdish, Arab, Assyrian, Armenian, and Yazidi communities under shared governance structures. It is also under military attack from Turkey, which treats the governance experiment as an existential threat.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="build-the-commune-without-the-state.html">IV·VI</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="social-ecology"></span>
+<div class="term-header">
+<span class="term-name">Social Ecology</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">Murray Bookchin's political philosophy holding that the ecological crisis and the social crisis are not separate problems with separate solutions. They are the same problem: hierarchy. The domination of nature by human beings is the external expression of the same logic that produces the domination of human beings by other human beings.</p>
+<p class="term-extended">Bookchin's argument: you cannot solve the ecological crisis while maintaining hierarchical social organization, because hierarchical social organization is what produces the ecological crisis. Capitalist states that "go green" — renewable energy, carbon pricing, protected areas — are still organized around extraction and accumulation. They will continue producing ecological crises because that is what hierarchical societies do. The alternative is not environmental policy but the construction of non-hierarchical social organization: communes federated horizontally, governing shared resources through direct democratic assemblies, orienting economic life toward mutual flourishing rather than accumulation. This is Bookchin's libertarian municipalism, which became the basis for Öcalan's democratic confederalism.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="build-the-commune-without-the-state.html">IV·VI</a>
+</div>
+</div>
+<div class="term-block">
+<span class="term-anchor" id="jineology"></span>
+<div class="term-header">
+<span class="term-name">Jineology</span>
+<span class="term-series">Series IV</span>
+</div>
+<p class="term-def">The "science of women" developed within Öcalan's democratic confederalism framework — treating women's liberation not as one issue among many but as the foundational condition for any genuine social transformation. Institutionalized in Rojava as co-leadership at every governance level, autonomous women's organizations with veto power, and the YPJ (Women's Protection Units) as an autonomous fighting force.</p>
+<p class="term-extended">Öcalan's argument: patriarchy is the oldest form of hierarchy, the template from which all subsequent hierarchies were built. A revolution that liberates the nation but maintains patriarchal relations within it has not freed itself from the logic of domination — it has simply moved who the dominators are. This echoes Kollontai's analysis in Series II: the party captured the routing architecture of the revolution while leaving gender hierarchy intact. Jineology responds by making gender liberation structurally mandatory rather than a stated value: co-leadership is not a goal to work toward, it is a requirement of the governance system. Every governing body has a male and female co-chair. Women's assemblies have independent organizational existence and veto power over decisions affecting women. The YPJ is autonomous from the male-dominated YPG. These are not symbolic commitments. They produce different outcomes.</p>
+<div class="appears-in">
+<span class="appears-label">Appears in:</span>
+<a class="appears-link" href="build-the-commune-without-the-state.html">IV·VI</a>
+</div>
+</div>
+<div class="page-footer">
+<a class="back-link" href="index.html">Back to all pieces</a>
+<span class="footer-note">Power Explained — Public domain. Share freely.</span>
+</div>` }} />
     </Layout>
   )
 }

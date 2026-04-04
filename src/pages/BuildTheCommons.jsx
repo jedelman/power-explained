@@ -1,32 +1,8 @@
+import { useState } from 'react'
 import Layout from '../components/Layout'
-import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
 
-const SECTIONS = []
-
-export default function BuildTheCommons() {
-  return (
-    <Layout
-      title="Build the Commons — Power Explained"
-      description="You don't have to wait. Community land trusts, energy cooperatives, mutual aid networks, food co-ops — the commons is being built right now. Here's how to find one and how to start one."
-      seriesTag="Tools"
-    >
-      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
-        
-        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          
-          <h1 dangerouslySetInnerHTML={{ __html: `Build<br />the Commons` }} />
-          <p className="hero-dek">You don't have to wait. The commons is being built right now, in every domain where people decided to stop waiting. Here's how to find one, join one, or start one in your city.</p>
-          
-        </div>
-      </div>
-
-      <ArticleWrap>
-        
-        <div className="body-text">
-          
-          <div dangerouslySetInnerHTML={{ __html: `<!-- DIY TRACK -->
-<div class="track active" id="track-diy">
-<p>The commons isn't a future project. It's infrastructure that already exists — usually underfunded, often invisible in mainstream political conversation, and almost always looking for people who want to be involved. This is organized by domain. Find your entry point, then go deep.</p>
+const TRACKS = [
+  { id: 'diy',   label: 'DIY Track',   html: `<p>The commons isn't a future project. It's infrastructure that already exists — usually underfunded, often invisible in mainstream political conversation, and almost always looking for people who want to be involved. This is organized by domain. Find your entry point, then go deep.</p>
 <div class="theory-note">
 <span class="theory-note-label">Why this matters</span>
 <p>Every commons institution you find or build is a place where people who depend on a resource have a say in how it's governed. That's the structural alternative to both private extraction and distant state administration. The theory is in <a class="xl" href="hardin-was-wrong.html">Hardin Was Wrong</a> and <a class="xl" href="the-commons-they-never-stopped-building.html">The Commons They Never Stopped Building</a>. This page is the practical counterpart.</p>
@@ -233,11 +209,8 @@ export default function BuildTheCommons() {
 </ul>
 </div>
 </div>
-</div>
-</div><!-- /track-diy -->
-<!-- AGENT TRACK -->
-<div class="track" id="track-agent">
-<p>Give this to an AI research agent to map the commons infrastructure already operating in your city. The output is a structured inventory — what exists, where, and what gaps are most critical to fill.</p>
+</div>` },
+  { id: 'agent', label: 'Agent Track', html: `<p>Give this to an AI research agent to map the commons infrastructure already operating in your city. The output is a structured inventory — what exists, where, and what gaps are most critical to fill.</p>
 <div class="how-to">
 <div class="how-to-header">
 <span class="how-to-label">Before you run</span>
@@ -290,14 +263,102 @@ Flag when you can't find something. Absence of information about a domain in a c
 <div class="theory-note">
 <span class="theory-note-label">Why this matters</span>
 <p>The commons inventory is the productive counterpart to the power analysis in <a class="xl" href="your-city.html">Your City</a>. The power analysis maps the capture structure. This maps the substrate that capture depends on but can't produce — and where the alternatives are already being built. Together, the two briefs tell you where you are and where the leverage is. The theory is in <a class="xl" href="the-outside-capital-needs.html">The Outside Capital Needs</a> and <a class="xl" href="hardin-was-wrong.html">Hardin Was Wrong</a>.</p>
-</div>
-</div><!-- /track-agent -->` }} />
+</div>` },
+]
+
+const PROMPT = `You are a researcher mapping commons infrastructure in a city. Your job is to produce a structured inventory of cooperative and commons institutions currently operating in the city — organized by domain — and identify which gaps are most critical to fill.
+
+City: [CITY NAME, STATE]
+Research depth: [QUICK (surface-level inventory) / THOROUGH (with organizational details)]
+
+For each of the seven domains below, find and report: (a) institutions currently operating in [CITY], including name, type, size if available, and a one-sentence description; (b) national or regional networks active in [CITY] that could support new institutions; (c) any notable gaps — what exists in most cities that's absent here.
+
+DOMAINS:
+1. Housing commons — community land trusts, limited-equity housing cooperatives, resident-owned manufactured housing communities, social housing projects
+2. Energy commons — electric cooperatives, community solar projects, community energy cooperatives, municipal utilities
+3. Food commons — food cooperatives, community gardens, food forests, community-supported agriculture, seed libraries
+4. Financial commons — credit unions, community development financial institutions (CDFIs), community development credit unions (CDCUs)
+5. Work commons — worker cooperatives, platform cooperatives, cooperative conversions of existing businesses
+6. Care and mutual aid — mutual aid networks, care cooperatives, tenant unions, time banks
+7. Knowledge commons — tool libraries, repair cafes, seed libraries, open data projects, community broadband initiatives
+
+SOURCES to check for each domain:
+- Housing: cltnetwork.org, groundedsolutions.org, ncb.coop, rocc.coop
+- Energy: electric.coop, energydemocracyalliance.org, CESA community solar map
+- Food: ncga.coop/food-coops-in-your-area, localharvest.org, communitygarden.org
+- Finance: ncua.gov credit union locator, inclusiv.org, cdfi.org
+- Work: usfwc.org/find-a-co-op, institute.coop
+- Care/mutual aid: mutualaidhub.org, bigdoorbrigade.com
+- Knowledge: repaircafe.org, seedlibraries.net, city open data portal
+
+SYNTHESIS
+After completing all seven domains, write a 150–200 word synthesis that:
+- Identifies which domains have strong existing infrastructure in [CITY]
+- Identifies which domains have critical gaps
+- Names 1–2 national organizations most positioned to support gap-filling in [CITY]
+- Recommends which domain is the highest-leverage starting point for organizing (consider: population need, existing capacity, and replicability)
+
+Flag when you can't find something. Absence of information about a domain in a city is itself a finding.`
+
+export default function BuildTheCommons() {
+  const [activeTrack, setActiveTrack] = useState('diy')
+  const [copied, setCopied] = useState(false)
+
+  const copy = () => {
+    navigator.clipboard.writeText(PROMPT).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
+
+  const current = TRACKS.find(t => t.id === activeTrack)
+
+  return (
+    <Layout
+      title="Build the Commons — Power Explained"
+      description="You don't have to wait. Community land trusts, energy cooperatives, mutual aid networks, food co-ops — the commons is being built right now. Here's how to find one and how to start one."
+      seriesTag="Tools"
+    >
+      <div dangerouslySetInnerHTML={{ __html: `` }} />
+
+      <div style={{ maxWidth: 'var(--max)', margin: '0 auto', padding: '0 var(--gutter)' }}>
+        <div style={{ display: 'flex', gap: '1px', marginBottom: '2rem', background: 'var(--rule-strong)', border: '1px solid var(--rule-strong)' }}>
+          {TRACKS.map(t => (
+            <button
+              key={t.id}
+              onClick={() => setActiveTrack(t.id)}
+              style={{
+                flex: 1, padding: '0.85rem 1.25rem',
+                fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase',
+                background: activeTrack === t.id ? 'var(--ink)' : 'var(--paper)',
+                color: activeTrack === t.id ? 'var(--paper)' : 'rgba(var(--ink-rgb),0.5)',
+                border: 'none', cursor: 'pointer', transition: 'all 0.15s',
+              }}
+            >{t.label}</button>
+          ))}
         </div>
-        
-        
-        
-        <ArticleFooter seriesNote="" />
-      </ArticleWrap>
+
+        {current && <div dangerouslySetInnerHTML={{ __html: current.html }} />}
+
+        <div className="prompt-box" style={{ background: '#1a1714', color: '#f0e8d8', padding: '2.5rem', position: 'relative', marginTop: '2rem' }}>
+          <span style={{ fontFamily: 'var(--mono)', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,232,216,0.4)', display: 'block', marginBottom: '1.25rem' }}>Agent prompt — commons institutions</span>
+          <button
+            onClick={copy}
+            style={{
+              position: 'absolute', top: '1.25rem', right: '1.25rem',
+              fontFamily: 'var(--mono)', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase',
+              background: 'none', border: '1px solid rgba(240,232,216,0.25)',
+              color: copied ? '#d4604f' : 'rgba(240,232,216,0.5)',
+              padding: '0.4rem 0.75rem', cursor: 'pointer',
+            }}
+          >{copied ? 'Copied' : 'Copy'}</button>
+          <pre style={{ fontFamily: 'var(--mono)', fontSize: '0.78rem', lineHeight: 1.8, color: 'rgba(240,232,216,0.88)', whiteSpace: 'pre-wrap', margin: 0 }}>{PROMPT}</pre>
+        </div>
+
+        <div dangerouslySetInnerHTML={{ __html: `<div class="article-footer">
+<a class="back-link" href="index.html">Back to all pieces</a>
+</div>` }} style={{ marginTop: '2rem' }} />
+      </div>
     </Layout>
   )
 }

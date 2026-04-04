@@ -1,30 +1,69 @@
+import { useState } from 'react'
 import Layout from '../components/Layout'
-import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
 
-const SECTIONS = []
+const MEM_PROMPT = `You are helping me set up a persistent memory system for AI-assisted writing and development.
+The goal: a GitHub repo that stores project context in plain text files,
+cloned and read by Claude at the start of each session so it has consistent
+knowledge of my project, editorial standards, and prior decisions.
+
+My project: [BRIEF DESCRIPTION OF YOUR PROJECT]
+My GitHub username: [USERNAME]
+
+Please do the following:
+
+1. REPO STRUCTURE
+Create a GitHub repo named "claude-memory" with this file structure:
+  context/
+    user.md       — my name, working style, communication preferences
+    projects.md   — active projects, their status, key decisions made
+  protocols/
+    (empty to start — I'll add fact-checking and other protocols here)
+  conversations/
+    (empty to start — session logs go here)
+  README.md       — explains the system and how to use it
+
+2. POPULATE THE FILES
+For context/user.md: ask me 3–5 questions about my working style and preferences,
+then write the file based on my answers.
+
+For context/projects.md: ask me to describe my current project in plain terms —
+what it is, what's been built, what's next — then write the file in a structured
+format with sections for status, key decisions, and outstanding tasks.
+
+For README.md: write a short explanation of the memory system, including the
+session startup instructions Claude should follow (clone the repo, read context/
+files, write a session log to conversations/ before the context fills up).
+
+3. SESSION STARTUP SNIPPET
+After creating the repo, write a short snippet I can paste into Claude's user
+preferences that instructs it to clone and read the memory repo at the start of
+every conversation. Include placeholder text for my GitHub token.
+
+4. FIRST SESSION LOG
+Write a starter entry in conversations/ dated today that records: what the project
+is, what the initial context files contain, and the date the system was initialized.
+
+Ask me any clarifying questions you need before starting. Confirm each file before
+writing it.`
 
 export default function HowThisWasDone() {
+  const [copied, setCopied] = useState(false)
+
+  const copy = () => {
+    navigator.clipboard.writeText(MEM_PROMPT).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
+
   return (
     <Layout
       title="How This Was Done — Power Explained"
       description="Power Explained was built by one person with AI assistance, using free tools, in about two weeks. Here's exactly how — and how you can build something like it for your city or movement."
       seriesTag="Tools"
     >
-      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
-        
-        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          
-          <h1 dangerouslySetInnerHTML={{ __html: `How This<br />Was Done` }} />
-          <p className="hero-dek">One person. AI assistance. Free tools. About two weeks. Here's the full process — so you can build something like this for your city, your movement, or your framework.</p>
-          
-        </div>
-      </div>
-
-      <ArticleWrap>
-        
-        <div className="body-text">
-          
-          <div dangerouslySetInnerHTML={{ __html: `<p>Power Explained is an open-source editorial project. Everything here was built in public, using tools that are either free or cheap, by one person working with an AI collaborator. The goal was always to make the process as reproducible as the content — if the framework is right, more people should be able to apply it to their own context, not just read this version of it.</p>
+      <div dangerouslySetInnerHTML={{ __html: `<div class="body-text">
+<p>Power Explained is an open-source editorial project. Everything here was built in public, using tools that are either free or cheap, by one person working with an AI collaborator. The goal was always to make the process as reproducible as the content — if the framework is right, more people should be able to apply it to their own context, not just read this version of it.</p>
 <p>This page explains exactly how it was built, what the editorial standards are, and how you can fork it, contribute to it, or build something similar from scratch.</p>
 <h2>The stack</h2>
 <p>Everything runs on infrastructure that's either free or well under $20/month. No CMS, no database, no backend. Static HTML and CSS, deployed via GitHub Pages. The design system is inlined per file — it's verbose but makes each file standalone and portable.</p>
@@ -145,7 +184,7 @@ export default function HowThisWasDone() {
 </ul>
 <div style="background:#1a1714;color:#f0e8d8;padding:2rem;margin:1.5rem 0;position:relative;">
 <span style="font-family:var(--mono);font-size:0.55rem;letter-spacing:0.14em;text-transform:uppercase;color:rgba(240,232,216,0.4);display:block;margin-bottom:1rem;">Agent prompt — memory repo setup</span>
-<button id="copy-mem-btn" onclick="copyMemPrompt()" style="position:absolute;top:1.25rem;right:1.25rem;font-family:var(--mono);font-size:0.55rem;letter-spacing:0.1em;text-transform:uppercase;background:none;border:1px solid rgba(240,232,216,0.25);color:rgba(240,232,216,0.5);padding:0.4rem 0.75rem;cursor:pointer;">Copy</button>
+
 <pre id="mem-prompt-content" style="font-family:var(--mono);font-size:0.76rem;line-height:1.8;color:rgba(240,232,216,0.88);white-space:pre-wrap;margin:0;">You are helping me set up a persistent memory system for AI-assisted writing and development.
 The goal: a GitHub repo that stores project context in plain text files,
 cloned and read by Claude at the start of each session so it has consistent
@@ -224,13 +263,44 @@ writing it.</pre>
 <p>Adaptations that apply the framework to a specific country, region, or sector are especially valuable — and can live in their own repos, linked from here.</p>
 </div>
 </div>
-<p style="margin-top:2.5rem;">The repo is at <a class="xl" href="https://github.com/jedelman/power-explained" rel="noopener" target="_blank">github.com/jedelman/power-explained</a>. Everything is public. Issues and pull requests are open.</p>` }} />
+<p style="margin-top:2.5rem;">The repo is at <a class="xl" href="https://github.com/jedelman/power-explained" rel="noopener" target="_blank">github.com/jedelman/power-explained</a>. Everything is public. Issues and pull requests are open.</p>
+</div><!-- /body-text -->
+<div class="read-more">
+<div class="read-more-inner">
+<h3>Start using the tools</h3>
+<p>The framework in practice.</p>
+<div class="read-links">
+<a class="read-link-btn" href="your-city.html">Your city: a power brief</a>
+<a class="read-link-btn" href="build-the-commons.html">Build the commons</a>
+<a class="read-link-btn" href="start-here.html">Five-minute overview</a>
+<a class="read-link-btn" href="glossary.html">Glossary</a>
+<a class="read-link-btn" href="case-studies.html">Case studies</a>
+<a class="read-link-btn" href="index.html">Back to all pieces</a>
+</div>
+</div>
+</div>
+<div class="article-footer">
+<a class="back-link" href="index.html">Back to all pieces</a>
+</div>` }} />
+
+      {MEM_PROMPT && (
+        <div style={{ maxWidth: 'var(--max)', margin: '2rem auto', padding: '0 var(--gutter) 4rem' }}>
+          <div style={{ background: '#1a1714', color: '#f0e8d8', padding: '2.5rem', position: 'relative' }}>
+            <span style={{ fontFamily: 'var(--mono)', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,232,216,0.4)', display: 'block', marginBottom: '1.25rem' }}>Memory prompt</span>
+            <button
+              onClick={copy}
+              style={{
+                position: 'absolute', top: '1.25rem', right: '1.25rem',
+                fontFamily: 'var(--mono)', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase',
+                background: 'none', border: '1px solid rgba(240,232,216,0.25)',
+                color: copied ? '#d4604f' : 'rgba(240,232,216,0.5)',
+                padding: '0.4rem 0.75rem', cursor: 'pointer',
+              }}
+            >{copied ? 'Copied' : 'Copy'}</button>
+            <pre style={{ fontFamily: 'var(--mono)', fontSize: '0.78rem', lineHeight: 1.8, color: 'rgba(240,232,216,0.88)', whiteSpace: 'pre-wrap', margin: 0 }}>{MEM_PROMPT}</pre>
+          </div>
         </div>
-        
-        
-        
-        <ArticleFooter seriesNote="" />
-      </ArticleWrap>
+      )}
     </Layout>
   )
 }

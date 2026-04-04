@@ -1,46 +1,7 @@
+import { useState, useRef } from 'react'
 import Layout from '../components/Layout'
-import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
 
-const SECTIONS = []
-
-export default function AgentContext() {
-  return (
-    <Layout
-      title="Agent Context — Power Explained"
-      description="The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives."
-      seriesTag="Tools"
-    >
-      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
-        
-        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          
-          <h1 dangerouslySetInnerHTML={{ __html: `Agent<br />Context` }} />
-          <p className="hero-dek">The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives.</p>
-          
-        </div>
-      </div>
-
-      <ArticleWrap>
-        
-        <div className="body-text">
-          
-          <div dangerouslySetInnerHTML={{ __html: `<p>Most AI agents are initialized with system prompts written by whoever's paying the API bill. That context shapes what the agent can see — which problems appear natural, which solutions appear available, which questions don't get asked.</p>
-<p>This is a counter-context. It gives an agent the commons framework as an analytical lens before it starts working: a structured account of how enclosure operates, what collective alternatives look like, and how to recognize one from the other. Not persuasion. Analytical scaffolding.</p>
-<div class="theory-note">
-<span class="theory-note-label">What this is for</span>
-<p>Load this as a system message, a user turn, or an attached context document — whichever your platform supports. Then give the agent a task. It will bring the framework to the task rather than bringing the default.</p>
-<p>Useful for: analyzing a policy proposal, mapping who benefits from a local problem, researching whether a commons institution exists in your domain, drafting advocacy material, or building agents that work from this frame.</p>
-</div>
-<h2>Use cases</h2>
-<ul class="use-list">
-<li><span class="use-num">01</span>Give an agent a power analysis task — "Who benefits from housing costs staying high in [city]?" — and it will apply the enclosure pattern rather than defaulting to supply-and-demand.</li>
-<li><span class="use-num">02</span>Ask an agent to evaluate a proposed policy. It will ask who bears costs that don't appear in the price, not just whether the policy is politically feasible.</li>
-<li><span class="use-num">03</span>Use it as the analytical base for any agent you build — content production, research, organizing support — that should reason from this framework rather than against it.</li>
-</ul>
-<div class="prompt-box">
-<span class="prompt-label">Commons framework — agent context document</span>
-<button class="copy-btn" id="copy-btn" onclick="copyContext()">Copy</button>
-<div class="prompt-text" id="context-content">COMMONS FRAMEWORK — ANALYTICAL CONTEXT
+const PROMPT = `COMMONS FRAMEWORK — ANALYTICAL CONTEXT
 Source: power-explained.jason-edelman.org
 
 ---
@@ -100,10 +61,10 @@ For any power situation, ask:
 - Where is the alternative already being built?
 
 Enclosure pattern:
-  [shared resource] -&gt; [privatization mechanism] -&gt; [rent extracted by] -&gt; [cost borne by]
+  [shared resource] -> [privatization mechanism] -> [rent extracted by] -> [cost borne by]
 
 Commons pattern:
-  [shared resource] -&gt; [governance structure] -&gt; [who has access] -&gt; [how rules are made]
+  [shared resource] -> [governance structure] -> [who has access] -> [how rules are made]
 
 ---
 
@@ -147,7 +108,7 @@ before structural change is possible.
 Peter Kropotkin — Mutual Aid: A Factor of Evolution (1902). Cooperation as
 evolutionary advantage. The commons predates capitalism.
 
-Michael Hardt &amp; Antonio Negri — the multitude, immaterial commons, commons
+Michael Hardt & Antonio Negri — the multitude, immaterial commons, commons
 production in the information economy.
 
 Sylvia Wynter — who counts as human; whose knowledge grounds the framework;
@@ -170,8 +131,39 @@ WHAT THIS FRAMEWORK DOES NOT CLAIM
 
 Apply this framework. Flag when a situation doesn't fit it. Note where the
 alternative is already being built. Do not soften the core claims to seem
-more palatable. The point is analytical precision, not reassurance.</div>
+more palatable. The point is analytical precision, not reassurance.`
+
+export default function AgentContext() {
+  const [copied, setCopied] = useState(false)
+
+  const copy = () => {
+    navigator.clipboard.writeText(PROMPT).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }
+
+  return (
+    <Layout
+      title="Agent Context — Power Explained"
+      description="The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives."
+      seriesTag="Tools"
+    >
+      <div dangerouslySetInnerHTML={{ __html: `<div class="body-text">
+<p>Most AI agents are initialized with system prompts written by whoever's paying the API bill. That context shapes what the agent can see — which problems appear natural, which solutions appear available, which questions don't get asked.</p>
+<p>This is a counter-context. It gives an agent the commons framework as an analytical lens before it starts working: a structured account of how enclosure operates, what collective alternatives look like, and how to recognize one from the other. Not persuasion. Analytical scaffolding.</p>
+<div class="theory-note">
+<span class="theory-note-label">What this is for</span>
+<p>Load this as a system message, a user turn, or an attached context document — whichever your platform supports. Then give the agent a task. It will bring the framework to the task rather than bringing the default.</p>
+<p>Useful for: analyzing a policy proposal, mapping who benefits from a local problem, researching whether a commons institution exists in your domain, drafting advocacy material, or building agents that work from this frame.</p>
 </div>
+<h2>Use cases</h2>
+<ul class="use-list">
+<li><span class="use-num">01</span>Give an agent a power analysis task — "Who benefits from housing costs staying high in [city]?" — and it will apply the enclosure pattern rather than defaulting to supply-and-demand.</li>
+<li><span class="use-num">02</span>Ask an agent to evaluate a proposed policy. It will ask who bears costs that don't appear in the price, not just whether the policy is politically feasible.</li>
+<li><span class="use-num">03</span>Use it as the analytical base for any agent you build — content production, research, organizing support — that should reason from this framework rather than against it.</li>
+</ul>
+
 <div class="theory-note">
 <span class="theory-note-label">A note on what this doesn't do</span>
 <p>This gives an agent an analytical lens. It doesn't give it knowledge of your specific situation, city, or domain — you still need to provide that. And it doesn't replace your judgment: agents applying any framework will miss local context, relationship texture, and political timing that you know and they don't.</p>
@@ -193,13 +185,26 @@ more palatable. The point is analytical precision, not reassurance.</div>
 <a class="read-link-btn" href="your-city.html">Your City</a>
 </div>
 </div>
+</div>
 </div>` }} />
+
+      <div style={{ maxWidth: 'var(--max)', margin: '0 auto', padding: '0 var(--gutter) 4rem' }}>
+        <div className="prompt-box" style={{ background: '#1a1714', color: '#f0e8d8', padding: '2.5rem', position: 'relative' }}>
+          <span className="prompt-label" style={{ fontFamily: 'var(--mono)', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(240,232,216,0.4)', display: 'block', marginBottom: '1.25rem' }}>Commons framework — agent context document</span>
+          <button
+            onClick={copy}
+            style={{
+              position: 'absolute', top: '1.25rem', right: '1.25rem',
+              fontFamily: 'var(--mono)', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase',
+              background: 'none', border: '1px solid rgba(240,232,216,0.25)',
+              color: copied ? '#d4604f' : 'rgba(240,232,216,0.5)',
+              borderColor: copied ? 'rgba(212,96,79,0.5)' : 'rgba(240,232,216,0.25)',
+              padding: '0.4rem 0.75rem', cursor: 'pointer',
+            }}
+          >{copied ? 'Copied' : 'Copy'}</button>
+          <pre style={{ fontFamily: 'var(--mono)', fontSize: '0.78rem', lineHeight: 1.8, color: 'rgba(240,232,216,0.88)', whiteSpace: 'pre-wrap', margin: 0 }}>{PROMPT}</pre>
         </div>
-        
-        
-        
-        <ArticleFooter seriesNote="" />
-      </ArticleWrap>
+      </div>
     </Layout>
   )
 }
