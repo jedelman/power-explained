@@ -663,6 +663,73 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
   color: rgba(var(--ink-rgb), 0.4);
 }
 
+/* ── Homepage dark-mode overrides ──
+   The homepage uses a print-magazine palette (ink hero, paper body).
+   In dark mode the semantic --paper token flips dark, breaking the layout.
+   These overrides lock the paper sections to light regardless of OS pref. */
+@media (prefers-color-scheme: dark) {
+  .entry-section,
+  .overview-section {
+    background: #f2ece0; /* --paper light */
+    color: #1a1714;      /* --ink light */
+  }
+
+  .entry-card {
+    background: #f2ece0;
+    color: #1a1714;
+  }
+
+  .entry-card:hover {
+    background: #e8dfc8;
+  }
+
+  .entry-card-title,
+  .entry-card-desc {
+    color: #1a1714;
+  }
+
+  .entry-card-desc {
+    color: rgba(26,23,20, 0.65);
+  }
+
+  .overview-card {
+    background: #f2ece0;
+    color: #1a1714;
+  }
+
+  .overview-card.dark {
+    background: #e8dfc8;
+  }
+
+  .overview-card:hover {
+    background: #ddd3b8;
+  }
+
+  .overview-card-title {
+    color: #1a1714;
+  }
+
+  .overview-card-desc {
+    color: rgba(26,23,20, 0.65);
+  }
+
+  .overview-card-count {
+    color: rgba(26,23,20, 0.4);
+  }
+
+  .overview-heading {
+    color: #1a1714;
+  }
+
+  .section-eyebrow {
+    color: #a0291c;
+  }
+
+  .entry-section {
+    border-bottom-color: rgba(26,23,20, 0.18);
+  }
+}
+
 /* ── Reduced motion — OS preference ── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
