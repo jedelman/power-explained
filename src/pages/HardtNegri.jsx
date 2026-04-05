@@ -170,6 +170,7 @@ export default function HardtNegri() {
           { href: 'open-data-isnt-enough', cat: "Practice", title: "Open Data Isn't Enough" },
           { href: 'graeber', cat: "Thinker", title: "Graeber: The Work You're Already Doing Has a Name" },
           { href: 'gramsci', cat: "Thinker", title: "Gramsci: The Feeling That This Is Just How Things Are" },
+          { href: 'foucault', cat: 'Thinker', title: 'Foucault: Power Is Not a Thing Anyone Holds' },
           { href: 'case-study-rojava', cat: "Case Study", title: "Rojava: A Revolution in the Middle of a War" },
           { href: 'case-study-zapatistas', cat: "Case Study", title: "The Zapatistas: Thirty Years of Asking, Walking" }
         ]} />

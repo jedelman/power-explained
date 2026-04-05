@@ -145,6 +145,7 @@ export default function DeleuzeGuattari() {
         <NextReads items={[
           { href: 'hardt-negri', cat: "Thinker", title: "Hardt & Negri: The Wealth That Capital Cannot Build" },
           { href: 'gramsci', cat: "Thinker", title: "Gramsci: The Feeling That This Is Just How Things Are" },
+          { href: 'foucault', cat: 'Thinker', title: 'Foucault: Power Is Not a Thing Anyone Holds' },
           { href: 'the-party-ate-the-revolution', cat: "Theory", title: "The Party Ate the Revolution" },
           { href: 'build-it-now', cat: "Practice", title: "Build It Now — What The Alternative Looks Like" },
           { href: 'case-study-rojava', cat: "Case Study", title: "Rojava: A Revolution in the Middle of a War" },

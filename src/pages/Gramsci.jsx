@@ -112,6 +112,7 @@ export default function Gramsci() {
         <NextReads items={[
           { href: 'the-alibi-was-a-mirror', cat: 'Framework', title: 'The Alibi Was a Mirror' },
           { href: 'kropotkin', cat: 'Thinker', title: 'Kropotkin: You Were Lied to About Human Nature' },
+          { href: 'foucault', cat: 'Thinker', title: 'Foucault: Power Is Not a Thing Anyone Holds' },
           { href: 'hardin-was-wrong', cat: 'The Science', title: 'Hardin Was Wrong — The "Tragedy of the Commons" Is a Myth' },
           { href: 'build-it-now', cat: 'Build', title: 'Build It Now — What The Alternative Looks Like' },
           { href: 'two-ways-to-fix-a-pothole', cat: 'Practice', title: 'Two Ways to Fix a Pothole' },
