@@ -97,6 +97,14 @@ export default function TechTuring() {
 
         
         
+        <NextReads items={[
+          { href: 'tech-shannon', cat: 'Series — Part I', title: 'The Channel and the Common' },
+          { href: 'tech-berners-lee', cat: 'Series — Part III', title: 'The Gift and the Enclosure' },
+          { href: 'tech-raymond', cat: 'Series — Part IV', title: 'The Bazaar Was Right, the Politics Were Wrong' },
+          { href: 'how-linux-became-the-internet', cat: 'Framework', title: 'How Linux Became the Internet' },
+          { href: 'the-human-was-a-story', cat: 'Series IV', title: 'The Human Was a Story — Sylvia Wynter' },
+          { href: 'for-tech-workers', cat: 'Entry Point', title: 'For People Who Build the Internet' },
+        ]} />
         <Footnotes notes={FOOTNOTES} />
         <ArticleFooter seriesNote="For People Who Build the Internet — Part II — Turing" />
       </ArticleWrap>

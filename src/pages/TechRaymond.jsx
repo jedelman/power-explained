@@ -105,6 +105,14 @@ export default function TechRaymond() {
 
         
         
+        <NextReads items={[
+          { href: 'tech-shannon', cat: 'Series — Part I', title: 'The Channel and the Common' },
+          { href: 'tech-turing', cat: 'Series — Part II', title: 'The Universal Machine and the Ungrateful State' },
+          { href: 'tech-berners-lee', cat: 'Series — Part III', title: 'The Gift and the Enclosure' },
+          { href: 'ostrom', cat: 'Thinker', title: 'Elinor Ostrom: How Communities Actually Govern Themselves' },
+          { href: 'hardin-was-wrong', cat: 'The Science', title: 'Hardin Was Wrong — The "Tragedy of the Commons" Is a Myth' },
+          { href: 'for-tech-workers', cat: 'Entry Point', title: 'For People Who Build the Internet' },
+        ]} />
         <Footnotes notes={FOOTNOTES} />
         <ArticleFooter seriesNote="For People Who Build the Internet — Part IV — Raymond" />
       </ArticleWrap>

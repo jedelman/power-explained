@@ -94,6 +94,14 @@ export default function TechBernersLee() {
 
         
         
+        <NextReads items={[
+          { href: 'tech-shannon', cat: 'Series — Part I', title: 'The Channel and the Common' },
+          { href: 'tech-turing', cat: 'Series — Part II', title: 'The Universal Machine and the Ungrateful State' },
+          { href: 'tech-raymond', cat: 'Series — Part IV', title: 'The Bazaar Was Right, the Politics Were Wrong' },
+          { href: 'how-linux-became-the-internet', cat: 'Framework', title: 'How Linux Became the Internet' },
+          { href: 'hardin-was-wrong', cat: 'The Science', title: 'Hardin Was Wrong — The "Tragedy of the Commons" Is a Myth' },
+          { href: 'for-tech-workers', cat: 'Entry Point', title: 'For People Who Build the Internet' },
+        ]} />
         <Footnotes notes={FOOTNOTES} />
         <ArticleFooter seriesNote="For People Who Build the Internet — Part III — Berners-Lee" />
       </ArticleWrap>

@@ -660,7 +660,7 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.4rem,3.5vw,2rem);font-weight:700;margin-bottom:0.4rem;">For People Building the Future</h2>
 <p style="font-size:0.88rem;line-height:1.7;color:rgba(var(--ink-rgb),0.65);max-width:480px;">The mathematics of shared infrastructure (Shannon), computation as commons (Turing), the gift and its enclosure (Berners-Lee), the correct theory with the wrong politics (Raymond).</p>
 <div class="deep-dive-list">
-<a class="deep-dive-item" href="shannon.html">
+<a class="deep-dive-item" href="tech-shannon.html">
 <div class="deep-dive-part">Part I — Shannon</div>
 <div class="deep-dive-title">The Channel and the Common</div>
 <div class="deep-dive-desc">Information theory as commons theory. The channel has a capacity; enclosure captures rent without increasing it.</div>

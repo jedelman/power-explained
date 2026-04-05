@@ -23,41 +23,14 @@
 ## Backlog
 
 ### Tech Deep Dive Series — "For People Who Build the Internet"
-Four-piece series. Linus Torvalds, Woz, and Carmack appear as builder examples in the
-overview/intro rather than as standalone profiles. Open questions before writing:
-- Series open: Raymond-first (rhetorically sharp) or chronological Shannon→Turing→Berners-Lee→Raymond?
-- Confirm series name
-
-**Piece 1 — Raymond**
-*The Bazaar Was Right, the Politics Were Wrong*
-The Cathedral and the Bazaar correctly diagnoses why distributed production outcompetes
-hierarchical production — and then draws libertarian conclusions instead of commons ones.
-Raymond saw the bazaar worked and concluded markets. His own framework points directly at
-Ostrom. That gap is the piece.
-
-**Piece 2 — Berners-Lee**
-*The Gift and the Enclosure*
-Gave away the web on principle, against advice. The contrast between what he built (open
-protocol, no rent-seeking) and what happened to it (platform enclosure, surveillance
-capitalism) is the complete arc of digital commons destruction in one story. Include the
-W3C DRM fight as the moment the enclosure became explicit.
-
-**Piece 3 — Shannon**
-*The Channel and the Common*
-Information theory as commons theory. A channel is shared infrastructure — the math of
-how much signal can flow without loss maps onto how commons knowledge circulates vs. how
-enclosure degrades it. Cosmological angle: entropy, information, and the fact that the
-universe runs on the same math as a telephone wire. Shannon's Bell Labs context also
-relevant — commons-produced knowledge (publicly funded, institutionally sheltered) that
-the market later privatized.
-
-**Piece 4 — Turing**
-*The Universal Machine and the Ungrateful State*
-The universal machine as the conceptual foundation for open, forkable, commons
-computation — one machine that can run anything, the basis for all software as commons.
-Political angle: the state executed the person who built the intellectual infrastructure
-that won the war, because he was gay. The knowledge a system depends on but cannot
-tolerate producing. Connects to Wynter's argument about who counts as human.
+**Status: COMPLETE** ✓ All four pieces live at /tech-shannon, /tech-turing, /tech-berners-lee, /tech-raymond.
+- [x] Part I — Shannon: The Channel and the Common
+- [x] Part II — Turing: The Universal Machine and the Ungrateful State
+- [x] Part III — Berners-Lee: The Gift and the Enclosure
+- [x] Part IV — Raymond: The Bazaar Was Right, the Politics Were Wrong
+- [x] NextReads cross-links wired on all four pages
+- [x] Contents.jsx updated to link to tech-shannon (not old stub)
+- [x] Shannon stub redirects to /tech-shannon
 
 ---
 

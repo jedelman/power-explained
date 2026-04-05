@@ -100,6 +100,14 @@ export default function TechShannon() {
 
         
         
+        <NextReads items={[
+          { href: 'tech-turing', cat: 'Series — Part II', title: 'The Universal Machine and the Ungrateful State' },
+          { href: 'tech-berners-lee', cat: 'Series — Part III', title: 'The Gift and the Enclosure' },
+          { href: 'tech-raymond', cat: 'Series — Part IV', title: 'The Bazaar Was Right, the Politics Were Wrong' },
+          { href: 'hardin-was-wrong', cat: 'The Science', title: 'Hardin Was Wrong — The "Tragedy of the Commons" Is a Myth' },
+          { href: 'how-linux-became-the-internet', cat: 'Framework', title: 'How Linux Became the Internet' },
+          { href: 'for-tech-workers', cat: 'Entry Point', title: 'For People Who Build the Internet' },
+        ]} />
         <Footnotes notes={FOOTNOTES} />
         <ArticleFooter seriesNote="For People Who Build the Internet — Part I — Shannon" />
       </ArticleWrap>
