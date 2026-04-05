@@ -5,10 +5,12 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    // Copy static HTML files alongside the React app for unconverted pages
     assetsDir: 'assets',
+    rollupOptions: {
+      // pagefind is a runtime artifact generated post-build, not a bundled dep
+      external: ['/pagefind/pagefind.js'],
+    },
   },
-  // During migration, serve static HTML files in dev too
   server: {
     fs: { allow: ['..'] }
   }

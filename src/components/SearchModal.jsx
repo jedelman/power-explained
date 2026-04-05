@@ -3,16 +3,25 @@ import { useNavigate } from 'react-router-dom'
 
 // SearchModal uses the Pagefind JS API loaded at runtime from /pagefind/pagefind.js
 // Pagefind is only available after `npm run build` (not in dev).
-// In dev, the modal gracefully degrades with a message.
+// We load it via script tag injection to fully bypass the bundler.
 
-let pagefindPromise = null
+let pagefindLoadPromise = null
 
 function loadPagefind() {
-  if (pagefindPromise) return pagefindPromise
-  pagefindPromise = import(/* @vite-ignore */ '/pagefind/pagefind.js')
-    .then(pf => pf.default ?? pf)
-    .catch(() => null) // graceful fail in dev
-  return pagefindPromise
+  if (pagefindLoadPromise) return pagefindLoadPromise
+  pagefindLoadPromise = new Promise((resolve) => {
+    if (window.__pagefind__) { resolve(window.__pagefind__); return }
+    const script = document.createElement('script')
+    script.type = 'module'
+    script.textContent = `
+      import('/pagefind/pagefind.js')
+        .then(pf => { window.__pagefind__ = pf.default ?? pf; window.dispatchEvent(new Event('pagefind-ready')) })
+        .catch(() => { window.__pagefind__ = null; window.dispatchEvent(new Event('pagefind-ready')) })
+    `
+    window.addEventListener('pagefind-ready', () => resolve(window.__pagefind__), { once: true })
+    document.head.appendChild(script)
+  })
+  return pagefindLoadPromise
 }
 
 export default function SearchModal({ open, onClose }) {
