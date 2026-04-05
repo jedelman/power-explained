@@ -29,7 +29,7 @@ export default function HardinWasWrong() {
 <p>This paper became one of the most cited academic articles of the twentieth century. It showed up in economics courses, environmental policy debates, arguments about intellectual property, and discussions of everything from water rights to the internet. It gave a clean, scientific-sounding justification for privatization: not ideology, just math. The commons fails. That's not a political position — it's a fact of human nature. <a class="xl" href="gramsci.html">This is what hegemony looks like when it's working</a>: a political choice that has been successfully naturalized as common sense.</p>
 <p>There was one problem. Hardin had never looked at an actual commons.</p>
 <h2>What Elinor Ostrom actually found</h2>
-<p>Elinor Ostrom was a political scientist at Indiana University who spent decades studying how real communities manage shared resources. Not theoretical communities. Real ones. She looked at Swiss alpine villages that had been sharing mountain grazing pastures since the thirteenth century. Japanese forest communities that had maintained sustainable timber harvests for hundreds of years. Irrigation systems in Spain and the Philippines that were still running — equitably and efficiently — after a thousand years of operation.</p>
+<p><a class=\"xl\" href=\"ostrom.html\">Elinor Ostrom</a> was a political scientist at Indiana University who spent decades studying how real communities manage shared resources. Not theoretical communities. Real ones. She looked at Swiss alpine villages that had been sharing mountain grazing pastures since the thirteenth century. Japanese forest communities that had maintained sustainable timber harvests for hundreds of years. Irrigation systems in Spain and the Philippines that were still running — equitably and efficiently — after a thousand years of operation.</p>
 <p>None of them had collapsed. None of them had been privatized. None of them were managed by a central state authority that imposed rules from above. They were governed by the people who used them, through rules those people had made themselves, enforced by those same communities.</p>
 <p>Ostrom's 1990 book, <em>Governing the Commons</em>, laid out what she found. Her central point was not complicated, but it was devastating: Hardin wasn't describing commons. He was describing open access. Those are not the same thing.</p>
 <div class="pull">
@@ -96,8 +96,15 @@ export default function HardinWasWrong() {
 <p>The alibi is still in circulation. The commons are still being enclosed. But the intellectual foundation for the enclosure is gone. Ostrom removed it.</p>` }} />
         </div>
         
-        
-        
+        <NextReads items={[
+          { href: 'ostrom', cat: 'Thinker', title: 'Elinor Ostrom: How Communities Actually Govern Themselves' },
+          { href: 'the-alibi-was-a-mirror', cat: 'Framework', title: 'The Alibi Was a Mirror' },
+          { href: 'mutual-aid-isnt-charity', cat: 'Series I', title: 'Mutual Aid Isn\'t Charity' },
+          { href: 'how-linux-became-the-internet', cat: 'Series I', title: 'How Linux Became the Internet' },
+          { href: 'gramsci', cat: 'Thinker', title: 'Gramsci: The Feeling That This Is Just How Things Are' },
+          { href: 'build-it-now', cat: 'Practice', title: 'Build It Now — What The Alternative Looks Like' },
+        ]} />
+
         <ArticleFooter seriesNote="Power Explained — Advanced Track" />
       </ArticleWrap>
     </Layout>
