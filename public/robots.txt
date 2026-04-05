@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://power-explained.jason-edelman.org/sitemap.xml
