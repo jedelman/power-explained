@@ -9,6 +9,7 @@ const Kropotkin = lazy(() => import('./pages/Kropotkin'))
 const Ostrom = lazy(() => import('./pages/Ostrom'))
 const Graeber = lazy(() => import('./pages/Graeber'))
 const HardtNegri = lazy(() => import('./pages/HardtNegri'))
+const Gramsci1930s = lazy(() => import('./pages/Gramsci1930s'))
 const ReichCharacterArmor = lazy(() => import('./pages/ReichCharacterArmor'))
 const Baudrillard = lazy(() => import('./pages/Baudrillard'))
 const DeleuzeGuattari = lazy(() => import('./pages/DeleuzeGuattari'))
@@ -127,6 +128,7 @@ export default function App() {
           <Route path="/ostrom" element={<Ostrom />} />
           <Route path="/graeber" element={<Graeber />} />
           <Route path="/hardt-negri" element={<HardtNegri />} />
+          <Route path="/gramsci-1930s" element={<Gramsci1930s />} />
           <Route path="/reich-character-armor" element={<ReichCharacterArmor />} />
           <Route path="/baudrillard" element={<Baudrillard />} />
           <Route path="/deleuze-guattari" element={<DeleuzeGuattari />} />
