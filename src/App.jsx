@@ -9,6 +9,7 @@ const Kropotkin = lazy(() => import('./pages/Kropotkin'))
 const Ostrom = lazy(() => import('./pages/Ostrom'))
 const Graeber = lazy(() => import('./pages/Graeber'))
 const HardtNegri = lazy(() => import('./pages/HardtNegri'))
+const Baudrillard = lazy(() => import('./pages/Baudrillard'))
 const DeleuzeGuattari = lazy(() => import('./pages/DeleuzeGuattari'))
 const Godel = lazy(() => import('./pages/Godel'))
 const Simondon = lazy(() => import('./pages/Simondon'))
@@ -125,6 +126,7 @@ export default function App() {
           <Route path="/ostrom" element={<Ostrom />} />
           <Route path="/graeber" element={<Graeber />} />
           <Route path="/hardt-negri" element={<HardtNegri />} />
+          <Route path="/baudrillard" element={<Baudrillard />} />
           <Route path="/deleuze-guattari" element={<DeleuzeGuattari />} />
           <Route path="/godel" element={<Godel />} />
           <Route path="/simondon" element={<Simondon />} />

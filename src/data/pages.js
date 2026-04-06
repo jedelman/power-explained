@@ -2,6 +2,7 @@
 // slug → { title, desc, tag, eyebrow }
 const pages = {
   'agent-context': { title: "Agent Context — Power Explained", desc: "The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives.", tag: "Tools", eyebrow: "" },
+  'baudrillard': { title: "Baudrillard: When the Image Replaces the Real — Power Explained", desc: "Jean Baudrillard argued that simulation has replaced reality — not as deception, but as the actual operating system of contemporary life. The image no longer represents the world. It precedes and produces it.", tag: "Thinkers", eyebrow: "" },
   'build-it-now': { title: "Build It Now — Power Explained", desc: "Not a blueprint. Not a vanguard. Not after the revolution. The alternative to authoritarian socialism is being built right now, in the present tense, by people who already gave up on waiting.", tag: "Against Authoritarianism — Series III", eyebrow: "" },
   'build-the-commons': { title: "Build the Commons — Power Explained", desc: "You don't have to wait. Community land trusts, energy cooperatives, mutual aid networks, food co-ops — the commons is being built right now. Here's how to find one and how to start one.", tag: "Tools", eyebrow: "" },
   'build-the-commune-without-the-state': { title: "Build the Commune Without the State — Power Explained", desc: "Murray Bookchin argued that ecology and hierarchy are the same problem.", tag: "The World the Framework Missed — Series IV", eyebrow: "" },
