@@ -9,6 +9,7 @@ const Kropotkin = lazy(() => import('./pages/Kropotkin'))
 const Ostrom = lazy(() => import('./pages/Ostrom'))
 const Graeber = lazy(() => import('./pages/Graeber'))
 const HardtNegri = lazy(() => import('./pages/HardtNegri'))
+const BaudrillardConsumerSociety = lazy(() => import('./pages/BaudrillardConsumerSociety'))
 const PsychedelicsTheoryOfMind = lazy(() => import('./pages/PsychedelicsTheoryOfMind'))
 const Debord1968 = lazy(() => import('./pages/Debord1968'))
 const ShannonSimondon1950s = lazy(() => import('./pages/ShannonSimondon1950s'))
@@ -131,6 +132,7 @@ export default function App() {
           <Route path="/ostrom" element={<Ostrom />} />
           <Route path="/graeber" element={<Graeber />} />
           <Route path="/hardt-negri" element={<HardtNegri />} />
+          <Route path="/baudrillard-consumer-society" element={<BaudrillardConsumerSociety />} />
           <Route path="/psychedelics-theory-of-mind" element={<PsychedelicsTheoryOfMind />} />
           <Route path="/debord-1968" element={<Debord1968 />} />
           <Route path="/shannon-simondon-1950s" element={<ShannonSimondon1950s />} />
