@@ -1,0 +1,169 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = [
+  { id: 'the-claim', label: 'The interior claim: consciousness as commons terrain' },
+  { id: 'bateson', label: 'Bateson\'s ecology of mind: the argument that earns it' },
+  { id: 'huxley-laing', label: 'Huxley\'s doors and Laing\'s divided self' },
+  { id: 'mkultra', label: 'MKULTRA: the state recognizes the terrain' },
+  { id: 'criminalization', label: 'Criminalization and the closure of the frontier' },
+]
+
+const FOOTNOTES = [
+  `Bateson, G. (1972). <em>Steps to an Ecology of Mind</em>. University of Chicago Press. This is a collection of essays written between 1935 and 1971, not a single argument — but the central claim runs through all of it: mind is not a property of individual organisms but a pattern that emerges in the relationship between organism and environment. The epistemological error Bateson identifies — treating the self as a bounded unit separate from the systems it inhabits — is, in his analysis, the root of both ecological destruction and political pathology. The relevant essays for this piece are "The Cybernetics of 'Self': A Theory of Alcoholism" (1971), "Form, Substance, and Difference" (the Korzybski Memorial Lecture, 1970), and "Pathologies of Epistemology" (1969). Bateson was deeply influenced by his work with schizophrenic patients, by cybernetics, and by his observations of Balinese culture — a combination that produced a theory of mind radically at odds with the individualism of mainstream Western psychology. <a href="#ref1">↩</a>`,
+  `Huxley, A. (1954). <em>The Doors of Perception</em>. Harper & Brothers. Huxley's account of his first mescaline experience in May 1953 is one of the most influential documents in the history of the psychedelic movement — not because it is the most rigorous but because it frames the experience in a way that is immediately politically and philosophically legible. His "reducing valve" thesis — that the brain filters out most of reality to prevent information overload, and that psychedelics temporarily disable the filter — is not neuroscientifically precise but captures something real about the phenomenology: the experience of ordinary perception as selective rather than neutral, as an active construction that could be otherwise. The title is from Blake: "If the doors of perception were cleansed every thing would appear to man as it is, infinite." <a href="#ref2">↩</a>`,
+  `Laing, R. D. (1960). <em>The Divided Self: An Existential Study in Sanity and Madness</em>. Tavistock Publications. Laing's argument — that schizophrenia is an intelligible response to an unlivable situation, not a biochemical malfunction — is the psychiatric complement to Reich's analysis of character armor. Where Reich argued that neurosis is a somatic adaptation to repressive conditions, Laing argued that psychosis is an existential strategy for surviving an environment that makes coherent selfhood impossible. His later work, particularly <em>The Politics of Experience</em> (1967), moved toward an explicitly psychedelic politics: the "breakdown" of ordinary consciousness could be a "breakthrough" — a traversal of interior territory that the defended ego normally forecloses. Laing ran experimental therapeutic communities, including Kingsley Hall in London (1965–1970), where psychotic patients lived alongside staff without conventional psychiatric hierarchy. <a href="#ref3">↩</a>`,
+  `The CIA's MKULTRA program ran from 1953 to 1973, with most of the records destroyed on the order of CIA Director Richard Helms in 1973. What survived was discovered through a Freedom of Information Act request in 1977. The Church Committee hearings (1975) and subsequent investigations revealed: experiments on unwitting subjects including mental patients, prisoners, and CIA employees; collaboration with universities, hospitals, and pharmaceutical companies; subprograms involving hypnosis, sensory deprivation, psychological torture, and radiation exposure alongside the LSD work. The LSD experiments were conducted at institutions including McGill University (under Ewen Cameron, funded through a CIA front organization) and the Addiction Research Center in Lexington, Kentucky. The most thorough account is Marks, J. (1979). <em>The Search for the Manchurian Candidate: The CIA and Mind Control</em>. Times Books. The moral: the state's first response to a new terrain of consciousness was not to ignore it but to attempt weaponization. That is the correct order of priorities for a state that understands what is at stake. <a href="#ref4">↩</a>`,
+  `Nixon's declaration of a "war on drugs" in June 1971 was accompanied by the Controlled Substances Act (1970), which placed LSD, psilocybin, mescaline, and cannabis in Schedule I — the most restrictive category, reserved for substances with "no currently accepted medical use" and "high potential for abuse." The political motivation was explicit: John Ehrlichman, Nixon's domestic policy advisor, told journalist Dan Baum in 1994 (published in <em>Harper's</em>, April 2016, after Ehrlichman's death): "The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people. We knew we couldn't make it illegal to be against the war or Black, but by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities. We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news." The drug war was the enforcement arm of a political project. Ehrlichman's statement is as close as we get to an official admission. <a href="#ref5">↩</a>`,
+]
+
+export default function PsychedelicsTheoryOfMind() {
+  return (
+    <Layout
+      title="The Interior Frontier: Psychedelics and Theory of Mind — Power Explained"
+      description="The psychedelic moment of the 1960s and 70s was, at its most rigorous, a political claim: that ordinary consciousness is a produced state, that it can be otherwise, and that the enclosure of the mind runs through the body's own chemistry."
+      seriesTag="Enclosure of the Mind — Series VI"
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(4rem,18vw,12rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>INTERIOR</div>
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <h1>The interior<br />frontier</h1>
+          <p className="hero-dek">This piece is not about drugs. It is about a claim that emerged, with unusual clarity, in the decade when psychedelics entered mass use: that ordinary consciousness is not a neutral baseline but a produced state, that it can be otherwise, and that the conditions under which it is produced are political. The state understood this faster than the counterculture did. The criminalization came within a decade.</p>
+          <div className="hero-bio">
+            <span className="bio-dates">1954 — 1973</span>
+            <p className="bio-line">The relevant thinkers: Gregory Bateson, whose <em>Steps to an Ecology of Mind</em> (1972) is the most rigorous philosophical account of what the psychedelic experience was pointing toward. Aldous Huxley, whose <em>Doors of Perception</em> (1954) made the phenomenological claim available to a mass audience. R.D. Laing, whose anti-psychiatry gave the claim its most explicitly political form. And, in the background, the CIA — which had been running MKULTRA since 1953, the same year Huxley first took mescaline, because the state knew what was at stake before anyone else did.</p>
+          </div>
+        </div>
+      </div>
+
+      <ArticleWrap>
+        <ContentsNav sections={SECTIONS} />
+        <div className="body-text">
+
+          <Section id="the-claim" num="01" title="The interior claim: consciousness as commons terrain">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The series so far has tracked the enclosure of the mind through bodies, institutions, technical infrastructure, and the organized surface of everyday life. <a class="xl" href="reich-character-armor.html">Reich's character armor</a> showed how repression gets written into muscle and breath. <a class="xl" href="gramsci-1930s.html">Gramsci's hegemony</a> showed how it gets organized into the furniture of civil society. <a class="xl" href="shannon-simondon-1950s.html">Shannon's channel</a> showed how it gets built into the architecture of communication. <a class="xl" href="debord-1968.html">Debord's spectacle</a> showed how it gets crystallized into the social relation mediated by images.</p>
+<p>Each of these is an enclosure operating from the outside in. They shape what can be thought, felt, and imagined by organizing the environment within which thought, feeling, and imagination occur. But there is another dimension of the enclosure that none of these frameworks addresses directly: the interior. Not the somatic substrate (Reich) or the institutional environment (Gramsci) or the media architecture (Shannon, Debord), but the quality of consciousness itself — the texture of ordinary waking experience, the range of states available within it, the boundary between what counts as sane and what counts as mad.</p>
+<p>The psychedelic moment of the 1950s through 1970s was, at its most rigorous, a claim about this interior terrain. The claim, stripped of counterculture decoration, is precise: <strong>ordinary waking consciousness is not a neutral baseline.</strong> It is a produced state — produced by the same social, institutional, and somatic forces this series has been tracking — and it can be otherwise. The experience of being otherwise — temporarily, chemically, under conditions that dissolve the filters through which ordinary consciousness constructs its world — reveals that the ordinary is constructed, selective, and maintained by active work that the ordinary itself conceals.</p>
+<p>This is politically explosive in a specific way. <a class="xl" href="gramsci-1930s.html">Gramsci's hegemony</a> operates by making the existing order feel like the only possible world — by producing a common sense so thoroughly internalized that alternatives are unthinkable before they are thought. If ordinary consciousness is itself a product of that hegemony — if the enclosure runs all the way down into the texture of how the world appears — then any practice that dissolves ordinary consciousness, however briefly, is a direct challenge to the enclosure at its deepest level. Not a political argument against the existing order. A direct experience of its contingency.</p>
+<p>The state understood this. The counterculture mostly didn't.</p>` }} />
+          </Section>
+
+          <Section id="bateson" num="02" title="Bateson's ecology of mind: the argument that earns it">
+            <div dangerouslySetInnerHTML={{ __html: `<p>Gregory Bateson is the intellectual anchor for this piece because he provides the rigorous philosophical framework that the psychedelic experience was pointing toward but rarely articulating precisely. Bateson was not primarily a philosopher of psychedelics — he was an anthropologist, a cyberneticist, a systems theorist, a psychiatrist. But his <em>Steps to an Ecology of Mind</em> (1972) is the most serious attempt in the period to think through what it would mean for mind to be what the psychedelic experience suggested it might be.<sup><a href="#fn1" id="ref1">1</a></sup></p>
+<p>The central claim is this: mind is not a property of individual organisms. It is a pattern that emerges in the relationship between organism and environment. When you think, you are not running a computation inside your skull. You are participating in a process that includes your body, your sensory organs, your physical environment, the social relations you are embedded in, the language you think in, the tools you use to extend your cognition. The boundary of mind is not the boundary of skin. It is wherever the relevant patterns of information processing occur — which is always, in part, outside the individual.</p>
+<p>Bateson called the failure to understand this "the epistemological error" — the mistake of treating the self as a bounded unit separate from the systems it inhabits. The error has consequences he catalogued with increasing alarm across the essays collected in <em>Steps</em>: ecological destruction (treating the environment as a resource external to the self rather than as the extended body of the self), addiction (the attempt to use a substance to modify the self, conceived as a separate unit, rather than to change the relationship between self and world), arms races and geopolitical pathology (treating the nation as a unit in competition with other units, rather than as a node in a system whose behavior cannot be understood at the level of the individual unit).</p>
+<div class="callout">
+  <span class="callout-label">What the epistemological error produces</span>
+  <p>Bateson's diagnosis of the error is relevant to every level of the series. <a class="xl" href="reich-character-armor.html">Reich's character armor</a> is, in Bateson's terms, a somatic expression of the epistemological error: the armored self treats its own body as a system to be controlled rather than as a process to be inhabited, bracing against the world rather than moving with it. <a class="xl" href="shannon-simondon-1950s.html">Shannon's channel model</a> is the epistemological error built into technical infrastructure: communication is treated as the transmission of signals between separate units, rather than as the modification of a shared relational field. <a class="xl" href="debord-1968.html">The spectacle</a> is the epistemological error at the level of social life: the self relates to its experience through its representation, treating the image as a thing it possesses rather than as a process it participates in.</p>
+  <p>The psychedelic experience, in Bateson's framework, is not a special case. It is one of several conditions — including deep aesthetic experience, certain forms of religious practice, what he called "the experience of grace" — in which the epistemological error temporarily dissolves: the boundary between self and world becomes permeable, the sense of isolated selfhood relaxes, and the pattern that connects organism and environment becomes directly perceptible rather than conceptually inferred. The political implication is exact: if the enclosure of the mind is partly maintained by the epistemological error — by the chronic sense of isolated selfhood that makes the spectacle's promise of connection-through-consumption feel necessary — then any experience that dissolves the error is, structurally, a breach in the enclosure.</p>
+</div>
+<p>Bateson was careful about what this does and doesn't mean. The dissolution of the epistemological error in a psychedelic experience does not automatically produce enlightenment, political clarity, or lasting change. The armor, as <a class="xl" href="reich-character-armor.html">Reich knew</a>, does not dissolve permanently from a single session of somatic work. The hegemonic common sense, as <a class="xl" href="gramsci-1930s.html">Gramsci knew</a>, does not dissolve permanently from a single rupture of ordinary consciousness. What the experience provides is something more limited and more important: direct evidence that the ordinary is constructed. The common sense that makes the existing order feel like the only possible world is felt, in those conditions, as common sense — as a structure, not as reality itself. This is not a solution. It is a prerequisite for solutions that do not simply reproduce the structure they are trying to escape.</p>` }} />
+          </Section>
+
+          <Section id="huxley-laing" num="03" title="Huxley's doors and Laing's divided self">
+            <div dangerouslySetInnerHTML={{ __html: `<p>Bateson provides the philosophical argument. Huxley and Laing provide its two most significant popular and political expressions in the period.</p>
+<p>Aldous Huxley took mescaline for the first time in May 1953 and wrote about it in <em>The Doors of Perception</em> (1954). The book is not rigorous in the way Bateson is rigorous — it is phenomenological reportage, and its theoretical framework (the brain as a "reducing valve" that filters out most of reality to prevent information overload) is more literary than scientific. But it performs something Bateson's essays do not: it makes the experience of ordinary consciousness as a selective, constructed, potentially otherwise state legible to a mass audience.<sup><a href="#fn2" id="ref2">2</a></sup></p>
+<p>Huxley's specific contribution is the phenomenological detail: the furniture in the room, under mescaline, reveals itself as radiating significance; the ordinary visual world, stripped of its conceptual labels and practical purposes, appears as an inexhaustible field of intrinsic interest. What this demonstrates — and what Huxley draws out carefully — is that ordinary perception is not passive registration of a neutral world. It is active construction: highly selective, organized around practical purposes, filtering for what matters to the functioning organism while discarding an enormous surplus of available experience. The drug does not add something to perception. It removes something that was already there — a filter that ordinary consciousness maintains continuously and invisibly.</p>
+<p>The political implication Huxley draws is limited — he was not a radical, and his concerns were broadly humanistic rather than structurally political. But the implication is there, and the generation that read him in the late 1950s and early 1960s drew it further: if ordinary consciousness is a filter that discards most of available experience in favor of what the practical organism needs, and if that practical organism is produced by the social conditions of capitalism, then the filter is not neutral. It filters for what capitalism needs the organism to perceive, want, and consider realistic. To dissolve the filter, temporarily, is to encounter experience that the system has marked as noise.</p>
+<p>R.D. Laing took this further, in a direction that made the psychiatric establishment deeply uncomfortable.<sup><a href="#fn3" id="ref3">3</a></sup> His <em>The Divided Self</em> (1960) argued that schizophrenia — the condition psychiatry treated as a biochemical malfunction to be managed with drugs and institutionalization — was an intelligible response to an unlivable situation. The schizophrenic's world had been made incoherent by the double binds, the contradictory demands, the systematic invalidation of experience that characterized certain family and social environments. The breakdown was not a random failure of brain chemistry. It was an attempt, however costly, to find a way to live inside a situation that made coherent selfhood impossible.</p>
+<div class="pull">
+  Laing's claim:<br/>
+  the breakdown of ordinary<br/>
+  consciousness is not always<br/>
+  a malfunction.<br/>
+  Sometimes it is<br/>
+  <strong>the only sane response</strong><br/>
+  to an insane situation.
+</div>
+<p>By his 1967 book <em>The Politics of Experience</em>, Laing had extended this into an explicitly psychedelic politics: the "breakdown" that psychiatry treated as illness could be a "breakthrough" — a traversal of interior territory that the defended ego normally forecloses, a direct encounter with what lies beneath the social construction of the normal self. The psychedelic experience was, in this reading, a voluntarily entered version of what the schizophrenic undergoes involuntarily: a dissolution of the ordinary self that reveals both its constructed character and the possibility of something beyond it.</p>
+<p>What connects Huxley and Laing to Bateson is the common underlying claim: the ordinary self — the self that consumes the spectacle, defers to hegemonic common sense, maintains its character armor, moves through the managed routes of the city without noticing them as routes — is not the only possible self. It is a construction, maintained by active work at every level from the muscular to the institutional. And any practice that interrupts that construction, however temporarily, is a direct breach of the enclosure at its most fundamental level.</p>` }} />
+          </Section>
+
+          <Section id="mkultra" num="04" title="MKULTRA: the state recognizes the terrain">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The CIA began experimenting with LSD as a potential interrogation tool and mind-control agent in 1953 — the same year Huxley first took mescaline, four years before the Situationist International was founded, fifteen years before May '68. The program, eventually named MKULTRA, ran for twenty years, involved at least 150 research projects, and used unwitting subjects including mental patients, prisoners, drug addicts, and CIA employees.<sup><a href="#fn4" id="ref4">4</a></sup></p>
+<p>The moral of MKULTRA is not primarily about the specific atrocities it committed, though these were substantial. It is about the order of operations. The state identified the interior frontier as politically significant terrain before the counterculture did, before the peace movement did, before anyone was organizing around psychedelics as a political practice. The first response was not suppression but attempted weaponization. You do not try to weaponize terrain you regard as irrelevant. The CIA's investment in understanding and controlling altered states of consciousness is the clearest evidence available that the state understood, at the institutional level, what Bateson and Laing were articulating philosophically: that the ordinary construction of consciousness is a political achievement, that it can be disrupted, and that whoever controls the disruption controls something important.</p>
+<div class="concept-table">
+  <div class="concept-table-header">
+    <span class="ct-title">Three attempts to control the interior frontier</span>
+    <span class="ct-subtitle">Weaponize, suppress, commodify — in sequence</span>
+  </div>
+  <div class="ct-row">
+    <div class="ct-cell">
+      <span class="ct-cell-label">1953–1973: Weaponization</span>
+      <div class="ct-cell-text"><strong>MKULTRA.</strong> The state attempts to turn the dissolution of ordinary consciousness into an interrogation tool and a weapon of psychological warfare. The effort largely fails — LSD is too unpredictable, produces too many uncontrollable responses — but the investment demonstrates the stakes. The interior is recognized as terrain.</div>
+    </div>
+    <div class="ct-cell dim">
+      <span class="ct-cell-label">What this shows</span>
+      <div class="ct-cell-text">The CIA understood that if you could reliably dissolve the subject's ordinary self — break down the armor, breach the filter, make the constructed character permeable — you could access information and implant suggestions that the defended self would refuse. The theory is exactly Bateson and Reich applied to interrogation. The practice was torture. The failure was that consciousness, it turns out, does not dissolve into controllability. It dissolves into something else.</div>
+    </div>
+  </div>
+  <div class="ct-row">
+    <div class="ct-cell">
+      <span class="ct-cell-label">1966–1971: Criminalization</span>
+      <div class="ct-cell-text"><strong>Schedule I.</strong> LSD is criminalized in the United States in 1968; psilocybin and mescaline follow with the Controlled Substances Act in 1970. Schedule I designation — "no accepted medical use, high potential for abuse" — makes research effectively impossible and possession a felony. The counterculture that had organized around the substances is explicitly targeted.</div>
+    </div>
+    <div class="ct-cell dim">
+      <span class="ct-cell-label">What this shows</span>
+      <div class="ct-cell-text">Criminalization follows weaponization when weaponization fails. The interior frontier cannot be controlled, so it must be closed. The Ehrlichman admission is explicit: the drug war was designed to disrupt communities organized around the two groups — the antiwar left and Black Americans — most actively challenging the existing order. The substance was the pretext. The target was the community.</div>
+    </div>
+  </div>
+  <div class="ct-row">
+    <div class="ct-cell">
+      <span class="ct-cell-label">2010s–present: Commodification</span>
+      <div class="ct-cell-text"><strong>The wellness industry.</strong> Fifty years after criminalization, psychedelics return — as microdosing productivity supplements, as FDA-approved therapies for depression and PTSD, as Silicon Valley performance enhancement. The experience is repackaged as a consumer product within the very economic system whose common sense it was supposed to dissolve.</div>
+    </div>
+    <div class="ct-cell dim">
+      <span class="ct-cell-label">What this shows</span>
+      <div class="ct-cell-text">Commodification is the spectacle's final move. When a practice cannot be weaponized or suppressed, it can be enclosed: stripped of its community context, its political implications, its associated milieu — and sold back as a product. The dissolution of the ordinary self becomes a wellness service. <a class="xl" href="baudrillard-consumer-society.html">Baudrillard's simulation completes what criminalization started.</a></div>
+    </div>
+  </div>
+</div>
+<p>The sequence — weaponize, suppress, commodify — is the full logic of enclosure applied to interior terrain. It is the same sequence that has been applied to every commons this series has examined: first attempt to capture it for direct use, then criminalize independent access when capture fails, then commodify what can be controlled once the independent community has been dispersed. The interior frontier is not different in kind from the physical commons. It is different only in that it is harder to fence.</p>` }} />
+          </Section>
+
+          <Section id="criminalization" num="05" title="Criminalization and the closure of the frontier">
+            <div dangerouslySetInnerHTML={{ __html: `<p>Nixon's declaration of a war on drugs in 1971 was not primarily about drug use. John Ehrlichman, Nixon's domestic policy advisor, said so explicitly, in a statement he gave to journalist Dan Baum in 1994 and that was published after Ehrlichman's death: the campaign's two enemies were the antiwar left and Black Americans, and associating the former with psychedelics and the latter with heroin, then criminalizing both heavily, was a strategy for disrupting those communities — arresting their leaders, raiding their homes, breaking up their meetings.<sup><a href="#fn5" id="ref5">5</a></sup></p>
+<p>This is as close as we get to an official admission that the drug war was the enforcement arm of a political project. But Ehrlichman's statement, while unusually candid, describes only the immediate political motivation. The deeper logic is the one this series has been tracking. The communities organized around psychedelic experience in the late 1960s were, at their most serious, communities organized around the claim that ordinary consciousness is constructed and can be otherwise. They were practicing, in however undisciplined and culturally specific ways, something structurally equivalent to what <a class="xl" href="reich-character-armor.html">Reich's Sex-Pol clinics</a> had practiced in a different register: the direct address of the somatic and psychological substrate of political compliance.</p>
+<p>The closure of the frontier had several mechanisms, operating simultaneously.</p>
+<p><strong>Legal criminalization</strong> made the substances themselves inaccessible and their use a felony, dispersing the communities organized around them and making serious research impossible for fifty years. The Schedule I designation was not a scientific judgment — the research that existed in 1970 showed genuine therapeutic promise — but a political one.</p>
+<p><strong>Cultural absorption</strong> worked on what criminalization left. The counterculture's imagery — the aesthetic of the psychedelic experience, the visual language of altered states — was rapidly absorbed into advertising, fashion, and mass entertainment. The image of consciousness expansion became a commodity before the practice was criminalized. The Beatles' <em>Sgt. Pepper's</em> was a commercial product. The Grateful Dead were a touring enterprise. The spectacle, as <a class="xl" href="debord-1968.html">Debord had predicted</a>, incorporated the subversion as content with extraordinary speed.</p>
+<p><strong>The severing of the associated milieu</strong> — in Simondon's terms — may have been the most decisive mechanism. The psychedelic experience, like any practice that produces genuine change, requires a community of practice to be politically generative rather than merely personally interesting. The set and setting that Leary emphasized, the integration work that the therapeutic tradition emphasized, the ceremonial containers that Indigenous traditions had developed over centuries — all of these are forms of associated milieu: structured environments within which the experience can be received, processed, and connected to ongoing life and practice rather than being isolated as a spectacular event.</p>
+<p>Criminalization dispersed those communities. What remained was the individual experience, stripped of its collective context — which is exactly how the wellness industry has repackaged it fifty years later: as a personal therapeutic intervention, administered by a licensed professional, in a clinical setting optimized for individual healing rather than collective political consciousness. The dissolution of the ordinary self has been recaptured as a product. The interior frontier has been enclosed not by fencing it off but by making it accessible only on capital's terms.</p>
+<div class="pull">
+  The enclosure of the interior<br/>
+  was complete not when<br/>
+  the substances were banned,<br/>
+  but when the <strong>community<br/>
+  that held them</strong><br/>
+  was dispersed.
+</div>
+<p>What this means for the series argument: the interior frontier exists. It is accessible. The enclosure is not permanent — the substances still dissolve the filter, the epistemological error still temporarily lifts, the constructed character of ordinary consciousness is still, in those conditions, directly perceptible. What the enclosure achieved is not the elimination of the terrain but its isolation: making it available only in forms that cannot threaten the structures it reveals, stripped of the community and practice that could translate the experience into durable political consequence.</p>
+<p>In the 1980s, the drug war extended this project from psychedelics to the full range of substances that produced unauthorized interior states — with a racial targeting that made the political logic explicit. The theory of that extension, and the music that accidentally modeled its opposite, is the subject of <a class="xl" href="drug-war-deleuze-synthesizers.html">the next piece</a>.</p>` }} />
+          </Section>
+
+        </div>
+
+        <Invitation
+          label="The series"
+          headline="Enclosure of the Mind"
+          coda={``}
+        >
+          <p>The interior frontier is the deepest level of the enclosure this series has been mapping. Reich located the enclosure in the body's muscular organization. Gramsci located it in the institutions of civil society. Shannon built it into the architecture of communication. Debord named the social form it produced. Bateson, Huxley, and Laing identified its penetration into the texture of consciousness itself — and the state moved to close that frontier within a decade of its discovery, because it understood what was at stake. The next piece is about what happened when the drug war extended the closure in the 1980s — and about the music that, in the rubble of deindustrialized American cities, inadvertently built a theory of escape.</p>
+        </Invitation>
+
+        <NextReads items={[
+          { href: 'drug-war-deleuze-synthesizers', cat: 'Series VI', title: 'The Analog Resistance: Drug War, Deleuze, and the Synthesizer' },
+          { href: 'debord-1968', cat: 'Series VI', title: 'The Streets Were the Message: Debord and 1968' },
+          { href: 'reich-character-armor', cat: 'Series VI', title: 'Reich: Why Freedom Doesn\'t Feel Like You Think It Should' },
+          { href: 'foucault', cat: 'Thinker', title: 'Foucault: Power Is Not a Thing Anyone Holds' },
+          { href: 'who-gets-to-die', cat: 'Theory', title: 'Who Gets to Die: Foucault\'s Biopower' },
+          { href: 'deleuze-guattari', cat: 'Thinker', title: 'Deleuze & Guattari: How Power Moves' },
+        ]} />
+
+        <Footnotes notes={FOOTNOTES} />
+        <ArticleFooter seriesNote="Enclosure of the Mind — Series VI — Bateson (1972) — Huxley (1954) — Laing (1960) — MKULTRA (1953–1973) — Controlled Substances Act (1970)" />
+      </ArticleWrap>
+    </Layout>
+  )
+}
