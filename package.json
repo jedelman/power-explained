@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp legacy/*.html dist/ && cp style.css dist/ && cp motion.js dist/ && node scripts/prerender.js && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js",
-    "preview": "vite preview"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -14,8 +15,10 @@
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.31.0",
     "@vitejs/plugin-react": "^4.2.0",
     "pagefind": "^1.4.0",
-    "vite": "^7.0.0"
+    "vite": "^7.0.0",
+    "wrangler": "^4.80.0"
   }
 }
