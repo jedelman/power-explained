@@ -9,6 +9,8 @@ const Kropotkin = lazy(() => import('./pages/Kropotkin'))
 const Ostrom = lazy(() => import('./pages/Ostrom'))
 const Graeber = lazy(() => import('./pages/Graeber'))
 const HardtNegri = lazy(() => import('./pages/HardtNegri'))
+const HardtNegriGwot = lazy(() => import('./pages/HardtNegriGwot'))
+const AiAndTheLeft = lazy(() => import('./pages/AiAndTheLeft'))
 const DrugWarDeleuzeSynthesizers = lazy(() => import('./pages/DrugWarDeleuzeSynthesizers'))
 const BaudrillardConsumerSociety = lazy(() => import('./pages/BaudrillardConsumerSociety'))
 const PsychedelicsTheoryOfMind = lazy(() => import('./pages/PsychedelicsTheoryOfMind'))
@@ -133,6 +135,8 @@ export default function App() {
           <Route path="/ostrom" element={<Ostrom />} />
           <Route path="/graeber" element={<Graeber />} />
           <Route path="/hardt-negri" element={<HardtNegri />} />
+          <Route path="/hardt-negri-gwot" element={<HardtNegriGwot />} />
+          <Route path="/ai-and-the-left" element={<AiAndTheLeft />} />
           <Route path="/drug-war-deleuze-synthesizers" element={<DrugWarDeleuzeSynthesizers />} />
           <Route path="/baudrillard-consumer-society" element={<BaudrillardConsumerSociety />} />
           <Route path="/psychedelics-theory-of-mind" element={<PsychedelicsTheoryOfMind />} />
