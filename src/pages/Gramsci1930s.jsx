@@ -72,7 +72,7 @@ export default function Gramsci1930s() {
           </Section>
 
           <Section id="civil-society" num="04" title="The factory of consent: civil society as the terrain">
-            <div dangerouslySetInnerHTML={{ __html: `<p>The full theory of hegemony is in the <a class="xl" href="gramsci.html">Gramsci thinker page</a>. What's worth dwelling on here, in the historical context of the Notebooks, is the specific argument about civil society — and why it matters that Gramsci is making it from inside Italian fascism's project of reorganizing it.<sup><a href="#fn1" id="ref1">1</a></sup></p>
+            <div dangerouslySetInnerHTML={{ __html: `<p>What's worth dwelling on here, in the historical context of the Notebooks, is the specific argument about civil society — and why it matters that Gramsci is making it from inside Italian fascism's project of reorganizing it.<sup><a href="#fn1" id="ref1">1</a></sup></p>
 <p>The standard Marxist analysis of the capitalist state locates power in two places: the economic base (ownership of the means of production) and the political superstructure (the state, the law, the army). Gramsci's observation, from the ruins of the workers' movement, is that this analysis misses a third layer: <strong>civil society</strong>. Between the economic base and the political state sits the dense network of institutions through which a society reproduces its worldview — churches, schools, universities, newspapers, professional associations, political parties, trade unions, cultural organizations, the family itself.</p>
 <div class="pull">
   The state is the armor.<br/>
