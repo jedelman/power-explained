@@ -1,0 +1,165 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = [
+  { id: 'rupture', label: 'Three ruptures: disco, punk, hip hop' },
+  { id: 'hybridization', label: 'Hybridization as political practice' },
+  { id: 'technical-objects', label: 'The synthesizer as Simondonian technical object' },
+  { id: 'suppression', label: 'Suppression and absorption: the same sequence, again' },
+  { id: 'composing', label: 'Composing the commons: what Hardt and Negri heard' },
+]
+
+const FOOTNOTES = [
+  `Disco Demolition Night took place on July 12, 1979, at Comiskey Park in Chicago, organized by rock radio DJ Steve Dahl and White Sox co-owner Mike Veeck. Fans brought disco records to receive discounted admission; the records were collected in a dumpster and detonated between games of a doubleheader. The field was destroyed; the second game was forfeited. The cultural narrative that followed — that "the public" had organically rejected disco — obscures the degree to which the event was organized, promoted, and given media legitimacy by specific industry actors whose commercial interests were threatened by disco's audience and by the formats (12-inch singles, DJ-driven club culture) that disco was establishing as alternatives to album-oriented rock radio. The homophobic and racist coding of the anti-disco backlash was not incidental: the slogan "disco sucks" was deployed against a genre that was, more visibly than any predecessor, the music of Black, gay, and Latino communities. See: Echols, A. (2010). <em>Hot Stuff: Disco and the Remaking of American Culture</em>. W.W. Norton. <a href="#ref1">↩</a>`,
+  `The Roland TR-808 Rhythm Composer was released in 1980 and discontinued in 1983 after selling approximately 12,000 units — considered a commercial failure because its sounds did not accurately replicate acoustic drums, which was the design brief. By the mid-1980s, used 808s were available cheaply in pawn shops in Detroit and Chicago, where producers could not afford session drummers or the newer, more expensive drum machines. The decision to use the 808's distinctive bass frequencies as a primary musical element — rather than as a failed approximation of real drums — emerged from this condition of scarcity and was, in retrospect, one of the most consequential aesthetic decisions in the history of popular music. The 808's bass drum became the rhythmic foundation of house, techno, hip hop, and all subsequent genres descended from them. See: Trammell, M. (2020). "The Machine That Conquered the World." <em>Pitchfork</em>. <a href="#ref2">↩</a>`,
+  `The Roland TB-303 Bass Line was similarly a commercial failure — designed to simulate bass guitar for solo musicians, discontinued in 1984 — and similarly repurposed. Chicago house producer DJ Pierre discovered that running the 303 through a filter while adjusting the cutoff frequency in real time produced the distinctive "acid" sound that defined acid house. The 303 was not designed to make that sound; the sound emerged from misuse, from operating the machine outside its design parameters. This is, in Simondon's terms, exactly the condition under which technical objects develop: not when they are operated according to specifications but when a community pushes them past those specifications and discovers what the object is capable of beyond its intended function. See: Reynolds, S. (1998). <em>Energy Flash: A Journey Through Rave Music and Dance Culture</em>. Picador. <a href="#ref3">↩</a>`,
+  `The Parents Music Resource Center (PMRC) was founded in 1985 by Tipper Gore and Susan Baker, wives of Senator Al Gore and Treasury Secretary James Baker. Its explicit target was heavy metal and rap; its mechanism was the Senate Commerce Committee hearings (September 1985) at which Dee Snider, John Denver, and Frank Zappa testified. The hearings produced the "Parental Advisory" sticker system. The implicit target was the audience: the PMRC's founding documents specifically cited the racial mixing of audiences at concerts as a social problem. The concurrent prosecution of 2 Live Crew (1990) and the legal battles over N.W.A's <em>Straight Outta Compton</em> extended the same project into criminal law. The drug war and the culture war against Black music were not parallel projects that happened to coincide. They were coordinated campaigns with the same political logic and, in many cases, the same political actors. <a href="#ref4">↩</a>`,
+  `Hardt, M. & Negri, A. (2017). <em>Assembly</em>. Oxford University Press. The concept of "composing" the multitude — as against assuming it as a pre-given unity — runs through the book. Hardt and Negri draw explicitly on musical metaphors: the multitude as an ensemble that produces something that none of its constituent parts could produce alone, without any part requiring the others to become the same. The Spinozist grounding is: singular beings compose, through their encounter, a collective power that exceeds the sum of its parts — a power that is not reducible to any individual part and that does not require any part to surrender its singularity. This is philosophically rigorous; the question the book leaves open is institutional: how does composition get maintained over time, across the conditions that pull constituent groups back toward their individual logics? <a href="#ref5">↩</a>`,
+]
+
+export default function DrugWarDeleuzeSynthesizers() {
+  return (
+    <Layout
+      title="The Analog Resistance: Drug War, Hybridization, and the Synthesizer — Power Explained"
+      description="In the 1980s, the drug war suppressed communities that had built something through music. Disco, punk, and hip hop were not just genres — they were acts of hybridization that composed commons from communities the existing order had kept apart. The synthesizer was the technical object of that milieu."
+      seriesTag="Enclosure of the Mind — Series VI"
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(3rem,14vw,10rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>808</div>
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <h1>The analog<br />resistance</h1>
+          <p className="hero-dek">Between 1975 and 1985, three musical ruptures emerged from the communities the existing order had most systematically excluded — and each was suppressed by the same mechanisms that had suppressed every prior enclosure breach: co-optation, criminalization, and commodification. What makes these ruptures worth examining is not the music. It is the political form the music expressed: hybridization as the practice of composing a commons from difference.</p>
+          <div className="hero-bio">
+            <span className="bio-dates">1975 — 1990</span>
+            <p className="bio-line">The technical objects: the Roland 808 drum machine, the TB-303 bass synthesizer, the Technics SL-1200 turntable — all commercial failures, all repurposed by communities that could not afford better equipment, all becoming the infrastructure of musical forms that the industry did not create and could not fully control. Until it could.</p>
+          </div>
+        </div>
+      </div>
+
+      <ArticleWrap>
+        <ContentsNav sections={SECTIONS} />
+        <div className="body-text">
+
+          <Section id="rupture" num="01" title="Three ruptures: disco, punk, hip hop">
+            <div dangerouslySetInnerHTML={{ __html: `<p>Disco emerged in New York between 1972 and 1977, in the clubs of a city in fiscal crisis, in the aftermath of Stonewall and in the middle of a transformation of Black and Latino working-class culture that the mainstream music industry had neither created nor anticipated. Its audience was, more visibly than any prior commercial music, Black, gay, and Latino — communities that the consumer society <a class="xl" href="baudrillard-consumer-society.html">Baudrillard had been analyzing</a> had systematically excluded from the code's definition of desirability, and that the drug war would, within a decade, target directly.</p>
+<p>Punk emerged in London and New York between 1975 and 1977, from a different set of ruptures: British deindustrialization, the collapse of the postwar social settlement, the specific fury of a working class that had been promised inclusion in the consumer society and found the promise withdrawn. Its affect was refusal — of competence, of polish, of the musicianship that rock had elevated as the criterion of legitimacy. The three-chord song was not a failure of ambition. It was a deliberate destruction of the barrier between performer and audience, a refusal of the specialization that turned music into a spectacle for passive consumption.</p>
+<p>Hip hop emerged in the South Bronx between 1973 and 1979, from conditions of destruction so total that they looked, to outside observers, like a natural disaster: arson, abandonment, the planned destruction of a community by Robert Moses's expressway through its heart, the withdrawal of city services, landlord abandonment and insurance fraud. From this rubble — literally, in community centers and parks because the clubs were gone — DJ Kool Herc, Grandmaster Flash, and Afrika Bambaataa built a musical practice out of the tools available: turntables, borrowed electricity, found records. The breakbeat — isolating and extending the percussion break from existing records — was a compositional act performed entirely on other people's material. Sampling was not theft. It was the creation of new commons from abandoned cultural material, performed by communities that had been systematically excluded from the means of original production.</p>
+<div class="pull">
+  Hip hop did not sample<br/>
+  because it lacked originality.<br/>
+  It sampled because it was<br/>
+  <strong>composing a commons</strong><br/>
+  from what had been<br/>
+  abandoned.
+</div>
+<p>Three ruptures, three different communities, three different formal strategies. What connects them is not genre or geography but political structure: each emerged from communities that the existing order — <a class="xl" href="baudrillard-consumer-society.html">the consumer code</a>, the drug war, deindustrialization — had excluded from its definition of legitimate social life. And each built, through music, a form of collective life that was not available through the official channels of that order.</p>` }} />
+          </Section>
+
+          <Section id="hybridization" num="02" title="Hybridization as political practice">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The most politically significant feature of all three ruptures is one that is easy to miss if you are listening for content rather than form: each was produced by the hybridization of communities that the existing order had deliberately kept apart.</p>
+<p>Disco's community was not Black or gay or Latino. It was all three, in a specific convergence that was not planned and could not have been manufactured. The dancefloor at the Loft or the Paradise Garage was a commons of bodies that had been kept apart — by the racial geography of the city, by the criminalization of homosexuality, by the class structure that organized who could go where and be what in public space. On the dancefloor, the separation dissolved. Not permanently, not completely — people went home to their separate neighborhoods — but recurrently, in a space that the existing order had not designed and could not fully control.</p>
+<p>Punk's hybridization was different in kind but parallel in structure. Art school students and unemployed kids from council estates, women and men on equal terms in a scene that rock had organized around masculine virtuosity, American and British influences combined in ways that the music industry's genre categories could not contain. The specific convergence of the art school — where working-class kids could study alongside middle-class students on the same grants — with the dole queues of industrial decline produced a community that crossed class lines that English society had, for a century, treated as impermeable.</p>
+<p>Hip hop's hybridization was, in retrospect, the most generative. Afrika Bambaataa — a former gang leader who had done time and returned to the South Bronx with a different vision — explicitly organized the Universal Zulu Nation as a cross-gang, cross-community formation, using music as the medium of convergence. The cypher, the battle, the block party were not entertainment. They were institutions: structured practices of encounter between communities and individuals who would otherwise remain separated by the territorial divisions of the street. The compositional logic of sampling extended this: hip hop built its sonic world from the fragments of other musical traditions — funk, soul, jazz, rock, reggae — combining them in ways that none of the originating traditions contained.</p>
+<div class="callout">
+  <span class="callout-label">Why hybridization is political</span>
+  <p>The political order that <a class="xl" href="gramsci-1930s.html">Gramsci analyzed as hegemony</a> depends, at the level of social life, on the separation of communities that might otherwise recognize their common interest. The racial geography of American cities — produced by redlining, urban renewal, highway routing, white flight — is not incidental to the political economy of those cities. It is a mechanism for preventing the composition of coalitions across race that could challenge the existing distribution of resources and power.</p>
+  <p>A dancefloor that composes Black, gay, and Latino bodies into a commons is not apolitical. It is practicing, in the most direct possible way, the dissolution of a separation that the political order requires. It does not make a demand or advance a program. It enacts, in the present tense, a form of social life that the order says is impossible — that it has organized significant institutional resources to prevent. <a class="xl" href="hardt-negri.html">Hardt and Negri's multitude</a> is this dancefloor described philosophically: not a unity achieved by flattening difference but a composition produced by the encounter of singularities that remain distinct.</p>
+</div>
+<p>This is what <a class="xl" href="debord-1968.html">Debord's Situationists</a> were reaching for with the constructed situation, and never quite found: a practice that produces genuine collective experience — not the representation of collective experience, not the spectacle of belonging, but actual encounter between actual bodies that actually changes what seems possible. The three ruptures found it, not through theory but through practice, in conditions of sufficient scarcity and exclusion that the spectacle's managed alternatives were not available.</p>` }} />
+          </Section>
+
+          <Section id="technical-objects" num="03" title="The synthesizer as Simondonian technical object">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The Roland TR-808 Rhythm Composer was released in 1980 and discontinued after three years. It had sold approximately 12,000 units — a commercial failure, because its synthetic drum sounds did not accurately replicate acoustic drums, which was what buyers wanted.<sup><a href="#ref2" id="ref2">2</a></sup> By the mid-1980s, used 808s were available for fifty dollars in the pawn shops of Detroit and Chicago — cities where deindustrialization had destroyed the wage-labor economy and where the communities that built house music and techno could not afford session musicians or the newer, more expensive machines.</p>
+<p>The Roland TB-303 Bass Line had the same history: designed to simulate bass guitar, discontinued as a failure, available cheaply in the same pawn shops. DJ Pierre, in Chicago, discovered that running the 303 through a filter while adjusting the cutoff frequency in real time produced a sound the machine had never been designed to make — a bubbling, warping, insistently synthetic bass that became the signature of acid house.<sup><a href="#ref3" id="ref3">3</a></sup></p>
+<p>In Simondon's terms, what happened to the 808 and the 303 is the definitive example of a technical object finding its associated milieu. The machines had been designed for a milieu that rejected them — the professional recording studio, with its demand for acoustic verisimilitude. Displaced from that milieu and acquired by communities with no stake in verisimilitude — communities that were building something new rather than replicating something established — the machines discovered capacities that their designers had not anticipated and that only emerged in the encounter between the object and the specific community of practice that used it.</p>
+<div class="concept-table">
+  <div class="concept-table-header">
+    <span class="ct-title">Failed commercial product → technical object of a milieu</span>
+    <span class="ct-subtitle">Three machines that found their associated milieu after market failure</span>
+  </div>
+  <div class="ct-row">
+    <div class="ct-cell">
+      <span class="ct-cell-label">Roland TR-808 (1980)</span>
+      <div class="ct-cell-text"><strong>Designed for:</strong> Solo musicians wanting realistic drum backing. <strong>Failed because:</strong> Sounds nothing like acoustic drums. <strong>Found its milieu in:</strong> Detroit/Chicago basement studios — where the inhuman quality of the sound was the point. The 808's bass drum frequency is felt in the body before it is heard by the ear. On a sound system in a club, at volume, it organizes bodies collectively in a way that acoustic drum simulation never could.</div>
+    </div>
+    <div class="ct-cell dim">
+      <span class="ct-cell-label">What Simondon would say</span>
+      <div class="ct-cell-text">The 808 is not a failed drum machine repurposed as a substitute. It is a technical object that required a specific milieu — the Black dancefloor, the club sound system, the communal body — to actualize capacities that existed in the object but were inaccessible in the milieu it was designed for. The community and the machine co-produced each other.</div>
+    </div>
+  </div>
+  <div class="ct-row">
+    <div class="ct-cell">
+      <span class="ct-cell-label">Roland TB-303 (1981)</span>
+      <div class="ct-cell-text"><strong>Designed for:</strong> Simulating bass guitar for solo practice. <strong>Failed because:</strong> Notoriously difficult to program; sounds nothing like a bass guitar. <strong>Found its milieu in:</strong> Acid house — where DJ Pierre's misuse of the filter cutoff produced the 303's defining sound: not bass simulation but a new instrument that had never existed before.</div>
+    </div>
+    <div class="ct-cell dim">
+      <span class="ct-cell-label">What Simondon would say</span>
+      <div class="ct-cell-text">The 303's sound emerged from operating it outside its design parameters — which is exactly how Simondon describes the condition of technical development. The machine becomes more itself, reveals more of its potential, when pushed past what it was supposed to do. The community's relationship with the 303 was not use but dialogue.</div>
+    </div>
+  </div>
+  <div class="ct-row">
+    <div class="ct-cell">
+      <span class="ct-cell-label">Technics SL-1200 (1972)</span>
+      <div class="ct-cell-text"><strong>Designed for:</strong> Hi-fi home listening — a high-quality turntable for audiophiles. <strong>Found its milieu in:</strong> DJ culture, scratching, and hip hop — where the direct-drive motor that made it a good hi-fi turntable also made it possible to manipulate the record against the platter in real time, producing an entirely new instrument from an existing playback device.</div>
+    </div>
+    <div class="ct-cell dim">
+      <span class="ct-cell-label">What Simondon would say</span>
+      <div class="ct-cell-text">Grand Wizard Theodore's discovery of scratching — accidentally, by holding a record still while his mother yelled at him — is a paradigm case of the technical object's latent capacity being discovered through an encounter the designer had not anticipated. The SL-1200's associated milieu was not the living room. It was the block party.</div>
+    </div>
+  </div>
+</div>
+<p>What these three machines share is this: they became what they were — the technical infrastructure of the most significant musical movement of the late twentieth century — through their encounter with communities that the consumer market had excluded, and that therefore had no stake in using them as designed. The associated milieu of house, techno, and hip hop was built from the detritus of a market that had moved on. <a class="xl" href="shannon-simondon-1950s.html">Simondon's argument that genuine technical culture requires an associated milieu</a> is demonstrated here in its most vivid form: the milieu was not given, it was composed — out of deindustrialization, exclusion, cheap secondhand equipment, and the specific intelligence of communities with no other option.</p>` }} />
+          </Section>
+
+          <Section id="suppression" num="04" title="Suppression and absorption: the same sequence, again">
+            <div dangerouslySetInnerHTML={{ __html: `<p>Disco Demolition Night, July 12, 1979, Comiskey Park, Chicago. A rock radio DJ and the White Sox front office organized an event in which fans who brought disco records received discounted admission. The records were collected in a dumpster and blown up between games of a doubleheader. The field was destroyed; the second game was forfeited. The narrative that followed — that "the public" had organically rejected disco — was the media management of what was, in fact, an organized industry campaign against a genre and the distribution system it was establishing.<sup><a href="#ref1" id="ref1">1</a></sup></p>
+<p>The anti-disco campaign was not primarily aesthetic. Its target was the audience — Black, gay, Latino — and the commercial infrastructure that audience was building: the 12-inch single, DJ-driven club culture, formats that bypassed album-oriented rock radio and the demographic that radio served. The phrase "disco sucks" was deployed, with specific vigor, against music whose audience had been the most explicitly excluded from the consumer code's definition of desirability. Within two years of Disco Demolition Night, disco had been effectively purged from mainstream radio and the major labels had redirected their investment to formats that served a whiter, straighter audience.</p>
+<p>Punk was absorbed rather than demolished — which is a more complete form of enclosure. Within three years of the Sex Pistols' <em>Never Mind the Bollocks</em>, the fashion industry had incorporated the aesthetic (safety pins, torn clothing, mohawks) as a style available for purchase. The music industry had developed "new wave" as a marketable category that retained punk's surface without its class content. The community that punk had briefly constituted — the specific convergence of art school and dole queue, of working-class anger and avant-garde form — was disaggregated back into its constituent demographics, each addressed by a targeted subcategory of the market. The enclosure was complete when punk became a costume.</p>
+<p>Hip hop's suppression took longer and was more explicitly racialized. The Parents Music Resource Center's 1985 Senate hearings — focused on heavy metal and rap — were, as the PMRC's own documents make clear, concerned not just with lyrical content but with the racial mixing of audiences.<sup><a href="#ref4" id="ref4">4</a></sup> The prosecution of 2 Live Crew, the battles over N.W.A, the congressional pressure on record labels: all targeted the genre's most explicitly political expressions and the communities organized around them. The drug war and the culture war against Black music were not parallel campaigns. They were coordinated, with the same political logic — disrupting communities organized around practices that composed commons across the lines the existing order needed maintained — and in many cases the same actors.</p>
+<p>The absorption eventually came, and it was total. Hip hop is now the most commercially successful music genre in history. The 808, the 303, the compositional practice of sampling: all are owned, licensed, and monetized by the corporations that once tried to suppress them. The Simondonian milieu has been captured: the technical objects remain, but the community of practice that gave them their political valence — that constituted them as instruments of a specific dancefloor in a specific city in specific conditions of exclusion and scarcity — has been dispersed, its products converted into intellectual property, its practitioners separated from the conditions that made the practice generative.</p>` }} />
+          </Section>
+
+          <Section id="composing" num="05" title="Composing the commons: what Hardt and Negri heard">
+            <div dangerouslySetInnerHTML={{ __html: `<p>Hardt and Negri do not write about disco, punk, or hip hop. Their reference points are political movements — the Zapatistas, the global justice movement, the alter-globalization protests of the late 1990s. But the concept they reach for in <em>Assembly</em> (2017) to describe what those movements were doing — <strong>composing</strong> the multitude — is precisely the formal structure that the three musical ruptures had enacted a decade earlier.<sup><a href="#ref5" id="ref5">5</a></sup></p>
+<p>Composing, in their framework, is the practice of producing collective power from singularities that remain distinct — not unifying disparate groups by requiring them to become the same, but finding forms of coordination that let them act in concert while preserving their difference. The musical metaphor is explicit: an ensemble does not require its members to play the same note. It requires them to be in relationship — to listen, to respond, to produce something together that none could produce alone.</p>
+<p>This is what disco, punk, and hip hop were doing at the level of social life. The dancefloor composed Black, gay, and Latino bodies into a commons without requiring them to surrender their difference. The punk scene composed art school students and unemployed kids without requiring class consciousness to precede solidarity. Hip hop composed communities across gang territories, using the cypher and the battle as forms of encounter that produced relationship without requiring prior unity. In each case, the musical practice was the mechanism of composition — the structured form of encounter through which singularities that had been deliberately kept apart could find themselves in productive relation.</p>
+<div class="pull">
+  The multitude is not<br/>
+  a pre-given unity.<br/>
+  It is <strong>composed</strong> —<br/>
+  out of difference,<br/>
+  through encounter,<br/>
+  in the present tense.
+</div>
+<p>The technical objects are central to this composition in exactly the way Simondon would predict. The 808 does not just make a sound; it organizes bodies in a specific way. Its bass frequencies, at club volume, produce a collective somatic experience — a shared vibration that crosses the boundaries of individual bodies and constitutes something that is neither the sum of individual experiences nor a suppression of individual difference. <a class="xl" href="reich-character-armor.html">Reich's character armor</a> is, in the right conditions at the right volume, temporarily dissolved — not by analysis or argument but by frequency. The dancefloor is a somatic commons.</p>
+<p>This sounds like a strong claim. It is also a precise one. The communities that built house and techno understood it practically: the specific acoustic design of the club, the placement of the sound system, the management of volume and frequency, the architecture of the dancefloor — all of these were understood as political decisions, as choices about the conditions under which the composition could occur. Larry Heard, Ron Hardy, Frankie Knuckles, Juan Atkins, Derrick May: these were not just musicians. They were engineers of a specific form of collective experience, working with the available technical objects — the 808, the 303, the SL-1200 — to constitute a commons that the existing order had not provided and could not fully absorb.</p>
+<p>The absorption eventually came anyway. It always does. <a class="xl" href="debord-1968.html">The détournement becomes a style.</a> <a class="xl" href="psychedelics-theory-of-mind.html">The interior frontier gets commodified.</a> The dancefloor becomes a festival, becomes a brand, becomes a market segment. The technical objects get licensed. The community disperses. What remains is the question the series has been building toward: if every practice of composition is eventually absorbed, if every commons constituted through hybridization is eventually enclosed — what is the terrain of the current enclosure, and where are the exits?</p>
+<p>In 2001, Hardt and Negri published <em>Empire</em> — an analysis of a global order in which the primary site of accumulation had shifted from physical production to immaterial production: knowledge, affect, communication, the common intellect. The war on terror, announced the same year, was, in their analysis, an attempt to manage the conditions under which that immaterial commons could be extracted. That is where the series ends: <a class="xl" href="hardt-negri-gwot.html">with the GWOT, the Patriot Act, and the enclosure of the common intellect.</a></p>` }} />
+          </Section>
+
+        </div>
+
+        <Invitation
+          label="The series"
+          headline="Enclosure of the Mind"
+          coda={``}
+        >
+          <p>The three musical ruptures of the 1970s and 1980s were not primarily about music. They were practices of hybridization — composing commons from communities the existing order had deliberately kept apart. The synthesizers and turntables they used were Simondonian technical objects that found their associated milieus in exactly the conditions of exclusion and scarcity that market failure had produced. The suppression and absorption of each rupture followed the same sequence this series has traced across every enclosure. And the concept Hardt and Negri reached for to describe what political movements could learn from this — composing the multitude out of difference, in the present tense, without requiring unity in advance — is the formal structure that the dancefloor had been enacting for twenty years before they wrote it down.</p>
+        </Invitation>
+
+        <NextReads items={[
+          { href: 'hardt-negri-gwot', cat: 'Series VI', title: 'The Immaterial Enclosure: Hardt, Negri, and the GWOT' },
+          { href: 'baudrillard-consumer-society', cat: 'Series VI', title: 'Baudrillard and the 1970s: The Simulation Arrives' },
+          { href: 'hardt-negri', cat: 'Thinker', title: 'Hardt & Negri: The Wealth That Capital Cannot Build' },
+          { href: 'deleuze-guattari', cat: 'Thinker', title: 'Deleuze & Guattari: How Power Moves' },
+          { href: 'simondon', cat: 'Thinker', title: 'Simondon: Why Tools Need Communities' },
+          { href: 'case-study-rojava', cat: 'Case Study', title: 'Rojava: The Revolution That Wrote Women\'s Liberation Into the Constitution' },
+        ]} />
+
+        <Footnotes notes={FOOTNOTES} />
+        <ArticleFooter seriesNote="Enclosure of the Mind — Series VI — disco, punk, hip hop — Roland 808/303 — Hardt & Negri — Assembly (2017)" />
+      </ArticleWrap>
+    </Layout>
+  )
+}
