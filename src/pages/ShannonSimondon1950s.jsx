@@ -28,7 +28,7 @@ export default function ShannonSimondon1950s() {
       <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(3rem,12vw,8rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>SHANNON SIMONDON</div>
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
           <h1>The channel<br />and the ghost</h1>
           <p className="hero-dek">In 1948, Claude Shannon published a mathematical theory of communication that defined information precisely enough to build a civilization on — and explicitly excluded meaning from the definition. Ten years later, Gilbert Simondon published a philosophy of technology that identified exactly what that exclusion was costing. Neither read the other. Both were right.</p>
           <div className="hero-bio">

@@ -27,7 +27,7 @@ export default function DrugWarDeleuzeSynthesizers() {
       <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(3rem,14vw,10rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>808</div>
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
           <h1>The analog<br />resistance</h1>
           <p className="hero-dek">Between 1975 and 1985, three musical ruptures emerged from the communities the existing order had most systematically excluded — and each was suppressed by the same mechanisms that had suppressed every prior enclosure breach: co-optation, criminalization, and commodification. What makes these ruptures worth examining is not the music. It is the political form the music expressed: hybridization as the practice of composing a commons from difference.</p>
           <div className="hero-bio">

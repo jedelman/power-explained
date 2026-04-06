@@ -27,7 +27,7 @@ export default function Debord1968() {
       <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(4rem,18vw,12rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>DEBORD</div>
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
           <h1>The streets<br />were the message</h1>
           <p className="hero-dek">In May 1968, the walls of Paris spoke. Students tore up the paving stones and found the beach beneath. Workers occupied factories across France. For three weeks, the largest general strike in French history brought the country to a standstill — and nobody in power had seen it coming. Guy Debord had. He had published the theory one year earlier.</p>
           <div className="hero-bio">

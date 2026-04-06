@@ -27,7 +27,7 @@ export default function AiAndTheLeft() {
       <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(4rem,18vw,12rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>AI</div>
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
           <h1>AI and the left:<br />the enclosure we're<br />building together</h1>
           <p className="hero-dek">The left's dominant response to artificial intelligence is to ask whether it will take jobs. This is not the wrong concern — it is the wrong level of analysis. The deeper question, the one this series has been building toward for eight pieces, is structural: large language models are the most comprehensive enclosure of the common intellect ever attempted. Understanding that — and understanding what to do about it — requires the full toolkit the series has assembled.</p>
           <div className="hero-bio">

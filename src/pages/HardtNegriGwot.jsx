@@ -27,7 +27,7 @@ export default function HardtNegriGwot() {
       <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(3rem,12vw,8rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>EMPIRE</div>
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
           <h1>The immaterial<br />enclosure</h1>
           <p className="hero-dek">In 2000, Hardt and Negri published a book arguing that global power had shifted from the management of physical territory to the management of immaterial production — knowledge, affect, communication, the common intellect. In 2001, the GWOT began. It fit their framework with uncomfortable precision. The war on terror was not primarily about oil or democracy. It was about managing the conditions under which the common intellect could be enclosed.</p>
           <div className="hero-bio">

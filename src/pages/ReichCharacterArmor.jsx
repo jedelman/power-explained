@@ -26,7 +26,7 @@ export default function ReichCharacterArmor() {
       <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(4rem,18vw,12rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>REICH</div>
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
-          <span className="hero-eyebrow">Enclosure of the Mind — Series VI</span>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
           <h1>Why freedom doesn't feel like you think it should</h1>
           <p className="hero-dek">Wilhelm Reich was a psychoanalyst, a communist, and one of the most uncomfortable thinkers of the twentieth century. His question: why don't people want freedom? Not why are they tricked into accepting unfreedom — but why, when liberation becomes available, does it produce anxiety, rigidity, retreat? His answer runs through the body. And it still does.</p>
           <div className="hero-bio">
