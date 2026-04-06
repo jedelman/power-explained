@@ -417,12 +417,102 @@ export default function Contents() {
 </div>
 </div>
 </div>
-</div>
 </section>
+<div class="series-divider dark" id="series-vi">
+<div class="sd-inner">
+<span class="sd-tag">Series VI — New</span>
+<span class="sd-title">Enclosure of the Mind</span>
+<p class="sd-desc">The enclosure of physical commons was substantially complete by the mid-twentieth century. The enclosure of the mind is still underway. This series traces it across a century — from Reich’s armored bodies and Gramsci’s hegemonic institutions, through Shannon’s channel model and Debord’s spectacle, through the interior frontier and the consumer code, to the drug war that suppressed hybridization and the surveillance state that mapped the common intellect. Nine pieces ending where we are now: with large language models as the most comprehensive enclosure of thought ever attempted — and with the question of what it would take to compose a commons from it instead.</p>
+</div>
+</div>
+<section class="section-grid">
+<div class="inner">
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Series index</span></div>
+<h2 class="piece-title">Enclosure of the Mind</h2>
+<div class="piece-body">
+<p>The through-line across all nine pieces: the enclosure has moved inward, layer by layer, from the physical commons to the common intellect. At each layer, the same sequence. At each layer, the same counter: compose.</p>
+<p><a class="read-link" href="enclosure-of-the-mind.html">Read the argument →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 1 — 1930s</span></div>
+<h2 class="piece-title">Reich: Why Freedom Doesn’t Feel Like You Think It Should</h2>
+<div class="piece-body">
+<p>The armored body as the somatic substrate of political compliance. Fascism organizes desire rather than suppressing it. The enclosure of the mind begins in the flesh.</p>
+<p><a class="read-link" href="reich-character-armor.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 2 — 1930s</span></div>
+<h2 class="piece-title">Gramsci in the 1930s: The Factory of Consent</h2>
+<div class="piece-body">
+<p>The Prison Notebooks as live autopsy of a movement’s failure. Turin factory councils, passive revolution, the Southern Question. What would have had to be different.</p>
+<p><a class="read-link" href="gramsci-1930s.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 3 — 1950s</span></div>
+<h2 class="piece-title">The Channel and the Ghost: Shannon & Simondon in the 1950s</h2>
+<div class="piece-body">
+<p>Shannon built meaning out of communication infrastructure. Simondon named what was lost. The theory got built into the world. The critique arrived after the concrete had set.</p>
+<p><a class="read-link" href="shannon-simondon-1950s.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 4 — 1960s</span></div>
+<h2 class="piece-title">The Streets Were the Message: Debord and 1968</h2>
+<div class="piece-body">
+<p>The spectacle as social relation, not collection of images. The dérive, the détournement, May ’68. The rupture absorbed in months. The enclosure that incorporates its own negation as content.</p>
+<p><a class="read-link" href="debord-1968.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 5 — 1960s–70s</span></div>
+<h2 class="piece-title">The Interior Frontier: Psychedelics and Theory of Mind</h2>
+<div class="piece-body">
+<p>Bateson’s ecology of mind. Ordinary consciousness as a produced state. The state recognized the terrain before the counterculture did. MKULTRA, criminalization, commodification — the same sequence, applied to the interior.</p>
+<p><a class="read-link" href="psychedelics-theory-of-mind.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 6 — 1970s</span></div>
+<h2 class="piece-title">Baudrillard and the 1970s: The Simulation Arrives</h2>
+<div class="piece-body">
+<p>Before the hyperreal, the refrigerator. The System of Objects, the trente glorieuses, sign-value over use-value. Consumer society enclosing not what people have, but what they want — upstream of the economy itself.</p>
+<p><a class="read-link" href="baudrillard-consumer-society.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 7 — 1980s</span></div>
+<h2 class="piece-title">The Analog Resistance: Drug War, Hybridization, and the Synthesizer</h2>
+<div class="piece-body">
+<p>Disco, punk, hip hop as acts of hybridization — composing commons from communities the existing order kept apart. The Roland 808 finding its milieu in deindustrialized Detroit. Suppression and absorption. What Hardt and Negri would later call composing the multitude.</p>
+<p><a class="read-link" href="drug-war-deleuze-synthesizers.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 8 — 2000s</span></div>
+<h2 class="piece-title">The Immaterial Enclosure: Hardt, Negri, and the GWOT</h2>
+<div class="piece-body">
+<p>The Patriot Act as Enclosure Act. Abu Ghraib and armoring at civilizational scale. The surveillance state that mapped the flows of solidarity and made them legible to power.</p>
+<p><a class="read-link" href="hardt-negri-gwot.html">Read →</a></p>
+</div>
+</div>
+<div class="piece-card">
+<div class="piece-kicker"><span class="kicker-label">Piece 9 — Present</span></div>
+<h2 class="piece-title">AI and the Left: The Enclosure We’re Building Together</h2>
+<div class="piece-body">
+<p>LLMs as the most comprehensive enclosure of the common intellect ever attempted. Five mechanisms. The Baudrillard test for AI practice. Five directions for composition rather than capture.</p>
+<p><a class="read-link" href="ai-and-the-left.html">Read →</a></p>
+</div>
+</div>
+</div>
+
 <div class="series-divider mid" id="thinkers">
 <div class="sd-inner">
 <span class="sd-tag">Thinkers</span>
-<span class="sd-title">Eight Lenses on Power</span>
+<span class="sd-title">Twelve Lenses on Power</span>
 <p class="sd-desc" style="opacity:0.7;">The pieces above draw on many thinkers. These eight get their own pages because their work is both foundational and frequently misrepresented — cited as decoration when they were doing rigorous argument. Read in order for the full arc, or enter wherever the question is most alive for you.</p>
 </div>
 </div>
@@ -496,6 +586,18 @@ export default function Contents() {
 <span class="thinker-card-name">Paulo Freire</span>
 <span class="thinker-card-dates">1921 — 1997</span>
 <span class="thinker-card-desc">Education is never neutral. It either deposits the existing order into passive subjects who accept the world as given — or it builds people who understand their situation as a situation, and therefore changeable. Every commons project is a pedagogy.</span>
+<a class="thinker-card" href="baudrillard.html">
+<span class="thinker-card-eyebrow">11 — Cultural Theory — Simulation</span>
+<span class="thinker-card-name">Jean Baudrillard</span>
+<span class="thinker-card-dates">1929 — 2007</span>
+<span class="thinker-card-desc">The image no longer represents the world. It precedes and produces it. Baudrillard tracked the disappearance of the real — not its distortion, its replacement — and what that means for any politics that needs reality to appeal to.</span>
+<span class="thinker-card-cta">Read →</span>
+</a>
+<a class="thinker-card" href="debord-1968.html">
+<span class="thinker-card-eyebrow">12 — Situationism — The Spectacle</span>
+<span class="thinker-card-name">Guy Debord</span>
+<span class="thinker-card-dates">1931 — 1994</span>
+<span class="thinker-card-desc">Capitalism hasn’t just taken the land and the labor. It has taken lived experience itself, replacing it with its representation. The spectacle is not a lot of media. It is a social relation between people mediated by images.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
 </div>
