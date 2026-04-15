@@ -216,7 +216,6 @@ h1 {
 /* ── Callout box ── */
 .callout {
   background: var(--paper-mid);
-  border-left: 3px solid var(--paper-dark);
   padding: 1.5rem 1.75rem;
   margin: 2.5rem 0;
 }
@@ -1627,7 +1626,7 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .card-arrow { font-family: var(--mono); font-size: 0.8rem; color: var(--red); align-self: center; }
 
 /* ── Case block (inline example box) ── */
-.case { background: var(--green-light); border-left: 3px solid var(--green); padding: 1.5rem 1.75rem; margin: 2.5rem 0; }
+.case { background: var(--green-light); border-top: 2px solid var(--green); padding: 1.5rem 1.75rem; margin: 2.5rem 0; }
 .case h3 { font-family: var(--display); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem; }
 .case p { font-size: 0.92rem; line-height: 1.7; margin-bottom: 0.65rem; }
 .case p:last-child { margin-bottom: 0; }
@@ -1835,7 +1834,8 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .inventory-you { font-size: 0.9rem; line-height: 1.6; color: var(--ink); }
 
 /* ── Timeline (HowLinuxBecameTheInternet) ── */
-.timeline { margin: 2.5rem 0; position: relative; padding-left: 1.5rem; border-left: 2px solid var(--rule-strong); }
+.timeline { margin: 2.5rem 0; position: relative; padding-left: 1.5rem; }
+.timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--rule); }
 .timeline-item { margin-bottom: 1.75rem; position: relative; }
 .timeline-item:last-child { margin-bottom: 0; }
 .timeline-item::before { content: ''; position: absolute; left: -1.6rem; top: 0.45rem; width: 0.6rem; height: 0.6rem; background: var(--paper-dark); border: 2px solid var(--ink); border-radius: 50%; }
@@ -1912,7 +1912,7 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .critique-label { font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(var(--ink-rgb),0.5); display: block; margin-bottom: 0.75rem; }
 
 /* ── Theory note ── */
-.theory-note { background: var(--paper-mid); border-left: 3px solid var(--red); padding: 1.25rem 1.5rem; margin: 2.5rem 0; }
+.theory-note { background: var(--paper-mid); border-top: 2px solid var(--red); padding: 1.25rem 1.5rem; margin: 2.5rem 0; }
 .theory-note p { font-size: 0.9rem; line-height: 1.7; margin: 0 0 0.75rem; color: rgba(var(--ink-rgb),0.8); }
 .theory-note p:last-child { margin-bottom: 0; }
 .theory-note-label { font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 0.6rem; display: block; }
@@ -1962,8 +1962,8 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .receipt-detail a:hover { border-bottom-color: var(--red); }
 
 /* ── Scenario (TwoWaysToFixAPothole) ── */
-.scenario { margin: 2.5rem 0; border-left: 3px solid var(--paper-dark); padding: 1.75rem 1.75rem 1.75rem 2rem; background: var(--paper-mid); }
-.scenario.scenario-b { border-left-color: var(--red); background: rgba(var(--red-rgb),0.04); }
+.scenario { margin: 2.5rem 0; border-top: 2px solid var(--ink); padding: 1.75rem; background: var(--paper-mid); }
+.scenario.scenario-b { border-top-color: var(--red); background: rgba(var(--red-rgb),0.04); }
 .scenario.scenario-b .scenario-label { color: var(--red); }
 .scenario h3 { font-family: var(--display); font-size: 1.4rem; font-weight: 700; margin-bottom: 1rem; line-height: 1.2; }
 .scenario p { font-size: 0.95rem; line-height: 1.75; margin-bottom: 0.8rem; color: rgba(var(--ink-rgb),0.85); }
