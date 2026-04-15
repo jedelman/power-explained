@@ -216,7 +216,6 @@ h1 {
 /* ── Callout box ── */
 .callout {
   background: var(--paper-mid);
-  border-left: 3px solid var(--paper-dark);
   padding: 1.5rem 1.75rem;
   margin: 2.5rem 0;
 }
