@@ -33,24 +33,38 @@ export default function WhatTheyBurned() {
           <div dangerouslySetInnerHTML={{ __html: `<p>Between 1400 and 1700, somewhere between 40,000 and 60,000 people were executed as witches. Most were women. Most were poor. Many were healers, herbalists, midwives — women who knew things that made communities less dependent on the new market economy.</p>
 <p>This wasn't hysteria. It was policy.</p>
 <p>Silvia Federici argues that the witch hunts were a deliberate campaign of terror, carried out by the emerging capitalist class, aimed at destroying the knowledge systems and social structures that let communities meet their own needs outside the market.</p>
-<h2>What the hunts actually destroyed</h2>
-<p>Before capitalism, most production — food, medicine, care — happened within communities. Women knew plants. They helped each other birth children. They knew what to do when people got sick. They knew how to make things, preserve things, keep things going. This knowledge was commons — shared, taught, accessible.</p>
+<h2>What got destroyed</h2>
+<p>Before capitalism, most production — food, medicine, care — happened within communities. Women knew plants. They helped each other birth children. They knew what to do when people got sick. They knew how to preserve food, keep things going, survive seasons of scarcity. This knowledge was commons — shared, taught, accessible. A woman could learn from her mother, her grandmother, her neighbors. She could practice it freely.</p>
 <p>Capitalism needed to destroy that. It needed people to be dependent on the market for the things they used to produce for themselves. It needed to break the knowledge networks that made communities self-sufficient.</p>
-<p>The witch hunts did that work. They targeted the women who held the knowledge. They executed them, burned their knowledge with them, spread terror through women communities so the surviving women would be too afraid to practice healing, herbalism, midwifery.</p>
+<p>The witch hunts did that work. They targeted the women who held the knowledge. They executed them. They burned their knowledge with them. They spread terror through women's communities so the surviving women would be too afraid to practice healing, herbalism, midwifery — the work that made women economically essential to their communities.</p>
 <p>The hunts also did something else: they used violence against women to consolidate control over women's bodies and labor. A woman who was afraid of being accused of witchcraft was a woman who was contained. She couldn't move freely. She couldn't practice her knowledge. She couldn't refuse the roles assigned to her.</p>
 <div class="pull">
-The witch hunts weren't hysteria.<br/>They were <strong>enclosure</strong> —<br/>of knowledge, of women's bodies, of commons.
+The witch hunts were <strong>enclosure</strong>:<br/>of knowledge, of women's bodies,<br/>of the commons that made<br/>communities survive.
 </div>
-<h2>The aftermath still works</h2>
-<p>The hunts ended (mostly), but the mechanism they installed is still operating. The terror. The surveillance of women. The delegitimization of women's knowledge. The association between female autonomy and danger.</p>
-<p>Every woman knows the list: don't go out alone at night, don't anger your partner, don't be "too ambitious," don't know too much about your own body, don't refuse. The terror is diffuse now. It doesn't need executions to work — just the ongoing threat. Just the knowledge that women who step too far out of line pay a price.</p>
-<p>This is the historical foundation for the structures de Beauvoir identified, that Crenshaw analyzed. The terror was built, deliberately, centuries ago. And it's still holding the structure in place.</p>
+<h2>What that looks like now</h2>
+<p>Look at your neighborhood. Who knows how to heal with plants? Who knows how to preserve food, fix things, make things? Who has the knowledge that makes communities less dependent on buying things?</p>
+<p>That knowledge is scarce now. Rare. Treated as hobby or nostalgia instead of essential skill. Most people don't have it. Most are afraid to practice it even if they do — afraid of legal consequences (you can't sell herbal medicine without FDA approval), afraid of social judgment (alternative medicine is for hippies), afraid of failure (what if I get it wrong?).</p>
+<p>The terror has changed form. It doesn't need executions anymore. Just the diffuse knowledge that women who step too far out of line, who claim too much autonomy, who know too much about their own bodies — they pay a price. The surveillance of women's bodies through medicine, through law, through social control. The association between female knowledge and danger.</p>
+<p>And the market captures what it can use. Herbal medicine gets packaged and sold back to us as expensive supplements. Midwifery knowledge gets professionalized and gatekept. Folk knowledge becomes "wellness" — commodified, expensive, available only to people with money.</p>
+<h2>What Federici is building</h2>
+<p>Federici didn't just analyze the past. She's part of a contemporary movement of feminist anti-capitalist organizing that's trying to rebuild what was destroyed.</p>
+<p>Not recreating the past — that's both impossible and unnecessary. But recovering the principle: communities can meet their own needs. Knowledge can be shared and taught. Women's labor and women's knowledge can be valued outside the market. We can organize our lives around sustaining each other instead of buying our way through survival.</p>
+<p>This is happening now. Community gardens where people grow food and teach each other. Midwifery networks bringing birth back under community control. Herbal medicine circles. Food preservation workshops. Childcare collectives. Elder care networks. Skill-shares. All the quiet, unglamorous work of building structures where people depend on each other instead of the market.</p>
+<p>Most of it is led by women. Most of it is invisible to the broader economy. Most of it survives on volunteer labor and community commitment instead of funding.</p>
+<h2>Why this matters</h2>
+<p>The witch hunts weren't just about women. They were about breaking community capacity to survive outside capitalism. Four hundred years later, we're still living in the aftermath. Most of us don't know how to do the things that would make us less dependent on buying everything. Most of us are isolated — from each other, from knowledge, from the possibility of collective self-sufficiency.</p>
+<p>Rebuilding that isn't nostalgia. It's a path forward. Because the system is breaking down. Climate chaos, economic instability, the ongoing enclosure of everything — the old model of survival (buy what you need from the market) is becoming impossible for more and more people. The knowledge that was destroyed is the knowledge we need now.</p>
+<p>The women rebuilding it know that. The next piece shows what that actually looks like on the ground, in practice, and what it takes to defend it against a system designed to capture or destroy it.</p>
 ` }} />
         </div>
         
         
         
         <Footnotes notes={FOOTNOTES} />
+        <div className="nav-strip" style={{marginTop: "3rem"}}>
+          <a href="falling-through-the-gap.html">← Previous</a>
+          <a href="what-we-do-on-monday.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>
