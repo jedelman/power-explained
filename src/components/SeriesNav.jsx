@@ -9,42 +9,13 @@ import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Divider from '@mui/material/Divider'
-
-const SERIES = [
-  {
-    id: 'series-i',
-    label: 'Series I — The Basic Architecture',
-    pieces: [
-      { num: '01', title: "Why Your City Doesn't Work", url: '/why-your-city-doesnt-work' },
-      { num: '02', title: 'Your City Knows Less', url: '/your-city-knows-less' },
-      { num: '03', title: 'Who Gets Paid', url: '/who-gets-paid' },
-      { num: '04', title: 'Two Ways to Fix a Pothole', url: '/two-ways-to-fix-a-pothole' },
-      { num: '05', title: "Open Data Isn't Enough", url: '/open-data-isnt-enough' },
-      { num: '06', title: 'How Linux Became the Internet', url: '/how-linux-became-the-internet' },
-      { num: '07', title: "Mutual Aid Isn't Charity", url: '/mutual-aid-isnt-charity' },
-    ]
-  },
-  {
-    id: 'series-ii',
-    label: 'Series II — The Hidden Engine',
-    pieces: [
-      { num: '08', title: 'The Outside Capital Needs', url: '/the-outside-capital-needs' },
-      { num: '09', title: 'Who Pays for the Next Shift', url: '/who-pays-for-the-next-shift' },
-      { num: '10', title: 'The Other and the Outside', url: '/the-other-and-the-outside' },
-      { num: '11', title: 'Which Women', url: '/which-women' },
-      { num: '12', title: 'Falling Through the Gap', url: '/falling-through-the-gap' },
-      { num: '13', title: 'What They Burned', url: '/what-they-burned' },
-      { num: '14', title: 'What We Do on Monday', url: '/what-we-do-on-monday' },
-    ]
-  }
-]
+import { SERIES } from '../lib/articles'
 
 export default function SeriesNav() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
 
   useEffect(() => { setOpen(false) }, [location.pathname])
-
   useEffect(() => {
     const onKey = (e) => { if (e.key === 'Escape') setOpen(false) }
     window.addEventListener('keydown', onKey)
@@ -55,100 +26,72 @@ export default function SeriesNav() {
 
   return (
     <>
-      {/* Tab trigger — fixed left edge */}
-      <Box
-        role="button"
-        tabIndex={0}
+      <button
         onClick={() => setOpen(true)}
-        onKeyDown={(e) => e.key === 'Enter' && setOpen(true)}
         aria-label="Open series navigation"
         aria-expanded={open}
-        sx={{
+        style={{
           position: 'fixed',
           left: 0,
           top: '50%',
           transform: 'translateY(-50%)',
-          zIndex: 1200,
+          zIndex: 1300,
           cursor: 'pointer',
-          bgcolor: 'var(--ink)',
+          background: 'var(--ink)',
           color: 'var(--paper)',
-          px: 0.75,
-          py: 1.5,
-          borderRadius: '0 4px 4px 0',
-          border: '1px solid var(--rule-strong)',
+          border: '1px solid rgba(255,255,255,0.15)',
           borderLeft: 'none',
+          borderRadius: '0 4px 4px 0',
+          padding: '0.85rem 0.55rem',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 0.75,
-          opacity: 0.7,
+          gap: '0.5rem',
+          opacity: 0.75,
           transition: 'opacity 0.2s',
-          '&:hover, &:focus-visible': {
-            opacity: 1,
-            outline: '2px solid var(--red)',
-            outlineOffset: '2px',
-          },
         }}
+        onMouseEnter={e => e.currentTarget.style.opacity = 1}
+        onMouseLeave={e => e.currentTarget.style.opacity = 0.75}
       >
-        <Typography sx={{ fontSize: '1rem', lineHeight: 1, fontFamily: 'var(--mono)' }}>☰</Typography>
-        <Typography sx={{
+        <span style={{ fontSize: '1rem', lineHeight: 1 }}>☰</span>
+        <span style={{
           fontSize: '0.55rem',
-          letterSpacing: '0.12em',
+          letterSpacing: '0.1em',
           textTransform: 'uppercase',
+          fontFamily: 'var(--mono)',
           writingMode: 'vertical-rl',
           transform: 'rotate(180deg)',
-          fontFamily: 'var(--mono)',
           opacity: 0.7,
-        }}>
-          Contents
-        </Typography>
-      </Box>
+        }}>Contents</span>
+      </button>
 
       <Drawer
         anchor="left"
         open={open}
         onClose={() => setOpen(false)}
-        PaperProps={{ sx: { width: 300 } }}
+        PaperProps={{ sx: { width: 300, bgcolor: 'var(--ink)', color: 'var(--paper)' } }}
       >
-        {/* Header */}
         <Box sx={{
-          px: 2.5, pt: 2.5, pb: 1,
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          borderBottom: '1px solid var(--rule)',
+          px: 2.5, pt: 2.5, pb: 1.5,
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+          borderBottom: '1px solid rgba(255,255,255,0.1)',
         }}>
-          <Typography sx={{
-            fontFamily: 'var(--mono)',
-            fontSize: '0.6rem',
-            letterSpacing: '0.12em',
-            textTransform: 'uppercase',
-            color: 'rgba(var(--ink-rgb),0.45)',
-          }}>
+          <Typography sx={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', opacity: 0.4 }}>
             All Pieces
           </Typography>
-          <IconButton
-            onClick={() => setOpen(false)}
-            size="small"
-            aria-label="Close navigation"
-          >
+          <IconButton onClick={() => setOpen(false)} size="small" aria-label="Close" sx={{ color: 'rgba(255,255,255,0.5)' }}>
             ✕
           </IconButton>
         </Box>
 
-        {/* Series list */}
-        <Box sx={{ px: 1.5, py: 2, overflowY: 'auto' }}>
+        <Box sx={{ px: 1.5, py: 2, overflowY: 'auto', flex: 1 }}>
           {SERIES.map((s, i) => (
             <Box key={s.id} sx={{ mb: 2 }}>
-              {i > 0 && <Divider sx={{ mb: 2 }} />}
+              {i > 0 && <Divider sx={{ borderColor: 'rgba(255,255,255,0.08)', mb: 2 }} />}
               <Typography sx={{
-                fontFamily: 'var(--mono)',
-                fontSize: '0.6rem',
-                letterSpacing: '0.08em',
-                textTransform: 'uppercase',
-                color: 'rgba(var(--ink-rgb),0.4)',
-                px: 1,
-                mb: 0.75,
+                fontFamily: 'var(--mono)', fontSize: '0.6rem',
+                letterSpacing: '0.08em', textTransform: 'uppercase',
+                opacity: 0.4, px: 1, mb: 0.75,
               }}>
                 {s.label}
               </Typography>
@@ -162,25 +105,19 @@ export default function SeriesNav() {
                         href={piece.url}
                         selected={isCurrent}
                         aria-current={isCurrent ? 'page' : undefined}
-                        sx={{ px: 1, py: 0.5, gap: 1 }}
+                        sx={{
+                          px: 1, py: 0.5, gap: 1, borderRadius: 1,
+                          color: isCurrent ? 'var(--paper)' : 'rgba(255,255,255,0.65)',
+                          '&.Mui-selected': { bgcolor: 'rgba(255,255,255,0.08)' },
+                          '&:hover': { bgcolor: 'rgba(255,255,255,0.06)', color: 'var(--paper)' },
+                        }}
                       >
-                        <Typography sx={{
-                          fontFamily: 'var(--mono)',
-                          fontSize: '0.65rem',
-                          fontWeight: 700,
-                          color: 'rgba(var(--ink-rgb),0.3)',
-                          minWidth: '1.75rem',
-                          flexShrink: 0,
-                        }}>
+                        <Typography sx={{ fontFamily: 'var(--mono)', fontSize: '0.65rem', fontWeight: 700, opacity: 0.35, minWidth: '1.75rem', flexShrink: 0 }}>
                           {piece.num}
                         </Typography>
                         <ListItemText
                           primary={piece.title}
-                          primaryTypographyProps={{
-                            fontFamily: 'var(--body)',
-                            fontSize: '0.875rem',
-                            lineHeight: 1.4,
-                          }}
+                          primaryTypographyProps={{ fontFamily: 'var(--body)', fontSize: '0.875rem', lineHeight: 1.4, color: 'inherit' }}
                         />
                       </ListItemButton>
                     </ListItem>

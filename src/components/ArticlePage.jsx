@@ -1,16 +1,7 @@
 import Layout from './Layout'
 import { ArticleWrap, ArticleFooter } from './Article'
+import { getAdjacentArticles } from '../lib/articles'
 
-/**
- * ArticlePage — generic page component driven by src/content/*.md frontmatter.
- *
- * Frontmatter fields (all optional except slug/title):
- *   slug, title, description, seriesTag, h1
- *   dek, eyebrow, bgWord
- *   bio_dates, bio_text
- *   series_note
- *   hero_dark (bool, default true)
- */
 export default function ArticlePage({ meta, html }) {
   const {
     title       = '',
@@ -24,7 +15,10 @@ export default function ArticlePage({ meta, html }) {
     bio_text    = '',
     series_note = '',
     hero_dark   = true,
+    slug        = '',
   } = meta
+
+  const { prev, next } = getAdjacentArticles(`/${slug}`)
 
   const heroBg = hero_dark
     ? { background: 'var(--ink)', color: 'var(--paper)' }
@@ -32,16 +26,11 @@ export default function ArticlePage({ meta, html }) {
 
   return (
     <Layout title={title} description={description} seriesTag={seriesTag}>
-      <div
-        className="hero"
-        style={{
-          ...heroBg,
-          padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)',
-          position: 'relative',
-          overflow: 'hidden',
-        }}
-      >
-        {/* Background word watermark */}
+      <div className="hero" style={{
+        ...heroBg,
+        padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)',
+        position: 'relative', overflow: 'hidden',
+      }}>
         {bgWord && (
           <div style={{
             position: 'absolute', top: '50%', left: '50%',
@@ -50,11 +39,8 @@ export default function ArticlePage({ meta, html }) {
             fontSize: 'clamp(4rem,18vw,12rem)',
             letterSpacing: '-0.04em', opacity: 0.05,
             whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1,
-          }}>
-            {bgWord}
-          </div>
+          }}>{bgWord}</div>
         )}
-
         <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
           {eyebrow && <span className="hero-eyebrow">{eyebrow}</span>}
           <h1 dangerouslySetInnerHTML={{ __html: h1 }} />
@@ -72,6 +58,28 @@ export default function ArticlePage({ meta, html }) {
         <div className="body-text">
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
+
+        {(prev || next) && (
+          <nav className="article-prev-next" aria-label="Article navigation">
+            <div className="prev-next-inner">
+              {prev
+                ? <a href={prev.url} className="prev-next-link prev-link">
+                    <span className="prev-next-label">← Previous</span>
+                    <span className="prev-next-title">{prev.title}</span>
+                  </a>
+                : <span />
+              }
+              {next
+                ? <a href={next.url} className="prev-next-link next-link">
+                    <span className="prev-next-label">Next →</span>
+                    <span className="prev-next-title">{next.title}</span>
+                  </a>
+                : <span />
+              }
+            </div>
+          </nav>
+        )}
+
         {series_note && <ArticleFooter seriesNote={series_note} />}
       </ArticleWrap>
     </Layout>
