@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import SeriesNav from './SeriesNav'
 
 // ── Hero ──────────────────────────────────────────────────────────────────────
 export function Hero({ eyebrow, headline, dek, bio, bgWord, dark = true }) {
@@ -164,7 +165,12 @@ export function ArticleFooter({ seriesNote }) {
 
 // ── Article wrap ──────────────────────────────────────────────────────────────
 export function ArticleWrap({ children }) {
-  return <main className="article-wrap">{children}</main>
+  return (
+    <div className="article-with-nav">
+      <main className="article-wrap">{children}</main>
+      <SeriesNav />
+    </div>
+  )
 }
 
 // ── Inline link ───────────────────────────────────────────────────────────────
