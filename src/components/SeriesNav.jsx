@@ -1,19 +1,28 @@
 import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import Drawer from '@mui/material/Drawer'
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemButton from '@mui/material/ListItemButton'
+import ListItemText from '@mui/material/ListItemText'
+import IconButton from '@mui/material/IconButton'
+import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
+import Divider from '@mui/material/Divider'
 
-const series = [
+const SERIES = [
   {
     id: 'series-i',
     tag: 'Series I',
     title: 'The Basic Architecture',
     pieces: [
-      { num: '01', title: 'Why Your City Doesn\'t Work', url: '/why-your-city-doesnt-work' },
+      { num: '01', title: "Why Your City Doesn't Work", url: '/why-your-city-doesnt-work' },
       { num: '02', title: 'Your City Knows Less', url: '/your-city-knows-less' },
       { num: '03', title: 'Who Gets Paid', url: '/who-gets-paid' },
       { num: '04', title: 'Two Ways to Fix a Pothole', url: '/two-ways-to-fix-a-pothole' },
-      { num: '05', title: 'Open Data Isn\'t Enough', url: '/open-data-isnt-enough' },
+      { num: '05', title: "Open Data Isn't Enough", url: '/open-data-isnt-enough' },
       { num: '06', title: 'How Linux Became the Internet', url: '/how-linux-became-the-internet' },
-      { num: '07', title: 'Mutual Aid Isn\'t Charity', url: '/mutual-aid-isnt-charity' },
+      { num: '07', title: "Mutual Aid Isn't Charity", url: '/mutual-aid-isnt-charity' },
     ]
   },
   {
@@ -36,69 +45,121 @@ export default function SeriesNav() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
 
-  // Close on navigation
-  useEffect(() => {
-    setOpen(false)
-  }, [location.pathname])
-
-  // Close on Escape
-  useEffect(() => {
-    const handleKey = (e) => { if (e.key === 'Escape') setOpen(false) }
-    window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
-  }, [])
-
-  const currentPath = location.pathname
+  useEffect(() => { setOpen(false) }, [location.pathname])
 
   return (
     <>
-      {/* Toggle button — fixed left edge */}
-      <button
-        className={`series-nav-toggle ${open ? 'open' : ''}`}
-        onClick={() => setOpen(o => !o)}
-        aria-label={open ? 'Close series navigation' : 'Open series navigation'}
+      {/* Toggle tab — fixed left edge */}
+      <Box
+        onClick={() => setOpen(true)}
+        sx={{
+          position: 'fixed',
+          left: 0,
+          top: '50%',
+          transform: 'translateY(-50%)',
+          zIndex: 1200,
+          cursor: 'pointer',
+          bgcolor: 'rgba(20,18,14,0.92)',
+          color: 'rgba(240,235,220,0.8)',
+          px: 0.75,
+          py: 1.5,
+          borderRadius: '0 4px 4px 0',
+          border: '1px solid rgba(240,235,220,0.12)',
+          borderLeft: 'none',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 0.75,
+          '&:hover': { color: 'rgba(240,235,220,1)' },
+        }}
+        role="button"
+        aria-label="Open series navigation"
       >
-        <span className="toggle-icon">{open ? '✕' : '☰'}</span>
-        <span className="toggle-label">Contents</span>
-      </button>
+        <Typography sx={{ fontSize: '1rem', lineHeight: 1 }}>☰</Typography>
+        <Typography
+          sx={{
+            fontSize: '0.6rem',
+            letterSpacing: '0.12em',
+            textTransform: 'uppercase',
+            writingMode: 'vertical-rl',
+            transform: 'rotate(180deg)',
+            opacity: 0.6,
+          }}
+        >
+          Contents
+        </Typography>
+      </Box>
 
-      {/* Backdrop */}
-      {open && (
-        <div
-          className="series-nav-backdrop"
-          onClick={() => setOpen(false)}
-          aria-hidden="true"
-        />
-      )}
+      {/* MUI Drawer */}
+      <Drawer
+        anchor="left"
+        open={open}
+        onClose={() => setOpen(false)}
+        PaperProps={{
+          sx: {
+            width: 300,
+            bgcolor: 'rgba(16,13,10,0.97)',
+            color: 'rgba(240,235,220,0.85)',
+            borderRight: '1px solid rgba(240,235,220,0.1)',
+          }
+        }}
+      >
+        <Box sx={{ px: 2.5, pt: 2.5, pb: 1, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <Typography sx={{ fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase', opacity: 0.4 }}>
+            All Pieces
+          </Typography>
+          <IconButton
+            onClick={() => setOpen(false)}
+            size="small"
+            sx={{ color: 'rgba(240,235,220,0.5)', '&:hover': { color: 'rgba(240,235,220,1)' } }}
+            aria-label="Close navigation"
+          >
+            ✕
+          </IconButton>
+        </Box>
 
-      {/* Sidebar drawer */}
-      <nav className={`series-nav-drawer ${open ? 'open' : ''}`} aria-label="Series navigation">
-        <div className="series-nav-inner">
-          <p className="series-nav-heading">All Pieces</p>
-          {series.map(s => (
-            <div key={s.id} className="series-nav-section">
-              <p className="series-nav-tag">{s.tag} — {s.title}</p>
-              <ul className="series-nav-list">
-                {s.pieces.map(piece => {
-                  const isCurrent = currentPath === piece.url
-                  return (
-                    <li key={piece.url}>
-                      <a
-                        href={piece.url}
-                        className={`series-nav-link ${isCurrent ? 'current' : ''}`}
-                        aria-current={isCurrent ? 'page' : undefined}
+        {SERIES.map((s, si) => (
+          <Box key={s.id} sx={{ px: 2, pb: 1 }}>
+            {si > 0 && <Divider sx={{ borderColor: 'rgba(240,235,220,0.08)', mb: 2 }} />}
+            <Typography sx={{ fontSize: '0.65rem', letterSpacing: '0.08em', textTransform: 'uppercase', opacity: 0.4, mb: 1 }}>
+              {s.tag} — {s.title}
+            </Typography>
+            <List dense disablePadding>
+              {s.pieces.map(piece => {
+                const current = location.pathname === piece.url
+                return (
+                  <ListItem key={piece.url} disablePadding>
+                    <ListItemButton
+                      component="a"
+                      href={piece.url}
+                      selected={current}
+                      sx={{
+                        borderRadius: 1,
+                        px: 1,
+                        py: 0.5,
+                        color: current ? 'rgba(240,235,220,1)' : 'rgba(240,235,220,0.65)',
+                        '&.Mui-selected': { bgcolor: 'rgba(240,235,220,0.08)' },
+                        '&:hover': { bgcolor: 'rgba(240,235,220,0.06)', color: 'rgba(240,235,220,1)' },
+                      }}
+                    >
+                      <Typography
+                        component="span"
+                        sx={{ fontSize: '0.7rem', fontWeight: 700, opacity: 0.35, minWidth: '2rem', mr: 1 }}
                       >
-                        <span className="series-nav-num">{piece.num}</span>
-                        <span className="series-nav-title">{piece.title}</span>
-                      </a>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </nav>
+                        {piece.num}
+                      </Typography>
+                      <ListItemText
+                        primary={piece.title}
+                        primaryTypographyProps={{ fontSize: '0.85rem', lineHeight: 1.4 }}
+                      />
+                    </ListItemButton>
+                  </ListItem>
+                )
+              })}
+            </List>
+          </Box>
+        ))}
+      </Drawer>
     </>
   )
 }
