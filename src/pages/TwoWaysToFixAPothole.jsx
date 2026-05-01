@@ -68,6 +68,10 @@ In Way One, the city needs your <strong>complaint</strong>.<br/>In Way Two, the 
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="who-gets-paid.html">← Previous</a>
+          <a href="open-data-isnt-enough.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

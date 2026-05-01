@@ -70,6 +70,10 @@ The template produces the outcomes.<br/><strong>The players just run the templat
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <span></span>
+          <a href="your-city-knows-less.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

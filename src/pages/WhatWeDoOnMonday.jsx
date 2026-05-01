@@ -55,6 +55,10 @@ Abolition isn't the absence of safety.<br/>It's <strong>building safety</strong>
         <div className="nav-strip" style={{marginTop: "3rem"}}>
           <a href="what-they-burned.html">← Previous</a>
         </div>
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="what-they-burned.html">← Previous</a>
+          <span></span>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

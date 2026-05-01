@@ -50,6 +50,10 @@ Woman is the Other.<br/>But the Other is <strong>constructed</strong>,<br/>not n
           <a href="who-pays-for-the-next-shift.html">← Previous</a>
           <a href="which-women.html">Next →</a>
         </div>
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="who-pays-for-the-next-shift.html">← Previous</a>
+          <a href="which-women.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

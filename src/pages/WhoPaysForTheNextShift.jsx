@@ -55,6 +55,10 @@ Every profit calculation<br/><strong>assumes</strong> care work is free.<br/>Tha
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="the-outside-capital-needs.html">← Previous</a>
+          <a href="the-other-and-the-outside.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

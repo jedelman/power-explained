@@ -50,6 +50,10 @@ They chose.<br/>Deliberately.<br/>That's not a mistake. <strong>That's strategy.
           <a href="the-other-and-the-outside.html">← Previous</a>
           <a href="falling-through-the-gap.html">Next →</a>
         </div>
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="the-other-and-the-outside.html">← Previous</a>
+          <a href="falling-through-the-gap.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

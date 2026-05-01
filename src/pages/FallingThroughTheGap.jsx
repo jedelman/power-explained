@@ -48,6 +48,10 @@ The system can't see you<br/>when you're experiencing<br/><strong>multiple oppre
           <a href="which-women.html">← Previous</a>
           <a href="what-they-burned.html">Next →</a>
         </div>
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="which-women.html">← Previous</a>
+          <a href="what-they-burned.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

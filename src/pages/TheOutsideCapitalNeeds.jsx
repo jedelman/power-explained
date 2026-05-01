@@ -62,6 +62,10 @@ Capital can capture the commons.<br/>It <strong>cannot replace</strong> it.
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <span></span>
+          <a href="who-pays-for-the-next-shift.html">Next →</a>
+        </div>
         <Footnotes notes={FOOTNOTES} />
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>

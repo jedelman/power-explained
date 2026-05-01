@@ -59,6 +59,10 @@ Charity says: I am fortunate and you are not, so I will help.<br/><strong>Mutual
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="how-linux-became-the-internet.html">← Previous</a>
+          <span></span>
+        </div>
         <Footnotes notes={FOOTNOTES} />
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>

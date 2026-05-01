@@ -72,6 +72,10 @@ The system can't produce legitimacy,<br/>attention, or community on its own.<br/
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="your-city-knows-less.html">← Previous</a>
+          <a href="two-ways-to-fix-a-pothole.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

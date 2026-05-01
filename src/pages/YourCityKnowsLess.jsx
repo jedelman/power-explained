@@ -56,6 +56,10 @@ export default function YourCityKnowsLess() {
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="why-your-city-doesnt-work.html">← Previous</a>
+          <a href="who-gets-paid.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

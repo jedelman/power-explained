@@ -58,6 +58,10 @@ export default function HowLinuxBecameTheInternet() {
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="open-data-isnt-enough.html">← Previous</a>
+          <a href="mutual-aid-isnt-charity.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>

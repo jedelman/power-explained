@@ -60,6 +60,10 @@ The witch hunts were <strong>enclosure</strong>:<br/>of knowledge, of women's bo
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="falling-through-the-gap.html">← Previous</a>
+          <a href="what-we-do-on-monday.html">Next →</a>
+        </div>
         <Footnotes notes={FOOTNOTES} />
         <div className="nav-strip" style={{marginTop: "3rem"}}>
           <a href="falling-through-the-gap.html">← Previous</a>

@@ -56,6 +56,10 @@ You can know the system is broken.<br/>That doesn't make you able to fix it.<br/
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem", marginBottom: "2rem"}}>
+          <a href="two-ways-to-fix-a-pothole.html">← Previous</a>
+          <a href="how-linux-became-the-internet.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>
