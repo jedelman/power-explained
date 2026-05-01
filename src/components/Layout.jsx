@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import SiteHeader from './SiteHeader'
+import SeriesNav from './SeriesNav'
 
 const BASE_URL = 'https://power-explained.jason-edelman.org'
 
@@ -74,6 +75,7 @@ export default function Layout({ title, description, seriesTag, children }) {
   return (
     <>
       <SiteHeader seriesTag={seriesTag} />
+      <SeriesNav />
       {children}
     </>
   )
