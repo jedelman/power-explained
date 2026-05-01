@@ -24,28 +24,32 @@ export default function TheOtherAndTheOutside() {
         
         <div className="body-text">
           
-          <div dangerouslySetInnerHTML={{ __html: `<p>Women cook. Women care for children. Women mend, wash, clean. This seems natural. Obvious. How it's always been.</p>
-<p>It isn't natural. It's a story — one told so often it starts to seem like a fact.</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p>Women cook. Women care for children. Women mend, wash, clean. Women hold families together through emotion work nobody names. This seems natural. Obvious. How it's always been.</p>
+<p>It isn't. It's a story.</p>
+<p>Once you see the story, you can't unsee it. Every advertisement, every movie, every family you know — the story is being told and enforced. And because it's been told so long, so consistently, it starts to feel like biology. Like nature. Like truth.</p>
 <p>Simone de Beauvoir showed how the story works. In <em>The Second Sex</em>, she starts with a question: why is woman "the Other"?</p>
-<p>In every culture, every major system, man is the default. The subject. The one who acts, creates, decides. Woman is the other — defined not by what she is, but by what she isn't. Not male. Not the subject. Not the one.</p>
-<p>This isn't natural. It's constructed. Built into stories, into language, into the categories we use to make sense of the world. And once it's built in, it becomes invisible — so obvious that nobody sees it.</p>
-<h2>How the story contains you</h2>
-<p>The story says: woman's nature is to nurture, to support, to make others comfortable. This nature is inherent, biological, unchangeable. Because it's inherent, the labor it produces — cooking, childcare, emotion work — is also naturalized. It's not labor. It's just what women do.</p>
+<p>In every culture, every major system, man is the default. The subject. The one who acts, creates, decides. Woman is the other — defined not by what she is, but by what she isn't. Not male. Not the subject. Dependent. Supplementary. Secondary.</p>
+<h2>How the trap closes</h2>
+<p>The story says: woman's nature is to nurture, to support, to make others comfortable. This nature is inherent, biological, unchangeable. Because it's inherent, the labor it produces — cooking, childcare, emotion work — is also naturalized. It's not labor. It's just what women do. It's love.</p>
 <p>But if nurturing is a learned social role — if it's constructed — then it can be deconstructed. The labor can be made visible. The role can be refused. The story can be told differently.</p>
-<p>De Beauvoir wasn't just analyzing the story. She was showing that once you see how it works, you can't unsee it. Every cultural representation, every family arrangement, every job that pays less because women do it — you start to see the story underneath, being enforced.</p>
+<p>The trap is that the story is so complete, so reinforced, that most women don't even know it's a story. They think they ARE the story. They think wanting to nurture, to sacrifice, to support others' dreams instead of their own — they think this is who they are.</p>
+<p>That's what makes the story so effective. It doesn't feel like constraint. It feels like identity.</p>
 <div class="pull">
-Woman is the Other.<br/>But the Other is <strong>constructed</strong>,<br/>not natural.
+Woman is the Other.<br/>But the Other is <strong>constructed</strong>,<br/>not natural. And you can refuse it.
 </div>
-<h2>The version of "woman" everyone means</h2>
+<h2>But which woman?</h2>
 <p>There's a problem with talking about "woman" as if it's one thing. De Beauvoir was writing from a particular position — white, French, educated, able. And when people said "woman," they often meant women like her.</p>
-<p>But the story of woman-as-nurturer was applied selectively. A white woman's nurturing was considered natural, refined, spiritual. A Black woman's nurturing was considered servile, instinctual. An Indigenous woman's knowledge wasn't nurturing — it was primitive.</p>
-<p>The same role was constructed differently depending on race. And the political implications were completely different.</p>
-<p>The next piece in this series shows exactly how this worked — and why that distinction matters.</p>
+<p>But the story of woman-as-nurturer was applied selectively. A white woman's nurturing was considered natural, refined, spiritual. A Black woman's nurturing was considered servile, instinctual. An Indigenous woman's knowledge wasn't nurturing — it was primitive, subject to erasure and control.</p>
+<p>The same story was told differently depending on race. And the political implications were completely different. Which is what the next piece shows.</p>
 ` }} />
         </div>
         
         
         
+        <div className="nav-strip" style={{marginTop: "3rem"}}>
+          <a href="who-pays-for-the-next-shift.html">← Previous</a>
+          <a href="which-women.html">Next →</a>
+        </div>
         <ArticleFooter seriesNote="Part of a series on how power works and what people can do about it." />
       </ArticleWrap>
     </Layout>
