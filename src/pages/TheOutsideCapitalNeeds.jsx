@@ -30,38 +30,33 @@ export default function TheOutsideCapitalNeeds() {
         
         <div className="body-text">
           
-          <div dangerouslySetInnerHTML={{ __html: `<p>You work. You get paid. You buy things. The profit comes from the difference between what you're paid and what you produce. Simple.</p>
-<p>But there's a problem with the math.</p>
-<p>Workers only earn enough to buy part of what they produce. Capitalists spend some of their profits but reinvest the rest. So there's always more stuff being made than workers and capitalists combined can purchase. The system needs extra buyers. It needs an outside.</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p>The math is broken.</p>
+<p>Capitalism works by selling things for more than they cost to make. The profit is real. But who buys everything?</p>
+<p>Workers only earn enough to buy part of what they produce. Capitalists spend some of their profits but reinvest the rest. So there's always more stuff being made than workers and capitalists combined can purchase.</p>
+<p>The system needs extra buyers. It needs an outside.</p>
 <p>For two hundred years, that outside existed. Colonial territories. Peasant economies. Subsistence communities that hadn't been pulled into the market yet. Capital could expand into these spaces — sell goods, extract resources, put people to work — and keep the circuit running.</p>
 <p>But the outside is finite. As capitalism spreads globally, it keeps incorporating more of that outside into itself. When there's nothing left outside, the circuit breaks.</p>
-<p>This is what Rosa Luxemburg figured out in 1913. And it's the key to understanding why the system keeps looking for new frontiers to exploit.</p>
-<h2>What capital can't make</h2>
+<p>This is what Rosa Luxemburg figured out in 1913. And once you see the math, you can't unsee it. The system isn't a bug. It's not even capitalism gone wrong. The expansion, the extraction, the need to consume everything — that's the feature.</p>
+<h2>What the system actually needs</h2>
 <p>Luxemburg wasn't just describing an economics problem. She was identifying something every powerful system does: it depends on resources it cannot produce itself.</p>
 <p>Capital needs markets, labor, raw materials that come from communities, ecologies, relationships it didn't create and can't replicate. It can enclose them. Extract from them. Destroy them. It cannot build them from scratch.</p>
-<p>This is what we mean by the commons — the shared productive capacity that communities build together. The common language and knowledge people use without paying for it. The informal networks of care and support. The natural systems that provide clean water and breathable air. The social trust that makes institutions function at all.</p>
+<p>This is what we mean by the commons — the shared productive capacity that communities build together. Common language. Common knowledge. Informal networks of care and support. Natural systems that provide clean water and breathable air. Social trust that makes institutions function at all.</p>
 <p>None of this is produced by the market. All of it is required by the market to function.</p>
-<p>Capital can capture the commons. It can privatize water, commodify attention, patent seeds. But once captured and privatized, those things stop being what they were. A commons that's been enclosed isn't a commons anymore — it's an asset. And assets don't spontaneously regenerate. They depreciate.</p>
 <div class="pull">
 Capital can capture the commons.<br/>It <strong>cannot replace</strong> it.
 </div>
-<h2>Two kinds of change</h2>
+<h2>Two types of work</h2>
 <p>Luxemburg drew a line between two different kinds of change.</p>
-<p>One operates within the system's rules. Win elections. Pass laws. Negotiate better wages. These are real gains. But they work within the existing structure. They can improve conditions under capture. They cannot change the structure of capture itself. The system eventually routes around any reform.</p>
+<p>One operates within the system's rules. Win elections. Pass laws. Negotiate better wages. These are real gains. But they work within the existing structure. They can improve conditions under capture. They cannot change the structure of capture itself.</p>
 <p>The other kind is structural. It doesn't ask for better terms within the existing arrangement — it asks why this arrangement exists and whether a different one is possible. This is harder, riskier, slower. But it's the only kind of change that can address the underlying problem instead of managing its symptoms.</p>
-<p>You need to know which kind of work you're doing. Don't mistake one for the other.</p>
-<h2>How change actually moves</h2>
-<p>In 1906, Luxemburg published <em>The Mass Strike</em>, describing something she saw happening in the Russian revolution of 1905: change that coordinated without central command.</p>
-<p>Strikes spreading from factory to factory, city to city, without a party organization issuing instructions. Workers reading each other and responding. Distributed intelligence, operating faster than any hierarchy could manage.</p>
+<p>Most of your energy probably goes to the first kind. That doesn't make it wasted. But you should know which kind you're doing.</p>
+<h2>Change moves distributed</h2>
+<p>In 1906, Luxemburg published <em>The Mass Strike</em>, describing something she saw in the Russian revolution of 1905: change that coordinated without central command.</p>
+<p>Strikes spreading from factory to factory, city to city. No party organization issuing instructions. Workers reading each other and responding. Distributed intelligence, operating faster than any hierarchy could manage.</p>
 <p>This wasn't chaos. It was a different kind of order. And it was more effective than the centralized models that claimed to speak for the movement.</p>
-<p>She was describing what we now understand as a property of complex systems: distributed coordination often outperforms centralized planning when the environment is changing fast and the knowledge is local. City hall doesn't know your street better than you do. A party headquarters doesn't know your factory floor. The mass strike worked because it processed local knowledge locally, in real time.</p>
-<div class="callout">
-<span class="callout-label">The question she left open</span>
-<p>Luxemburg mapped the "outside" that capital requires as geographic — colonial territories, pre-capitalist economies. What she didn't fully ask was: who is the outside at home? What labor, within the capitalist center itself, is being used without being counted?</p>
-<p><a class="xl" href="who-pays-for-the-next-shift.html">The next article begins to answer that question.</a></p>
-</div>
-<p>Rosa Luxemburg was arrested in January 1919 and executed without trial by a right-wing paramilitary unit with the knowledge of the Social Democratic government she had spent years opposing. She was forty-seven years old. Her body was thrown in a canal.</p>
-<p>The ideas survived because they were right. The system does depend on what it cannot produce. The outside is real. And the question of what that outside is made of — who lives there, whose labor it runs on, whose knowledge it extracts — is the question the next generation of thinkers picked up and refused to let go.</p>
+<p>She was describing what we now understand about complex systems: distributed coordination often outperforms centralized planning when the knowledge is local and the environment is changing fast.</p>
+<p>But she left a question open. She mapped the "outside" that capital requires as geographic — colonial territories, pre-capitalist economies. What she didn't ask was: who is the outside at home? What labor, within the capitalist center itself, is being used without being counted?</p>
+<p>The next piece answers that question.</p>
 ` }} />
         </div>
         
