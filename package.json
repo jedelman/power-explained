@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp legacy/*.html dist/ && cp style.css dist/ && cp motion.js dist/ && node scripts/prerender.js && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js",
+    "build": "vite build && cp legacy/*.html dist/ && cp style.css dist/ && cp motion.js dist/ && node scripts/prerender.js && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js && node scripts/generate-llms-txt.mjs",
     "preview": "vite preview",
     "lint": "impeccable detect src/ style.css"
   },
@@ -13,6 +13,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^9.0.0",
+    "gray-matter": "^4.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.28.0"
