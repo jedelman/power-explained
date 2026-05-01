@@ -87,6 +87,106 @@ This prevents bootstrapping from scratch next session.
 
 ---
 
+## Prose style & emotional cadence (2025-05-01)
+
+**All pieces on this site should read like *thought*, not instruction.**
+
+The original prose was argument-shaped but emotionally flat — each claim followed by
+justification, all angles preempted, every transition signposted. It read like being
+lectured *about* power, not having power structures become visible.
+
+### The core principle: Emotional cadence matters as much as logical structure
+
+Good argument has **shape**. Movement. A recognizable sequence of gestures that doesn't
+announce itself.
+
+### The rewrite template (proven on ForNormies)
+
+Every piece should follow this emotional arc, not necessarily this *structure*:
+
+1. **Opening: Shock of Recognition** (short)
+   - Reader sees themselves in a specific moment, not an abstraction
+   - Creates immediate tension: "Yes that's my life. Wait, why is it like this?"
+   - Lead with *concrete*, not proof
+
+2. **Development: The Question Emerges** (medium)
+   - Reader *asks* before you answer
+   - Answer comes as discovery, not instruction
+   - Anchor abstractions to their experience
+
+3. **Turn: The Pattern Becomes Visible** (longer)
+   - This is where the concept (commons, enclosure, extraction) lands
+   - But concept comes *as the answer to their question*, not a definition
+   - "Then it stopped" is more powerful than "Starting in 1980, policy changed"
+
+4. **Evidence: "I See It Everywhere Now"** (medium)
+   - 2-3 cases that show the pattern *in motion*
+   - Not a list. A sequence with momentum.
+   - Kerala before defining "commons" — proof before definition
+
+5. **Reclamation: What Actually Works** (medium)
+   - Present tense. Operative. Real examples operating now.
+   - "Here's how people are doing it" not "Here's the solution framework"
+
+6. **Close: The Lever** (short)
+   - One clear thing they can *do*
+   - Not three. One.
+   - If they do that, the logic becomes clear to them
+
+### Tactical moves that create this shape
+
+**Remove explanatory scaffolding:**
+- Cut "Here's the short version"
+- Cut "What X actually means" headers — show it first
+- Cut "These aren't separate problems with separate causes" — let reader see it
+
+**Tighten every sentence:**
+- "has enormous power" → "has power"
+- "not whatever it costs to provide" → "not what it costs to provide"
+- Vary sentence length: short/medium/long/short (not the AI plateau of 14-18 words steady)
+
+**Show, don't explain:**
+- "Your rent went up $400" beats "Housing costs have risen"
+- Kerala example beats "definition of commons"
+- "Then it stopped" beats "Starting around 1980, policy shifted"
+
+**Let stakes do the work:**
+- Replace reassurance sentences ("It wasn't paradise — ") with material consequence
+- Remove defensive preemptions ("This is not a conspiracy")
+- Constrain instead ("Whether you're skeptical of government or capital...")
+
+**Trust the reader:**
+- Cut 30% of words without losing argument
+- Trust them to fill gaps
+- One good example beats six bullet points
+
+### Word count targets
+
+The ForNormies rewrite cut 34% of words (1,550 → 1,020) without losing substance.
+This is typical. Aim for 25-35% cuts on existing pieces through prose tightening alone
+(no structural change needed).
+
+### How to apply this in practice
+
+**For every section:**
+
+1. What is the reader's emotional state right now?
+2. What do they *need to discover* in this section (not: what do they need to know)?
+3. What's the shortest path to that discovery?
+4. Read it aloud. Does pacing match the emotional moment?
+
+**Anti-patterns to kill:**
+- Bullet lists of 4+ items (max 3, embedded in prose, or convert to narrative)
+- Definition sentences ("X means...")
+- "Here's..." transitions
+- Three ways / five reasons / six steps (pick 2-3, show them in motion)
+- Reassurance language (cut it)
+
+**See:** `ForNormies-DIFF.md` for detailed before/after on every section.
+Test case proved 2025-05-01. Ready to roll out.
+
+---
+
 ## Fact-checking protocol
 
 All specific claims in content produced for this repo require verification.

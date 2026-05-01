@@ -66,9 +66,37 @@ No piece that maps the transition concretely — how do you go from enclosure to
 in a specific domain? Cases gesture at it historically. Something more granular
 ("How a Housing Co-op Actually Gets Started" or similar) would complete the arc.
 
-### Punch-up revision pass
-All pieces once series is complete. Wikipedia-level link density, footnotes as
-annotation, fact-check protocol applied.
+### Prose Tightening Pass — Emotional Cadence Rewrite (2025-05-01 ACTIVE)
+
+**Status:** Template proven on ForNormies. Ready for rollout. 25-35% word cuts typical.
+
+All pieces need rewrite to have emotional shape — not just logical shape.
+See CLAUDE.md § "Prose style & emotional cadence" for methodology.
+
+**Priority tier 1 (entry points, highest impact):**
+- [x] ForNormies (DONE — template piece)
+- [ ] TheyWereRightAboutTheProblem (pattern recognition, feeds everything else)
+- [ ] EnvEnclosureAndExtinction (single case structure, should be cleaner)
+- [ ] TwoWaysToFixAPothole (already has narrative, just needs tightening)
+
+**Priority tier 2 (theory pieces, medium impact):**
+- [ ] Freire (definition-heavy, can lead with concrete)
+- [ ] Hardt-Negri (scaffolding language, multiple transitions to cut)
+- [ ] Deleuze-Guattari (abstract, needs anchoring to experience)
+
+**Priority tier 3 (case studies, lower impact):**
+- [ ] Kerala case study (already specific, light tightening)
+- [ ] Amazon Indigenous governance (already narrative)
+- [ ] Valencia irrigation (already concrete)
+
+**Process:**
+1. Read piece aloud. Identify flat sections.
+2. Rewrite following emotional arc (recognition → question → pattern → proof → action)
+3. Cut scaffolding, anchor abstractions, vary sentence length
+4. Target 25-35% word reduction
+5. Commit with "prose: emotional cadence rewrite" message
+
+---
 
 ### Analytics
 Tabled — worth developing the ethics and approach separately before implementing.
