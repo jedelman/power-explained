@@ -13,8 +13,7 @@ import Divider from '@mui/material/Divider'
 const SERIES = [
   {
     id: 'series-i',
-    tag: 'Series I',
-    title: 'The Basic Architecture',
+    label: 'Series I — The Basic Architecture',
     pieces: [
       { num: '01', title: "Why Your City Doesn't Work", url: '/why-your-city-doesnt-work' },
       { num: '02', title: 'Your City Knows Less', url: '/your-city-knows-less' },
@@ -27,8 +26,7 @@ const SERIES = [
   },
   {
     id: 'series-ii',
-    tag: 'Series II',
-    title: 'The Hidden Engine',
+    label: 'Series II — The Hidden Engine',
     pieces: [
       { num: '08', title: 'The Outside Capital Needs', url: '/the-outside-capital-needs' },
       { num: '09', title: 'Who Pays for the Next Shift', url: '/who-pays-for-the-next-shift' },
@@ -47,11 +45,24 @@ export default function SeriesNav() {
 
   useEffect(() => { setOpen(false) }, [location.pathname])
 
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') setOpen(false) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+
+  const current = location.pathname
+
   return (
     <>
-      {/* Toggle tab — fixed left edge */}
+      {/* Tab trigger — fixed left edge */}
       <Box
+        role="button"
+        tabIndex={0}
         onClick={() => setOpen(true)}
+        onKeyDown={(e) => e.key === 'Enter' && setOpen(true)}
+        aria-label="Open series navigation"
+        aria-expanded={open}
         sx={{
           position: 'fixed',
           left: 0,
@@ -59,106 +70,126 @@ export default function SeriesNav() {
           transform: 'translateY(-50%)',
           zIndex: 1200,
           cursor: 'pointer',
-          bgcolor: 'rgba(20,18,14,0.92)',
-          color: 'rgba(240,235,220,0.8)',
+          bgcolor: 'var(--ink)',
+          color: 'var(--paper)',
           px: 0.75,
           py: 1.5,
           borderRadius: '0 4px 4px 0',
-          border: '1px solid rgba(240,235,220,0.12)',
+          border: '1px solid var(--rule-strong)',
           borderLeft: 'none',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: 0.75,
-          '&:hover': { color: 'rgba(240,235,220,1)' },
+          opacity: 0.7,
+          transition: 'opacity 0.2s',
+          '&:hover, &:focus-visible': {
+            opacity: 1,
+            outline: '2px solid var(--red)',
+            outlineOffset: '2px',
+          },
         }}
-        role="button"
-        aria-label="Open series navigation"
       >
-        <Typography sx={{ fontSize: '1rem', lineHeight: 1 }}>☰</Typography>
-        <Typography
-          sx={{
-            fontSize: '0.6rem',
-            letterSpacing: '0.12em',
-            textTransform: 'uppercase',
-            writingMode: 'vertical-rl',
-            transform: 'rotate(180deg)',
-            opacity: 0.6,
-          }}
-        >
+        <Typography sx={{ fontSize: '1rem', lineHeight: 1, fontFamily: 'var(--mono)' }}>☰</Typography>
+        <Typography sx={{
+          fontSize: '0.55rem',
+          letterSpacing: '0.12em',
+          textTransform: 'uppercase',
+          writingMode: 'vertical-rl',
+          transform: 'rotate(180deg)',
+          fontFamily: 'var(--mono)',
+          opacity: 0.7,
+        }}>
           Contents
         </Typography>
       </Box>
 
-      {/* MUI Drawer */}
       <Drawer
         anchor="left"
         open={open}
         onClose={() => setOpen(false)}
-        PaperProps={{
-          sx: {
-            width: 300,
-            bgcolor: 'rgba(16,13,10,0.97)',
-            color: 'rgba(240,235,220,0.85)',
-            borderRight: '1px solid rgba(240,235,220,0.1)',
-          }
-        }}
+        PaperProps={{ sx: { width: 300 } }}
       >
-        <Box sx={{ px: 2.5, pt: 2.5, pb: 1, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <Typography sx={{ fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase', opacity: 0.4 }}>
+        {/* Header */}
+        <Box sx={{
+          px: 2.5, pt: 2.5, pb: 1,
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          borderBottom: '1px solid var(--rule)',
+        }}>
+          <Typography sx={{
+            fontFamily: 'var(--mono)',
+            fontSize: '0.6rem',
+            letterSpacing: '0.12em',
+            textTransform: 'uppercase',
+            color: 'rgba(var(--ink-rgb),0.45)',
+          }}>
             All Pieces
           </Typography>
           <IconButton
             onClick={() => setOpen(false)}
             size="small"
-            sx={{ color: 'rgba(240,235,220,0.5)', '&:hover': { color: 'rgba(240,235,220,1)' } }}
             aria-label="Close navigation"
           >
             ✕
           </IconButton>
         </Box>
 
-        {SERIES.map((s, si) => (
-          <Box key={s.id} sx={{ px: 2, pb: 1 }}>
-            {si > 0 && <Divider sx={{ borderColor: 'rgba(240,235,220,0.08)', mb: 2 }} />}
-            <Typography sx={{ fontSize: '0.65rem', letterSpacing: '0.08em', textTransform: 'uppercase', opacity: 0.4, mb: 1 }}>
-              {s.tag} — {s.title}
-            </Typography>
-            <List dense disablePadding>
-              {s.pieces.map(piece => {
-                const current = location.pathname === piece.url
-                return (
-                  <ListItem key={piece.url} disablePadding>
-                    <ListItemButton
-                      component="a"
-                      href={piece.url}
-                      selected={current}
-                      sx={{
-                        borderRadius: 1,
-                        px: 1,
-                        py: 0.5,
-                        color: current ? 'rgba(240,235,220,1)' : 'rgba(240,235,220,0.65)',
-                        '&.Mui-selected': { bgcolor: 'rgba(240,235,220,0.08)' },
-                        '&:hover': { bgcolor: 'rgba(240,235,220,0.06)', color: 'rgba(240,235,220,1)' },
-                      }}
-                    >
-                      <Typography
-                        component="span"
-                        sx={{ fontSize: '0.7rem', fontWeight: 700, opacity: 0.35, minWidth: '2rem', mr: 1 }}
+        {/* Series list */}
+        <Box sx={{ px: 1.5, py: 2, overflowY: 'auto' }}>
+          {SERIES.map((s, i) => (
+            <Box key={s.id} sx={{ mb: 2 }}>
+              {i > 0 && <Divider sx={{ mb: 2 }} />}
+              <Typography sx={{
+                fontFamily: 'var(--mono)',
+                fontSize: '0.6rem',
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                color: 'rgba(var(--ink-rgb),0.4)',
+                px: 1,
+                mb: 0.75,
+              }}>
+                {s.label}
+              </Typography>
+              <List dense disablePadding>
+                {s.pieces.map(piece => {
+                  const isCurrent = current === piece.url
+                  return (
+                    <ListItem key={piece.url} disablePadding>
+                      <ListItemButton
+                        component="a"
+                        href={piece.url}
+                        selected={isCurrent}
+                        aria-current={isCurrent ? 'page' : undefined}
+                        sx={{ px: 1, py: 0.5, gap: 1 }}
                       >
-                        {piece.num}
-                      </Typography>
-                      <ListItemText
-                        primary={piece.title}
-                        primaryTypographyProps={{ fontSize: '0.85rem', lineHeight: 1.4 }}
-                      />
-                    </ListItemButton>
-                  </ListItem>
-                )
-              })}
-            </List>
-          </Box>
-        ))}
+                        <Typography sx={{
+                          fontFamily: 'var(--mono)',
+                          fontSize: '0.65rem',
+                          fontWeight: 700,
+                          color: 'rgba(var(--ink-rgb),0.3)',
+                          minWidth: '1.75rem',
+                          flexShrink: 0,
+                        }}>
+                          {piece.num}
+                        </Typography>
+                        <ListItemText
+                          primary={piece.title}
+                          primaryTypographyProps={{
+                            fontFamily: 'var(--body)',
+                            fontSize: '0.875rem',
+                            lineHeight: 1.4,
+                          }}
+                        />
+                      </ListItemButton>
+                    </ListItem>
+                  )
+                })}
+              </List>
+            </Box>
+          ))}
+        </Box>
       </Drawer>
     </>
   )

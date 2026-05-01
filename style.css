@@ -3,8 +3,6 @@
    ───────────────────────────────────────────────────── */
 
 /* ── Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
-
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -425,5 +423,94 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 
   .series-nav {
     display: none;
+  }
+}
+
+/* ── Global focus styles ────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Header nav ─────────────────────────────────────────────────────────────── */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-link {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(var(--ink-rgb), 0.45);
+  text-decoration: none;
+  transition: color 0.15s;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-link:hover { color: var(--red); }
+
+/* ── Search button ───────────────────────────────────────────────────────────── */
+.search-btn {
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.55rem;
+  min-height: 44px;
+  color: rgba(var(--ink-rgb), 0.45);
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.search-btn:hover {
+  border-color: rgba(var(--ink-rgb), 0.4);
+  color: var(--ink);
+}
+
+.search-btn kbd {
+  opacity: 0.6;
+  font-size: 0.55rem;
+  font-family: var(--mono);
+}
+
+/* Hide kbd on narrow viewports */
+@media (max-width: 520px) {
+  .search-btn kbd { display: none; }
+  .series-tag { display: none; }
+  .header-nav { gap: 1rem; }
+}
+
+/* ── Motion toggle ───────────────────────────────────────────────────────────── */
+#motion-toggle {
+  min-height: 44px;
+  padding: 0.25rem 0.5rem;
+}
+
+/* pressed state */
+#motion-toggle[aria-pressed="true"] {
+  color: var(--red);
+  opacity: 0.75;
+}
+
+/* ── Responsive header ───────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  header .inner {
+    gap: 0.75rem;
+  }
+
+  .header-nav {
+    gap: 1rem;
   }
 }
