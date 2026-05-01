@@ -184,8 +184,8 @@ export default function Contents() {
 <span class="piece-label">What Was Destroyed</span>
 <h2 class="piece-title">What They Burned</h2>
 <div class="piece-body">
-<p>Between 1400 and 1700, tens of thousands of people — mostly women — were executed as witches. Silvia Federici argues this wasn't hysteria. It was policy.</p>
-<p>The women being killed knew things that made communities less dependent on the new economic order. That's why they had to go.</p>
+<p>Between 1400 and 1700, roughly 40,000 women were executed as witches. Silvia Federici shows this wasn't hysteria — it was deliberate enclosure of women's knowledge and women's bodies.</p>
+<p>That knowledge is still being rebuilt. Right now. By the people the system was designed to control.</p>
 <p><a class="read-link" href="what-they-burned.html">Read →</a></p>
 </div>
 </div>
@@ -196,8 +196,8 @@ export default function Contents() {
 <span class="piece-label">What We Build Now</span>
 <h2 class="piece-title">What We Do on Monday</h2>
 <div class="piece-body">
-<p>Prisons don't work. The evidence is clear. Mariame Kaba isn't just arguing against them — she's asking what we build instead. And she's already building it.</p>
-<p>The commons was destroyed on purpose. It can be rebuilt on purpose. Here's what that looks like.</p>
+<p>Abolition isn't the absence of safety. It's building the safety the system was never designed to provide. Mariame Kaba shows what that looks like in practice.</p>
+<p>The commons was destroyed on purpose. It can be rebuilt on purpose. Right now. By the people in your neighborhood.</p>
 <p><a class="read-link" href="what-we-do-on-monday.html">Read →</a></p>
 </div>
 </div>
