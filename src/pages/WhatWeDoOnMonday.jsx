@@ -24,41 +24,23 @@ export default function WhatWeDoOnMonday() {
         
         <div className="body-text">
           
-          <div dangerouslySetInnerHTML={{ __html: `<p>Mariame Kaba starts with a fact: the United States has the highest incarceration rate in the world. More people per capita behind bars than any other country, including authoritarian states that the U.S. government regularly criticizes for human rights abuses.</p>
-<p>The standard defense of this system is that it keeps people safe. Crime is addressed by removing the people who commit it from society, deterring others who might consider it, and — in principle — rehabilitating those who can be changed.</p>
-<p>Kaba's question is: does it work? By its own stated criteria, does it work?</p>
-<p>The evidence says no. The communities most intensively policed and incarcerated are not the safest. They're among the most dangerous. Mass incarceration has not produced the safety it promised. What it has produced is the warehousing of poverty, mental illness, addiction, and social abandonment — at enormous financial cost, with enormous harm to individuals, families, and communities — while leaving the conditions that produce harm entirely intact.</p>
-<h2>The false binary</h2>
-<p>When abolition is raised as a response to this evidence, the immediate objection is: but then what? Without prisons, what do you do about violence? What do you do about people who harm others?</p>
-<p>Kaba calls this a false binary. The question "prisons or chaos" assumes that the only alternative to the current system is no system at all — that without cages, there's nothing. But this is not how communities actually work. Communities have always managed harm, conflict, and danger. They did it before prisons existed. They do it now, in the everyday acts of care and accountability that don't involve the state.</p>
-<p>The abolitionist question isn't "how do we get rid of prisons" and then stop. It's: what would need to exist in their place? What infrastructure of mental health care, housing security, economic stability, and community accountability would address the conditions that produce harm? What processes — restorative justice, community accountability circles, <a class="xl" href="glossary.html#transformative-justice">transformative justice</a> practices — could address harm that has occurred in ways that don't replicate the harm?</p>
-<p>These aren't hypothetical. They exist. They work. They're not working at the scale that would allow us to close prisons tomorrow. But the question of how to build them to that scale is a practical question with practical answers — not a fantasy.</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p>Prisons don't work. The evidence is clear. Imprisonment doesn't make communities safer. It doesn't rehabilitate people. It doesn't deter crime. It just breaks people and their families and puts them back in the world worse than they went in.</p>
+<p>Everyone knows this. The system keeps doing it anyway.</p>
+<p>Mariame Kaba isn't just arguing against prisons. She's asking what we build instead. And she's already building it.</p>
+<h2>Abolition is not the absence of anything</h2>
+<p>When people hear "abolition," they think: no police, no consequences, chaos. That's what the system teaches you to think.</p>
+<p>Actual abolition is the opposite. It's the presence of everything a community needs so badly that the police become unnecessary. It's asking: why do we call police? Because someone is in crisis and we have nowhere else to send them. Because we don't know our neighbors. Because nobody is taking care of the people who need care. Because the system has made us dependent on force to hold things together.</p>
+<p>Abolition doesn't mean accepting harm. It means building structures where harm doesn't happen in the first place — and when it does, the community has the knowledge and the capacity to respond without cages and guns.</p>
+<p>This is not a theory. Mariame Kaba documents it happening. Communities building alternatives to police response. Neighborhoods where people know how to handle conflict without calling state violence. Mutual aid networks that catch people before they fall into crisis.</p>
+<h2>Building commons again</h2>
+<p>The series started with what capital requires from the outside and what it destroys to get it. It moved through how that destruction worked on women, on women of color, on women's knowledge and women's bodies.</p>
+<p>This final piece is about rebuilding. About taking the knowledge of what was destroyed and using it to build structures that can't be extracted from, can't be enclosed, can't be captured by the state.</p>
+<p>The commons was destroyed on purpose. It can be rebuilt on purpose. Here's what that looks like — not as abstract theory, but as the work people are doing right now.</p>
 <div class="pull">
-        The question isn't prisons or chaos.<br/>The question is: <strong>what do we build?</strong>
+Prisons can be abolished<br/>because <strong>other structures can replace them</strong>.<br/>The commons never stopped being built.
 </div>
-<h2>Centering the people most harmed</h2>
-<p>Kaba's organizing principle — center the people most harmed — is both ethical and practical.</p>
-<p>Ethical: the people most harmed by a system are the ones whose suffering is most directly at stake. Justice requires taking their experience as the starting point, not the edge case.</p>
-<p>Practical: the people most harmed by a system understand its mechanics most precisely. They can't afford not to. They know where the gaps are, where the interventions fail, where the official story diverges from what actually happens. Centering them in the design of alternatives is not charity — it's the epistemically correct approach to building something that works.</p>
-<p>This is a specific application of a broader principle this series has been building toward. Systems designed around the hardest cases — around the people most excluded, most harmed, most failed by existing arrangements — tend to work better for everyone than systems designed around the easy cases and extended awkwardly to everyone else. The people at the intersection that <a class="xl" href="falling-through-the-gap.html">Crenshaw</a> identified are not the exception to design around. They are the design constraint that produces better outcomes.</p>
-<h2>Prefigurative politics</h2>
-<p>"We do this 'til we free us" — the phrase Kaba uses for both her book and her organizing approach — is not a statement about a future revolutionary moment. It's a description of practice.</p>
-<p>Prefigurative politics means: you build the world you want to live in by living in it, now, in the interstices of the current one. You don't wait for the revolution to start practicing mutual aid. You don't wait for the state to sanction community accountability processes. You build them in the present, with the people you have, in the conditions you're in.</p>
-<p>This is what Luxemburg saw in the <a class="xl" href="the-outside-capital-needs.html">mass strike</a> — distributed coordination that didn't wait for instructions from above. This is what <a class="xl" href="who-pays-for-the-next-shift.html">Kollontai</a> wanted from the soviets before the party captured them. This is what <a class="xl" href="what-they-burned.html">Federici</a> describes when she looks at feminist commons experiments. The prefigurative move runs through the entire sequence: the alternative is not something you wait for. It is something you practice.</p>
-<div class="callout">
-<span class="callout-label">What this looks like concretely</span>
-<p>Community accountability circles that address harm without involving police. Mutual aid networks that provide material support and build relationships simultaneously. Transformative justice processes that ask not just what rule was broken but what conditions produced the harm and how those conditions can change. Organizations that practice horizontal decision-making rather than reproducing hierarchies internally.</p>
-<p>None of these are perfect. All of them are real. The work of scaling them — and connecting them to each other — is underway, in cities and towns across the country, largely invisible to mainstream political coverage.</p>
-</div>
-<h2>Closing the sequence</h2>
-<p>We started with <a class="xl" href="the-outside-capital-needs.html">Luxemburg's observation</a> that capital depends on a productive substrate it cannot produce itself — the commons. The entire series since has been tracing what that commons is made of.</p>
-<p>Kollontai: it's reproductive labor, performed primarily by women, without which the economy stops functioning.</p>
-<p><a class="xl" href="the-other-and-the-outside.html">De Beauvoir</a>: it's made invisible by an ideology that calls it natural, placing women in the domain of immanence so their labor seems like what they are rather than what they do. <a class="xl" href="gramsci.html">Gramsci called this hegemony</a> — when a social arrangement becomes so thoroughly naturalized that questioning it feels like questioning reality itself.</p>
-<p><a class="xl" href="which-women.html">Davis</a>: it's raced — the construction of "women" that obscures women of color, whose reproductive labor was and is extracted under different and often more brutal conditions.</p>
-<p>Crenshaw: the systems that capture this labor are multiply-determined, and liberation architectures built on single-axis categories reproduce the exclusions that allow partial co-optation.</p>
-<p>Federici: the destruction of the commons was a specific historical project — carried out through witch hunts, enclosures, and the reorganization of reproductive knowledge under state and market control — that created the conditions capitalism required. It can be undone.</p>
-<p>Kaba: undoing it is not a future project. It is a present practice. It is the work of building the infrastructure of care, accountability, and mutual support that makes communities less dependent on systems that harm them. It is the work of meeting in rooms, sharing resources, sitting with people in crisis, and building — slowly, together, "til we're free" — the world that should exist.</p>
-<p>That is the commons. That is the work. The system can capture it, but it cannot replace it. And the fact that it cannot replace it is where every alternative begins.</p>` }} />
+<p>This is the work of every piece in this series: showing what capital requires from outside itself, what it destroys to get it, and what's possible when we refuse to be the outside and start building toward the commons instead.</p>
+` }} />
         </div>
         
         
