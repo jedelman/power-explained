@@ -24,36 +24,32 @@ export default function WhoPaysForTheNextShift() {
         
         <div className="body-text">
           
-          <div dangerouslySetInnerHTML={{ __html: `<p>Someone cooks the food. Someone takes care of the kids. Someone sits with the sick person. Someone cleans. Someone mends the clothes. Someone recovers enough from yesterday's work to show up for today's.</p>
-<p>That someone is almost always a woman. And almost always, she's paid nothing.</p>
-<p>Alexandra Kollontai asked the question in 1909 that everyone else on the left was avoiding: what about the work that happens inside the house?</p>
-<p>In <em>The Social Basis of the Woman Question</em>, her argument was simple and radical. The cooking, cleaning, childcare, and care for the sick and elderly that women performed every day — this was not natural. It was not a private matter. It was labor. And capitalism ran on it, without paying for it.</p>
-<h2>What the system actually costs</h2>
-<p>Think about what it takes to produce a worker. Someone has to feed that person every day. Someone has to take care of them when they're sick. Someone has to raise their children so the next generation of workers can exist. Someone has to make the home a place where a person can recover enough from one day's work to show up for the next.</p>
-<p>In the capitalist economy of Kollontai's time — and in most economies since — that someone was almost always a woman. And almost always, she was paid nothing for it.</p>
-<p>This isn't incidental. It's structural. The entire profit calculation depends on reproductive labor being free. If every act of cooking, childcare, and elder care had to be purchased on the market at market rates, the profit margin on almost everything else would collapse. The system doesn't just ignore this labor. It depends on ignoring it.</p>
+          <div dangerouslySetInnerHTML={{ __html: `<p>Someone has to feed you every day. Someone has to take care of you when you're sick. Someone has to raise your children so the next generation of workers can exist. Someone has to make the home a place where you can recover enough from one day's work to show up for the next.</p>
+<p>In 1909, Alexandra Kollontai asked: what if we called that work what it is?</p>
+<p>Not natural. Not love. Not a woman's duty. Labor. Stolen labor.</p>
+<p>The cooking, cleaning, childcare, elder care that women performed every day — capitalism ran on it. Got it for free. And the profit margins on everything else depended on that theft.</p>
+<h2>The calculation that requires theft</h2>
+<p>Here's what the system needs to hide: if every act of cooking, childcare, and elder care had to be purchased on the market at market rates, the profit margin on almost everything else would collapse. The system doesn't just ignore this labor. It depends on ignoring it.</p>
+<p>It depends on calling it love instead of work. Natural instead of labor. A woman's nature instead of a stolen surplus.</p>
+<p>Once you see this, you see the theft everywhere. Every paid worker is only affordable because someone else — almost always a woman — is working for free to make that worker exist and function. The profit isn't just on the worker's labor. It's on the invisible labor that makes that worker possible.</p>
 <div class="pull">
-Every profit calculation <strong>assumes</strong><br/>that care work costs nothing.
+Every profit calculation<br/><strong>assumes</strong> care work is free.<br/>That's not natural. That's theft.
 </div>
-<h2>A different routing</h2>
-<p>Kollontai's solution wasn't simply to pay women for housework. It was to reorganize how reproductive labor gets done.</p>
-<p>Communal kitchens. Collective childcare. Public laundries. Shared care for the elderly and sick. Instead of each family unit performing reproductive labor in isolation — each household cooking separately, each mother raising children alone — you route that labor through collective institutions. You make it social, visible, shared, and compensated.</p>
-<p>This changes several things at once. It makes the labor countable and valued. It frees women from the double shift — the paid work and the unpaid work on top of it. And it changes the social architecture in ways that ripple outward. When people eat together, raise children together, and care for each other's elderly together, the relationships that result are different from the relationships produced by isolated nuclear family units. The isolated family is a production unit that reproduces the next generation of workers and generates consumption. The commune is something else — a form of life with different possibilities.</p>
-<h2>What happened inside the revolution</h2>
-<p>Kollontai was part of the Russian Revolution of 1917. She held senior positions in the early Soviet government — the only woman to do so. And she watched, from the inside, as the revolution consumed itself.</p>
-<p>In 1921, she published <em>The Workers' Opposition</em> — a report written at personal risk on what had gone wrong. The Bolshevik party had captured the revolution's routing architecture.</p>
-<p>Before 1917, revolutionary energy in Russia ran through the soviets — workers' councils that coordinated action at the local level. The soviets were distributed. They processed local knowledge locally. Different factories, different cities, different industries — each with its own council, connected to others but not commanded by any of them. This was exactly the kind of distributed coordination <a class="xl" href="the-outside-capital-needs.html">Luxemburg had described in the mass strike</a>.</p>
-<p>After 1917, the party progressively absorbed the soviets. Decisions that had been made at the factory level were routed through the party hierarchy. Local councils became administrative units executing central directives rather than decision-making bodies expressing local knowledge. The distributed intelligence of the revolutionary moment was replaced by centralized command.</p>
-<p>This is not just a story about political betrayal. It's a story about a structural tendency: centralized revolutionary organizations systematically destroy the distributed intelligence they claim to represent. They don't have to be corrupt or evil to do this. The architecture of centralization produces this outcome regardless of intention.</p>
-<div class="callout">
-<span class="callout-label">The pattern that keeps repeating</span>
-<p>Kollontai documents, from the inside and in real time, the mechanism by which revolutionary movements get captured by their own leadership. The soviets — distributed, self-organizing, locally intelligent — were the revolutionary form. The party that claimed to act in their name became the capture mechanism.</p>
-<p>Every subsequent attempt to route a revolutionary movement through a centralized party structure has repeated this pattern.</p>
-</div>
-<h2>The limit she couldn't solve alone</h2>
-<p>Kollontai's solution to reproductive labor assumed the state could be trusted to manage collective care without becoming a new form of domination. Communal kitchens run by the state are still run by the state. Collective childcare institutions are still institutions — with their own hierarchies, their own incentives, their own potential for becoming another capture mechanism.</p>
-<p>She knew the party had betrayed the revolution. She saw it happen. But she didn't fully theorize why state-managed care was structurally prone to the same failure. That question — how do you build collective reproductive infrastructure that doesn't get captured by the institutions that manage it — is one that <a class="xl" href="what-they-burned.html">later thinkers in this series will take further</a>.</p>
-<p>What Kollontai got right was the question itself — the most important thing. The work that produces workers is political. The labor that happens inside houses, outside ledgers, below the threshold of what the economy officially counts — that labor is where the system hides its dependence. Making it visible is the first step to changing anything real.</p>
+<h2>A different way to route it</h2>
+<p>Kollontai didn't ask for wages for housework. She asked for something bigger: reorganize how reproductive labor gets done.</p>
+<p>Communal kitchens. Collective childcare. Public laundries. Shared care for the elderly and sick. Route that labor through collective institutions. Make it social, visible, shared, and compensated.</p>
+<p>This changes several things at once. The labor becomes countable and valued. Women get freed from the double shift — the paid work and the unpaid work on top of it. And the social architecture changes in ways that ripple outward. When people eat together, raise children together, care for each other's elderly together, the relationships that result are different from what the isolated nuclear family produces.</p>
+<p>The isolated family is a production unit. The commune is a form of life with different possibilities.</p>
+<h2>What happened when she tried</h2>
+<p>Kollontai was part of the Russian Revolution of 1917. She held senior positions in the early Soviet government — the only woman to do so. She watched the revolution consume itself from the inside.</p>
+<p>Before 1917, revolutionary energy ran through the soviets — workers' councils that coordinated action at the local level. Distributed. Local. Intelligent.</p>
+<p>After 1917, the party progressively absorbed the soviets. Decisions that had been made at the factory level were routed through party hierarchy. Local councils became administrative units executing central directives instead of decision-making bodies expressing local knowledge.</p>
+<p>In 1921, Kollontai published <em>The Workers' Opposition</em> — a report written at personal risk on what had gone wrong. The distributed intelligence of the revolutionary moment was replaced by centralized command. The soviets were the revolutionary form. The party that claimed to act in their name became the capture mechanism.</p>
+<p>This is the template. Every subsequent attempt to route a revolutionary movement through a centralized party structure has repeated this pattern. Not because anyone was evil. Because the architecture of centralization produces this outcome regardless of intention.</p>
+<h2>The question she left</h2>
+<p>Kollontai saw the revolution betray itself. She documented the mechanism. But she didn't fully ask: what if the state-managed care she envisioned becomes another capture mechanism? What if communal kitchens run by the state are still run by the state?</p>
+<p>She knew the party could betray you. She lived it. She didn't fully theorize why state-managed anything was structurally prone to the same failure.</p>
+<p>That question — how do you build collective reproductive infrastructure that doesn't get captured — is one the next pieces in this series take further.</p>
 ` }} />
         </div>
         
