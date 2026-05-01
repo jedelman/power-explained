@@ -1,0 +1,68 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = []
+
+export default function CaseStudyZapatistas() {
+  return (
+    <Layout
+      title="The Zapatistas: Thirty Years of Running Their Own World — Power Explained"
+      description="They didn't take state power. They built an alternative to it — and it's still running. What happens when a community decides to govern itself, for real, for thirty years."
+      seriesTag="Case Studies — Power in Practice"
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          
+          <h1 dangerouslySetInnerHTML={{ __html: `Thirty Years of Running Their Own World` }} />
+          
+          
+        </div>
+      </div>
+
+      <ArticleWrap>
+        
+        <div className="body-text">
+          
+          <div dangerouslySetInnerHTML={{ __html: `<p>On January 1, 1994, the day the North American Free Trade Agreement went into effect, several thousand Indigenous Maya fighters occupied six cities in Chiapas, Mexico's southernmost state. They called themselves the Ejercito Zapatista de Liberación Nacional — the EZLN, the Zapatistas. They issued a declaration of war against the Mexican government and the global economic order NAFTA represented.</p>
+<p>The Mexican Army pushed them back in twelve days. The shooting war was over almost as soon as it started. And then something unusual happened: instead of dispersing, or negotiating for positions within the government, or being crushed, the Zapatistas went home and started building.</p>
+<p>Thirty years later, they're still building. In the territory they control — dozens of autonomous communities spread across the Chiapas highlands and jungle — there are schools that teach in both Spanish and Maya languages, clinics that provide healthcare to people who had none, water and sanitation systems built by community labor, and governance councils that rotate members regularly to prevent anyone from accumulating too much power. None of it was given to them by the state. All of it was built.</p>
+<h2>What they built and how it works</h2>
+<p>The governing structure is called the Juntas de Buen Gobierno — the Councils of Good Government. The name is a deliberate contrast with what they call the mal gobierno, the bad government of Mexico. The councils operate out of regional centers called caracoles — "snails" or "spirals" in Spanish, chosen because the spiral represents slow, patient, collective movement.</p>
+<p>The councils rotate. Serving on them isn't a career path — it's a community obligation, like jury duty. You serve, you return to ordinary life. The communities recall members who accumulate too much personal authority. When disputes arise between communities, the councils mediate. Their decisions carry weight not because the councils have armed enforcement (though the EZLN military exists as a separate structure) but because the councils have legitimacy — they're recognized by the communities as genuinely representative.</p>
+<p>The schools don't use the Mexican national curriculum. They use community-developed materials that incorporate Maya history, language, and knowledge systems that the national curriculum had erased. Teachers are community members who received training and return to teach. Healthcare is provided by community health workers — <em>promotores</em> — trained in a combination of conventional medicine and traditional knowledge.</p>
+<div class="pull">
+        They didn't wait for permission.<br/>They didn't wait for the state.<br/><strong>They governed.</strong>
+</div>
+<p>This is what autonomous governance actually looks like when it's functioning: not a utopia, not perfect, not free of conflict — but a community making real decisions about real things and living with the consequences. The Zapatista territories have problems. There are tensions between communities, tensions between the military and civilian structures, debates about how to handle outsiders, internal arguments about the pace of change. The point isn't that autonomy eliminates problems. The point is that it puts communities in charge of solving their own problems.</p>
+<h2>The framework angle: the common as jurisdiction</h2>
+<p>Most discussions of the commons focus on shared resources — forests, fisheries, water, knowledge. The Zapatista case extends the concept of the commons into <em>governance itself</em>. The territory they hold isn't just land — it's a jurisdiction. A space where different rules apply. Where decisions are made by the people who live with the consequences.</p>
+<p>This is the thing that most frightens states: not that people might share resources, but that they might govern themselves. Sharing a garden is tolerable. Refusing to recognize the state's authority over your community is existential. The Mexican government has tolerated the Zapatista experiment for thirty years — sometimes grudgingly, sometimes with active harassment, occasionally with outright violence — partly because it's contained, and partly because direct suppression would be a political catastrophe. But it has never recognized Zapatista autonomy legally. It has never stopped trying to reassert control through economic programs that create dependency, through paramilitaries that attack autonomous communities, through offering benefits that flow through government channels rather than community structures.</p>
+<p>The Zapatistas have responded by refusing integration. They famously rejected government aid programs — including cash transfer programs that would have benefited their communities materially — because accepting them meant accepting the government's authority to decide what their communities needed. The commons as jurisdiction requires defending the jurisdiction, not just the resources.</p>
+<div class="callout">
+<span class="callout-label">David Graeber was there</span>
+<p>The anthropologist David Graeber, whose work on debt and prefigurative politics shaped a generation of organizers, spent time with the Zapatistas in the late 1990s. He called the Zapatista communities the clearest example he'd seen of what he called "playing" — creating spaces where different social relations could be practiced, not as a rehearsal for some future revolution, but as the actual goal.</p>
+<p><a class="xl" href="graeber.html">Read the full piece on Graeber's theory →</a></p>
+<p>The Zapatista model was a direct influence on the organizing principles of the global justice movement, and later on Occupy. The idea that you build the thing you want, now, in the space you control — rather than waiting to seize power and then implement the thing — traces directly through the Zapatistas to much of what followed.</p>
+</div>
+<h2>What thirty years proves</h2>
+<p>The most important thing the Zapatistas demonstrate is durability. Most radical experiments collapse or get captured within years. The Paris Commune lasted 72 days. The soviets lasted a few years before the Bolsheviks hollowed them out. The Zapatista autonomous communities have been running for thirty years, through six Mexican presidents, through NAFTA and its replacement, through the rise of powerful drug cartels in Chiapas, through the death of Subcomandante Marcos (who reframed himself as one voice among many rather than leader), through COVID.</p>
+<p>They persist because the governance is genuinely distributed. There's no single leader to arrest, no headquarters to destroy, no central committee to capture. The structure is the redundancy. Each community is its own unit of self-governance. Attacking one doesn't kill the whole.</p>
+<p>They also persist because they've built real things that provide real value to people who had nothing. Healthcare. Education. Water. Justice. These aren't abstract political claims — they're services that the Mexican state failed to provide for decades, and that the autonomous communities now provide themselves. People defend what they built because they built it, and because losing it would mean losing something they actually use every day.</p>
+<p>This is the evidence that the common-as-jurisdiction works: not as an inspiring story, but as a thirty-year operational record.</p>
+<div class="action-box">
+<span class="action-label">What this means where you are</span>
+<h3>You don't need to go to Chiapas</h3>
+<p>The Zapatista question for your context is: what does your community actually govern? Not what it's permitted to decide by outside authorities — what does it actually control? Housing associations, community land trusts, tenant unions, neighborhood cooperatives, credit unions, mutual aid networks — these are all partial, limited, real exercises of autonomous governance. They're the commons-as-jurisdiction at the scale available to you right now.</p>
+<p>The Zapatista lesson isn't "occupy your city hall." It's: identify the space where you already have some control, extend it, deepen it, and refuse to give it up in exchange for dependence on an outside authority — even one offering cash. Especially one offering cash.</p>
+<p>Start with one thing your community decides for itself. Then defend that decision-making power as fiercely as you would defend a resource.</p>
+</div>` }} />
+        </div>
+        
+        
+        
+        <ArticleFooter seriesNote="Power Explained — Case Studies" />
+      </ArticleWrap>
+    </Layout>
+  )
+}

@@ -1,0 +1,129 @@
+import Layout from '../components/Layout'
+import { ContentsNav, Section, Invitation, NextReads, Footnotes, ArticleFooter, ArticleWrap } from '../components/Article'
+
+const SECTIONS = [
+  { id: 'wrong-question', label: 'The wrong question' },
+  { id: 'what-llms-are', label: 'What large language models actually are' },
+  { id: 'enclosure', label: 'The enclosure: five mechanisms' },
+  { id: 'baudrillard-test', label: 'The Baudrillard test: simulation or commons?' },
+  { id: 'composition', label: 'Composition: what the left should actually do' },
+]
+
+const FOOTNOTES = [
+  `The training data question is both legally contested and empirically underexplored. The lawsuits brought by the New York Times, book authors, and code repositories against OpenAI and Anthropic are the visible edge of a much larger structural question: the common intellectual output of human civilization — Wikipedia, Project Gutenberg, Common Crawl, GitHub, Reddit, decades of journalism and academic publishing — was ingested without compensation to produce systems whose value accrues almost entirely to the corporations that built them. This is, structurally, the same move as the enclosure of the physical commons. The legal question (is training on copyrighted material fair use?) is real but secondary to the structural question (regardless of legality, what does it mean that the common intellect has been converted into proprietary infrastructure?). <a href="#ref1">↩</a>`,
+  `The transformer architecture that underlies GPT-4, Claude, Gemini, and their successors is built on attention mechanisms that learn statistical patterns in sequences of tokens — which is, at a deep level, a Shannon-style information-theoretic approach to language. The model learns the probability distribution of what comes next given what came before. Meaning is treated as an emergent property of pattern. The consequences: fluency (statistical coherence) and meaning (referential accuracy, genuine understanding) come apart in ways the channel model would predict. <a href="#ref2">↩</a>`,
+  `The large language model is trained on the common intellect and produces outputs that feel like the voice of a knowledgeable, reasonable, centrist expert. This is not the organic intellectual of any subaltern group. It is the statistical average of the intellectual production of the groups overrepresented in the training data — educated, English-speaking, Global North — laundered through the appearance of universal competence. The model's "common sense" is hegemonic common sense. <a href="#ref3">↩</a>`,
+  `The for-agents module at power-explained.jason-edelman.org/for-agents.html is a practical experiment in commons-aligned AI: a corpus of seven pieces written specifically to be RAG-compatible, providing the power-explained framework to AI agents in a form optimized for machine reasoning. The experiment is preliminary but the logic is sound: if the common intellect is being ingested to train models, the question is whether the frameworks those models learn can be ones that foreground commons values rather than the hegemonic common sense of the training corpus. <a href="#ref4">↩</a>`,
+  `The political economy of AI alignment is rarely examined: who specifies the values, whose interests are represented in the specification, what institutional structures govern the process. The current answer is: the corporations building the models, governed by their investors, constrained by regulatory environments that lag the technology by years. The institutional structure of alignment produces a specific kind of aligned system: one aligned with the values of the institutions that built it, which are not identical to the values of the common intellect from which it was trained. The gap between those two is where the political economy of AI lives. <a href="#ref5">↩</a>`,
+]
+
+export default function AiAndTheLeft() {
+  return (
+    <Layout
+      title="AI and the Left: The Enclosure We're Building Together — Power Explained"
+      description="The left keeps asking whether AI will take our jobs. That is the wrong question. The right question is what it means that the enclosure of the common intellect is now running as software — and what it would take to compose a commons from it instead."
+      seriesTag="Enclosure of the Mind — Series VI"
+    >
+      <div className="hero" style={{ background: 'var(--ink)', color: 'var(--paper)', padding: 'clamp(3rem,8vw,6rem) var(--gutter) clamp(2.5rem,6vw,4.5rem)', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', fontFamily: 'var(--display)', fontSize: 'clamp(4rem,18vw,12rem)', fontWeight: 700, letterSpacing: '-0.04em', opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none', lineHeight: 1 }}>AI</div>
+        <div className="hero-inner" style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
+          <span className="hero-eyebrow"><a href="enclosure-of-the-mind.html" style={{color:"inherit",textDecoration:"underline",textDecorationColor:"rgba(255,255,255,0.3)"}}>Enclosure of the Mind — Series VI</a></span>
+          <h1>AI and the left:<br />the enclosure we're<br />building together</h1>
+          <p className="hero-dek">The left's dominant response to artificial intelligence is to ask whether it will take jobs. This is not the wrong concern — it is the wrong level of analysis. The deeper question, the one this series has been building toward for eight pieces, is structural: large language models are the most comprehensive enclosure of the common intellect ever attempted. Understanding that — and understanding what to do about it — requires the full toolkit the series has assembled.</p>
+          <div className="hero-bio">
+            <span className="bio-dates">2022 — present</span>
+            <p className="bio-line">The through-line from Reich's armored bodies to the large language model is not metaphorical. It is the same enclosure, applied at each successive layer of mind, until it reaches the layer where mind produces itself: language, thought, the articulation of experience into shareable form. That is what the LLM ingests. That is what it encloses. And that is where the question of composition — of building commons rather than accepting enclosure — becomes most urgent.</p>
+          </div>
+        </div>
+      </div>
+
+      <ArticleWrap>
+        <ContentsNav sections={SECTIONS} />
+        <div className="body-text">
+
+          <Section id="wrong-question" num="01" title="The wrong question">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The left's conversation about AI runs, with depressing regularity, through a familiar set of questions. Will it take jobs? Should it be regulated? Is it biased? Does it hallucinate? These are real questions. They are not the important ones. They are the questions you ask if you are treating AI as a new technology to be managed, rather than as the current phase of an enclosure that this series has been tracking across a century.</p>
+<p>The important question is structural: <strong>what does it mean that the enclosure of the common intellect is now running as software?</strong></p>
+<p>The series has traced the enclosure of the mind through eight historical moments — the armored body, hegemonic institutions, the channel model, the spectacle, the interior frontier, the consumer code, hybridization suppressed, the surveillance state. Each enclosure moved inward, from the physical commons to the institutional commons to the technical commons to the perceptual commons to consciousness itself. Large language models are the enclosure that completes this arc: they have ingested the common intellect — the full output of human thought, language, and knowledge as recorded in the training corpus — and returned it as proprietary infrastructure, optimized for the metrics that <a class="xl" href="shannon-simondon-1950s.html">Shannon made foundational</a> and that <a class="xl" href="baudrillard-consumer-society.html">the consumer code</a> extended into desire itself.</p>
+<p>This is not a claim that AI systems are uniquely evil or that the people building them have malevolent intentions. It is a claim about structure. The enclosure of the common intellect through LLMs follows the same logic as every prior enclosure: appropriate collectively produced resources, convert them into private infrastructure, return them to the public as a commodity at a price, on terms set by the encloser. The fact that the resource being enclosed is thought itself — the capacity to articulate, reason, and compose meaning — makes the stakes higher, not the mechanism different.</p>` }} />
+          </Section>
+
+          <Section id="what-llms-are" num="02" title="What large language models actually are">
+            <div dangerouslySetInnerHTML={{ __html: `<p>A large language model is, at the most basic level of description, a system trained to predict the next token in a sequence given all preceding tokens, optimized across an enormous corpus of human-generated text until the predictions are statistically indistinguishable from human language production at scale. The training corpus is the common intellect: Wikipedia, Project Gutenberg, Common Crawl, GitHub, Reddit, decades of journalism, scientific publishing, and the recorded output of human thought as it has been deposited in digital form.<sup><a href="#fn1" id="ref1">1</a></sup></p>
+<p>The training process does something specific to this material: it extracts the statistical regularities — the patterns of which tokens follow which other tokens, in which contexts, with what probability — and encodes them in the model's weights. The resulting system is extraordinarily good at producing text that is fluent, contextually appropriate, and statistically coherent. It is less reliably good at producing text that is true, or meaningful, in the sense of conveying genuine understanding rather than a statistically convincing simulation of understanding.</p>
+<p>This is not a bug. It is, as <a class="xl" href="shannon-simondon-1950s.html">Shannon would recognize</a>, a feature of the engineering problem the model was built to solve.<sup><a href="#fn2" id="ref2">2</a></sup> The model was not built to understand. It was built to produce fluent, contextually appropriate, statistically coherent text. The gap between fluency and understanding, between statistical coherence and meaning, is the gap that <a class="xl" href="baudrillard-consumer-society.html">Baudrillard's simulacrum</a> occupies: the model produces not knowledge but a simulation of knowledge that is, in many contexts, more convenient than the real thing.</p>
+<p>What the model's training has produced, in addition to the capacity for fluent text generation, is a <strong>statistical common sense</strong>. The model has ingested the common intellect and extracted from it the most statistically regular patterns of thought, expression, and association. When asked a question about politics, it produces the distribution of politically expressed positions that are statistically most common in its training data. This statistical common sense is not neutral. It is, as <a class="xl" href="gramsci-1930s.html">Gramsci would immediately recognize</a>, a specific class's common sense presented as universal competence — the perspectives of the groups overrepresented in the training data, laundered through the appearance of objective analysis.<sup><a href="#fn3" id="ref3">3</a></sup> The model's "reasonable centrist expert" voice is not a view from nowhere. It is the view from the particular demographic, institutional, and political location that produced the most text in the training corpus.</p>` }} />
+          </Section>
+
+          <Section id="enclosure" num="03" title="The enclosure: five mechanisms">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The enclosure of the common intellect through AI systems operates through five distinct mechanisms, each of which maps onto a layer of enclosure the series has already analyzed.</p>
+<p><strong>Appropriation without return.</strong> The training corpus was not purchased. The common intellect — the Wikipedia articles, the open-source code, the out-of-copyright books, the Reddit threads — was ingested under interpretations of fair use that the courts have not yet settled, and the value produced from it accrues almost entirely to the corporations that trained the models. This is the foundational enclosure: the appropriation of the commons into private ownership. The mechanism is exactly that of the original Enclosure Acts, translated from land to language.</p>
+<p><strong>The new channel monopoly.</strong> <a class="xl" href="shannon-simondon-1950s.html">Shannon's channel model</a> made channel ownership the foundational economic fact of communication. The LLM is the new channel: the infrastructure through which an increasing fraction of human cognitive work is mediated. The corporation that owns the model owns the channel through which thought flows — and the terms of that ownership (API pricing, usage policies, capability restrictions, content moderation) are set by the encloser, not by the community whose output trained the system.</p>
+<p><strong>The dissolution of the associated milieu.</strong> <a class="xl" href="shannon-simondon-1950s.html">Simondon's argument</a> is that genuine technical culture requires an associated milieu: a community of practice that co-produces the technical object, pushes it past its design parameters, maintains the knowledge of how it works and why. The LLM has no associated milieu in this sense: it is a black box, inaccessible to the community whose output trained it, developed in closed research environments. The 808 found its associated milieu in the dancefloors of Chicago. The LLM has systematically excluded its milieu from the development process.</p>
+<p><strong>Statistical hegemony at scale.</strong> <a class="xl" href="gramsci-1930s.html">Gramsci's hegemony</a> operates by constituting common sense through institutions of civil society — slowly, across generations. The LLM operates at the speed of inference: producing hegemonic common sense on demand, at scale, in every language, making the statistical common sense of the dominant class available as a substitute for thought in milliseconds.</p>
+<p><strong>The enclosure of the interior.</strong> <a class="xl" href="psychedelics-theory-of-mind.html">Bateson's ecology of mind</a> holds that mind is not inside the skull but in the pattern that connects organism and environment. When the primary environment for cognitive work is mediated by an LLM — when the first response to a question is to ask the model, when writing begins by prompting rather than by drafting, when the boundary between one's own thought and the model's output becomes unclear — the pattern that constitutes mind reorganizes around the model's statistical regularities.</p>
+<div class="pull">
+  The LLM does not steal<br/>
+  your thinking.<br/>
+  It offers to think for you —<br/>
+  in the statistical voice<br/>
+  of the <strong>dominant common sense</strong> —<br/>
+  and the offer is very convenient.
+</div>` }} />
+          </Section>
+
+          <Section id="baudrillard-test" num="04" title="The Baudrillard test: simulation or commons?">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The <a class="xl" href="baudrillard.html">Baudrillard test</a> asks of any political practice: is this a genuine practice, or is it a simulation of that practice? Does it produce actual social relations, actual mutual dependence, actual encounter with the other's particularity? Or does it produce images of the practice — metrics, outputs, legible evidence of engagement — without requiring the conditions that made the practice generative?</p>
+<p>Applied to AI, the test produces a precise diagnostic grid.</p>
+<p><strong>AI as simulation of solidarity:</strong> A left organization that uses an LLM to generate its political messaging, analyze its base's concerns, and draft its policy positions has not built political capacity. It has produced a simulation of political analysis that requires no organic intellectuals, no listening, no genuine encounter with the experience of the people it claims to represent. The output looks like political work. The associated milieu — the community of practice, the relationships of accountability, the knowledge embedded in specific people — is not built. When the subscription lapses, nothing remains.</p>
+<p><strong>AI as simulation of education:</strong> The student who uses an LLM to produce an essay has not developed the capacity to think through a problem — they have produced evidence of having done so. The distinction between genuine intellectual development and its statistical simulation is visible only in what the student can do without the model, and in whether the associated milieu — teachers, peers, practices — was built through the work.</p>
+<p><strong>AI as genuine tool of composition:</strong> A community organization that uses an LLM to translate its materials into twelve languages, so that it can conduct a meeting that actually includes twelve communities, has used the tool to extend the reach of genuine composition — the encounter of singularities that remains the work. The model is an instrument in a practice that it does not replace. The associated milieu is built through the meeting, not through the model.</p>
+<p><strong>AI as commons-aligned infrastructure:</strong> A project that trains models on commons-produced knowledge, releases the weights openly, documents the training data's provenance, and returns the value to the communities that produced the training material is building in the direction of the commons rather than the enclosure. It exists. It is underfunded, marginal, and technically inferior to the closed systems. This is the condition of every commons in the early phase of its existence — before the associated milieu is strong enough to make it competitive on the enclosure's own terms.<sup><a href="#fn4" id="ref4">4</a></sup></p>` }} />
+          </Section>
+
+          <Section id="composition" num="05" title="Composition: what the left should actually do">
+            <div dangerouslySetInnerHTML={{ __html: `<p>The alternative to enclosure is composition. Not the recovery of something lost — the commons cannot be restored to its pre-enclosure form — but the active composition of something new from the materials the enclosure has left scattered. <a class="xl" href="drug-war-deleuze-synthesizers.html">Hip hop composed a commons from the detritus of deindustrialization.</a> <a class="xl" href="case-study-zapatistas.html">The Zapatistas composed a commons from communities that colonialism had divided.</a> <a class="xl" href="how-linux-became-the-internet.html">Open-source software composed a commons from the fragments of proprietary development.</a></p>
+<p>The question for the left on AI is not "how do we resist it?" — the enclosure is already infrastructure. The question is: <strong>what can be composed from it, and on whose terms?</strong></p>
+<p>Five practical directions, derived directly from the series argument:</p>
+<p><strong>1. Build the associated milieu.</strong> Open-source model development — Mistral, LLaMA, the growing ecosystem of publicly available weights — creates the conditions for communities of practice that can push the technical objects past their design parameters and constitute them as tools of a specific project rather than black-box infrastructure. The 808 became the instrument of house music when it found its milieu. The open-source LLM is still looking for its dancefloor.</p>
+<p><strong>2. Produce the organic intellectual, not its simulation.</strong> The LLM's most convenient use is as a substitute for the relational work of actually listening to, being accountable to, and being changed by the people a movement claims to represent. Don't do that. Use it to handle the administrative and research tasks that steal time from that work — so more time remains for the work the model cannot do.</p>
+<p><strong>3. Govern the training data as commons.</strong> The legal battles over training data are the visible front of a governance question more fundamental than any individual lawsuit: who governs the corpus, on what terms, with what obligations of return to the communities that produced it? <a class="xl" href="ostrom.html">Ostrom's design principles</a> apply directly. They have never been applied to a digital commons of this scale.</p>
+<p><strong>4. Apply the Baudrillard test relentlessly.</strong> For every AI application: does this build genuine capacity or its simulation? Does it require and strengthen the associated milieu — the relationships, the accountability structures, the knowledge embedded in specific people — or does it substitute for them? The test is not "is this tool good or bad?" The test is "what does this tool do to the conditions under which genuine political practice is possible?"</p>
+<p><strong>5. Compose across the enclosure.</strong> AI tools — translation, synthesis, pattern recognition across large corpora, availability in low-resource contexts — can enable encounter between communities that the existing infrastructure of political life keeps separated. The LLM that makes a meeting possible in twelve languages simultaneously is a tool of composition. The same technology. Different milieu. Different politics.<sup><a href="#fn5" id="ref5">5</a></sup></p>
+<div class="callout">
+  <span class="callout-label">The series argument, applied to AI</span>
+  <p><strong>Reich:</strong> The LLM's confident smoothness is character armor — the armored body never uncertain, never accountable, never changed by genuine encounter. Be suspicious of the comfort.</p>
+  <p><strong>Gramsci:</strong> The model's common sense is hegemonic common sense. Use it for tasks where its biases don't determine the political question. Don't use it to think through the political question itself.</p>
+  <p><strong>Simondon:</strong> The milieu is the politics. An open-source model maintained by a community of practice is a different technical object than the same model as a corporate subscription service.</p>
+  <p><strong>Bateson:</strong> Mind is not inside the skull. When cognitive work is primarily mediated by an LLM, the pattern that constitutes mind reorganizes around the model's statistical regularities. That is the epistemological error, built into infrastructure.</p>
+  <p><strong>Hardt & Negri:</strong> Whether AI encloses or composes the common intellect is not determined by the technology. It is determined by governance, institutional structure, and the political choices of the communities that deploy it.</p>
+</div>
+<p>Freedom doesn't feel like you think it should because the enclosure runs all the way down — through the body, the institutions, the infrastructure, desire, consciousness, and now through the models that articulate thought before thought has finished forming. The exit is through the milieu: the community of practice that constitutes the technical object as composition rather than enclosure, the organic intellectual who uses the model to support genuine encounter rather than to simulate it, the dancefloor, the cypher, the village assembly, the workers' council.</p>
+<p>The common intellect has been enclosed. It is also inexhaustible. Every enclosure produces an excess that it cannot contain — <a class="xl" href="the-outside-capital-needs.html">the outside that capital requires and cannot produce</a>. The LLM was trained on the full output of human thought and still cannot think. The gap between the training corpus and the thinking is where the commons lives.</p>` }} />
+          </Section>
+
+        </div>
+
+        <Invitation
+          label="The series"
+          headline="Enclosure of the Mind — complete"
+          coda={``}
+        >
+          <p>Nine pieces. One argument: the enclosure of the mind has moved inward across a century — from the body to the institutions to the infrastructure to desire to consciousness to the common intellect itself. At each layer, the same sequence: appropriate, suppress, commodify. At each layer, the same counter: compose. The commons is not what existed before the enclosure. It is what gets built, from what the enclosure leaves behind, by communities that refuse to be managed. The question AI forces is whether that building can happen faster than the enclosure. The answer is not in the technology. It is in the milieu.</p>
+        </Invitation>
+
+        <NextReads items={[
+          { href: 'reich-character-armor', cat: 'Series VI', title: 'Reich: Why Freedom Doesn\'t Feel Like You Think It Should' },
+          { href: 'hardt-negri', cat: 'Thinker', title: 'Hardt & Negri: The Wealth That Capital Cannot Build' },
+          { href: 'for-agents', cat: 'Tools', title: 'For Agents: The Commons Framework, Machine-Optimized' },
+          { href: 'the-outside-capital-needs', cat: 'Theory', title: 'The Outside That Capital Needs' },
+          { href: 'ostrom', cat: 'Thinker', title: 'Ostrom: What the Tragedy of the Commons Got Wrong' },
+          { href: 'build-the-commons', cat: 'Tools', title: 'Build the Commons — How to Start One' },
+        ]} />
+
+        <Footnotes notes={FOOTNOTES} />
+        <ArticleFooter seriesNote="Enclosure of the Mind — Series VI — AI and the left — the enclosure of the common intellect — 2022–present" />
+      </ArticleWrap>
+    </Layout>
+  )
+}
