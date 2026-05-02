@@ -95,6 +95,11 @@ const pages = {
   'why-your-city-doesnt-work': { title: "Why Your City Doesn't Work — Power Explained", desc: "Cities seem to fail despite good intentions. That's not a coincidence. It's structural.", tag: "", eyebrow: "" },
   'your-city-knows-less': { title: "Your City Knows Less About Your Street Than You Do — Power Explained", desc: "The people making decisions about your neighborhood have less information than you do.", tag: "", eyebrow: "" },
   'your-city': { title: "Your City: A Power Analysis — Power Explained", desc: "Six questions that reveal who actually runs your city.", tag: "Tools", eyebrow: "" },
+  'series-i':   { title: "Series I — The Basic Architecture — Power Explained",     desc: "The basic argument. Hardin was wrong. The commons works. And enclosure requires constant enforcement.", tag: "Series" },
+  'series-ii':  { title: "Series II — The Hidden Engine — Power Explained",          desc: "What does capital extract? The reproductive labor that keeps workers alive. The knowledge and care reorganized into profit.", tag: "Series" },
+  'series-iii': { title: "Series III — The Left Got Half of It Right — Power Explained", desc: "If the system is broken, what do you do? Revolution from above has failed. What works is building from below.", tag: "Series" },
+  'series-iv':  { title: "Series IV — The World the Framework Missed — Power Explained", desc: "The first three frameworks missed something essential. Here's what they got wrong, and what the colonized already knew.", tag: "Series" },
+  'series-v':   { title: "Series V — Where We Go From Here — Power Explained",       desc: "The pattern is clear. Nothing was inevitable. Here's what's possible, what's already being built, and what you can do.", tag: "Series" },
 }
 
 export default pages
