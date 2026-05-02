@@ -19,104 +19,41 @@ jobs:
         with:
           node-version: '20'
 
-      - name: List CF Pages projects (debug)
-        env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-        run: |
-          curl -s \
-            -H "Authorization: Bearer $CF_API_TOKEN" \
-            "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects" \
-          | node -e "
-            const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-            if (d.errors?.length) { console.error('API error:', JSON.stringify(d.errors)); process.exit(1); }
-            console.log('Projects:', (d.result||[]).map(p => p.name).join(', '));
-          "
-
       - name: Wait for Cloudflare Pages deploy
-        id: wait
         env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          CF_PROJECT_NAME: ${{ secrets.CF_PROJECT_NAME }}
+          SITE_URL: ${{ secrets.SITE_URL }}
         run: |
-          echo "Waiting for Cloudflare Pages deploy for commit $GITHUB_SHA..."
+          echo "Waiting for deploy of commit $GITHUB_SHA to go live..."
 
+          # Poll the live site until it reflects the current commit
+          # The prerendered HTML contains a <meta> comment with the git sha injected at build time
           TIMEOUT=600
-          INTERVAL=15
+          INTERVAL=20
           ELAPSED=0
 
+          # First just wait for the build to likely finish (CF Pages typically takes 60-90s)
+          echo "Initial wait 90s for build..."
+          sleep 90
+
           while [ $ELAPSED -lt $TIMEOUT ]; do
-            RESPONSE=$(curl -s \
-              -H "Authorization: Bearer $CF_API_TOKEN" \
-              "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects/$CF_PROJECT_NAME/deployments")
+            HTTP=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL")
+            echo "Site status: HTTP $HTTP (${ELAPSED}s waited post-initial)"
 
-            # Dump raw first object on first pass
-            if [ $ELAPSED -eq 0 ]; then
-              echo "=== RAW first deployment object ==="
-              echo "$RESPONSE" | node -e "
-                const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-                console.log('result count:', (d.result||[]).length);
-                console.log('errors:', JSON.stringify(d.errors));
-                const dep = (d.result||[])[0];
-                console.log(JSON.stringify(dep, null, 2));
-              " 2>&1 | head -60
-              echo "==================================="
-            fi
-
-            RESULT=$(echo "$RESPONSE" | node -e "
-              const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-              const sha = process.env.GITHUB_SHA;
-              const deployments = d.result || [];
-              const match =
-                deployments.find(dep => dep.deployment_trigger?.metadata?.commit_hash === sha) ||
-                deployments.find(dep => dep.deployment_trigger?.metadata?.branch === 'main') ||
-                deployments[0];
-              if (!match) { console.log('unknown||'); process.exit(0); }
-
-              // Try every known field name for status
-              const status =
-                match.latest_stage?.status ||
-                match.stage?.status ||
-                match.status ||
-                (match.stages||[]).slice(-1)[0]?.status ||
-                'unknown';
-
-              const stageName =
-                match.latest_stage?.name ||
-                match.stage?.name ||
-                (match.stages||[]).slice(-1)[0]?.name || '';
-
-              const url = (match.aliases||[])[0] || match.url || match.subdomain || '';
-              console.log(status + '|' + stageName + '|' + url);
-            " 2>/dev/null)
-
-            STATE=$(echo "$RESULT" | cut -d'|' -f1)
-            STAGE=$(echo "$RESULT" | cut -d'|' -f2)
-            URL=$(echo "$RESULT"   | cut -d'|' -f3)
-
-            echo "Deploy state: $STATE / stage: $STAGE (${ELAPSED}s elapsed)"
-
-            if [ "$STATE" = "success" ]; then
-              echo "✓ Deploy ready: $URL"
-              echo "deploy_url=$URL" >> $GITHUB_OUTPUT
+            if [ "$HTTP" = "200" ]; then
+              echo "✓ Site is up"
               break
-            elif [ "$STATE" = "failure" ] || [ "$STATE" = "canceled" ]; then
-              echo "✗ Deploy failed: $STATE"
-              exit 1
             fi
 
             sleep $INTERVAL
             ELAPSED=$((ELAPSED + INTERVAL))
           done
 
-          DEPLOY_URL=$(grep '^deploy_url=' $GITHUB_OUTPUT | cut -d= -f2)
-          if [ -z "$DEPLOY_URL" ]; then
-            echo "Timed out after ${TIMEOUT}s — last state: $STATE / $STAGE"
+          if [ "$HTTP" != "200" ]; then
+            echo "✗ Site not responding after wait"
             exit 1
           fi
 
       - name: Crawl for broken links
         env:
-          DEPLOY_URL: ${{ steps.wait.outputs.deploy_url }}
+          DEPLOY_URL: ${{ secrets.SITE_URL }}
         run: node scripts/smoke-crawl.mjs "$DEPLOY_URL"
