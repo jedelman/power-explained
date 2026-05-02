@@ -1,4 +1,5 @@
 ---
+import { SERIES } from '../lib/articles.js'
 interface Props { seriesTag?: string }
 const { seriesTag } = Astro.props
 ---
@@ -6,10 +7,65 @@ const { seriesTag } = Astro.props
   <div class="inner">
     <a href="/" class="site-name">Power Explained</a>
     {seriesTag && <span class="series-tag">{seriesTag}</span>}
+
     <nav class="header-nav" aria-label="Site navigation">
-      <a href="/glossary" class="header-link">Glossary</a>
-      <a href="https://jedelman.github.io/commons-wire" target="_blank" rel="noopener" class="header-link">Wire</a>
+
+      <!-- Series dropdown -->
+      <div class="nav-dropdown">
+        <button class="header-link nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+          Series <span class="caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-dropdown-panel" role="menu">
+          {SERIES.map(s => (
+            <a href={`/series/${s.id}`} class="dropdown-item" role="menuitem">
+              {s.label}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Thinkers dropdown -->
+      <div class="nav-dropdown">
+        <button class="header-link nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+          Thinkers <span class="caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-dropdown-panel" role="menu">
+          <a href="/thinkers" class="dropdown-item dropdown-item--all" role="menuitem">All Thinkers →</a>
+          <hr class="dropdown-rule" />
+          {[
+            ['/ostrom',           'Elinor Ostrom'],
+            ['/gramsci',          'Antonio Gramsci'],
+            ['/foucault',         'Michel Foucault'],
+            ['/kropotkin',        'Peter Kropotkin'],
+            ['/graeber',          'David Graeber'],
+            ['/freire',           'Paulo Freire'],
+            ['/hardt-negri',      'Hardt & Negri'],
+            ['/deleuze-guattari', 'Deleuze & Guattari'],
+            ['/baudrillard',      'Jean Baudrillard'],
+            ['/godel',            'Kurt Gödel'],
+            ['/simondon',         'Gilbert Simondon'],
+          ].map(([href, label]) => (
+            <a href={href} class="dropdown-item" role="menuitem">{label}</a>
+          ))}
+        </div>
+      </div>
+
+      <!-- More dropdown -->
+      <div class="nav-dropdown">
+        <button class="header-link nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+          More <span class="caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="nav-dropdown-panel" role="menu">
+          <a href="/case-studies"  class="dropdown-item" role="menuitem">Case Studies</a>
+          <a href="/entry-points"  class="dropdown-item" role="menuitem">Where to Start</a>
+          <a href="/glossary"      class="dropdown-item" role="menuitem">Glossary</a>
+          <hr class="dropdown-rule" />
+          <a href="https://jedelman.github.io/commons-wire" target="_blank" rel="noopener" class="dropdown-item" role="menuitem">Wire ↗</a>
+        </div>
+      </div>
+
     </nav>
+
     <button class="search-btn" id="search-trigger" aria-label="Search site" title="Search (⌘K)">
       <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true">
         <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
@@ -22,6 +78,7 @@ const { seriesTag } = Astro.props
 </header>
 
 <script>
+  // Motion toggle
   const btn = document.getElementById('motion-toggle')
   const stored = localStorage.getItem('pe-reduced-motion') === '1'
   if (stored) {
@@ -36,6 +93,8 @@ const { seriesTag } = Astro.props
     document.documentElement.classList.toggle('no-motion', next)
     localStorage.setItem('pe-reduced-motion', next ? '1' : '0')
   })
+
+  // Search
   document.getElementById('search-trigger')?.addEventListener('click', () => {
     document.dispatchEvent(new CustomEvent('pe:search-open'))
   })
@@ -45,4 +104,102 @@ const { seriesTag } = Astro.props
       document.dispatchEvent(new CustomEvent('pe:search-open'))
     }
   })
+
+  // Dropdowns — click to open, click outside / Escape to close
+  document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+    const trigger = dropdown.querySelector('.nav-dropdown-trigger')
+    const panel   = dropdown.querySelector('.nav-dropdown-panel')
+
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation()
+      const isOpen = trigger.getAttribute('aria-expanded') === 'true'
+      // Close all others
+      document.querySelectorAll('.nav-dropdown-trigger').forEach(t => {
+        t.setAttribute('aria-expanded', 'false')
+        t.closest('.nav-dropdown').querySelector('.nav-dropdown-panel').removeAttribute('data-open')
+      })
+      if (!isOpen) {
+        trigger.setAttribute('aria-expanded', 'true')
+        panel.setAttribute('data-open', '')
+      }
+    })
+  })
+
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.nav-dropdown-trigger').forEach(t => {
+      t.setAttribute('aria-expanded', 'false')
+      t.closest('.nav-dropdown').querySelector('.nav-dropdown-panel').removeAttribute('data-open')
+    })
+  })
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.nav-dropdown-trigger').forEach(t => {
+        t.setAttribute('aria-expanded', 'false')
+        t.closest('.nav-dropdown').querySelector('.nav-dropdown-panel').removeAttribute('data-open')
+      })
+    }
+  })
 </script>
+
+<style>
+  /* ── Dropdown wrapper ────────────────────────────────────────────────────── */
+  .nav-dropdown { position: relative; }
+
+  .nav-dropdown-trigger {
+    background: none; border: none; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 0.25rem;
+  }
+  .caret {
+    font-size: 0.5rem; opacity: 0.5;
+    transition: transform 0.15s;
+  }
+  .nav-dropdown-trigger[aria-expanded="true"] .caret {
+    transform: rotate(180deg);
+  }
+
+  /* ── Dropdown panel ──────────────────────────────────────────────────────── */
+  .nav-dropdown-panel {
+    display: none;
+    position: absolute; top: calc(100% + 0.5rem); left: 0;
+    min-width: 220px;
+    background: var(--ink); color: var(--paper);
+    border: 1px solid rgba(var(--paper-rgb), 0.12);
+    border-radius: 2px;
+    padding: 0.4rem 0;
+    z-index: 200;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  }
+  .nav-dropdown-panel[data-open] { display: block; }
+
+  .dropdown-item {
+    display: block; padding: 0.45rem 1rem;
+    font-family: var(--mono); font-size: 0.65rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: rgba(var(--paper-rgb), 0.65);
+    text-decoration: none;
+    transition: color 0.12s, background 0.12s;
+    white-space: nowrap;
+  }
+  .dropdown-item:hover {
+    color: var(--paper);
+    background: rgba(var(--paper-rgb), 0.07);
+  }
+  .dropdown-item--all {
+    color: var(--red);
+    font-weight: 600;
+  }
+  .dropdown-item--all:hover { color: var(--red); }
+
+  .dropdown-rule {
+    border: none; border-top: 1px solid rgba(var(--paper-rgb), 0.1);
+    margin: 0.35rem 0;
+  }
+
+  /* ── Mobile: collapse to icons only ─────────────────────────────────────── */
+  @media (max-width: 640px) {
+    .header-nav { gap: 0.75rem; }
+    .nav-dropdown-trigger .caret { display: none; }
+    .nav-dropdown-panel { left: auto; right: 0; }
+  }
+</style>
