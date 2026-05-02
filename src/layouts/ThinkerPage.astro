@@ -1,0 +1,106 @@
+---
+import Base from './Base.astro'
+
+interface Props {
+  title: string
+  description?: string
+  eyebrow?: string
+  h1: string
+  dates?: string
+  bio: string
+  sections: { id: string; num: string; title: string }[]
+}
+
+const { title, description, eyebrow, h1, dates, bio, sections } = Astro.props
+---
+<Base title={title} description={description}>
+  <div class="hero thinker-hero">
+    <div class="hero-inner">
+      {eyebrow && <p class="thinker-eyebrow">{eyebrow}</p>}
+      <h1 set:html={h1} />
+      {(dates || bio) && (
+        <div class="thinker-bio">
+          {dates && <span class="bio-dates">{dates}</span>}
+          {bio  && <p class="bio-line">{bio}</p>}
+        </div>
+      )}
+      {sections.length > 0 && (
+        <nav class="thinker-contents">
+          {sections.map(s => (
+            <a href={`#${s.id}`} class="thinker-contents-link">
+              <span class="toc-num">{s.num}</span>
+              <span>{s.title}</span>
+            </a>
+          ))}
+        </nav>
+      )}
+    </div>
+  </div>
+  <div class="article-wrap">
+    <div class="body-text" data-pagefind-body>
+      <slot />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .thinker-hero { padding-bottom: clamp(2rem,5vw,4rem); }
+  .thinker-eyebrow {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 1.25rem;
+  }
+  .thinker-bio {
+    margin-top: 1.5rem; padding-top: 1.5rem;
+    border-top: 1px solid rgba(var(--paper-rgb),0.15);
+    max-width: 58ch;
+  }
+  .bio-dates {
+    font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em;
+    opacity: 0.55; display: block; margin-bottom: 0.5rem;
+  }
+  .bio-line { font-size: 0.95rem; line-height: 1.65; opacity: 0.85; }
+  .thinker-contents {
+    margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
+  }
+  .thinker-contents-link {
+    display: flex; gap: 0.5rem; align-items: baseline;
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.06em;
+    text-transform: uppercase; color: rgba(var(--paper-rgb),0.5);
+    text-decoration: none; transition: color 0.15s;
+  }
+  .thinker-contents-link:hover { color: var(--red); }
+  .toc-num { opacity: 0.5; }
+  .body-text .thinker-section { margin-top: 3.5rem; }
+  .body-text .section-head {
+    font-family: var(--display); font-size: clamp(1.2rem,2.5vw,1.5rem);
+    font-weight: 600; line-height: 1.25; margin-bottom: 1.25rem;
+    display: flex; gap: 0.75rem; align-items: baseline;
+  }
+  .body-text .section-num {
+    font-family: var(--mono); font-size: 0.65rem; font-weight: 700;
+    opacity: 0.3; flex-shrink: 0; padding-top: 0.2rem;
+  }
+  .body-text .versus {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+    margin: 2rem 0; padding: 1.5rem;
+    border: 1px solid var(--rule); border-radius: 2px;
+  }
+  .body-text .versus-side { padding: 0.5rem; }
+  .body-text .versus-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.5rem;
+  }
+  .body-text .callout {
+    background: var(--paper-mid); border-left: 2px solid var(--red);
+    padding: 1.25rem 1.5rem; margin: 2rem 0;
+  }
+  .body-text .callout-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.5; display: block; margin-bottom: 0.4rem;
+  }
+  .body-text .footnotes {
+    margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--rule);
+    font-size: 0.85rem; line-height: 1.6; opacity: 0.7;
+  }
+  .body-text .footnote { margin-bottom: 0.75rem; }
+</style>

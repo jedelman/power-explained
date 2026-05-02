@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro'
+---
+<Base
+  title="Case Studies — Power Explained"
+  description="Six places where people built something different — and what survived. Evidence, not inspiration porn."
+  seriesTag="Case Studies — Power in Practice"
+>
+  <div class="hero">
+    <div class="hero-inner">
+      <h1>It Has Been Done</h1>
+      <p class="hero-dek">Six places where people built something different — and what survived. These aren't inspiration porn. They're evidence.</p>
+    </div>
+  </div>
+  <div class="article-wrap">
+    <p>The standard objection to any alternative is that it's never been tried. That it can't work at scale. That human nature won't allow it. That eventually someone seizes control, or the whole thing collapses.</p>
+    <p>The case studies collected here test that objection against the actual record. Not theoretical models — real experiments, with real costs, in real conditions, many of them ongoing right now. Some succeeded completely. Some succeeded partially. Some failed in instructive ways. All of them clarify what's actually possible, and what it actually takes.</p>
+    <ol class="piece-list" style="margin-top:3rem">
+      <li>
+        <a href="/case-study-rojava" class="piece-item">
+          <span class="piece-num" style="font-family:var(--mono);font-size:.65rem;opacity:.35;padding-top:.2rem;min-width:5rem">Confederation</span>
+          <div class="piece-detail">
+            <span class="piece-title">Rojava</span>
+            <p class="piece-desc">Kurdistan, 2012–present. Democratic confederalism in an active war zone — women's councils, cooperative economics, self-defense.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/case-study-zapatistas" class="piece-item">
+          <span class="piece-num" style="font-family:var(--mono);font-size:.65rem;opacity:.35;padding-top:.2rem;min-width:5rem">Autonomy</span>
+          <div class="piece-detail">
+            <span class="piece-title">The Zapatistas</span>
+            <p class="piece-desc">Chiapas, 1994–present. Indigenous autonomous governance that outlasted every prediction of its imminent collapse.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/case-study-occupy" class="piece-item">
+          <span class="piece-num" style="font-family:var(--mono);font-size:.65rem;opacity:.35;padding-top:.2rem;min-width:5rem">Horizontalism</span>
+          <div class="piece-detail">
+            <span class="piece-title">Occupy</span>
+            <p class="piece-desc">Global, 2011. Failed to produce demands. Succeeded in producing a generation of organizers and a vocabulary that changed politics.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/case-study-chile" class="piece-item">
+          <span class="piece-num" style="font-family:var(--mono);font-size:.65rem;opacity:.35;padding-top:.2rem;min-width:5rem">Dual Power</span>
+          <div class="piece-detail">
+            <span class="piece-title">Chile 1970–73</span>
+            <p class="piece-desc">Allende's three years: what a democratic socialist government looks like, and what it takes to destroy one.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/case-study-india" class="piece-item">
+          <span class="piece-num" style="font-family:var(--mono);font-size:.65rem;opacity:.35;padding-top:.2rem;min-width:5rem">State + Movement</span>
+          <div class="piece-detail">
+            <span class="piece-title">Kerala</span>
+            <p class="piece-desc">The Indian state with the highest human development indicators, built through 70 years of mass left organizing.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/case-study-myanmar" class="piece-item">
+          <span class="piece-num" style="font-family:var(--mono);font-size:.65rem;opacity:.35;padding-top:.2rem;min-width:5rem">Resistance</span>
+          <div class="piece-detail">
+            <span class="piece-title">Myanmar Spring Revolutions</span>
+            <p class="piece-desc">2021–present. How a military coup produced the most sophisticated decentralized resistance movement in Southeast Asian history.</p>
+          </div>
+        </a>
+      </li>
+    </ol>
+  </div>
+</Base>
+
+<style>
+  .piece-list { list-style: none; padding: 0; }
+  .piece-item {
+    display: grid; grid-template-columns: 5.5rem 1fr; gap: 0 1.5rem;
+    padding: 1.5rem; align-items: start;
+    border: 1px solid var(--rule); border-radius: 2px;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, background 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .piece-item:hover { border-color: var(--red); background: var(--paper-mid); }
+  .piece-title {
+    display: block; font-family: var(--display);
+    font-size: clamp(1rem,2vw,1.2rem); font-weight: 600;
+    line-height: 1.3; margin-bottom: 0.4rem; color: var(--ink);
+  }
+  .piece-desc { font-family: var(--body); font-size: .95rem; line-height: 1.6; color: rgba(var(--ink-rgb),.7); }
+</style>
