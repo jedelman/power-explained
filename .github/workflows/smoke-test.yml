@@ -31,36 +31,69 @@ jobs:
           TIMEOUT=600
           INTERVAL=15
           ELAPSED=0
-          DEPLOY_URL=""
 
           while [ $ELAPSED -lt $TIMEOUT ]; do
             RESPONSE=$(curl -s \
               -H "Authorization: Bearer $CF_API_TOKEN" \
               "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects/$CF_PROJECT_NAME/deployments?per_page=5")
 
-            STATUS=$(echo "$RESPONSE" | node -e "
+            # Log the shape on first iteration for debugging
+            if [ $ELAPSED -eq 0 ]; then
+              echo "=== CF API response shape (first deploy) ==="
+              echo "$RESPONSE" | node -e "
+                const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
+                const dep = (d.result || [])[0] || {};
+                console.log('keys:', Object.keys(dep).join(', '));
+                console.log('stages:', JSON.stringify(dep.stages?.map(s => ({name:s.name,status:s.status})) || []));
+                console.log('latest_stage:', JSON.stringify(dep.latest_stage));
+                console.log('url:', dep.url);
+                console.log('aliases:', dep.aliases);
+                console.log('commit:', dep.deployment_trigger?.metadata?.commit_hash?.slice(0,8));
+              " 2>&1 || echo "parse error"
+              echo "============================================="
+            fi
+
+            RESULT=$(echo "$RESPONSE" | node -e "
               const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-              const deployments = d.result || [];
               const sha = process.env.GITHUB_SHA;
-              const match = deployments.find(dep =>
-                dep.deployment_trigger?.metadata?.commit_hash === sha
-              ) || deployments[0];
-              const state = match?.latest_stage?.status || match?.stages?.slice(-1)[0]?.status || 'unknown';
-              const url = match?.url || '';
-              console.log(state + '|' + url);
-            ")
+              const deployments = d.result || [];
 
-            STATE=$(echo "$STATUS" | cut -d'|' -f1)
-            URL=$(echo "$STATUS" | cut -d'|' -f2)
+              // Match by commit hash first, fall back to most recent on main branch, then any
+              const match =
+                deployments.find(dep => dep.deployment_trigger?.metadata?.commit_hash === sha) ||
+                deployments.find(dep => dep.deployment_trigger?.metadata?.branch === 'main') ||
+                deployments[0];
 
-            echo "Deploy state: $STATE (${ELAPSED}s elapsed)"
+              if (!match) { console.log('unknown|'); process.exit(0); }
+
+              // CF Pages stages: queued → initialize → clone_repo → build → deploy → success/failure
+              // latest_stage is an object {name, status} on some versions; stages is an array
+              const stages = match.stages || [];
+              const lastStage = stages[stages.length - 1];
+              const latestStage = match.latest_stage || lastStage || {};
+
+              // 'active' means still running; 'success'/'failure'/'canceled' are terminal
+              const status = latestStage.status || latestStage.name || 'unknown';
+              const name = latestStage.name || '';
+
+              // URL: prefer production alias, fall back to deploy URL
+              const url = (match.aliases || [])[0] || match.url || '';
+
+              console.log(status + '|' + name + '|' + url);
+            " 2>/dev/null)
+
+            STATE=$(echo "$RESULT" | cut -d'|' -f1)
+            STAGE=$(echo "$RESULT" | cut -d'|' -f2)
+            URL=$(echo "$RESULT"   | cut -d'|' -f3)
+
+            echo "Deploy state: $STATE / stage: $STAGE (${ELAPSED}s elapsed)"
 
             if [ "$STATE" = "success" ]; then
-              echo "Deploy ready: $URL"
+              echo "✓ Deploy ready: $URL"
               echo "deploy_url=$URL" >> $GITHUB_OUTPUT
               break
             elif [ "$STATE" = "failure" ] || [ "$STATE" = "canceled" ]; then
-              echo "Deploy failed with state: $STATE"
+              echo "✗ Deploy failed: $STATE"
               exit 1
             fi
 
@@ -68,8 +101,9 @@ jobs:
             ELAPSED=$((ELAPSED + INTERVAL))
           done
 
-          if [ -z "$(echo $GITHUB_OUTPUT | grep deploy_url)" ] && [ "$STATE" != "success" ]; then
-            echo "Timed out waiting for deploy after ${TIMEOUT}s"
+          DEPLOY_URL=$(grep deploy_url $GITHUB_OUTPUT | cut -d= -f2)
+          if [ -z "$DEPLOY_URL" ]; then
+            echo "Timed out after ${TIMEOUT}s — last state: $STATE / $STAGE"
             exit 1
           fi
 
