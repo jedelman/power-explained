@@ -1,7 +1,7 @@
 ---
 slug: the-outside-capital-needs
 title: "The Outside Capital Needs — Power Explained"
-description: "Rosa Luxemburg figured out that capitalism can't feed itself. To keep growing, it has to take from people and places outside the market. When there's nothing left to take, it eats itself."
+description: "[Rosa Luxemburg](the-outside-capital-needs) figured out that capitalism can't feed itself. To keep growing, it has to take from people and places outside the market. When there's nothing left to take, it eats itself."
 seriesTag: "The Hidden Engine — Series II"
 h1: "The Outside Capital Needs"
 ---

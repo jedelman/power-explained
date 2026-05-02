@@ -5,33 +5,42 @@ description: "The housing crisis is not a housing problem. It is a land problem.
 seriesTag: "Where We Go From Here — Series V"
 h1: "Land Is the Foundation"
 ---
+All wealth comes from land. All labor happens on land. All life depends on land. Yet in the capitalist system, land is treated as a commodity — something to be bought and sold to the highest bidder, extracted until it's exhausted, abandoned when it's no longer profitable.
 
-All wealth comes from land. All labor happens on land. All life depends on land.
+That is not necessary. Land can be held in trust. Governed collectively. Managed for the benefit of the people who live on it, the generations that will come after, and the non-human life that depends on it.
 
-In the capitalist system, land is treated as a commodity — something to be bought and sold to the highest bidder, extracted until it's exhausted, abandoned when it's no longer profitable. The relationship between people and land — which in traditional commons was about responsibility, stewardship, and long-term reciprocity — is replaced by the calculation of maximum extraction and return.
+## What enclosure of land actually meant
 
-We are still living in the enclosure of the English commons. The legal instruments that drove peasants off fields their families had worked for generations are the same instruments, in updated form, that drive families out of neighborhoods where they have lived for decades. The dynamic is identical: land as commodity, value flowing to owners, those who work or live on the land as a cost to be minimized.
+The enclosure of common lands in England was not about efficiency. It was about control. Converting the peasantry into a landless working class that had to sell their labor to survive. Converting land into a speculation asset, breaking the relationship between people and the territory they depended on.
 
-## The cost of treating land as commodity
+We are still living in that system. Land that could feed a community is held by investors who have never set foot on it. Housing is speculative. Farming is controlled by corporations. Indigenous territories are stolen systematically. The relationship between people and land — which in traditional commons was about responsibility and long-term stewardship — is replaced by the calculation of maximum extraction and profit.
 
-Housing is unaffordable in every city where it is treated as an investment vehicle rather than as shelter. When land is a financial asset, housing prices rise until the people who make the city function — the teachers, the nurses, the restaurant workers, the sanitation workers — can no longer afford to live there. This is not a market failure. It is a market success, from the perspective of landowners. The market for housing-as-investment functions precisely as designed.
+This is destroying both people and ecosystems. Communities displaced for dams. Forests clearcut for short-term profit. Soil depleted. Water polluted. Species extinct. When land is governed as a commodity, the long-term costs of use are externalized onto future generations, onto ecosystems, onto communities that lack the power to refuse.
 
-Farming land controlled by corporations is depleted in a generation. The quarterly return logic that governs corporate agriculture cannot maintain the long-term soil health that sustainable farming requires. Industrial agriculture can produce enormous yields in the short term and depleted, chemically-dependent land in the medium term. Indigenous farming practices that maintained soil health for centuries required a relationship to land that the commodity form structurally prevents.
+## The community land trust model
 
-Environmental destruction follows the same logic. The company that dumps toxins in a river is externalizing costs onto the commons — the river, the downstream communities, the species that depend on it — because the commodity form allows it to treat those as costs it doesn't have to bear.
+The community land trust is the most developed institutional response to land enclosure in the contemporary United States. The mechanism is specific: the trust acquires land and holds it permanently in common. Housing or agricultural development on that land is sold to individuals or families — but the land beneath it is never sold. It remains in trust, governed by a board that includes residents, community members, and public representatives.
 
-## What land as commons looks like
+The result: housing affordability is permanently preserved because the land beneath the housing can never be re-enclosed for speculative appreciation. When a resident sells their home, the resale price is limited by formula — they can recoup their investment and a share of appreciation, but not the full speculative gain. The difference between what they could sell for on the open market and what they actually receive stays in the trust, keeping the housing affordable for the next resident.
 
-Community land trusts separate land ownership from housing ownership. The trust holds the land permanently — in common, with resale restrictions that prevent the land from re-entering the speculative market. Housing built on trust land can be owned individually, with equity that accrues to the homeowner. But when that homeowner sells, the resale price is controlled by the trust to ensure the home remains affordable for the next person. The land stays out of the commodity market forever.
+This is not a subsidy. It is a governance structure that removes land permanently from the commodity market. The trust is governed by the community. The land is managed in the community's long-term interest. The people who live on it have security of tenure without the speculative extraction that makes housing unaffordable.
 
-This is not a new idea. The first modern community land trust was built in Georgia in 1969, during the civil rights movement, as a direct response to the landlessness that kept Black Southerners economically dependent. There are now hundreds of CLTs in the United States, the United Kingdom, and around the world. In Burlington, Vermont, CLT housing has remained affordable across four decades of a hot real estate market in a way that market-rate affordable housing consistently fails to do.
+## Indigenous governance and the long view
 
-Indigenous land governance is the long-form version of the same principle. The territories governed by indigenous communities under customary tenure have demonstrably better ecological outcomes than the same ecosystems governed under private property regimes. The relationship to land that indigenous governance encodes — stewardship, reciprocity, responsibility to future generations — is what sustainable land management actually requires, and what the commodity form structurally prevents.
+The most sophisticated land governance in human history is indigenous. Systems developed over thousands of years for managing specific territories — their soils, their waterways, their forests, their wildlife populations — in ways that sustained both human communities and the broader ecological systems they depended on.
 
-The Landless Workers Movement in Brazil — the MST — has built hundreds of settlements on land redistributed through organized land occupations. Those settlements practice collective governance of common areas, shared equipment, and social infrastructure while allowing family-level autonomy in agricultural production. The formula works: the MST settlements consistently outperform both feudal latifundia and corporate agriculture in productivity per hectare, while maintaining soil health and community stability.
+These systems were not primitive. They were highly calibrated to the specific conditions of specific places, encoding accumulated knowledge about what those places needed to remain productive and resilient across generations. The enclosure of indigenous territories didn't just dispossess people of land. It destroyed governance systems that had solved, in practice, the problem that modern land management is still failing to solve: how do you manage a territory for the long-term benefit of the people and ecosystems that depend on it, rather than for the short-term extraction of whoever holds title?
 
-## The foundation
+[The Zapatista land reforms](/case-study-zapatistas) in Chiapas, the [forest rights movement in India](/case-study-india), the Indigenous Protected Areas in Australia — these are not nostalgic returns to a prior state. They are the reconstruction of governance systems appropriate to specific places, by the communities that know those places best.
 
-When land is held in commons, housing becomes affordable across generations. Food becomes local and abundant. Ecosystems recover on timescales that private ownership prevents. Communities have roots — the social fabric that requires stability and continuity to develop.
+## What changes when land leaves the market
 
-The enclosure of land was the original enclosure. Every subsequent enclosure built on it, because landlessness is what produces the desperation that makes people accept any other terms. Restoring land to commons governance doesn't just solve the housing problem or the agricultural problem or the ecological problem. It changes the conditions under which every other commons can be built.
+When land is held in commons — whether through community land trusts, indigenous governance, or other collective tenure arrangements — several things change structurally.
+
+Housing affordability becomes a governance question rather than a market outcome. Communities can make binding decisions about what gets built and who it serves. Speculation is structurally impossible: you cannot bet on land values when the land is not for sale.
+
+Stewardship becomes possible. When land cannot be sold, the incentive to extract and move on disappears. The people governing the land are the people who will live with the consequences of how it is governed. Long-term ecological health becomes rational rather than a sacrifice.
+
+Community wealth becomes possible. The surplus generated by land — its increasing productivity, its appreciation in value — stays in the community rather than flowing to landowners who may have no other relationship to it. Community land trusts capture that surplus for the community. Agroecological commons distribute the productivity of the land to the people who work it.
+
+Land is the foundation. When it is enclosed, the people dispossessed from it have no choice but to accept whatever terms the labor market offers. When it is commons, the people who depend on it have the ground to stand on — literally and structurally — from which to build everything else.

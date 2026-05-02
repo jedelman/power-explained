@@ -5,35 +5,44 @@ description: "Murray Bookchin argued that ecology and hierarchy are the same pro
 seriesTag: "The World the Framework Missed — Series IV"
 h1: "Build the Commune Without the State"
 ---
+Abdullah Öcalan and Murray Bookchin — one from Kurdistan, one from Vermont — arrived at the same conclusion from opposite directions: the future is either communal and decentralized or it won't be.
 
-Abdullah Öcalan and Murray Bookchin arrived at the same conclusion from opposite directions.
+Not because decentralization is pure. Not because the state is evil and good people are impossible within it. Because the mathematics doesn't work any other way. Because the problems scale faster than centralized solutions can solve them. Because the only form of governance that can respond to local knowledge without crushing it is one rooted in the communities that have that knowledge.
 
-Murray Bookchin, writing from the American libertarian left in the 1980s and 1990s, developed a framework he called libertarian municipalism: governance rooted in the municipality, the neighborhood, the commune, confederated upward rather than administered downward. His argument: the state is not a tool that can be captured and used for liberation — the state is itself a capture mechanism. The alternative isn't another state; it's a system of directly democratic communes federated horizontally, without a sovereign center.
+## The argument Öcalan didn't start with
 
-Öcalan, leader of the Kurdish liberation movement and imprisoned since 1999 on an island in Turkey, read Bookchin's work. He changed course. He dropped the demand for a Kurdish nation-state and replaced it with a demand for democratic autonomy — not control of territory through a state apparatus, but self-governance within territory through communal institutions. When the opportunity arose in Rojava in 2012, the movement had a worked-out alternative governance theory ready to implement.
+Öcalan spent decades as a Marxist-Leninist who believed in a Kurdish nation-state as the goal. While imprisoned on an island in Turkey from 1999 onward, he encountered the work of Murray Bookchin — an American anarchist and ecologist who had developed a theory he called democratic confederalism.
 
-## Why the state can't do it
+Bookchin's argument: the state is not a tool that can be captured and used for liberation. The state is itself a capture mechanism. Its hierarchical structure, its monopoly on legitimate violence, its tendency to concentrate decision-making at the top — these are not features of bad states that good ones lack. They are features of the state as such. The alternative isn't a better state; it's a system of directly democratic communes federated horizontally, without a sovereign center.
 
-The argument here is structural, not moral. It's not that states are run by bad people. It's that the state form — hierarchical administration, monopoly on legitimate violence, centralized decision-making — is constitutively opposed to the kind of governance the commons requires.
+Öcalan read this and changed course. He dropped the demand for a Kurdish nation-state and replaced it with a demand for democratic autonomy — not control of territory through a state apparatus, but self-governance within territory through communal institutions. The result was [the experiment in Rojava](/case-study-rojava): four million people in an active war zone building commune systems, women's councils, cooperative economics, and co-governance at every administrative level.
 
-The commons requires knowledge that is local, embodied, and distributed. No central administration can have it. The state form absorbs commons governance and converts it: the community land trust becomes a housing authority, the mutual aid network becomes a social service agency, the cooperative becomes a regulated utility. The form changes the content. What was governed by the people who used it becomes governed by administrators who manage it.
+## What confederation actually means
 
-This is what the soviets became. The directly democratic councils that arose from below in 1917 were constitutionally incompatible with the centralized party apparatus. One of them had to win. The party won, not because it was more powerful initially, but because the state form it represented had an internal logic that the councils' form lacked: hierarchy is self-reinforcing, and horizontalism requires constant active maintenance.
+Both Öcalan and Bookchin were explicit about structure. This doesn't mean rejecting organization or scale. It means organizing differently.
 
-## What confederation looks like in practice
+Councils instead of parties. Parties compete for representation and then govern. Councils are the community governing itself directly, with delegates who carry specific mandates rather than representatives who exercise independent judgment once elected.
 
-[The Rojava experiment](/case-study-rojava) is the clearest current example of what Öcalan and Bookchin's theory looks like when implemented. The Autonomous Administration of North and East Syria — four million people, multiple ethnicities and religions, built in the middle of a multi-sided war — organized governance through communes at the neighborhood level, coordinated through district and regional councils, with co-presidency at every level of government and separate women's institutions with veto power over decisions affecting women.
+Confederations instead of centralized states. Local communes coordinate through confederal bodies — but coordination flows upward from communities rather than downward from a center. Each level of confederation exists to serve the levels below it, not to govern them.
 
-The councils rotate. Serving on them isn't a career path — it's a community obligation. The communities recall members who accumulate too much personal authority. Dispute resolution happens at the most local level possible. Coordination between communities is horizontal rather than administered from above.
+Mandated delegates instead of representatives. People authorized by their community to coordinate with other communities, accountable to the community that sent them, recallable if they stop representing the community's will. This is the structural mechanism that prevents the party eating the revolution.
 
-This is not a blueprint. The specific form required significant adaptation to Kurdish political culture, to the conditions of war, to the demographic composition of the region. Bookchin's libertarian municipalism required transformation to become what Öcalan called democratic confederalism. The principles held; the implementation was local.
+## The war of position, at the municipal level
 
-## The mathematics of the problem
+Bookchin's specific argument — libertarian municipalism — was that the city is the appropriate scale for democratic self-governance. Not because cities are naturally democratic, but because the municipality is the level at which governance can be made participatory: close enough to the governed, small enough for relationships, concrete enough to make decisions about specific places and specific needs.
 
-Not because decentralization is pure. Not because hierarchy is always wrong in every context. Because the problems scale faster than centralized solutions can solve them. Climate governance, food system resilience, care infrastructure, technological self-determination — these require decision-making that responds to local conditions faster than any central authority can track, and that maintains legitimacy with the people affected by those decisions.
+The strategy: contest municipal elections on a program of building direct democratic institutions, then use those institutions to gradually transfer power from the state apparatus to the community. Not seizing the state and running it differently — dismantling its functions and replacing them with communal institutions that make state governance increasingly unnecessary.
 
-The only governance form that can do both is one that keeps decision-making close to the people affected by decisions, while coordinating across communities on matters that require coordination. This is confederation: not the weak arrangement of nation-states that uses the word, but the genuine principle — local autonomy, horizontal coordination, mandated delegates rather than representatives, accountability that flows downward to the communities that sent the delegates rather than upward to a central authority they serve.
+This is the prefigurative argument applied to scale. You don't build communes after the revolution. You build them now, and the accumulation of communal institutions is the revolution — the gradual construction of a social infrastructure that doesn't need the state because it has already built the alternative.
 
-Community land trusts are communes without knowing they are communes. Credit unions are small confederations of financial mutual aid. Open source projects are governance experiments in horizontal coordination. The DSA, [Cooperation Jackson](https://cooperationjackson.org), the Landless Workers Movement, the forest commons of Oaxaca — all of these are practicing pieces of the confederation principle in specific domains.
+## The mathematics of scale
 
-The work is not to build the commune in one place and then spread it. It is to build the commune in every domain, and then to build the coordination between communes that allows them to address problems at the scale those problems actually exist.
+The critique of centralization is not nostalgic. It is a claim about information and accountability.
+
+Centralized governance fails at scale because the information required to make good decisions about local conditions cannot be aggregated without being distorted. The farther decisions travel from the people and places they affect, the less accurate the information available to decision-makers, and the weaker the accountability mechanisms that might correct bad decisions.
+
+Distributed, confederal governance addresses this structurally. Decisions are made at the level where the relevant knowledge exists and where accountability can be direct. Coordination happens at the level where coordination is actually needed, through delegates who remain accountable to the communities they represent.
+
+This is not anarchism in the sense of no organization. It is anarchism in the sense of no archon — no ruler, no sovereign — while maintaining robust collective organization. The difference is whether organization serves the communities that compose it or governs them.
+
+The commons at scale — the commons that can address climate catastrophe, organize production without capital accumulation, make decisions without hierarchy — requires this political form. You cannot build it through a centralized state that has captured the capacity for collective decision-making. You can only build it by distributing that capacity back to the communities that need it.
