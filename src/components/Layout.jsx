@@ -1,7 +1,10 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import SiteHeader from './SiteHeader'
 import SeriesNav from './SeriesNav'
+
+const DRAWER_WIDTH = 300
+const DESKTOP_BP = 900
 
 const BASE_URL = 'https://power-explained.jason-edelman.org'
 
@@ -29,6 +32,15 @@ function setLink(rel, href) {
 export default function Layout({ title, description, seriesTag, children }) {
   const navigate = useNavigate()
   const location = useLocation()
+  const [drawerOpen, setDrawerOpen] = useState(
+    typeof window !== 'undefined' && window.innerWidth >= DESKTOP_BP
+  )
+
+  useEffect(() => {
+    const onResize = () => setDrawerOpen(window.innerWidth >= DESKTOP_BP)
+    window.addEventListener('resize', onResize)
+    return () => window.removeEventListener('resize', onResize)
+  }, [])
 
   useEffect(() => {
     if (!title) return
@@ -76,7 +88,12 @@ export default function Layout({ title, description, seriesTag, children }) {
     <>
       <SiteHeader seriesTag={seriesTag} />
       <SeriesNav />
-      {children}
+      <div style={{
+        marginLeft: drawerOpen ? DRAWER_WIDTH : 0,
+        transition: 'margin-left 0.25s ease',
+      }}>
+        {children}
+      </div>
     </>
   )
 }
