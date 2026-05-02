@@ -2263,3 +2263,17 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 @media (min-width: 900px) {
   body { overflow: auto !important; }
 }
+
+/* ── Body text links (covers both plain <a> and .xl from legacy HTML) ─── */
+.body-text a,
+.body-text a.xl {
+  color: var(--red);
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--red-rgb), 0.4);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.15s;
+}
+.body-text a:hover,
+.body-text a.xl:hover {
+  text-decoration-color: var(--red);
+}

@@ -7,12 +7,12 @@ import { SERIES } from '../lib/articles.js'
     <div class="hero-inner">
       <h1>Power Explained</h1>
       <p class="hero-dek">How power works. In plain language. And what people can actually do about it.</p>
-      <a href="/series-i" class="hero-cta">Start with Series I →</a>
+      <a href="/series/series-i" class="hero-cta">Start with Series I →</a>
     </div>
   </div>
   <div class="home-series">
     {SERIES.map(s => (
-      <a href={`/${s.id}`} class="series-row">
+      <a href={`/series/${s.id}`} class="series-row">
         <span class="series-row-label">{s.label}</span>
         <span class="series-row-count">{s.pieces.length} pieces →</span>
       </a>
