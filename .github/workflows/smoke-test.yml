@@ -1,0 +1,81 @@
+name: Post-Deploy Smoke Test
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Wait for Netlify deploy
+        id: wait
+        env:
+          NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          SITE_ID: caef08e3-96e2-4f30-b489-a413389a931f
+        run: |
+          echo "Waiting for Netlify deploy triggered by commit $GITHUB_SHA..."
+
+          TIMEOUT=600   # 10 min max
+          INTERVAL=15
+          ELAPSED=0
+          DEPLOY_URL=""
+
+          while [ $ELAPSED -lt $TIMEOUT ]; do
+            RESPONSE=$(curl -s \
+              -H "Authorization: Bearer $NETLIFY_TOKEN" \
+              "https://api.netlify.com/api/v1/sites/$SITE_ID/deploys?per_page=5")
+
+            # Find the most recent deploy that matches our commit
+            STATUS=$(echo "$RESPONSE" | node -e "
+              const deploys = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
+              const sha = process.env.GITHUB_SHA;
+              const match = deploys.find(d =>
+                d.commit_ref === sha ||
+                d.title?.includes(sha.slice(0,7)) ||
+                d.branch === 'main'
+              ) || deploys[0];
+              console.log(match?.state + '|' + (match?.deploy_ssl_url || match?.ssl_url || ''));
+            ")
+
+            STATE=$(echo "$STATUS" | cut -d'|' -f1)
+            URL=$(echo "$STATUS" | cut -d'|' -f2)
+
+            echo "Deploy state: $STATE (${ELAPSED}s elapsed)"
+
+            if [ "$STATE" = "ready" ]; then
+              echo "Deploy ready: $URL"
+              echo "deploy_url=$URL" >> $GITHUB_OUTPUT
+              break
+            elif [ "$STATE" = "error" ] || [ "$STATE" = "failed" ]; then
+              echo "Deploy failed with state: $STATE"
+              exit 1
+            fi
+
+            sleep $INTERVAL
+            ELAPSED=$((ELAPSED + INTERVAL))
+          done
+
+          if [ -z "$URL" ] || [ "$STATE" != "ready" ]; then
+            echo "Timed out waiting for deploy"
+            exit 1
+          fi
+
+      - name: Install crawler dependencies
+        run: npm install node-fetch@3
+
+      - name: Crawl for broken links
+        env:
+          DEPLOY_URL: ${{ steps.wait.outputs.deploy_url }}
+        run: node scripts/smoke-crawl.mjs "$DEPLOY_URL"
