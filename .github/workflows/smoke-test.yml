@@ -26,7 +26,7 @@ jobs:
         run: |
           curl -s \
             -H "Authorization: Bearer $CF_API_TOKEN" \
-            "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects?per_page=20" \
+            "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects" \
           | node -e "
             const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
             if (d.errors?.length) { console.error('API error:', JSON.stringify(d.errors)); process.exit(1); }
@@ -49,7 +49,7 @@ jobs:
           while [ $ELAPSED -lt $TIMEOUT ]; do
             RESPONSE=$(curl -s \
               -H "Authorization: Bearer $CF_API_TOKEN" \
-              "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects/$CF_PROJECT_NAME/deployments?per_page=5")
+              "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects/$CF_PROJECT_NAME/deployments")
 
             # Dump raw first object on first pass
             if [ $ELAPSED -eq 0 ]; then
