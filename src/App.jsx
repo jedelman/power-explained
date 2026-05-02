@@ -48,6 +48,12 @@ const ForSocialJustice = lazy(() => import('./pages/ForSocialJustice'))
 const ForTechWorkers = lazy(() => import('./pages/ForTechWorkers'))
 const ForUrbanists = lazy(() => import('./pages/ForUrbanists'))
 const Glossary = lazy(() => import('./pages/Glossary'))
+
+const SeriesI = lazy(() => import(\'./pages/SeriesI\'))
+const SeriesII = lazy(() => import(\'./pages/SeriesII\'))
+const SeriesIII = lazy(() => import(\'./pages/SeriesIII\'))
+const SeriesIV = lazy(() => import(\'./pages/SeriesIV\'))
+const SeriesV = lazy(() => import(\'./pages/SeriesV\'))
 const HardinWasWrong = lazy(() => import('./pages/HardinWasWrong'))
 const HowLinuxBecameTheInternet = lazy(() => import('./pages/HowLinuxBecameTheInternet'))
 const HowThisWasDone = lazy(() => import('./pages/HowThisWasDone'))
@@ -175,6 +181,12 @@ export default function App() {
           <Route path="/for-tech-workers" element={<ForTechWorkers />} />
           <Route path="/for-urbanists" element={<ForUrbanists />} />
           <Route path="/glossary" element={<Glossary />} />
+        <Route path="/series-i" element={<SeriesI />} />
+        <Route path="/series-ii" element={<SeriesII />} />
+        <Route path="/series-iii" element={<SeriesIII />} />
+        <Route path="/series-iv" element={<SeriesIV />} />
+        <Route path="/series-v" element={<SeriesV />} />
+
           <Route path="/hardin-was-wrong" element={<HardinWasWrong />} />
           <Route path="/how-linux-became-the-internet" element={<HowLinuxBecameTheInternet />} />
           <Route path="/how-this-was-done" element={<HowThisWasDone />} />
