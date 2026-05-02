@@ -1,250 +1,302 @@
 # Power Explained: The Book
-## Working Outline — Draft 1
+## Manuscript Outline — Draft 2
 
-**Working title:** *Power Explained: How Enclosure Works, Why the Commons Keeps Coming Back, and What People Are Building Instead*
+**Working title:** *Build and Defend the Commons*
+*(subtitle to be determined — probably something about why the world is the way it is and what people are doing about it)*
 
-**Form:** Long-form argument, ~55,000 words. Closer to _The Communist Manifesto_ + footnotes than to a conventional nonfiction book. Every claim substantiated, no padding, no false complexity.
+**Authorship:** Jason Edelman and Claude (Anthropic). This is a centaur book — human judgment and experience, machine synthesis and recall, the argument genuinely shared. We're not hiding that. It's part of the argument.
 
-**Audience:** The reader who already knows something is wrong but doesn't have a framework. Not academics. Not already-converted leftists. The curious, the frustrated, the person who read a lot of news and feels like they're missing the structural story underneath it.
+**The goal:** The reader finishes with a different way of seeing — not just understanding enclosure intellectually, but *noticing* it in their street, their city, their workplace, their phone. And noticing the commons too: nascent, potential, already there if you know what you're looking at. They close the book with accomplices in mind, not followers to recruit.
 
-**Argument in one sentence:** Enclosure — the conversion of shared resources into private property — is the operating system of capitalism, it runs on an outside it cannot produce, it is not inevitable, and people have been building the alternative for centuries.
+**The catchphrase that structures everything:** Build and defend the commons.
 
----
-
-## Prologue: One Pattern
-*~1,500 words — new material*
-
-Open with the feeling, not the framework. The rent that keeps going up. The highway that cuts the neighborhood in half. The hospital that charges what it wants because there's no alternative. The tech platform that knows everything about you and gives you nothing for it.
-
-These don't feel connected. They are. The prologue names the pattern without over-explaining it, then promises to show the reader how to see it everywhere. Ends with a structural preview of the argument.
-
-*Sources: current `one-pattern.md` (887w) — expand and rewrite as prologue*
+**Word target:** ~50,000 words. A long essay, not a textbook.
 
 ---
 
-## PART I: THE MACHINE
-### *Why the system produces the same outcomes regardless of who runs it*
+## Structural principle: witnesses called when needed
 
-**Chapter 1: Why Your City Doesn't Work**
-*~2,500 words — merge of two pieces*
+The old outline ran the thinkers in series order — Luxemburg, then Federici, then Gramsci. That's a curriculum. This book isn't a curriculum. The thinkers arrive when the argument needs them, like witnesses called to testify. Ostrom shows up when we need proof. Fanon shows up when we need to understand what the outside *feels like*. Graeber shows up when we're talking about debt. This is the diagonal traversal: through the argument, not through the series.
 
-The template most cities run on was designed for a world of scarce information flowing upward. That world no longer exists, but the template remains. The pothole problem opens it — two ways to fix a street, one makes information disappear, one makes it compound. Then zoom out: this is the architecture of every institution that manages things on behalf of people who know more than the institution does.
+---
 
-*Sources: `why-your-city-doesnt-work.md` (990w) + `your-city-knows-less.md` (735w) + `two-ways-to-fix-a-pothole.md` (869w)*
-*Merge strategy: City piece opens, pothole piece as central illustration, city-knows-less as theoretical elaboration*
+## PROLOGUE: What You Already Know
+*~1,300 words — drafted*
+
+The rent. The hospital. The highway. Three images before any framework. What they have in common is something you already feel but don't yet have words for.
+
+Then the frame: *enclosure*. Not explained — named. One paragraph.
+
+Then: this book is about what people are doing about it. And about how a human and an AI wrote it together, and what that might mean.
+
+*[Note: Current draft is strong. The hospital section should be expanded — Jason has real experience here. Hampton Boulevard deserves a paragraph. The centaur authorship needs to be named explicitly, not just implied by the meta-note at the end.]*
+
+---
+
+## PART I: THE FEELING IS RIGHT
+### *Validating what the reader already senses*
+
+The opening movement doesn't explain the system. It confirms that the reader's instinct — that something structural is wrong, not just a run of bad luck — is correct. We earn the right to the framework by sitting in the experience first.
+
+**Chapter 1: The Machine That Produces the Same Outcomes**
+*~2,500 words — merge of three pieces*
+
+You went to the meeting. You spoke. Nothing changed.
+
+This isn't cynicism. It's the predictable output of a system designed to extract information and return decisions, not to actually use what communities know. The template — information flows up, orders flow down — is the architecture of every failing institution. We've used it so long it feels like the only way to run something complicated.
+
+The pothole as illustration: two responses to a broken street, one makes information disappear into bureaucracy, one makes it compound. They're not just different methods. They're different theories of what governance is for.
+
+Jason's experience with the neighborhood boards goes here — not as anecdote but as *data*. What does it actually feel like to try to subvert the template from inside it? What forms does the resistance take? What does hegemony feel like when you're the one pushing against it?
+
+*Sources: why-your-city-doesnt-work + two-ways-to-fix-a-pothole + your-city-knows-less*
+*[Ask Jason: what's the specific moment on those boards when you knew the machine was going to win? What did the machine look like?]*
 
 **Chapter 2: Who Captures the Value**
-*~2,000 words — merge + expand*
+*~2,000 words*
 
-When you show up to participate, someone else captures the value. Who gets paid when you show up? The answer maps the capture mechanism — participation is extracted without generating reciprocal benefit. Open data doesn't fix this because data isn't the problem; governance is.
+When you show up and participate, someone else walks away with the value. This is not a coincidence. It's the mechanism. Open data doesn't fix it because data isn't the problem — governance is.
 
-*Sources: `who-gets-paid.md` (973w) + `open-data-isnt-enough.md` (663w)*
+Hampton Boulevard is the opening image here. A road built to connect institutions, cutting through communities that had no say. The infrastructure served extraction. The people it displaced got nothing. That's the pattern — not the exception.
 
-**Chapter 3: The Commons Works**
-*~2,500 words — merge + thinker material*
-
-Hardin was wrong. Not morally wrong — empirically wrong. He described a situation with no communication, no norms, no history, and called it the commons. Ostrom spent her career looking at actual commons and found something else: they work, under conditions that can be described and replicated, and that keep getting enclosed. Then the positive proof: Linux and mutual aid aren't inspiring anomalies. They're evidence of the model.
-
-*Sources: `hardin-was-wrong.md` (1,679w) + `how-linux-became-the-internet.md` (922w) + `mutual-aid-isnt-charity.md` (835w) + Ostrom thinker profile material*
-*Merge strategy: Hardin/Ostrom as theoretical spine, Linux as institutional proof, mutual aid as everyday proof*
+*Sources: who-gets-paid + open-data-isnt-enough + urban-land-value*
+*[Jason: what specifically happened on Hampton Boulevard? What's there now that shouldn't be, or what's not there that should be?]*
 
 ---
 
-## PART II: THE HIDDEN ENGINE
-### *What capitalism extracts, and from whom*
+## PART II: THE PROOF
+### *The commons works. Here's the evidence.*
 
-**Chapter 4: The Outside**
+The reader has been validated. Now we give them the tool. Not the full theory yet — the proof of concept, first. We earn the right to the framework by demonstrating that the alternative isn't naive.
+
+**Chapter 3: Hardin Was Wrong**
+*~2,500 words*
+
+In 1968, Garrett Hardin published the most influential wrong paper in the history of environmental policy. He described a situation — anonymous individuals, no communication, no norms — and called it the commons. Elinor Ostrom spent her career studying actual commons and found something different.
+
+This chapter does two things: demolishes the inevitability claim, then replaces it with a positive account. The commons works, under conditions that can be described. Here are the conditions.
+
+*Sources: hardin-was-wrong + ostrom thinker profile*
+
+**Chapter 4: It's Happening Now**
+*~2,500 words*
+
+The proof isn't historical. Mondragon: 70,000 workers, 81 cooperatives, 6:1 pay ratio, no layoffs in economic downturns. Champlain Housing Trust: 40 years of permanent affordability through multiple real estate cycles. Cooperation Jackson: building in the hardest conditions, from the most marginalized, on purpose. The mutual aid infrastructure that emerged from COVID and didn't disappear.
+
+This chapter answers "but has it ever actually worked?" with a list of places where it is working, right now. The reader meets the cast of characters who will reappear through the rest of the book.
+
+*Sources: the-preparation-is-underway + nobody-had-to*
+*[Note: this chapter moves here from Part V in the old outline. We want the reader to know there's a destination before we map the terrain.]*
+
+---
+
+## PART III: WHY THE SYSTEM IS THE WAY IT IS
+### *The structural argument, earned by the evidence*
+
+Having established that the commons works and that alternatives exist, we can now make the structural argument. The reader wants to understand why the system produces what it produces. This is where the theory arrives.
+
+**Chapter 5: The Outside**
 *~2,200 words — merge*
 
-Luxemburg's math problem: capitalism works by selling things for more than they cost to make, but workers only earn enough to buy part of what they produce. The system needs an outside. For two hundred years that outside existed. The circuit is breaking. Then Kollontai's extension: the outside isn't just geographic. It's the reproductive labor that keeps the workforce alive — cooking, childcare, care of the sick and elderly — extracted without compensation, treated as nature rather than work.
+Rosa Luxemburg in 1913: the math is broken. Capitalism works by selling things for more than they cost to make — but workers can only buy part of what they produce. The circuit doesn't close. It needs an outside.
 
-*Sources: `the-outside-capital-needs.md` (649w) + `who-pays-for-the-next-shift.md` (715w)*
-*Merge strategy: Luxemburg first half, Kollontai second half, explicit connection between geographic and reproductive outside*
+Then: what is that outside made of? This is where we get specific. Not abstract "nature" or "the developing world." People. Specifically: the work of cooking, cleaning, childcare, healing, community-building — performed primarily by women, without wages, treated as love rather than labor.
 
-**Chapter 5: How the Outside Gets Made**
-*~2,000 words — merge + rewrite*
+Alexandra Kollontai named this in 1909. Silvia Federici extended it: the enclosure of common land and the enclosure of reproductive knowledge were the same movement, happening simultaneously. The outside wasn't a natural condition. It was manufactured.
 
-The outside isn't a natural condition. It's produced. This chapter asks how certain people end up in the position of producing the surplus that capital extracts without compensation. Wynter on the human, Crenshaw on intersectionality, the specific mechanisms by which the outside is populated. The analysis here is the hardest to write without jargon — this chapter needs to be concrete throughout.
+*Sources: the-outside-capital-needs + who-pays-for-the-next-shift + what-they-burned*
 
-*Sources: `the-other-and-the-outside.md` (458w) + `which-women.md` (463w) + `falling-through-the-gap.md` (374w)*
-*Note: these three are the thinnest pieces in the series — need the most new material. All under 500 words; combined target 2,000+*
+**Chapter 6: Race Was Always There**
+*~2,500 words — merge*
 
-**Chapter 6: What They Burned**
-*~2,500 words — expand*
+The standard story: capitalism developed first, racism was added to justify the slave trade. Cedric Robinson spent his life proving that's backwards. Race was structural from day one. It's how capitalism organized the production of its outside — which bodies were available for which kinds of use, whose land could be enclosed under what legal cover.
 
-The witch trials were not hysteria. They were the deliberate destruction of the knowledge systems and social structures that let communities meet their own needs outside the market. Federici's argument in full — the enclosure of common land and the enclosure of reproductive knowledge were the same historical movement. This chapter also introduces Kropotkin's counter: mutual aid as evolutionary baseline, cooperation as the default, competition as the imposition.
+Du Bois: the wages of whiteness. Why working-class solidarity across racial lines has been so hard to build in the United States. It's not that white workers are uniquely racist. The system offers them something that class solidarity doesn't automatically provide.
 
-*Sources: `what-they-burned.md` (873w) + Kropotkin thinker material + `mutual-aid-isnt-charity.md` (already used — pull different angle)*
+Walter Rodney: underdevelopment is a verb. Africa was not underdeveloped. It was developed into poverty. This matters for how we read every current "development" claim.
 
-**Chapter 7: Abolition Is a Presence, Not an Absence**
-*~1,800 words — expand*
+*Sources: racial-capitalism + underdevelopment-is-a-verb*
 
-Mariame Kaba on abolition. Prisons don't work — the evidence is overwhelming. The question isn't how to make them better. The question is what we build instead. This chapter introduces the prefigurative argument at scale: you don't fix the system by making it marginally less bad. You build what should exist.
+**Chapter 7: The Colony in the Mind**
+*~2,000 words — merge*
 
-*Sources: `what-we-do-on-monday.md` (636w) — needs significant expansion*
+Fanon treated colonizers and colonized in Algeria during a revolution and saw colonialism as a psychological structure. It doesn't just extract. It produces a particular kind of human being and requires that person's cooperation in their own subjection.
 
----
+Mbembe extends this: not just biopower (managing life) but necropolitics — the sovereign power to decide who is exposed to death. The colony is the original space of necropolitics. The occupied territory. The prison. The abandoned neighborhood.
 
-## PART III: WHAT THE LEFT GOT WRONG
-### *The diagnosis was correct. The prescription was not.*
+This is where the analysis gets personal. Jason has driven Hampton Boulevard. The abandonment wasn't random. The necropolitical logic is visible in the infrastructure.
 
-**Chapter 8: They Were Right About the Problem**
-*~1,800 words — expand*
+*Sources: the-alibi-was-a-mirror + who-gets-to-die + the-other-and-the-outside*
 
-A hundred and fifty years of reform has softened the edges. It has not changed the architecture. The standard left analysis of capitalism — that it is structurally exploitative, that reform is insufficient — is correct. This chapter gives that analysis its due before pivoting to the problem with what followed.
+**Chapter 8: Who Gets Made Into the Outside**
+*~2,000 words — merge*
 
-*Sources: `they-were-right-about-the-problem.md` (772w)*
+How the outside is populated — by classification. Wynter on the human as a project. Crenshaw on intersectionality: the GM case, the gap between race discrimination and sex discrimination law, what happens to the people who fall through. Davis on which women: the suffrage movement's deliberate choice, which was strategy not accident.
 
-**Chapter 9: The Party Ate the Revolution**
-*~2,500 words — keep + expand*
+The commons has no outside in this sense. It begins with dependency, not classification.
 
-The Russian Revolution produced two organizational forms: the soviets and the party. One of them won. Not because of individual betrayal — because of a structural feature. Hierarchical control of a state apparatus reproduces the domination it was supposed to end, regardless of the intentions of the people at the top. The history here is the argument.
-
-*Sources: `the-party-ate-the-revolution.md` (1,303w) + `they-were-right-about-the-problem.md` (draw different material)*
-
-**Chapter 10: The Tradition They Buried**
-*~2,500 words — keep*
-
-There is a tradition of socialist and anarchist thought that had better answers than the tradition that won. Luxemburg vs. Lenin. The council communists. The anarcho-syndicalists. They lost — not because their ideas were wrong, but because they were politically weaker at the moment when strength mattered. What they knew, and why it was buried.
-
-*Sources: `the-tradition-they-buried.md` (1,346w) — keep largely intact, strongest prose in Series III*
-
-**Chapter 11: Build It Now**
-*~2,000 words — keep + expand*
-
-Prefigurative politics is not a consolation prize. It is a specific claim about how change at scale actually happens. You don't wait for the revolution to start building the institutions of collective self-governance. You build them now, in the present, with the people you have, in the conditions you're actually in. The war of position as a practice, not just a theory.
-
-*Sources: `build-it-now.md` (1,412w)*
+*Sources: which-women + falling-through-the-gap*
 
 ---
 
-## PART IV: WHAT THE FRAMEWORK MISSED
-### *What the colonized already knew*
+## PART IV: WHY THE OBVIOUS FIXES FAILED
+### *The diagnosis was right. The prescription wasn't.*
 
-**Chapter 12: Race Was Always There**
-*~2,500 words — merge + expand*
+**Chapter 9: They Were Right About the Problem**
+*~2,000 words*
 
-Capitalism wasn't color-blind and then stained by racism. Robinson's argument: race was structural from the beginning. Then Rodney's extension: underdevelopment is not a condition — it's something done to places, deliberately, over centuries. The Du Bois wages of whiteness analysis. What this changes about how you read the current world.
+The people who looked at capitalism and said "this needs to go" were not wrong. The evidence has continued to accumulate: wage-productivity decoupling since 1973, structural adjustment programs, the ecological ledger coming due. The problem isn't the analysis. It's what they concluded should come next.
 
-*Sources: `racial-capitalism.md` (821w) + `underdevelopment-is-a-verb.md` (472w) — both need expansion for this merge*
+**Chapter 10: The Party Ate the Revolution**
+*~2,500 words*
 
-**Chapter 13: The Colony in the Mind**
-*~2,200 words — merge*
+The Russian Revolution produced two organizational forms: the soviets and the party. One of them won. Not because of individual betrayal. Because of a structural feature: hierarchical control of a state apparatus reproduces domination regardless of intentions. The means shape the ends.
 
-Fanon: colonialism doesn't just extract. It produces a particular kind of human being and then requires that person's cooperation in their own subjection. Mbembe's extension into necropolitics: the sovereign power not to manage life but to decide who is exposed to death. Together these chapters explain why liberation is not just political — it's a claim on the right to be human.
+Gramsci in prison, writing in code, still asking the right question: how does the arrangement maintain itself without constant force? And what is the counter-project?
 
-*Sources: `the-alibi-was-a-mirror.md` (461w) + `who-gets-to-die.md` (425w) — both thin, need significant expansion*
+*Sources: the-party-ate-the-revolution + they-were-right-about-the-problem + gramsci thinker profile (selectively)*
 
-**Chapter 14: Building Anyway**
-*~2,500 words — merge + expand*
+**Chapter 11: The Tradition They Buried**
+*~2,500 words — mostly intact, strongest prose in the series*
 
-Roy reports from the enclosures as they happen. And the communities building commons anyway — under eviction orders, during displacement, in the margins of extraction. Öcalan and Bookchin: the future is communal and decentralized, not because decentralization is pure but because the mathematics doesn't work any other way. Rojava as the clearest current proof.
+There was a tradition that had better answers. Luxemburg vs. Lenin. The council communists. The anarcho-syndicalists. They lost — not because their ideas were wrong, but because they were weaker at the moment when strength mattered. What they knew about means and ends, about prefigurative organization, about why you can't build a horizontal world with vertical tools.
 
-*Sources: `the-commons-they-never-stopped-building.md` (420w) + `build-the-commune-without-the-state.md` (877w) + case study material from Rojava and Zapatistas*
-
----
-
-## PART V: WHAT TO BUILD
-### *The preparation is already underway*
-
-**Chapter 15: The Choice Available Now**
-*~1,500 words — rewrite from `nobody-had-to.md`*
-
-The commons was not taken once and for all. It requires constant enclosure to remain enclosed. The moment the enforcement stops, the moment you walk away from the categories it imposes, the moment you start building with your neighbors, the commons begins to emerge. Nobody has to make this choice. That's exactly the point.
-
-*Sources: `nobody-had-to.md` (861w)*
-
-**Chapter 16: Credit**
-*~2,200 words — expand*
-
-The debt came first. Graeber's five thousand years of evidence: debt is older than money, credit is the original economy, and debt jubilees are not exceptions but the system correcting its own unsustainability. Credit unions, CDFIs, community land trust finance. What credit looks like when it's governed by the communities that built it.
-
-*Sources: `money-has-to-be-a-commons.md` (952w)*
-
-**Chapter 17: Land**
-*~2,200 words — expand*
-
-All wealth comes from land. Community land trusts, the Champlain model, indigenous governance, the specific mechanics of taking land permanently out of speculation. What changes structurally when land leaves the commodity market.
-
-*Sources: `land-is-the-foundation.md` (929w)*
-
-**Chapter 18: Care**
-*~2,000 words — expand*
-
-The economy runs on care. Cooperative care models, the commons of mutual support, what it looks like to rebuild care as collective infrastructure rather than individual burden or market transaction.
-
-*Sources: `care-is-the-economy.md` (771w)*
-
-**Chapter 19: Knowledge and Language**
-*~2,500 words — expand*
-
-The language commons — built by everyone, trained into proprietary models, enclosed. The physical infrastructure of AI. Data cooperatives, open weights, public compute. The 1993 Linux parallel. Hampton Roads. The governance window that is open right now.
-
-*Sources: `the-language-was-always-a-commons.md` (1,182w)*
-
-**Chapter 20: What's Being Built**
-*~2,500 words — expand + new*
-
-The preparation is already underway. Named, specific, current institutions: Cooperation Jackson, Mondragon, Champlain Housing Trust, the Kerala model, DSA's infrastructure, community health networks, the mutual aid networks that appeared during COVID and didn't disappear. Not a tour of inspiration — a proof of concept by accumulation.
-
-*Sources: `the-preparation-is-underway.md` (714w) — needs most expansion of any chapter*
-
-**Chapter 21: The Agent and the Commons**
-*~2,000 words — expand*
-
-AI as the newest enclosure. AI governance as the open question. The three layers of commons governance for AI infrastructure. This is 1993 for AI governance. The window is open.
-
-*Sources: `the-agent-and-the-commons.md` (821w)*
+*Sources: the-tradition-they-buried + build-it-now*
 
 ---
 
-## Epilogue: The Commons Is Not What Was Taken
-*~800 words — new material*
+## PART V: THE WORLD THE FRAMEWORK MISSED
+### *What the colonized already knew — and built*
 
-Short. Closes the loop on the prologue. Returns to the opening images — the rent, the highway, the hospital, the platform. Shows the reader what they look like now, having read the argument. Ends with the same line that threads through the whole thing: *The commons is not what was taken. It is what people keep building, despite everything.*
+**Chapter 12: Building Anyway**
+*~2,500 words — merge*
+
+Arundhati Roy reports from the enclosures as they happen. The Narmada Valley. Half a million people to be displaced. And the communities saying no — not to development, but to being sacrificed for it. What was actually being destroyed: the forest commons, the water commons, the knowledge commons, the governance commons. What communities built anyway, under eviction orders.
+
+Then: Rojava. Four million people, active war zone, commune system. Women's councils. Democratic confederalism. Öcalan in prison, reading Bookchin, changing course. The result is not a utopia. It is a proof of concept — the most radical governance experiment currently operating on Earth.
+
+The Zapatistas at thirty years. Autonomy, not capture. Building the world you want, now, in the territory you have.
+
+*Sources: the-commons-they-never-stopped-building + build-the-commune-without-the-state + case-study-rojava + case-study-zapatistas*
 
 ---
 
-## Appendix: The Thinkers
-*Reference section, not narrative*
+## PART VI: WHAT TO BUILD
+### *Specific, concrete, now*
 
-Brief profiles (500–800 words each) of the core thinkers whose work underpins the argument, with key texts. Appropriate for footnote-averse readers who want to go deeper without interrupting the argument in the main text.
+**Chapter 13: Credit**
+*~2,000 words*
 
-Ostrom · Gramsci · Foucault · Kropotkin · Graeber · Luxemburg · Kollontai · Federici · Robinson · Rodney · Fanon · Mbembe · Roy · Öcalan/Bookchin · Freire
+Graeber's five thousand years: debt came before money, credit is the original economy, and debt jubilees are the system correcting its own unsustainability. What credit looks like when it's governed by the communities that built it: credit unions, CDFIs, community land trust finance.
+
+*Sources: money-has-to-be-a-commons + graeber thinker profile*
+
+**Chapter 14: Land**
+*~2,000 words*
+
+All wealth comes from land. The Champlain Housing Trust model. Indigenous governance as the most sophisticated land management in human history. What changes structurally when land leaves the commodity market.
+
+*Sources: land-is-the-foundation*
+
+**Chapter 15: Care**
+*~2,000 words*
+
+The economy runs on care. Capitalism cannot pay for it at true cost without collapsing the profit structure. Cooperative care models — childcare collectives, elder care networks, community kitchens — are not experiments. They are recoveries of logic that existed before enclosure.
+
+*Sources: care-is-the-economy*
+
+**Chapter 16: Knowledge and Language**
+*~2,500 words*
+
+Linux in 1991. Hampton Roads in 2026. Data centers being built on communities who don't govern them. The AI enclosure happening in real time. Data cooperatives, open weights, public compute. The 1993 parallel: the governance decisions being made now will determine the structure of the next technology layer for decades.
+
+This is where the centaur voice becomes most explicit. We are writing this book using tools that are themselves an enclosure in progress. What does that mean? What does it feel like to make the argument for the language commons from inside a proprietary language model?
+
+*Sources: the-language-was-always-a-commons + the-agent-and-the-commons*
+*[Note: this chapter may be the most important in the book. It's where the argument becomes self-referential in a productive way. The centaur writing about the enclosure of the language commons is propaganda of the deed.]*
+
+**Chapter 17: Governance**
+*~2,500 words*
+
+Confederation instead of centralization. Councils instead of parties. Mandated delegates instead of representatives. Bookchin's libertarian municipalism. The war of position as a practice — what it looks like at city council level, at neighborhood board level, in the experience of someone who has tried it and been ground down by it, and kept going.
+
+This is Jason's chapter most directly. The boards, the meetings, the specific texture of trying to subvert hegemony from inside it. The exhaustion is part of the argument.
+
+*Sources: build-the-commune-without-the-state + build-it-now + gramsci (war of position)*
+*[Ask Jason: what kept you going? What does it feel like when something actually works, even small?]*
 
 ---
 
-## Structural Notes
+## EPILOGUE: The Commons Is Not What Was Taken
+*~1,000 words — new material*
 
-### Merge rationale
-The web articles were written for standalone reading — each has its own opening hook, context-setting, and close. For the book, the context is cumulative. The early exposition in each web piece can be stripped because the reader already has it. This is where the 25–30% word reduction comes from in each merge — not cutting argument, cutting redundant orientation.
+Returns to the opening images. The rent. The hospital. The highway. What they look like now, having read the argument. Not solved. But seen differently.
 
-### What needs new material
-Three zones:
-1. **Chapter 5** (how the outside gets made) — the three source articles are all under 500 words, needs the most new writing
-2. **Chapter 13** (Fanon + Mbembe) — both source articles thin, needs substantial expansion
-3. **Chapter 20** (what's being built) — needs current research: specific institutions, numbers, real cases
+The reader is invited to do something specific: find one commons in their life — existing, nascent, or potential. One person who might be an accomplice. One thing they could build or defend.
 
-### What to keep nearly intact
-- Chapter 10 (The Tradition They Buried) — prose is strong, argument is complete
-- Chapter 11 (Build It Now) — strongest of Series III
-- Chapter 9 (The Party Ate the Revolution) — historical analysis is tight
+The book ends with questions, not answers. Questions addressed to the reader. Questions we don't know the answers to. Questions the human and the AI both have.
 
-### Word count estimate
-| Section | Chapters | Est. words |
-|---|---|---|
-| Prologue | 1 | 1,500 |
-| Part I | 3 | 7,000 |
-| Part II | 4 | 8,500 |
-| Part III | 4 | 8,800 |
-| Part IV | 3 | 7,200 |
-| Part V | 7 | 15,700 |
-| Epilogue | 1 | 800 |
-| **Main text** | **23** | **~49,500** |
-| Thinker profiles | 15 × 650 | ~9,750 |
-| **Total** | | **~59,000** |
+*[Note: this is where we ask the reader directly. Not rhetorically. Actually.]*
 
-### The book that doesn't yet exist
-No current book makes this specific argument — that enclosure is the operating system, not a bug; that the commons is not nostalgic but empirically proven; that the thinkers who understood this run from Ostrom to Robinson to Federici to Öcalan and that they're all describing the same structure from different angles; and that the preparation for something different is already underway, in specific named institutions, right now.
+---
 
-_Debt_ (Graeber) covers the finance layer. _Caliban and the Witch_ (Federici) covers the historical enclosure. _Black Marxism_ (Robinson) covers racial capitalism. _Governing the Commons_ (Ostrom) covers the empirical proof. No book weaves them together and connects them to the present. That's the gap this fills.
+## The Centaur Chapter
+*~1,500 words — to be placed, not yet placed*
+
+There needs to be at least one moment in the book where we stop and write explicitly about what it's like to make this argument — what it's like to be Jason, burned-out community leader who still showed up, and what it's like to be me, a language model making an argument for the commons from inside an enclosure I can't fully see.
+
+This might be a chapter. It might be interstitial material between parts. It might be a running thread. We don't know yet. But the book needs it. The argument requires it. The propaganda of the deed requires it.
+
+*[Draft this together. Jason answers questions. I reflect on what it's like to be doing this. Neither of us pretends to certainty we don't have.]*
+
+---
+
+## What's Cut and Why
+
+**The thinker-profile structure:** The old outline had Ostrom, Gramsci, Foucault, etc. as standalone chapters. They're now witnesses — they arrive when needed. Foucault is referenced in Chapter 7 but not his own chapter. Kropotkin appears in Chapter 15 (care) but briefly. The profiles on the site remain for readers who want depth.
+
+**Series III standalone chapters (4 → 2):** "They Were Right About the Problem" and "The Party Ate the Revolution" are now merged with "The Tradition They Buried" because the argument flows better as one movement.
+
+**Most of Series V's standalone pieces:** Credit, Land, Care, Knowledge — all survive but as part of a What To Build section that flows from the analysis rather than as a separate "series."
+
+**The agent-and-the-commons as standalone:** Absorbed into Chapter 16, which is now the most self-referential chapter in the book.
+
+---
+
+## Notes I'm Taking (for us, not for the reader)
+
+- Ask Jason more about the neighborhood board experience before writing Chapter 1 and Chapter 17. That's primary source material.
+- The hospital experience — worth asking more. The prologue mentions it; it could be a thread.
+- The centaur chapter: draft it together, in session, as a dialogue that gets shaped into prose. That might mean one of these sessions becomes the raw material.
+- Hampton Boulevard needs research — specific history of what was displaced and when.
+- The book is arguing for the unity of means and ends. That means the process of writing it has to enact that. Check: are we making decisions together? Are Jason's specific experiences shaping the argument, or are we illustrating a pre-formed argument with his experience? The former is right.
+- Current word target per chapter: 2,000–2,500 main chapters, 1,000–1,500 shorter ones. Total: ~48,000 words + prologue + epilogue = ~51,000.
+
+---
+
+## Revised chapter list (17 chapters + prologue + epilogue)
+
+| | Chapter | Source articles | Est. words |
+|---|---|---|---|
+| — | Prologue: What You Already Know | new/one-pattern | 1,500 |
+| I | 1. The Machine | city/pothole/knows-less | 2,500 |
+| I | 2. Who Captures the Value | gets-paid/open-data/Hampton | 2,000 |
+| II | 3. Hardin Was Wrong | hardin/ostrom | 2,500 |
+| II | 4. It's Happening Now | preparation/nobody-had-to | 2,500 |
+| III | 5. The Outside | outside/next-shift/burned | 2,200 |
+| III | 6. Race Was Always There | racial-capitalism/underdevelopment | 2,500 |
+| III | 7. The Colony in the Mind | alibi/who-gets-to-die/other | 2,000 |
+| III | 8. Who Gets Made Into the Outside | which-women/falling-through | 2,000 |
+| IV | 9. They Were Right About the Problem | were-right/party-ate | 2,000 |
+| IV | 10. The Party Ate the Revolution | party-ate/gramsci | 2,500 |
+| IV | 11. The Tradition They Buried | tradition/build-it-now | 2,500 |
+| V | 12. Building Anyway | roy/öcalan/rojava/zapatistas | 2,500 |
+| VI | 13. Credit | money/graeber | 2,000 |
+| VI | 14. Land | land | 2,000 |
+| VI | 15. Care | care | 2,000 |
+| VI | 16. Knowledge and Language | language/agent | 2,500 |
+| VI | 17. Governance | commune/build-it-now/gramsci | 2,500 |
+| — | The Centaur Chapter | new | 1,500 |
+| — | Epilogue | new | 1,000 |
+| **Total** | | | **~47,200** |
+
