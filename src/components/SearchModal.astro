@@ -1,0 +1,129 @@
+---
+// SearchModal.astro — client-side Pagefind search
+---
+<div id="search-modal" class="search-overlay" hidden aria-modal="true" role="dialog" aria-label="Search">
+  <div class="search-box">
+    <div class="search-input-row">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="flex-shrink:0;opacity:0.45">
+        <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="search-input" type="search" placeholder="Search Power Explained…" autocomplete="off" spellcheck="false" />
+      <kbd>esc</kbd>
+    </div>
+    <div id="search-results"></div>
+    <div id="search-hints" class="search-hints">
+      {["commons","enclosure","Gramsci","mutual aid","Rojava"].map(h => (
+        <button class="search-hint" data-hint={h}>{h}</button>
+      ))}
+    </div>
+  </div>
+</div>
+
+<script>
+  let pagefind = null
+
+  async function loadPagefind() {
+    if (pagefind) return pagefind
+    try {
+      const url = '/pagefind/pagefind.js'
+      const pf = await import(/* @vite-ignore */ url)
+      pagefind = pf.default ?? pf
+    } catch { pagefind = null }
+    return pagefind
+  }
+
+  const modal   = document.getElementById('search-modal')
+  const input   = document.getElementById('search-input')
+  const results = document.getElementById('search-results')
+  const hints   = document.getElementById('search-hints')
+
+  function open() {
+    modal.removeAttribute('hidden')
+    input.focus()
+    loadPagefind()
+  }
+
+  function close() {
+    modal.setAttribute('hidden', '')
+    input.value = ''
+    results.innerHTML = ''
+    hints.style.display = ''
+  }
+
+  document.addEventListener('pe:search-open', open)
+  modal.addEventListener('click', e => { if (e.target === modal) close() })
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close() })
+
+  document.querySelectorAll('.search-hint').forEach(btn => {
+    btn.addEventListener('click', () => {
+      input.value = btn.dataset.hint
+      input.dispatchEvent(new Event('input'))
+    })
+  })
+
+  let debounce
+  input.addEventListener('input', () => {
+    clearTimeout(debounce)
+    debounce = setTimeout(async () => {
+      const q = input.value.trim()
+      if (!q) { results.innerHTML = ''; hints.style.display = ''; return }
+      hints.style.display = 'none'
+      const pf = await loadPagefind()
+      if (!pf) { results.innerHTML = '<p class="search-empty">Search not available — run a build first.</p>'; return }
+      const raw = await pf.search(q)
+      const data = await Promise.all(raw.results.slice(0, 8).map(r => r.data()))
+      if (!data.length) { results.innerHTML = `<p class="search-empty">No results for <em>${q}</em></p>`; return }
+      results.innerHTML = data.map(r => `
+        <a href="${r.url.replace(/\.html$/, '')}/" class="search-result">
+          <div class="result-title">${r.meta?.title || r.url}</div>
+          ${r.excerpt ? `<div class="result-excerpt">${r.excerpt}</div>` : ''}
+        </a>
+      `).join('')
+    }, 200)
+  })
+</script>
+
+<style>
+  .search-overlay {
+    position: fixed; inset: 0; z-index: 1000;
+    background: rgba(var(--ink-rgb), 0.55);
+    backdrop-filter: blur(3px);
+    display: flex; align-items: flex-start; justify-content: center;
+    padding: clamp(4rem,12vh,8rem) 1rem 0;
+  }
+  .search-overlay[hidden] { display: none; }
+  .search-box {
+    background: var(--paper); border: 1px solid var(--rule-strong);
+    border-radius: 2px; width: 100%; max-width: 640px;
+    box-shadow: 0 16px 48px rgba(var(--ink-rgb),0.22); overflow: hidden;
+  }
+  .search-input-row {
+    display: flex; align-items: center; gap: 0.75rem;
+    padding: 0.9rem 1.1rem; border-bottom: 1px solid var(--rule);
+  }
+  #search-input {
+    flex: 1; border: none; outline: none; background: transparent;
+    font-family: var(--mono); font-size: 0.85rem; color: var(--ink);
+  }
+  .search-input-row kbd {
+    font-family: var(--mono); font-size: 0.6rem;
+    color: rgba(var(--ink-rgb),0.4); border: 1px solid var(--rule);
+    border-radius: 2px; padding: 0.1em 0.4em;
+  }
+  .search-result {
+    display: block; padding: 0.85rem 1.1rem;
+    border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit;
+  }
+  .search-result:hover { background: var(--paper-mid); }
+  .result-title { font-family: var(--display); font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .result-excerpt { font-family: var(--mono); font-size: 0.7rem; color: rgba(var(--ink-rgb),0.55); line-height: 1.5; }
+  .search-empty { padding: 1.25rem 1.1rem; font-family: var(--mono); font-size: 0.72rem; color: rgba(var(--ink-rgb),0.45); }
+  .search-hints { padding: 1.1rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .search-hint {
+    font-family: var(--mono); font-size: 0.68rem;
+    background: var(--paper-mid); border: none; border-radius: 2px;
+    padding: 0.25em 0.6em; cursor: pointer; color: rgba(var(--ink-rgb),0.6);
+  }
+  .search-hint:hover { color: var(--ink); }
+</style>

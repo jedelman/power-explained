@@ -2,6 +2,7 @@
 import '../styles/global.css'
 import SeriesNav from '../components/SeriesNav.astro'
 import SiteHeader from '../components/SiteHeader.astro'
+import SearchModal from '../components/SearchModal.astro'
 
 interface Props {
   title: string
@@ -41,6 +42,7 @@ const canonical = `https://power-explained.jason-edelman.org${Astro.url.pathname
       <slot />
     </main>
   </div>
+  <SearchModal />
 </body>
 </html>
 
