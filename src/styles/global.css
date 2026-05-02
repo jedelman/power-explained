@@ -33,8 +33,8 @@
   --plum-rgb:    92,45,114;
   --plum-light:  #f2ecf7;
 
-  --display: 'Cormorant Garamond', Georgia, serif;
-  --body:    'Lora', Georgia, serif;
+  --display: 'Spectral', Georgia, serif;
+  --body:    'Source Serif 4', Georgia, serif;
   --mono:    'DM Mono', monospace;
 
   --max:    680px;
@@ -2258,6 +2258,12 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
   color: var(--ink);
 }
 
+/* ── Sidebar push (no margin-left animation) ────────────────────────────── */
+@media (min-width: 900px) {
+  #main { transition: transform 0.25s ease; }
+  #main.sidebar-pushed { transform: translateX(280px); }
+}
+
 /* ── Shoelace scroll fix ─────────────────────────────────────────────────── */
 /* sl-drawer sets overflow:hidden on body when open; override on desktop */
 @media (min-width: 900px) {
@@ -2277,3 +2283,18 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
 .body-text a.xl:hover {
   text-decoration-color: var(--red);
 }
+
+/* ── Article breadcrumb ─────────────────────────────────────────────────── */
+.article-breadcrumb {
+  background: var(--paper-mid);
+  padding: 0.6rem var(--gutter);
+  font-family: var(--mono); font-size: 0.65rem;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  display: flex; align-items: center; gap: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+.article-breadcrumb a {
+  color: rgba(var(--ink-rgb),0.55); text-decoration: none;
+}
+.article-breadcrumb a:hover { color: var(--red); }
+.bc-sep { opacity: 0.35; }

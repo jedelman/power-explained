@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content'
 import Base from '../layouts/Base.astro'
-import { getAdjacentArticles } from '../lib/articles.js'
+import { getAdjacentArticles, SERIES } from '../lib/articles.js'
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles')
@@ -18,6 +18,20 @@ const { prev, next } = getAdjacentArticles(`/${slug}`)
 ---
 
 <Base title={title} description={description} seriesTag={seriesTag}>
+  
+  {(() => {
+    const series = SERIES.find(s => s.pieces.some(p => p.url === `/${slug}`))
+    const piece = series?.pieces.find(p => p.url === `/${slug}`)
+    if (!series || !piece) return null
+    return (
+      <div class="article-breadcrumb">
+        <a href={`/series/${series.id}`}>{series.label}</a>
+        <span class="bc-sep">→</span>
+        <span>{piece.num}</span>
+      </div>
+    )
+  })()}
+
   <div class="hero">
     <div class="hero-inner">
       <h1 set:html={h1 || title} />
@@ -26,7 +40,7 @@ const { prev, next } = getAdjacentArticles(`/${slug}`)
   </div>
 
   <div class="article-wrap">
-    <div class="body-text">
+    <div class="body-text" data-pagefind-body>
       <Content />
     </div>
 

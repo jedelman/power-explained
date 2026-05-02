@@ -99,13 +99,13 @@ const currentSeries = SERIES.find(s => s.pieces.some(p => p.url === currentPath)
     sidebar.classList.add('open')
     toggle.style.left = SIDEBAR_WIDTH + 'px'
     icon.textContent = '←'
-    if (main) main.style.marginLeft = SIDEBAR_WIDTH + 'px'
+    if (main) main.classList.add('sidebar-pushed')
   }
   function sidebarClose() {
     sidebar.classList.remove('open')
     toggle.style.left = '0'
     icon.textContent = '☰'
-    if (main) main.style.marginLeft = '0'
+    if (main) main.classList.remove('sidebar-pushed')
   }
 
   toggle.addEventListener('click', () =>
