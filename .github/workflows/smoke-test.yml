@@ -19,6 +19,20 @@ jobs:
         with:
           node-version: '20'
 
+      - name: List CF Pages projects (debug)
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        run: |
+          curl -s \
+            -H "Authorization: Bearer $CF_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/pages/projects?per_page=20" \
+          | node -e "
+            const d = JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
+            if (d.errors?.length) { console.error('API error:', JSON.stringify(d.errors)); process.exit(1); }
+            console.log('Projects:', (d.result||[]).map(p => p.name).join(', '));
+          "
+
       - name: Wait for Cloudflare Pages deploy
         id: wait
         env:
