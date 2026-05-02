@@ -5,57 +5,33 @@ description: "Cedric Robinson showed that capitalism didn't become racial throug
 seriesTag: "The World the Framework Missed — Series IV"
 h1: "The Outside Was Always People"
 ---
-Earlier in this series, we used [Rosa Luxemburg's argument](the-outside-capital-needs.html) to explain how capitalism works. Capital can't complete its own reproduction circuit internally — it always needs an outside to extract from. Pre-capitalist economies. Subsistence communities. Unpaid domestic labor. The outside is what makes the inside possible.
+They told you capitalism came first. Then racism came along to justify it. You could almost imagine a world where capitalism developed without it.
 
-But Luxemburg mapped the outside geographically. The colonies. The frontier. The not-yet-enclosed. What she left unnamed was the question of who populated that outside — and why certain kinds of people were consistently placed there, treated as extractable, and then described as naturally suited to that condition. [Producing the sense that an arrangement is natural](gramsci.html) is precisely what hegemony does — and racial capitalism needed an especially complete version of it, one that reached into the colonized person's self-understanding.
+Cedric Robinson spent his life proving that's a lie.
 
-Cedric Robinson spent his career answering that question. His 1983 book _Black Marxism: The Making of the Black Radical Tradition_ makes an argument that sounds like a correction but is actually something more radical: capitalism was not a system that racism was later added to. Race was there at the beginning, built into the structure itself.
+Capitalism wasn't color-blind and then stained by racism. It was built on race. Race was baked into the machinery from day one. Not as a later excuse for exploitation—as the thing that made exploitation invisible.
 
-## Before the colonies
+## How you make people extractable
 
-The standard story goes something like this: capitalism developed in Europe as a relatively race-neutral economic system, and then European powers brought racist ideology with them to justify the slave trade and colonial conquest. Race was an excuse — a post-hoc rationalization for exploitation that was really about profit.
+Before slavery became industrial, before the colonies became empires, Europe already had a system for deciding which people were extractable. In the medieval order, certain bodies were classified as different kinds of people with different rights, different access to land, different standing before law. When capitalism emerged from that order, it didn't leave those hierarchies behind. It weaponized them.
 
-Robinson's argument is that this story starts too late. Before Europeans built colonial empires, they had already developed racial hierarchies at home. Medieval and early modern Europe organized its internal populations by what we would recognize as proto-racial categories — Welsh, Irish, Slavs, Jews — marked as different kinds of people with different capacities and different relationships to law, land, and legitimate violence. The word "slave" itself comes from "Slav" — eastern Europeans who were enslaved in large numbers before African slavery became the dominant form.
+Race—the classification system that marks certain people as naturally suited for certain kinds of use—turned the problem that capital could never solve on its own into something that looked natural. Capital needs labor it doesn't have to pay for. It needs people who can be worked until they break and then replaced. Without a classification system that marks certain people as less than fully human, this looks like slavery. With it, it looks like the natural order.
 
-When European capitalism developed out of this feudal order, it didn't leave those hierarchies behind. It incorporated them into its basic architecture. Certain bodies were available for certain kinds of use. Certain labor was compensated and certain labor was expropriated. The racial classification system didn't justify exploitation after the fact — it made exploitation legible as not-exploitation. You cannot steal from someone who is not recognized as having the kind of self that can own things.
+On the plantation, a human being is classified as property. Every hour of work goes to the owner. Reproduction happens at no cost to the system—the enslaved person's body does it. Risk is externalized completely—sickness, age, resistance all become the enslaved person's problem. There is no legal recourse, no counter-power that labor could build. This is capitalism's ideal form, stripped of all the friction that makes it look respectable elsewhere. And it was only possible because racial classification made the violence invisible as violence.
 
-> Race didn't attach itself to capitalism from the outside. It was **internal to capitalism's logic** from the start.
+> Capitalism wasn't racial because it was evil.
+> It was racial because **race solved capitalism's mathematics problem.**
 
-Robinson calls this **racial capitalism**: the understanding that capitalism as a historical system has always produced and required racial differentiation. Not as an add-on. As a condition of operation.
+## What got built in the cracks
 
-## What the slave ship actually was
+But here is what Robinson's work actually does that matters: having shown what capitalism extracted, he shows what people built anyway. In the spaces capital created trying to destroy them.
 
-The transatlantic slave trade is usually presented as a moral horror grafted onto an economic system. Robinson's framework shows it as something more structurally significant: the clearest expression of capitalism's actual operating logic, with the usual justifications stripped away.
+The maroon communities of Jamaica and Suriname—enslaved people who escaped to inaccessible terrain and built autonomous settlements that survived for generations. They had their own governance, their own dispute resolution, their own productive organization. Not built from abundance. Built from scraps, from what could be stolen from the plantation, from knowledge carried across the water.
 
-On the plantation, you have human beings classified as property, producing surplus value that flows entirely to owners, reproducing themselves at their own cost, with no recourse to any legal or political structure that recognizes their claims. This is not a distortion of capitalism. It is capitalism's ideal form — the complete externalization of reproduction costs, the complete suppression of any counter-power that labor might organize, the complete transfer of risk to the most vulnerable party.
+The Black church. The mutual aid societies of free Black communities. The Underground Railroad. These are all commons in the fullest sense—shared resources governed by the communities that depend on them, maintained through collective effort, without private ownership or state management.
 
-What makes it possible is the racial classification. The slave is not recognized as a legal person, not because the people doing the classifying can't see that slaves are human, but because the classification system produces a category — enslaved African — that is definitionally outside the class of beings with legal standing. The violence is not incidental. The classification is doing the work that makes the violence appear as something other than what it is.
+The people capitalism classified as outside the human built the most durable commons traditions we have. Built them under conditions explicitly designed to prevent that. Built them anyway.
 
-> **W.E.B. Du Bois and the wages of whiteness**
-> Robinson's intellectual predecessor on this question was W.E.B. Du Bois, whose 1935 book _Black Reconstruction in America_ contains an analysis that Robinson extends. Du Bois argued that white workers in the post-Civil War United States accepted lower material wages in exchange for what he called the "wages of whiteness" — the psychological and social benefits of racial classification that set them above Black workers. This is a devastating analysis of why working-class solidarity across racial lines has been so difficult to build in the United States. It's not that white workers are uniquely racist. It's that the system is structured so that racial solidarity offers white workers a concrete benefit — access to the category of the fully human, the legally protected, the politically visible — that class solidarity does not automatically provide. Capitalism uses racial hierarchy to fragment the class that might otherwise challenge it. This is not an accident. It is a feature.
+That is not resilience in the face of oppression. That is the proof that commons-making is fundamental to what people do when they're free to choose how to live together. It doesn't require abundance. It requires something else—the refusal to accept the category you've been assigned, and the will to build differently.
 
-## The Black radical tradition
-
-The second half of Robinson's book does something unexpected. Having established racial capitalism as a structural condition, he turns to the question of how Black people under slavery and colonialism responded — not just politically, but philosophically and culturally.
-
-What he finds is a tradition of thought and practice that developed in the conditions of its own suppression: in slave ships, plantations, maroon communities, churches, informal economies, music, storytelling, and organized resistance. He calls this the Black radical tradition. It includes figures like Du Bois, C.L.R. James, and Richard Wright, but it extends far beyond intellectuals — it is the accumulated practice of people who built forms of life, solidarity, and meaning under conditions designed to prevent exactly that.
-
-This matters for the framework we've been building throughout this site. We've talked about the common as a productive substrate — the shared knowledge, care, and cooperation that capital depends on but cannot produce. Robinson shows that the most significant commons traditions were built precisely by the people capital classified as outside the human. Under slavery. Under colonialism. Under apartheid.
-
-The maroon communities of Jamaica, Suriname, and the American South — escaped enslaved people who built autonomous settlements in inaccessible terrain and defended them for generations — are commons in [Ostrom's sense](hardin-was-wrong.html): bounded, self-governing, with their own rules, their own dispute resolution, their own productive organization. They weren't built from abundance. They were built from the margins of extraction, with whatever could be taken from or refused to the plantation economy.
-
-The Black church. The mutual aid societies of free Black communities in the antebellum North. The networks of the Underground Railroad. The organizational infrastructure of the civil rights movement. These are all commons — shared resources governed by the communities that depend on them, maintained through collective effort, without private ownership or state management.
-
-> The people capitalism classified as outside the human built the most durable **commons traditions we have.**
-
-## What this changes about the framework
-
-Earlier pieces in this series asked: where does the common come from? Kropotkin said mutual aid is natural to social animals. Ostrom said communities develop governance institutions when they need to. The feminist theorists in Series II showed that reproductive labor — care, maintenance, social reproduction — is the material content of the common.
-
-Robinson adds: the communities that have built the most durable commons were doing so under direct assault. Not in stable conditions where institutions could develop gradually. Under slavery. Under colonial occupation. Under the systematic destruction of every institution they built.
-
-This changes the theory of what the commons requires. It's not primarily a question of favorable conditions — sufficient resources, recognized governance, external authorities that leave you alone. It's a question of what communities do when those conditions are actively denied. The answer, across centuries and continents, is: they build anyway. In the spaces left by extraction. In the cultural forms that couldn't be fully commodified. In the relationships that survived because they were invisible to the systems watching for them.
-
-If the commons can survive slavery, it can survive platform capitalism. That's not optimism. It's a structural observation about what the Black radical tradition actually demonstrates.
-
-The next piece takes this analysis from the United States and the Caribbean to Africa — and asks not just how racism structured capitalism, but how capitalism actively produced the conditions it then called underdevelopment.
+The next piece shows how that refusal got systematized, and why the system had to be so violent to enforce the categories it depended on.

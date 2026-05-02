@@ -5,53 +5,27 @@ description: "Arundhati Roy reports from the enclosures while they're happening.
 seriesTag: "The World the Framework Missed — Series IV"
 h1: "The Commons They Never Stopped Building"
 ---
-The previous four pieces in this series have been largely diagnostic — mapping the architecture of racial capitalism, the production of underdevelopment, the psychology of colonial capture, the politics of death. What they risk, cumulatively, is making the commons appear as something that exists only in the past tense, or only in abstract theory: a substrate that was enclosed, a tradition that was buried, a governance form documented by Nobel Prize winners.
+Arundhati Roy reports from the ground. While theorists are theorizing, communities in India are being dispossessed. The Narmada Valley Development Project—dams that will displace half a million people—is built on the story that development requires destruction. That some people will have to be sacrificed for the greater good. That history requires moving forward over bodies.
 
-Arundhati Roy won't let that frame stand. She is a novelist and journalist who has spent three decades reporting from the enclosures as they happen — not as history, as current events, in specific places with specific names and specific people and specific consequences. Her method is the opposite of abstraction: she will not let you hold the theory without holding the body count.
+And she documents the people saying no. Not to the concept of development. No to being sacrificed for it. No to the story that enclosure is inevitable.
 
-But she is also, in her essays, doing theory — arriving at structural claims through the accumulation of specific evidence. This piece uses her work to ground the series in contemporary India, and to show that the forces this series has been mapping are not historical curiosities. They are the operational reality of a democracy in 2026, conducted in the name of development, with the full toolkit of the modern state.
+## Building while being erased
 
-## The greater common good
+What Roy shows—and what is almost invisible if you're looking at official records—is the commons that communities maintain even as they're being dispossessed. The forest commons that are managed sustainably by communities that have lived in those forests for generations, maintaining practices of harvest and regrowth that capitalism can't see as valuable because they can't be capitalized.
 
-In 1999, Roy published an essay called "The Greater Common Good" about the Sardar Sarovar Dam on the Narmada River in Gujarat — the centerpiece of a planned series of 3,200 dams that would, according to its proponents, bring water and electricity to millions of people in drought-prone regions. The project had been contested for decades by the Narmada Bachao Andolan — the Save the Narmada Movement — led by Medha Patkar, one of the most sustained grassroots environmental and human rights campaigns in Indian history.
+The water commons. The grazing commons. The commons in knowledge—healing practices, seed varieties, methods of cultivation—maintained through daily practice, through teaching, through seasons of repetition. Not formalized. Not backed by law. Just maintained because the community depends on it.
 
-Roy spent months along the river before writing the essay. What she found was this: the people who would benefit from the dam's electricity and irrigation were not the people being displaced by it. The dam would submerge hundreds of villages in the river valley — homes, temples, forests, agricultural land, graveyards. The people living there were predominantly Adivasi (indigenous) and Dalit communities, among the most economically and politically marginalized in India. The electricity generated would go to cities and industries. The irrigation would serve commercial agriculture in downstream areas. The "greater common good" that justified the displacement was a good for someone else entirely.
+When dams are proposed, when mines are planned, when "development" comes with eviction orders, these commons are what's actually being destroyed. Not abstract nature. Not resources. The basis of collective life.
 
-> "The greater common good" is one of the oldest alibis in the enclosure playbook. Roy names it, and won't let go.
+> Communities don't stop building commons
+> when development comes.
+> They **build them harder,
+> more visibly, more defiantly.**
 
-This is the alibi structure in its contemporary democratic form. Not the civilizing mission of colonial administration. Not the scientific racism of nineteenth-century Europe. The language of development, infrastructure, national interest, and the rational allocation of resources. The state presents itself as a neutral arbiter calculating aggregate benefit. The displacement of specific communities is presented as an unfortunate but necessary cost of progress that will benefit the majority.
+## What survival looks like from below
 
-Roy's counter-argument is not anti-development. It is a demand for honest accounting. Who benefits? Who pays? When you add those up honestly, the Narmada project looks not like a rational allocation of shared resources but like a transfer — from communities that had lived along the river for generations, managing its forests and fisheries through exactly the kind of governance Ostrom documented, to urban consumers and corporate interests whose claim on the river's water derived entirely from the state's willingness to enforce it.
+The dam projects don't stop because Roy documents them. The struggle continues. Some communities delay the destruction. Some preserve pockets of what was. Some build new forms of commons in the gaps—networks of mutual aid, collective management of remaining resources, sharing of knowledge about how to survive what's coming.
 
-## The forest as a commons
+What Roy documents is not victory. It's persistence. The refusal to disappear quietly. The insistence that another way was there, was possible, and can be rebuilt.
 
-The Narmada struggle is one instance of a pattern running across India: the ongoing enclosure of forest commons that Adivasi communities have governed for centuries. The colonial government had classified much of this forest as state property, denying indigenous communities legal recognition of their customary governance rights. Post-independence India largely inherited this classification. The Forest Department controlled access, extracted revenue, and periodically evicted communities whose presence was classified as encroachment — on land their grandparents' grandparents had governed.
-
-The Forest Rights Act of 2006 was a legislative attempt to correct this — to recognize the forest governance rights of Adivasi communities and other traditional forest dwellers. Roy's reporting tracks what happened to it in practice: implementation was slow, incomplete, and contested by Forest Department officials who had institutional interests in maintaining their control. Community forest rights were recognized in some places and denied in others, often through opaque bureaucratic processes that communities had no real ability to influence.
-
-Meanwhile, the same forests were being allocated to mining companies, paper mills, and hydroelectric projects under different legal frameworks that moved much faster. A community could spend a decade trying to get a forest rights claim recognized and be evicted in the meantime for a mine that was approved in eighteen months. The asymmetry is not accidental. It is the routing architecture of development capital, determining which legal processes move fast and which move slow, which claims are heard and which are classified as obstacles.
-
-> **Specificity as method**
-> Roy's most important contribution is methodological, not just political. She insists on specificity — on naming places, people, companies, officials, and mechanisms — in a way that makes abstraction impossible. When she writes about dam displacement, you know how many people, which communities, where they were moved to, what happened to them there. When she writes about corporate land acquisition, you know which company, which government contract, which official approved it. This matters for the framework. The alibi structure depends on abstraction — on keeping the beneficiaries and the displaced people far enough apart conceptually that the transfer between them is invisible as a transfer. Roy's method destroys that distance. She forces the reader to hold the specific face of the person being displaced and the specific name of the entity that will profit, simultaneously, in the same sentence. That simultaneity is the argument.
-
-## What the resistance actually looks like
-
-Roy is not a romantic about resistance. She doesn't describe Adivasi communities as noble savages living in pristine harmony with nature, or the Narmada struggle as a pure expression of folk wisdom against modernity. She describes people making difficult political decisions under conditions of severe asymmetry — negotiating with government officials, litigating in courts, blocking machinery, going on hunger strikes, winning partial victories, losing ground, continuing anyway.
-
-The Narmada Bachao Andolan achieved something real: it delayed the dam for years, forced environmental reviews that produced binding conditions, and created a legal and political record that other displacement struggles could draw on. It didn't stop the dam. But it changed the terrain. The dam was built, but the affected communities had legal standing they hadn't had before, compensation frameworks that didn't exist before, and organizational capacity that survived the dam and went on to contest other projects.
-
-This is what commons-building under enclosure looks like in practice: not the defeat of the enclosing force, but the construction of governance capacity that outlasts any particular struggle. The Narmada movement built institutions — legal resources, organizational forms, political networks — that belong to the communities that built them. That is the common generated by the struggle itself, separate from the question of whether the struggle won.
-
-[Ostrom's design principles](hardin-was-wrong.html) are present here, in conditions very different from Swiss alpine meadows. The movement has clear membership (communities directly affected), rules about decision-making (meetings, consensus processes, internal democracy that Roy documents in detail), monitoring (they tracked the dam's progress and its effects obsessively), conflict resolution (internal disputes were a constant challenge the movement managed with varying success), and nested governance (local community organizations connected to state-level coalitions connected to national networks connected to international solidarity). The design principles are not a European template imposed on Indian communities. They're a description of what functional commons governance looks like, which turns out to look similar across very different cultural contexts — because the functional requirements are similar.
-
-## The state as landlord
-
-Roy's deeper structural argument — the one that connects her journalism to the theoretical frame of this series — is about what the democratic postcolonial state actually is in relation to its own people. The Indian state presents itself as the legitimate representative of the Indian people, governing in their collective interest. What Roy's reporting shows, repeatedly, is that the state functions as a landlord — controlling land, forests, rivers, and minerals, and allocating access to those resources to whichever claimants have sufficient political and economic leverage to extract favorable treatment.
-
-This is [Fanon's warning about the native bourgeoisie](the-alibi-was-a-mirror.html) made concrete. The colonial state classified forests as state property. The postcolonial state inherited that classification and found it useful — not for the same colonial purposes, but for the purposes of a development model that required the same kind of dispossession. The face at the top changed. The routing architecture didn't.
-
-The communities along the Narmada, in the forests of Chhattisgarh, on the coastal fishing grounds being allocated to aquaculture corporations — they are not dealing with a state that is neutral between their interests and the interests of capital. They are dealing with a state whose institutional interests, bureaucratic incentives, and political funding structures align overwhelmingly with capital. The legal system they must navigate was designed during colonial administration and has been modified but not reconstituted. They are fighting on terrain that was built by and for the enclosing forces.
-
-And they are building commons anyway. Under eviction orders. In the gaps the state has not yet closed. With the organizational capacity generated by the struggle itself. This is what the series has been building toward: not the romantic image of an untouched common, but the specific, difficult, often losing, never-fully-extinguished practice of people building governance structures that serve themselves, in conditions designed to prevent exactly that.
-
-The final piece is about what that looks like when it reaches the scale of a region — and what it requires in theory and in practice to hold.
+The final piece in this series asks: what does it look like to build commons without the state? Not in the gaps of empire, but deliberately, as a complete alternative?

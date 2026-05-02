@@ -5,61 +5,28 @@ description: "Walter Rodney didn't ask why Africa was underdeveloped. He asked h
 seriesTag: "The World the Framework Missed — Series IV"
 h1: "Underdevelopment Is a Verb"
 ---
-The standard story about global poverty goes something like this: some parts of the world developed modern economies and some didn't. The ones that didn't are "developing" — meaning they're behind, catching up, on the same path but further back. The job of development economics is to figure out how to help them get to where the developed world already is.
+Africa was not underdeveloped. It was developed—into poverty. This is not a metaphor. It is what Walter Rodney called the process: how Europe produced the underdevelopment of Africa deliberately, systematically, over centuries of extraction.
 
-Walter Rodney's 1972 book _How Europe Underdeveloped Africa_ takes that story apart from the first sentence. The title itself is the argument. Underdevelopment is not a state. It's an action. Something that is done, by specific actors, to specific places and peoples, for specific reasons. Africa did not fail to develop. Africa was actively underdeveloped — its productive capacity destroyed, its surpluses extracted, its institutions restructured to serve external accumulation rather than internal wellbeing.
+Not accident. Not natural. Not the result of inferior governance or culture or resources. Engineering.
 
-This is not a claim about African deficiency. It is a claim about European agency and its consequences. Rodney was a Guyanese historian, and he was writing at the moment of African independence — when newly sovereign states were discovering that political independence without economic restructuring left the colonial relationship largely intact. Understanding how that relationship had been built was not academic. It was strategic.
+## Developed into poverty
 
-## The difference between undevelopment and underdevelopment
+Before European colonization, Africa had complex economies, sophisticated governance structures, extensive trade networks, wealth concentrated in particular regions and with particular groups. What colonization did was redirect all of that toward Europe. Resources extracted as raw materials. Labor controlled through violence. Governance structures dismantled and replaced with extractive administration. Trade networks redirected to flow north.
 
-Rodney draws a distinction that does a lot of work. **Undevelopment** means a place hasn't yet developed — there's nothing in particular to explain, it just hasn't happened yet. **Underdevelopment** means a place has been actively prevented from developing, or had its existing development reversed. These are completely different situations requiring completely different analyses.
+The calculation was simple: the more wealth extracted, the more that wealth had to come from somewhere. Africa didn't become poor because it lacked resources or knowledge. It became poor because its resources were continuously drained away and its knowledge systems were systematically destroyed.
 
-Before European contact, African societies were not undeveloped. They had agriculture, metallurgy, long-distance trade networks, urban centers, political institutions, and sophisticated craft production. West Africa was integrated into trans-Saharan trade routes that connected it to North Africa, the Mediterranean, and the Middle East. Great Zimbabwe and the Kingdom of Kongo were complex political and economic entities. The empire of Mali at its height in the fourteenth century was one of the wealthiest political structures on earth.
+By the time colonialism officially ended, the infrastructure had already been installed: the ports and railways built to extract, not develop. The economies reoriented to supply European demand, not their own survival. The governance structures designed to extract, not serve. The intellectual traditions, the land tenure systems, the methods of production—all of it distorted to serve the machine of extraction.
 
-None of this was static or perfect. African societies had their own internal inequalities and conflicts. But the trajectory before European contact was not one of stagnation. It was one of ongoing development — the normal, uneven, sometimes contradictory process of societies building capacity over time.
+> Underdevelopment isn't a state of nature.
+> It's the **result of development work**—
+> deliberate, systematic, violent.
 
-The slave trade ended that trajectory. And not just by removing people.
+## What gets erased in the telling
 
-> Europe didn't find Africa behind and leave it there. Europe **produced Africa's underdevelopment** as a condition of its own development.
+The trick of the system was to make the extraction invisible as extraction. To call the process "development" of the colonizing power while describing the colonized regions as naturally backward. To erase the prior sophistication, the prior knowledge, the prior systems that worked.
 
-## The mechanism: how extraction produced destruction
+Rodney's work is an archaeology of that erasure. He shows what was there, what was destroyed, and how the destruction was then taught as natural history. The narrative that emerges is not "we made you poor." It's "you were always poor, we came to help."
 
-Between roughly 1500 and 1900, an estimated 12 to 15 million Africans were transported across the Atlantic in the slave trade. The demographic effect alone is staggering: African population growth stagnated or reversed during centuries when European and Asian populations were growing. The people removed were disproportionately young and male — exactly the productive labor that drives economic development.
+Understanding this matters because it changes how you see the present. Every claim that the Global South needs development from the Global North, every structural adjustment program that extracts even as it claims to develop, every piece of technology that flows north while resources flow south—all of this continues the same logic. The extraction just wears different clothes now.
 
-But Rodney's argument goes beyond the body count. The slave trade restructured African political economies from the inside. African rulers who participated in the trade — and the trade's scale required African participation — were rewarded with European goods, weapons, and political support. Those who didn't participate faced raids from neighbors who did. The incentive structure pushed African political organization toward capture and extraction rather than production and accumulation.
-
-Conflict increased. Stable long-distance trade networks were disrupted. Agricultural production declined as populations moved away from exposed coastal areas. Political energy that might have gone into institution-building went into raiding, fortification, and managing the slave economy. The slave trade didn't just take people out of Africa. It reorganized African societies around the logic of extraction.
-
-> **The terms of trade**
-> The goods exchanged for enslaved Africans — guns, textiles, alcohol, manufactured goods — were not equivalent in economic value to what was received. They were consumption goods, not capital goods. They could not be used to build productive capacity. African rulers received things that made them powerful in the short term and dependent in the long term. European merchants received human beings whose labor built the plantation economies that financed European industrialization. Eric Williams documented this connection in _Capitalism and Slavery_ (1944): profits from the slave trade and plantation production provided a significant share of the capital that funded Britain's industrial revolution. The steam engine, the textile mills, the financial institutions that made industrial capitalism possible — they were built partly with money that originated in the Atlantic slave system. African underdevelopment and European development were not parallel processes. They were the same process, running in opposite directions.
-
-## Colonial restructuring: the second phase
-
-When formal colonialism replaced the slave trade in the nineteenth century, the basic logic continued but the mechanisms changed. Now European powers directly controlled African territories, tax systems, labor markets, and trade. The restructuring was comprehensive.
-
-African economies were reorganized around export monocultures: cocoa in Ghana, groundnuts in Senegal, cotton in Sudan, rubber in the Congo. These were not crops chosen to feed African populations or build African industry. They were chosen to supply European factories at minimum cost. The same land that had grown food for local consumption was converted to cash crops for export. Food security declined. Local manufacturing — which had produced textiles, metalwork, and other goods competitive with European imports — was destroyed by colonial trade policies that flooded African markets with cheaper European products.
-
-Infrastructure was built — railways, roads, ports — but built to move resources from interior to coast, not to connect African cities to each other. The infrastructure of extraction, not the infrastructure of development. When African countries became independent in the 1950s and 60s, they inherited transportation networks designed for colonial purposes that made intra-African trade more difficult than trade with former colonizers.
-
-Education was structured to produce clerks and low-level administrators — Africans who could operate within colonial bureaucracies but not engineer, design, or govern at the level required to run modern economies. Technical and professional education was systematically withheld. The epistemic incompetence of colonialism was manufactured, not found.
-
-## What independence left intact
-
-Rodney was writing in 1972, more than a decade into the era of African independence. His observation was that formal political independence — sovereignty, flags, governments — had not changed the underlying economic structure. African countries were still exporting raw materials at prices set by European markets. They were still importing manufactured goods at prices set by European producers. The terms of trade still ran against them. The surplus still flowed out.
-
-This is what the dependency theorists — Rodney, André Gunder Frank, Samir Amin — called neocolonialism: the continuation of colonial economic relationships after political independence. The mechanism was different. Instead of direct administration, it worked through debt, trade agreements, currency arrangements, and International Monetary Fund conditions that required African governments to maintain economic policies favorable to foreign capital.
-
-For this site's framework: this is the routing question applied at the level of national economies. Colonial infrastructure was routing architecture — it determined where resources flowed, how value was extracted, who accumulated and who was left with the residue. Political independence changed the flag at the routing node without changing the routes.
-
-> The routes were the power. Changing the government without changing the routes left **the architecture of extraction intact.**
-
-## What happened to Rodney
-
-Walter Rodney was assassinated in Georgetown, Guyana, on June 13, 1980. He was thirty-eight years old. A bomb placed in a walkie-talkie exploded as he sat in his car. He had been active in Guyanese opposition politics, leading the Working People's Alliance against the government of Forbes Burnham. The Guyanese government denied involvement. A commission of inquiry in 2014 concluded that agents of the Burnham government were responsible.
-
-This is not a footnote. Rodney's assassination is part of the argument. He was killed because his analysis was considered dangerous — not dangerous in the sense of wrong, but dangerous in the sense of actionable. _How Europe Underdeveloped Africa_ was not an academic exercise. It was a tool for political education, used in freedom schools, study circles, and labor organizing across the African diaspora and the Global South. The people in power understood what it was for.
-
-The routing question, applied to Walter Rodney's life: the analysis of how power works made him a target of the power he analyzed. That's a kind of confirmation.
-
-The next piece moves from the economic structure to the human being produced within it — what colonialism does not just to economies but to the minds, bodies, and psyches of the people it classifies as outside the human.
+The next piece shows what happens on the ground when colonialism installs not just economic extraction but a psychological and political structure designed to make people internalize their own subjection.
