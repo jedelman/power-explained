@@ -1,0 +1,21 @@
+---
+import CaseStudyPage from '../layouts/CaseStudyPage.astro'
+import { getCollection } from 'astro:content'
+import { render } from 'astro:content'
+
+const articles = await getCollection('articles')
+const entry = articles.find(e => e.data.slug === 'case-study-chile')
+const { Content } = entry ? await render(entry) : { Content: () => null }
+---
+<CaseStudyPage
+  title="Chile — Power Explained"
+  description="The uprising that won the vote and lost the revolution. Millions in the streets, a constituent assembly, two failed constitutional drafts. How does insurgent energy get absorbed?"
+  h1="Chile"
+  location="Chile"
+  period="2019 — present"
+  framework="Hegemony and the limits of electoral capture — how a system recovers from challenge"
+  frameworkHref="/gramsci"
+  stats={[{value:"1M+",label:"In Santiago streets, Oct 2019"},{value:"78%",label:"Voted for new constitution (2020)"},{value:"62%",label:"Rejected the draft constitution (2022)"}]}
+>
+  <Content />
+</CaseStudyPage>

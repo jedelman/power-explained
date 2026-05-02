@@ -1,0 +1,21 @@
+---
+import CaseStudyPage from '../layouts/CaseStudyPage.astro'
+import { getCollection } from 'astro:content'
+import { render } from 'astro:content'
+
+const articles = await getCollection('articles')
+const entry = articles.find(e => e.data.slug === 'case-study-myanmar')
+const { Content } = entry ? await render(entry) : { Content: () => null }
+---
+<CaseStudyPage
+  title="Myanmar — Power Explained"
+  description="When the military seized power, millions withdrew their cooperation and built parallel institutions. The most radical experiment in non-collaboration on earth."
+  h1="Myanmar"
+  location="Myanmar"
+  period="2021 — present"
+  framework="Non-collaboration and parallel institution-building — withdrawal as the first act of construction"
+  frameworkHref="/build-it-now"
+  stats={[{value:"Feb 2021",label:"Military coup — CDM begins within days"},{value:"CDM",label:"Civil Disobedience Movement — no central leadership"},{value:"NUG",label:"Parallel government with functioning ministries"}]}
+>
+  <Content />
+</CaseStudyPage>

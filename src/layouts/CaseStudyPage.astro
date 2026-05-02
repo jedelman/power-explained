@@ -1,0 +1,101 @@
+---
+import Base from './Base.astro'
+
+interface Props {
+  title: string
+  description?: string
+  h1: string
+  location: string
+  period: string
+  framework: string   // what mechanism does this illustrate
+  frameworkHref?: string
+  stats?: { label: string; value: string }[]
+}
+
+const { title, description, h1, location, period, framework, frameworkHref, stats } = Astro.props
+---
+<Base title={title} description={description} seriesTag="Case Studies — Power in Practice">
+  <div class="hero cs-hero">
+    <div class="hero-inner">
+      <p class="cs-meta">
+        <span class="cs-location">{location}</span>
+        <span class="cs-sep">·</span>
+        <span class="cs-period">{period}</span>
+      </p>
+      <h1>{h1}</h1>
+      <div class="cs-framework">
+        <span class="cs-fw-label">Framework angle</span>
+        {frameworkHref
+          ? <a href={frameworkHref} class="cs-fw-text">{framework}</a>
+          : <span class="cs-fw-text">{framework}</span>
+        }
+      </div>
+    </div>
+  </div>
+
+  {stats && stats.length > 0 && (
+    <div class="cs-stats-bar">
+      {stats.map(s => (
+        <div class="cs-stat">
+          <span class="cs-stat-value">{s.value}</span>
+          <span class="cs-stat-label">{s.label}</span>
+        </div>
+      ))}
+    </div>
+  )}
+
+  <div class="article-wrap">
+    <div class="body-text" data-pagefind-body>
+      <slot />
+    </div>
+    <div class="cs-back">
+      <a href="/case-studies">← All Case Studies</a>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cs-hero { padding-bottom: clamp(2.5rem,5vw,4rem); }
+  .cs-meta {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.5; margin-bottom: 1rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .cs-sep { opacity: 0.4; }
+  .cs-framework {
+    margin-top: 1.5rem; padding-top: 1.5rem;
+    border-top: 1px solid rgba(var(--paper-rgb),0.12);
+    display: flex; gap: 0.75rem; align-items: baseline;
+  }
+  .cs-fw-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.45; flex-shrink: 0;
+  }
+  .cs-fw-text { font-family: var(--body); font-size: 0.95rem; line-height: 1.5; opacity: 0.85; }
+  a.cs-fw-text { color: var(--red); text-decoration: none; }
+  a.cs-fw-text:hover { text-decoration: underline; }
+
+  .cs-stats-bar {
+    background: var(--paper-mid); border-bottom: 1px solid var(--rule);
+    padding: 1.5rem var(--gutter);
+    display: flex; gap: 3rem; flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .cs-stat { display: flex; flex-direction: column; gap: 0.2rem; }
+  .cs-stat-value {
+    font-family: var(--display); font-size: clamp(1.5rem,3vw,2.5rem);
+    font-weight: 700; line-height: 1; color: var(--ink);
+  }
+  .cs-stat-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; opacity: 0.5;
+  }
+
+  .cs-back {
+    margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--rule);
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .cs-back a { color: rgba(var(--ink-rgb),0.5); text-decoration: none; }
+  .cs-back a:hover { color: var(--red); }
+</style>

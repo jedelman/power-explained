@@ -1,0 +1,21 @@
+---
+import CaseStudyPage from '../layouts/CaseStudyPage.astro'
+import { getCollection } from 'astro:content'
+import { render } from 'astro:content'
+
+const articles = await getCollection('articles')
+const entry = articles.find(e => e.data.slug === 'case-study-zapatistas')
+const { Content } = entry ? await render(entry) : { Content: () => null }
+---
+<CaseStudyPage
+  title="The Zapatistas — Power Explained"
+  description="Thirty years of autonomous governance in Chiapas. They didn't take the state. They built an alternative to it — and it's still running."
+  h1="The Zapatistas"
+  location="Chiapas, Mexico"
+  period="1994 — present"
+  framework="Prefigurative politics — building the world you want now, not waiting for conditions to change"
+  frameworkHref="/build-it-now"
+  stats={[{value:"30+",label:"Years of autonomous governance"},{value:"2003",label:"Caracoles system established"},{value:"5",label:"Autonomous regions (Zonas)"}]}
+>
+  <Content />
+</CaseStudyPage>

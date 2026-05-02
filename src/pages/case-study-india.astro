@@ -1,0 +1,21 @@
+---
+import CaseStudyPage from '../layouts/CaseStudyPage.astro'
+import { getCollection } from 'astro:content'
+import { render } from 'astro:content'
+
+const articles = await getCollection('articles')
+const entry = articles.find(e => e.data.slug === 'case-study-india')
+const { Content } = entry ? await render(entry) : { Content: () => null }
+---
+<CaseStudyPage
+  title="Kerala & the 300 Million — Power Explained"
+  description="One state eradicated extreme poverty under left governance. Nationally, 300 million workers just went on strike for the sixth time. Both matter."
+  h1="India: Kerala & the 300 Million"
+  location="India"
+  period="1957 — present"
+  framework="Dual power — holding state institutions while building from below simultaneously"
+  frameworkHref="/the-tradition-they-buried"
+  stats={[{value:"75",label:"Life expectancy in Kerala (yrs) — highest in India"},{value:"300M",label:"Workers in 2026 general strike"},{value:"6",label:"General strikes since 2019"}]}
+>
+  <Content />
+</CaseStudyPage>

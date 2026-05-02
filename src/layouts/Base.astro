@@ -1,6 +1,5 @@
 ---
 import '../styles/global.css'
-import SeriesNav from '../components/SeriesNav.astro'
 import SiteHeader from '../components/SiteHeader.astro'
 import SearchModal from '../components/SearchModal.astro'
 
@@ -37,7 +36,6 @@ const canonical = `https://power-explained.jason-edelman.org${Astro.url.pathname
 <body>
   <SiteHeader seriesTag={seriesTag} />
   <div class="layout-wrap">
-    <SeriesNav currentPath={Astro.url.pathname} />
     <main class="main-content" id="main">
       <slot />
     </main>

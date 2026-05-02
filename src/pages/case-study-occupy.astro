@@ -1,0 +1,21 @@
+---
+import CaseStudyPage from '../layouts/CaseStudyPage.astro'
+import { getCollection } from 'astro:content'
+import { render } from 'astro:content'
+
+const articles = await getCollection('articles')
+const entry = articles.find(e => e.data.slug === 'case-study-occupy')
+const { Content } = entry ? await render(entry) : { Content: () => null }
+---
+<CaseStudyPage
+  title="Occupy — Power Explained"
+  description="What Occupy built and what it couldn't. The encampments are gone. What grew from the roots is still growing."
+  h1="Occupy"
+  location="900+ cities globally"
+  period="2011 — 2012 (and after)"
+  framework="Horizontalism and prefigurative form — the general assembly as governance practice"
+  frameworkHref="/build-it-now"
+  stats={[{value:"900+",label:"Cities with encampments"},{value:"$6B",label:"Student debt cancelled (downstream)"},{value:"2016",label:"Occupy vocabulary enters presidential race"}]}
+>
+  <Content />
+</CaseStudyPage>

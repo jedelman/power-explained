@@ -1,0 +1,21 @@
+---
+import CaseStudyPage from '../layouts/CaseStudyPage.astro'
+import { getCollection } from 'astro:content'
+import { render } from 'astro:content'
+
+const articles = await getCollection('articles')
+const entry = articles.find(e => e.data.slug === 'case-study-rojava')
+const { Content } = entry ? await render(entry) : { Content: () => null }
+---
+<CaseStudyPage
+  title="Rojava — Power Explained"
+  description="Under active military assault, four million people built a functioning commune system. Women's liberation written into the constitution. Democratic confederalism in practice."
+  h1="Rojava"
+  location="North & East Syria"
+  period="2012 — present"
+  framework="Democratic confederalism — governance without a sovereign center, federated upward from communes"
+  frameworkHref="/build-the-commune-without-the-state"
+  stats={[{value:"4M",label:"Population governing themselves"},{value:"40%",label:"Women in all decision-making bodies"},{value:"2012",label:"Year of autonomous declaration"}]}
+>
+  <Content />
+</CaseStudyPage>

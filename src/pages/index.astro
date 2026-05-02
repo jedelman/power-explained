@@ -1,42 +1,301 @@
 ---
 import Base from '../layouts/Base.astro'
 import { SERIES } from '../lib/articles.js'
+
+const series_desc = {
+  'series-i':   'Why cities fail. Why the commons works. What enclosure actually costs.',
+  'series-ii':  'What capitalism extracts. Who performs it. How it was hidden.',
+  'series-iii': 'What the left got right — and what it consistently gets wrong.',
+  'series-iv':  'What the framework missed. What the colonized already knew.',
+  'series-v':   'What to build. How. Starting now.',
+}
+
+const entry_points = [
+  { href: '/for-normies',        label: 'For everyone',      desc: 'No background required.' },
+  { href: '/for-libertarians',   label: 'For libertarians',  desc: 'If you care about freedom from coercion.' },
+  { href: '/for-environmentalists', label: 'For environmentalists', desc: 'If ecology is the lens.' },
+  { href: '/for-urbanists',      label: 'For urbanists',     desc: 'Cities, housing, public space.' },
+  { href: '/for-social-justice', label: 'For justice advocates', desc: 'Race, gender, class.' },
+  { href: '/for-tech-workers',   label: 'For tech workers',  desc: 'If you build the internet.' },
+]
+
+const thinkers_featured = [
+  { href: '/ostrom',   name: 'Elinor Ostrom',   tag: 'Commons governance' },
+  { href: '/gramsci',  name: 'Antonio Gramsci', tag: 'Hegemony' },
+  { href: '/graeber',  name: 'David Graeber',   tag: 'Debt & mutual aid' },
+  { href: '/foucault', name: 'Michel Foucault', tag: 'Discipline' },
+]
+
+const cases_featured = [
+  { href: '/case-study-rojava',     name: 'Rojava',         tag: 'Kurdistan, 2012–' },
+  { href: '/case-study-zapatistas', name: 'Zapatistas',     tag: 'Chiapas, 1994–' },
+  { href: '/case-study-occupy',     name: 'Occupy',         tag: 'Global, 2011' },
+]
 ---
 <Base title="Power Explained" description="How power works. In plain language. And what people can actually do about it.">
-  <div class="hero hero--home">
-    <div class="hero-inner">
-      <h1>Power Explained</h1>
-      <p class="hero-dek">How power works. In plain language. And what people can actually do about it.</p>
-      <a href="/series/series-i" class="hero-cta">Start with Series I →</a>
+
+  <!-- ── Opening statement ─────────────────────────────────────── -->
+  <section class="home-opening">
+    <div class="opening-inner">
+      <h1 class="opening-h1">Power<br/>Explained</h1>
+      <div class="opening-right">
+        <p class="opening-graf">How power works. In plain language. And what people can actually do about it.</p>
+        <p class="opening-graf">Five series. Eleven thinker profiles. Six case studies. One argument with a shape.</p>
+        <a href="/series/series-i" class="opening-cta">Start the argument →</a>
+      </div>
     </div>
-  </div>
-  <div class="home-series">
-    {SERIES.map(s => (
-      <a href={`/series/${s.id}`} class="series-row">
-        <span class="series-row-label">{s.label}</span>
-        <span class="series-row-count">{s.pieces.length} pieces →</span>
-      </a>
-    ))}
-  </div>
+  </section>
+
+  <!-- ── The argument's shape ──────────────────────────────────── -->
+  <section class="home-section">
+    <div class="home-section-inner">
+      <h2 class="section-label">The Argument</h2>
+      <div class="series-stack">
+        {SERIES.map((s, i) => (
+          <a href={`/series/${s.id}`} class="series-row-full">
+            <span class="series-row-num">0{i+1}</span>
+            <div class="series-row-body">
+              <span class="series-row-name">{s.label}</span>
+              <span class="series-row-desc">{series_desc[s.id]}</span>
+            </div>
+            <span class="series-row-count">{s.pieces.length} pieces</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Where to start ────────────────────────────────────────── -->
+  <section class="home-section home-section--alt">
+    <div class="home-section-inner">
+      <h2 class="section-label">Where to Start</h2>
+      <p class="section-intro">Different entry points depending on where you're coming from.</p>
+      <div class="entry-grid">
+        {entry_points.map(e => (
+          <a href={e.href} class="entry-card">
+            <span class="entry-label">{e.label}</span>
+            <span class="entry-desc">{e.desc}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Thinkers ───────────────────────────────────────────────── -->
+  <section class="home-section">
+    <div class="home-section-inner home-section-inner--wide">
+      <div class="two-col-header">
+        <h2 class="section-label">Thinkers</h2>
+        <a href="/thinkers" class="see-all">All 11 thinkers →</a>
+      </div>
+      <div class="thinker-strip">
+        {thinkers_featured.map(t => (
+          <a href={t.href} class="thinker-card">
+            <span class="thinker-name">{t.name}</span>
+            <span class="thinker-tag">{t.tag}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Case Studies ───────────────────────────────────────────── -->
+  <section class="home-section home-section--alt">
+    <div class="home-section-inner home-section-inner--wide">
+      <div class="two-col-header">
+        <h2 class="section-label">Case Studies</h2>
+        <a href="/case-studies" class="see-all">All 6 cases →</a>
+      </div>
+      <p class="section-intro">The standard objection is that it's never been tried. These are the places where it was.</p>
+      <div class="case-strip">
+        {cases_featured.map(c => (
+          <a href={c.href} class="case-card">
+            <span class="case-name">{c.name}</span>
+            <span class="case-tag">{c.tag}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer nav ─────────────────────────────────────────────── -->
+  <section class="home-footer-nav">
+    <div class="home-section-inner home-section-inner--wide">
+      <a href="/glossary" class="footer-nav-link">Glossary</a>
+      <a href="/thinkers" class="footer-nav-link">All Thinkers</a>
+      <a href="/case-studies" class="footer-nav-link">Case Studies</a>
+      <a href="https://jedelman.github.io/commons-wire" target="_blank" rel="noopener" class="footer-nav-link">Wire ↗</a>
+    </div>
+  </section>
+
 </Base>
 
 <style>
-  .hero--home { min-height: 60vh; display: flex; align-items: center; }
-  .hero-cta {
-    display: inline-block; margin-top: 2rem;
+  /* ── Opening ──────────────────────────────────────────────────── */
+  .home-opening {
+    background: var(--ink); color: var(--paper);
+    padding: clamp(4rem,10vw,8rem) var(--gutter) clamp(4rem,10vw,8rem);
+    min-height: 70vh; display: flex; align-items: center;
+  }
+  .opening-inner {
+    max-width: 72rem; margin: 0 auto; width: 100%;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end;
+  }
+  .opening-h1 {
+    font-family: var(--display);
+    font-size: clamp(4rem,10vw,9rem);
+    font-weight: 700; line-height: 0.95;
+    letter-spacing: -0.03em; margin: 0;
+  }
+  .opening-right { padding-bottom: 0.5rem; }
+  .opening-graf {
+    font-family: var(--body); font-size: clamp(1rem,1.8vw,1.2rem);
+    line-height: 1.65; opacity: 0.85; margin-bottom: 1rem; max-width: 44ch;
+  }
+  .opening-cta {
+    display: inline-block; margin-top: 1.5rem;
     font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.1em;
     text-transform: uppercase; color: var(--paper);
-    border: 1px solid rgba(var(--paper-rgb),0.4); padding: 0.6rem 1.25rem;
-    text-decoration: none; transition: border-color 0.15s;
+    border: 1px solid rgba(var(--paper-rgb),0.35); padding: 0.7rem 1.5rem;
+    text-decoration: none; transition: border-color 0.15s, background 0.15s;
   }
-  .hero-cta:hover { border-color: var(--paper); }
-  .home-series { max-width: var(--max); margin: 4rem auto; padding: 0 var(--gutter); }
-  .series-row {
+  .opening-cta:hover { border-color: var(--paper); background: rgba(var(--paper-rgb),0.07); }
+
+  @media (max-width: 700px) {
+    .opening-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .home-opening { min-height: auto; }
+  }
+
+  /* ── Sections ─────────────────────────────────────────────────── */
+  .home-section {
+    padding: clamp(3rem,7vw,6rem) var(--gutter);
+  }
+  .home-section--alt { background: var(--paper-mid); }
+  .home-section-inner { max-width: var(--max); margin: 0 auto; }
+  .home-section-inner--wide { max-width: 72rem; }
+
+  .section-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  .section-intro {
+    font-family: var(--body); font-size: 1rem; line-height: 1.65;
+    opacity: 0.7; margin-bottom: 2rem; max-width: 56ch;
+  }
+  .two-col-header {
     display: flex; justify-content: space-between; align-items: baseline;
-    padding: 1.25rem 0; border-bottom: 1px solid var(--rule);
-    text-decoration: none; color: inherit; transition: color 0.15s;
+    margin-bottom: 2rem;
   }
-  .series-row:hover { color: var(--red); }
-  .series-row-label { font-family: var(--display); font-size: 1rem; }
-  .series-row-count { font-family: var(--mono); font-size: 0.65rem; opacity: 0.5; }
+  .two-col-header .section-label { margin-bottom: 0; }
+  .see-all {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--red); text-decoration: none;
+  }
+  .see-all:hover { text-decoration: underline; }
+
+  /* ── Series stack ─────────────────────────────────────────────── */
+  .series-stack { display: flex; flex-direction: column; }
+  .series-row-full {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr auto;
+    gap: 0 1.5rem; align-items: baseline;
+    padding: 1.5rem 0; border-bottom: 1px solid var(--rule);
+    text-decoration: none; color: inherit;
+    transition: color 0.15s;
+  }
+  .series-row-full:first-child { border-top: 1px solid var(--rule); }
+  .series-row-full:hover { color: var(--red); }
+  .series-row-num {
+    font-family: var(--mono); font-size: 0.65rem;
+    font-weight: 700; opacity: 0.25; padding-top: 0.15rem;
+  }
+  .series-row-body { display: flex; flex-direction: column; gap: 0.3rem; }
+  .series-row-name { font-family: var(--display); font-size: clamp(1rem,2vw,1.2rem); font-weight: 600; line-height: 1.3; }
+  .series-row-desc { font-family: var(--body); font-size: 0.9rem; opacity: 0.6; }
+  .series-row-count { font-family: var(--mono); font-size: 0.6rem; opacity: 0.4; text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap; }
+
+  @media (max-width: 600px) {
+    .series-row-full { grid-template-columns: 2rem 1fr; }
+    .series-row-count { display: none; }
+  }
+
+  /* ── Entry grid ───────────────────────────────────────────────── */
+  .entry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+  }
+  .entry-card {
+    display: flex; flex-direction: column; gap: 0.3rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--rule); border-radius: 2px;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, background 0.15s;
+    background: var(--paper);
+  }
+  .entry-card:hover { border-color: var(--red); background: var(--paper); }
+  .entry-label { font-family: var(--display); font-size: 1rem; font-weight: 600; }
+  .entry-desc { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.04em; opacity: 0.5; }
+
+  /* ── Thinker strip ────────────────────────────────────────────── */
+  .thinker-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0; border: 1px solid var(--rule); border-radius: 2px; overflow: hidden;
+  }
+  .thinker-card {
+    display: flex; flex-direction: column; gap: 0.4rem;
+    padding: 1.5rem; text-decoration: none; color: inherit;
+    border-right: 1px solid var(--rule);
+    transition: background 0.15s;
+  }
+  .thinker-card:last-child { border-right: none; }
+  .thinker-card:hover { background: var(--paper-mid); }
+  .thinker-name { font-family: var(--display); font-size: 1rem; font-weight: 600; line-height: 1.2; }
+  .thinker-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.45; }
+
+  @media (max-width: 700px) {
+    .thinker-strip { grid-template-columns: 1fr 1fr; }
+    .thinker-card:nth-child(2) { border-right: none; }
+    .thinker-card:nth-child(3) { border-top: 1px solid var(--rule); }
+    .thinker-card:nth-child(4) { border-top: 1px solid var(--rule); border-right: none; }
+  }
+
+  /* ── Case strip ───────────────────────────────────────────────── */
+  .case-strip {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 0; border: 1px solid var(--rule); border-radius: 2px; overflow: hidden;
+    background: var(--paper);
+  }
+  .case-card {
+    display: flex; flex-direction: column; gap: 0.4rem;
+    padding: 1.5rem; text-decoration: none; color: inherit;
+    border-right: 1px solid var(--rule);
+    transition: background 0.15s;
+  }
+  .case-card:last-child { border-right: none; }
+  .case-card:hover { background: var(--paper-mid); }
+  .case-name { font-family: var(--display); font-size: 1.1rem; font-weight: 600; }
+  .case-tag { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.45; }
+
+  @media (max-width: 600px) {
+    .case-strip { grid-template-columns: 1fr; }
+    .case-card { border-right: none; border-bottom: 1px solid var(--rule); }
+    .case-card:last-child { border-bottom: none; }
+  }
+
+  /* ── Footer nav ───────────────────────────────────────────────── */
+  .home-footer-nav {
+    background: var(--ink); color: var(--paper);
+    padding: 2rem var(--gutter);
+    display: flex; justify-content: center;
+  }
+  .home-footer-nav .home-section-inner { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .footer-nav-link {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; color: rgba(var(--paper-rgb),0.45);
+    text-decoration: none; transition: color 0.15s;
+  }
+  .footer-nav-link:hover { color: var(--paper); }
 </style>
