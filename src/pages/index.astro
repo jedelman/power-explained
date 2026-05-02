@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro'
+import { SERIES } from '../lib/articles.js'
+---
+<Base title="Power Explained" description="How power works. In plain language. And what people can actually do about it.">
+  <div class="hero hero--home">
+    <div class="hero-inner">
+      <h1>Power Explained</h1>
+      <p class="hero-dek">How power works. In plain language. And what people can actually do about it.</p>
+      <a href="/series-i" class="hero-cta">Start with Series I →</a>
+    </div>
+  </div>
+  <div class="home-series">
+    {SERIES.map(s => (
+      <a href={`/${s.id}`} class="series-row">
+        <span class="series-row-label">{s.label}</span>
+        <span class="series-row-count">{s.pieces.length} pieces →</span>
+      </a>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .hero--home { min-height: 60vh; display: flex; align-items: center; }
+  .hero-cta {
+    display: inline-block; margin-top: 2rem;
+    font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--paper);
+    border: 1px solid rgba(var(--paper-rgb),0.4); padding: 0.6rem 1.25rem;
+    text-decoration: none; transition: border-color 0.15s;
+  }
+  .hero-cta:hover { border-color: var(--paper); }
+  .home-series { max-width: var(--max); margin: 4rem auto; padding: 0 var(--gutter); }
+  .series-row {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 1.25rem 0; border-bottom: 1px solid var(--rule);
+    text-decoration: none; color: inherit; transition: color 0.15s;
+  }
+  .series-row:hover { color: var(--red); }
+  .series-row-label { font-family: var(--display); font-size: 1rem; }
+  .series-row-count { font-family: var(--mono); font-size: 0.65rem; opacity: 0.5; }
+</style>

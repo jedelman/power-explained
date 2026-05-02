@@ -1,0 +1,52 @@
+---
+import { getCollection, render } from 'astro:content'
+import Base from '../layouts/Base.astro'
+import { getAdjacentArticles } from '../lib/articles.js'
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles')
+  return articles.map(entry => ({
+    params: { slug: entry.data.slug },
+    props:  { entry },
+  }))
+}
+
+const { entry } = Astro.props
+const { Content } = await render(entry)
+const { slug, title, description, seriesTag, h1, dek } = entry.data
+const { prev, next } = getAdjacentArticles(`/${slug}`)
+---
+
+<Base title={title} description={description} seriesTag={seriesTag}>
+  <div class="hero">
+    <div class="hero-inner">
+      <h1 set:html={h1 || title} />
+      {dek && <p class="hero-dek">{dek}</p>}
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <div class="body-text">
+      <Content />
+    </div>
+
+    {(prev || next) && (
+      <nav class="article-prev-next" aria-label="Article navigation">
+        <div class="prev-next-inner">
+          {prev
+            ? <a href={prev.url} class="prev-next-link">
+                <span class="prev-next-label">&#8592; Previous</span>
+                <span class="prev-next-title">{prev.title}</span>
+              </a>
+            : <span />}
+          {next
+            ? <a href={next.url} class="prev-next-link next-link">
+                <span class="prev-next-label">Next &#8594;</span>
+                <span class="prev-next-title">{next.title}</span>
+              </a>
+            : <span />}
+        </div>
+      </nav>
+    )}
+  </div>
+</Base>

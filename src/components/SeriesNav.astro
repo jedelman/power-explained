@@ -1,0 +1,128 @@
+---
+import { SERIES } from '../lib/articles.js'
+interface Props { currentPath: string }
+const { currentPath } = Astro.props
+const currentSeries = SERIES.find(s => s.pieces.some(p => p.url === currentPath))
+---
+
+<sl-drawer id="series-nav" placement="start" no-header>
+  <div class="nav-inner">
+    {currentSeries && (
+      <div class="nav-section">
+        <p class="nav-label">{currentSeries.label}</p>
+        <nav>
+          {currentSeries.pieces.map(piece => (
+            <a
+              href={piece.url}
+              class={`nav-link${currentPath === piece.url ? ' nav-link--active' : ''}`}
+              aria-current={currentPath === piece.url ? 'page' : undefined}
+            >
+              <span class="nav-num">{piece.num}</span>
+              <span>{piece.title}</span>
+            </a>
+          ))}
+        </nav>
+        <hr class="nav-divider" />
+      </div>
+    )}
+    <div class="nav-section">
+      <p class="nav-label">All Series</p>
+      <nav>
+        {SERIES.map(s => (
+          <a
+            href={`/${s.id}`}
+            class={`nav-link nav-link--series${currentPath === `/${s.id}` ? ' nav-link--active' : ''}`}
+          >
+            {s.label}
+          </a>
+        ))}
+      </nav>
+    </div>
+  </div>
+</sl-drawer>
+
+<button id="nav-toggle" aria-label="Open series navigation" aria-controls="series-nav">
+  <span id="toggle-icon">☰</span>
+  <span id="toggle-label">Contents</span>
+</button>
+
+<script>
+  const drawer = document.getElementById('series-nav')
+  const toggle = document.getElementById('nav-toggle')
+  const main   = document.getElementById('main')
+  const DESKTOP = 900
+
+  function syncToggle(open) {
+    document.getElementById('toggle-icon').textContent = open ? '←' : '☰'
+    document.getElementById('toggle-label').textContent = open ? 'Close' : 'Contents'
+    toggle.style.left = open ? '300px' : '0'
+    if (main && window.innerWidth >= DESKTOP) {
+      main.style.marginLeft = open ? '300px' : '0'
+    }
+  }
+
+  drawer.addEventListener('sl-after-show', () => syncToggle(true))
+  drawer.addEventListener('sl-after-hide', () => syncToggle(false))
+  toggle.addEventListener('click', () => drawer.open ? drawer.hide() : drawer.show())
+
+  window.addEventListener('resize', () => {
+    const d = window.innerWidth >= DESKTOP
+    if (d && !drawer.open) drawer.show()
+    if (!d && drawer.open) { drawer.hide(); main.style.marginLeft = '0' }
+  })
+
+  // Open on desktop after custom elements upgrade
+  if (window.innerWidth >= DESKTOP) {
+    customElements.whenDefined('sl-drawer').then(() => drawer.show())
+  }
+</script>
+
+<style is:global>
+  sl-drawer#series-nav::part(panel) {
+    background: var(--yellow, #f5e642);
+    color: #000;
+    width: 300px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    box-shadow: none;
+  }
+  @media (min-width: 900px) {
+    sl-drawer#series-nav::part(overlay) { display: none; }
+  }
+</style>
+
+<style>
+  #nav-toggle {
+    position: fixed; left: 0; top: 50%; transform: translateY(-50%);
+    z-index: 200; cursor: pointer;
+    background: var(--yellow, #f5e642); color: #000;
+    border: 1px solid rgba(0,0,0,0.2); border-left: none;
+    border-radius: 0 4px 4px 0;
+    padding: 0.85rem 0.55rem;
+    display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+    transition: left 0.25s ease;
+  }
+  #toggle-icon { font-size: 1rem; line-height: 1; }
+  #toggle-label {
+    font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em;
+    text-transform: uppercase; writing-mode: vertical-rl;
+    transform: rotate(180deg); opacity: 0.7;
+  }
+  .nav-inner { padding: 1.5rem 0.75rem; }
+  .nav-section { margin-bottom: 1.5rem; }
+  .nav-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.5; margin-bottom: 0.5rem; padding: 0 0.25rem;
+  }
+  .nav-divider { border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1rem 0; }
+  .nav-link {
+    display: flex; align-items: baseline; gap: 0.75rem;
+    padding: 0.4rem 0.5rem; border-radius: 4px;
+    text-decoration: none; color: #000;
+    font-family: var(--body); font-size: 0.875rem; line-height: 1.4;
+    transition: background 0.15s;
+  }
+  .nav-link:hover { background: rgba(0,0,0,0.06); }
+  .nav-link--active { background: rgba(0,0,0,0.08); font-weight: 600; }
+  .nav-link--series { font-family: var(--display); font-size: 0.85rem; }
+  .nav-num { font-family: var(--mono); font-size: 0.65rem; font-weight: 700; opacity: 0.35; min-width: 1.75rem; flex-shrink: 0; }
+</style>

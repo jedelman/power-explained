@@ -1,0 +1,48 @@
+---
+interface Props { seriesTag?: string }
+const { seriesTag } = Astro.props
+---
+<header>
+  <div class="inner">
+    <a href="/" class="site-name">Power Explained</a>
+    {seriesTag && <span class="series-tag">{seriesTag}</span>}
+    <nav class="header-nav" aria-label="Site navigation">
+      <a href="/glossary" class="header-link">Glossary</a>
+      <a href="https://jedelman.github.io/commons-wire" target="_blank" rel="noopener" class="header-link">Wire</a>
+    </nav>
+    <button class="search-btn" id="search-trigger" aria-label="Search site" title="Search (⌘K)">
+      <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <kbd aria-hidden="true">⌘K</kbd>
+    </button>
+    <button id="motion-toggle" aria-label="Reduce motion" aria-pressed="false">motion: on</button>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('motion-toggle')
+  const stored = localStorage.getItem('pe-reduced-motion') === '1'
+  if (stored) {
+    document.documentElement.classList.add('no-motion')
+    btn.textContent = 'motion: off'
+    btn.setAttribute('aria-pressed', 'true')
+  }
+  btn.addEventListener('click', () => {
+    const next = btn.getAttribute('aria-pressed') !== 'true'
+    btn.setAttribute('aria-pressed', String(next))
+    btn.textContent = next ? 'motion: off' : 'motion: on'
+    document.documentElement.classList.toggle('no-motion', next)
+    localStorage.setItem('pe-reduced-motion', next ? '1' : '0')
+  })
+  document.getElementById('search-trigger')?.addEventListener('click', () => {
+    document.dispatchEvent(new CustomEvent('pe:search-open'))
+  })
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault()
+      document.dispatchEvent(new CustomEvent('pe:search-open'))
+    }
+  })
+</script>

@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro'
+import { ALL_ARTICLES, getAdjacentArticles } from '../lib/articles.js'
+
+interface Props {
+  title: string
+  description?: string
+  seriesTag?: string
+  h1?: string
+  dek?: string
+  slug: string
+  content: string
+}
+
+const { title, description, seriesTag, h1, dek, slug, content } = Astro.props
+const { prev, next } = getAdjacentArticles(`/${slug}`)
+---
+
+<Base title={title} description={description} seriesTag={seriesTag}>
+  <div class="hero">
+    <div class="hero-inner">
+      <h1 set:html={h1 || title} />
+      {dek && <p class="hero-dek">{dek}</p>}
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <div class="body-text" set:html={content} />
+
+    {(prev || next) && (
+      <nav class="article-prev-next" aria-label="Article navigation">
+        <div class="prev-next-inner">
+          {prev
+            ? <a href={prev.url} class="prev-next-link">
+                <span class="prev-next-label">← Previous</span>
+                <span class="prev-next-title">{prev.title}</span>
+              </a>
+            : <span />}
+          {next
+            ? <a href={next.url} class="prev-next-link next-link">
+                <span class="prev-next-label">Next →</span>
+                <span class="prev-next-title">{next.title}</span>
+              </a>
+            : <span />}
+        </div>
+      </nav>
+    )}
+  </div>
+</Base>

@@ -1,0 +1,50 @@
+---
+import '../styles/global.css'
+import SeriesNav from '../components/SeriesNav.astro'
+import SiteHeader from '../components/SiteHeader.astro'
+
+interface Props {
+  title: string
+  description?: string
+  seriesTag?: string
+}
+
+const { title, description, seriesTag } = Astro.props
+const canonical = `https://power-explained.jason-edelman.org${Astro.url.pathname}`
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  {description && <meta name="description" content={description} />}
+  <link rel="canonical" href={canonical} />
+  <meta property="og:title" content={title} />
+  {description && <meta property="og:description" content={description} />}
+  <meta property="og:url" content={canonical} />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Power Explained" />
+  <meta property="og:image" content="https://power-explained.jason-edelman.org/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+</head>
+<body>
+  <SiteHeader seriesTag={seriesTag} />
+  <div class="layout-wrap">
+    <SeriesNav currentPath={Astro.url.pathname} />
+    <main class="main-content" id="main">
+      <slot />
+    </main>
+  </div>
+</body>
+</html>
+
+<style>
+  .layout-wrap { display: flex; min-height: 100vh; }
+  .main-content { flex: 1; min-width: 0; }
+</style>
