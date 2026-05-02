@@ -23,12 +23,14 @@ const descs = ['Everything this site has argued reduces to one structural move, 
   <div class="series-body">
     <ol class="piece-list">
       {series.pieces.map((piece, i) => (
-        <li class="piece-item">
-          <span class="piece-num">{piece.num}</span>
-          <div class="piece-detail">
-            <a href={piece.url} class="piece-title">{piece.title}</a>
-            {descs[i] && <p class="piece-desc">{descs[i]}</p>}
-          </div>
+        <li>
+          <a href={piece.url} class="piece-item">
+            <span class="piece-num">{piece.num}</span>
+            <div class="piece-detail">
+              <span class="piece-title">{piece.title}</span>
+              {descs[i] && <p class="piece-desc">{descs[i]}</p>}
+            </div>
+          </a>
         </li>
       ))}
     </ol>
@@ -61,19 +63,25 @@ const descs = ['Everything this site has argued reduces to one structural move, 
   .piece-list { list-style: none; margin: 0; padding: 0; }
   .piece-item {
     display: grid; grid-template-columns: 2.5rem 1fr; gap: 0 1.5rem;
-    padding: 1.75rem 0; border-bottom: 1px solid var(--rule); align-items: start;
+    padding: 1.5rem; align-items: start;
+    border: 1px solid var(--rule); border-radius: 2px;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, background 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .piece-item:hover {
+    border-color: var(--red);
+    background: var(--paper-mid);
   }
   .piece-num {
     font-family: var(--mono); font-size: 0.65rem; font-weight: 700;
-    color: rgba(var(--ink-rgb),0.3); padding-top: 0.2rem;
+    color: rgba(var(--ink-rgb),0.3); padding-top: 0.25rem;
   }
   .piece-title {
     display: block; font-family: var(--display); font-size: clamp(1rem,2vw,1.2rem);
     font-weight: 600; line-height: 1.3; color: var(--ink);
-    text-decoration: none; margin-bottom: 0.5rem;
-    border-bottom: 1px solid transparent; transition: border-color 0.15s;
+    margin-bottom: 0.4rem;
   }
-  .piece-title:hover { border-bottom-color: var(--red); }
   .piece-desc {
     font-family: var(--body); font-size: 0.95rem; line-height: 1.6;
     color: rgba(var(--ink-rgb),0.7);

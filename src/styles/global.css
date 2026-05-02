@@ -2258,10 +2258,10 @@ h1         { animation: fadeUp 0.6s ease both; animation-delay: 0.2s; }
   color: var(--ink);
 }
 
-/* ── Sidebar push (no margin-left animation) ────────────────────────────── */
+/* ── Sidebar push ───────────────────────────────────────────────────────── */
 @media (min-width: 900px) {
-  #main { transition: transform 0.25s ease; }
-  #main.sidebar-pushed { transform: translateX(280px); }
+  #main { transition: margin-left 0.25s ease; }
+  #main.sidebar-pushed { margin-left: 280px; }
 }
 
 /* ── Shoelace scroll fix ─────────────────────────────────────────────────── */
