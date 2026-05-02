@@ -1,34 +1,20 @@
-import Layout from '../components/Layout'
-import { SERIES } from '../lib/articles'
-
-const series = SERIES[2]
+import SeriesLanding from '../components/SeriesLanding'
 
 export default function SeriesIII() {
   return (
-    <Layout
-      title={`${series.label} — Power Explained`}
-      description="If the system is broken, what do you do? Revolution from above has failed. What works is building from below."
-      seriesTag={series.label}
-    >
-      <div style={{ padding: 'clamp(3rem,8vw,6rem) var(--gutter)', background: 'var(--ink)', color: 'var(--paper)' }}>
-        <div style={{ maxWidth: 'var(--max)', margin: '0 auto' }}>
-          <h1 style={{ margin: 0, marginBottom: '0.5rem' }}>{series.label}</h1>
-          <p style={{ margin: 0, fontSize: '1.1rem', lineHeight: 1.5, opacity: 0.85 }}>
-            If the system is broken, what do you do? Revolution from above has failed. What works is building from below.
-          </p>
-        </div>
-      </div>
-
-      <div style={{ padding: 'clamp(2rem,6vw,4rem) var(--gutter)', maxWidth: 'var(--max)', margin: '0 auto' }}>
-        <div className="series-grid">
-          {series.pieces.map(piece => (
-            <a key={piece.url} href={piece.url} className="series-card">
-              <span className="card-num">{piece.num}</span>
-              <h2>{piece.title}</h2>
-            </a>
-          ))}
-        </div>
-      </div>
-    </Layout>
+    <SeriesLanding
+      seriesIndex={2}
+      intro={[
+        "The people who looked at capitalism and said 'this has to go' were not wrong. A hundred and fifty years of reform has softened the edges. It has not changed the architecture.",
+        "But the solutions that claimed to fix it reproduced the domination they were supposed to end. This series is about why — and about the tradition that had better answers, got buried, and is being rebuilt now.",
+      ]}
+      pullQuote="The party ate the revolution — not because of individual betrayal, but because of a structural feature. Hierarchical control of the state is the architecture of domination, regardless of who holds it."
+      pieces={[
+        "The diagnosis was right. A hundred and fifty years of evidence confirms it. The problem isn't the analysis of capitalism — it's what people concluded should come next.",
+        "The Russian Revolution produced two organizational forms: the distributed soviets that arose from below, and the centralized party hierarchy that captured them. One of them won. Here's why that was predictable.",
+        "There's a tradition of socialist and anarchist thought that had better answers than the tradition that won. It was buried — because its answers were threatening. What it knew, and what it built.",
+        "You don't wait for the revolution to start building the world you want. You build it now, in the present, with the people you have. This is not a consolation prize. It is a specific claim about how change at scale actually happens.",
+      ]}
+    />
   )
 }

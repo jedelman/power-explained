@@ -1,34 +1,22 @@
-import Layout from '../components/Layout'
-import { SERIES } from '../lib/articles'
-
-const series = SERIES[3]
+import SeriesLanding from '../components/SeriesLanding'
 
 export default function SeriesIV() {
   return (
-    <Layout
-      title={`${series.label} — Power Explained`}
-      description="The first three frameworks missed something essential. Here's what they got wrong, and what the colonized already knew."
-      seriesTag={series.label}
-    >
-      <div style={{ padding: 'clamp(3rem,8vw,6rem) var(--gutter)', background: 'var(--ink)', color: 'var(--paper)' }}>
-        <div style={{ maxWidth: 'var(--max)', margin: '0 auto' }}>
-          <h1 style={{ margin: 0, marginBottom: '0.5rem' }}>{series.label}</h1>
-          <p style={{ margin: 0, fontSize: '1.1rem', lineHeight: 1.5, opacity: 0.85 }}>
-            The first three frameworks missed something essential. Here's what they got wrong, and what the colonized already knew.
-          </p>
-        </div>
-      </div>
-
-      <div style={{ padding: 'clamp(2rem,6vw,4rem) var(--gutter)', maxWidth: 'var(--max)', margin: '0 auto' }}>
-        <div className="series-grid">
-          {series.pieces.map(piece => (
-            <a key={piece.url} href={piece.url} className="series-card">
-              <span className="card-num">{piece.num}</span>
-              <h2>{piece.title}</h2>
-            </a>
-          ))}
-        </div>
-      </div>
-    </Layout>
+    <SeriesLanding
+      seriesIndex={3}
+      intro={[
+        "The first three series build their argument primarily from European and North American thinkers analyzing capitalism from positions of relative proximity to its centers. This series relocates the analysis.",
+        "Seen from the colony, the plantation, the dam project, the occupied territory — the commons looks different, the struggle for it is more costly, and it's further advanced. Cedric Robinson, Walter Rodney, Frantz Fanon, Achille Mbembe, Arundhati Roy, and Abdullah Öcalan show what the framework missed.",
+      ]}
+      pullQuote="The people capitalism classified as outside the human built the most durable commons traditions we have. Built them under conditions explicitly designed to prevent that. Built them anyway."
+      pieces={[
+        "Cedric Robinson: capitalism wasn't color-blind and then stained by racism. Race was baked into the machinery from day one. The Black radical tradition — built under slavery and colonialism — is a commons tradition.",
+        "Walter Rodney: Africa was not underdeveloped. It was developed — into poverty. Deliberately, systematically, over centuries. The engineering of underdevelopment, and why the same logic still runs.",
+        "Frantz Fanon was a psychiatrist who treated colonizers and colonized in Algeria during revolution. What he saw: colonialism produces a particular kind of human being — and then requires that person's cooperation in their own subjection.",
+        "Achille Mbembe extends Foucault into territory Foucault didn't go: not the power to manage life, but the power to decide who is exposed to death. Who gets to die, and why that decision is structural.",
+        "Arundhati Roy reports from the enclosures while they're happening — the Narmada dams, the forest rights struggle. And the communities building commons anyway, under eviction orders.",
+        "Öcalan from Kurdistan, Bookchin from Vermont, arriving at the same conclusion: the future is communal and decentralized or it won't exist. What confederation looks like in practice.",
+      ]}
+    />
   )
 }
