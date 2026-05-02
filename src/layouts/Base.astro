@@ -32,8 +32,10 @@ const canonical = `https://power-explained.jason-edelman.org${Astro.url.pathname
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
   <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+  <link rel="stylesheet" href="/delight.css" />
 </head>
 <body>
+  <div id="reading-progress" aria-hidden="true"></div>
   <SiteHeader seriesTag={seriesTag} />
   <div class="layout-wrap">
     <main class="main-content" id="main">
@@ -41,6 +43,7 @@ const canonical = `https://power-explained.jason-edelman.org${Astro.url.pathname
     </main>
   </div>
   <SearchModal />
+  <script src="/delight.js" defer></script>
 </body>
 </html>
 

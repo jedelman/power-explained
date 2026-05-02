@@ -1,0 +1,177 @@
+
+/* ═══════════════════════════════════════════════════════════════════
+   DELIGHT LAYER — power-explained
+   All animations respect prefers-reduced-motion.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Reading progress bar ────────────────────────────────────────── */
+#reading-progress {
+  position: fixed; top: 0; left: 0; right: 0;
+  height: 2px; z-index: 1000;
+  background: linear-gradient(to right, var(--red) var(--progress, 0%), transparent 0%);
+  pointer-events: none;
+  opacity: 0; transition: opacity 0.3s;
+}
+body.is-article #reading-progress { opacity: 1; }
+
+/* ── Homepage h1 reveal ──────────────────────────────────────────── */
+@keyframes word-rise {
+  from { opacity: 0; transform: translateY(0.4em); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.opening-h1 .word {
+  display: inline-block;
+  opacity: 0;
+  animation: word-rise 0.7s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+.opening-h1 .word:nth-child(1) { animation-delay: 0.1s; }
+.opening-h1 .word:nth-child(2) { animation-delay: 0.25s; }
+
+.opening-right .opening-graf {
+  opacity: 0;
+  animation: word-rise 0.6s cubic-bezier(0.16,1,0.3,1) 0.45s forwards;
+}
+.opening-right .opening-graf:nth-child(2) { animation-delay: 0.6s; }
+.opening-cta {
+  opacity: 0;
+  animation: word-rise 0.5s cubic-bezier(0.16,1,0.3,1) 0.8s forwards;
+}
+
+/* ── Series rows: border reveal + number brightens ──────────────── */
+.series-row-full {
+  position: relative;
+  padding-left: 0;
+  transition: padding-left 0.3s cubic-bezier(0.16,1,0.3,1);
+}
+.series-row-full::before {
+  content: '';
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 2px;
+  background: var(--red);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s cubic-bezier(0.16,1,0.3,1);
+}
+.series-row-full:hover { padding-left: 1rem; }
+.series-row-full:hover::before { transform: scaleY(1); }
+.series-row-full:hover .series-row-num { opacity: 0.7; }
+.series-row-num { transition: opacity 0.2s; }
+
+/* ── Thinker + case cards: ink shadow lift ───────────────────────── */
+.thinker-card,
+.case-card {
+  transition: background 0.15s, box-shadow 0.25s cubic-bezier(0.16,1,0.3,1), transform 0.25s cubic-bezier(0.16,1,0.3,1);
+}
+.thinker-card:hover,
+.case-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(var(--ink-rgb), 0.12);
+  z-index: 1; position: relative;
+}
+
+/* ── Entry cards: warm lift ──────────────────────────────────────── */
+.entry-card {
+  transition: border-color 0.15s, background 0.15s,
+              transform 0.25s cubic-bezier(0.16,1,0.3,1),
+              box-shadow 0.25s cubic-bezier(0.16,1,0.3,1);
+}
+.entry-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(var(--ink-rgb), 0.08);
+}
+
+/* ── Series piece items: slide-in on scroll ─────────────────────── */
+@keyframes piece-enter {
+  from { opacity: 0; transform: translateX(-1rem); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.piece-item {
+  transition: border-color 0.2s, background 0.2s,
+              transform 0.25s cubic-bezier(0.16,1,0.3,1),
+              box-shadow 0.25s cubic-bezier(0.16,1,0.3,1);
+}
+.piece-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(var(--ink-rgb), 0.08);
+}
+
+/* Scroll-reveal for piece items */
+.piece-item.reveal {
+  opacity: 0;
+  transform: translateX(-0.75rem);
+}
+.piece-item.reveal.visible {
+  animation: piece-enter 0.5s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+
+/* ── Piece number halo on hover ──────────────────────────────────── */
+.piece-item:hover .piece-num {
+  color: var(--red);
+  opacity: 1;
+}
+.piece-num { transition: color 0.2s, opacity 0.2s; }
+
+/* ── Pull quotes: border draw ────────────────────────────────────── */
+.body-text blockquote,
+.body-text .pull {
+  position: relative;
+  border-left: none;
+  padding-left: 1.5rem;
+}
+.body-text blockquote::before,
+.body-text .pull::before {
+  content: '';
+  position: absolute; left: 0; top: 0;
+  width: 2px; height: 0;
+  background: var(--red);
+  transition: height 0.6s cubic-bezier(0.16,1,0.3,1);
+}
+.body-text blockquote.in-view::before,
+.body-text .pull.in-view::before {
+  height: 100%;
+}
+
+/* ── CTA links: arrow slide ──────────────────────────────────────── */
+.opening-cta,
+.see-all,
+.footer-nav-link {
+  position: relative;
+  overflow: hidden;
+}
+.see-all::after,
+.opening-cta::after {
+  content: '';
+  position: absolute; bottom: -1px; left: 0;
+  width: 0; height: 1px;
+  background: currentColor;
+  transition: width 0.25s cubic-bezier(0.16,1,0.3,1);
+}
+.see-all:hover::after,
+.opening-cta:hover::after { width: 100%; }
+
+/* ── Reduced motion: kill everything ────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .opening-h1 .word,
+  .opening-right .opening-graf,
+  .opening-cta {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+  .piece-item.reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  .series-row-full,
+  .thinker-card,
+  .case-card,
+  .entry-card,
+  .piece-item {
+    transition: none !important;
+    transform: none !important;
+  }
+  .body-text blockquote::before,
+  .body-text .pull::before { height: 100% !important; }
+}
