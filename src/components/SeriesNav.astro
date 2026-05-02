@@ -5,7 +5,13 @@ const { currentPath } = Astro.props
 const currentSeries = SERIES.find(s => s.pieces.some(p => p.url === currentPath))
 ---
 
-<sl-drawer id="series-nav" placement="start" no-header>
+<!--
+  Desktop: CSS-driven persistent panel (no JS, no scroll lock)
+  Mobile:  sl-drawer full-page sheet with a top toggle button
+-->
+
+<!-- Desktop sidebar (CSS only, always in DOM) -->
+<aside id="series-sidebar" class="series-sidebar" aria-label="Series navigation">
   <div class="nav-inner">
     {currentSeries && (
       <div class="nav-section">
@@ -31,7 +37,7 @@ const currentSeries = SERIES.find(s => s.pieces.some(p => p.url === currentPath)
         {SERIES.map(s => (
           <a
             href={`/series/${s.id}`}
-            class={`nav-link nav-link--series${currentPath === `/series/${s.id}` ? ' nav-link--active' : ''}`}
+            class={['nav-link', 'nav-link--series', currentPath === `/series/${s.id}` ? 'nav-link--active' : ''].filter(Boolean).join(' ')}
           >
             {s.label}
           </a>
@@ -39,90 +45,171 @@ const currentSeries = SERIES.find(s => s.pieces.some(p => p.url === currentPath)
       </nav>
     </div>
   </div>
+</aside>
+
+<!-- Desktop toggle tab -->
+<button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle navigation">
+  <span id="toggle-icon">←</span>
+</button>
+
+<!-- Mobile: full-page dropdown via sl-drawer -->
+<sl-drawer id="mobile-nav" placement="top" class="mobile-nav" no-header>
+  <div class="nav-inner">
+    {currentSeries && (
+      <div class="nav-section">
+        <p class="nav-label">{currentSeries.label}</p>
+        <nav>
+          {currentSeries.pieces.map(piece => (
+            <a href={piece.url} class={`nav-link${currentPath === piece.url ? ' nav-link--active' : ''}`}>
+              <span class="nav-num">{piece.num}</span>
+              <span>{piece.title}</span>
+            </a>
+          ))}
+        </nav>
+        <hr class="nav-divider" />
+      </div>
+    )}
+    <div class="nav-section">
+      <p class="nav-label">All Series</p>
+      <nav>
+        {SERIES.map(s => (
+          <a href={`/series/${s.id}`} class="nav-link nav-link--series">{s.label}</a>
+        ))}
+      </nav>
+    </div>
+  </div>
 </sl-drawer>
 
-<button id="nav-toggle" aria-label="Open series navigation" aria-controls="series-nav">
-  <span id="toggle-icon">☰</span>
-  <span id="toggle-label">Contents</span>
+<!-- Mobile toggle button (top of page) -->
+<button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-label="Open navigation">
+  ☰ Contents
 </button>
 
 <script>
-  const drawer = document.getElementById('series-nav')
-  const toggle = document.getElementById('nav-toggle')
-  const main   = document.getElementById('main')
   const DESKTOP = 900
 
-  function syncToggle(open) {
-    document.getElementById('toggle-icon').textContent = open ? '←' : '☰'
-    document.getElementById('toggle-label').textContent = open ? 'Close' : 'Contents'
-    toggle.style.left = open ? '300px' : '0'
-    if (main && window.innerWidth >= DESKTOP) {
-      main.style.marginLeft = open ? '300px' : '0'
-    }
+  // ── Desktop sidebar ──────────────────────────────────────────────────────
+  const sidebar = document.getElementById('series-sidebar')
+  const toggle  = document.getElementById('sidebar-toggle')
+  const main    = document.getElementById('main')
+  const icon    = document.getElementById('toggle-icon')
+  const SIDEBAR_WIDTH = 280
+
+  function sidebarOpen() {
+    sidebar.classList.add('open')
+    toggle.style.left = SIDEBAR_WIDTH + 'px'
+    icon.textContent = '←'
+    if (main) main.style.marginLeft = SIDEBAR_WIDTH + 'px'
+  }
+  function sidebarClose() {
+    sidebar.classList.remove('open')
+    toggle.style.left = '0'
+    icon.textContent = '☰'
+    if (main) main.style.marginLeft = '0'
   }
 
-  drawer.addEventListener('sl-after-show', () => syncToggle(true))
-  drawer.addEventListener('sl-after-hide', () => syncToggle(false))
-  toggle.addEventListener('click', () => drawer.open ? drawer.hide() : drawer.show())
+  toggle.addEventListener('click', () =>
+    sidebar.classList.contains('open') ? sidebarClose() : sidebarOpen()
+  )
 
-  window.addEventListener('resize', () => {
-    const d = window.innerWidth >= DESKTOP
-    if (d && !drawer.open) drawer.show()
-    if (!d && drawer.open) { drawer.hide(); main.style.marginLeft = '0' }
+  // Open by default on desktop
+  if (window.innerWidth >= DESKTOP) sidebarOpen()
+
+  // ── Mobile drawer ────────────────────────────────────────────────────────
+  const mobileNav    = document.getElementById('mobile-nav')
+  const mobileToggle = document.getElementById('mobile-nav-toggle')
+
+  mobileToggle.addEventListener('click', () => {
+    mobileNav.open ? mobileNav.hide() : mobileNav.show()
   })
-
-  // Open on desktop after custom elements upgrade
-  if (window.innerWidth >= DESKTOP) {
-    customElements.whenDefined('sl-drawer').then(() => drawer.show())
-  }
+  mobileNav.addEventListener('sl-after-show', () => mobileToggle.textContent = '✕ Close')
+  mobileNav.addEventListener('sl-after-hide', () => mobileToggle.textContent = '☰ Contents')
 </script>
 
-<style is:global>
-  sl-drawer#series-nav::part(panel) {
-    background: var(--yellow, #f5e642);
-    color: #000;
-    width: 300px;
-    border-right: 1px solid rgba(0,0,0,0.1);
-    box-shadow: none;
-  }
-  @media (min-width: 900px) {
-    sl-drawer#series-nav::part(overlay) { display: none; }
-  }
-</style>
-
 <style>
-  #nav-toggle {
-    position: fixed; left: 0; top: 50%; transform: translateY(-50%);
-    z-index: 200; cursor: pointer;
-    background: var(--yellow, #f5e642); color: #000;
-    border: 1px solid rgba(0,0,0,0.2); border-left: none;
+  /* ── Desktop sidebar ─────────────────────────────────────────────────── */
+  .series-sidebar {
+    position: fixed; top: 3.5rem; left: 0; bottom: 0;
+    width: 280px;
+    background: var(--paper-mid);
+    border-right: 1px solid var(--rule);
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    z-index: 40;
+  }
+  .series-sidebar.open { transform: translateX(0); }
+
+  .sidebar-toggle {
+    display: none; /* shown only on desktop via media query */
+    position: fixed; top: 50%; transform: translateY(-50%);
+    left: 0; z-index: 50;
+    background: var(--ink); color: var(--paper);
+    border: 1px solid var(--rule-strong); border-left: none;
     border-radius: 0 4px 4px 0;
-    padding: 0.85rem 0.55rem;
-    display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+    padding: 0.75rem 0.5rem;
+    cursor: pointer; font-size: 0.85rem;
     transition: left 0.25s ease;
   }
-  #toggle-icon { font-size: 1rem; line-height: 1; }
-  #toggle-label {
-    font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em;
-    text-transform: uppercase; writing-mode: vertical-rl;
-    transform: rotate(180deg); opacity: 0.7;
+
+  @media (min-width: 900px) {
+    .sidebar-toggle { display: flex; }
+    .mobile-nav-toggle { display: none; }
+    sl-drawer#mobile-nav { display: none; }
   }
-  .nav-inner { padding: 1.5rem 0.75rem; }
-  .nav-section { margin-bottom: 1.5rem; }
+
+  /* ── Mobile toggle ───────────────────────────────────────────────────── */
+  .mobile-nav-toggle {
+    position: fixed; top: 3.5rem; left: 0; right: 0;
+    z-index: 50;
+    background: var(--paper-mid);
+    border: none; border-bottom: 1px solid var(--rule);
+    padding: 0.65rem var(--gutter);
+    font-family: var(--mono); font-size: 0.7rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    text-align: left; cursor: pointer; color: var(--ink);
+    width: 100%;
+  }
+
+  @media (min-width: 900px) {
+    .mobile-nav-toggle { display: none; }
+  }
+
+  /* ── Shared nav styles ───────────────────────────────────────────────── */
+  .nav-inner { padding: 1.25rem 0.75rem; }
+  .nav-section { margin-bottom: 1.25rem; }
   .nav-label {
     font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em;
-    text-transform: uppercase; opacity: 0.5; margin-bottom: 0.5rem; padding: 0 0.25rem;
+    text-transform: uppercase; opacity: 0.5;
+    margin-bottom: 0.5rem; padding: 0 0.25rem;
   }
-  .nav-divider { border: none; border-top: 1px solid rgba(0,0,0,0.1); margin: 1rem 0; }
+  .nav-divider { border: none; border-top: 1px solid var(--rule); margin: 1rem 0; }
   .nav-link {
     display: flex; align-items: baseline; gap: 0.75rem;
     padding: 0.4rem 0.5rem; border-radius: 4px;
-    text-decoration: none; color: #000;
+    text-decoration: none; color: var(--ink);
     font-family: var(--body); font-size: 0.875rem; line-height: 1.4;
     transition: background 0.15s;
   }
-  .nav-link:hover { background: rgba(0,0,0,0.06); }
-  .nav-link--active { background: rgba(0,0,0,0.08); font-weight: 600; }
+  .nav-link:hover { background: var(--rule); }
+  .nav-link--active { background: rgba(var(--ink-rgb),0.08); font-weight: 600; }
   .nav-link--series { font-family: var(--display); font-size: 0.85rem; }
-  .nav-num { font-family: var(--mono); font-size: 0.65rem; font-weight: 700; opacity: 0.35; min-width: 1.75rem; flex-shrink: 0; }
+  .nav-num {
+    font-family: var(--mono); font-size: 0.65rem;
+    font-weight: 700; opacity: 0.35; min-width: 1.75rem; flex-shrink: 0;
+  }
+
+  /* ── Mobile drawer panel ─────────────────────────────────────────────── */
+  sl-drawer#mobile-nav::part(panel) {
+    background: var(--paper);
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+  sl-drawer#mobile-nav::part(overlay) {
+    backdrop-filter: none;
+    background: transparent;
+  }
+
+  /* ── Main content offset ─────────────────────────────────────────────── */
+  #main { transition: margin-left 0.25s ease; }
 </style>
