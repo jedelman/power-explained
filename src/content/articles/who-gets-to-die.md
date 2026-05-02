@@ -26,4 +26,4 @@ Who gets protected? Who gets policed? Who gets killed without investigation? The
 
 Understanding this matters because it changes how you read the news. Every police killing that doesn't result in prosecution, every disease outbreak that moves fastest through the poorest neighborhoods, every environmental disaster sited in the territory of the least powerful—these are not failures of the system. They are the system working as designed.
 
-The next piece shows what communities do anyway—building commons and claiming life—in the territories where the state has declared they have no right to exist.
+The next piece — [The Commons They Never Stopped Building](/the-commons-they-never-stopped-building) — shows what communities do anyway—building commons and claiming life—in the territories where the state has declared they have no right to exist.

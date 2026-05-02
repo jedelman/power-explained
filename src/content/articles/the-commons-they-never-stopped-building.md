@@ -28,4 +28,4 @@ The dam projects don't stop because Roy documents them. The struggle continues. 
 
 What Roy documents is not victory. It's persistence. The refusal to disappear quietly. The insistence that another way was there, was possible, and can be rebuilt.
 
-The final piece in this series asks: what does it look like to build commons without the state? Not in the gaps of empire, but deliberately, as a complete alternative?
+The final piece in this series — [Build the Commune Without the State](/build-the-commune-without-the-state) — asks: what does it look like to build commons without the state? Not in the gaps of empire, but deliberately, as a complete alternative?

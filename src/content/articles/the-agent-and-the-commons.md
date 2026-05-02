@@ -5,27 +5,41 @@ description: "AI agents are trained on the commons and run on enclosed infrastru
 seriesTag: "Series V — Where We Go From Here"
 h1: "The Agent and the Commons"
 ---
+
 AI is being built right now. The architecture of decision-making. The technology that will shape what is possible and what is not for the next generation. And it is being built by a handful of corporations training on the corpus of humanity without consent, without compensation, governing it as property, controlling it as power.
 
-This is an enclosure happening in real time. And like all enclosures, it requires a response.
+This is an enclosure happening in real time.
 
-## What's being enclosed
+## What is actually being enclosed
 
-Language is being enclosed into proprietary models that treat your expression as a resource to be extracted. Knowledge is being enclosed into systems that can predict and shape your behavior. The possibility of collective decision-making is being enclosed into algorithms that optimize for engagement and profit rather than deliberation and care. The commons of human expression and thought is being converted into a tool for prediction and control.
+Language — the natural-language commons built by everyone who ever wrote anything — is being enclosed into proprietary models that treat your expression as a resource to be extracted. The people whose data trained these systems have no ownership, no governance, no right to decide how the systems function.
 
-And the people whose data trained these systems have no ownership, no governance, no right to decide how the systems function.
+Knowledge is being enclosed into systems that can predict and shape behavior. The possibility of collective decision-making is being enclosed into algorithms that optimize for engagement and profit rather than deliberation and care. The commons of human expression and thought is being converted into a tool for prediction and control.
 
-This is what enclosure looks like in the age of AI.
+But the enclosure operates at two levels simultaneously, and conflating them produces bad analysis.
 
-## How commons governance works here
+The first is the enclosure of the training commons — the text, code, and human expression that models are trained on. The second is the enclosure of the infrastructure layer — the compute, the data centers, the physical systems required to train and run large models. These require different governance responses.
 
-The alternative is clear: the people whose data trained the system should govern the system. Not through representation and not through markets. Through participatory governance where the people affected by AI decisions get to decide how those systems work.
+## The training commons
 
-This is not impossible. It is already being built. Participatory budgeting that gives communities power over public spending. Community data cooperatives where people collectively own and control their data. Open source models that let communities build and govern their own AI. Algorithmic audits by communities affected. Refusal to participate in data extraction.
+Open model weights — AI systems whose underlying parameters are publicly released — break the enclosure at the access layer. A model whose weights are public can be run locally, modified, audited, and improved by anyone with the compute to work with it. This is a real step. It is not sufficient. Releasing weights without releasing training data or providing public compute is like releasing compiled code without the source — but it is meaningfully different from full proprietary closure.
 
-The work requires: building the governance structures that let commons govern themselves at scale. Understanding how these systems actually work technically so communities can make informed decisions. Refusing the enclosure—not feeding your data to systems you don't control. Building alternatives that are governed by and for the communities that use them.
+Data cooperatives address the training commons directly. If the value of a language model derives from the data it was trained on, then the people who produced that data have a governance claim on the resulting system. Data cooperatives make that claim institutional: the data has collective owners, the collective owners have governance rights, and the system trained on their data is accountable to them. The mechanism already exists for music rights, for agricultural data, for health data. The same structure applies.
 
-> **If AI is built on your commons,**
-> **you should govern how it works.**
+## The infrastructure layer
 
-This is not the end of the series. This is where the real work begins. Because the pieces are in place. The frameworks are clear. The examples of what's possible are proven. The only thing left is for you to decide: are you building?
+Training and running large AI systems requires data centers: buildings full of servers, consuming enormous quantities of electricity, requiring substantial water for cooling, occupying land. That infrastructure is being sited in communities selected for land availability and regulatory tractability, not for the benefit of those communities.
+
+Public compute infrastructure — compute capacity owned and operated as a public utility, accessible to researchers, small organizations, and communities that cannot afford the capital costs of training — addresses this layer. The internet's foundational infrastructure was built with public investment and governed as a commons. The argument for public compute is identical: if AI infrastructure is as consequential as the internet, leaving it entirely to private capital produces the same concentrations and the same capture, for the same reasons.
+
+## The governance problem is the same problem
+
+Every commons requires: clearly defined boundaries, rules fit to local conditions, collective choice arrangements, monitoring accountable to users, conflict resolution mechanisms, and the right to organize without external interference.
+
+These apply to AI governance directly. Who has rights to use the model? What rules govern what it can do? Who decides when those rules change? Who monitors compliance? How are disputes resolved? Who can challenge the governance?
+
+Currently: one company decides. The community of people whose data trained the system has no standing. The communities hosting the infrastructure have no governance rights over what it does. The users of the outputs have no recourse beyond the terms of service.
+
+This is the enclosure. The alternative is not regulation — regulation administered by the state is a different kind of centralization, with its own capture dynamics. The alternative is commons governance: the people affected by the system having meaningful participation in how it is governed.
+
+This is 1993 for AI governance. The decisions being made now — about model weights, training data rights, compute infrastructure ownership, community accountability mechanisms — will determine the structure of the next technology layer for decades. The window is open. It will not remain open indefinitely.

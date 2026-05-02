@@ -26,4 +26,4 @@ In his work as a psychiatrist, Fanon saw the cost. The psychological damage of b
 
 What Fanon documents is not just the injustice of colonialism. It's the way colonialism reaches into the colonized person's self-understanding and forces them to collaborate in the structure that's destroying them. And he shows that the only way out of that bind is through the colonized person breaking free of the need for the colonizer's recognition. Becoming human not by proving it to the colonizer, but by taking freedom, by building something new.
 
-The next piece extends this logic: if colonialism doesn't just extract but shapes who is allowed to live and who is left exposed to death, then liberation is not just political—it's a claim on life itself.
+The next piece — [Who Gets to Die](/who-gets-to-die) — extends this logic: if colonialism doesn't just extract but shapes who is allowed to live and who is left exposed to death, then liberation is not just political—it's a claim on life itself.

@@ -5,29 +5,43 @@ description: "Linux was built on a commons of formal code. AI is being built on 
 seriesTag: "Where We Go From Here — Series V"
 h1: "The Language Was Always a Commons"
 ---
-Language is built by everybody who speaks it. No individual invented English or Spanish or Mandarin. They emerged from communities, evolved through use, belonged to no one and everyone. And yet we have spent the last century trying to enclose it—through copyright, patents, credentials, and now through data extraction by language models trained on the corpus of human expression without consent or compensation.
 
-Knowledge is the same. Healing knowledge, agricultural knowledge, mathematical knowledge—built over centuries by communities, tested against reality, maintained and passed on through teaching and writing. And yet we enclose it into intellectual property, force people to pay for what should be free, and now extract it into AI systems that treat it as a resource to be mined.
+Language is built by everybody who speaks it. No individual invented English or Spanish or Mandarin. They emerged from communities, evolved through use, belonged to no one and everyone.
 
-This is a choice. And it can be undone.
+To train a language model, you feed it text. Books, articles, encyclopedias, scientific papers, legal documents, forum threads, code, poetry, letters, every form of human writing that has been digitized. The model reads this corpus and learns the statistical patterns that govern how human beings use language: which words follow which other words, how arguments are structured, how questions get answered, how meaning is made.
 
-## How knowledge got enclosed
+That corpus is a commons. Not metaphorically — structurally. It was produced collectively, by billions of people across centuries, under no single authority's direction, for no single purpose. The knowledge encoded in any substantial corpus of human writing is communally owned in the only sense that matters: it was communally produced, and no one has a legitimate claim to have built it alone.
 
-The enclosure of knowledge happened in stages. First, the printing press made knowledge that had been oral into something that could be owned in books. Then universities and professional licensing made knowledge into credentials you had to pay to access. Then corporations patented everything from seeds to genes. Now tech companies are training models on humanity's knowledge without asking, without paying, claiming that extracting your expression is not theft because it's "for training."
+The model trained on that corpus is something different. It is a private artifact, owned by whoever built it, whose access is controlled, whose outputs are monetized, whose governance answers to shareholders. The commons went in. The enclosure came out.
 
-Each enclosure removed knowledge from the commons and put it into the domain of profit and control. Communities that had healing knowledge had to buy pharmaceuticals. Farmers that had developed seed varieties had to buy patented seeds. People who needed to read had to pay for books. People who wanted to know anything had to get credentials.
+## Two kinds of enclosure
 
-And the knowledge itself degraded, because it was no longer maintained communally. Because the people who possessed it were discouraged from sharing it. Because profit depends on scarcity.
+Open-source software is built on a formal commons — discrete code, governed by a precise grammar, replicable and auditable. The governance tools that protect it work because code is bounded. You can fork a codebase. You can run two versions. You can compare them line by line.
 
-> **Language and knowledge belong to everyone**
-> **because everyone made them.**
+Language models are built on a natural-language commons, and the difference is not a matter of degree. Natural language is not a formal system. Its meaning is not computable from its grammar alone — it depends on context, shared assumption, the accumulated pragmatic conventions of communities of speakers, the entire social history of how words have been used.
 
-## Building knowledge as commons
+When proprietary software enclosed code, what was enclosed was a specific artifact. The commons of code remained available for anyone to use to build something else. When a language model encloses natural language, what is being enclosed is not an artifact derived from the commons. It is the commons distilled. The model is the accumulated patterns of human language, compressed and made queryable. Its outputs are reconstructions of the commons. And if access to those reconstructions is controlled — priced, surveilled, withdrawn at will, filtered by the priorities of whoever owns the system — then the commons itself has been made artificially scarce by people who did not build it.
 
-The open source movement proved this is possible. Thousands of programmers building software together, sharing code freely, creating value that nobody owns. Wikipedia built by volunteers. Scientific papers posted openly. Communities maintaining libraries and archives. Oral traditions kept alive in communities despite the state's attempts to erase them.
+## The physical layer
 
-The work here is specific: it requires building tools for collective knowledge-keeping. Protecting the right to repair and modify technology. Creating spaces where knowledge can be shared freely. Building communities of practice where teaching happens as mutual aid rather than transaction. Resisting the enclosure of seeds, medicines, and healing practices.
+The language commons is immaterial — text, meaning, accumulated human thought. But the infrastructure required to enclose it is very physical. Training and running large AI systems requires data centers: buildings full of servers, consuming enormous quantities of electricity, requiring substantial water for cooling, drawing on local power grids. That infrastructure is being built now, rapidly, in communities selected precisely because land and power were available and local regulatory resistance was manageable.
 
-And it requires refusing the extraction. Refusing to train your data on corporate platforms that mine your expression. Refusing to feed language models with your labor. Building alternatives where knowledge is governed by the communities that created it.
+The communities hosting this infrastructure bear its costs: the power load on local grids, the industrial footprint, the water consumption, the transformation of the local built environment. The economic benefits flow substantially to the owners of the systems the infrastructure serves, who are typically not in those communities.
 
-The next piece shows what this looks like in practice—the work that is already happening.
+This is the Narmada pattern in a new form. [Arundhati Roy](/case-study-rojava) described it for dams: the greater common good is invoked to justify infrastructure whose benefits flow elsewhere and whose costs are borne locally. The data center version of this argument is already in use. The question Roy insisted on asking — who benefits, who pays, and are those honestly accounted for — is the right question for AI infrastructure.
+
+## What 1993 looked like
+
+Linux existed in 1993. It ran on a small fraction of computers. The decisions that had been made about its license were not yet visibly important — the infrastructure hadn't been built, the corporations hadn't arrived, the stakes weren't legible from the outside. But the decisions made in 1991 and 1992 determined what was possible in 2007 when Android arrived, in 2015 when cloud computing consolidated, and today when Linux runs the majority of the world's servers.
+
+We are in 1993 for AI governance. The decisions being made now — about model weights, about training data rights, about who owns compute infrastructure, about what communities receive in exchange for hosting data centers — will determine the structure of the next technology layer for decades.
+
+## What commons governance looks like here
+
+Open model weights — AI systems whose underlying parameters are publicly released — are the first step toward a commons-governed AI layer, in the same way that [open-source code](/how-linux-became-the-internet) was the first step toward a commons-governed software layer. A model whose weights are public can be run locally, modified, audited, and improved by anyone with the compute to work with it. This is a real and meaningful step. It is not sufficient — releasing weights without releasing training data or providing public compute is like releasing compiled code without the source — but it breaks the enclosure at the access layer.
+
+Data cooperatives address the training commons directly. If the value of a language model derives from the data it was trained on, then the people who produced that data have a governance claim on the resulting system. Data cooperatives make that claim institutional: the data has collective owners, the collective owners have governance rights, and the system trained on their data is accountable to them.
+
+Public compute infrastructure — compute capacity owned and operated as a public utility, accessible to researchers, small organizations, and communities that cannot afford capital costs of training — addresses the infrastructure layer. The internet's foundational infrastructure was built with public investment and governed as a commons. The argument for public compute is the same: if AI infrastructure is as consequential as the internet, leaving it entirely to private capital produces the same concentrations and the same capture, for the same reasons.
+
+The window for commons governance is open. It will not remain open indefinitely.
