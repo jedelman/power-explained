@@ -76,7 +76,7 @@ export default function SeriesNav() {
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
           borderBottom: '1px solid rgba(255,255,255,0.1)',
         }}>
-          <Typography sx={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', opacity: 0.4 }}>
+          <Typography sx={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase', opacity: 0.65 }}>
             All Pieces
           </Typography>
           <IconButton onClick={() => setOpen(false)} size="small" aria-label="Close" sx={{ color: 'rgba(255,255,255,0.5)' }}>
@@ -91,7 +91,7 @@ export default function SeriesNav() {
               <Typography sx={{
                 fontFamily: 'var(--mono)', fontSize: '0.6rem',
                 letterSpacing: '0.08em', textTransform: 'uppercase',
-                opacity: 0.4, px: 1, mb: 0.75,
+                opacity: 0.65, px: 1, mb: 0.75,
               }}>
                 {s.label}
               </Typography>
@@ -107,12 +107,12 @@ export default function SeriesNav() {
                         aria-current={isCurrent ? 'page' : undefined}
                         sx={{
                           px: 1, py: 0.5, gap: 1, borderRadius: 1,
-                          color: isCurrent ? 'var(--paper)' : 'rgba(255,255,255,0.65)',
+                          color: isCurrent ? 'var(--paper)' : 'rgba(255,255,255,0.85)',
                           '&.Mui-selected': { bgcolor: 'rgba(255,255,255,0.08)' },
                           '&:hover': { bgcolor: 'rgba(255,255,255,0.06)', color: 'var(--paper)' },
                         }}
                       >
-                        <Typography sx={{ fontFamily: 'var(--mono)', fontSize: '0.65rem', fontWeight: 700, opacity: 0.35, minWidth: '1.75rem', flexShrink: 0 }}>
+                        <Typography sx={{ fontFamily: 'var(--mono)', fontSize: '0.65rem', fontWeight: 700, opacity: 0.55, minWidth: '1.75rem', flexShrink: 0 }}>
                           {piece.num}
                         </Typography>
                         <ListItemText

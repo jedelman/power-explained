@@ -1,19 +1,19 @@
 /**
  * Master article list — drives SeriesNav, prev/next, and llms.txt ordering.
- * Mirrors Contents.jsx exactly.
+ * Generated from src/content/*.md frontmatter.
  */
 export const SERIES = [
   {
     id: 'series-i',
     label: 'Series I — The Basic Architecture',
     pieces: [
-      { num: '01', title: "Why Your City Doesn't Work", url: '/why-your-city-doesnt-work' },
-      { num: '02', title: 'Your City Knows Less', url: '/your-city-knows-less' },
-      { num: '03', title: 'Who Gets Paid', url: '/who-gets-paid' },
+      { num: '01', title: 'Why Your City Doesn't Work (and Why It's Not an Accident)', url: '/why-your-city-doesnt-work' },
+      { num: '02', title: 'Your City Knows Less About Your Street Than You Do', url: '/your-city-knows-less' },
+      { num: '03', title: 'Who Gets Paid When You Show Up?', url: '/who-gets-paid' },
       { num: '04', title: 'Two Ways to Fix a Pothole', url: '/two-ways-to-fix-a-pothole' },
-      { num: '05', title: "Open Data Isn't Enough", url: '/open-data-isnt-enough' },
+      { num: '05', title: 'Open Data Isn't Enough', url: '/open-data-isnt-enough' },
       { num: '06', title: 'How Linux Became the Internet', url: '/how-linux-became-the-internet' },
-      { num: '07', title: "Mutual Aid Isn't Charity", url: '/mutual-aid-isnt-charity' },
+      { num: '07', title: 'Mutual Aid Isn't Charity', url: '/mutual-aid-isnt-charity' },
     ],
   },
   {
@@ -40,36 +40,29 @@ export const SERIES = [
     ],
   },
   {
-    id: 'evidence',
-    label: 'The Evidence',
+    id: 'series-iv',
+    label: 'Series IV — The World the Framework Missed',
     pieces: [
-      { num: '19', title: 'Hardin Was Wrong', url: '/hardin-was-wrong' },
-      { num: '20', title: 'The Outside Was Always People', url: '/racial-capitalism' },
-      { num: '21', title: 'Underdevelopment Is a Verb', url: '/underdevelopment-is-a-verb' },
-      { num: '22', title: 'The Alibi Was Also a Mirror', url: '/the-alibi-was-a-mirror' },
-      { num: '23', title: 'Who Gets to Die', url: '/who-gets-to-die' },
-      { num: '24', title: 'The Commons They Never Stopped Building', url: '/the-commons-they-never-stopped-building' },
-      { num: '25', title: 'Build the Commune Without the State', url: '/build-the-commune-without-the-state' },
-      { num: '26', title: 'The Human Was a Story', url: '/the-human-was-a-story' },
-      { num: '27', title: 'One Pattern', url: '/one-pattern' },
-      { num: '28', title: 'Nobody Had To', url: '/nobody-had-to' },
-      { num: '29', title: 'The Debt Came First', url: '/money-has-to-be-a-commons' },
-      { num: '30', title: 'Land Is the Foundation', url: '/land-is-the-foundation' },
-      { num: '31', title: 'Care Is the Economy', url: '/care-is-the-economy' },
-      { num: '32', title: 'The Language Was Always a Commons', url: '/the-language-was-always-a-commons' },
-      { num: '33', title: 'The Preparation Is Underway', url: '/the-preparation-is-underway' },
-      { num: '34', title: 'The Agent and the Commons', url: '/the-agent-and-the-commons' },
+      { num: '19', title: 'The Outside Was Always People', url: '/racial-capitalism' },
+      { num: '20', title: 'Underdevelopment Is a Verb', url: '/underdevelopment-is-a-verb' },
+      { num: '21', title: 'The Alibi Was Also a Mirror', url: '/the-alibi-was-a-mirror' },
+      { num: '22', title: 'Who Gets to Die', url: '/who-gets-to-die' },
+      { num: '23', title: 'The Commons They Never Stopped Building', url: '/the-commons-they-never-stopped-building' },
+      { num: '24', title: 'Build the Commune Without the State', url: '/build-the-commune-without-the-state' },
     ],
   },
   {
-    id: 'deep-time',
-    label: 'Deep Time',
+    id: 'series-v',
+    label: 'Series V — Where We Go From Here',
     pieces: [
-      { num: '35', title: 'Reich: Character Armor', url: '/reich-character-armor' },
-      { num: '36', title: 'Gramsci: 1930s', url: '/gramsci-1930s' },
-      { num: '37', title: 'Shannon & Simondon: 1950s', url: '/shannon-simondon-1950s' },
-      { num: '38', title: 'Debord: 1968', url: '/debord-1968' },
-      { num: '39', title: 'Psychedelics & Theory of Mind', url: '/psychedelics-theory-of-mind' },
+      { num: '25', title: 'One Pattern', url: '/one-pattern' },
+      { num: '26', title: 'Nobody Had To', url: '/nobody-had-to' },
+      { num: '27', title: 'The Debt Came First', url: '/money-has-to-be-a-commons' },
+      { num: '28', title: 'Land Is the Foundation', url: '/land-is-the-foundation' },
+      { num: '29', title: 'Care Is the Economy', url: '/care-is-the-economy' },
+      { num: '30', title: 'The Language Was Always a Commons', url: '/the-language-was-always-a-commons' },
+      { num: '31', title: 'The Preparation Is Already Underway', url: '/the-preparation-is-underway' },
+      { num: '32', title: 'The Agent and the Commons', url: '/the-agent-and-the-commons' },
     ],
   },
 ]

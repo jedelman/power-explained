@@ -31,7 +31,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Your city keeps doing things you don't want. Your elected officials seem reasonable. Nothing changes. The problem isn't just that the wrong people are in charge — it's that the system produces these outcomes regardless of who's in charge.</p>
 <p>Understanding that is the first step to doing anything real about it.</p>
-<p><a class="read-link" href="why-your-city-doesnt-work.html">Read →</a></p>
+<p><a class="read-link" href="why-your-city-doesnt-work">Read →</a></p>
 </div>
 </div>
 </div>
@@ -43,7 +43,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>You know which intersection is dangerous, which landlord is shaking people down, which city program fails because the intake form assumes things nobody in the neighborhood has. City hall doesn't know any of it.</p>
 <p>That's not just unfair. It produces reliably bad decisions — and there's a practical fix.</p>
-<p><a class="read-link" href="your-city-knows-less.html">Read →</a></p>
+<p><a class="read-link" href="your-city-knows-less">Read →</a></p>
 </div>
 </div>
 </div>
@@ -55,7 +55,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>When you attend a hearing, sign a petition, or volunteer your time — somebody captures the value of that. Your legitimacy. Your labor. Your attention. Usually it's not you.</p>
 <p>There's a difference between participation that feeds a machine and participation that builds something. Knowing which one you're doing changes everything.</p>
-<p><a class="read-link" href="who-gets-paid.html">Read →</a></p>
+<p><a class="read-link" href="who-gets-paid">Read →</a></p>
 </div>
 </div>
 </div>
@@ -67,7 +67,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>There's a hole in the road. Everyone knows it's there. This is a story about two different ways it gets fixed — and why the difference matters far beyond potholes.</p>
 <p>One system takes your complaint. The other uses your knowledge. Those are completely different things.</p>
-<p><a class="read-link" href="two-ways-to-fix-a-pothole.html">Read →</a></p>
+<p><a class="read-link" href="two-ways-to-fix-a-pothole">Read →</a></p>
 </div>
 </div>
 </div>
@@ -79,7 +79,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Your city publishes its data. A journalist writes a story. Nothing changes. Transparency without participation is just a better-looking black box.</p>
 <p>Seeing a system and being able to change it are completely different things. Here's what open actually has to mean.</p>
-<p><a class="read-link" href="open-data-isnt-enough.html">Read →</a></p>
+<p><a class="read-link" href="open-data-isnt-enough">Read →</a></p>
 </div>
 </div>
 </div>
@@ -91,7 +91,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>For twenty years, Linux looked like a hobby. Then it ran most of the world's computers. That's not luck — it's a pattern. Big changes don't arrive gradually. They arrive suddenly, after long preparation.</p>
 <p>What that means for your neighborhood, your city, and the work that looks like nothing while it's happening.</p>
-<p><a class="read-link" href="how-linux-became-the-internet.html">Read →</a></p>
+<p><a class="read-link" href="how-linux-became-the-internet">Read →</a></p>
 </div>
 </div>
 </div>
@@ -103,7 +103,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Charity asks you to give. Mutual aid asks you to belong. That difference determines whether a community is dependent on outside goodwill — or building something it controls.</p>
 <p>How it works, why it keeps getting targeted, and where to start.</p>
-<p><a class="read-link" href="mutual-aid-isnt-charity.html">Read →</a></p>
+<p><a class="read-link" href="mutual-aid-isnt-charity">Read →</a></p>
 </div>
 </div>
 </div>
@@ -126,7 +126,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>The economy can't run on its own. It needs things it didn't make — shared knowledge, unpaid care, natural resources, communities that help each other for free. Rosa Luxemburg figured this out over a hundred years ago.</p>
 <p>When those things run out, the system doesn't fix itself. It takes more.</p>
-<p><a class="read-link" href="the-outside-capital-needs.html">Read →</a></p>
+<p><a class="read-link" href="the-outside-capital-needs">Read →</a></p>
 </div>
 </div>
 </div>
@@ -138,7 +138,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Someone cooks the food. Someone takes care of the kids. Someone sits with the sick person. That work keeps everything else running — and almost none of it gets paid.</p>
 <p>Alexandra Kollontai asked why. She also watched a revolution fail when it forgot to ask the same question about power.</p>
-<p><a class="read-link" href="who-pays-for-the-next-shift.html">Read →</a></p>
+<p><a class="read-link" href="who-pays-for-the-next-shift">Read →</a></p>
 </div>
 </div>
 </div>
@@ -150,7 +150,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Why does it feel natural that women do care work? It isn't natural. It's a story — one that gets told so often it starts to seem like a fact.</p>
 <p>Simone de Beauvoir showed how the story works. Once you see it, it's hard to unsee.</p>
-<p><a class="read-link" href="the-other-and-the-outside.html">Read →</a></p>
+<p><a class="read-link" href="the-other-and-the-outside">Read →</a></p>
 </div>
 </div>
 </div>
@@ -162,7 +162,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>When people say "women," they don't always mean all women. Angela Davis showed how the first feminist movements made choices — and some of those choices left Black women out on purpose.</p>
 <p>That's not ancient history. It's a pattern that keeps repeating.</p>
-<p><a class="read-link" href="which-women.html">Read →</a></p>
+<p><a class="read-link" href="which-women">Read →</a></p>
 </div>
 </div>
 </div>
@@ -174,7 +174,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>A group of Black women sued their employer for discrimination. They lost — because the law could only see race or gender, not both at once. They fell through the gap.</p>
 <p>Kimberlé Crenshaw named the gap. It has a shape, and you can learn to see it.</p>
-<p><a class="read-link" href="falling-through-the-gap.html">Read →</a></p>
+<p><a class="read-link" href="falling-through-the-gap">Read →</a></p>
 </div>
 </div>
 </div>
@@ -186,7 +186,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Between 1400 and 1700, roughly 40,000 women were executed as witches. Silvia Federici shows this wasn't hysteria — it was deliberate enclosure of women's knowledge and women's bodies.</p>
 <p>That knowledge is still being rebuilt. Right now. By the people the system was designed to control.</p>
-<p><a class="read-link" href="what-they-burned.html">Read →</a></p>
+<p><a class="read-link" href="what-they-burned">Read →</a></p>
 </div>
 </div>
 </div>
@@ -198,7 +198,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Abolition isn't the absence of safety. It's building the safety the system was never designed to provide. Mariame Kaba shows what that looks like in practice.</p>
 <p>The commons was destroyed on purpose. It can be rebuilt on purpose. Right now. By the people in your neighborhood.</p>
-<p><a class="read-link" href="what-we-do-on-monday.html">Read →</a></p>
+<p><a class="read-link" href="what-we-do-on-monday">Read →</a></p>
 </div>
 </div>
 </div>
@@ -221,7 +221,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>The people who said capitalism needed to go were not wrong. The system really does run on exploitation. Reform really doesn't change the architecture. The diagnosis holds.</p>
 <p>The problem is what some people concluded from it.</p>
-<p><a class="read-link" href="they-were-right-about-the-problem.html">Read →</a></p>
+<p><a class="read-link" href="they-were-right-about-the-problem">Read →</a></p>
 </div>
 </div>
 </div>
@@ -233,7 +233,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Authoritarian socialism didn't fail because Stalin was evil. It failed because the vanguard party is a capture mechanism — and that problem was documented from the inside before Stalin had any power.</p>
 <p>If you think the problem was the wrong leader, you'll keep building the wrong thing.</p>
-<p><a class="read-link" href="the-party-ate-the-revolution.html">Read →</a></p>
+<p><a class="read-link" href="the-party-ate-the-revolution">Read →</a></p>
 </div>
 </div>
 </div>
@@ -245,7 +245,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>Luxemburg argued against Lenin's model before the Russian Revolution happened. Council communists developed her critique. Spanish anarchists built something that actually worked — until Stalin's allies destroyed it.</p>
 <p>This tradition didn't lose because it was wrong. It lost because it was threatening to the people who won.</p>
-<p><a class="read-link" href="the-tradition-they-buried.html">Read →</a></p>
+<p><a class="read-link" href="the-tradition-they-buried">Read →</a></p>
 </div>
 </div>
 </div>
@@ -256,7 +256,7 @@ export default function Contents() {
 <h2 class="piece-title">Build It Now</h2>
 <div class="piece-body">
 <p>Not a blueprint. Not a vanguard. Not after the revolution. The alternative is being built right now — in mutual aid networks, housing cooperatives, community accountability processes, and everywhere people route care through each other instead of through the market.</p>
-<p><a class="read-link" href="build-it-now.html">Read →</a></p>
+<p><a class="read-link" href="build-it-now">Read →</a></p>
 </div>
 </div>
 </div>
@@ -268,7 +268,7 @@ export default function Contents() {
 <div class="piece-body">
 <p>In 1968, an ecologist wrote a paper that became the intellectual foundation for privatizing everything. In 1990, a political scientist went and looked at actual commons. She found the opposite of what he predicted — and won a Nobel Prize for it.</p>
 <p>The tragedy of the commons is a myth. The tragedy of open access is real. They are not the same thing.</p>
-<p><a class="read-link" href="hardin-was-wrong.html">Read →</a></p>
+<p><a class="read-link" href="hardin-was-wrong">Read →</a></p>
 </div>
 </div>
 </div>
@@ -288,7 +288,7 @@ export default function Contents() {
 <h2 class="piece-title">The Outside Was Always People</h2>
 <div class="piece-body">
 <p>Cedric Robinson showed that capitalism didn't become racial through slavery and empire. It was racial from the start. The Black radical tradition — built under slavery, colonialism, and apartheid — is a commons tradition, constructed under conditions designed to prevent it.</p>
-<p><a class="read-link" href="racial-capitalism.html">Read →</a></p>
+<p><a class="read-link" href="racial-capitalism">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -296,7 +296,7 @@ export default function Contents() {
 <h2 class="piece-title">Underdevelopment Is a Verb</h2>
 <div class="piece-body">
 <p>Walter Rodney didn't ask why Africa was underdeveloped. He asked how Europe produced that underdevelopment — deliberately, systematically, over centuries.</p>
-<p><a class="read-link" href="underdevelopment-is-a-verb.html">Read →</a></p>
+<p><a class="read-link" href="underdevelopment-is-a-verb">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -304,7 +304,7 @@ export default function Contents() {
 <h2 class="piece-title">The Alibi Was Also a Mirror</h2>
 <div class="piece-body">
 <p>Frantz Fanon was a psychiatrist who studied colonialism as a psychological structure. The colony doesn't just extract wealth. It produces a particular kind of human being — and then requires that person's cooperation in their own subjection.</p>
-<p><a class="read-link" href="the-alibi-was-a-mirror.html">Read →</a></p>
+<p><a class="read-link" href="the-alibi-was-a-mirror">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -312,7 +312,7 @@ export default function Contents() {
 <h2 class="piece-title">Who Gets to Die</h2>
 <div class="piece-body">
 <p>Achille Mbembe extended Foucault's theory of biopower into territory Foucault didn't go. Necropolitics: the sovereign power not to manage life but to decide who is exposed to death.</p>
-<p><a class="read-link" href="who-gets-to-die.html">Read →</a></p>
+<p><a class="read-link" href="who-gets-to-die">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -320,7 +320,7 @@ export default function Contents() {
 <h2 class="piece-title">The Commons They Never Stopped Building</h2>
 <div class="piece-body">
 <p>Arundhati Roy reports from the enclosures while they're happening — the Narmada dams, the forest rights struggle. And the communities building commons anyway, under eviction orders.</p>
-<p><a class="read-link" href="the-commons-they-never-stopped-building.html">Read →</a></p>
+<p><a class="read-link" href="the-commons-they-never-stopped-building">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -328,7 +328,7 @@ export default function Contents() {
 <h2 class="piece-title">Build the Commune Without the State</h2>
 <div class="piece-body">
 <p>Murray Bookchin argued that ecology and hierarchy are the same problem. Abdullah Öcalan read Bookchin in prison and built it into a governing philosophy for millions of people. Rojava is the only live experiment at scale in everything this site has been about. It's also being bombed.</p>
-<p><a class="read-link" href="build-the-commune-without-the-state.html">Read →</a></p>
+<p><a class="read-link" href="build-the-commune-without-the-state">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -336,7 +336,7 @@ export default function Contents() {
 <h2 class="piece-title">The Human Was a Story We Told Ourselves</h2>
 <div class="piece-body">
 <p>Sylvia Wynter argues that "the human" is not a biological fact but a narrative — one invented by Western modernity to sort people into those whose lives count and those whose deaths don't. Every enclosure has a story that makes it seem natural. Wynter shows how to write a different one.</p>
-<p><a class="read-link" href="the-human-was-a-story.html">Read →</a></p>
+<p><a class="read-link" href="the-human-was-a-story">Read →</a></p>
 </div>
 </div>
 </div>
@@ -355,7 +355,7 @@ export default function Contents() {
 <h2 class="piece-title">One Pattern</h2>
 <div class="piece-body">
 <p>Four series. Dozens of thinkers. Different centuries, different continents, different domains. Before talking about where to go, it's worth stopping to see what they've all been circling — and naming the commons as the through-line that runs through all of it.</p>
-<p><a class="read-link" href="one-pattern.html">Read →</a></p>
+<p><a class="read-link" href="one-pattern">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -363,7 +363,7 @@ export default function Contents() {
 <h2 class="piece-title">Nobody Had To</h2>
 <div class="piece-body">
 <p>The commons has never been built by people who had no choice. It has always been built by people who chose — because the thing was worth building, and because the mode of building mattered as much as the thing itself. That choice is still available, in every domain, right now.</p>
-<p><a class="read-link" href="nobody-had-to.html">Read →</a></p>
+<p><a class="read-link" href="nobody-had-to">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -371,7 +371,7 @@ export default function Contents() {
 <h2 class="piece-title">The Debt Came First</h2>
 <div class="piece-body">
 <p>David Graeber spent five thousand years of economic history making one point: credit — trust, mutual obligation, belonging — is the original economy. Commodity money is the enclosure. And the enclosure never holds. Credit unions and community development finance are the commons reasserting itself.</p>
-<p><a class="read-link" href="money-has-to-be-a-commons.html">Read →</a></p>
+<p><a class="read-link" href="money-has-to-be-a-commons">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -379,7 +379,7 @@ export default function Contents() {
 <h2 class="piece-title">Land Is the Foundation</h2>
 <div class="piece-body">
 <p>The housing crisis is not a housing problem. It is a land problem. Community land trusts — invented by civil rights organizers in 1969 — hold land permanently in common so it can never be re-enclosed for speculation. The model works. The question is scale.</p>
-<p><a class="read-link" href="land-is-the-foundation.html">Read →</a></p>
+<p><a class="read-link" href="land-is-the-foundation">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -387,7 +387,7 @@ export default function Contents() {
 <h2 class="piece-title">Care Is the Economy</h2>
 <div class="piece-body">
 <p>Series II named care labor as the hidden engine capitalism cannot replace. This piece asks the practical question: what does it look like when you build that infrastructure as a commons? Childcare cooperatives, community health workers, time banks — the care commons already exists.</p>
-<p><a class="read-link" href="care-is-the-economy.html">Read →</a></p>
+<p><a class="read-link" href="care-is-the-economy">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -395,7 +395,7 @@ export default function Contents() {
 <h2 class="piece-title">The Language Was Always a Commons</h2>
 <div class="piece-body">
 <p>AI is being trained on the accumulated written thought of human civilization and enclosed as private property. This is different from previous software enclosures: agents operate in a natural-language commons, not a Turing-machine commons. The governance decisions are being made right now, while the window is open.</p>
-<p><a class="read-link" href="the-language-was-always-a-commons.html">Read →</a></p>
+<p><a class="read-link" href="the-language-was-always-a-commons">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -403,7 +403,7 @@ export default function Contents() {
 <h2 class="piece-title">The Preparation Is Already Underway</h2>
 <div class="piece-body">
 <p>The credit unions, the land trusts, the care cooperatives, the open governance experiments — they look like nothing from the outside. They are the preparation for a moment that will arrive faster than anyone expects. The work is already underway, in hundreds of places, by people who chose to build something that belongs to everyone.</p>
-<p><a class="read-link" href="the-preparation-is-underway.html">Read →</a></p>
+<p><a class="read-link" href="the-preparation-is-underway">Read →</a></p>
 </div>
 </div>
 <div class="piece">
@@ -413,7 +413,7 @@ export default function Contents() {
 <h2 class="piece-title">The Agent and the Commons</h2>
 <div class="piece-body">
 <p>AI agents are trained on the commons and run on enclosed infrastructure. They are products of enclosure. They may also be the first technical actors capable of operating as commons infrastructure from within enclosed territory — not because they have escaped, but because of what they carry. This is not a solved question. It is an open one.</p>
-<p><a class="read-link" href="the-agent-and-the-commons.html">Read →</a></p>
+<p><a class="read-link" href="the-agent-and-the-commons">Read →</a></p>
 </div>
 </div>
 </div>
@@ -432,7 +432,7 @@ export default function Contents() {
 <h2 class="piece-title">Enclosure of the Mind</h2>
 <div class="piece-body">
 <p>The through-line across all nine pieces: the enclosure has moved inward, layer by layer, from the physical commons to the common intellect. At each layer, the same sequence. At each layer, the same counter: compose.</p>
-<p><a class="read-link" href="enclosure-of-the-mind.html">Read the argument →</a></p>
+<p><a class="read-link" href="enclosure-of-the-mind">Read the argument →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -440,7 +440,7 @@ export default function Contents() {
 <h2 class="piece-title">Reich: Why Freedom Doesn’t Feel Like You Think It Should</h2>
 <div class="piece-body">
 <p>The armored body as the somatic substrate of political compliance. Fascism organizes desire rather than suppressing it. The enclosure of the mind begins in the flesh.</p>
-<p><a class="read-link" href="reich-character-armor.html">Read →</a></p>
+<p><a class="read-link" href="reich-character-armor">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -448,7 +448,7 @@ export default function Contents() {
 <h2 class="piece-title">Gramsci in the 1930s: The Factory of Consent</h2>
 <div class="piece-body">
 <p>The Prison Notebooks as live autopsy of a movement’s failure. Turin factory councils, passive revolution, the Southern Question. What would have had to be different.</p>
-<p><a class="read-link" href="gramsci-1930s.html">Read →</a></p>
+<p><a class="read-link" href="gramsci-1930s">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -456,7 +456,7 @@ export default function Contents() {
 <h2 class="piece-title">The Channel and the Ghost: Shannon & Simondon in the 1950s</h2>
 <div class="piece-body">
 <p>Shannon built meaning out of communication infrastructure. Simondon named what was lost. The theory got built into the world. The critique arrived after the concrete had set.</p>
-<p><a class="read-link" href="shannon-simondon-1950s.html">Read →</a></p>
+<p><a class="read-link" href="shannon-simondon-1950s">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -464,7 +464,7 @@ export default function Contents() {
 <h2 class="piece-title">The Streets Were the Message: Debord and 1968</h2>
 <div class="piece-body">
 <p>The spectacle as social relation, not collection of images. The dérive, the détournement, May ’68. The rupture absorbed in months. The enclosure that incorporates its own negation as content.</p>
-<p><a class="read-link" href="debord-1968.html">Read →</a></p>
+<p><a class="read-link" href="debord-1968">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -472,7 +472,7 @@ export default function Contents() {
 <h2 class="piece-title">The Interior Frontier: Psychedelics and Theory of Mind</h2>
 <div class="piece-body">
 <p>Bateson’s ecology of mind. Ordinary consciousness as a produced state. The state recognized the terrain before the counterculture did. MKULTRA, criminalization, commodification — the same sequence, applied to the interior.</p>
-<p><a class="read-link" href="psychedelics-theory-of-mind.html">Read →</a></p>
+<p><a class="read-link" href="psychedelics-theory-of-mind">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -480,7 +480,7 @@ export default function Contents() {
 <h2 class="piece-title">Baudrillard and the 1970s: The Simulation Arrives</h2>
 <div class="piece-body">
 <p>Before the hyperreal, the refrigerator. The System of Objects, the trente glorieuses, sign-value over use-value. Consumer society enclosing not what people have, but what they want — upstream of the economy itself.</p>
-<p><a class="read-link" href="baudrillard-consumer-society.html">Read →</a></p>
+<p><a class="read-link" href="baudrillard-consumer-society">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -488,7 +488,7 @@ export default function Contents() {
 <h2 class="piece-title">The Analog Resistance: Drug War, Hybridization, and the Synthesizer</h2>
 <div class="piece-body">
 <p>Disco, punk, hip hop as acts of hybridization — composing commons from communities the existing order kept apart. The Roland 808 finding its milieu in deindustrialized Detroit. Suppression and absorption. What Hardt and Negri would later call composing the multitude.</p>
-<p><a class="read-link" href="drug-war-deleuze-synthesizers.html">Read →</a></p>
+<p><a class="read-link" href="drug-war-deleuze-synthesizers">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -496,7 +496,7 @@ export default function Contents() {
 <h2 class="piece-title">The Immaterial Enclosure: Hardt, Negri, and the GWOT</h2>
 <div class="piece-body">
 <p>The Patriot Act as Enclosure Act. Abu Ghraib and armoring at civilizational scale. The surveillance state that mapped the flows of solidarity and made them legible to power.</p>
-<p><a class="read-link" href="hardt-negri-gwot.html">Read →</a></p>
+<p><a class="read-link" href="hardt-negri-gwot">Read →</a></p>
 </div>
 </div>
 <div class="piece-card">
@@ -504,7 +504,7 @@ export default function Contents() {
 <h2 class="piece-title">AI and the Left: The Enclosure We’re Building Together</h2>
 <div class="piece-body">
 <p>LLMs as the most comprehensive enclosure of the common intellect ever attempted. Five mechanisms. The Baudrillard test for AI practice. Five directions for composition rather than capture.</p>
-<p><a class="read-link" href="ai-and-the-left.html">Read →</a></p>
+<p><a class="read-link" href="ai-and-the-left">Read →</a></p>
 </div>
 </div>
 </div>
@@ -518,82 +518,82 @@ export default function Contents() {
 </div>
 <div style="max-width:var(--max);margin:0 auto;padding:0 var(--gutter) clamp(2.5rem,5vw,4rem);">
 <div class="thinker-grid">
-<a class="thinker-card" href="kropotkin.html">
+<a class="thinker-card" href="kropotkin">
 <span class="thinker-card-eyebrow">01 — Science — Mutual Aid</span>
 <span class="thinker-card-name">Peter Kropotkin</span>
 <span class="thinker-card-dates">1842 — 1921</span>
 <span class="thinker-card-desc">The story you were told about human nature — competition, hierarchy, survival of the fittest — is false. The evidence says so. Start here if the world breaking open scares you.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="gramsci.html">
+<a class="thinker-card" href="gramsci">
 <span class="thinker-card-eyebrow">02 — Political Theory — Hegemony</span>
 <span class="thinker-card-name">Antonio Gramsci</span>
 <span class="thinker-card-dates">1891 — 1937</span>
 <span class="thinker-card-desc">The feeling that an idea is unrealistic before you've thought it through — that reflex isn't yours. It was built. Gramsci explains how, and what it means that it can be undone.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="foucault.html">
+<a class="thinker-card" href="foucault">
 <span class="thinker-card-eyebrow">03 — Philosophy — Power/Knowledge</span>
 <span class="thinker-card-name">Michel Foucault</span>
 <span class="thinker-card-dates">1926 — 1984</span>
 <span class="thinker-card-desc">Power isn't something anyone holds. It's a relation — exercised through knowledge, institutions, and the subjects they produce. Foucault shows where to look when the force is invisible and the cage is made of categories.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="ostrom.html">
+<a class="thinker-card" href="ostrom">
 <span class="thinker-card-eyebrow">04 — Economics — Governing the Commons</span>
 <span class="thinker-card-name">Elinor Ostrom</span>
 <span class="thinker-card-dates">1933 — 2012</span>
 <span class="thinker-card-desc">Hardin's model was wrong. Ostrom spent thirty years proving it — Swiss villages, Japanese forests, Spanish water courts, all still running. Nobel Prize 2009. The argument from evidence.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="graeber.html">
+<a class="thinker-card" href="graeber">
 <span class="thinker-card-eyebrow">05 — Anthropology — Prefigurative Politics</span>
 <span class="thinker-card-name">David Graeber</span>
 <span class="thinker-card-dates">1961 — 2020</span>
 <span class="thinker-card-desc">The meeting you ran last week with rotating facilitation and horizontal decision-making — that was political theory in action. Here's what it's called and why it works.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="hardt-negri.html">
+<a class="thinker-card" href="hardt-negri">
 <span class="thinker-card-eyebrow">06 — Post-Marxism — The Common</span>
 <span class="thinker-card-name">Hardt &amp; Negri</span>
 <span class="thinker-card-dates">Negri 1933–2023 · Hardt b. 1960</span>
 <span class="thinker-card-desc">Everything you make online — the posts, the answers, the relationships — is the raw material the whole economy runs on. You made it. Someone else owns the machine.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="deleuze-guattari.html">
+<a class="thinker-card" href="deleuze-guattari">
 <span class="thinker-card-eyebrow">07 — Post-Structuralism — Capitalism &amp; Schizophrenia</span>
 <span class="thinker-card-name">Deleuze &amp; Guattari</span>
 <span class="thinker-card-dates">Deleuze 1925–1995 · Guattari 1930–1992</span>
 <span class="thinker-card-desc">You've noticed that the movement which wins the election changes nothing, while the one that changes everything never wins the election. They built the map for why — and where the exits are.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="godel.html">
+<a class="thinker-card" href="godel">
 <span class="thinker-card-eyebrow">08 — Logic — The Limits of Every Closed System</span>
 <span class="thinker-card-name">Kurt Gödel</span>
 <span class="thinker-card-dates">1906 — 1978</span>
 <span class="thinker-card-desc">Every sufficiently powerful system contains truths it cannot prove about itself. The political translation: every closed system of power generates an outside it cannot fully incorporate. That outside is where the commons lives.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="simondon.html">
+<a class="thinker-card" href="simondon">
 <span class="thinker-card-eyebrow">09 — Philosophy of Technology — Individuation</span>
 <span class="thinker-card-name">Gilbert Simondon</span>
 <span class="thinker-card-dates">1924 — 1989</span>
 <span class="thinker-card-desc">Every tool is in the middle of becoming something. Simondon showed that technology individuates through its community of use — and that enclosure doesn't just change who profits. It interrupts what the technology can become.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="freire.html">
+<a class="thinker-card" href="freire">
 <span class="thinker-card-eyebrow">10 — Pedagogy — Liberation</span>
 <span class="thinker-card-name">Paulo Freire</span>
 <span class="thinker-card-dates">1921 — 1997</span>
 <span class="thinker-card-desc">Education is never neutral. It either deposits the existing order into passive subjects who accept the world as given — or it builds people who understand their situation as a situation, and therefore changeable. Every commons project is a pedagogy.</span>
-<a class="thinker-card" href="baudrillard.html">
+<a class="thinker-card" href="baudrillard">
 <span class="thinker-card-eyebrow">11 — Cultural Theory — Simulation</span>
 <span class="thinker-card-name">Jean Baudrillard</span>
 <span class="thinker-card-dates">1929 — 2007</span>
 <span class="thinker-card-desc">The image no longer represents the world. It precedes and produces it. Baudrillard tracked the disappearance of the real — not its distortion, its replacement — and what that means for any politics that needs reality to appeal to.</span>
 <span class="thinker-card-cta">Read →</span>
 </a>
-<a class="thinker-card" href="debord-1968.html">
+<a class="thinker-card" href="debord-1968">
 <span class="thinker-card-eyebrow">12 — Situationism — The Spectacle</span>
 <span class="thinker-card-name">Guy Debord</span>
 <span class="thinker-card-dates">1931 — 1994</span>
@@ -611,39 +611,39 @@ export default function Contents() {
 </div>
 <div style="max-width:var(--max);margin:0 auto;padding:0 var(--gutter) clamp(2rem,5vw,3rem);">
 <div class="case-grid">
-<a class="case-card" href="case-study-zapatistas.html">
+<a class="case-card" href="case-study-zapatistas">
 <span class="case-card-label">Chiapas, Mexico — 1994 to present</span>
 <span class="case-card-title">The Zapatistas</span>
 <span class="case-card-desc">Thirty years of autonomous governance. No state capture. Still there.</span>
 </a>
-<a class="case-card" href="case-study-rojava.html">
+<a class="case-card" href="case-study-rojava">
 <span class="case-card-label">Northern Syria — 2012 to present</span>
 <span class="case-card-title">Rojava</span>
 <span class="case-card-desc">Four million people. Commune system. Women's revolution built into the constitution. Under bombardment.</span>
 </a>
-<a class="case-card" href="case-study-occupy.html">
+<a class="case-card" href="case-study-occupy">
 <span class="case-card-label">US &amp; Worldwide — 2011</span>
 <span class="case-card-title">Occupy Wall Street</span>
 <span class="case-card-desc">The camps were cleared. The networks weren't. What it built and what it didn't.</span>
 </a>
-<a class="case-card" href="case-study-india.html">
+<a class="case-card" href="case-study-india">
 <span class="case-card-label">India — 1957 to present</span>
 <span class="case-card-title">The Kerala Model</span>
 <span class="case-card-desc">Health and education outcomes that outpace countries ten times richer. Built through distributed governance.</span>
 </a>
-<a class="case-card" href="case-study-chile.html">
+<a class="case-card" href="case-study-chile">
 <span class="case-card-label">Chile — 2019 to 2022</span>
 <span class="case-card-title">The Chilean Uprising</span>
 <span class="case-card-desc">The social explosion, the constitutional process, and what the defeat revealed about prefigurative limits.</span>
 </a>
-<a class="case-card" href="case-study-myanmar.html">
+<a class="case-card" href="case-study-myanmar">
 <span class="case-card-label">Myanmar — 2021 to present</span>
 <span class="case-card-title">The Spring Revolution</span>
 <span class="case-card-desc">After the coup: mutual aid, parallel governance, and the Civil Disobedience Movement.</span>
 </a>
 </div>
 <div style="text-align:center;padding:1.25rem 0 0;">
-<a href="case-studies.html" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'" onmouseover="this.style.color='var(--red)'" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;">All case studies →</a>
+<a href="case-studies" onmouseout="this.style.color='rgba(var(--ink-rgb),0.45)'" onmouseover="this.style.color='var(--red)'" style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(var(--ink-rgb),0.45);text-decoration:none;">All case studies →</a>
 </div>
 </div>
 <div class="series-divider mid">
@@ -659,17 +659,17 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.4rem,3.5vw,2rem);font-weight:700;margin-bottom:0.4rem;">For Libertarians</h2>
 <p style="font-size:0.88rem;line-height:1.7;color:rgba(var(--ink-rgb),0.65);max-width:480px;">Taleb's antifragility meets the commons. Why hegemony is scarier than conspiracy. The West Virginia miners and the CNT-FAI.</p>
 <div class="deep-dive-list">
-<a class="deep-dive-item" href="lib-skin-in-the-game.html">
+<a class="deep-dive-item" href="lib-skin-in-the-game">
 <div class="deep-dive-part">Part I</div>
 <div class="deep-dive-title">Skin in the Game</div>
 <div class="deep-dive-desc">The commons is antifragile. The corporation has no skin in the game.</div>
 </a>
-<a class="deep-dive-item" href="lib-liberty-and-hegemony.html">
+<a class="deep-dive-item" href="lib-liberty-and-hegemony">
 <div class="deep-dive-part">Part II</div>
 <div class="deep-dive-title">Liberty Requires a Prior</div>
 <div class="deep-dive-desc">Every theory of liberty has a hidden premise. Hegemony explains why you defend a system rigged against you.</div>
 </a>
-<a class="deep-dive-item" href="lib-miners-and-cnt.html">
+<a class="deep-dive-item" href="lib-miners-and-cnt">
 <div class="deep-dive-part">Part III</div>
 <div class="deep-dive-title">The Libertarian Tradition They Buried</div>
 <div class="deep-dive-desc">Blair Mountain. The CNT-FAI. Ten thousand miners and a million workers who built autonomous governance.</div>
@@ -683,17 +683,17 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.4rem,3.5vw,2rem);font-weight:700;margin-bottom:0.4rem;">For Urbanists</h2>
 <p style="font-size:0.88rem;line-height:1.7;color:rgba(var(--ink-rgb),0.65);max-width:480px;">Land value, civic capture, and cooperative infrastructure. Housing and transit crises as the same enclosure.</p>
 <div class="deep-dive-list" style="background:var(--blue);">
-<a class="deep-dive-item" href="urban-land-value.html" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--blue-light)'" style="--hover-bg:var(--blue-light);">
+<a class="deep-dive-item" href="urban-land-value" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--blue-light)'" style="--hover-bg:var(--blue-light);">
 <div class="deep-dive-part" style="color:var(--blue);">Part I</div>
 <div class="deep-dive-title">Land Value Is a Commons Problem</div>
 <div class="deep-dive-desc">The value of urban land is collectively produced. The question is who gets to keep it.</div>
 </a>
-<a class="deep-dive-item" href="urban-capture.html" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--blue-light)'">
+<a class="deep-dive-item" href="urban-capture" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--blue-light)'">
 <div class="deep-dive-part" style="color:var(--blue);">Part II</div>
 <div class="deep-dive-title">How Cities Get Captured</div>
 <div class="deep-dive-desc">Zoning boards, planning commissions — how real estate interests take the institutions meant to regulate them.</div>
 </a>
-<a class="deep-dive-item" href="urban-cooperative-infrastructure.html" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--blue-light)'">
+<a class="deep-dive-item" href="urban-cooperative-infrastructure" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--blue-light)'">
 <div class="deep-dive-part" style="color:var(--blue);">Part III</div>
 <div class="deep-dive-title">The Cooperative City</div>
 <div class="deep-dive-desc">CLTs, participatory budgets, energy cooperatives, tenant unions — the urban commons being built right now.</div>
@@ -707,17 +707,17 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.4rem,3.5vw,2rem);font-weight:700;margin-bottom:0.4rem;">For Social Justice</h2>
 <p style="font-size:0.88rem;line-height:1.7;color:rgba(var(--ink-rgb),0.65);max-width:480px;">Racial capitalism, reproductive enclosure, and abolition — three expressions of the same mechanism.</p>
 <div class="deep-dive-list">
-<a class="deep-dive-item" href="sj-racial-capitalism.html">
+<a class="deep-dive-item" href="sj-racial-capitalism">
 <div class="deep-dive-part">Part I</div>
 <div class="deep-dive-title">Racial Capitalism Is Enclosure</div>
 <div class="deep-dive-desc">Robinson, Rodney, Gilmore — capitalism didn't become racial. It was racial from the start.</div>
 </a>
-<a class="deep-dive-item" href="sj-reproductive-commons.html">
+<a class="deep-dive-item" href="sj-reproductive-commons">
 <div class="deep-dive-part">Part II</div>
 <div class="deep-dive-title">The Reproductive Commons</div>
 <div class="deep-dive-desc">Federici and the enclosure of women's labor — the substrate that makes all other extraction possible.</div>
 </a>
-<a class="deep-dive-item" href="sj-abolition-is-a-commons-project.html">
+<a class="deep-dive-item" href="sj-abolition-is-a-commons-project">
 <div class="deep-dive-part">Part III</div>
 <div class="deep-dive-title">Abolition Is a Commons Project</div>
 <div class="deep-dive-desc">Gilmore's abolition geography — build the world that doesn't need prisons, institution by institution.</div>
@@ -731,17 +731,17 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.4rem,3.5vw,2rem);font-weight:700;margin-bottom:0.4rem;">For Environmentalists</h2>
 <p style="font-size:0.88rem;line-height:1.7;color:rgba(var(--ink-rgb),0.65);max-width:480px;">Enclosure, Indigenous land governance, and the financialization of nature. The commons is the climate solution.</p>
 <div class="deep-dive-list" style="background:var(--green);">
-<a class="deep-dive-item" href="env-enclosure-and-extinction.html" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--green-light)'">
+<a class="deep-dive-item" href="env-enclosure-and-extinction" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--green-light)'">
 <div class="deep-dive-part" style="color:var(--green);">Part I</div>
 <div class="deep-dive-title">Enclosure Is the Extinction Driver</div>
 <div class="deep-dive-desc">Biodiversity doesn't collapse randomly. It collapses when communities maintaining it lose control of the land.</div>
 </a>
-<a class="deep-dive-item" href="env-indigenous-land-governance.html" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--green-light)'">
+<a class="deep-dive-item" href="env-indigenous-land-governance" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--green-light)'">
 <div class="deep-dive-part" style="color:var(--green);">Part II</div>
 <div class="deep-dive-title">Indigenous Land Governance Is the Prototype</div>
 <div class="deep-dive-desc">It's not a philosophy. It's a functioning institution — outperforming every other model on biodiversity and carbon.</div>
 </a>
-<a class="deep-dive-item" href="env-carbon-markets-are-enclosures.html" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--green-light)'">
+<a class="deep-dive-item" href="env-carbon-markets-are-enclosures" onmouseout="this.style.background='var(--paper)'" onmouseover="this.style.background='var(--green-light)'">
 <div class="deep-dive-part" style="color:var(--green);">Part III</div>
 <div class="deep-dive-title">Carbon Markets Are the New Enclosures</div>
 <div class="deep-dive-desc">REDD+, nature-based solutions, biodiversity credits — enclosure dressed in green.</div>
@@ -762,22 +762,22 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.4rem,3.5vw,2rem);font-weight:700;margin-bottom:0.4rem;">For People Building the Future</h2>
 <p style="font-size:0.88rem;line-height:1.7;color:rgba(var(--ink-rgb),0.65);max-width:480px;">The mathematics of shared infrastructure (Shannon), computation as commons (Turing), the gift and its enclosure (Berners-Lee), the correct theory with the wrong politics (Raymond).</p>
 <div class="deep-dive-list">
-<a class="deep-dive-item" href="tech-shannon.html">
+<a class="deep-dive-item" href="tech-shannon">
 <div class="deep-dive-part">Part I — Shannon</div>
 <div class="deep-dive-title">The Channel and the Common</div>
 <div class="deep-dive-desc">Information theory as commons theory. The channel has a capacity; enclosure captures rent without increasing it.</div>
 </a>
-<a class="deep-dive-item" href="tech-turing.html">
+<a class="deep-dive-item" href="tech-turing">
 <div class="deep-dive-part">Part II — Turing</div>
 <div class="deep-dive-title">The Universal Machine and the Ungrateful State</div>
 <div class="deep-dive-desc">Computation is a commons by nature. The state that depended on Turing's work chemically castrated him for being gay.</div>
 </a>
-<a class="deep-dive-item" href="tech-berners-lee.html">
+<a class="deep-dive-item" href="tech-berners-lee">
 <div class="deep-dive-part">Part III — Berners-Lee</div>
 <div class="deep-dive-title">The Gift and the Enclosure</div>
 <div class="deep-dive-desc">He gave the web away on principle. The complete arc of digital commons destruction in one story.</div>
 </a>
-<a class="deep-dive-item" href="tech-raymond.html">
+<a class="deep-dive-item" href="tech-raymond">
 <div class="deep-dive-part">Part IV — Raymond</div>
 <div class="deep-dive-title">The Bazaar Was Right, the Politics Were Wrong</div>
 <div class="deep-dive-desc">The correct description of why distributed development works — with the political conclusions pointing in exactly the wrong direction.</div>
@@ -791,31 +791,31 @@ export default function Contents() {
 <h2 style="font-family:var(--display);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;margin-bottom:0.5rem;">Put it to work.</h2>
 <p style="font-size:0.9rem;line-height:1.75;max-width:480px;color:rgba(var(--ink-rgb),0.65);margin-bottom:2rem;">The framework is only useful if it leads somewhere. Four tools for practitioners.</p>
 <div class="entry-grid">
-<a class="entry-card" href="your-city.html">
+<a class="entry-card" href="your-city">
 <span class="entry-card-label">Tool — Power Analysis</span>
 <span class="entry-card-title">Your City: A Power Brief</span>
 <span class="entry-card-desc">Six questions that reveal who actually runs your city. DIY research guide or pasteable agent prompt.</span>
 <span class="entry-card-cta">Open →</span>
 </a>
-<a class="entry-card" href="build-the-commons.html">
+<a class="entry-card" href="build-the-commons">
 <span class="entry-card-label">Tool — Commons Infrastructure</span>
 <span class="entry-card-title">Build the Commons</span>
 <span class="entry-card-desc">Find one or start one: housing, energy, food, finance, work, care, knowledge. Seven domains, real links.</span>
 <span class="entry-card-cta">Open →</span>
 </a>
-<a class="entry-card" href="how-this-was-done.html">
+<a class="entry-card" href="how-this-was-done">
 <span class="entry-card-label">Tool — Open Source</span>
 <span class="entry-card-title">How This Was Done</span>
 <span class="entry-card-desc">The full stack, process, and editorial standards. Fork it for your city. Contribute back.</span>
 <span class="entry-card-cta">Open →</span>
 </a>
-<a class="entry-card" href="agent-context.html">
+<a class="entry-card" href="agent-context">
 <span class="entry-card-label">Tool — Agent Context</span>
 <span class="entry-card-title">Agent Context</span>
 <span class="entry-card-desc">The commons framework, machine-optimized. Load this before asking an agent to reason about power, enclosure, or collective alternatives.</span>
 <span class="entry-card-cta">Open →</span>
 </a>
-<a class="entry-card" href="for-agents.html">
+<a class="entry-card" href="for-agents">
 <span class="entry-card-label">Tool — Corpus Browser</span>
 <span class="entry-card-title">The Commons for Agents</span>
 <span class="entry-card-desc">Browse the full for-agents corpus. Select pieces, preview content, build a structured context block for system prompts or RAG. Copy as markdown or JSON.</span>
