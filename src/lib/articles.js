@@ -1,19 +1,18 @@
 /**
  * Master article list — drives SeriesNav, prev/next, and llms.txt ordering.
- * Generated from src/content/*.md frontmatter.
  */
 export const SERIES = [
   {
     id: 'series-i',
     label: 'Series I — The Basic Architecture',
     pieces: [
-      { num: '01', title: 'Why Your City Doesn't Work (and Why It's Not an Accident)', url: '/why-your-city-doesnt-work' },
-      { num: '02', title: 'Your City Knows Less About Your Street Than You Do', url: '/your-city-knows-less' },
-      { num: '03', title: 'Who Gets Paid When You Show Up?', url: '/who-gets-paid' },
+      { num: '01', title: "Why Your City Doesn't Work", url: '/why-your-city-doesnt-work' },
+      { num: '02', title: 'Your City Knows Less', url: '/your-city-knows-less' },
+      { num: '03', title: 'Who Gets Paid', url: '/who-gets-paid' },
       { num: '04', title: 'Two Ways to Fix a Pothole', url: '/two-ways-to-fix-a-pothole' },
-      { num: '05', title: 'Open Data Isn't Enough', url: '/open-data-isnt-enough' },
+      { num: '05', title: "Open Data Isn't Enough", url: '/open-data-isnt-enough' },
       { num: '06', title: 'How Linux Became the Internet', url: '/how-linux-became-the-internet' },
-      { num: '07', title: 'Mutual Aid Isn't Charity', url: '/mutual-aid-isnt-charity' },
+      { num: '07', title: "Mutual Aid Isn't Charity", url: '/mutual-aid-isnt-charity' },
     ],
   },
   {
@@ -61,7 +60,7 @@ export const SERIES = [
       { num: '28', title: 'Land Is the Foundation', url: '/land-is-the-foundation' },
       { num: '29', title: 'Care Is the Economy', url: '/care-is-the-economy' },
       { num: '30', title: 'The Language Was Always a Commons', url: '/the-language-was-always-a-commons' },
-      { num: '31', title: 'The Preparation Is Already Underway', url: '/the-preparation-is-underway' },
+      { num: '31', title: 'The Preparation Is Underway', url: '/the-preparation-is-underway' },
       { num: '32', title: 'The Agent and the Commons', url: '/the-agent-and-the-commons' },
     ],
   },
