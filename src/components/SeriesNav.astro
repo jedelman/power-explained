@@ -30,8 +30,8 @@ const currentSeries = SERIES.find(s => s.pieces.some(p => p.url === currentPath)
       <nav>
         {SERIES.map(s => (
           <a
-            href={`/${s.id}`}
-            class={`nav-link nav-link--series${currentPath === `/${s.id}` ? ' nav-link--active' : ''}`}
+            href={`/series/${s.id}`}
+            class={`nav-link nav-link--series${currentPath === `/series/${s.id}` ? ' nav-link--active' : ''}`}
           >
             {s.label}
           </a>
