@@ -1,0 +1,38 @@
+---
+import ThinkerPage from '../layouts/ThinkerPage.astro'
+---
+<ThinkerPage
+  title="Simondon — Power Explained"
+  description="Gilbert Simondon on individuation and technical objects: how things and people become what they are, and what that means for technology and commons."
+  eyebrow="Thinker — Individuation — Technical Objects"
+  h1="Gilbert Simondon"
+  dates="1924 — 1989"
+  bio="French philosopher of technology and individuation. Largely unknown outside France during his lifetime, increasingly influential since his work began to be translated. His central question: how does individuality come to be? Not what individuals are, but how they become — through processes of differentiation and relation rather than as pre-given essences."
+  sections={[
+    { id: "individuation", num: "01", title: "Individuation" },
+    { id: "technical", num: "02", title: "Technical objects" },
+    { id: "associated", num: "03", title: "The associated milieu" },
+    { id: "commons", num: "04", title: "Technology as commons" },
+  ]}
+>
+<div id="individuation" class="thinker-section">
+  <h2 class="section-head"><span class="section-num">01</span>Individuation</h2>
+  <p>Western thought typically starts with individuals — distinct, pre-formed entities — and then asks how they relate to each other. Simondon reversed this. Individuals don't preexist their relations. They emerge through processes of individuation: differentiation within a field that is initially undifferentiated.</p>
+  <p>This applies to physical systems (a crystal forming), biological organisms (development), psychological subjects (identity formation), and social groups (collective individuation). In each case, what matters is not the individual thing but the process by which it became individual — the tensions, the metastable states, the resolution of incompatibilities.</p>
+</div>
+<div id="technical" class="thinker-section">
+  <h2 class="section-head"><span class="section-num">02</span>Technical objects</h2>
+  <p>Simondon's most direct contribution is a philosophy of technology that refuses both the tool-use model (technology is neutral, just an instrument) and the determinism model (technology shapes us in fixed ways). Technical objects, he argued, have their own mode of existence — they concretize solutions to problems, they carry within them the history of their development, they relate to other technical objects and to human users in specific ways.</p>
+  <p>A hammer is not just wood and metal. It embodies a solution to the problem of transferring force efficiently. Understanding it requires understanding the problem it solves and the context in which it evolved. The same applies, more urgently, to digital infrastructure.</p>
+</div>
+<div id="associated" class="thinker-section">
+  <h2 class="section-head"><span class="section-num">03</span>The associated milieu</h2>
+  <p>Every technical object requires what Simondon called an associated milieu: the environment of relations — other technical objects, human practices, natural conditions — that the object requires to function and that it in turn shapes. A combustion engine requires roads, fuel infrastructure, driving knowledge, urban planning assumptions. These are not external to the engine; they are part of what the engine is.</p>
+  <div class="callout"><span class="callout-label">For enclosure</span><p>Enclosing a technical object — a software platform, a communication network, a data infrastructure — doesn't just control the object. It controls the associated milieu: the entire network of relations the object is embedded in. Platform monopolies are not about owning a product. They're about owning the associated milieu of digital social life.</p></div>
+</div>
+<div id="commons" class="thinker-section">
+  <h2 class="section-head"><span class="section-num">04</span>Technology as commons</h2>
+  <p>Simondon thought the alienation from technology in modern society was a serious problem: most people relate to technical objects as black boxes — they use them without understanding them, are shaped by them without any role in shaping them. This passivity is not natural. It's produced by the way technology is organized: as proprietary objects owned by corporations, designed without user participation, operated without transparency.</p>
+  <p>The alternative is not luddism but a different relationship to technical development: one in which the associated milieu is genuinely associated — in which the communities that use and are shaped by technical objects have a role in their design, governance, and modification. This is what open source embodies at the software level. It's what commons governance of infrastructure would mean at the social level. Technology as commons requires not just open code but the organizational forms that make genuine participation in technical development possible.</p>
+</div>
+</ThinkerPage>

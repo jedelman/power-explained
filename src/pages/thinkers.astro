@@ -1,0 +1,130 @@
+---
+import Base from '../layouts/Base.astro'
+---
+<Base title="Thinkers — Power Explained" description="Profiles of the thinkers whose work underpins the argument.">
+  <div class="hero">
+    <div class="hero-inner">
+      <h1>Thinkers</h1>
+      <p class="hero-dek">The people whose work underpins the argument. Not summaries — engagements.</p>
+    </div>
+  </div>
+  <div class="article-wrap">
+    <ol class="piece-list">
+      <li>
+        <a href="/ostrom" class="piece-item">
+          <span class="piece-num">1933–2012</span>
+          <div class="piece-detail">
+            <span class="piece-title">Elinor Ostrom</span>
+            <p class="piece-desc">Commons governance — eight design principles for sustainable collective resource management.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/gramsci" class="piece-item">
+          <span class="piece-num">1891–1937</span>
+          <div class="piece-detail">
+            <span class="piece-title">Antonio Gramsci</span>
+            <p class="piece-desc">Hegemony — how a ruling group's worldview becomes everyone's common sense.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/foucault" class="piece-item">
+          <span class="piece-num">1926–1984</span>
+          <div class="piece-detail">
+            <span class="piece-title">Michel Foucault</span>
+            <p class="piece-desc">Discipline — how modern power works through bodies, institutions, and self-surveillance.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/kropotkin" class="piece-item">
+          <span class="piece-num">1842–1921</span>
+          <div class="piece-detail">
+            <span class="piece-title">Peter Kropotkin</span>
+            <p class="piece-desc">Mutual aid — cooperation as the primary evolutionary driver of survival.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/graeber" class="piece-item">
+          <span class="piece-num">1961–2020</span>
+          <div class="piece-detail">
+            <span class="piece-title">David Graeber</span>
+            <p class="piece-desc">Debt — the first 5,000 years, and why debt is a weapon not a neutral instrument.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/freire" class="piece-item">
+          <span class="piece-num">1921–1997</span>
+          <div class="piece-detail">
+            <span class="piece-title">Paulo Freire</span>
+            <p class="piece-desc">Pedagogy — conscientization and the difference between education that domesticates and education that liberates.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/hardt-negri" class="piece-item">
+          <span class="piece-num">2000–</span>
+          <div class="piece-detail">
+            <span class="piece-title">Hardt &amp; Negri</span>
+            <p class="piece-desc">Empire — how global capitalism restructured sovereignty, and what the multitude can do about it.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/deleuze-guattari" class="piece-item">
+          <span class="piece-num">1972–</span>
+          <div class="piece-detail">
+            <span class="piece-title">Deleuze &amp; Guattari</span>
+            <p class="piece-desc">Flows and capture — how power captures productive difference, and how lines of flight escape it.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/baudrillard" class="piece-item">
+          <span class="piece-num">1929–2007</span>
+          <div class="piece-detail">
+            <span class="piece-title">Jean Baudrillard</span>
+            <p class="piece-desc">Simulation — when representations replace reality, and what that means for political life.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/godel" class="piece-item">
+          <span class="piece-num">1906–1978</span>
+          <div class="piece-detail">
+            <span class="piece-title">Kurt Gödel</span>
+            <p class="piece-desc">Incompleteness — every powerful system contains truths it cannot prove from within itself.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/simondon" class="piece-item">
+          <span class="piece-num">1924–1989</span>
+          <div class="piece-detail">
+            <span class="piece-title">Gilbert Simondon</span>
+            <p class="piece-desc">Individuation — how things become what they are, and what that means for technology as commons.</p>
+          </div>
+        </a>
+      </li>
+    </ol>
+  </div>
+</Base>
+
+<style>
+  .piece-list { list-style: none; padding: 0; }
+  .piece-item {
+    display: grid; grid-template-columns: 6rem 1fr; gap: 0 1.5rem;
+    padding: 1.5rem; align-items: start;
+    border: 1px solid var(--rule); border-radius: 2px;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, background 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .piece-item:hover { border-color: var(--red); background: var(--paper-mid); }
+  .piece-num { font-family: var(--mono); font-size: 0.65rem; opacity: 0.4; padding-top: 0.25rem; }
+  .piece-title { display: block; font-family: var(--display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.4rem; }
+  .piece-desc { font-family: var(--body); font-size: 0.95rem; line-height: 1.6; color: rgba(var(--ink-rgb),.7); }
+</style>

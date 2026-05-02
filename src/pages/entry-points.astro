@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro'
+---
+<Base title="Entry Points — Power Explained" description="Different paths into the argument depending on where you're coming from.">
+  <div class="hero">
+    <div class="hero-inner">
+      <h1>Where to Start</h1>
+      <p class="hero-dek">The argument works from multiple entry points. Start with the one that fits where you are.</p>
+    </div>
+  </div>
+  <div class="article-wrap">
+    <ol class="piece-list">
+      <li>
+        <a href="/for-normies" class="piece-item">
+          <div class="piece-detail">
+            <span class="piece-title">For Everyone</span>
+            <p class="piece-desc">The most direct path.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/for-libertarians" class="piece-item">
+          <div class="piece-detail">
+            <span class="piece-title">For Libertarians</span>
+            <p class="piece-desc">If you care about freedom from coercion.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/for-environmentalists" class="piece-item">
+          <div class="piece-detail">
+            <span class="piece-title">For Environmentalists</span>
+            <p class="piece-desc">If you care about ecological collapse.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/for-urbanists" class="piece-item">
+          <div class="piece-detail">
+            <span class="piece-title">For Urbanists</span>
+            <p class="piece-desc">If you care about cities and housing.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/for-social-justice" class="piece-item">
+          <div class="piece-detail">
+            <span class="piece-title">For Social Justice Advocates</span>
+            <p class="piece-desc">If you care about racial and economic justice.</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/for-tech-workers" class="piece-item">
+          <div class="piece-detail">
+            <span class="piece-title">For Tech Workers</span>
+            <p class="piece-desc">If you build the internet.</p>
+          </div>
+        </a>
+      </li>
+    </ol>
+  </div>
+</Base>
+
+<style>
+  .piece-list { list-style: none; padding: 0; }
+  .piece-item {
+    display: block; padding: 1.5rem;
+    border: 1px solid var(--rule); border-radius: 2px;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, background 0.15s;
+    margin-bottom: 0.75rem;
+  }
+  .piece-item:hover { border-color: var(--red); background: var(--paper-mid); }
+  .piece-title { display: block; font-family: var(--display); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.4rem; }
+  .piece-desc { font-family: var(--body); font-size: 0.95rem; line-height: 1.6; color: rgba(var(--ink-rgb),.7); }
+</style>
