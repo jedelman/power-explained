@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro'
+import { readFileSync } from 'fs'
+import { resolve } from 'path'
+
+// Parse the prologue markdown manually — it's not in the content collection
+const raw = readFileSync(resolve('src/content/book/prologue.md'), 'utf8')
+const body = raw.split('---\n').slice(2).join('---\n').trim()
+
+// Basic markdown → html for the prologue
+function md(text) {
+  return text
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/^---$/gm, '<hr class="section-break" />')
+    .split(/\n\n+/)
+    .map(b => {
+      b = b.trim()
+      if (!b) return ''
+      if (b.startsWith('<h') || b.startsWith('<hr')) return b
+      return `<p>${b.replace(/\n/g, ' ')}</p>`
+    })
+    .filter(Boolean)
+    .join('\n')
+}
+---
+<Base title="Prologue: One Pattern — Power Explained (The Book)" description="What connects the rent that keeps going up, the highway that cut the neighborhood in half, the hospital bill, the platform. There is one pattern.">
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="book-nav"><a href="/book">← The Book</a></p>
+      <p class="book-label">Prologue</p>
+      <h1>One Pattern</h1>
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <div class="body-text prologue-body" data-pagefind-body set:html={md(body)} />
+    <nav class="article-prev-next">
+      <div class="prev-next-inner">
+        <span />
+        <a href="/book/chapter-1" class="prev-next-link next-link">
+          <span class="prev-next-label">Next →</span>
+          <span class="prev-next-title">Chapter 1: Why Your City Doesn't Work</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .book-nav { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem; }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
+  .prologue-body :global(hr.section-break) {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
+  .prologue-body :global(p:first-child) {
+    font-size: 1.05rem;
+  }
+</style>
