@@ -1,8 +1,8 @@
 ---
 slug: chapter-7
-title: "Chapter 7: The Colony in the Mind — Build and Defend the Commons"
+title: "Chapter 7: He Wanted His Nerves Back — Build and Defend the Commons"
 description: "Fanon: colonialism doesn't just extract. It produces a particular kind of human being. Mbembe: the sovereign power that underlies modern politics is the right to decide whose death is acceptable."
-h1: "Chapter 7: The Colony in the Mind"
+h1: "Chapter 7: He Wanted His Nerves Back"
 part: "Part III: Why the System Is the Way It Is"
 ---
 

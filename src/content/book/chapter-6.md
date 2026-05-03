@@ -1,8 +1,8 @@
 ---
 slug: chapter-6
-title: "Chapter 6: Race Was Always There — Build and Defend the Commons"
+title: "Chapter 6: The Bomb in the Walkie-Talkie — Build and Defend the Commons"
 description: "Cedric Robinson showed that capitalism was never color-blind. Walter Rodney showed that underdevelopment was something done. Two arguments that change what you look for."
-h1: "Chapter 6: Race Was Always There"
+h1: "Chapter 6: The Bomb in the Walkie-Talkie"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
