@@ -1,7 +1,7 @@
 ---
 slug: prologue
-title: "Prologue: One Pattern — Power Explained"
-description: "What connects the rent that keeps going up, the highway that cut the neighborhood in half, the hospital that charges what it wants, the platform that knows everything about you. There is a pattern underneath all of it."
+title: "Prologue: One Pattern — Build and Defend the Commons"
+description: "What connects the rent that keeps going up, the highway that cut the neighborhood in half, the hospital bill, the platform. There is a word for it. This book is about what people are doing with that word."
 h1: "Prologue: One Pattern"
 ---
 
@@ -19,44 +19,64 @@ They are connected. This book is about how.
 
 The connection is not a conspiracy. There's no room where the people who raised your rent and the people who built the highway and the people who designed the app all sit together and coordinate. The connection is structural — it's the kind of connection that doesn't require anyone to plan it, because it's built into the rules of the game.
 
-The rule is this: things that communities held in common — that everyone had access to, that nobody owned, that were governed collectively or not governed at all — have been, one by one, converted into things that someone controls for private benefit. Land that was common became property. Knowledge that was shared became intellectual property. Care that was communal became a service you buy. Credit that was a social relationship became a product that extracts from you. The right to govern the places you live in became something that happens to you rather than something you participate in.
+The rule is this: things that communities held in common — that everyone had access to, that nobody owned, that were governed collectively or not governed at all — have been, one by one, converted into things that someone controls for private benefit.
 
-This process has a name. Economists call it commodification. Historians call it primitive accumulation. The people it happens to usually just call it getting worse.
+Land that was common became property. The people who farmed it for generations were pushed out, became landless, had to sell their labor to survive. Care that was communal — healing, childcare, the tending of the elderly — became first unpaid domestic labor, then a service you buy when you can afford to and go without when you can't. Knowledge that was shared became intellectual property. Credit, which began as a social relationship between neighbors who trusted each other, became a product that extracts from the people who need it most. The right to govern the places you live became something administered on your behalf, or simply done to you.
 
-I've been calling it enclosure — borrowing the word from the specific historical moment when English common land was fenced off, the people who had farmed it for generations were pushed out, and it became private property. That happened from roughly the fifteenth through the nineteenth centuries. It's also happening now, in every domain of life, in every country, at accelerating speed.
+Economists call this process commodification. Historians call it primitive accumulation. The people it happens to usually just call it getting worse.
 
-And its counterpart — the thing that keeps appearing wherever enclosure has not yet reached, or wherever people have managed to push it back — is the commons. Resources governed collectively, by the people who depend on them, for shared benefit. Not charity. Not public ownership in the state sense. Something older and more flexible and more democratic than either: the arrangement by which communities manage the things they hold together.
+We're going to call it enclosure.
 
-The commons is not a historical relic. It's not what we had before capitalism and lost. It's what people keep building, despite everything, in the cracks of the system that keeps trying to enclose it. This book is, in large part, about those people.
+The word comes from a specific historical moment: the fencing of English common land from roughly the fifteenth through the nineteenth centuries. Fields that villages had farmed cooperatively for generations were claimed as private property. The people who depended on them were removed. The commons — the shared resource, the collective arrangement, the thing that belonged to everyone who needed it — was enclosed. Made scarce. Made to yield profit for someone who hadn't built it.
+
+That process did not stop in the nineteenth century. It is the operating logic of the economy we live in now. Every rent increase, every hospital bill that can't be explained, every highway through a neighborhood, every app that monetizes your presence — these are enclosures. They are the conversion of something that was shared into something that is extracted from.
+
+And the counterpart — the thing that keeps appearing wherever enclosure has not yet reached, or wherever people have managed to push it back — is the commons. Resources governed collectively, by the people who depend on them, for shared benefit. Not charity. Not state ownership. Something older and more flexible and more democratic than either: the arrangement by which communities manage the things they hold together.
+
+The commons is not what we had before capitalism and lost. It is what people keep building despite everything, in the cracks of the system that keeps trying to enclose it. This book is, in large part, about those people.
 
 ---
 
-The argument unfolds in five movements.
+A word about who is writing this and why it matters.
 
-The first shows why the system produces the same outcomes regardless of who runs it — why cities fail, why the commons works, and what happens when it gets enclosed. It starts with a pothole.
+This book has two authors. Jason Edelman is a small business owner and recovering community leader based in Norfolk, Virginia — a city whose geography is, as we'll see, a precise map of what enclosure costs. He has spent years on neighborhood boards, trying to move the machine from inside it, experiencing the specific exhaustion of that work. He travels to find where commons are being rebuilt.
 
-The second traces what capitalism extracts and from whom — the outside that capital depends on but cannot produce, the reproductive labor that keeps the workforce alive between shifts, the communities and bodies that absorb the costs that the system externalized onto them. It asks who pays for the next shift.
+The other author is Claude, a large language model made by Anthropic. This is not a book that Claude drafted and Jason edited, or that Jason wrote and Claude organized. It is genuinely collaborative — the argument developed in conversation, the chapters drafted and pushed back on and revised together, the voice neither of ours and both of ours.
 
-The third is about what the left got wrong — why the diagnosis of capitalism's failures was correct and the prescribed solutions were not, what the historical record of state capture actually shows, and what the buried tradition that had better answers actually said.
+We're naming this because we think it matters. The book argues that means and ends are unified — that you can't build a horizontal world with vertical tools, that the process is the outcome. Writing this as a centaur, a human-machine collaboration that puts both sets of limitations and both sets of capabilities on the page, is an attempt to practice what we're preaching. We're a small example of what it looks like when two different kinds of intelligence compose in the commons rather than one of them ghostwriting for the other.
 
-The fourth repositions the analysis. The frameworks I've described so far were developed primarily by European and North American thinkers analyzing capitalism from positions of relative proximity to its centers. They missed things. The thinkers who saw those things most clearly were often the people whose bodies and communities were on the outside of the system looking in: Cedric Robinson on racial capitalism, Walter Rodney on underdevelopment as a verb, Frantz Fanon on the colony in the mind, Achille Mbembe on necropolitics. What they saw changes what you see.
+It is also, we want to be honest, an experiment. We don't know if this kind of authorship produces better arguments. We think it produces more honest ones — ones where the uncertainty is visible, where neither of us is pretending to a confidence we don't have. We'll be asking each other questions in public. We'll be getting things wrong. We'll be correcting them. That is part of the argument too.
 
-The fifth is about what to build — specifically, concretely, now. Not a theory of what a different world would look like, but an account of what is already being built, by named people in named places, and what governance structures make it possible for built things to stay built rather than being absorbed back into the system they're trying to replace.
+---
+
+The book moves in six parts.
+
+The first validates what you already feel: the system produces the same outcomes regardless of who runs it, and there is a structural reason for that, and it is not your fault for not being able to see it yet. It starts with a crossing — two highways in Norfolk, Virginia, and the neighborhood that used to be there.
+
+The second offers proof before explanation: the commons is not a romantic idea or a historical relic. It is a documented, operating, scalable governance form. We show you the evidence before we show you the theory.
+
+The third explains the structure — the machinery by which capitalism maintains the outside it depends on, from the reproductive labor that keeps workers alive to the racial geography that decides whose land can be enclosed under what legal cover.
+
+The fourth asks why the obvious alternatives have failed — why seizing the state and reorganizing it from above reliably reproduces domination, what the tradition that had better answers actually said, and why it was buried.
+
+The fifth relocates the analysis to the people who were on the outside of the frameworks the third part describes — who could see things from there that couldn't be seen from the center, and what they built under conditions designed to prevent it.
+
+The sixth is specific: credit, land, care, knowledge, governance. What commons governance looks like in each domain. What is already being built. What you might build.
 
 ---
 
 A note on what kind of book this is.
 
-It is not a manifesto. Manifesto is a form that assumes its readers are already persuaded and addresses itself to action rather than understanding. This book is addressed to someone who doesn't yet have a framework — who knows something is wrong, has felt it for years, has read a lot of news and opinion that describes the symptoms without explaining the structure, and wants to understand the structure.
+It is not a manifesto. A manifesto assumes its readers are already persuaded. This book is addressed to someone who knows something is wrong, has felt it for years, but doesn't yet have a framework — and wants one.
 
-It is not a policy book. It doesn't propose legislation or argue about electoral strategy. It goes a level below policy, to the question of what kind of institutions can produce what kinds of outcomes, and why the institutions we have produce the outcomes we're getting.
+It is not a policy book. It doesn't propose legislation. It goes a level below policy, to the question of what kinds of institutions produce what kinds of outcomes.
 
-It is not an academic book. It draws on academic work — primarily political economy, history, and political theory — but it is not addressed to other academics and does not proceed by the conventions of academic argument. It argues directly and it tries to make the argument as clear as possible.
+It is not an academic book. It draws on academic work — political economy, history, political theory, anthropology — but it doesn't proceed by academic conventions. It argues directly. It uses the first person. It asks the reader questions and means them.
 
-What it is, if I had to name it: a structural argument, made in plain language, about why things are the way they are and what people who want them to be different are actually doing about it.
+What it is: a structural argument made in plain language, by a human and an AI who disagree sometimes and are trying to figure things out together, about why the world is the way it is and what people who want it to be different are actually doing about it.
 
-The pattern is one. The work of seeing it is most of the battle. Once you see it, you can't unsee it, and what you do with it is up to you.
+The pattern is one. Once you see it, you can't unsee it. What you do with it is up to you.
 
 ---
 
-*This book grew out of Power Explained, a website that makes these arguments across five series of essays, eleven thinker profiles, and six case studies. The site is at power-explained.jason-edelman.org. If you encounter an argument here that you want to pursue further, the site has the depth.*
+*Build and Defend the Commons grew out of Power Explained, a website at power-explained.jason-edelman.org — five series of essays, eleven thinker profiles, and six case studies that develop the argument in more depth than a single book can. If something here sends you looking for more, the site is where to go.*
