@@ -1,8 +1,8 @@
 ---
 slug: chapter-3
-title: "Chapter 3: Hardin Was Wrong — Build and Defend the Commons"
-description: "In 1968, Garrett Hardin published the most influential wrong paper in the history of environmental economics. Elinor Ostrom spent her career looking at what he claimed to have proven. She found something different."
-h1: "Chapter 3: Hardin Was Wrong"
+title: "Chapter 3: Orange Blossom and Bamboo — Build and Defend the Commons"
+description: "In 1968, Garrett Hardin published the most influential wrong paper in the history of environmental economics. Elinor Ostrom spent her career going to the places he never visited. She found something different."
+h1: "Chapter 3: Orange Blossom and Bamboo"
 part: "Part II: The Proof"
 ---
 
