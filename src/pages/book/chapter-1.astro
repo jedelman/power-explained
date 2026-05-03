@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro'
+import { readFileSync } from 'fs'
+import { resolve } from 'path'
+
+const raw = readFileSync(resolve('src/content/book/chapter-1.md'), 'utf8')
+const body = raw.split('---\n').slice(2).join('---\n').trim()
+
+function md(text) {
+  return text
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/_(.+?)_/g, '<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/^---$/gm, '<hr class="section-break" />')
+    .split(/\n\n+/)
+    .map(b => {
+      b = b.trim()
+      if (!b) return ''
+      if (b.startsWith('<h') || b.startsWith('<hr')) return b
+      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**')) {
+        return `<p class="chapter-coda">${b.slice(1,-1)}</p>`
+      }
+      return `<p>${b.replace(/\n/g, ' ')}</p>`
+    })
+    .filter(Boolean)
+    .join('\n')
+}
+---
+<Base title="Chapter 1: The Machine — Build and Defend the Commons" description="A crossing at Hampton and Brambleton. The neighborhood under the road. A vote that passed and was ignored. Three versions of the same machine.">
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="book-nav">
+        <a href="/book">← The Book</a>
+        <span class="book-nav-sep">·</span>
+        <span>Part I: The Feeling Is Right</span>
+      </p>
+      <p class="book-label">Chapter 1</p>
+      <h1>The Machine That Produces<br/>the Same Outcomes</h1>
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
+    <nav class="article-prev-next">
+      <div class="prev-next-inner">
+        <a href="/book/prologue" class="prev-next-link">
+          <span class="prev-next-label">← Previous</span>
+          <span class="prev-next-title">Prologue: What You Already Know</span>
+        </a>
+        <a href="/book/chapter-2" class="prev-next-link next-link">
+          <span class="prev-next-label">Next →</span>
+          <span class="prev-next-title">Chapter 2: Who Captures the Value</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+  .book-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .chapter-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .chapter-body :global(.chapter-coda) {
+    font-family: var(--mono); font-size: 0.8rem; line-height: 1.7;
+    color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem;
+    padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px;
+    background: var(--paper-mid);
+  }
+</style>
