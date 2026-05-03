@@ -6,11 +6,11 @@ h1: "Chapter 1: The Machine That Produces the Same Outcomes"
 part: "Part I: The Feeling Is Right"
 ---
 
-Standing at the corner of Hampton Boulevard and Brambleton Avenue in Norfolk, Virginia, waiting for a light that takes longer to change than feels human.
+Hampton Boulevard and Brambleton Avenue are not one intersection. They are two highways, and where they actually meet is a tangle of overpasses and ramps that a pedestrian cannot navigate at all — there is no crossing, no signal, no path. The roads simply converge above the ground and continue, designed for a body that weighs two tons and moves at forty miles an hour.
 
-Six lanes of traffic. The timing is calibrated for throughput — the movement of cars, not people. To cross all the way, you need to catch multiple cycles. If you're slow, if you're in a wheelchair, if you're with a child, if you're distracted by anything at all, you will not make it before the light turns. This is not unusual. This is the design.
+The places where you can actually cross — on foot, as a human being — are the intersections adjacent to this knot. Six lanes. Lights calibrated for throughput, for the movement of cars. If you're slow, if you're in a wheelchair, if you're with a child, you will not make it before the signal changes. This is not a design failure. It is the design.
 
-Jason has crossed this intersection on foot hundreds of times. He's walked cities on multiple continents — Barcelona, London, Seattle, New York — and he knows what it feels like to be a pedestrian in a city that was designed around you, that assumes your existence and accounts for it. Norfolk is not that city. Standing at Hampton and Brambleton, waiting for a light designed for cars, on a road built on top of a neighborhood that was destroyed to build it, he feels something specific.
+Jason has crossed these streets on foot hundreds of times, walking the corridor. He's walked cities on multiple continents — Barcelona, London, Seattle, New York — and he knows what it feels like to be a pedestrian in a city that was designed around you, that assumes your existence and accounts for it. Norfolk is not that city. Walking the Hampton and Brambleton corridor, trying to cross a road built on top of a neighborhood that was destroyed to build it, waiting for lights designed for cars, he feels something specific.
 
 Rage. Every time. Not rage at a broken system — rage at a functioning one.
 
@@ -34,7 +34,7 @@ This was not an accident or an oversight. Historian Forrest White has argued tha
 
 The road was built to serve the hospital and the surrounding development. The hospital was built on the neighborhood. The neighborhood was destroyed to preserve a racial geography that the courts were making harder to maintain by other means.
 
-Standing at Hampton and Brambleton, you are standing in the product of a decision made seventy years ago by people who calculated that certain lives were expendable if it served institutional interests. The road is the decision made permanent in concrete.
+Walking this corridor, you are walking through the product of a decision made seventy years ago by people who calculated that certain lives were expendable if it served institutional interests. The road is the decision made permanent in concrete.
 
 ---
 
@@ -54,9 +54,9 @@ Hampton Boulevard doesn't crash. It functions. That's the problem.
 
 ---
 
-On a weeknight in 2022, Jason was running a neighborhood league meeting — not as president, but as the person conducting the meeting. New members had recently joined. A brewery had opened nearby.
+On a weeknight in 2022, Jason was running a neighborhood league meeting — not as president, but as the person conducting the meeting. New members had recently joined. A brewery was trying to open nearby.
 
-Armed Forces Brewing Company had opened in a majority-Black, LGBTQ-friendly neighborhood in Norfolk, next door to an LGBTQ aid center. It had marketed its arrival with sexualized imagery, firearms aimed at targets described as "woke," and advertising that featured a majority-white cast. The LGBTQ aid center subsequently moved. The neighboring neighborhood league, the one directly adjacent to the brewery, wanted to issue a statement opposing the brewery's conditional use permit renewal — a symbolic action, but a legitimate one, and within the rights of neighborhood organizations to take.
+Armed Forces Brewing Company was seeking a conditional use permit to open in a majority-Black, LGBTQ-friendly neighborhood in Norfolk, next door to an LGBTQ aid center. It had already marketed its planned arrival with sexualized imagery, firearms aimed at targets described as "woke," and advertising that featured a majority-white cast. The LGBTQ aid center would subsequently move. The neighboring neighborhood league, the one directly adjacent to the proposed site, wanted to issue a statement opposing the permit — a symbolic action, but a legitimate one, and within the rights of neighborhood organizations to take.
 
 The new members of Jason's league wanted to sign on in solidarity. The board did not want to bring it to a vote. They left it off the agenda.
 
@@ -80,7 +80,7 @@ They feel like different kinds of problems. Infrastructure. History. Governance.
 
 Each one is a system that extracts something from the community — mobility, housing, political agency — and returns something else — throughput, institutional development, the appearance of process. In each one, information flows in from below (this crossing is dangerous; this community exists; the members have spoken) and doesn't change the outcome. In each one, the people operating the system are not, mostly, malicious. They are inside a template — a set of assumptions about what the system is for — that is so naturalized it functions without anyone having to enforce it.
 
-This is what we mean by enclosure. Not a single act of theft, not a conspiracy, not a bad actor who can be removed and replaced. A structure that continuously converts what communities hold and know and decide into outcomes that serve institutional interests rather than community ones. A machine that produces the same outcomes regardless of who runs it, because the machine itself is the argument.
+There is a word for this. We will use it precisely and often, and it needs to earn its place: enclosure. Not a single act of theft, not a conspiracy, not a bad actor who can be removed and replaced. A structure that continuously converts what communities hold and know and decide into outcomes that serve institutional interests rather than community ones. A machine that produces the same outcomes regardless of who runs it, because the machine itself is the argument.
 
 The question this book is trying to answer is not: who is to blame? The question is: what is the machine, how does it work, and what are people actually doing — in specific places, with specific tools, at specific moments — to build something different?
 
@@ -88,4 +88,4 @@ The answer starts with understanding that the machine is not natural. It was bui
 
 ---
 
-*Before you read the next chapter: what's your version of Hampton and Brambleton? What's the crossing you've stopped being angry about because being angry would require believing it could be different? Hold that. We're going to come back to it.*
+*Before you read the next chapter: what's your version of this? What's the street, the meeting, the vote you've stopped being angry about because being angry would require believing it could be different? Hold that. We're going to come back to it.*
