@@ -6,92 +6,104 @@ h1: "Chapter 3: Hardin Was Wrong"
 part: "Part II: The Proof"
 ---
 
-In 1968, Garrett Hardin published a paper in *Science* magazine called "The Tragedy of the Commons." It is one of the most cited papers in the history of environmental and economic policy. It provided the intellectual foundation for privatizing fisheries, enclosing forest commons, and breaking up collectively managed grazing lands on every continent. It is taught, still, in introductory economics and environmental studies courses as established fact.
+In 1968, Garrett Hardin published a paper in *Science* called "The Tragedy of the Commons." It is one of the most cited papers in the history of environmental and economic policy. It provided the intellectual foundation for privatizing fisheries, enclosing forest commons, and breaking up collectively managed grazing lands on every continent. It is taught, still, in introductory economics and environmental studies courses as established fact.
 
 It described a situation that does not exist.
 
 ---
 
-Hardin's thought experiment runs like this: imagine a pasture open to all. Each herder benefits fully from adding one more animal to the pasture. The cost of that animal's grazing is shared across all herders. So each herder, acting rationally, adds animals until the pasture is destroyed. The logic is inexorable. The commons cannot govern itself. The solution is privatization or state control.
+You should know what kind of man Garrett Hardin was, because it explains something about why the paper was received as it was.
 
-The paper is elegant. The logic is valid given its premises. The premises are fictional.
+Hardin was a professor of human ecology at the University of California, Santa Barbara — white, male, tenured, with a zoology degree from Chicago and a microbiology PhD from Stanford. He was also a eugenicist and a white nationalist. His membership in the American Eugenics Society began in 1956 — eleven years before the paper that made him famous — and he served as a director of that organization into the 1970s. He sat on the boards of anti-immigrant organizations, co-founded a group dedicated to nativist population control, and wrote essays arguing, with clinical calm, that the rich nations of the world should respond to famine in the Global South the way you respond to a lifeboat near capacity: throw people overboard.
 
-Hardin described a commons with no communication between users, no shared norms, no history of relationship, no governance structure of any kind — a collection of anonymous strangers with no connection to each other or to the land they were using. He then concluded that this situation, which he called "the commons," was inherently unstable.
+He called that "lifeboat ethics." The subtitle his editor added to the version published in *Psychology Today* was "The Case Against Helping the Poor." Hardin objected to the subtitle. Not to the argument.
+
+His paper about the commons was not a deviation from this worldview. It was an extension of it. If you believe that the poor, the foreign, the non-white are fundamentally incapable of governing themselves and their resources — if you believe, at bottom, that rationality and self-governance are unequally distributed among human populations — then a paper arguing that communities cannot manage shared resources without privatization or state control is not a surprise. It is the scientific formalization of a prior conviction.
+
+The argument runs like this: imagine a pasture open to all. Each herder benefits fully from adding one more animal. The cost of overgrazing is shared. So each herder, acting rationally, adds animals until the pasture is destroyed. The logic is inexorable. The commons cannot govern itself. Privatize or control.
+
+The argument is elegant. The logic is valid given its premises. The premises are fictional.
+
+Hardin described a commons with no communication between users, no shared norms, no history of relationship, no governance structure of any kind — a collection of anonymous strangers with no connection to each other or to the land. He then concluded that this situation, which he called "the commons," was inherently unstable.
 
 He was not describing any actual commons that had ever existed. He was describing what a commons would look like if you removed everything that makes a commons a commons.
 
-The Swiss alpine pastures that had been collectively managed since the thirteenth century — Hardin had not looked at them. The irrigation systems in Valencia, Spain, operating under community governance rules established in the medieval period — Hardin had not looked at them. The Japanese fishing communities with centuries of documented collective management of their fisheries — Hardin had not looked at them. The Törbel village in Switzerland, whose 1483 treaty governing common lands can still be read today — Hardin had not looked at it.
+---
 
-He had looked at a thought experiment and mistaken it for a proof.
+Every Thursday at noon, eight men gather outside the Door of the Apostles at Valencia Cathedral.
+
+The cathedral is a Gothic stone mass that has been standing since the thirteenth century, its façade carved with apostles and prophets in the warm limestone of the Valencian coast. The plaza in front of it — Plaza de la Virgen — smells of orange blossoms in spring and of the river-irrigated farmland that begins just outside the city: earth and celery and artichoke, the specific agricultural smell of the *huerta*, the fertile plain that the city of Valencia has been fed by for a thousand years.
+
+The eight men wear the loose black blouses of Valencian farmers. They carry no laptops, no paperwork. They sit in a semicircle on 17th-century wooden and leather chairs, set out on the cobblestones, and the clock tower of the cathedral strikes noon. The Micalet. The bailiff calls for cases. The tribunal begins.
+
+The Tribunal de las Aguas — the Water Tribunal of Valencia — has been operating continuously, in this form, in this place, since at least the tenth century. It may be older. Its origins are Moorish, part of the irrigation infrastructure that made the *huerta* the most productive agricultural region in medieval Spain. When James I of Aragon conquered Valencia in the thirteenth century, he formalized the tribunal rather than replacing it, because it worked. Every political regime since — Visigoth, Moorish, Christian monarchist, fascist, democratic — has left it in place, because it has continued to work.
+
+The tribunal governs the distribution of water from the Turia River among eight irrigation channels that serve 17,000 hectares of farmland. It has no written legal code. Its proceedings are conducted entirely in Valencian. Its decisions are final and not subject to appeal. Its fines are assessed in *lluires*, a currency that has not existed since the medieval period, though the fines translate into euros at some agreed rate that everyone understands. It has never needed to turn to the formal Spanish legal system to enforce its decisions, because its authority is grounded not in state power but in the recognition of its members as people who know the water, know the land, know the community, and can be trusted to judge fairly.
+
+Tourists come to watch, and sometimes a case is heard and sometimes there are no cases and the tribunal adjourns in minutes. Farmers who have been doing this their whole lives and whose fathers did it and whose children may do it stand in the square and wait.
+
+UNESCO inscribed it as Intangible Cultural Heritage of Humanity in 2009. The same year Elinor Ostrom won the Nobel Prize.
 
 ---
 
-Elinor Ostrom noticed.
+Ostrom had started noticing things like the Valencia tribunal in the early 1960s, when she was a graduate student at UCLA working on water governance in the San Fernando Valley.
 
-Ostrom was a political scientist at Indiana University, working in a tradition that took institutions seriously — that tried to understand how human communities actually organized themselves, rather than how economic models predicted they would. She had been studying water governance in Los Angeles in the 1960s, watching the way communities of groundwater users organized collective management systems that outperformed both privatization and state control. The pattern was persistent and interesting. She began to look for it elsewhere.
+She had wanted to do a PhD in economics. The department rejected her because she hadn't taken trigonometry in high school. The political science department gave her a chance. It turned out to be the right discipline for what she was trying to understand — which was not how markets optimize resource allocation in theory, but how actual human communities actually governed shared resources in practice.
 
-She found it everywhere.
+In graduate school she met Vincent, a political scientist who would become her husband and collaborator for the rest of her career. They moved to Indiana University in 1965, where they founded something they deliberately called a *workshop* — the Workshop in Political Theory and Policy Analysis — because they wanted to emphasize science as practice, researchers as craftspeople, knowledge built from cases rather than derived from axioms.
 
-The Swiss alpine communes — the *Alpgenossenschaften* — had been managing shared high-altitude pastures through collective governance for seven hundred years. Their rules specified who could graze animals, how many, of what type, in what season, with what responsibilities for maintenance. The rules had been developed over time, by the communities themselves, in response to the specific ecological conditions of specific mountains. They worked: the pastures were not degraded. The commons had not become tragic.
-
-The *tribunal de las aguas* in Valencia — the Water Tribunal — had been adjudicating disputes among farmers sharing eight irrigation channels since at least 1435. It met every Thursday morning at the cathedral door. It had no written legal code; its proceedings were entirely oral. It had survived centuries of political change, foreign occupation, and industrial development. The irrigation commons it governed had sustained a thriving agricultural region for six hundred years.
-
-The Maine lobster fishery — one of the most valuable per-acre fisheries in the world — was managed by informal community governance that no formal legal system recognized, but which every lobsterman understood and followed. The rules specified who could fish where, who could set traps in what territory, what happened when newcomers tried to enter. The rules had no legal standing. They were enforced by the community, through social pressure, through cutting trap lines, through the specific sanctions that communities develop when they have to live with each other's decisions over time.
-
-Ostrom spent decades accumulating cases. Hundreds of them. Fisheries in Turkey and Japan. Forest commons in Japan and Nepal. Groundwater basins in California. Irrigation systems in Spain and the Philippines and Bali. Common grazing lands in Switzerland and Japan and the American West. Some governed sustainably for centuries. Some that had failed. The cases that worked, and the cases that didn't, were not random. They differed in identifiable ways.
+The cases accumulated. She and her colleagues and students studied irrigation systems in Spain and the Philippines, mountain villages in Switzerland and Japan, fisheries in Maine and Turkey and Indonesia, groundwater basins in California. She interviewed lobstermen herself, quizzing them about the informal rules that governed their fishery — rules with no legal standing that every lobsterman understood and followed. She used satellite imagery to observe how different management regimes affected forests from above. She played irrigation allocation games with her students and found that when they were allowed to discuss strategy before playing, their collective outcomes more than doubled.
 
 ---
 
-In 1990, Ostrom published *Governing the Commons*. In 2009, she became the first woman to win the Nobel Prize in Economics. The prize committee, with characteristic understatement, noted that her work had challenged "the conventional wisdom that common property is poorly managed."
+In Ilocos, in the northern Philippines, the irrigation cooperatives called *zanjera* have been operating since the Spanish colonial period, possibly earlier.
 
-What she had actually done was prove that Hardin's framework was wrong — not slightly wrong, not wrong in edge cases, but wrong in its fundamental claim. Communities can and do govern shared resources sustainably, without privatization and without state control. They have been doing it for centuries, in dozens of cultures, in dozens of ecological contexts. The question is not whether commons governance can work. It demonstrably can. The question is under what conditions.
+The *zanjera* farmers — the *zanjeros* — divert water from swift-flowing rivers using teepee-shaped bamboo structures called *palomares*, weighted down with heavy stones, connected by lines of large bamboo poles to hold against the current. The dams are not permanent. The typhoons come every year, and every year they wash the dams out. And every year, the community gathers to rebuild them.
 
-From the cases that worked, Ostrom distilled eight design principles. Not prescriptions — patterns. Structural features that the successful commons shared and the failing ones lacked.
+The rebuilding takes days. It is communal labor — everyone with a share in the water (*atar* shares, the shares that determine both your water allocation and your labor obligation) is required to participate. During the reconstruction, a designated officer called the *cocinero* — the cook — prepares communal meals for everyone working. The cook is written into the governance structure. The governance structure includes feeding people while they rebuild what the storm destroyed.
 
-**Clearly defined boundaries.** Who has rights to use the resource, and what resource is being governed, must be clearly defined. The commons is not open to everyone unconditionally; it is open to everyone who is a recognized member of the community that governs it.
+This is the commons as Ostrom found it: not a thought experiment about anonymous strangers, but a community of people with names and histories and shares and obligations, who eat together while they fix what broke, and who have been doing this for centuries.
 
-**Rules fit local conditions.** The rules governing use reflect the specific ecological and social conditions of that particular commons. Rules imported from outside — from government agencies, from development organizations, from economic models — consistently underperform rules developed by the communities themselves in response to the specific conditions they live with.
+Valencia and the *zanjeras* are not the same. Valencia is a city, its tribunal a formal institution with medieval roots and UNESCO recognition, operating in a Gothic plaza in front of a cathedral. The *zanjeras* are rural cooperatives in the northern Philippines, their dams made of bamboo and stone and leaves, their governance documents written in Spanish from the colonial era, their oldest members' memories the closest thing to a founding charter. Valencia's huerta smells of orange blossom and rich river soil; the Ilocos region smells of rice paddies and salt air from the South China Sea.
 
-**Collective choice arrangements.** The people affected by the rules have meaningful participation in modifying them. This is the governance principle: the commons is not managed *for* people by external authorities, it is managed *by* the people who depend on it.
-
-**Monitoring.** Someone monitors both the resource and user behavior — and the monitors are either users themselves or accountable to users. This is not surveillance from above. It is the community watching itself.
-
-**Graduated sanctions.** Users who violate rules face sanctions that are graduated — light for first offenses, heavier for repeat violations — and applied by users or their accountable agents. The system has ways of responding to defection without destroying itself or its members.
-
-**Conflict resolution mechanisms.** Users and their officials have access to low-cost, local mechanisms for resolving disputes. The Water Tribunal in Valencia, meeting every Thursday morning, is this principle in practice: cheap, fast, local, legitimate.
-
-**Minimal recognition of rights.** External governmental authorities recognize the right of users to organize their own governance. The commons can be destroyed from outside even when it is functioning well from inside; this principle names the political condition for its survival.
-
-**Nested enterprises.** For larger commons, governance is organized in multiple nested layers — local communities within larger coordinating structures, coordination without centralization.
-
-These are not a utopian vision. They are an empirical finding. This is what the commons looks like when it works. These features appear, independently, across hundreds of cases in different cultures and centuries. They can be replicated. They can be designed for. They name the conditions under which collective governance of shared resources is stable rather than tragic.
+What they share is the structure Ostrom was looking for: people governing something they depend on together, through rules they developed themselves, in response to the specific conditions they live with.
 
 ---
 
-Why does this matter beyond the academic argument?
+From hundreds of cases like these — cases on every continent, in every climate, across seven centuries — Ostrom distilled eight design principles. Not prescriptions. Findings. What the sustainable commons actually share.
 
-Hardin published his paper in 1968. The following two decades were the period of greatest global expansion of privatization and enclosure — of fisheries, of forests, of water rights, of commonly held land. His paper provided the intellectual cover. If the commons inevitably self-destructs, then enclosure is not an imposition but a rescue: you are saving the resource from the community that would otherwise destroy it.
+**Clearly defined boundaries.** Who belongs to this commons, and what resource is being governed, must be clear. The tribunal's eight channels. The *zanjera*'s *atar* shares. The Maine lobster fishery's territories marked by trap placement and understood by every participant. The commons is not open to everyone unconditionally; it is open to everyone who is a recognized member of the community that governs it.
 
-Policies based on this logic have devastated fishing communities in Iceland and New Zealand and Newfoundland, transferred forest commons to timber companies across the global south, and broken up the collectively managed grazing lands that had sustained nomadic communities in East Africa for generations. The people displaced by these enclosures were told that privatization was necessary to prevent the tragedy of the commons. In many cases, they had been preventing that tragedy for centuries through their own governance systems — systems that the enclosures destroyed.
+**Rules fit local conditions.** The Valencia tribunal's rules developed in response to the Turia River — its seasonal flow, its competing demands, the specific agriculture of the *huerta*. The *zanjera*'s rules developed in response to the Ilocos typhoon cycle and the swift-flowing Madongan River. Rules imported from outside — from government agencies, from development organizations, from economic models — consistently underperform rules developed by communities themselves in response to specific conditions.
 
-Ostrom's work is the counter-argument, documented in sufficient detail to be irrefutable. But the counter-argument arrived after the policies, and the policies created interests in their own continuation. The enclosures that Hardin's theory justified are not being reversed because his theory was wrong. Theory serves power, and power does not yield to correction easily.
+**Collective choice arrangements.** The people affected by the rules have meaningful participation in modifying them. The eight syndics of the Valencia tribunal are elected by the farmers whose canals they represent. The *zanjera*'s officers are elected from the membership. The governance is not performed on behalf of the community by external authorities. It is performed by the community.
 
-What Ostrom's work does, for us, is clear the ground. It removes the "natural inevitability" claim. The commons is not doomed. It is not a naive idea that ignores human nature. It is a documented, functional, scalable governance form that has sustained communities in specific places over centuries. We have hundreds of cases. We have the design principles. We know what it takes.
+**Monitoring.** Someone monitors both the resource and user behavior — and the monitors are accountable to users. The tribunal's bailiff calls cases. The *zanjera* tracks labor contributions against *atar* shares. This is not surveillance from above; it is the community watching itself, through people it has chosen.
 
----
+**Graduated sanctions.** Violations are punished proportionally — lightly at first, more severely for repeat offenses. The tribunal's fines in *lluires*. The *zanjera*'s labor penalties. The graduated response allows for the correction of mistakes without the destruction of relationships or the exclusion of community members.
 
-One more thing Ostrom found, which tends to get lost in the policy discussion.
+**Conflict resolution mechanisms.** Low-cost, local, fast. The Valencia tribunal, meeting in the plaza every Thursday at noon, hearing cases in minutes. The *zanjera*'s internal dispute resolution. The lobstermen's territorial understandings. Not courts. Not lawyers. Community members resolving disputes between community members, quickly, in their own language.
 
-The communities that governed their commons sustainably were not communities of unusually virtuous people. They were ordinary communities, with the full range of human motivation and self-interest, operating under governance structures that made collective sustainability the rational choice for individuals as well as for the group. The commons does not require that people be better than they are. It requires that it be organized so that taking care of the shared resource is also taking care of yourself.
+**Minimal recognition of rights.** External governmental authorities must recognize the right of communities to organize their own governance. James I of Aragon recognized the tribunal. The Philippine National Irrigation Agency negotiated with the *zanjeras* rather than replacing them. The commons can be destroyed from outside even when it is functioning perfectly from inside.
 
-This is important because the argument against the commons often slides into an argument about human nature: people are too selfish, too short-sighted, too prone to free-riding for the commons to work. Hardin's paper is, at bottom, a claim about human nature dressed as a claim about institutional design.
+**Nested enterprises.** For larger commons, governance is organized in multiple coordinating layers — the *zanjera*'s three levels of gunglo, lateral, and *zanjera*; the tribunal's eight channels with their own internal governance feeding into the central tribunal.
 
-Ostrom's response is empirical: look at what people actually do. In communities with the conditions for sustainable commons governance, they govern sustainably. In communities without those conditions, they don't. Human nature is not the variable. Institutional design is the variable.
-
-We can design better institutions. We have been doing it for centuries. We know what the design looks like. We also know what destroys it — and the next section of this book is largely about that.
-
-But first: evidence that the commons is not only a governance form but a living practice, happening right now, in specific named places, on a scale that makes "this could never work" untenable.
+These are not utopian requirements. They are what Ostrom found in the cases that worked, absent from the cases that didn't. They can be replicated. They can be designed for. They describe the conditions under which collective governance of shared resources is stable rather than tragic.
 
 ---
 
-*Where in your life does collective governance of something shared already exist — formally or informally? Not where you think it should exist. Where it actually does. The water management agreement between your neighbors. The informal rules of the shared garden. The unwritten protocols of a community space. That's the commons operating. Ostrom would recognize it.*
+Why does any of this matter beyond the academic argument?
+
+Because Hardin's paper, wrong as it was, arrived at the right moment to do maximum damage. The 1970s and 1980s were the period of greatest global expansion of privatization and enclosure — of fisheries, of forests, of water rights, of commonly held land. His paper provided the intellectual cover. If the commons inevitably self-destructs, then enclosure is not an imposition. It is a rescue.
+
+Policies built on this logic devastated fishing communities in Iceland and Newfoundland. They transferred forest commons to timber companies across the Global South. They broke up the collectively managed grazing lands that had sustained nomadic communities in East Africa for generations. The people displaced were told that privatization was necessary to prevent the tragedy of the commons. In many cases, they had been preventing that tragedy for centuries — through governance systems that the enclosures destroyed.
+
+Hardin was listed by the Southern Poverty Law Center as a white nationalist before his death in 2003. His paper is still assigned in introductory courses.
+
+Ostrom's counter-argument arrived after the damage. But it clears the ground permanently. The "natural inevitability" claim is gone. The commons is not doomed. It is not naive idealism. It is a documented, functional governance form — eight farmers in black blouses in a sunlit Valencian plaza, a cocinero cooking rice in the Philippines while the community rebuilds the dam, a lobsterman in Maine checking trap placement against territory he has never written down but has never confused — governing shared resources, sustainably, for centuries.
+
+We have hundreds of cases. We know what the design looks like. We also know what destroys it.
+
+---
+
+*Where in your life does collective governance of something shared already exist — formally or informally? Not where you think it should. Where it actually does. The arrangements on your block about the shared fence. The garden where people have worked out who waters what. The chat where the rules of the space are understood but unwritten. Ostrom would recognize all of it.*
