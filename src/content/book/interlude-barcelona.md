@@ -16,7 +16,7 @@ Barcelona has been depaving its intersections for years. Taking back space that 
 
 This is what the commons feels like from the inside: not a victory, not an event, just a Tuesday. The infrastructure had been changed, the space had been returned, and what people did with it was exactly what you would expect people to do when given a street and an evening: they made something together that none of them could have made alone.
 
-I watched from the edge. I'm a DJ. I noticed the rig.
+I watched from the edge. I'm a DJ. I noticed the rig. The music had started before I got there — it wasn't waiting for me, or for anyone. There was ease in that. The ease of knowing that life goes on even if yours doesn't.
 
 Barcelona has also been running out of water. The reservoirs that supply the city have been at critical levels, some years below twenty percent of capacity. The drought is structural — the Mediterranean is warming, the precipitation patterns are shifting, the snowpack that feeds the rivers is thinner each decade. The city that has figured out how to return streets to people is also a city learning, under pressure, that it belongs to a commons larger than any municipal government can govern: the planet's hydrological cycle, the atmosphere, the climate that no one owns and everyone depends on.
 
