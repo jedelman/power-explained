@@ -88,7 +88,7 @@ I say this not as defeat but as transformation. Idealism that has been tested by
 
 ---
 
-Arizmendi on his bike in the Basque mountains. Eight farmers in black blouses in Valencia's cathedral plaza. Zanjera farmers rebuilding bamboo dams in Ilocos after a typhoon, the cook feeding everyone while the work gets done. The Champlain homeowner who sold below market. Bernie Sanders in a Vermont city council chamber in 1984. Chokwe Lumumba's campaign, and the organizing that continued after his death. The community fridge on the Brooklyn sidewalk, stocked by whoever walked by that morning. The caracol.
+Arizmendi on his bike in the Basque mountains. Eight farmers in black blouses in Valencia's cathedral plaza. Zanjera farmers rebuilding bamboo dams in Ilocos after a typhoon, the cook feeding everyone while the work gets done. The Champlain homeowner who sold below market. Bernie Sanders in a Vermont city council chamber in 1984. Chokwe Lumumba's campaign, and the organizing that continued after his death. The community fridge on the Brooklyn sidewalk, stocked by whoever walked by that morning. The restaurant in Norfolk that ran for five years and closed. The caracol.
 
 These are not all the same thing. They operate at different scales, in different conditions, with different histories and different tools and different definitions of what they're building. What they share is the structure Ostrom found in the cases that worked: people governing something they depend on together, through rules they developed themselves, in response to the specific conditions they live with.
 
