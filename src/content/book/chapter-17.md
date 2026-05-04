@@ -8,9 +8,31 @@ part: "Part VI: What to Build"
 
 The meeting starts at seven. By seven-fifteen, there are eleven people in the room — a few more will trickle in before eight. Someone has brought coffee. The agenda is on a shared document that four people have read and seven haven't. The first item takes forty-five minutes because it wasn't really the first item — it was standing in for a conflict that's been running for six months and hasn't been named yet.
 
-This is governance. Not the theory of governance, not the design principles, not the constitutional framework — the room, at seven-fifteen, with eleven people and an unread agenda and a conflict that isn't on the document.
+I have been in that room. Many versions of it, over many years. The neighborhood league meeting where the board abstracted a majority vote into nothing. The cooperative governance call that went three hours and resolved nothing. The session where someone rewrote the agenda before anyone else arrived.
 
-Every commons in this book was governed by a room like this one. The Törbel villagers who have been managing their alpine commons since 1483 met, and argued, and eventually reached the agreements that are still in force five centuries later. The Valencia water tribunal meets every Thursday at noon, has done so for over a thousand years, and resolves that week's disputes before lunch. The Champlain Housing Trust board, the Cooperation Jackson assemblies, the Crown Heights Mutual Aid network on Tuesday evenings — all of them are, at their operational foundation, a room with people in it who have agreed to govern something together.
+But I want to start with a different room first, because this chapter is about more than failure.
+
+Every service at the restaurant, we started with a meditation. Sometimes it was perfunctory, and sometimes it ran long, but we always did it — a gratitude circle and then a short meditation, every single shift. It set the tone. It was a challenge to everyone to be in the right headspace, to take the work seriously, to be deliberate and accountable about how they were showing up. Sometimes people grumbled. Not everyone was on board. That's work. Part of the deal.
+
+What I didn't fully see, being in the leadership position, was the impact the practice was having by virtue of the position I held. The person at the front of the meditation circle has trouble seeing what the circle looks like from inside it.
+
+One night after service, we were hanging out with some friends and customers, and some of our employees — who were also friends — had clocked out and were at the bar. They were telling our regulars, proudly, about starting every shift with meditation. It was almost a passing comment, but one of the regulars did a double take.
+
+*Wait. So you start EVERY service with a meditation?*
+
+*Yep. Every one.*
+
+*That's so cool. It explains a lot, too.*
+
+I was polishing wine glasses and smiling. That's what the work was for.
+
+The practice had moved from me into the institution and was now being carried by the people who worked there. I didn't orchestrate that conversation. I just made the conditions where it could happen, and then got out of the way. That is the governance principle in its most compressed form: the practice that survives is the one that no longer needs you to hold it.
+
+The Armed Forces Brewing meeting was different. By the time I was running it, I was already burnt out several times over. The board abstained on a majority vote of the membership — within their rights, no rule violated, just the fear of conflict made decisive by the structure of the institution. I felt my heart leap at the members and sink at the board simultaneously. I resigned two months later. By then the restaurant was running on fumes and so was I.
+
+This is what the machine looks like from inside it, when you are the person trying to hold the room and the room is going badly and you can see what needs to happen and the structure won't let you make it happen. Not corruption. Not malice. Fear, made decisive by the design.
+
+This is governance. Not the theory of governance, not the design principles, not the constitutional framework — the room, at seven-fifteen, with eleven people and an unread agenda and a conflict that isn't on the document. The Törbel villagers who have been managing their alpine commons since 1483 met, and argued, and eventually reached the agreements that are still in force five centuries later. The Valencia water tribunal meets every Thursday at noon, has done so for over a thousand years, and resolves that week's disputes before lunch. The Champlain Housing Trust board, the Cooperation Jackson assemblies, the Crown Heights Mutual Aid network on Tuesday evenings — all of them are, at their operational foundation, a room with people in it who have agreed to govern something together.
 
 The commons doesn't fail at the level of theory. It fails at the level of the room. At the meeting that went three hours and resolved nothing. At the agenda that was captured by the person who got there earliest and rewrote it. At the founding member whose opinions on every question have calcified into positions that can no longer be updated by evidence. At the burnout — the people who showed up every week for two years and then didn't, and whose absence nobody named until the institution was running on four people who were each doing the work of ten.
 
