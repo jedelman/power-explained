@@ -68,4 +68,22 @@ Roy standing in the river. Freire's student writing his name. Both are the commo
 
 ---
 
-*Where, in the territory you know, are commons that never stopped — governance systems, care networks, ways of organizing land or water or food or knowledge that have been running continuously, that didn't have to be built in response to enclosure because they predate it? They are usually not called commons. They are usually under pressure. They usually have a dam, or a highway, or a development project, coming toward them.*
+I know the moment because I was in it.
+
+It was a Sunday afternoon in 2022, after the lunch service — after we had closed and cleaned and the last guests were gone and the industry friends had arrived, the ones who managed other places, who wrote schedules and ate losses and knew in their bodies what living labor costs because they had priced it and absorbed the gap. We opened what we had. A Chiaretto Rosé from La Meridiana in the Italian Alps — Corvina and Rondinella grapes from a five-hectare family operation near Lake Garda, run by a woman who had taken over from her parents, delicate and floral and dry, the kind of wine that knows exactly what it is. A Cava from Parés Baltà in the Penedès, biodynamically grown, an Extra Brut that was so clean and mineral it seemed to be making an argument: this is what Cava actually is, and you have been drinking the wrong version. Both from women. Both from family operations. Both from places where someone had decided to make the thing honestly rather than cheaply, and was paying the price for it.
+
+We had been talking about hospitality. About the gap between the value we created and the money we could charge for it — the place across the street microwaving their food and charging more, us serving good food at a fair price and struggling harder. I had been reading Baudrillard for years, or trying to — a bootleg PDF of *Simulacra and Simulation* in high school after I saw it in the *Matrix*, a bootleg HTML of *A Thousand Plateaus* on my breaks at Microsoft, none of it fully landing, the form absorbed before the argument.
+
+That afternoon it landed.
+
+We were not selling food. We were not selling service. We were selling theatre — an immersive performance in which guests had a role, the staff had roles, the room had a role, the menu had a role, and the food was a prop. The prop mattered to us. We sourced it carefully, priced it fairly, told people about the farmers and the winemakers and the soil. But that's not what people were paying for. They were paying for the show. And the show we were writing — the show where the food is real and the price is fair and the staff are paid fifteen dollars an hour with tips in 2021 and nobody pretends that hospitality is natural hierarchy — was not the show the people with money wanted to see. They wanted the simulation they knew. We were offering something else, and the people who came to us loved us for it, and there weren't enough of them.
+
+The others at the table held the thought and turned it in their own hands, and I could see it from angles I couldn't reach alone. Within a year, most of them were out of the industry. Within three years, all of us were.
+
+I don't tell this story to make it mean more than it meant. It was one Sunday afternoon and one set of wines and a conversation that clarified something I had been circling for years. The clarity cost nothing that afternoon. The costs came later, and they were real.
+
+What I mean is: the veil lifting is not a liberation. It is a change in what you can see. Roy saw the dam project's accounting for what it was and stood in the river anyway, and the river kept rising. Freire's student wrote his name and understood that the arrangement had been made, and the generals came the following year. The seeing doesn't stop the thing. It changes what you can no longer pretend.
+
+---
+
+*When did the veil lift for you — the moment the arrangement became visible as an arrangement, something made rather than something natural? It might have been a conversation, or a book, or a season, or something you saw that you couldn't unsee. Did you have the courage to face what it showed you? Do you have it now?*
