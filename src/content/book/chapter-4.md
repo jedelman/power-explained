@@ -73,6 +73,19 @@ In 1994, Indigenous communities in Chiapas rose against NAFTA and the Mexican st
 
 What they built has outlasted a dozen governments that intended to outlast it.
 
+
+And one more that won't make the case studies.
+
+In December 2020, in an industrial neighborhood in Norfolk, Virginia, my wife and I and a friend opened a restaurant. We had been dreaming about it since 2017 — using the capital left over from a house sale, negotiating a private purchase with no bank involved, DIYing the conversion on a shoestring while I spent eight months convincing the city to let us change the zoning. COVID hit when we were pulling our final permits. I cashed out $100,000 from a Microsoft 401k to float us through the shutdown. We opened anyway.
+
+What we were trying to build was a place where people could just be, and that would give them space to become — to choose deliberately what they wanted to become, instead of choosing the becoming that institutions were offering them. Where they could express their soul, their love, their joy, and be welcomed. Southern hospitality has a real reputation and a real asterisk: you will be welcomed if you are the right kind of person, and you will always know if you aren't. What we offered was: you can be one of us instead.
+
+We offered a $15 tipped minimum in 2021 and never backed down. We always paid our people well and on time. We ran nature education tableside — when someone asked about the wine, I told them about the plants, the birds, the soil, how it was all made. The queers kept us in business. The neighborhood never quite came. We ran the best menu we ever ran in our final year, just the two of us. We closed in December 2025. Sold the property in March 2026.
+
+It cost me my idealism and my faith in humanity.
+
+I say this not as defeat but as transformation. Idealism that has been tested by five years of $15 minimums and hot dog cartons in the bushes and COVID and two prior burnouts is not gone. It's been converted into something that knows what it's up against. The commons doesn't always survive. The work of building it is not diminished by the ending. The people we paid, the people who felt welcome, the conversations about birds and wine — those are not erased by the closing. They happened. They are part of the record.
+
 ---
 
 Arizmendi on his bike in the Basque mountains. Eight farmers in black blouses in Valencia's cathedral plaza. Zanjera farmers rebuilding bamboo dams in Ilocos after a typhoon, the cook feeding everyone while the work gets done. The Champlain homeowner who sold below market. Bernie Sanders in a Vermont city council chamber in 1984. Chokwe Lumumba's campaign, and the organizing that continued after his death. The community fridge on the Brooklyn sidewalk, stocked by whoever walked by that morning. The caracol.
