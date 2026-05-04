@@ -92,6 +92,52 @@ These are not utopian requirements. They are what Ostrom found in the cases that
 
 ---
 
+On the other side of the world from Ostrom's workshop in Indiana, a philosopher was arriving at the same place from a completely different direction — and would not know it for decades.
+
+---
+
+Antonio Negri — Toni, to everyone who knew him — was born in Padua in 1933 and spent his early career as a professor of political philosophy there, building the theoretical foundations of what became *autonomist Marxism*: the idea that workers' self-organization and refusal of work were themselves political acts, prior to and independent of any party. Through the 1960s and 1970s he was the central intellectual figure of the Italian extra-parliamentary left, the factories in ferment, the neighborhood assemblies, the rolling wave of wildcat strikes that terrified the Italian state more than any electoral politics could.
+
+In 1979 he was arrested. The charge was leading the Red Brigades — the terrorist organization responsible for the assassination of former Prime Minister Aldo Moro. The charge was almost certainly fabricated. The actual threat Negri posed was simpler: he had spent twenty years teaching workers that the arrangements governing their lives had been made by specific people for specific reasons, and could be unmade. Four years after his arrest, while awaiting trial, he won election to parliament on the Radical Party ticket. Parliamentary immunity briefly freed him. He used the window to escape.
+
+Félix Guattari — Deleuze's collaborator, co-author of *Anti-Oedipus* and *A Thousand Plateaus* — helped get him to Paris. The French government under Mitterrand declined to extradite him. He taught at the École Normale Supérieure and the Collège International de Philosophie for fourteen years, becoming close to Deleuze and Foucault, the arguments crossing and deepening in the Parisian seminars of the 1980s. A young American graduate student named Michael Hardt arrived, wrote his dissertation under Negri's direction, and stayed.
+
+Negri voluntarily returned to Italy in 1997. He had decided that hundreds of other Italian political exiles deserved attention, and that returning to serve his sentence was the only way to generate it. He was imprisoned in Rome, in the same prison system that had once held Gramsci. He wrote *Empire* — the book that would make him internationally known — partly behind bars. It was published in 2000, the year after the Battle of Seattle, the year the anti-globalization movement was looking for a theory. He died in Paris in December 2023, at ninety.
+
+---
+
+What Negri and Hardt built, across *Empire*, *Multitude*, and *Commonwealth*, was the completion of a project Michel Foucault had left unfinished.
+
+Foucault had identified a transformation in how power operates. Sovereign power — the classical form — was the power of the king: the right to take life or let live. Modern power is something different. It doesn't primarily kill; it administers. It manages populations, regulates bodies, optimizes life for productivity. Foucault called this *biopower*: power that takes life itself — its rhythms, its health, its reproduction, its capacity for labor — as its object. The prison, the hospital, the school, the factory: not just places where bodies are controlled but where the very definition of normal and deviant, productive and useless, healthy and sick is manufactured and maintained.
+
+Negri and Hardt took this further. If biopower is power operating through life, then *biopolitical production* is the production that capital now primarily depends on: not the extraction of value from raw materials or from the repetitive motions of factory labor, but from life itself — from language, from affect, from care, from knowledge, from the accumulated capacity of human beings to cooperate, communicate, and create. The call center worker selling warmth. The nurse managing pain and fear. The teacher producing the capacity to learn. The neighborhood whose longtime residents make it desirable enough for developers to gentrify. None of this labor produces a material good you can hold. All of it produces value that capital captures.
+
+And what is the substrate of all this production? What capital depends on but did not create?
+
+The *common*. Not just commons in Ostrom's sense — shared pasture, irrigation channels, fisheries governed collectively. The common in the deeper sense: the accumulated relational intelligence of human beings. Language itself — no one produced it, everyone uses it, and it becomes richer the more it is shared. Affect — the capacity to care, to trust, to recognize each other as belonging to the same world. Knowledge — not patented knowledge locked in a database, but the knowledge embedded in practice, in community, in the way people in a place know how to do things together. Social fabric: the trust that makes a neighborhood function, the norms that make a market possible, the relationships that make collective action coherent.
+
+Capital didn't produce the common. It cannot produce the common. What capital can do — what it has always done — is enclose it.
+
+---
+
+Ostrom was in Indiana counting cases. Negri was in Paris completing Foucault. Neither knew the other existed. Ostrom was asking: how do communities govern shared resources? Negri was asking: what is actually being produced in a capitalist economy, and who produces it? Both arrived, from opposite directions, at the same answer: the commons is prior to the market and prior to the state. It is what we are before either claims us. The enclosure doesn't create value — it captures value that communities have already produced, and then charges them to access what they made.
+
+The Valencia tribunal isn't only governing the Turia River. It is governing the accumulated relational intelligence of a community — the knowledge of the water, the trust between farmers, the norms built across ten centuries — that makes the river economically useful at all. The *zanjera* isn't only governing water allocation. It is governing the social fabric that makes collective rebuilding after the typhoon possible: the shared obligations, the cook written into the governance structure, the knowledge of who can be trusted with which labor. These are biopolitical commons. The resource is real. But the resource isn't only the water.
+
+---
+
+I didn't have the language for this when I was running the restaurant.
+
+I had the fragments. I had read a bootleg PDF of *Simulacra and Simulation* in high school because I saw it in a film. I had read a bootleg HTML of *A Thousand Plateaus* on my breaks at a software job, absorbing the form before the argument. I knew in my body — the way you know things you can't yet say — that something was being produced in that room that didn't show up in the numbers. That the value we were creating and the money we could charge for it didn't match, and that the mismatch wasn't random.
+
+What I was running was a biopolitical commons. Not the food — the food was good and honestly priced and mostly beside the point. The commons was the room: the accumulated capacity of that particular space and those particular people to produce something that couldn't be produced alone. The trust between regulars and staff built over years. The knowledge of what people needed before they asked. The nature education at the bar — the wine described in terms of the soil and the watershed and the farmer who had decided to make it honestly, planting a different relationship to the living world in whoever was willing to receive it. A place where people could just be, and that would give them space to become — to choose deliberately what they wanted to become, instead of accepting the becoming that the institutions were offering them.
+
+That is a precise definition of a biopolitical commons. It is also what we lost when we closed.
+
+My Bluesky handle is 'Read Hardt and Negri.' I put it there because I believe it. The theory names something real. Once you have the name, you can see it everywhere — in the neighborhood whose social fabric makes it valuable to developers who then price out the people who built the value, in the open-source project whose contributors produce wealth that a platform captures and monetizes, in the care work that sustains every economy on earth and appears in no GDP. The commons isn't only where you go to get water. It's what you already are. What enclosure takes isn't just a resource. It's a piece of the world you built.
+
+---
+
 Why does any of this matter beyond the academic argument?
 
 Because Hardin's paper, wrong as it was, arrived at the right moment to do maximum damage. The 1970s and 1980s were the period of greatest global expansion of privatization and enclosure — of fisheries, of forests, of water rights, of commonly held land. His paper provided the intellectual cover. If the commons inevitably self-destructs, then enclosure is not an imposition. It is a rescue.
