@@ -62,7 +62,7 @@ She grew up in New York, the daughter of a Guinean immigrant activist who taught
 
 Her insight — the one that connects Chapter 8's Angela Davis through to this chapter — is that abolition is care. The demand to build the world that doesn't need prisons is the demand to build care infrastructure: housing, mental health support, economic security, the community relationships that make people less likely to cause harm and more capable of addressing it when harm occurs. "We keep each other safe" — from her book *We Do This 'Til We Build It* — is a claim about care as the foundation of safety. Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.
 
-That network is the care commons.
+That network is the care commons. In Hardt and Negri's terms: the accumulated relational intelligence — who can be trusted, who knows what, who shows up — that capital did not produce and cannot reproduce, but has always depended on. The enclosure of it is not metaphorical. The pricing-out of communities, the underpayment of care workers, the criminalization of mutual support: these are mechanisms for capturing what communities built, by making it legible as a service to be purchased rather than a commons to be governed.
 
 ---
 
