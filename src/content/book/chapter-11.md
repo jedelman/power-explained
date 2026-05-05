@@ -46,6 +46,8 @@ But Graeber's most distinctive contribution was on *play*. Free, intrinsically m
 
 The garden the tenant union plants together. The free library in the lobby of the cooperative. The music at the rally that isn't between speeches. These are not the fun parts of organizing that you add when you have time. They are the mechanism by which communities renew themselves — by which people learn that they are capable of more than they were told, by which the excess gets generated that makes movements irreversible in ways that policy victories are not.
 
+Play is the process version of singularity. The unrepeatable thing that happens when people are in a room together without a script. Every restaurant has its "you had to be there" moments — the specific hilarity that emerges from working that closely together, the way people's personalities surface under pressure and proximity. The incentive structure of a good kitchen is to make the quirks better rather than worse, and when it works, something is generated that no one planned and no one could have. The best nights were when the regulars were making friends at the bar, when the staff didn't have to keep the energy going because it had a life of its own. That's the commons producing play. That's the excess. You cannot engineer it. You can only build the conditions and get out of the way.
+
 Graeber died in Venice in September 2020, at fifty-nine. He had spent his last years traveling between Rojava and London, writing and organizing and practicing, until the end, what he had spent thirty years arguing for.
 
 ---
@@ -81,6 +83,8 @@ They had to reinvent it anyway, because it kept being right. Bookchin became the
 The thread runs from Gramsci theorizing the factory councils in Turin to Luxemburg writing from Breslau to Kropotkin counting glaciers in Siberia to Graeber building horizontal assemblies at the Quebec City protests to Bookchin watching Moses destroy the Bronx to Öcalan reading in a Turkish prison to the Zapatistas building schools in Chiapas to the woman who plants the first tree in the Barcelona intersection before the debate is finished. Not a lineage — an architecture. The same insight about what works, arrived at independently, in different conditions, by different people, because the conditions required it and the alternative kept failing.
 
 The commons wasn't destroyed because it failed. It was destroyed because it worked. The work is still building, in every city and neighborhood where someone decides not to wait.
+
+Of the people in this chapter, I'm closest to Kropotkin. Not the prince part — the observer part. I don't have policy successes. I have little to no street experience. I inherited wealth, and I believe everyone deserves the chance I got. That belief is not original. It is the conclusion that follows from looking clearly at what I was given and what others weren't, and refusing to naturalize the difference. Kropotkin counted glaciers in Siberia and found that the dominant theory was wrong about what nature rewarded. I ran a restaurant in Norfolk and found the same thing. The commons builds itself when you remove what's suppressing it. The suppression is the policy. The building is always already underway.
 
 ---
 
