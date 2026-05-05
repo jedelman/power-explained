@@ -84,6 +84,16 @@ I don't tell this story to make it mean more than it meant. It was one Sunday af
 
 What I mean is: the veil lifting is not a liberation. It is a change in what you can see. Roy saw the dam project's accounting for what it was and stood in the river anyway, and the river kept rising. Freire's student wrote his name and understood that the arrangement had been made, and the generals came the following year. The seeing doesn't stop the thing. It changes what you can no longer pretend.
 
+But that's not the end of it.
+
+There's a moment in the Washington Interlude, early in this book: a deer walks into camp, and twenty five-year-olds drop simultaneously into a stalking gait. Nobody told them to. Nobody needed to. The instinct was already there — older than language, older than school, older than the arrangement that had been busy teaching them what was natural and inevitable. The deer showed up and the children became, briefly, something they already were.
+
+Attention works like that. So does the commons. The capacity to see the arrangement as an arrangement — to feel, in your body, that the street could be otherwise, that the work could be organized differently, that the governance of the fishery is a choice that a community can make — is not something that has to be installed from outside. It is something that has to be unenclosed. Freire didn't teach his students to think. He removed the curriculum that was teaching them not to. The deer didn't teach the children to stalk. It showed up, and they remembered.
+
+What becomes possible when enough of us stop pretending? Not a revolution in the sense of a single rupture — this book has spent several chapters on why that model fails. Something slower and more durable: the accumulated weight of people who have seen the arrangement clearly, who have built or defended or joined something that operates on different assumptions, who have had the conversation that couldn't be taken back. Roy's witness. Freire's method. The Zapatistas' thirty years. The Valencia Water Tribunal's thousand. The deer, and the children, and the stalking gait that nobody had to teach.
+
+The question is not whether enough people can wake up. They already are. The question is whether what they're building when they do is connected — whether the positions being won across a thousand neighborhoods and cooperatives and councils and classrooms add up to terrain, or whether they remain isolated enough to be enclosed one by one. That's the work. That's what this book is for.
+
 ---
 
-*When did the veil lift for you — the moment the arrangement became visible as an arrangement, something made rather than something natural? It might have been a conversation, or a book, or a season, or something you saw that you couldn't unsee. Did you have the courage to face what it showed you? Do you have it now?*
+*When did the veil lift for you — the moment the arrangement became visible as an arrangement, something made rather than something natural? And what did you do next? The seeing is the beginning, not the end. What are you building with what you now can't unsee?*
