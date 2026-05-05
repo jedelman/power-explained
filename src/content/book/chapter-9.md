@@ -50,6 +50,14 @@ The war of maneuver is the frontal assault — the seizure of state power, the r
 
 The commons isn't just an economic alternative. It's a hegemonic project. It's the slow, patient work of building institutions that embody different assumptions — that practice a different common sense until it becomes the terrain the next generation stands on.
 
+I want to be careful about the word *failed*.
+
+The restaurant ran for five years. Five years is an average lifespan for a restaurant. Not being able to continue and failing are different things. We could have continued indefinitely, financially, if we had been willing to accept the terms others accept: long hours for little pay, never being able to leave, procedural autonomy in exchange for the real compensation, which is status. Social capital. The sense of being someone in a room. We weren't willing to accept those terms, and so we stopped. That's a different story than failure.
+
+What we left behind is harder to measure. A good story. Scattered seeds. Many of our regulars left Norfolk — the city has a way of not holding the people who are choosing to be there. Some of them came back years later and said they couldn't find anything like what we'd built, not in Seattle, not in DC. As far as I know, none of them started their own.
+
+That's the war of position in its honest form. Not the position you hold — the position you build and then have to leave, and the question of what it does in the hands of the people who passed through it. Gramsci built his position in prison notebooks smuggled out in sections. He never saw what they did. The councils were gone. The terrain had reasserted itself. He built it anyway, in the form available to him, which was sentences. The seeds scatter. You don't always get to see what they become.
+
 ---
 
 Gramsci would recognize everything in this book's Part II.
@@ -70,11 +78,19 @@ There is a sentence in the Prison Notebooks that has stayed with readers for nin
 
 He was writing about Italian fascism. We are in an interregnum now — the old liberal order cracking under the weight of ecological crisis and democratic failure, the new not yet born, the morbid symptoms visible in every news cycle. The feeling Gramsci was describing — the gap between a dying order and an unborn alternative, and what moves into that gap — is one the present moment knows well.
 
+It's springtime and I'm drowning in pollen. Standard American arborist practice plants only male trees because no one wants to maintain fruit. There is nowhere in the city limits where I can be outdoors and not hear lawnmowers. Gas is four dollars a gallon and I want it to hit ten — and I know exactly what that means, that there will be neighborhoods where people can't afford it and die of dehydration before the people with lawns stop watering them. The interregnum is not an abstraction. It is what it costs to maintain the old order against the logic of what's actually happening.
+
+But the great crested flycatchers are courting in the canopy. There's a baby mockingbird begging in the church hedges down the street, in the indigenous berry bushes the local ecological gardeners planted, heavy with berries just in time for babies. Life goes on. The morbid symptoms are real. So is everything else that's real.
+
 But the builders have not stopped. Every land trust, every cooperative, every mutual aid network, every commons institution this book has described — these are positions being won right now, in the territory the dying old has abandoned or never reached. The war of position has been underway for a long time. The council movement of 1919, the cooperative movement of 1956, the land trust movement of 1984, the mutual aid networks of 2020 — not separate attempts but a single thread, running through different hands, accumulating. Not every position held. The thread has never broken.
 
 Gramsci died in 1937 with the notebooks smuggled out. The councils were long gone. Fascism was everywhere. He had been in prison for eleven years and would not live to see what the notebooks would do — how they would circulate through the hands of builders doing war-of-position work without quite having the language for it, giving that work a name — *the war of position* — precise enough to build on.
 
 He knew what he was building. He built it anyway.
+
+Right now the thing I'm building is this book. The future — who knows. I still make a good curry. I can bake bread and refry beans. I think we'll be all right. Most of us, at least. I just wish it felt like that more often.
+
+The war of position is not a heroic posture. It is the decision to keep building in the form available to you — sentences, meals, seeds scattered in a neighborhood you're not sure will hold them — against the knowledge that you probably won't see what they become. Gramsci knew this. He built it anyway, in prison, in failing health, in an Italy that was moving in the opposite direction of everything he believed. The thread has never broken. It has passed through many hands that didn't know they were holding it.
 
 ---
 
