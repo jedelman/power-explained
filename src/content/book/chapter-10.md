@@ -72,6 +72,14 @@ This is not a moral claim about bad leaders. It is an architectural claim: the o
 
 The means are the ends. Every time.
 
+I tried to build a distributed institution and learned why this is hard in a specific way that the theory doesn't quite prepare you for.
+
+The restaurant was organized, in principle, around distributed self-governance. Everyone in the room, decisions made by the people doing the work. In practice, only we had skin in the game — financial risk, personal liability, the consequences of failure landing on specific bodies. Everyone else had a labor contract. About halfway through I understood why early syndicalists viewed labor contracts with such suspicion: a contract is an enclosure. It specifies what is owed and what is not owed, and everything outside the specification — the initiative, the investment, the genuine ownership of the project — falls outside it. The contract is a boundary that produces exactly the relationship it describes. You want distributed intelligence; you create the conditions for transactional compliance. You want people who treat the institution as theirs; you hire people who have every reason to treat it as yours.
+
+What worked operationally was real. What we couldn't cultivate was the culture — the shared ownership of the project that would have made the architecture function. I didn't have the bandwidth to do unpaid mentorship and counseling on top of leadership and management, and there isn't enough slack in the restaurant industry to make that possible. If we had started with a larger founding cadre, people with skin in the game from the beginning, it might have been different. What undermined us wasn't the idea. It was sexism and American hyperindividualism — the ambient assumption that the individual unit is the family, that labor is transactional, that collective investment in a shared project is naïve. The hegemony Gramsci named, operating at the level of the kitchen.
+
+Luxemburg understood this. The soviets worked because the workers had skin in the game — their lives, their neighborhoods, their actual conditions. When the party substituted itself, it removed the people with skin in the game and replaced them with people executing directives. The intelligence drained out. Coercion filled the gap.
+
 Luxemburg understood this in 1904. Her 1918 essay understood it again — not as theory now, but as observation of a revolution she could see was already dying. She wrote it in prison, unable to intervene, knowing it wouldn't be published in her lifetime.
 
 She was shot in January 1919, five months after writing the essay. The paramilitary that killed her included officers who would later form the core of the Nazi SA. Her body was thrown into the Landwehr Canal. They found her four months later.
@@ -89,6 +97,8 @@ The tradition wasn't buried because it was wrong. It was buried because it was t
 Luxemburg in her prison cell in 1918, feeding birds she had named, writing the analysis that has outlasted the people who imprisoned her — she was doing the war of position. Not stopping the Bolsheviks from eating the soviets. Making sure the next generation understood why it had happened. Building something durable enough to survive her death, the suppression of her manuscript, and the thirty-five years of Soviet history that proved her right.
 
 It wasn't buried. We're still reading it. And in reading it, we're in the tradition.
+
+There is a tension I want to name before we leave this chapter. A book that argues against vanguardism — against the party that knows better than the people — is still a person standing up to explain the thing. Luxemburg in her cell, writing the analysis that would outlast the people who imprisoned her, was also doing something the party structure couldn't do: making the thinking available, rather than the direction. I am an open source developer by training. This is source, not instructions. Whether it's received that way is bigger than me. I can't control what you build with it, and that's the point. The tradition Luxemburg was pointing at has never needed a party. It has needed people who understood the architecture well enough to recognize it when they saw it, and to build it when the conditions allowed. That's what this is for.
 
 ---
 
