@@ -14,7 +14,7 @@ But I want to start with a different room first, because this chapter is about m
 
 Every service at the restaurant, we started with a meditation. Sometimes it was perfunctory, and sometimes it ran long, but we always did it — a gratitude circle and then a short meditation, every single shift. It set the tone. It was a challenge to everyone to be in the right headspace, to take the work seriously, to be deliberate and accountable about how they were showing up. Sometimes people grumbled. Not everyone was on board. That's work. Part of the deal.
 
-What I didn't fully see, being in the leadership position, was the impact the practice was having by virtue of the position I held. The person at the front of the meditation circle has trouble seeing what the circle looks like from inside it.
+What I didn't fully see, being in the leadership position, was the impact the practice was having by virtue of the position I held. The person who called the circle has trouble seeing what the circle looks like from inside it.
 
 One night after service, we were hanging out with some friends and customers, and some of our employees — who were also friends — had clocked out and were at the bar. They were telling our regulars, proudly, about starting every shift with meditation. It was almost a passing comment, but one of the regulars did a double take.
 
