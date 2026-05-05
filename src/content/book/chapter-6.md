@@ -44,10 +44,6 @@ They were real wages. And accepting them cost something. To claim the wages of w
 
 This is not an argument about white pathology. It is an argument about structural incentives. The system is organized to make racial solidarity more immediately valuable than class solidarity. That organization has never been dismantled.
 
----
-
-This is not an argument about white pathology. It is an argument about structural incentives. The system is organized to make racial solidarity more immediately valuable than class solidarity. That organization has never been dismantled.
-
 I watched this in a room.
 
 Norfolk holds neighborhood association meetings. I went to several. The neighborhood I'd bought into is majority Black; the people at these meetings were overwhelmingly white. And what I saw on their faces when they talked about the neighborhood — their neighborhood, the one they lived in — was fear. Not of anything specific. Of the fact of it. Of the demographics, the history, the proximity to the shipyard, the 7-Eleven that outperformed every small business in a two-block radius because the workers coming off shift knew better than to come into a wine bar. Fear of the thing they were, technically, a part of.
@@ -94,19 +90,15 @@ The question is not *why is Africa poor?* as though poverty were a natural condi
 
 He was killed in Georgetown, Guyana, in 1980. A bomb placed in a walkie-talkie. He was thirty-eight years old. The government he had spent years criticizing for its accommodation to imperial relationships arranged his death.
 
----
-
-He was killed in Georgetown, Guyana, in 1980. A bomb placed in a walkie-talkie. He was thirty-eight years old. The government he had spent years criticizing for its accommodation to imperial relationships arranged his death.
-
-The specificity is why he remains politically contentious. It is also the only way the argument works. Vague claims about systemic racism are easy to absorb and dismiss. Specific claims — this mechanism, this extraction, this arrangement of who benefits — require a response. The response, historically, has sometimes been a bomb in a walkie-talkie. More often it is: nothing we can do.
+The specificity is why he remains politically contentious — and why it's the only way the argument works. Vague claims about systemic racism are easy to absorb and dismiss. Specific claims — this mechanism, this extraction, this arrangement of who benefits — require a response. The response, historically, has sometimes been a bomb in a walkie-talkie. More often it is: nothing we can do.
 
 I heard that phrase a lot in Chelsea.
 
 The trash conditions in my neighborhood were visibly worse than in West Ghent two blocks over. Shipyard trucks used our streets as a cut-through and nobody managed the mess that came with them. I complained to city leadership. I complained to shipyard management. White men in positions of institutional authority shrugged, said it sympathetically, and did nothing. *Nothing we can do.* My white neighbors shrugged. The neighborhood association shrugged.
 
-What made my blood boil — still makes my blood boil — was the clarity of what the shrug meant. Not helplessness. A decision about whose conditions warranted management. The infrastructure of disinvestment in majority-Black neighborhoods in Norfolk was built deliberately, through redlining and urban renewal and highway placement and school segregation, over more than a century. The shrug is what the maintenance of that infrastructure looks like from inside it, when you are the person with the institutional authority to sustain it by doing nothing.
+What made my blood boil — still makes my blood boil — was the clarity of what the shrug meant. Not helplessness. A decision about whose conditions warranted management. The infrastructure of disinvestment in majority-Black neighborhoods in Norfolk was built deliberately, through redlining and urban renewal and highway placement and school segregation, over more than a century. The shrug is what maintaining that infrastructure looks like when you have the institutional authority to sustain it by doing nothing.
 
-Rodney's question is not: why is this neighborhood in bad shape? It is: who benefits from this arrangement, and what maintains it? Those are answerable questions. The answers make people uncomfortable. That's the point.
+Rodney's method is to keep asking the question the shrug is designed to end: who benefits from this arrangement, and what maintains it?
 
 ---
 

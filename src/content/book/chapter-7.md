@@ -82,9 +82,9 @@ I watched this logic operate in a meeting room.
 
 Shipyard workers leaving the MHI lot in Chelsea would do fifty miles an hour in a twenty-five. The neighborhood business association spent over a year trying to resolve it. We got stop signs installed — ignored. We asked for enforcement during the one-hour window when it was worst, three to four in the afternoon. No officers could be spared. We asked for speed bumps. A city official told us, in the meeting, that in *other neighborhoods like ours*, speed bumps made the problem worse, because people would damage their cars rather than slow down. We asked about physical barriers. *That's not realistic.*
 
-They ran out of language before they could face what they were doing. The logic was necropolitical and they knew it and couldn't say it: this neighborhood does not generate the political cost that would make your safety worth protecting. What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
+They ran out of language before they could face what they were doing. What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
 
-That phrase, in this context, is not a statement about capacity. It is a decision about whose lives warrant the expenditure of capacity. It just can't be said out loud.
+That phrase is not a statement about capacity. It is a decision about whose lives warrant the expenditure of capacity — one that can't be said out loud, so it gets said this way instead.
 
 ---
 
@@ -92,11 +92,9 @@ Fanon is at the moment of production: how the colony builds its subjects, how th
 
 Together they reach something the economic analysis of Chapters 5 and 6 couldn't fully close. Racial capitalism requires people who accept their classification. Necropolitics requires people who accept that their exposure to death is normal. Both work not only through external force but through internalized structure — absorbed categories, the colony in the mind.
 
-Which is why the commons built in these spaces refuses something deeper than an economic arrangement. Palmares refused the plantation's classification of its members as property. The Zapatista autonomy zones refused the Mexican state's withdrawal of protection. The Crown Heights mutual aid network refused the neighborhood's abandonment — stocking the fridge on the sidewalk, staying after the crisis passed, learning each other's names, building the institutional conditions for a different answer to the foundational question.
+Which is why the commons built in these spaces refuses something deeper than an economic arrangement. Palmares refused the plantation's classification of its members as property. The Zapatista autonomy zones refused the Mexican state's withdrawal of protection. The Crown Heights mutual aid network refused the neighborhood's abandonment — stocking the fridge on the sidewalk, staying after the crisis passed, learning each other's names. None of these communities convened a meeting to debate the foundational question. They just answered it differently, in practice, every day.
 
-Not *whose death is acceptable.* Nobody's.
-
-I don't feel guilt exactly — guilt is inert. What I feel is that the least I can do is say something. I'm deprogramming white supremacy out of my friends. It's excruciating work. It's the best I can think to do with the position I'm in. Writing is part of it. The colony in the mind dismantles the same way it was built: one conversation at a time, with people who trust you enough to let you say the uncomfortable thing.
+I don't feel guilt exactly — guilt is inert. What I feel is that the least I can do is say something, clearly, to people who trust me enough to hear it. I'm deprogramming white supremacy out of my friends. It's excruciating. It's the best I can think to do with the position I'm in. The colony in the mind dismantles the same way it was built: one conversation at a time.
 
 ---
 
