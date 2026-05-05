@@ -6,6 +6,14 @@ h1: "Chapter 7: He Wanted His Nerves Back"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
+I grew up in Richmond, Virginia. Not the Richmond of history — the Richmond of afterward, the city history had already happened to and moved on from. The people around me had given up on participating in it. History was something that was over. There were no more victories for anyone. The posture of the people I grew up around was the shrug — a physical vocabulary of diminished expectation, learned and then taught, generation to generation.
+
+The shrug takes many forms. There's the passive kind — the turned shoulder, the eyes that don't quite meet yours when you're proposing something. There's the active kind — the people who punish the ones who don't shrug, especially children, especially when children refuse the diminishment. Yanked arms. Slaps on the back of the head. When people say the foundation of America is child abuse, I know what they're talking about. I've seen the learning happen in real time. The colony doesn't only live in the oppressed — it lives in the people who administer the shrug, who pass it down, who enforce it on those who won't perform it.
+
+Fanon saw this clearly. The pathology ran in both directions.
+
+---
+
 In 1953, a twenty-eight-year-old psychiatrist named Frantz Fanon arrived at Blida-Joinville Hospital, forty kilometers outside Algiers. He set up his ward. He began taking patients.
 
 Within months, he was treating both sides.
@@ -70,6 +78,14 @@ The prison in the United States: by the 1990s, a necropolitical space constructe
 
 The abandoned neighborhood: in 1968, the Kerner Commission warned that American cities were moving toward "two societies, one black, one white — separate and unequal" and called for massive investment in urban infrastructure, housing, and public services. The response was the systematic defunding of exactly what the commission identified. Fifty years later, the neighborhoods the commission described still exist: hospitals closed, schools underfunded, environmental hazards concentrated, emergency services slow to arrive. Not through announced policy but through the accumulated weight of decisions made elsewhere about whose lives warranted investment. The colonial logic persists in the form of which deaths are acceptable in the budget.
 
+I watched this logic operate in a meeting room.
+
+Shipyard workers leaving the MHI lot in Chelsea would do fifty miles an hour in a twenty-five. The neighborhood business association spent over a year trying to resolve it. We got stop signs installed — ignored. We asked for enforcement during the one-hour window when it was worst, three to four in the afternoon. No officers could be spared. We asked for speed bumps. A city official told us, in the meeting, that in *other neighborhoods like ours*, speed bumps made the problem worse, because people would damage their cars rather than slow down. We asked about physical barriers. *That's not realistic.*
+
+They ran out of language before they could face what they were doing. The logic was necropolitical and they knew it and couldn't say it: this neighborhood does not generate the political cost that would make your safety worth protecting. What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
+
+That phrase, in this context, is not a statement about capacity. It is a decision about whose lives warrant the expenditure of capacity. It just can't be said out loud.
+
 ---
 
 Fanon is at the moment of production: how the colony builds its subjects, how the colonizer's image is installed in the colonized person's self-understanding, what dismantling that installation requires. Mbembe is at the aftermath: how sovereign power continues through the decision about whose death is acceptable, how the colonial logic persists after the colonial flag has come down.
@@ -79,6 +95,8 @@ Together they reach something the economic analysis of Chapters 5 and 6 couldn't
 Which is why the commons built in these spaces refuses something deeper than an economic arrangement. Palmares refused the plantation's classification of its members as property. The Zapatista autonomy zones refused the Mexican state's withdrawal of protection. The Crown Heights mutual aid network refused the neighborhood's abandonment — stocking the fridge on the sidewalk, staying after the crisis passed, learning each other's names, building the institutional conditions for a different answer to the foundational question.
 
 Not *whose death is acceptable.* Nobody's.
+
+I don't feel guilt exactly — guilt is inert. What I feel is that the least I can do is say something. I'm deprogramming white supremacy out of my friends. It's excruciating work. It's the best I can think to do with the position I'm in. Writing is part of it. The colony in the mind dismantles the same way it was built: one conversation at a time, with people who trust you enough to let you say the uncomfortable thing.
 
 ---
 
