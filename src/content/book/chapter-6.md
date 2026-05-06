@@ -1,8 +1,8 @@
 ---
 slug: chapter-6
-title: "Chapter 6: Nothing We Can Do"
+title: "Chapter 6: The Shrug"
 description: "Cedric Robinson showed that capitalism was never color-blind. Walter Rodney showed that underdevelopment was something done. Two arguments that change what you look for."
-h1: "Nothing We Can Do"
+h1: "The Shrug"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
