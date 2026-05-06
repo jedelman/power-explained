@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro'
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
 
-const raw = readFileSync(resolve('src/content/book/chapter-16.md'), 'utf8')
+const raw = readFileSync(resolve('src/content/book/chapter-16b.md'), 'utf8')
 const body = raw.split('---\n').slice(2).join('---\n').trim()
 
 function md(text) {
@@ -27,7 +27,7 @@ function md(text) {
     .join('\n')
 }
 ---
-<Base title="Chapter 16: Knowledge and Language — The Commons and the Spectacle" description="Turing, Berners-Lee, Linux, and the language model: knowledge as commons, and what it looks like when the enclosure can be refused.">
+<Base title="Chapter 16 (Part 2): The Simulacrum and the Field" description="The Wachowskis hid Baudrillard inside The Matrix. The AI moment is the loop closing. The window to govern the commons of human expression is open — briefly.">
   <div class="hero">
     <div class="hero-inner">
       <p class="book-nav">
@@ -35,21 +35,21 @@ function md(text) {
         <span class="book-nav-sep">·</span>
         <span>Part VI: What to Build</span>
       </p>
-      <p class="book-label">Chapter 16</p>
-      <h1>Knowledge and Language</h1>
+      <p class="book-label">Chapter 16 · Part 2</p>
+      <h1>The Simulacrum and the Field</h1>
     </div>
   </div>
   <div class="article-wrap">
     <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
     <nav class="article-prev-next">
       <div class="prev-next-inner">
-        <a href="/book/chapter-15" class="prev-next-link">
+        <a href="/book/chapter-16" class="prev-next-link">
           <span class="prev-next-label">← Previous</span>
-          <span class="prev-next-title">Chapter 15: Care</span>
+          <span class="prev-next-title">Chapter 16: Knowledge and Language</span>
         </a>
-        <a href="/book/chapter-16b" class="prev-next-link next-link">
+        <a href="/book/chapter-17" class="prev-next-link next-link">
           <span class="prev-next-label">Next →</span>
-          <span class="prev-next-title">Chapter 16 (Part 2): The Simulacrum and the Field</span>
+          <span class="prev-next-title">Chapter 17: Governance</span>
         </a>
       </div>
     </nav>
