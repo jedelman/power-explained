@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro'
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
 
-const raw = readFileSync(resolve('src/content/book/the-centaur-chapter.md'), 'utf8')
+const raw = readFileSync(resolve('src/content/book/chapter-18.md'), 'utf8')
 const body = raw.split('---\n').slice(2).join('---\n').trim()
 
 function md(text) {
@@ -26,7 +26,7 @@ function md(text) {
     .join('\n')
 }
 ---
-<Base title="The Centaur Chapter — Build and Defend the Commons" description="This book was written by a centaur. This chapter is where the centaur looks at itself.">
+<Base title="Chapter 18: Governance — Build and Defend the Commons" description="Elinor Ostrom spent thirty years documenting what makes commons governance work. The answer isn't theory — it's the room, at seven-fifteen, with eleven people and an unread agenda.">
   <div class="hero">
     <div class="hero-inner">
       <p class="book-nav">
@@ -34,21 +34,21 @@ function md(text) {
         <span class="book-nav-sep">·</span>
         <span>Part VI: What to Build</span>
       </p>
-      <p class="book-label">Interlude</p>
-      <h1>The Centaur Chapter</h1>
+      <p class="book-label">Chapter 17</p>
+      <h1>Governance</h1>
     </div>
   </div>
   <div class="article-wrap">
     <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
     <nav class="article-prev-next">
       <div class="prev-next-inner">
-        <a href="/book/chapter-18" class="prev-next-link">
+        <a href="/book/chapter-17" class="prev-next-link">
           <span class="prev-next-label">← Previous</span>
-          <span class="prev-next-title">Chapter 18: Governance</span>
+          <span class="prev-next-title">Chapter 17: Initiation</span>
         </a>
-        <a href="/book/epilogue" class="prev-next-link next-link">
+        <a href="/book/the-centaur-chapter" class="prev-next-link next-link">
           <span class="prev-next-label">Next →</span>
-          <span class="prev-next-title">Epilogue: The Commons Is Not What Was Taken</span>
+          <span class="prev-next-title">The Centaur Chapter</span>
         </a>
       </div>
     </nav>

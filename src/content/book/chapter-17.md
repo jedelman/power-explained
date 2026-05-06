@@ -1,99 +1,111 @@
 ---
 slug: chapter-17
-title: "Chapter 17: Governance — Build and Defend the Commons"
-description: "Elinor Ostrom spent thirty years documenting what makes commons governance work. The answer isn't theory — it's the design of the room, the clarity of the rules, the willingness to show up and keep showing up. Governance is the unglamorous load-bearing structure that everything else in this book rests on."
-h1: "Chapter 17: Governance"
+title: "Chapter 17: Initiation — What the Living World Knows"
+description: "Every culture that survived long enough to develop a tradition of initiation understood the same thing: that a person is not finished at birth, that becoming requires the help of the community, and that the community needs what you specifically are. Plotkin, Prechtel, Sorenson — and the felt knowledge they are pointing toward."
+h1: "Chapter 17: Initiation"
 part: "Part VI: What to Build"
 ---
 
-The meeting starts at seven. By seven-fifteen, there are eleven people in the room — a few more will trickle in before eight. Someone has brought coffee. The agenda is on a shared document that four people have read and seven haven't. The first item takes forty-five minutes because it wasn't really the first item — it was standing in for a conflict that's been running for six months and hasn't been named yet.
+There is a moment in certain wilderness programs — the kind where people spend days alone in the landscape without food, without phones, without the usual scaffolding of identity — when something shifts.
 
-I have been in that room. Many versions of it, over many years. The neighborhood league meeting where the board abstracted a majority vote into nothing. The cooperative governance call that went three hours and resolved nothing. The session where someone rewrote the agenda before anyone else arrived.
+It doesn't happen to everyone. It doesn't happen on schedule. But people who have held space for these experiences describe a recognizable threshold: the person stops trying to manage the silence and starts listening to it. Stops performing solitude and starts inhabiting it. And in that inhabiting, something that had been waiting — some quality of attention that ordinary life keeps too busy to emerge — comes forward.
 
-But I want to start with a different room first, because this chapter is about more than failure.
+They come back different. Not dramatically. Not with answers. But with a quality of presence that wasn't there before, and a sense, usually inarticulate at first, of having been received by something that doesn't require you to be other than you are.
 
-Every service at the restaurant, we started with a meditation. Sometimes it was perfunctory, and sometimes it ran long, but we always did it — a gratitude circle and then a short meditation, every single shift. It set the tone. It was a challenge to everyone to be in the right headspace, to take the work seriously, to be deliberate and accountable about how they were showing up. Sometimes people grumbled. Not everyone was on board. That's work. Part of the deal.
-
-What I didn't fully see, being in the leadership position, was the impact the practice was having by virtue of the position I held. The person who called the circle has trouble seeing what the circle looks like from inside it.
-
-One night after service, we were hanging out with some friends and customers, and some of our employees — who were also friends — had clocked out and were at the bar. They were telling our regulars, proudly, about starting every shift with meditation. It was almost a passing comment, but one of the regulars did a double take.
-
-*Wait. So you start EVERY service with a meditation?*
-
-*Yep. Every one.*
-
-*That's so cool. It explains a lot, too.*
-
-I was polishing wine glasses and smiling. That's what the work was for.
-
-The practice had moved from me into the institution and was now being carried by the people who worked there. I didn't orchestrate that conversation. I just made the conditions where it could happen, and then got out of the way. That is the governance principle in its most compressed form: the practice that survives is the one that no longer needs you to hold it.
-
-The Armed Forces Brewing meeting was different. By the time I was running it, I was already burnt out several times over. The board abstained on a majority vote of the membership — within their rights, no rule violated, just the fear of conflict made decisive by the structure of the institution. I felt my heart leap at the members and sink at the board simultaneously. I resigned two months later. By then the restaurant was running on fumes and so was I.
-
-This is what the machine looks like from inside it, when you are the person trying to hold the room and the room is going badly and you can see what needs to happen and the structure won't let you make it happen. Not corruption. Not malice. Fear, made decisive by the design.
-
-This is governance. Not the theory of governance, not the design principles, not the constitutional framework — the room, at seven-fifteen, with eleven people and an unread agenda and a conflict that isn't on the document. The Törbel villagers who have been managing their alpine commons since 1483 met, and argued, and eventually reached the agreements that are still in force five centuries later. The Valencia water tribunal meets every Thursday at noon, has done so for over a thousand years, and resolves that week's disputes before lunch. The Champlain Housing Trust board, the Cooperation Jackson assemblies, the Crown Heights Mutual Aid network on Tuesday evenings — all of them are, at their operational foundation, a room with people in it who have agreed to govern something together.
-
-The commons doesn't fail at the level of theory. It fails at the level of the room. At the meeting that went three hours and resolved nothing. At the agenda that was captured by the person who got there earliest and rewrote it. At the founding member whose opinions on every question have calcified into positions that can no longer be updated by evidence. At the burnout — the people who showed up every week for two years and then didn't, and whose absence nobody named until the institution was running on four people who were each doing the work of ten.
-
-Ostrom spent thirty years asking why some rooms work and others don't.
+This chapter is about that threshold. What it is. Why every culture that survived long enough developed practices for crossing it. And what it means that we have largely stopped.
 
 ---
 
-Elinor Ostrom was born in Los Angeles in 1933, grew up working-class during the Depression, and put herself through UCLA when women were not expected to pursue graduate degrees in political science. She applied to the doctoral program she wanted and wasn't admitted; she found another route. She spent her career at Indiana University studying a question that the dominant theories of her field had already answered: why do communities sometimes govern shared resources sustainably for centuries?
+Bill Plotkin has spent forty years guiding people into the wilderness and watching what happens.
 
-She didn't study this from a distance. She sat in on water board meetings in the Los Angeles groundwater basins, interviewed lobster fishermen in Maine, spent time with the communities whose governance she was documenting. The fieldwork mattered — what Ostrom found in the field consistently contradicted what the models predicted, and she trusted the field. When the model said communities couldn't solve the collective action problem without privatization or state control, and the community in front of her had been solving it for four hundred years, she asked what the model was missing.
+His framework, built from decades of practice and rooted in depth psychology and cross-cultural study of initiation traditions, begins with a simple claim: every person carries a unique gift — something irreducible, irreplaceable, that the community needs and that only they can bring. Not a talent or a skill, though it may express through those. Something deeper: a particular way of perceiving, of relating, of being present to the world that no one else has in exactly that combination.
 
-The dominant answer — Hardin's tragedy of the commons, 1968 — was mathematical: each individual has an incentive to extract more than their share; the extraction is individually rational and collectively catastrophic; the only solutions are private property or state regulation. The commons was a problem to be solved by replacing it.
+The soul's code, he calls it — borrowing from James Hillman, extending it into practice.
 
-Ostrom looked at the evidence. The Swiss mountain villages governing alpine commons since the thirteenth century. The Spanish water courts operating since the tenth. The Japanese village forests managed sustainably for four centuries. The Maine lobster gangs enforcing territorial rules without state sanction. The California groundwater basins governed by overlapping user agreements that worked better than the state's centralized attempts.
+Initiation, in Plotkin's framework, is the process of discovering that gift. Not inventing it — it is already there, waiting. Discovering it requires descent: going down into the parts of yourself that ordinary social life cannot reach, the grief and the wildness and the specific longing that doesn't fit the available categories. It requires the support of community — elders who have made the descent themselves and can hold the space, peers who are making the journey alongside you. And it requires encounter with the living world — the non-human community, which has been holding this particular expression of life since before you had language for it.
 
-These were not anomalies. They were the normal historical record of what communities do when given the conditions to govern their own commons. Hardin had described an open-access regime — a pasture with no rules, no membership, no governance — and called it a commons. It isn't. A commons has rules, members, and governance. Hardin had proven that an ungoverned commons fails. This was not surprising. Ostrom asked what makes governed commons work.
+The wilderness threshold is not an ordeal for its own sake. It is the condition under which the soul's code becomes audible. When the noise of the managed self quiets enough, what remains is specific. Irreducibly yours.
 
-Her answer — eight design principles extracted from centuries of cases, not prescriptions derived from theory but recurring patterns in institutions that have survived — is the most carefully evidenced description of effective commons governance we have.
+Plotkin's deepest argument is structural: an uninitiated culture — one that has lost or abandoned the practices through which people discover and offer their irreducible gifts — becomes self-destructive. Not because people are bad, but because the gifts are not being called forth. They accumulate, undirected. They turn inward, or they discharge sideways, or they get routed into consumption. A culture of uninitiated adults is a culture of people who have never been told, by anything larger than their own ego, what they are for.
 
-Clearly defined boundaries: who is in the commons and what they can take must be unambiguous. Congruence between rules and local conditions: what works in the Alicante basin doesn't work in Maine. Collective-choice arrangements: the people whose behavior the rules govern must be able to modify those rules. Monitoring: someone watches the resource and the users, accountable to users. Graduated sanctions: first violations get small penalties; repeated violations get larger ones. Conflict resolution mechanisms: fast and cheap, accessible before disputes compound. Recognition of rights to organize: external authorities don't dissolve the governance. And for large commons: nested governance at appropriate scales.
-
-Not the design principles of a utopia. The minimum conditions for a room that works.
+This is Simondon's pre-individual field understood not as philosophy but as practice. The field nourishes what you are becoming — but only if you go to the field. Only if you learn to listen for what it is already saying about you.
 
 ---
 
-The room fails in predictable ways.
+Martín Prechtel learned what he knows the hard way — and then the harder way.
 
-The boundary problem: the commons is clear about what it governs but not about who governs it. New members arrive and find that the institution's culture is opaque, that decisions that seem to have been made keep getting unmade, that there are informal rules nobody has written down that insiders follow and outsiders violate without knowing. The clarity that keeps the resource governed makes entry into the governance difficult.
+He grew up between worlds: part Native American, raised in the American Southwest, eventually finding his way to a Mayan village in Guatemala where he became, over years of extraordinary apprenticeship, an initiated member of the community and eventually a shaman and village chief. He spent two decades in Santiago Atitlán before the civil war came and took everything.
 
-The congruence problem: rules designed for one context are applied to a changed one. The neighborhood association that was built around a particular threat governs as though the threat still exists after it's been resolved. The institution can't revise its own rules fast enough because the collective-choice arrangement is underdeveloped: the people doing the work don't have a real mechanism for changing how the work is done.
+What he carries from that time — and what he has spent the years since transmitting, in books and teachings, to people who never had it — is a particular understanding of grief and praise as the twin engines of a living culture.
 
-The monitoring problem: nobody is watching the resource, or the watching is done by people not accountable to the community. The board that meets quarterly to approve decisions already made by staff. The cooperative where one person knows where everything is and hasn't told anyone.
+In the Tzutujil Mayan tradition he learned, beauty and grief are inseparable. To be fully alive is to be in the presence of something you love that is also passing — the feast that will end, the child who will grow away from you, the season turning. Grief is not the failure of love. It is the proof of it. A person who cannot grieve has enclosed themselves against the full reality of what they love, and in doing so has also enclosed themselves against its full beauty.
 
-The burnout problem: governance work is invisible, uncompensated, and relentless. The people who do it are not the people most affected by the decisions they govern — they are the people who showed up, and kept showing up, long enough to be trusted with the work. They burn out because the work is infinite and the recognition is minimal.
+Initiation, in this tradition, is the village's act of love toward the young. It says: *we need what you specifically are. We will hold the space for you to find it. And in exchange, we ask that you bring it fully — which means learning to grieve what passes, to praise what is, to remain present to the living world even when presence is costly.*
 
-The recognition problem — Ostrom's seventh principle — is the one most frequently violated from outside. The neighborhood association that spent three years building governance capacity gets superseded by a city council decision that didn't consult them. The water governance system that has worked for a century gets overridden by a state agency with a different model. The indigenous community that has governed its territory for generations loses legal standing when the national government grants a mining concession. External power doesn't just compete with commons governance. It destroys the conditions that make commons governance possible. The Spanish anarchist collectives in 1937 were not failing from within. They were deliberately demolished by forces with the institutional capacity to do it.
+This is what the system of objects suppresses. The system requires managed dissatisfaction — the deferred promise, the grief that never lands because it might interrupt consumption. It cannot afford the fully initiated person, the one who has grieved enough to be present, the one who knows that beauty is always passing and that this is the reason to be here now. That person is not manageable. They have somewhere else to be.
 
----
+Prechtel's teaching is a kind of antidote: not therapy, not self-help, but the transmission of a practice of being alive that the dominant culture systematically dismantles. Grief as skill. Praise as practice. The living world as a community you belong to by virtue of being alive — not a resource, not a backdrop, but a community with its own intelligence and its own claim on your attention.
 
-What makes a room durable is not the quality of the founding documents. It is the quality of the relationships — specifically, the relationships that have survived conflict.
+This connects directly to what Hardt and Negri called love — the force that makes you more real, not less, that nourishes what you are already becoming. The Tzutujil understanding of initiation is love institutionalized: the community organizing itself around the ongoing individuation of its members, building the conditions under which each person can discover and offer their irreducible gift.
 
-Every governance institution eventually faces a conflict that threatens to destroy it. In housing cooperatives, it often arrives as a financial crisis: a large repair assessment, disagreement about reserves, accusations that the board has mismanaged funds. The governance question on paper is financial. The governance question in the room is whether the people who disagree about the finances can still govern together afterward. The cooperatives that survive this kind of conflict are almost always the ones that had already built relationships strong enough to hold a disagreement. The ones that fail are usually the ones where the financial conflict was the first time members had really talked about money — where the crisis revealed that the community had been governing together without ever becoming a community.
-
-The cooperative that charges a member $50 for their first missed maintenance shift rather than $500 is not choosing leniency. It is preserving the relationship that makes future governance possible. A disproportionate penalty severs the relationship permanently; a calibrated one communicates the norm while leaving room for repair. This is what Ostrom's graduated sanctions principle is about: not deterrence primarily, but the maintenance of the ongoing relationships governance requires.
-
-The cooperatives that do this well — that survive their first major conflict and the second and the fifth — tend to share a posture that the Zapatistas articulate most precisely: *Preguntando caminamos*, asking we walk. The institution proceeds through questions rather than answers. It treats governance as ongoing rather than resolved. The room at seven-fifteen is not trying to reach a final answer. It is trying to reach a next step, with the relationships intact.
+This is what governance, at its deepest, is trying to do.
 
 ---
 
-Governance is the load-bearing structure every other chapter in this book rests on — the mechanism by which credit stays accountable, land covenants hold, and care work gets distributed rather than carried by whoever bears it.
+In the decades before everything was connected, before every remote valley had a road and a screen, the researcher Richard Sorenson traveled to cultures that had not yet been absorbed into the global system — communities in Papua New Guinea, in the Andes, in the forests of Southeast Asia — and tried to document what he called *preconquest consciousness*: the particular quality of awareness that seems to characterize people living in close relationship with their ecological community, before the epistemological conquest of Western categories reorganizes their perception.
 
-What all of these share with the Valencia water tribunal and the Törbel village is a set of structural features that allow communities to govern shared resources across time: defined membership, rules matched to conditions, collective revision, monitoring, graduated response, accessible conflict resolution, protected autonomy, and nested governance where the resource spans communities.
+What he found, again and again, was a quality of intersubjectivity that he struggled to name in English. People in these communities did not experience themselves as bounded individuals navigating a world of other bounded individuals. They experienced themselves as nodes in a relational field — permeable, responsive, continuously exchanging information and affect with the people and the living world around them. Touch communicated more than words. Silence carried as much as speech. The landscape was not a backdrop but a presence, and a knowledgeable one.
 
-None of these require extraordinary virtue. They require ordinary commitment: show up, keep records, tell the truth about what isn't working, stay in the room when the conflict comes.
+This is not mysticism, though it touches what mysticism is reaching for. It is a description of a different distribution of attention — one in which the boundary between self and world is less fixed, less defended, more available to information that the defended self would screen out. It is, in Simondon's terms, a lower degree of individuation relative to the pre-individual field — not less developed, but differently developed, maintaining more contact with the commons from which the individual emerged.
 
-The community that can repair relationships after conflict is the community that is still governing itself a generation later.
+Sorenson's work is elegiac — he was documenting what was being lost, and he knew it. But the knowledge he documented was not lost everywhere. It survives in fragments: in the wilderness threshold experiences Plotkin describes, in the grief-and-praise practices Prechtel transmits, in the ceremonial traditions of cultures that have managed to hold on to some portion of what sustained them. It survives in every person who has had the experience — even once, even briefly — of the boundary between self and living world becoming permeable, and felt what was there when it did.
 
-The room at seven-fifteen. The eleven people. The unread agenda. The conflict that's been running for six months.
-
-This is where the commons is built. Not in the theory — in the room.
+That experience does not require a specific cultural container, though containers help. It requires presence. And the willingness to go to the threshold rather than away from it.
 
 ---
 
-*What governance structures in your community are doing this work right now? What is the unglamorous work that needs to be distributed rather than carried by one person? The commons doesn't build itself. It is built by people who decided to govern something together, and kept deciding, meeting after meeting.*
+Terence McKenna was not an academic. He was a bard — a brilliant, obsessive, frequently wrong, occasionally visionary speaker who spent his life trying to put words to experiences that resist them.
+
+What he returned to, again and again, was the phenomenology of the dissolved boundary. The experience — most commonly encountered at the edge of ordinary consciousness, in darkness and silence or in states of profound openness — of the self not disappearing but *expanding*, becoming continuous with something larger. The sense that what we call the self is a convenience, a useful fiction, and that underneath it the living world is a single process of which you are an expression.
+
+This sounds like the kind of claim that can only be made from outside the experience. Inside it, people report something more specific: not a loss of identity but a recognition, a sense of *of course*, as though something always known is being consciously acknowledged for the first time.
+
+The mycorrhizal network runs underground, connecting every tree in the old-growth forest through chemical signals too slow and too quiet for ordinary perception to register. You would not know it was there from looking at the canopy. But it is there, and the forest's intelligence is distributed through it, and the trees are not alone in what they are doing.
+
+McKenna's suggestion — held carefully, stripped of its more baroque elaborations — was that something analogous runs through the living world at scales we have not learned to perceive. That the pre-individual field is not a philosophical abstraction. That the community you were born from and will return to is not a metaphor. That the dissolution of the boundary between self and world, experienced at the threshold, is not hallucination but *contact*.
+
+This is impossible to verify scientifically, at least with current methods. It is attested across cultures, across centuries, across the specific forms of initiation and practice that Plotkin and Prechtel and Sorenson each describe. The phenomenology is consistent even when the cultural containers are completely different. Something is being pointed at.
+
+Whether or not you follow McKenna into his more specific claims, the gesture matters: the pre-individual field is not only available through philosophy. It is available through presence. The commons can be entered. The underground network can be felt, if you know how to go still enough to feel it.
+
+This is not waiting to be invented. It is waiting to be remembered.
+
+---
+
+What do these three traditions — Plotkin's soul descent, Prechtel's grief-and-praise, Sorenson's preconquest consciousness, McKenna's dissolved boundary — have in common?
+
+They all describe a form of knowing that is relational before it is individual. They all point toward a quality of presence in which the boundary between self and living world becomes permeable, and the person discovers themselves to be not a bounded object navigating a resource-field but a node in a community that includes the non-human. They all suggest that this quality of knowing is not extraordinary — not reserved for mystics or shamans — but is the baseline of what a fully initiated person in a functional community experiences as ordinary.
+
+And they all identify the same thing as the obstacle: the system that requires legibility, that demands you complete the arrangement, that routes generative excess into consumption before it can become something ungovernable. The system of objects. The spectacle. The enclosed commons. These are not just economic and political structures. They are epistemological ones. They reorganize perception so that the relational field becomes invisible, the community of the living world becomes a backdrop, the grief-and-praise cycle gets interrupted, and the soul's code never gets called forth because the village has forgotten to ask.
+
+The initiation chapter is not separate from the governance chapter. It is its foundation.
+
+You cannot design a commons governance structure that works — that holds the living process alive inside it rather than converting it into a managed arrangement — if the people governing it have not had some experience of what they are governing *for*. Ostrom's design principles are brilliant. But they are the form that something must take, not the source of that something. The source is the felt knowledge that the commons is not an economic arrangement. It is a community. It is the mycorrhizal network. It is the village that needs what you specifically are.
+
+Governance is what happens when that knowledge needs to make decisions at scale.
+
+---
+
+The people doing this work — the wilderness guides, the grief practitioners, the ceremony leaders, the teachers who carry fragments of initiation traditions across cultural distances — are not on the margins of the political project this book describes. They are at its center.
+
+Not because personal transformation is sufficient — it is not. The structures must change, and changing structures requires political work. But the structures that replace the current ones will only be as alive as the people building them. A commons governed by uninitiated people — people who have never descended to find their gift, who cannot grieve, who have not felt the permeable boundary and the community that lives on the other side of it — will calcify. The rules will become the point. The meetings will go three hours and resolve nothing. The living process will leak out of the institution's joints until only the institution remains.
+
+The Törbel community governed their commons for five hundred years not because they had good rules — though they did. Because they were, in some sense, in relationship with what they were governing. The forest was not an abstraction. The water was not a resource. The rules were the institutional memory of a community that understood itself as continuous with the living world.
+
+We are trying to rebuild that continuity. Not by returning to the fourteenth century — the world has changed, and the old containers cannot all be transplanted. But by recovering the orientation. The felt sense that the commons is not something we manage from outside it. We are inside it. We always were.
+
+The threshold is available.
+
+What we do when we cross it — how we build and defend the conditions under which crossing becomes possible — is the work of governance.
+
+Which is where we go next.

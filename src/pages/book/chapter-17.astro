@@ -13,11 +13,12 @@ function md(text) {
     .replace(/_(.+?)_/g, '<em>$1</em>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
     .replace(/^---$/gm, '<hr class="section-break" />')
+    .replace(/^> (.+)$/gm, '<blockquote>$1</blockquote>')
     .split(/\n\n+/)
     .map(b => {
       b = b.trim()
       if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
+      if (b.startsWith('<h') || b.startsWith('<hr') || b.startsWith('<blockquote')) return b
       if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**'))
         return `<p class="chapter-coda">${b.slice(1,-1)}</p>`
       return `<p>${b.replace(/\n/g, ' ')}</p>`
@@ -26,7 +27,7 @@ function md(text) {
     .join('\n')
 }
 ---
-<Base title="Chapter 17: Governance — Build and Defend the Commons" description="Elinor Ostrom spent thirty years documenting what makes commons governance work. The answer isn't theory — it's the room, at seven-fifteen, with eleven people and an unread agenda.">
+<Base title="Chapter 17: Initiation — What the Living World Knows" description="Every culture that survived long enough developed practices for initiation. Plotkin, Prechtel, Sorenson, McKenna — and the felt knowledge they are pointing toward.">
   <div class="hero">
     <div class="hero-inner">
       <p class="book-nav">
@@ -35,7 +36,7 @@ function md(text) {
         <span>Part VI: What to Build</span>
       </p>
       <p class="book-label">Chapter 17</p>
-      <h1>Governance</h1>
+      <h1>Initiation</h1>
     </div>
   </div>
   <div class="article-wrap">
@@ -44,11 +45,11 @@ function md(text) {
       <div class="prev-next-inner">
         <a href="/book/chapter-16b" class="prev-next-link">
           <span class="prev-next-label">← Previous</span>
-          <span class="prev-next-title">Chapter 16 (Part 2): The Simulacrum and the Field</span>
+          <span class="prev-next-title">Chapter 16, Part 2: The Simulacrum and the Field</span>
         </a>
-        <a href="/book/the-centaur-chapter" class="prev-next-link next-link">
+        <a href="/book/chapter-18" class="prev-next-link next-link">
           <span class="prev-next-label">Next →</span>
-          <span class="prev-next-title">The Centaur Chapter</span>
+          <span class="prev-next-title">Chapter 18: Governance</span>
         </a>
       </div>
     </nav>
@@ -61,5 +62,6 @@ function md(text) {
   .book-nav-sep { opacity: 0.4; }
   .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
   .chapter-body :global(hr.section-break) { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .chapter-body :global(blockquote) { border-left: 3px solid var(--rule); margin: 1.5rem 0; padding: 0 1.5rem; font-family: var(--mono); font-size: 0.85rem; color: rgba(var(--ink-rgb), 0.7); }
   .chapter-body :global(.chapter-coda) { font-family: var(--mono); font-size: 0.8rem; line-height: 1.7; color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
 </style>
