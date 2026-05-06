@@ -104,7 +104,7 @@ What we don't know — what this book can't tell you — is whether enough peopl
 
 How does it feel?
 
-If you feel like the clouds have finally cleared and your burdens have been lifted and you're ready to go out and fix all the world's problems — great. Go try that, we're rooting for you. Truly. You might want to skip to Chapter 9.
+If you feel like the clouds have finally cleared and your burdens have been lifted and you're ready to go out and solve all the world's problems — great. Go try that, we're rooting for you. Truly. You might want to skip to Chapter 9.
 
 But if there's a nagging feeling in your gut that it's not that simple — you're right. Read on.
 
