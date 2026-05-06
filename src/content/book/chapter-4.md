@@ -31,7 +31,7 @@ In 1984, in Burlington, Vermont, a thirty-two-year-old mayor named Bernie Sander
 
 Sanders was an independent socialist running a mid-sized New England city on a shoestring budget, and the Champlain Housing Trust was not his biggest initiative. But the mechanism he helped establish was precise and durable: the trust owns the land permanently; homeowners own the houses. When a house sells, a resale formula lets the seller recoup their investment and a share of appreciation — but not the full speculative gain. The land's value stays in the trust. The next buyer pays below-market because they're not buying the land.
 
-What this means, in practice, is that someone made a choice. Someone who bought a Champlain house in 1991 sold it in 2003 for less than the open market would have paid — because they believed in the structure, because they decided that the affordability their neighbor would need mattered more than the premium they could have taken. Then someone else made that choice again in 2003, and again in 2015.
+What this means, in practice, is that someone made a choice. Someone who bought a Champlain house in 1991 sold it in 2003 for less than the open market would have paid — because they believed in the structure, because they decided that the affordability their neighbor would need mattered more than the premium they could have taken. Then someone else made that choice again in 2003, and again in 2015. The neighbor they were providing for didn't exist yet. That's the structure.
 
 Burlington's housing market has gone through multiple boom cycles since 1984. The Champlain Housing Trust's homes stayed affordable through all of them. Not through subsidy, which is a program, and programs end when political will fluctuates. Through governance: the community decided, once, collectively and bindingly, that this land was not for sale. That decision, made once, persists structurally, independent of whoever is currently in office.
 
@@ -74,7 +74,7 @@ In 1994, Indigenous communities in Chiapas rose against NAFTA and the Mexican st
 What they built has outlasted a dozen governments that intended to outlast it.
 
 
-And one more that won't make the case studies.
+And one more — this one mine.
 
 In December 2020, in an industrial neighborhood in Norfolk, Virginia, my wife and I and a friend opened a restaurant. We had been dreaming about it since 2017 — using the capital left over from a house sale, negotiating a private purchase with no bank involved, DIYing the conversion on a shoestring while I spent eight months convincing the city to let us change the zoning. COVID hit when we were pulling our final permits. I cashed out $100,000 from a Microsoft 401k to float us through the shutdown. We opened anyway.
 
@@ -89,6 +89,8 @@ I say this not as defeat but as transformation. Idealism that has been tested by
 ---
 
 Arizmendi on his bike in the Basque mountains. Eight farmers in black blouses in Valencia's cathedral plaza. Zanjera farmers rebuilding bamboo dams in Ilocos after a typhoon, the cook feeding everyone while the work gets done. The Champlain homeowner who sold below market. Bernie Sanders in a Vermont city council chamber in 1984. Chokwe Lumumba's campaign, and the organizing that continued after his death. The community fridge on the Brooklyn sidewalk, stocked by whoever walked by that morning. The restaurant in Norfolk that ran for five years and closed. The caracol.
+
+---
 
 These are not all the same thing. They operate at different scales, in different conditions, with different histories and different tools and different definitions of what they're building. What they share is the structure Ostrom found in the cases that worked: people governing something they depend on together, through rules they developed themselves, in response to the specific conditions they live with.
 
