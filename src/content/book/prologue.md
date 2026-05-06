@@ -15,7 +15,7 @@ These don't feel connected. They feel like separate misfortunes, separate system
 
 They are connected. This book is about how.
 
-But before the explanation, something else.
+---
 
 Every spring, night herons return to Norfolk, Virginia. They come up from Central America and raise their young in the oak and willow trees, and they stay until fall. They're quiet and a little awkward on the ground — heavy-bodied, short-legged, built for stillness rather than speed. But look at one closely, at the red eye and the white plumes and the absolute patience of a bird that can stand motionless for an hour waiting for a fish — and something in you recognizes that it is noble, and old, and utterly itself.
 
@@ -23,7 +23,7 @@ Some people hate the night herons because if you park under a nest, they will co
 
 Every spring, Jason finds as many of the nests as he can. He goes to them. He tells the herons, with his actual words, that he loves them and wishes them good luck. He is not the only one. Without deciding it, all of his friends love night herons. The herons don't know any of this. They are raising their young in the oak and willow, as they have done for thousands of years, as they will do after we are gone, as long as the trees hold.
 
-The commons is not only what we've lost. It is what is still here. What keeps returning. What would flourish if we could just learn to look up.
+The commons is not only what we've lost. It is what is still here. What keeps returning — to the other side, if we can get there. What would flourish if we could just learn to look up.
 
 This book is about the enclosure — what it is, how it works, who it serves, what it costs. But it is also, underneath that, about the herons. About the people who find the nests and say something true to the birds that cannot hear them. About why that practice is not sentimental but political. About the consciousness that makes it possible — the kind that notices what is there, not only what is missing, and understands that the work of protecting the world begins with learning to see it.
 
@@ -85,7 +85,7 @@ It is not a policy book. It doesn't propose legislation. It goes a level below p
 
 It is not an academic book. It draws on academic work — political economy, history, political theory, anthropology — but it doesn't proceed by academic conventions. It argues directly. It uses the first person. It asks the reader questions and means them.
 
-What it is: a guide. Not a guide to policy or to action, exactly — but a guide to the kind of seeing that makes action possible and sustainable. The nature educators in Washington State who take children into old-growth forest aren't teaching ecology. They're maneuvering conditions so that a connection can happen — so that the child can feel, in their body, what old means, what belonging to something larger means, what there is to protect. You cannot tell someone that. You can only put them near it and step back.
+What it is: a guide. Not a guide to policy or to action, exactly — but a guide to the kind of preparation that makes seeing possible. The seeing that makes action possible. The practice that, once it takes root, keeps growing even when you stop tending it deliberately. The nature educators in Washington State who take children into old-growth forest aren't teaching ecology. They're maneuvering conditions so that a connection can happen — so that the child can feel, in their body, what old means, what belonging to something larger means, what there is to protect. You cannot tell someone that. You can only put them near it and step back.
 
 This book is trying to do something like that. It is trying to put you near the pattern — near the structure of enclosure and the structure of the commons, near the people who built and defended and continue to build and defend — so that you can feel it rather than just know it. The political question underneath the political question is always a question about consciousness: what do you see, what do you feel belongs to you, what do you understand yourself to be part of? The argument in these pages is meant to shift that, if it can.
 
