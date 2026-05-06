@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url'
 
 const ROOT        = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const CONTENT_DIR = path.join(ROOT, 'src/content/articles')
+const BOOK_DIR    = path.join(ROOT, 'src/content/book')
 const DIST_DIR    = path.join(ROOT, 'dist')
 
 // ── helpers ────────────────────────────────────────────────────────────────
@@ -39,28 +40,56 @@ function dirSizeBytes(dir) {
 }
 
 function humanBytes(n) {
-  if (n < 1024)       return `${n} B`
-  if (n < 1024**2)    return `${(n/1024).toFixed(1)} KB`
-  if (n < 1024**3)    return `${(n/1024**2).toFixed(1)} MB`
+  if (n < 1024)     return `${n} B`
+  if (n < 1024**2)  return `${(n/1024).toFixed(1)} KB`
+  if (n < 1024**3)  return `${(n/1024**2).toFixed(1)} MB`
   return `${(n/1024**3).toFixed(2)} GB`
 }
 
-// ── gather article stats ───────────────────────────────────────────────────
+function printSection(title, fileCount, words, groupMap) {
+  const divider = '─'.repeat(50)
+  console.log(`\n${divider}`)
+  console.log(`  ${title}`)
+  console.log(divider)
+  console.log(`  Files         : ${fileCount}`)
+  console.log(`  Total words   : ${words.toLocaleString()}`)
+  const sorted = Object.entries(groupMap).sort((a, b) => b[1] - a[1])
+  for (const [label, count] of sorted) {
+    const l = label.length > 40 ? label.slice(0, 37) + '…' : label
+    console.log(`    ${String(count).padStart(3)}  ${l}`)
+  }
+  console.log(divider)
+}
 
-const files = fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'))
+// ── articles ───────────────────────────────────────────────────────────────
 
-let totalWords = 0
-const seriesMap = {}   // series label → count
+const articleFiles = fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'))
+let articleWords = 0
+const seriesMap = {}
 
-for (const file of files) {
-  const raw = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8')
-  const { meta, body } = parseFrontmatter(raw)
-  totalWords += wordCount(body)
+for (const file of articleFiles) {
+  const { meta, body } = parseFrontmatter(fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8'))
+  articleWords += wordCount(body)
   const tag = meta.seriesTag?.trim() || '(untagged)'
   seriesMap[tag] = (seriesMap[tag] ?? 0) + 1
 }
 
-// ── gather dist stats ─────────────────────────────────────────────────────
+// ── book ───────────────────────────────────────────────────────────────────
+
+const bookFiles = fs.existsSync(BOOK_DIR)
+  ? fs.readdirSync(BOOK_DIR).filter(f => f.endsWith('.md'))
+  : []
+let bookWords = 0
+const partsMap = {}
+
+for (const file of bookFiles) {
+  const { meta, body } = parseFrontmatter(fs.readFileSync(path.join(BOOK_DIR, file), 'utf8'))
+  bookWords += wordCount(body)
+  const part = meta.part?.trim() || '(untagged)'
+  partsMap[part] = (partsMap[part] ?? 0) + 1
+}
+
+// ── dist ───────────────────────────────────────────────────────────────────
 
 const llmsTxtCount = fs.existsSync(DIST_DIR)
   ? fs.readdirSync(DIST_DIR, { withFileTypes: true })
@@ -78,23 +107,17 @@ const distSize = humanBytes(dirSizeBytes(DIST_DIR))
 
 // ── print ──────────────────────────────────────────────────────────────────
 
-const divider = '─'.repeat(50)
+printSection('ARTICLES — power-explained', articleFiles.length, articleWords, seriesMap)
 
+if (bookFiles.length > 0) {
+  printSection('BOOK — /book', bookFiles.length, bookWords, partsMap)
+}
+
+const divider = '─'.repeat(50)
 console.log(`\n${divider}`)
-console.log('  BUILD STATS — power-explained')
+console.log('  BUILD OUTPUT')
 console.log(divider)
-console.log(`  Articles      : ${files.length}`)
-console.log(`  Total words   : ${totalWords.toLocaleString()}`)
 console.log(`  llms.txt      : ${llmsTxtCount} files written`)
 console.log(`  Sitemap URLs  : ${sitemapUrls}`)
 console.log(`  Dist size     : ${distSize}`)
-console.log(divider)
-console.log('  Articles by series:')
-
-const sorted = Object.entries(seriesMap).sort((a, b) => b[1] - a[1])
-for (const [series, count] of sorted) {
-  const label = series.length > 40 ? series.slice(0, 37) + '…' : series
-  console.log(`    ${String(count).padStart(3)}  ${label}`)
-}
-
 console.log(divider + '\n')
