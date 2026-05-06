@@ -86,7 +86,7 @@ The debt trap continued the same orientation by financial means. In the 1980s an
 
 In Ghana, structural adjustment required cutting the cocoa marketing board — the state body that had given Ghanaian cocoa farmers some negotiating leverage against international commodity prices. The farmers who had grown cocoa for generations found themselves selling directly into a market controlled by a handful of multinational traders, at prices set in London. The leverage was gone. The extraction continued.
 
-The question is not *why is Africa poor?* as though poverty were a natural condition. The question is: who benefits from this arrangement, and what maintains it? Those are answerable questions with specific answers. That specificity is why Rodney remains politically contentious.
+The question is not *why is Africa poor?* as though poverty were a natural condition. The question is: who benefits from this arrangement, and what maintains it? Those are answerable questions with specific answers.
 
 He was killed in Georgetown, Guyana, in 1980. A bomb placed in a walkie-talkie. He was thirty-eight years old. The government he had spent years criticizing for its accommodation to imperial relationships arranged his death.
 
@@ -108,11 +108,7 @@ What connects them: race is not incidental to either story. Race is what decides
 
 Robinson's book was kept out of print. Rodney was killed. The argument survived indifference in one case and murder in the other, because the condition it describes is still operating and the people living inside that condition have not stopped thinking clearly about it.
 
-The knowledge produced on the outside — the clarity about the system that comes from being property within it, from building Palmares and rebuilding the dam after the typhoon and organizing the mutual aid network in the crisis — has survived everything the system has done to contain it.
-
 *It didn't stay on the outside.*
-
-The next chapter follows a different dimension of what the outside produces and what the system requires: not the economic and historical machinery of racial capitalism, but what colonialism does to the interior of the colonized mind, and what the colonized mind sees when it looks back.
 
 ---
 
