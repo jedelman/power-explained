@@ -62,7 +62,7 @@ It was not primarily Franco who destroyed it. The Spanish Communist Party, direc
 
 George Orwell was there. He had gone to fight fascism and found himself watching the revolution being destroyed by the people claiming to defend it. *Homage to Catalonia* is his account. It changed him permanently — into the writer who would spend the rest of his life trying to name the specific mechanism by which revolutionary movements destroy themselves from within, and the language that makes the destruction invisible as destruction.
 
-The Catalan collectives were the soviets again. The Communist Party was the Bolshevik Party again. The pattern had a logic.
+The Catalan collectives were the soviets again. The Communist Party was the Bolshevik Party again. The pattern had a logic: any organization with the power to suppress the distributed commons will eventually use that power, because the distributed commons demonstrates that the organization is unnecessary. The threat is not military. It is architectural.
 
 ---
 
@@ -98,8 +98,8 @@ Luxemburg in her prison cell in 1918, feeding birds she had named, writing the a
 
 It wasn't buried. We're still reading it. And in reading it, we're in the tradition.
 
-There is a tension I want to name before we leave this chapter. A book that argues against vanguardism — against the party that knows better than the people — is still a person standing up to explain the thing. Luxemburg in her cell, writing the analysis that would outlast the people who imprisoned her, was also doing something the party structure couldn't do: making the thinking available, rather than the direction. I am an open source developer by training. This is source, not instructions. Whether it's received that way is bigger than me. I can't control what you build with it, and that's the point. The tradition Luxemburg was pointing at has never needed a party. It has needed people who understood the architecture well enough to recognize it when they saw it, and to build it when the conditions allowed. That's what this is for.
+There is a tension I want to name before we leave this chapter. A book that argues against vanguardism — against the party that knows better than the people — is still a person standing up to explain the thing. Luxemburg in her cell, writing the analysis that would outlast the people who imprisoned her, was also doing something the party structure couldn't do: making the thinking available, rather than the direction. I am an open source developer by training — which is to say, I come from a tradition that understood this before I had the political vocabulary for it. The GPL, the Linux kernel, the open protocols of the web: all of them are Luxemburg's argument applied to code. Not a party controlling the fork. The commons governing itself through contribution. This is source, not instructions. Whether it's received that way is bigger than me. I can't control what you build with it, and that's the point. The tradition Luxemburg was pointing at has never needed a party. It has needed people who understood the architecture well enough to recognize it when they saw it, and to build it when the conditions allowed. That's what this is for.
 
 ---
 
-*What is already being built in the tradition she was pointing at — the self-governing councils, the collectives, the commons institutions that demonstrate the party is unnecessary — in your territory right now? Not as history. As present tense. The tradition didn't end with the suppression. It went to ground and kept building.*
+*What is already being built in the distributed tradition — the councils, the collectives, the commons institutions — in your territory right now? Not as history. As present tense. The tradition didn't end with the suppression. It went to ground and kept building.*
