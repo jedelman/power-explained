@@ -1,8 +1,8 @@
 ---
 slug: chapter-3
-title: "Chapter 3: Who Cooks for You and Why — Build and Defend the Commons"
+title: "Chapter 3: The Cook"
 description: "In the northern Philippines, a governance structure writes feeding each other into law. In Norfolk, Virginia, a Filipino cook is running the same practice a thousand years later. Everything in between is the explanation of why that distance feels so vast."
-h1: "Chapter 3: Who Cooks for You and Why"
+h1: "The Cook"
 part: "Part II: The Proof"
 ---
 

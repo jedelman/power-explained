@@ -1,8 +1,8 @@
 ---
 slug: chapter-13
-title: "Chapter 13: Credit — Build and Defend the Commons"
+title: "Chapter 13: We're Canceling It"
 description: "David Graeber traced five thousand years of economic history proving that credit is older than money, that mutual obligation is the original economy, and that debt becomes a weapon only when the commons it came from has been enclosed."
-h1: "Chapter 13: Credit"
+h1: "We're Canceling It"
 part: "Part VI: What to Build"
 ---
 

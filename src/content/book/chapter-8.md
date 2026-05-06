@@ -1,8 +1,8 @@
 ---
 slug: chapter-8
-title: "Chapter 8: Who Gets Made Into the Outside — Build and Defend the Commons"
+title: "Chapter 8: No Name for It"
 description: "Sylvia Wynter asked what made the classification possible. Kimberlé Crenshaw named the gap. Angela Davis showed that the prison was the outside made into an institution."
-h1: "Chapter 8: Who Gets Made Into the Outside"
+h1: "No Name for It"
 part: "Part III: Why the System Is the Way It Is"
 ---
 

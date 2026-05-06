@@ -1,8 +1,8 @@
 ---
 slug: chapter-16b
-title: "Chapter 16, Part 2: The Simulacrum and the Field"
+title: "Chapter 16, Part 2: The Hollow Book"
 description: "The Wachowskis hid a copy of Baudrillard inside the Matrix — hollowed out, used as a hiding place for contraband. Two trans women made the foundational text of simulacrum-refusal, and nobody noticed for twenty years. The AI moment is Baudrillard completing his argument. The referent is disappearing. And the window to act is closing."
-h1: "The Simulacrum and the Field"
+h1: "The Hollow Book"
 part: "Part VI: What to Build"
 ---
 In 1999, two filmmakers released a science fiction film about a man who discovers that the world he inhabits is a simulation — managed by machines, designed to harvest human energy while keeping people pacified inside a representation of reality more coherent, more comfortable, and more legible than the living world it replaced.

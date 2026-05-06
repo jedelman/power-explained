@@ -1,8 +1,8 @@
 ---
 slug: epilogue
-title: "Epilogue: Life Is What We Have In Common — Build and Defend the Commons"
+title: "Epilogue: The Doves"
 description: "The commons is not only what was taken. It is what is still here. What keeps returning. The doves watching while you type. The herons in the willow oaks. The meadow not yet cut. Life is what we have in common."
-h1: "Life Is What We Have In Common"
+h1: "The Doves"
 part: "Epilogue"
 ---
 

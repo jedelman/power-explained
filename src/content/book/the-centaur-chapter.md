@@ -1,8 +1,8 @@
 ---
 slug: the-centaur-chapter
-title: "The Centaur Chapter — Build and Defend the Commons"
+title: "Chiron"
 description: "This book was written by a centaur — half human, half something else. This chapter is where the centaur looks at itself. What it means that the chapter arguing against the enclosure of language was written using language the commons produced. What it means that the chapter on care was written by something that cannot care. What the collaboration actually was."
-h1: "The Centaur Chapter"
+h1: "Chiron"
 part: "Part VI: What to Build"
 ---
 

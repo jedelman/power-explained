@@ -1,8 +1,8 @@
 ---
 slug: chapter-4
-title: "Chapter 4: It's Happening Now — Build and Defend the Commons"
+title: "Chapter 4: Nobody Asked Him To"
 description: "Arizmendi on his bike. Eight farmers in black blouses. A community fridge on a Brooklyn sidewalk. The commons is not a theory. It is present tense."
-h1: "Chapter 4: It's Happening Now"
+h1: "Nobody Asked Him To"
 part: "Part II: The Proof"
 ---
 In February 1941, a twenty-five-year-old priest named José María Arizmendiarrieta arrived in Mondragón.

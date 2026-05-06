@@ -1,8 +1,8 @@
 ---
 slug: chapter-12
-title: "Chapter 12: Building Anyway — Build and Defend the Commons"
+title: "Chapter 12: This Was Made"
 description: "Arundhati Roy reported from the enclosures while they were happening. Paulo Freire taught literacy to people the state needed to stay illiterate. What they found from the outside of the framework."
-h1: "Chapter 12: Building Anyway"
+h1: "This Was Made"
 part: "Part V: The World the Framework Missed"
 ---
 

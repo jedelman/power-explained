@@ -1,8 +1,8 @@
 ---
 slug: chapter-18
-title: "Chapter 18: Governance — Build and Defend the Commons"
+title: "Chapter 18: You Wonderful Weird Birds"
 description: "A herd of centaurs occupied Wall Street in 2011 and discovered what the commons needs to govern itself. Ostrom's pattern language. Hardt and Negri's multitude. Deleuze's desiring production. Prechtel's Flowering Earth. The answer to how: with each other, you wonderful weird birds."
-h1: "Chapter 18: Governance"
+h1: "You Wonderful Weird Birds"
 part: "Part VI: What to Build"
 ---
 In the fall of 2011, something happened that the dominant political theory of the time had no adequate language for.

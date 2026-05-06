@@ -1,8 +1,8 @@
 ---
 slug: chapter-11
-title: "Chapter 11: The Means Are the Ends — Build and Defend the Commons"
+title: "Chapter 11: The Circle in the Blizzard"
 description: "The tradition that understood what the party men didn't: you cannot build horizontal power with vertical tools. Kropotkin, Graeber, Bookchin — and what it looks like when you build the new world inside the old one, block by block."
-h1: "Chapter 11: The Means Are the Ends"
+h1: "The Circle in the Blizzard"
 part: "Part IV: Why the Obvious Fixes Failed"
 ---
 

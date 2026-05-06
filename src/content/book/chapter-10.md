@@ -1,8 +1,8 @@
 ---
 slug: chapter-10
-title: "Chapter 10: Rosa in the Room — Build and Defend the Commons"
+title: "Chapter 10: The Birds She Fed Through the Bars"
 description: "Rosa Luxemburg praised the Bolshevik revolution and predicted its failure in the same essay, written from a German prison cell while the revolution was happening. She was right about both."
-h1: "Chapter 10: Rosa in the Room"
+h1: "The Birds She Fed Through the Bars"
 part: "Part IV: Why the Obvious Fixes Failed"
 ---
 

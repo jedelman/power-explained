@@ -1,8 +1,8 @@
 ---
 slug: chapter-14
-title: "Chapter 14: Land — Build and Defend the Commons"
+title: "Chapter 14: I Became the Land"
 description: "The housing crisis is a land problem. The extinction crisis is a land problem. The displacement of communities is a land problem. And the solution — governing land as a commons — has been working for sixty years, in hundreds of communities, holding 80 percent of the world's remaining biodiversity."
-h1: "Chapter 14: Land"
+h1: "I Became the Land"
 part: "Part VI: What to Build"
 ---
 

@@ -1,8 +1,8 @@
 ---
 slug: chapter-2
-title: "Chapter 2: Who Captures the Value — Build and Defend the Commons"
+title: "Chapter 2: They're Sprinkling Us In"
 description: "You showed up. You spoke. You participated in good faith. The decision went ahead as planned. The question is not what went wrong — it's what the system was actually designed to produce."
-h1: "Chapter 2: Who Captures the Value"
+h1: "They're Sprinkling Us In"
 part: "Part I: The Feeling Is Right"
 ---
 

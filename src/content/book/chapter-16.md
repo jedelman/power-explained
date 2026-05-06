@@ -1,8 +1,8 @@
 ---
 slug: chapter-16
-title: "Chapter 16: Knowledge and Language"
+title: "Chapter 16: Even That Part"
 description: "Nobody invented the word love. The grammar you're reading this in grew in communities across centuries without anyone's permission. Alan Turing gave the world the conceptual foundation of every computer ever built — and the state that used him chemically destroyed him for being queer. This is what the system does with singularity. This is what we're losing."
-h1: "Chapter 16: Knowledge and Language"
+h1: "Even That Part"
 part: "Part VI: What to Build"
 ---
 Think of someone who loved you. All of you. Yes, even that part.

@@ -1,8 +1,8 @@
 ---
 slug: chapter-9
-title: "Chapter 9: The War of Position — Build and Defend the Commons"
+title: "Chapter 9: He Built It Anyway"
 description: "Antonio Gramsci watched the factory councils of Turin — workers governing their own production, building the new world inside the old — and then watched them fail. He spent eleven years in prison understanding why, and what builders should do instead."
-h1: "Chapter 9: The War of Position"
+h1: "He Built It Anyway"
 part: "Part IV: Why the Obvious Fixes Failed"
 ---
 

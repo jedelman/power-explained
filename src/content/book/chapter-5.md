@@ -1,8 +1,8 @@
 ---
 slug: chapter-5
-title: "Chapter 5: The Outside — Build and Defend the Commons"
+title: "Chapter 5: The Smile"
 description: "The machine needs a frontier. Rosa Luxemburg found it in the colonies. Alexandra Kollontai found it in the kitchen. Two outsides, one structural logic."
-h1: "Chapter 5: The Outside"
+h1: "The Smile"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
