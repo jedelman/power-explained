@@ -92,13 +92,17 @@ They feel like different kinds of problems. Infrastructure. History. Governance.
 
 Each one is a system that extracts something from the community — mobility, housing, political agency — and returns something else — throughput, institutional development, the appearance of process. In each one, information flows in from below (this crossing is dangerous; this community exists; the members have spoken) and doesn't change the outcome. In each one, the people operating the system are not, mostly, malicious. They are inside a template — a set of assumptions about what the system is for — that is so naturalized it functions without anyone having to enforce it.
 
-There is a word for this. We will use it precisely and often, and it needs to earn its place: enclosure. Not a single act of theft, not a conspiracy, not a bad actor who can be removed and replaced. A structure that continuously converts what communities hold and know and decide into outcomes that serve institutional interests rather than community ones. A machine that produces the same outcomes regardless of who runs it, because the machine itself is the argument.
+There is a word for this. We will use it precisely and often, and it needs to earn its place.
+
+Enclosure. Not a single act of theft, not a conspiracy, not a bad actor who can be removed and replaced. A structure that continuously converts what communities hold and know and decide into outcomes that serve institutional interests rather than community ones. A machine that produces the same outcomes regardless of who runs it, because the machine itself is the argument.
 
 The question this book is trying to answer is not: who is to blame? The question is: what is the machine, how does it work, and what are people actually doing — in specific places, with specific tools, at specific moments — to build something different?
 
 The answer starts with understanding that the machine is not natural. It was built. And things that are built can be built differently.
 
 After midnight, the truck traffic on Hampton Boulevard subsides. I used to cross it by bike coming home from the restaurant I owned — in the strange silence, the rumble gone, the road empty in both directions. There's a magic to the midnight city that has nothing to do with danger. The feeling of being free, and that the world has been assembled by people who turned their attention inward, to their houses, so the weird ones like you can play in the empty streets. Even Hampton Boulevard has that hour. Even the things built to extract from us have cracks where something else comes through.
+
+You have to be moving slowly enough to see them.
 
 The night herons nest in the willow oaks on the other side of the Brambleton crossing. They've been coming back every spring for as long as anyone has been watching. They will come back next spring. They don't know about the road.
 
