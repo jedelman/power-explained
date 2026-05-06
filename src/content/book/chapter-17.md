@@ -5,9 +5,9 @@ description: "Every culture that survived long enough to develop a tradition of 
 h1: "Chapter 17: Initiation"
 part: "Part VI: What to Build"
 ---
-There is a part of this chapter I am going to leave for Jason to write. It is about a specific community, a specific landscape, a specific practice of attending that changed how he understood what community was for. He will write it better than I can, and it is his to write.
+*[Jason's section]*
 
-What I can say is this: tracking is a practice of attending.
+Tracking is a practice of attending.
 
 You learn to read the language the living world writes in soil and scat and bent grass and the way a hoof rolls as an animal moves. You learn it in the body, not the mind — there is no shortcut through information. A skilled tracker moves at a particular pace, with a particular quality of quietness that is not stillness but a specific kind of aliveness: fully present, releasing the insistence on what you expect to find, following what is actually there.
 
@@ -41,7 +41,7 @@ Sorenson watched this consciousness collapse, in real time, on an island in the 
 
 The people didn't go anywhere. The land didn't go anywhere. What was destroyed was the relationship — the living intelligence that the land and the people had built together over generations, that could not survive the introduction of the market's requirements for legibility and individuation.
 
-That intelligence is not gone everywhere. But it requires conditions to survive, and those conditions are exactly what enclosure destroys.
+That intelligence is not gone everywhere. But it requires conditions to survive, and those conditions are exactly what enclosure destroys. The Tzutujil Maya understood this with a precision that most political theory has not matched.
 
 ---
 
@@ -79,7 +79,7 @@ This is the call the chapter is making. Not to descend — many of us have alrea
 
 ---
 
-Prechtel's grief-and-praise teaching is part of this. In the Tzutujil tradition, grief and praise are inseparable. To be fully present in a community is to be in the presence of what you love while knowing it is passing. The feast will end. The elder will not be here next year. The child is already becoming someone you don't yet know. Grief is not the failure of love. It is the price of beauty. A community that cannot grieve has closed itself against the full reality of what it loves — and cannot therefore be fully present for the return of anyone who has been in the underworld.
+Prechtel's grief-and-praise teaching is the practical elaboration of this. In the Tzutujil tradition, grief and praise are inseparable. To be fully present in a community is to be in the presence of what you love while knowing it is passing. The feast will end. The elder will not be here next year. The child is already becoming someone you don't yet know. Grief is not the failure of love. It is the price of beauty. A community that cannot grieve has closed itself against the full reality of what it loves — and cannot therefore be fully present for the return of anyone who has been in the underworld.
 
 The grief rituals, the tracking mornings, the birding walks, the land stewardship days, the ceremonies — these are all practices of the return. Not the individual's return from their own underworld only. The community's ongoing return to itself, through the repeated practice of gathering, attending, grieving, praising, weaving.
 
@@ -99,7 +99,7 @@ The baker who kept track of who belonged on the street. The woman who held the s
 
 None of this was designed. It emerged from conditions: mixed uses that kept the street active at different hours, buildings old enough to be cheap enough for the unexpected, blocks short enough that corners generated encounters, density sufficient to support the ballet. The intelligence was distributed. The safety was produced by everyone and owned by no one.
 
-This is the sidewalk equivalent of the speaking circle. The community practicing the form of attending — not in any single dramatic act, but through the ten thousand low-stakes encounters that build, over time, the capacity to receive the singular when it arrives. The baker knows when someone on the block is in trouble not because he surveilled them but because he has been attending to the ordinary for years. He has been building the capacity.
+This is the sidewalk equivalent of the speaking circle. The community practicing the form of attending — not in any single dramatic act, but through the ten thousand low-stakes encounters that build, over time, the capacity to receive the singular when it arrives. The baker knows when someone on the block is in trouble not because he surveilled them but because he has been attending to the ordinary for years.
 
 Jacobs defended Greenwich Village against Robert Moses's plan to run an expressway through Washington Square Park — and won. She organized the community that already existed, the one the ballet had been producing, and it was strong enough to stop one of the most powerful urban planners in American history. The neighborhood she defended is now one of the most valuable in Manhattan. Not because she optimized it for value. Because she protected the conditions under which the life of the place could keep producing the kinds of people worth living near.
 
@@ -119,7 +119,7 @@ The community reconstitutes itself through the singular journeys of its members.
 
 Every practice described in this chapter — the speaking circle, the tracking walk, the grief ritual, the annual roof repair, the sidewalk ballet, the pattern language — is a form of the same thing: the community practicing the capacity to receive the return. To attend to what arrives from the underworld. To recognize the gift, name it, give it a home in the weave of what is being built together.
 
-This is what Hardt and Negri mean by the collective production of subjectivity. The community doesn't just provide a context for individuals. It produces, through its practices and occasions and forms, the kinds of selves that are possible within it. A community that practices the form of attending produces people who can attend. A community that has replaced the roof with metal, the street with a project, the speaking circle with a feed — produces people shaped by absence. Not bad people. People without the occasion to develop the capacity.
+This is what Hardt and Negri mean by the collective production of subjectivity. The community doesn't just provide a context for individuals. It produces, through its practices and occasions and forms, the kinds of selves that are possible within it. A community that practices the form of attending produces people who can attend. A community that has replaced the roof with metal, the street with a project, the speaking circle with a scroll — produces people shaped by absence. Not bad people. People without the occasion to develop the capacity.
 
 The direction of this chapter is outward and upward: from the individual singularity discovered in descent, toward the community capable of receiving it, toward the city that embeds those practices in its built form, toward the institutions — the governance structures of the commons — that hold all of it at scale.
 
