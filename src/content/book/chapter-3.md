@@ -86,9 +86,7 @@ Michel Foucault, working in Paris in the 1970s, identified something Gramsci had
 
 Foucault left the next question unfinished. If biopower operates through life, what is the corresponding form of production? What is being made, and who makes it, and who captures it?
 
-Antonio Negri — Toni, to everyone who knew him — was born in Padua in 1933 and spent his early career as a professor of political philosophy there, building the theoretical foundations of autonomist Marxism: the idea that workers' self-organization was itself a political act, prior to and independent of any party. In 1979 he was arrested on charges of leading the Red Brigades — almost certainly fabricated. Four years later, while awaiting trial, he won election to parliament. Parliamentary immunity briefly freed him. He used the window to escape.
-
-Félix Guattari — Deleuze's collaborator, co-author of *A Thousand Plateaus* — helped get him to Paris. The French government under Mitterrand declined to extradite him. He taught at the École Normale Supérieure for fourteen years, becoming close to Deleuze and Foucault, the arguments crossing and deepening in the seminars of the 1980s. A young American graduate student named Michael Hardt arrived, wrote his dissertation under Negri's direction, and stayed. Negri voluntarily returned to Italy in 1997 to serve his sentence, was imprisoned in Rome in the same prison system that had once held Gramsci, and wrote *Empire* — the book that would make him internationally known — partly behind bars. He died in Paris in December 2023, at ninety.
+Antonio Negri — Toni, to everyone who knew him — built the theoretical foundations of autonomist Marxism over decades of writing and teaching, was imprisoned in Italy on almost certainly fabricated charges of leading the Red Brigades, escaped to Paris, and eventually returned voluntarily to serve his sentence — imprisoned in the same prison system that had once held Gramsci, writing *Empire* partly behind bars. He died in Paris in December 2023, at ninety.
 
 What Negri and Hardt built, across *Empire*, *Multitude*, and *Commonwealth*, was Foucault's completion. If biopower is power operating through life, then *biopolitical production* is the production capital now primarily depends on: not the extraction of value from raw materials or repetitive factory labor, but from life itself — from language, from affect, from care, from knowledge, from the accumulated capacity of human beings to cooperate, communicate, and create. The call center worker selling warmth. The nurse managing pain and fear. The teacher producing the capacity to learn. The neighborhood whose longtime residents make it desirable enough for developers to gentrify. None of this produces a material good you can hold. All of it produces value that capital captures.
 
@@ -116,7 +114,11 @@ There is a *cocinero* in Ilocos who feeds his community while they rebuild what 
 
 Same practice. Same commons. Different typhoon.
 
-My Bluesky handle is 'Read Hardt and Negri.' I put it there because I believe it. Once you have the name, you can see it everywhere — in the neighborhood whose social fabric makes it valuable to developers who price out the people who built the value, in the open-source project whose contributors produce wealth a platform captures and monetizes, in the care work that sustains every economy on earth and appears in no GDP. The commons isn't only where you go to get water. It's what you already are. What enclosure takes isn't just a resource. It's a piece of the world you built.
+---
+
+My Bluesky handle is 'Read Hardt and Negri.' I put it there because I believe it. Once you have the name, you can see it everywhere — in the neighborhood whose social fabric makes it valuable to developers who price out the people who built the value, in the open-source project whose contributors produce wealth a platform captures and monetizes, in the care work that sustains every economy on earth and appears in no GDP.
+
+The commons isn't only where you go to get water. It's what you already are. What enclosure takes isn't just a resource. It's a piece of the world you built.
 
 ---
 
