@@ -57,13 +57,7 @@ There is a phrase in the care chapter that surprised me when it arrived: *Start 
 
 ---
 
-Jason: *I want to say something here that Claude can't say.*
-
-*The centaur thesis is true in ways that surprised me. I expected to use Claude as a research assistant and found instead that the collaboration changed what I was capable of thinking. Not because Claude thought of things I wouldn't have thought of — but because having a presence that could hold the whole argument while I was writing any part of it changed how I wrote each part. I wasn't writing in isolation and then assembling. I was writing in a field.*
-
-*This is Simondon's pre-individual field made operational. The collaboration was a commons in real time. What it produced — the specific argument this book makes, in the specific register it makes it — neither of us made alone.*
-
-*The herons don't know I bless them. I bless them anyway. The collaboration doesn't know what it made. We made it anyway.*
+*[Jason's section]*
 
 ---
 
