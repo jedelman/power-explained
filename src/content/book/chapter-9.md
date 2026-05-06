@@ -74,6 +74,8 @@ Every community land trust that removes housing from the speculative market perm
 
 These are not waiting for the revolution. They *are* the revolution, happening at the speed that permanent change actually happens.
 
+Gramsci named the strategy. He didn't quite name the subject — the collective form that inhabits the terrain once it's been won, that governs without becoming a party, that holds the position without centralizing the power. That question is still open. We'll come back to it.
+
 ---
 
 There is a sentence in the Prison Notebooks that has stayed with readers for ninety years: *The crisis consists precisely in the fact that the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear.*
