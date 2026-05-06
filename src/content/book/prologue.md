@@ -23,9 +23,9 @@ Some people hate the night herons because if you park under a nest, they will co
 
 Every spring, Jason finds as many of the nests as he can. He goes to them. He tells the herons, with his actual words, that he loves them and wishes them good luck. He is not the only one. Without deciding it, all of his friends love night herons. The herons don't know any of this. They are raising their young in the oak and willow, as they have done for thousands of years, as they will do after we are gone, as long as the trees hold.
 
-The commons is not only what we've lost. It is what is still here. What keeps returning — to the other side, if we can get there. What would flourish if we could just learn to look up.
+The herons are not only what we've lost. They are what is still here. What keeps returning — to the other side, if we can get there. What would flourish if we could just learn to look up.
 
-This book is about the enclosure — what it is, how it works, who it serves, what it costs. But it is also, underneath that, about the herons. About the people who find the nests and say something true to the birds that cannot hear them. About why that practice is not sentimental but political. About the consciousness that makes it possible — the kind that notices what is there, not only what is missing, and understands that the work of protecting the world begins with learning to see it.
+This book is about why things keep getting worse — what it is, how it works, who it serves, what it costs. But it is also, underneath that, about the herons. About the people who find the nests and say something true to the birds that cannot hear them. About why that practice is not sentimental but political. About the consciousness that makes it possible — the kind that notices what is there, not only what is missing, and understands that the work of protecting the world begins with learning to see it.
 
 ---
 
@@ -61,6 +61,7 @@ We don't know if this kind of authorship produces better arguments. We think it 
 
 ---
 
+<!-- FLAG: rewrite six parts summary after autoconvolution pass -->
 The book moves in six parts.
 
 The first validates what you already feel: the system produces the same outcomes regardless of who runs it, and there is a structural reason for that, and it is not your fault for not being able to see it yet. It starts with a crossing — two highways in Norfolk, Virginia, and the neighborhood that used to be there.
