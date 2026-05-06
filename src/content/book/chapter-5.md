@@ -60,6 +60,8 @@ Kollontai's answer: socialize the care. Communal kitchens. Public childcare. Sta
 
 The party treated her work as secondary. Stalin solved the problem by sending her to Oslo as ambassador — prestigious enough to be unassailable, far enough away to matter less. She died in Moscow in 1952.
 
+The communities building her answer now look nothing like the state apparatus she imagined. They are smaller, more distributed, ungoverned from above. But they are answering the same question.
+
 ---
 
 Two outsides. One geographical, one relational. One extracted by empire at the frontiers of capital, one extracted by household in the interior of daily life.
@@ -71,6 +73,8 @@ What they share: the machine requires a zone where value can be extracted withou
 Both women named the thing. Both were dismissed by the institutions they were trying to change. Both were right.
 
 The outside isn't accidental. It is maintained — actively, structurally, through the reproduction of conditions that keep it outside. The next three chapters follow that maintenance into the specific forms it takes: the racial geography that decides whose land can be enclosed and under what legal cover, the colonized consciousness that makes the occupied complicit in their own occupation, the intersecting outsides that multiply when race and gender and class meet. These are not separate problems. They are the same maintenance logic, operating in different registers, compounding.
+
+This is enclosure wearing a different face: not the fencing of common land, but the categorization of common work as something other than work. The mechanism is identical. The result is the same: value extracted without payment, from people who have no way to contest the extraction because the extraction has been named as something else.
 
 The outside needs to stay outside. That's not a side effect. That's the function.
 
