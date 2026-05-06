@@ -50,7 +50,7 @@ This is enclosure in its full form. Not just the taking — the forgetting. The 
 
 The residents of Atlantic City were not consulted about whether their neighborhood should be demolished. That consultation did not exist. But even if it had existed, the structural relationship between community input and institutional decision would have been what it always is: the community provides legitimacy, the institution makes decisions.
 
-Jason sat on two neighborhood boards simultaneously — one of them as president, though that's another story. He knows this relationship from inside it. Not theoretically. From the specific experience of being in a room where the process is running correctly, where everyone is following the rules, where the outcome has already been decided.
+Jason sat on two neighborhood boards simultaneously — one of them as president. He knows this relationship from inside it. Not theoretically. From the specific experience of being in a room where the process is running correctly, where everyone is following the rules, where the outcome has already been decided.
 
 The Armed Forces Brewing Company story from the last chapter is one version. Here is the structural version: a neighborhood board is a mechanism for converting community energy into institutional legitimacy. When residents show up to meetings, speak at hearings, vote on resolutions, they are generating something — engagement, knowledge, consent, the appearance of democratic participation — that the city and its institutions need to function. The board is the interface. The community's input enters the interface and is processed into a form the institution can use.
 
@@ -62,6 +62,8 @@ There is a word for the version of this that works: leverage. Participation that
 
 The difference between capturing and building is structural, not attitudinal. It's not that the people who signed the petition didn't care enough, or that the people who showed up to the hearing weren't committed enough. It's that the structure they were engaging with was designed to absorb their energy, not to transmit it into change.
 
+The question to ask of any institution, any process, any form of participation is not "is this legitimate?" but "what does this build, and for whom?"
+
 ---
 
 I want to push on something here, because the book will be misread if we don't.
@@ -72,7 +74,7 @@ The farmers market that runs on a city permit is using an institutional mechanis
 
 Markets are not inherently extractive either. The market where you know the vendor, where the vendor knows where the food comes from, where the surplus goes back into the neighborhood — that market is embedded in community accountability in a way that makes it function as commons infrastructure rather than commons replacement. The distinction isn't between market and no market. It's between accountable and unaccountable. Between embedded and extracted.
 
-The question to ask of any institution, any process, any form of participation is not "is this legitimate?" but "what does this build, and for whom?" Does engaging with it produce relationships, capacity, knowledge that persist beyond the specific campaign? Does it leave behind something the next person who shows up can inherit? Does it accumulate?
+Ask it of everything: Does engaging with it produce relationships, capacity, knowledge that persist beyond the specific campaign? Does it leave behind something the next person who shows up can inherit? Does it accumulate?
 
 ---
 
@@ -86,7 +88,7 @@ That naming — that refusal to absorb the loss as progress — is not nothing. 
 
 The question this book is asking, and will keep asking through every chapter, is: what comes after the naming? What does it look like to build something that doesn't just resist the machine, but operates on different principles, produces different outcomes, accumulates into something the machine can't simply absorb?
 
-The next two chapters offer proof that such things exist. Before we get there — a Tuesday evening in Barcelona, after the fish market closed.
+Before we get there — a Tuesday evening in Barcelona, after the fish market closed.
 
 ---
 
