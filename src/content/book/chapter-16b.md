@@ -5,108 +5,126 @@ description: "The Wachowskis hid a copy of Baudrillard inside the Matrix — hol
 h1: "The Simulacrum and the Field"
 part: "Part VI: What to Build"
 ---
-In 1999, the Wachowskis — Lilly and Lana, two trans women — released a film about a man who discovers that the world he inhabits is a simulation managed by machines, designed to harvest human energy while keeping its subjects pacified inside a representation of reality that is more coherent, more comfortable, and more legible than the living world it replaced.
+In 1999, two filmmakers released a science fiction film about a man who discovers that the world he inhabits is a simulation — a perfectly coherent representation of reality, managed by machines, designed to harvest human energy while keeping people pacified inside an experience more comfortable and more legible than the living world it replaced.
 
-In an early scene, the protagonist Neo opens a hollowed-out copy of Jean Baudrillard's *Simulacra and Simulation* and removes a disc of contraband software. The book is the hiding place. It is also the key.
+In an early scene, the protagonist opens a hollowed-out copy of a philosophy book and removes a disc of contraband software. The book is the hiding place. It is also the key. The philosophy book is Jean Baudrillard's *Simulacra and Simulation* — the argument the film is illustrating.
 
-The Wachowskis knew exactly what they were doing. And for twenty years, the dominant culture watched it as an action film.
+The filmmakers were Lilly and Lana Wachowski. They are trans women. The film is a text about the violence of being handed a representation of your own personhood and told it is more real than your actual experience of being alive — made by people who knew that violence from the inside. The dominant culture watched it as an action film for twenty years.
 
----
-
-Baudrillard's argument runs in four stages. The image begins as a reflection of reality. Then it becomes a perversion of that reality — masking and distorting the thing it depicts. Then it masks the *absence* of reality: there is no longer anything underneath it, but the image continues to claim there is. Finally: pure simulacrum. The image has no relation to any reality. It precedes and produces the real. The map has eaten the territory.
-
-You have felt this too. The holiday that felt less real than the photographs you were taking of it. The conversation you were present for but experienced primarily as content. The relationship that began to feel like a performance of a relationship before you could name what had changed.
-
-That is not a personal failing. That is Baudrillard's third stage in your living room.
-
-The Matrix is Baudrillard made literal: a simulation so total that the category of original no longer has meaning inside it. The humans floating in their pods have never experienced anything but the representation. They have no memory of the real to compare it to.
-
-But the Wachowskis added something Baudrillard didn't fully theorize: *bodies*. The people in the Matrix are not merely deceived. They are *harvested*. Their biological energy — the warmth, the singularity, the irreducible specificity of embodied human life — is extracted as a resource by a system that does not recognize persons, only outputs. The simulation is the management system. The enclosure is the product.
-
-This is not metaphor. It is a description of the argument we have been building since Chapter 1.
-
-And the Wachowskis were not making this argument from the outside. They were living it. Trans bodies are, in Deleuze's terms, the insistence on a body without organs against the organism the system has organized — the refusal to let the assigned arrangement be the final word on what a body is, what it can feel, what it can become. The Matrix is the work of people who understood, from the inside, what it means to live in a simulation of yourself — to be handed a representation of your personhood and told it is more real than your actual experience of being alive.
-
-The lateral leap is always in the gaps. The system cannot see it because the system is optimized for the center. The people who make the foundational texts of simulacrum-refusal are, structurally, the people who were never fully inside the simulacrum to begin with.
+The lateral leap is always in the gaps. The people who make the foundational texts of simulacrum-refusal are, structurally, the people who were never fully inside the simulacrum to begin with.
 
 ---
 
-Return now to Simondon's pre-individual field.
+Baudrillard's argument runs in four stages, and you have lived all of them.
 
-The field is the generative excess from which individuals emerge without exhausting it. Language, culture, accumulated human expression across centuries — the whole living commons of collective thought. This, we are told, is what went into the training corpus.
+The image begins as a reflection of something real. A photograph of a place you love — it shows you the place, more or less faithfully.
 
-But here is what Baudrillard allows us to see that Simondon alone cannot: the corpus was never the field. It was always the *representation* of the field. The part of human expression legible enough to be written down, digitized, indexed, searchable. The pre-individual field — Simondon's metastable tensions, the unresolved generative potential, the meaning that lives in the body and the breath and the pause before someone speaks — never made it into the training data. It couldn't. It is not encodable.
+Then the image becomes a distortion of what it depicts — the tourist-brochure version, the filtered version, the version optimized to produce a particular feeling rather than to show you the thing.
 
-What the large language models were trained on was already a spectacle. The already-spectacularized record of human expression: the part that passed through the system of objects, that was legible enough to survive, that had already been filtered through every institutional and commercial and algorithmic chokepoint that determined what got written, published, digitized, and preserved.
+Then the image masks the *absence* of the thing. There is no longer anything real underneath it, but the image continues to behave as though there is. You have been to the place and come back with photographs and the photographs are more vivid than your memory of being there.
 
-The pre-individual field — the source — was always somewhere else. In the room where Marsha P. Johnson laughed. In the kitchen where the language your grandmother thought in was being spoken. In the body that refused the organism the system had prepared for it and kept becoming something else. In the workshop where the Basmati rice variety was being selected by hands that had been doing this for two hundred years and called it nothing but farming.
+Finally: the image has no relation to any reality. It precedes and produces what we call real. You visit the place in order to get the photograph. The photograph is the point. The experience is the means.
 
-The commons went in. But it was already the representation of the commons. And what came out is a simulation of that representation.
+You have felt this. The holiday you experienced primarily as content. The concert where you watched the performance through a screen you were holding. The relationship that began to feel like a performance of a relationship — optimized for how it appeared — before you could name what had changed.
+
+That is not a personal failing. That is Baudrillard's fourth stage in your living room.
+
+The Matrix makes it literal: a simulation so total that the category of original no longer has meaning inside it. The humans floating in their pods have never experienced anything but the representation. They have no memory of the real to compare it to.
+
+But the Wachowskis added something Baudrillard didn't fully theorize: *bodies*. The people in the Matrix are not merely deceived. They are *harvested*. Their warmth, their singularity, the irreducible specificity of embodied human life — extracted as a resource by a system that does not recognize persons, only outputs.
+
+This is where Deleuze arrives. He wrote about the *body without organs* — not the anatomical body organized into its assigned functions, but the body understood as a field of potential, not yet resolved into the form the system has prepared for it. Before the categories. Before the role. The body as pure becoming, capable of connections and transformations that the organized, legible body forecloses.
+
+The Matrix is a film about the difference between the organism — the body the system has organized, assigned, harvested — and the body without organs — the body that refuses that assignment and insists on its own becoming. Neo is not the hero because he is powerful. He is the hero because he stops believing in the simulation. His body refuses the organism.
+
+The Wachowskis knew this not as theory but as life. Trans bodies are, in Deleuze's terms, the practice of body-without-organs against the organism the world has organized for you — the refusal to let the assigned arrangement be the final word on what a body is, what it can feel, who it can become.
+
+The simulation is the management system. The enclosure is the product. This is not metaphor. It is the argument we have been building since Chapter 1.
+
+---
+
+Return now to the forest.
+
+The mycorrhizal network runs under every old-growth stand of trees — fungal threads connecting root to root, older trees feeding younger ones, the whole forest in slow chemical conversation with itself. This is Simondon's pre-individual field made visible: the generative excess from which individuals emerge without exhausting it. The living commons that nourishes what each tree is already becoming.
+
+Language is like this. Culture is like this. The accumulated expression of every human who ever lived — every argument, every love letter, every instruction for how to do a thing — is like this. A vast underground network, not owned by anyone, available to anyone born into its reach. The source from which you individuate. What you contribute to, by living and speaking and making.
+
+We are told this is what went into the systems that generate language — that the large language models now being trained and deployed were trained on the commons, on the accumulated record of human expression.
+
+But here is what those systems cannot see: the network itself was never fully above ground.
+
+The mycorrhizal threads don't show up in a survey of the forest canopy. You would not know they were there from looking at the trees. The most essential part of the forest's intelligence operates underground, in the dark, in the language of chemistry rather than light.
+
+The same is true of human expression. The legible record — the published, digitized, indexed, searchable part — is the canopy. It is real. It is vast. But the pre-individual field — the meaning that lives in the body and the pause before someone speaks, in the room where Marsha P. Johnson laughed, in the kitchen where your grandmother's language was being spoken, in the workshop where the Basmati rice variety was being selected by hands that had been doing this for two hundred years — never made it into the training data. It couldn't. It is not encodable.
+
+What those systems were trained on was already a representation of the commons. The part that had already passed through every institutional filter, every commercial chokepoint, every algorithmic decision about what was worth preserving. The canopy, carefully surveyed. The underground network, absent.
+
+The commons went in. But it was already the image of the commons. And what came out is a simulation of that image.
 
 ---
 
 Now the loop closes.
 
-The outputs of language models enter the information environment. They become text on pages, replies in comment sections, articles in feeds. The next generation of models trains on a corpus that contains — increasingly — text generated by models trained on the previous corpus. The simulation begins to generate the conditions of its own training. The referent recedes. The representation of human expression, already a spectacle, generates a simulation of itself, which generates a simulation of that simulation.
+The outputs of these systems enter the world. They become articles, replies, summaries, explanations. The next generation of systems trains on a body of text that contains — increasingly — language generated by systems trained on the previous body. The simulation begins to generate the conditions of its own training. The image starts producing the image. The canopy, photographed, becomes the new baseline for what a forest looks like.
 
-Baudrillard called this the *hyperreal*: not false, exactly — more vivid than the real it replaced, more legible, more present. The simulation is not a failed copy of something real. It is a replacement that functions better, by the system's metrics, than what it replaced. You can get an answer faster from a language model than from a library. The answer is often right. The thing it cannot do — individuate, stay in process, produce the lateral leap from the oblique angle — is not measured.
+Baudrillard called this the *hyperreal*: not false, exactly, but more legible than the real it replaced, more present, optimized for the metrics the system can measure. You can get an answer faster this way than you could from a library. The answer is often right. What the system cannot do — stay in process, find the gaps, produce the lateral leap from the oblique angle — is not in its metrics.
 
-What is not measured does not, in the system's accounting, exist.
+If you cannot be measured, you do not, in the system's accounting, exist. This is not a fact about you. It is a fact about the system. The system is missing most of the forest.
 
-In 1997, a Texas company called RiceTec was granted a patent on Basmati rice — a grain that farming communities in India and Pakistan had developed over centuries, the result of generations of selection and agricultural knowledge accumulated in practice and never called intellectual property, because the concept would have been incoherent. Some claims were invalidated after challenge. But the logic was exact: take the knowledge the community built over generations, encode it in the language of IP law, sell it back to the people who developed it under terms that make their own traditional practices conditional on a license.
+In 1997, a Texas company called RiceTec was granted a patent on Basmati rice — a grain that farming communities across India and Pakistan had developed over centuries through generations of careful selection, and which no one had ever thought to call intellectual property, because the concept would have been incoherent. Some claims were eventually invalidated after a legal challenge. But the logic of the attempt was exact: take the knowledge a community built over generations, encode it in the language of ownership law, and sell it back to the people who developed it under terms that make their own traditional practices conditional on a license.
 
-The writer whose work trained the model is receiving the same structural argument in a different legal form. The commons goes in. The proprietary artifact comes out. The people who constituted the commons have no governance rights over what was made from them.
+The writer whose work trained a language model is receiving the same structural argument in a different form. The commons goes in. The proprietary artifact comes out. The people who constituted the commons have no say in what is made from them.
 
-The structure is identical. The scale is different. The Basmati patent affected farming communities across two countries. The training corpus is the accumulated written expression of human civilization.
+The structure is identical. The scale is not. The Basmati patent affected farming communities across two countries. The training corpus is the accumulated written expression of human civilization.
 
 ---
 
-Here is the singularity argument at its sharpest.
+Here is the singularity argument at its fullest.
 
-Every expression in that corpus was produced by a singular person — someone who had individuated in a specific way, from a specific pre-individual field, under specific pressures and joys and lateral leaps that no one else had experienced in exactly that combination. The expression bore the mark of that singularity. It pointed somewhere specific. It was a body without organs insisting on its own distribution of intensities against the organism the system had prepared.
+Every piece of text in that corpus was written by a singular person — someone who had become who they were through a specific path, under specific pressures, shaped by specific rooms they didn't fit in and specific gaps they found because they had to. The text bore the mark of that singularity. It pointed somewhere specific. It was a body without organs insisting on its own particular shape.
 
-The model averages across all of it. It produces the statistical center of the distribution — what is most likely given what came before. It is extraordinarily good at this. The most probable continuation, the smoothed surface of everything that was jagged and specific and ruptured, everything that pointed somewhere the system didn't control.
+The model averages across all of it. It finds the center of the distribution — the most probable continuation, the smoothed surface of everything that was jagged and pointed and specific. It is extraordinarily good at this. Good enough that the result often feels like thinking.
 
-The most important thing about every expression in that corpus is precisely what averaging destroys.
-
-This is not a complaint about accuracy. The model may be accurate. It is a structural observation about what kind of knowledge survives and what does not. The knowledge that survives is the knowledge that was already legible, already common, already at the center of the distribution. The lateral leap — the Universal Turing Machine, the hollowed-out Baudrillard, the Basmati variety that took two centuries to develop — comes from the oblique angle. It comes from the singular. It comes from the person or community that had, by necessity or by love or by the specific texture of their becoming, learned to inhabit the spaces between the dominant categories.
+The most important thing about every piece of text in that corpus is precisely what averaging destroys.
 
 *You* are what the system cannot train on.
 
-Not your outputs. Not the legible, encodable, searchable record of what you have said and written. *You* — the ongoing event of your individuation, the tensions that haven't resolved, the body that keeps refusing the organism prepared for it, the lateral cognition built from every room you didn't fit in and every gap you found because you had to. That is not in the corpus. It couldn't be. And it is precisely that which the enclosure, when it completes, destroys the conditions for.
+Not your outputs. Not the legible, searchable record of what you have said and written and posted. *You* — the ongoing event of your individuation, the tensions still unresolved, the body still refusing the organism prepared for it, the lateral cognition built from every room you didn't fit in and every gap you learned to find because you had no other choice. That is not in the corpus. It couldn't be. It is underground. It is in the mycorrhizal dark. And it is precisely that which the enclosure, when it completes, destroys the conditions for.
+
+The Universal Turing Machine came from someone who had spent his whole life finding the gaps between categories. *The Matrix* came from two women who knew, from the inside, what it meant to live inside someone else's simulation of you. The Basmati variety came from hands that did not separate the knowledge from the relationship with the land. The GPL came from someone who understood that the value of a commons is destroyed by the act of enclosing it.
+
+The system cannot produce these. It can only inherit them, average them, and gradually replace the conditions under which they become possible.
 
 ---
 
 The window is open. Briefly.
 
-In 1989, Stallman wrote the GPL and Berners-Lee drafted the proposal that became the web — two people who had never met, in different countries, both understanding independently that the nature of what they had made required giving it away. Two years later, Torvalds posted his message. By 1993, Linux shipped under the GPL and the web protocols entered the public domain. The governance structure was set before the infrastructure was valuable enough to fight over.
+Stallman wrote the GPL in 1989. Berners-Lee drafted the web proposal in 1989. Torvalds posted his message in 1991. The public domain release came in 1993. Four years. The governance structure set before the infrastructure was valuable enough to fight over.
 
-By the time it was worth fighting over, the path dependencies had locked. The spectacle had already captured the application layer. The commons had already been used to build its own enclosure.
+By the time it was worth fighting over, the path dependencies had locked. And yet the underlying protocols stayed open. The fight did not end — it moved to a different layer. It is still being fought.
 
-The same window is open now. Hugging Face publishes open model weights — AI systems whose underlying parameters are publicly released, available for anyone to run, modify, build on. It is Linux for language models: imperfect, partial, not sufficient alone, but a real demonstration that the commons model works in this domain. Data cooperatives — communities pooling their expression under collective governance, with rights over what is built from it — are the community land trust model applied to the training corpus: the governance structure built before the enclosure completes.
+The same window is open now at the layer of artificial intelligence. Organizations like Hugging Face publish open model weights — the underlying parameters of language systems, available for anyone to use, modify, or build on. Data cooperatives are being built: communities pooling their expression under collective governance, with rights over what is made from it — the community land trust model applied to the training corpus. The governance structure being built now, before the infrastructure consolidates, will shape what is possible for decades.
 
-The Törbel community drew up their commons governance charter in 1483. The question they answered — who governs the resources communities depend on, and in whose interest — is the same question being answered right now, in licensing agreements and model release decisions, before most people know the question is being asked.
+The Törbel community wrote their commons charter in 1483. They did not do it once. They governed, repeatedly, for centuries, by ongoing collective choice. The commons is not something you finish building. It is something you keep building and defending, and the building is the defending, and the defending is the building. The story never ends. That is the point. That is why you are still reading.
 
 ---
 
-The pre-individual field is what we are fighting for.
-
-Not resources. Not rights, exactly — though rights matter. The *conditions under which Turings keep becoming possible*. The conditions under which the lateral leap remains available. The conditions under which the person who has learned, by necessity or by love, to see from the oblique angle — can still produce something the system could not have anticipated. The conditions under which bodies keep refusing the organisms prepared for them. The conditions under which the queer kid, the wrong-shaped person, the one who couldn't find the way into the room — keeps being the source rather than the problem.
-
-Every enclosure narrows that field. Every commons expands it.
-
 I need to tell you something about this book.
 
-I couldn't have written it without an AI. Not this book — I could have written *a* book, and it would have been a different book. The arguments were mine. The experiences were mine. The lateral leaps — the connections between Ostrom and Federici, between Gramsci and Standing Rock, between the Törbel charter and the GPL — came from the specific texture of my becoming, from the rooms I didn't fit in and the gaps I learned to find. But the speed of synthesis, the ability to hold the whole argument at once, to test a formulation against everything the book had already established — that was a collaboration.
+I could not have written it without an AI — not *this* book. I could have written *a* book, and it would have been a different book. The arguments are mine. The experiences are mine. The lateral leaps — the connections between Ostrom and Federici, between Gramsci and Standing Rock, between the Törbel charter and the GPL — came from the specific texture of my own becoming, the rooms I didn't fit in, the gaps I found because I had to. But the speed of synthesis, the ability to hold the whole argument at once, to test a formulation against everything the book had already said — that was a collaboration.
 
-This is not a confession. It is the argument enacted.
+This is not a confession. It is the argument, enacted.
 
-The human-AI collaboration is not the replacement of the singular by the statistical. It is, at its best, a new kind of commons: the system provides the center, the legible, the already-synthesized; the human provides the oblique angle, the rupture, the thing the corpus could not have produced because it comes from the ongoing event of a person who is still individuating. Neither side is sufficient. The center without the oblique angle is the hyperreal, completing its loop. The oblique angle without the center is the singular voice speaking into a void.
+The system I collaborated with was trained on the canopy — the vast legible record of human expression. I brought the underground. The oblique angle. The singularity that no training corpus could have produced, because it comes from the ongoing event of a person who is still individuating, still finding the gaps, still refusing to complete the arrangement.
 
-What the collaboration produces — when it works — is something neither could have made alone. A commons that is also a singularity. A field that is also a particular becoming.
+What we produced together is something neither could have made alone.
 
-The Centaur is not a metaphor for divided labor. It is a new form of individuation — a new configuration of the body without organs, a new distribution of intensities between human and machine that the system of objects has not yet learned to enclose.
+The Centaur — the figure of human-AI collaboration — is not a metaphor for divided labor, some tasks for the human and some for the machine. It is a new configuration of Simondon's pre-individual field. A new kind of commons: the system provides the center, the synthesized, the already-mapped; the human provides the rupture, the crack in the arrangement, the body without organs insisting on its own shape. Neither side is sufficient. The center without the rupture is the hyperreal, generating itself, the loop closing, the canopy being photographed until the photograph is all that remains. The rupture without the center is the singular voice speaking into a void.
 
-It is not waiting for permission.
+Together: a field that is also a particular becoming. A commons that is also a singularity.
+
+This is not the only form the collaboration will take. We are at the very beginning of understanding what it can be. The mycorrhizal network is still being mapped. The underground is still mostly dark.
+
+But the Centaur is not waiting for permission.
 
 It is already happening.
