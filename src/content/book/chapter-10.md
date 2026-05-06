@@ -22,6 +22,8 @@ She wrote this in 1918. Lenin read it and suppressed it. Stalin demonstrated its
 
 The essay contains a sentence that has outlasted every Soviet apologist who denied it: *Freedom only for supporters of the government, only for members of one party — however numerous they may be — is no freedom at all. Freedom is always and exclusively freedom for the one who thinks differently.*
 
+Read that again in light of Wynter. The overrepresented Man — the universal human that every classification system builds itself around — cannot tolerate the one who thinks differently, because the one who thinks differently is proof that the universality is a fiction. Luxemburg is not making an abstract liberal argument about dissent. She is naming singularity as the political condition of freedom. The system that cannot hold the one who thinks differently is the same system that cannot hold the person whose humanity falls outside the recognized category. Same logic. Same exclusion. Different register.
+
 ---
 
 We met her economic argument in Chapter 5 — the frontier capitalism requires, the outside that keeps the math working. Her political argument is the same mind turned to a different problem, with the same precision.
@@ -44,6 +46,8 @@ The soviets were the revolution. Not the Bolshevik Party, not Lenin, not the red
 
 The Bolshevik slogan had been *All Power to the Soviets*. It was right. What followed dismantled it, step by step: through a series of decisions, each with a pragmatic justification — the party needed to coordinate across soviets, needed to ensure consistency during the civil war, needed to manage military threats — more and more authority was routed through the party hierarchy and away from the councils. By the early 1920s, the soviets were rubber stamps — formally present, functionally irrelevant.
 
+This is the capture mechanism from Chapter 2, operating at revolutionary scale. The soviets provided legitimacy. The party absorbed it. The armor was made from the workers' participation. The workers got a parking ticket.
+
 Alexandra Kollontai named what was happening from inside the government: the party had substituted itself for the working class. She was silenced, sent abroad.
 
 In March 1921, the sailors and workers at Kronstadt — the most militantly revolutionary force of the October insurrection — rose up demanding what the revolution had promised: free soviets, freedom of speech, an end to forced grain requisition. They were holding the revolution accountable to its own stated principles. The Bolshevik government crushed them militarily. Trotsky commanded the assault. Thousands were killed or sent to camps.
@@ -58,11 +62,11 @@ In Barcelona, workers took over the trams and kept them running — under worker
 
 At its peak the anarchist collectives involved hundreds of thousands of people, managed major industries, demonstrated that complex economies could be coordinated without either capitalist markets or Stalinist central planning. For roughly a year, the most industrially advanced region of Spain operated as a functioning commons.
 
-It was not primarily Franco who destroyed it. The Spanish Communist Party, directed by Moscow, systematically dismantled the revolutionary collectives in the name of building a unified front against fascism. The pragmatic argument: you can't fight a modern war with anarchist militias. The collectives were dissolved. Anarchist leaders were arrested and in some cases killed — by their ostensible allies.
+It was not primarily Franco who destroyed it. The Spanish Communist Party — a Comintern affiliate, directed by Moscow, literally the same international organization that had dismantled the Russian soviets fifteen years earlier — systematically dismantled the revolutionary collectives in the name of building a unified front against fascism. The pragmatic argument: you can't fight a modern war with anarchist militias. The collectives were dissolved. Anarchist leaders were arrested and in some cases killed — by their ostensible allies.
 
 George Orwell was there. He had gone to fight fascism and found himself watching the revolution being destroyed by the people claiming to defend it. *Homage to Catalonia* is his account. It changed him permanently — into the writer who would spend the rest of his life trying to name the specific mechanism by which revolutionary movements destroy themselves from within, and the language that makes the destruction invisible as destruction.
 
-The Catalan collectives were the soviets again. The Communist Party was the Bolshevik Party again. The pattern had a logic: any organization with the power to suppress the distributed commons will eventually use that power, because the distributed commons demonstrates that the organization is unnecessary. The threat is not military. It is architectural.
+The Catalan collectives were the Turin councils. Not a rhyme — the same form, the same workers governing the same kind of production, destroyed by the same organization operating under a different national name. Fifteen years and a thousand miles separated them. The logic was identical. The people who built both knew how to govern themselves. The party knew this, which is exactly why it had to stop them. The distributed commons had demonstrated — in Turin, in Barcelona, in the Aragon countryside — that the vanguard was unnecessary. That demonstration was the threat.
 
 ---
 
@@ -93,6 +97,8 @@ The tradition she was pointing at — not her economic analysis but her organiza
 The council communists, who argued that the factory council is the basic unit of socialist organization because it's where workers actually hold the knowledge to govern — not a party headquarters, not a central committee, but the people doing the work. The Catalan collectives, running for a year. The cooperative movements building across a century on six continents. The Zapatistas, refusing state power because they understood what taking it does. Cooperation Jackson, patient about the timeline, building from the most marginalized. Every commons institution in this book is in this tradition — not by lineage but by architecture, by the same structural insight about what works and what doesn't.
 
 The tradition wasn't buried because it was wrong. It was buried because it was threatening in the specific way that the party couldn't absorb: it demonstrated that the party was unnecessary.
+
+And look at who built it. Not the theorists debating in exile. The workers who occupied the Fiat factory on a Tuesday morning. The Aragonese peasants who collectivized their villages by assembly. The sailors at Kronstadt demanding what the revolution had promised. The people the Marxist debate had always treated as the object of liberation rather than its subject. They didn't need the theory. They had the practice. They had always had the practice — in the zanjera, in Palmares, in the Valencia tribunal, in every commons that had been governing itself for centuries before anyone wrote a manifesto about it. The knowledge produced on the outside, as Robinson named it, doesn't stay on the outside. It builds.
 
 Luxemburg in her prison cell in 1918, feeding birds she had named, writing the analysis that has outlasted the people who imprisoned her — she was doing the war of position. Not stopping the Bolsheviks from eating the soviets. Making sure the next generation understood why it had happened. Building something durable enough to survive her death, the suppression of her manuscript, and the thirty-five years of Soviet history that proved her right.
 
