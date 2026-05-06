@@ -80,7 +80,7 @@ The abandoned neighborhood: in 1968, the Kerner Commission warned that American 
 
 I watched this logic operate in a meeting room.
 
-Shipyard workers leaving the MHI lot in Chelsea would do fifty miles an hour in a twenty-five. The neighborhood business association spent over a year trying to resolve it. We got stop signs installed — ignored. We asked for enforcement during the one-hour window when it was worst, three to four in the afternoon. No officers could be spared. We asked for speed bumps. A city official told us, in the meeting, that in *other neighborhoods like ours*, speed bumps made the problem worse, because people would damage their cars rather than slow down. We asked about physical barriers. *That's not realistic.*
+I was president of the neighborhood league at the time — the other story from Chapter 2. Shipyard workers leaving the MHI lot in Chelsea would do fifty miles an hour in a twenty-five. The neighborhood business association spent over a year trying to resolve it. We got stop signs installed — ignored. We asked for enforcement during the one-hour window when it was worst, three to four in the afternoon. No officers could be spared. We asked for speed bumps. A city official told us, in the meeting, that in *other neighborhoods like ours*, speed bumps made the problem worse, because people would damage their cars rather than slow down. We asked about physical barriers. *That's not realistic.*
 
 They ran out of language before they could face what they were doing. What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
 

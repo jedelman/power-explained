@@ -50,7 +50,7 @@ This is enclosure in its full form. Not just the taking — the forgetting. The 
 
 The residents of Atlantic City were not consulted about whether their neighborhood should be demolished. That consultation did not exist. But even if it had existed, the structural relationship between community input and institutional decision would have been what it always is: the community provides legitimacy, the institution makes decisions.
 
-Jason sat on two neighborhood boards simultaneously — one of them as president. He knows this relationship from inside it. Not theoretically. From the specific experience of being in a room where the process is running correctly, where everyone is following the rules, where the outcome has already been decided.
+Jason sat on two neighborhood boards simultaneously — one of them as president. He knows what it feels like to stay in the room when the right thing to do is leave. He knows it not theoretically — from the specific experience of being in a room where the process is running correctly, where everyone is following the rules, where the outcome has already been decided, and where the only thing left to do is decide how long you can stand it.
 
 The Armed Forces Brewing Company story from the last chapter is one version. Here is the structural version: a neighborhood board is a mechanism for converting community energy into institutional legitimacy. When residents show up to meetings, speak at hearings, vote on resolutions, they are generating something — engagement, knowledge, consent, the appearance of democratic participation — that the city and its institutions need to function. The board is the interface. The community's input enters the interface and is processed into a form the institution can use.
 
