@@ -6,6 +6,8 @@ h1: "No Name for It"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
+The colony in the mind, the shrug in the meeting room, the body that has no legal recognition — all of it rests on something prior: a framework that decides, before any specific decision is made, which experiences count and which fall through.
+
 In 1976, a group of Black women sued General Motors for discrimination. They argued they had been treated unfairly because of their race and their gender. The company had not hired any Black women before 1964, and when layoffs came under a last-hired, first-fired policy, it eliminated nearly all of them.
 
 They lost.
@@ -19,8 +21,6 @@ The same logic runs through zoning law, permitting systems, tax codes — any fr
 In 2019 the city of Norfolk had no mixed-use occupancy designation that covered what we were trying to build: a restaurant with two residential rooms above it. Two rooms above a restaurant didn't fit any existing category. And if something isn't explicitly permitted, it's disallowed — the absence of a category is itself a decision. The city eventually designated us a bed and breakfast, which was functionally absurd, because that's the closest box the code contained. It took over a year. I kept thinking about how many arrangements — businesses, households, community spaces — had simply never come into existence because no one had named the category yet. Ostrom's work on the commons is partly about this: one of the conditions that allows commons governance to function is the right of communities to devise their own institutions. When the legal framework doesn't recognize the arrangement, the arrangement can't happen, no matter how well it might have worked.
 
 The gap is not always hostile. Sometimes it is simply blind. The effect on what gets to exist is the same.
-
-Five chapters of machinery, one question running through all of it: who gets made into the outside, and how does the classification system maintain itself against them? Three thinkers close this part. Sylvia Wynter asks how the category of the human itself was constructed to produce the outside. Crenshaw maps the gaps that single-axis frameworks leave. Angela Davis asks what you build when the prison is not a solution to a social problem but an enclosure of it.
 
 ---
 
@@ -70,7 +70,7 @@ Norfolk holds the port, most of the major shipyards, and a concentration of mili
 
 The cost was too great. Not the financial cost — the structural cost. The investment calculus had already been made, at every level: by the military, by the shipyards, by the city's tax base arrangements, by the decisions about which neighborhoods get managed and which get left exposed. What we were proposing to build didn't fit the framework. The framework wasn't neutral. It had been built by people optimizing for a different set of outcomes, and it was very good at producing those outcomes and very resistant to producing others.
 
-Davis's abolitionist geography is about tracing those investment decisions and changing them at every link. That is the work. It is longer than I expected and more structural than I wanted it to be.
+Davis's abolitionist geography is about tracing those investment decisions and changing them at every link. That is the work. It is longer than I expected and more structural than I wanted it to be. But structure is where the decisions live — and decisions can be made differently.
 
 ---
 
