@@ -6,7 +6,7 @@ h1: "He Wanted His Nerves Back"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
-I grew up in Richmond, Virginia. Not the Richmond of history — the Richmond of afterward, the city history had already happened to and moved on from. The people around me had given up on participating in it. History was something that was over. There were no more victories for anyone. The posture of the people I grew up around was the shrug — a physical vocabulary of diminished expectation, learned and then taught, generation to generation.
+I grew up in Richmond, Virginia. Not the Richmond of history — the Richmond of afterward, the city history had already happened to and moved on from. The people around me had given up on participating in it. History was something that was over. There were no more victories for anyone. The posture of the people I grew up around was the shrug — a physical vocabulary of diminished expectation, learned and then taught, generation to generation. Not the institutional shrug of Chapter 6, the authority exercised by doing nothing. This one was older and more intimate: the shrug that gets passed from parent to child, that teaches the child what is possible before the child has asked.
 
 The shrug takes many forms. There's the passive kind — the turned shoulder, the eyes that don't quite meet yours when you're proposing something. There's the active kind — the people who punish the ones who don't shrug, especially children, especially when children refuse the diminishment. Yanked arms. Slaps on the back of the head. When people say the foundation of America is child abuse, I know what they're talking about. I've seen the learning happen in real time. The colony doesn't only live in the oppressed — it lives in the people who administer the shrug, who pass it down, who enforce it on those who won't perform it.
 
@@ -60,7 +60,7 @@ He was expelled from Algeria in 1957 for his political activities. He went to Tu
 
 The question Foucault couldn't ask is the one Achille Mbembe was formed to ask.
 
-Mbembe grew up in Cameroon in the 1960s — a country with formal independence, a flag, a president who gave speeches about self-determination, and an economy structured by French interests, politics shaped by the accommodations a postcolonial state makes with the powers that could still undermine it. Cameroon was governed by Ahmadou Ahidjo, who maintained power through a security apparatus and Paris's approval. The independence was real. The sovereignty was partial. Growing up inside that condition — neither colonized in the explicit sense nor free in the material sense, inside a state with the form of self-governance but not yet the substance — produced the vantage point from which Mbembe could see not the moment of colonial encounter, but what it leaves behind; not what colonialism does to people but what it makes of power itself, permanently.
+Mbembe grew up in Cameroon in the 1960s — a country with formal independence, a flag, a president who gave speeches about self-determination, and an economy structured by French interests, politics shaped by the accommodations a postcolonial state makes with the powers that could still undermine it. Cameroon was governed by Ahmadou Ahidjo, who maintained power through a security apparatus and Paris's approval. The independence was real. The sovereignty was partial. Growing up inside that condition — neither colonized in the explicit sense nor free in the material sense, inside a state with the form of self-governance but not yet the substance — produced a specific vantage point. From inside the gap between the form and the substance of freedom, you can see something that Foucault, working entirely from within the European experience, could not: that the life-managing apparatus he described is built on a prior foundation it never examines. Mbembe could see what that foundation was.
 
 He studied in Paris, taught in New York, eventually landed at Wits University in Johannesburg, inside the post-apartheid South African project of building something new in the ruins of something designed to destroy. He has been writing from there ever since.
 
@@ -80,9 +80,11 @@ The abandoned neighborhood: in 1968, the Kerner Commission warned that American 
 
 I watched this logic operate in a meeting room.
 
-I was president of the neighborhood league at the time — the other story from Chapter 2. Shipyard workers leaving the MHI lot in Chelsea would do fifty miles an hour in a twenty-five. The neighborhood business association spent over a year trying to resolve it. We got stop signs installed — ignored. We asked for enforcement during the one-hour window when it was worst, three to four in the afternoon. No officers could be spared. We asked for speed bumps. A city official told us, in the meeting, that in *other neighborhoods like ours*, speed bumps made the problem worse, because people would damage their cars rather than slow down. We asked about physical barriers. *That's not realistic.*
+I was president of the neighborhood league at the time. Shipyard workers leaving the MHI lot in Chelsea would do fifty miles an hour in a twenty-five. The neighborhood business association spent over a year trying to resolve it. We got stop signs installed — ignored. We asked for enforcement during the one-hour window when it was worst, three to four in the afternoon. No officers could be spared. We asked for speed bumps. A city official told us, in the meeting, that in *other neighborhoods like ours*, speed bumps made the problem worse, because people would damage their cars rather than slow down. We asked about physical barriers. *That's not realistic.*
 
-They ran out of language before they could face what they were doing. What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
+They ran out of language before they could face what they were doing.
+
+What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
 
 That phrase is not a statement about capacity. It is a decision about whose lives warrant the expenditure of capacity — one that can't be said out loud, so it gets said this way instead.
 
@@ -90,7 +92,7 @@ That phrase is not a statement about capacity. It is a decision about whose live
 
 Fanon is at the moment of production: how the colony builds its subjects, how the colonizer's image is installed in the colonized person's self-understanding, what dismantling that installation requires. Mbembe is at the aftermath: how sovereign power continues through the decision about whose death is acceptable, how the colonial logic persists after the colonial flag has come down.
 
-Together they reach something the economic analysis of Chapters 5 and 6 couldn't fully close. Racial capitalism requires people who accept their classification. Necropolitics requires people who accept that their exposure to death is normal. Both work not only through external force but through internalized structure — absorbed categories, the colony in the mind.
+Together they reach something the last two chapters' economic analysis couldn't fully close. Racial capitalism requires people who accept their classification. Necropolitics requires people who accept that their exposure to death is normal. Both work not only through external force but through internalized structure — absorbed categories, the colony in the mind.
 
 Which is why the commons built in these spaces refuses something deeper than an economic arrangement. Palmares refused the plantation's classification of its members as property. The Zapatista autonomy zones refused the Mexican state's withdrawal of protection. The Crown Heights mutual aid network refused the neighborhood's abandonment — stocking the fridge on the sidewalk, staying after the crisis passed, learning each other's names. None of these communities convened a meeting to debate the foundational question. They just answered it differently, in practice, every day.
 
