@@ -8,8 +8,6 @@ part: "Part VI: What to Build"
 
 On Tuesday evenings in Crown Heights, Brooklyn, the mutual aid network that formed during the first weeks of COVID meets to coordinate the week's food distribution, talk through who needs what, and — since the acute crisis passed three years ago — run the tenant organizing trainings that have become its second life.
 
-We met them briefly in Chapter 4, where the note was simply: still operating. It deserves more than that.
-
 It wasn't supposed to still be running. Mutual aid networks form in crises and dissolve when the crisis passes; that's the normal arc. Crown Heights Mutual Aid did something different. When the food emergency eased, the people who had been doing the work had found each other — had learned who knew what, who showed up, who could be counted on, who had been carrying what for years before COVID made carrying it visible. They had built, inside the emergency, the thing that emergencies make temporarily possible: the knowledge of each other.
 
 They stayed. They kept meeting. They expanded from food to tenant support to the slower, harder work of community governance. The crisis passed. The infrastructure remained.
@@ -40,7 +38,7 @@ James had come to feminist analysis through the Black radical tradition: her par
 
 The demand — pay women for housework — was designed to be impossible. Not because the organizers expected it to be met, but because the impossibility revealed the structure. If you had to pay market rates for all the care work currently being extracted for free, the profit margins on everything else would collapse. The demand makes visible what the system needs hidden: that every wage, every profit, every GDP number is calculated on the assumption that the reproductive labor that makes production possible will be performed for free by women.
 
-This is what Kollontai named in Chapter 5 — the outside that capitalism requires, the labor classified as not-labor to keep the accounting from closing. Federici adds the historical mechanism: it was not always this way, and it was made this way deliberately, through the destruction of the knowledge networks that had organized care as communal responsibility.
+Federici adds the historical mechanism: it was not always this way, and it was made this way deliberately, through the destruction of the knowledge networks that had organized care as communal responsibility.
 
 The campaign never won its demand. What it won was the question: why does care work cost less than other work? The answer — because care has been defined as women's natural duty rather than economic labor — is now named. The naming hasn't ended the arrangement. It has made it available to be contested.
 
@@ -66,9 +64,9 @@ Mariame Kaba has spent thirty years building the infrastructure that makes care 
 
 She grew up in New York, the daughter of a Guinean immigrant activist who taught her that social change was institutional work, not just individual commitment. She has organized around criminalization, domestic violence, sexual assault, and the connections between them — building youth programs, training survivor advocates, developing the community accountability processes that address harm without calling the police.
 
-Her insight — the one that connects Chapter 8's Angela Davis through to this chapter — is that abolition is care. The demand to build the world that doesn't need prisons is the demand to build care infrastructure: housing, mental health support, economic security, the community relationships that make people less likely to cause harm and more capable of addressing it when harm occurs. "We keep each other safe."
+Her insight is that abolition is care. The demand to build the world that doesn't need prisons is the demand to build care infrastructure: housing, mental health support, economic security, the community relationships that make people less likely to cause harm and more capable of addressing it when harm occurs. "We keep each other safe."
 
-Four words that contain an entire theory of public safety. From her book *We Do This 'Til We Build It* — a claim about care as the foundation of safety. Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.
+Four words that contain an entire theory of public safety. *We Do This 'Til We Build It.* Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.
 
 That network is the care commons. In Hardt and Negri's terms: the accumulated relational intelligence — who can be trusted, who knows what, who shows up — that capital did not produce and cannot reproduce, but has always depended on. The enclosure of it is not metaphorical. The pricing-out of communities, the underpayment of care workers, the criminalization of mutual support: these are mechanisms for capturing what communities built, by making it legible as a service to be purchased rather than a commons to be governed.
 
@@ -79,7 +77,3 @@ The enclosure made care invisible — a private problem, a personal obligation, 
 The work is local, intimate, and unglamorous. It doesn't scale to infinity or generate returns. It only works if people care about each other.
 
 That is not a weakness. That is the point.
-
----
-
-*What care work in your life is invisible? What would it look like to build the infrastructure that holds it — the childcare collective, the elder support network, the community care circle? The care commons doesn't wait for policy. It is built by the people who decide to show up for each other, starting now.*
