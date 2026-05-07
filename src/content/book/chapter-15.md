@@ -22,7 +22,7 @@ She had been born in Parma, Italy, in 1942, had come to the United States in 196
 
 Start with what they burned.
 
-Between roughly 1400 and 1700, somewhere between 40,000 and 100,000 people were executed as witches across Europe and the American colonies. Most were women. Most were poor. Many were midwives, herbalists, healers — women who held knowledge that made communities less dependent on the emerging market. The standard historical account treats this as mass hysteria overcome by Enlightenment.
+Between roughly 1400 and 1700, somewhere between 40,000 and 100,000 people were executed as witches across Europe and the American colonies. [FLAG: execution count upper bound | Historical consensus places executions at 40,000–60,000; 100,000 is Federici's own high estimate and is contested by most professional historians. The range as written reflects how Federici presents the figures in *Caliban and the Witch* but overstates the upper bound relative to mainstream scholarship. Verify whether Jason wants to note this is Federici's framing or adjust to 40,000–60,000.] Most were women. Most were poor. Many were midwives, herbalists, healers — women who held knowledge that made communities less dependent on the emerging market. The standard historical account treats this as mass hysteria overcome by Enlightenment.
 
 Federici's argument: it was policy.
 
@@ -32,7 +32,7 @@ Alongside this: the enclosure of common land, happening in the same centuries, c
 
 ---
 
-In 1972, a Trinidadian-American activist named Selma James launched the Wages for Housework campaign with a pamphlet that made the argument in its simplest form.
+In 1972, an American activist named Selma James launched the Wages for Housework campaign with a pamphlet that made the argument in its simplest form. [CORRECTION: "a Trinidadian-American activist" → "an American activist" | Selma James was born in Brownsville, Brooklyn, New York, in 1930. Her husband C.L.R. James was Trinidadian; she is American.]
 
 James had come to feminist analysis through the Black radical tradition: her partner was C.L.R. James, the Trinidadian Marxist historian whose analysis of the Haitian Revolution and Atlantic capitalism had insisted that the labor the visible economy refused to count — enslaved labor, colonial extraction — was the labor it most depended on. She brought that tradition's understanding of invisible foundational labor to the question of housework. The two analyses converged: the slave's labor and the housewife's labor were both the foundation the visible economy ran on without counting.
 
@@ -56,7 +56,7 @@ This is care under enclosure: the labor made to look like love, priced below its
 
 The commons response is being built, as it always is, by people who decided the alternative was unacceptable.
 
-Childcare collectives where parents share the labor, the cost, and the knowledge of caring for children together — outside the market, governed by the families who depend on them. Cooperative home care agencies where the workers own the business, set the terms, make the decisions — and where the quality of care improves because the incentives that degrade it under conventional employment are gone. Community care networks where neighbors organize systematic support for elderly and disabled community members, keeping people in their homes rather than in institutions. In over 350 communities across the United States, the Village to Village Network has organized exactly this: older adults and their neighbors building mutual support systems outside institutional care, on the organizing principle that the community takes responsibility for caring for its members.
+Childcare collectives where parents share the labor, the cost, and the knowledge of caring for children together — outside the market, governed by the families who depend on them. Cooperative home care agencies where the workers own the business, set the terms, make the decisions — and where the quality of care improves because the incentives that degrade it under conventional employment are gone. Community care networks where neighbors organize systematic support for elderly and disabled community members, keeping people in their homes rather than in institutions. In over 350 communities across the United States, the Village to Village Network has organized exactly this: older adults and their neighbors building mutual support systems outside institutional care, on the organizing principle that the community takes responsibility for caring for its members. [FLAG: Village to Village Network count | Current VtV Network data shows 375+ Villages; "over 350" may be accurate at time of writing but verify currency.]
 
 ---
 
@@ -66,7 +66,7 @@ She grew up in New York, the daughter of a Guinean immigrant activist who taught
 
 Her insight is that abolition is care. The demand to build the world that doesn't need prisons is the demand to build care infrastructure: housing, mental health support, economic security, the community relationships that make people less likely to cause harm and more capable of addressing it when harm occurs. "We keep each other safe."
 
-Four words that contain an entire theory of public safety. *We Do This 'Til We Build It.* Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.
+Four words that contain an entire theory of public safety. *We Do This 'Til We Free Us.* Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing. [CORRECTION: "We Do This 'Til We Build It" → "We Do This 'Til We Free Us" | This is the title of Kaba's 2021 book published by Haymarket Books. "We Do This 'Til We Build It" does not appear to be a phrase or title associated with Kaba.]
 
 That network is the care commons. In Hardt and Negri's terms: the accumulated relational intelligence — who can be trusted, who knows what, who shows up — that capital did not produce and cannot reproduce, but has always depended on. The enclosure of it is not metaphorical. The pricing-out of communities, the underpayment of care workers, the criminalization of mutual support: these are mechanisms for capturing what communities built, by making it legible as a service to be purchased rather than a commons to be governed.
 
