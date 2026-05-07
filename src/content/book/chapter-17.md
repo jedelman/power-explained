@@ -29,7 +29,7 @@ This is the chapter's central image. Not the owl — the receiving. The communit
 
 ---
 
-The philosopher and researcher Richard Sorenson spent years in the field with cultures that had not yet been fully absorbed into the global economy, documenting what he called preconquest consciousness: a particular quality of awareness in which the boundary between self and living world is less defended, more available to information that the managed self would screen out. Not mysticism. A description of a specific cognitive structure — one organized around relational attentiveness rather than individual navigation.
+The anthropologist Richard Sorenson spent years in the field with cultures that had not yet been fully absorbed into the global economy, documenting what he called preconquest consciousness: a particular quality of awareness in which the boundary between self and living world is less defended, more available to information that the managed self would screen out. Not mysticism. A description of a specific cognitive structure — one organized around relational attentiveness rather than individual navigation.
 
 In the communities Sorenson studied, people moved through the world with a quality of openness that he found difficult to convey in the language of Western social science. Touch communicated more than words. Silence carried as much as speech. The landscape was not a backdrop but a presence — one that the community was in ongoing conversation with, and that was in ongoing conversation with them. The owl would have been attended to. His presence would have been information.
 
@@ -41,7 +41,7 @@ That intelligence is not gone everywhere. But it requires conditions to survive,
 
 ---
 
-Martín Prechtel learned what he knows in the Tzutujil Mayan village of Santiago Atitlán, where he became, over years of extraordinary apprenticeship, an initiated member of the community. He was there for two decades before the civil war took everything.
+Martín Prechtel learned what he knows in the Tzutujil Mayan village of Santiago Atitlán, where he became, over years of extraordinary apprenticeship, an initiated member of the community. He was there for approximately fourteen years before the civil war took everything.
 
 What he carries from that time — and has spent years transmitting to people who never had it — is a particular understanding of how a community reconstitutes itself through the singular journeys of its members.
 
@@ -51,7 +51,7 @@ Initiation is the mechanism.
 
 Not the hero's descent alone. The *return*. This is the piece that the culture of individual achievement has systematically misunderstood and discarded.
 
-Joseph Campbell mapped the monomyth — the hero's journey that appears in some form in mythologies across cultures: the call, the departure, the ordeal in the underworld, the transformation, the return. He mapped it brilliantly. He also warned, toward the end of his life, that the consumer culture was doing exactly this — consuming the symbol of the journey without undertaking the journey itself. The warning didn't land. The consumer culture absorbed his map and produced something that looks like the journey but is missing its most important element.
+Joseph Campbell mapped the monomyth — the hero's journey that appears in some form in mythologies across cultures: the call, the departure, the ordeal in the underworld, the transformation, the return. He mapped it brilliantly. He also warned, toward the end of his life, that the consumer culture was doing exactly this — consuming the symbol of the journey without undertaking the journey itself. [FLAG: specific late-life warning about consumer culture consuming the hero's journey symbol | no verified source for this characterization; Campbell wrote about myth and consumption but the specific formulation here is unverified] The warning didn't land. The consumer culture absorbed his map and produced something that looks like the journey but is missing its most important element.
 
 The ordeal has been celebrated, packaged, marketed. The descent is the product — the retreat, the ayahuasca ceremony, the wilderness solo, the breakdown, the dark night of the soul. What has been largely lost is the return. Not because the return is unimportant — because the return requires something the market cannot supply: a community that was waiting, that needs what you found, that can recognize the gift and give it a home.
 
@@ -79,7 +79,7 @@ This is the call the chapter is making. Not to descend — many of us have alrea
 
 Prechtel's grief-and-praise teaching is the practical elaboration of this. In the Tzutujil tradition, grief and praise are inseparable. To be fully present in a community is to be in the presence of what you love while knowing it is passing. The feast will end. The elder will not be here next year. The child is already becoming someone you don't yet know. Grief is not the failure of love. It is the price of beauty. A community that cannot grieve has closed itself against the full reality of what it loves — and cannot therefore be fully present for the return of anyone who has been in the underworld.
 
-The grief rituals, the tracking mornings, the birding walks, the land stewardship days, the ceremonies — these are all practices of the return. Not the individual's return from their own underworld only. The community's ongoing return to itself, through the repeated practice of gathering, attending, grieving, praising, weaving.
+The grief rituals, the tracking mornings, the birding walks, the land stewardship days, the ceremonies — these are all practices of the return. Not only the individual's return from their own underworld. The community's ongoing return to itself, through the repeated practice of gathering, attending, grieving, praising, weaving.
 
 The Tzutujil refused corrugated metal roofing when it became available — not out of conservatism but from a completely lucid understanding of what they would lose. The traditional thatched roof needed to be repaired every year. The community gathered to do it. Neighbors came. Some thatched, some cooked, some fed children, some argued about the right way. Nobody called it community building. It was roofing. But through the roofing, the web of relationship was rewoven. The obligations were renewed. The community updated its knowledge of itself — who was strong this year, who needed help, who had learned something new.
 
@@ -99,7 +99,7 @@ None of this was designed. It emerged from conditions: mixed uses that kept the 
 
 This is the sidewalk equivalent of the speaking circle. The community practicing the form of attending — not in any single dramatic act, but through the ten thousand low-stakes encounters that build, over time, the capacity to receive the singular when it arrives. The baker knows when someone on the block is in trouble not because he surveilled them but because he has been attending to the ordinary for years.
 
-Jacobs defended Greenwich Village against Robert Moses's plan to run an expressway through Washington Square Park — and won. She organized the community that already existed, the one the ballet had been producing, and it was strong enough to stop one of the most powerful urban planners in American history. The neighborhood she defended is now one of the most valuable in Manhattan. Not because she optimized it for value. Because she protected the conditions under which the life of the place could keep producing the kinds of people worth living near.
+Jacobs defended Greenwich Village against Robert Moses's plan to run an expressway through Washington Square Park — and won. [FLAG: the Washington Square campaign (concluded 1958) was specifically about routing Fifth Avenue traffic through the park, not an expressway; the Lower Manhattan Expressway (LOMEX) was a separate later campaign targeting SoHo and Little Italy; the chapter conflates two distinct campaigns into one | author should clarify which fight is intended or separate them] She organized the community that already existed, the one the ballet had been producing, and it was strong enough to stop one of the most powerful urban planners in American history. The neighborhood she defended is now one of the most valuable in Manhattan. Not because she optimized it for value. Because she protected the conditions under which the life of the place could keep producing the kinds of people worth living near.
 
 What Moses built instead — the housing projects organized for legibility and management, the streets designed for cars rather than ballet — produced different people. Not worse people. People shaped by different conditions. People who had fewer occasions to practice the form of attending. People who, when the return came, had no practiced form to receive it with.
 
