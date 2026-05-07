@@ -55,7 +55,7 @@ Initiation is the mechanism.
 
 Not the hero's descent alone. The *return*. This is the piece that the culture of individual achievement has systematically misunderstood and discarded.
 
-Joseph Campbell mapped the monomyth — the hero's journey that appears in some form in mythologies across cultures: the call, the departure, the ordeal in the underworld, the transformation, the return. He mapped it brilliantly. And the consumer culture absorbed his map and produced something that looks like the journey but is missing its most important element.
+Joseph Campbell mapped the monomyth — the hero's journey that appears in some form in mythologies across cultures: the call, the departure, the ordeal in the underworld, the transformation, the return. He mapped it brilliantly. He also warned, toward the end of his life, that the consumer culture was doing exactly this — consuming the symbol of the journey without undertaking the journey itself. The warning didn't land. The consumer culture absorbed his map and produced something that looks like the journey but is missing its most important element.
 
 The ordeal has been celebrated, packaged, marketed. The descent is the product — the retreat, the ayahuasca ceremony, the wilderness solo, the breakdown, the dark night of the soul. What has been largely lost is the return. Not because the return is unimportant — because the return requires something the market cannot supply: a community that was waiting, that needs what you found, that can recognize the gift and give it a home.
 
@@ -74,6 +74,8 @@ The Matrix trilogy is a hero's journey without a functioning return. Which is pr
 Most of us are Neo. We have made descents — some chosen, some not. We have come back changed. And we have arrived at the threshold to find it unmanned, the village dispersed, no one who knew we were coming or could name what we had brought back.
 
 So we have had to find each other.
+
+Not as a consolation. As the work. The building of the community at the threshold — the one that learns to welcome and attend — is not the lesser version of the thing. It is the thing.
 
 This is the call the chapter is making. Not to descend — many of us have already descended, more than once. To learn to welcome and attend. To become the community at the threshold. To practice the form of the circle that already knows how to receive the owl when it arrives.
 
@@ -107,7 +109,7 @@ What Moses built instead — the housing projects organized for legibility and m
 
 Christopher Alexander spent his career trying to understand what Jacobs had seen and generalize it into something buildable. His *Pattern Language* identified 253 recurring patterns in human environments — each one a solution to a problem in how people actually live together, encoded from centuries of accumulated wisdom. Not rules. Living patterns: forms that, when present, tend to support human flourishing, and whose absence tends to suppress it.
 
-The pattern language is a commons. Nobody designed it. It emerged from millions of people across centuries building places that worked, or didn't, and whose bodies registered the difference. It is available to anyone. Like language itself, it belongs to no one and everyone.
+The pattern language is a commons. Nobody designed it. It emerged from millions of people across centuries building places that worked, or didn't, and whose bodies registered the difference. It is available to anyone. Like language itself, it belongs to no one and everyone. Like the adivasi communities' forest governance in Chapter 12: knowledge embedded in practice so deep that outsiders couldn't see it until it was being destroyed — and which, unlike a patent, cannot survive displacement, because it is specific to the place.
 
 Alexander's deeper claim: living environments have an objective quality — not merely an aesthetic one — that either supports or suppresses the wholeness of the people who inhabit them. The quality is the same one found in living organisms, in the patterns of a flourishing forest. It is the same quality the speaking circle was generating, and the owl recognized.
 
@@ -129,4 +131,4 @@ But the direction is always the same: out of the underworld, toward the communit
 
 The owl came and said what he had to say.
 
-We are the ones who need to learn to hear it — and to be the community, for each other, that makes the return possible.
+We are the ones who need to learn to hear it — and to be the community, for each other, that makes the return possible. The circle in the woods. The sidewalk ballet on Hudson Street. The park in Lower Manhattan where five thousand people showed up and discovered they already knew how to govern themselves. The scale changes. The form is the same.
