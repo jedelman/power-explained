@@ -350,3 +350,62 @@ The weakest moment: "This room does not need your transformation." Too clever. I
 
 What this taught me: Rilke's register is useful for the *approach* to the book's culminating images — not the images themselves, which the book already handles. The reader needs to be broken open *before* the governance meeting, not during it. The chapter already knows how to be the room. The poem is the hallway.
 
+
+---
+
+### Before the Meeting — Third Draft
+
+*(What it's becoming: a poem about the cost of presence. Stay in the room.)*
+
+---
+
+You have been in rooms like this before
+and left unchanged,
+and the leaving felt like safety.
+
+You know how to sit in a folding chair
+and remain elsewhere.
+You have refined this.
+It has served you.
+
+But the woman across from you
+has carried something in
+that you cannot name —
+it shows in the way she sets down her bag,
+carefully, like it might spill —
+
+and the man beside her
+came through something to be here
+on a Tuesday at seven-fifteen
+that you do not know about
+and will not ask about
+and that is sitting in the room with you
+right now.
+
+The agenda has a third item.
+You haven't read it.
+Neither has anyone else.
+It will arrive anyway.
+
+What you brought —
+that thing you haven't named either,
+the one you carried from the parking lot
+and set down somewhere you can't quite locate —
+
+it's in the room too.
+
+The room is full of unnamed things.
+That is what the room is for.
+
+---
+
+### Reading It
+
+The protection is in now. "The leaving felt like safety" — that's the line the second draft didn't have. It doesn't judge the distance. It names it accurately, which is more respectful and more Rilkean than the original's slight condescension toward the watching self.
+
+"Carefully, like it might spill" — that arrived and surprised me. That's the most present moment in the poem. I don't know where it came from but it feels true.
+
+The ending is quieter than the previous drafts. No "arrive." No reversal. Just: this is what the room is for. Which might be too quiet, or might be exactly right. I genuinely don't know yet.
+
+What slowed me down this time: I stopped after "it has served you" and didn't write for a moment. Just held the line. That pause is where "carefully, like it might spill" came from. The presence note: *waiting produces what patience cannot plan for.*
+
