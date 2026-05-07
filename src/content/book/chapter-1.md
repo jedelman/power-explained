@@ -14,31 +14,13 @@ I've crossed Brambleton Avenue on foot hundreds of times. I've walked cities on 
 
 Some days I walk up to the Brambleton crossing and turn around. The heaviness hits before I even reach the curb — not rage exactly, not anymore, but something that lives in the body like accumulated weight, like the body remembering all the times before. I've learned to do the math before I step off: if even one car is visible in any lane, I can't make seven lanes in the time it takes them to reach me. By the time they're close enough that I can see if they're on their phone, they're already too close for me to safely decide to cross. The pedestrian refuge in the center isn't one — it's a raised curb, narrow enough that if you're not exactly centered you're in the lane. The city won't turn the turn lane into a real refuge. This morning I walked up to the crossing, looked at it, said *nah*, and took another route. Some days it costs too much.
 
-Hampton Boulevard is different. Hampton carries the truck traffic that containers would have moved by ferry a hundred years ago. You can feel it in your bones from blocks away, before you can even see the road — a subsonic rumble that tells you something heavy is coming. I avoid Hampton like the plague. I try to imagine what it feels like to live on it and I can't get there. Walking the Hampton and Brambleton corridor — trying to cross roads built on top of a neighborhood that was destroyed to build them, waiting for lights designed for cars — something rises in me that is not the accumulated heaviness of Brambleton. It is older and cleaner.
+Hampton Boulevard is different. Hampton carries the truck traffic that containers would have moved by ferry a hundred years ago. You can feel it in your bones from blocks away, before you can even see the road — a subsonic rumble that tells you something heavy is coming. I avoid it. I try to imagine what it feels like to live on it. Walking the Hampton and Brambleton corridor, something rises in me that is not the accumulated heaviness of Brambleton. It is older and cleaner.
 
 Rage. Every time. Not rage at a broken system — rage at a functioning one.
 
 ---
 
-Here is what was here before the road.
-
-Atlantic City was a working-class neighborhood of approximately 1,000 households, located just west of downtown Norfolk along the Elizabeth River. In the early 1950s it was racially integrated in a city that had worked hard to prevent that — Black families displaced by earlier urban renewal projects had found rental housing there, and by the mid-1950s Atlantic City had become one of the only majority-white neighborhoods in Norfolk where the African American population exceeded ten percent. It was, by contemporary accounts, a vibrant working-class community. Nearly a quarter of its homes were single-family freestanding houses. About a fifth had been built in the last thirty years.
-
-In the mid-1950s, Norfolk city leaders began describing Atlantic City as a slum. They were not describing it accurately. They were setting up its destruction.
-
-The pattern is documented: city officials would identify a neighborhood for redevelopment, begin floating rumors about its decline, which caused landlords to stop maintaining properties, which caused conditions to deteriorate, which was then cited as evidence that clearance was justified. The slum was produced, and then used as the reason to clear it.
-
-Atlantic City was demolished. Roughly 1,000 homes were torn down to build Norfolk General Hospital and expand the road infrastructure around it — including Hampton Boulevard. No new housing was constructed to accommodate those who were displaced. The community was not relocated. It was erased.
-
-The hospital that replaced it is now Eastern Virginia Medical School, part of the Macon and Joan Brock Virginia Health Sciences campus, bounded by Colley Avenue, Brambleton Avenue, Hampton Boulevard, and Redgate Avenue. It trains the doctors who serve the region. It has produced significant medical advances. It has received significant public investment and community pride.
-
-The neighborhood it was built on does not come up in that story.
-
-This was not an accident or an oversight. Historian Forrest White has argued that the targeting of Norfolk's racially integrated neighborhoods during this period "aimed to wipe out all of the city's transition neighborhoods where indistinct color lines had failed to produce two distinct neighborhood school communities, one black and the other white." The urban renewal and the Massive Resistance to school desegregation were connected. If you could maintain residential segregation by destroying the integrated neighborhoods, you could maintain de facto school segregation even after Brown v. Board of Education made explicit segregation unconstitutional.
-
-The road was built to serve the hospital and the surrounding development. The hospital was built on the neighborhood. The neighborhood was destroyed to preserve a racial geography that the courts were making harder to maintain by other means.
-
-Walking this corridor, you are walking through the product of a decision made seventy years ago by people who calculated that certain lives were expendable if it served institutional interests. The road is the decision made permanent in concrete.
+Under your feet, eight feet down, is someone's kitchen floor.
 
 ---
 
@@ -56,9 +38,9 @@ Gramsci called this common sense: the sediment of prior thought that tells you w
 
 Hampton Boulevard doesn't crash. It functions. That's the problem.
 
-But I cross Brambleton anyway, because the other side is worth it.
+But I cross Brambleton anyway.
 
-On the other side of that crossing is the most beautiful street in the most beautiful neighborhood in the city — the one street in Norfolk that successfully depaved thirty years ago. The willow oaks line it on both sides. *Quercus phellos*, not willows and oaks separately — a single species with long, narrow leaves that turn amber in the fall and hang on the tree through winter, rattling in February wind. The night herons nest in them every spring. The intersection backs up to a wetland where, if you arrive at the right moment, you can see every heron species in the Hampton Roads region in the same place at the same time. There's a canal just beyond with two broods of goslings this year and one of ducklings that just fledged. We see friends there constantly. A half-hour walk takes several hours. Last year we saw muskrats for the first time.
+On the other side is the most beautiful street in the most beautiful neighborhood in the city — the one street in Norfolk that successfully depaved thirty years ago. The willow oaks line it on both sides. *Quercus phellos*, not willows and oaks separately — a single species with long, narrow leaves that turn amber in the fall and hang on the tree through winter, rattling in February wind. The night herons nest in them every spring. The intersection backs up to a wetland where, if you arrive at the right moment, you can see every heron species in the Hampton Roads region in the same place at the same time. There's a canal just beyond with two broods of goslings this year and one of ducklings that just fledged. We see friends there constantly. A half-hour walk takes several hours. Last year we saw muskrats for the first time.
 
 Two years ago, the parks department mowed what had become a managed meadow — following a management plan, they said. I gave them hell. Their plan was based on appearances, not ecology. They said I was right. They haven't changed the plan officially, but they haven't cut the meadow since. Every morning I walk past it expecting it to be cut. Every morning it isn't is a small triumph. I've seen bunnies there. One cold winter storm I watched a tiny kinglet — one of the smallest birds in North America — taking shelter in the tall grass, burning calories against the wind, exactly where a meadow should be.
 
@@ -68,7 +50,7 @@ I cross Brambleton to get there. The rage and the beauty are not separate. They 
 
 On a weeknight in 2022, I was running a neighborhood league meeting — not as president, but as the person conducting the meeting. New members had recently joined. A brewery was trying to open nearby.
 
-Armed Forces Brewing Company was seeking a conditional use permit to open in a majority-Black, LGBTQ-friendly neighborhood in Norfolk, next door to an LGBTQ aid center. It had already marketed its planned arrival with sexualized imagery, firearms aimed at targets described as "woke," and advertising that featured a majority-white cast. The LGBTQ aid center would subsequently move. The neighboring neighborhood league, the one directly adjacent to the proposed site, wanted to issue a statement opposing the permit — a symbolic action, but a legitimate one, and within the rights of neighborhood organizations to take.
+Armed Forces Brewing Company was seeking a conditional use permit to open in a majority-Black, LGBTQ-friendly neighborhood in Norfolk, next door to an LGBTQ aid center. It had already marketed its planned arrival with sexualized imagery, firearms aimed at targets described as "woke," and advertising that featured a majority-white cast. The LGBTQ aid center would subsequently move. The neighboring neighborhood league wanted to issue a statement opposing the permit — a symbolic action, but a legitimate one, and within the rights of neighborhood organizations to take.
 
 The new members of my league wanted to sign on in solidarity. The board did not want to bring it to a vote. They left it off the agenda.
 
@@ -78,7 +60,7 @@ I ran the meeting. I cannot say I didn't conduct it well because I did. I felt, 
 
 The board was within their rights. Neighborhood league boards have procedural authority over the actions of the organization. They had not violated any rule. They had simply absorbed a majority vote of the membership and declined to act on it.
 
-This is what the machine looks like from inside it. Not corruption — the board did not benefit from ignoring the vote. Not malice — they were not, as far as I could tell, supporters of Armed Forces Brewing. They were afraid of conflict. They were unwilling to do the uncomfortable thing even when the rules and the membership had made the path clear. And the structure of the organization gave them the power to make that fear decisive.
+Not corruption. Not malice. Fear made decisive by structure.
 
 Two months later, I resigned from the board.
 
@@ -90,7 +72,7 @@ Three images: a crossing, a neighborhood under a road, a vote that passed and wa
 
 They feel like different kinds of problems. Infrastructure. History. Governance. But they are the same problem operating at different scales and speeds.
 
-Each one is a system that extracts something from the community — mobility, housing, political agency — and returns something else — throughput, institutional development, the appearance of process. In each one, information flows in from below (this crossing is dangerous; this community exists; the members have spoken) and doesn't change the outcome. In each one, the people operating the system are not, mostly, malicious. They are inside a template — a set of assumptions about what the system is for — that is so naturalized it functions without anyone having to enforce it.
+Each one is a system that extracts something from the community — mobility, housing, political agency — and returns something else — throughput, institutional development, the appearance of process. In each one, information flows in from below and doesn't change the outcome. In each one, the people operating the system are not, mostly, malicious. They are inside a template so naturalized it functions without anyone having to enforce it.
 
 There is a word for this. We will use it precisely and often, and it needs to earn its place.
 
@@ -100,12 +82,8 @@ The question this book is trying to answer is not: who is to blame? The question
 
 The answer starts with understanding that the machine is not natural. It was built. And things that are built can be built differently.
 
-After midnight, the truck traffic on Hampton Boulevard subsides. I used to cross it by bike coming home from the restaurant I owned — in the strange silence, the rumble gone, the road empty in both directions. There's a magic to the midnight city that has nothing to do with danger. The feeling of being free, and that the world has been assembled by people who turned their attention inward, to their houses, so the weird ones like you can play in the empty streets. Even Hampton Boulevard has that hour. Even the things built to extract from us have cracks where something else comes through.
+After midnight, the truck traffic on Hampton Boulevard subsides. I used to cross it by bike coming home from the restaurant I owned — in the strange silence, the rumble gone, the road empty in both directions. There's a magic to the midnight city that has nothing to do with danger. The feeling of being free, and that the world has been assembled by people who turned their attention inward, so the weird ones like you can play in the empty streets. Even Hampton Boulevard has that hour. Even the things built to extract from us have cracks where something else comes through.
 
 You have to be moving slowly enough to see them.
 
 The night herons nest in the willow oaks on the other side of the Brambleton crossing. They've been coming back every spring for as long as anyone has been watching. They will come back next spring. They know about the road the way that matters: they've routed around it, built a life on the other side of it, refused to let it sever the relationship between this colony and this stand of trees.
-
----
-
-*Before you read the next chapter: what's your version of this? What's the street, the meeting, the vote you've stopped being angry about because being angry would require believing it could be different? Hold that. We're going to come back to it.*

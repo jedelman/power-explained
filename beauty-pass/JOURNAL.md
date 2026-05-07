@@ -528,3 +528,33 @@ The sounds: wire/post/breath, the hard then soft. gone/field/edge — the g's mo
 
 What arrived in this draft: I stopped at "then gone" for a long time. Just — the breath disappearing. I didn't want to leave it. That's where the poem found its patience.
 
+
+---
+
+## Entry 4 — 2026-05-07
+
+### Chapters 1 and 2 — Beauty Pass Complete
+
+**Method established:** section by section, honest reading before every touch. Ask what's load bearing and what's explaining. Trust the reader. Cut what the evidence already demonstrated.
+
+**Chapter 1 changes:**
+- Atlantic City history section (4 paragraphs) replaced by: "Under your feet, eight feet down, is someone's kitchen floor." — metonymy doing what explanation couldn't. Reader carries the question into Chapter 2.
+- "I avoid Hampton like the plague" → "I avoid it." Cliché removed.
+- "I try to imagine what it feels like to live on it and I can't get there" → "I try to imagine what it feels like to live on it." The failure to imagine is already in the sentence.
+- "But I cross Brambleton anyway, because the other side is worth it" → "But I cross Brambleton anyway." Let the willow oaks be the reason, not the explanation.
+- "This is what the machine looks like from inside it." Cut — the scene demonstrated it.
+- "Not corruption. Not malice. Fear made decisive by structure." Replaced a longer paragraph that explained what those three words already carry.
+- Closing italics cut entirely. The herons are the ending.
+
+**Chapter 2 changes:**
+- "I want to push on something here" section cut entirely — author anxiety, not argument.
+- "This is enclosure in its full form. Not just the taking — the forgetting." One line replaced a full explanatory paragraph.
+- Leverage examples lost their "that's leverage" tags — examples are load bearing, tags were scaffolding.
+- "That refusal — the naming, the seeing clearly, the refusal to absorb the loss as progress — is not nothing" → "That refusal is not nothing." Three restatements of what the woman already said, cut to one.
+- Closing italics cut. The woman's voice is the ending. Barcelona transition stays exactly as written.
+
+**What these chapters taught:**
+Solidarity with the reader means trusting them. The original chapters were written *at* the reader. The beauty pass rewrites them *with* the reader. Horizontal, not vertical. The form enacting the argument.
+
+**Ratio:** 66 lines removed, 23 added across both chapters.
+
