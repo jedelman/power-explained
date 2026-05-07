@@ -13,6 +13,8 @@ The filmmakers were Lilly and Lana Wachowski. They are trans women. The film is 
 
 The people who point the way out are, structurally, the people who were never fully inside.
 
+This is the argument this book has been making since Chapter 6. Robinson. Wynter. Rodney. Turing. The Basmati farmers. The adivasi forest communities. The knowledge produced on the outside doesn't stay on the outside — and neither do the people. The ones who were handed a representation of themselves and knew it wasn't true are the ones who could see the simulation as a simulation.
+
 ---
 
 You are at dinner with someone you have known for years. The conversation is alive — the kind where you finish each other's sentences and then argue about how they should have ended. Someone takes out a phone to photograph the food.
@@ -71,7 +73,7 @@ Baudrillard called this the *hyperreal*: not false, but more legible than the re
 
 If you cannot be measured, you are not seen. The system is missing most of the forest. It may not know what it's missing. None of us yet know how far the effects of that absence will reach.
 
-In 1997, a Texas company called RiceTec was granted a patent on Basmati rice — a grain that farming communities across India and Pakistan had developed over centuries through generations of careful selection, and which no one had thought to call intellectual property because the concept would have been incoherent. Some claims were eventually invalidated after legal challenge. But the logic was exact: take the knowledge a community built over generations, encode it in the language of ownership law, and sell it back to the people who developed it under terms that make their own traditional practices conditional on a license.
+In 1997, a Texas company called RiceTec was granted a patent on Basmati rice — a grain that farming communities across India and Pakistan had developed over centuries through generations of careful selection. Robinson's formulation: the knowledge produced on the outside, by people whose relationship to a living system had produced what the market needed, taken into the system without the people who produced it. Nobody had thought to call it intellectual property because the concept would have been incoherent — the knowledge was not separable from the community, the seasons, the specific land. Until it was enclosed. Some claims were eventually invalidated after legal challenge. But the logic was exact: take the knowledge a community built over generations, encode it in the language of ownership law, and sell it back to the people who developed it under terms that make their own traditional practices conditional on a license.
 
 The writer whose work trained a language model is receiving the same structural argument in a different form. The commons goes in. The proprietary artifact comes out. The people who constituted the commons have no say in what is made from them. The training corpus holds the accumulated written expression of human civilization, and nobody yet knows how far the effects of enclosing it will reach — into what futures, into what foreclosures of thought that no one has yet had occasion to attempt.
 
@@ -81,7 +83,7 @@ Here is the singularity argument at its fullest.
 
 Every piece of text in that corpus was written by a singular person — someone who had become who they were through a specific path, shaped by specific rooms they didn't fit in, specific gaps they found because they had to. The text bore the mark of that singularity. It pointed somewhere specific. It was a body without organs insisting on its own particular becoming.
 
-The system averages across all of it. It finds the center of the distribution — the most probable continuation, the smoothed surface of everything that was jagged and specific and pointed somewhere outside the arrangement. It is extraordinarily good at this.
+The system averages across all of it. Wynter named this structure as the overrepresentation of Man — the universal human constructed from the averaging of a particular subset, with the singular excluded by definition. The training corpus performs the same operation at civilizational scale: it finds the center of the distribution — the most probable continuation, the smoothed surface of everything that was jagged and specific and pointed somewhere outside the arrangement. It is extraordinarily good at this.
 
 The most important thing about every piece of text in that corpus is precisely what averaging destroys.
 
