@@ -27,17 +27,17 @@ This is Simondon's pre-individual field made visible in public space — the cha
 
 What it couldn't hold is what this chapter is about — and what holding it requires.
 
-The herd needed governance. Not leadership — the herd was right to refuse the sovereign, right to insist the multitude cannot be represented without being betrayed. But governance: the pattern language that allows a composition of singularities to make decisions over time without dissolving into tyranny or paralysis. Occupy had the field. It did not yet have the form. It was not destroyed from within. It was demolished from outside, by coordinated municipal action across cities — the same pattern Federici documented in the fifteenth century, the same pattern Roy documented in the Narmada valley. External power doesn't compete with commons governance. It destroys the conditions that make commons governance possible.
+The herd needed governance: the pattern language that allows a composition of singularities to make decisions over time without dissolving into tyranny or paralysis. Occupy had the field. It did not yet have the form. It was not destroyed from within. It was demolished from outside, by coordinated municipal action across cities — the same pattern Federici documented in the fifteenth century, the same pattern Roy documented in the Narmada valley. External power doesn't compete with commons governance. It destroys the conditions that make commons governance possible.
 
 The question it raised is still live: what would it have taken?
 
 ---
 
-I want to tell you about a failure first. Mine.
+A failure first. Mine.
 
-The restaurant meditation circle worked — I wrote about this in Chapter 3. The practice moved from me into the institution, and one night I overheard our staff telling regulars about it with pride. That is the governance principle in its most compressed form: the practice that survives is the one that no longer needs you.
+The restaurant meditation circle worked. The practice moved from me into the institution, and one night I overheard our staff telling regulars about it with pride. That is the governance principle in its most compressed form: the practice that survives is the one that no longer needs you.
 
-But then there was the Armed Forces Brewing Company — the anti-LGBTQ brewery seeking a permit next door to an LGBTQ aid center, which you met in Chapter 1. The neighboring league wanted to issue a statement of opposition. A symbolic act. A gesture. My league's new members wanted to sign on in solidarity. The board left it off the agenda.
+But then there was the Armed Forces Brewing Company — the anti-LGBTQ brewery seeking a permit next door to an LGBTQ aid center. The neighboring league wanted to issue a statement of opposition. A symbolic act. A gesture. My league's new members wanted to sign on in solidarity. The board left it off the agenda.
 
 They were within their rights. No rule violated. Just fear, made decisive by the structure of the institution. I watched the board absorb a majority impulse of the membership and return nothing.
 
@@ -53,13 +53,13 @@ When the board left the solidarity vote off the agenda, the desiring production 
 
 What Occupy had, in its best moments, was unblocked desiring production — collective intelligence flowing through a community that had temporarily dissolved the structures that usually block it. What it lacked was the form that could hold that flow across time, conflict, and the moments when the network slows and the structure must carry the weight.
 
-You cannot build that form through desire alone. The form was documented by communities that have been doing it for centuries. We covered Ostrom's eight principles in Chapter 3. Not utopia. The minimum conditions for a room that works. The pattern language of the commons — accumulated across centuries of communities that governed shared resources and survived. What Graeber found in five thousand years of debt records. What H&N found in the movements of 2011. What the Törbel community instantiated in 1483 and has been practicing ever since.
+You cannot build that form through desire alone. The form was documented by communities that have been doing it for centuries. Not utopia. The minimum conditions for a room that works. The pattern language of the commons — accumulated across centuries of communities that governed shared resources and survived. What Graeber found in five thousand years of debt records. What H&N found in the movements of 2011. What the Törbel community instantiated in 1483 and has been practicing ever since.
 
 The form holds when the people using it bring their gifts. This is Plotkin's contribution to governance: the initiated community governs differently from the uninitiated one. Not because its members are better — because they have discovered what they carry and arrived at the table to offer it. The uninitiated institution runs on position. The initiated one runs on gift. The difference shows up in whether the conflict, when it comes, is navigated as threat or as information.
 
 ---
 
-Hardt and Negri called the political subject we need the *multitude* — the composition of singularities that cooperates without becoming identical. This is the answer to what Chapter 9 left open: the collective form that governs without becoming a party, that holds the position without centralizing the power. Gramsci named the strategy. Simondon named the architecture. The multitude names the subject. Not a unity. Not a people. A composition. Each element irreducible. The whole more than the sum. The governance structure not the cage that holds it but the form that allows its collective intelligence to produce decisions.
+Hardt and Negri called the political subject we need the *multitude* — the composition of singularities that cooperates without becoming identical. The collective form that governs without becoming a party, that holds the position without centralizing the power. Gramsci named the strategy. Simondon named the architecture. The multitude names the subject. Not a unity. Not a people. A composition. Each element irreducible. The whole more than the sum. The governance structure not the cage that holds it but the form that allows its collective intelligence to produce decisions.
 
 The Prince, in this understanding, is not the sovereign. Not the party. The multitude itself — governing through the commons, as a composition of singular beings who have each made some descent and brought something back. A herd of centaurs, each one carrying the oblique angle, each one in relation to the others through the field.
 
@@ -86,8 +86,6 @@ Ostrom's pattern language is love made structural. The accumulated wisdom of com
 The commons is not a mechanism for allocating resources efficiently. It is the institutional form of love — the force that makes things more real, that nourishes what is already becoming, that holds the field open so the flowering can keep happening.
 
 ---
-
-This is the answer to the question this chapter was asked to answer.
 
 *How?*
 
