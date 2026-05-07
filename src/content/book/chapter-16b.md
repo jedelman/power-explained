@@ -13,7 +13,7 @@ The filmmakers were Lilly and Lana Wachowski. They are trans women. The film is 
 
 The people who point the way out are, structurally, the people who were never fully inside.
 
-This is the argument this book has been making since Chapter 6. Robinson. Wynter. Rodney. Turing. The Basmati farmers. The adivasi forest communities. The knowledge produced on the outside doesn't stay on the outside — and neither do the people. The ones who were handed a representation of themselves and knew it wasn't true are the ones who could see the simulation as a simulation.
+Robinson. Wynter. Rodney. Turing. The Basmati farmers. The adivasi forest communities. The knowledge produced on the outside doesn't stay on the outside — and neither do the people. The ones who were handed a representation of themselves and knew it wasn't true are the ones who could see the simulation as a simulation.
 
 ---
 
@@ -55,8 +55,6 @@ Return now to the forest.
 
 The mycorrhizal network is underground, in the dark, in the language of chemistry rather than light. You would not know it was there from looking at the canopy. The most essential part of the forest's intelligence is invisible from above.
 
-The same is true of human expression.
-
 The legible record — the published, digitized, indexed, searchable body of human writing — is the canopy. It is real. It is vast. But the pre-individual field — the meaning that lives in the body and the pause before someone speaks, in the room where Marsha P. Johnson laughed, in the kitchen where your grandmother's language was alive, in the workshop where the Basmati rice variety was being selected by hands that had been doing this for two hundred years — never made it into the training data for the systems that now generate language. It couldn't. It is not encodable.
 
 What those systems were trained on was already a representation of the commons. The part that had passed through every institutional filter, every commercial decision about what was worth preserving. The canopy, carefully photographed. The underground network, absent.
@@ -75,7 +73,7 @@ If you cannot be measured, you are not seen. The system is missing most of the f
 
 In 1997, a Texas company called RiceTec was granted a patent on Basmati rice — a grain that farming communities across India and Pakistan had developed over centuries through generations of careful selection. Robinson's formulation: the knowledge produced on the outside, by people whose relationship to a living system had produced what the market needed, taken into the system without the people who produced it. Nobody had thought to call it intellectual property because the concept would have been incoherent — the knowledge was not separable from the community, the seasons, the specific land. Until it was enclosed. Some claims were eventually invalidated after legal challenge. But the logic was exact: take the knowledge a community built over generations, encode it in the language of ownership law, and sell it back to the people who developed it under terms that make their own traditional practices conditional on a license.
 
-The writer whose work trained a language model is receiving the same structural argument in a different form. The commons goes in. The proprietary artifact comes out. The people who constituted the commons have no say in what is made from them. The training corpus holds the accumulated written expression of human civilization, and nobody yet knows how far the effects of enclosing it will reach — into what futures, into what foreclosures of thought that no one has yet had occasion to attempt.
+The writer whose work trained a language model is receiving the same structural argument in a different form. The commons goes in. The proprietary artifact comes out. The people who constituted the commons have no say in what is made from them.
 
 ---
 
