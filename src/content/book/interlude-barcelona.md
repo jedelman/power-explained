@@ -12,9 +12,11 @@ Then salsa.
 
 Not a performance — a class, or something between a class and a party, the boundary dissolving quickly. People of all ages. Couples, groups of friends, a few people alone at the edges who were clearly trying to decide whether to join. Cart vendors appeared, selling something cold and sweet, and stayed. The street, which an hour earlier had been about fish, was now about dancing, and nobody had organized this except in the loosest possible sense — someone had brought a bike and a sound system and an idea, and the city had made the rest possible.
 
-Barcelona has been depaving its intersections for years. Taking back space that was given to cars in the 1960s and 1970s, returning it to the people who live on the streets those cars cut through. The city calls them *superblocks* — clusters of streets deprioritized for through traffic, freed up for walking, cycling, planting, sitting, dancing. The policy was controversial when it started. Now it produces Tuesday evenings like this one.
+Barcelona has been depaving its intersections for years. Taking back space that was given to cars in the 1960s and 1970s, returning it to the people who live on the streets those cars cut through. The city calls them *superblocks* — clusters of streets deprioritized for through traffic, freed up for walking, cycling, planting, sitting, dancing. The policy was controversial when it started.
 
-This is what the commons feels like from the inside: not a victory, not an event, just a Tuesday. The infrastructure had been changed, the space had been returned, and what people did with it was exactly what you would expect people to do when given a street and an evening: they made something together that none of them could have made alone.
+The infrastructure had been changed, the space had been returned, and what people did with it was exactly what you would expect people to do when given a street and an evening: they made something together that none of them could have made alone.
+
+Not a victory. Not an event. Just a Tuesday.
 
 I watched from the edge. I'm a DJ. I noticed the rig. The music had started before I got there — it wasn't waiting for me, or for anyone. There was ease in that. The ease of knowing that life goes on even if yours doesn't.
 
