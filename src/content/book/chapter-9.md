@@ -74,7 +74,7 @@ Every community land trust that removes housing from the speculative market perm
 
 These are not waiting for the revolution. They *are* the revolution, happening at the speed that permanent change actually happens.
 
-Gramsci named the strategy. He didn't quite name the subject — the collective form that inhabits the terrain once it's been won, that governs without becoming a party, that holds the position without centralizing the power. That question is still open. We'll come back to it.
+Gramsci named the strategy. He didn't quite name the subject — the collective form that inhabits the terrain once it's been won, that governs without becoming a party, that holds the position without centralizing the power.
 
 ---
 
@@ -95,7 +95,3 @@ He knew what he was building. He built it anyway.
 Right now the thing I'm building is this book. That's the form available. I still make a good curry. I can bake bread and refry beans. The future — who knows. I think we'll be all right. Most of us, at least. I just wish it felt like that more often.
 
 The war of position is not a heroic posture. It is the decision to keep building in the form available to you — sentences, meals, seeds scattered in a neighborhood you're not sure will hold them — against the knowledge that you probably won't see what they become. Gramsci knew this. He built it anyway, in prison, in failing health, in an Italy that was moving in the opposite direction of everything he believed. The thread has never broken. It has passed through many hands that didn't know they were holding it.
-
----
-
-*What is already being built in the territory you move through — the institutions, relationships, and common sense that the next crisis will either find already there or will need to build under pressure? The war of position doesn't look like war. It looks like a cooperative, a land trust, a school, a water council. It looks like neighbors who know each other's names.*
