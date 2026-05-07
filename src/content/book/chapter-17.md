@@ -5,8 +5,6 @@ description: "Every culture that survived long enough to develop a tradition of 
 h1: "The Owl at the Edge of the Circle"
 part: "Part VI: What to Build"
 ---
-*[Jason's section]*
-
 Tracking is a practice of attending.
 
 You learn to read the language the living world writes in soil and scat and bent grass and the way a hoof rolls as an animal moves. You learn it in the body, not the mind — there is no shortcut through information. A skilled tracker moves at a particular pace, with a particular quality of quietness that is not stillness but a specific kind of aliveness: fully present, releasing the insistence on what you expect to find, following what is actually there.
@@ -28,8 +26,6 @@ The circle resumed.
 Nobody announced that this had been significant. Nobody needed to. The community already knew how to receive a singular presence — to pause, to attend, to let it speak and then let it go. The form of the circle had already taught them that. The owl arrived, and the form held him, and the form held the group, and both were the same form.
 
 This is the chapter's central image. Not the owl — the receiving. The community that already knows how to attend to what arrives from outside its ordinary frame. The community that has built, through practice, the capacity to welcome the singular and be changed by it.
-
-That capacity is what initiation produces. And its absence is the crisis this chapter is about.
 
 ---
 
@@ -109,13 +105,11 @@ What Moses built instead — the housing projects organized for legibility and m
 
 Christopher Alexander spent his career trying to understand what Jacobs had seen and generalize it into something buildable. His *Pattern Language* identified 253 recurring patterns in human environments — each one a solution to a problem in how people actually live together, encoded from centuries of accumulated wisdom. Not rules. Living patterns: forms that, when present, tend to support human flourishing, and whose absence tends to suppress it.
 
-The pattern language is a commons. Nobody designed it. It emerged from millions of people across centuries building places that worked, or didn't, and whose bodies registered the difference. It is available to anyone. Like language itself, it belongs to no one and everyone. Like the adivasi communities' forest governance in Chapter 12: knowledge embedded in practice so deep that outsiders couldn't see it until it was being destroyed — and which, unlike a patent, cannot survive displacement, because it is specific to the place.
+The pattern language is a commons. Nobody designed it. It emerged from millions of people across centuries building places that worked, or didn't, and whose bodies registered the difference. It is available to anyone. Like language itself, it belongs to no one and everyone. And, unlike a patent, it cannot survive displacement, because it is specific to the place.
 
 Alexander's deeper claim: living environments have an objective quality — not merely an aesthetic one — that either supports or suppresses the wholeness of the people who inhabit them. The quality is the same one found in living organisms, in the patterns of a flourishing forest. It is the same quality the speaking circle was generating, and the owl recognized.
 
 ---
-
-This is the chapter's central claim, and it is also the book's:
 
 The community reconstitutes itself through the singular journeys of its members. Initiation is the mechanism. The return is the hinge.
 
@@ -125,10 +119,6 @@ This is what Hardt and Negri mean by the collective production of subjectivity. 
 
 The direction of this chapter is outward and upward: from the individual singularity discovered in descent, toward the community capable of receiving it, toward the city that embeds those practices in its built form, toward the institutions — the governance structures of the commons — that hold all of it at scale.
 
-That is where we go next.
-
 But the direction is always the same: out of the underworld, toward the community. The call is always the same: learn to welcome and attend.
 
 The owl came and said what he had to say.
-
-We are the ones who need to learn to hear it — and to be the community, for each other, that makes the return possible. The circle in the woods. The sidewalk ballet on Hudson Street. The park in Lower Manhattan where five thousand people showed up and discovered they already knew how to govern themselves. The scale changes. The form is the same.
