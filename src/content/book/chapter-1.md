@@ -104,7 +104,7 @@ After midnight, the truck traffic on Hampton Boulevard subsides. I used to cross
 
 You have to be moving slowly enough to see them.
 
-The night herons nest in the willow oaks on the other side of the Brambleton crossing. They've been coming back every spring for as long as anyone has been watching. They will come back next spring. They don't know about the road.
+The night herons nest in the willow oaks on the other side of the Brambleton crossing. They've been coming back every spring for as long as anyone has been watching. They will come back next spring. They know about the road the way that matters: they've routed around it, built a life on the other side of it, refused to let it sever the relationship between this colony and this stand of trees.
 
 ---
 
