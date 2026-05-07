@@ -260,3 +260,93 @@ Poem III: I cut everything after "That." and it's the right call. The poem is no
 
 What the iteration revealed: the first drafts were written *about* their subjects. The second drafts are beginning to be *with* them. That's the distance the beauty pass has to close in the manuscript — not everywhere, but in the moments that matter most.
 
+
+---
+
+## Entry 2 — 2026-05-07
+
+### Rilke: Archaic Torso of Apollo
+
+The poem that opened this:
+
+*for here there is no place / that does not see you. You must change your life.*
+
+What Rilke knows that Oliver doesn't quite reach: the reversal of the gaze. Oliver teaches you to look. Rilke shows you that the thing you're looking at has been looking back the whole time — from all its borders, from every broken place, from the dark center. The transformation isn't willed. It's a consequence of being seen that completely.
+
+The question for this book: does the prose *do* this to the reader? The book describes the commons seeing people whole. But does the reader feel seen?
+
+Chapter 18 already has the Rilkean ending buried in it: "This is where the earth flowers." That's "you must change your life." Same move, different language. The ordinary room — the unread agenda, the seven-fifteen, the eleven people — radiating from all its borders.
+
+---
+
+### A Rilke Poem: Before the Meeting
+
+*(The voice that suits Rilke in this book is not inside the governance chapter — it's the approach. The reader not yet in the room.)*
+
+---
+
+**Before the Meeting**
+
+You have been in rooms like this before
+and left unchanged.
+
+You know the folding chairs,
+the agenda printed and forgotten,
+the fluorescent light
+that makes everyone look
+slightly more tired than they are.
+
+You know how to sit in such a room
+and remain elsewhere —
+the part of you that watches from a distance,
+the part that has already decided
+nothing here will matter.
+
+But look:
+
+the woman across from you
+has carried something into this room
+that you cannot name.
+It shows in the way she sets down her bag.
+The man beside her brought something too —
+from whatever he came through
+to be here on a Tuesday at seven-fifteen.
+
+This room does not need your transformation.
+It has been transforming without you.
+
+The conflict that has been running for six months
+is about to become
+something neither side expected.
+The agenda no one read
+contains, in its third item,
+the question that changes the direction.
+
+You came here to observe.
+
+But there is no place in this room
+that is not already looking back at you
+from all its borders —
+the water-stained ceiling,
+the folding chairs,
+the woman with the thing she carried,
+the man and what he brought through —
+
+all of it, patient, waiting
+for you to stop watching
+and arrive.
+
+---
+
+### Reading It
+
+This is closer to Rilke than the Oliver poems were to Oliver — and I think I know why. Rilke's move is *argument through address*. He's always talking to someone, pushing against their resistance, and the poem is the pressure that breaks through. That structure suits this book's second-person register better than Oliver's contemplative attention.
+
+The strongest moment: "the woman across from you / has carried something into this room / that you cannot name." That's doing what the Archaic Torso does — pointing at a presence that can't be fully apprehended, that exceeds description. It doesn't explain what she carried. It trusts that the reader will feel the weight of the unnamed thing.
+
+The weakest moment: "This room does not need your transformation." Too clever. It's a reversal for its own sake, and Rilke never did reversals for their own sake — his reversals were consequences of pressure building until the poem had no other direction to go.
+
+"All of it, patient, waiting / for you to stop watching / and arrive." — This is the real ending. "Arrive" is doing the work "you must change your life" does. Not instruction. Consequence.
+
+What this taught me: Rilke's register is useful for the *approach* to the book's culminating images — not the images themselves, which the book already handles. The reader needs to be broken open *before* the governance meeting, not during it. The chapter already knows how to be the room. The poem is the hallway.
+
