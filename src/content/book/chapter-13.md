@@ -16,8 +16,6 @@ Among those who received a Rolling Jubilee letter was a woman in her early thirt
 
 Strike Debt grew into the Debt Collective, which organized the first student debt strike in American history and won $6 billion in debt cancellation for students defrauded by for-profit colleges. The logic was Graeber's: debt is a social relationship that has been weaponized. The weapon can be turned.
 
-The same logic extends beyond money. Knowledge, code, language — all of them commons that have been enclosed into instruments of extraction. The GPL did it for software. The jubilee does it for debt. The principle is the same: what was taken from the commons can be returned to it.
-
 ---
 
 In *Debt: The First 5,000 Years*, David Graeber studied five thousand years of economic history to make one point.
@@ -68,7 +66,7 @@ The Mondragon cooperative federation built its own bank — the Caja Laboral —
 
 I spent the first three years of running the restaurant arguing with banks. I had started with seller financing — the previous owner holding the note, the way small transactions happen when conventional lenders won't. Post-COVID, the only commercial loans going out were to REITs. Not to a restaurant in Chelsea trying to refinance a seller note. I eventually negotiated a loan with my father. The entire process was humiliating in the specific way that asking family for money is humiliating — the relationship that should be outside the market, pulled into it, repriced, restructured as a financial instrument. I got the loan. The relationship survived. But I had been inside the exact mechanism Graeber describes: the commons of mutual obligation subjected to the logic of extraction because no institution existed that was governed by people like me, for purposes like mine.
 
-A Caja Laboral would have saved my ass many times over. Not as charity — as architecture. An institution whose incentives were aligned with the project succeeding rather than with minimizing its own exposure.
+A Caja Laboral would have saved my ass many times over. Not as charity — as architecture.
 
 ---
 
@@ -88,14 +86,8 @@ Among bartenders in the area there's a custom called the boomerang bottle: a cle
 
 Jane Jacobs documented the same logic operating at scale in the North End of Boston, an Irish immigrant district that banks had redlined entirely. With no access to conventional lending, the community ran a completely informal credit system that financed building improvements for an entire generation — neighbor to neighbor, tracked in memory and relationship rather than in any ledger a bank would recognize. That district became the most expensive real estate per square foot in Boston — and then, predictably, the banks arrived. The credit commons had produced what conventional finance declared unfinanceable. Enclosure claimed the value it had refused to help create.
 
-I suspect this is more common in communities where formal financial institutions have been hostile or absent long enough that people have built alternatives in the only form available — informal, unrecorded, running on trust accumulated through proximity. The accounting is the relationship. You know what you owe because you know who you are to each other.
-
 The commons of credit is not a future project. It exists. It is available to join, to build, to use instead of the institutions that extract from you.
 
 But I want to be honest about why this is the hardest part. The credit commons is the crux of mutual aid — the place where the logic of the commons runs hardest against the logic of enclosure, because debt calculation is the deepest thing the system has installed in us. I can deprogram white supremacy out of my friends. I cannot deprogram debt calculation. The belief that debt is a moral weight, that owing is a condition of character, that the inability to pay reflects something about who you are — this runs deeper than most political ideology, because it was installed earlier, through more intimate mechanisms, with higher emotional stakes. Graeber traced five thousand years of history making the case that this belief is contingent, that it was built, that it has been otherwise and can be otherwise again. That is the most important thing in this chapter. It is also the hardest thing to actually feel in your body as true.
 
 The credit commons is not waiting for the belief to shift. It is already running — in the susu, the boomerang bottle, the Debt Collective, the credit union on the corner. It is available now. What shifts is not the structure but your relationship to it.
-
----
-
-*What institution holds your debt right now, and what does it do with the interest you pay? Credit unions and cooperative banks exist in most cities. The debt strike showed that debts bought on the secondary market can be abolished rather than collected. The question is not whether the credit commons is possible. The question is whether you're in it — and if not, what it would take to get there.*
