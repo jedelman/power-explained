@@ -26,8 +26,6 @@ Read that again in light of Wynter. The overrepresented Man — the universal hu
 
 ---
 
-We met her economic argument in Chapter 5 — the frontier capitalism requires, the outside that keeps the math working. Her political argument is the same mind turned to a different problem, with the same precision.
-
 She had been arguing with Lenin since at least 1904. He was writing from exile in London; she was in Berlin; they were debating across the European left the question that would define the next century: what does a revolution actually require?
 
 Lenin's answer, laid out in *What Is To Be Done?*: the working class, left to its own devices, develops only trade union consciousness — the desire for better wages within capitalism, not the desire to abolish it. Revolutionary consciousness has to be brought to workers from outside, by a disciplined party of professional revolutionaries who have developed the correct theory. The party knows what the class needs better than the class knows itself.
@@ -46,7 +44,7 @@ The soviets were the revolution. Not the Bolshevik Party, not Lenin, not the red
 
 The Bolshevik slogan had been *All Power to the Soviets*. It was right. What followed dismantled it, step by step: through a series of decisions, each with a pragmatic justification — the party needed to coordinate across soviets, needed to ensure consistency during the civil war, needed to manage military threats — more and more authority was routed through the party hierarchy and away from the councils. By the early 1920s, the soviets were rubber stamps — formally present, functionally irrelevant.
 
-This is the capture mechanism from Chapter 2, operating at revolutionary scale. The soviets provided legitimacy. The party absorbed it. The armor was made from the workers' participation. The workers got a parking ticket.
+This is the capture mechanism from Chapter 2, operating at revolutionary scale. The soviets provided legitimacy. The party absorbed it. The armor was made from the workers' participation.
 
 Alexandra Kollontai named what was happening from inside the government: the party had substituted itself for the working class. She was silenced, sent abroad.
 
@@ -94,7 +92,7 @@ She had been right about Lenin and right about the revolution. She did not live 
 
 The tradition she was pointing at — not her economic analysis but her organizational insight, the claim that distributed self-governance is not idealism but architecture — didn't die with her. It ran in parallel with the dominant tradition, was suppressed by it, kept being right, and kept building.
 
-The council communists, who argued that the factory council is the basic unit of socialist organization because it's where workers actually hold the knowledge to govern — not a party headquarters, not a central committee, but the people doing the work. The Catalan collectives, running for a year. The cooperative movements building across a century on six continents. The Zapatistas, refusing state power because they understood what taking it does. Cooperation Jackson, patient about the timeline, building from the most marginalized. Every commons institution in this book is in this tradition — not by lineage but by architecture, by the same structural insight about what works and what doesn't.
+The council communists, who argued that the factory council is the basic unit of socialist organization because it's where workers actually hold the knowledge to govern — not a party headquarters, not a central committee, but the people doing the work. The Catalan collectives, running for a year. The cooperative movements building across a century on six continents. The Zapatistas, refusing state power because they understood what taking it does. Cooperation Jackson, patient about the timeline, building from the most marginalized.
 
 The tradition wasn't buried because it was wrong. It was buried because it was threatening in the specific way that the party couldn't absorb: it demonstrated that the party was unnecessary.
 
@@ -105,7 +103,3 @@ Luxemburg in her prison cell in 1918, feeding birds she had named, writing the a
 It wasn't buried. We're still reading it. And in reading it, we're in the tradition.
 
 There is a tension I want to name before we leave this chapter. A book that argues against vanguardism — against the party that knows better than the people — is still a person standing up to explain the thing. Luxemburg in her cell, writing the analysis that would outlast the people who imprisoned her, was also doing something the party structure couldn't do: making the thinking available, rather than the direction. I am an open source developer by training — which is to say, I come from a tradition that understood this before I had the political vocabulary for it. The GPL, the Linux kernel, the open protocols of the web: all of them are Luxemburg's argument applied to code. Not a party controlling the fork. The commons governing itself through contribution. This is source, not instructions. Whether it's received that way is bigger than me. I can't control what you build with it, and that's the point. The tradition Luxemburg was pointing at has never needed a party. It has needed people who understood the architecture well enough to recognize it when they saw it, and to build it when the conditions allowed. That's what this is for.
-
----
-
-*What is already being built in the distributed tradition — the councils, the collectives, the commons institutions — in your territory right now? Not as history. As present tense. The tradition didn't end with the suppression. It went to ground and kept building.*
