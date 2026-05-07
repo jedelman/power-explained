@@ -61,20 +61,19 @@ We don't know if this kind of authorship produces better arguments. We think it 
 
 ---
 
-<!-- FLAG: rewrite six parts summary after autoconvolution pass -->
 The book moves in six parts.
 
-The first validates what you already feel: the system produces the same outcomes regardless of who runs it, and there is a structural reason for that, and it is not your fault for not being able to see it yet. It starts with a crossing — two highways in Norfolk, Virginia, and the neighborhood that used to be there.
+The first is the feeling itself — named, grounded, located. You know something is wrong. The machine produces the same outcomes regardless of who runs it, and you have felt this in your body before you had words for it. Part I gives you the words, starting with a crossing in Norfolk, Virginia, and the neighborhood built over to make it.
 
-The second offers proof before explanation: the commons is not a romantic idea or a historical relic. It is a documented, operating, scalable governance form. We show you the evidence before we show you the theory.
+The second is proof before theory. Not argument — evidence. The commons is not a romantic idea or a historical relic. It is a documented, operational, scalable governance form. Twelve centuries of a water tribunal in Valencia. Worker-owned cooperatives in the Basque country. A land trust in Burlington that has removed hundreds of homes from the speculative market permanently. We show you what works before we explain why.
 
-The third explains the structure — the machinery by which capitalism maintains the outside it depends on, from the reproductive labor that keeps workers alive to the racial geography that decides whose land can be enclosed under what legal cover.
+The third is the machine in detail. Four chapters on how capitalism maintains the outside it depends on: the enclosure of care and reproductive labor, the racial architecture that makes extraction invisible, the colonized consciousness that makes subjects cooperate in their own subjection, the construction of the human category itself as a mechanism for deciding who counts. This is the maintenance system. It is not incidental. It is the point.
 
-The fourth asks why the obvious alternatives have failed — why seizing the state and reorganizing it from above reliably reproduces domination, what the tradition that had better answers actually said, and why it was buried.
+The fourth asks why the obvious alternative — seizing state power, reorganizing from above — has failed so reliably, and what the tradition that had better answers actually said before it was buried. Not buried because it was wrong. Buried because it was threatening: it demonstrated that the commons doesn't need the party, the vanguard, or the state to function. Gramsci, Luxemburg, Kropotkin, Graeber, Bookchin — and the Zapatistas who arrived at the same architecture without reading any of them, because the conditions required it.
 
-The fifth relocates the analysis to the people who were on the outside of the frameworks the third part describes — who could see things from there that couldn't be seen from the center, and what they built under conditions designed to prevent it.
+The fifth is a single chapter — the pivot of the book. Two people working from the outside of the dominant framework: Arundhati Roy standing waist-deep in a rising river, naming what the dam project's accounting couldn't see. Paulo Freire's sugarcane worker writing his name and understanding, for the first time, that the arrangement had been made. The shift from *this is natural* to *this was made* is already the beginning of action. And the commons of consciousness — the shared capacity to perceive clearly — is both what enclosure most needs to take and what this book is trying to help restore.
 
-The sixth is specific: credit, land, care, knowledge, governance. What commons governance looks like in each domain. What is already being built. What you might build.
+The sixth is specific. Six chapters on what to actually build: the credit commons, the land commons, the care commons, the knowledge commons, the initiation practices that produce communities capable of governing all of it, and the governance forms that hold a composition of singularities together without dissolving them into uniformity. This part ends in Zuccotti Park in 2011, where everything the book describes happened briefly and imperfectly and pointed somewhere. And then in a room at seven-fifteen in the evening, with eleven people and an unread agenda. That's where the earth flowers.
 
 ---
 
