@@ -19,7 +19,7 @@ Go into an old-growth forest.
 
 The ground looks still. But scientists now know that under every old stand of trees, the roots are threaded through with fungal networks — connecting tree to tree, older trees feeding younger ones, the whole forest in slow chemical conversation with itself. The forest is not a collection of individuals competing for light. It is a single living process that has learned to individuate into trees — each one drawing from the network without depleting it, contributing to the network by growing, nourished without being asked to become a different kind of tree.
 
-This is what the philosopher Gilbert Simondon called the *pre-individual field* — the charged, generative excess from which individuals emerge without exhausting it. Not a resource to be drawn down but a field that is replenished by each act of individuation. You are not a finished object. You are an ongoing event, always in relation to a field that exceeds you. The individual is not prior to the collective. The collective is the condition of the individual.
+This is what the philosopher Gilbert Simondon called the *pre-individual field* — the charged, generative excess from which individuals emerge without exhausting it. Not a resource to be drawn down but a field that is replenished by each act of individuation. You are not a finished object. You are an ongoing event, always in relation to a field that exceeds you. The individual is not prior to the collective. The collective is the condition of the individual. This is also the answer to the question Chapter 9 left open — what is the collective form that governs without becoming a party, that holds the position without centralizing the power? The field. Not the organization that imposes form on individuals, but the charged generative excess that makes individuation possible without requiring uniformity. Gramsci named the strategy. Simondon names the architecture.
 
 Nobody invented the word *love*. It grew, in communities, across centuries, shaped by millions of mouths without anyone's permission or ownership. The grammar you are reading this in — the rhythm that makes a sentence feel complete — none of it was designed. It emerged from the same kind of field: a living commons, available to anyone born into its reach, replenished by every person who thinks and speaks and makes.
 
@@ -65,7 +65,7 @@ The Situationists tried to rupture the spectacle through ideas performed in publ
 
 The philosopher Gilles Deleuze, writing in the aftermath of 1968, had a name for what both uprisings were reaching toward. He wrote about the *body without organs* — not the anatomical body organized into its assigned functions and roles, but the body understood as a field of potential, not yet resolved into the form the system has prepared for it. Before the category. Before the assigned role. The body as ongoing becoming.
 
-Every system of enclosure attempts what Deleuze called *territorialization* — fixing the body to a territory, a function, a legible identity it cannot leave. The refusal — Stonewall, the ballroom houses, the mycorrhizal communities of care that queer people built precisely because the official structures wouldn't hold them — is *deterritorialization*: the body slipping the assignment, the field of potential refusing to resolve into the finished arrangement.
+Every system of enclosure attempts what Deleuze called *territorialization* — fixing the body to a territory, a function, a legible identity it cannot leave. The refusal — Stonewall, the ballroom houses, the mycorrhizal communities of care that queer people built precisely because the official structures wouldn't hold them — is *deterritorialization*: the body slipping the assignment, the field of potential refusing to resolve into the finished arrangement. These are care commons in exactly the sense Chapter 15 described: built by people who decided the alternative was unacceptable, running on the accumulated relational intelligence of who shows up, who can be trusted, who knows what.
 
 The insistence on remaining in process.
 
@@ -139,7 +139,7 @@ Four years. Stallman, Berners-Lee, Torvalds — working in different countries o
 
 What they built became the infrastructure of the digital world. None of them became billionaires. The people who built platforms on top of their gift did.
 
-The commons is not a noun, not a thing you finish and possess. The Törbel community didn't write their governance charter in 1483 and consider the matter resolved. They governed, actively, in perpetuity, by ongoing collective choice. The gift is never secured once and for all. The field must be held.
+The commons is not a noun, not a thing you finish and possess. The Törbel community didn't write their governance charter in 1483 and consider the matter resolved — the same Törbel commons that Ostrom documented in Chapter 3, five centuries of practice before anyone had named the design principles it was running on. They governed, actively, in perpetuity, by ongoing collective choice. The gift is never secured once and for all. The field must be held.
 
 This book exists because that is true.
 
