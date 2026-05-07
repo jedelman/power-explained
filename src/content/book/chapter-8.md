@@ -40,8 +40,6 @@ The political implication is the one that unsettles everyone: decolonization is 
 
 ---
 
-When institutions built on that foundation try to address the exclusion it produces, they reproduce it instead — which is what Crenshaw showed.
-
 Kimberlé Crenshaw grew up in Canton, Ohio, went to Cornell, then Harvard Law School, where she was one of very few Black women in a profession built by and for a very specific kind of person. She arrived at the intersection constantly — in her coursework, in the cases she studied, in the frameworks she was being trained to use. The law could see race. It could see sex. It consistently could not see her — not because she was invisible, but because the categories it used had been built around other people's experiences, and the combination was unspeakable within the available frameworks.
 
 DeGraffenreid v. General Motors made the structure visible as structure. The legal framework available — race discrimination law developed primarily around the experiences of Black men, sex discrimination law developed primarily around the experiences of white women — was adequate for people whose oppression arrived through one axis. For people whose oppression arose from the combination, the framework was invisible. Not because nobody tried to fit them in, but because the architecture made the combination unspeakable.
@@ -62,8 +60,6 @@ Davis's political conclusion is also Wynter's and Crenshaw's, stated in material
 
 These are the commons institutions that, built at scale, address the conditions that incarceration currently manages by enclosing them. The abolitionist project is the commons project applied to the question Mbembe asks: what do you build when the answer to *whose death is acceptable* has been institutionalized in a building with a budget and a staff?
 
-The practitioners who have been doing this building — the mutual aid networks, the community accountability processes, the people doing the work of abolition geography in specific neighborhoods — are where Part VI goes. Mariame Kaba has spent decades building exactly these structures and thinking clearly about what they require. That conversation belongs where the book turns to building. Davis opens the door.
-
 Davis's question — what do you build when the investment calculus has already decided? — is not abstract for me.
 
 Norfolk holds the port, most of the major shipyards, and a concentration of military bases. The bases don't pay property tax. The people living here mostly aren't choosing to be here — they're on temporary assignment, or they were born here and haven't figured out how to leave. The people actively choosing Norfolk are choosing it for family, mostly, with a small proportion of people who see something in the place worth building toward. When we moved here we saw the possibility: a mid-size city with bones, with a waterfront, with the kind of rent that could still support a bohemian life if you arrived before the developers. We wanted to build something — an art colony, a cultural node, the thing that cities like this can become if someone decides to.
@@ -74,18 +70,4 @@ Davis's abolitionist geography is about tracing those investment decisions and c
 
 ---
 
-Wynter: the category of the human was constructed to produce the outside. The definition of what a full human being is — embedded in institutions, disciplines, and ways of knowing that feel neutral — was built to exclude. Decolonization requires not admission to that category but reconstruction of it.
-
-Crenshaw: the frameworks built to address the outside systematically fail the people who are most outside. The gap is structural. Building from the most excluded is not a moral aspiration — it is the only way to build something that actually threatens enclosure rather than reproducing it at smaller scale.
-
-Davis: the prison is the outside made into an institution, and abolition is the commons project applied to it. The building has already started. The question is whether it will reach the scale the conditions require.
-
-Part III has traced the machinery of maintenance: how the outside stays outside. The frontier that capitalism requires. The racial architecture that makes extraction invisible. The colonized consciousness that makes subjects cooperate in their own subjection. The constructed human and the institutionalized outside that cap the whole structure. The machinery is real. It is maintained.
-
-But every chapter of Part III has also contained people who refused it — in the ward at Blida-Joinville, in Palmares, in Johannesburg, in Birmingham where the bombs kept coming and people kept moving into Dynamite Hill anyway.
-
-The people who refused it were also building. They have been building for centuries. The question Part IV takes up is not why they lost — the word is too small for what this is. It is why the organized movements to rebuild the commons at scale have remained incomplete, and what was understood by the thinkers who went deepest into that question. The tradition that had better answers was not buried because it failed. It was buried because it was threatening — because it demonstrated that the commons doesn't need the party, the vanguard, or the state to function. That argument is bigger than any single defeat. Part IV is where we follow it.
-
----
-
-*Who falls through the frameworks you rely on — at work, in your community, in the movements you're part of? Not the edge cases. The pattern. The people who are always the edge case. That pattern is structural. It is telling you something about whose experience the framework was built from, and whose it wasn't.*
+The bombs kept coming and people kept moving into Dynamite Hill anyway. That is also the tradition. It has been building for centuries. The question is whether it will reach the scale the conditions require.
