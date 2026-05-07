@@ -558,3 +558,54 @@ Solidarity with the reader means trusting them. The original chapters were writt
 
 **Ratio:** 66 lines removed, 23 added across both chapters.
 
+
+---
+
+## Entry 5 — 2026-05-07
+
+### Chapter 6 — Direction Established, Revision Deferred
+
+Chapter 6 needs a depth pass, not a beauty pass. What we found today:
+
+**Robinson's actual argument** (from *Black Marxism*, chapter 7):
+
+"A revolutionary consciousness that proceeded from the whole historical experience of Black people and not merely from the social formations of capitalist slavery."
+
+"Its epistemology granted supremacy to metaphysics not the material."
+
+Robinson isn't describing the Black radical tradition as political resistance in the Western sense. He's describing something prior — an ontological commitment. The preservation of wholeness in a system designed to make people into property. The tradition carried its own epistemology, its own metaphysics — and that understanding survived the Middle Passage because it was grounded in something capitalism couldn't fully reach.
+
+**What the chapter currently does wrong:**
+Uses Robinson primarily as a corrective to the standard story of race and capitalism. Positions the Black radical tradition as producing clarity *about* capitalism. Robinson is saying it produced something that *exceeded* capitalism's categories entirely.
+
+**What the revision needs to do:**
+- Let Robinson speak in his own voice, at length, before any synthesis
+- Decenter Western thinkers (Gramsci, Foucault, Negri) — make them one voice in a chorus, not the authority
+- Let Robinson's ontological argument stand on its own terms first, without immediately connecting it to the book's broader epistemological argument
+- Trust the reader to feel the resonance with the singularity argument when they get there
+
+**The isomorphic connection:**
+The Black radical tradition's epistemology — knowledge that exceeds the categories of the system that tried to destroy it — connects to the singularity argument later in the book. Both say: there are ways of knowing and being the averaging machine cannot reach. But this connection should arrive through reading, not through the chapter making it explicit.
+
+**Risk to avoid:**
+Using Robinson's most profound insight as a stepping stone to the book's broader argument would repeat exactly what Robinson criticized — absorbing the insight into a preformed frame. The patience is not just aesthetic. It's ethical.
+
+**Also flagged:**
+- Remove the sentence about the etymology of "slave" — too convenient for Nazis, centers wrong history
+- The Robinson introduction sentence: "Black Marxism took twenty years to write and a decade to find its readers." — holds as written
+
+**Status:** Beauty pass changes deferred. Depth pass required. Come back to this chapter with *Black Marxism* read properly.
+
+---
+
+### Beauty Pass — Chapters Completed
+
+- Prologue: held from autoconvolution pass
+- Chapter 1: ✓ kitchen floor line, herons ending, targeted cuts
+- Chapter 2: ✓ woman's voice as ending, cut explanation
+- Chapter 3: ✓ restaurant before theory, cut closing italics
+- Interlude Barcelona: ✓ fragments repositioned, controversy verified
+- Chapter 4: ✓ Arizmendi cut, arch ending removed
+- Chapter 5: ✓ transition rewritten to pull forward
+- Chapter 6: direction established, depth pass deferred
+
