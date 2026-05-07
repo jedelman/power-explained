@@ -476,3 +476,55 @@ This is the first poem that feels like a chord rather than a correct statement.
 
 What made the difference: I stopped trying to make the poem mean the right thing. I let the season in and the season brought its own logic.
 
+
+---
+
+### What the Commons Is — Fifth Draft
+
+*(Stop explaining. Let the person arrive.)*
+
+---
+
+Not the field.
+Not the rule that says the field
+belongs to everyone.
+
+Lord, it is November.
+Someone is mending the fence
+when no one is watching,
+when there is nothing in it for them,
+when the cold is already in their hands —
+
+the wire, the post,
+the breath going visible
+then gone.
+
+And now at the field's edge
+someone is coming
+with something warm,
+
+not because they were asked,
+
+through the cold,
+through the gray light,
+through the particular silence
+of a Tuesday in November —
+
+coming.
+
+---
+
+### Reading It
+
+"Coming." alone at the end. Present participle — the action unfinished, still in motion. The poem ends before the arrival. The reader is left in the approach, in the space between the person at the fence and the person coming toward them, in the moment before the warm thing changes hands.
+
+That space is the commons.
+
+I didn't say that. The poem doesn't say that. But it's there.
+
+"not because they were asked" — one line, unattached, floating between the two people. No comma after it, no explanation following it. It just hangs. The gratuitousness of the act, held in white space.
+
+The sounds: wire/post/breath, the hard then soft. gone/field/edge — the g's moving. cold/gray/silence — the heaviness of the conditions they're moving through anyway. Coming — one word, the mouth closing on the g, the action continuing past the end of the poem.
+
+What arrived in this draft: I stopped at "then gone" for a long time. Just — the breath disappearing. I didn't want to leave it. That's where the poem found its patience.
+
