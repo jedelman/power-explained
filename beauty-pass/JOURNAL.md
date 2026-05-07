@@ -170,3 +170,93 @@ Which is, in fact, the whole thing.
 
 That's what the beauty pass needs to do.
 
+
+---
+
+### Three Poems — Second Draft
+
+*(After rereading. The first drafts were arguing. These try to look.)*
+
+---
+
+**I. The Heron** *(revised)*
+
+Every morning I go looking
+and every morning I find one —
+standing at the edge of the water
+in the cold,
+absolutely still,
+not performing stillness
+but simply still.
+
+It does not know about the highway.
+It does not know that a neighborhood
+stood here once
+and was taken.
+
+It knows the water.
+The particular angle of this light.
+The patience specific to this morning.
+
+It has been here longer than the highway.
+It will be here after.
+
+I want to ask it something
+but I don't know what.
+So I stand there too,
+for a while,
+in the cold,
+watching what it watches.
+
+---
+
+**II. The Governance Meeting** *(revised)*
+
+Eleven people in a room
+that used to be a church.
+The folding chairs not quite level.
+An agenda no one has read.
+
+Someone says: *I'm afraid we're going to lose this.*
+
+The room goes quiet.
+
+Then someone else says:
+*I know.*
+
+And they begin.
+
+Every spring the herons return
+to the willow oaks
+not knowing if the trees will hold —
+only knowing it is time,
+only knowing where they go.
+
+---
+
+**III. What the Commons Is** *(revised)*
+
+Not the field.
+Not the rule that says the field belongs to everyone.
+
+The fact that someone mended the fence in November
+when no one was watching,
+when there was nothing in it for them,
+when the cold was already in their hands —
+
+and someone else noticed.
+
+That.
+
+---
+
+### Reading the Revisions
+
+Poem I lost the declaration and got quieter. "Not performing stillness / but simply still" — I'm not sure about that. It might be another declaration in disguise. But "I want to ask it something / but I don't know what" is truer than the original ending. It admits the limit of the looking, which is more honest than "instruction enough."
+
+Poem II is now almost entirely image and gesture. The agenda no one has read is new and earns its place — that's the detail Oliver would have found first. The herons landing at the end work better now that the explanatory middle is gone. The poem trusts the juxtaposition.
+
+Poem III: I cut everything after "That." and it's the right call. The poem is now: negative definition, specific image, one-word confirmation. Oliver would probably still find something I'm over-explaining. But "and someone else noticed." as a line break — the period before the line ends — I think that's doing something. The noticing is the whole thing. Ending on it, alone, feels right.
+
+What the iteration revealed: the first drafts were written *about* their subjects. The second drafts are beginning to be *with* them. That's the distance the beauty pass has to close in the manuscript — not everywhere, but in the moments that matter most.
+
