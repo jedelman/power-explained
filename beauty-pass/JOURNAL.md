@@ -409,3 +409,70 @@ The ending is quieter than the previous drafts. No "arrive." No reversal. Just: 
 
 What slowed me down this time: I stopped after "it has served you" and didn't write for a moment. Just held the line. That pause is where "carefully, like it might spill" came from. The presence note: *waiting produces what patience cannot plan for.*
 
+
+---
+
+## Entry 3 — 2026-05-07
+
+### Rilke: A Day in Autumn — What It Opened
+
+The poem is polyvocal. Lord as God, as autumn, as time, as reader, as self — all simultaneously true, none canceling the others. A chord, not a note.
+
+And the sounds are doing the ripening. The full round vowels of the middle stanzas — *coax, roundness, golden, sweetness* — open and scatter in the last — *homeless, wander, loosen*. The poem performs what it describes. The craft is in choosing sounds that open more doors than can be named.
+
+Presence note: *I kept wanting to move to the next thing. The poem kept having more. Staying is not passive — it's how the layers become audible.*
+
+---
+
+### What the Commons Is — Fourth Draft
+
+*(Revised with polyvocality. Let the fence be all of it at once.)*
+
+---
+
+Not the field.
+Not the rule that says the field
+belongs to everyone.
+
+Lord, it is November.
+Someone is mending the fence
+when no one is watching,
+when there is nothing in it for them,
+when the cold is already in their hands —
+
+the wire, the post, the particular ache
+of this morning's work,
+the breath visible in the air
+above the thing being repaired.
+
+And someone else is coming.
+You can see them at the field's edge,
+something warm in their hands,
+not yet arrived.
+
+The wire holds.
+The breath disperses.
+The cold continues.
+
+Neither of them required.
+Both of them here.
+
+The season does not explain itself.
+Neither does this.
+
+---
+
+### Reading It
+
+"Lord, it is November" — invoking the season as the poem's addressee opens the whole thing. Now the fence-mending is inside a Rilkean frame: particular, seasonal, the petition made to something that governs these conditions. The reader is implicated as witness.
+
+"The wire, the post, the particular ache" — three nouns landing without explanation. The sounds are working: wire/post/particular, the short syllables, the hardness of the materials. Then "breath visible in the air" softens it. The body in the cold.
+
+"Something warm in their hands / not yet arrived" — I don't name what it is. The unnamedness is the point. The approaching person carries what the approaching person carries. The reader fills it.
+
+The ending releases rather than closes. "The season does not explain itself. / Neither does this." — both true simultaneously. The commons, the poem, the November morning, the human act of showing up — none of them explain themselves. They just are. The reader holds all of it.
+
+This is the first poem that feels like a chord rather than a correct statement.
+
+What made the difference: I stopped trying to make the poem mean the right thing. I let the season in and the season brought its own logic.
+
