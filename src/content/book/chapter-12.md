@@ -38,8 +38,6 @@ Roy named this in terms the development economists hadn't used: the Narmada proj
 
 ---
 
-The European and Latin American commons this book has mostly described — the Valencia Water Tribunal maintained across ten centuries, the Basque cooperatives, the Catalan collectives, the Vermont land trusts — all exist in the aftermath of enclosure. They are reconstruction: people rebuilding collective governance after it was taken.
-
 The Narmada communities were something else. Not rebuilding. Continuing. Commons that had never been enclosed, governance systems that had been operating without interruption, outside the market and outside the state, sometimes for centuries. Under the constant pressure of a state that needed their land, their forests, their rivers, and had the legal and military apparatus to take them.
 
 The dam project made visible something that development accounting is organized not to see: a functioning commons that had no need of our vocabulary for itself, that didn't require external validation to continue, that simply worked because the people who depended on it had maintained it across generations with full knowledge of what they were doing. Older than the critique of capitalism, older than the vocabulary this book has been using — and invisible not because it lacked theory but because the framework doing the looking wasn't built to see it. The blindness was in the accounting, not in the commons.
@@ -59,10 +57,6 @@ Freire called this conscientization: the process by which people come to perceiv
 The 1964 military coup imprisoned Freire and sent him into exile. The generals understood his work clearly: teaching people to read was not the threat. Teaching them that their situation was historical rather than natural was. The coup's reaction was the best confirmation his method ever received.
 
 ---
-
-Roy and Freire were working in different countries, in different forms, on different things — separated by an ocean and a decade, never in conversation with each other. What they share is position.
-
-The factory councils in Turin were, by global standards, a privileged working class — urban industrial workers with organizing capacity, political consciousness, a functioning left infrastructure. The adivasi forest communities in the Narmada valley were continuous commons builders operating completely outside that infrastructure, whose governance the theory couldn't see because the theory had been developed to describe what had been destroyed, not what had been maintained. The agricultural workers in Freire's northeast were not the revolutionary subject the European left had theorized — they were closer to Rodney's underdeveloped, Fanon's colonized, the people on the outside of even the outside.
 
 From that position, certain things are simply more visible: that the commons doesn't only need to be rebuilt but defended where it already exists; that the capacity to understand one's situation as political — the belief that the arrangement can be changed — is itself something that can be enclosed.
 
@@ -102,8 +96,4 @@ This is the enclosure underneath all the other enclosures. The one that makes th
 
 What becomes possible when enough of us cultivate that attention — not just hold the right positions, but actually see? Not a revolution in the sense of a single rupture — something harder to suppress, because it doesn't live in a single organization that can be dissolved or a single leader who can be imprisoned or killed. It lives in the accumulated capacity of people who have been present to what is actually happening, who have built or defended or joined something that operates on different assumptions, who have attended carefully enough to know the difference between the simulation and the thing. Roy standing in the water. Freire's student with the pen. The children moving through the forest because we had spent a week preparing them to notice.
 
-The question is not whether enough people can wake up. It is whether we are building the conditions — the practices, the institutions, the commons of consciousness — that make waking up possible and sustainable. The deer showed up. The children were ready. That readiness was built.
-
----
-
-*When did the veil lift for you — the moment the arrangement became visible as an arrangement, something made rather than something natural? What had prepared you to see it? And what are you building, now, that might prepare someone else?*
+The deer showed up. The children were ready. That readiness was built.
