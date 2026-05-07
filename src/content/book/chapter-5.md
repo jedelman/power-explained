@@ -6,13 +6,13 @@ h1: "The Smile"
 part: "Part III: Why the System Is the Way It Is"
 ---
 
-There is a photograph, taken in a Berlin courtroom in 1914, of a small, well-dressed woman facing a judge with a smile on her face. She has just been charged with inciting civil disobedience — specifically, with telling soldiers they didn't have to shoot their fellow workers if ordered to. She said this publicly, at a rally, in front of thousands of people. She will say it again after the verdict. The German state will keep her in prison, on and off, for the rest of the decade. It will not stop her writing.
+There is a photograph, taken in a Frankfurt courtroom in 1914, of a small, well-dressed woman facing a judge with a smile on her face. She has just been charged with inciting civil disobedience — specifically, with telling soldiers they didn't have to shoot their fellow workers if ordered to. She said this publicly, at a rally, in front of thousands of people. She will say it again after the verdict. The German state will keep her in prison, on and off, for the rest of the decade. It will not stop her writing.
 
 Her name is Rosa Luxemburg. She already knows what the courtroom will decide. The smile is not bravado. It is the specific expression of someone who has understood the system clearly and has stopped expecting it to behave differently.
 
 ---
 
-She grew up in Zamość, in the Russian-occupied part of Poland, youngest of five children of a Jewish timber merchant who argued politics with anyone who would argue back. She arrived at the University of Zurich in 1889, nineteen years old, having already organized an underground political cell at her Warsaw high school, already wanted by the Russian secret police, having arranged a paper marriage with a German man she would never see again specifically to acquire a German passport and the freedom to move.
+She grew up in Zamość, in the Russian-occupied part of Poland, youngest of five children of a Jewish timber merchant who argued politics with anyone who would argue back. She arrived at the University of Zurich in 1889, eighteen years old, having already organized an underground political cell at her Warsaw high school, already wanted by the Russian secret police. [FLAG: The paper marriage to obtain German citizenship — which allowed her to move to Berlin — took place in April 1898, when she was leaving Zurich, not before she arrived there at 18. If the sentence is meant to compress the Zurich years into a single clause, the chronological implication should be verified against the narrative intent.]
 
 She got her economics doctorate. She moved to Berlin. She became one of the most prominent voices in the German Social Democratic Party — the largest socialist party in the world.
 
@@ -32,7 +32,7 @@ And here is the argument's sharpest edge: this doesn't end. Every outside absorb
 
 The German Social Democrats found this irritating. She argued with them at length, in print, with the specific precision of someone who has been dismissed before and knows she'll be proven right.
 
-She was shot in the head by government-backed paramilitaries in January 1919. Her body was thrown into the Landwehr Canal. They found her four months later.
+She was shot in the head by government-backed paramilitaries in January 1919. Her body was thrown into the Landwehr Canal. They found her four months later. [FLAG: Body recovered May 31, 1919 — approximately 4.5 months after January 15. "Four months" is slightly short; consider "nearly five months later" or the specific date.]
 
 Her argument resurfaced in the second half of the twentieth century when economists studying development kept running into something the models couldn't explain: why do the regions most integrated into global markets keep staying poor? Countries exporting raw materials, manufacturing goods, receiving investment — and the wealth was flowing the wrong direction. Dependency theorists called it underdevelopment, structural adjustment, the resource curse. The mechanism is Luxemburg's. The outside is where the extraction happens. Integration doesn't close the gap. It is the gap.
 
@@ -42,7 +42,7 @@ Alexandra Kollontai was looking at a different outside.
 
 She grew up in Petersburg, in a large apartment, daughter of a Tsarist general — as far from Luxemburg's circumstances as it was possible to be, and the same destination by a different path. She was educated. She was not permitted to attend university. She married young. She had a son. She went to see the textile mills.
 
-Petersburg, 1895. Women working twelve and fourteen-hour shifts at the looms. Lint in the air. Machines that took fingers if you stopped paying attention. Wages lower than men's for the same work — justified by the certainty that women would leave when they got married, so there was no point paying them properly. After the shift, they walked home. At home: coal to fetch, food to cook, children to tend and nurse through the illnesses that came regularly given the conditions, a husband's needs to manage. None of this was work. None of this appeared in any economic analysis. It was what women did. It was love. It was nature.
+Petersburg, 1895. [FLAG: Most sources date Kollontai's formative visit to a Petersburg textile factory to 1896, not 1895. Verify which year the author intends.] Women working twelve and fourteen-hour shifts at the looms. Lint in the air. Machines that took fingers if you stopped paying attention. Wages lower than men's for the same work — justified by the certainty that women would leave when they got married, so there was no point paying them properly. After the shift, they walked home. At home: coal to fetch, food to cook, children to tend and nurse through the illnesses that came regularly given the conditions, a husband's needs to manage. None of this was work. None of this appeared in any economic analysis. It was what women did. It was love. It was nature.
 
 Kollontai left her husband. She left her son with her mother, who had the resources to give him a more stable life than a revolutionary on the run could provide. She wrote about this decision for the rest of her life — never cleanly resolved, never fully at peace with it. She became one of the most prominent women in the Bolshevik movement, the only woman in Lenin's first cabinet.
 
