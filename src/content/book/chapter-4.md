@@ -23,8 +23,6 @@ He died in 1976. By then there were dozens of cooperatives and a cooperative ban
 
 Nobody asked him to do any of it.
 
-That is the point of this chapter, and of the argument this book is making. The commons has always been built by people who didn't have to and did anyway — because the thing was worth building, and because the mode of building mattered as much as the thing itself.
-
 ---
 
 In 1984, in Burlington, Vermont, a thirty-two-year-old mayor named Bernie Sanders helped seed a community land trust.
@@ -99,15 +97,3 @@ The question people ask is: but has it actually worked? Has it worked at scale? 
 Mondragon at sixty-eight years. The Champlain Housing Trust at forty. Kerala at seventy years of left governance. The Zapatista autonomous communities at thirty. The Valencia Water Tribunal at a thousand. The Swiss alpine commons at seven hundred.
 
 The answer is in the record. It works. It has been working in hundreds of places, across centuries, at scales from a sidewalk fridge to 70,000 workers to 35 million people. The proof is not theoretical. It is present tense. It is happening now.
-
-What we don't know — what this book can't tell you — is whether enough people will choose to build it to match the scale of what needs changing. That is not an empirical question. It is a question about what people decide to do with what they know.
-
-How does it feel?
-
-If you feel like the clouds have finally cleared and your burdens have been lifted and you're ready to go out and solve all the world's problems — great. Go try that, we're rooting for you. Truly. You might want to skip to Chapter 9.
-
-But if there's a nagging feeling in your gut that it's not that simple — you're right. Read on.
-
----
-
-*What in your life is already being governed collectively — formally or informally? Not what should be. What is. Start there.*
