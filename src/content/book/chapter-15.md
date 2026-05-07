@@ -8,6 +8,8 @@ part: "Part VI: What to Build"
 
 On Tuesday evenings in Crown Heights, Brooklyn, the mutual aid network that formed during the first weeks of COVID meets to coordinate the week's food distribution, talk through who needs what, and — since the acute crisis passed three years ago — run the tenant organizing trainings that have become its second life.
 
+We met them briefly in Chapter 4, where the note was simply: still operating. It deserves more than that.
+
 It wasn't supposed to still be running. Mutual aid networks form in crises and dissolve when the crisis passes; that's the normal arc. Crown Heights Mutual Aid did something different. When the food emergency eased, the people who had been doing the work had found each other — had learned who knew what, who showed up, who could be counted on, who had been carrying what for years before COVID made carrying it visible. They had built, inside the emergency, the thing that emergencies make temporarily possible: the knowledge of each other.
 
 They stayed. They kept meeting. They expanded from food to tenant support to the slower, harder work of community governance. The crisis passed. The infrastructure remained.
@@ -18,7 +20,9 @@ This is the care commons: a network of relationships within which care flows wit
 
 Silvia Federici was organizing for wages for housework in New York in the early 1970s when she started asking the question that would become *Caliban and the Witch*: where did this arrangement come from? The work women were doing — cooking, cleaning, childcare, care of the sick and elderly, the entire reproductive infrastructure that made wage labor possible — had always been work. Why had it become invisible as work? When? How?
 
-She had been born in Parma, Italy, in 1942, had come to the United States in 1967 for graduate work in philosophy, and had arrived in the New York of the Wages for Housework campaign — theorizing the witch trials while running workshops with women who were naming their housework as labor for the first time. The book that resulted, published in 2004, thirty years after the campaign, carries the organizing's urgency in its analysis. Start with what they burned.
+She had been born in Parma, Italy, in 1942, had come to the United States in 1967 for graduate work in philosophy, and had arrived in the New York of the Wages for Housework campaign — theorizing the witch trials while running workshops with women who were naming their housework as labor for the first time. The book that resulted, published in 2004, thirty years after the campaign, carries the organizing's urgency in its analysis.
+
+Start with what they burned.
 
 Between roughly 1400 and 1700, somewhere between 40,000 and 100,000 people were executed as witches across Europe and the American colonies. Most were women. Most were poor. Many were midwives, herbalists, healers — women who held knowledge that made communities less dependent on the emerging market. The standard historical account treats this as mass hysteria overcome by Enlightenment.
 
@@ -42,6 +46,8 @@ The campaign never won its demand. What it won was the question: why does care w
 
 ---
 
+The mechanism Federici traced — care knowledge destroyed, care work made private, care rendered invisible so the market can extract it — is not historical. It is operational.
+
 A home health aide in the Bronx — one of roughly two million in the United States — works twelve-hour shifts caring for an elderly client with advanced dementia: bathing, feeding, managing medications, providing the continuity of presence that is itself a form of care. The median wage for home health aides in New York is under $18 an hour, with no health insurance, no paid sick leave, and no pension. When the aide gets sick, she doesn't get paid. The client's family may pay $8,000 to $12,000 a month through the agency; the aide receives a fraction of that.
 
 This is not an anomaly. It is the structure of the care economy: the work is real, the need is urgent, the skill required is genuine, and none of that translates into compensation adequate to the labor. The $10.8 trillion in unpaid care work named in Chapter 5 is the shadow economy that the visible one runs on. The paid care sector, at wages that push workers into poverty, is its visible edge.
@@ -60,7 +66,9 @@ Mariame Kaba has spent thirty years building the infrastructure that makes care 
 
 She grew up in New York, the daughter of a Guinean immigrant activist who taught her that social change was institutional work, not just individual commitment. She has organized around criminalization, domestic violence, sexual assault, and the connections between them — building youth programs, training survivor advocates, developing the community accountability processes that address harm without calling the police.
 
-Her insight — the one that connects Chapter 8's Angela Davis through to this chapter — is that abolition is care. The demand to build the world that doesn't need prisons is the demand to build care infrastructure: housing, mental health support, economic security, the community relationships that make people less likely to cause harm and more capable of addressing it when harm occurs. "We keep each other safe" — from her book *We Do This 'Til We Build It* — is a claim about care as the foundation of safety. Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.
+Her insight — the one that connects Chapter 8's Angela Davis through to this chapter — is that abolition is care. The demand to build the world that doesn't need prisons is the demand to build care infrastructure: housing, mental health support, economic security, the community relationships that make people less likely to cause harm and more capable of addressing it when harm occurs. "We keep each other safe."
+
+Four words that contain an entire theory of public safety. From her book *We Do This 'Til We Build It* — a claim about care as the foundation of safety. Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.
 
 That network is the care commons. In Hardt and Negri's terms: the accumulated relational intelligence — who can be trusted, who knows what, who shows up — that capital did not produce and cannot reproduce, but has always depended on. The enclosure of it is not metaphorical. The pricing-out of communities, the underpayment of care workers, the criminalization of mutual support: these are mechanisms for capturing what communities built, by making it legible as a service to be purchased rather than a commons to be governed.
 
