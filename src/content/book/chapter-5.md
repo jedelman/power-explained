@@ -64,20 +64,12 @@ The communities building her answer now look nothing like the state apparatus sh
 
 ---
 
-Two outsides. One geographical, one relational. One extracted by empire at the frontiers of capital, one extracted by household in the interior of daily life.
-
-They are not the same analysis. Luxemburg was building an economic argument about market expansion. Kollontai was building a political argument about how labor is misclassified. The mechanisms differ. The sites differ.
-
 What they share: the machine requires a zone where value can be extracted without full payment. The math only works if someone isn't being fully compensated. The outside is where the accounting goes to avoid itself. Keep it unacknowledged, keep it outside the categories of recognition and compensation, and the returns look better than they are.
 
 Both women named the thing. Both were dismissed by the institutions they were trying to change. Both were right.
 
-The outside isn't accidental. It is maintained — actively, structurally, through the reproduction of conditions that keep it outside. The next three chapters follow that maintenance into the specific forms it takes: the racial geography that decides whose land can be enclosed and under what legal cover, the colonized consciousness that makes the occupied complicit in their own occupation, the intersecting outsides that multiply when race and gender and class meet. These are not separate problems. They are the same maintenance logic, operating in different registers, compounding.
+The outside isn't accidental. It is maintained — actively, structurally, through the continuous reproduction of conditions that keep it outside.
 
-This is enclosure wearing a different face: not the fencing of common land, but the categorization of common work as something other than work. The mechanism is identical. The result is the same: value extracted without payment, from people who have no way to contest the extraction because the extraction has been named as something else.
+Which means someone is doing the maintaining.
 
-The outside needs to stay outside. That's not a side effect. That's the function.
-
----
-
-*Who is doing the work in your household and your community that isn't counted as work — the coordination, the care, the maintenance, the keeping of things going? What would it cost to pay for it? What would it require to share it equitably? The answer isn't a number. It's a rearrangement of the world. That's why it hasn't happened yet.*
+Not a conspiracy. A structure. The racial geography that decides whose land can be enclosed and under what legal cover. The psychology that makes the occupied feel responsible for their own occupation. The place where race and gender and class meet and multiply each other's force.
