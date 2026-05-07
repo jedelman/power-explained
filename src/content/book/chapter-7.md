@@ -46,7 +46,7 @@ The clinic was a political space. The pathology was the colony.
 
 ---
 
-He named the alibi and the mirror.
+The story the colonizer tells is about themselves.
 
 The alibi: the colonizer's story that the classification reflects actual difference. The colonized are naturally suited to subjection — lazy, irrational, primitive, not ready for self-governance. The violence is unfortunate but civilizing. This story is told to the world, to the metropolis, and most importantly to the colonized themselves. Colonialism doesn't only require that the colonizer believe it. It works best when the colonized believe it too.
 
@@ -62,7 +62,13 @@ The question Foucault couldn't ask is the one Achille Mbembe was formed to ask.
 
 Mbembe grew up in Cameroon in the 1960s — a country with formal independence, a flag, a president who gave speeches about self-determination, and an economy structured by French interests, politics shaped by the accommodations a postcolonial state makes with the powers that could still undermine it. Cameroon was governed by Ahmadou Ahidjo, who maintained power through a security apparatus and Paris's approval. The independence was real. The sovereignty was partial. Growing up inside that condition — neither colonized in the explicit sense nor free in the material sense, inside a state with the form of self-governance but not yet the substance — produced a specific vantage point. From inside the gap between the form and the substance of freedom, you can see something that Foucault, working entirely from within the European experience, could not: that the life-managing apparatus he described is built on a prior foundation it never examines. Mbembe could see what that foundation was.
 
-He studied in Paris, taught in New York, eventually landed at Wits University in Johannesburg, inside the post-apartheid South African project of building something new in the ruins of something designed to destroy. He has been writing from there ever since.
+He was born in Otélé, Cameroon, in 1957 — the year France was actively suppressing the Union des Populations du Cameroun, the nationalist movement that had been demanding independence since the 1940s. France killed tens of thousands in a counterinsurgency campaign it would spend decades refusing to acknowledge. His parents were involved in the struggle. He grew up in a country where independence arrived in 1960, the French flag came down, and the violence continued under different administration.
+
+He was educated by Jesuits near Douala. He became active in student politics and one day his father — a farmer who also worked as a civil servant, the kind of double life postcolonial economies require — told him it would be better if he went away for a while. So he went to Paris. He completed his doctorate at the Sorbonne under the historian Catherine Coquery-Vidrovitch, immersing himself in the French poststructuralists — Foucault, Derrida, Deleuze, Lacan — while writing archival history of anti-colonial resistance in southern Cameroon. He was learning the colonizer's most sophisticated tools of analysis, and learning what they could and couldn't see.
+
+He returned to Africa — to Dakar, as executive director of CODESRIA, the Council for the Development of Social Science Research in Africa, building pan-African intellectual infrastructure from the continent rather than from its former metropolis. In 1981, traveling through the region, he caught his first glimpse of South Africa from a plane window. What he remembered afterward wasn't the violence the country was famous for — it was the swimming pools. From altitude, Johannesburg's racial geography was legible as a distribution of blue rectangles — dense in the white suburbs, absent everywhere else. Water that costs more than most families spent on food in a week, sitting still in private holes in the ground, for pleasure. The colony made visible from the air as the question of whose body deserves comfort.
+
+He spent time in Harare with ANC exiles and Zimbabwean youth. He went to Cape Town. He met a South African scholar named Sarah Nuttall at a conference in Nairobi in 1997. He wrote *On the Postcolony* during a Cape Town interlude while she was teaching in Stellenbosch. They moved to Johannesburg together, both taking positions at WISER — the Wits Institute for Social and Economic Research — inside the post-apartheid project of building something new in the ruins of something designed to destroy. He has been writing from there ever since.
 
 Foucault had shown how modern power works not primarily through killing but through managing life — regulating bodies, organizing sexuality, administering populations. The modern state is a life-managing apparatus. This was real and important. But Foucault developed it almost entirely through the European experience, and the colony — where life management doesn't apply the same way, where violence is explicit, where the protections extended to metropolitan citizens don't extend — was outside his frame.
 
@@ -90,14 +96,8 @@ That phrase is not a statement about capacity. It is a decision about whose live
 
 ---
 
-Fanon is at the moment of production: how the colony builds its subjects, how the colonizer's image is installed in the colonized person's self-understanding, what dismantling that installation requires. Mbembe is at the aftermath: how sovereign power continues through the decision about whose death is acceptable, how the colonial logic persists after the colonial flag has come down.
-
 Together they reach something the last two chapters' economic analysis couldn't fully close. Racial capitalism requires people who accept their classification. Necropolitics requires people who accept that their exposure to death is normal. Both work not only through external force but through internalized structure — absorbed categories, the colony in the mind.
 
 Which is why the commons built in these spaces refuses something deeper than an economic arrangement. Palmares refused the plantation's classification of its members as property. The Zapatista autonomy zones refused the Mexican state's withdrawal of protection. The Crown Heights mutual aid network refused the neighborhood's abandonment — stocking the fridge on the sidewalk, staying after the crisis passed, learning each other's names. None of these communities convened a meeting to debate the foundational question. They just answered it differently, in practice, every day.
 
 I don't feel guilt exactly — guilt is inert. What I feel is that the least I can do is say something, clearly, to people who trust me enough to hear it. I'm deprogramming white supremacy out of my friends. It's excruciating. It's the best I can think to do with the position I'm in. The colony in the mind dismantles the same way it was built: one conversation at a time.
-
----
-
-*Where in the place you live has the decision been made — in infrastructure, in law, in budget, in what gets built and what doesn't — that some lives are worth managing and others can be left exposed? Not as violence. As policy. As the ordinary operation of the system. Those decisions are usually findable. They are usually given another name.*
