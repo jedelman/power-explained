@@ -23,6 +23,8 @@ This was also Debord's détournement at its largest scale: the financial distric
 
 Everything this book has been describing happened there. Briefly. Imperfectly. Pointed somewhere.
 
+This is Simondon's pre-individual field made visible in public space — the charged generative excess from which singularities emerge without exhausting it. Not a unity. Not a party. The field, fast enough to see. The mycorrhizal network in the open air.
+
 What it couldn't hold is what this chapter is about — and what holding it requires.
 
 The herd needed governance. Not leadership — the herd was right to refuse the sovereign, right to insist the multitude cannot be represented without being betrayed. But governance: the pattern language that allows a composition of singularities to make decisions over time without dissolving into tyranny or paralysis. Occupy had the field. It did not yet have the form. It was not destroyed from within. It was demolished from outside, by coordinated municipal action across cities — the same pattern Federici documented in the fifteenth century, the same pattern Roy documented in the Narmada valley. External power doesn't compete with commons governance. It destroys the conditions that make commons governance possible.
@@ -57,13 +59,15 @@ The form holds when the people using it bring their gifts. This is Plotkin's con
 
 ---
 
-Hardt and Negri called the political subject we need the *multitude* — the composition of singularities that cooperates without becoming identical. Not a unity. Not a people. A composition. Each element irreducible. The whole more than the sum. The governance structure not the cage that holds it but the form that allows its collective intelligence to produce decisions.
+Hardt and Negri called the political subject we need the *multitude* — the composition of singularities that cooperates without becoming identical. This is the answer to what Chapter 9 left open: the collective form that governs without becoming a party, that holds the position without centralizing the power. Gramsci named the strategy. Simondon named the architecture. The multitude names the subject. Not a unity. Not a people. A composition. Each element irreducible. The whole more than the sum. The governance structure not the cage that holds it but the form that allows its collective intelligence to produce decisions.
 
 The Prince, in this understanding, is not the sovereign. Not the party. The multitude itself — governing through the commons, as a composition of singular beings who have each made some descent and brought something back. A herd of centaurs, each one carrying the oblique angle, each one in relation to the others through the field.
 
 *Preguntando caminamos.* Asking, we walk.
 
-This is already happening. In the Zapatista caracoles. In Cooperation Jackson. In the Crown Heights mutual aid networks. In the data cooperatives being built before the AI enclosure completes. In the communities of practice that meet every week to govern things they care about — imperfect, pointed somewhere, refusing to wait for permission.
+This is already happening. You have met them in this book: the Zapatista caracoles, still governing after thirty years. Cooperation Jackson, building from the most marginalized. The Crown Heights mutual aid network, still meeting. The data cooperatives being built before the AI enclosure completes. The communities of practice that meet every week — imperfect, pointed somewhere, refusing to wait for permission.
+
+You may be one of them already.
 
 The herd is forming. The form is available. The accumulated wisdom of every community that ever governed a commons sustainably is in the record, in the pattern language, waiting to be applied.
 
