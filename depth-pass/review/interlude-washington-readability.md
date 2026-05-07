@@ -22,6 +22,6 @@ The prose is in good shape. The voice is consistent throughout: direct, grounded
 
 The inline `[FLAG:]` marker on the Gramsci sentence (added in the correctness pass) makes that sentence harder to read in draft form, but it was not touched per instructions. The underlying sentence — once the flag is resolved — is clear.
 
-One recurring pattern to note for future editing: the chapter uses "instead of" twice in close proximity (lines 31 and 33 in the source), but in different paragraphs and with enough distance that it doesn't feel repetitive. No action needed.
+One recurring pattern to note for future editing: the chapter uses "instead of" twice in close proximity (the guide paragraph), but in different sentences and with enough distance that it does not feel repetitive. No action needed.
 
 Overall word count is already lean. No further cuts recommended — the chapter is at the right length for an interlude.
