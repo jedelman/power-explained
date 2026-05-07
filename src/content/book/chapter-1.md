@@ -48,7 +48,7 @@ I cross Brambleton to get there. The rage and the beauty are not separate. They 
 
 ---
 
-On a weeknight in 2022, I was running a neighborhood league meeting — not as president, but as the person conducting the meeting. New members had recently joined. A brewery was trying to open nearby.
+On a weeknight in 2022 [FLAG: public record shows Armed Forces Brewing was announced July 2023 and the CUP process ran fall 2023; if this meeting was about the AFBC permit solidarity vote, the year may be 2023 — verify with Jason], I was running a neighborhood league meeting — not as president, but as the person conducting the meeting. New members had recently joined. A brewery was trying to open nearby.
 
 Armed Forces Brewing Company was seeking a conditional use permit to open in a majority-Black, LGBTQ-friendly neighborhood in Norfolk, next door to an LGBTQ aid center. It had already marketed its planned arrival with sexualized imagery, firearms aimed at targets described as "woke," and advertising that featured a majority-white cast. The LGBTQ aid center would subsequently move. The neighboring neighborhood league wanted to issue a statement opposing the permit — a symbolic action, but a legitimate one, and within the rights of neighborhood organizations to take.
 
@@ -64,7 +64,7 @@ Not corruption. Not malice. Fear made decisive by structure.
 
 Two months later, I resigned from the board.
 
-Armed Forces Brewing went out of business six months after it opened.
+Armed Forces Brewing went out of business about a year after it opened. [CORRECTION: "six months after it opened" → "about a year after it opened" | Grand opening was January 27, 2024; closed March 2025, approximately 13 months later]
 
 ---
 
