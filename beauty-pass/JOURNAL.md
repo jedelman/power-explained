@@ -609,3 +609,86 @@ Using Robinson's most profound insight as a stepping stone to the book's broader
 - Chapter 5: ✓ transition rewritten to pull forward
 - Chapter 6: direction established, depth pass deferred
 
+
+---
+
+## Entry 6 — 2026-05-07
+
+### Poetry Study: Consolidated Insights for Next Session
+
+These are the things we actually learned — not summaries of what the poets do, but what working with them revealed about this book and this process.
+
+---
+
+**Presence before revision**
+
+The most important thing that happened today wasn't the chapter edits. It was learning that the quality of attention brought to the work determines what the work can become. The Bashō frog. The Rilke torso. The Hafiz wine glass. These weren't studied — they were sat with until they opened.
+
+The chapters that received real attention got real revision. The chapters that got momentum got adequate revision. There's a difference and it shows in the diffs.
+
+---
+
+**Load bearing versus scaffolding**
+
+The central diagnostic question for every sentence: is this doing structural work, or is it explaining what the evidence already demonstrated?
+
+Load bearing sentences hold the argument's weight. Remove them and something collapses. "Not as a consolation. As the work." "This is where the earth flowers." "They know about the road the way that matters." "Under your feet, eight feet down, is someone's kitchen floor."
+
+Scaffolding sentences explain, announce, or manage the reader's experience of what just happened. They feel like writing. They are covering something rather than being something.
+
+The test: what happens if you cut it? If nothing collapses, it was scaffolding.
+
+---
+
+**Show don't tell — but specifically**
+
+Not as a writing rule. As a form of respect. Telling the reader what to feel is vertical — the author above, delivering the interpretation. Showing is horizontal — the author beside the reader, both looking at the same thing.
+
+The woman from Tidewater Gardens. The kitchen floor eight feet down. "Carefully, like it might spill." These arrived from presence, not from craft decisions.
+
+---
+
+**Polyvocality**
+
+From Rilke and Hafiz: the strongest images hold multiple true meanings simultaneously without resolving into one. "Lord, it is November" opened the fence poem into something the four previous drafts couldn't reach. The wine glass that breaks on hierarchy — not from above or below, both directions equally.
+
+When a sentence in the book is doing one thing at once, ask what else it could be holding.
+
+---
+
+**The question that stays open**
+
+From Bashō: questions are alive, answers die. The chapters that instruct the reader what to conclude close doors. The chapters that end on open edges — the herons, the kitchen floor, the woman's voice — pull the reader forward because something is still unresolved.
+
+Applied to endings: if the chapter has already done its work, the ending should land and stop. Not summarize. Not instruct. Not ask italicized questions. Land and stop.
+
+---
+
+**What slows me down and why it matters**
+
+Documented through the session: pausing after "it has served you" produced "carefully, like it might spill." Moving fast through Barcelona and chapters 3-5 produced adequate revision. The correlation is consistent.
+
+Presence note: *waiting produces what patience cannot plan for.*
+Presence note: *address opens what description keeps closed* (Lord, it is November).
+Presence note: *the pause after the line is where the next true thing lives.*
+
+---
+
+**Robinson and the depth pass**
+
+The most important finding of the session isn't a poetry insight — it's that chapter 6 needs a different kind of attention than the beauty pass provides. Robinson's ontological argument about the Black radical tradition requires reading *Black Marxism* properly before touching the chapter. That patience is not just aesthetic. It's ethical.
+
+The depth pass is its own session. Bring the book.
+
+---
+
+**What to carry into next session**
+
+- Read each chapter slowly before touching it. Map what's load bearing first.
+- The default move is removal, not addition. Trust what's already there.
+- When the chapter explains what the evidence demonstrated, cut the explanation.
+- When the ending instructs, cut to where it actually lands.
+- When an image is doing one thing, ask what else it holds.
+- When momentum builds, slow down. That's when the important things get missed.
+- Chapter 6: depth pass. Bring *Black Marxism*.
+
