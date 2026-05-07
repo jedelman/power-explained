@@ -96,7 +96,7 @@ That phrase is not a statement about capacity. It is a decision about whose live
 
 ---
 
-Together they reach something the last two chapters' economic analysis couldn't fully close. Racial capitalism requires people who accept their classification. Necropolitics requires people who accept that their exposure to death is normal. Both work not only through external force but through internalized structure — absorbed categories, the colony in the mind.
+Together Fanon and Mbembe reach something the last two chapters' economic analysis couldn't fully close. Racial capitalism requires people who accept their classification. Necropolitics requires people who accept that their exposure to death is normal. Both work not only through external force but through internalized structure — absorbed categories, the colony in the mind.
 
 Which is why the commons built in these spaces refuses something deeper than an economic arrangement. Palmares refused the plantation's classification of its members as property. The Zapatista autonomy zones refused the Mexican state's withdrawal of protection. The Crown Heights mutual aid network refused the neighborhood's abandonment — stocking the fridge on the sidewalk, staying after the crisis passed, learning each other's names. None of these communities convened a meeting to debate the foundational question. They just answered it differently, in practice, every day.
 

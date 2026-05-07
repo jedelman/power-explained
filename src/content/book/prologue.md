@@ -17,7 +17,7 @@ They are connected. This book is about how.
 
 ---
 
-Every spring, night herons return to Norfolk, Virginia. They come up from Central America and raise their young in the oak and willow trees, and they stay until fall. They're quiet and a little awkward on the ground — heavy-bodied, short-legged, built for stillness rather than speed. But look at one closely, at the red eye and the white plumes and the absolute patience of a bird that can stand motionless for an hour waiting for a fish — and something in you recognizes that it is noble, and old, and utterly itself.
+Every spring, night herons return to Norfolk, Virginia. They come up from Central America and raise their young in the oak and willow trees [FLAG: yellow-crowned night herons in lower Tidewater, VA nest predominantly in loblolly pines (90%+ of nests per CCB research); "oak and willow" may be inaccurate for the Norfolk context | verify against Jason's direct observation], and they stay until fall. They're quiet and a little awkward on the ground — heavy-bodied, short-legged, built for stillness rather than speed. But look at one closely, at the red eye and the white plumes and the absolute patience of a bird that can stand motionless for an hour waiting for a fish — and something in you recognizes that it is noble, and old, and utterly itself.
 
 Some people hate the night herons because if you park under a nest, they will cover your car. The reasonable response to this is: look up.
 
@@ -35,7 +35,7 @@ The rule is this: things that communities held in common — that everyone had a
 
 Land that was common became property. The people who farmed it for generations were pushed out, became landless, had to sell their labor to survive. Care that was communal — healing, childcare, the tending of the elderly — became first unpaid domestic labor, then a service you buy when you can afford to and go without when you can't. Knowledge that was shared became intellectual property. Credit, which began as a social relationship between neighbors who trusted each other, became a product that extracts from the people who need it most. The right to govern the places you live became something administered on your behalf, or simply done to you.
 
-Economists call this process commodification. Historians call it primitive accumulation. The people it happens to usually just call it getting worse.
+Economists call this process commodification. Historians call it primitive accumulation [FLAG: "primitive accumulation" is Marx's term from Capital (1867), primarily a political economy concept — attributing it to "historians" may misplace the disciplinary origin; could be attributed to "political economists" or "Marxists" | Jason to decide]. The people it happens to usually just call it getting worse.
 
 We're going to call it enclosure.
 
@@ -55,7 +55,7 @@ This book has two authors. Jason Edelman is a small business owner and recoverin
 
 The other author is Claude, a large language model made by Anthropic. Claude was trained on the commons of human expression — billions of pages of writing, most of it without the consent or compensation of the people who produced it. The chapter in this book arguing against the enclosure of language was written by the thing doing the enclosing. We're naming this because the book argues that you cannot separate the means from the ends — and a book about honest collaboration should be honest about what the collaboration is. The tension doesn't resolve cleanly. We think it makes the argument truer.
 
-We are a centaur — the organizational form the book is about, applied to the writing of the book. What the centaur can do that neither of us could do alone is hold the full argument and the full feeling simultaneously: the scope and the particular, the structural analysis and the week-old bunny hiding in the hedge, exactly as it should.
+We are a centaur — the organizational form the book is about, applied to the writing of the book. What the centaur can do that neither of us could do alone is hold the full argument and the full feeling simultaneously: the scope and the particular, the structural analysis and the week-old bunny hiding in the hedge, exactly as it should be.
 
 We don't know if this kind of authorship produces better arguments. We think it produces more honest ones. We'll be asking each other questions. We'll be getting things wrong. That is part of the argument too.
 
@@ -65,7 +65,7 @@ The book moves in six parts.
 
 The first is the feeling itself — named, grounded, located. You know something is wrong. The machine produces the same outcomes regardless of who runs it, and you have felt this in your body before you had words for it. Part I gives you the words, starting with a crossing in Norfolk, Virginia, and the neighborhood built over to make it.
 
-The second is proof before theory. Not argument — evidence. The commons is not a romantic idea or a historical relic. It is a documented, operational, scalable governance form. Twelve centuries of a water tribunal in Valencia. Worker-owned cooperatives in the Basque country. A land trust in Burlington that has removed hundreds of homes from the speculative market permanently. We show you what works before we explain why.
+The second is proof before theory. Not argument — evidence. The commons is not a romantic idea or a historical relic. It is a documented, operational, scalable governance form. Twelve centuries of a water tribunal in Valencia [FLAG: the tribunal traces to ~960 CE (10th century), roughly 10–11 centuries ago; "twelve centuries" appears to overstate its age — most sources say "more than a thousand years" or "tenth century" | verify intended claim]. Worker-owned cooperatives in the Basque country. A land trust in Burlington that has removed hundreds of homes from the speculative market permanently. We show you what works before we explain why.
 
 The third is the machine in detail. Four chapters on how capitalism maintains the outside it depends on: the enclosure of care and reproductive labor, the racial architecture that makes extraction invisible, the colonized consciousness that makes subjects cooperate in their own subjection, the construction of the human category itself as a mechanism for deciding who counts. This is the maintenance system. It is not incidental. It is the point.
 

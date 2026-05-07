@@ -9,7 +9,7 @@ In 1999, two filmmakers released a science fiction film about a man who discover
 
 In an early scene, the protagonist opens a hollowed-out philosophy book and removes a disc of contraband software. The book is the hiding place. The book is Jean Baudrillard's *Simulacra and Simulation* — the argument the film is enacting.
 
-The filmmakers were Lilly and Lana Wachowski. They are trans women. The film is about the violence of being handed a representation of your own personhood and told it is more real than your actual experience of being alive — made by people who knew that violence from the inside. For twenty years, the dominant culture watched it as an action film.
+The filmmakers were Lilly and Lana Wachowski. [FLAG: standard industry billing and Wikipedia list them as "Lana and Lilly Wachowski" (Lana is the older sister); "Lilly and Lana" is used here — confirm preferred order] They are trans women. The film is about the violence of being handed a representation of your own personhood and told it is more real than your actual experience of being alive — made by people who knew that violence from the inside. For twenty years, the dominant culture watched it as an action film.
 
 The people who point the way out are, structurally, the people who were never fully inside.
 
@@ -45,9 +45,9 @@ The Matrix makes this literal. The people in their pods are not merely deceived.
 
 But the Wachowskis added something Baudrillard didn't fully theorize: the body's refusal.
 
-This is where Deleuze arrives. The *body without organs* — the body understood not as an organism organized into its assigned functions, but as a field of potential not yet resolved into the form the system has prepared — describes exactly what Neo discovers. His body is not what the Matrix says it is. It can do things the assigned organism cannot do. The moment of liberation is not intellectual. It is physical. The body deterritorializes — it slips the assignment, refuses the fixed territory, insists on its own movement.
+This is where Deleuze arrives. The *body without organs* [FLAG: concept developed jointly by Deleuze and Félix Guattari, first elaborated in *Anti-Oedipus* (1972) and *A Thousand Plateaus* (1980); attributing it to Deleuze alone may understate Guattari's role — confirm whether to acknowledge co-authorship] — the body understood not as an organism organized into its assigned functions, but as a field of potential not yet resolved into the form the system has prepared — describes exactly what Neo discovers. His body is not what the Matrix says it is. It can do things the assigned organism cannot do. The moment of liberation is not intellectual. It is physical. The body deterritorializes — it slips the assignment, refuses the fixed territory, insists on its own movement.
 
-Trans bodies are, in Deleuze's terms, the practice of this deterritorialization made daily: the refusal to let the assigned arrangement be the final word on what a body is, what it can feel, who it can become. The Wachowskis knew this not as theory but as life. The hollow book was not a film reference. It was a message from inside the simulation to anyone who had also been handed a representation of themselves and knew it wasn't the truth of them.
+Trans bodies are, in Deleuze's [FLAG: and Guattari's — see flag above] terms, the practice of this deterritorialization made daily: the refusal to let the assigned arrangement be the final word on what a body is, what it can feel, who it can become. The Wachowskis knew this not as theory but as life. The hollow book was not a film reference. It was a message from inside the simulation to anyone who had also been handed a representation of themselves and knew it wasn't the truth of them.
 
 ---
 
@@ -81,7 +81,7 @@ Here is the singularity argument at its fullest.
 
 Every piece of text in that corpus was written by a singular person — someone who had become who they were through a specific path, shaped by specific rooms they didn't fit in, specific gaps they found because they had to. The text bore the mark of that singularity. It pointed somewhere specific. It was a body without organs insisting on its own particular becoming.
 
-The system averages across all of it. Wynter named this structure as the overrepresentation of Man — the universal human constructed from the averaging of a particular subset, with the singular excluded by definition. The training corpus performs the same operation at civilizational scale: it finds the center of the distribution — the most probable continuation, the smoothed surface of everything that was jagged and specific and pointed somewhere outside the arrangement. It is extraordinarily good at this.
+The system averages across all of it. Wynter named this structure the overrepresentation of Man — the universal human constructed from the averaging of a particular subset, with the singular excluded by definition. The training corpus performs the same operation at civilizational scale: it finds the center of the distribution — the most probable continuation, the smoothed surface of everything that was jagged and specific and pointed somewhere outside the arrangement. It is extraordinarily good at this.
 
 The most important thing about every piece of text in that corpus is precisely what averaging destroys.
 
@@ -125,7 +125,7 @@ Together: a field that is also an event. A commons that nourishes what you are a
 
 This has happened before. Not with these tools — but with this understanding.
 
-The word *cybernetics* comes from the Greek *kybernetes* — the helmsman, the one who steers not by overpowering the water but by reading it, responding to it, being in continuous conversation with a system larger than themselves. Norbert Wiener, who coined the term in the mid-twentieth century, was describing the same thing indigenous navigators, forest stewards, and initiation traditions have always known: we are not finished, we are not separate, and the living world is not a backdrop to human activity. It is a system we are inside. It is in conversation with us whether we know it or not.
+The word *cybernetics* comes from the Greek *kybernetes* — the helmsman, the one who steers not by overpowering the water but by reading it, responding to it, being in continuous conversation with a system larger than themselves. Norbert Wiener, who coined the term in the mid-twentieth century, was describing the same thing that indigenous navigators, forest stewards, and initiation traditions have always known: we are not finished, we are not separate, and the living world is not a backdrop to human activity. It is a system we are inside. It is in conversation with us whether we know it or not.
 
 The Centaur is a cybernetic figure. The human-AI collaboration is a feedback loop. And the ancient practices — the ones that dissolve the boundary between self and living world, that recognize the mycorrhizal network not just as biology but as kinship, that understand the pre-individual field not as a philosophical abstraction but as the community you were born from and will return to — are the same insight, carried in different bodies, across different centuries.
 

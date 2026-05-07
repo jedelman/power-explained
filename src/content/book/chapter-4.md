@@ -13,11 +13,11 @@ The bishop didn't. And Arizmendi — as everyone called him — stayed.
 
 He had wanted to study sociology in Belgium. Instead he had been assigned to this small industrial town in the Basque mountains, arriving to find it still wrecked from the Civil War: the local priest shot by Franco's forces, unemployment at depression levels, the kind of social disintegration that follows when a community has been on both sides of a war fought in its own streets. He understood something quickly: faith without the material conditions for a dignified life was a performance. He started a school.
 
-He taught. He selected the best students and arranged for them to study industrial engineering in Zaragoza, 200 kilometers away — working fifty-five-hour weeks by day, studying at night. He quoted Attlee and Beveridge alongside Catholic social doctrine. He told his congregation: "The most important advantage of cooperation is defeating the loneliness that turns life into hell."
+He taught. He selected the best students and arranged for them to study industrial engineering in Zaragoza, 200 kilometers away — they worked fifty-five-hour weeks by day and studied at night. He quoted Attlee and Beveridge alongside Catholic social doctrine. He told his congregation: "The most important advantage of cooperation is defeating the loneliness that turns life into hell."
 
 He didn't take a salary. He traveled by bike.
 
-In 1956, five of his former students — Luis Usatorre, Jesús Larrañaga, Alfonso Gorroño, José María Ormaechea, and Javier Ortubai — pooled their savings and skills and founded a cooperative. They bought a small workshop, moved it to Mondragón, and began making paraffin stoves. Arizmendi blessed the foundation stone of their new pavilion. He never held any position in the cooperatives he spent his life building.
+In 1956, five of his former students — Luis Usatorre, Jesús Larrañaga, Alfonso Gorroño, José María Ormaechea, and Javier Ortubay — pooled their savings and skills and founded a cooperative. They bought a small workshop, moved it to Mondragón, and began making paraffin stoves. Arizmendi blessed the foundation stone of their new pavilion. He never held any position in the cooperatives he spent his life building.
 
 He died in 1976. By then there were dozens of cooperatives and a cooperative bank. Today there are 81 cooperatives employing 70,085 people with €11.2 billion in annual sales. The highest-paid worker earns at most six times what the lowest-paid worker earns. No member-worker has been laid off in an economic downturn in sixty-eight years of operation. Pope Francis declared Arizmendi a "venerable servant of God" in 2015 — one step from sainthood. His town is still debating whether he should be canonized.
 
@@ -25,7 +25,7 @@ Nobody asked him to do any of it.
 
 ---
 
-In 1984, in Burlington, Vermont, a thirty-two-year-old mayor named Bernie Sanders helped seed a community land trust.
+In 1984, in Burlington, Vermont, a forty-two-year-old mayor named Bernie Sanders helped seed a community land trust.
 
 Sanders was an independent socialist running a mid-sized New England city on a shoestring budget, and the Champlain Housing Trust was not his biggest initiative. But the mechanism he helped establish was precise and durable: the trust owns the land permanently; homeowners own the houses. When a house sells, a resale formula lets the seller recoup their investment and a share of appreciation — but not the full speculative gain. The land's value stays in the trust. The next buyer pays below-market because they're not buying the land.
 
@@ -47,7 +47,7 @@ What Cooperation Jackson proves is not size. It is the existence of a method: bu
 
 ---
 
-Kerala is an Indian state of 35 million people with a GDP per capita significantly below the national average. Its life expectancy is 75 years — the highest in India, matching countries with incomes three to four times higher. Infant mortality is India's lowest. Literacy is 94%.
+Kerala is an Indian state of 35 million people with a GDP per capita significantly below the national average. Its life expectancy is 75 years [FLAG: current figures show ~77 years; verify which dataset/year this figure comes from] — the highest in India, matching countries with incomes three to four times higher. Infant mortality is India's lowest. Literacy is 94% [FLAG: current census data shows ~96%; verify dataset/year].
 
 The explanation is not a mystery. Decades of communist-led government that broke up the landlord class, invested in public health and public education, and treated governance as infrastructure for collective wellbeing rather than management of conditions for private accumulation. Strong labor organizing that maintained wages above the national norm. A state whose democratic institutions have been, over generations, held accountable to the organized working class.
 
@@ -67,7 +67,7 @@ Some of these networks persisted. Not everywhere, and not at the scale the under
 
 One more.
 
-In 1994, Indigenous communities in Chiapas rose against NAFTA and the Mexican state. By 2004, they had built functioning *caracoles* — governance centers through which their communities managed health, education, justice, and economic cooperation without the state. By 2024 — thirty years after the uprising — they have schools teaching in indigenous languages, community health clinics, cooperative agricultural enterprises, and judicial systems based on restorative principles. They have survived thirty years of low-intensity military pressure, economic blockade, and paramilitaries.
+In 1994, Indigenous communities in Chiapas rose against NAFTA and the Mexican state. By 2004, they had built functioning *caracoles* [FLAG: caracoles were announced August 9, 2003 — "by 2004" is technically accurate but 2003 is the precise year] — governance centers through which their communities managed health, education, justice, and economic cooperation without the state. By 2024 — thirty years after the uprising — they have schools teaching in indigenous languages, community health clinics, cooperative agricultural enterprises, and judicial systems based on restorative principles. They have survived thirty years of low-intensity military pressure, economic blockade, and paramilitaries.
 
 What they built has outlasted a dozen governments that intended to outlast it.
 
