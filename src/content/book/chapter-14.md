@@ -72,7 +72,7 @@ The Kayapó people govern roughly 11 million hectares in the southern Amazon. Du
 
 The adivasi communities in the Narmada valley — whose forest governance the dam project couldn't see — were running the same kind of institution. The Forest Rights Act of 2006 didn't create that governance. It recognized it, imperfectly, and immediately came under pressure to be undermined.
 
-The threat to these territories is enclosure in its operational form. Global Witness documented over 200 killings of land and environmental defenders in 2020 — the majority in Latin America, the majority Indigenous. These deaths are not incidental to the ecological crisis. They are the ecological crisis at its operational level: the physical enforcement of enclosure against the governance holding ecosystems together.
+The threat to these territories is enclosure in its operational form. Global Witness documented over 200 killings of land and environmental defenders in 2020 — the majority in Latin America, over a third of them Indigenous. These deaths are not incidental to the ecological crisis. They are the ecological crisis at its operational level: the physical enforcement of enclosure against the governance holding ecosystems together.
 
 Carbon is released at scale when forests are cleared. Forests are cleared at scale when communities governing them lose territorial control. Housing becomes unaffordable when land becomes a speculation vehicle. The housing crisis and the extinction crisis share a cause: land governed for extraction rather than for the long-term benefit of the communities that depend on it.
 

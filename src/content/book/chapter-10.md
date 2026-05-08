@@ -18,7 +18,7 @@ Not might fail. Would fail.
 
 She predicted the suppression of the soviets — the workers' and soldiers' councils that were the revolution's actual democratic content — by the party that claimed to speak for them. She predicted that the Bolsheviks' contempt for formal democratic rights, their willingness to suppress dissent in the name of revolutionary necessity, would produce a government indistinguishable in its operations from the one it had replaced. She predicted that a revolution won by a disciplined vanguard, without the genuine self-governing capacity of the working class, would end in the domination of the masses by the party elite.
 
-She wrote this in 1918. Lenin read it and suppressed it. Stalin demonstrated its accuracy for thirty-five years.
+She wrote this in 1918. It was published posthumously in 1922. Stalin demonstrated its accuracy for thirty-five years.
 
 The essay contains a sentence that has outlasted every Soviet apologist who denied it: *Freedom only for supporters of the government, only for members of one party — however numerous they may be — is no freedom at all. Freedom is always and exclusively freedom for the one who thinks differently.*
 
@@ -58,7 +58,7 @@ In July 1936, Francisco Franco launched a fascist military coup against the Span
 
 In Barcelona, workers took over the trams and kept them running — under workers' control, with elected management committees, fares reduced to a flat rate anyone could afford. The precision engineering workshops that had made Barcelona one of Europe's industrial centers were collectivized and converted for war production. In the Aragon countryside, hundreds of villages collectivized their land — not under compulsion but by assembly, by the communities that had worked it deciding collectively how it would be governed. The CNT, the anarcho-syndicalist labor union with over a million members, provided the organizational framework.
 
-At its peak the anarchist collectives involved hundreds of thousands of people, managed major industries, demonstrated that complex economies could be coordinated without either capitalist markets or Stalinist central planning. For roughly a year, the most industrially advanced region of Spain operated as a functioning commons.
+At its peak, the anarchist collectives involved hundreds of thousands of people, managed major industries, demonstrated that complex economies could be coordinated without either capitalist markets or Stalinist central planning. For roughly a year, the most industrially advanced region of Spain operated as a functioning commons.
 
 It was not primarily Franco who destroyed it. The Spanish Communist Party — a Comintern affiliate, directed by Moscow, literally the same international organization that had dismantled the Russian soviets fifteen years earlier — systematically dismantled the revolutionary collectives in the name of building a unified front against fascism. The pragmatic argument: you can't fight a modern war with anarchist militias. The collectives were dissolved. Anarchist leaders were arrested and in some cases killed — by their ostensible allies.
 
@@ -76,7 +76,7 @@ The means are the ends. Every time.
 
 I tried to build a distributed institution and learned why this is hard in a specific way that the theory doesn't quite prepare you for.
 
-The restaurant was organized, in principle, around distributed self-governance. Everyone in the room, decisions made by the people doing the work. In practice, only we had skin in the game — financial risk, personal liability, the consequences of failure landing on specific bodies. Everyone else had a labor contract. About halfway through I understood why early syndicalists viewed labor contracts with such suspicion: a contract is an enclosure. It specifies what is owed and what is not owed, and everything outside the specification — the initiative, the investment, the genuine ownership of the project — falls outside it. The contract is a boundary that produces exactly the relationship it describes. You want distributed intelligence; you create the conditions for transactional compliance. You want people who treat the institution as theirs; you hire people who have every reason to treat it as yours.
+The restaurant was organized, in principle, around distributed self-governance. Everyone in the room, decisions made by the people doing the work. In practice, only we had skin in the game — financial risk, personal liability, the consequences of failure landing on specific bodies. Everyone else had a labor contract. About halfway through, I understood why early syndicalists viewed labor contracts with such suspicion: a contract is an enclosure. It specifies what is owed and what is not owed, and everything outside the specification — the initiative, the investment, the genuine ownership of the project — falls outside it. The contract is a boundary that produces exactly the relationship it describes. You want distributed intelligence; you create the conditions for transactional compliance. You want people who treat the institution as theirs; you hire people who have every reason to treat it as yours.
 
 What worked operationally was real. What we couldn't cultivate was the culture — the shared ownership of the project that would have made the architecture function. I didn't have the bandwidth to do unpaid mentorship and counseling on top of leadership and management, and there isn't enough slack in the restaurant industry to make that possible. If we had started with a larger founding cadre, people with skin in the game from the beginning, it might have been different. What undermined us wasn't the idea. It was sexism and American hyperindividualism — the ambient assumption that the individual unit is the family, that labor is transactional, that collective investment in a shared project is naïve. The hegemony Gramsci named, operating at the level of the kitchen.
 
@@ -84,7 +84,7 @@ Luxemburg understood this. The soviets worked because the workers had skin in th
 
 Luxemburg understood this in 1904. Her 1918 essay understood it again — not as theory now, but as observation of a revolution she could see was already dying. She wrote it in prison, unable to intervene, knowing it wouldn't be published in her lifetime.
 
-She was shot in January 1919, five months after writing the essay. The paramilitary that killed her included officers who would later form the core of the Nazi SA. Her body was thrown into the Landwehr Canal. They found her four months later.
+She was shot in January 1919, five months after writing the essay. Her body was thrown into the Landwehr Canal. They found her nearly five months later.
 
 She had been right about Lenin and right about the revolution. She did not live to be wrong about anything.
 
