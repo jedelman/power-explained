@@ -1,123 +1,99 @@
-# Depth Pass — Correctness Triage
-Generated from 23 branch correctness logs. Organized by action required.
+# Depth Pass: Correctness Triage
+Generated from 23 branch correctness logs. Chapter-1 and epilogue already on main (no branch).
 
 ---
 
-## CONFIRMED CORRECTIONS (agents made these — verify before merging)
+## CONFIRMED CORRECTIONS — Ready to merge as-is
+These are clean factual errors the agents fixed with high confidence. No authorial judgment needed.
 
-These are in the branch files. Review each before accepting.
+| Chapter | Error | Correction |
+|---------|-------|------------|
+| ch-3 | *Empire* described as written in prison; it was written in Paris exile | Fixed: the *Savage Anomaly* was written in prison; *Empire* was written in exile |
+| ch-4 | Founder spelled "Ortubai" | "Ortubay" — ULGOR acronym confirms it |
+| ch-4 | Sanders described as "thirty-two-year-old mayor" in 1984 | He was forty-two. Born 1941. |
+| ch-5 | "a Berlin courtroom in 1914" | Frankfurt — the Feb. 20, 1914 trial was at Frankfurt's Second Criminal Court |
+| ch-5 | Luxemburg described as "nineteen" when she arrived in Zurich | Eighteen |
+| ch-7 | "He was seventeen when the German navy occupied Martinique in 1940" | Two errors in one sentence: fourteen/fifteen, and it was the Vichy French navy (Admiral Georges Robert), not the German navy |
+| ch-7 | Mbembe "educated by Jesuits near Douala" | Dominicans — confirmed by Holberg Prize biography |
+| ch-8 | GM "had not hired any Black women before 1964" | Before 1970 for assembly line work — 1964 is Civil Rights Act passage, not GM's hiring record |
+| ch-8 | Angela Davis was "twenty-seven" at acquittal (June 1972) | Twenty-eight — born January 26, 1944 |
+| ch-9 | Gramsci's father imprisoned "for three years" | Five years — convicted 1898, released ~1904 |
+| ch-9 | Gramsci died "four days after conditional release" | Six days — released April 21, died April 27 |
+| ch-11 | "WTO protests in Quebec City in 2001" | Summit of the Americas (FTAA) protests — WTO was Seattle 1999 |
+| ch-12 | Roy's mother "sued her own father" | Sued her brother — Mary Roy v. State of Kerala (1986) |
+| ch-13 | "$6 billion in debt cancellation" (summary) | $5.8 billion — chapter correctly states this later; internal inconsistency |
+| ch-13 | North End of Boston: "Irish immigrant district" | Italian — 99.9% Italian by 1930, which is when Jacobs documented it |
+| ch-14 | Land defender killings: "the majority" were Indigenous | "Over a third" — 2020 Global Witness report |
+| ch-15 | Selma James: "Trinidadian-American" | American — born Brownsville, Brooklyn. Her husband was Trinidadian |
+| ch-15 | Kaba's book: *We Do This 'Til We Build It* | *We Do This 'Til We Free Us* |
+| ch-16 | "Debord, writing the same year as Baudrillard" | Debord was 1967; Baudrillard was 1968 — the year after |
+| ch-16 | Torvalds quote contains "anything" | Not in the archived post. Single-word interpolation. |
+| ch-17 | Sorenson called "philosopher and researcher" | Anthropologist — Stanford PhD, Smithsonian programs |
+| ch-17 | Prechtel "was there for two decades" before fleeing | ~Fourteen years — arrived ~1970, fled 1984 |
 
-| Chapter | Correction | Confidence |
-|---------|-----------|------------|
-| ch-3 | *Empire* was written in exile, not prison (*Savage Anomaly* was the prison work) | HIGH |
-| ch-4 | "Javier Ortubai" → "Javier Ortubay" (founder surname, ULGOR acronym) | HIGH |
-| ch-4 | Bernie Sanders age "thirty-two" → "forty-two" in 1984 | HIGH |
-| ch-5 | "Berlin courtroom" → "Frankfurt courtroom" (Luxemburg's 1914 trial) | HIGH |
-| ch-5 | Luxemburg age on arrival in Zurich "nineteen" → "eighteen" | HIGH |
-| ch-7 | "German navy occupied Martinique" → "Martinique came under Vichy control" | HIGH |
-| ch-7 | Fanon age in 1940 "seventeen" → "fourteen/fifteen" | HIGH |
-| ch-7 | Mbembe educated by "Jesuits" → "Dominicans" | HIGH |
-| ch-8 | GM hiring date "before 1964" → "before 1970 for assembly line work" | HIGH |
-| ch-8 | Angela Davis age at acquittal "twenty-seven" → "twenty-eight" | HIGH |
-| ch-9 | Gramsci's father imprisoned "three years" → "five years" | HIGH |
-| ch-9 | Gramsci survived conditional release "four days" → "six days" | HIGH |
-| ch-11 | Quebec City 2001: "WTO protests" → "Summit of the Americas protests" | HIGH |
-| ch-12 | Mary Roy "sued her own father" → "sued her own brother" | HIGH |
-| ch-13 | "$6 billion" → "$5.8 billion" (internal inconsistency, ch-13 had both) | HIGH |
-| ch-13 | Boston North End "Irish immigrant district" → "Italian immigrant district" | HIGH |
-| ch-14 | Land defender killings: "majority Indigenous" → "over a third Indigenous" | HIGH |
-| ch-15 | Selma James "Trinidadian-American" → "American" (C.L.R. James was Trinidadian) | HIGH |
-| ch-15 | Kaba book title "*We Do This 'Til We Build It*" → "*We Do This 'Til We Free Us*" | HIGH |
-| ch-16 | Debord "writing the same year as Baudrillard" → "writing the year before" (1967 vs 1968) | HIGH |
-| ch-16 | Torvalds quote: "won't be **anything** big and professional" → "won't be big and professional" | MEDIUM |
-| ch-17 | Sorenson: "philosopher" → "anthropologist" | HIGH |
-| ch-17 | Prechtel in Guatemala "two decades" → "approximately fourteen years" (1970–1984) | HIGH |
+**22 confirmed corrections across 17 chapters.**
 
 ---
 
 ## FLAGS REQUIRING YOUR DECISION
 
-These were left untouched. Each needs a call from you.
+### A. Biographical details you may have sourced that agents couldn't find
 
-### Substantive / High-Stakes
+| Chapter | Flag | Agent's finding |
+|---------|------|-----------------|
+| ch-6 | Robinson's father "from Barbados, worked as a laborer. His mother cleaned houses." | Sources identify his biological father as a local Oakland nightclub owner; no Barbados connection found. If sourced from interview or unpublished material, a footnote would protect it. |
+| ch-7 | Mbembe's father: "a farmer who also worked as a civil servant" | Multiple sources identify his father as Ruben Um Nyobè — founding leader of the UPC, killed by French troops in September 1958. The description isn't false but may be significantly incomplete. Intentional framing or oversight? |
+| ch-7 | Mbembe first glimpsed South Africa "in 1981" | He didn't arrive in Paris for his doctorate until 1982. A 1981 South Africa trip is chronologically difficult. The swimming-pool anecdote likely originates in a specific essay — if so, the source pins the date. |
 
-**ch-6 — Robinson's father**
-Agent couldn't confirm "His father had come from Barbados, worked as a laborer. His mother cleaned houses." Multiple sources say his biological father was a local Oakland nightclub owner with no Barbados connection. Do you have a source, or did this come from an interview?
+### B. Imprecisions that matter to the argument
 
-**ch-7 — Mbembe's father is Ruben Um Nyobè**
-Sources identify Mbembe's father as Ruben Um Nyobè — the most prominent Cameroonian independence leader, killed by French troops in September 1958. The text says "a farmer who also worked as a civil servant" (accurate as far as it goes). Intentional omission or oversight?
+| Chapter | Flag | Issue |
+|---------|------|-------|
+| prologue | "Twelve centuries" of Valencia water tribunal | ~Ten to eleven centuries (founded ~960 CE). UNESCO says "more than a thousand years." |
+| prologue | "Historians call it primitive accumulation" | Marx's term from *Capital*, not primarily a historian's label. |
+| ch-2 | "Norfolk simply locked its public schools in 1958" | Six white middle and high schools were closed, not all public schools. |
+| ch-3 | Workshop implied founded when they arrived at IU (1965) | Formally founded 1973 — eight years later. |
+| ch-4 | Kerala life expectancy "75 years" | Current figure ~77. Older dataset — add a year qualifier. |
+| ch-4 | Kerala literacy "94%" | Current figure ~96%. Same issue. |
+| ch-5 | Paper marriage placed chronologically at Zurich arrival (age 18) | Marriage was in 1898 when she was leaving Zurich for Berlin, age 27. Agent removed the clause from the wrong position; you need to restore it correctly. |
+| ch-10 | "Lenin read it and suppressed it" | The withholding is documented; Lenin's personal order is contested. Consider softening to "was withheld from publication." |
+| ch-10 | GKSD members "form the core of the Nazi SA" | Freikorps broadly fed Nazi structures; the SA connection for this specific unit is less documented than SS connections. |
+| ch-11 | Zapatistas "govern roughly a quarter of Chiapas" | Sources say "about a third." Also: 2023 restructuring may have changed the picture. |
+| ch-13 | Rolling Jubilee raised "$700,000 in six weeks" | Night-of-telethon total was ~$368K; campaign total reached ~$600K+. Verify your source for $700K and the timeframe. |
+| ch-14 | Indigenous territories contain "80 percent of world's remaining biodiversity" | Challenged in *Nature* (2024) as unsourced. Consider softening or citing the specific UN report. |
+| ch-15 | Home health aide wages "under $18/hour" | BLS 2023 median ~$18.26; NYC minimum rose to $19.65 in Jan 2026. May need updating. |
+| ch-16 | "For three weeks, France stopped" | May '68 ran early May through late June — closer to a month. |
+| ch-17 | Jacobs "defended Greenwich Village against Moses's expressway through Washington Square Park" | Washington Square campaign (1958) was about rerouting Fifth Avenue traffic, not an expressway. LOMEX was a separate fight in SoHo/Little Italy. Two campaigns conflated. |
 
-**ch-7 — Mbembe's 1981 South Africa trip**
-Mbembe didn't arrive in Paris until 1982. His 1981 South Africa trip couldn't be corroborated. The swimming-pool anecdote may be sourced from a specific Mbembe essay — if so, which one?
+### C. Intentional framing questions
 
-**ch-6 — Berkeley / Free Speech Movement timing**
-Robinson arrived at Berkeley 1959, completed his BA 1963. The FSM began Fall 1964 — after he graduated. The chapter implies he was there as it formed. Reframe to "late 1950s and early 1960s" or similar.
-
-**ch-10 — Lenin suppressed Luxemburg's manuscript**
-Contested in scholarship. The manuscript was withheld during Lenin's lifetime (undisputed). Whether Lenin personally ordered suppression is disputed — could have been Leo Jogiches, or simply withheld to avoid Bolshevik friction. If you intend only the former, no change needed. If the latter, soften.
-
-**ch-11 — Huxley and Social Darwinism**
-The text implies Huxley endorsed it. In fact his 1893 "Evolution and Ethics" explicitly repudiated it. Kropotkin was arguing *against* Huxley's 1888 framing, but Huxley himself was not a Social Darwinist. Consider: "In a popular essay, Huxley had argued..." (Kropotkin's polemical target) rather than attributing the view neutrally.
-
-**ch-13 — "Start with what they burned" attributed to Federici**
-The ch-16b agent also flagged this. The phrase may be the collaboration's own synthesis of Federici's method rather than traceable to her text. Verify against *Caliban and the Witch*.
-
-**ch-17 — Campbell's late-life warning on consumer culture**
-No source found for the specific characterization that Campbell warned about "consuming the symbol of the journey without undertaking it." Could be real but unverified. Needs citation or should be reframed as your interpretation.
-
-**ch-17 — Jacobs vs. Moses: two different fights conflated**
-Washington Square / Fifth Avenue routing (1958 campaign) and the Lower Manhattan Expressway / LOMEX (1960s, targeting SoHo and Little Italy) are two distinct fights. The text conflates them. Which did you intend to name?
-
----
-
-### Minor / Author's Call
-
-| Chapter | Flag | Recommendation |
-|---------|------|----------------|
-| prologue | "Twelve centuries" for Valencia Tribunal — 10th century = ~10–11 centuries | Change to "ten centuries" or "over a thousand years" |
-| prologue | "Historians call it primitive accumulation" — it's Marx's term | "Marx called it" or "political economists call it" |
-| prologue | Night herons nesting in "oak and willow trees" — CCB data says loblolly pines in Norfolk | Verify against your direct observation |
-| ch-2 | Norfolk school closures: "public schools" implies all — it was six middle/high schools | "six of its public schools" |
-| ch-3 | Ostrom Workshop: founded 1973, not upon arrival in 1965 | "would go on to found" |
-| ch-3 | Hardin/editor subtitle anecdote — Hardin's objection to subtitle unverified | Cite source or soften |
-| ch-4 | Kerala: life expectancy 75 (may be ~77 now), literacy 94% (may be ~96%) | Add year qualifier |
-| ch-4 | Zapatista caracoles: text says 2004, actual announcement was August 2003 | Prefer rhythm or accuracy? |
-| ch-5 | Luxemburg body: "four months later" — actually 4.5 months | "nearly five months" |
-| ch-5 | Kollontai factory visit: "1895" — some sources say 1896 | Verify source |
-| ch-5 | Paper marriage timing: text implies pre-Zurich (age 18) — actually 1898 leaving Zurich | Timeline needs reordering |
-| ch-6 | Palmares governance: "elected councils" overstates horizontal structure | "a king and council of elders" or similar |
-| ch-6 | Great Zimbabwe population: "fifteen thousand" — standard figure is 18,000 | Verify your source |
-| ch-8 | 200,000 incarcerated (1971): accurate for state/federal prisons; ~360K with jails | Clarify scope if relevant |
-| ch-9 | CLT "land trust movement of 1984": first CLT was 1969 (Albany, GA); 1984 is Burlington | Clarify which marker you intend |
-| ch-11 | Zapatista territory: "a quarter of Chiapas" — sources say "a third"; also 2023 reorganization | Update figure |
-| ch-12 | Narmada displaced: "half a million" — doesn't match either standard figure (~300K or ~1.5M) | Verify against Roy's own essay |
-| ch-12 | La Meridiana wine details: location (not really Alps), grape varieties (Corvina/Rondinella = Bardolino, not Valtenesi), hectares (12 not 5) | Verify against your notes/bottle |
-| ch-12 | Freire and Roy "same decade" — Freire's Brazilian programs were 1950s–64, Roy's Narmada work was 1990s | Structural parallel, not temporal — clarify |
-| ch-13 | Rolling Jubilee: $700K in "six weeks" — may be cumulative total, not night-of | Verify final published figure |
-| ch-13 | 27% of medical debt cases → housing problems — source not found | Cite source |
-| ch-13 | 16% of suicides in financial crisis — source not found | Cite source |
-| ch-14 | "80% of world's biodiversity" on Indigenous lands — contested figure, challenged in Nature (2024) | Soften or cite specifically |
-| ch-14 | "Domestic terrorism charges, first in American history" — first use of Georgia's 2017 state statute, but broader claim is uncertain | Specify scope |
-| ch-15 | Home health aide wage "under $18" — NYC minimum has since risen to $19.65/hr | Update if finalizing now |
-| ch-16 | May '68 "three weeks" — the events ran ~6 weeks (early May through late June) | "weeks" or "a month" |
-| ch-16b | *Body without organs* / deterritorialization attributed to Deleuze alone — co-developed with Guattari | Add "and Guattari" or keep shorthand knowingly |
-| ch-17 | Sorenson's location "an island in eastern Andaman Sea" — actually multiple islands/sea nomad groups | "communities in the eastern Andaman Sea" |
-| ch-18 | Occupy: "eight hundred cities" — sources say 900–951 | Update to ~900 |
-| ch-18 | Zapatista caracoles "thirty years" — caracoles are ~22 years old (2003); uprising is 30 years | Specify which you mean |
-| interlude-barcelona | "depaving its intersections" — most are tactical urbanism (paint/planters), not literal depaving | "reclaiming" may be more accurate |
+| Chapter | Flag |
+|---------|------|
+| ch-11 | Huxley presented as Social Darwinist. His 1893 essay explicitly repudiated Social Darwinism. If this is Kropotkin's POV, defensible; if your independent claim, needs a nuance. |
+| ch-16b | *Body without organs* and deterritorialization attributed to Deleuze alone throughout. These are Deleuze-Guattari concepts. Does the book's emphasis on collective knowledge production require naming Guattari? |
+| ch-17 | Campbell's "late-life warning about consumer culture consuming the symbol" — agents couldn't locate a source. Direct claim or authorial inference? Needs a citation or reframe. |
+| the-centaur | "The French officer who told Fanon he wanted his nerves back" — verify exact language against "Colonial War and Mental Disorders" chapter in *Wretched of the Earth*. |
+| the-centaur | "'Start with what they burned' is Federici's own method" — may be the collaboration's coinage, not a Federici formulation. Verify or reframe. |
 
 ---
 
-## CLEAN CHAPTERS (no corrections, no material flags)
-
-- **chapter-1**: Clean. No factual claims requiring correction.
-- **epilogue**: Already on main.
-- **interlude-washington**: Clean. Gramsci date range is a minor imprecision, not an error.
+## CHAPTERS WITH NO MATERIAL ISSUES
+ch-18, interlude-barcelona, interlude-washington, ch-16b (minor attribution questions only)
 
 ---
 
-## SKIP LIST STATUS (review before merge)
+## MERGE RECOMMENDATION
 
-- **chapter-6**: 0 confirmed corrections, 5 flags — including the Robinson biographical claims and FSM timing. Review before merging.
-- **the-centaur-chapter**: 0 confirmed corrections, 2 flags — both minor (Fanon "nerves" quote sourcing, Federici phrase attribution). Your call.
-- **prologue**: 0 confirmed corrections, 3 flags — all minor. Probably mergeable after you read them.
+**Safe to merge now** — confirmed corrections only, no unresolved flags:
+`ch-2, ch-3, ch-4, ch-5, ch-8, ch-9, ch-11, ch-12, ch-13, ch-15, ch-16, ch-17, ch-18, interlude-barcelona, interlude-washington`
+
+**Merge after your review** — substantive flags requiring decisions:
+`ch-7` (Mbembe's father, 1981 date — review the sentence rewrites)
+`ch-10` (Lenin suppression, Freikorps/SA framing)
+`ch-14` (80% biodiversity claim)
+`ch-16b` (Deleuze/Guattari — your call)
+`the-centaur-chapter` (skip list; verify two source claims)
+
+**Hold for deeper work** — skip list or significant unresolved biographical material:
+`ch-6` (Robinson biographical details need sourcing)
+`prologue` (skip list)
