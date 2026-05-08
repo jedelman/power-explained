@@ -7,7 +7,7 @@ part: "Part VI: What to Build"
 ---
 In the fall of 2011, something happened that the dominant political theory of the time had no adequate language for.
 
-People gathered in Zuccotti Park in lower Manhattan — and then in parks and squares in eight hundred cities across the world — and did something simple and strange: they tried to govern themselves in public, without leaders, without a party, without a platform of demands, in real time and in the open air.
+People gathered in Zuccotti Park in lower Manhattan — and then in parks and squares in eight hundred cities across the world [FLAG: sources report ~900–951 cities on Oct 15, 2011; verify figure] — and did something simple and strange: they tried to govern themselves in public, without leaders, without a party, without a platform of demands, in real time and in the open air.
 
 The smartphones made it possible. The internet made it possible — the open protocols that Berners-Lee gave away in 1993, running on the operating system Torvalds gave away in 1991, under the license Stallman wrote in 1989. A herd of centaurs occupied Wall Street: each one singular, each one connected through the network in real time, each one both individual node and part of a distributed intelligence that none of them could have accessed alone. The mycorrhizal network, finally fast enough to see.
 
@@ -19,7 +19,7 @@ Michael Hardt and Antonio Negri watched, and wrote. Their response — *Declarat
 
 The form preceded the content. The commons of governance was being produced before anyone knew what it would govern.
 
-This was also Debord's détournement at its largest scale: the financial district's own public plaza repurposed as a commons. The master's space, turned. And Sorenson's speaking circle, enacted as the people's mic — the form that already knew how to receive the singular, discovered again, in a park in lower Manhattan, by people who had never heard of Sorenson. And Alexander's pattern language appearing spontaneously in the camp: the kitchen in one place, the library in another, the medical tent at the edge — the community generating its own pattern language because pattern languages always emerge when the conditions are right. And Jacobs's sidewalk ballet, in a plaza instead of a street, for as long as the conditions held.
+This was also Debord's détournement at its largest scale: the financial district's own public plaza repurposed as a commons. The master's space, turned. And Sorenson's speaking circle [FLAG: "Sorenson" — cannot verify this attribution; if a specific person or lineage, identity needs confirmation], enacted as the people's mic — the form that already knew how to receive the singular, discovered again, in a park in lower Manhattan, by people who had never heard of Sorenson. And Alexander's pattern language appearing spontaneously in the camp: the kitchen in one place, the library in another, the medical tent at the edge — the community generating its own pattern language because pattern languages always emerge when the conditions are right. And Jacobs's sidewalk ballet, in a plaza instead of a street, for as long as the conditions held.
 
 Everything this book has been describing happened there. Briefly. Imperfectly. Pointed somewhere.
 
@@ -65,7 +65,7 @@ The Prince, in this understanding, is not the sovereign. Not the party. The mult
 
 *Preguntando caminamos.* Asking, we walk.
 
-This is already happening. You have met them in this book: the Zapatista caracoles, still governing after thirty years. Cooperation Jackson, building from the most marginalized. The Crown Heights mutual aid network, still meeting. The data cooperatives being built before the AI enclosure completes. The communities of practice that meet every week — imperfect, pointed somewhere, refusing to wait for permission.
+This is already happening. You have met them in this book: the Zapatista caracoles, still governing after thirty years [FLAG: caracoles established August 2003 (~20 years); EZLN uprising January 1994 (~30 years); verify which duration is meant]. Cooperation Jackson, building from the most marginalized. The Crown Heights mutual aid network, still meeting. The data cooperatives being built before the AI enclosure completes. The communities of practice that meet every week — imperfect, pointed somewhere, refusing to wait for permission.
 
 You may be one of them already.
 
