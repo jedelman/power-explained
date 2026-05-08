@@ -43,7 +43,7 @@ You, when you don't fit the room, are doing the same thing.
 
 The emptiness is structural — it has to be. A satisfied person, fully themselves, stops being manageable. The system requires the dissatisfaction. There is always another object that would finally complete the arrangement, another adjustment that might make the belonging feel real. The promise is the product.
 
-Guy Debord, writing the same year as Baudrillard, called this management of belonging *the spectacle* — not images, but social relations mediated by images. You are not experiencing your social world. You are consuming its representation. The love the spectacle offers is always at one remove: you are connected to the image of connection, you belong to the image of belonging, and the representation is more vivid and more legible than the living thing it replaced.
+Guy Debord, writing the year before [CORRECTION: "the same year as Baudrillard" → "the year before" | Debord’s *La Société du spectacle* was published in November 1967; Baudrillard’s *Le Système des objets* appeared in 1968], called this management of belonging *the spectacle* — not images, but social relations mediated by images. You are not experiencing your social world. You are consuming its representation. The love the spectacle offers is always at one remove: you are connected to the image of connection, you belong to the image of belonging, and the representation is more vivid and more legible than the living thing it replaced.
 
 This is enclosure applied to love itself — belonging contingent on legibility, the field converted into a managed arrangement where the price of admission is yourself.
 
@@ -51,7 +51,7 @@ This is enclosure applied to love itself — belonging contingent on legibility,
 
 In May 1968, students in Paris took this argument into the streets.
 
-They had been reading Debord. They spray-painted his ideas on walls: *Under the cobblestones, the beach. Be realistic, demand the impossible. It is forbidden to forbid.* For three weeks, France stopped. Workers occupied factories. Students occupied the Sorbonne. The rupture felt total.
+They had been reading Debord. They spray-painted his ideas on walls: *Under the cobblestones, the beach. Be realistic, demand the impossible. It is forbidden to forbid.* For three weeks, France stopped. [FLAG: "three weeks" | The May ’68 upheaval ran from early May through late June — roughly a month, not three weeks; the general strike alone lasted nearly a month. Verify intended scope before correcting.] Workers occupied factories. Students occupied the Sorbonne. The rupture felt total.
 
 And then it didn't.
 
@@ -125,11 +125,11 @@ Stallman's insight was to cast the same incantation backward. He wrote the GNU G
 
 Debord had called this *détournement* — the hijacking of the system's own forms against the system's purposes. The GPL is détournement as legal instrument. The master's grammar, turned.
 
-In that same year — 1989, the year the Berlin Wall fell — Tim Berners-Lee, a British scientist working in Geneva, submitted a proposal to his supervisors at CERN. He wanted to build a system for sharing information across a network: documents that could link to other documents, navigable from anywhere, built on a common set of rules that anyone could use. His supervisor wrote on the cover: *Vague but exciting.*
+In that same year — 1989, the year the Berlin Wall fell — Tim Berners-Lee, a British scientist working in Geneva, submitted a proposal to his supervisor at CERN. He wanted to build a system for sharing information across a network: documents that could link to other documents, navigable from anywhere, built on a common set of rules that anyone could use. His supervisor wrote on the cover: *Vague but exciting.*
 
 Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an internet discussion group:
 
-> "I'm doing a (free) operating system (just a hobby, won't be anything big and professional like gnu) for 386(486) AT clones."
+> "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones." [CORRECTION: "won't be anything big and professional" → "won't be big and professional" | the word "anything" does not appear in Torvalds's original August 25, 1991 Usenet post to comp.os.minix]
 
 He thought he was making a toy. Programmers around the world — none paid, none coordinated through any central authority — started contributing. The operating system shipped under the GPL. By 1993, Berners-Lee had built the working web, and CERN released the underlying rules into the public domain. No license. No fee. No owner.
 
