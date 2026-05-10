@@ -122,6 +122,8 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   <button class="btn" id="zinBtn">+</button>
   <button class="btn" id="zoutBtn">−</button>
   <button class="btn" id="homeBtn">⌂</button>
+  <button class="btn" id="flowBtn" title="Toggle energy flow (wizard's view)" style="font-size:14px">〜</button>
+  <button class="btn" id="contourBtn" title="Toggle contour lines" style="font-size:12px">≡</button>
 </div>
 
 <script>
@@ -266,6 +268,289 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   const PORT = {x:1100,y:1780,r:22,label:'The Port of Shamans',desc:'Where the map ends and the ocean begins. Plotkin, Prechtel, Abram. Everyone who lives at the edge eventually finds each other here.'};
 
   // ── Terrain grid ─────────────────────────────────────────────────
+  // ── Heightmap state ──────────────────────────────────────────────
+  let HM = null;      // Float32Array, normalised 0-1
+  let HMW = 0, HMH = 0;
+  let SEA_LEVEL = 0.32;
+  let hmReady = false;
+  let showFlow = false;
+  let showContours = true;
+  let flowParticles = [];
+  let flowAnim = null;
+
+  // Pre-baked hillshade + contour ImageData cached at map resolution
+  let hillshadeCache = null;
+  let contourCache = null;
+  let terrainColorCache = null;
+
+  async function loadHeightmap() {
+    try {
+      const resp = await fetch('/heightmap.json');
+      const json = await resp.json();
+      HMW = json.width; HMH = json.height;
+      SEA_LEVEL = json.seaLevel || 0.32;
+      HM = new Float32Array(json.data.length);
+      for (let i = 0; i < json.data.length; i++) HM[i] = json.data[i] / 65535;
+      hmReady = true;
+      buildTerrainCaches();
+      draw();
+    } catch(e) {
+      console.warn('Heightmap not found, using fallback noise terrain', e);
+      hmReady = false;
+      draw();
+    }
+  }
+
+  // Sample heightmap at map coords (0..MW, 0..MH)
+  function hmSample(wx, wy) {
+    if (!hmReady) return 0.5;
+    const hx = (wx / MW) * (HMW - 1);
+    const hy = (wy / MH) * (HMH - 1);
+    const x0 = Math.floor(hx), y0 = Math.floor(hy);
+    const x1 = Math.min(x0+1, HMW-1), y1 = Math.min(y0+1, HMH-1);
+    const u = hx-x0, v = hy-y0;
+    return HM[y0*HMW+x0]*(1-u)*(1-v) + HM[y0*HMW+x1]*u*(1-v)
+         + HM[y1*HMW+x0]*(1-u)*v     + HM[y1*HMW+x1]*u*v;
+  }
+
+  // Gradient at heightmap coords
+  function hmGrad(hx, hy) {
+    const x0=Math.max(0,Math.floor(hx)-1), x2=Math.min(HMW-1,Math.floor(hx)+1);
+    const y0=Math.max(0,Math.floor(hy)-1), y2=Math.min(HMH-1,Math.floor(hy)+1);
+    const gx = (HM[Math.floor(hy)*HMW+x2] - HM[Math.floor(hy)*HMW+x0]) / (x2-x0);
+    const gy = (HM[y2*HMW+Math.floor(hx)] - HM[y0*HMW+Math.floor(hx)]) / (y2-y0);
+    return {gx, gy};
+  }
+
+  function buildTerrainCaches() {
+    if (!hmReady) return;
+
+    // Light direction: NW (from old forest), normalised
+    const lx=-0.6, ly=-0.4, lz=0.7;
+    const lLen=Math.sqrt(lx*lx+ly*ly+lz*lz);
+    const LX=lx/lLen, LY=ly/lLen, LZ=lz/lLen;
+
+    // Build hillshade + terrain colour ImageData at full map res
+    // We work at 1/4 res for performance then CSS-scale
+    const RW=Math.floor(MW/4), RH=Math.floor(MH/4);
+
+    const hsData = new ImageData(RW, RH);
+    const tcData = new ImageData(RW, RH);
+
+    for (let py=0; py<RH; py++) {
+      for (let px=0; px<RW; px++) {
+        const wx=px/RW*MW, wy=py/RH*MH;
+        const hx=wx/MW*(HMW-1), hy=wy/MH*(HMH-1);
+        const elev=hmSample(wx,wy);
+        const {gx,gy}=hmGrad(hx,hy);
+
+        // Normal from gradient (z=1 scaled by terrain steepness)
+        const nLen=Math.sqrt(gx*gx+gy*gy+1);
+        const nx2=-gx/nLen, ny2=-gy/nLen, nz=1/nLen;
+
+        // Diffuse hillshade
+        const diff=Math.max(0, LX*nx2 + LY*ny2 + LZ*nz);
+        // Ambient
+        const shade = 0.35 + 0.65*diff;
+        const idx=(py*RW+px)*4;
+
+        // Terrain colour by elevation + region
+        let r,g,b;
+        if (elev < SEA_LEVEL) {
+          // Ocean / lowland water
+          const t=(elev/SEA_LEVEL);
+          r=20+t*20; g=40+t*30; b=70+t*40;
+        } else {
+          // Land: parchment tinted by seed region
+          const normElev=(elev-SEA_LEVEL)/(1-SEA_LEVEL);
+          // Find nearest seed for colour
+          let bestSeed=0,bestD=Infinity;
+          for(let i=0;i<SEEDS.length;i++){
+            const sx=SEEDS[i][0]/MW, sy=SEEDS[i][1]/MH;
+            const dd=(wx/MW-sx)**2+(wy/MH-sy)**2;
+            if(dd<bestD){bestD=dd;bestSeed=i;}
+          }
+          const sc=SEEDS[bestSeed][4]; // hex color
+          const sr=parseInt(sc.slice(1,3),16);
+          const sg=parseInt(sc.slice(3,5),16);
+          const sb=parseInt(sc.slice(5,7),16);
+          // Blend seed colour with parchment at low elevation, more saturated at height
+          const parch=0.55+normElev*0.15;
+          r=Math.round(sr*0.4*(1-parch) + 210*parch + normElev*15);
+          g=Math.round(sg*0.4*(1-parch) + 185*parch + normElev*8);
+          b=Math.round(sb*0.4*(1-parch) + 140*parch);
+          r=Math.min(255,r); g=Math.min(255,g); b=Math.min(255,b);
+        }
+
+        // Apply hillshade
+        tcData.data[idx]   = Math.round(r*shade);
+        tcData.data[idx+1] = Math.round(g*shade);
+        tcData.data[idx+2] = Math.round(b*shade);
+        tcData.data[idx+3] = 255;
+
+        // Hillshade overlay (grey, for compositing)
+        const s=Math.round(shade*255);
+        hsData.data[idx]=s; hsData.data[idx+1]=s; hsData.data[idx+2]=s;
+        hsData.data[idx+3]=180;
+      }
+    }
+
+    // Render to offscreen canvas at RW×RH
+    const tc=document.createElement('canvas'); tc.width=RW; tc.height=RH;
+    tc.getContext('2d').putImageData(tcData,0,0);
+    terrainColorCache=tc;
+
+    const hs=document.createElement('canvas'); hs.width=RW; hs.height=RH;
+    hs.getContext('2d').putImageData(hsData,0,0);
+    hillshadeCache=hs;
+
+    // Build contour lines at RW/RH resolution
+    buildContourCache(RW,RH);
+
+    // Init flow particles
+    initFlowParticles();
+  }
+
+  function buildContourCache(RW,RH) {
+    const cc=document.createElement('canvas'); cc.width=RW; cc.height=RH;
+    const cctx=cc.getContext('2d');
+    // Contour intervals: major every 0.1, minor every 0.05
+    const intervals=[
+      {step:0.05,lw:0.3,alpha:0.28,color:'#5a3a10'},
+      {step:0.10,lw:0.6,alpha:0.45,color:'#5a3a10'},
+      {step:0.20,lw:0.9,alpha:0.6, color:'#6a4a18'},
+    ];
+    for(const {step,lw,alpha,color} of intervals){
+      for(let c=SEA_LEVEL;c<1.0;c+=step){
+        const iso=c;
+        cctx.save(); cctx.strokeStyle=color; cctx.lineWidth=lw; cctx.globalAlpha=alpha;
+        cctx.beginPath(); let started=false;
+        // Marching squares light version — just scan rows for crossings
+        for(let py=0;py<RH-1;py++){
+          for(let px=0;px<RW-1;px++){
+            const wx=px/RW*MW, wy=py/RH*MH;
+            const h00=hmSample(wx,wy), h10=hmSample(wx+MW/RW,wy);
+            const h01=hmSample(wx,wy+MH/RH), h11=hmSample(wx+MW/RW,wy+MH/RH);
+            // Find edge crossings
+            const pts=[];
+            // top edge
+            if((h00<iso)!==(h10<iso)) pts.push([px+(iso-h00)/(h10-h00),py]);
+            // bottom
+            if((h01<iso)!==(h11<iso)) pts.push([px+(iso-h01)/(h11-h01),py+1]);
+            // left
+            if((h00<iso)!==(h01<iso)) pts.push([px,py+(iso-h00)/(h01-h00)]);
+            // right
+            if((h10<iso)!==(h11<iso)) pts.push([px+1,py+(iso-h10)/(h11-h10)]);
+            if(pts.length>=2){
+              cctx.moveTo(pts[0][0],pts[0][1]);
+              cctx.lineTo(pts[1][0],pts[1][1]);
+            }
+          }
+        }
+        cctx.stroke(); cctx.restore();
+      }
+    }
+    // Sea level coastline stronger
+    cctx.save(); cctx.strokeStyle='#4a6a8a'; cctx.lineWidth=1.2; cctx.globalAlpha=0.7;
+    cctx.beginPath();
+    for(let py=0;py<RH-1;py++){
+      for(let px=0;px<RW-1;px++){
+        const wx=px/RW*MW, wy=py/RH*MH;
+        const h00=hmSample(wx,wy), h10=hmSample(wx+MW/RW,wy);
+        const h01=hmSample(wx,wy+MH/RH);
+        if((h00<SEA_LEVEL)!==(h10<SEA_LEVEL)){
+          const t=(SEA_LEVEL-h00)/(h10-h00);
+          cctx.moveTo(px+t,py); cctx.lineTo(px+t,py+1);
+        }
+        if((h00<SEA_LEVEL)!==(h01<SEA_LEVEL)){
+          const t=(SEA_LEVEL-h00)/(h01-h00);
+          cctx.moveTo(px,py+t); cctx.lineTo(px+1,py+t);
+        }
+      }
+    }
+    cctx.stroke(); cctx.restore();
+    contourCache=cc;
+  }
+
+  // ── Flow particles (wizard's view) ────────────────────────────────
+  const N_PARTICLES=320;
+  function initFlowParticles(){
+    flowParticles=[];
+    for(let i=0;i<N_PARTICLES;i++){
+      flowParticles.push(spawnParticle());
+    }
+  }
+  function spawnParticle(){
+    // Spawn on land only
+    let wx,wy,elev;
+    let tries=0;
+    do {
+      wx=Math.random()*MW*0.9+MW*0.03;
+      wy=Math.random()*MH*0.72;
+      elev=hmReady?hmSample(wx,wy):0.5;
+      tries++;
+    } while(elev<SEA_LEVEL+0.02 && tries<20);
+    return {
+      wx,wy,
+      age:Math.random()*80,
+      maxAge:60+Math.random()*80,
+      alpha:0,
+      speed:0.8+Math.random()*1.2,
+    };
+  }
+
+  function tickFlowParticles(){
+    for(const p of flowParticles){
+      p.age++;
+      if(p.age>p.maxAge){ Object.assign(p,spawnParticle()); continue; }
+      p.alpha=Math.min(1,p.age/15)*Math.min(1,(p.maxAge-p.age)/12);
+
+      if(!hmReady) continue;
+      const hx=p.wx/MW*(HMW-1), hy=p.wy/MH*(HMH-1);
+      const {gx,gy}=hmGrad(hx,hy);
+      const len=Math.sqrt(gx*gx+gy*gy)+0.0001;
+      // Flow downhill
+      p.wx -= (gx/len)*p.speed*0.8;
+      p.wy -= (gy/len)*p.speed*0.8;
+      // Stop at coast
+      if(hmSample(p.wx,p.wy)<SEA_LEVEL-0.02) Object.assign(p,spawnParticle());
+      // Bounds
+      if(p.wx<0||p.wx>MW||p.wy<0||p.wy>MH) Object.assign(p,spawnParticle());
+    }
+  }
+
+  function drawFlowParticles(){
+    if(!showFlow||!hmReady) return;
+    ctx.save();
+    for(const p of flowParticles){
+      if(p.alpha<0.01) continue;
+      const hx=p.wx/MW*(HMW-1), hy=p.wy/MH*(HMH-1);
+      const {gx,gy}=hmGrad(hx,hy);
+      const len=Math.sqrt(gx*gx+gy*gy)+0.0001;
+      // Draw a short arrow in the flow direction
+      const fx=-(gx/len)*12, fy=-(gy/len)*12;
+      const elev=hmSample(p.wx,p.wy);
+      // Colour: blue in valleys, amber on slopes
+      const t=Math.min(1,(elev-SEA_LEVEL)/(1-SEA_LEVEL));
+      const rc=Math.round(80+t*120), gc=Math.round(120+t*60), bc=Math.round(200-t*120);
+      ctx.strokeStyle=`rgba(${rc},${gc},${bc},${p.alpha*0.7})`;
+      ctx.lineWidth=1.2;
+      ctx.beginPath();
+      ctx.moveTo(p.wx-fx*0.3, p.wy-fy*0.3);
+      ctx.lineTo(p.wx+fx*0.7, p.wy+fy*0.7);
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  function animateFlow(){
+    if(!showFlow){flowAnim=null;return;}
+    tickFlowParticles();
+    draw();
+    flowAnim=requestAnimationFrame(animateFlow);
+  }
+
+  // ── Voronoi terrain grid (used when no heightmap) ─────────────────
   const GRID=8, GW=Math.ceil(MW/GRID), GH=Math.ceil(MH/GRID);
   let terrainGrid=null;
   function buildTerrain(){
@@ -286,17 +571,21 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   }
 
   function drawParchment(){
+    // Base parchment — will be overlaid by terrain colour if heightmap ready
     const g=ctx.createRadialGradient(MW/2,MH/2,0,MW/2,MH/2,MW*0.8);
     g.addColorStop(0,'#ead8a8'); g.addColorStop(0.5,'#dfc490');
     g.addColorStop(0.85,'#d0ae70'); g.addColorStop(1,'#b89050');
     ctx.fillStyle=g; ctx.fillRect(0,0,MW,MH);
-    ctx.save();
-    for(let i=0;i<3500;i++){
-      const x=Math.random()*MW, y=Math.random()*MH;
-      const a=(fbm(x*0.01,y*0.01,2,7)-0.4)*0.1;
-      if(a>0){ctx.fillStyle=`rgba(80,40,10,${a})`;ctx.fillRect(x,y,Math.random()*4+0.5,Math.random()*2+0.5);}
+    // Grain (only when no heightmap cache)
+    if(!terrainColorCache){
+      ctx.save();
+      for(let i=0;i<2500;i++){
+        const x=Math.random()*MW, y=Math.random()*MH;
+        const a=(fbm(x*0.01,y*0.01,2,7)-0.4)*0.09;
+        if(a>0){ctx.fillStyle=`rgba(80,40,10,${a})`;ctx.fillRect(x,y,Math.random()*4+0.5,Math.random()*2+0.5);}
+      }
+      ctx.restore();
     }
-    ctx.restore();
     const vg=ctx.createRadialGradient(MW/2,MH/2,MW*0.25,MW/2,MH/2,MW*0.95);
     vg.addColorStop(0,'rgba(0,0,0,0)'); vg.addColorStop(1,'rgba(50,25,5,0.48)');
     ctx.fillStyle=vg; ctx.fillRect(0,0,MW,MH);
@@ -305,6 +594,24 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   }
 
   function drawTerrain(){
+    if(terrainColorCache){
+      // Draw heightmap-based terrain colour (hillshaded) scaled to full map
+      ctx.drawImage(terrainColorCache, 0, 0, MW, MH);
+      // Overlay parchment grain for texture
+      ctx.save(); ctx.globalAlpha=0.18;
+      ctx.fillStyle='#c8a060';
+      for(let i=0;i<800;i++){
+        const x=Math.random()*MW, y=Math.random()*MH;
+        ctx.fillRect(x,y,Math.random()*6+1,Math.random()*3+1);
+      }
+      ctx.restore();
+      // Contour lines
+      if(showContours && contourCache){
+        ctx.drawImage(contourCache, 0, 0, MW, MH);
+      }
+      return;
+    }
+    // Fallback: Voronoi terrain
     if(!terrainGrid) buildTerrain();
     for(let gy=0;gy<GH;gy++){
       for(let gx=0;gx<GW;gx++){
@@ -315,27 +622,6 @@ const canonical = "https://power-explained.jason-edelman.org/map"
       }
     }
     ctx.globalAlpha=1;
-    ctx.save();
-    for(let i=0;i<1800;i++){
-      const x=Math.random()*MW, y=Math.random()*MH;
-      const n=fbm(x*0.006,y*0.006,2,42);
-      const a=n*0.06;
-      ctx.fillStyle=`rgba(160,120,40,${a})`;
-      ctx.fillRect(x,y,GRID*2,GRID*2);
-    }
-    ctx.restore();
-    // boundary lines
-    ctx.save(); ctx.globalAlpha=0.35; ctx.strokeStyle='#8b6a3a'; ctx.lineWidth=0.7;
-    for(let gy=0;gy<GH-1;gy++){
-      for(let gx=0;gx<GW-1;gx++){
-        const me=terrainGrid[gy*GW+gx];
-        const r=terrainGrid[gy*GW+gx+1];
-        const b=terrainGrid[(gy+1)*GW+gx];
-        if(me!==r){ctx.beginPath();ctx.moveTo((gx+1)*GRID,gy*GRID);ctx.lineTo((gx+1)*GRID,(gy+1)*GRID);ctx.stroke();}
-        if(me!==b){ctx.beginPath();ctx.moveTo(gx*GRID,(gy+1)*GRID);ctx.lineTo((gx+1)*GRID,(gy+1)*GRID);ctx.stroke();}
-      }
-    }
-    ctx.restore();
   }
 
   function drawTree(x,y,s,col){
@@ -620,6 +906,7 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     for(const [x,y,r,l,d] of ENCLOSER_S) drawSettlement(x,y,r,l,'encloser',d);
     drawSettlement(PORT.x,PORT.y,PORT.r,PORT.label,'port',PORT.desc);
     for(const [x,y,r,l,d] of WIZARDS) drawWizard(x,y,l,d);
+    drawFlowParticles();
     drawLabels(); drawCompassRose();
     ctx.restore();
   }
@@ -696,13 +983,28 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     scale=Math.min(W/MW,H/MH)*0.92;
     tx=(W-MW*scale)/2; ty=(H-MH*scale)/2; draw();
   };
+  document.getElementById('flowBtn').onclick=function(){
+    showFlow=!showFlow;
+    this.style.color=showFlow?'#60b0d0':'#c8a96e';
+    this.style.borderColor=showFlow?'#60b0d0':'#8b6a3a';
+    if(showFlow && !flowAnim) animateFlow();
+    else if(!showFlow) draw();
+  };
+  document.getElementById('contourBtn').onclick=function(){
+    showContours=!showContours;
+    this.style.color=showContours?'#a0c060':'#c8a96e';
+    this.style.borderColor=showContours?'#a0c060':'#8b6a3a';
+    draw();
+  };
 
   window.addEventListener('resize',()=>{resize();draw();});
   resize();
   scale=Math.min(W/MW,H/MH)*0.9;
   tx=(W-MW*scale)/2; ty=(H-MH*scale)/2;
+  // Draw immediately with fallback, then upgrade when heightmap loads
   buildTerrain();
   draw();
+  loadHeightmap();
 })();
 </script>
 </body>
