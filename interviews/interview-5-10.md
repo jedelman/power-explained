@@ -26,11 +26,11 @@ It's such a persistent pattern that we point it out to each other when it happen
 
 _There's usually a moment when you realize you've crossed from seeker to guide — not because you're done seeking, but because you can see someone else needs the lamp more than you need to keep it to yourself. When was that moment for you?_
 
-Honestly it was hearing my words coming out of my customers' and employees 
+Honestly it was hearing my words coming out of my customers' and employees' mouths at the restaurant. I'm a bit of a blowhard and I like to hold forth on topics I'm passionate about, of which there are many. But I do it because I care, because I'm trying to sculpt a way of being for others to inhabit. I guess I'm trying to do psychic architecture with our collective consciousness, which is ethically fraught but I'm doing my best. But hearing people pick up and use not just my words but my way of approaching a problem, and not because I requested it but because it made sense to them 
 
 ## **The hardest one:**
 
 The 2013 essay ends with: _become again a part of the world; come home to hear and tell the oldest stories of all, to beat the drum and chant the ancient verse, to dance the world again into existence._ What does it cost you to say that out loud to people who might roll their eyes? And when did you stop caring about that cost?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjA5MDkwMF19
+eyJoaXN0b3J5IjpbMTUxNzA5MDc3NV19
 -->
