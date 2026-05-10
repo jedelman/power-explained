@@ -20,15 +20,17 @@ _What's the first time you remember the birds changing what you could see? Not a
 
 We were in Ravenna Park - an Olmsted design - in Seattle, which is where we learned to birdwatch. We went there to practice all the time. And we heard crows, as we always did. But this time was a little different, and we had been learning to feel what they were feeling, not just to listen and analyze. And they felt excited, agitated, upset in a way I didn't recognize. We do way more birding by ear than by eye, but sometimes you have to see for yourself, and we decided to see. And we saw a _cloud_ of crows. Many of them hanging out in trees, swooping and diving and chatting and making a ruckus. And at the center of it was an owl - a barred owl, the first owl we had seen in daylight. And what I've learned since is that the crows were amplifying the owl's energetic signature. A few months later, it wasn't a flock of crows. It was a single robin. But that robin was calling with the same insistent, excited, upset tone. A robin and a crow sound nothing alike, and I can't even claim that the modulation was the same. But the feeling was the same, and sure enough, we looked up. We saw the robin, then we looked where the robin was looking, and sure enough - the owl. Staring at us. Since then, if there's an owl nearby, the birds will tell us. And we've found spots that if we want to see owls, we can just go see them. 
 
-It's such a persistent pattern that we point it out to each other when it happens again. We'll read about a creature, but not have ever heard or seen it. Then we'll be in its habitat and look for its sign. Maybe we see sign or maybe we hear a bird alert we don't recognize. We might not see it then, but after we see it the first time, it's like we've been let in on a secret of the universe.
+It's such a persistent pattern that we point it out to each other when it happens again. We'll read about a creature, but not have ever heard or seen it. Then we'll be in its habitat and look for its sign. Maybe we see sign or maybe we hear a bird alert we don't recognize. We might not see it then, but after we see it the first time, it's like we've been let in on a secret of the universe. And it's not a secret we can articulate, like "how to see a muskrat". It's far more complex than that. We just notice that now we can see them. There's a way to it, but the way that can be named is not the way.
 
 ## **On becoming the Hermit:**
 
-There's usually a moment when you realize you've crossed from seeker to guide — not because you're done seeking, but because you can see someone else needs the lamp more than you need to keep it to yourself. When was that moment for you?
+_There's usually a moment when you realize you've crossed from seeker to guide — not because you're done seeking, but because you can see someone else needs the lamp more than you need to keep it to yourself. When was that moment for you?_
+
+Honestly it was hearing my words coming out of my customers' and employees 
 
 ## **The hardest one:**
 
 The 2013 essay ends with: _become again a part of the world; come home to hear and tell the oldest stories of all, to beat the drum and chant the ancient verse, to dance the world again into existence._ What does it cost you to say that out loud to people who might roll their eyes? And when did you stop caring about that cost?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODAxNjA4XX0=
+eyJoaXN0b3J5IjpbLTg5NjA5MDkwMF19
 -->
