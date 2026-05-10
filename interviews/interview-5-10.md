@@ -6,7 +6,7 @@ That moment was the culmination of so many threads. There were things I was defi
 
 _You mentioned two burnouts. What does a burnout feel like in your body, specifically â€” not the narrative of it, the somatic experience? Where does it live? This matters because burnout is the wizard's forced underground, the initiation you didn't choose._
 
-It feels like weight. It accumulates an
+It feels like weight. It accumulates and one day you realize you can't move it, that it's become immobile. It's like wearing a backpack that someone keeps adding rocks to, or even more - it's carrying water to nourish the people around you and at some point you just can't carry it any more. For me, I just got slower and slower, and stumbled more, until one day I stumbled and I couldn't get back up so I just lay there. When I burned out of software, I lay 
 
 ## **On the commons and its loss:**
 
@@ -24,5 +24,5 @@ There's usually a moment when you realize you've crossed from seeker to guide â€
 
 The 2013 essay ends with: _become again a part of the world; come home to hear and tell the oldest stories of all, to beat the drum and chant the ancient verse, to dance the world again into existence._ What does it cost you to say that out loud to people who might roll their eyes? And when did you stop caring about that cost?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTE5MTA5NV19
+eyJoaXN0b3J5IjpbLTE4MDI1MTI0MjVdfQ==
 -->
