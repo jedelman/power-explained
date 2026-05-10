@@ -636,7 +636,129 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     flowAnim=requestAnimationFrame(animateFlow);
   }
 
-  // ── Layer state ───────────────────────────────────────────────────
+  // ── Mix map state ─────────────────────────────────────────────────
+  let MM = null;        // Uint8Array: RW*RH*6 weights
+  let MMW=0, MMH=0, MM_LAYERS=6;
+  let mmReady=false;
+  const MM_NAMES=['geo','soil','hydro','biome','infra','influence'];
+
+  async function loadMixmap() {
+    try {
+      const resp=await fetch('/mixmap.json');
+      const json=await resp.json();
+      MMW=json.width; MMH=json.height; MM_LAYERS=json.layers||6;
+      MM=new Uint8Array(json.data);
+      mmReady=true;
+      // Now we have both heightmap and mixmap — build the master composite
+      if(hmReady) buildCompositeCache();
+      draw();
+    } catch(e){
+      console.warn('Mixmap not found, using flat layer weights',e);
+    }
+  }
+
+  // Sample mix weights at map coords → Float32Array[6]
+  function mmSample(wx,wy){
+    if(!mmReady) return null;
+    const px=Math.min(MMW-1,Math.max(0,Math.round(wx/MW*(MMW-1))));
+    const py=Math.min(MMH-1,Math.max(0,Math.round(wy/MH*(MMH-1))));
+    const base=(py*MMW+px)*MM_LAYERS;
+    const w=new Float32Array(MM_LAYERS);
+    for(let i=0;i<MM_LAYERS;i++) w[i]=MM[base+i]/255;
+    return w;
+  }
+
+  // ── Composite cache ───────────────────────────────────────────────
+  // Pre-bake a single composited canvas using mix weights per pixel
+  // This is the DJ's master mix — computed once, used at draw time
+  let compositeCache=null;
+
+  function buildCompositeCache(){
+    if(!hmReady||!mmReady) return;
+    const RW=Math.floor(MW/4), RH=Math.floor(MH/4);
+
+    // Ensure all layer caches exist
+    if(!LAYERS.geo.cache||!LAYERS.soil.cache) buildAllLayers();
+
+    // Read each layer cache into pixel arrays
+    const layerKeys=['geo','soil','hydro','biome','infra','influence'];
+    const layerPixels=[];
+    for(const key of layerKeys){
+      const lc=LAYERS[key].cache;
+      if(lc){
+        const lctx=lc.getContext('2d');
+        layerPixels.push(lctx.getImageData(0,0,RW,RH).data);
+      } else {
+        // Missing layer — transparent
+        layerPixels.push(new Uint8ClampedArray(RW*RH*4));
+      }
+    }
+
+    // Also read the terrain colour (hillshaded biome base)
+    const tcPixels=terrainColorCache
+      ?terrainColorCache.getContext('2d').getImageData(0,0,RW,RH).data
+      :null;
+
+    // Build composite
+    const comp=new ImageData(RW,RH);
+    const cd=comp.data;
+
+    for(let py=0;py<RH;py++){
+      for(let px=0;px<RW;px++){
+        const wx=px/RW*MW, wy=py/RH*MH;
+        const pidx=(py*RW+px)*4;
+
+        // Get mix weights for this pixel
+        const mmpx=Math.min(MMW-1,Math.round(wx/MW*(MMW-1)));
+        const mmpy=Math.min(MMH-1,Math.round(wy/MH*(MMH-1)));
+        const mmbase=(mmpy*MMW+mmpx)*MM_LAYERS;
+
+        // Panel overrides: user can push a layer up beyond the mix
+        // Mix weight = cartographer's base × panel opacity (additive boost)
+        let totalW=0;
+        const finalW=new Float32Array(MM_LAYERS);
+        for(let i=0;i<MM_LAYERS;i++){
+          const mixW=MM[mmbase+i]/255;
+          const panelBoost=LAYERS[layerKeys[i]].on
+            ?(LAYERS[layerKeys[i]].alpha)
+            :0;
+          // Blend: mix map drives the base, panel can amplify but not invert
+          finalW[i]=mixW*(0.6+panelBoost*0.4);
+          totalW+=finalW[i];
+        }
+        if(totalW>0) for(let i=0;i<MM_LAYERS;i++) finalW[i]/=totalW;
+
+        // Start with terrain colour as base (hillshaded elevation)
+        let r=0,g=0,b=0;
+        if(tcPixels){
+          r=tcPixels[pidx]; g=tcPixels[pidx+1]; b=tcPixels[pidx+2];
+        }
+
+        // Composite each layer according to final mix weight
+        for(let i=0;i<MM_LAYERS;i++){
+          const w=finalW[i];
+          if(w<0.03) continue;
+          const lp=layerPixels[i];
+          const la=lp[pidx+3]/255;
+          if(la<0.01) continue;
+          // Soft-light blend for geological/natural layers, normal for infra/influence
+          const blend=(i>=4)?w:(w*0.7); // infra + influence blend more strongly
+          r=r*(1-blend)+lp[pidx  ]*blend;
+          g=g*(1-blend)+lp[pidx+1]*blend;
+          b=b*(1-blend)+lp[pidx+2]*blend;
+        }
+
+        cd[pidx  ]=Math.min(255,Math.max(0,r));
+        cd[pidx+1]=Math.min(255,Math.max(0,g));
+        cd[pidx+2]=Math.min(255,Math.max(0,b));
+        cd[pidx+3]=255;
+      }
+    }
+
+    const c=document.createElement('canvas'); c.width=RW; c.height=RH;
+    c.getContext('2d').putImageData(comp,0,0);
+    compositeCache=c;
+  }
   const LAYERS = {
     geo:       { on:true, alpha:0.60, cache:null },
     soil:      { on:true, alpha:0.50, cache:null },
@@ -1113,23 +1235,31 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   }
 
   function drawTerrain(){
+    if(compositeCache){
+      // Use the baked mix-map composite — the cartographer's argument
+      ctx.drawImage(compositeCache, 0, 0, MW, MH);
+      // Contour lines over the composite
+      if(showContours && contourCache){
+        ctx.save(); ctx.globalAlpha=0.5;
+        ctx.drawImage(contourCache, 0, 0, MW, MH);
+        ctx.restore();
+      }
+      return;
+    }
     if(terrainColorCache){
-      // Base hillshaded terrain
-      if(LAYERS.biome.on) {
+      // Mix map loading — show hillshaded terrain + flat layer composite
+      if(LAYERS.biome.on){
         ctx.save(); ctx.globalAlpha=LAYERS.biome.alpha;
         ctx.drawImage(terrainColorCache, 0, 0, MW, MH);
         ctx.restore();
       } else {
-        // Always draw base parchment topo even when biome off
         ctx.save(); ctx.globalAlpha=0.4;
         ctx.drawImage(terrainColorCache, 0, 0, MW, MH);
         ctx.restore();
       }
-      // Semantic layers composited on top
       drawLayerComposite();
-      // Contour lines
       if(showContours && contourCache){
-        ctx.save(); ctx.globalAlpha=0.55;
+        ctx.save(); ctx.globalAlpha=0.5;
         ctx.drawImage(contourCache, 0, 0, MW, MH);
         ctx.restore();
       }
@@ -1506,6 +1636,10 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     const key=el.dataset.layer;
     el.addEventListener('input', () => {
       LAYERS[key].alpha=el.value/100;
+      // Rebuild composite when panel changes — the DJ adjusts the mix
+      if(mmReady && hmReady){
+        buildCompositeCache();
+      }
       if(!showFlow) draw();
     });
   });
@@ -1517,6 +1651,7 @@ const canonical = "https://power-explained.jason-edelman.org/map"
       el.classList.toggle('on', LAYERS[key].on);
       const track=document.getElementById('lt-'+key);
       if(track) track.classList.toggle('muted',!LAYERS[key].on);
+      if(mmReady && hmReady) buildCompositeCache();
       if(!showFlow) draw();
     });
   });
@@ -1548,7 +1683,7 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   // Draw immediately with fallback, then upgrade when heightmap loads
   buildTerrain();
   draw();
-  loadHeightmap();
+  loadHeightmap().then(()=>loadMixmap());
 })();
 </script>
 </body>
