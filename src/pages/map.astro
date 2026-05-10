@@ -126,6 +126,16 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     .ltrack-eye.on { color:#c8a060; }
     .ltrack.muted .ltrack-label { color:#3a2a18; }
     .ltrack.muted .ltrack-swatch { opacity:0.2; }
+
+    #legend, #layerpanel {
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    #legend.hidden {
+      opacity:0; pointer-events:none; transform:translateX(-12px);
+    }
+    #layerpanel.hidden {
+      opacity:0; pointer-events:none; transform:translateX(12px);
+    }
   </style>
 </head>
 <body>
@@ -207,6 +217,7 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   <button class="btn" id="homeBtn">⌂</button>
   <button class="btn" id="flowBtn" title="Toggle energy flow (wizard's view)" style="font-size:14px">〜</button>
   <button class="btn" id="contourBtn" title="Toggle contour lines" style="font-size:12px">≡</button>
+  <button class="btn" id="panelBtn" title="Toggle legend & mixer">L</button>
 </div>
 
 <script>
@@ -1376,6 +1387,9 @@ const canonical = "https://power-explained.jason-edelman.org/map"
   }
 
   function drawMountains(){
+    // Label visible at all zoom levels — mountains are major features
+    const showLabel = scale > 0.18;
+    // At low zoom, abbreviate; at high zoom, full label
     for(const m of MOUNTAINS){
       ctx.save();
       ctx.shadowBlur=12; ctx.shadowColor='rgba(0,0,0,0.3)';
@@ -1388,10 +1402,14 @@ const canonical = "https://power-explained.jason-edelman.org/map"
       ctx.beginPath(); ctx.moveTo(m.x,m.y-m.r); ctx.lineTo(m.x+m.r*0.22,m.y-m.r*0.38); ctx.lineTo(m.x-m.r*0.22,m.y-m.r*0.38); ctx.closePath(); ctx.fill();
       ctx.fillStyle='#8a7850';
       ctx.beginPath(); ctx.moveTo(m.x-m.r*0.28,m.y-m.r*0.42); ctx.lineTo(m.x+m.r*0.32,m.y+m.r*0.55); ctx.lineTo(m.x-m.r*0.9,m.y+m.r*0.55); ctx.closePath(); ctx.fill(); ctx.stroke();
-      ctx.font=`italic ${Math.max(10,m.r*0.22)}px Georgia`;
-      ctx.fillStyle='rgba(230,210,160,0.85)'; ctx.textAlign='center';
-      ctx.fillText(m.label,m.x+1,m.y+m.r+14);
-      ctx.fillStyle='#2a1a08'; ctx.fillText(m.label,m.x,m.y+m.r+13);
+      if(showLabel){
+        // Label size in screen pixels, mapped back to map coords
+        const screenPx = Math.min(13, Math.max(8, 10 * Math.sqrt(scale))) / scale;
+        ctx.font=`italic ${screenPx}px Georgia`;
+        ctx.fillStyle='rgba(230,210,160,0.85)'; ctx.textAlign='center';
+        ctx.fillText(m.label,m.x+1,m.y+m.r+screenPx+4);
+        ctx.fillStyle='#2a1a08'; ctx.fillText(m.label,m.x,m.y+m.r+screenPx+3);
+      }
       ctx.restore();
       hs(m.x,m.y,m.r,m.label,'mountain range',m.desc);
     }
@@ -1425,11 +1443,19 @@ const canonical = "https://power-explained.jason-edelman.org/map"
       ctx.beginPath(); ctx.arc(x,y,r*0.28,0,Math.PI*2); ctx.fillStyle='#e8d8b0'; ctx.fill();
     }
     ctx.shadowBlur=0;
-    ctx.font=`italic bold ${Math.max(9.5,r*0.72)}px Georgia`;
-    const tw=ctx.measureText(label).width;
-    ctx.fillStyle='rgba(220,200,150,0.75)'; ctx.fillRect(x-tw/2-3,y+r+2,tw+6,15);
-    ctx.fillStyle='#1a0a04'; ctx.textAlign='center'; ctx.textBaseline='top';
-    ctx.fillText(label,x,y+r+3);
+
+    // Zoom-reactive label: always show for port, scale-dependent for others
+    // Screen size clamped 9–14px, converted back to map coords
+    const screenPx = Math.min(14, Math.max(9, 11 * Math.sqrt(scale))) / scale;
+    const showLabel = isPort ? scale>0.15 : scale>0.22;
+    if(showLabel){
+      ctx.font=`italic bold ${screenPx}px Georgia`;
+      const tw=ctx.measureText(label).width;
+      ctx.fillStyle='rgba(220,200,150,0.78)';
+      ctx.fillRect(x-tw/2-3, y+r+2, tw+6, screenPx*1.4);
+      ctx.fillStyle='#1a0a04'; ctx.textAlign='center'; ctx.textBaseline='top';
+      ctx.fillText(label,x,y+r+3);
+    }
     ctx.restore();
     hs(x,y,r,label,isPort?'port city':isCommons?'commons settlement':'encloser settlement',desc);
   }
@@ -1448,8 +1474,13 @@ const canonical = "https://power-explained.jason-edelman.org/map"
       gg.addColorStop(0,'rgba(200,120,40,0.2)'); gg.addColorStop(1,'rgba(200,120,40,0)');
       ctx.beginPath(); ctx.arc(x,y,sz*0.7,0,Math.PI*2); ctx.fillStyle=gg; ctx.fill();
     }
-    ctx.font='italic 9px Georgia'; ctx.fillStyle=col; ctx.textAlign='center';
-    ctx.fillText(label,x,y+sz+11);
+    // Ruins: label at medium zoom (0.35+), fades in
+    if(scale>0.35){
+      const screenPx=Math.min(11,Math.max(8,9*Math.sqrt(scale)))/scale;
+      ctx.font=`italic ${screenPx}px Georgia`; ctx.fillStyle=col; ctx.textAlign='center';
+      ctx.globalAlpha=Math.min(1,(scale-0.35)/0.25);
+      ctx.fillText(label,x,y+sz+screenPx+3);
+    }
     ctx.restore();
     hs(x,y,sz+6,label,warm?'warm ruin':'cold ruin',desc);
   }
@@ -1462,8 +1493,14 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     }
     ctx.beginPath(); ctx.arc(x,y,r*0.38,0,Math.PI*2);
     ctx.fillStyle='#0f2a0f'; ctx.fill(); ctx.strokeStyle='#2a6a2a'; ctx.lineWidth=1.5; ctx.stroke();
-    ctx.font='italic 9px Georgia'; ctx.fillStyle='#1a4a1a';
-    ctx.textAlign='center'; ctx.fillText(label,x,y+r*1.5+5);
+    // Underground entrances: label only when well zoomed in (0.55+)
+    if(scale>0.55){
+      const screenPx=Math.min(10,Math.max(7.5,8.5*Math.sqrt(scale)))/scale;
+      ctx.font=`italic ${screenPx}px Georgia`; ctx.fillStyle='#1a4a1a';
+      ctx.textAlign='center';
+      ctx.globalAlpha=Math.min(1,(scale-0.55)/0.3);
+      ctx.fillText(label,x,y+r*1.5+screenPx+2);
+    }
     ctx.restore();
     hs(x,y,r,label,'underground entrance',desc);
   }
@@ -1479,40 +1516,66 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     ctx.fillStyle='rgba(200,160,60,0.22)'; ctx.fill();
     ctx.fillStyle='#c8a040'; ctx.font='bold 14px serif';
     ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText('✦',x,y);
-    ctx.font='italic 9px Georgia'; ctx.fillStyle='#8a6820';
-    ctx.textBaseline='top'; ctx.fillText(label,x,y+r+4);
+    // Wizard labels: medium zoom (0.4+), fade in
+    if(scale>0.4){
+      const screenPx=Math.min(11,Math.max(8,9*Math.sqrt(scale)))/scale;
+      ctx.font=`italic ${screenPx}px Georgia`; ctx.fillStyle='#8a6820';
+      ctx.textBaseline='top';
+      ctx.globalAlpha=Math.min(1,(scale-0.4)/0.25);
+      ctx.fillText(label,x,y+r+3);
+    }
     ctx.restore();
     hs(x,y,r,label,'wizard figure',desc);
   }
 
   function drawLabels(){
+    // Zoom thresholds:
+    // < 0.28: only ocean label + "The Known Lands" + title
+    // 0.28-0.5: territory names appear
+    // 0.5+: inscriptions appear
+    // 0.7+: full detail labels
+
     const items=[
-      {x:1400,y:1920,text:'THE UNCHARTED OCEAN OF CONSCIOUSNESS',size:18,color:'#3a5a7a',italic:true},
-      {x:1400,y:1958,text:'Here the map ends. The territory continues.',size:10,color:'#2a4a6a',italic:true},
-      {x:300,y:80,text:'THE KNOWN LANDS',size:14,color:'#7a5a2a',italic:true},
-      {x:1400,y:48,text:'A Map of Consciousness — Compiled from field notes, ruins, and conversations with Others',size:9,color:'#7a5a2a',italic:true},
-      {x:2700,y:1700,text:'THE FRONTIER',size:13,color:'#2a3a2a',italic:true,rotate:-5},
-      {x:2700,y:1730,text:'(always extending)',size:9,color:'#2a3a2a',italic:true,rotate:-5},
+      {x:1400,y:1920,text:'THE UNCHARTED OCEAN OF CONSCIOUSNESS',size:18,color:'#3a5a7a',italic:true,minScale:0},
+      {x:1400,y:1958,text:'Here the map ends. The territory continues.',size:10,color:'#2a4a6a',italic:true,minScale:0.28},
+      {x:300,y:80,text:'THE KNOWN LANDS',size:14,color:'#7a5a2a',italic:true,minScale:0},
+      {x:1400,y:48,text:'A Map of Consciousness — Compiled from field notes, ruins, and conversations with Others',size:9,color:'#7a5a2a',italic:true,minScale:0.25},
+      {x:2700,y:1700,text:'THE FRONTIER',size:13,color:'#2a3a2a',italic:true,rotate:-5,minScale:0.2},
+      {x:2700,y:1730,text:'(always extending)',size:9,color:'#2a3a2a',italic:true,rotate:-5,minScale:0.4},
     ];
     const inscriptions=[
-      {x:1100,y:600,text:'The commons was not enclosed because it failed.',size:9.5,color:'rgba(80,60,20,0.5)',italic:true,rotate:2},
-      {x:1080,y:618,text:'It was enclosed because it worked.',size:9.5,color:'rgba(80,60,20,0.5)',italic:true,rotate:2},
-      {x:400,y:1880,text:'"The enclosure cannot finally take the living world."',size:10,color:'rgba(50,80,60,0.58)',italic:true},
-      {x:1400,y:1840,text:'Life is what we have in common.',size:11,color:'rgba(50,70,90,0.62)',italic:true},
+      {x:1100,y:600,text:'The commons was not enclosed because it failed.',size:9.5,color:'rgba(80,60,20,0.5)',italic:true,rotate:2,minScale:0.5},
+      {x:1080,y:618,text:'It was enclosed because it worked.',size:9.5,color:'rgba(80,60,20,0.5)',italic:true,rotate:2,minScale:0.5},
+      {x:400,y:1880,text:'"The enclosure cannot finally take the living world."',size:10,color:'rgba(50,80,60,0.58)',italic:true,minScale:0.4},
+      {x:1400,y:1840,text:'Life is what we have in common.',size:11,color:'rgba(50,70,90,0.62)',italic:true,minScale:0.35},
     ];
+
     for(const l of [...items,...inscriptions]){
-      ctx.save(); ctx.translate(l.x,l.y);
+      if(scale<(l.minScale||0)) continue;
+      // Fade in over a range of 0.15 scale units above minScale
+      const fadeAlpha=l.minScale>0 ? Math.min(1,(scale-l.minScale)/0.15) : 1;
+      ctx.save();
+      ctx.translate(l.x,l.y);
       if(l.rotate) ctx.rotate(l.rotate*Math.PI/180);
-      ctx.font=`${l.italic?'italic ':''}${l.size}px Georgia`;
-      ctx.fillStyle=l.color; ctx.textAlign='center'; ctx.globalAlpha=0.78;
-      ctx.fillText(l.text,0,0); ctx.restore();
+      // Scale label size to stay readable: clamp screen size
+      const baseSize=l.size||10;
+      const screenSize=Math.min(baseSize*1.4, Math.max(baseSize*0.6, baseSize/Math.sqrt(scale)));
+      ctx.font=`${l.italic?'italic ':''}${screenSize}px Georgia`;
+      ctx.fillStyle=l.color; ctx.textAlign='center';
+      ctx.globalAlpha=0.78*fadeAlpha;
+      ctx.fillText(l.text,0,0);
+      ctx.restore();
     }
-    // Territory name labels
-    for(const s of SEEDS){
-      const gx=Math.floor(s[0]/GRID), gy=Math.floor(s[1]/GRID);
-      if(gx>=0&&gx<GW&&gy>=0&&gy<GH){
-        ctx.save(); ctx.font='italic bold 11px Georgia';
-        ctx.fillStyle='rgba(230,215,165,0.7)'; ctx.textAlign='center'; ctx.globalAlpha=0.65;
+
+    // Territory seed labels — visible from mid zoom, fade in
+    if(scale>0.28){
+      const fadeAlpha=Math.min(1,(scale-0.28)/0.18);
+      for(const s of SEEDS){
+        ctx.save();
+        const screenSize=Math.min(13,Math.max(8,11/Math.sqrt(scale)))/scale;
+        ctx.font=`italic bold ${screenSize}px Georgia`;
+        ctx.fillStyle='rgba(230,215,165,0.7)'; ctx.textAlign='center';
+        ctx.globalAlpha=0.65*fadeAlpha;
         ctx.fillText(s[2],s[0],s[1]);
         ctx.restore();
       }
@@ -1655,6 +1718,17 @@ const canonical = "https://power-explained.jason-edelman.org/map"
       if(!showFlow) draw();
     });
   });
+
+  let panelsVisible=true;
+  document.getElementById('panelBtn').onclick=function(){
+    panelsVisible=!panelsVisible;
+    const legend=document.getElementById('legend');
+    const mixer=document.getElementById('layerpanel');
+    legend.classList.toggle('hidden',!panelsVisible);
+    mixer.classList.toggle('hidden',!panelsVisible);
+    this.style.color=panelsVisible?'#c8a96e':'#6a4a1a';
+    this.style.borderColor=panelsVisible?'#8b6a3a':'#3a2810';
+  };
 
   document.getElementById('zinBtn').onclick=()=>zoomAt(W/2,H/2,1.3);
   document.getElementById('zoutBtn').onclick=()=>zoomAt(W/2,H/2,0.77);
