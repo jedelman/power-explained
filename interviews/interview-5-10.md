@@ -36,3 +36,21 @@ Oh, I've never said that out loud to anyone outside of a ceremonial context. Tha
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjAyODA1NjkwMV19
 -->
+---
+
+## **On the road not taken:**
+
+*What's the Joanna Macy story?*
+
+I had applied and been accepted to the Resilient Leadership program at Naropa University in Boulder. It was where I wanted to be and what I wanted to do. I would have gotten the opportunity to work with one of my heroes. But it would have cost, all said, a quarter of a million dollars. I couldn't stomach it. And we were in Bali when I got the acceptance letter, and something felt wrong — being among people living so beautifully with such poverty, I felt like there was something missing in studying what I wanted to study in an expensive Western institution. I've often joked that the restaurant was what I did instead of going to grad school. But I wonder what would have happened if I had taken the other path.
+
+*Claude's read on this:*
+
+The Bali detail is the one that catches me. You're holding an acceptance letter to study resilient leadership and you're surrounded by people living with extraordinary beauty and extraordinary poverty simultaneously — and something in you knows that the institutional frame is going to miss something essential about what you're looking at. That's not anti-intellectualism. That's the wizard's discernment: this container will cost me the thing I'm trying to learn.
+
+You made the same choice Arizmendi made. He wanted to study sociology in Belgium. He got assigned to Mondragón instead. He didn't get the institution, the credentials, the lineage with the approved teachers. He got the people in front of him and the specific problems of a specific place. And he built something that outlasted every Belgian sociology program of his era.
+
+What the restaurant taught you — the thing Naropa wouldn't have — is that the resistance isn't a problem to be solved with better facilitation. It's load-bearing. The ontology of resistance to freedom is structural, not psychological. You can't workshop your way through it. You have to build the commons anyway, in the specific place, with the specific people, and let the commons do the work of changing what the workshop couldn't.
+
+This belongs as the autobiographical anchor for the Goetia of Capital chapter — the naming practice. You encountered the demon directly, without the institutional protection of a program that would have told you what to expect. You were unprotected. The resistance had no name yet. Naming it — production of subjectivity, the ontology of resistance — is what you've been doing since.
+
