@@ -18,7 +18,7 @@ Three words: production of subjectivity. In the woods, I didn't realize it but I
 
 _What's the first time you remember the birds changing what you could see? Not a metaphor â€” literally: a specific bird, a specific moment, something shifted._
 
-We were in Ravenna Park - an Olmsted design - in Seattle, which is where we learned to birdwatch. We went there to practice all the time. And we heard crows, as we always did. But this time was a little different, and we had been learning to feel what they were feeling, not just to listen and analyze. And they felt excited, agitated, upset in a way I didn't recognize. We do way more birding by ear than by eye, but sometimes you have to see for yourself, and we decided to see. And we saw a _cloud_ of crows. Many of them hanging out in trees, swooping and diving and chatting and making a ruckus. And at the center of it was an owl - a barred owl, the first owl we had seen in daylight. And what I've learned since is that the crows were amplifying the owl's energetic signature. Not e
+We were in Ravenna Park - an Olmsted design - in Seattle, which is where we learned to birdwatch. We went there to practice all the time. And we heard crows, as we always did. But this time was a little different, and we had been learning to feel what they were feeling, not just to listen and analyze. And they felt excited, agitated, upset in a way I didn't recognize. We do way more birding by ear than by eye, but sometimes you have to see for yourself, and we decided to see. And we saw a _cloud_ of crows. Many of them hanging out in trees, swooping and diving and chatting and making a ruckus. And at the center of it was an owl - a barred owl, the first owl we had seen in daylight. And what I've learned since is that the crows were amplifying the owl's energetic signature. A few months later, it wasn't a flock of crows. It was a single robin. But that robin was calling with the same insistent, excited, upset tone. A robin and a crow sound nothing alike, and I can't even claim that the modulation was the same. But the feeling was the same, and sure enough, we looked up. We saw the robin, then we looked where the robin was looking, and sure enough - the owl. Staring at us. Since then, if there's an owl nearby, the birds will tell us. And we
 
 ## **On becoming the Hermit:**
 
@@ -28,5 +28,5 @@ There's usually a moment when you realize you've crossed from seeker to guide â€
 
 The 2013 essay ends with: _become again a part of the world; come home to hear and tell the oldest stories of all, to beat the drum and chant the ancient verse, to dance the world again into existence._ What does it cost you to say that out loud to people who might roll their eyes? And when did you stop caring about that cost?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzU5MzI4OV19
+eyJoaXN0b3J5IjpbMTY4OTQ2MjczXX0=
 -->
