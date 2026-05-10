@@ -89,6 +89,43 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     }
     #tip strong { display:block; color:#c8a96e; font-size:10.5px; margin-bottom:2px; letter-spacing:0.05em; }
     #tip em { font-size:9.5px; color:#7a5a2a; display:block; margin-bottom:3px; }
+
+    #layerpanel {
+      position:fixed; right:72px; top:50%;
+      transform:translateY(-50%);
+      background:rgba(14,10,4,0.96);
+      border:1px solid #6a4a1a;
+      padding:8px 0 6px;
+      font-family:Georgia,serif;
+      border-radius:2px;
+      box-shadow:0 3px 18px rgba(0,0,0,0.7);
+      z-index:10; width:186px;
+      display:flex; flex-direction:column;
+    }
+    #layerpanel-title {
+      font-size:8px; letter-spacing:0.18em; text-transform:uppercase;
+      color:#6a4a1a; text-align:center; padding:0 0 7px;
+      border-bottom:1px solid #2a1a08; margin-bottom:4px;
+    }
+    .ltrack {
+      display:flex; align-items:center; gap:5px;
+      padding:3px 8px; transition:background 0.1s;
+    }
+    .ltrack:hover { background:rgba(255,255,255,0.03); }
+    .ltrack-swatch { width:8px; height:8px; border-radius:1px; flex-shrink:0; opacity:0.8; }
+    .ltrack-label { font-size:9px; color:#b09060; width:68px; flex-shrink:0; letter-spacing:0.04em; }
+    .ltrack-slider {
+      width:50px; height:3px; -webkit-appearance:none; appearance:none;
+      background:#2a1a08; border-radius:2px; cursor:pointer; flex-shrink:0;
+    }
+    .ltrack-slider::-webkit-slider-thumb {
+      -webkit-appearance:none; width:8px; height:8px;
+      border-radius:50%; background:#8b6a3a; cursor:pointer;
+    }
+    .ltrack-eye { font-size:10px; background:none; border:none; color:#6a4a1a; cursor:pointer; padding:0; width:14px; flex-shrink:0; }
+    .ltrack-eye.on { color:#c8a060; }
+    .ltrack.muted .ltrack-label { color:#3a2a18; }
+    .ltrack.muted .ltrack-swatch { opacity:0.2; }
   </style>
 </head>
 <body>
@@ -117,6 +154,52 @@ const canonical = "https://power-explained.jason-edelman.org/map"
 </div>
 
 <div id="tip"></div>
+
+<div id="layerpanel">
+  <div id="layerpanel-title">Spectral Layers</div>
+  <div class="ltrack" id="lt-geo">
+    <div class="ltrack-swatch" style="background:#8a6a3a"></div>
+    <div class="ltrack-label">Geology</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="60" data-layer="geo">
+    <button class="ltrack-eye" data-layer="geo">◉</button>
+  </div>
+  <div class="ltrack" id="lt-soil">
+    <div class="ltrack-swatch" style="background:#7a5a30"></div>
+    <div class="ltrack-label">Soil</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="50" data-layer="soil">
+    <button class="ltrack-eye" data-layer="soil">◉</button>
+  </div>
+  <div class="ltrack" id="lt-hydro">
+    <div class="ltrack-swatch" style="background:#3a6080"></div>
+    <div class="ltrack-label">Hydrology</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="70" data-layer="hydro">
+    <button class="ltrack-eye" data-layer="hydro">◉</button>
+  </div>
+  <div class="ltrack" id="lt-biome">
+    <div class="ltrack-swatch" style="background:#3d5c35"></div>
+    <div class="ltrack-label">Biome</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="65" data-layer="biome">
+    <button class="ltrack-eye" data-layer="biome">◉</button>
+  </div>
+  <div class="ltrack" id="lt-infra">
+    <div class="ltrack-swatch" style="background:#8b3a1a"></div>
+    <div class="ltrack-label">Infrastructure</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="85" data-layer="infra">
+    <button class="ltrack-eye" data-layer="infra">◉</button>
+  </div>
+  <div class="ltrack" id="lt-influence">
+    <div class="ltrack-swatch" style="background:#6a3a7a"></div>
+    <div class="ltrack-label">Influence</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="40" data-layer="influence">
+    <button class="ltrack-eye" data-layer="influence">◉</button>
+  </div>
+  <div class="ltrack" id="lt-features">
+    <div class="ltrack-swatch" style="background:#c8a060"></div>
+    <div class="ltrack-label">Features</div>
+    <input type="range" class="ltrack-slider" min="0" max="100" value="100" data-layer="features">
+    <button class="ltrack-eye" data-layer="features">◉</button>
+  </div>
+</div>
 
 <div id="ui">
   <button class="btn" id="zinBtn">+</button>
@@ -407,6 +490,9 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     // Build contour lines at RW/RH resolution
     buildContourCache(RW,RH);
 
+    // Build all semantic layers
+    buildAllLayers();
+
     // Init flow particles
     initFlowParticles();
   }
@@ -550,7 +636,440 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     flowAnim=requestAnimationFrame(animateFlow);
   }
 
-  // ── Voronoi terrain grid (used when no heightmap) ─────────────────
+  // ── Layer state ───────────────────────────────────────────────────
+  const LAYERS = {
+    geo:       { on:true, alpha:0.60, cache:null },
+    soil:      { on:true, alpha:0.50, cache:null },
+    hydro:     { on:true, alpha:0.70, cache:null },
+    biome:     { on:true, alpha:0.65, cache:null },
+    infra:     { on:true, alpha:0.85, cache:null },
+    influence: { on:true, alpha:0.40, cache:null },
+    features:  { on:true, alpha:1.00, cache:null },
+  };
+
+  // ── Geology layer ─────────────────────────────────────────────────
+  // Bedrock types: 0=granite, 1=limestone, 2=clay, 3=sandstone, 4=peat/bog
+  // Semantics:
+  //   granite  → rigid, holds positions, poor drainage, thin soil → ruins on ridges
+  //   limestone→ dissolves, creates caves = underground entrances, aquifers
+  //   clay     → impermeable, waterlogged, traditional commons, hard to enclose
+  //   sandstone→ permeable, drains fast, poor roots, enclosure-prone
+  //   peat/bog → Outside territory, bog iron, extraction zone
+  const GEO_TYPES = [
+    { name:'Granite',   color:'#9a8870', desc:'Rigid bedrock. Holds positions. Thin soil, poor drainage. Ruins cluster here — defensible but unlivable long-term.' },
+    { name:'Limestone', color:'#c8b888', desc:'Dissolving rock. Creates caves, sinkholes, aquifers. Underground entrances cluster above limestone. The mycorrhizal network runs deepest here.' },
+    { name:'Clay',      color:'#8a6a40', desc:'Impermeable. Water pools, waterlogged in winter. Traditional commons land — hard to plow, easy to graze communally. Enclosure costs more here.' },
+    { name:'Sandstone', color:'#c8a860', desc:'Permeable, drains fast. Poor root depth. Enclosure-prone — easy to plow, easy to fence, easy to exhaust. The Enclosure Fields sit on sandstone.' },
+    { name:'Peat/Bog',  color:'#3a4a28', desc:'Ancient accumulated carbon. Preserves everything — bog iron, bog bodies, buried commons. The Outside\'s foundation. Extraction changes it permanently.' },
+  ];
+
+  // Geology seeds: [wx, wy, type_index, radius]
+  // Seeded semantically: limestone under underground entrance clusters,
+  // clay under commons settlements, granite under mountains,
+  // sandstone under enclosure plains, peat under Outside
+  const GEO_SEEDS = [
+    // Limestone bands — underground entrance zones
+    [370,540,1,320], [750,780,1,280], [1060,750,1,300],
+    [1600,1200,1,350], [900,1550,1,250], [1200,900,1,280],
+    // Clay commons zones
+    [380,400,2,340], [500,1400,2,380], [820,1400,2,300],
+    [280,1200,2,260], [700,240,2,220],
+    // Granite under mountains + ruins on ridges
+    [1400,310,0,300], [840,320,0,260], [1900,900,0,240],
+    [820,430,0,180], [1640,440,0,160], [1280,360,0,140],
+    // Sandstone under enclosure plains
+    [1100,500,3,380], [1500,700,3,340], [900,750,3,300],
+    [1300,1100,3,280], [620,700,3,200],
+    // Peat/bog in Outside + Prison territory
+    [2700,600,4,400], [2700,1100,4,380], [2500,380,4,250],
+  ];
+
+  function buildGeoLayer(RW, RH) {
+    const data = new ImageData(RW, RH);
+    for (let py=0; py<RH; py++) {
+      for (let px=0; px<RW; px++) {
+        const wx=px/RW*MW, wy=py/RH*MH;
+        // Find nearest geo seed with noise-displaced distance
+        const nx=wx+(fbm(wx*0.004,wy*0.004,3,77)-0.5)*200;
+        const ny=wy+(fbm(wx*0.004,wy*0.004,3,133)-0.5)*200;
+        let best=3, bestD=Infinity; // default sandstone
+        for (const [gx,gy,type,r] of GEO_SEEDS) {
+          const d=Math.hypot(nx-gx,ny-gy);
+          if (d<bestD) { bestD=d; best=type; }
+        }
+        const col=GEO_TYPES[best].color;
+        const r=parseInt(col.slice(1,3),16);
+        const g=parseInt(col.slice(3,5),16);
+        const b=parseInt(col.slice(5,7),16);
+        // Add geological texture — subtle grain at different scales per type
+        const grain=fbm(wx*0.008,wy*0.008,3,best*50+11)*0.15-0.07;
+        const idx=(py*RW+px)*4;
+        data.data[idx]  =Math.min(255,Math.max(0,r+grain*60));
+        data.data[idx+1]=Math.min(255,Math.max(0,g+grain*50));
+        data.data[idx+2]=Math.min(255,Math.max(0,b+grain*40));
+        data.data[idx+3]=255;
+      }
+    }
+    const c=document.createElement('canvas'); c.width=RW; c.height=RH;
+    c.getContext('2d').putImageData(data,0,0);
+    LAYERS.geo.cache=c;
+  }
+
+  // ── Soil layer ────────────────────────────────────────────────────
+  // Derived from geology + elevation + hydrology
+  // Types: rich alluvial, waterlogged clay commons, thin rocky, degraded, peat, salt-affected
+  const SOIL_COLS = [
+    '#6a4a20', // rich alluvial — dark, fertile, river valleys
+    '#5a4030', // waterlogged clay — dark, heavy, commons ground
+    '#9a8860', // thin rocky — pale, ridgeline, ruins
+    '#b09040', // degraded — bleached, compacted, enclosure fields
+    '#3a3a20', // peat — near black, outside
+    '#a0a878', // salt-affected — pale green-grey, coastal margins
+  ];
+
+  function soilTypeAt(wx, wy, elev) {
+    if (elev < SEA_LEVEL+0.02) return -1; // ocean
+    const normE=(elev-SEA_LEVEL)/(1-SEA_LEVEL);
+    // Find geology
+    const nx=wx+(fbm(wx*0.004,wy*0.004,3,77)-0.5)*200;
+    const ny=wy+(fbm(wx*0.004,wy*0.004,3,133)-0.5)*200;
+    let geoType=3; let bestD=Infinity;
+    for (const [gx,gy,type] of GEO_SEEDS) {
+      const d=Math.hypot(nx-gx,ny-gy);
+      if(d<bestD){bestD=d;geoType=type;}
+    }
+    // Coastal salt effect
+    const coastDist=1-wy/MH; // 0 at coast, 1 at top
+    if(coastDist<0.08 && wy/MH>0.7) return 5; // salt-affected
+    // High elevation → thin rocky
+    if(normE>0.72) return 2;
+    // Peat/bog in outside
+    if(geoType===4) return 4;
+    // Clay → waterlogged commons (low elevation clay)
+    if(geoType===2 && normE<0.5) return 1;
+    // Sandstone plains → degraded under enclosure pressure
+    if(geoType===3) {
+      // More degraded near market/enclosure settlements
+      const mktDist=Math.hypot(wx-1100,wy-490);
+      if(mktDist<600) return 3;
+      return 3;
+    }
+    // Granite → thin rocky
+    if(geoType===0 && normE>0.45) return 2;
+    // Default: rich alluvial in valleys
+    return 0;
+  }
+
+  function buildSoilLayer(RW, RH) {
+    const data = new ImageData(RW, RH);
+    for (let py=0; py<RH; py++) {
+      for (let px=0; px<RW; px++) {
+        const wx=px/RW*MW, wy=py/RH*MH;
+        const elev=hmSample(wx,wy);
+        const type=soilTypeAt(wx,wy,elev);
+        if(type<0){
+          data.data[(py*RW+px)*4+3]=0; continue;
+        }
+        const col=SOIL_COLS[type];
+        const r=parseInt(col.slice(1,3),16);
+        const g=parseInt(col.slice(3,5),16);
+        const b=parseInt(col.slice(5,7),16);
+        const grain=(fbm(wx*0.015,wy*0.015,2,type*31+7)-0.5)*30;
+        const idx=(py*RW+px)*4;
+        data.data[idx]  =Math.min(255,Math.max(0,r+grain));
+        data.data[idx+1]=Math.min(255,Math.max(0,g+grain));
+        data.data[idx+2]=Math.min(255,Math.max(0,b+grain));
+        data.data[idx+3]=255;
+      }
+    }
+    const c=document.createElement('canvas'); c.width=RW; c.height=RH;
+    c.getContext('2d').putImageData(data,0,0);
+    LAYERS.soil.cache=c;
+  }
+
+  // ── Influence halos ───────────────────────────────────────────────
+  // Each feature type has an influence color and radius
+  // Compatible influences mix (additive-ish); incompatible produce tension rust
+  const INFLUENCE_FEATURES = [
+    // Commons settlements — green influence
+    ...(typeof COMMONS_S !== 'undefined' ? COMMONS_S.map(([x,y,r,l])=>({x,y,r:r*28,col:'#2a6a2a',type:'commons'})) : []),
+    // Encloser settlements — red influence  
+    ...(typeof ENCLOSER_S !== 'undefined' ? ENCLOSER_S.map(([x,y,r,l])=>({x,y,r:r*26,col:'#8a2020',type:'encloser'})) : []),
+    // Underground entrances — deep green, radius by depth
+    ...(typeof UNDERGROUND !== 'undefined' ? UNDERGROUND.map(([x,y,_r,l])=>({x,y,r:120,col:'#1a4a1a',type:'underground'})) : []),
+    // Wizard figures — amber glow
+    ...(typeof WIZARDS !== 'undefined' ? WIZARDS.map(([x,y,_r,l])=>({x,y,r:100,col:'#8a6820',type:'wizard'})) : []),
+    // Mountains — grey pressure
+    {x:1400,y:310,r:280,col:'#6a6050',type:'mountain'},
+    {x:840,y:320,r:220,col:'#6a6050',type:'mountain'},
+    {x:1900,y:900,r:200,col:'#6a6050',type:'mountain'},
+  ];
+
+  function buildInfluenceLayer(RW, RH) {
+    const c=document.createElement('canvas'); c.width=RW; c.height=RH;
+    const ctx2=c.getContext('2d');
+    ctx2.globalCompositeOperation='screen';
+
+    for (const f of INFLUENCE_FEATURES) {
+      const px=f.x/MW*RW, py=f.y/MH*RH;
+      const pr=f.r/MW*RW;
+      const g=ctx2.createRadialGradient(px,py,0,px,py,pr);
+      const col=f.col;
+      const r=parseInt(col.slice(1,3),16);
+      const gv=parseInt(col.slice(3,5),16);
+      const b=parseInt(col.slice(5,7),16);
+
+      // Incompatibility zones: where commons meets encloser → rust
+      // We add a second pass for conflict zones
+      if(f.type==='commons') {
+        g.addColorStop(0,`rgba(${r},${gv},${b},0.18)`);
+        g.addColorStop(0.4,`rgba(${r},${gv},${b},0.08)`);
+        g.addColorStop(1,`rgba(${r},${gv},${b},0)`);
+      } else if(f.type==='encloser') {
+        g.addColorStop(0,`rgba(${r},${gv},${b},0.15)`);
+        g.addColorStop(0.5,`rgba(${r},${gv},${b},0.06)`);
+        g.addColorStop(1,`rgba(${r},${gv},${b},0)`);
+      } else {
+        g.addColorStop(0,`rgba(${r},${gv},${b},0.12)`);
+        g.addColorStop(1,`rgba(${r},${gv},${b},0)`);
+      }
+      ctx2.fillStyle=g;
+      ctx2.beginPath(); ctx2.arc(px,py,pr,0,Math.PI*2); ctx2.fill();
+    }
+
+    // Conflict zones: commons ↔ encloser overlap → oxidized rust glow
+    ctx2.globalCompositeOperation='source-over';
+    for (const cf of INFLUENCE_FEATURES.filter(f=>f.type==='commons')) {
+      for (const ef of INFLUENCE_FEATURES.filter(f=>f.type==='encloser')) {
+        const dx=cf.x-ef.x, dy=cf.y-ef.y;
+        const dist=Math.hypot(dx,dy);
+        const overlapR=(cf.r+ef.r)/2;
+        if(dist<overlapR*1.4) {
+          // Midpoint between them — the contested zone
+          const mx=(cf.x+ef.x)/2, my=(cf.y+ef.y)/2;
+          const pmx=mx/MW*RW, pmy=my/MH*RH;
+          const pr2=Math.max(20,(overlapR-dist)*0.4/MW*RW);
+          const cg=ctx2.createRadialGradient(pmx,pmy,0,pmx,pmy,pr2);
+          cg.addColorStop(0,'rgba(160,80,20,0.22)');
+          cg.addColorStop(1,'rgba(160,80,20,0)');
+          ctx2.fillStyle=cg;
+          ctx2.beginPath(); ctx2.arc(pmx,pmy,pr2,0,Math.PI*2); ctx2.fill();
+        }
+      }
+    }
+
+    LAYERS.influence.cache=c;
+  }
+
+  // ── Infrastructure layer ──────────────────────────────────────────
+  // Toll roads, free trails, river navigation, camps, checkpoints
+  const INFRA_TOLL_ROADS = [
+    {
+      pts:[[900,540],[960,620],[1020,700],[1060,780],[1080,860],[1060,960],[1000,1060],[940,1160],[880,1280],[860,1400],[920,1520],[1000,1640],[1060,1720],[1100,1780]],
+      label:'Toll Road: Enclosure to Port',
+      desc:'The Market\'s road to the Port of Shamans. Toll collected at the river crossing. Fast, direct, maintained. Arrives at the Port via the commercial district. Changes what you can bring back.',
+      toll:'The crossing toll: you must enter Market logic to cross. Pay in legibility.',
+    },
+    {
+      pts:[[1100,490],[1200,520],[1300,520],[1400,480],[1500,500],[1600,560],[1700,600]],
+      label:'Imperial Connector',
+      desc:'Connects the Parliament to the Market to the Spectacle. The administrative infrastructure of enclosure. Heavily maintained. Smooth.',
+      toll:'No formal toll. The cost is the meeting.',
+    },
+  ];
+
+  const INFRA_RIVER_ROUTES = [
+    {
+      pts:[[560,780],[560,900],[580,1040],[620,1160],[680,1280],[720,1380],[760,1500],[820,1620],[920,1700],[1040,1760],[1100,1780]],
+      label:'River Route: Commons Current to Port',
+      desc:'Navigate the Commons Current south. No toll. Requires knowing where the river shallows and which eddies to avoid. Takes longer. Arrives at the Port from the water side, through the Salt Marsh. You arrive differently.',
+    },
+  ];
+
+  const INFRA_CAMPS = [
+    {
+      x:560, y:800,
+      label:'The Junction Camp',
+      desc:'Where the Mutual Aid Trail meets the river, before the Market crossing. A fire pit. Knowledge of which reeds are edible. Someone who will teach you to navigate the river if you ask. Been here for years. Nobody owns it. This is Graeber in Zuccotti Park. This is Crown Heights on Tuesday evenings.',
+    },
+    {
+      x:1040, y:1060,
+      label:'The Halfway Camp',
+      desc:'Midway down the River Route, where the current slows in a wide meander. Where river travelers stop for the night. You arrive knowing three things you didn\'t know this morning. The camp knows you\'re changed and treats you accordingly.',
+    },
+    {
+      x:880, y:1540,
+      label:'The Salt Marsh Camp',
+      desc:'Just before the Port, where the river enters salt water and the reeds change species. The transition zone. People who arrive here have been through at least one underground entrance. They recognize each other without introduction.',
+    },
+  ];
+
+  const INFRA_CHECKPOINTS = [
+    {
+      x:960, y:700,
+      label:'The River Crossing Toll',
+      desc:'Where the Toll Road crosses the River of Mutual Aid. The unavoidable bottleneck if you take the road. The Market is 200 meters upstream. The toll: legibility. You must be the kind of person the Market can process.',
+    },
+    {
+      x:1060, y:490,
+      label:'The University Gate',
+      desc:'Where the Imperial Connector passes the University. Checkpoint: credentials checked. The knowledge on the other side is real. The gate is the problem. Fanon, Wynter, Federici all passed through here. Some were made to pay twice.',
+    },
+  ];
+
+  // New boundary-zone features
+  const BOUNDARY_ZONES = [
+    {
+      x:820, y:1680,
+      label:'The Salt Marsh',
+      desc:'Where the Care Forest meets the Ocean of Consciousness. Neither fully land nor fully sea. Grief-work territory. Hospice. Liminal practice. The most generative edge on the map. Neither the forest\'s rules nor the ocean\'s apply here fully.',
+      kind:'boundary',
+    },
+    {
+      x:700, y:880,
+      label:'The Hedgerow',
+      desc:'Where the Old Forest meets the Enclosure Fields. Not a clean line. A zone of contested boundary, constantly being pushed back and occasionally recovering. The enclosers call this wasteland. The commons knows it as the most biodiverse strip on the map.',
+      kind:'boundary',
+    },
+    {
+      x:1780, y:620,
+      label:'The Scrubland',
+      desc:'The Rewilding Margins seen up close. Looks like degraded plain to enclosure eyes. Is actually early-stage forest. The dominant culture can\'t tell the difference. This is the commons\' strategic opportunity.',
+      kind:'boundary',
+    },
+    {
+      x:960, y:760,
+      label:'The Dam',
+      desc:'Where the Market meets the Commons Current. The Market\'s logic requires that the river be owned, metered, charged for. The Dam is the infrastructure of that requirement. Has been broken twice. Rebuilt each time. Currently: holding.',
+      kind:'conflict',
+    },
+    {
+      x:580, y:1060,
+      label:'The Foundation Line',
+      desc:'The contour below which the underground is thin. High water table. The mycorrhizal dark is close to the surface here. Underground entrances cluster along this line — not because someone placed them, but because this is where the boundary between surface and depth is most permeable.',
+      kind:'geological',
+    },
+  ];
+
+  function buildInfraLayer(RW, RH) {
+    const c=document.createElement('canvas'); c.width=RW; c.height=RH;
+    const ctx2=c.getContext('2d');
+    const sx=RW/MW, sy=RH/MH;
+
+    // Toll roads — dark red, solid, with toll markers
+    for (const road of INFRA_TOLL_ROADS) {
+      ctx2.save();
+      ctx2.strokeStyle='#8a2a10'; ctx2.lineWidth=2.5;
+      ctx2.setLineDash([]); ctx2.lineCap='round';
+      // Outer warning stripe
+      ctx2.shadowBlur=4; ctx2.shadowColor='rgba(180,60,20,0.4)';
+      ctx2.beginPath();
+      ctx2.moveTo(road.pts[0][0]*sx, road.pts[0][1]*sy);
+      for (let i=1;i<road.pts.length;i++) {
+        ctx2.lineTo(road.pts[i][0]*sx, road.pts[i][1]*sy);
+      }
+      ctx2.stroke(); ctx2.shadowBlur=0;
+      // Dashed center line
+      ctx2.strokeStyle='rgba(200,100,40,0.5)'; ctx2.lineWidth=0.8;
+      ctx2.setLineDash([4*sx,3*sx]);
+      ctx2.beginPath();
+      ctx2.moveTo(road.pts[0][0]*sx, road.pts[0][1]*sy);
+      for (let i=1;i<road.pts.length;i++) ctx2.lineTo(road.pts[i][0]*sx, road.pts[i][1]*sy);
+      ctx2.stroke();
+      ctx2.restore();
+    }
+
+    // River routes — blue-green, dotted
+    for (const route of INFRA_RIVER_ROUTES) {
+      ctx2.save();
+      ctx2.strokeStyle='#2a6a8a'; ctx2.lineWidth=1.8;
+      ctx2.setLineDash([3*sx,4*sx]); ctx2.lineCap='round';
+      ctx2.beginPath();
+      ctx2.moveTo(route.pts[0][0]*sx, route.pts[0][1]*sy);
+      for (let i=1;i<route.pts.length;i++) {
+        const cpx=(route.pts[i-1][0]+route.pts[i][0])/2*sx;
+        const cpy=(route.pts[i-1][1]+route.pts[i][1])/2*sy;
+        ctx2.quadraticCurveTo(cpx,cpy,route.pts[i][0]*sx,route.pts[i][1]*sy);
+      }
+      ctx2.stroke(); ctx2.restore();
+    }
+
+    // Camps — green triangles
+    for (const camp of INFRA_CAMPS) {
+      const px=camp.x*sx, py=camp.y*sy, r=5*sx;
+      ctx2.save();
+      ctx2.fillStyle='#2a6a2a'; ctx2.strokeStyle='#4a9a4a'; ctx2.lineWidth=0.8;
+      ctx2.beginPath();
+      ctx2.moveTo(px,py-r); ctx2.lineTo(px+r,py+r*0.6); ctx2.lineTo(px-r,py+r*0.6);
+      ctx2.closePath(); ctx2.fill(); ctx2.stroke();
+      // Fire glow
+      const gg=ctx2.createRadialGradient(px,py,0,px,py,r*2.5);
+      gg.addColorStop(0,'rgba(200,120,30,0.25)'); gg.addColorStop(1,'rgba(200,120,30,0)');
+      ctx2.fillStyle=gg; ctx2.beginPath(); ctx2.arc(px,py,r*2.5,0,Math.PI*2); ctx2.fill();
+      ctx2.restore();
+      hs(camp.x,camp.y,14,camp.label,'free camp',camp.desc);
+    }
+
+    // Checkpoints — red octagons
+    for (const cp of INFRA_CHECKPOINTS) {
+      const px=cp.x*sx, py=cp.y*sy, r=5*sx;
+      ctx2.save();
+      ctx2.fillStyle='#8a2020'; ctx2.strokeStyle='#c04040'; ctx2.lineWidth=0.8;
+      ctx2.beginPath();
+      for (let i=0;i<8;i++) {
+        const a=(i/8)*Math.PI*2-Math.PI/8;
+        i===0?ctx2.moveTo(px+Math.cos(a)*r,py+Math.sin(a)*r)
+             :ctx2.lineTo(px+Math.cos(a)*r,py+Math.sin(a)*r);
+      }
+      ctx2.closePath(); ctx2.fill(); ctx2.stroke();
+      ctx2.restore();
+      hs(cp.x,cp.y,14,cp.label,'checkpoint / toll',cp.desc);
+    }
+
+    // Boundary zones — soft hatched areas
+    for (const bz of BOUNDARY_ZONES) {
+      const px=bz.x*sx, py=bz.y*sy;
+      const col=bz.kind==='conflict'?'#8a4a20':bz.kind==='geological'?'#6a5a30':'#5a7a5a';
+      ctx2.save();
+      ctx2.strokeStyle=col; ctx2.lineWidth=0.6; ctx2.globalAlpha=0.5;
+      // Hatch circle
+      const hr=28*sx;
+      for (let a=0;a<Math.PI*2;a+=0.4) {
+        ctx2.beginPath();
+        ctx2.moveTo(px+Math.cos(a)*hr*0.3,py+Math.sin(a)*hr*0.3);
+        ctx2.lineTo(px+Math.cos(a)*hr,py+Math.sin(a)*hr);
+        ctx2.stroke();
+      }
+      ctx2.globalAlpha=1;
+      ctx2.fillStyle=col;
+      ctx2.beginPath(); ctx2.arc(px,py,3*sx,0,Math.PI*2); ctx2.fill();
+      ctx2.restore();
+      hs(bz.x,bz.y,22,bz.label,bz.kind+' zone',bz.desc);
+    }
+
+    LAYERS.infra.cache=c;
+  }
+
+  function buildAllLayers() {
+    const RW=Math.floor(MW/4), RH=Math.floor(MH/4);
+    buildGeoLayer(RW,RH);
+    buildSoilLayer(RW,RH);
+    buildInfluenceLayer(RW,RH);
+    buildInfraLayer(RW,RH);
+  }
+
+  function drawLayerComposite() {
+    // Draw all offscreen layer caches in order, respecting alpha + on/off
+    const layerOrder = ['geo','soil','biome','hydro','infra','influence'];
+    for (const key of layerOrder) {
+      const L=LAYERS[key];
+      if (!L.on || !L.cache || L.alpha<0.01) continue;
+      ctx.save();
+      ctx.globalAlpha=L.alpha;
+      ctx.drawImage(L.cache,0,0,MW,MH);
+      ctx.restore();
+    }
+  }
   const GRID=8, GW=Math.ceil(MW/GRID), GH=Math.ceil(MH/GRID);
   let terrainGrid=null;
   function buildTerrain(){
@@ -595,19 +1114,24 @@ const canonical = "https://power-explained.jason-edelman.org/map"
 
   function drawTerrain(){
     if(terrainColorCache){
-      // Draw heightmap-based terrain colour (hillshaded) scaled to full map
-      ctx.drawImage(terrainColorCache, 0, 0, MW, MH);
-      // Overlay parchment grain for texture
-      ctx.save(); ctx.globalAlpha=0.18;
-      ctx.fillStyle='#c8a060';
-      for(let i=0;i<800;i++){
-        const x=Math.random()*MW, y=Math.random()*MH;
-        ctx.fillRect(x,y,Math.random()*6+1,Math.random()*3+1);
+      // Base hillshaded terrain
+      if(LAYERS.biome.on) {
+        ctx.save(); ctx.globalAlpha=LAYERS.biome.alpha;
+        ctx.drawImage(terrainColorCache, 0, 0, MW, MH);
+        ctx.restore();
+      } else {
+        // Always draw base parchment topo even when biome off
+        ctx.save(); ctx.globalAlpha=0.4;
+        ctx.drawImage(terrainColorCache, 0, 0, MW, MH);
+        ctx.restore();
       }
-      ctx.restore();
+      // Semantic layers composited on top
+      drawLayerComposite();
       // Contour lines
       if(showContours && contourCache){
+        ctx.save(); ctx.globalAlpha=0.55;
         ctx.drawImage(contourCache, 0, 0, MW, MH);
+        ctx.restore();
       }
       return;
     }
@@ -976,6 +1500,26 @@ const canonical = "https://power-explained.jason-edelman.org/map"
     tx=Math.min(pad,Math.max(W-MW*scale-pad,tx));
     ty=Math.min(pad,Math.max(H-MH*scale-pad,ty));
   }
+
+  // ── Layer panel wiring ────────────────────────────────────────────
+  document.querySelectorAll('.ltrack-slider').forEach(el => {
+    const key=el.dataset.layer;
+    el.addEventListener('input', () => {
+      LAYERS[key].alpha=el.value/100;
+      if(!showFlow) draw();
+    });
+  });
+  document.querySelectorAll('.ltrack-eye').forEach(el => {
+    const key=el.dataset.layer;
+    el.classList.add('on');
+    el.addEventListener('click', () => {
+      LAYERS[key].on=!LAYERS[key].on;
+      el.classList.toggle('on', LAYERS[key].on);
+      const track=document.getElementById('lt-'+key);
+      if(track) track.classList.toggle('muted',!LAYERS[key].on);
+      if(!showFlow) draw();
+    });
+  });
 
   document.getElementById('zinBtn').onclick=()=>zoomAt(W/2,H/2,1.3);
   document.getElementById('zoutBtn').onclick=()=>zoomAt(W/2,H/2,0.77);
