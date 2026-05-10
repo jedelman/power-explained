@@ -12,7 +12,7 @@ It feels like weight. It accumulates and one day you realize you can't move it, 
 
 _The restaurant. You opened it and closed it. That's a whole arc â€” the building of something, the attempt to hold it, the loss. What did you learn about the commons in that specific building, with those specific people, that you couldn't have learned any other way?_
 
-Three words: production of subjectivity. In the woods, I didn't realize it but I was doing it on easy mode. I was showing people things they had never seen before. It's easy to create the frame, it's easy to catch sparks of wonder and awe and joy, or even sparks of fear or confusion or grief, when you're the guide - when it's been established that you are curating and guiding their experience and that you have committed to being there for whatever shows up. It creates a powerful aura
+Three words: production of subjectivity. In the woods, I didn't realize it but I was doing it on easy mode. I was showing people things they had never seen before. It's easy to create the frame, it's easy to catch sparks of wonder and awe and joy, or even sparks of fear or confusion or grief, when you're the guide - when it's been established that you are curating and guiding their experience and that you have committed to being there for whatever shows up. It creates a powerful aura and if you learn to wield it you can do incredible good with it. At the restaurant, I wanted to show people the hidden, playful, empowering side of the world they already inhabited and I encountered so many kinds of resistance - an entire ontology of resistance to freedom - that I was shocked by and unprepared for - that I now know that addressing that resistance, breaking down the wall, is 
 
 ## **On what changes perception:**
 
@@ -26,5 +26,5 @@ There's usually a moment when you realize you've crossed from seeker to guide â€
 
 The 2013 essay ends with: _become again a part of the world; come home to hear and tell the oldest stories of all, to beat the drum and chant the ancient verse, to dance the world again into existence._ What does it cost you to say that out loud to people who might roll their eyes? And when did you stop caring about that cost?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MDQwMTY1XX0=
+eyJoaXN0b3J5IjpbLTg2MDg4NTE0Nl19
 -->
