@@ -1,0 +1,709 @@
+---
+// Standalone full-screen page — no header/nav, just the map
+const title = "A Map of Consciousness — Build & Defend the Commons"
+const description = "An interactive parchment map of consciousness as terrain: forests of old myths, plains of enclosure, wizard figures, underground entrances, and the Port of Shamans."
+const canonical = "https://power-explained.jason-edelman.org/map"
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Power Explained" />
+  <meta property="og:image" content="https://power-explained.jason-edelman.org/og-image.png" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html,body { width:100%; height:100%; overflow:hidden; background:#1a1008; }
+    #mapCanvas { display:block; touch-action:none; cursor:grab; }
+    #mapCanvas:active { cursor:grabbing; }
+
+    #ui {
+      position:fixed; bottom:20px; right:16px;
+      display:flex; flex-direction:column; gap:6px; z-index:10;
+    }
+    .btn {
+      width:42px; height:42px;
+      background:rgba(30,20,8,0.95);
+      border:1px solid #8b6a3a; color:#c8a96e;
+      font-size:20px; cursor:pointer; border-radius:3px;
+      display:flex; align-items:center; justify-content:center;
+      font-family:Georgia,serif; box-shadow:0 2px 10px rgba(0,0,0,0.6);
+      transition: background 0.1s;
+    }
+    .btn:active { background:#3d2a0f; }
+    #backBtn {
+      position:fixed; top:14px; left:14px;
+      background:rgba(30,20,8,0.95);
+      border:1px solid #7a5a2a; color:#c0a060;
+      font-family:Georgia,serif; font-size:11px;
+      padding:7px 13px; border-radius:2px; cursor:pointer;
+      letter-spacing:0.08em; text-decoration:none;
+      box-shadow:0 2px 10px rgba(0,0,0,0.6); z-index:10;
+    }
+    #backBtn:hover { background:#3d2a0f; }
+
+    #legend {
+      position:fixed; bottom:14px; left:14px;
+      background:rgba(26,16,8,0.95);
+      border:1px solid #7a5a2a;
+      padding:8px 12px; font-family:Georgia,serif;
+      font-size:10px; color:#c0a060; border-radius:2px;
+      line-height:1.9; box-shadow:0 2px 14px rgba(0,0,0,0.7);
+      max-width:175px;
+    }
+    #legend h3 {
+      font-size:8.5px; letter-spacing:0.14em; text-transform:uppercase;
+      color:#7a5a2a; margin-bottom:4px;
+      border-bottom:1px solid #3a2810; padding-bottom:3px;
+    }
+    .lr { display:flex; align-items:center; gap:6px; }
+    .ls { width:18px; height:8px; flex-shrink:0; border-radius:1px; }
+
+    #titlecard {
+      position:fixed; top:14px; right:14px;
+      background:rgba(26,16,8,0.95);
+      border:1px solid #7a5a2a;
+      padding:8px 12px; font-family:Georgia,serif;
+      color:#c0a060; border-radius:2px; text-align:right;
+      box-shadow:0 2px 14px rgba(0,0,0,0.7); z-index:10;
+    }
+    #titlecard h1 { font-size:13px; font-style:italic; margin-bottom:2px; }
+    #titlecard p { font-size:8px; color:#7a5a2a; letter-spacing:0.12em; text-transform:uppercase; }
+
+    #tip {
+      position:fixed; pointer-events:none; display:none;
+      background:rgba(26,16,8,0.98);
+      border:1px solid #8b6a3a; padding:9px 13px;
+      font-family:Georgia,serif; font-size:12px;
+      color:#e0c888; border-radius:2px;
+      max-width:230px; line-height:1.55;
+      box-shadow:0 3px 16px rgba(0,0,0,0.8); z-index:20;
+    }
+    #tip strong { display:block; color:#c8a96e; font-size:10.5px; margin-bottom:2px; letter-spacing:0.05em; }
+    #tip em { font-size:9.5px; color:#7a5a2a; display:block; margin-bottom:3px; }
+  </style>
+</head>
+<body>
+
+<canvas id="mapCanvas"></canvas>
+
+<a href="/book" id="backBtn">← The Book</a>
+
+<div id="titlecard">
+  <h1>A Map of Consciousness</h1>
+  <p>Build &amp; Defend the Commons</p>
+</div>
+
+<div id="legend">
+  <h3>Legend</h3>
+  <div class="lr"><div class="ls" style="background:#3d5c35;border:1px solid #2a4020"></div>Forests — commons myths</div>
+  <div class="lr"><div class="ls" style="background:#c8b060;border:1px solid #a08840"></div>Plains — enclosure myths</div>
+  <div class="lr"><div class="ls" style="background:#1a3a1a;border:1px solid #2a5a2a"></div>The Outside</div>
+  <div class="lr"><div class="ls" style="background:#2a3a5a;border:1px solid #3a5a8a"></div>Ocean — uncharted</div>
+  <div class="lr"><span style="color:#c8a060;font-size:13px">⬡</span>&nbsp;Commons settlements</div>
+  <div class="lr"><span style="color:#c04030;font-size:13px">⬡</span>&nbsp;Encloser settlements</div>
+  <div class="lr"><span style="color:#8a7040;font-size:12px">△</span>&nbsp;Warm ruins</div>
+  <div class="lr"><span style="color:#5a5040;font-size:12px">△</span>&nbsp;Cold ruins</div>
+  <div class="lr"><span style="color:#2a6a2a;font-size:12px">◎</span>&nbsp;Underground entrances</div>
+  <div class="lr"><span style="color:#c8a060;font-size:12px">✦</span>&nbsp;Wizard figures</div>
+</div>
+
+<div id="tip"></div>
+
+<div id="ui">
+  <button class="btn" id="zinBtn">+</button>
+  <button class="btn" id="zoutBtn">−</button>
+  <button class="btn" id="homeBtn">⌂</button>
+</div>
+
+<script>
+(function() {
+  const cvs = document.getElementById('mapCanvas');
+  const ctx = cvs.getContext('2d');
+  const tipEl = document.getElementById('tip');
+  const MW = 3200, MH = 2400;
+  let W, H, tx=0, ty=0, scale=1;
+
+  function resize() {
+    W = cvs.width = window.innerWidth;
+    H = cvs.height = window.innerHeight;
+  }
+
+  // ── Noise ────────────────────────────────────────────────────────
+  function noise(x, y, seed) {
+    seed = seed||0;
+    const a = Math.sin(x*0.013+seed)*43758.5453;
+    const b = Math.sin(y*0.017+seed+1)*29571.3317;
+    const c = Math.sin((x+y)*0.009+seed+2)*38472.1177;
+    return ((a%1+b%1+c%1)/3+1)/2;
+  }
+  function fbm(x, y, oct, seed) {
+    oct=oct||4; seed=seed||0;
+    let v=0, amp=1, freq=1, max=0;
+    for(let i=0;i<oct;i++){
+      v+=noise(x*freq,y*freq,seed+i*100)*amp;
+      max+=amp; amp*=0.5; freq*=2.1;
+    }
+    return v/max;
+  }
+
+  // ── Territory seeds ──────────────────────────────────────────────
+  const SEEDS = [
+    [380,400,'The Old Forest','forest','#3d5c35',0.55,'Pre-enclosure commons. Gift economy. Sense culture. The knowledge that lives in the body.'],
+    [700,250,'The Zanjera Grove','forest','#3a5830',0.52,'The Ilocos commons. The typhoon comes every year. Every year the community rebuilds. The cook is written into governance.'],
+    [1700,200,'The Forest of Singularity','forest','#355530',0.50,'Simondon\'s pre-individual field. Where individuation happens in relation. You didn\'t make the language you think in.'],
+    [2200,350,'The Rewilding Margins','forest','#3a5a2a',0.48,'Commons regrowing at the edge of the plains. Community land trusts. Cooperative governance. Mutual aid networks.'],
+    [500,1400,'The Mycorrhizal Wood','forest','#405a38',0.55,'The underground network made visible. Ostrom\'s eight principles growing in the soil.'],
+    [1900,1200,'The Care Forest','forest','#3a5535',0.50,'What Federici documented being destroyed. Rebuilt in Crown Heights on Tuesday evenings.'],
+    [1100,500,'The Plains of Progress','plain','#c8b060',0.40,'The dominant culture\'s great myth. Planted where forests were cleared. Meritocracy, linear time, the sovereign individual.'],
+    [1500,700,'The Spectacle Flats','plain','#c4aa58',0.38,'Baudrillard\'s terrain. The simulacrum. The representation that precedes the thing it represents.'],
+    [900,750,'The Enclosure Fields','plain','#bfa850',0.38,'What the forest became after the hedges went up. Common land privatized.'],
+    [1300,1100,'The Colony in the Mind','plain','#b89a40',0.35,'Fanon\'s territory. Overlaid on everything else. The shrug learned before the child thinks to ask.'],
+    [2700,600,'The Outside','outside','#1a2a1a',0.60,'Luxemburg\'s argument. Capitalism needs an outside. Colonial territories, peasant economies, unenclosed commons. The frontier that never disappears.'],
+    [2700,1100,'The Prison Territory','outside','#181a18',0.65,'Angela Davis: the Outside made into an institution. The colony internalized.'],
+  ];
+
+  const HOTSPOTS = [];
+  function hs(x,y,r,label,kind,desc){ HOTSPOTS.push({x,y,r,label,kind,desc}); }
+
+  const COMMONS_S = [
+    [500,380,14,'The Abbey','The commons position. Holds knowledge and feeds people. Has been attacked many times. Still standing.'],
+    [700,240,12,'The Zanjera','Ilocos, Philippines. Running since the Spanish colonial period. The cook is written into governance.'],
+    [1650,1480,13,'Mondragón','81 cooperatives, 70,085 workers. No member-worker laid off in 68 years. Arizmendi arrived by bike.'],
+    [460,920,12,'Champlain Housing Trust','Burlington VT, 1984. Governance, not subsidy. The land stays in trust through every boom cycle.'],
+    [2200,980,11,'Cooperation Jackson','Built from the most marginalized. Rooted in Black liberation. Building in conditions of maximum hostility.'],
+    [280,1200,12,'Kerala','35 million people. Life expectancy matching countries 3× richer. The governed govern.'],
+    [820,1400,13,'Crown Heights Mutual Aid','Tuesday evenings. Still meeting. The crisis passed. The infrastructure remained.'],
+    [960,1320,10,'The Community Fridge','A fridge on a sidewalk. No application. No eligibility. The simplest commons.'],
+    [1200,1460,11,'Valencia Water Tribunal','Since the 10th century. No written code. Fines in a currency that no longer exists.'],
+    [380,1600,12,'The Debt Collective','Bought $14.7M in debt for pennies. Then canceled it. Rolling Jubilee. The weapon turned.'],
+    [1740,340,11,'El Born Plaza','Barcelona. After the fish market closes. Nobody organized this. The city made it possible.'],
+    [2100,1480,11,'Story County Farmland Trust','Farmland trusts hold land for farmers against investment funds. The knowledge of specific soils stays.'],
+    [700,1600,10,'Speaking Circle','The smallest commons. One person speaks. A barred owl arrived. The form held him.'],
+  ];
+  const ENCLOSER_S = [
+    [1100,490,15,'The Market','The argument that exchange is the only valid form of human relation.'],
+    [1300,420,13,'The Parliament','The grammar of law — which can be turned against it. Gramsci was arrested trying to enter.'],
+    [1480,650,12,'The Spectacle','Built on representation. The Wachowskis left a message here in a hollowed-out book.'],
+    [900,540,12,'The University','Contested. Holds dominant knowledge AND the memory of everyone who tried to burn it down from inside.'],
+    [620,700,11,'EVMS Campus','Built on Atlantic City, demolished 1957. The community was not relocated. This is called progress.'],
+  ];
+  const WARM_R = [
+    [820,430,'The Paris Commune','1871. 72 days. Workers ran the city. The ruins are still warm.'],
+    [1280,360,'The Diggers\' Fields','1649. Winstanley farmed the common. The argument is still in the soil.'],
+    [1640,440,'The Factory Councils','Turin, 1920. Gramsci was there. He spent 11 years in prison understanding why.'],
+    [1100,1280,'The Zapatista Territory','1994. Still building. The ruins here are the ruins of the state\'s attempts to stop them.'],
+    [1560,320,'The Free Software Movement','The GPL: grammar of ownership turned against enclosure. The protocol stays open.'],
+    [960,1160,'Occupy Zuccotti','2011. Poor in demands, rich in forms. Demolished by coordinated municipal action. Still teaching.'],
+    [440,660,'Atlantic City','Norfolk VA. Under the medical campus. 20,000 displaced. Baldwin called it what it was.'],
+  ];
+  const COLD_R = [
+    [2500,380,'The Soviet Union','Luxemburg predicted it in 1918. The vanguard enclosed the revolutionary commons.'],
+    [1860,480,'The German SPD','Had Rosa Luxemburg and regularly ignored her. The party failed before the government did.'],
+    [750,870,'The Enclosure Acts','The ruins of what was there before. Common land. The right to exist without rent.'],
+    [2300,680,'The Barter Origin Story','In every economics textbook. Graeber spent 5,000 years looking for evidence. Found none.'],
+    [480,1050,'The Tragedy That Never Was','Hardin\'s 1968 paper. Describes a commons with no governance, no relationship. He had never spoken to a zanjero.'],
+  ];
+  const UNDERGROUND = [
+    [370,540,'Entrance: Grief','One of the oldest. You go down whether you choose to or not. Bring something back.'],
+    [750,780,'Entrance: The Meeting Room','Where you learn what capture feels like. The decision went ahead as planned.'],
+    [1060,750,'Entrance: Becoming Queer','The assignment slips. The body refuses the organism prepared for it.'],
+    [1400,880,'Entrance: The Colonial Wound','The yanked arm. The slap on the back of the head. Fanon diagnosed the entry point.'],
+    [1800,780,'Entrance: The Stalking Practice','Sitting with birds until they forget you\'re there. The practice breaks open.'],
+    [600,1280,'Entrance: The Care Practice','You join a mutual aid network. Something opens that you didn\'t expect.'],
+    [2050,980,'Entrance: The Gap','Crenshaw\'s entrance. Where you fall through the categories. The underground is accessible from every gap.'],
+    [1600,1200,'Entrance: The Singular Presence','When something from outside your frame arrives and the form holds it. The owl at the edge of the circle.'],
+    [1200,900,'Entrance: Learning a Language','The grammar you think in stops being the only grammar. Many people miss this one.'],
+    [2400,1100,'Entrance: Psychedelics','The well-known one. The entrance the dominant culture tried hardest to seal. Still here.'],
+    [900,1550,'Entrance: The Practice','Years of it. The body quieted enough that doves feel safe close.'],
+  ];
+  const WIZARDS = [
+    [420,350,'Arizmendi','Arrived in Mondragón by bike with one eye. Never held a position in the cooperatives he built.'],
+    [1680,180,'Elinor Ostrom','Rejected by the economics PhD. Interviewed lobstermen herself. First woman to win the Nobel in Economics.'],
+    [560,220,'Rosa Luxemburg','In the Frankfurt courtroom, facing the judge, smiling. The smile is not bravado.'],
+    [1400,200,'Gramsci','Nearly 3,000 pages from prison. The map we\'ve been reading is his.'],
+    [940,160,'Kropotkin','A prince who went to Siberia and found mutual aid. Watched horses form circles in blizzards.'],
+    [1960,160,'Federici','Followed the arrangement 600 years. Found care knowledge enclosed alongside common land.'],
+    [2340,260,'Arundhati Roy','Standing waist-deep in the rising water. Naming what was about to be drowned.'],
+    [760,160,'Cedric Robinson','Race is not the stain on the mechanism. Race is in the mechanism.'],
+    [1160,180,'Fanon','Treating the torturer and the tortured in the same building. Diagnosis: a social system.'],
+    [620,480,'Graeber','In the library AND in the street. Theory and practice in the same body.'],
+    [1800,1060,'Plotkin','Soulcraft. The soul encounter as underground journey.'],
+    [1500,1380,'Prechtel','Flowering Earth. The community that holds the singular.'],
+    [2080,1340,'Sylvia Wynter','The overrepresentation of Man. A mirror they didn\'t make.'],
+    [1100,1060,'Marsha P. Johnson','At the gate of the port city. In her body. In the street.'],
+    [1300,700,'Turing','Running alone outside Cambridge, working through mathematics in his body.'],
+  ];
+  const WATERS = [
+    {pts:[[200,600],[350,650],[500,780],[580,920],[640,1080],[700,1250],[740,1400]],w:12,color:'#4a7090',label:'River of Mutual Aid',desc:'Flows from the Old Forest through the enclosure fields. Still running.'},
+    {pts:[[2100,300],[1960,420],[1780,560],[1600,680],[1400,760],[1200,840],[1000,940],[840,1060],[760,1200],[720,1380]],w:16,color:'#3a6080',label:'The Commons Current',desc:'The longest waterway. The enclosers build platforms over it and charge for access.'},
+    {pts:[[300,1800],[600,1780],[900,1800],[1200,1820],[1500,1800],[1800,1820],[2100,1800],[2400,1780],[2800,1800]],w:0,isCoast:true},
+    {pts:[[500,1300],[700,1350],[1000,1380],[1300,1360],[1600,1400],[1900,1440],[2200,1460]],w:7,color:'#305070',label:'The Underground River',dash:[4,6],desc:'Runs beneath the map. Surfaces only at underground entrances.'},
+    {pts:[[2700,400],[2750,600],[2780,900],[2760,1200],[2700,1500]],w:5,color:'#203020',label:'The Frontier',dash:[8,4],desc:'Luxemburg\'s argument. The machine always needs a new outside. Runs off the edge of the map.'},
+  ];
+  const ROADS = [
+    {pts:[[200,500],[500,490],[800,480],[1100,470],[1400,480],[1700,500],[2000,530],[2300,560],[2700,600]],dash:[10,4],w:3.5,color:'#5a3a18',label:'The Imperial Road',desc:'Straight, fast, built on cleared land. Designed for a body that weighs two tons.'},
+    {pts:[[900,480],[920,620],[940,800],[960,980],[980,1160],[1000,1340]],dash:[7,3],w:3,color:'#5a3a18',label:'The Market Road',desc:'The argument that everything has a price.'},
+    {pts:[[1300,420],[1320,580],[1340,760],[1360,940],[1380,1100],[1400,1260]],dash:[7,3],w:2.5,color:'#5a3a18',label:'The Vanguard Road',desc:'Lenin\'s road. Luxemburg predicted where it goes. Stalin demonstrated.'},
+    {pts:[[200,580],[280,640],[400,740],[520,860],[600,1000],[660,1140],[700,1300]],dash:[3,7],w:2,color:'#7a6040',label:'The Mutual Aid Trail',desc:'Older than the roads. Follows the river. Made by feet.'},
+    {pts:[[440,360],[500,480],[580,620],[680,760],[780,900],[860,1060],[920,1220],[960,1400]],dash:[2,6],w:1.8,color:'#7a6040',label:'The Beautiful Way',desc:'The street with willow oaks. The night herons nest here. The rage and the beauty are the same corridor.'},
+    {pts:[[1700,400],[1600,560],[1480,700],[1340,820],[1200,940],[1060,1060],[920,1160],[800,1280],[700,1400],[660,1580]],dash:[2,5],w:1.8,color:'#7a6040',label:'The Deterritorialization Path',desc:'Goes underground in three places. Hard to follow. Worth it.'},
+    {pts:[[300,1600],[500,1640],[740,1660],[980,1650],[1200,1640],[1440,1660],[1680,1640],[1900,1660],[2100,1650],[2300,1640],[2500,1660]],dash:[4,5],w:1.8,color:'#7a6840',label:'The Coastal Trail',desc:'The shaman\'s road. Only those who have been through at least one underground entrance can see it clearly.'},
+  ];
+  const MOUNTAINS = [
+    {x:1400,y:310,r:80,label:'The Massif of Capital',desc:'The structural position. Not a person, not a conspiracy — a logic. It shapes every road.'},
+    {x:840,y:320,r:60,label:'The Ridge of the State',desc:'Gramsci\'s terrain. Not just coercion — also consent. Has been climbed. Can be climbed again.'},
+    {x:1900,y:900,r:50,label:'The Peaks of Hegemony',desc:'Where common sense lives at altitude. The view from here makes the plains look natural.'},
+  ];
+  const PORT = {x:1100,y:1780,r:22,label:'The Port of Shamans',desc:'Where the map ends and the ocean begins. Plotkin, Prechtel, Abram. Everyone who lives at the edge eventually finds each other here.'};
+
+  // ── Terrain grid ─────────────────────────────────────────────────
+  const GRID=8, GW=Math.ceil(MW/GRID), GH=Math.ceil(MH/GRID);
+  let terrainGrid=null;
+  function buildTerrain(){
+    terrainGrid=new Uint8Array(GW*GH);
+    for(let gy=0;gy<GH;gy++){
+      for(let gx=0;gx<GW;gx++){
+        const wx=gx*GRID+GRID/2, wy=gy*GRID+GRID/2;
+        const nx=wx+(fbm(wx*0.003,wy*0.003,3,0)-0.5)*180;
+        const ny=wy+(fbm(wx*0.003,wy*0.003,3,100)-0.5)*180;
+        let best=0,bestD=Infinity;
+        for(let i=0;i<SEEDS.length;i++){
+          const d=(nx-SEEDS[i][0])**2+(ny-SEEDS[i][1])**2;
+          if(d<bestD){bestD=d;best=i;}
+        }
+        terrainGrid[gy*GW+gx]=best;
+      }
+    }
+  }
+
+  function drawParchment(){
+    const g=ctx.createRadialGradient(MW/2,MH/2,0,MW/2,MH/2,MW*0.8);
+    g.addColorStop(0,'#ead8a8'); g.addColorStop(0.5,'#dfc490');
+    g.addColorStop(0.85,'#d0ae70'); g.addColorStop(1,'#b89050');
+    ctx.fillStyle=g; ctx.fillRect(0,0,MW,MH);
+    ctx.save();
+    for(let i=0;i<3500;i++){
+      const x=Math.random()*MW, y=Math.random()*MH;
+      const a=(fbm(x*0.01,y*0.01,2,7)-0.4)*0.1;
+      if(a>0){ctx.fillStyle=`rgba(80,40,10,${a})`;ctx.fillRect(x,y,Math.random()*4+0.5,Math.random()*2+0.5);}
+    }
+    ctx.restore();
+    const vg=ctx.createRadialGradient(MW/2,MH/2,MW*0.25,MW/2,MH/2,MW*0.95);
+    vg.addColorStop(0,'rgba(0,0,0,0)'); vg.addColorStop(1,'rgba(50,25,5,0.48)');
+    ctx.fillStyle=vg; ctx.fillRect(0,0,MW,MH);
+    ctx.strokeStyle='#8b6a3a'; ctx.lineWidth=3; ctx.strokeRect(20,20,MW-40,MH-40);
+    ctx.strokeStyle='#a07040'; ctx.lineWidth=1; ctx.strokeRect(28,28,MW-56,MH-56);
+  }
+
+  function drawTerrain(){
+    if(!terrainGrid) buildTerrain();
+    for(let gy=0;gy<GH;gy++){
+      for(let gx=0;gx<GW;gx++){
+        const idx=terrainGrid[gy*GW+gx];
+        const s=SEEDS[idx];
+        ctx.globalAlpha=s[5]; ctx.fillStyle=s[4];
+        ctx.fillRect(gx*GRID,gy*GRID,GRID+1,GRID+1);
+      }
+    }
+    ctx.globalAlpha=1;
+    ctx.save();
+    for(let i=0;i<1800;i++){
+      const x=Math.random()*MW, y=Math.random()*MH;
+      const n=fbm(x*0.006,y*0.006,2,42);
+      const a=n*0.06;
+      ctx.fillStyle=`rgba(160,120,40,${a})`;
+      ctx.fillRect(x,y,GRID*2,GRID*2);
+    }
+    ctx.restore();
+    // boundary lines
+    ctx.save(); ctx.globalAlpha=0.35; ctx.strokeStyle='#8b6a3a'; ctx.lineWidth=0.7;
+    for(let gy=0;gy<GH-1;gy++){
+      for(let gx=0;gx<GW-1;gx++){
+        const me=terrainGrid[gy*GW+gx];
+        const r=terrainGrid[gy*GW+gx+1];
+        const b=terrainGrid[(gy+1)*GW+gx];
+        if(me!==r){ctx.beginPath();ctx.moveTo((gx+1)*GRID,gy*GRID);ctx.lineTo((gx+1)*GRID,(gy+1)*GRID);ctx.stroke();}
+        if(me!==b){ctx.beginPath();ctx.moveTo(gx*GRID,(gy+1)*GRID);ctx.lineTo((gx+1)*GRID,(gy+1)*GRID);ctx.stroke();}
+      }
+    }
+    ctx.restore();
+  }
+
+  function drawTree(x,y,s,col){
+    ctx.fillStyle=col;
+    ctx.beginPath();
+    ctx.moveTo(x,y-s);
+    ctx.lineTo(x+s*0.55,y+s*0.3); ctx.lineTo(x+s*0.18,y+s*0.3);
+    ctx.lineTo(x+s*0.18,y+s);    ctx.lineTo(x-s*0.18,y+s);
+    ctx.lineTo(x-s*0.18,y+s*0.3);ctx.lineTo(x-s*0.55,y+s*0.3);
+    ctx.closePath(); ctx.fill();
+  }
+
+  function drawForestTexture(){
+    if(!terrainGrid) return;
+    ctx.save(); ctx.globalAlpha=0.5;
+    for(let y=0;y<MH;y+=28){
+      for(let x=0;x<MW;x+=28){
+        const gx=Math.floor(x/GRID),gy=Math.floor(y/GRID);
+        if(gx>=0&&gx<GW&&gy>=0&&gy<GH){
+          const idx=terrainGrid[gy*GW+gx];
+          if(SEEDS[idx][3]==='forest'){
+            const jx=x+(fbm(x*0.02,y*0.02,2,5)-0.5)*13;
+            const jy=y+(fbm(x*0.02,y*0.02,2,15)-0.5)*13;
+            drawTree(jx,jy,5+fbm(jx*0.03,jy*0.03,2,25)*5,SEEDS[idx][4]);
+          }
+        }
+      }
+    }
+    ctx.restore();
+  }
+
+  function drawOcean(){
+    const coast=WATERS.find(w=>w.isCoast);
+    if(!coast) return;
+    ctx.save();
+    ctx.beginPath();
+    ctx.moveTo(0,MH); ctx.lineTo(coast.pts[0][0],coast.pts[0][1]);
+    for(let i=1;i<coast.pts.length;i++){
+      const cp1x=(coast.pts[i-1][0]+coast.pts[i][0])/2-15;
+      const cp2x=(coast.pts[i-1][0]+coast.pts[i][0])/2+15;
+      ctx.bezierCurveTo(cp1x,coast.pts[i-1][1]+25,cp2x,coast.pts[i][1]-25,coast.pts[i][0],coast.pts[i][1]);
+    }
+    ctx.lineTo(MW,MH); ctx.closePath();
+    const og=ctx.createLinearGradient(0,1780,0,MH);
+    og.addColorStop(0,'rgba(40,60,90,0.7)'); og.addColorStop(1,'rgba(20,30,60,0.85)');
+    ctx.fillStyle=og; ctx.fill();
+    ctx.globalAlpha=0.13;
+    for(let wy=1840;wy<MH;wy+=18){
+      for(let wx=50;wx<MW-50;wx+=55){
+        ctx.beginPath(); ctx.moveTo(wx,wy);
+        ctx.bezierCurveTo(wx+14,wy-5,wx+28,wy+5,wx+42,wy);
+        ctx.strokeStyle='#a0c0e0'; ctx.lineWidth=0.8; ctx.stroke();
+      }
+    }
+    ctx.globalAlpha=1;
+    ctx.beginPath(); ctx.moveTo(coast.pts[0][0],coast.pts[0][1]);
+    for(let i=1;i<coast.pts.length;i++){
+      const cp1x=(coast.pts[i-1][0]+coast.pts[i][0])/2-10;
+      const cp2x=(coast.pts[i-1][0]+coast.pts[i][0])/2+10;
+      ctx.bezierCurveTo(cp1x,coast.pts[i-1][1]+20,cp2x,coast.pts[i][1]-20,coast.pts[i][0],coast.pts[i][1]);
+    }
+    ctx.strokeStyle='#5a8aaa'; ctx.lineWidth=2.5; ctx.setLineDash([10,5]); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.restore();
+  }
+
+  function drawWaters(){
+    for(const w of WATERS){
+      if(w.isCoast) continue;
+      ctx.save(); ctx.strokeStyle=w.color; ctx.lineWidth=w.w;
+      ctx.globalAlpha=0.72; ctx.lineCap='round';
+      if(w.dash) ctx.setLineDash(w.dash);
+      ctx.beginPath(); ctx.moveTo(w.pts[0][0],w.pts[0][1]);
+      for(let i=1;i<w.pts.length;i++){
+        const cpx=(w.pts[i-1][0]+w.pts[i][0])/2+(fbm(w.pts[i][0]*0.004,w.pts[i][1]*0.004,2,i*13)-0.5)*20;
+        const cpy=(w.pts[i-1][1]+w.pts[i][1])/2+(fbm(w.pts[i][0]*0.004,w.pts[i][1]*0.004,2,i*17)-0.5)*20;
+        ctx.quadraticCurveTo(cpx,cpy,w.pts[i][0],w.pts[i][1]);
+      }
+      ctx.stroke(); ctx.restore();
+      if(w.label){ const m=w.pts[Math.floor(w.pts.length/2)]; hs(m[0],m[1],14,w.label,'waterway',w.desc); }
+    }
+  }
+
+  function drawRoads(){
+    for(const r of ROADS){
+      ctx.save(); ctx.strokeStyle=r.color; ctx.lineWidth=r.w;
+      ctx.setLineDash(r.dash||[]); ctx.lineCap='round';
+      ctx.beginPath(); ctx.moveTo(r.pts[0][0],r.pts[0][1]);
+      for(let i=1;i<r.pts.length;i++){
+        const cpx=(r.pts[i-1][0]+r.pts[i][0])/2+(fbm(r.pts[i][0]*0.005,r.pts[i][1]*0.005,2,r.w*10)-0.5)*8;
+        const cpy=(r.pts[i-1][1]+r.pts[i][1])/2+(fbm(r.pts[i][0]*0.005,r.pts[i][1]*0.005,2,r.w*20)-0.5)*8;
+        ctx.quadraticCurveTo(cpx,cpy,r.pts[i][0],r.pts[i][1]);
+      }
+      ctx.stroke(); ctx.restore();
+      const m=r.pts[Math.floor(r.pts.length/2)];
+      hs(m[0],m[1],16,r.label,(r.dash[0]>5)?'imperial road':'old trail',r.desc);
+    }
+  }
+
+  function drawMountains(){
+    for(const m of MOUNTAINS){
+      ctx.save();
+      ctx.shadowBlur=12; ctx.shadowColor='rgba(0,0,0,0.3)';
+      ctx.shadowOffsetX=4; ctx.shadowOffsetY=6;
+      ctx.fillStyle='#9a8860'; ctx.strokeStyle='#6a5830'; ctx.lineWidth=1.5;
+      ctx.beginPath();
+      ctx.moveTo(m.x,m.y-m.r); ctx.lineTo(m.x+m.r*0.85,m.y+m.r*0.55); ctx.lineTo(m.x-m.r*0.85,m.y+m.r*0.55);
+      ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.shadowBlur=0;
+      ctx.fillStyle='#eeddc0';
+      ctx.beginPath(); ctx.moveTo(m.x,m.y-m.r); ctx.lineTo(m.x+m.r*0.22,m.y-m.r*0.38); ctx.lineTo(m.x-m.r*0.22,m.y-m.r*0.38); ctx.closePath(); ctx.fill();
+      ctx.fillStyle='#8a7850';
+      ctx.beginPath(); ctx.moveTo(m.x-m.r*0.28,m.y-m.r*0.42); ctx.lineTo(m.x+m.r*0.32,m.y+m.r*0.55); ctx.lineTo(m.x-m.r*0.9,m.y+m.r*0.55); ctx.closePath(); ctx.fill(); ctx.stroke();
+      ctx.font=`italic ${Math.max(10,m.r*0.22)}px Georgia`;
+      ctx.fillStyle='rgba(230,210,160,0.85)'; ctx.textAlign='center';
+      ctx.fillText(m.label,m.x+1,m.y+m.r+14);
+      ctx.fillStyle='#2a1a08'; ctx.fillText(m.label,m.x,m.y+m.r+13);
+      ctx.restore();
+      hs(m.x,m.y,m.r,m.label,'mountain range',m.desc);
+    }
+  }
+
+  function drawSettlement(x,y,r,label,type,desc){
+    ctx.save();
+    ctx.shadowBlur=8; ctx.shadowColor='rgba(0,0,0,0.4)';
+    const isCommons=type==='commons', isPort=type==='port';
+    const col=isPort?'#1a5a5a':isCommons?'#2a5a2a':'#6a2020';
+    const fill=isPort?'#2a8a8a':isCommons?'#4a8a4a':'#c04030';
+    if(isPort){
+      for(let i=0;i<8;i++){
+        const a=(i/8)*Math.PI*2-Math.PI/2;
+        ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+Math.cos(a)*r*1.8,y+Math.sin(a)*r*1.8);
+        ctx.strokeStyle=col; ctx.lineWidth=1.2; ctx.stroke();
+      }
+      ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2);
+      ctx.fillStyle=fill; ctx.fill(); ctx.strokeStyle=col; ctx.lineWidth=2; ctx.stroke();
+      ctx.fillStyle='#e8d8b0'; ctx.font=`${r}px serif`; ctx.textAlign='center'; ctx.textBaseline='middle';
+      ctx.fillText('⚓',x,y+1);
+    } else {
+      ctx.beginPath();
+      for(let i=0;i<6;i++){
+        const a=(i/6)*Math.PI*2-Math.PI/6;
+        const px=x+Math.cos(a)*r, py=y+Math.sin(a)*r;
+        i===0?ctx.moveTo(px,py):ctx.lineTo(px,py);
+      }
+      ctx.closePath(); ctx.fillStyle=fill; ctx.globalAlpha=0.9; ctx.fill();
+      ctx.strokeStyle=col; ctx.lineWidth=2; ctx.globalAlpha=1; ctx.stroke();
+      ctx.beginPath(); ctx.arc(x,y,r*0.28,0,Math.PI*2); ctx.fillStyle='#e8d8b0'; ctx.fill();
+    }
+    ctx.shadowBlur=0;
+    ctx.font=`italic bold ${Math.max(9.5,r*0.72)}px Georgia`;
+    const tw=ctx.measureText(label).width;
+    ctx.fillStyle='rgba(220,200,150,0.75)'; ctx.fillRect(x-tw/2-3,y+r+2,tw+6,15);
+    ctx.fillStyle='#1a0a04'; ctx.textAlign='center'; ctx.textBaseline='top';
+    ctx.fillText(label,x,y+r+3);
+    ctx.restore();
+    hs(x,y,r,label,isPort?'port city':isCommons?'commons settlement':'encloser settlement',desc);
+  }
+
+  function drawRuin(x,y,label,warm,desc){
+    ctx.save();
+    const col=warm?'#8a6a30':'#5a5040', sz=13;
+    ctx.strokeStyle=col; ctx.lineWidth=1.5; ctx.setLineDash([3,3]);
+    ctx.beginPath(); ctx.moveTo(x-sz,y-sz); ctx.lineTo(x+sz,y-sz); ctx.lineTo(x+sz,y); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x+sz,y+sz); ctx.lineTo(x-sz,y+sz); ctx.lineTo(x-sz,y-sz); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle=warm?'#9a7a38':'#5a5048';
+    ctx.beginPath(); ctx.moveTo(x,y-sz-9); ctx.lineTo(x+7,y-sz-1); ctx.lineTo(x-7,y-sz-1); ctx.closePath(); ctx.fill();
+    if(warm){
+      const gg=ctx.createRadialGradient(x,y,0,x,y,sz*0.7);
+      gg.addColorStop(0,'rgba(200,120,40,0.2)'); gg.addColorStop(1,'rgba(200,120,40,0)');
+      ctx.beginPath(); ctx.arc(x,y,sz*0.7,0,Math.PI*2); ctx.fillStyle=gg; ctx.fill();
+    }
+    ctx.font='italic 9px Georgia'; ctx.fillStyle=col; ctx.textAlign='center';
+    ctx.fillText(label,x,y+sz+11);
+    ctx.restore();
+    hs(x,y,sz+6,label,warm?'warm ruin':'cold ruin',desc);
+  }
+
+  function drawUnderground(x,y,label,desc){
+    ctx.save(); const r=14;
+    for(let i=3;i>0;i--){
+      ctx.beginPath(); ctx.arc(x,y,r*i*0.42,0,Math.PI*2);
+      ctx.strokeStyle=`rgba(20,70,20,${0.22+i*0.13})`; ctx.lineWidth=1; ctx.stroke();
+    }
+    ctx.beginPath(); ctx.arc(x,y,r*0.38,0,Math.PI*2);
+    ctx.fillStyle='#0f2a0f'; ctx.fill(); ctx.strokeStyle='#2a6a2a'; ctx.lineWidth=1.5; ctx.stroke();
+    ctx.font='italic 9px Georgia'; ctx.fillStyle='#1a4a1a';
+    ctx.textAlign='center'; ctx.fillText(label,x,y+r*1.5+5);
+    ctx.restore();
+    hs(x,y,r,label,'underground entrance',desc);
+  }
+
+  function drawWizard(x,y,label,desc){
+    ctx.save(); const r=11;
+    ctx.strokeStyle='rgba(200,160,60,0.45)'; ctx.lineWidth=0.8;
+    for(let i=0;i<8;i++){
+      const a=(i/8)*Math.PI*2;
+      ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+Math.cos(a)*r*1.9,y+Math.sin(a)*r*1.9); ctx.stroke();
+    }
+    ctx.beginPath(); ctx.arc(x,y,r*0.7,0,Math.PI*2);
+    ctx.fillStyle='rgba(200,160,60,0.22)'; ctx.fill();
+    ctx.fillStyle='#c8a040'; ctx.font='bold 14px serif';
+    ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText('✦',x,y);
+    ctx.font='italic 9px Georgia'; ctx.fillStyle='#8a6820';
+    ctx.textBaseline='top'; ctx.fillText(label,x,y+r+4);
+    ctx.restore();
+    hs(x,y,r,label,'wizard figure',desc);
+  }
+
+  function drawLabels(){
+    const items=[
+      {x:1400,y:1920,text:'THE UNCHARTED OCEAN OF CONSCIOUSNESS',size:18,color:'#3a5a7a',italic:true},
+      {x:1400,y:1958,text:'Here the map ends. The territory continues.',size:10,color:'#2a4a6a',italic:true},
+      {x:300,y:80,text:'THE KNOWN LANDS',size:14,color:'#7a5a2a',italic:true},
+      {x:1400,y:48,text:'A Map of Consciousness — Compiled from field notes, ruins, and conversations with Others',size:9,color:'#7a5a2a',italic:true},
+      {x:2700,y:1700,text:'THE FRONTIER',size:13,color:'#2a3a2a',italic:true,rotate:-5},
+      {x:2700,y:1730,text:'(always extending)',size:9,color:'#2a3a2a',italic:true,rotate:-5},
+    ];
+    const inscriptions=[
+      {x:1100,y:600,text:'The commons was not enclosed because it failed.',size:9.5,color:'rgba(80,60,20,0.5)',italic:true,rotate:2},
+      {x:1080,y:618,text:'It was enclosed because it worked.',size:9.5,color:'rgba(80,60,20,0.5)',italic:true,rotate:2},
+      {x:400,y:1880,text:'"The enclosure cannot finally take the living world."',size:10,color:'rgba(50,80,60,0.58)',italic:true},
+      {x:1400,y:1840,text:'Life is what we have in common.',size:11,color:'rgba(50,70,90,0.62)',italic:true},
+    ];
+    for(const l of [...items,...inscriptions]){
+      ctx.save(); ctx.translate(l.x,l.y);
+      if(l.rotate) ctx.rotate(l.rotate*Math.PI/180);
+      ctx.font=`${l.italic?'italic ':''}${l.size}px Georgia`;
+      ctx.fillStyle=l.color; ctx.textAlign='center'; ctx.globalAlpha=0.78;
+      ctx.fillText(l.text,0,0); ctx.restore();
+    }
+    // Territory name labels
+    for(const s of SEEDS){
+      const gx=Math.floor(s[0]/GRID), gy=Math.floor(s[1]/GRID);
+      if(gx>=0&&gx<GW&&gy>=0&&gy<GH){
+        ctx.save(); ctx.font='italic bold 11px Georgia';
+        ctx.fillStyle='rgba(230,215,165,0.7)'; ctx.textAlign='center'; ctx.globalAlpha=0.65;
+        ctx.fillText(s[2],s[0],s[1]);
+        ctx.restore();
+      }
+    }
+  }
+
+  function drawCompassRose(){
+    const cx=MW-130,cy=130,r=55;
+    ctx.save();
+    for(const [d,deg,col] of [['N',0,'#8b3a1a'],['E',90,'#7a5a2a'],['S',180,'#7a5a2a'],['W',270,'#7a5a2a']]){
+      const a=deg*Math.PI/180-Math.PI/2;
+      ctx.strokeStyle=col; ctx.fillStyle=col; ctx.lineWidth=1.2;
+      ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(cx+Math.cos(a)*r,cy+Math.sin(a)*r); ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(cx+Math.cos(a)*r,cy+Math.sin(a)*r);
+      ctx.lineTo(cx+Math.cos(a-0.28)*(r*0.65),cy+Math.sin(a-0.28)*(r*0.65));
+      ctx.lineTo(cx+Math.cos(a+0.28)*(r*0.65),cy+Math.sin(a+0.28)*(r*0.65));
+      ctx.closePath(); ctx.fill();
+      ctx.font=`bold ${r*0.38}px Georgia`; ctx.fillStyle='#5a3a1a';
+      ctx.textAlign='center'; ctx.textBaseline='middle';
+      ctx.fillText(d,cx+Math.cos(a)*(r+r*0.38),cy+Math.sin(a)*(r+r*0.38));
+    }
+    ctx.beginPath(); ctx.arc(cx,cy,r*0.14,0,Math.PI*2); ctx.fillStyle='#8b6a3a'; ctx.fill();
+    const sx=MW-240,sy=MH-55;
+    ctx.strokeStyle='#6a4a20'; ctx.lineWidth=2;
+    ctx.beginPath(); ctx.moveTo(sx,sy); ctx.lineTo(sx+140,sy);
+    ctx.moveTo(sx,sy-5); ctx.lineTo(sx,sy+5);
+    ctx.moveTo(sx+70,sy-3); ctx.lineTo(sx+70,sy+3);
+    ctx.moveTo(sx+140,sy-5); ctx.lineTo(sx+140,sy+5); ctx.stroke();
+    ctx.fillStyle='#4a3010'; ctx.fillRect(sx,sy-2,70,4);
+    ctx.font='9px Georgia'; ctx.fillStyle='#4a3010'; ctx.textAlign='center';
+    ctx.fillText('One generation of struggle',sx+70,sy+16);
+    ctx.restore();
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    ctx.save(); ctx.translate(tx,ty); ctx.scale(scale,scale);
+    drawParchment(); drawTerrain(); drawForestTexture(); drawOcean();
+    drawWaters(); drawRoads(); drawMountains();
+    for(const [x,y,l,d] of WARM_R) drawRuin(x,y,l,true,d);
+    for(const [x,y,l,d] of COLD_R) drawRuin(x,y,l,false,d);
+    for(const [x,y,r,l,d] of UNDERGROUND) drawUnderground(x,y,l,d);
+    for(const [x,y,r,l,d] of COMMONS_S) drawSettlement(x,y,r,l,'commons',d);
+    for(const [x,y,r,l,d] of ENCLOSER_S) drawSettlement(x,y,r,l,'encloser',d);
+    drawSettlement(PORT.x,PORT.y,PORT.r,PORT.label,'port',PORT.desc);
+    for(const [x,y,r,l,d] of WIZARDS) drawWizard(x,y,l,d);
+    drawLabels(); drawCompassRose();
+    ctx.restore();
+  }
+
+  // ── Hit test ────────────────────────────────────────────────────
+  function hitTest(mx,my){
+    const wx=(mx-tx)/scale, wy=(my-ty)/scale;
+    for(const h of HOTSPOTS){
+      if(Math.hypot(wx-h.x,wy-h.y)<h.r+12){ showTip(mx,my,h); return; }
+    }
+    hideTip();
+  }
+  function showTip(mx,my,h){
+    tipEl.style.display='block';
+    tipEl.innerHTML=`<strong>${h.label}</strong><em>${h.kind}</em>${h.desc}`;
+    let lx=mx+16,ly=my+16;
+    if(lx+240>window.innerWidth) lx=mx-250;
+    if(ly+140>window.innerHeight) ly=my-150;
+    tipEl.style.left=lx+'px'; tipEl.style.top=ly+'px';
+  }
+  function hideTip(){ tipEl.style.display='none'; }
+
+  // ── Input ──────────────────────────────────────────────────────
+  let drag=false,lx,ly,pinchD=null;
+  cvs.addEventListener('mousedown',e=>{drag=true;lx=e.clientX;ly=e.clientY;});
+  cvs.addEventListener('mousemove',e=>{
+    if(drag){tx+=e.clientX-lx;ty+=e.clientY-ly;lx=e.clientX;ly=e.clientY;clamp();draw();}
+    else hitTest(e.clientX,e.clientY);
+  });
+  cvs.addEventListener('mouseup',()=>drag=false);
+  cvs.addEventListener('mouseleave',()=>{drag=false;hideTip();});
+  cvs.addEventListener('wheel',e=>{e.preventDefault();zoomAt(e.clientX,e.clientY,e.deltaY<0?1.12:0.89);},{passive:false});
+  cvs.addEventListener('touchstart',e=>{
+    if(e.touches.length===1){drag=true;lx=e.touches[0].clientX;ly=e.touches[0].clientY;}
+    else if(e.touches.length===2) pinchD=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+  },{passive:true});
+  cvs.addEventListener('touchmove',e=>{
+    e.preventDefault();
+    if(e.touches.length===1&&drag){
+      tx+=e.touches[0].clientX-lx;ty+=e.touches[0].clientY-ly;
+      lx=e.touches[0].clientX;ly=e.touches[0].clientY;clamp();draw();
+    } else if(e.touches.length===2&&pinchD){
+      const nd=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+      const cx=(e.touches[0].clientX+e.touches[1].clientX)/2;
+      const cy=(e.touches[0].clientY+e.touches[1].clientY)/2;
+      zoomAt(cx,cy,nd/pinchD); pinchD=nd;
+    }
+  },{passive:false});
+  cvs.addEventListener('touchend',()=>{drag=false;pinchD=null;});
+  cvs.addEventListener('click',e=>{
+    const wx=(e.clientX-tx)/scale,wy=(e.clientY-ty)/scale;
+    for(const h of HOTSPOTS){
+      if(Math.hypot(wx-h.x,wy-h.y)<h.r+14){
+        tipEl.style.display==='block'?hideTip():showTip(e.clientX,e.clientY,h); return;
+      }
+    }
+    hideTip();
+  });
+
+  function zoomAt(cx,cy,f){
+    const ns=Math.min(Math.max(scale*f,0.2),5);
+    tx=cx-(cx-tx)*(ns/scale); ty=cy-(cy-ty)*(ns/scale);
+    scale=ns; clamp(); draw();
+  }
+  function clamp(){
+    const pad=120;
+    tx=Math.min(pad,Math.max(W-MW*scale-pad,tx));
+    ty=Math.min(pad,Math.max(H-MH*scale-pad,ty));
+  }
+
+  document.getElementById('zinBtn').onclick=()=>zoomAt(W/2,H/2,1.3);
+  document.getElementById('zoutBtn').onclick=()=>zoomAt(W/2,H/2,0.77);
+  document.getElementById('homeBtn').onclick=()=>{
+    scale=Math.min(W/MW,H/MH)*0.92;
+    tx=(W-MW*scale)/2; ty=(H-MH*scale)/2; draw();
+  };
+
+  window.addEventListener('resize',()=>{resize();draw();});
+  resize();
+  scale=Math.min(W/MW,H/MH)*0.9;
+  tx=(W-MW*scale)/2; ty=(H-MH*scale)/2;
+  buildTerrain();
+  draw();
+})();
+</script>
+</body>
+</html>
