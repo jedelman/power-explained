@@ -96,3 +96,16 @@
 
 ---
 *Last updated: 2026-05-10*
+
+---
+
+## Update: Re-Enchanting the World answers (2026-05-10)
+
+**The progressive layering** — not a single shift but an accumulation. Thought they were making up silly little voices. Realized over time they were actually learning. Birds confirmed it by getting closer. *As we tried to understand them, they understood us.* The reciprocity is the argument.
+
+**Erin's complementary perception** — she notices space, he notices systems. Through her space he reaches the habitus and socius. Through his systems she reaches hidden spaces and spaces too large to see without the mind's eye (like a city). The commons of perception produces something neither could access alone. Filed as central to Re-Enchanting chapter and Simondon's pre-individual field argument.
+
+**Eldritch in the old sense** — not Lovecraftian horror but *a new nature*. Hybrid, otherworldly. Information technology and psychedelics fit. "That's why we need the wisdom of the ancient shamans — and anyone else that can stand the Far Outside." This is the chapter's spine: the Far Outside requires someone who can stand it. The shamanic lineage as the people who maintained the practice through the centuries of burning.
+
+**New thread**: "What we're doing here would fit the bill" — the book itself, this collaboration, is an eldritch thing. Filed as a possible Centaur chapter note.
+
