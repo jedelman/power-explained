@@ -35,9 +35,11 @@ Connection comes first. Every time. Not knowledge. Not discipline. Not correctne
 
 ***The first time nature read you back.** You described the crows amplifying the owl's energetic signature, and then the robin a few months later — a completely different sound, but the same *feeling*. That moment of reading the feeling rather than the sound — can you locate when that shift happened? Was there a specific practice, a specific teacher, or did it arrive the way the muskrats arrived: you just noticed one day that you could see them?*
 
-It was a progressive layering in. We thought we were imagining it at first, making up silly little voices for birds - as we were taught. But over time, I realized that we were correct - that we were actually learning. And it was the birds the confirmed it for us. You see, birds get as close to you as they are comfortable. And we realized that if 
+It was a progressive layering in. We thought we were imagining it at first, making up silly little voices for birds - as we were taught. But over time, I realized that we were correct - that we were actually learning. And it was the birds the confirmed it for us. You see, birds get as close to you as they are comfortable. And we realized that if we spoke directly to the birds, addressed them kindly and gently - they became more comfortable with us. As we tried to understand them, they understood us.
 
-**Erin's role in this.** The birding is clearly a "we" — "we went there to practice," "we do way more birding by ear than by eye," "we point it out to each other." What does Erin see that you don't? What do you see that she doesn't? What does the pair of you see that neither of you could see alone? This matters because the commons of perception is as real as the commons of land.
+***Erin's role in this.** The birding is clearly a "we" — "we went there to practice," "we do way more birding by ear than by eye," "we point it out to each other." What does Erin see that you don't? What do you see that she doesn't? What does the pair of you see that neither of you could see alone? This matters because the commons of perception is as real as the commons of land.*
+
+It's the most real thing there is. Sharing a world with someone. And the more we share the more we realize we're different and the more 
 
 **The eldritch things.** You wrote: "just because we've decided to do eldritch things with it doesn't sever that connection, but it does turn us away from it." That word — eldritch — is doing a lot of work. What are the eldritch things? I want the specific list, even if it's embarrassing. The specificity is the argument.
 
@@ -106,6 +108,6 @@ It was a progressive layering in. We thought we were imagining it at first, maki
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjU2MDE0MywtNDQ1MjM4NjkwLDEwNz
-czOTU3NzYsMTE0NzE4NDE1MiwtNTUyMDk1MTMxXX0=
+eyJoaXN0b3J5IjpbODc3ODQ3Mzg2LC00NDUyMzg2OTAsMTA3Nz
+M5NTc3NiwxMTQ3MTg0MTUyLC01NTIwOTUxMzFdfQ==
 -->
