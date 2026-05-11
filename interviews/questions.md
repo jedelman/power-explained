@@ -14,7 +14,9 @@ There was this one kid who had potential. He was intelligent but struggled with 
 
 My techniques hinge entirely on autonomy. Creating a situation where the individual has to figure things out is standard to a lot of forms of pedagogy, but I'm focused on the expansion of awareness, and that doesn't happen in a sink-or-swim scenario. Instead, I scaffold the necessary knowledge, create the motivation, verify skills, and then create the need. After that point, the individuals' instincts and self-reliance should take over. But for this guy, they just... didn't. 
 
-I pulled out all the stops. Invented new techniques. Designed training programs. He wasn't in my chain of command (an idea I agreed to reluctantly), so my options were limited. And I realized, after all that, that I spent too much
+I pulled out all the stops. Invented new techniques. Designed training programs. He wasn't in my chain of command (an idea I agreed to reluctantly), so my options were limited. And I realized, after all that, that I was attacking the wrong problem.
+
+I was trying to figure out why this guy, as an individual, would not activate his creativity and motivation for something he professedly cared deeply about - the creation and preparation of healthful, beauti
 
 **The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?
 
@@ -96,5 +98,5 @@ I pulled out all the stops. Invented new techniques. Designed training programs.
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjA5NTEzMV19
+eyJoaXN0b3J5IjpbMTUyMjg0MjI2MSwtNTUyMDk1MTMxXX0=
 -->
