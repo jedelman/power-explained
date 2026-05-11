@@ -33,7 +33,9 @@ Connection comes first. Every time. Not knowledge. Not discipline. Not correctne
 ## For the Re-Enchanting the World chapter
 *(Federici + Plotkin together — the enchanted commons)*
 
-**The first time nature read you back.** You described the crows amplifying the owl's energetic signature, and then the robin a few months later — a completely different sound, but the same *feeling*. That moment of reading the feeling rather than the sound — can you locate when that shift happened? Was there a specific practice, a specific teacher, or did it arrive the way the muskrats arrived: you just noticed one day that you could see them?
+***The first time nature read you back.** You described the crows amplifying the owl's energetic signature, and then the robin a few months later — a completely different sound, but the same *feeling*. That moment of reading the feeling rather than the sound — can you locate when that shift happened? Was there a specific practice, a specific teacher, or did it arrive the way the muskrats arrived: you just noticed one day that you could see them?*
+
+
 
 **Erin's role in this.** The birding is clearly a "we" — "we went there to practice," "we do way more birding by ear than by eye," "we point it out to each other." What does Erin see that you don't? What do you see that she doesn't? What does the pair of you see that neither of you could see alone? This matters because the commons of perception is as real as the commons of land.
 
@@ -104,6 +106,6 @@ Connection comes first. Every time. Not knowledge. Not discipline. Not correctne
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzM5NTc3NiwxMTQ3MTg0MTUyLC01NT
-IwOTUxMzFdfQ==
+eyJoaXN0b3J5IjpbLTQ0NTIzODY5MCwxMDc3Mzk1Nzc2LDExND
+cxODQxNTIsLTU1MjA5NTEzMV19
 -->
