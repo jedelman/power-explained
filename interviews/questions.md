@@ -10,7 +10,7 @@
 
 ***The restaurant's specific resistance.** You named it "an entire ontology of resistance to freedom" and said you were shocked and unprepared. Can you give me one specific person — a customer, a staff member, a neighbor — who embodied that resistance most clearly? Not their name, just: what did they do, what did they say, what did their face look like when you offered them something freer than they expected? What was the specific form the resistance took in their body?*
 
-There was 
+There was this one kid who had potential. He was intelligent but struggled with any kind of work. No resilience, had a hard time with any kind of 
 
 **The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?
 
@@ -92,5 +92,5 @@ There was
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzQyOTk4OV19
+eyJoaXN0b3J5IjpbMTYyMTkwMzkyMF19
 -->
