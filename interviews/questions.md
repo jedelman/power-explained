@@ -24,7 +24,9 @@ It was on my first read of *Commonwealth*. The phrase grabbed hold of my mind an
 
 It finally clicked after we closed the restaurant, I found myself explaining production of subjectivity to someone with the confidence and clarity of having studied it for years - because, I realized, I had.
 
-**What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)
+***What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)*
+
+
 
 ---
 
@@ -102,6 +104,6 @@ It finally clicked after we closed the restaurant, I found myself explaining pro
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMxNzkxOTIsMTE0NzE4NDE1MiwtNT
-UyMDk1MTMxXX0=
+eyJoaXN0b3J5IjpbLTQ4MjUyMjczMiwxMTQ3MTg0MTUyLC01NT
+IwOTUxMzFdfQ==
 -->
