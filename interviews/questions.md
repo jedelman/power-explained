@@ -16,7 +16,7 @@ My techniques hinge entirely on autonomy. Creating a situation where the individ
 
 I pulled out all the stops. Invented new techniques. Designed training programs. He wasn't in my chain of command (an idea I agreed to reluctantly), so my options were limited. And I realized, after all that, that I was attacking the wrong problem.
 
-I was trying to figure out why this guy, as an individual, would not activate his creativity and motivation for something he professedly cared deeply about - the creation and preparation of healthful, beautiful food. But what I didn't see was that he relied entirely on an authoritarian mode of perception. Without explicit permission, instruction, and external discipline, he was unable to accomplish anything that wasn't entirely self-motivated.
+I was trying to figure out why this guy, as an individual, would not activate his creativity and motivation for something he professedly cared deeply about - the creation and preparation of healthful, beautiful food. But what I didn't see was that he relied entirely on an authoritarian mode of perception. Without explicit permission, instruction, and external discipline, he was unable to accomplish anything that wasn't entirely self-motivated. Overcoming this was beyond my abilities at the time, and indeed, could not be accomplished by a single individual or even a very motivated group.
 
 **The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?
 
@@ -98,5 +98,5 @@ I was trying to figure out why this guy, as an individual, would not activate hi
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MzUwOTI2LC01NTIwOTUxMzFdfQ==
+eyJoaXN0b3J5IjpbLTgxNjI2MTQyLC01NTIwOTUxMzFdfQ==
 -->
