@@ -26,7 +26,7 @@ It finally clicked after we closed the restaurant, I found myself explaining pro
 
 ***What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)*
 
-
+Conn
 
 ---
 
@@ -104,6 +104,6 @@ It finally clicked after we closed the restaurant, I found myself explaining pro
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjUyMjczMiwxMTQ3MTg0MTUyLC01NT
+eyJoaXN0b3J5IjpbLTI1ODI0NzczNiwxMTQ3MTg0MTUyLC01NT
 IwOTUxMzFdfQ==
 -->
