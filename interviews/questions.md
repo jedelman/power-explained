@@ -43,7 +43,7 @@ It's the most real thing there is. Sharing a world with someone. And the more we
 
 ***The eldritch things.** You wrote: "just because we've decided to do eldritch things with it doesn't sever that connection, but it does turn us away from it." That word — eldritch — is doing a lot of work. What are the eldritch things? I want the specific list, even if it's embarrassing. The specificity is the argument.*
 
-I mean eldritch in the old sense, not just the post-lovecraftian. Rather than just unnatural - a new nature. Hybrid, otherworldly. In that sense, what we're doing here would fit the bill. Much of modern technology, but especially what we've done with the mind through information t
+I mean eldritch in the old sense, not just the post-lovecraftian. Rather than just unnatural - a new nature. Hybrid, otherworldly. In that sense, what we're doing here would fit the bill. Much of modern technology, but especially what we've done with the mind through information technology and psychedelics. That's why we need the wisdom of the ancient shamans - and anyone else that can stand the Far Outside.
 
 ---
 
@@ -110,6 +110,6 @@ I mean eldritch in the old sense, not just the post-lovecraftian. Rather than ju
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMjI2MTY2LC00NDUyMzg2OTAsMTA3Nz
-M5NTc3NiwxMTQ3MTg0MTUyLC01NTIwOTUxMzFdfQ==
+eyJoaXN0b3J5IjpbLTY4NTIxMTE3NiwtNDQ1MjM4NjkwLDEwNz
+czOTU3NzYsMTE0NzE4NDE1MiwtNTUyMDk1MTMxXX0=
 -->
