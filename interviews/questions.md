@@ -26,7 +26,7 @@ It finally clicked after we closed the restaurant, I found myself explaining pro
 
 ***What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)*
 
-Conn
+Connection comes first. Every time. Not knowledge. Not discipline. Not correctness. Not excellence. Connection. Every single time. If it's there, honor it. If it's not there, nothing can fake it. Always connect first. Nothing else matters.
 
 ---
 
@@ -104,6 +104,6 @@ Conn
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODI0NzczNiwxMTQ3MTg0MTUyLC01NT
+eyJoaXN0b3J5IjpbMTA3NzM5NTc3NiwxMTQ3MTg0MTUyLC01NT
 IwOTUxMzFdfQ==
 -->
