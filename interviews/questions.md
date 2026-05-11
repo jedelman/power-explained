@@ -20,7 +20,9 @@ I was trying to figure out why this guy, as an individual, would not activate hi
 
 ***The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?*
 
-It was on my first read of *Commonwealth*. The phrase grabbed hold of my mind and wouldn't let go. This, incidentally, was in May 2020 - two months after the world ended. For the next 5 years, it was to haunt me. And what I didn't realize is that I was being instructed in it the entire time. It was a game of cosmic jeopardy: I had the answer, I just had to find the question. And it seemed that every big question I found 
+It was on my first read of *Commonwealth*. The phrase grabbed hold of my mind and wouldn't let go. This, incidentally, was in May 2020 - two months after the world ended. For the next 5 years, it was to haunt me. And what I didn't realize is that I was being instructed in it the entire time. It was a game of cosmic jeopardy: I had the answer, I just had to find the question. And it seemed that every big question I found had to do with it.
+
+It finally clicked after we closed the restaurant, I found myself explaining production of subjectivity to someone with the confidence and clarity of having studied it for years - because, I realized, I had.
 
 **What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)
 
@@ -100,6 +102,6 @@ It was on my first read of *Commonwealth*. The phrase grabbed hold of my mind an
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzkwOTcwMywxMTQ3MTg0MTUyLC01NT
-IwOTUxMzFdfQ==
+eyJoaXN0b3J5IjpbLTIxNDMxNzkxOTIsMTE0NzE4NDE1MiwtNT
+UyMDk1MTMxXX0=
 -->
