@@ -16,9 +16,11 @@ My techniques hinge entirely on autonomy. Creating a situation where the individ
 
 I pulled out all the stops. Invented new techniques. Designed training programs. He wasn't in my chain of command (an idea I agreed to reluctantly), so my options were limited. And I realized, after all that, that I was attacking the wrong problem.
 
-I was trying to figure out why this guy, as an individual, would not activate his creativity and motivation for something he professedly cared deeply about - the creation and preparation of healthful, beautiful food. But what I didn't see was that he relied entirely on an authoritarian mode of perception. Without explicit permission, instruction, and external discipline, he was unable to accomplish anything that wasn't entirely self-motivated. Overcoming this was beyond my abilities at the time, and indeed, could not be accomplished by a single individual or even a very talented and motivated group. He had no internal discipline, and I would not impart to him the discipline I was given - my martial arts training. It would not have been appropriate, and it would have been a failure that would bring dishonor on my tradition. I couldn't allow that. Eventually, he found the situation intolerable and left.
+I was trying to figure out why this guy, as an individual, would not activate his creativity and motivation for something he professedly cared deeply about - the creation and preparation of healthful, beautiful food. But what I didn't see was that he relied entirely on an authoritarian mode of perception. Without explicit permission, instruction, and external discipline, he was unable to accomplish anything that wasn't entirely self-motivated. Overcoming this was beyond my abilities at the time, and indeed, could not be accomplished by a single individual or even a very talented and motivated group. He had no internal discipline, and I would not impart to him the discipline I was given - my martial arts training. It would not have been appropriate, and it would have been a failure that would bring dishonor on my tradition. I couldn't allow that. Eventually, he found the situation intolerable (as did we all) and left. But the entire ordeal was exhausting.
 
 ***The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?*
+
+It was on my first read of *Commonwealth*. The phrase grabbed hold of my mind and wouldn't let go. This, incidentally, was in May 2020 -
 
 **What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)
 
@@ -98,6 +100,6 @@ I was trying to figure out why this guy, as an individual, would not activate hi
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjYyMjE4MywxMTQ3MTg0MTUyLC01NT
-IwOTUxMzFdfQ==
+eyJoaXN0b3J5IjpbLTExMTAwNjI2NzQsMTE0NzE4NDE1MiwtNT
+UyMDk1MTMxXX0=
 -->
