@@ -12,7 +12,7 @@
 
 There was this one kid who had potential. He was intelligent but struggled with any kind of work. No resilience, had a hard time with any kind of disappointment or struggle. Motivated. I thought he would respond really well to the type of mentoring that I was trained in. He was an artist - self taught and talented - so I thought that he would pick up kitchen duty easy enough. But what I wasn't prepared for was how unprepared he was for autonomy.
 
-My techniques hinge entirely on autonomy. Creating a situation where the individual can and must figure out
+My techniques hinge entirely on autonomy. Creating a situation where the individual has to figure things out is standard
 
 **The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?
 
@@ -94,5 +94,5 @@ My techniques hinge entirely on autonomy. Creating a situation where the individ
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg0MjY1MDFdfQ==
+eyJoaXN0b3J5IjpbNzY5MzA3OThdfQ==
 -->
