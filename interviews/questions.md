@@ -35,7 +35,7 @@ Connection comes first. Every time. Not knowledge. Not discipline. Not correctne
 
 ***The first time nature read you back.** You described the crows amplifying the owl's energetic signature, and then the robin a few months later — a completely different sound, but the same *feeling*. That moment of reading the feeling rather than the sound — can you locate when that shift happened? Was there a specific practice, a specific teacher, or did it arrive the way the muskrats arrived: you just noticed one day that you could see them?*
 
-It was a progressive layering in. We thought we were imagining it at first, making up silly little voices for birds - as we were taught. But over time, I realized that we were correct.
+It was a progressive layering in. We thought we were imagining it at first, making up silly little voices for birds - as we were taught. But over time, I realized that we were correct - that we were actually learning. And it was the birds the confirmed it for us. You see, birds get as close to you as they are comfortable. And we realized that if 
 
 **Erin's role in this.** The birding is clearly a "we" — "we went there to practice," "we do way more birding by ear than by eye," "we point it out to each other." What does Erin see that you don't? What do you see that she doesn't? What does the pair of you see that neither of you could see alone? This matters because the commons of perception is as real as the commons of land.
 
@@ -106,6 +106,6 @@ It was a progressive layering in. We thought we were imagining it at first, maki
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU1MzkzNTIsLTQ0NTIzODY5MCwxMD
-c3Mzk1Nzc2LDExNDcxODQxNTIsLTU1MjA5NTEzMV19
+eyJoaXN0b3J5IjpbLTc0NjU2MDE0MywtNDQ1MjM4NjkwLDEwNz
+czOTU3NzYsMTE0NzE4NDE1MiwtNTUyMDk1MTMxXX0=
 -->
