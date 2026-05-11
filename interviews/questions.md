@@ -14,6 +14,8 @@ There was this one kid who had potential. He was intelligent but struggled with 
 
 My techniques hinge entirely on autonomy. Creating a situation where the individual has to figure things out is standard to a lot of forms of pedagogy, but I'm focused on the expansion of awareness, and that doesn't happen in a sink-or-swim scenario. Instead, I scaffold the necessary knowledge, create the motivation, verify skills, and then create the need. After that point, the individuals' instincts and self-reliance should take over. But for this guy, they just... didn't. 
 
+
+
 **The moment of naming.** There's a moment in every wizard's initiation where the thing that was killing you gets a name. For Fanon it happened in the consultation room. For Gramsci it happened in the prison cell. When did "production of subjectivity" click for you as the name for what you were doing and what you were hitting? Were you reading something, talking to someone, or did it arrive in the quiet?
 
 **What you would have learned at Naropa.** If you could take one thing from Joanna Macy's curriculum and put it in the hands of a 35-year-old Jason about to open a restaurant, what would it be? (This is also the thing the book needs to give the reader before they attempt to build anything.)
@@ -94,5 +96,5 @@ My techniques hinge entirely on autonomy. Creating a situation where the individ
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyMTM5MTU4XX0=
+eyJoaXN0b3J5IjpbLTM1MzY3OTM3NF19
 -->
