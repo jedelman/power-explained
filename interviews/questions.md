@@ -43,6 +43,8 @@ It's the most real thing there is. Sharing a world with someone. And the more we
 
 ***The eldritch things.** You wrote: "just because we've decided to do eldritch things with it doesn't sever that connection, but it does turn us away from it." That word — eldritch — is doing a lot of work. What are the eldritch things? I want the specific list, even if it's embarrassing. The specificity is the argument.*
 
+I mean eldritch in the old sense, not just the post-lovecraftian. Queer,
+
 ---
 
 ## For the Orgone Accumulator chapter
@@ -108,6 +110,6 @@ It's the most real thing there is. Sharing a world with someone. And the more we
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyOTUwNTQsLTQ0NTIzODY5MCwxMDc3Mz
-k1Nzc2LDExNDcxODQxNTIsLTU1MjA5NTEzMV19
+eyJoaXN0b3J5IjpbLTM1NzM2MDkzNywtNDQ1MjM4NjkwLDEwNz
+czOTU3NzYsMTE0NzE4NDE1MiwtNTUyMDk1MTMxXX0=
 -->
