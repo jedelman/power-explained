@@ -39,7 +39,7 @@ It was a progressive layering in. We thought we were imagining it at first, maki
 
 ***Erin's role in this.** The birding is clearly a "we" — "we went there to practice," "we do way more birding by ear than by eye," "we point it out to each other." What does Erin see that you don't? What do you see that she doesn't? What does the pair of you see that neither of you could see alone? This matters because the commons of perception is as real as the commons of land.*
 
-It's the most real thing there is. Sharing a world with someone. And the more we share the more we realize we're different and the more we have to share. Not have to as in must - have to as in are able to. She notices space - the common substrate - and I notice systems - the processes shaping them. But through that space she has access to systems I can't reach. And I see spaces that are hidden through my understanding of systems - the significance of the rooms.
+It's the most real thing there is. Sharing a world with someone. And the more we share the more we realize we're different and the more we have to share. Not have to as in must - have to as in are able to. She notices space - the common substrate - and I notice systems - the processes shaping them. But through that space she has access to systems I can't reach. And I see spaces that are hidden through my understanding of systems, as well as spaces too large to perceive without the mind's eye - like a city.
 
 **The eldritch things.** You wrote: "just because we've decided to do eldritch things with it doesn't sever that connection, but it does turn us away from it." That word — eldritch — is doing a lot of work. What are the eldritch things? I want the specific list, even if it's embarrassing. The specificity is the argument.
 
@@ -108,6 +108,6 @@ It's the most real thing there is. Sharing a world with someone. And the more we
 *The unanswered questions are also information — they mark the edges of what the book is ready for.*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDcwODkzNCwtNDQ1MjM4NjkwLDEwNz
-czOTU3NzYsMTE0NzE4NDE1MiwtNTUyMDk1MTMxXX0=
+eyJoaXN0b3J5IjpbNTYzOTQ2NTc1LC00NDUyMzg2OTAsMTA3Nz
+M5NTc3NiwxMTQ3MTg0MTUyLC01NTIwOTUxMzFdfQ==
 -->
