@@ -141,4 +141,138 @@ Each station below has:
 
 ---
 
-*[Stations follow. Drafting in sequence and pushing after each.]*
+## STATION ZERO — *The Glitch*
+
+> *Nasruddin is on his hands and knees under the streetlamp. A neighbor asks*
+> *what he's looking for. "My key." The neighbor helps him search. After a*
+> *while: "Are you sure you lost it here?" "No," says Nasruddin. "I lost it*
+> *over there. But the light is better here."*
+>
+> *The joke is on the neighbor for thinking the joke is on Nasruddin.*
+
+**The reader at entry.**
+
+The reader arrives carrying a moment they don't have words for. They've
+told it. People received it as a story. The reader has always half-known
+it was something more — but in the absence of a frame, "something more"
+becomes "I was probably overreacting" becomes silence becomes the moment
+filed away under *just one of those things*.
+
+The reader does not yet know they are about to begin a descent. They
+think they have picked up a political theory book with a strange title.
+
+**What arrives.**
+
+Not a text. A scene. Two scenes, possibly three, of the right shape — a
+moment where the world *glitched* and the witness was alone with the
+glitch. The form of the moment: the world the witness was inside showed
+itself briefly to be a *particular* world, assembled by particular hands,
+operating by rules the witness could see but couldn't yet name. Everyone
+else acted as if the rules were nature.
+
+The reader recognizes the shape. Not the content — *their* moment was
+different. But the shape is the same. The recognition is the lantern.
+
+**Biographical anchor.**
+
+Third grade. Kids in Jason's class made fun of him for being Chinese. He
+was not Chinese. They knew he wasn't. He knew they knew. The category was
+assigned, the room agreed to it, the reality of his actual non-Chinese-ness
+was simply not a counter-argument the room was running. He was baffled.
+The bafflement stayed.
+
+In retrospect: this was production of subjectivity demonstrated in front
+of an eight-year-old. The kid couldn't yet name what he was watching, but
+he could see, even at eight, that categories don't come from reality.
+They come from power. And power doesn't need reality's permission.
+
+Companion scene (lighter, sets up Brambleton later): an early instance of
+walking somewhere and noticing the infrastructure was making an argument
+that the people on it had absorbed as nature. Possibly the moment, much
+later, when Jason first crossed a street in a city that wasn't Norfolk
+and felt his body register *oh — it could be like this*.
+
+**What the reader is capable of at exit.**
+
+To go back and pick up their own moment. To stop apologizing for it being
+just a story. To bring it into focus and look at it without the social
+training that filed it away. To trust their own perception of a glitch
+they have already seen.
+
+This is not yet NAME. NAME is the next station. Station Zero is the
+*decision to trust the wedge in your hand*.
+
+**Existing material that serves.**
+
+- Current Prologue (Look Up) does some of this work — the herons, the
+  shared but private practice, the bird that doesn't know. But it leads
+  with the *external* version: rent went up, hospital bill, highway
+  through the neighborhood, app that knows everything. That sequencing
+  is wrong for the descent form. Those are stations the reader will
+  arrive at later. Station Zero is *the private moment*. The external
+  cases come into focus *after* the wedge is in the reader's hand, not
+  before. They are too easy to file as "yes that's bad" without
+  recognizing that the filing-as-bad is itself part of the trap.
+- The Centaur chapter contains usable lines about doubleness, the
+  half-cultivated half-wild figure — but only as undertone. Not load-
+  bearing here.
+
+**What's missing.**
+
+A new opening. Probably 1500–2500 words. Built around the third-grade
+scene, used not as Jason's biography but as a model that invites the
+reader to find their own. The scene has to be told with the kind of
+casualness that lets the reader feel it without it becoming *Jason's
+story I'm now obligated to receive*. Coyote register: the eight-year-old
+was baffled, the room was running a script, the script wasn't even
+plausible, and looking back the wizard can laugh at the absurdity without
+ever pretending it didn't hurt.
+
+The new opening also has to do a second move: *you have a moment like
+this. The book is going to assume you do. If you can find it, the rest
+will make a different kind of sense than if you can't. Take the time
+now.* But it has to do this move *without sounding like a meditation
+app*. Coyote-Nasruddin work: the lamp is over here, the key is over
+there, the joke is on the reader who doesn't go get the key.
+
+**Inbox dependencies.**
+
+None blocking. The third-grade story is the version Jason gave Claude in
+the conversation 2026-05-18; it does not need an inbox file to be drafted.
+(Could become its own inbox file — GT-02 — for additional texture if
+desired, but not required.)
+
+**Register.**
+
+Nasruddin and Castaneda dominate. Coyote in glimpses (the absurdity of
+"you are Chinese, no I'm not, yes you are"). Kropotkin minimal at this
+station — the field-notes voice arrives in earnest at Station 2 (READ).
+
+**Risks.**
+
+1. **Sentimentality.** A wedge-finding station is the kind of thing that
+   wants to become a guided visualization. It must not. The scene has to
+   stay specific, embodied, slightly funny, and refuse to milk the moment
+   for affect. The eight-year-old is not pitiable; he is *correct*. The
+   room is the thing that's broken.
+
+2. **Universalization.** Not every reader has a clean third-grade memory.
+   The book cannot require one specific shape of wedge. The opening has
+   to give the reader permission to find theirs in any form — a comment a
+   relative made, a feeling at a job, an evening that didn't land right,
+   a moment of *huh, why did that feel like that*. The wedge is wherever
+   the world briefly stopped behaving as if it were the only possible
+   world.
+
+3. **The trap of "the personal is political."** That phrase has been
+   absorbed and metabolized to mean *your feelings matter*. The book
+   means something else: *the world's mechanism was visible to you and
+   you have been gaslit into filing the visibility as feeling*. The
+   distinction is sharp. Maintain it.
+
+4. **Telling the reader the book is a descent.** Don't. The reader who
+   needs to be told isn't ready. The reader who can feel the descent
+   starting will feel it starting.
+
+---
+
