@@ -3,9 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev":     "astro dev",
-    "build":   "astro build && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js && node scripts/generate-llms-txt.mjs && node scripts/build-stats.mjs",
-    "preview": "astro preview"
+    "dev": "astro dev",
+    "build": "astro build && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js && node scripts/generate-llms-txt.mjs && node scripts/build-stats.mjs",
+    "preview": "astro preview",
+    "descent": "node scripts/gen-descent.mjs"
   },
   "dependencies": {
     "astro": "^6.2.1",

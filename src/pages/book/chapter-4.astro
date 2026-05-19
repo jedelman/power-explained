@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro'
+import Doors from '../../components/Doors.astro'
 import { readFileSync } from 'fs'
 import { resolve } from 'path'
 
@@ -40,14 +41,17 @@ function md(text) {
   </div>
   <div class="article-wrap">
     <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
+
+    <Doors slug="chapter-4" />
+
     <nav class="article-prev-next">
       <div class="prev-next-inner">
         <a href="/book/interlude-washington" class="prev-next-link">
-          <span class="prev-next-label">← Previous</span>
+          <span class="prev-next-label">← Previous on the highway</span>
           <span class="prev-next-title">Interlude: Counter-Hegemony Without the Word</span>
         </a>
         <a href="/book/chapter-5" class="prev-next-link next-link">
-          <span class="prev-next-label">Next →</span>
+          <span class="prev-next-label">Highway forward →</span>
           <span class="prev-next-title">Chapter 5: The Outside</span>
         </a>
       </div>

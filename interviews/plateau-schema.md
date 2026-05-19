@@ -125,6 +125,25 @@ notes: |
 
 ## The map zones
 
+**IMPORTANT (2026-05-18):** There is an existing interactive map at
+`/map` (`src/pages/map.astro`, 1,764 lines) that already defines the
+territory's zones with specific, defendable names — the Old Forest,
+the Zanjera Grove, the Mycorrhizal Wood, the Care Forest, the Plains
+of Progress, the Enclosure Fields, the Coastal Trail, the Forest of
+Singularity, the Rewilding Margins, the Port of Shamans, etc.
+
+**The generic zones listed below (`outer_edge`, `clearings`,
+`high_ridges`, `old_growth`, `the_river`, `the_wizards_cottage`,
+`standing_stones`) are PROVISIONAL placeholders.** They were drafted
+before the existing map was rediscovered. The actual zones used in
+the schema must be reconciled with the existing map — likely by
+adopting its zone names directly. This is a TODO before more plateaus
+are converted.
+
+Until then, the zones below are listed as a *commentary template* —
+the kind of thing zones should defend — but plateau frontmatter
+should ultimately use the names already drawn on the map.
+
 The map is a forest. The zones below are commentary — defended choices,
 not features of the territory itself. Each zone has a defense, given here
 once for the schema documentation; individual plateaus do not need to

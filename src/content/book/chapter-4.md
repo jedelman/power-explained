@@ -4,6 +4,116 @@ title: "Chapter 4: Nobody Asked Him To"
 description: "Arizmendi on his bike. Eight farmers in black blouses. A community fridge on a Brooklyn sidewalk. The commons is not a theory. It is present tense."
 h1: "Nobody Asked Him To"
 part: "Part II: The Proof"
+
+plateau:
+  id: P-04
+  status: draft
+
+map:
+  zone: clearings
+  position: [42, 18]
+  visible_from: [P-03, P-05, P-14, P-OA]
+
+capacities:
+  primary: BUILD
+  secondary: [NAME, READ]
+
+territory:
+  feature: |
+    The Mondragón corner of the territory — the region where radical
+    institutional creation occurs in the gaps of capitalist enclosure
+    through patient, unauthorized building. Not theory; built things
+    that are still standing. The clearing where the question shifts
+    from "what should be done" to "what is already being done by people
+    who didn't wait."
+  field_notes:
+    - Arizmendiarrieta, "Pensamientos" (sermons and writings)
+    - Whyte and Whyte, "Making Mondragón"
+    - Cooperation Jackson, documentation of the Jackson federation
+    - Davis et al., the Community Land Trust literature
+    - The actual Mondragón corporation, present-day
+
+metaphor:
+  choice: |
+    "Nobody asked him to." The Arizmendi gesture: a man arriving in
+    a town and beginning to build what the town needed, without waiting
+    for movement, party, or permission. The chapter takes its title from
+    this gesture and treats unauthorized building as a category of
+    political practice.
+  defense: |
+    The metaphor of the clearing as the territory's BUILD-zone is
+    defendable: building requires open ground, and on this territory
+    open ground is always cleared from prior enclosure or made by
+    refusal of the dominant economy's claim. Mondragón is one such
+    clearing — a Basque town in the wreckage of fascism where one
+    priest's stubborn building became, over decades, a worker-cooperative
+    federation. The zanjera is another such clearing, 400 years older.
+    The CLT is another. To name these as clearings is to commit to
+    seeing them as the same kind of place — and the kinds of places one
+    might find or make next.
+
+nagual:
+  blind_spot_at_entry: |
+    The reader has been thinking at the scale of movements, parties,
+    policy, electoral cycles. Their seeing runs out at the question of
+    *individual unauthorized agency.* They have absorbed a story — true
+    in some ways, devastating in others — that the lone actor cannot
+    matter, that real change requires mass mobilization or state power.
+    They dismiss the priest in 1941 in advance.
+  angle_of_approach: |
+    Arrive from history, not theory. A specific man with one eye who
+    arrived in a specific town in February 1941 with no plan and built
+    what the parishioners told him they needed: a school, then a bank,
+    then a factory, then a federation. Then a community fridge on a
+    Brooklyn sidewalk. The reader cannot dismiss what already exists
+    and is still working. The angle is: *it is already being done. You
+    have been told it cannot be done. The thing the telling protects
+    is the telling itself.*
+
+doors:
+  - to: P-14
+    prompt: To see what this looks like at the scale of land
+  - to: P-OA
+    prompt: To see what this costs the builder
+  - to: P-03
+    prompt: If you doubt one priest generalizes — the 400-year-old version
+  - to: P-05
+    prompt: Highway forward — why the system tries to kill this
+
+beauty_check:
+  status: pending
+  notes: |
+    Existing prose has strong moments — the bike, the eight farmers in
+    black blouses, the Brooklyn fridge, "nobody asked him to" as
+    refrain. The close is good. Needs a beauty pass that does two
+    things: (1) lets the love-first posture come through earlier — the
+    chapter currently opens on the priest's hardship; could open on
+    the place, the people, what was already beautiful in that valley
+    before he arrived; (2) tightens the close into the door rather
+    than the sermon.
+
+sources:
+  inbox: []
+  conversations:
+    - 2026-05-03-chapter-13-credit.md
+    # placeholder — to be expanded as plateau is revised
+
+notes: |
+  This is the worked example for the plateau schema (2026-05-18).
+  All fields below `part:` are Claude's first-pass guesses, pending
+  Jason's correction. Particularly review:
+    - territory.feature wording — is this the right naming of the feature?
+    - metaphor.defense — does the clearings metaphor hold for Mondragón?
+    - nagual.blind_spot_at_entry — is the reader's blind spot here
+      really individual agency, or is it something else (e.g., scale,
+      or "the priest is suspect on its face")?
+    - doors — is "Highway forward → P-05 (The Smile)" the right
+      sequential next, given the new structure? P-05 doesn't exist
+      yet as a plateau ID; this assumes the existing chapter-5 will
+      become P-05.
+  P-OA refers to the Orgone Accumulator plateau, which doesn't exist
+  yet — placeholder door, to be resolved when that plateau is drafted
+  or its replacement is identified.
 ---
 In February 1941, a twenty-five-year-old priest named José María Arizmendiarrieta arrived in Mondragón.
 

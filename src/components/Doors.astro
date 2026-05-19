@@ -1,0 +1,104 @@
+---
+// Doors.astro — renders the doors at the bottom of a plateau page.
+//
+// Usage in a chapter page:
+//   ---
+//   import Doors from '../../components/Doors.astro'
+//   ---
+//   ...chapter content...
+//   <Doors slug="chapter-4" />
+//
+// The component pulls the doors from the chapter's frontmatter via
+// the plateau registry. If the chapter has no doors (not yet a plateau),
+// the component renders nothing.
+//
+// Reader-facing. No build apparatus visible. Plain pointing language only.
+
+import { getDoorsForSlug } from '../lib/plateau-registry'
+
+interface Props {
+  slug: string
+}
+
+const { slug } = Astro.props
+const doors = await getDoorsForSlug(slug)
+---
+
+{doors.length > 0 && (
+  <nav class="doors" aria-label="Where to go from here">
+    <ul>
+      {doors.map(d => (
+        <li>
+          {d.url
+            ? <a href={d.url}>
+                <span class="doors-prompt">{d.prompt}</span>
+                <span class="doors-arrow" aria-hidden="true">→</span>
+                <span class="doors-target">{d.title}</span>
+              </a>
+            : <span class="doors-pending">
+                <span class="doors-prompt">{d.prompt}</span>
+                <span class="doors-arrow" aria-hidden="true">→</span>
+                <span class="doors-target">(coming)</span>
+              </span>
+          }
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<style>
+  .doors {
+    margin: 4rem 0 2rem;
+    padding: 2rem 0 0;
+    border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  }
+  .doors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .doors li {
+    margin: 0;
+  }
+  .doors a,
+  .doors .doors-pending {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: baseline;
+    gap: 0.8rem;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px dotted color-mix(in srgb, currentColor 25%, transparent);
+  }
+  .doors a:hover {
+    border-bottom-style: solid;
+  }
+  .doors-prompt {
+    font-style: italic;
+    opacity: 0.85;
+  }
+  .doors-arrow {
+    opacity: 0.5;
+  }
+  .doors-target {
+    font-weight: 500;
+  }
+  .doors-pending {
+    opacity: 0.5;
+    cursor: default;
+  }
+  @media (max-width: 640px) {
+    .doors a,
+    .doors .doors-pending {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+    .doors-arrow {
+      display: none;
+    }
+  }
+</style>
