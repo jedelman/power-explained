@@ -18,6 +18,30 @@ capacities:
   primary: BUILD
   secondary: [NAME, READ]
 
+direction:
+  seat: N
+  rationale: |
+    The chapter lives at midnight — statement of values, setting the
+    path, commitment, honoring of ancestors. The cumulative weight of
+    the litany (68 years, 40 years, 70 years, 30 years, 1000 years,
+    700 years) is N-weight. The reader is being shown the long line
+    they stand in.
+  path_through_chapter:
+    - NE  # opens in wreckage before dawn — what was there in the dark
+    - E   # the school arrives, clarity, welcoming
+    - SE  # students studying nights, the enthusiasm of beginning
+    - S   # the cooperatives built, governance precision
+    - SW  # "defeating the loneliness that turns life into hell" — care
+    - W   # the gathering: 81 cooperatives, 70,085 people, federation
+    - NW  # the restaurant section — grief, closing, transformation
+    - N   # the litany, the commitment, the ancestors, present tense
+  notes: |
+    The walk around the wheel is what gives the chapter its
+    grounding-and-whiplash quality. Not declared to reader. The reader
+    feels it. Whether the prose actually walks this path is a check at
+    beauty pass — currently the NE opening is too thin (opens on the
+    priest's hardship rather than on the Basque valley before him).
+
 territory:
   feature: |
     The Mondragón corner of the territory — the region where radical
@@ -85,12 +109,37 @@ beauty_check:
   notes: |
     Existing prose has strong moments — the bike, the eight farmers in
     black blouses, the Brooklyn fridge, "nobody asked him to" as
-    refrain. The close is good. Needs a beauty pass that does two
-    things: (1) lets the love-first posture come through earlier — the
-    chapter currently opens on the priest's hardship; could open on
-    the place, the people, what was already beautiful in that valley
-    before he arrived; (2) tightens the close into the door rather
-    than the sermon.
+    refrain. The close is good. Beauty pass needs:
+
+    (1) NE opening / praise-first. The chapter currently opens on the
+    priest's hardship (one eye, the monotone, the parishioners asking
+    for replacement). Under the new architecture, NE is the seat at
+    entry — what was already there in the dark, before he arrived.
+    The Basque valley, the mountains, the people who had survived the
+    war. The love-first move. Then the priest walks in.
+
+    (2) Orientation throughout, fractal. The chapter already does
+    this in flashes (the bike, the bamboo dams, the Brooklyn sidewalk)
+    but the orientation can be continuous — light, weather, ground,
+    the small particulars of each place. Not declared as orientation;
+    just present. The reader is somewhere specific at every moment.
+
+    (3) The restaurant section is NW (grief, processing). It currently
+    risks reading as confession. The NW stance asks for processing
+    that honors what was without bargaining for sympathy. The line
+    "It cost me my idealism and my faith in humanity" is doing the
+    work; the surrounding paragraph could be tightened so that the
+    transformation is shown more than told.
+
+    (4) Tighten the close into the door (P-05: "Highway forward — why
+    the system tries to kill this") rather than reading as sermon.
+    The N-litany earns the door; doesn't need an exhortation after.
+
+  direction_check: |
+    Does the prose actually walk NE → E → SE → S → SW → W → NW → N?
+    Currently: weak NE (see #1), strong E and SE, strong S, glancing
+    SW, strong W (the litany of cooperatives), present NW (restaurant),
+    strong N (final litany). Mostly walks the path. NE is the gap.
 
 sources:
   inbox: []
@@ -99,21 +148,35 @@ sources:
     # placeholder — to be expanded as plateau is revised
 
 notes: |
-  This is the worked example for the plateau schema (2026-05-18).
-  All fields below `part:` are Claude's first-pass guesses, pending
-  Jason's correction. Particularly review:
-    - territory.feature wording — is this the right naming of the feature?
-    - metaphor.defense — does the clearings metaphor hold for Mondragón?
+  Worked example for the plateau schema, revised 2026-05-19 under the
+  updated architecture (wheel-of-eight-directions, orientation-as-
+  fractal-praise, form/content distinction). Fields below `part:` are
+  Claude's first-pass + revisions; pending Jason's correction.
+
+  Particularly review:
+    - direction.seat: N — is the chapter's center of gravity really
+      midnight (commitment / ancestors), or is it elsewhere on the
+      wheel? Plausible alternatives: S (the precision-of-built-things
+      reading), W (the gathering/federation reading). My read is N
+      because the litany-of-years close is where the chapter's weight
+      actually rests, but you'll feel it more directly than I will.
+    - direction.path_through_chapter — is the eight-step walk I read
+      in the prose actually present, or am I retrofitting? The
+      direction_check in beauty_check is the explicit test.
+    - territory.feature wording — is this the right naming?
+    - metaphor.defense — does the clearings metaphor hold for
+      Mondragón?
     - nagual.blind_spot_at_entry — is the reader's blind spot here
-      really individual agency, or is it something else (e.g., scale,
-      or "the priest is suspect on its face")?
-    - doors — is "Highway forward → P-05 (The Smile)" the right
-      sequential next, given the new structure? P-05 doesn't exist
-      yet as a plateau ID; this assumes the existing chapter-5 will
-      become P-05.
-  P-OA refers to the Orgone Accumulator plateau, which doesn't exist
-  yet — placeholder door, to be resolved when that plateau is drafted
-  or its replacement is identified.
+      really individual agency, or something else (e.g., scale, or
+      "the priest is suspect on its face")?
+    - doors — P-05 and P-OA are placeholder IDs assuming existing
+      chapter-5 becomes P-05 and the Orgone Accumulator plateau is
+      drafted as P-OA. Both to be resolved.
+
+  Build-system framing (2026-05-19): everything in this frontmatter
+  is build artifact, not book. It compiles out. The reader sees prose.
+  Direction-check is lint; beauty_check is test; doors are the
+  dependency graph; descent.md is auto-generated documentation.
 ---
 In February 1941, a twenty-five-year-old priest named José María Arizmendiarrieta arrived in Mondragón.
 
