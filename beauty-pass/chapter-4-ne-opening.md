@@ -1,111 +1,167 @@
-# Chapter 4 — NE-opening patch (proposal v2)
+# Chapter 4 — NE-opening patch (proposal v3, Liebenberg key)
 
 Status: candidate. Not committed to chapter-4.md prose.
 
-## Why (unchanged)
+## What v3 changes
 
-The chapter's `direction.seat` is S (proof, precision). But the wheel
-is always present, and the chapter opens at NE — silence, mystery,
-what is already there before dawn. The current opening lands the
-reader on the priest's hardship, which is NW-coded (grief). The
-chapter is asked to do its praise-first work from a position it
-hasn't yet seated in. The NE opening provides the seat from which
-praise issues.
+v1 invented Basque atmospheric particulars. Wrong.
 
-## What changed in v2
+v2 (A) gestured in solidarity from outside: "we don't know who in
+that town remembered what." Honest but closed. As Jason flagged:
+"saying we don't know invites the question — what if we did? What
+DO we know?"
 
-v1 reached for atmospheric particulars about Basque rural life in
-1941 that I do not actually know — "bread daily in the ovens," the
-maquis, grandmothers carrying bread to the mountains. Jason flagged
-this correctly: the prose can be beautiful AND it must be true.
-Invented atmosphere fails the beauty check eventually even when it
-passes for a draft.
+v3 takes the Liebenberg key. The tracker projects into the position
+of the animal. The tracker reads what is in the sand and what is
+between the lines. The tracker becomes spoor-conscious. This is
+what Arizmendi was doing in 1941 and what the chapter is teaching
+the reader to do now. The opening establishes the tracker's stance,
+then walks into the valley.
 
-Two honest alternatives:
+This is the (B) voice approach. The voice from the place isn't
+quoted from a Basque historian (yet — could be added in revision);
+it is quoted from Liebenberg, because Liebenberg's epistemology
+*is* what the chapter is teaching, and what Arizmendi practiced.
+The voice from the place is also the !Xo tracker, because the
+form of knowing he embodies is older than capitalism and is the
+form the chapter is recovering.
 
-  (A) Gesture in solidarity from the position of someone who has
-      not been there. Name what we don't know as part of the
-      orientation. The reader is positioned beside the writer,
-      both looking toward the valley from outside it.
+This opening therefore does three things at once:
+  - sits NE (pre-dawn, the position of the not-yet-knowing tracker)
+  - invokes the book's whole pedagogical method (projection-and-
+    hypothesis, spoor-consciousness) without naming it as method
+  - earns the right to the Basque valley by approaching it the
+    way a tracker would: by reading what is in the sand
 
-  (B) Bring a voice from the place itself. Arizmendi's own
-      writing. A Basque historian. Someone who was there, or who
-      carries the line from there. Quotation does the work that
-      invention was trying to do, but honestly.
+## Draft v3
 
-v2 below tries (A) first, with a placeholder for (B) where a quoted
-voice would deepen it further. Pending fact-check build step:
-specific claims (Civil War aftermath, prior priest killed by Franco's
-forces, town on both sides of the war) need source verification.
+There is a thing that hunter-gatherer trackers in the Kalahari do
+when they come upon a fresh set of prints. They project themselves
+into the position of the animal that made them. They become, for
+the duration of the tracking, the gemsbok or the duiker whose path
+they are reading. They ask: what would I have done here, with this
+wind, at this hour, with hunger like that? The footprint by itself
+is not enough. The track only becomes legible when the tracker has
+crossed into the body that made it.
 
-## Draft v2
+Louis Liebenberg, who spent years with !Xo trackers in the Kalahari,
+calls this the origin of science. Not because tracking is "primitive
+science" but because the cognitive operation a tracker performs —
+forming a hypothesis from sign, testing prediction against further
+sign, revising — is the same operation that became formal science
+much later. The difference is that the tracker also has to *feel
+like the animal*. One !Xo tracker told Liebenberg, after killing a
+gemsbok, that the spoor of the gemsbok's companion was nearby. The
+two had grown up together. The companion would come back to that
+spot, the tracker said, to look for its lost friend. He was sad
+about it. He had killed the one to feed his family. The sympathy
+and the kill were not contradictions for him; they were the same
+practice.
 
-In February 1941, a town in the Basque foothills was waiting for
-something we cannot fully imagine from here. The Spanish Civil War
-had ended two years before. The town — Mondragón — had been on both
-sides of it. Neighbors had killed neighbors in their own streets.
-The parish priest had been shot. What we know from outside is the
-shape of the aftermath in general: in places that have been on both
-sides of a war fought in their own streets, the work of going on is
-done by people who must keep functioning while grief sits in every
-house unaddressed.
+To approach a place like Mondragón in February of 1941, we have to
+do something similar. We have to read the prints. The prints are
+visible now, from here, in the form of what was built after:
+eighty-one cooperatives, seventy thousand worker-owners, sixty-eight
+years without a layoff. But the prints were already in the sand in
+1941, before any of that was built, in the form of what the people
+of that valley had survived and were carrying. The Civil War had
+ended two years before. Neighbors had been on both sides of it.
+The parish priest had been shot. The mills were running below
+capacity. And underneath all of that, the older life of the place
+— the Basque language that Franco had outlawed, the practices of
+mutual aid that mountain communities preserve when nothing else
+will hold, the memory of the priest who was killed — was still
+present, the way ground itself is present.
 
-We don't know who in that town remembered what. We don't know which
-of the older women carried which side of the war in their hands.
-What we know is that the mountains were the mountains and the river
-ran and the town went on, because towns do, until something arrives
-that lets them do more than go on.
-
-In February 1941, what arrived was a twenty-five-year-old priest
-named José María Arizmendiarrieta.
+In February of 1941, into this valley, a twenty-five-year-old
+priest arrived who could read the sand. His name was José María
+Arizmendiarrieta.
 
 [then current opening continues: "He had one eye..."]
 
-## Notes on what this is doing
+## What this is doing technically
 
-- NE stance: pre-dawn, the position of not-knowing. The text holds
-  the reader at the edge of the valley rather than placing them
-  inside it with invented detail.
-- Praise-first, but as orientation rather than atmosphere. What is
-  praised is the structural fact: towns go on. The mountains are
-  the mountains. The river runs. These are claims that can be made
-  from outside without invention.
-- "From here" / "from outside" / "we don't know" — the writer's
-  position is honest. The reader is not being asked to be in the
-  valley; they are being asked to look toward it.
-- The line "until something arrives that lets them do more than go
-  on" is the door from NE into the rest of the chapter. It is also
-  the chapter's argument in miniature: commons work is what lets a
-  place do more than go on.
+- NE stance, sustained for three paragraphs. The reader is held in
+  the position of the not-yet-knowing tracker before being given
+  the figure to track.
+- The book's epistemology is enacted, not declared. By the time
+  Arizmendi appears as "a priest who could read the sand," the
+  reader has been taught (without being told) that reading the
+  sand is a real practice with a real name and a real lineage.
+- Orientation as fractal: hunger, wind, hour, body, sympathy,
+  ground, valley, mills, language, memory. The chapter is dense
+  with orientation from the first sentence. The reader is somewhere
+  specific the whole time.
+- Praise-first: what is praised is the older life that was still
+  present underneath. "The way ground itself is present." Not
+  "what was beautiful before" (sentimental) but "what was load-
+  bearing underneath" (structural).
+- Honest about the writer's position: "from here," "from this
+  position," "we have to read the prints." The writer is a tracker
+  too. The reader is learning to be one.
+- The S–N axis is foreshadowed in the opening: the older life "the
+  way ground itself is present" is N (ancestral, structural), and
+  the reading-of-prints is S (precision, evidence, technique). The
+  chapter's seat-and-gesture is encoded in the opening's bones.
 
-## Where (B) would deepen this
+## Fact-check requirements (to be cached in chapter-4.facts.yaml)
 
-A quoted voice from the place — Arizmendi himself, or a Basque
-historian, or someone who carries the memory of February 1941 — would
-let the chapter touch the valley from inside without Claude
-ventriloquizing. Arizmendi's "Pensamientos" is one source. If there
-is a Basque historian Jason knows or can identify, their voice on
-what 1941 was like in that valley would land where invention cannot.
+  - Liebenberg quotation accuracy (cross-check against the PDF):
+    "project themselves into the position of the animal"
+    "creative hypothesis... comes from within the human mind"
+    !Xo tracker / gemsbok companion story
+  - "Years with !Xo trackers in the Kalahari" — Liebenberg's
+    fieldwork; The Office of the President of Botswana granted his
+    research permit per his acknowledgments. Verified.
+  - "Civil War had ended two years before" (1939). Verified.
+  - "Neighbors had been on both sides of it" — claim about
+    Mondragón specifically; needs Whyte & Whyte source or
+    equivalent.
+  - "The parish priest had been shot" — same; verify in Whyte &
+    Whyte.
+  - "Basque language that Franco had outlawed" — broadly accurate;
+    Franco's regime suppressed Basque (Euskara) in public life from
+    1939. Specific 1941 status: needs verification.
+  - "Mills were running below capacity" — claim about Mondragón
+    industrial economy 1939-1941; needs source.
 
-## Fact-check requirements
+## What I'm uncertain about
 
-These claims need to be cached as verified before the prose ships:
+1. Is Liebenberg's voice the right voice to open this chapter with?
+   He's a white South African researcher writing about !Xo and
+   Ju/wasi people. The voice from the place — the actual place —
+   would be the !Xo tracker himself. The chapter currently quotes
+   the tracker via Liebenberg, which is the honest version of the
+   chain (someone was there, someone wrote it down, the writer
+   found it, the reader is now being handed it). But it's worth
+   asking whether the chain should be more direct, or whether
+   Liebenberg-as-bridge is right.
 
-  - "Spanish Civil War had ended two years before" (1939 official end)
-  - "The town — Mondragón — had been on both sides of it"
-  - "Neighbors had killed neighbors in their own streets"
-  - "The parish priest had been shot"
+2. The phrase "could read the sand" applied to Arizmendi is a
+   strong move. It claims, structurally, that what !Xo trackers do
+   and what Arizmendi did are the same kind of seeing. This is
+   defensible — both are projection-into-the-position-of-the-other,
+   both are hypothesis-from-sign — but it is a claim, not a metaphor.
+   It deserves a defense paragraph if challenged. The defense lives
+   in the chapter's whole argument.
 
-The first is uncontested. The other three are claims about Mondragón
-specifically and need a source. The Whyte and Whyte "Making
-Mondragón" likely covers this; if not, a Basque Civil War historian.
+3. Length. Three paragraphs of pre-Arizmendi material may be too
+   much. The chapter is already long. Could compress to two without
+   losing the Liebenberg key. Felt-pass decision.
 
-## Questions for Jason
+## Why this changed the conversation for me
 
-1. Does (A) the gesture-in-solidarity approach work, or do you want
-   (B) the quoted-voice approach instead, or both?
-2. Is "from here" / "we don't know" / "from outside" the right move
-   for the writer's position throughout the book, or only at NE
-   moments?
-3. If a quoted voice — do you have one in mind, or should I propose
-   candidates?
+The Liebenberg material isn't decoration. It's the book's whole
+epistemology stated by someone who walked the territory. The
+wizard reads terrain succession to know the future = the tracker
+projects into the position of the animal to know what it did. The
+wheel-of-eight = the eight cardinal positions a tracker must be
+able to think from. Spoor-consciousness = the chapter's pedagogical
+goal for the reader (learn to see commons-prints in the world you
+walk through). The praise-first / love-first rule = the tracker's
+sympathy with the animal that survives even the kill.
+
+I was previously treating these as separate principles that
+happened to align. Reading Liebenberg, they are the same principle
+in different domains. This is the kind of resonance Jason mentioned
+earlier in the session. Propagating it.
