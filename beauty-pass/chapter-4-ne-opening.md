@@ -1,86 +1,111 @@
-# Chapter 4 — NE-opening patch (proposal)
+# Chapter 4 — NE-opening patch (proposal v2)
 
 Status: candidate. Not committed to chapter-4.md prose.
 
-## Why
+## Why (unchanged)
 
-The chapter's `direction.seat` is N (midnight, ancestors, commitment).
-But the chapter must walk the wheel to earn its seat, and the wheel
-begins at NE: silence, mystery, what is already there in the dark
-before dawn. The current opening lands the reader directly on the
-priest's hardship — which is closer to NW (grief) than NE. The reader
-is asked to feel sympathy before they have been asked to see the
-place. Praise-first / love-first is then structurally impossible: the
-chapter has skipped the position from which praise issues.
+The chapter's `direction.seat` is S (proof, precision). But the wheel
+is always present, and the chapter opens at NE — silence, mystery,
+what is already there before dawn. The current opening lands the
+reader on the priest's hardship, which is NW-coded (grief). The
+chapter is asked to do its praise-first work from a position it
+hasn't yet seated in. The NE opening provides the seat from which
+praise issues.
 
-This patch proposes a short opening (two or three short paragraphs)
-that sits the reader at NE — the Basque valley in February 1941,
-before Arizmendi arrives. What was already there in the dark. Then
-the priest walks in.
+## What changed in v2
 
-This is a sketch. Felt-pass yours.
+v1 reached for atmospheric particulars about Basque rural life in
+1941 that I do not actually know — "bread daily in the ovens," the
+maquis, grandmothers carrying bread to the mountains. Jason flagged
+this correctly: the prose can be beautiful AND it must be true.
+Invented atmosphere fails the beauty check eventually even when it
+passes for a draft.
 
-## Draft
+Two honest alternatives:
 
-In February 1941, the Deba River was still cold from the mountains.
-The town of Mondragón sat in a narrow valley in the Basque foothills,
-the kind of valley where the light is short in winter and the people
-have lived through several centuries of being told who they were by
-someone else. The Civil War had ended two years before. The town had
-been on both sides of it — neighbors had killed neighbors in their
-own streets — and the parish priest had been shot by Franco's forces.
-What was left was iron mills running below capacity, a population
-that had buried more than it could account for, and the kind of
-silence that comes after a community has had to keep functioning
-while grief sat in every house unaddressed.
+  (A) Gesture in solidarity from the position of someone who has
+      not been there. Name what we don't know as part of the
+      orientation. The reader is positioned beside the writer,
+      both looking toward the valley from outside it.
 
-There were people in that valley who had known the priest who was
-shot. There were people who had hidden each other. There were
-grandmothers who had carried bread to the mountains for the maquis
-and grandmothers who had reported their neighbors to the Guardia
-Civil. There were children who did not yet know which side of that
-their family had been on. The mountains were still the mountains. The
-river ran. Bread was still made daily in the ovens because bread is
-made daily in the ovens.
+  (B) Bring a voice from the place itself. Arizmendi's own
+      writing. A Basque historian. Someone who was there, or who
+      carries the line from there. Quotation does the work that
+      invention was trying to do, but honestly.
 
-It was into this valley, in February 1941, that a twenty-five-year-old
-priest named José María Arizmendiarrieta arrived.
+v2 below tries (A) first, with a placeholder for (B) where a quoted
+voice would deepen it further. Pending fact-check build step:
+specific claims (Civil War aftermath, prior priest killed by Franco's
+forces, town on both sides of the war) need source verification.
+
+## Draft v2
+
+In February 1941, a town in the Basque foothills was waiting for
+something we cannot fully imagine from here. The Spanish Civil War
+had ended two years before. The town — Mondragón — had been on both
+sides of it. Neighbors had killed neighbors in their own streets.
+The parish priest had been shot. What we know from outside is the
+shape of the aftermath in general: in places that have been on both
+sides of a war fought in their own streets, the work of going on is
+done by people who must keep functioning while grief sits in every
+house unaddressed.
+
+We don't know who in that town remembered what. We don't know which
+of the older women carried which side of the war in their hands.
+What we know is that the mountains were the mountains and the river
+ran and the town went on, because towns do, until something arrives
+that lets them do more than go on.
+
+In February 1941, what arrived was a twenty-five-year-old priest
+named José María Arizmendiarrieta.
 
 [then current opening continues: "He had one eye..."]
 
 ## Notes on what this is doing
 
-- NE stance: pre-dawn, silence, what is already there. The valley
-  *before* the chapter's protagonist.
-- Praise-first: bread is still made daily in the ovens. The river
-  runs. The mountains are the mountains. What was loved is named
-  before what was wounded.
-- Orientation as fractal: light (short in winter), water (cold from
-  the mountains), ground (narrow valley), food (bread daily), people
-  (the specifics of who had done what, without resolution).
-- Refuses to flatten the Civil War into a backdrop. The grandmothers
-  on both sides. The children who didn't yet know. The chapter is
-  about unauthorized building in conditions of unprocessed grief;
-  the opening sets that ground.
-- "The mountains were still the mountains. The river ran." — N-stance
-  inside an NE opening. The wheel is already turning at the sentence
-  level. The chapter's N-seat is foreshadowed in this line.
+- NE stance: pre-dawn, the position of not-knowing. The text holds
+  the reader at the edge of the valley rather than placing them
+  inside it with invented detail.
+- Praise-first, but as orientation rather than atmosphere. What is
+  praised is the structural fact: towns go on. The mountains are
+  the mountains. The river runs. These are claims that can be made
+  from outside without invention.
+- "From here" / "from outside" / "we don't know" — the writer's
+  position is honest. The reader is not being asked to be in the
+  valley; they are being asked to look toward it.
+- The line "until something arrives that lets them do more than go
+  on" is the door from NE into the rest of the chapter. It is also
+  the chapter's argument in miniature: commons work is what lets a
+  place do more than go on.
+
+## Where (B) would deepen this
+
+A quoted voice from the place — Arizmendi himself, or a Basque
+historian, or someone who carries the memory of February 1941 — would
+let the chapter touch the valley from inside without Claude
+ventriloquizing. Arizmendi's "Pensamientos" is one source. If there
+is a Basque historian Jason knows or can identify, their voice on
+what 1941 was like in that valley would land where invention cannot.
+
+## Fact-check requirements
+
+These claims need to be cached as verified before the prose ships:
+
+  - "Spanish Civil War had ended two years before" (1939 official end)
+  - "The town — Mondragón — had been on both sides of it"
+  - "Neighbors had killed neighbors in their own streets"
+  - "The parish priest had been shot"
+
+The first is uncontested. The other three are claims about Mondragón
+specifically and need a source. The Whyte and Whyte "Making
+Mondragón" likely covers this; if not, a Basque Civil War historian.
 
 ## Questions for Jason
 
-1. Is the historical particularity right? "Bread daily in the ovens"
-   is a guess at Basque village life in 1941 — defensible from what
-   I know of Basque rural domestic economy, but you'll know if it
-   rings false. Same with the maquis reference — Basque resistance
-   to Franco continued into the 1940s but the term "maquis" is more
-   commonly French; the Basque equivalent may be different
-   (gudariak? or just "the resistance"?). If this is wrong, it
-   should be cut, not finessed.
-
-2. Tone: does this land in your voice, or does it read as Claude
-   ventriloquizing? If it reads as me-pretending-to-be-you, scrap it
-   and do the pass yourself. The fields above will still serve as a
-   spec for what the opening needs to accomplish.
-
-3. Length: three paragraphs. Could be two, could be four. Two feels
-   tight; four feels indulgent. Three feels right but you'll know.
+1. Does (A) the gesture-in-solidarity approach work, or do you want
+   (B) the quoted-voice approach instead, or both?
+2. Is "from here" / "we don't know" / "from outside" the right move
+   for the writer's position throughout the book, or only at NE
+   moments?
+3. If a quoted voice — do you have one in mind, or should I propose
+   candidates?
