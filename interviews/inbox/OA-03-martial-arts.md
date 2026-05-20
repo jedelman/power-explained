@@ -20,8 +20,8 @@
 > 
 > ---
 
-One of the traditions that protected me was an Okinawan martial art, Kyokushin. It translates as "ultimate truth", which sounds grandiose until you realize that it's a reminder and not a self description. It instructs the student what to seek, not claims that it's what the art hol
+One of the traditions that protected me was an Okinawan martial art, Kyokushin. It translates as "ultimate truth", which sounds grandiose until you realize that it's a reminder and not a self description. It instructs the student what to seek, not claims ownership over it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ5MTkxNDYsODIwOTU3NDUwLC03NT
-Q3OTY3NTYsMTM2OTIxMjE1OF19
+eyJoaXN0b3J5IjpbMTAyNzgzNjc5NSw4MjA5NTc0NTAsLTc1ND
+c5Njc1NiwxMzY5MjEyMTU4XX0=
 -->
