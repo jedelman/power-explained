@@ -18,9 +18,9 @@
 
 For the first time in my life, I didn't have anything to do and I didn't have anyone telling me I had to. I could just *be*. It was profoundly disorienting. I cried a few times. I went through multiple existential crises, all in my head. Mostly I was inert.
 
-Erin had a job at a coffee shop and some days I would just ride with her to work. They had a couch and a guitar and I would pluck and read. Ironically, this is where I finally got to fully read Reich - *The Sexual Revolution*, *Character Analysis*, and *Mass Psychology of Fascism*. Thanks to the Redmond public library system - within walking distance of the coffee shop - a great example of the commons producing something well in excess of its intended purpose.
+Erin had a job at a coffee shop and some days I would just ride with her to work. They had a couch and a guitar and I would pluck and read. Ironically, this is where I finally got to fully read Reich - *The Sexual Revolution*, *Character Analysis*, and *Mass Psychology of Fascism*. Thanks to the Redmond public library system - within walking distance of the coffee shop - a great example of the commons producing something well in excess of its intended purpose. I studied ferociously. Esoteric Buddhism, Western and Chinese herbalism, Reich's somatotherapy. 
 
-
+Other days I would stay home. We lived in the woods, on 5 acres, and had a very small flock of chickens. Every one of them named. They taught me 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkzOTAxNDVdfQ==
+eyJoaXN0b3J5IjpbMjg0MDExNzAxXX0=
 -->
