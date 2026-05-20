@@ -174,9 +174,17 @@ beauty_check:
         only "place" is respect for earth/ancestors/life; you sing
         people there, you don't put them there; "it did feel like dying
         to leave."
-      - G-OA-008 {{NEED: OA-03}} — the martial arts tradition. Named
-        load-bearing in the architecture map. Currently a frame with
-        the picture missing.
+      - OA-03 ✓ ANSWERED + woven 2026-05-20: split into G-OA-008b ("The
+        Tradition That Protected Me" — Kyokushin, geography dropped per
+        Jason; "ultimate truth" as a reminder not a self-description; the
+        bullied mixed-race/femme kid as the wound the training answered;
+        the father who knew not to teach his own son) and G-OA-008c
+        ("Kokoro" — the discipline of SPIRIT, the thing Foucault's
+        analysis cannot reach; won fights outmatched on spirit; the oath
+        for protection with content withheld; spirit as source of life;
+        the recognition-across-practices clause that rhymes with 007b
+        and the book's "come find us"). NO technique rendered; oath
+        content withheld by design.
       - G-OA-009 {{NEED: OA-04}} — the South in the body, the somatic
         shrug, what activates it, what broke it or is still breaking.
       - G-OA-011 {{NEED: OA-05}} — the Buddhist body-practice in Jason's
@@ -242,6 +250,16 @@ beauty_check:
         founder's sympathies pointed. CAVEAT honored in prose: Reich was
         an heir-apparent in REPUTATION, never in Freud's formal inner
         "Secret Committee."
+      - KYOKUSHIN (G-OA-008b), verified 2026-05-20: Kyokushin = a
+        full-contact karate founded by Mas Oyama, classified JAPANESE
+        but descended from Okinawan-rooted styles (Gōjū-ryū / Naha-te
+        and Shōtōkan, itself Okinawa→Japan via Funakoshi). Jason chose
+        to drop the geography and render just "Kyokushin." 極真 does
+        translate as "ultimate truth." (Wikipedia; the-martial-way;
+        historyoffighting) "Kokoro" / indomitable spirit is Jason's
+        lived framing from his training — not a fact-check item, it's
+        first-person testimony. The oath's content is deliberately
+        withheld per Jason; do not fill it in.
     STILL VERIFY before publication:
       - Plotkin's "descent" / soulcraft framing cited accurately.
       - Whether to keep the "cured Nazis / treated fascism" framing as
@@ -255,7 +273,7 @@ sources:
   inbox:
     - OA-01-the-floor          # ✓ ANSWERED + threaded — G-OA-005
     - OA-02-community          # ✓ ANSWERED + woven — G-OA-007b ("What Is Your Medicine")
-    - OA-03-martial-arts       # UNANSWERED — G-OA-008
+    - OA-03-martial-arts       # ✓ ANSWERED + woven — G-OA-008b (Kyokushin) + 008c (kokoro)
     - OA-04-south              # UNANSWERED — G-OA-009
     - OA-05-the-practice       # NEW 2026-05-20 — the Buddhist body-practice in Jason's voice, G-OA-011
   conversations:
@@ -279,7 +297,9 @@ gestures:
   - G-OA-007     # floor=solitude / woods=being held; the inversion of Reich
   - G-OA-007b    # what is your medicine (OA-02): armor resonates; the community that shakes it off
   - G-OA-008     # discipline is not compliance; Foucault on coordination/subjection
-  - G-OA-009     # where the shrug lives (the South in the body)
+  - G-OA-008b    # the tradition that protected me (OA-03): Kyokushin, the wound, the father
+  - G-OA-008c    # kokoro — discipline of spirit, not Foucault's body; recognition across practices
+  - G-OA-009     # where the shrug lives (the South, the layer under the tradition)
   - G-OA-010     # Plotkin: the descent was the curriculum
   - G-OA-011     # here is the practice (HOLD made operational)
 
@@ -297,7 +317,9 @@ separators:
   - paragraph   # 006  -> 007
   - paragraph   # 007  -> 007b
   - section     # 007b -> 008
-  - section     # 008  -> 009
+  - paragraph   # 008  -> 008b
+  - paragraph   # 008b -> 008c
+  - section     # 008c -> 009
   - section     # 009  -> 010
   - paragraph   # 010  -> 011
 
