@@ -26,7 +26,7 @@ Many days we'd go hiking or walk the trails - former railroad grades - in the va
 
 The cognitive dissonance was blinding. From the outside, the career frame, my life had basically ended. I was done, finished. But from my perspective, my life had just begun, or resumed. It helped that we had been aggressively building a nest egg for years. It helped that it was burnout and not a medical emergency that put me out of commission. It helped that I was in 2015 Seattle and not 2020 Norfolk. I was very very lucky.
 
-And I had cannabis. The floor can actually be quite comfortable when you've abandoned the desire to get off it and can actually give yourself the space to be curious about what it's like. It's not so bad. It can be peaceful. It can be lonely. Sometimes it's dark. B
+And I had cannabis. The floor can actually be quite comfortable when you've abandoned the desire to get off it and can actually give yourself the space to be curious about what it's like. It's not so bad. It can be peaceful. It can be lonely. Sometimes it's dark. But very, very often, it is full of life, and light. The most painful part is admitting that you've held yourself up and away from it for so long.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MzYzNDI1XX0=
+eyJoaXN0b3J5IjpbLTgwNzQ0NDg3N119
 -->
