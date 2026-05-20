@@ -18,6 +18,7 @@
 > 
 > And: what broke it? Or is it still breaking?
 
+Well, I live in the South again, hopefully not for much longer. I see it every day. If _kokoro_ is the indomitable spirit, the posture of the South is the posture of the dominated spirit. The puffed up chest that becomes a hunched back. The swagger that becomes bad knees. The frozen mask on anyone who isn't a white m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NjI0NDE4XX0=
+eyJoaXN0b3J5IjpbLTk1MDM5OTYyMyw5ODY2MjQ0MThdfQ==
 -->
