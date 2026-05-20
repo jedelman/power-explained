@@ -24,8 +24,8 @@ One of the traditions that protected me was an Okinawan martial art, Kyokushin. 
 
 I was picked on as a kid for being mixed-race and too femme for a boy. I didn't know any of this at the time. I just knew that people liked to shove me into lockers and under bus seats and reacted differently to me when I fought back than everyone else. There were unwritten, unspoken rules that I didn't know. I didn't care - I just knew I needed to know how to fight. And my dad, despite having trained for years in the 1970s with an actual samurai, knew that he couldn't teach me. He audited many of the schools in the area and found one not in the next town but a few towns over. 
 
-I trained there for ten years. And I'm still learning new things from my training. 
+I trained there for ten years. And I'm still learning new things from my training. I have flashbacks to moments of instruction after 30 years that still teach me things. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY0OTk2MzEsLTE3NzQ4MzY2NzksOD
-IwOTU3NDUwLC03NTQ3OTY3NTYsMTM2OTIxMjE1OF19
+eyJoaXN0b3J5IjpbLTI2MjExNjA2MSwtMTc3NDgzNjY3OSw4Mj
+A5NTc0NTAsLTc1NDc5Njc1NiwxMzY5MjEyMTU4XX0=
 -->
