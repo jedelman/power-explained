@@ -169,30 +169,55 @@ beauty_check:
     arriving there. The full SE return is a later plateau's work.
 
   fact_check_status: |
-    VERIFY before publication:
-      - Reich died in Lewisburg Federal Penitentiary, November 1957,
-        during a sentence for contempt related to the FDA injunction
-        against interstate shipment of accumulators.
-      - The FDA-ordered destruction of Reich's accumulators AND the
-        burning of his publications (1956–1960). Confirm scope/dates.
-      - "Character armor" and the fascism-raw-material thesis as Reich's
-        actual claims (Character Analysis; Mass Psychology of Fascism).
+    VERIFIED via web search 2026-05-20 (2+ sources each):
+      - Reich died Nov 3 1957 at Lewisburg Federal Penitentiary, PA,
+        heart failure, serving 2 years for criminal contempt of court
+        (violating the FDA injunction); died ~one day before parole
+        eligibility. (Britannica, Wikipedia, jrank, encyclopedia.com)
+      - Court-ordered burning of his publications, 1956: 6+ tons of
+        books/journals/papers destroyed by federal agents — the only
+        court-ordered destruction of an author's body of work in U.S.
+        history. (uapmurders citing the record; Wikipedia; Britannica
+        notes seizure/destruction 1956–1960.)
+      - "Character armor" / muscular armour and the fascism-raw-material
+        thesis = Reich's actual claims (Mass Psychology of Fascism 1933;
+        Character Analysis 1933).
+      - Expelled from the German Communist Party (KPD) in 1933 over Mass
+        Psychology of Fascism — seen as so critical of the Soviet regime
+        he was a liability. Fled Nazi Germany. (Wikipedia, brewminate,
+        encyclopedia.com, Oxford Reference)
+      - In Denmark and Norway the book was "severely attacked and
+        denounced as 'counterrevolutionary' by the leadership of the
+        Communist party" — Reich's own words, MPF preface (archive.org
+        full text). This is the "works on Stalinists" point, sourced.
+      - "Workers' Democracy" as Reich's proposed healthy alternative —
+        those who do the work make the decisions. (Wikipedia MPF)
+    STILL VERIFY before publication:
       - Plotkin's "descent" / soulcraft framing cited accurately.
+      - Whether to keep the "cured Nazis / treated fascism" framing as
+        strong as drafted — Reich BELIEVED un-armoring could un-make a
+        fascist and worked at it; "cured" is Jason's deliberate frame
+        (editorial direction 2026-05-20), defensible as the chapter's
+        claim about what Reich was attempting, not a clinical outcome
+        claim. Flagged so it's a chosen frame, not an overread.
 
 sources:
   inbox:
     - OA-01-the-floor          # UNANSWERED — G-OA-005
-    - OA-02-community          # UNANSWERED — G-OA-007
+    - OA-02-community          # PARTIAL — "why I went" answered in G-OA-006; day-3 texture still open in G-OA-007
     - OA-03-martial-arts       # UNANSWERED — G-OA-008
     - OA-04-south              # UNANSWERED — G-OA-009
+    - OA-05-the-practice       # NEW 2026-05-20 — the Buddhist body-practice in Jason's voice, G-OA-011
   conversations:
     - 2026-05-04-back-pass-session-2   # yoga/Reich/vritti thread; armor = uncalmed vritti
     - 2026-05-03-back-pass-session-2   # epilogue, heron thread, fabrication-integrity catch
     - 2026-05-10-wizard-book-architecture-map  # OA placement, capacity HOLD, Plotkin
+    - 2026-05-20-wizard-orgone-accumulator-drafted   # this chapter; Jason editorial pass (Reich/Foucault/the floor/practice)
 
 gestures:
   - G-OA-001
   - G-OA-002
+  - G-OA-002b
   - G-OA-003
   - G-OA-004
   - G-OA-005
@@ -205,7 +230,8 @@ gestures:
 
 separators:
   - paragraph   # 001 -> 002
-  - paragraph   # 002 -> 003
+  - paragraph   # 002 -> 002b
+  - paragraph   # 002b -> 003
   - section     # 003 -> 004
   - paragraph   # 004 -> 005
   - section     # 005 -> 006
