@@ -59,8 +59,25 @@ function propers(body) {
 }
 
 const PRONOUN_START = /^[*_]*(He|She|It|They|This|That|These|Those|Their|His|Her|Its|Them|Such|Here|There)\b/;
-const CONJ_START = /^[*_]*(And|But|So|Then|Yet|Because|Or|Nor|For|Still|Thus|Hence|Which)\b/;
+// Pivot conjunctions open a turn (anti-merge when B is short — they break a beat).
+const PIVOT_START = /^[*_]*(But|Yet|Still|And|So|Then|Now|Except|Instead|Nor)\b/;
+// Continuation conjunctions extend the same thought (mild pro-merge).
+const CONT_START = /^[*_]*(Because|Thus|Hence|Which|For|Therefore|Meaning|That is)\b/;
 const YEAR = /\b(1[89]\d\d|20\d\d)\b/g;
+
+// A "landing" is a short, self-contained rhetorical beat Jason set apart on
+// purpose (e.g. "That's the problem.", "The means are the ends. Every time.").
+// The split into gestures preserved these as their own units; merging them
+// buries the punch. We treat B as a landing when it is short in words AND
+// either very few sentences or ends on a hard stop with no continuation cue.
+function isLanding(body, wc) {
+  if (wc > 18) return false;            // too long to be a punch
+  const t = body.trim();
+  // A pronoun/continuation start means it leans on the prior gesture — that's
+  // continuation, not a standalone landing, so don't treat it as a landing.
+  if (PRONOUN_START.test(t) || CONT_START.test(t)) return false;
+  return true;
+}
 
 function firstWords(body, n) {
   return words(body).slice(0, n);
@@ -78,11 +95,24 @@ function scorePair(a, b) {
 
   const bWordCount = wordCount(b.body);
   const combined = wordCount(a.body) + bWordCount;
+  const bTrim = b.body.trim();
+  const bPivot = PIVOT_START.test(bTrim);
 
-  // ANTI: deliberate landing
+  // ANTI: deliberate landing. Hard punch (<=4w) is the strongest signal; a
+  // short standalone beat (<=18w, no continuation cue) is a softer one.
   if (bWordCount <= 4) {
     score -= 3;
     reasons.push(`-3 second is a ${bWordCount}-word landing (keep the punch)`);
+  } else if (isLanding(b.body, bWordCount)) {
+    score -= 2;
+    reasons.push(`-2 second is a ${bWordCount}-word standalone beat (likely a landing)`);
+  }
+
+  // ANTI: short pivot — B opens a turn (But/Now/And…) and is short enough to be
+  // a beat rather than a continuation. Welding it to A kills the pivot.
+  if (bPivot && bWordCount <= 30) {
+    score -= 2;
+    reasons.push(`-2 second is a short pivot/turn (opens "${firstWords(bTrim,1)[0]||""}…")`);
   }
 
   // PRO: shared proper noun
@@ -92,25 +122,26 @@ function scorePair(a, b) {
   }
 
   // PRO: anaphoric pronoun start with no new name
-  if (PRONOUN_START.test(b.body.trim()) && newInB.length === 0) {
+  if (PRONOUN_START.test(bTrim) && newInB.length === 0) {
     score += 2;
     reasons.push(`+2 anaphoric pronoun start, no new name`);
   }
 
-  // PRO: continuation conjunction
-  if (CONJ_START.test(b.body.trim())) {
+  // PRO: continuation conjunction (extends the thought, not a pivot)
+  if (CONT_START.test(bTrim)) {
     score += 1;
     reasons.push(`+1 continuation-conjunction start`);
   }
 
-  // PRO: short combined arc
-  if (combined <= 140 && bWordCount > 4) {
+  // PRO: short combined arc — but only when B isn't itself a beat/pivot.
+  if (combined <= 140 && bWordCount > 4 && !isLanding(b.body, bWordCount) && !(bPivot && bWordCount <= 30)) {
     score += 1;
     reasons.push(`+1 combined ${combined}w (arc-sized)`);
   }
 
-  // PRO: second has no proper noun of its own
-  if (pb.length === 0 && bWordCount > 4) {
+  // PRO: second has no proper noun of its own — leans on antecedent. Suppress
+  // when B is a landing/pivot (a punch with no proper noun isn't a continuation).
+  if (pb.length === 0 && bWordCount > 4 && !isLanding(b.body, bWordCount) && !(bPivot && bWordCount <= 30)) {
     score += 1;
     reasons.push(`+1 second has no proper noun (leans on antecedent)`);
   }

@@ -43,11 +43,23 @@ function argVal(flag) {
 }
 
 const map = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "analysis", "merge-map.json"), "utf8"));
+const sharedOnly = args.includes("--shared-only");
+
+// Protected plateaus: chapters that have had an authorial pass. Their gesture
+// boundaries are deliberate (P-04 is the worked example and our validation
+// reference — its adjacencies are intentional, not first-pass artifacts).
+// Never auto-merge these regardless of band/score.
+const PROTECTED = new Set(["P-04"]);
+
 let pairs = map.pairs.filter(p => p.band === band);
+if (sharedOnly) {
+  pairs = pairs.filter(p => p.score === 2 && p.reasons.some(r => r.includes("shared:")));
+}
+pairs = pairs.filter(p => !PROTECTED.has(p.plateau));
 if (onlyPlateau) pairs = pairs.filter(p => p.plateau === onlyPlateau);
 
 if (pairs.length === 0) {
-  console.log(`No ${band} pairs${onlyPlateau ? " in " + onlyPlateau : ""} to apply.`);
+  console.log(`No ${band}${sharedOnly ? " shared-only" : ""} pairs${onlyPlateau ? " in " + onlyPlateau : ""} to apply.`);
   process.exit(0);
 }
 
