@@ -26,8 +26,8 @@ I was picked on as a kid for being mixed-race and too femme for a boy. I didn't 
 
 I trained there for ten years. And I'm still learning new things from my training. It sounds like a kung fu film, but my Sensei still teaches me through flashbacks 30 years later. 
 
-I can't tell you what the ultimate truth is. What I can tell you is that the most important aspect of discipline is the 
+I can't tell you what the ultimate truth is. What I can tell you is that discipline
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMwNzAwMjgsLTE3NzQ4MzY2NzksOD
-IwOTU3NDUwLC03NTQ3OTY3NTYsMTM2OTIxMjE1OF19
+eyJoaXN0b3J5IjpbNzE1MjAwNzUwLC0xNzc0ODM2Njc5LDgyMD
+k1NzQ1MCwtNzU0Nzk2NzU2LDEzNjkyMTIxNThdfQ==
 -->
