@@ -18,7 +18,7 @@
 > 
 > And: what broke it? Or is it still breaking?
 
-Well, I live in the South again, hopefully not for much longer. I see it every day. If _kokoro_ is the indomitable spirit, the posture of the South is the posture of the dominated spirit. The puffed up chest that becomes a hunched back. The swagger that becomes bad knees. The frozen mask on anyone who isn't a white m
+Well, I live in the South again, hopefully not for much longer. I see it every day. If _kokoro_ is the indomitable spirit, the posture of the South is the posture of the dominated spirit. The puffed up chest that becomes a hunched back. The swagger that becomes bad knees. The Tucker Carlson face - a mixture of rage and confusion whose purpose is to perpetuate itself by blocking out any possibility of its being resolved because it benefits the bearer fo The frozen mask on anyone who isn't an affluent white male - even when the mask smiles and laughs, even when it performs concern or caring. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDM5OTYyMyw5ODY2MjQ0MThdfQ==
+eyJoaXN0b3J5IjpbOTI1MTU3MTQ5LDk4NjYyNDQxOF19
 -->
