@@ -21,7 +21,9 @@
 > ---
 
 One of the traditions that protected me was an Okinawan martial art, Kyokushin. It translates as "ultimate truth", which sounds grandiose until you realize that it's a reminder and not a self description. It instructs the student what to seek without claiming to have found it. 
+
+I was picked on as a kid for loopk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ4MzY2NzksODIwOTU3NDUwLC03NT
-Q3OTY3NTYsMTM2OTIxMjE1OF19
+eyJoaXN0b3J5IjpbLTE0Njk4ODk1NzEsLTE3NzQ4MzY2NzksOD
+IwOTU3NDUwLC03NTQ3OTY3NTYsMTM2OTIxMjE1OF19
 -->
