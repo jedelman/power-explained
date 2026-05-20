@@ -1,51 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro'
 import Doors from '../../components/Doors.astro'
-import { readFileSync, readdirSync, existsSync } from 'fs'
-import { resolve, join } from 'path'
-import yaml from 'js-yaml'
+import { resolve } from 'path'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
 
-// === Read chapter frontmatter and the gesture manifest ===
-const chapterPath = resolve('src/content/book/chapter-4.md')
-const raw = readFileSync(chapterPath, 'utf8')
-const fmEnd = raw.indexOf('\n---\n', 4)
-const fm = yaml.load(raw.slice(4, fmEnd)) ?? {}
-const trailingBody = raw.slice(fmEnd + 5).trim()  // framing prose if any
-
-const gestureIds = Array.isArray(fm.gestures) ? fm.gestures : []
-const separators = Array.isArray(fm.separators) ? fm.separators : []
-
-// === Read each gesture's body and concatenate per separators ===
-function readGestureBody(plateauId, gestureId) {
-  const dir = resolve('src/content/gestures', plateauId)
-  if (!existsSync(dir)) throw new Error(`Missing gesture dir: ${dir}`)
-  const num = gestureId.split('-').pop()
-  const files = readdirSync(dir)
-  const match = files.find(f => f.startsWith(num + '-'))
-  if (!match) throw new Error(`Gesture not found: ${gestureId}`)
-  const text = readFileSync(join(dir, match), 'utf8')
-  const e = text.indexOf('\n---\n', 4)
-  return text.slice(e + 5).replace(/^\n+/, '').replace(/\n+$/, '')
-}
-
-let body
-if (gestureIds.length > 0) {
-  // Plateau composed from gestures
-  const plateauId = 'P-' + gestureIds[0].split('-')[1]
-  const parts = []
-  gestureIds.forEach((gid, i) => {
-    parts.push(readGestureBody(plateauId, gid))
-    if (i < gestureIds.length - 1) {
-      const sep = separators[i] ?? 'paragraph'
-      parts.push(sep === 'section' ? '\n\n---\n\n' : '\n\n')
-    }
-  })
-  body = parts.join('')
-  if (trailingBody) body += '\n\n' + trailingBody
-} else {
-  // Legacy: body inline (chapters not yet refactored to gestures)
-  body = trailingBody
-}
+// Body is composed from the gesture manifest declared in chapter-4.md.
+// Single source of truth for composition logic: src/lib/composePlateauBody.mjs.
+// Legacy chapters (no gestures: list) fall through to their inline body.
+const body = composePlateauBody(resolve('src/content/book/chapter-4.md'))
 
 function md(text) {
   return text
