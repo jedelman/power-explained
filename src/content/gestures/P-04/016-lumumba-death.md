@@ -3,19 +3,30 @@ id: G-04-016
 plateau: P-04
 title: "Lumumba Death"
 slug: lumumba-death
-kind: scene
-voice: jason
-status: draft
-capacities:
-  - BUILD
+
+tags:
+  - plateau/P-04
+  - voice/jason
+  - kind/scene
+  - capacity/hold
+  - status/draft
+  - place/jackson-ms
+  - person/lumumba-chokwe
+  - person/lumumba-chokwe-antar
+  - year/2013
+  - year/2014
+  - zone/clearings
+  - direction/nw
+
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
+
 # claims: []        # add when fact-checked at gesture resolution
 # references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints (chapter manifest is authoritative)
+# neighbors:        # default linear order hints
 #   default_prev: G-04-NNN
 #   default_next: G-04-NNN
 notes: |

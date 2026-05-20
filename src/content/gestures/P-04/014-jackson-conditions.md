@@ -3,19 +3,30 @@ id: G-04-014
 plateau: P-04
 title: "Jackson Conditions"
 slug: jackson-conditions
-kind: scene
-voice: jason
-status: draft
-capacities:
-  - BUILD
+
+tags:
+  - plateau/P-04
+  - voice/jason
+  - kind/scene
+  - capacity/read
+  - status/draft
+  - place/jackson-ms
+  - place/mississippi
+  - concept/racial-capitalism
+  - concept/enclosure
+  - year/2023
+  - zone/clearings
+  - direction/s
+
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
+
 # claims: []        # add when fact-checked at gesture resolution
 # references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints (chapter manifest is authoritative)
+# neighbors:        # default linear order hints
 #   default_prev: G-04-NNN
 #   default_next: G-04-NNN
 notes: |

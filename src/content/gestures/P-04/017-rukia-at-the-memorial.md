@@ -3,19 +3,32 @@ id: G-04-017
 plateau: P-04
 title: "Rukia at the Memorial"
 slug: rukia-at-the-memorial
-kind: scene
-voice: jason
-status: draft
-capacities:
-  - HOLD
+
+tags:
+  - plateau/P-04
+  - voice/rukia-lumumba
+  - voice/jason
+  - kind/scene
+  - kind/landing
+  - capacity/hold
+  - status/draft
+  - place/jackson-ms
+  - person/lumumba-rukia
+  - person/lumumba-chokwe
+  - person/lumumba-chokwe-antar
+  - year/2014
+  - zone/clearings
+  - direction/nw
+
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
+
 # claims: []        # add when fact-checked at gesture resolution
 # references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints (chapter manifest is authoritative)
+# neighbors:        # default linear order hints
 #   default_prev: G-04-NNN
 #   default_next: G-04-NNN
 notes: |

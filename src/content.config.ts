@@ -144,60 +144,46 @@ const book = defineCollection({
 // A gesture is the smallest unit that is (a) authorially indivisible within
 // its native plateau AND (b) liftable into another manifest without dragging
 // non-gesture context with it. See for-agents/gestures-architecture.md.
-
-const GESTURE_KIND = z.enum([
-  'scene',     // continuous narrated event
-  'argument',  // structural claim
-  'landing',   // single-sentence gesture that lands
-  'litany',    // rhetorical cascade
-  'turn',      // confessional or perspectival shift
-  'naming',    // names what something is
-  'recovery',  // recovers something dormant
-  'aside',     // interjection, often voice-shifted
-  'prose',     // catch-all for unmarked moves (use sparingly)
-])
-
-const VOICE = z.enum([
-  'jason',
-  'coyote',
-  'nasruddin',
-  'kropotkin',
-  'castaneda',
-  'narrator',
-])
+//
+// Tag-based classification: kind, voice, capacity, status, place, person,
+// concept, year, zone, direction live in a single `tags:` list under the
+// `<namespace>/<term>` convention. The authoritative ontology with
+// cardinality and openness rules is for-agents/tag-ontology.yml; soft
+// validation runs via scripts/lint-tags.mjs (`npm run lint:tags`).
+//
+// Identity and structured-content fields remain typed.
 
 const gestures = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/gestures' }),
+  loader: glob({ pattern: 'P-*/*.md', base: './src/content/gestures' }),
   schema: z.object({
+    // === identity ===
     id:      z.string(),                 // e.g. "G-04-007"
     plateau: z.string(),                 // e.g. "P-04" — home plateau
     title:   z.string(),                 // authorial label; never rendered
     slug:    z.string(),
 
-    kind:    GESTURE_KIND,
-    voice:   VOICE,
-    status:  z.enum(['draft', 'beauty-pending', 'passed']),
+    // === classification via tag ontology ===
+    // Format: "<namespace>/<term>". Ontology and lint at
+    // for-agents/tag-ontology.yml and scripts/lint-tags.mjs.
+    tags: z.array(z.string()).default([]),
 
-    capacities: z.array(z.enum([
-      'NAME', 'READ', 'BUILD', 'HOLD', 'ENTER', 'CONTINUE'
-    ])).default([]),
-
+    // === beauty / offering check ===
     beauty_check: z.object({
       passed: z.boolean(),
       notes:  z.string().optional(),
     }).optional(),
 
-    // Per-gesture claims for fact-checking
+    // === per-gesture claims for fact-checking ===
     claims: z.array(z.object({
       text:     z.string(),
       citation: z.string().optional(),
-      verified: z.string().optional(),   // ISO date or note
+      verified: z.string().optional(),
     })).default([]),
 
-    // Other gesture IDs this gesture references (for the cross-book graph)
+    // === other gesture IDs this gesture references ===
     references: z.array(z.string()).default([]),
 
-    // Optional default-order hints; the chapter manifest is authoritative
+    // === default linear order hints (chapter manifest is authoritative) ===
     neighbors: z.object({
       default_prev: z.string().optional(),
       default_next: z.string().optional(),

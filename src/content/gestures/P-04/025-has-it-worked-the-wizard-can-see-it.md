@@ -3,20 +3,31 @@ id: G-04-025
 plateau: P-04
 title: "Has It Worked the Wizard Can See It"
 slug: has-it-worked-the-wizard-can-see-it
-kind: argument
-voice: jason
-status: draft
-capacities:
-  - READ
-  - BUILD
+
+tags:
+  - plateau/P-04
+  - voice/jason
+  - kind/argument
+  - kind/landing
+  - kind/litany
+  - capacity/read
+  - capacity/build
+  - capacity/enter
+  - status/draft
+  - person/ostrom-elinor
+  - concept/commons
+  - zone/clearings
+  - direction/n
+
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
+
 # claims: []        # add when fact-checked at gesture resolution
 # references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints (chapter manifest is authoritative)
+# neighbors:        # default linear order hints
 #   default_prev: G-04-NNN
 #   default_next: G-04-NNN
 notes: |

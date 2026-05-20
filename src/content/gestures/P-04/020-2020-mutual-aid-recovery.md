@@ -3,20 +3,36 @@ id: G-04-020
 plateau: P-04
 title: "2020 Mutual Aid Recovery"
 slug: 2020-mutual-aid-recovery
-kind: recovery
-voice: jason
-status: draft
-capacities:
-  - NAME
-  - BUILD
+
+tags:
+  - plateau/P-04
+  - voice/jason
+  - kind/recovery
+  - kind/naming
+  - capacity/name
+  - capacity/build
+  - status/draft
+  - place/crown-heights
+  - place/brooklyn
+  - place/new-york
+  - concept/auzolan
+  - concept/andecha
+  - concept/bayanihan
+  - concept/minga
+  - concept/mutual-aid
+  - year/2020
+  - zone/clearings
+  - direction/n
+
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
+
 # claims: []        # add when fact-checked at gesture resolution
 # references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints (chapter manifest is authoritative)
+# neighbors:        # default linear order hints
 #   default_prev: G-04-NNN
 #   default_next: G-04-NNN
 notes: |

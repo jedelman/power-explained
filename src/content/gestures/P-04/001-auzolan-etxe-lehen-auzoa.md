@@ -3,20 +3,32 @@ id: G-04-001
 plateau: P-04
 title: "Auzolan Etxe Lehen Auzoa"
 slug: auzolan-etxe-lehen-auzoa
-kind: recovery
-voice: jason
-status: draft
-capacities:
-  - NAME
-  - BUILD
+
+tags:
+  - plateau/P-04
+  - voice/jason
+  - kind/recovery
+  - kind/naming
+  - capacity/name
+  - capacity/build
+  - status/draft
+  - place/basque-country
+  - concept/auzolan
+  - concept/etxe
+  - concept/lehen-auzoa
+  - concept/mutual-aid
+  - zone/clearings
+  - direction/ne
+
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
+
 # claims: []        # add when fact-checked at gesture resolution
 # references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints (chapter manifest is authoritative)
+# neighbors:        # default linear order hints
 #   default_prev: G-04-NNN
 #   default_next: G-04-NNN
 notes: |
