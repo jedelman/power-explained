@@ -1,0 +1,15 @@
+---
+id: G-06-042
+plateau: P-06
+title: Robinson and Rodney are making different
+slug: robinson-and-rodney-are-making-different
+tags:
+  - plateau/P-06
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+Robinson and Rodney are making different arguments. Robinson analyzes the racial structure internal to capitalism — how race makes exploitation legible as non-exploitation, how the wages of whiteness fragment working-class solidarity. Rodney analyzes what capitalism produces in the outside — how underdevelopment is engineered, how the machinery persists through changing forms.

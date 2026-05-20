@@ -39,8 +39,8 @@ function main() {
     const chapterPath = path.join(REPO_ROOT, "src", "content", "book", slug + ".md");
     const compiled = composePlateauBody(chapterPath, REPO_ROOT);
     const snapBody = snapshotBody(snapshot);
-    const a = compiled.replace(/\n+$/, "") + "\n";
-    const b = snapBody.replace(/\n+$/, "") + "\n";
+    const a = compiled.replace(/^\n+/, "").replace(/\n+$/, "") + "\n";
+    const b = snapBody.replace(/^\n+/, "").replace(/\n+$/, "") + "\n";
     if (a === b) {
       console.log(`OK ${slug}: ${a.length} bytes match snapshot`);
       process.exit(0);

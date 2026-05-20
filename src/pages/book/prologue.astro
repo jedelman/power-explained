@@ -1,11 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro'
-import { readFileSync } from 'fs'
 import { resolve } from 'path'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
 
 // Parse the prologue markdown manually — it's not in the content collection
-const raw = readFileSync(resolve('src/content/book/prologue.md'), 'utf8')
-const body = raw.split('---\n').slice(2).join('---\n').trim()
+const body = composePlateauBody(resolve('src/content/book/prologue.md'))
 
 // Basic markdown → html for the prologue
 function md(text) {

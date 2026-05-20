@@ -1,115 +1,106 @@
 ---
 slug: chapter-3
-title: "Chapter 3: The Cook"
-description: "In the northern Philippines, a governance structure writes feeding each other into law. In Norfolk, Virginia, a Filipino cook is running the same practice a thousand years later. Everything in between is the explanation of why that distance feels so vast."
-h1: "The Cook"
-part: "Part II: The Proof"
+title: 'Chapter 3: The Cook'
+description: >-
+  In the northern Philippines, a governance structure writes feeding each other into law. In
+  Norfolk, Virginia, a Filipino cook is running the same practice a thousand years later. Everything
+  in between is the explanation of why that distance feels so vast.
+h1: The Cook
+part: 'Part II: The Proof'
+plateau:
+  id: P-03
+  status: draft
+gestures:
+  - G-03-001
+  - G-03-002
+  - G-03-003
+  - G-03-004
+  - G-03-005
+  - G-03-006
+  - G-03-007
+  - G-03-008
+  - G-03-009
+  - G-03-010
+  - G-03-011
+  - G-03-012
+  - G-03-013
+  - G-03-014
+  - G-03-015
+  - G-03-016
+  - G-03-017
+  - G-03-018
+  - G-03-019
+  - G-03-020
+  - G-03-021
+  - G-03-022
+  - G-03-023
+  - G-03-024
+  - G-03-025
+  - G-03-026
+  - G-03-027
+  - G-03-028
+  - G-03-029
+  - G-03-030
+  - G-03-031
+  - G-03-032
+  - G-03-033
+  - G-03-034
+  - G-03-035
+  - G-03-036
+  - G-03-037
+  - G-03-038
+  - G-03-039
+  - G-03-040
+  - G-03-041
+  - G-03-042
+  - G-03-043
+  - G-03-044
+  - G-03-045
+  - G-03-046
+separators:
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
 ---
-
-In the Ilocos region of the northern Philippines, the typhoons come every year.
-
-They come from the Pacific, tracking west across the warm water, and when they make landfall they bring winds and rain that overwhelm everything built to resist them. The rivers flood. The bamboo-and-stone dams that the farming cooperatives called *zanjera* have built across the swift-flowing rivers — teepee-shaped structures called *palomares*, weighted with heavy stones, held against the current by lines of bamboo — wash out. Every year. The typhoon comes, and the dam goes, and in the morning there is no water for the fields.
-
-And in the morning, the community gathers to rebuild it.
-
-Everyone with a share in the water — an *atar* share, which determines both your water allocation and your labor obligation — is required to show up. The rebuilding takes days. It is heavy communal labor: cutting bamboo, hauling stone, placing the structure against the current, checking the lines. During the reconstruction, a designated officer prepares meals for everyone working.
-
-The officer's title is *cocinero*. The cook.
-
-The cook is not an informal arrangement. The cook is written into the governance structure of the *zanjera* — into the same documents that specify water allocation, labor obligation, dispute resolution, and the election of officers. The community does not feed each other while rebuilding the dam because someone thought it would be nice. It feeds each other because the governance structure requires it. Because the people who built these institutions understood, across the generations, that the work of rebuilding is not separable from the relationship that makes rebuilding possible — and that relationship requires being fed.
-
-This has been running, in this form, since the Spanish colonial period. Possibly longer.
-
----
-
-You know this is right.
-
-Not as an argument — as a feeling. Something in you recognizes this. The typhoon, the community, the bamboo, the cook. The governance structure that writes feeding into the law. You don't need a theory to know that this is how human beings are supposed to organize themselves. You have been in rooms where it was approximated — a neighborhood cleanup that turned into lunch, a block party that turned into knowing your neighbors' names, a community garden where the rules about watering were unwritten but everyone followed them — and you have felt, in those rooms, something that most of your ordinary life does not produce.
-
-So why does it feel so far away?
-
-Why does the *zanjera* feel like it belongs to another world — ancient, tropical, prelapsarian — rather than like a description of something you could build, or rebuild, or participate in next Tuesday? Why does the cook written into the governance structure feel like folklore rather than policy?
-
-Because someone told you it was impossible. And they told you with graphs.
-
----
-
-In 1968, a professor of human ecology at the University of California, Santa Barbara published a paper in *Science* called "The Tragedy of the Commons." It is one of the most cited papers in the history of environmental and economic policy. It is taught, still, in introductory economics and environmental studies courses as established fact.
-
-It described a situation that does not exist.
-
-You should know what kind of man Garrett Hardin was, because it explains something about why the paper was received as it was. Hardin was a eugenicist and a white nationalist. His membership in the American Eugenics Society began in 1956 — eleven years before the paper that made him famous — and he served as a director of that organization into the 1970s. He co-founded anti-immigrant organizations, sat on the boards of nativist population control groups, and wrote essays arguing that the rich nations of the world should respond to famine in the Global South the way you respond to a lifeboat near capacity: throw people overboard. He called that "lifeboat ethics." The subtitle [FLAG: "The subtitle his editor added" — the full published title of the 1974 Psychology Today article is "Lifeboat Ethics: The Case Against Helping the Poor"; the claim that the subtitle was added by an editor over Hardin's objection is unverified | verify with primary source or editorial record] of the *Psychology Today* piece was "The Case Against Helping the Poor." Hardin objected to the subtitle. Not to the argument.
-
-His paper about the commons was not a deviation from this worldview. It was the scientific formalization of a prior conviction: that poor communities, non-white communities, communities outside the institutions of the Western liberal state, are fundamentally incapable of governing themselves and their resources.
-
-The argument runs like this: imagine a pasture open to all. Each herder benefits fully from adding one more animal. The cost of overgrazing is shared. So each herder, acting rationally, adds animals until the pasture is destroyed. The commons cannot govern itself. Privatize or control.
-
-He was not describing any actual commons that had ever existed. He was describing what a commons would look like if you removed everything that makes a commons a commons — the communication, the shared norms, the history of relationship, the governance structure, the cook. He described a collection of anonymous strangers with no connection to each other or to the land, and concluded that this situation, which he called "the commons," was inherently unstable.
-
-He had never visited Ilocos. He had never spoken to a *zanjero*.
-
----
-
-Elinor Ostrom wanted to do a PhD in economics. The department at UCLA rejected her because she hadn't taken trigonometry in high school. The political science department gave her a chance. It turned out to be the right discipline for what she was actually trying to understand — which was not how markets optimize resource allocation in theory, but how human communities governed shared resources in practice.
-
-She and her husband Vincent moved to Indiana University in 1965 [FLAG: They moved to IU in 1965 but formally founded the Workshop in Political Theory and Policy Analysis in 1973 — eight years later; the phrasing implies they founded it upon arriving | consider clarifying the founding date], where they founded something they deliberately called a *workshop* — the Workshop in Political Theory and Policy Analysis — because they wanted to emphasize science as practice, knowledge built from cases rather than derived from axioms. The cases accumulated across decades. Irrigation systems in Spain and the Philippines. Mountain villages in Switzerland and Japan. Fisheries in Maine and Turkey and Indonesia. Groundwater basins in California. She interviewed lobstermen herself, quizzing them about the informal rules that governed their fishery — rules with no legal standing that every lobsterman understood and followed. She used satellite imagery to observe how different management regimes affected forests from above. She played irrigation allocation games with her students and found that when they were allowed to discuss strategy before playing, their collective outcomes more than doubled.
-
-Every Thursday at noon, she would have recognized what happens outside the Door of the Apostles at Valencia Cathedral. Eight men in the loose black blouses of Valencian farmers sit in a semicircle on seventeenth-century wooden chairs, set out on the cobblestones of the plaza. The Micalet tower strikes noon. A bailiff calls for cases. The Tribunal de las Aguas — the Water Tribunal of Valencia — convenes.
-
-It has been convening, in this form, in this place, since at least the tenth century. Its origins are Moorish. When James I of Aragon conquered Valencia in the thirteenth century, he formalized the tribunal rather than replacing it, because it worked. Every political regime since has left it in place, for the same reason. The tribunal governs the distribution of water from the Turia River among eight irrigation channels serving 17,000 hectares of farmland. It has no written legal code. Its proceedings are in Valencian. Its fines are assessed in *lluires*, a currency that has not existed since the medieval period. It has never needed the formal Spanish legal system to enforce a decision, because its authority is grounded not in state power but in the recognition of its members as people who know the water, the land, the community, and can be trusted to judge fairly.
-
-Ostrom would have recognized the cook.
-
-From hundreds of cases like these, she distilled eight design principles — not prescriptions, but findings. What the sustainable commons actually share, absent from the ones that failed. Clearly defined boundaries. Rules that fit local conditions rather than imported from outside. Collective choice — the people affected by the rules help make them. Monitoring by people accountable to the community. Graduated sanctions. Fast, local conflict resolution. Recognition by external authorities of the community's right to self-govern. And for larger systems, nested layers of governance coordinating upward from the local.
-
-In 2009, Elinor Ostrom became the first woman to win the Nobel Prize in Economics. She accepted it on behalf of every *zanjero* who ever rebuilt a dam, every syndic who ever convened in a sunlit plaza, every lobsterman who ever explained the unwritten rules of his fishery to a political scientist from Indiana who was actually paying attention.
-
----
-
-So if Hardin is wrong — comprehensively, empirically, repeatedly wrong — why is he still in the textbooks? Why were the collectively managed grazing lands of East Africa still being broken up and transferred to timber companies decades after Ostrom had demonstrated that communities were governing them sustainably? Why are fishing communities still being told that privatization is the only alternative to collapse?
-
-Because the paper was not received the way it was received because it was true. It was received that way because it was useful. The 1970s and 1980s were the period of greatest global expansion of privatization and enclosure — of fisheries, of forests, of water rights, of commonly held land on every continent. Hardin's paper provided the intellectual cover. If the commons inevitably self-destructs, then enclosure is not an imposition. It is a rescue.
-
-Gramsci called this *hegemony*: the process by which the ideas of the powerful become the common sense of everyone. Not through force — force is expensive and visible — but through the slow sedimentation of assumptions into the background, until the arrangements that serve the powerful feel like nature, like gravity, like the way things simply are. Hardin's paper is hegemony with footnotes. It took the prior conviction — that poor communities cannot govern themselves — dressed it in equations, published it in *Science*, and let it sediment into curriculum.
-
-By the time Ostrom was winning the Nobel Prize, the damage had been done on five continents.
-
----
-
-I didn't have the language for this when I was running the restaurant in Norfolk.
-
-I had the fragments. A bootleg PDF of *Simulacra and Simulation* in high school because I saw it in a film. A bootleg HTML of *A Thousand Plateaus* on my breaks at a software job, absorbing the form before the argument. I knew in my body — the way you know things you can't yet say — that something was being produced in that room that didn't show up in the numbers.
-
-The commons was the room: the accumulated capacity of that particular space and those particular people to produce something that couldn't be produced alone. The trust between regulars and staff built over years. The knowledge of what people needed before they asked. The wine described in terms of the soil and the watershed and the farmer who had decided to make it honestly, planting a different relationship to the living world in whoever was willing to receive it. A place where people could just be, and that would give them space to become.
-
-That is what we lost when we closed.
-
----
-
-Michel Foucault, working in Paris in the 1970s, identified something Gramsci had named but not fully anatomized. Power, he argued, had undergone a transformation. Classical sovereign power — the power of the king — was the right to take life or let live. Modern power is something different. It doesn't primarily kill; it administers. It manages populations, regulates bodies, optimizes life for productivity. The prison, the hospital, the school, the factory: not just places where bodies are controlled but where the definition of normal and deviant, productive and useless, is manufactured and maintained.
-
-Antonio Negri built the answer to Foucault's unfinished question over decades of writing and teaching, imprisoned in Italy on almost certainly fabricated charges [FLAG: Negri was arrested in 1979 and eventually fled to France in 1983; he returned voluntarily to Italy in 1997 to serve his sentence | verify the specific charges and their status], writing *Empire* [CORRECTION: writing *Empire* partly behind bars → *Empire* was written in the mid-1990s while Negri was in exile in France, not in prison; his earlier work *The Savage Anomaly* (1981) was written in prison] in exile in France — though his earlier prison writings were made in the same prison system that had once held Gramsci [FLAG: Negri was held at Rebibbia prison in Rome; Gramsci was also held at various Italian prisons including Turi and processed through Rome | confirm Rebibbia specifically as the shared institution]. He died in Paris in December 2023, at ninety.
-
-What Negri and Hardt built across *Empire*, *Multitude*, and *Commonwealth*: if biopower is power operating through life, then *biopolitical production* is what capital now primarily depends on. Not the extraction of value from raw materials or repetitive factory labor, but from life itself — from language, from affect, from care, from knowledge, from the accumulated capacity of human beings to cooperate, communicate, and create. The call center worker selling warmth. The nurse managing pain and fear. The teacher producing the capacity to learn. The neighborhood whose longtime residents make it desirable enough for developers to gentrify. None of this produces a material good you can hold. All of it produces value that capital captures.
-
-And what is the substrate of all this production?
-
-The *common*. Language — no one produced it, everyone uses it, it becomes richer the more it is shared. Affect — the capacity to care, to trust, to recognize each other as belonging to the same world. Knowledge embedded in practice, in community, in the way people in a place know how to do things together. The social fabric that makes a neighborhood function, that makes a market possible, that makes collective action coherent.
-
-Capital didn't produce the common. It cannot produce the common. What capital can do — what it has always done — is enclose it.
-
-The Valencia tribunal isn't only governing the Turia River. It is governing the accumulated relational intelligence of a community — the knowledge of the water, the trust between farmers, the norms built across ten centuries — that makes the river economically useful at all. The *zanjera* isn't only governing water allocation. It is governing the social fabric that makes collective rebuilding possible. These are biopolitical commons. The resource is real. But the resource isn't only the water.
-
-Ostrom was in Indiana counting cases. Negri was in Paris completing Foucault. Neither knew the other existed. Both arrived, from opposite directions, at the same answer: the commons is prior to the market and prior to the state. It is what we are before either claims us. Enclosure doesn't create value. It captures value that communities have already produced, and then charges them to access what they made.
-
----
-
-There is a *cocinero* in Ilocos who feeds his community while they rebuild what the storm destroyed. The governance structure that employs him has been running for centuries. There is a Filipino cook in Norfolk who ran a restaurant where the bar was nature education and the wine list was a political argument, and who is now writing a book about why what he was doing mattered and what destroyed it.
-
-Same practice. Same commons. Different typhoon.
-
----
-
-My Bluesky handle is 'Read Hardt and Negri.' I put it there because I believe it. Once you have the name, you can see it everywhere — in the neighborhood whose social fabric makes it valuable to developers who price out the people who built the value, in the open-source project whose contributors produce wealth a platform captures and monetizes, in the care work that sustains every economy on earth and appears in no GDP.
-
-The commons isn't only where you go to get water. It's what you already are. What enclosure takes isn't just a resource. It's a piece of the world you built.

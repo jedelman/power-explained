@@ -1,95 +1,92 @@
 ---
 slug: chapter-11
-title: "Chapter 11: The Circle in the Blizzard"
-description: "The tradition that understood what the party men didn't: you cannot build horizontal power with vertical tools. Kropotkin, Graeber, Bookchin — and what it looks like when you build the new world inside the old one, block by block."
-h1: "The Circle in the Blizzard"
-part: "Part IV: Why the Obvious Fixes Failed"
+title: 'Chapter 11: The Circle in the Blizzard'
+description: >-
+  The tradition that understood what the party men didn't: you cannot build horizontal power with
+  vertical tools. Kropotkin, Graeber, Bookchin — and what it looks like when you build the new world
+  inside the old one, block by block.
+h1: The Circle in the Blizzard
+part: 'Part IV: Why the Obvious Fixes Failed'
+plateau:
+  id: P-11
+  status: draft
+gestures:
+  - G-11-001
+  - G-11-002
+  - G-11-003
+  - G-11-004
+  - G-11-005
+  - G-11-006
+  - G-11-007
+  - G-11-008
+  - G-11-009
+  - G-11-010
+  - G-11-011
+  - G-11-012
+  - G-11-013
+  - G-11-014
+  - G-11-015
+  - G-11-016
+  - G-11-017
+  - G-11-018
+  - G-11-019
+  - G-11-020
+  - G-11-021
+  - G-11-022
+  - G-11-023
+  - G-11-024
+  - G-11-025
+  - G-11-026
+  - G-11-027
+  - G-11-028
+  - G-11-029
+  - G-11-030
+  - G-11-031
+  - G-11-032
+  - G-11-033
+  - G-11-034
+  - G-11-035
+  - G-11-036
+  - G-11-037
+  - G-11-038
+  - G-11-039
+separators:
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
 ---
-
-There is a street in Barcelona — there are dozens of them now — where the pavement has been removed.
-
-Not cracked, not potholed, not worn away. Deliberately removed. The asphalt taken up, the ground beneath it returned to something closer to earth: trees, benches, planters, space for people to sit and talk and let their children run. What was a car lane is now a plaza. What was through-traffic is now a neighborhood.
-
-The city calls them superblocks. But on the streets themselves, something happened that the planners had predicted and still found surprising: the moment the cars were slowed, the moment the pavement was lifted and something was planted, the neighborhood changed. People stopped. People talked. The street became a commons before anyone had finished debating whether it should be.
-
-This is what the means-are-the-ends insight looks like in concrete and soil. You don't build the commons after you've settled the political question. You build it, and the building settles the question — in the bodies and habits and common sense of the people who start using it, who start governing it, who start defending it when someone proposes to take it back.
-
----
-
-Peter Kropotkin was a prince who became a geographer who became an anarchist, and the path is not as strange as it sounds.
-
-He was born in Moscow in 1842, from one of the oldest families in Russia — the Kropotkins were descended from the Rurik dynasty, the original princes of Rus. He was educated at the Corps of Pages, the most elite military school in the empire, was appointed personal page to Tsar Alexander II, and could have had any career the Russian aristocracy offered. He chose instead to go to Siberia.
-
-He spent five years in the 1860s doing field research across Siberia and Manchuria — mapping glaciers, studying the geology of the region, observing animal populations in one of the harshest environments on earth. What he found contradicted everything the dominant theory was saying about nature.
-
-Thomas Henry Huxley had argued that nature was a "gladiatorial show" of mutual slaughter, that evolution rewarded the strong and eliminated the weak. [FLAG: Huxley's 1888 essay "The Struggle for Existence and Its Bearing Upon Man" did describe nature as gladiatorial and was Kropotkin's direct target. However, Huxley's later "Evolution and Ethics" (1893) explicitly repudiated Social Darwinism, arguing ethical society must combat nature's logic rather than imitate it. The text implies Huxley endorsed Social Darwinism; he did not. Verify whether the chapter intends a Kropotkin-POV reading or a neutral historical account.] This story was immediately adopted by everyone who needed it: industrialists whose accumulation became nature's verdict, colonial powers whose domination became biological necessity. The entire ideology now called Social Darwinism.
-
-Kropotkin read Huxley from Siberia and found it inaccurate. Competition doesn't explain the patterns he observed. Cooperation does. The most successful species — the ones that survived the brutal Siberian winters — were not the most competitive. They were the most cooperative. Mutual aid was not the exception to the evolutionary record. It was the dominant strategy.
-
-He spent the next twenty years building the evidence: insects, birds, mammals, human societies across every continent and historical period — the same pattern everywhere. Communities that developed mutual aid survived. Communities that didn't, didn't. The guilds of medieval Europe, self-governing and self-supporting for centuries. The village communes of Russia, managing shared land through collective governance without state or market. The rotating credit associations that immigrant communities built wherever they arrived, providing capital entirely outside the banking system. In one of the book's most striking passages, he describes Siberian horses during a blizzard: when the temperature drops past what they can survive alone, they form a tight circle, heads inward, taking turns at the exposed outer edge. No hierarchy. No leader. A distributed solution to a collective problem, arrived at without deliberation. It works because it has to.
-
-*Mutual Aid: A Factor of Evolution*, published in 1902, drew the conclusion the dominant theory had organized itself to prevent: the claim that hierarchy is natural, that competition is the deepest human drive, that the strong must govern the weak is not science. It is the ideology of a specific arrangement, naturalizing itself. And if mutual aid is the evolutionary baseline — if communities build it whenever conditions allow — then enclosing the commons isn't correcting a failure. It's foreclosing a working alternative, because a working alternative is exactly what the enclosure can't afford to leave standing.
-
-The commons wasn't enclosed because it failed. It was enclosed because it worked.
-
----
-
-David Graeber understood this in his bones because it had happened to him.
-
-He showed up at the Summit of the Americas protests in Quebec City in 2001 [CORRECTION: "WTO protests in Quebec City in 2001" → "Summit of the Americas protests in Quebec City in 2001" | The Quebec City 2001 protests were against the 3rd Summit of the Americas (FTAA negotiations), not the WTO. The WTO protests Graeber participated in were Seattle 1999.] as an organizer, helping build the horizontal decision-making networks that were themselves the argument — not a tactic toward a goal but the goal, practiced in the middle of a mobilization. He helped coin the slogan "We are the 99 percent" at Occupy Wall Street in 2011 [FLAG: Graeber is "sometimes credited" with coining this slogan per multiple sources, but attribution is disputed. "Helped coin" is defensible; verify author's confidence level.] and spent weeks in Zuccotti Park doing what he always did: organizing, arguing, taking notes. He traveled to Rojava to see what four million people building democratic autonomy in an active war zone actually looked like on the ground. In between, he published an essay arguing that most jobs in the modern economy were, by the assessment of the people doing them, entirely pointless — and when the essay went viral and ignited flame wars across the internet, he opened his Twitter account to anyone who would consent to be interviewed, conducting wildly unorthodox field research in public, in real time, on the people his argument had hit a nerve with. The book that came from it is still causing arguments. I was caught in one on Bluesky myself.
-
-From that vantage point he developed the three primordial economic forms that appear in every human society ever studied. *Communism*: from each according to ability, to each according to need, the baseline of all human social life, practiced constantly in every household, friendship, and community. *Exchange*: equivalent value traded between equals, creating no ongoing obligation. *Hierarchy*: ongoing relations of debt and obligation between unequals, enforced by custom or violence. The capitalism-versus-socialism debate is conducted entirely within the third category — arguing about who controls the hierarchy without questioning whether hierarchy is necessary. It never went away. It just stopped being named.
-
-But Graeber's most distinctive contribution was on *play*. Free, intrinsically motivated, non-instrumental activity — the space where people try things without being required to produce a predetermined outcome. Every significant advance in how humans organize social life has emerged from spaces where people were free to experiment. The commons produces play. Enclosure destroys it.
-
-The garden the tenant union plants together. The free library in the lobby of the cooperative. The music at the rally that isn't between speeches. These are not the fun parts of organizing that you add when you have time. They are the mechanism by which communities renew themselves — by which people learn that they are capable of more than they were told, by which the excess gets generated that makes movements irreversible in ways that policy victories are not.
-
-Play is the process version of singularity. The unrepeatable thing that happens when people are in a room together without a script. Every restaurant has its "you had to be there" moments — the specific hilarity that emerges from working that closely together, the way people's personalities surface under pressure and proximity. The incentive structure of a good kitchen is to make the quirks better rather than worse, and when it works, something is generated that no one planned and no one could have. The best nights were when the regulars were making friends at the bar, when the staff didn't have to keep the energy going because it had a life of its own. That's the commons producing play. That's the excess. You cannot engineer it. You can only build the conditions and get out of the way.
-
-Graeber died in Venice in September 2020, at fifty-nine. He had spent his last years traveling between Rojava and London, writing and organizing and practicing until the end what he had spent thirty years arguing for.
-
----
-
-Murray Bookchin was born in the Bronx in 1921, the son of Jewish anarchist immigrants, and he grew up in a neighborhood that was itself a kind of argument.
-
-The Bronx of the 1920s and 1930s was dense, multilingual, poor, and alive — built around the specific mutual aid infrastructure that immigrant communities construct wherever they land: the landsmanshaftn, the fraternal societies, the credit unions, the cooperative apartment buildings, the political clubs where people argued in Yiddish and Italian and Spanish about how the world should be organized. The neighborhood had its own ecology, its own commons, its own way of distributing care and resources that didn't route through either the market or the state. You could, if you knew where to go, eat for days on the informal economy of neighbors who owed each other.
-
-Robert Moses would spend thirty years destroying it.
-
-The expressways that cut through the Bronx in the 1950s and 1960s — the Cross Bronx Expressway displaced sixty thousand people — were the automobile version of enclosure. The communities that had built an organic commons in the interstices of the city were sacrificed to the car's passage. The ecological commons of the neighborhood was cleared for the machine. Robert Moses and the planners who built Hampton Boulevard over Atlantic City were running the same calculation: the community is the cost, the infrastructure is the product, and the people who paid the cost don't appear in the accounting.
-
-Jane Jacobs was watching the same destruction from Greenwich Village and drawing the same conclusion from the other direction: the city that works is not the city the planner designs but the city that emerges from the mixed uses, the overlapping rhythms, the eyes on the street, the density of informal relationship that Moses's expressways and towers-in-the-park destroyed everywhere they landed. Her argument and Bookchin's are the same argument made from different vantage points — she from the street, he from the theory. The neighborhood is a commons. The planner's intervention is an enclosure.
-
-Bookchin synthesized what he was seeing into a theory he called *Social Ecology*: the domination of nature and the domination of human beings by each other are not separate problems. They have the same root — hierarchy, the structure that treats the world as a resource to be managed from above rather than a commons to be governed from within. You cannot solve the ecological crisis without dismantling hierarchy. You cannot build genuine democracy without reintegrating humans into the ecological systems they have separated themselves from.
-
-The garden is political. The street is political. The decision about whether to pave the intersection or plant it is a decision about what kind of community this is and whose needs it serves.
-
-Abdullah Öcalan spent thirty years building the Kurdish liberation movement — organizing, fighting, surviving, watching comrades die — and arrived at a conclusion that no amount of reading alone could have produced: the state was not the solution. He had been trying to build one. He understood, from inside that effort, what it cost and what it couldn't deliver. When Turkish forces captured him in 1999 and imprisoned him on Imrali Island, they gave him something unintentional: time to think without the pressure of the immediate.
-
-In prison he read widely — feminist theory, the Black radical tradition, the history of Kurdish women's organizing that had been running parallel to the armed struggle and often ahead of it. He found Bookchin, whose Social Ecology named the architecture he had been moving toward: not a Kurdish nation-state but a confederacy of self-governing communes, ecological reconstruction and democratic self-governance understood as the same project, hierarchy itself as the root of both ecological crisis and political domination. Bookchin crystallized something Öcalan had already earned through decades of practice. The theory met the practitioner, and what emerged was neither — it was democratic confederalism, a political philosophy built from the Kurdish experience outward, refusing both the nation-state form and the vanguard party that had defined the left's organizational imagination for a century.
-
-Öcalan dropped the demand for a Kurdish nation-state. He replaced it with the demand for democratic autonomy — self-governance through communal institutions, not a state apparatus.
-
-The result, in the region of northern Syria known as Rojava, was one of the most remarkable political experiments of the twenty-first century: four million people building commune systems, women's councils, cooperative economics, and ecological agriculture while simultaneously fighting ISIS and managing the pressures of Syrian civil war, Turkish military operations, and international indifference. The women's councils weren't symbolic — they held veto power over decisions affecting women, with a parallel institutional structure running alongside every other governing body. The cooperatives weren't aspirational — they were managing the actual economy of the region under siege conditions. Graeber went there. He spent time in the communes, talked to the council members, watched the architecture function under pressure. He came back more convinced than when he left that the tradition this chapter is about was not theoretical. It was operational.
-
-The Zapatistas had arrived at the same place without reading Bookchin — because the conditions of indigenous community governance in southern Mexico required the same architecture. The practice preceded the theory.
-
-On January 1, 1994, the day NAFTA took effect and enclosed the communal land rights that indigenous communities in Chiapas had held for generations, the Zapatista Army of National Liberation emerged from the jungle and occupied several towns in the highlands. They were not trying to take state power. They said so explicitly: the point was not to win but to be heard, to force a conversation the Mexican state had foreclosed. Within days they had withdrawn to the mountains — and begun building.
-
-Thirty years later the Zapatista autonomous communities govern roughly a quarter of Chiapas [FLAG: Sources vary — Wikipedia and Schools for Chiapas say "about a third." "A quarter" may undercount the territory. Also note 2023 reorganization (dissolution of MAREZ); verify current figures.] through a system of rotating, non-salaried governance: the *caracoles*, the regional councils, the *Juntas de Buen Gobierno* — Good Government Councils — whose members serve terms and return to their communities with no accumulated authority to show for it. The schools teach in indigenous languages first. The health clinics are community-run. The cooperatives manage coffee, crafts, transport. No one holds office long enough to become indispensable. The architecture is designed to prevent the accumulation of power at the center — which is to say, it is designed to be the opposite of every revolutionary government this book has described.
-
-They have been doing this while the Mexican military surrounds them, while paramilitaries periodically attack, while the state withholds infrastructure and services. The international solidarity networks that formed after 1994 — the people who came to observe, to learn, to bring supplies — became themselves a kind of commons, distributed across dozens of countries, self-organizing around the Zapatista example without being directed by it. The communiqués Subcomandante Marcos wrote from the jungle were read in squats in Berlin and universities in Buenos Aires and community centers in Los Angeles, not because anyone coordinated the distribution but because the architecture of the argument traveled on its own.
-
----
-
-In one of those depaved Barcelona intersections, children are playing where cars were moving. The woman who lives on the corner knows the name of the man three floors above her. Neither of them would have known it when the street was organized around the car's passage. The knowledge is in the soil now. The changed assumption is in the body of everyone who has sat in that plaza on a Tuesday evening and felt what a street can be.
-
-This is what Gramsci meant by the war of position — not as metaphor but literally. The commons is built block by block. The new common sense grows in the soil opened when the pavement comes up. The community garden that survives the campaign that created it. The cooperative that outlasts the crisis that brought it into being. The mutual aid network whose members know each other's names years after the emergency ended. These are positions won — not because they're winning the debate, but because they are changing what feels natural, what a person knows in their body about how communities can work.
-
----
-
-The thread runs from the zanjera farmers of Ilocos rebuilding the dam every morning after the typhoon, to Palmares governing twenty thousand people for a century, to the Valencia tribunal convening in the same plaza since the tenth century — all of it before Gramsci, before Kropotkin, before anyone had written the theory of what they were doing. Then: Gramsci theorizing the factory councils in Turin, Luxemburg writing from Breslau, Kropotkin counting glaciers in Siberia, Graeber building horizontal assemblies at the Quebec City protests, Bookchin watching Moses destroy the Bronx, Jacobs watching from the street, Öcalan reading in a Turkish prison, the Zapatistas building schools in Chiapas, the woman who plants the first tree in the Barcelona intersection before the debate is finished. Not a lineage — an architecture. The same insight about what works, arrived at independently, in different conditions, by different people, because the conditions required it and the alternative kept failing.
-
-The commons wasn't enclosed because it failed. It was enclosed because it worked. And it keeps being built, in every city and neighborhood where people choose to build it. The choice is the point. It doesn't happen on its own.
-
-Of the people in this chapter, I'm closest to Kropotkin. Not the prince part — the observer part. I don't have policy successes. I have little to no street experience. I inherited wealth, and I believe everyone deserves the chance I got. That belief is not original. It is the conclusion that follows from looking clearly at what I was given and what others weren't, and refusing to naturalize the difference. Kropotkin counted glaciers in Siberia and found that the dominant theory was wrong about what nature rewarded. I ran a restaurant in Norfolk and found the same thing. The commons doesn't build itself — that's what we're arguing throughout this book. People choose to build it, against the enclosures and incentive structures that make other choices easier. The building is a political act. So is writing about it.

@@ -1,10 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro'
-import { readFileSync } from 'fs'
 import { resolve } from 'path'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
 
-const raw = readFileSync(resolve('src/content/book/chapter-9.md'), 'utf8')
-const body = raw.split('---\n').slice(2).join('---\n').trim()
+const body = composePlateauBody(resolve('src/content/book/chapter-9.md'))
 
 function md(text) {
   return text

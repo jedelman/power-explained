@@ -1,0 +1,15 @@
+---
+id: G-IB-011
+plateau: P-IB
+title: We spent three days there. We
+slug: we-spent-three-days-there-we
+tags:
+  - plateau/P-IB
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+We spent three days there. We didn't take the metro once. The city gave itself to walking.

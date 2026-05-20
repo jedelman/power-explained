@@ -1,0 +1,15 @@
+---
+id: G-01-016
+plateau: P-01
+title: On the other side is the
+slug: on-the-other-side-is-the
+tags:
+  - plateau/P-01
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+On the other side is the most beautiful street in the most beautiful neighborhood in the city — the one street in Norfolk that successfully depaved thirty years ago. The willow oaks line it on both sides. *Quercus phellos*, not willows and oaks separately — a single species with long, narrow leaves that turn amber in the fall and hang on the tree through winter, rattling in February wind. The night herons nest in them every spring. The intersection backs up to a wetland where, if you arrive at the right moment, you can see every heron species in the Hampton Roads region in the same place at the same time. There's a canal just beyond with two broods of goslings this year and one of ducklings that just fledged. We see friends there constantly. A half-hour walk takes several hours. Last year we saw muskrats for the first time.

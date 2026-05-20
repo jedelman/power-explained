@@ -1,0 +1,15 @@
+---
+id: G-16b-024
+plateau: P-16b
+title: What those systems were trained on
+slug: what-those-systems-were-trained-on
+tags:
+  - plateau/P-16b
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+What those systems were trained on was already a representation of the commons. The part that had passed through every institutional filter, every commercial decision about what was worth preserving. The canopy, carefully photographed. The underground network, absent.

@@ -1,0 +1,15 @@
+---
+id: G-18-027
+plateau: P-18
+title: Preguntando caminamos. Asking, we walk
+slug: preguntando-caminamos-asking-we-walk
+tags:
+  - plateau/P-18
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+*Preguntando caminamos.* Asking, we walk.

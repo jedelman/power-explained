@@ -1,0 +1,15 @@
+---
+id: G-16-047
+plateau: P-16
+title: Silvia Federici documented the same policy
+slug: silvia-federici-documented-the-same-policy
+tags:
+  - plateau/P-16
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+Silvia Federici documented the same policy in fifteenth-century Europe: the healers, the midwives, the women who held the accumulated medical knowledge of their communities, executed as witches during the same decades that their knowledge was being systematically extracted and formalized by the institutions that would become modern medicine. Arundhati Roy documented the same policy in contemporary India: the adivasi communities whose knowledge of the forest was inseparable from their relationship to it, displaced so the resources could be extracted without the inconvenience of the people who had developed them.

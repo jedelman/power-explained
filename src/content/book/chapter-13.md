@@ -1,93 +1,92 @@
 ---
 slug: chapter-13
-title: "Chapter 13: We're Canceling It"
-description: "David Graeber traced five thousand years of economic history proving that credit is older than money, that mutual obligation is the original economy, and that debt becomes a weapon only when the commons it came from has been enclosed."
-h1: "We're Canceling It"
-part: "Part VI: What to Build"
+title: 'Chapter 13: We''re Canceling It'
+description: >-
+  David Graeber traced five thousand years of economic history proving that credit is older than
+  money, that mutual obligation is the original economy, and that debt becomes a weapon only when
+  the commons it came from has been enclosed.
+h1: We're Canceling It
+part: 'Part VI: What to Build'
+plateau:
+  id: P-13
+  status: draft
+gestures:
+  - G-13-001
+  - G-13-002
+  - G-13-003
+  - G-13-004
+  - G-13-005
+  - G-13-006
+  - G-13-007
+  - G-13-008
+  - G-13-009
+  - G-13-010
+  - G-13-011
+  - G-13-012
+  - G-13-013
+  - G-13-014
+  - G-13-015
+  - G-13-016
+  - G-13-017
+  - G-13-018
+  - G-13-019
+  - G-13-020
+  - G-13-021
+  - G-13-022
+  - G-13-023
+  - G-13-024
+  - G-13-025
+  - G-13-026
+  - G-13-027
+  - G-13-028
+  - G-13-029
+  - G-13-030
+  - G-13-031
+  - G-13-032
+  - G-13-033
+  - G-13-034
+  - G-13-035
+  - G-13-036
+  - G-13-037
+  - G-13-038
+  - G-13-039
+separators:
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
 ---
-
-In November 2012, a group called Strike Debt raised $700,000 [FLAG: the telethon raised approximately $368,000 on the night; the final cumulative total was closer to $600,000+; verify whether the $700,000 figure represents a specific milestone or is approximate | amount and timeframe] in six weeks through a telethon. Then they spent it buying debt.
-
-Medical debt, mostly. The kind that lands on people who went to the emergency room without insurance, or whose coverage turned out not to cover what they needed. Debt that was bundled and sold on the secondary market for a few cents on the dollar — because the original creditors had given up collecting it and wanted whatever they could get. Strike Debt bought bundles of this debt for around two cents on the dollar. Then they abolished it. They sent letters to the debtors: the debt was real, they owned it, and they were canceling it. No payment required. No strings attached.
-
-They called it Rolling Jubilee — named for the biblical tradition of debt cancellation, the periodic zeroing-out of obligations that ancient societies understood was necessary to prevent debt from becoming permanent domination. With $700,000 they abolished $15 million in debt. [FLAG: contemporaneous sources report ~$14.7M abolished; verify the $15M figure | amount may be rounded or represent a later milestone] The debtors included people who had been carrying the weight of a medical emergency for years, who had stopped answering the phone because they didn't recognize the number, who had arranged their lives around the fact that this money was owed and would never be paid. Then it wasn't.
-
-Among those who received a Rolling Jubilee letter was a woman in her early thirties who had incurred $3,200 in emergency room debt when she had no insurance, had been transferred three times to collection agencies she didn't recognize, and had spent two years trying to figure out who she owed and why the number kept changing. The Debt Collective kept debtor identities private. The letter lifted a specific dread — owing money to people who have no interest in you except as a source of extraction — that had organized her relationship to her phone for two years.
-
-Strike Debt grew into the Debt Collective, which organized the first student debt strike in American history and won $5.8 billion in debt cancellation for students defrauded by for-profit colleges. [CORRECTION: $6 billion → $5.8 billion | The Biden administration's June 2022 discharge for 560,000 former Corinthian students was confirmed at $5.8 billion by the Department of Education, CNN, NPR, and multiple other sources; the chapter correctly states $5.8 billion later in the Corinthian narrative] The logic was Graeber's: debt is a social relationship that has been weaponized. The weapon can be turned.
-
----
-
-In *Debt: The First 5,000 Years*, David Graeber studied five thousand years of economic history to make one point.
-
-You know the story in every economics textbook. Before money, there was barter. People traded chickens for shoes, arrows for grain. Money was invented to make this more efficient. Credit came later, once trust developed.
-
-It's a myth. Graeber looked for evidence of it. He didn't find any. No society operating on generalized barter has ever been documented — not one, anywhere, across the entire anthropological and archaeological record. The story economists tell as the origin of money is a just-so story that no actual evidence supports.
-
-What he found instead: the first sophisticated financial instruments in the historical record are not coins. They are credit records — clay tablets from ancient Mesopotamia, roughly five thousand years old, recording loans of grain and silver, with interest, between people who knew each other and would continue to know each other. Credit is older than money. The sequence in the textbooks is backwards.
-
-When commodity money becomes dominant, it changes what happens between people who know each other. The relationship that was ongoing and mutual becomes a transaction: discrete, settled, impersonal, closed. When you pay cash, you are done. The relationship is extinguished. Paying a debt in full is not the discharge of an obligation. It is the destruction of a relationship.
-
-Credit in its original form is not a bank product. It is a social fact. It exists wherever people have ongoing relationships and the mutual recognition that they depend on each other. When a neighbor brings food when you're sick and you watch their children while they're at work, no money changes hands but a debt has been created — a real one, embedded in the fabric of your relationship. The relationship is the ledger. The community is the financial system.
-
-This is the commons that credit came from. And like every commons it has been enclosed — converted from a shared social resource into a private commodity that can be bought, sold, and extracted from.
-
----
-
-The enclosure looks like this.
-
-In the United States in 2023, roughly 100 million adults had medical debt — a figure that reflects not individual financial irresponsibility but the specific design of a healthcare system organized to generate unpayable bills for people who got sick without sufficient insurance. Many of these debts are sold to collection agencies for a few cents on the dollar. The collection agency then owns the full face value, legally, and can pursue garnishment of wages and bank accounts. The person who went to the emergency room now owes money to a company whose entire business model depends on extracting the maximum the law allows from people who cannot pay.
-
-What this costs: roughly 27 percent of people with medical debt experience housing problems — missed mortgage payments, eviction, a move to cheaper housing, homelessness. [FLAG: could not verify this specific 27% figure in available studies; a 2026 JAMA Network Open study found a 7-percentage-point higher probability of housing instability (44% higher relative risk) among people with medical debt — a different framing; verify source for the 27% figure | percentage and framing] A 2024 study in JAMA Network Open found that a one percentage point increase in the share of a county's population carrying medical debt is associated with an extra year of life lost per thousand people, and elevated mortality rates across every leading cause of death including suicide. People in problem debt are three times more likely to consider suicide than those without. Sixteen percent of suicides in the US occur in response to a financial crisis. [FLAG: could not verify this specific figure in available research; verify source | the financial-crisis/suicide link is well-established but this precise percentage was not confirmed]
-
-This is not an American problem. In India, between 1995 and 2018 approximately 400,000 farmers died by suicide — nearly 48 per day — with the majority from Dalit and other marginalized caste communities. Research shows that financial and moral debt accrued within family and caste relationships produces patterns of humiliation and hopelessness that suicide resolves. In the United States, farmers are 3.5 times more likely to die by suicide than the general population. As of 2019, farm debt stood at an all-time high of $416 billion, and median farm income was projected to be negative $1,644. An auction dealer in the Midwest recently noted that tractors were arriving at his lot from farmer suicides — machinery outlasting the people who worked it.
-
-This is not a bug in the debt system. It is the system working as designed — converting a social obligation into a financial instrument optimized for extraction, and then selling that instrument to the party best positioned to extract.
-
-Graeber documented how this has worked across five thousand years: debt accumulates, interest compounds, the people at the bottom fall irreparably into debt to the people at the top. And then, recurrently, across the ancient Near East, authorities declared debt jubilees — periodic cancellations that zeroed out the debts, returned alienated land, freed debt slaves. Not charity. Crisis management. The rulers who declared jubilees understood that a society in which the poor are permanently indebted to the rich is a society that cannot function. The jubilee was the commons reasserting itself because the alternative was collapse.
-
-One consistent feature across five thousand years: debt's moral weight is applied selectively. When banks cannot pay their debts, restructuring and bailouts are standard — the 2008 crisis produced trillions in public support for financial institutions that had made catastrophically bad bets. When individuals or poor countries cannot pay, the language of moral obligation is deployed with maximum rigor: *you borrowed it, you must repay it*. This is not hypocrisy. It is policy. It is the mechanism by which the enclosure is maintained: the commons of mutual obligation subject to one rule when it is owed by the powerful, another when it is owed by the powerless.
-
----
-
-The credit union is one form of the credit commons.
-
-A financial cooperative, owned and governed by its members, oriented toward their financial wellbeing rather than toward extraction from them. The money members deposit is lent to other members, at terms set by the institution they collectively govern. The interest paid on loans becomes the interest paid on deposits, minus the cost of operating the institution. No shareholders extracting returns. The surplus belongs to the members.
-
-This is not a radical proposal. It is a legal structure that has existed for over a century, in tens of thousands of institutions worldwide, serving hundreds of millions of people. Credit unions collectively hold over $2 trillion in assets in the United States alone.
-
-Time banking is another form. Members earn credits by providing services to others — childcare, tutoring, plumbing, translation — and spend them receiving services in return. One hour equals one credit regardless of the service. A lawyer's hour and a dishwasher's hour are worth the same. The accounting is mutual rather than extractive; the currency cannot be accumulated by someone who provides nothing, and it loses no value to interest. Time banks exist in dozens of countries and have been running for decades.
-
-And then there is, preposterously, Venmo. When your friend pays you back for dinner and you immediately use it to pay someone else for a ride, the money circulates through a network of mutual obligation without ever touching a bank. The ledger is social. The trust is relational. The system is inefficient and informal and operates entirely on the logic of the credit commons — which is exactly why the platforms keep trying to add features that convert it into something extractable.
-
-Community development financial institutions — CDFIs — extend cooperative finance into communities conventional finance has written off. They underwrite loans that a bank's algorithm would reject because the algorithm is optimized for extraction, not for whether the person in front of you will actually repay — or what it would mean for their community if they did.
-
-The Mondragon cooperative federation built its own bank — the Caja Laboral — because the existing financial system wouldn't lend to workers buying out their own firms. The Caja Laboral lent to Mondragon cooperatives on terms governed by the same principles as the cooperatives themselves. When cooperatives faced difficulty, the bank restructured rather than foreclosed. The institution that held the credit was governed by the people who needed it. That single structural fact changed everything about what happened when things got hard.
-
-I spent the first three years of running the restaurant arguing with banks. I had started with seller financing — the previous owner holding the note, the way small transactions happen when conventional lenders won't. Post-COVID, the only commercial loans going out were to REITs. Not to a restaurant in Chelsea trying to refinance a seller note. I eventually negotiated a loan with my father. The entire process was humiliating in the specific way that asking family for money is humiliating — the relationship that should be outside the market, pulled into it, repriced, restructured as a financial instrument. I got the loan. The relationship survived. But I had been inside the exact mechanism Graeber describes: the commons of mutual obligation subjected to the logic of extraction because no institution existed that was governed by people like me, for purposes like mine.
-
-A Caja Laboral would have saved my ass many times over. Not as charity — as architecture.
-
----
-
-When Everest College students organized the first debt strike, they weren't refusing to pay a debt they'd freely incurred. They were refusing to pay for a credential the school had fraudulently represented as valuable — taking federal student loan money, promising employer networks and career placement, and delivering nothing. The Department of Education had a process for cancellation in cases of fraud. It had processed almost none of the claims.
-
-The students who became the Corinthian 15 were mostly working-class people of color, many of them the first in their families to attend college. Latonya Suggs had $63,000 in debt from a two-year criminal justice program. Makenzie Vasquez had $30,000 from a medical assistant certificate she'd had to drop out of when she couldn't make the payments. They had been sold a dream and received, as Vasquez put it, a nightmare. When they found each other — through a Facebook page, then a coffee shop meeting, then contact with the Debt Collective — they called themselves the Everest Avengers. They understood that the law was technically on their side through an obscure Higher Education Act provision called Borrower Defense to Repayment, but the Department of Education had never created an application for it. The Debt Collective worked with lawyers to design one and published it. Applications rolled in by the thousands.
-
-The debt strike forced the issue over seven years, through three administrations, through the Trump years when Borrower Defense was effectively halted and applications went unprocessed. In 2022 the Biden administration canceled $5.8 billion in debt for 560,000 former Corinthian students — the largest single loan discharge in Education Department history. The Department called it a decision. It was an organizing victory.
-
-Rolling Jubilee had demonstrated the same thing: a debt bought for two cents on the dollar can be abolished rather than collected. The jubilee tradition is not historical. It is available right now.
-
-The rotating credit associations — the susus, tandas, hui, chit funds — that immigrant communities have built in every country they've arrived in are the oldest form of the same logic: organizing credit through relationships rather than algorithms, through mutual trust rather than credit scores, through community governance rather than institutional extraction. They predate every financial institution this chapter has described. They are still running.
-
-In Norfolk, informal credit operates through acts, not accounting. Favors extended, debts incurred, obligations carried — without ledgers, without interest rates, without any of the apparatus that would make the transaction legible to a bank. Graeber would recognize it immediately: incalculable debt, the kind that lives in relationship rather than in a balance sheet, that can't be discharged because discharging it would end the relationship it's embedded in.
-
-Among bartenders in the area there's a custom called the boomerang bottle: a cleaned-out liquor bottle filled with a personalized batched cocktail, gifted from one bartender to another. It's called boomerang because it comes back — but not necessarily from the same person, and not on any schedule you can predict. You don't know when. You don't know what form it will take. This is Graeber's communism in the technical sense — from each according to ability, to each according to need, no transaction, no settlement, the baseline of human social life operating exactly as he described. Bourdieu observed that this uncertainty of time and type of return is precisely what distinguishes reciprocity from transaction. The gap is not a flaw in the system. The gap is the system. It's the space where creativity enters — the unprescribed reciprocation that brings the human in, that makes it a relationship rather than an exchange. The moment you close the gap — the moment you settle accounts — you've converted the relationship into a transaction and ended both.
-
-Jane Jacobs documented the same logic operating at scale in the North End of Boston, an Italian immigrant district [CORRECTION: Irish → Italian | The North End was overwhelmingly Italian when Jacobs wrote about it in 1961 — by 1930, Italians made up 99.9% of the neighborhood's population; the Irish had largely left by the 1880s–1890s following successive waves of Italian immigration] that banks had redlined entirely. With no access to conventional lending, the community ran a completely informal credit system that financed building improvements for an entire generation — neighbor to neighbor, tracked in memory and relationship rather than in any ledger a bank would recognize. That district became the most expensive real estate per square foot in Boston — and then, predictably, the banks arrived. The credit commons had produced what conventional finance declared unfinanceable. Enclosure claimed the value it had refused to help create.
-
-The commons of credit is not a future project. It exists. It is available to join, to build, to use instead of the institutions that extract from you.
-
-But I want to be honest about why this is the hardest part. The credit commons is the crux of mutual aid — the place where the logic of the commons runs hardest against the logic of enclosure, because debt calculation is the deepest thing the system has installed in us. I can deprogram white supremacy out of my friends. I cannot deprogram debt calculation. The belief that debt is a moral weight, that owing is a condition of character, that the inability to pay reflects something about who you are — this runs deeper than most political ideology, because it was installed earlier, through more intimate mechanisms, with higher emotional stakes. Graeber traced five thousand years of history making the case that this belief is contingent, that it was built, that it has been otherwise and can be otherwise again. That is the most important thing in this chapter. It is also the hardest thing to actually feel in your body as true.
-
-The credit commons is not waiting for the belief to shift. It is already running — in the susu, the boomerang bottle, the Debt Collective, the credit union on the corner. It is available now. What shifts is not the structure but your relationship to it.

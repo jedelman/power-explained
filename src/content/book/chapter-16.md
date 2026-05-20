@@ -1,170 +1,161 @@
 ---
 slug: chapter-16
-title: "Chapter 16: Even That Part"
-description: "Nobody invented the word love. The grammar you're reading this in grew in communities across centuries without anyone's permission. Alan Turing gave the world the conceptual foundation of every computer ever built — and the state that used him chemically destroyed him for being queer. This is what the system does with singularity. This is what we're losing."
-h1: "Even That Part"
-part: "Part VI: What to Build"
+title: 'Chapter 16: Even That Part'
+description: >-
+  Nobody invented the word love. The grammar you're reading this in grew in communities across
+  centuries without anyone's permission. Alan Turing gave the world the conceptual foundation of
+  every computer ever built — and the state that used him chemically destroyed him for being queer.
+  This is what the system does with singularity. This is what we're losing.
+h1: Even That Part
+part: 'Part VI: What to Build'
+plateau:
+  id: P-16
+  status: draft
+gestures:
+  - G-16-001
+  - G-16-002
+  - G-16-003
+  - G-16-004
+  - G-16-005
+  - G-16-006
+  - G-16-007
+  - G-16-008
+  - G-16-009
+  - G-16-010
+  - G-16-011
+  - G-16-012
+  - G-16-013
+  - G-16-014
+  - G-16-015
+  - G-16-016
+  - G-16-017
+  - G-16-018
+  - G-16-019
+  - G-16-020
+  - G-16-021
+  - G-16-022
+  - G-16-023
+  - G-16-024
+  - G-16-025
+  - G-16-026
+  - G-16-027
+  - G-16-028
+  - G-16-029
+  - G-16-030
+  - G-16-031
+  - G-16-032
+  - G-16-033
+  - G-16-034
+  - G-16-035
+  - G-16-036
+  - G-16-037
+  - G-16-038
+  - G-16-039
+  - G-16-040
+  - G-16-041
+  - G-16-042
+  - G-16-043
+  - G-16-044
+  - G-16-045
+  - G-16-046
+  - G-16-047
+  - G-16-048
+  - G-16-049
+  - G-16-050
+  - G-16-051
+  - G-16-052
+  - G-16-053
+  - G-16-054
+  - G-16-055
+  - G-16-056
+  - G-16-057
+  - G-16-058
+  - G-16-059
+  - G-16-060
+  - G-16-061
+  - G-16-062
+  - G-16-063
+  - G-16-064
+  - G-16-065
+  - G-16-066
+  - G-16-067
+  - G-16-068
+  - G-16-069
+  - G-16-070
+  - G-16-071
+  - G-16-072
+  - G-16-073
+separators:
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
 ---
-Think of someone who loved you. All of you. Yes, even that part.
-
-The part you kept quiet in most rooms. The part that didn't fit the arrangement. The part you'd learned to manage, to apologize for, to bring out only when you were sure it was safe. Someone saw it — and instead of looking away, or offering to help you fix it, they moved toward it. They were *interested* in it. They wanted more of it, not less.
-
-That is not sentiment. The philosophers Michael Hardt and Antonio Negri call it a force — a power that makes you more real, not less. Not a force that simplifies you into something manageable. A force that nourishes what you are already becoming, that says: *become more fully what you are, and in doing so, enrich what we share.* Love in this sense is not the reward for becoming acceptable. It is what makes becoming possible at all.
-
-This is also what the commons does at its best.
-
----
-
-Go into an old-growth forest.
-
-The ground looks still. But scientists now know that under every old stand of trees, the roots are threaded through with fungal networks — connecting tree to tree, older trees feeding younger ones, the whole forest in slow chemical conversation with itself. The forest is not a collection of individuals competing for light. It is a single living process that has learned to individuate into trees — each one drawing from the network without depleting it, contributing to the network by growing, nourished without being asked to become a different kind of tree.
-
-This is what the philosopher Gilbert Simondon called the *pre-individual field* — the charged, generative excess from which individuals emerge without exhausting it. Not a resource to be drawn down but a field that is replenished by each act of individuation. You are not a finished object. You are an ongoing event, always in relation to a field that exceeds you. The individual is not prior to the collective. The collective is the condition of the individual.
-
-Nobody invented the word *love*. It grew, in communities, across centuries, shaped by millions of mouths without anyone's permission or ownership. The grammar you are reading this in — the rhythm that makes a sentence feel complete — none of it was designed. It emerged from the same kind of field: a living commons, available to anyone born into its reach, replenished by every person who thinks and speaks and makes.
-
-You didn't make the language you think in. It made you, partly. And you are making it, slightly, right now.
-
-This is what unconditional love looks like at the scale of a civilization.
-
-But there is a love that encloses.
-
----
-
-Walk into a furniture showroom — or scroll through a design influencer's feed, which is the same place rendered in light. Everything is coherent. Everything references everything else. The couch speaks to the lamp speaks to the art print, and together they produce an atmosphere that means *successful* or *tasteful* or *arrived* without any single element being responsible.
-
-The French philosopher Jean Baudrillard, writing in 1968, called this the *system of objects*. His insight was precise and unsettling: when you buy into a curated environment, you don't just consume the objects. The objects consume you. You become another element in the arrangement — the subject at the center whose identity must be coherent with the room. The room is not a backdrop. It is a claim about who you are. To inhabit it is to agree to the claim.
-
-This is objectification working in both directions. The objects are stripped of history and specificity — the couch means *modern*, not the forest the wood came from, not the hands that shaped it. And the person is stripped of the same things: your history, your specificity, your irreducible weirdness — stripped in favor of the legible signal you emit. Not a person individuating in a field. An object completing an arrangement.
-
-Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be beautiful. Because it carries a *specificity* the system cannot metabolize. It points somewhere outside the arrangement, toward a particular history, a particular person, a particular love that was not organized around legibility.
-
-You, when you don't fit the room, are doing the same thing.
-
-The emptiness is structural — it has to be. A satisfied person, fully themselves, stops being manageable. The system requires the dissatisfaction. There is always another object that would finally complete the arrangement, another adjustment that might make the belonging feel real. The promise is the product.
-
-Guy Debord, writing the year before [CORRECTION: "the same year as Baudrillard" → "the year before" | Debord’s *La Société du spectacle* was published in November 1967; Baudrillard’s *Le Système des objets* appeared in 1968], called this management of belonging *the spectacle* — not images, but social relations mediated by images. You are not experiencing your social world. You are consuming its representation. The love the spectacle offers is always at one remove: you are connected to the image of connection, you belong to the image of belonging, and the representation is more vivid and more legible than the living thing it replaced.
-
-This is enclosure applied to love itself — belonging contingent on legibility, the field converted into a managed arrangement where the price of admission is yourself.
-
----
-
-In May 1968, students in Paris took this argument into the streets.
-
-They had been reading Debord. They spray-painted his ideas on walls: *Under the cobblestones, the beach. Be realistic, demand the impossible. It is forbidden to forbid.* For three weeks, France stopped. [FLAG: "three weeks" | The May ’68 upheaval ran from early May through late June — roughly a month, not three weeks; the general strike alone lasted nearly a month. Verify intended scope before correcting.] Workers occupied factories. Students occupied the Sorbonne. The rupture felt total.
-
-And then it didn't.
-
-De Gaulle survived. The workers went back. The spectacle absorbed the uprising so completely that within a few years, the slogans were on posters you could buy, the barricades were in documentaries you could watch, the revolution had become content. Baudrillard watched this happen and drew the conclusion that would define his career: the spectacle does not need to suppress the rupture. It only needs to represent it.
-
-One year later, in June 1969, the people at the Stonewall Inn in New York tried something different.
-
-They didn't have a theory. They had bodies — bodies the state had spent decades trying to organize into legible, manageable categories. Bodies whose desires were supposed to be hidden, or cured, or contained. When the police came, as they came regularly, something that had been building for years broke open. Marsha P. Johnson — Black, transgender, refused legibility by almost every system she encountered — was there, and she refused. In her body. In the street.
-
-The Situationists tried to rupture the spectacle through ideas performed in public. Stonewall ruptured it through the body — through the insistence that no system had the final word on what these bodies were, or what they were allowed to become.
-
-The philosopher Gilles Deleuze, writing in the aftermath of 1968, had a name for what both uprisings were reaching toward. He wrote about the *body without organs* — not the anatomical body organized into its assigned functions and roles, but the body understood as a field of potential, not yet resolved into the form the system has prepared for it. Before the category. Before the assigned role. The body as ongoing becoming.
-
-Every system of enclosure attempts what Deleuze called *territorialization* — fixing the body to a territory, a function, a legible identity it cannot leave. The refusal — Stonewall, the ballroom houses, the mycorrhizal communities of care that queer people built precisely because the official structures wouldn't hold them — is *deterritorialization*: the body slipping the assignment, the field of potential refusing to resolve into the finished arrangement.
-
-The insistence on remaining in process.
-
----
-
-In the early 1930s, a young Englishman named Alan Turing was becoming someone the world had not yet seen.
-
-He was a serious runner — almost Olympic level — who trained alone on roads outside Cambridge, working through mathematical problems while his legs found the rhythm. He was funny in the way that brilliant people who have spent too much time in their own heads are funny: precisely, unexpectedly, a little wrong-shaped for the occasion. When his closest friend Christopher Morcom died suddenly in 1930, Turing wrote letters to Christopher's mother for years afterward, because the grief had nowhere else to go and he didn't know how to leave it.
-
-He was also, quietly and without apology, gay — in a country where this was criminal. He had learned, by necessity, to live in the gaps between the world as organized and the world as he actually experienced it. To see the categories other people inherited as choices rather than necessities. To find the spaces between things.
-
-In 1936, he published a paper in a mathematics journal that almost no one outside the field read. It was solving a technical problem in logic. But to solve it, he imagined something that had never been imagined quite that way before.
-
-He described a machine — not a physical machine, a thought experiment, a formal device on paper. It read symbols from a long tape according to a set of rules, and wrote new symbols back. You could simulate it by hand if you were patient enough.
-
-Then he described something stranger: a *universal* version of this machine. One that could become any other version of itself, if you gave it a description of that other version first. The description would itself be written in symbols on the tape — the same stuff the machine read and wrote. The instructions were not separate from the material. They were made of the same thing.
-
-He had dissolved a boundary that everyone else had taken as fixed: the distinction between the device and what the device does. The machine did not have to be organized around one function. The function could be written. Rewritten. Handed to someone else. Given away.
-
-This is not unlike what Tolkien was working out at roughly the same time, in a different register entirely. In the mythology Tolkien spent his life building, the most powerful acts are linguistic — the world itself was sung into existence, and those who understand the deep grammar of things can speak change into the world directly. A wizard does not push the door open. He speaks it open. The word, in the right form, spoken with the right understanding, *instantiates* what it names.
-
-Legal systems work the same way. A contract doesn't describe an obligation — it creates one. A patent doesn't label ownership — it makes ownership real. Words on paper, in the right form, with the right authority behind them, restructure reality. The law is a system of incantations, each one drawing its power from the institutional grammar that gives certain words the force to make things so.
-
-The machine Turing described runs on exactly this principle. Give it the right description and it becomes what you described. The description is the spell. And the thing we eventually called a computer is what happens when you build the machine.
-
----
-
-In January 1952, Turing reported a burglary at his house. During the police investigation, he mentioned a relationship with a nineteen-year-old man. Both were charged. Turing pleaded guilty. He was given a choice: prison, or a course of hormone injections designed to chemically suppress his sexuality. He chose the injections. His body changed. He described the treatment to friends with sardonic detachment.
-
-Hold this for a moment — and hold it alongside something else.
-
-During the Second World War, Turing had worked at Bletchley Park, a country house in Buckinghamshire that housed Britain's most secret operation: the effort to break the German military's coded communications. The Germans believed their codes were unbreakable. Turing led the team that proved them wrong. He designed the machines and the methods that cracked the Enigma cipher — the system protecting the communications of the German Navy, the German Army, the German High Command. Historians believe this work shortened the war by at least two years. The lives it saved are counted in the millions.
-
-The state that sentenced him to chemical castration was the same state whose survival his mind had helped secure. Every official who signed the relevant paperwork knew this.
-
-In June 1954, he was found dead at forty-one. A half-eaten apple on the nightstand. The inquest ruled suicide.
-
-This man had spent his entire adult life finding the gaps in organized systems — by necessity, because the system had organized itself against him. That particular cast of mind, the one that could look at a machine and see that the rigidity was a choice, that the categories were arbitrary, that you could dissolve the boundary between device and function — it came from somewhere. It came from a life lived outside the frame.
-
-The knowledge was useful. The person was a problem. And the decision to treat them as separable — to extract what the system needed and then manage the source — was not an accident or an oversight. It was policy.
-
-Silvia Federici documented the same policy in fifteenth-century Europe: the healers, the midwives, the women who held the accumulated medical knowledge of their communities, executed as witches during the same decades that their knowledge was being systematically extracted and formalized by the institutions that would become modern medicine. Arundhati Roy documented the same policy in contemporary India: the adivasi communities whose knowledge of the forest was inseparable from their relationship to it, displaced so the resources could be extracted without the inconvenience of the people who had developed them.
-
-The pattern is not metaphorical. It is a recurring operational decision. The living, embodied, relationally-held knowledge is most valuable in the form that is hardest to enclose: embedded in people, in practices, in bodies, in communities. To enclose it, you must first separate it from those bodies. The execution, the displacement, the prosecution — these are not failures of the system. They are the system working as designed.
-
-This is not tragedy. It is policy.
-
-And when you see it as policy, the question changes. It is not *how could this happen?* It is: *what would it take to refuse it?*
-
----
-
-In 1989, Richard Stallman sat down to write a spell.
-
-He understood that intellectual property law was a system of incantations — words on paper, in the right form, with the right authority, that restructured reality by making ownership real. The standard incantation said: the creator controls what happens to this. Others may use it only on the creator's terms.
-
-Stallman's insight was to cast the same incantation backward. He wrote the GNU General Public License — a document that used the grammar of ownership to *prevent* enclosure. Anyone who received the software could use it, modify it, share it — but could not enclose it. Anyone who passed it on had to pass it on under the same terms. The spell propagated its own resistance. Free to use, free to modify, free to distribute, but not free to close.
-
-Debord had called this *détournement* — the hijacking of the system's own forms against the system's purposes. The GPL is détournement as legal instrument. The master's grammar, turned.
-
-In that same year — 1989, the year the Berlin Wall fell — Tim Berners-Lee, a British scientist working in Geneva, submitted a proposal to his supervisor at CERN. He wanted to build a system for sharing information across a network: documents that could link to other documents, navigable from anywhere, built on a common set of rules that anyone could use. His supervisor wrote on the cover: *Vague but exciting.*
-
-Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an internet discussion group:
-
-> "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones." [CORRECTION: "won't be anything big and professional" → "won't be big and professional" | the word "anything" does not appear in Torvalds's original August 25, 1991 Usenet post to comp.os.minix]
-
-He thought he was making a toy. Programmers around the world — none paid, none coordinated through any central authority — started contributing. The operating system shipped under the GPL. By 1993, Berners-Lee had built the working web, and CERN released the underlying rules into the public domain. No license. No fee. No owner.
-
-Four years. Stallman, Berners-Lee, Torvalds — working in different countries on different problems, none of them coordinating, all arriving independently at the same understanding. The spell they were casting required giving it away. A proprietary web would not be the web. Universal access was not a feature — it was the thing itself. Enclose it and you destroy it.
-
-What they built became the infrastructure of the digital world. None of them became billionaires. The people who built platforms on top of their gift did.
-
-The commons is not a noun, not a thing you finish and possess. The Törbel community didn't write their governance charter in 1483 and consider the matter resolved — five centuries of practice before anyone had named the design principles it was running on. They governed, actively, in perpetuity, by ongoing collective choice. The gift is never secured once and for all. The field must be held.
-
-This book exists because that is true.
-
-The spectacle does not need to own the protocol. It only needs to own the interface.
-
----
-
-The enclosure didn't happen to the underlying rules of the web. Anyone can still build a site without asking permission from anyone. What got enclosed was the *layer on top* — the platforms that became the default surfaces through which most people experienced the open web. Search. Social connection. Commerce. Not by owning the web — by becoming so frictionless, so present, so much the path of least resistance, that the open alternatives became invisible.
-
-Berners-Lee gave away the infrastructure of connection. The platforms enclosed its *representation* — a version optimized not for the quality of connection but for the duration of attention. You are not using these platforms to connect with people. You are consuming a simulation of connection.
-
-The commons was used to build the enclosure of the commons.
-
-Berners-Lee has spent two decades saying this is a betrayal. His grief is the measure of how thoroughly the enclosure succeeded. And yet the web still exists. The protocols are still open. The fight is not over, because the fight is never over.
-
----
-
-You have felt this.
-
-The slight flatness after you close the app. The way a conversation in person feels more real than the same words exchanged over a platform. The hum of dissatisfaction underneath the scroll — the promise that is never redeemed, the belonging that is always one more adjustment away.
-
-That is not a personal failing. That is the system of conditional love working exactly as designed.
-
-This is how it starts. The commons doesn't disappear. It gets replaced by its image.
-
-And then something stranger happens.
-
----
-
-*Continue to Part 2: The Simulacrum and the Field.*

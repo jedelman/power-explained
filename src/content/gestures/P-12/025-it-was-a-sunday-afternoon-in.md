@@ -1,0 +1,15 @@
+---
+id: G-12-025
+plateau: P-12
+title: It was a Sunday afternoon in
+slug: it-was-a-sunday-afternoon-in
+tags:
+  - plateau/P-12
+  - voice/jason
+  - status/draft
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+It was a Sunday afternoon in 2022, after the lunch service — after we had closed and cleaned and the last guests were gone and the industry friends had arrived, the ones who managed other places, who wrote schedules and ate losses and knew in their bodies what living labor costs because they had priced it and absorbed the gap. We opened what we had. A Chiaretto Rosé from La Meridiana in the Italian Alps — Corvina and Rondinella grapes from a five-hectare family operation near Lake Garda, run by a woman who had taken over from her parents [FLAG: multiple details | (1) La Meridiana is in Valtenesi/Puegnago del Garda, Lombardy — not typically described as the Italian Alps. (2) La Meridiana's Chiaretto uses Groppello, Sangiovese, Marzemino, and Barbera — not Corvina and Rondinella, which are the Bardolino Chiaretto grapes. (3) La Meridiana has approximately 12 hectares per their website, not five. Verify all three against Jason's recollection or the bottle.], delicate and floral and dry, the kind of wine that knows exactly what it is. A Cava from Parés Baltà in the Penedès, biodynamically grown, an Extra Brut that was so clean and mineral it seemed to be making an argument: this is what Cava actually is, and you have been drinking the wrong version. Both from women. Both from family operations. Both from places where someone had decided to make the thing honestly rather than cheaply, and was paying the price for it.
