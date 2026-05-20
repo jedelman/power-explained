@@ -24,6 +24,7 @@ Other days I would stay home. We lived in the woods, on 5 acres, and had a very 
 
 Many days we'd go hiking or walk the trails - former railroad grades - in the valley. I started to ask myself - "is this what it's like to be retired?"
 
+The cognitive dissonance was blinding. From the outside, the career frame, my life had basically ended. I was done, finished. But from my perspective, my life had just begun, or resumed. It helped that we had been aggressively building a nest egg for years. It helped that it was burnout and not a medical emergency that put me out of commission. It helped that I was in Seattle in 2015 and not in Norfolk in 2020. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI1NzA2OTRdfQ==
+eyJoaXN0b3J5IjpbOTYyMzY0NzYyXX0=
 -->
