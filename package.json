@@ -11,7 +11,8 @@
     "compile:plateau": "node scripts/compile-plateau.mjs"
   },
   "dependencies": {
+    "@shoelace-style/shoelace": "^2.20.1",
     "astro": "^6.2.1",
-    "@shoelace-style/shoelace": "^2.20.1"
+    "js-yaml": "^4.1.0"
   }
 }

@@ -8,18 +8,14 @@
  *   - Unknown TERMS within known namespaces are WARNINGS. Terms are
  *     organic; the warning output is the to-add list for the ontology.
  *
- * Cardinality enforcement:
- *   - exactly-one: exactly one tag in this namespace, error if missing or 2+
- *   - one-or-more: one or more tags in this namespace, error if zero
- *   - zero-or-more: 0..N, no constraint
- *   - zero-or-one: 0 or 1, error if 2+
+ * Cardinality enforcement (per ontology):
+ *   - exactly-one: exactly 1 tag in this namespace
+ *   - one-or-more: at least 1 tag
+ *   - zero-or-one: 0 or 1 tag
+ *   - zero-or-more: no constraint
  *
  * Cross-field consistency:
  *   - tag plateau/<X> must match the file's structured `plateau:` field
- *
- * Output:
- *   - errors: printed to stderr, exit 1
- *   - warnings: printed to stdout (does not exit nonzero unless --strict)
  *
  * Usage:
  *   node scripts/lint-tags.mjs            # lint all gesture files
@@ -28,6 +24,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import url from "node:url";
+import yaml from "js-yaml";
 
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -35,102 +32,49 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 const ONTOLOGY_PATH = path.join(REPO_ROOT, "for-agents", "tag-ontology.yml");
 const GESTURES_ROOT = path.join(REPO_ROOT, "src", "content", "gestures");
 
-const args = process.argv.slice(2);
-const STRICT = args.includes("--strict");
+const STRICT = process.argv.slice(2).includes("--strict");
 
-// ---------- minimal YAML parsing for the ontology -------------------------
-// Just enough to read the namespace -> { cardinality, open, terms[] } shape.
-function parseOntology(text) {
-  const lines = text.split("\n");
-  const ns = {};
-  let currentNs = null;
-  let currentNsBody = null;
-  let inTerms = false;
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    if (line.trim().startsWith("#") || line.trim() === "") continue;
-    // Top-level "namespaces:" marker — just keep going
-    if (/^namespaces:\s*$/.test(line)) continue;
-    // Top-level scalars like `version: 1` — ignore
-    if (/^[a-zA-Z_]+:\s*\S/.test(line) && !line.startsWith(" ")) continue;
-
-    // 2-space indent = a namespace name
-    const nsMatch = line.match(/^  ([a-z_][a-z_0-9-]*):\s*$/);
-    if (nsMatch) {
-      currentNs = nsMatch[1];
-      currentNsBody = { cardinality: "zero-or-more", open: false, terms: [] };
-      ns[currentNs] = currentNsBody;
-      inTerms = false;
-      continue;
-    }
-    // 4-space indent inside a namespace
-    if (currentNsBody) {
-      const cardMatch = line.match(/^    cardinality:\s*(\S+)\s*$/);
-      if (cardMatch) { currentNsBody.cardinality = cardMatch[1]; inTerms = false; continue; }
-      const openMatch = line.match(/^    open:\s*(true|false)\s*$/);
-      if (openMatch) { currentNsBody.open = openMatch[1] === "true"; inTerms = false; continue; }
-      if (/^    terms:\s*$/.test(line)) { inTerms = true; continue; }
-      if (/^    description:\s*\|/.test(line)) { inTerms = false; continue; }
-      if (inTerms) {
-        const termMatch = line.match(/^      -\s*"?([^"#]+?)"?\s*(?:#.*)?$/);
-        if (termMatch) {
-          currentNsBody.terms.push(termMatch[1].trim());
-          continue;
-        }
-      }
-    }
+function loadOntology(filePath) {
+  const text = fs.readFileSync(filePath, "utf8");
+  const doc = yaml.load(text);
+  if (!doc || typeof doc.namespaces !== "object" || doc.namespaces === null) {
+    throw new Error(`Ontology at ${filePath} is missing a top-level 'namespaces:' map`);
   }
-  return ns;
+  // Normalize: each namespace has { cardinality, open, terms[] } with defaults.
+  const out = {};
+  for (const [ns, raw] of Object.entries(doc.namespaces)) {
+    const spec = raw ?? {};
+    out[ns] = {
+      cardinality: spec.cardinality ?? "zero-or-more",
+      open: spec.open === true,
+      terms: Array.isArray(spec.terms) ? spec.terms.map(String) : [],
+    };
+  }
+  return out;
 }
 
-// ---------- frontmatter parse ----------
-function parseFrontmatter(text) {
+function loadFrontmatter(text) {
   if (!text.startsWith("---\n")) throw new Error("No frontmatter");
   const end = text.indexOf("\n---\n", 4);
   if (end === -1) throw new Error("Unterminated frontmatter");
-  return { yaml: text.slice(4, end), body: text.slice(end + 5) };
+  const yamlText = text.slice(4, end);
+  return yaml.load(yamlText) ?? {};
 }
 
-function extractScalar(yaml, key) {
-  const m = yaml.match(new RegExp("^" + key + ":\\s*\"?([^\"#\\n]+?)\"?\\s*(?:#.*)?$", "m"));
-  return m ? m[1].trim() : null;
-}
-
-function extractList(yaml, key) {
-  const lines = yaml.split("\n");
-  const start = lines.findIndex(l => new RegExp("^" + key + ":\\s*(#.*)?$").test(l));
-  if (start === -1) return null;
-  const items = [];
-  for (let i = start + 1; i < lines.length; i++) {
-    const line = lines[i];
-    if (line.trim() === "" || line.trim().startsWith("#")) continue;
-    if (!line.startsWith(" ")) break;
-    const m = line.match(/^\s+-\s+"?([^"#]+?)"?\s*(?:#.*)?$/);
-    if (m) items.push(m[1].trim());
-    else if (!line.match(/^\s+#/)) break;
-  }
-  return items;
-}
-
-// ---------- main lint ----------
 function lintGestureFile(filePath, ontology) {
   const errors = [];
   const warnings = [];
-  const text = fs.readFileSync(filePath, "utf8");
-  let yaml;
+  let fm;
   try {
-    ({ yaml } = parseFrontmatter(text));
+    fm = loadFrontmatter(fs.readFileSync(filePath, "utf8"));
   } catch (e) {
     return { errors: [`${filePath}: ${e.message}`], warnings: [] };
   }
 
-  const fileId = extractScalar(yaml, "id");
-  const filePlateau = extractScalar(yaml, "plateau");
-  const tags = extractList(yaml, "tags") || [];
+  if (!fm.id) errors.push(`${filePath}: missing required field 'id'`);
+  if (!fm.plateau) errors.push(`${filePath}: missing required field 'plateau'`);
 
-  if (!fileId) errors.push(`${filePath}: missing required field 'id'`);
-  if (!filePlateau) errors.push(`${filePath}: missing required field 'plateau'`);
+  const tags = Array.isArray(fm.tags) ? fm.tags.map(String) : [];
 
   // Bucket tags by namespace
   const buckets = {};
@@ -153,13 +97,12 @@ function lintGestureFile(filePath, ontology) {
         errors.push(`${filePath} tag "${tag}": term "${term}" not in closed namespace "${ns}"`);
       }
     }
-    if (!buckets[ns]) buckets[ns] = [];
-    buckets[ns].push(term);
+    (buckets[ns] ??= []).push(term);
   }
 
-  // Cardinality checks
+  // Cardinality
   for (const [ns, def] of Object.entries(ontology)) {
-    const count = (buckets[ns] || []).length;
+    const count = (buckets[ns] ?? []).length;
     switch (def.cardinality) {
       case "exactly-one":
         if (count !== 1) errors.push(`${filePath}: namespace "${ns}" requires exactly 1 tag, got ${count}`);
@@ -171,7 +114,6 @@ function lintGestureFile(filePath, ontology) {
         if (count > 1) errors.push(`${filePath}: namespace "${ns}" allows at most 1 tag, got ${count}`);
         break;
       case "zero-or-more":
-        // no constraint
         break;
       default:
         warnings.push(`${filePath}: namespace "${ns}" has unrecognized cardinality "${def.cardinality}"`);
@@ -179,10 +121,10 @@ function lintGestureFile(filePath, ontology) {
   }
 
   // Cross-field: plateau tag must match plateau: field
-  if (buckets.plateau && filePlateau) {
+  if (buckets.plateau && fm.plateau) {
     const tagP = buckets.plateau[0];
-    if (tagP !== filePlateau) {
-      errors.push(`${filePath}: plateau tag "${tagP}" disagrees with structured field "${filePlateau}"`);
+    if (tagP !== fm.plateau) {
+      errors.push(`${filePath}: plateau tag "${tagP}" disagrees with structured field "${fm.plateau}"`);
     }
   }
 
@@ -207,7 +149,7 @@ function main() {
     console.error(`Missing ontology file: ${ONTOLOGY_PATH}`);
     process.exit(2);
   }
-  const ontology = parseOntology(fs.readFileSync(ONTOLOGY_PATH, "utf8"));
+  const ontology = loadOntology(ONTOLOGY_PATH);
   const ontologyNs = Object.keys(ontology);
   console.log(`Ontology loaded: ${ontologyNs.length} namespaces (${ontologyNs.join(", ")})`);
 
