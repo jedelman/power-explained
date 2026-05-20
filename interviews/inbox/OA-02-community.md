@@ -17,7 +17,7 @@
 > felt like from the inside, on day 3 or day 5, before you had language
 > for it.
 
-Armor does something strange in groups.
+Armor does something strange in groups, something that Reich points out in Mass Psychology of Fascism. It _resonates_. In the West, in most places, for most people, that resonance will strengthen the armor. But in at least one place on the West Coast that I will protect by not naming, that resonance actually releases 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI5MTgyOTFdfQ==
+eyJoaXN0b3J5IjpbLTE0ODIyMzYzODZdfQ==
 -->
