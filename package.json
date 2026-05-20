@@ -6,10 +6,13 @@
     "dev": "astro dev",
     "build": "astro build && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js && node scripts/generate-llms-txt.mjs && node scripts/build-stats.mjs",
     "preview": "astro preview",
-    "descent": "node scripts/gen-descent.mjs"
+    "descent": "node scripts/gen-descent.mjs",
+    "lint:tags": "node scripts/lint-tags.mjs",
+    "compile:plateau": "node scripts/compile-plateau.mjs"
   },
   "dependencies": {
+    "@shoelace-style/shoelace": "^2.20.1",
     "astro": "^6.2.1",
-    "@shoelace-style/shoelace": "^2.20.1"
+    "js-yaml": "^4.1.0"
   }
 }

@@ -45,11 +45,12 @@ const book = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/book' }),
   schema: z.object({
     // === existing fields, kept for backwards compat ===
-    slug:        z.string(),
+    slug:        z.string().optional(),
     title:       z.string(),
     description: z.string().optional(),
     h1:          z.string().optional(),
     part:        z.string().optional(),
+    type:        z.string().optional(),
 
     // === plateau identity ===
     plateau: z.object({
@@ -95,10 +96,16 @@ const book = defineCollection({
     })).default([]),
 
     // === beauty / offering check ===
+    //
+    // `status` is intentionally free-form (e.g. "draft-revised-2026-05-19")
+    // — authors annotate the state of the offering in their own vocabulary.
+    // The gesture collection uses an enum at the per-gesture level; the
+    // plateau-level status summarizes a heterogeneous mix and is best
+    // expressed in prose.
     beauty_check: z.object({
-      status: z.enum(['pending', 'passed']),
+      status: z.string(),
       notes:  z.string().optional(),
-    }).optional(),
+    }).passthrough().optional(),
 
     // === sources ===
     sources: z.object({
@@ -108,7 +115,82 @@ const book = defineCollection({
 
     // === build notes ===
     notes: z.string().optional(),
+
+    // === gesture manifest (default linear traversal) ===
+    //
+    // A plateau is composed of gestures. The chapter file is the manifest:
+    // an ordered list of gesture IDs (G-NN-NNN) and the inter-gesture
+    // transitions (paragraph or section break). Gesture content lives in
+    // src/content/gestures/<plateau-id>/. The compile step
+    // (scripts/compile-plateau.mjs) renders the chapter by concatenating
+    // gesture bodies with the declared separators.
+    //
+    // These fields are optional during migration: chapters that haven't
+    // been refactored to gestures still render from their inline body.
+    gestures:   z.array(z.string()).optional(),
+    separators: z.array(z.enum(['paragraph', 'section'])).optional(),
+
+    // === direction (wheel-of-eight) ===
+    //
+    // Wheel-of-eight schema is already in chapter-4 frontmatter; declare
+    // here so the Astro content collection validates. Loose for now —
+    // tighten to enums once stable across all plateaus.
+    direction: z.record(z.any()).optional(),
   }),
 })
 
-export const collections = { articles, book }
+// === Gesture collection ===
+//
+// A gesture is the smallest unit that is (a) authorially indivisible within
+// its native plateau AND (b) liftable into another manifest without dragging
+// non-gesture context with it. See for-agents/gestures-architecture.md.
+//
+// Tag-based classification: kind, voice, capacity, status, place, person,
+// concept, year, zone, direction live in a single `tags:` list under the
+// `<namespace>/<term>` convention. The authoritative ontology with
+// cardinality and openness rules is for-agents/tag-ontology.yml; soft
+// validation runs via scripts/lint-tags.mjs (`npm run lint:tags`).
+//
+// Identity and structured-content fields remain typed.
+
+const gestures = defineCollection({
+  loader: glob({ pattern: 'P-*/*.md', base: './src/content/gestures' }),
+  schema: z.object({
+    // === identity ===
+    id:      z.string(),                 // e.g. "G-04-007"
+    plateau: z.string(),                 // e.g. "P-04" — home plateau
+    title:   z.string(),                 // authorial label; never rendered
+    slug:    z.string(),
+
+    // === classification via tag ontology ===
+    // Format: "<namespace>/<term>". Ontology and lint at
+    // for-agents/tag-ontology.yml and scripts/lint-tags.mjs.
+    tags: z.array(z.string()).default([]),
+
+    // === beauty / offering check ===
+    beauty_check: z.object({
+      passed: z.boolean(),
+      notes:  z.string().optional(),
+    }).optional(),
+
+    // === per-gesture claims for fact-checking ===
+    claims: z.array(z.object({
+      text:     z.string(),
+      citation: z.string().optional(),
+      verified: z.string().optional(),
+    })).default([]),
+
+    // === other gesture IDs this gesture references ===
+    references: z.array(z.string()).default([]),
+
+    // === default linear order hints (chapter manifest is authoritative) ===
+    neighbors: z.object({
+      default_prev: z.string().optional(),
+      default_next: z.string().optional(),
+    }).optional(),
+
+    notes: z.string().optional(),
+  }),
+})
+
+export const collections = { articles, book, gestures }

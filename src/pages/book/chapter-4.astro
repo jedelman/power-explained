@@ -1,11 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro'
 import Doors from '../../components/Doors.astro'
-import { readFileSync } from 'fs'
 import { resolve } from 'path'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
 
-const raw = readFileSync(resolve('src/content/book/chapter-4.md'), 'utf8')
-const body = raw.split('---\n').slice(2).join('---\n').trim()
+// Body is composed from the gesture manifest declared in chapter-4.md.
+// Single source of truth for composition logic: src/lib/composePlateauBody.mjs.
+// Legacy chapters (no gestures: list) fall through to their inline body.
+const body = composePlateauBody(resolve('src/content/book/chapter-4.md'))
 
 function md(text) {
   return text
