@@ -7,9 +7,14 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-16b-007 on
+  2026-05-20]
 ---
 You are at dinner with someone you have known for years. The conversation is alive — the kind where you finish each other's sentences and then argue about how they should have ended. Someone takes out a phone to photograph the food.
+
+And for a moment, the table becomes a set. The plates become props. Your friendship becomes content.

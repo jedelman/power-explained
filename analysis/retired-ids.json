@@ -1,0 +1,727 @@
+[
+  {
+    "id": "G-01-031",
+    "mergedInto": "G-01-030",
+    "plateau": "P-01"
+  },
+  {
+    "id": "G-10-002",
+    "mergedInto": "G-10-001",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-004",
+    "mergedInto": "G-10-003",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-013",
+    "mergedInto": "G-10-012",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-017",
+    "mergedInto": "G-10-016",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-018",
+    "mergedInto": "G-10-016",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-023",
+    "mergedInto": "G-10-022",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-029",
+    "mergedInto": "G-10-028",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-035",
+    "mergedInto": "G-10-034",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-10-043",
+    "mergedInto": "G-10-042",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-11-004",
+    "mergedInto": "G-11-003",
+    "plateau": "P-11"
+  },
+  {
+    "id": "G-11-007",
+    "mergedInto": "G-11-006",
+    "plateau": "P-11"
+  },
+  {
+    "id": "G-11-021",
+    "mergedInto": "G-11-020",
+    "plateau": "P-11"
+  },
+  {
+    "id": "G-11-023",
+    "mergedInto": "G-11-022",
+    "plateau": "P-11"
+  },
+  {
+    "id": "G-12-002",
+    "mergedInto": "G-12-001",
+    "plateau": "P-12"
+  },
+  {
+    "id": "G-12-003",
+    "mergedInto": "G-12-001",
+    "plateau": "P-12"
+  },
+  {
+    "id": "G-12-021",
+    "mergedInto": "G-12-020",
+    "plateau": "P-12"
+  },
+  {
+    "id": "G-12-032",
+    "mergedInto": "G-12-031",
+    "plateau": "P-12"
+  },
+  {
+    "id": "G-12-034",
+    "mergedInto": "G-12-033",
+    "plateau": "P-12"
+  },
+  {
+    "id": "G-12-038",
+    "mergedInto": "G-12-037",
+    "plateau": "P-12"
+  },
+  {
+    "id": "G-13-012",
+    "mergedInto": "G-13-011",
+    "plateau": "P-13"
+  },
+  {
+    "id": "G-13-017",
+    "mergedInto": "G-13-016",
+    "plateau": "P-13"
+  },
+  {
+    "id": "G-14-006",
+    "mergedInto": "G-14-005",
+    "plateau": "P-14"
+  },
+  {
+    "id": "G-14-015",
+    "mergedInto": "G-14-014",
+    "plateau": "P-14"
+  },
+  {
+    "id": "G-14-035",
+    "mergedInto": "G-14-034",
+    "plateau": "P-14"
+  },
+  {
+    "id": "G-15-003",
+    "mergedInto": "G-15-002",
+    "plateau": "P-15"
+  },
+  {
+    "id": "G-15-009",
+    "mergedInto": "G-15-008",
+    "plateau": "P-15"
+  },
+  {
+    "id": "G-15-019",
+    "mergedInto": "G-15-018",
+    "plateau": "P-15"
+  },
+  {
+    "id": "G-15-020",
+    "mergedInto": "G-15-018",
+    "plateau": "P-15"
+  },
+  {
+    "id": "G-15-025",
+    "mergedInto": "G-15-024",
+    "plateau": "P-15"
+  },
+  {
+    "id": "G-15-030",
+    "mergedInto": "G-15-029",
+    "plateau": "P-15"
+  },
+  {
+    "id": "G-16-004",
+    "mergedInto": "G-16-003",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-010",
+    "mergedInto": "G-16-009",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-011",
+    "mergedInto": "G-16-009",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-014",
+    "mergedInto": "G-16-013",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-019",
+    "mergedInto": "G-16-018",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-022",
+    "mergedInto": "G-16-021",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-028",
+    "mergedInto": "G-16-027",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-031",
+    "mergedInto": "G-16-030",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-032",
+    "mergedInto": "G-16-030",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-034",
+    "mergedInto": "G-16-033",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-035",
+    "mergedInto": "G-16-033",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-045",
+    "mergedInto": "G-16-044",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-049",
+    "mergedInto": "G-16-048",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-050",
+    "mergedInto": "G-16-048",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-059",
+    "mergedInto": "G-16-058",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-062",
+    "mergedInto": "G-16-061",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-070",
+    "mergedInto": "G-16-069",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-071",
+    "mergedInto": "G-16-069",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16-072",
+    "mergedInto": "G-16-069",
+    "plateau": "P-16"
+  },
+  {
+    "id": "G-16b-007",
+    "mergedInto": "G-16b-006",
+    "plateau": "P-16b"
+  },
+  {
+    "id": "G-16b-009",
+    "mergedInto": "G-16b-008",
+    "plateau": "P-16b"
+  },
+  {
+    "id": "G-16b-011",
+    "mergedInto": "G-16b-010",
+    "plateau": "P-16b"
+  },
+  {
+    "id": "G-16b-047",
+    "mergedInto": "G-16b-046",
+    "plateau": "P-16b"
+  },
+  {
+    "id": "G-17-010",
+    "mergedInto": "G-17-009",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-013",
+    "mergedInto": "G-17-012",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-025",
+    "mergedInto": "G-17-024",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-026",
+    "mergedInto": "G-17-024",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-030",
+    "mergedInto": "G-17-029",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-032",
+    "mergedInto": "G-17-031",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-037",
+    "mergedInto": "G-17-036",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-042",
+    "mergedInto": "G-17-041",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-17-052",
+    "mergedInto": "G-17-051",
+    "plateau": "P-17"
+  },
+  {
+    "id": "G-18-005",
+    "mergedInto": "G-18-004",
+    "plateau": "P-18"
+  },
+  {
+    "id": "G-18-017",
+    "mergedInto": "G-18-016",
+    "plateau": "P-18"
+  },
+  {
+    "id": "G-18-033",
+    "mergedInto": "G-18-032",
+    "plateau": "P-18"
+  },
+  {
+    "id": "G-18-041",
+    "mergedInto": "G-18-040",
+    "plateau": "P-18"
+  },
+  {
+    "id": "G-02-008",
+    "mergedInto": "G-02-007",
+    "plateau": "P-02"
+  },
+  {
+    "id": "G-02-018",
+    "mergedInto": "G-02-017",
+    "plateau": "P-02"
+  },
+  {
+    "id": "G-02-027",
+    "mergedInto": "G-02-026",
+    "plateau": "P-02"
+  },
+  {
+    "id": "G-02-028",
+    "mergedInto": "G-02-026",
+    "plateau": "P-02"
+  },
+  {
+    "id": "G-02-029",
+    "mergedInto": "G-02-026",
+    "plateau": "P-02"
+  },
+  {
+    "id": "G-03-003",
+    "mergedInto": "G-03-002",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-010",
+    "mergedInto": "G-03-009",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-014",
+    "mergedInto": "G-03-013",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-016",
+    "mergedInto": "G-03-015",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-018",
+    "mergedInto": "G-03-017",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-028",
+    "mergedInto": "G-03-027",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-034",
+    "mergedInto": "G-03-033",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-03-038",
+    "mergedInto": "G-03-037",
+    "plateau": "P-03"
+  },
+  {
+    "id": "G-05-007",
+    "mergedInto": "G-05-006",
+    "plateau": "P-05"
+  },
+  {
+    "id": "G-05-019",
+    "mergedInto": "G-05-018",
+    "plateau": "P-05"
+  },
+  {
+    "id": "G-05-020",
+    "mergedInto": "G-05-018",
+    "plateau": "P-05"
+  },
+  {
+    "id": "G-06-003",
+    "mergedInto": "G-06-002",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-005",
+    "mergedInto": "G-06-004",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-011",
+    "mergedInto": "G-06-010",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-015",
+    "mergedInto": "G-06-014",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-016",
+    "mergedInto": "G-06-014",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-019",
+    "mergedInto": "G-06-018",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-020",
+    "mergedInto": "G-06-018",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-032",
+    "mergedInto": "G-06-031",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-06-045",
+    "mergedInto": "G-06-044",
+    "plateau": "P-06"
+  },
+  {
+    "id": "G-07-008",
+    "mergedInto": "G-07-007",
+    "plateau": "P-07"
+  },
+  {
+    "id": "G-07-009",
+    "mergedInto": "G-07-007",
+    "plateau": "P-07"
+  },
+  {
+    "id": "G-07-029",
+    "mergedInto": "G-07-028",
+    "plateau": "P-07"
+  },
+  {
+    "id": "G-07-036",
+    "mergedInto": "G-07-035",
+    "plateau": "P-07"
+  },
+  {
+    "id": "G-07-038",
+    "mergedInto": "G-07-037",
+    "plateau": "P-07"
+  },
+  {
+    "id": "G-08-010",
+    "mergedInto": "G-08-009",
+    "plateau": "P-08"
+  },
+  {
+    "id": "G-08-012",
+    "mergedInto": "G-08-011",
+    "plateau": "P-08"
+  },
+  {
+    "id": "G-08-013",
+    "mergedInto": "G-08-011",
+    "plateau": "P-08"
+  },
+  {
+    "id": "G-08-021",
+    "mergedInto": "G-08-020",
+    "plateau": "P-08"
+  },
+  {
+    "id": "G-09-002",
+    "mergedInto": "G-09-001",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-005",
+    "mergedInto": "G-09-004",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-011",
+    "mergedInto": "G-09-010",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-015",
+    "mergedInto": "G-09-014",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-016",
+    "mergedInto": "G-09-014",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-020",
+    "mergedInto": "G-09-019",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-030",
+    "mergedInto": "G-09-029",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-09-038",
+    "mergedInto": "G-09-037",
+    "plateau": "P-09"
+  },
+  {
+    "id": "G-EP-002",
+    "mergedInto": "G-EP-001",
+    "plateau": "P-EP"
+  },
+  {
+    "id": "G-EP-003",
+    "mergedInto": "G-EP-001",
+    "plateau": "P-EP"
+  },
+  {
+    "id": "G-GC-008",
+    "mergedInto": "G-GC-007",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-009",
+    "mergedInto": "G-GC-007",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-012",
+    "mergedInto": "G-GC-011",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-017",
+    "mergedInto": "G-GC-016",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-020",
+    "mergedInto": "G-GC-019",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-027",
+    "mergedInto": "G-GC-026",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-033",
+    "mergedInto": "G-GC-032",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-GC-044",
+    "mergedInto": "G-GC-043",
+    "plateau": "P-GC"
+  },
+  {
+    "id": "G-IW-008",
+    "mergedInto": "G-IW-007",
+    "plateau": "P-IW"
+  },
+  {
+    "id": "G-IW-019",
+    "mergedInto": "G-IW-018",
+    "plateau": "P-IW"
+  },
+  {
+    "id": "G-PR-004",
+    "mergedInto": "G-PR-003",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-005",
+    "mergedInto": "G-PR-003",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-010",
+    "mergedInto": "G-PR-009",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-017",
+    "mergedInto": "G-PR-016",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-033",
+    "mergedInto": "G-PR-032",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-034",
+    "mergedInto": "G-PR-032",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-035",
+    "mergedInto": "G-PR-032",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-PR-037",
+    "mergedInto": "G-PR-036",
+    "plateau": "P-PR"
+  },
+  {
+    "id": "G-RE-002",
+    "mergedInto": "G-RE-001",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-008",
+    "mergedInto": "G-RE-007",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-013",
+    "mergedInto": "G-RE-012",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-019",
+    "mergedInto": "G-RE-018",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-027",
+    "mergedInto": "G-RE-026",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-031",
+    "mergedInto": "G-RE-030",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-035",
+    "mergedInto": "G-RE-034",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-RE-036",
+    "mergedInto": "G-RE-034",
+    "plateau": "P-RE"
+  },
+  {
+    "id": "G-CE-006",
+    "mergedInto": "G-CE-005",
+    "plateau": "P-CE"
+  },
+  {
+    "id": "G-CE-012",
+    "mergedInto": "G-CE-011",
+    "plateau": "P-CE"
+  },
+  {
+    "id": "G-CE-014",
+    "mergedInto": "G-CE-013",
+    "plateau": "P-CE"
+  },
+  {
+    "id": "G-CE-025",
+    "mergedInto": "G-CE-024",
+    "plateau": "P-CE"
+  },
+  {
+    "id": "G-CE-029",
+    "mergedInto": "G-CE-028",
+    "plateau": "P-CE"
+  },
+  {
+    "id": "G-CE-031",
+    "mergedInto": "G-CE-030",
+    "plateau": "P-CE"
+  },
+  {
+    "id": "G-10-003",
+    "mergedInto": "G-10-001",
+    "plateau": "P-10"
+  },
+  {
+    "id": "G-18-018",
+    "mergedInto": "G-18-016",
+    "plateau": "P-18"
+  }
+]

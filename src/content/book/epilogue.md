@@ -12,8 +12,6 @@ plateau:
   status: draft
 gestures:
   - G-EP-001
-  - G-EP-002
-  - G-EP-003
   - G-EP-004
   - G-EP-005
   - G-EP-006
@@ -29,8 +27,6 @@ gestures:
   - G-EP-016
   - G-EP-017
 separators:
-  - paragraph
-  - paragraph
   - section
   - paragraph
   - section

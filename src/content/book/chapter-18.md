@@ -15,7 +15,6 @@ gestures:
   - G-18-002
   - G-18-003
   - G-18-004
-  - G-18-005
   - G-18-006
   - G-18-007
   - G-18-008
@@ -27,8 +26,6 @@ gestures:
   - G-18-014
   - G-18-015
   - G-18-016
-  - G-18-017
-  - G-18-018
   - G-18-019
   - G-18-020
   - G-18-021
@@ -43,7 +40,6 @@ gestures:
   - G-18-030
   - G-18-031
   - G-18-032
-  - G-18-033
   - G-18-034
   - G-18-035
   - G-18-036
@@ -51,7 +47,6 @@ gestures:
   - G-18-038
   - G-18-039
   - G-18-040
-  - G-18-041
   - G-18-042
   - G-18-043
   - G-18-044
@@ -67,6 +62,14 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
   - paragraph
   - section
   - paragraph
@@ -80,19 +83,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

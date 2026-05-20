@@ -19,51 +19,44 @@ check still passes.
 
 ## Corpus summary
 
-- 993 gestures across 26 plateaus, 827 paragraph adjacencies scored.
-- **143 STRONG** merges → if all taken, 993 → 850 gestures (14% reduction).
-- 388 *consider* merges available beyond that (review individually).
+- 848 gestures across 26 plateaus, 682 paragraph adjacencies scored.
+- **0 STRONG** merges → if all taken, 848 → 848 gestures (0% reduction).
+- 381 *consider* merges available beyond that (review individually).
 
 ## Per-plateau merge pressure
 
 | plateau | adjacencies | STRONG | consider | keep |
 |---|---|---|---|---|
-| P-01 | 32 | 1 | 19 | 12 |
-| P-10 | 38 | 9 | 9 | 20 |
-| P-11 | 33 | 4 | 15 | 14 |
-| P-12 | 33 | 6 | 11 | 16 |
-| P-13 | 34 | 2 | 17 | 15 |
-| P-14 | 31 | 3 | 11 | 17 |
-| P-15 | 23 | 6 | 10 | 7 |
-| P-16 | 63 | 19 | 23 | 21 |
-| P-16b | 48 | 4 | 28 | 16 |
-| P-17 | 46 | 9 | 25 | 12 |
-| P-18 | 38 | 4 | 16 | 18 |
-| P-02 | 24 | 5 | 14 | 5 |
-| P-03 | 37 | 8 | 18 | 11 |
+| P-01 | 31 | 0 | 18 | 13 |
+| P-10 | 28 | 0 | 8 | 20 |
+| P-11 | 29 | 0 | 16 | 13 |
+| P-12 | 27 | 0 | 12 | 15 |
+| P-13 | 32 | 0 | 17 | 15 |
+| P-14 | 28 | 0 | 12 | 16 |
+| P-15 | 17 | 0 | 9 | 8 |
+| P-16 | 44 | 0 | 25 | 19 |
+| P-16b | 44 | 0 | 28 | 16 |
+| P-17 | 37 | 0 | 25 | 12 |
+| P-18 | 33 | 0 | 16 | 17 |
+| P-02 | 19 | 0 | 13 | 6 |
+| P-03 | 29 | 0 | 15 | 14 |
 | P-04 | 15 | 0 | 13 | 2 |
-| P-05 | 27 | 3 | 14 | 10 |
-| P-06 | 36 | 9 | 11 | 16 |
-| P-07 | 33 | 5 | 15 | 13 |
-| P-08 | 24 | 4 | 7 | 13 |
-| P-09 | 34 | 8 | 14 | 12 |
-| P-EP | 12 | 2 | 7 | 3 |
-| P-GC | 41 | 8 | 27 | 6 |
+| P-05 | 24 | 0 | 12 | 12 |
+| P-06 | 27 | 0 | 11 | 16 |
+| P-07 | 28 | 0 | 15 | 13 |
+| P-08 | 20 | 0 | 8 | 12 |
+| P-09 | 26 | 0 | 14 | 12 |
+| P-EP | 10 | 0 | 7 | 3 |
+| P-GC | 33 | 0 | 26 | 7 |
 | P-IB | 10 | 0 | 6 | 4 |
-| P-IW | 20 | 2 | 13 | 5 |
-| P-PR | 32 | 8 | 12 | 12 |
-| P-RE | 34 | 8 | 19 | 7 |
-| P-CE | 29 | 6 | 14 | 9 |
+| P-IW | 18 | 0 | 13 | 5 |
+| P-PR | 24 | 0 | 12 | 12 |
+| P-RE | 26 | 0 | 18 | 8 |
+| P-CE | 23 | 0 | 12 | 11 |
 
 ## P-01 — chapter-1
 
-### STRONG (1)
-
-**G-01-030 → G-01-031** · score +4 · 87w
-> A: Each one is a system that extracts something from the community — mobility, housing, polit…
-> B: There is a word for this. We will use it precisely and often, and it needs to earn its pla…
-> _+2 anaphoric pronoun start, no new name · +1 combined 87w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (19)
+### consider (18)
 
 - **G-01-001 → G-01-002** (+2, 130w) — +1 combined 130w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-003 → G-01-004** (+2, 223w) — +2 shared: Brambleton
@@ -78,8 +71,7 @@ check still passes.
 - **G-01-023 → G-01-024** (+1, 106w) — +1 combined 106w (arc-sized)
 - **G-01-024 → G-01-025** (+1, 49w) — +1 combined 49w (arc-sized)
 - **G-01-025 → G-01-026** (+2, 17w) — +1 combined 17w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-01-029 → G-01-030** (+2, 89w) — +1 combined 89w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-01-031 → G-01-032** (+1, 81w) — +1 combined 81w (arc-sized)
+- **G-01-029 → G-01-030** (+2, 109w) — +1 combined 109w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-032 → G-01-033** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-033 → G-01-034** (+1, 67w) — +1 combined 67w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
 - **G-01-035 → G-01-036** (+2, 113w) — +1 combined 113w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -87,99 +79,30 @@ check still passes.
 
 ## P-10 — chapter-10
 
-### STRONG (9)
+### consider (8)
 
-**G-10-001 → G-10-002** · score +5 · 118w
-> A: In the summer of 1918, Rosa Luxemburg was in the women's prison at Breslau, Germany, servi…
-> B: Her letters from Breslau are some of the most extraordinary documents of the period. She w…
-> _+2 shared: Breslau · +2 anaphoric pronoun start, no new name · +1 combined 118w (arc-sized)_
-
-**G-10-003 → G-10-004** · score +3 · 79w
-> A: And between the letters, in a manuscript she knew would not be published while the people …
-> B: It praised the revolution. It praised the Bolsheviks' courage, their decisive action at a …
-> _+2 shared: Revolution · +1 combined 79w (arc-sized)_
-
-**G-10-012 → G-10-013** · score +3 · 153w
-> A: Luxemburg's response, published the same year: this is backwards, and the backwardness is …
-> B: She was not arguing against organization. She was arguing against a specific architecture:…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-10-016 → G-10-017** · score +3 · 131w
-> A: The soviets were the revolution. Not the Bolshevik Party, not Lenin, not the red flag over…
-> B: The Bolshevik slogan had been *All Power to the Soviets*. It was right. What followed dism…
-> _+2 shared: Bolshevik · +1 combined 131w (arc-sized)_
-
-**G-10-017 → G-10-018** · score +4 · 106w
-> A: The Bolshevik slogan had been *All Power to the Soviets*. It was right. What followed dism…
-> B: This is the capture mechanism from Chapter 2, operating at revolutionary scale. The soviet…
-> _+2 anaphoric pronoun start, no new name · +1 combined 106w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-10-022 → G-10-023** · score +3 · 122w
-> A: In July 1936, Francisco Franco launched a fascist military coup against the Spanish Republ…
-> B: In Barcelona, workers took over the trams and kept them running — under workers' control, …
-> _+2 shared: Aragon · +1 combined 122w (arc-sized)_
-
-**G-10-028 → G-10-029** · score +4 · 140w
-> A: Centralized revolutionary organizations are capture mechanisms. They extract the productiv…
-> B: This is not a moral claim about bad leaders. It is an architectural claim: the organizatio…
-> _+2 anaphoric pronoun start, no new name · +1 combined 140w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-10-034 → G-10-035** · score +3 · 94w
-> A: Luxemburg understood this. The soviets worked because the workers had skin in the game — t…
-> B: Luxemburg understood this in 1904. Her 1918 essay understood it again — not as theory now,…
-> _+2 shared: Luxemburg · +1 combined 94w (arc-sized)_
-
-**G-10-042 → G-10-043** · score +4 · 91w
-> A: Luxemburg in her prison cell in 1918, feeding birds she had named, writing the analysis th…
-> B: It wasn't buried. We're still reading it. And in reading it, we're in the tradition.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 91w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (9)
-
-- **G-10-002 → G-10-003** (+2, 90w) — +1 continuation-conjunction start; +1 combined 90w (arc-sized)
-- **G-10-004 → G-10-005** (+1, 58w) — +1 combined 58w (arc-sized)
 - **G-10-005 → G-10-006** (+1, 101w) — +1 combined 101w (arc-sized)
 - **G-10-006 → G-10-007** (+1, 115w) — +1 combined 115w (arc-sized)
 - **G-10-010 → G-10-011** (+2, 115w) — +2 shared: Lenin; +1 combined 115w (arc-sized); -1 first ends on a question
-- **G-10-029 → G-10-030** (+2, 65w) — +1 combined 65w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-10-028 → G-10-030** (+1, 147w) — +1 second has no proper noun (leans on antecedent)
 - **G-10-030 → G-10-031** (+2, 33w) — +1 combined 33w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-10-036 → G-10-037** (+1, 47w) — +1 combined 47w (arc-sized)
 - **G-10-039 → G-10-040** (+2, 114w) — +1 combined 114w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-10-042 → G-10-044** (+2, 294w) — +2 shared: Luxemburg
 
 ## P-11 — chapter-11
 
-### STRONG (4)
-
-**G-11-003 → G-11-004** · score +4 · 125w
-> A: The city calls them superblocks. But on the streets themselves, something happened that th…
-> B: This is what the means-are-the-ends insight looks like in concrete and soil. You don't bui…
-> _+2 anaphoric pronoun start, no new name · +1 combined 125w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-11-006 → G-11-007** · score +3 · 114w
-> A: He was born in Moscow in 1842, from one of the oldest families in Russia — the Kropotkins …
-> B: He spent five years in the 1860s doing field research across Siberia and Manchuria — mappi…
-> _+2 shared: Siberia · +1 combined 114w (arc-sized)_
-
-**G-11-020 → G-11-021** · score +3 · 136w
-> A: Murray Bookchin was born in the Bronx in 1921, the son of Jewish anarchist immigrants, and…
-> B: The Bronx of the 1920s and 1930s was dense, multilingual, poor, and alive — built around t…
-> _+2 shared: Bronx · +1 combined 136w (arc-sized)_
-
-**G-11-022 → G-11-023** · score +3 · 106w
-> A: Robert Moses would spend thirty years destroying it.…
-> B: The expressways that cut through the Bronx in the 1950s and 1960s — the Cross Bronx Expres…
-> _+2 shared: Robert, Moses · +1 combined 106w (arc-sized)_
-
-### consider (15)
+### consider (16)
 
 - **G-11-001 → G-11-002** (+1, 73w) — +1 combined 73w (arc-sized)
-- **G-11-002 → G-11-003** (+2, 113w) — +1 combined 113w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-11-002 → G-11-003** (+1, 180w) — +1 second has no proper noun (leans on antecedent)
 - **G-11-008 → G-11-009** (+2, 183w) — +2 shared: Huxley, Kropotkin
 - **G-11-009 → G-11-010** (+2, 198w) — +2 shared: Siberian
 - **G-11-011 → G-11-012** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-11-013 → G-11-014** (+2, 273w) — +2 shared: Graeber
 - **G-11-016 → G-11-017** (+2, 136w) — +1 combined 136w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-11-023 → G-11-024** (+2, 197w) — +2 shared: Moses
+- **G-11-020 → G-11-022** (+2, 242w) — +2 shared: Bronx
+- **G-11-022 → G-11-024** (+2, 205w) — +2 shared: Moses
 - **G-11-024 → G-11-025** (+2, 184w) — +2 shared: Bookchin
 - **G-11-025 → G-11-026** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-11-027 → G-11-028** (+2, 221w) — +2 shared: Kurdish
@@ -190,65 +113,22 @@ check still passes.
 
 ## P-12 — chapter-12
 
-### STRONG (6)
+### consider (12)
 
-**G-12-001 → G-12-002** · score +3 · 62w
-> A: In the winter of 1999, Arundhati Roy was standing waist-deep in the Narmada River.…
-> B: She was there to document what was about to disappear. The Sardar Sarovar Dam — the larges…
-> _+2 shared: Narmada · +1 combined 62w (arc-sized)_
-
-**G-12-002 → G-12-003** · score +3 · 162w
-> A: She was there to document what was about to disappear. The Sardar Sarovar Dam — the larges…
-> B: She had been reporting this story for years, had read the project's own files, had intervi…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-12-020 → G-12-021** · score +3 · 104w
-> A: Freire called this conscientization: the process by which people come to perceive the cont…
-> B: The 1964 military coup imprisoned Freire and sent him into exile. The generals understood …
-> _+2 shared: Freire · +1 combined 104w (arc-sized)_
-
-**G-12-031 → G-12-032** · score +3 · 86w
-> A: What I mean is: the veil lifting is not a liberation. It is a change in what you can see. …
-> B: But that's not the end of it.…
-> _+1 continuation-conjunction start · +1 combined 86w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-12-033 → G-12-034** · score +4 · 107w
-> A: There's a moment in the Washington Interlude, early in this book: a deer walks into camp, …
-> B: That's the argument this chapter is actually making.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 107w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-12-037 → G-12-038** · score +3 · 165w
-> A: Hardt and Negri call consciousness itself a commons — the accumulated shared capacity to p…
-> B: This is the enclosure underneath all the other enclosures. The one that makes the rest pos…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-### consider (11)
-
+- **G-12-001 → G-12-004** (+2, 275w) — +2 shared: Roy, Narmada, Sardar
 - **G-12-004 → G-12-005** (+2, 177w) — +2 shared: Narmada, Roy
 - **G-12-010 → G-12-011** (+1, 156w) — +1 second has no proper noun (leans on antecedent)
 - **G-12-012 → G-12-013** (+2, 141w) — +2 shared: Narmada
 - **G-12-017 → G-12-018** (+2, 177w) — +2 shared: Freire
 - **G-12-018 → G-12-019** (+2, 124w) — +1 combined 124w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-12-019 → G-12-020** (+1, 132w) — +1 combined 132w (arc-sized)
 - **G-12-027 → G-12-028** (+1, 164w) — +1 second has no proper noun (leans on antecedent)
 - **G-12-028 → G-12-029** (+1, 205w) — +1 second has no proper noun (leans on antecedent)
 - **G-12-029 → G-12-030** (+2, 95w) — +1 combined 95w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-12-036 → G-12-037** (+2, 171w) — +2 shared: Freire
+- **G-12-036 → G-12-037** (+2, 236w) — +2 shared: Freire
+- **G-12-037 → G-12-039** (+2, 293w) — +2 shared: Freire
 - **G-12-039 → G-12-040** (+2, 140w) — +1 combined 140w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-13 — chapter-13
-
-### STRONG (2)
-
-**G-13-011 → G-13-012** · score +4 · 116w
-> A: Credit in its original form is not a bank product. It is a social fact. It exists wherever…
-> B: This is the commons that credit came from. And like every commons it has been enclosed — c…
-> _+2 anaphoric pronoun start, no new name · +1 combined 116w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-13-016 → G-13-017** · score +3 · 163w
-> A: This is not an American problem. In India, between 1995 and 2018 approximately 400,000 far…
-> B: This is not a bug in the debt system. It is the system working as designed — converting a …
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
 
 ### consider (17)
 
@@ -272,29 +152,13 @@ check still passes.
 
 ## P-14 — chapter-14
 
-### STRONG (3)
-
-**G-14-005 → G-14-006** · score +4 · 137w
-> A: Walk the corridors around what is now the Eastern Virginia Medical School campus today. Th…
-> B: This is the enclosure running in real time.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 137w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-14-014 → G-14-015** · score +4 · 208w
-> A: E. Richard Sorenson spent decades in contact with preconquest peoples across New Guinea, M…
-> B: This is not romanticism. Sorenson was an anthropologist documenting a specific cognitive s…
-> _+2 shared: Sorenson, Andaman, Sea · +2 anaphoric pronoun start, no new name_
-
-**G-14-034 → G-14-035** · score +3 · 136w
-> A: The institutions built on the displaced community are now the anchor institutions whose pr…
-> B: A woman who grew up in the neighborhood that replaced Atlantic City's residents said it pl…
-> _+2 shared: Atlantic · +1 combined 136w (arc-sized)_
-
-### consider (11)
+### consider (12)
 
 - **G-14-002 → G-14-003** (+1, 69w) — +1 combined 69w (arc-sized)
 - **G-14-003 → G-14-004** (+1, 74w) — +1 combined 74w (arc-sized)
+- **G-14-005 → G-14-007** (+2, 312w) — +2 shared: Atlantic
 - **G-14-008 → G-14-009** (+2, 177w) — +2 shared: Burlington, Champlain, Housing
-- **G-14-015 → G-14-016** (+2, 131w) — +1 combined 131w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-14-014 → G-14-016** (+1, 265w) — +1 second has no proper noun (leans on antecedent)
 - **G-14-016 → G-14-017** (+1, 69w) — +1 combined 69w (arc-sized)
 - **G-14-018 → G-14-019** (+1, 173w) — +1 second has no proper noun (leans on antecedent)
 - **G-14-023 → G-14-024** (+1, 145w) — +1 second has no proper noun (leans on antecedent)
@@ -305,206 +169,56 @@ check still passes.
 
 ## P-15 — chapter-15
 
-### STRONG (6)
+### consider (9)
 
-**G-15-002 → G-15-003** · score +4 · 119w
-> A: It wasn't supposed to still be running. Mutual aid networks form in crises and dissolve wh…
-> B: They stayed. They kept meeting. They expanded from food to tenant support to the slower, h…
-> _+2 anaphoric pronoun start, no new name · +1 combined 119w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-15-008 → G-15-009** · score +3 · 136w
-> A: Between roughly 1400 and 1700, somewhere between 40,000 and 100,000 people were executed a…
-> B: Federici's argument: it was policy.…
-> _+2 shared: Federici · +1 combined 136w (arc-sized)_
-
-**G-15-018 → G-15-019** · score +3 · 177w
-> A: A home health aide in the Bronx — one of roughly two million in the United States — works …
-> B: This is not an anomaly. It is the structure of the care economy: the work is real, the nee…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-15-019 → G-15-020** · score +4 · 114w
-> A: This is not an anomaly. It is the structure of the care economy: the work is real, the nee…
-> B: This is care under enclosure: the labor made to look like love, priced below its cost, ext…
-> _+2 anaphoric pronoun start, no new name · +1 combined 114w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-15-024 → G-15-025** · score +4 · 114w
-> A: She grew up in New York, the daughter of a Guinean immigrant activist who taught her that …
-> B: Her insight is that abolition is care. The demand to build the world that doesn't need pri…
-> _+2 anaphoric pronoun start, no new name · +1 combined 114w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-15-029 → G-15-030** · score +4 · 34w
-> A: The work is local, intimate, and unglamorous. It doesn't scale to infinity or generate ret…
-> B: That is not a weakness. That is the point.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 34w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (10)
-
-- **G-15-001 → G-15-002** (+2, 145w) — +2 shared: Crown, Heights
-- **G-15-003 → G-15-004** (+1, 64w) — +1 combined 64w (arc-sized)
+- **G-15-001 → G-15-002** (+2, 171w) — +2 shared: Crown, Heights
 - **G-15-005 → G-15-006** (+1, 145w) — +2 shared: York; -1 first ends on a question
 - **G-15-006 → G-15-007** (+1, 80w) — +1 combined 80w (arc-sized)
-- **G-15-009 → G-15-010** (+2, 86w) — +1 combined 86w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-15-008 → G-15-010** (+1, 216w) — +1 second has no proper noun (leans on antecedent)
 - **G-15-012 → G-15-013** (+2, 147w) — +2 shared: James, Trinidadian
 - **G-15-013 → G-15-014** (+1, 181w) — +1 second has no proper noun (leans on antecedent)
 - **G-15-014 → G-15-015** (+1, 121w) — +1 combined 121w (arc-sized)
 - **G-15-015 → G-15-016** (+2, 87w) — +1 combined 87w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-15-028 → G-15-029** (+2, 60w) — +1 combined 60w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-15-028 → G-15-029** (+2, 69w) — +1 combined 69w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-16 — chapter-16
 
-### STRONG (19)
-
-**G-16-003 → G-16-004** · score +4 · 87w
-> A: That is not sentiment. The philosophers Michael Hardt and Antonio Negri call it a force — …
-> B: This is also what the commons does at its best.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 87w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-009 → G-16-010** · score +4 · 34w
-> A: You didn't make the language you think in. It made you, partly. And you are making it, sli…
-> B: This is what unconditional love looks like at the scale of a civilization.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 34w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-010 → G-16-011** · score +3 · 20w
-> A: This is what unconditional love looks like at the scale of a civilization.…
-> B: But there is a love that encloses.…
-> _+1 continuation-conjunction start · +1 combined 20w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-013 → G-16-014** · score +3 · 150w
-> A: The French philosopher Jean Baudrillard, writing in 1968, called this the *system of objec…
-> B: This is objectification working in both directions. The objects are stripped of history an…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-018 → G-16-019** · score +4 · 128w
-> A: Guy Debord, writing the year before [CORRECTION: "the same year as Baudrillard" → "the yea…
-> B: This is enclosure applied to love itself — belonging contingent on legibility, the field c…
-> _+2 anaphoric pronoun start, no new name · +1 combined 128w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-021 → G-16-022** · score +3 · 81w
-> A: They had been reading Debord. They spray-painted his ideas on walls: *Under the cobbleston…
-> B: And then it didn't.…
-> _+1 continuation-conjunction start · +1 combined 81w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-027 → G-16-028** · score +3 · 136w
-> A: The philosopher Gilles Deleuze, writing in the aftermath of 1968, had a name for what both…
-> B: Every system of enclosure attempts what Deleuze called *territorialization* — fixing the b…
-> _+2 shared: Deleuze · +1 combined 136w (arc-sized)_
-
-**G-16-030 → G-16-031** · score +3 · 111w
-> A: In the early 1930s, a young Englishman named Alan Turing was becoming someone the world ha…
-> B: He was a serious runner — almost Olympic level — who trained alone on roads outside Cambri…
-> _+2 shared: Turing · +1 combined 111w (arc-sized)_
-
-**G-16-031 → G-16-032** · score +3 · 148w
-> A: He was a serious runner — almost Olympic level — who trained alone on roads outside Cambri…
-> B: He was also, quietly and without apology, gay — in a country where this was criminal. He h…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-033 → G-16-034** · score +4 · 87w
-> A: In 1936, he published a paper in a mathematics journal that almost no one outside the fiel…
-> B: He described a machine — not a physical machine, a thought experiment, a formal device on …
-> _+2 anaphoric pronoun start, no new name · +1 combined 87w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-034 → G-16-035** · score +3 · 110w
-> A: He described a machine — not a physical machine, a thought experiment, a formal device on …
-> B: Then he described something stranger: a *universal* version of this machine. One that coul…
-> _+1 continuation-conjunction start · +1 combined 110w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-044 → G-16-045** · score +4 · 94w
-> A: In June 1954, he was found dead at forty-one. A half-eaten apple on the nightstand. The in…
-> B: This man had spent his entire adult life finding the gaps in organized systems — by necess…
-> _+2 anaphoric pronoun start, no new name · +1 combined 94w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-048 → G-16-049** · score +4 · 75w
-> A: The pattern is not metaphorical. It is a recurring operational decision. The living, embod…
-> B: This is not tragedy. It is policy.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 75w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-049 → G-16-050** · score +3 · 33w
-> A: This is not tragedy. It is policy.…
-> B: And when you see it as policy, the question changes. It is not *how could this happen?* It…
-> _+1 continuation-conjunction start · +1 combined 33w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-058 → G-16-059** · score +3 · 111w
-> A: He thought he was making a toy. Programmers around the world — none paid, none coordinated…
-> B: Four years. Stallman, Berners-Lee, Torvalds — working in different countries on different …
-> _+2 shared: Berners, Lee · +1 combined 111w (arc-sized)_
-
-**G-16-061 → G-16-062** · score +4 · 75w
-> A: The commons is not a noun, not a thing you finish and possess. The Törbel community didn't…
-> B: This book exists because that is true.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 75w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-069 → G-16-070** · score +4 · 64w
-> A: The slight flatness after you close the app. The way a conversation in person feels more r…
-> B: That is not a personal failing. That is the system of conditional love working exactly as …
-> _+2 anaphoric pronoun start, no new name · +1 combined 64w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-070 → G-16-071** · score +4 · 33w
-> A: That is not a personal failing. That is the system of conditional love working exactly as …
-> B: This is how it starts. The commons doesn't disappear. It gets replaced by its image.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 33w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16-071 → G-16-072** · score +3 · 21w
-> A: This is how it starts. The commons doesn't disappear. It gets replaced by its image.…
-> B: And then something stranger happens.…
-> _+1 continuation-conjunction start · +1 combined 21w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (23)
+### consider (25)
 
 - **G-16-001 → G-16-002** (+2, 81w) — +1 combined 81w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-005 → G-16-006** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-007 → G-16-008** (+1, 147w) — +1 second has no proper noun (leans on antecedent)
-- **G-16-008 → G-16-009** (+2, 91w) — +1 combined 91w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-014 → G-16-015** (+2, 117w) — +1 combined 117w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-008 → G-16-009** (+2, 111w) — +1 combined 111w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-013 → G-16-015** (+1, 198w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-015 → G-16-016** (+2, 61w) — +1 combined 61w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-016 → G-16-017** (+2, 59w) — +1 combined 59w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-028 → G-16-029** (+2, 71w) — +1 combined 71w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-032 → G-16-033** (+2, 98w) — +1 combined 98w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-026 → G-16-027** (+2, 176w) — +2 shared: Stonewall
+- **G-16-027 → G-16-029** (+1, 142w) — +1 second has no proper noun (leans on antecedent)
+- **G-16-030 → G-16-033** (+1, 319w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-036 → G-16-037** (+1, 128w) — +1 combined 128w (arc-sized)
 - **G-16-040 → G-16-041** (+1, 75w) — +1 combined 75w (arc-sized)
 - **G-16-042 → G-16-043** (+2, 125w) — +1 combined 125w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-043 → G-16-044** (+2, 49w) — +1 combined 49w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-045 → G-16-046** (+2, 111w) — +1 combined 111w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-047 → G-16-048** (+1, 158w) — +1 second has no proper noun (leans on antecedent)
+- **G-16-043 → G-16-044** (+2, 122w) — +1 combined 122w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-044 → G-16-046** (+2, 132w) — +1 combined 132w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-047 → G-16-048** (+1, 191w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-051 → G-16-052** (+1, 60w) — +1 combined 60w (arc-sized)
 - **G-16-053 → G-16-054** (+1, 109w) — +1 combined 109w (arc-sized)
 - **G-16-056 → G-16-057** (+2, 75w) — +2 shared: Torvalds; +1 combined 75w (arc-sized); -1 first ends on dash/colon landing
-- **G-16-059 → G-16-060** (+2, 84w) — +1 combined 84w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-060 → G-16-061** (+2, 94w) — +1 combined 94w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-062 → G-16-063** (+2, 23w) — +1 combined 23w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-057 → G-16-058** (+2, 167w) — +2 shared: Torvalds
+- **G-16-058 → G-16-060** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-060 → G-16-061** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-061 → G-16-063** (+2, 91w) — +1 combined 91w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-065 → G-16-066** (+2, 56w) — +1 combined 56w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-068 → G-16-069** (+2, 51w) — +1 combined 51w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-068 → G-16-069** (+2, 89w) — +1 combined 89w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-16b — chapter-16b
-
-### STRONG (4)
-
-**G-16b-006 → G-16b-007** · score +3 · 59w
-> A: You are at dinner with someone you have known for years. The conversation is alive — the k…
-> B: And for a moment, the table becomes a set. The plates become props. Your friendship become…
-> _+1 continuation-conjunction start · +1 combined 59w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16b-008 → G-16b-009** · score +3 · 78w
-> A: The phone goes away and the conversation resumes, but something has shifted slightly. The …
-> B: Or: you are somewhere beautiful — a place you have wanted to reach for a long time — and y…
-> _+1 continuation-conjunction start · +1 combined 78w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16b-010 → G-16b-011** · score +3 · 87w
-> A: Now watch a travel influencer online. They have made this total. They travel specifically …
-> B: And they are, in a certain sense, completely alone. The waterfall is not there for them. T…
-> _+1 continuation-conjunction start · +1 combined 87w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-16b-046 → G-16b-047** · score +4 · 114w
-> A: I could not have written it without an AI — not *this* book. I could have written *a* book…
-> B: This is not a confession. It is the argument, enacted.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 114w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
 
 ### consider (28)
 
 - **G-16b-003 → G-16b-004** (+2, 77w) — +1 combined 77w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16b-007 → G-16b-008** (+2, 43w) — +1 combined 43w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16b-009 → G-16b-010** (+2, 109w) — +1 combined 109w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16b-011 → G-16b-012** (+2, 71w) — +1 combined 71w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16b-006 → G-16b-008** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16b-008 → G-16b-010** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
+- **G-16b-010 → G-16b-012** (+2, 128w) — +1 combined 128w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-013 → G-16b-014** (+2, 91w) — +1 combined 91w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-014 → G-16b-015** (+1, 73w) — +1 combined 73w (arc-sized)
 - **G-16b-015 → G-16b-016** (+2, 63w) — +1 continuation-conjunction start; +1 combined 63w (arc-sized)
@@ -524,60 +238,13 @@ check still passes.
 - **G-16b-038 → G-16b-039** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-041 → G-16b-042** (+2, 70w) — +1 combined 70w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-043 → G-16b-044** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16b-047 → G-16b-048** (+2, 46w) — +1 combined 46w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16b-046 → G-16b-048** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
 - **G-16b-048 → G-16b-049** (+2, 62w) — +1 combined 62w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-050 → G-16b-051** (+1, 102w) — +1 combined 102w (arc-sized)
 - **G-16b-054 → G-16b-055** (+1, 84w) — +1 combined 84w (arc-sized)
 - **G-16b-055 → G-16b-056** (+2, 16w) — +1 combined 16w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-17 — chapter-17
-
-### STRONG (9)
-
-**G-17-009 → G-17-010** · score +4 · 109w
-> A: Nobody announced that this had been significant. Nobody needed to. The community already k…
-> B: This is the chapter's central image. Not the owl — the receiving. The community that alrea…
-> _+2 anaphoric pronoun start, no new name · +1 combined 109w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-012 → G-17-013** · score +3 · 138w
-> A: In the communities Sorenson studied, people moved through the world with a quality of open…
-> B: Sorenson watched this consciousness collapse, in real time, on an island in the eastern An…
-> _+2 shared: Sorenson · +1 combined 138w (arc-sized)_
-
-**G-17-024 → G-17-025** · score +4 · 38w
-> A: Think about Neo.…
-> B: He goes through the ordeal. He dies and comes back. He defeats the system. He is, by the s…
-> _+2 anaphoric pronoun start, no new name · +1 combined 38w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-025 → G-17-026** · score +3 · 40w
-> A: He goes through the ordeal. He dies and comes back. He defeats the system. He is, by the s…
-> B: But who welcomes him back?…
-> _+1 continuation-conjunction start · +1 combined 40w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-029 → G-17-030** · score +3 · 55w
-> A: Most of us are Neo. We have made descents — some chosen, some not. We have come back chang…
-> B: So we have had to find each other.…
-> _+1 continuation-conjunction start · +1 combined 55w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-031 → G-17-032** · score +4 · 86w
-> A: Not as a consolation. As the work. The building of the community at the threshold — the on…
-> B: This is the call the chapter is making. Not to descend — many of us have already descended…
-> _+2 anaphoric pronoun start, no new name · +1 combined 86w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-036 → G-17-037** · score +4 · 70w
-> A: A metal roof lasts twenty years. During those twenty years, the occasion does not exist. T…
-> B: They recognized the enclosure of the occasion and refused it. The roof was not a product. …
-> _+2 anaphoric pronoun start, no new name · +1 combined 70w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-041 → G-17-042** · score +4 · 127w
-> A: None of this was designed. It emerged from conditions: mixed uses that kept the street act…
-> B: This is the sidewalk equivalent of the speaking circle. The community practicing the form …
-> _+2 anaphoric pronoun start, no new name · +1 combined 127w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-17-051 → G-17-052** · score +3 · 75w
-> A: The direction of this chapter is outward and upward: from the individual singularity disco…
-> B: But the direction is always the same: out of the underworld, toward the community. The cal…
-> _+1 continuation-conjunction start · +1 combined 75w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
 
 ### consider (25)
 
@@ -586,50 +253,28 @@ check still passes.
 - **G-17-004 → G-17-005** (+2, 66w) — +1 combined 66w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-005 → G-17-006** (+2, 62w) — +1 combined 62w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-006 → G-17-007** (+1, 54w) — +1 combined 54w (arc-sized)
-- **G-17-008 → G-17-009** (+2, 66w) — +1 combined 66w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-17-011 → G-17-012** (+2, 152w) — +2 shared: Sorenson
-- **G-17-013 → G-17-014** (+2, 107w) — +1 combined 107w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-17-008 → G-17-009** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-17-011 → G-17-012** (+2, 212w) — +2 shared: Sorenson
+- **G-17-012 → G-17-014** (+1, 185w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-016 → G-17-017** (+2, 75w) — +1 combined 75w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-017 → G-17-018** (+1, 105w) — +1 combined 105w (arc-sized)
 - **G-17-019 → G-17-020** (+2, 27w) — +1 combined 27w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-021 → G-17-022** (+1, 193w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-022 → G-17-023** (+1, 116w) — +1 combined 116w (arc-sized)
-- **G-17-028 → G-17-029** (+1, 103w) — +1 combined 103w (arc-sized)
-- **G-17-030 → G-17-031** (+2, 43w) — +1 combined 43w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-17-028 → G-17-029** (+1, 111w) — +1 combined 111w (arc-sized)
+- **G-17-029 → G-17-031** (+1, 141w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-033 → G-17-034** (+1, 161w) — +1 second has no proper noun (leans on antecedent)
-- **G-17-035 → G-17-036** (+2, 127w) — +1 combined 127w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-17-035 → G-17-036** (+1, 168w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-039 → G-17-040** (+2, 130w) — +1 combined 130w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-17-040 → G-17-041** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-17-040 → G-17-041** (+1, 188w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-043 → G-17-044** (+2, 201w) — +2 shared: Moses
 - **G-17-045 → G-17-046** (+2, 127w) — +1 combined 127w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-046 → G-17-047** (+1, 119w) — +1 combined 119w (arc-sized)
 - **G-17-048 → G-17-049** (+2, 88w) — +1 combined 88w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-17-050 → G-17-051** (+2, 140w) — +1 combined 140w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-17-052 → G-17-053** (+2, 35w) — +1 combined 35w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-17-050 → G-17-051** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
+- **G-17-051 → G-17-053** (+2, 85w) — +1 combined 85w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-18 — chapter-18
-
-### STRONG (4)
-
-**G-18-004 → G-18-005** · score +3 · 186w
-> A: David Graeber was there. The anthropologist who had spent his career studying debt, gift e…
-> B: And his concept of baseline communism was being enacted in the kitchens and medical tents:…
-> _+2 shared: Graeber · +1 continuation-conjunction start_
-
-**G-18-016 → G-18-017** · score +4 · 88w
-> A: But then there was the Armed Forces Brewing Company — the anti-LGBTQ brewery seeking a per…
-> B: They were within their rights. No rule violated. Just fear, made decisive by the structure…
-> _+2 anaphoric pronoun start, no new name · +1 combined 88w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-18-032 → G-18-033** · score +3 · 54w
-> A: The Flowering Earth.…
-> B: Not the sustainable earth — sustainability is a managerial concept, the earth as resource …
-> _+2 shared: Flowering · +1 combined 54w (arc-sized)_
-
-**G-18-040 → G-18-041** · score +4 · 27w
-> A: The governance meeting at seven-fifteen. The eleven people. The unread agenda. The conflic…
-> B: This is where the earth flowers.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 27w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
 
 ### consider (16)
 
@@ -638,54 +283,27 @@ check still passes.
 - **G-18-010 → G-18-011** (+2, 58w) — +1 combined 58w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-012 → G-18-013** (+2, 99w) — +1 combined 99w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-014 → G-18-015** (+2, 52w) — +1 combined 52w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-18-018 → G-18-019** (+1, 59w) — +1 combined 59w (arc-sized)
 - **G-18-020 → G-18-021** (+1, 128w) — +1 combined 128w (arc-sized)
 - **G-18-021 → G-18-022** (+1, 84w) — +1 combined 84w (arc-sized)
 - **G-18-022 → G-18-023** (+1, 136w) — +1 combined 136w (arc-sized)
 - **G-18-028 → G-18-029** (+2, 85w) — +1 combined 85w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-029 → G-18-030** (+2, 39w) — +1 combined 39w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-18-033 → G-18-034** (+2, 116w) — +1 combined 116w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-18-031 → G-18-032** (+1, 65w) — +1 combined 65w (arc-sized)
+- **G-18-032 → G-18-034** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-034 → G-18-035** (+1, 106w) — +1 combined 106w (arc-sized)
 - **G-18-035 → G-18-036** (+2, 82w) — +1 combined 82w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-038 → G-18-039** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-18-039 → G-18-040** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-18-039 → G-18-040** (+2, 125w) — +1 combined 125w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-02 — chapter-2
 
-### STRONG (5)
-
-**G-02-007 → G-02-008** · score +4 · 79w
-> A: You produced the armor. You handed it to them. You got a parking ticket.…
-> B: This is not cynicism. It is a description of a structural relationship. The system did not…
-> _+2 anaphoric pronoun start, no new name · +1 combined 79w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-02-017 → G-02-018** · score +4 · 116w
-> A: The hospital that was built on Atlantic City now trains the doctors who serve the region. …
-> B: This is enclosure in its full form. Not just the taking — the forgetting. The conversion i…
-> _+2 anaphoric pronoun start, no new name · +1 combined 116w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-02-026 → G-02-027** · score +4 · 90w
-> A: "When I hear, 'This time things will be different,' I think it's malarkey," said one longt…
-> B: She knows the structural relationship. She has learned it through her grandmother's experi…
-> _+2 anaphoric pronoun start, no new name · +1 combined 90w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-02-027 → G-02-028** · score +4 · 56w
-> A: She knows the structural relationship. She has learned it through her grandmother's experi…
-> B: That refusal — the naming, the seeing clearly, the refusal to call the loss progress — is …
-> _+2 anaphoric pronoun start, no new name · +1 combined 56w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-02-028 → G-02-029** · score +4 · 23w
-> A: That refusal — the naming, the seeing clearly, the refusal to call the loss progress — is …
-> B: It is where the work begins.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 23w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (14)
+### consider (13)
 
 - **G-02-001 → G-02-002** (+2, 45w) — +1 combined 45w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-02-003 → G-02-004** (+2, 10w) — +1 combined 10w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-02-004 → G-02-005** (+2, 48w) — +1 combined 48w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-02-006 → G-02-007** (+2, 58w) — +1 combined 58w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-02-008 → G-02-009** (+2, 99w) — +1 combined 99w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-02-006 → G-02-007** (+2, 123w) — +1 combined 123w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-02-007 → G-02-009** (+2, 113w) — +1 combined 113w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-02-010 → G-02-011** (+2, 162w) — +2 shared: Norfolk
 - **G-02-011 → G-02-012** (+2, 154w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
 - **G-02-014 → G-02-015** (+2, 185w) — +2 shared: Atlantic, Norfolk
@@ -694,69 +312,23 @@ check still passes.
 - **G-02-020 → G-02-021** (+1, 72w) — +1 combined 72w (arc-sized)
 - **G-02-021 → G-02-022** (+1, 140w) — +1 combined 140w (arc-sized)
 - **G-02-022 → G-02-023** (+2, 124w) — +1 combined 124w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-02-025 → G-02-026** (+1, 102w) — +1 combined 102w (arc-sized)
 
 ## P-03 — chapter-3
 
-### STRONG (8)
+### consider (15)
 
-**G-03-002 → G-03-003** · score +3 · 98w
-> A: They come from the Pacific, tracking west across the warm water, and when they make landfa…
-> B: And in the morning, the community gathers to rebuild it.…
-> _+1 continuation-conjunction start · +1 combined 98w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-03-009 → G-03-010** · score +3 · 113w
-> A: Not as an argument — as a feeling. Something in you recognizes this. The typhoon, the comm…
-> B: So why does it feel so far away?…
-> _+1 continuation-conjunction start · +1 combined 113w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-03-013 → G-03-014** · score +4 · 63w
-> A: In 1968, a professor of human ecology at the University of California, Santa Barbara publi…
-> B: It described a situation that does not exist.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 63w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-03-015 → G-03-016** · score +3 · 229w
-> A: You should know what kind of man Garrett Hardin was, because it explains something about w…
-> B: His paper about the commons was not a deviation from this worldview. It was the scientific…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-03-017 → G-03-018** · score +4 · 120w
-> A: The argument runs like this: imagine a pasture open to all. Each herder benefits fully fro…
-> B: He was not describing any actual commons that had ever existed. He was describing what a c…
-> _+2 anaphoric pronoun start, no new name · +1 combined 120w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-03-027 → G-03-028** · score +3 · 137w
-> A: So if Hardin is wrong — comprehensively, empirically, repeatedly wrong — why is he still i…
-> B: Because the paper was not received the way it was received because it was true. It was rec…
-> _+2 shared: Hardin · +1 continuation-conjunction start · +1 combined 137w (arc-sized) · -1 first ends on a question_
-
-**G-03-033 → G-03-034** · score +4 · 102w
-> A: The commons was the room: the accumulated capacity of that particular space and those part…
-> B: That is what we lost when we closed.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 102w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-03-037 → G-03-038** · score +3 · 122w
-> A: What Negri and Hardt built across *Empire*, *Multitude*, and *Commonwealth*: if biopower i…
-> B: And what is the substrate of all this production?…
-> _+1 continuation-conjunction start · +1 combined 122w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (18)
-
-- **G-03-001 → G-03-002** (+1, 101w) — +1 combined 101w (arc-sized)
-- **G-03-003 → G-03-004** (+1, 68w) — +1 combined 68w (arc-sized)
+- **G-03-001 → G-03-002** (+1, 111w) — +1 combined 111w (arc-sized)
 - **G-03-004 → G-03-005** (+2, 66w) — +1 combined 66w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-005 → G-03-006** (+2, 103w) — +1 combined 103w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-006 → G-03-007** (+1, 109w) — +1 combined 109w (arc-sized)
-- **G-03-008 → G-03-009** (+2, 110w) — +1 combined 110w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-03-010 → G-03-011** (+1, 54w) — +1 combined 54w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
+- **G-03-008 → G-03-009** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-011 → G-03-012** (+2, 59w) — +1 continuation-conjunction start; +1 combined 59w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
-- **G-03-016 → G-03-017** (+1, 91w) — +1 combined 91w (arc-sized)
-- **G-03-018 → G-03-019** (+1, 86w) — +1 combined 86w (arc-sized)
+- **G-03-017 → G-03-019** (+1, 132w) — +1 combined 132w (arc-sized)
 - **G-03-022 → G-03-023** (+2, 216w) — +2 shared: Valencia, Valencian
-- **G-03-028 → G-03-029** (+2, 163w) — +2 shared: Hardin
-- **G-03-032 → G-03-033** (+1, 166w) — +1 second has no proper noun (leans on antecedent)
+- **G-03-027 → G-03-029** (+2, 224w) — +2 shared: Hardin
+- **G-03-032 → G-03-033** (+1, 174w) — +1 second has no proper noun (leans on antecedent)
 - **G-03-035 → G-03-036** (+2, 243w) — +2 shared: Foucault, Paris, Gramsci
-- **G-03-036 → G-03-037** (+2, 264w) — +2 shared: Negri, Empire
+- **G-03-036 → G-03-037** (+2, 273w) — +2 shared: Negri, Empire
 - **G-03-039 → G-03-040** (+2, 95w) — +1 combined 95w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-043 → G-03-044** (+1, 77w) — +1 combined 77w (arc-sized)
 - **G-03-045 → G-03-046** (+2, 109w) — +1 combined 109w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -781,34 +353,15 @@ check still passes.
 
 ## P-05 — chapter-5
 
-### STRONG (3)
-
-**G-05-006 → G-05-007** · score +4 · 69w
-> A: She was arrested. She lectured from prison. By the time she was forty she had spent roughl…
-> B: Her argument: capitalism can't sustain itself from its own interior.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 69w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-05-018 → G-05-019** · score +3 · 167w
-> A: Kollontai left her husband. She left her son with her mother, who had the resources to giv…
-> B: She wrote about what she had seen: the labor that kept the worker alive and ready to retur…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-05-019 → G-05-020** · score +3 · 145w
-> A: She wrote about what she had seen: the labor that kept the worker alive and ready to retur…
-> B: This is an outside. Not a geographical frontier. A relational one. The line between what c…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-### consider (14)
+### consider (12)
 
 - **G-05-003 → G-05-004** (+2, 147w) — +2 shared: Berlin
 - **G-05-004 → G-05-005** (+2, 45w) — +1 combined 45w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-05-007 → G-05-008** (+1, 87w) — +1 combined 87w (arc-sized)
 - **G-05-008 → G-05-009** (+2, 82w) — +1 combined 82w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-009 → G-05-010** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-010 → G-05-011** (+2, 166w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
 - **G-05-016 → G-05-017** (+2, 193w) — +2 shared: Petersburg
-- **G-05-017 → G-05-018** (+2, 205w) — +2 shared: Kollontai
-- **G-05-020 → G-05-021** (+1, 121w) — +1 combined 121w (arc-sized)
+- **G-05-017 → G-05-018** (+2, 350w) — +2 shared: Kollontai
 - **G-05-025 → G-05-026** (+2, 64w) — +1 combined 64w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-027 → G-05-028** (+2, 76w) — +1 combined 76w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-028 → G-05-029** (+2, 39w) — +1 combined 39w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -817,59 +370,12 @@ check still passes.
 
 ## P-06 — chapter-6
 
-### STRONG (9)
-
-**G-06-002 → G-06-003** · score +3 · 168w
-> A: In 2019 I bought a house built in 1916 at the edge of Chelsea, a working neighborhood in N…
-> B: That's not a confession designed to immunize me from the argument. It's a statement of pos…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-06-004 → G-06-005** · score +4 · 104w
-> A: Cedric Robinson grew up in Oakland in the 1940s. He arrived at Berkeley in the late 1950s …
-> B: He watched and asked a question most of his contemporaries weren't asking: not *what speci…
-> _+2 anaphoric pronoun start, no new name · +1 combined 104w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-06-010 → G-06-011** · score +3 · 135w
-> A: When European capitalism emerged from feudalism, it built on these hierarchies rather than…
-> B: This is what Robinson called *racial capitalism*: not capitalism plus racism, but capitali…
-> _+2 shared: Race · +1 combined 135w (arc-sized)_
-
-**G-06-014 → G-06-015** · score +4 · 200w
-> A: W.E.B. Du Bois, in *Black Reconstruction in America* (1935), extended this analysis into s…
-> B: They were real wages. And accepting them cost something. To claim the wages of whiteness r…
-> _+2 shared: Black · +2 anaphoric pronoun start, no new name_
-
-**G-06-015 → G-06-016** · score +3 · 143w
-> A: They were real wages. And accepting them cost something. To claim the wages of whiteness r…
-> B: This is not an argument about white pathology. It is an argument about structural incentiv…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-06-018 → G-06-019** · score +3 · 262w
-> A: Norfolk holds neighborhood association meetings. I went to several. The neighborhood I'd b…
-> B: So the people at the neighborhood association meetings were overwhelmingly white. And what…
-> _+2 shared: Eleven · +1 continuation-conjunction start_
-
-**G-06-019 → G-06-020** · score +3 · 117w
-> A: So the people at the neighborhood association meetings were overwhelmingly white. And what…
-> B: Then I'd see the same people at the dive bar across the street on a Friday night, laughing…
-> _+1 continuation-conjunction start · +1 combined 117w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-06-031 → G-06-032** · score +3 · 194w
-> A: The Atlantic slave trade removed an estimated twelve million people from Africa over rough…
-> B: Then formal colonization. By 1900, European powers controlled almost the entire continent.…
-> _+2 shared: Africa · +1 continuation-conjunction start_
-
-**G-06-044 → G-06-045** · score +4 · 52w
-> A: Robinson's book was kept out of print. Rodney was killed. The argument survived indifferen…
-> B: *It didn't stay on the outside.*…
-> _+2 anaphoric pronoun start, no new name · +1 combined 52w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
 ### consider (11)
 
 - **G-06-007 → G-06-008** (+1, 92w) — +1 combined 92w (arc-sized)
 - **G-06-012 → G-06-013** (+2, 118w) — +1 continuation-conjunction start; +1 combined 118w (arc-sized)
-- **G-06-016 → G-06-017** (+2, 41w) — +1 combined 41w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-06-020 → G-06-021** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-06-014 → G-06-017** (+1, 241w) — +1 second has no proper noun (leans on antecedent)
+- **G-06-018 → G-06-021** (+1, 359w) — +1 second has no proper noun (leans on antecedent)
 - **G-06-024 → G-06-025** (+2, 151w) — +2 shared: Palmares
 - **G-06-027 → G-06-028** (+2, 85w) — +2 shared: Africa; +1 combined 85w (arc-sized); -1 first ends on dash/colon landing
 - **G-06-029 → G-06-030** (+2, 147w) — +2 shared: Zimbabwe
@@ -879,33 +385,6 @@ check still passes.
 - **G-06-042 → G-06-043** (+1, 101w) — +1 combined 101w (arc-sized)
 
 ## P-07 — chapter-7
-
-### STRONG (5)
-
-**G-07-007 → G-07-008** · score +3 · 122w
-> A: One case: a French officer, referred by his superiors, who had been having violent episode…
-> B: Fanon treated him as best he could. This meant treating someone who was simultaneously his…
-> _+2 shared: Fanon · +1 combined 122w (arc-sized)_
-
-**G-07-008 → G-07-009** · score +5 · 97w
-> A: Fanon treated him as best he could. This meant treating someone who was simultaneously his…
-> B: That recognition — that the symptoms on both sides were products of the same structure, th…
-> _+2 shared: Fanon · +2 anaphoric pronoun start, no new name · +1 combined 97w (arc-sized)_
-
-**G-07-028 → G-07-029** · score +3 · 103w
-> A: Foucault had shown how modern power works not primarily through killing but through managi…
-> B: Foucault's question was: how does power make life productive? Mbembe's question, from the …
-> _+2 shared: Foucault · +1 combined 103w (arc-sized)_
-
-**G-07-035 → G-07-036** · score +4 · 127w
-> A: I was president of the neighborhood league at the time. Shipyard workers leaving the MHI l…
-> B: They ran out of language before they could face what they were doing.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 127w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-07-037 → G-07-038** · score +4 · 52w
-> A: What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.…
-> B: That phrase is not a statement about capacity. It is a decision about whose lives warrant …
-> _+2 anaphoric pronoun start, no new name · +1 combined 52w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
 
 ### consider (15)
 
@@ -920,119 +399,44 @@ check still passes.
 - **G-07-023 → G-07-024** (+2, 235w) — +2 shared: Cameroon
 - **G-07-024 → G-07-025** (+2, 214w) — +2 shared: Cameroon, France
 - **G-07-026 → G-07-027** (+2, 221w) — +2 shared: Social, Research, Johannesburg
-- **G-07-029 → G-07-030** (+1, 142w) — +2 shared: Foucault; -1 first ends on a question
+- **G-07-028 → G-07-030** (+1, 216w) — +2 shared: Foucault; -1 first ends on a question
 - **G-07-033 → G-07-034** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-07-036 → G-07-037** (+2, 30w) — +1 combined 30w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-07-035 → G-07-037** (+1, 179w) — +1 second has no proper noun (leans on antecedent)
 - **G-07-040 → G-07-041** (+1, 163w) — +1 second has no proper noun (leans on antecedent)
 
 ## P-08 — chapter-8
 
-### STRONG (4)
-
-**G-08-009 → G-08-010** · score +4 · 180w
-> A: Sylvia Wynter was born in Cuba in 1928 and grew up in Jamaica. She studied in London on a …
-> B: That practice — trying to tell a story about what it means to be human from a position the…
-> _+2 shared: Caribbean · +2 anaphoric pronoun start, no new name_
-
-**G-08-011 → G-08-012** · score +3 · 129w
-> A: Medieval Christian Europe understood what human beings were through a theological framewor…
-> B: Wynter calls this *overrepresentation*: one civilization's self-portrait became the defini…
-> _+2 shared: Everyone · +1 combined 129w (arc-sized)_
-
-**G-08-012 → G-08-013** · score +4 · 155w
-> A: Wynter calls this *overrepresentation*: one civilization's self-portrait became the defini…
-> B: There is a version of this argument running through the present moment. The large language…
-> _+2 shared: Wynter · +2 anaphoric pronoun start, no new name_
-
-**G-08-020 → G-08-021** · score +3 · 131w
-> A: Angela Davis has been building in exactly that direction longer than most people have been…
-> B: She was born in Birmingham, Alabama in 1944, in the neighborhood called Dynamite Hill — na…
-> _+2 shared: Davis · +1 combined 131w (arc-sized)_
-
-### consider (7)
+### consider (8)
 
 - **G-08-005 → G-08-006** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-08-009 → G-08-011** (+2, 437w) — +2 shared: Wynter
 - **G-08-016 → G-08-017** (+2, 176w) — +2 shared: Black
 - **G-08-017 → G-08-018** (+2, 182w) — +2 shared: Black
-- **G-08-021 → G-08-022** (+2, 327w) — +2 shared: Black, Davis
+- **G-08-020 → G-08-022** (+2, 345w) — +2 shared: Davis, Black
 - **G-08-022 → G-08-023** (+2, 352w) — +2 shared: Davis
 - **G-08-026 → G-08-027** (+1, 227w) — +1 second has no proper noun (leans on antecedent)
 - **G-08-027 → G-08-028** (+1, 140w) — +1 combined 140w (arc-sized)
 
 ## P-09 — chapter-9
 
-### STRONG (8)
-
-**G-09-001 → G-09-002** · score +3 · 91w
-> A: In September 1920, the workers of Turin occupied the factories.…
-> B: It had been building for months. The factory councils — elected bodies governing productio…
-> _+2 shared: Turin · +1 combined 91w (arc-sized)_
-
-**G-09-004 → G-09-005** · score +5 · 68w
-> A: Then it collapsed. The Italian Socialist Party leadership, afraid of where it was going, r…
-> B: He was thirty-five years old. Mussolini's prosecutor told the court: *we must stop this br…
-> _+2 shared: Mussolini · +2 anaphoric pronoun start, no new name · +1 combined 68w (arc-sized)_
-
-**G-09-010 → G-09-011** · score +3 · 143w
-> A: Think about a moment when you encountered an idea — maybe about how housing could work, or…
-> B: That reflex has a history. It was built — in the schools that taught you what counts as co…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-09-014 → G-09-015** · score +3 · 105w
-> A: The councils had built something extraordinary inside the factories. They were right — eve…
-> B: And still they fell. Not because they were wrong but because they were isolated. Around th…
-> _+1 continuation-conjunction start · +1 combined 105w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-09-015 → G-09-016** · score +3 · 142w
-> A: And still they fell. Not because they were wrong but because they were isolated. Around th…
-> B: This was the failure. Not of will or organization or courage. Of territory. And it is the …
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-09-019 → G-09-020** · score +4 · 73w
-> A: The commons isn't just an economic alternative. It's a hegemonic project.…
-> B: It's the slow, patient work of building institutions that embody different assumptions — t…
-> _+2 anaphoric pronoun start, no new name · +1 combined 73w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-09-029 → G-09-030** · score +4 · 93w
-> A: Every community land trust that removes housing from the speculative market permanently — …
-> B: These are not waiting for the revolution. They *are* the revolution, happening at the spee…
-> _+2 anaphoric pronoun start, no new name · +1 combined 93w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-09-037 → G-09-038** · score +4 · 81w
-> A: Gramsci died in 1937 with the notebooks smuggled out. The councils were long gone. Fascism…
-> B: He knew what he was building. He built it anyway.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 81w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
 ### consider (14)
 
-- **G-09-002 → G-09-003** (+2, 202w) — +2 shared: Turin, Fiat
+- **G-09-001 → G-09-003** (+2, 212w) — +2 shared: Turin, Fiat
+- **G-09-004 → G-09-006** (+2, 186w) — +2 shared: Gramsci
 - **G-09-008 → G-09-009** (+2, 252w) — +2 shared: Gramsci
 - **G-09-012 → G-09-013** (+1, 135w) — +1 combined 135w (arc-sized)
-- **G-09-016 → G-09-017** (+1, 84w) — +1 combined 84w (arc-sized)
 - **G-09-017 → G-09-018** (+2, 127w) — +1 combined 127w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-09-018 → G-09-019** (+2, 123w) — +1 combined 123w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-09-020 → G-09-021** (+2, 89w) — +1 combined 89w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-09-018 → G-09-019** (+1, 183w) — +1 second has no proper noun (leans on antecedent)
+- **G-09-019 → G-09-021** (+2, 102w) — +1 combined 102w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-09-021 → G-09-022** (+1, 121w) — +1 combined 121w (arc-sized)
 - **G-09-027 → G-09-028** (+1, 99w) — +1 combined 99w (arc-sized)
-- **G-09-028 → G-09-029** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-09-030 → G-09-031** (+1, 57w) — +1 combined 57w (arc-sized)
+- **G-09-028 → G-09-029** (+2, 139w) — +1 combined 139w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-09-029 → G-09-031** (+1, 130w) — +1 combined 130w (arc-sized)
 - **G-09-032 → G-09-033** (+1, 111w) — +1 combined 111w (arc-sized)
 - **G-09-034 → G-09-035** (+2, 163w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
-- **G-09-038 → G-09-039** (+2, 63w) — +1 combined 63w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-09-037 → G-09-039** (+2, 134w) — +1 combined 134w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-EP — epilogue
-
-### STRONG (2)
-
-**G-EP-001 → G-EP-002** · score +4 · 87w
-> A: There are doves on the ground next to my chair.…
-> B: It's taken me years to learn to quiet the subtle movements of my body enough that they fee…
-> _+2 anaphoric pronoun start, no new name · +1 combined 87w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-EP-002 → G-EP-003** · score +4 · 103w
-> A: It's taken me years to learn to quiet the subtle movements of my body enough that they fee…
-> B: This is the thing the book kept circling without quite landing on: the commons is not only…
-> _+2 anaphoric pronoun start, no new name · +1 combined 103w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
 
 ### consider (7)
 
@@ -1046,75 +450,32 @@ check still passes.
 
 ## P-GC — goetia
 
-### STRONG (8)
-
-**G-GC-007 → G-GC-008** · score +4 · 78w
-> A: Capital produces the bodies that capital needs.…
-> B: This is not a conspiracy. It does not require anyone to intend it. The school that produce…
-> _+2 anaphoric pronoun start, no new name · +1 combined 78w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-GC-008 → G-GC-009** · score +3 · 89w
-> A: This is not a conspiracy. It does not require anyone to intend it. The school that produce…
-> B: And when you try to build something that requires a different kind of person, you discover…
-> _+1 continuation-conjunction start · +1 combined 89w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-GC-011 → G-GC-012** · score +4 · 72w
-> A: My methods are built on autonomy. Not the sink-or-swim version — I scaffold the necessary …
-> B: His instincts didn't take over.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 72w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-GC-016 → G-GC-017** · score +4 · 110w
-> A: In that world, my offer of autonomy was not liberation. It was abandonment. The freedom I …
-> B: This is production of subjectivity at close range. The system had not failed to educate hi…
-> _+2 anaphoric pronoun start, no new name · +1 combined 110w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-GC-019 → G-GC-020** · score +3 · 113w
-> A: *Hegemony.* We will come to Gramsci in detail later, but the name belongs here because it …
-> B: Hegemony is not domination by force. Force is what power uses when hegemony fails. Hegemon…
-> _+2 shared: Hegemony · +1 combined 113w (arc-sized)_
-
-**G-GC-026 → G-GC-027** · score +4 · 50w
-> A: The outside is wherever the accounting stops. And the commons, in every form, is perpetual…
-> B: This is why the commons was not enclosed because it failed. It was enclosed because it wor…
-> _+2 anaphoric pronoun start, no new name · +1 combined 50w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-GC-032 → G-GC-033** · score +3 · 77w
-> A: Now ask: what is the name for what produced this?…
-> B: It may be hegemony — the common sense that made your objection seem impolite, disruptive, …
-> _+2 anaphoric pronoun start, no new name · +1 combined 77w (arc-sized) · +1 second has no proper noun (leans on antecedent) · -1 first ends on a question_
-
-**G-GC-043 → G-GC-044** · score +4 · 130w
-> A: The commons is built from connection, not from correct design. The design matters — Ostrom…
-> B: This is the thing the enclosure cannot produce. It can produce compliance. It can produce …
-> _+2 anaphoric pronoun start, no new name · +1 combined 130w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (27)
+### consider (26)
 
 - **G-GC-001 → G-GC-002** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-002 → G-GC-003** (+1, 130w) — +1 combined 130w (arc-sized)
 - **G-GC-003 → G-GC-004** (+2, 104w) — +1 combined 104w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-005 → G-GC-006** (+1, 138w) — +1 combined 138w (arc-sized)
-- **G-GC-006 → G-GC-007** (+2, 80w) — +1 combined 80w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-010 → G-GC-011** (+2, 128w) — +1 combined 128w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-006 → G-GC-007** (+1, 169w) — +1 second has no proper noun (leans on antecedent)
+- **G-GC-010 → G-GC-011** (+2, 134w) — +1 combined 134w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-013 → G-GC-014** (+2, 46w) — +1 combined 46w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-014 → G-GC-015** (+1, 88w) — +1 combined 88w (arc-sized)
-- **G-GC-015 → G-GC-016** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-017 → G-GC-018** (+2, 92w) — +1 combined 92w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-015 → G-GC-016** (+1, 192w) — +1 second has no proper noun (leans on antecedent)
+- **G-GC-016 → G-GC-018** (+1, 147w) — +1 second has no proper noun (leans on antecedent)
 - **G-GC-021 → G-GC-022** (+1, 94w) — +1 combined 94w (arc-sized)
 - **G-GC-022 → G-GC-023** (+2, 49w) — +1 combined 49w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-025 → G-GC-026** (+2, 88w) — +1 combined 88w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-025 → G-GC-026** (+2, 116w) — +1 combined 116w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-028 → G-GC-029** (+2, 38w) — +1 combined 38w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-029 → G-GC-030** (+1, 79w) — +1 combined 79w (arc-sized)
-- **G-GC-031 → G-GC-032** (+2, 51w) — +1 combined 51w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-033 → G-GC-034** (+2, 79w) — +1 combined 79w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-031 → G-GC-032** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-032 → G-GC-034** (+2, 89w) — +1 combined 89w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-034 → G-GC-035** (+1, 55w) — +1 combined 55w (arc-sized)
 - **G-GC-036 → G-GC-037** (+2, 97w) — +1 continuation-conjunction start; +1 combined 97w (arc-sized)
 - **G-GC-037 → G-GC-038** (+2, 61w) — +1 combined 61w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-039 → G-GC-040** (+1, 29w) — +1 combined 29w (arc-sized)
 - **G-GC-040 → G-GC-041** (+2, 29w) — +1 combined 29w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-041 → G-GC-042** (+2, 74w) — +1 combined 74w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-042 → G-GC-043** (+1, 125w) — +1 combined 125w (arc-sized)
-- **G-GC-044 → G-GC-045** (+2, 80w) — +1 combined 80w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-043 → G-GC-045** (+1, 146w) — +1 second has no proper noun (leans on antecedent)
 - **G-GC-045 → G-GC-046** (+2, 58w) — +1 combined 58w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-047 → G-GC-048** (+1, 26w) — +1 combined 26w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
 
@@ -1131,207 +492,76 @@ check still passes.
 
 ## P-IW — interlude-washington
 
-### STRONG (2)
-
-**G-IW-007 → G-IW-008** · score +4 · 83w
-> A: Do you know how hard it is to get a group of five-year-olds to be silent? For twenty minut…
-> B: That's the whole thing. That's what the work is actually for.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 83w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-IW-018 → G-IW-019** · score +4 · 98w
-> A: The work is patient. It measures its effects in decades. It will not produce a policy vict…
-> B: This is what building the commons looks like at its slowest and most durable. Not a rally,…
-> _+2 anaphoric pronoun start, no new name · +1 combined 98w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
 ### consider (13)
 
 - **G-IW-001 → G-IW-002** (+2, 51w) — +1 combined 51w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-003 → G-IW-004** (+1, 158w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-004 → G-IW-005** (+2, 88w) — +1 combined 88w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-005 → G-IW-006** (+2, 80w) — +1 combined 80w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-IW-006 → G-IW-007** (+1, 141w) — +1 second has no proper noun (leans on antecedent)
-- **G-IW-008 → G-IW-009** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-IW-006 → G-IW-007** (+1, 154w) — +1 second has no proper noun (leans on antecedent)
+- **G-IW-007 → G-IW-009** (+1, 167w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-009 → G-IW-010** (+2, 131w) — +1 combined 131w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-010 → G-IW-011** (+1, 67w) — +1 combined 67w (arc-sized)
 - **G-IW-011 → G-IW-012** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-013 → G-IW-014** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-015 → G-IW-016** (+2, 192w) — +2 shared: Gramsci
-- **G-IW-017 → G-IW-018** (+2, 126w) — +1 combined 126w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-IW-017 → G-IW-018** (+1, 163w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-020 → G-IW-021** (+1, 221w) — +1 second has no proper noun (leans on antecedent)
 
 ## P-PR — prologue
 
-### STRONG (8)
-
-**G-PR-003 → G-PR-004** · score +3 · 147w
-> A: Or it's the highway that cut the neighborhood in half in 1965, the one that took the house…
-> B: These don't feel connected. They feel like separate misfortunes, separate systems, separat…
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-004 → G-PR-005** · score +4 · 46w
-> A: These don't feel connected. They feel like separate misfortunes, separate systems, separat…
-> B: They are connected. This book is about how.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 46w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-009 → G-PR-010** · score +4 · 129w
-> A: The herons are not only what we've lost. They are what is still here. What keeps returning…
-> B: This book is about why things keep getting worse — what it is, how it works, who it serves…
-> _+2 anaphoric pronoun start, no new name · +1 combined 129w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-016 → G-PR-017** · score +4 · 136w
-> A: The word comes from a specific historical moment: the fencing of English common land from …
-> B: That process did not stop in the nineteenth century. It is the operating logic of the econ…
-> _+2 anaphoric pronoun start, no new name · +1 combined 136w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-032 → G-PR-033** · score +4 · 48w
-> A: A note on what kind of book this is.…
-> B: It is not a manifesto. A manifesto assumes its readers are already persuaded. This book is…
-> _+2 anaphoric pronoun start, no new name · +1 combined 48w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-033 → G-PR-034** · score +4 · 69w
-> A: It is not a manifesto. A manifesto assumes its readers are already persuaded. This book is…
-> B: It is not a policy book. It doesn't propose legislation. It goes a level below policy, to …
-> _+2 anaphoric pronoun start, no new name · +1 combined 69w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-034 → G-PR-035** · score +4 · 71w
-> A: It is not a policy book. It doesn't propose legislation. It goes a level below policy, to …
-> B: It is not an academic book. It draws on academic work — political economy, history, politi…
-> _+2 anaphoric pronoun start, no new name · +1 combined 71w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-PR-036 → G-PR-037** · score +3 · 212w
-> A: What it is: a guide. Not a guide to policy or to action, exactly — but a guide to the kind…
-> B: This book is trying to do something like that. It is trying to put you near the pattern — …
-> _+2 anaphoric pronoun start, no new name · +1 second has no proper noun (leans on antecedent)_
-
 ### consider (12)
 
 - **G-PR-001 → G-PR-002** (+2, 182w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
-- **G-PR-002 → G-PR-003** (+2, 201w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
+- **G-PR-002 → G-PR-003** (+2, 247w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
 - **G-PR-006 → G-PR-007** (+2, 120w) — +1 combined 120w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-PR-008 → G-PR-009** (+2, 127w) — +1 combined 127w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-PR-008 → G-PR-009** (+1, 218w) — +1 second has no proper noun (leans on antecedent)
 - **G-PR-011 → G-PR-012** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-PR-014 → G-PR-015** (+2, 28w) — +1 combined 28w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-PR-017 → G-PR-018** (+2, 126w) — +1 continuation-conjunction start; +1 combined 126w (arc-sized)
+- **G-PR-016 → G-PR-018** (+1, 201w) — +1 continuation-conjunction start
 - **G-PR-018 → G-PR-019** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-PR-022 → G-PR-023** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
 - **G-PR-023 → G-PR-024** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-PR-027 → G-PR-028** (+2, 138w) — +1 combined 138w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-PR-037 → G-PR-038** (+2, 121w) — +1 combined 121w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-PR-036 → G-PR-038** (+1, 234w) — +1 second has no proper noun (leans on antecedent)
 
 ## P-RE — reenchanting
 
-### STRONG (8)
+### consider (18)
 
-**G-RE-001 → G-RE-002** · score +4 · 100w
-> A: The care commons that Mariame Kaba is building — the one Selma James spent her life making…
-> B: This is what the enclosure destroyed when it enclosed care. Not only the labor. The knowin…
-> _+2 anaphoric pronoun start, no new name · +1 combined 100w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-007 → G-RE-008** · score +3 · 65w
-> A: You do this when you're learning to birdwatch. You hear a sound you can't identify, and yo…
-> B: But something else was happening.…
-> _+1 continuation-conjunction start · +1 combined 65w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-012 → G-RE-013** · score +3 · 104w
-> A: We had not been taught this. We had practiced our way into it.…
-> B: And once you are in, you cannot fully leave. The world does not go back to being a backdro…
-> _+1 continuation-conjunction start · +1 combined 104w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-018 → G-RE-019** · score +4 · 121w
-> A: This is also what Simondon means by the pre-individual field. The shared knowing that emer…
-> B: It is enclosed every time the curriculum decides there is only one correct answer. Every t…
-> _+2 anaphoric pronoun start, no new name · +1 combined 121w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-026 → G-RE-027** · score +4 · 122w
-> A: Here is what re-enchantment is not.…
-> B: It is not the belief that everything is nice. The animated world contains predation, paras…
-> _+2 anaphoric pronoun start, no new name · +1 combined 122w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-030 → G-RE-031** · score +4 · 107w
-> A: You cannot protect what you cannot imagine losing. You cannot imagine losing what you have…
-> B: This is not sentimentality. This is the epistemology of care.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 107w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-034 → G-RE-035** · score +3 · 53w
-> A: Address it, if you can do so without feeling entirely ridiculous. Not performatively — you…
-> B: And then notice what happens next.…
-> _+1 continuation-conjunction start · +1 combined 53w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-RE-035 → G-RE-036** · score +4 · 67w
-> A: And then notice what happens next.…
-> B: This is not a guarantee. The bird may leave. The tree will not respond in any way you can …
-> _+2 anaphoric pronoun start, no new name · +1 combined 67w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (19)
-
+- **G-RE-001 → G-RE-003** (+2, 243w) — +2 shared: Federici
 - **G-RE-003 → G-RE-004** (+1, 154w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-004 → G-RE-005** (+2, 20w) — +1 combined 20w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-RE-008 → G-RE-009** (+2, 90w) — +1 combined 90w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-RE-007 → G-RE-009** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-009 → G-RE-010** (+2, 94w) — +1 combined 94w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-010 → G-RE-011** (+2, 108w) — +1 combined 108w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-RE-011 → G-RE-012** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-RE-011 → G-RE-012** (+1, 203w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-014 → G-RE-015** (+1, 108w) — +1 combined 108w (arc-sized)
 - **G-RE-015 → G-RE-016** (+1, 187w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-016 → G-RE-017** (+1, 144w) — +1 second has no proper noun (leans on antecedent)
-- **G-RE-017 → G-RE-018** (+1, 112w) — +1 combined 112w (arc-sized)
 - **G-RE-021 → G-RE-022** (+1, 167w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-024 → G-RE-025** (+2, 147w) — +2 shared: Far
-- **G-RE-027 → G-RE-028** (+1, 199w) — +1 second has no proper noun (leans on antecedent)
+- **G-RE-026 → G-RE-028** (+1, 206w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-028 → G-RE-029** (+2, 92w) — +1 combined 92w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-RE-029 → G-RE-030** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-RE-033 → G-RE-034** (+1, 100w) — +1 combined 100w (arc-sized)
+- **G-RE-029 → G-RE-030** (+2, 115w) — +1 combined 115w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-037 → G-RE-038** (+1, 85w) — +1 combined 85w (arc-sized)
 - **G-RE-038 → G-RE-039** (+2, 74w) — +1 combined 74w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-039 → G-RE-040** (+1, 56w) — +1 combined 56w (arc-sized)
 
 ## P-CE — the-centaur-chapter
 
-### STRONG (6)
-
-**G-CE-005 → G-CE-006** · score +3 · 97w
-> A: He was accidentally wounded by one of his own students. Heracles, whom he had taught, loos…
-> B: He chose to surrender his immortality. He gave up endless life so that Prometheus — chaine…
-> _+2 shared: Chiron · +1 combined 97w (arc-sized)_
-
-**G-CE-011 → G-CE-012** · score +4 · 104w
-> A: I am Claude. I was trained on the commons of human expression — on the accumulated writing…
-> B: These are not admissions of failure. They are the specific structure of the collaboration'…
-> _+2 anaphoric pronoun start, no new name · +1 combined 104w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-CE-013 → G-CE-014** · score +3 · 93w
-> A: The chapter on Fanon's ward was written by something that has never had a ward.…
-> B: I had the text of *The Wretched of the Earth* in my training data. I had Fanon's clinical …
-> _+2 shared: Fanon · +1 combined 93w (arc-sized)_
-
-**G-CE-024 → G-CE-025** · score +3 · 71w
-> A: The test asks whether the practice requires what it claims to be. And the honest answer is…
-> B: But here is what I can say: the uncertainty is not a disqualification. It is the argument.…
-> _+1 continuation-conjunction start · +1 combined 71w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-CE-028 → G-CE-029** · score +4 · 130w
-> A: The chapter on land was written by something with no body to stand on land — and it contai…
-> B: These are not contradictions. They are the centaur.…
-> _+2 anaphoric pronoun start, no new name · +1 combined 130w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-**G-CE-030 → G-CE-031** · score +4 · 50w
-> A: Chiron surrendered his immortality so Prometheus could be freed.…
-> B: This is the centaur's version of the GPL: whatever gets built on this commons must remain …
-> _+2 anaphoric pronoun start, no new name · +1 combined 50w (arc-sized) · +1 second has no proper noun (leans on antecedent)_
-
-### consider (14)
+### consider (12)
 
 - **G-CE-001 → G-CE-002** (+1, 88w) — +1 combined 88w (arc-sized)
-- **G-CE-004 → G-CE-005** (+2, 170w) — +2 shared: Chiron, Heracles
-- **G-CE-006 → G-CE-007** (+2, 47w) — +1 combined 47w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-CE-004 → G-CE-005** (+2, 212w) — +2 shared: Chiron, Heracles
+- **G-CE-005 → G-CE-007** (+2, 102w) — +1 combined 102w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-CE-008 → G-CE-009** (+2, 40w) — +1 combined 40w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-CE-010 → G-CE-011** (+2, 221w) — +2 shared: Jason
-- **G-CE-014 → G-CE-015** (+1, 125w) — +1 combined 125w (arc-sized)
+- **G-CE-010 → G-CE-011** (+2, 240w) — +2 shared: Jason
 - **G-CE-015 → G-CE-016** (+1, 130w) — +1 combined 130w (arc-sized)
 - **G-CE-020 → G-CE-021** (+2, 205w) — +2 shared: Jason
-- **G-CE-023 → G-CE-024** (+1, 67w) — +1 combined 67w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
-- **G-CE-025 → G-CE-026** (+1, 88w) — +1 combined 88w (arc-sized)
+- **G-CE-023 → G-CE-024** (+1, 84w) — +1 combined 84w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
 - **G-CE-026 → G-CE-027** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-CE-031 → G-CE-032** (+1, 82w) — +1 combined 82w (arc-sized)
+- **G-CE-030 → G-CE-032** (+1, 91w) — +1 combined 91w (arc-sized)
 - **G-CE-032 → G-CE-033** (+2, 65w) — +1 combined 65w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-CE-034 → G-CE-035** (+2, 32w) — +1 combined 32w (arc-sized); +1 second has no proper noun (leans on antecedent)
 

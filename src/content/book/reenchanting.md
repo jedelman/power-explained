@@ -12,24 +12,20 @@ plateau:
   status: draft
 gestures:
   - G-RE-001
-  - G-RE-002
   - G-RE-003
   - G-RE-004
   - G-RE-005
   - G-RE-006
   - G-RE-007
-  - G-RE-008
   - G-RE-009
   - G-RE-010
   - G-RE-011
   - G-RE-012
-  - G-RE-013
   - G-RE-014
   - G-RE-015
   - G-RE-016
   - G-RE-017
   - G-RE-018
-  - G-RE-019
   - G-RE-020
   - G-RE-021
   - G-RE-022
@@ -37,16 +33,12 @@ gestures:
   - G-RE-024
   - G-RE-025
   - G-RE-026
-  - G-RE-027
   - G-RE-028
   - G-RE-029
   - G-RE-030
-  - G-RE-031
   - G-RE-032
   - G-RE-033
   - G-RE-034
-  - G-RE-035
-  - G-RE-036
   - G-RE-037
   - G-RE-038
   - G-RE-039
@@ -55,23 +47,8 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph
   - section
   - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
   - paragraph
   - paragraph
   - paragraph
@@ -85,6 +62,13 @@ separators:
   - section
   - paragraph
   - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
   - paragraph
   - paragraph
   - paragraph

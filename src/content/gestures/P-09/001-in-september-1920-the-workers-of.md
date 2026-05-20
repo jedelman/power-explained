@@ -7,9 +7,14 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-09-002 on
+  2026-05-20]
 ---
 In September 1920, the workers of Turin occupied the factories.
+
+It had been building for months. The factory councils — elected bodies governing production from the shop floor, not just negotiating wages but running the machinery, maintaining discipline, making decisions — had spread through the industrial north of Italy through 1919 and into 1920. In Turin, the city of Fiat, of large-scale industrial production, of a concentrated and organized working class, the councils had become something more than labor organization. They were practicing a different kind of society inside the existing one.

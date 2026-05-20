@@ -7,9 +7,14 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-14-006 on
+  2026-05-20]
 ---
 Walk the corridors around what is now the Eastern Virginia Medical School campus today. The neighborhood adjacent to the hospital — Ghent, the historic district along the Elizabeth River — is one of the most expensive zip codes in Hampton Roads. Art galleries. Wine bars. Renovated craftsman houses selling for $600,000. The value of this neighborhood was created, in significant part, by the institutional investment that displaced the community that had been there: the hospital, the medical school, the road infrastructure, the decades of public subsidy that built the anchor institutions whose presence made the surrounding land desirable. Atlantic City's residents were displaced to create the conditions that made their neighbors' land worth more. Their displacement is now invisible in the property values of the people who replaced them.
+
+This is the enclosure running in real time.

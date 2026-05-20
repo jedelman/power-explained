@@ -7,9 +7,14 @@ tags:
   - plateau/P-15
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-15-030 on
+  2026-05-20]
 ---
 The work is local, intimate, and unglamorous. It doesn't scale to infinity or generate returns. It only works if people care about each other.
+
+That is not a weakness. That is the point.

@@ -7,9 +7,14 @@ tags:
   - plateau/P-10
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-10-013 on
+  2026-05-20]
 ---
 Luxemburg's response, published the same year: this is backwards, and the backwardness is catastrophic. If you build a revolutionary organization on the premise that leadership knows better than members, you don't get an instrument of liberation. You get a bureaucracy that suppresses precisely the spontaneous, distributed, locally-rooted political creativity of workers — the creativity that produces genuine revolutionary capacity — in favor of party discipline. The vanguard doesn't lead the working class. It substitutes for it. And substitution is not liberation. Substitution is domination with good intentions.
+
+She was not arguing against organization. She was arguing against a specific architecture: one that routes all knowledge and authority to the top, that treats the distributed intelligence of millions of people as raw material to be processed by a party headquarters, that cannot learn from the people it claims to represent because it has defined itself as already knowing more than they do.

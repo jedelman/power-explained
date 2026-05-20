@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-20T18:54:38.691Z",
+  "generatedAt": "2026-05-20T19:42:05.028Z",
   "corpus": {
     "plateaus": 26,
     "migratedPlateaus": 26,
-    "gestures": 993,
+    "gestures": 850,
     "words": 60821,
     "sentences": 4151
   },
@@ -22,7 +22,7 @@
       "id": "P-01",
       "slug": "chapter-1",
       "title": "Chapter 1: Some Days It Costs Too Much",
-      "gestureCount": 37,
+      "gestureCount": 36,
       "words": 1926,
       "sentences": 135,
       "avgWordsPerSentence": 14.27,
@@ -36,15 +36,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.11,
       "typeTokenRatio": 0.35,
-      "meanGestureWords": 52.05,
-      "stdGestureWords": 38.74,
-      "structuralEntropyNorm": 0.86
+      "meanGestureWords": 53.5,
+      "stdGestureWords": 39.24,
+      "structuralEntropyNorm": 0.87
     },
     {
       "id": "P-10",
       "slug": "chapter-10",
       "title": "Chapter 10: The Birds She Fed Through the Bars",
-      "gestureCount": 44,
+      "gestureCount": 35,
       "words": 2671,
       "sentences": 180,
       "avgWordsPerSentence": 14.84,
@@ -58,15 +58,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.25,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 60.7,
-      "stdGestureWords": 37.92,
-      "structuralEntropyNorm": 0.82
+      "meanGestureWords": 76.31,
+      "stdGestureWords": 47.83,
+      "structuralEntropyNorm": 0.93
     },
     {
       "id": "P-11",
       "slug": "chapter-11",
       "title": "Chapter 11: The Circle in the Blizzard",
-      "gestureCount": 39,
+      "gestureCount": 35,
       "words": 3190,
       "sentences": 179,
       "avgWordsPerSentence": 17.82,
@@ -80,15 +80,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.6,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 81.79,
-      "stdGestureWords": 51.49,
+      "meanGestureWords": 91.14,
+      "stdGestureWords": 52.19,
       "structuralEntropyNorm": 0.83
     },
     {
       "id": "P-12",
       "slug": "chapter-12",
       "title": "Chapter 12: This Was Made",
-      "gestureCount": 40,
+      "gestureCount": 34,
       "words": 2916,
       "sentences": 183,
       "avgWordsPerSentence": 15.93,
@@ -102,15 +102,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.31,
       "typeTokenRatio": 0.32,
-      "meanGestureWords": 72.9,
-      "stdGestureWords": 47.31,
+      "meanGestureWords": 85.76,
+      "stdGestureWords": 51.18,
       "structuralEntropyNorm": 0.9
     },
     {
       "id": "P-13",
       "slug": "chapter-13",
       "title": "Chapter 13: We're Canceling It",
-      "gestureCount": 39,
+      "gestureCount": 37,
       "words": 3065,
       "sentences": 171,
       "avgWordsPerSentence": 17.92,
@@ -124,15 +124,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.61,
       "typeTokenRatio": 0.35,
-      "meanGestureWords": 78.59,
-      "stdGestureWords": 45.39,
-      "structuralEntropyNorm": 0.88
+      "meanGestureWords": 82.84,
+      "stdGestureWords": 47.24,
+      "structuralEntropyNorm": 0.9
     },
     {
       "id": "P-14",
       "slug": "chapter-14",
       "title": "Chapter 14: I Became the Land",
-      "gestureCount": 38,
+      "gestureCount": 35,
       "words": 2682,
       "sentences": 172,
       "avgWordsPerSentence": 15.59,
@@ -146,15 +146,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.35,
       "typeTokenRatio": 0.34,
-      "meanGestureWords": 70.58,
-      "stdGestureWords": 39.44,
-      "structuralEntropyNorm": 0.81
+      "meanGestureWords": 76.63,
+      "stdGestureWords": 45.95,
+      "structuralEntropyNorm": 0.84
     },
     {
       "id": "P-15",
       "slug": "chapter-15",
       "title": "Chapter 15: Still Meeting",
-      "gestureCount": 30,
+      "gestureCount": 24,
       "words": 1772,
       "sentences": 99,
       "avgWordsPerSentence": 17.9,
@@ -168,15 +168,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.22,
       "typeTokenRatio": 0.38,
-      "meanGestureWords": 59.07,
-      "stdGestureWords": 35.87,
-      "structuralEntropyNorm": 0.87
+      "meanGestureWords": 73.83,
+      "stdGestureWords": 47.95,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-16",
       "slug": "chapter-16",
       "title": "Chapter 16: Even That Part",
-      "gestureCount": 73,
+      "gestureCount": 54,
       "words": 3224,
       "sentences": 251,
       "avgWordsPerSentence": 12.84,
@@ -190,15 +190,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.49,
       "typeTokenRatio": 0.34,
-      "meanGestureWords": 44.16,
-      "stdGestureWords": 28.35,
-      "structuralEntropyNorm": 0.86
+      "meanGestureWords": 59.7,
+      "stdGestureWords": 40.35,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-16b",
       "slug": "chapter-16b",
       "title": "Chapter 16, Part 2: The Hollow Book",
-      "gestureCount": 57,
+      "gestureCount": 53,
       "words": 2458,
       "sentences": 192,
       "avgWordsPerSentence": 12.8,
@@ -212,15 +212,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.03,
       "typeTokenRatio": 0.32,
-      "meanGestureWords": 43.12,
-      "stdGestureWords": 31.27,
-      "structuralEntropyNorm": 0.94
+      "meanGestureWords": 46.38,
+      "stdGestureWords": 32.9,
+      "structuralEntropyNorm": 0.95
     },
     {
       "id": "P-17",
       "slug": "chapter-17",
       "title": "Chapter 17: The Owl at the Edge of the Circle",
-      "gestureCount": 53,
+      "gestureCount": 44,
       "words": 2654,
       "sentences": 192,
       "avgWordsPerSentence": 13.82,
@@ -234,15 +234,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.12,
       "typeTokenRatio": 0.31,
-      "meanGestureWords": 50.08,
-      "stdGestureWords": 31.25,
-      "structuralEntropyNorm": 0.89
+      "meanGestureWords": 60.32,
+      "stdGestureWords": 36.15,
+      "structuralEntropyNorm": 0.91
     },
     {
       "id": "P-18",
       "slug": "chapter-18",
       "title": "Chapter 18: You Wonderful Weird Birds",
-      "gestureCount": 44,
+      "gestureCount": 40,
       "words": 1962,
       "sentences": 150,
       "avgWordsPerSentence": 13.08,
@@ -256,15 +256,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.1,
       "typeTokenRatio": 0.37,
-      "meanGestureWords": 44.59,
-      "stdGestureWords": 36.14,
-      "structuralEntropyNorm": 0.93
+      "meanGestureWords": 49.05,
+      "stdGestureWords": 41.88,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-02",
       "slug": "chapter-2",
       "title": "Chapter 2: They're Sprinkling Us In",
-      "gestureCount": 29,
+      "gestureCount": 24,
       "words": 1373,
       "sentences": 101,
       "avgWordsPerSentence": 13.59,
@@ -278,15 +278,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.11,
       "typeTokenRatio": 0.43,
-      "meanGestureWords": 47.34,
-      "stdGestureWords": 37.35,
-      "structuralEntropyNorm": 0.92
+      "meanGestureWords": 57.21,
+      "stdGestureWords": 42.39,
+      "structuralEntropyNorm": 0.94
     },
     {
       "id": "P-03",
       "slug": "chapter-3",
       "title": "Chapter 3: The Cook",
-      "gestureCount": 46,
+      "gestureCount": 38,
       "words": 2723,
       "sentences": 175,
       "avgWordsPerSentence": 15.56,
@@ -300,9 +300,9 @@
       "smogReliable": true,
       "lexicalEntropy": 8.5,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 59.2,
-      "stdGestureWords": 45.93,
-      "structuralEntropyNorm": 0.9
+      "meanGestureWords": 71.66,
+      "stdGestureWords": 52.22,
+      "structuralEntropyNorm": 0.92
     },
     {
       "id": "P-04",
@@ -330,7 +330,7 @@
       "id": "P-05",
       "slug": "chapter-5",
       "title": "Chapter 5: The Smile",
-      "gestureCount": 31,
+      "gestureCount": 28,
       "words": 1752,
       "sentences": 141,
       "avgWordsPerSentence": 12.43,
@@ -344,15 +344,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.27,
       "typeTokenRatio": 0.42,
-      "meanGestureWords": 56.52,
-      "stdGestureWords": 35.35,
-      "structuralEntropyNorm": 0.92
+      "meanGestureWords": 62.57,
+      "stdGestureWords": 45.91,
+      "structuralEntropyNorm": 0.89
     },
     {
       "id": "P-06",
       "slug": "chapter-6",
       "title": "Chapter 6: The Shrug",
-      "gestureCount": 46,
+      "gestureCount": 37,
       "words": 2761,
       "sentences": 201,
       "avgWordsPerSentence": 13.74,
@@ -366,15 +366,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.57,
       "typeTokenRatio": 0.35,
-      "meanGestureWords": 60.02,
-      "stdGestureWords": 35.87,
-      "structuralEntropyNorm": 0.86
+      "meanGestureWords": 74.62,
+      "stdGestureWords": 60.75,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-07",
       "slug": "chapter-7",
       "title": "Chapter 7: He Wanted His Nerves Back",
-      "gestureCount": 41,
+      "gestureCount": 36,
       "words": 2949,
       "sentences": 188,
       "avgWordsPerSentence": 15.69,
@@ -388,15 +388,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.59,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 71.93,
-      "stdGestureWords": 42.68,
-      "structuralEntropyNorm": 0.87
+      "meanGestureWords": 81.92,
+      "stdGestureWords": 45.23,
+      "structuralEntropyNorm": 0.86
     },
     {
       "id": "P-08",
       "slug": "chapter-8",
       "title": "Chapter 8: No Name for It",
-      "gestureCount": 29,
+      "gestureCount": 25,
       "words": 2441,
       "sentences": 138,
       "avgWordsPerSentence": 17.69,
@@ -410,15 +410,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.48,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 84.17,
-      "stdGestureWords": 50.32,
-      "structuralEntropyNorm": 0.89
+      "meanGestureWords": 97.64,
+      "stdGestureWords": 63.04,
+      "structuralEntropyNorm": 0.9
     },
     {
       "id": "P-09",
       "slug": "chapter-9",
       "title": "Chapter 9: He Built It Anyway",
-      "gestureCount": 40,
+      "gestureCount": 32,
       "words": 2548,
       "sentences": 167,
       "avgWordsPerSentence": 15.26,
@@ -432,15 +432,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.32,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 63.7,
-      "stdGestureWords": 39.07,
-      "structuralEntropyNorm": 0.89
+      "meanGestureWords": 79.63,
+      "stdGestureWords": 42.87,
+      "structuralEntropyNorm": 0.92
     },
     {
       "id": "P-EP",
       "slug": "epilogue",
       "title": "Epilogue: The Doves",
-      "gestureCount": 17,
+      "gestureCount": 15,
       "words": 1181,
       "sentences": 80,
       "avgWordsPerSentence": 14.76,
@@ -454,15 +454,15 @@
       "smogReliable": true,
       "lexicalEntropy": 7.51,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 69.47,
-      "stdGestureWords": 41.28,
-      "structuralEntropyNorm": 0.93
+      "meanGestureWords": 78.73,
+      "stdGestureWords": 40.08,
+      "structuralEntropyNorm": 0.84
     },
     {
       "id": "P-GC",
       "slug": "goetia",
       "title": "The Goetia of Capital",
-      "gestureCount": 48,
+      "gestureCount": 40,
       "words": 1968,
       "sentences": 180,
       "avgWordsPerSentence": 10.93,
@@ -476,9 +476,9 @@
       "smogReliable": true,
       "lexicalEntropy": 7.91,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 41,
-      "stdGestureWords": 23.74,
-      "structuralEntropyNorm": 0.94
+      "meanGestureWords": 49.2,
+      "stdGestureWords": 30.9,
+      "structuralEntropyNorm": 0.89
     },
     {
       "id": "P-IB",
@@ -506,7 +506,7 @@
       "id": "P-IW",
       "slug": "interlude-washington",
       "title": "Interlude: Counter-Hegemony Without the Word",
-      "gestureCount": 21,
+      "gestureCount": 19,
       "words": 1366,
       "sentences": 89,
       "avgWordsPerSentence": 15.35,
@@ -520,15 +520,15 @@
       "smogReliable": true,
       "lexicalEntropy": 7.9,
       "typeTokenRatio": 0.38,
-      "meanGestureWords": 65.05,
-      "stdGestureWords": 34.69,
-      "structuralEntropyNorm": 0.82
+      "meanGestureWords": 71.89,
+      "stdGestureWords": 34.23,
+      "structuralEntropyNorm": 0.77
     },
     {
       "id": "P-PR",
       "slug": "prologue",
       "title": "Prologue: Look Up",
-      "gestureCount": 39,
+      "gestureCount": 31,
       "words": 2398,
       "sentences": 160,
       "avgWordsPerSentence": 14.99,
@@ -542,15 +542,15 @@
       "smogReliable": true,
       "lexicalEntropy": 8.12,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 61.49,
-      "stdGestureWords": 34.49,
-      "structuralEntropyNorm": 0.91
+      "meanGestureWords": 77.35,
+      "stdGestureWords": 46.63,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-RE",
       "slug": "reenchanting",
       "title": "Re-Enchanting the World",
-      "gestureCount": 40,
+      "gestureCount": 32,
       "words": 2077,
       "sentences": 156,
       "avgWordsPerSentence": 13.31,
@@ -564,15 +564,15 @@
       "smogReliable": true,
       "lexicalEntropy": 7.91,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 51.93,
-      "stdGestureWords": 39.15,
-      "structuralEntropyNorm": 0.98
+      "meanGestureWords": 64.91,
+      "stdGestureWords": 42.49,
+      "structuralEntropyNorm": 0.97
     },
     {
       "id": "P-CE",
       "slug": "the-centaur-chapter",
       "title": "Chiron",
-      "gestureCount": 36,
+      "gestureCount": 30,
       "words": 1901,
       "sentences": 129,
       "avgWordsPerSentence": 14.74,
@@ -586,64 +586,64 @@
       "smogReliable": true,
       "lexicalEntropy": 7.83,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 52.81,
-      "stdGestureWords": 51.56,
-      "structuralEntropyNorm": 0.93
+      "meanGestureWords": 63.37,
+      "stdGestureWords": 54.92,
+      "structuralEntropyNorm": 0.92
     }
   ],
   "gestureDistributions": {
-    "count": 993,
-    "readableCount": 699,
+    "count": 850,
+    "readableCount": 636,
     "wordCount": {
-      "n": 993,
-      "p10": 9,
-      "p25": 26,
-      "p50": 56,
-      "p75": 85,
-      "p90": 115,
-      "mean": 61.25
+      "n": 850,
+      "p10": 11,
+      "p25": 33,
+      "p50": 66,
+      "p75": 98,
+      "p90": 136,
+      "mean": 71.55
     },
     "lexicalEntropy": {
-      "n": 993,
-      "p10": 3,
-      "p25": 4.19,
-      "p50": 5.18,
-      "p75": 5.65,
-      "p90": 6.02,
-      "mean": 4.84
+      "n": 850,
+      "p10": 3.17,
+      "p25": 4.57,
+      "p50": 5.34,
+      "p75": 5.79,
+      "p90": 6.17,
+      "mean": 5.01
     },
     "typeTokenRatio": {
-      "n": 993,
-      "p10": 0.65,
-      "p25": 0.7,
-      "p50": 0.77,
-      "p75": 0.84,
-      "p90": 1,
-      "mean": 0.78
+      "n": 850,
+      "p10": 0.63,
+      "p25": 0.68,
+      "p50": 0.74,
+      "p75": 0.82,
+      "p90": 0.94,
+      "mean": 0.76
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 699,
-      "p10": 4.9,
+      "n": 636,
+      "p10": 4.84,
       "p25": 7.03,
-      "p50": 9.31,
-      "p75": 11.55,
-      "p90": 14.11,
+      "p50": 9.24,
+      "p75": 11.56,
+      "p90": 14.09,
       "mean": 9.41
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 699,
-      "p10": 30.53,
-      "p25": 41.5,
+      "n": 636,
+      "p10": 30.82,
+      "p25": 41.79,
       "p50": 53.74,
-      "p75": 67.1,
-      "p90": 78.55,
-      "mean": 54.36
+      "p75": 67.02,
+      "p90": 78.24,
+      "mean": 54.37
     }
   },
   "transitionalEntropy": {
-    "total": 967,
-    "reliable": 216,
-    "paragraphMeanDist": 0.91,
+    "total": 824,
+    "reliable": 224,
+    "paragraphMeanDist": 0.93,
     "sectionMeanDist": 0.95
   },
   "conceptSpine": [

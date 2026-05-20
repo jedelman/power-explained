@@ -7,9 +7,14 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-14-015 on
+  2026-05-20]
 ---
 E. Richard Sorenson spent decades in contact with preconquest peoples across New Guinea, Micronesia, the Andaman Sea, and South America, and documented something that defies easy summary in the language of Western social science. In communities that had not been enclosed — that still operated on open territory, without private property, without the cognitive apparatus of boundaries and ownership — sense of space itself was different. People navigated by *affect*, not by coordinates. A place had meaning through emotional relationship to it — the excitement of good hunting, the comfort of a particular clearing, the pleasure of a stream. Boundaries were hazy, overlapping, felt rather than drawn. Names for places were improvised, multiple, shared differently by different people. There was no single map. There was a living, distributed, relational intelligence woven between people and land over generations.
+
+This is not romanticism. Sorenson was an anthropologist documenting a specific cognitive structure — one he watched collapse, in real time, on an island in the eastern Andaman Sea when tourism arrived. He described the collapse as a kind of cultural death: the subtle empathetic rapport that had organized consciousness simply went out, like a light, in the space of a week. What replaced it was the postconquest apparatus of property, formal identity, bounded space.

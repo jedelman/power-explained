@@ -11,9 +11,6 @@ plateau:
   status: draft
 gestures:
   - G-10-001
-  - G-10-002
-  - G-10-003
-  - G-10-004
   - G-10-005
   - G-10-006
   - G-10-007
@@ -22,29 +19,23 @@ gestures:
   - G-10-010
   - G-10-011
   - G-10-012
-  - G-10-013
   - G-10-014
   - G-10-015
   - G-10-016
-  - G-10-017
-  - G-10-018
   - G-10-019
   - G-10-020
   - G-10-021
   - G-10-022
-  - G-10-023
   - G-10-024
   - G-10-025
   - G-10-026
   - G-10-027
   - G-10-028
-  - G-10-029
   - G-10-030
   - G-10-031
   - G-10-032
   - G-10-033
   - G-10-034
-  - G-10-035
   - G-10-036
   - G-10-037
   - G-10-038
@@ -52,7 +43,6 @@ gestures:
   - G-10-040
   - G-10-041
   - G-10-042
-  - G-10-043
   - G-10-044
 separators:
   - paragraph
@@ -60,6 +50,8 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
@@ -67,16 +59,7 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph
-  - paragraph
   - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph
@@ -89,10 +72,7 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph
-  - paragraph
   - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

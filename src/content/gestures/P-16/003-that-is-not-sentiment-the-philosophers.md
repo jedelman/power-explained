@@ -7,9 +7,14 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-16-004 on
+  2026-05-20]
 ---
 That is not sentiment. The philosophers Michael Hardt and Antonio Negri call it a force — a power that makes you more real, not less. Not a force that simplifies you into something manageable. A force that nourishes what you are already becoming, that says: *become more fully what you are, and in doing so, enrich what we share.* Love in this sense is not the reward for becoming acceptable. It is what makes becoming possible at all.
+
+This is also what the commons does at its best.

@@ -7,9 +7,14 @@ tags:
   - plateau/P-17
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-17-010 on
+  2026-05-20]
 ---
 Nobody announced that this had been significant. Nobody needed to. The community already knew how to receive a singular presence — to pause, to attend, to let it speak and then let it go. The form of the circle had already taught them that. The owl arrived, and the form held him, and the form held the group, and both were the same form.
+
+This is the chapter's central image. Not the owl — the receiving. The community that already knows how to attend to what arrives from outside its ordinary frame. The community that has built, through practice, the capacity to welcome the singular and be changed by it.
