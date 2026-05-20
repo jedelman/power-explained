@@ -55,3 +55,29 @@ scripts/analyze-corpus.mjs --json-only` (artifact only).
    Transitional/dispersion metrics only count gesture pairs with ≥2 proper
    nouns each as reliable (`transitionalEntropy.reliable` vs `.total`).
 5. Structural entropy reflects the first-pass split as much as authorial intent.
+
+## merge-map.json / merge-map.md
+
+Advisory merge proposals for plateau-level revision — which paragraph-adjacent
+gestures are likely one continuous arc the mechanical split fragmented.
+Section-separated pairs are excluded (the `---` is intent to hold apart).
+
+Regenerate: `npm run merge-map` (writes both the JSON and the readable .md).
+NOT in the build chain — it's an authorial working tool, regenerated on demand.
+
+Scoring (see `scripts/merge-map.mjs` header for the full model): each
+paragraph adjacency gets a score in roughly [-3, +5]. Pro-merge signals: shared
+proper noun, anaphoric pronoun start with no new name, continuation conjunction,
+arc-sized combined length, second gesture has no proper noun. Anti-merge: short
+deliberate landing, brand-new proper-noun cluster, first ends on a question or
+dash/colon. Bands: STRONG (≥3), consider (1-2), keep (≤0).
+
+A merge is **byte-preserving** (verified empirically): it removes a `\n\n` join
+that the composer re-adds, so `compile-plateau verify` against the snapshot
+still passes after merging. To merge `G-XX-AAA → G-XX-BBB`: append B's body to
+A's with a blank line, delete B's file, remove B's id and the paragraph
+separator at that index from the manifest; A's id is kept, B's retired.
+
+Validation note: P-04 (the one authored chapter) scores **0 STRONG** merges —
+the tool correctly finds nothing to "fix" in the chapter that's already done.
+Highest merge pressure: P-16 (19 STRONG), P-06/P-09/P-10/P-17 (~9 each).

@@ -9,6 +9,7 @@
     "descent": "node scripts/gen-descent.mjs",
     "lint:tags": "node scripts/lint-tags.mjs",
     "analyze": "node scripts/analyze-corpus.mjs",
+    "merge-map": "node scripts/merge-map.mjs --json && node scripts/gen-merge-map-doc.mjs",
     "test:metrics": "node scripts/test-corpus-metrics.mjs",
     "compile:plateau": "node scripts/compile-plateau.mjs"
   },
