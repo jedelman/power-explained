@@ -20,7 +20,8 @@
 > 
 > ---
 
-One of the traditions that protected me 
+One of the traditions that protected me was an Okinawan martial art, Kyokushin. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDc5Njc1NiwxMzY5MjEyMTU4XX0=
+eyJoaXN0b3J5IjpbODIwOTU3NDUwLC03NTQ3OTY3NTYsMTM2OT
+IxMjE1OF19
 -->
