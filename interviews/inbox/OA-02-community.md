@@ -17,7 +17,7 @@
 > felt like from the inside, on day 3 or day 5, before you had language
 > for it.
 
-Armor does something strange in groups, something that Reich points out in Mass Psychology of Fascism. It _resonates_. In the West, in most places, for most people, that resonance will strengthen the armor. But in at least one place on the West Coast that I will protect by not naming, that resonance actually releases 
+Armor does something strange in groups, something that Reich points out in Mass Psychology of Fascism. It _resonates_. In the West, in most places, for most people, that resonance will strengthen the armor. But in at least one place on the West Coast that I will protect by not naming, that resonance actually shakes the armor off. And this community had specific body practices that shake you free. Singing, moving, shaking. In fact, this was a community that held each of its members, even the new ones, with a kind of curious regard. The question that didn't have to be asked but was always being asked was, what is your medicine? And the way that it wa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyMzYzODZdfQ==
+eyJoaXN0b3J5IjpbOTQ0ODUwNDUxXX0=
 -->
