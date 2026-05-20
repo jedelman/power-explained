@@ -22,8 +22,8 @@ Well, I live in the South again, hopefully not for much longer. I see it every d
 
 To me, now, it feels like weight. Not being on the floor. Under it.
 
-It doesn't break
+It doesn't break. Just like that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTI4NTg2NSwxNjc1MDA0MjQ5LDk4Nj
-YyNDQxOF19
+eyJoaXN0b3J5IjpbLTEwNDE3Mjg4NzEsMTY3NTAwNDI0OSw5OD
+Y2MjQ0MThdfQ==
 -->
