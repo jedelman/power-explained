@@ -26,8 +26,8 @@ I was picked on as a kid for being mixed-race and too femme for a boy. I didn't 
 
 I trained there for ten years. And I'm still learning new things from my training. It sounds like a kung fu film, but my Sensei still teaches me through flashbacks 30 years later. 
 
-I can't tell you what the ultimate truth is. What I can tell you is that the discipline that matters, that's protected me this whole time, is not the physical discipline 
+I can't tell you what the ultimate truth is. What I can tell you is that the discipline that matters, that's protected me this whole time, is not the physical discipline that Foucault details so precisely - it's the discipline of the spirit. The term I was taught was _kokoro_, or "indomitability". I have won fights with it, physical and mental. But the mos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzAwMzYwMiwtMTc3NDgzNjY3OSw4Mj
-A5NTc0NTAsLTc1NDc5Njc1NiwxMzY5MjEyMTU4XX0=
+eyJoaXN0b3J5IjpbLTE1NTg3MDAyNTIsLTE3NzQ4MzY2NzksOD
+IwOTU3NDUwLC03NTQ3OTY3NTYsMTM2OTIxMjE1OF19
 -->
