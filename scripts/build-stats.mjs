@@ -75,18 +75,39 @@ for (const file of articleFiles) {
 }
 
 // ── book ───────────────────────────────────────────────────────────────────
+// After the gestures refactor, chapter .md files carry an empty body and the
+// prose lives in src/content/gestures/<P-XX>/*.md. Count gesture bodies (with
+// a fallback to any inline body for not-yet-migrated chapters).
+
+const GESTURES_DIR = path.join(ROOT, 'src/content/gestures')
 
 const bookFiles = fs.existsSync(BOOK_DIR)
   ? fs.readdirSync(BOOK_DIR).filter(f => f.endsWith('.md'))
   : []
 let bookWords = 0
+let gestureCount = 0
 const partsMap = {}
 
 for (const file of bookFiles) {
   const { meta, body } = parseFrontmatter(fs.readFileSync(path.join(BOOK_DIR, file), 'utf8'))
-  bookWords += wordCount(body)
   const part = meta.part?.trim() || '(untagged)'
   partsMap[part] = (partsMap[part] ?? 0) + 1
+  // Count inline body (legacy chapters); migrated chapters add 0 here and are
+  // counted via their gesture directory below.
+  bookWords += wordCount(body)
+}
+
+// Count gesture bodies
+if (fs.existsSync(GESTURES_DIR)) {
+  for (const pid of fs.readdirSync(GESTURES_DIR).filter(d => d.startsWith('P-'))) {
+    const dir = path.join(GESTURES_DIR, pid)
+    if (!fs.statSync(dir).isDirectory()) continue
+    for (const gf of fs.readdirSync(dir).filter(f => f.endsWith('.md') && f !== 'README.md')) {
+      const { body } = parseFrontmatter(fs.readFileSync(path.join(dir, gf), 'utf8'))
+      bookWords += wordCount(body)
+      gestureCount++
+    }
+  }
 }
 
 // ── dist ───────────────────────────────────────────────────────────────────
@@ -111,6 +132,7 @@ printSection('ARTICLES — power-explained', articleFiles.length, articleWords, 
 
 if (bookFiles.length > 0) {
   printSection('BOOK — /book', bookFiles.length, bookWords, partsMap)
+  console.log(`  Gestures      : ${gestureCount}`)
 }
 
 const divider = '─'.repeat(50)

@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js && node scripts/generate-llms-txt.mjs && node scripts/build-stats.mjs",
+    "build": "astro build && npx pagefind --site dist --output-path dist/pagefind && node scripts/generate-sitemap.js && node scripts/generate-llms-txt.mjs && node scripts/analyze-corpus.mjs --brief && node scripts/build-stats.mjs",
     "preview": "astro preview",
     "descent": "node scripts/gen-descent.mjs",
     "lint:tags": "node scripts/lint-tags.mjs",
+    "analyze": "node scripts/analyze-corpus.mjs",
+    "test:metrics": "node scripts/test-corpus-metrics.mjs",
     "compile:plateau": "node scripts/compile-plateau.mjs"
   },
   "dependencies": {
