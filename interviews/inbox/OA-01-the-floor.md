@@ -18,7 +18,9 @@
 
 For the first time in my life, I didn't have anything to do and I didn't have anyone telling me I had to. I could just *be*. It was profoundly disorienting. I cried a few times. I went through multiple existential crises, all in my head. Mostly I was inert.
 
-Erin had a job at a coffee shop and some days I would just ride with her to work. They had a couch and a guita
+Erin had a job at a coffee shop and some days I would just ride with her to work. They had a couch and a guitar and I would pluck and read. Ironically, this is where I finally got to fully read Reich - *The Sexual Revolution*, *Character Analysis*, and *Mass Psychology of Fascism*. Thanks to the Redmond public library system - within walking distance of the coffee shop - a great example of the commons producing something well in excess of its intended purpose.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODA1OTY1N119
+eyJoaXN0b3J5IjpbLTE3MjkzOTAxNDVdfQ==
 -->
