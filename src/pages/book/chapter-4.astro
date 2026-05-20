@@ -1,11 +1,67 @@
 ---
 import Base from '../../layouts/Base.astro'
 import Doors from '../../components/Doors.astro'
-import { readFileSync } from 'fs'
-import { resolve } from 'path'
+import { readFileSync, readdirSync, existsSync } from 'fs'
+import { resolve, join } from 'path'
 
-const raw = readFileSync(resolve('src/content/book/chapter-4.md'), 'utf8')
-const body = raw.split('---\n').slice(2).join('---\n').trim()
+// === Read chapter frontmatter and the gesture manifest ===
+const chapterPath = resolve('src/content/book/chapter-4.md')
+const raw = readFileSync(chapterPath, 'utf8')
+const fmEnd = raw.indexOf('\n---\n', 4)
+const yaml = raw.slice(4, fmEnd)
+const trailingBody = raw.slice(fmEnd + 5).trim()  // framing prose if any
+
+// Tiny inline YAML list extractor (top-level lists only)
+function extractList(y, key) {
+  const lines = y.split('\n')
+  const start = lines.findIndex(l => new RegExp('^' + key + ':\\s*(#.*)?$').test(l))
+  if (start === -1) return null
+  const out = []
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i]
+    if (line.trim() === '' || line.trim().startsWith('#')) continue
+    if (!line.startsWith(' ')) break
+    const m = line.match(/^\s+-\s+(.+?)(?:\s+#.*)?$/)
+    if (m) out.push(m[1].trim())
+    else if (!line.match(/^\s+#/)) break
+  }
+  return out
+}
+
+const gestureIds = extractList(yaml, 'gestures') || []
+const separators = extractList(yaml, 'separators') || []
+
+// === Read each gesture's body and concatenate per separators ===
+function readGestureBody(plateauId, gestureId) {
+  const dir = resolve('src/content/gestures', plateauId)
+  if (!existsSync(dir)) throw new Error(`Missing gesture dir: ${dir}`)
+  const num = gestureId.split('-').pop()
+  const files = readdirSync(dir)
+  const match = files.find(f => f.startsWith(num + '-'))
+  if (!match) throw new Error(`Gesture not found: ${gestureId}`)
+  const text = readFileSync(join(dir, match), 'utf8')
+  const e = text.indexOf('\n---\n', 4)
+  return text.slice(e + 5).replace(/^\n+/, '').replace(/\n+$/, '')
+}
+
+let body
+if (gestureIds.length > 0) {
+  // Plateau composed from gestures
+  const plateauId = 'P-' + gestureIds[0].split('-')[1]
+  const parts = []
+  gestureIds.forEach((gid, i) => {
+    parts.push(readGestureBody(plateauId, gid))
+    if (i < gestureIds.length - 1) {
+      const sep = separators[i] || 'paragraph'
+      parts.push(sep === 'section' ? '\n\n---\n\n' : '\n\n')
+    }
+  })
+  body = parts.join('')
+  if (trailingBody) body += '\n\n' + trailingBody
+} else {
+  // Legacy: body inline (chapters not yet refactored to gestures)
+  body = trailingBody
+}
 
 function md(text) {
   return text
