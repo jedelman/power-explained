@@ -20,7 +20,10 @@ For the first time in my life, I didn't have anything to do and I didn't have an
 
 Erin had a job at a coffee shop and some days I would just ride with her to work. They had a couch and a guitar and I would pluck and read. Ironically, this is where I finally got to fully read Reich - *The Sexual Revolution*, *Character Analysis*, and *Mass Psychology of Fascism*. Thanks to the Redmond public library system - within walking distance of the coffee shop - a great example of the commons producing something well in excess of its intended purpose. I studied ferociously. Esoteric Buddhism, Western and Chinese herbalism, Reich's somatotherapy. 
 
-Other days I would stay home. We lived in the woods, on 5 acres, and had a very small flock of chickens. Every one of them named. They taught me 
+Other days I would stay home. We lived in the woods, on 5 acres, and had a very small flock of chickens. Every one of them named. They taught me bird language as much as any human. I would cook, write music, read. Didn't have to carry water but I did chop a lot of wood.
+
+Many days we'd go hiking or walk the trails - former railroad grades - in the valley. I started to ask myself - "is this what it's like to be retired?"
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MDExNzAxXX0=
+eyJoaXN0b3J5IjpbLTE4MjI1NzA2OTRdfQ==
 -->
