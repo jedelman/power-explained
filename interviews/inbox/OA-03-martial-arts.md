@@ -28,8 +28,8 @@ I trained there for ten years. And I'm still learning new things from my trainin
 
 I can't tell you what the ultimate truth is. What I can tell you is that the discipline that matters, that's protected me this whole time, is not the physical discipline that Foucault details so precisely - it's the discipline of the spirit. The term I was taught was _kokoro_, or "indomitability". I was taught, thoroughly, how not to give up. Not how to overcome or even to seek the advantage - those were techniques - but when the feeling of defeat creeps into the mind, to cast it aside. And after 30 years, I'm realizing how completely different a strong spirit is from a rigid body. I've won fights - real, physical ones, where I was outmatched - with that spirit. There have been moments in my life where it was all that kept me alive. 
 
-I was also instructed when to use that training, that power. I will talk about it but I will not pass it on lightly, because, just like all the other martial arts, it can be misused. I was instructed only to use it to protect, and that's one of the few oaths I've made that I will not break. Talk is cheap, contracts are only worth the paper they're written on, but spirit is everything.
+I was also instructed when to use that training, that power. I will talk about it but I will not pass it on lightly, because, just like all the other martial arts, it can be misused. I was instructed only to use it to protect, and that's one of the few oaths I've made that I will not break. Talk is cheap, contracts are only worth the paper they're written on, but spirit is everything. As I get older I'm starting to understand how literally it's the source of our life.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTk4OTA1MSwtMTc3NDgzNjY3OSw4Mj
+eyJoaXN0b3J5IjpbMjA4NjU2MTM1MiwtMTc3NDgzNjY3OSw4Mj
 A5NTc0NTAsLTc1NDc5Njc1NiwxMzY5MjEyMTU4XX0=
 -->
