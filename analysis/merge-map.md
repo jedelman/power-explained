@@ -19,210 +19,162 @@ check still passes.
 
 ## Corpus summary
 
-- 848 gestures across 26 plateaus, 682 paragraph adjacencies scored.
-- **0 STRONG** merges → if all taken, 848 → 848 gestures (0% reduction).
-- 381 *consider* merges available beyond that (review individually).
+- 776 gestures across 26 plateaus, 610 paragraph adjacencies scored.
+- **1 STRONG** merges → if all taken, 776 → 775 gestures (0% reduction).
+- 253 *consider* merges available beyond that (review individually).
 
 ## Per-plateau merge pressure
 
 | plateau | adjacencies | STRONG | consider | keep |
 |---|---|---|---|---|
-| P-01 | 31 | 0 | 18 | 13 |
-| P-10 | 28 | 0 | 8 | 20 |
-| P-11 | 29 | 0 | 16 | 13 |
-| P-12 | 27 | 0 | 12 | 15 |
-| P-13 | 32 | 0 | 17 | 15 |
-| P-14 | 28 | 0 | 12 | 16 |
-| P-15 | 17 | 0 | 9 | 8 |
-| P-16 | 44 | 0 | 25 | 19 |
-| P-16b | 44 | 0 | 28 | 16 |
-| P-17 | 37 | 0 | 25 | 12 |
-| P-18 | 33 | 0 | 16 | 17 |
-| P-02 | 19 | 0 | 13 | 6 |
-| P-03 | 29 | 0 | 15 | 14 |
-| P-04 | 15 | 0 | 13 | 2 |
-| P-05 | 24 | 0 | 12 | 12 |
-| P-06 | 27 | 0 | 11 | 16 |
-| P-07 | 28 | 0 | 15 | 13 |
-| P-08 | 20 | 0 | 8 | 12 |
-| P-09 | 26 | 0 | 14 | 12 |
-| P-EP | 10 | 0 | 7 | 3 |
-| P-GC | 33 | 0 | 26 | 7 |
-| P-IB | 10 | 0 | 6 | 4 |
-| P-IW | 18 | 0 | 13 | 5 |
-| P-PR | 24 | 0 | 12 | 12 |
-| P-RE | 26 | 0 | 18 | 8 |
-| P-CE | 23 | 0 | 12 | 11 |
+| P-01 | 29 | 0 | 11 | 18 |
+| P-10 | 26 | 0 | 5 | 21 |
+| P-11 | 19 | 0 | 8 | 11 |
+| P-12 | 21 | 0 | 6 | 15 |
+| P-13 | 26 | 0 | 10 | 16 |
+| P-14 | 25 | 0 | 6 | 19 |
+| P-15 | 15 | 0 | 6 | 9 |
+| P-16 | 41 | 0 | 18 | 23 |
+| P-16b | 43 | 0 | 22 | 21 |
+| P-17 | 35 | 0 | 22 | 13 |
+| P-18 | 33 | 0 | 13 | 20 |
+| P-02 | 16 | 0 | 8 | 8 |
+| P-03 | 25 | 0 | 9 | 16 |
+| P-04 | 15 | 0 | 12 | 3 |
+| P-05 | 21 | 0 | 8 | 13 |
+| P-06 | 24 | 0 | 6 | 18 |
+| P-07 | 22 | 0 | 5 | 17 |
+| P-08 | 15 | 1 | 3 | 11 |
+| P-09 | 23 | 0 | 11 | 12 |
+| P-EP | 9 | 0 | 3 | 6 |
+| P-GC | 33 | 0 | 19 | 14 |
+| P-IB | 9 | 0 | 3 | 6 |
+| P-IW | 17 | 0 | 10 | 7 |
+| P-PR | 24 | 0 | 10 | 14 |
+| P-RE | 24 | 0 | 11 | 13 |
+| P-CE | 20 | 0 | 8 | 12 |
 
 ## P-01 — chapter-1
 
-### consider (18)
+### consider (11)
 
 - **G-01-001 → G-01-002** (+2, 130w) — +1 combined 130w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-01-003 → G-01-004** (+2, 223w) — +2 shared: Brambleton
-- **G-01-004 → G-01-005** (+2, 256w) — +2 shared: Brambleton
-- **G-01-005 → G-01-006** (+1, 99w) — +1 combined 99w (arc-sized)
 - **G-01-008 → G-01-009** (+2, 99w) — +1 combined 99w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-009 → G-01-010** (+1, 149w) — +1 second has no proper noun (leans on antecedent)
 - **G-01-010 → G-01-011** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
-- **G-01-014 → G-01-015** (+2, 16w) — +1 continuation-conjunction start; +1 combined 16w (arc-sized)
 - **G-01-020 → G-01-021** (+2, 117w) — +1 combined 117w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-022 → G-01-023** (+2, 113w) — +1 combined 113w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-023 → G-01-024** (+1, 106w) — +1 combined 106w (arc-sized)
-- **G-01-024 → G-01-025** (+1, 49w) — +1 combined 49w (arc-sized)
-- **G-01-025 → G-01-026** (+2, 17w) — +1 combined 17w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-029 → G-01-030** (+2, 109w) — +1 combined 109w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-032 → G-01-033** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-033 → G-01-034** (+1, 67w) — +1 combined 67w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
-- **G-01-035 → G-01-036** (+2, 113w) — +1 combined 113w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-01-036 → G-01-037** (+1, 85w) — +1 combined 85w (arc-sized)
 
 ## P-10 — chapter-10
 
-### consider (8)
+### consider (5)
 
 - **G-10-005 → G-10-006** (+1, 101w) — +1 combined 101w (arc-sized)
 - **G-10-006 → G-10-007** (+1, 115w) — +1 combined 115w (arc-sized)
-- **G-10-010 → G-10-011** (+2, 115w) — +2 shared: Lenin; +1 combined 115w (arc-sized); -1 first ends on a question
-- **G-10-028 → G-10-030** (+1, 147w) — +1 second has no proper noun (leans on antecedent)
 - **G-10-030 → G-10-031** (+2, 33w) — +1 combined 33w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-10-036 → G-10-037** (+1, 47w) — +1 combined 47w (arc-sized)
 - **G-10-039 → G-10-040** (+2, 114w) — +1 combined 114w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-10-042 → G-10-044** (+2, 294w) — +2 shared: Luxemburg
 
 ## P-11 — chapter-11
 
-### consider (16)
+### consider (8)
 
 - **G-11-001 → G-11-002** (+1, 73w) — +1 combined 73w (arc-sized)
 - **G-11-002 → G-11-003** (+1, 180w) — +1 second has no proper noun (leans on antecedent)
-- **G-11-008 → G-11-009** (+2, 183w) — +2 shared: Huxley, Kropotkin
-- **G-11-009 → G-11-010** (+2, 198w) — +2 shared: Siberian
-- **G-11-011 → G-11-012** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-11-013 → G-11-014** (+2, 273w) — +2 shared: Graeber
+- **G-11-006 → G-11-008** (+2, 439w) — +2 shared: Russia, Siberia
+- **G-11-008 → G-11-011** (+2, 423w) — +2 shared: Evolution, Mutual
 - **G-11-016 → G-11-017** (+2, 136w) — +1 combined 136w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-11-020 → G-11-022** (+2, 242w) — +2 shared: Bronx
-- **G-11-022 → G-11-024** (+2, 205w) — +2 shared: Moses
-- **G-11-024 → G-11-025** (+2, 184w) — +2 shared: Bookchin
-- **G-11-025 → G-11-026** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-11-027 → G-11-028** (+2, 221w) — +2 shared: Kurdish
-- **G-11-028 → G-11-029** (+2, 163w) — +2 shared: Kurdish
-- **G-11-032 → G-11-033** (+2, 222w) — +2 shared: Chiapas, Zapatista
-- **G-11-033 → G-11-034** (+2, 244w) — +2 shared: Zapatista
+- **G-11-020 → G-11-026** (+1, 460w) — +1 second has no proper noun (leans on antecedent)
+- **G-11-027 → G-11-030** (+2, 389w) — +2 shared: Turkish
 - **G-11-037 → G-11-038** (+1, 194w) — +1 second has no proper noun (leans on antecedent)
 
 ## P-12 — chapter-12
 
-### consider (12)
+### consider (6)
 
-- **G-12-001 → G-12-004** (+2, 275w) — +2 shared: Roy, Narmada, Sardar
-- **G-12-004 → G-12-005** (+2, 177w) — +2 shared: Narmada, Roy
 - **G-12-010 → G-12-011** (+1, 156w) — +1 second has no proper noun (leans on antecedent)
-- **G-12-012 → G-12-013** (+2, 141w) — +2 shared: Narmada
-- **G-12-017 → G-12-018** (+2, 177w) — +2 shared: Freire
-- **G-12-018 → G-12-019** (+2, 124w) — +1 combined 124w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-12-017 → G-12-019** (+1, 253w) — +1 second has no proper noun (leans on antecedent)
 - **G-12-027 → G-12-028** (+1, 164w) — +1 second has no proper noun (leans on antecedent)
 - **G-12-028 → G-12-029** (+1, 205w) — +1 second has no proper noun (leans on antecedent)
 - **G-12-029 → G-12-030** (+2, 95w) — +1 combined 95w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-12-036 → G-12-037** (+2, 236w) — +2 shared: Freire
-- **G-12-037 → G-12-039** (+2, 293w) — +2 shared: Freire
-- **G-12-039 → G-12-040** (+2, 140w) — +1 combined 140w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-12-035 → G-12-036** (+2, 483w) — +2 shared: Roy
 
 ## P-13 — chapter-13
 
-### consider (17)
+### consider (10)
 
-- **G-13-001 → G-13-002** (+2, 160w) — +2 shared: Strike, Debt
-- **G-13-003 → G-13-004** (+2, 211w) — +2 shared: Rolling, Jubilee
-- **G-13-004 → G-13-005** (+2, 198w) — +2 shared: Debt, Collective
+- **G-13-001 → G-13-003** (+2, 470w) — +2 shared: Strike, Debt
 - **G-13-006 → G-13-007** (+1, 55w) — +1 combined 55w (arc-sized)
 - **G-13-007 → G-13-008** (+1, 89w) — +1 combined 89w (arc-sized)
 - **G-13-009 → G-13-010** (+1, 122w) — +1 combined 122w (arc-sized)
 - **G-13-018 → G-13-019** (+1, 202w) — +1 second has no proper noun (leans on antecedent)
 - **G-13-020 → G-13-021** (+2, 76w) — +1 combined 76w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-13-022 → G-13-023** (+1, 128w) — +1 combined 128w (arc-sized)
-- **G-13-023 → G-13-024** (+1, 164w) — +1 continuation-conjunction start
 - **G-13-024 → G-13-025** (+2, 136w) — +1 combined 136w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-13-029 → G-13-030** (+2, 226w) — +2 shared: Everest, Education
-- **G-13-030 → G-13-031** (+2, 218w) — +2 shared: Corinthian, Education, Borrower
 - **G-13-032 → G-13-033** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-13-034 → G-13-035** (+2, 248w) — +2 shared: Graeber
 - **G-13-036 → G-13-037** (+1, 173w) — +1 second has no proper noun (leans on antecedent)
-- **G-13-037 → G-13-038** (+1, 190w) — +1 continuation-conjunction start
 
 ## P-14 — chapter-14
 
-### consider (12)
+### consider (6)
 
-- **G-14-002 → G-14-003** (+1, 69w) — +1 combined 69w (arc-sized)
 - **G-14-003 → G-14-004** (+1, 74w) — +1 combined 74w (arc-sized)
-- **G-14-005 → G-14-007** (+2, 312w) — +2 shared: Atlantic
-- **G-14-008 → G-14-009** (+2, 177w) — +2 shared: Burlington, Champlain, Housing
 - **G-14-014 → G-14-016** (+1, 265w) — +1 second has no proper noun (leans on antecedent)
-- **G-14-016 → G-14-017** (+1, 69w) — +1 combined 69w (arc-sized)
 - **G-14-018 → G-14-019** (+1, 173w) — +1 second has no proper noun (leans on antecedent)
 - **G-14-023 → G-14-024** (+1, 145w) — +1 second has no proper noun (leans on antecedent)
 - **G-14-024 → G-14-025** (+1, 103w) — +1 combined 103w (arc-sized)
-- **G-14-026 → G-14-027** (+2, 147w) — +2 shared: Indigenous
 - **G-14-036 → G-14-037** (+2, 136w) — +1 combined 136w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-14-037 → G-14-038** (+2, 73w) — +1 combined 73w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-15 — chapter-15
 
-### consider (9)
+### consider (6)
 
-- **G-15-001 → G-15-002** (+2, 171w) — +2 shared: Crown, Heights
 - **G-15-005 → G-15-006** (+1, 145w) — +2 shared: York; -1 first ends on a question
-- **G-15-006 → G-15-007** (+1, 80w) — +1 combined 80w (arc-sized)
 - **G-15-008 → G-15-010** (+1, 216w) — +1 second has no proper noun (leans on antecedent)
-- **G-15-012 → G-15-013** (+2, 147w) — +2 shared: James, Trinidadian
-- **G-15-013 → G-15-014** (+1, 181w) — +1 second has no proper noun (leans on antecedent)
+- **G-15-012 → G-15-014** (+1, 236w) — +1 second has no proper noun (leans on antecedent)
 - **G-15-014 → G-15-015** (+1, 121w) — +1 combined 121w (arc-sized)
 - **G-15-015 → G-15-016** (+2, 87w) — +1 combined 87w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-15-028 → G-15-029** (+2, 69w) — +1 combined 69w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-16 — chapter-16
 
-### consider (25)
+### consider (18)
 
 - **G-16-001 → G-16-002** (+2, 81w) — +1 combined 81w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-005 → G-16-006** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-007 → G-16-008** (+1, 147w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-008 → G-16-009** (+2, 111w) — +1 combined 111w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-013 → G-16-015** (+1, 198w) — +1 second has no proper noun (leans on antecedent)
-- **G-16-015 → G-16-016** (+2, 61w) — +1 combined 61w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-016 → G-16-017** (+2, 59w) — +1 combined 59w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-026 → G-16-027** (+2, 176w) — +2 shared: Stonewall
-- **G-16-027 → G-16-029** (+1, 142w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-030 → G-16-033** (+1, 319w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-036 → G-16-037** (+1, 128w) — +1 combined 128w (arc-sized)
-- **G-16-040 → G-16-041** (+1, 75w) — +1 combined 75w (arc-sized)
 - **G-16-042 → G-16-043** (+2, 125w) — +1 combined 125w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-043 → G-16-044** (+2, 122w) — +1 combined 122w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-044 → G-16-046** (+2, 132w) — +1 combined 132w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-047 → G-16-048** (+1, 191w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-051 → G-16-052** (+1, 60w) — +1 combined 60w (arc-sized)
 - **G-16-053 → G-16-054** (+1, 109w) — +1 combined 109w (arc-sized)
-- **G-16-056 → G-16-057** (+2, 75w) — +2 shared: Torvalds; +1 combined 75w (arc-sized); -1 first ends on dash/colon landing
-- **G-16-057 → G-16-058** (+2, 167w) — +2 shared: Torvalds
-- **G-16-058 → G-16-060** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-16-055 → G-16-056** (+2, 256w) — +2 shared: Berners, Lee
+- **G-16-056 → G-16-060** (+1, 212w) — +1 second has no proper noun (leans on antecedent)
 - **G-16-060 → G-16-061** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-061 → G-16-063** (+2, 91w) — +1 combined 91w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16-065 → G-16-066** (+2, 56w) — +1 combined 56w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16-068 → G-16-069** (+2, 89w) — +1 combined 89w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-16b — chapter-16b
 
-### consider (28)
+### consider (22)
 
-- **G-16b-003 → G-16b-004** (+2, 77w) — +1 combined 77w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-006 → G-16b-008** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-008 → G-16b-010** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
 - **G-16b-010 → G-16b-012** (+2, 128w) — +1 combined 128w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-013 → G-16b-014** (+2, 91w) — +1 combined 91w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-014 → G-16b-015** (+1, 73w) — +1 combined 73w (arc-sized)
 - **G-16b-015 → G-16b-016** (+2, 63w) — +1 continuation-conjunction start; +1 combined 63w (arc-sized)
-- **G-16b-019 → G-16b-020** (+2, 175w) — +2 shared: Deleuze, Guattari
+- **G-16b-018 → G-16b-019** (+2, 189w) — +2 shared: Wachowskis
 - **G-16b-021 → G-16b-022** (+2, 46w) — +1 combined 46w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-023 → G-16b-024** (+2, 138w) — +1 combined 138w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-024 → G-16b-025** (+2, 60w) — +1 combined 60w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -232,30 +184,23 @@ check still passes.
 - **G-16b-030 → G-16b-031** (+1, 190w) — +1 second has no proper noun (leans on antecedent)
 - **G-16b-032 → G-16b-033** (+2, 73w) — +1 combined 73w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-033 → G-16b-034** (+1, 140w) — +1 combined 140w (arc-sized)
-- **G-16b-034 → G-16b-035** (+2, 92w) — +1 combined 92w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16b-035 → G-16b-036** (+2, 25w) — +1 combined 25w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-036 → G-16b-037** (+2, 83w) — +1 combined 83w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-038 → G-16b-039** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-041 → G-16b-042** (+2, 70w) — +1 combined 70w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-043 → G-16b-044** (+2, 97w) — +1 combined 97w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-16b-046 → G-16b-048** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
 - **G-16b-048 → G-16b-049** (+2, 62w) — +1 combined 62w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-16b-050 → G-16b-051** (+1, 102w) — +1 combined 102w (arc-sized)
-- **G-16b-054 → G-16b-055** (+1, 84w) — +1 combined 84w (arc-sized)
-- **G-16b-055 → G-16b-056** (+2, 16w) — +1 combined 16w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-17 — chapter-17
 
-### consider (25)
+### consider (22)
 
 - **G-17-001 → G-17-002** (+2, 88w) — +1 combined 88w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-002 → G-17-003** (+1, 161w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-004 → G-17-005** (+2, 66w) — +1 combined 66w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-17-005 → G-17-006** (+2, 62w) — +1 combined 62w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-006 → G-17-007** (+1, 54w) — +1 combined 54w (arc-sized)
 - **G-17-008 → G-17-009** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-17-011 → G-17-012** (+2, 212w) — +2 shared: Sorenson
-- **G-17-012 → G-17-014** (+1, 185w) — +1 second has no proper noun (leans on antecedent)
+- **G-17-011 → G-17-014** (+1, 259w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-016 → G-17-017** (+2, 75w) — +1 combined 75w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-017 → G-17-018** (+1, 105w) — +1 combined 105w (arc-sized)
 - **G-17-019 → G-17-020** (+2, 27w) — +1 combined 27w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -267,26 +212,22 @@ check still passes.
 - **G-17-035 → G-17-036** (+1, 168w) — +1 second has no proper noun (leans on antecedent)
 - **G-17-039 → G-17-040** (+2, 130w) — +1 combined 130w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-040 → G-17-041** (+1, 188w) — +1 second has no proper noun (leans on antecedent)
-- **G-17-043 → G-17-044** (+2, 201w) — +2 shared: Moses
+- **G-17-043 → G-17-045** (+2, 268w) — +2 shared: Jacobs
 - **G-17-045 → G-17-046** (+2, 127w) — +1 combined 127w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-046 → G-17-047** (+1, 119w) — +1 combined 119w (arc-sized)
 - **G-17-048 → G-17-049** (+2, 88w) — +1 combined 88w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-17-050 → G-17-051** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
-- **G-17-051 → G-17-053** (+2, 85w) — +1 combined 85w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-18 — chapter-18
 
-### consider (16)
+### consider (13)
 
 - **G-18-006 → G-18-007** (+2, 135w) — +1 combined 135w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-009 → G-18-010** (+1, 54w) — +1 combined 54w (arc-sized)
-- **G-18-010 → G-18-011** (+2, 58w) — +1 combined 58w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-18-012 → G-18-013** (+2, 99w) — +1 combined 99w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-014 → G-18-015** (+2, 52w) — +1 combined 52w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-020 → G-18-021** (+1, 128w) — +1 combined 128w (arc-sized)
 - **G-18-021 → G-18-022** (+1, 84w) — +1 combined 84w (arc-sized)
 - **G-18-022 → G-18-023** (+1, 136w) — +1 combined 136w (arc-sized)
-- **G-18-028 → G-18-029** (+2, 85w) — +1 combined 85w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-029 → G-18-030** (+2, 39w) — +1 combined 39w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-18-031 → G-18-032** (+1, 65w) — +1 combined 65w (arc-sized)
 - **G-18-032 → G-18-034** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -297,51 +238,39 @@ check still passes.
 
 ## P-02 — chapter-2
 
-### consider (13)
+### consider (8)
 
-- **G-02-001 → G-02-002** (+2, 45w) — +1 combined 45w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-02-003 → G-02-004** (+2, 10w) — +1 combined 10w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-02-004 → G-02-005** (+2, 48w) — +1 combined 48w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-02-006 → G-02-007** (+2, 123w) — +1 combined 123w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-02-007 → G-02-009** (+2, 113w) — +1 combined 113w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-02-010 → G-02-011** (+2, 162w) — +2 shared: Norfolk
-- **G-02-011 → G-02-012** (+2, 154w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
-- **G-02-014 → G-02-015** (+2, 185w) — +2 shared: Atlantic, Norfolk
-- **G-02-015 → G-02-016** (+2, 186w) — +2 shared: Norfolk
-- **G-02-019 → G-02-020** (+2, 78w) — +1 combined 78w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-02-013 → G-02-014** (+2, 372w) — +2 shared: White
+- **G-02-014 → G-02-017** (+2, 436w) — +2 shared: Atlantic
 - **G-02-020 → G-02-021** (+1, 72w) — +1 combined 72w (arc-sized)
 - **G-02-021 → G-02-022** (+1, 140w) — +1 combined 140w (arc-sized)
 - **G-02-022 → G-02-023** (+2, 124w) — +1 combined 124w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-03 — chapter-3
 
-### consider (15)
+### consider (9)
 
 - **G-03-001 → G-03-002** (+1, 111w) — +1 combined 111w (arc-sized)
-- **G-03-004 → G-03-005** (+2, 66w) — +1 combined 66w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-005 → G-03-006** (+2, 103w) — +1 combined 103w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-006 → G-03-007** (+1, 109w) — +1 combined 109w (arc-sized)
 - **G-03-008 → G-03-009** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-03-011 → G-03-012** (+2, 59w) — +1 continuation-conjunction start; +1 combined 59w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
 - **G-03-017 → G-03-019** (+1, 132w) — +1 combined 132w (arc-sized)
-- **G-03-022 → G-03-023** (+2, 216w) — +2 shared: Valencia, Valencian
-- **G-03-027 → G-03-029** (+2, 224w) — +2 shared: Hardin
 - **G-03-032 → G-03-033** (+1, 174w) — +1 second has no proper noun (leans on antecedent)
-- **G-03-035 → G-03-036** (+2, 243w) — +2 shared: Foucault, Paris, Gramsci
-- **G-03-036 → G-03-037** (+2, 273w) — +2 shared: Negri, Empire
 - **G-03-039 → G-03-040** (+2, 95w) — +1 combined 95w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-03-043 → G-03-044** (+1, 77w) — +1 combined 77w (arc-sized)
 - **G-03-045 → G-03-046** (+2, 109w) — +1 combined 109w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-04 — chapter-4
 
-### consider (13)
+### consider (12)
 
 - **G-04-001 → G-04-002** (+2, 299w) — +2 shared: Basques
 - **G-04-002 → G-04-003** (+2, 263w) — +2 shared: Franco
 - **G-04-006 → G-04-007** (+2, 202w) — +2 shared: Arizmendi
 - **G-04-007 → G-04-008** (+2, 248w) — +2 shared: Arizmendi
-- **G-04-008 → G-04-009** (+1, 163w) — +1 second has no proper noun (leans on antecedent)
 - **G-04-010 → G-04-011** (+2, 324w) — +2 shared: Sanders, Burlington
 - **G-04-011 → G-04-012** (+2, 279w) — +2 shared: Trust, Homeowners
 - **G-04-012 → G-04-013** (+2, 281w) — +2 shared: Trust, Champlain
@@ -353,15 +282,11 @@ check still passes.
 
 ## P-05 — chapter-5
 
-### consider (12)
+### consider (8)
 
-- **G-05-003 → G-05-004** (+2, 147w) — +2 shared: Berlin
-- **G-05-004 → G-05-005** (+2, 45w) — +1 combined 45w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-05-008 → G-05-009** (+2, 82w) — +1 combined 82w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-009 → G-05-010** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-05-010 → G-05-011** (+2, 166w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
-- **G-05-016 → G-05-017** (+2, 193w) — +2 shared: Petersburg
-- **G-05-017 → G-05-018** (+2, 350w) — +2 shared: Kollontai
+- **G-05-010 → G-05-011** (+1, 166w) — +1 second has no proper noun (leans on antecedent)
+- **G-05-015 → G-05-016** (+2, 416w) — +2 shared: Kollontai
 - **G-05-025 → G-05-026** (+2, 64w) — +1 combined 64w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-027 → G-05-028** (+2, 76w) — +1 combined 76w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-05-028 → G-05-029** (+2, 39w) — +1 combined 39w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -370,60 +295,44 @@ check still passes.
 
 ## P-06 — chapter-6
 
-### consider (11)
+### consider (6)
 
-- **G-06-007 → G-06-008** (+1, 92w) — +1 combined 92w (arc-sized)
-- **G-06-012 → G-06-013** (+2, 118w) — +1 continuation-conjunction start; +1 combined 118w (arc-sized)
-- **G-06-014 → G-06-017** (+1, 241w) — +1 second has no proper noun (leans on antecedent)
+- **G-06-012 → G-06-013** (+1, 118w) — +1 combined 118w (arc-sized)
 - **G-06-018 → G-06-021** (+1, 359w) — +1 second has no proper noun (leans on antecedent)
-- **G-06-024 → G-06-025** (+2, 151w) — +2 shared: Palmares
-- **G-06-027 → G-06-028** (+2, 85w) — +2 shared: Africa; +1 combined 85w (arc-sized); -1 first ends on dash/colon landing
-- **G-06-029 → G-06-030** (+2, 147w) — +2 shared: Zimbabwe
+- **G-06-023 → G-06-024** (+2, 258w) — +2 shared: Black
 - **G-06-034 → G-06-035** (+1, 94w) — +1 combined 94w (arc-sized)
-- **G-06-037 → G-06-038** (+1, 71w) — +1 combined 71w (arc-sized)
 - **G-06-040 → G-06-041** (+1, 101w) — +1 combined 101w (arc-sized)
 - **G-06-042 → G-06-043** (+1, 101w) — +1 combined 101w (arc-sized)
 
 ## P-07 — chapter-7
 
-### consider (15)
+### consider (5)
 
-- **G-07-002 → G-07-003** (+1, 126w) — +1 combined 126w (arc-sized)
-- **G-07-004 → G-07-005** (+2, 36w) — +1 combined 36w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-07-005 → G-07-006** (+1, 84w) — +1 combined 84w (arc-sized)
-- **G-07-010 → G-07-011** (+2, 228w) — +2 shared: Europe, Lyon
-- **G-07-015 → G-07-016** (+2, 129w) — +1 combined 129w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-07-017 → G-07-018** (+1, 77w) — +1 combined 77w (arc-sized)
-- **G-07-019 → G-07-020** (+2, 178w) — +2 shared: Fanon
-- **G-07-022 → G-07-023** (+2, 173w) — +2 shared: Foucault, Mbembe
-- **G-07-023 → G-07-024** (+2, 235w) — +2 shared: Cameroon
-- **G-07-024 → G-07-025** (+2, 214w) — +2 shared: Cameroon, France
-- **G-07-026 → G-07-027** (+2, 221w) — +2 shared: Social, Research, Johannesburg
 - **G-07-028 → G-07-030** (+1, 216w) — +2 shared: Foucault; -1 first ends on a question
-- **G-07-033 → G-07-034** (+2, 112w) — +1 combined 112w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-07-035 → G-07-037** (+1, 179w) — +1 second has no proper noun (leans on antecedent)
 - **G-07-040 → G-07-041** (+1, 163w) — +1 second has no proper noun (leans on antecedent)
 
 ## P-08 — chapter-8
 
-### consider (8)
+### STRONG (1)
+
+**G-08-020 → G-08-024** · score +4 · 539w
+> A: Angela Davis has been building in exactly that direction longer than most people have been…
+> B: These are the commons institutions that, built at scale, address the conditions that incar…
+> _+2 shared: Mbembe · +2 anaphoric pronoun start, no new name_
+
+### consider (3)
 
 - **G-08-005 → G-08-006** (+2, 119w) — +1 combined 119w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-08-009 → G-08-011** (+2, 437w) — +2 shared: Wynter
-- **G-08-016 → G-08-017** (+2, 176w) — +2 shared: Black
-- **G-08-017 → G-08-018** (+2, 182w) — +2 shared: Black
-- **G-08-020 → G-08-022** (+2, 345w) — +2 shared: Davis, Black
-- **G-08-022 → G-08-023** (+2, 352w) — +2 shared: Davis
 - **G-08-026 → G-08-027** (+1, 227w) — +1 second has no proper noun (leans on antecedent)
 - **G-08-027 → G-08-028** (+1, 140w) — +1 combined 140w (arc-sized)
 
 ## P-09 — chapter-9
 
-### consider (14)
+### consider (11)
 
-- **G-09-001 → G-09-003** (+2, 212w) — +2 shared: Turin, Fiat
-- **G-09-004 → G-09-006** (+2, 186w) — +2 shared: Gramsci
-- **G-09-008 → G-09-009** (+2, 252w) — +2 shared: Gramsci
 - **G-09-012 → G-09-013** (+1, 135w) — +1 combined 135w (arc-sized)
 - **G-09-017 → G-09-018** (+2, 127w) — +1 combined 127w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-09-018 → G-09-019** (+1, 183w) — +1 second has no proper noun (leans on antecedent)
@@ -433,24 +342,20 @@ check still passes.
 - **G-09-028 → G-09-029** (+2, 139w) — +1 combined 139w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-09-029 → G-09-031** (+1, 130w) — +1 combined 130w (arc-sized)
 - **G-09-032 → G-09-033** (+1, 111w) — +1 combined 111w (arc-sized)
-- **G-09-034 → G-09-035** (+2, 163w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
+- **G-09-034 → G-09-035** (+1, 163w) — +1 second has no proper noun (leans on antecedent)
 - **G-09-037 → G-09-039** (+2, 134w) — +1 combined 134w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-EP — epilogue
 
-### consider (7)
+### consider (3)
 
-- **G-EP-004 → G-EP-005** (+2, 206w) — +2 shared: America
 - **G-EP-006 → G-EP-007** (+1, 112w) — +1 combined 112w (arc-sized)
 - **G-EP-008 → G-EP-009** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
 - **G-EP-013 → G-EP-014** (+1, 209w) — +1 second has no proper noun (leans on antecedent)
-- **G-EP-014 → G-EP-015** (+2, 93w) — +1 combined 93w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-EP-015 → G-EP-016** (+2, 29w) — +1 combined 29w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-EP-016 → G-EP-017** (+1, 29w) — +1 combined 29w (arc-sized)
 
 ## P-GC — goetia
 
-### consider (26)
+### consider (19)
 
 - **G-GC-001 → G-GC-002** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-002 → G-GC-003** (+1, 130w) — +1 combined 130w (arc-sized)
@@ -458,45 +363,33 @@ check still passes.
 - **G-GC-005 → G-GC-006** (+1, 138w) — +1 combined 138w (arc-sized)
 - **G-GC-006 → G-GC-007** (+1, 169w) — +1 second has no proper noun (leans on antecedent)
 - **G-GC-010 → G-GC-011** (+2, 134w) — +1 combined 134w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-013 → G-GC-014** (+2, 46w) — +1 combined 46w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-014 → G-GC-015** (+1, 88w) — +1 combined 88w (arc-sized)
 - **G-GC-015 → G-GC-016** (+1, 192w) — +1 second has no proper noun (leans on antecedent)
 - **G-GC-016 → G-GC-018** (+1, 147w) — +1 second has no proper noun (leans on antecedent)
-- **G-GC-021 → G-GC-022** (+1, 94w) — +1 combined 94w (arc-sized)
 - **G-GC-022 → G-GC-023** (+2, 49w) — +1 combined 49w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-025 → G-GC-026** (+2, 116w) — +1 combined 116w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-028 → G-GC-029** (+2, 38w) — +1 combined 38w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-029 → G-GC-030** (+1, 79w) — +1 combined 79w (arc-sized)
 - **G-GC-031 → G-GC-032** (+2, 118w) — +1 combined 118w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-032 → G-GC-034** (+2, 89w) — +1 combined 89w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-034 → G-GC-035** (+1, 55w) — +1 combined 55w (arc-sized)
-- **G-GC-036 → G-GC-037** (+2, 97w) — +1 continuation-conjunction start; +1 combined 97w (arc-sized)
-- **G-GC-037 → G-GC-038** (+2, 61w) — +1 combined 61w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-039 → G-GC-040** (+1, 29w) — +1 combined 29w (arc-sized)
-- **G-GC-040 → G-GC-041** (+2, 29w) — +1 combined 29w (arc-sized); +1 second has no proper noun (leans on antecedent)
+- **G-GC-036 → G-GC-037** (+1, 97w) — +1 combined 97w (arc-sized)
 - **G-GC-041 → G-GC-042** (+2, 74w) — +1 combined 74w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-GC-043 → G-GC-045** (+1, 146w) — +1 second has no proper noun (leans on antecedent)
 - **G-GC-045 → G-GC-046** (+2, 58w) — +1 combined 58w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-GC-047 → G-GC-048** (+1, 26w) — +1 combined 26w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
 
 ## P-IB — interlude-barcelona
 
-### consider (6)
+### consider (3)
 
 - **G-IB-001 → G-IB-002** (+2, 96w) — +1 combined 96w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IB-005 → G-IB-006** (+1, 171w) — +1 second has no proper noun (leans on antecedent)
-- **G-IB-006 → G-IB-007** (+2, 53w) — +1 combined 53w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IB-007 → G-IB-008** (+2, 57w) — +1 combined 57w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-IB-009 → G-IB-010** (+2, 166w) — +2 shared: Barcelona
-- **G-IB-010 → G-IB-011** (+2, 86w) — +1 combined 86w (arc-sized); +1 second has no proper noun (leans on antecedent)
 
 ## P-IW — interlude-washington
 
-### consider (13)
+### consider (10)
 
-- **G-IW-001 → G-IW-002** (+2, 51w) — +1 combined 51w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-003 → G-IW-004** (+1, 158w) — +1 second has no proper noun (leans on antecedent)
-- **G-IW-004 → G-IW-005** (+2, 88w) — +1 combined 88w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-005 → G-IW-006** (+2, 80w) — +1 combined 80w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-IW-006 → G-IW-007** (+1, 154w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-007 → G-IW-009** (+1, 167w) — +1 second has no proper noun (leans on antecedent)
@@ -504,21 +397,18 @@ check still passes.
 - **G-IW-010 → G-IW-011** (+1, 67w) — +1 combined 67w (arc-sized)
 - **G-IW-011 → G-IW-012** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-013 → G-IW-014** (+2, 137w) — +1 combined 137w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-IW-015 → G-IW-016** (+2, 192w) — +2 shared: Gramsci
 - **G-IW-017 → G-IW-018** (+1, 163w) — +1 second has no proper noun (leans on antecedent)
 - **G-IW-020 → G-IW-021** (+1, 221w) — +1 second has no proper noun (leans on antecedent)
 
 ## P-PR — prologue
 
-### consider (12)
+### consider (10)
 
-- **G-PR-001 → G-PR-002** (+2, 182w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
-- **G-PR-002 → G-PR-003** (+2, 247w) — +1 continuation-conjunction start; +1 second has no proper noun (leans on antecedent)
+- **G-PR-001 → G-PR-002** (+1, 182w) — +1 second has no proper noun (leans on antecedent)
+- **G-PR-002 → G-PR-003** (+1, 247w) — +1 second has no proper noun (leans on antecedent)
 - **G-PR-006 → G-PR-007** (+2, 120w) — +1 combined 120w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-PR-008 → G-PR-009** (+1, 218w) — +1 second has no proper noun (leans on antecedent)
 - **G-PR-011 → G-PR-012** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-PR-014 → G-PR-015** (+2, 28w) — +1 combined 28w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-PR-016 → G-PR-018** (+1, 201w) — +1 continuation-conjunction start
 - **G-PR-018 → G-PR-019** (+2, 105w) — +1 combined 105w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-PR-022 → G-PR-023** (+1, 165w) — +1 second has no proper noun (leans on antecedent)
 - **G-PR-023 → G-PR-024** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
@@ -527,41 +417,30 @@ check still passes.
 
 ## P-RE — reenchanting
 
-### consider (18)
+### consider (11)
 
-- **G-RE-001 → G-RE-003** (+2, 243w) — +2 shared: Federici
-- **G-RE-003 → G-RE-004** (+1, 154w) — +1 second has no proper noun (leans on antecedent)
-- **G-RE-004 → G-RE-005** (+2, 20w) — +1 combined 20w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-007 → G-RE-009** (+1, 150w) — +1 second has no proper noun (leans on antecedent)
-- **G-RE-009 → G-RE-010** (+2, 94w) — +1 combined 94w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-010 → G-RE-011** (+2, 108w) — +1 combined 108w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-011 → G-RE-012** (+1, 203w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-014 → G-RE-015** (+1, 108w) — +1 combined 108w (arc-sized)
 - **G-RE-015 → G-RE-016** (+1, 187w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-016 → G-RE-017** (+1, 144w) — +1 second has no proper noun (leans on antecedent)
 - **G-RE-021 → G-RE-022** (+1, 167w) — +1 second has no proper noun (leans on antecedent)
-- **G-RE-024 → G-RE-025** (+2, 147w) — +2 shared: Far
 - **G-RE-026 → G-RE-028** (+1, 206w) — +1 second has no proper noun (leans on antecedent)
-- **G-RE-028 → G-RE-029** (+2, 92w) — +1 combined 92w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-029 → G-RE-030** (+2, 115w) — +1 combined 115w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-RE-037 → G-RE-038** (+1, 85w) — +1 combined 85w (arc-sized)
 - **G-RE-038 → G-RE-039** (+2, 74w) — +1 combined 74w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-RE-039 → G-RE-040** (+1, 56w) — +1 combined 56w (arc-sized)
 
 ## P-CE — the-centaur-chapter
 
-### consider (12)
+### consider (8)
 
 - **G-CE-001 → G-CE-002** (+1, 88w) — +1 combined 88w (arc-sized)
-- **G-CE-004 → G-CE-005** (+2, 212w) — +2 shared: Chiron, Heracles
-- **G-CE-005 → G-CE-007** (+2, 102w) — +1 combined 102w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-CE-008 → G-CE-009** (+2, 40w) — +1 combined 40w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-CE-010 → G-CE-011** (+2, 240w) — +2 shared: Jason
 - **G-CE-015 → G-CE-016** (+1, 130w) — +1 combined 130w (arc-sized)
-- **G-CE-020 → G-CE-021** (+2, 205w) — +2 shared: Jason
+- **G-CE-019 → G-CE-020** (+2, 461w) — +2 shared: Federici
 - **G-CE-023 → G-CE-024** (+1, 84w) — +1 combined 84w (arc-sized); +1 second has no proper noun (leans on antecedent); -1 first ends on a question
 - **G-CE-026 → G-CE-027** (+2, 101w) — +1 combined 101w (arc-sized); +1 second has no proper noun (leans on antecedent)
 - **G-CE-030 → G-CE-032** (+1, 91w) — +1 combined 91w (arc-sized)
 - **G-CE-032 → G-CE-033** (+2, 65w) — +1 combined 65w (arc-sized); +1 second has no proper noun (leans on antecedent)
-- **G-CE-034 → G-CE-035** (+2, 32w) — +1 combined 32w (arc-sized); +1 second has no proper noun (leans on antecedent)
 

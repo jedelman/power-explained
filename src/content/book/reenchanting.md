@@ -12,7 +12,6 @@ plateau:
   status: draft
 gestures:
   - G-RE-001
-  - G-RE-003
   - G-RE-004
   - G-RE-005
   - G-RE-006
@@ -31,7 +30,6 @@ gestures:
   - G-RE-022
   - G-RE-023
   - G-RE-024
-  - G-RE-025
   - G-RE-026
   - G-RE-028
   - G-RE-029
@@ -46,7 +44,6 @@ gestures:
 separators:
   - paragraph
   - paragraph
-  - paragraph
   - section
   - paragraph
   - paragraph
@@ -60,7 +57,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

@@ -13,7 +13,6 @@ gestures:
   - G-05-001
   - G-05-002
   - G-05-003
-  - G-05-004
   - G-05-005
   - G-05-006
   - G-05-008
@@ -25,8 +24,6 @@ gestures:
   - G-05-014
   - G-05-015
   - G-05-016
-  - G-05-017
-  - G-05-018
   - G-05-021
   - G-05-022
   - G-05-023
@@ -50,10 +47,7 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph
   - section
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

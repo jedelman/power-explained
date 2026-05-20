@@ -7,9 +7,14 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-06-030 on
+  2026-05-20]
 ---
 Before the slave trade, Great Zimbabwe: a stone-walled city in what is now southern Zimbabwe, center of a polity controlling gold trade routes connecting the African interior to the Swahili coast and beyond — to the Arab world, to India, eventually to China. Construction began in the eleventh century and peaked in the fourteenth and fifteenth. The walls required no mortar. Stones were shaped and fitted with a precision that took generations of accumulated craft knowledge to achieve. At its height, the city held perhaps eighteen thousand people.
+
+When European colonizers arrived centuries later, they refused to believe Africans had built it. They proposed Phoenicians, Arabs — anyone but the people who actually lived in Zimbabwe. The refusal was not incidental. It is the cognitive operation racial capitalism requires: systematic non-recognition of African capacity, development, complexity. To enclose something, you first have to make it appear empty.

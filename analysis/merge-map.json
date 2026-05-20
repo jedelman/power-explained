@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T19:42:15.200Z",
+  "generatedAt": "2026-05-20T19:55:50.484Z",
   "model": "paragraph-adjacency merge scoring; sections excluded; see script header for signals",
   "pairs": [
     {
@@ -22,13 +22,12 @@
       "slug": "chapter-1",
       "from": "G-01-002",
       "to": "G-01-003",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 118w (arc-sized)",
         "-2 opens new cluster: Brambleton, Avenue, Barcelona"
       ],
-      "combined": 118,
+      "combined": 374,
       "aPreview": "The places where you can actually cross — on foot, as a human being — are the intersection",
       "bPreview": "I've crossed Brambleton Avenue on foot hundreds of times. I've walked cities on multiple c"
     },
@@ -36,42 +35,14 @@
       "plateau": "P-01",
       "slug": "chapter-1",
       "from": "G-01-003",
-      "to": "G-01-004",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Brambleton"
-      ],
-      "combined": 223,
-      "aPreview": "I've crossed Brambleton Avenue on foot hundreds of times. I've walked cities on multiple c",
-      "bPreview": "Some days I walk up to the Brambleton crossing and turn around. The heaviness hits before "
-    },
-    {
-      "plateau": "P-01",
-      "slug": "chapter-1",
-      "from": "G-01-004",
-      "to": "G-01-005",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Brambleton"
-      ],
-      "combined": 256,
-      "aPreview": "Some days I walk up to the Brambleton crossing and turn around. The heaviness hits before ",
-      "bPreview": "Hampton Boulevard is different. Hampton carries the truck traffic that containers would ha"
-    },
-    {
-      "plateau": "P-01",
-      "slug": "chapter-1",
-      "from": "G-01-005",
       "to": "G-01-006",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 99w (arc-sized)"
+        "-2 second is a 14-word standalone beat (likely a landing)"
       ],
-      "combined": 99,
-      "aPreview": "Hampton Boulevard is different. Hampton carries the truck traffic that containers would ha",
+      "combined": 322,
+      "aPreview": "I've crossed Brambleton Avenue on foot hundreds of times. I've walked cities on multiple c",
       "bPreview": "Rage. Every time. Not rage at a broken system — rage at a functioning one."
     },
     {
@@ -152,10 +123,10 @@
       "slug": "chapter-1",
       "from": "G-01-013",
       "to": "G-01-014",
-      "score": -1,
+      "score": -4,
       "band": "keep",
       "reasons": [
-        "+1 combined 78w (arc-sized)",
+        "-2 second is a 11-word standalone beat (likely a landing)",
         "-2 opens new cluster: Hampton, Boulevard"
       ],
       "combined": 78,
@@ -167,11 +138,11 @@
       "slug": "chapter-1",
       "from": "G-01-014",
       "to": "G-01-015",
-      "score": 2,
-      "band": "consider",
+      "score": -4,
+      "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
-        "+1 combined 16w (arc-sized)"
+        "-2 second is a 5-word standalone beat (likely a landing)",
+        "-2 second is a short pivot/turn (opens \"but…\")"
       ],
       "combined": 16,
       "aPreview": "Hampton Boulevard doesn't crash. It functions. That's the problem.",
@@ -294,10 +265,10 @@
       "slug": "chapter-1",
       "from": "G-01-024",
       "to": "G-01-025",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 49w (arc-sized)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 49,
       "aPreview": "The board was within their rights. Neighborhood league boards have procedural authority ov",
@@ -308,11 +279,10 @@
       "slug": "chapter-1",
       "from": "G-01-025",
       "to": "G-01-026",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 17w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 8-word standalone beat (likely a landing)"
       ],
       "combined": 17,
       "aPreview": "Not corruption. Not malice. Fear made decisive by structure.",
@@ -323,10 +293,10 @@
       "slug": "chapter-1",
       "from": "G-01-026",
       "to": "G-01-027",
-      "score": -1,
+      "score": -4,
       "band": "keep",
       "reasons": [
-        "+1 combined 20w (arc-sized)",
+        "-2 second is a 12-word standalone beat (likely a landing)",
         "-2 opens new cluster: Armed, Forces, Brewing"
       ],
       "combined": 20,
@@ -426,11 +396,10 @@
       "slug": "chapter-1",
       "from": "G-01-035",
       "to": "G-01-036",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 113w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 10-word standalone beat (likely a landing)"
       ],
       "combined": 113,
       "aPreview": "After midnight, the truck traffic on Hampton Boulevard subsides. I used to cross it by bik",
@@ -455,9 +424,11 @@
       "slug": "chapter-10",
       "from": "G-10-001",
       "to": "G-10-005",
-      "score": 0,
+      "score": -2,
       "band": "keep",
-      "reasons": [],
+      "reasons": [
+        "-2 second is a 5-word standalone beat (likely a landing)"
+      ],
       "combined": 202,
       "aPreview": "In the summer of 1918, Rosa Luxemburg was in the women's prison at Breslau, Germany, servi",
       "bPreview": "Not might fail. Would fail."
@@ -523,30 +494,14 @@
       "plateau": "P-10",
       "slug": "chapter-10",
       "from": "G-10-010",
-      "to": "G-10-011",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Lenin",
-        "+1 combined 115w (arc-sized)",
-        "-1 first ends on a question"
-      ],
-      "combined": 115,
-      "aPreview": "She had been arguing with Lenin since at least 1904. He was writing from exile in London; ",
-      "bPreview": "Lenin's answer, laid out in *What Is To Be Done?*: the working class, left to its own devi"
-    },
-    {
-      "plateau": "P-10",
-      "slug": "chapter-10",
-      "from": "G-10-011",
       "to": "G-10-012",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Luxemburg, Substitution"
       ],
-      "combined": 226,
-      "aPreview": "Lenin's answer, laid out in *What Is To Be Done?*: the working class, left to its own devi",
+      "combined": 268,
+      "aPreview": "She had been arguing with Lenin since at least 1904. He was writing from exile in London; ",
       "bPreview": "Luxemburg's response, published the same year: this is backwards, and the backwardness is "
     },
     {
@@ -684,10 +639,10 @@
       "slug": "chapter-10",
       "from": "G-10-028",
       "to": "G-10-030",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 7-word standalone beat (likely a landing)"
       ],
       "combined": 147,
       "aPreview": "Centralized revolutionary organizations are capture mechanisms. They extract the productiv",
@@ -810,10 +765,9 @@
       "slug": "chapter-10",
       "from": "G-10-040",
       "to": "G-10-041",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
         "-2 opens new cluster: Fiat, Aragonese, Kronstadt"
       ],
       "combined": 152,
@@ -830,23 +784,9 @@
       "reasons": [
         "-2 opens new cluster: Luxemburg, Bolsheviks, Making"
       ],
-      "combined": 210,
+      "combined": 413,
       "aPreview": "And look at who built it. Not the theorists debating in exile. The workers who occupied th",
       "bPreview": "Luxemburg in her prison cell in 1918, feeding birds she had named, writing the analysis th"
-    },
-    {
-      "plateau": "P-10",
-      "slug": "chapter-10",
-      "from": "G-10-042",
-      "to": "G-10-044",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Luxemburg"
-      ],
-      "combined": 294,
-      "aPreview": "Luxemburg in her prison cell in 1918, feeding birds she had named, writing the analysis th",
-      "bPreview": "There is a tension I want to name before we leave this chapter. A book that argues against"
     },
     {
       "plateau": "P-11",
@@ -896,12 +836,12 @@
       "slug": "chapter-11",
       "from": "G-11-006",
       "to": "G-11-008",
-      "score": -2,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "-2 opens new cluster: Thomas, Henry, Huxley"
+        "+2 shared: Russia, Siberia"
       ],
-      "combined": 241,
+      "combined": 439,
       "aPreview": "He was born in Moscow in 1842, from one of the oldest families in Russia — the Kropotkins ",
       "bPreview": "Thomas Henry Huxley had argued that nature was a \"gladiatorial show\" of mutual slaughter, "
     },
@@ -909,42 +849,14 @@
       "plateau": "P-11",
       "slug": "chapter-11",
       "from": "G-11-008",
-      "to": "G-11-009",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Huxley, Kropotkin"
-      ],
-      "combined": 183,
-      "aPreview": "Thomas Henry Huxley had argued that nature was a \"gladiatorial show\" of mutual slaughter, ",
-      "bPreview": "Kropotkin read Huxley from Siberia and found it inaccurate. Competition doesn't explain th"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-009",
-      "to": "G-11-010",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Siberian"
-      ],
-      "combined": 198,
-      "aPreview": "Kropotkin read Huxley from Siberia and found it inaccurate. Competition doesn't explain th",
-      "bPreview": "He spent the next twenty years building the evidence: insects, birds, mammals, human socie"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-010",
       "to": "G-11-011",
-      "score": -2,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "-2 opens new cluster: Mutual, Aid, Factor"
+        "+2 shared: Evolution, Mutual"
       ],
-      "combined": 240,
-      "aPreview": "He spent the next twenty years building the evidence: insects, birds, mammals, human socie",
+      "combined": 423,
+      "aPreview": "Thomas Henry Huxley had argued that nature was a \"gladiatorial show\" of mutual slaughter, ",
       "bPreview": "*Mutual Aid: A Factor of Evolution*, published in 1902, drew the conclusion the dominant t"
     },
     {
@@ -952,11 +864,10 @@
       "slug": "chapter-11",
       "from": "G-11-011",
       "to": "G-11-012",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 112w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 14-word standalone beat (likely a landing)"
       ],
       "combined": 112,
       "aPreview": "*Mutual Aid: A Factor of Evolution*, published in 1902, drew the conclusion the dominant t",
@@ -966,28 +877,14 @@
       "plateau": "P-11",
       "slug": "chapter-11",
       "from": "G-11-013",
-      "to": "G-11-014",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Graeber"
-      ],
-      "combined": 273,
-      "aPreview": "David Graeber understood this in his bones because it had happened to him.",
-      "bPreview": "He showed up at the Summit of the Americas protests in Quebec City in 2001 [CORRECTION: \"W"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-014",
       "to": "G-11-015",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Communism, Exchange, Hierarchy"
       ],
-      "combined": 362,
-      "aPreview": "He showed up at the Summit of the Americas protests in Quebec City in 2001 [CORRECTION: \"W",
+      "combined": 375,
+      "aPreview": "David Graeber understood this in his bones because it had happened to him. He showed up at",
       "bPreview": "From that vantage point he developed the three primordial economic forms that appear in ev"
     },
     {
@@ -995,10 +892,9 @@
       "slug": "chapter-11",
       "from": "G-11-015",
       "to": "G-11-016",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
         "-2 opens new cluster: Graeber, Enclosure"
       ],
       "combined": 157,
@@ -1050,57 +946,14 @@
       "plateau": "P-11",
       "slug": "chapter-11",
       "from": "G-11-020",
-      "to": "G-11-022",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Bronx"
-      ],
-      "combined": 242,
-      "aPreview": "Murray Bookchin was born in the Bronx in 1921, the son of Jewish anarchist immigrants, and",
-      "bPreview": "Robert Moses would spend thirty years destroying it. The expressways that cut through the "
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-022",
-      "to": "G-11-024",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Moses"
-      ],
-      "combined": 205,
-      "aPreview": "Robert Moses would spend thirty years destroying it. The expressways that cut through the ",
-      "bPreview": "Jane Jacobs was watching the same destruction from Greenwich Village and drawing the same "
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-024",
-      "to": "G-11-025",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Bookchin"
-      ],
-      "combined": 184,
-      "aPreview": "Jane Jacobs was watching the same destruction from Greenwich Village and drawing the same ",
-      "bPreview": "Bookchin synthesized what he was seeing into a theory he called *Social Ecology*: the domi"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-025",
       "to": "G-11-026",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 combined 119w (arc-sized)",
         "+1 second has no proper noun (leans on antecedent)"
       ],
-      "combined": 119,
-      "aPreview": "Bookchin synthesized what he was seeing into a theory he called *Social Ecology*: the domi",
+      "combined": 460,
+      "aPreview": "Murray Bookchin was born in the Bronx in 1921, the son of Jewish anarchist immigrants, and",
       "bPreview": "The garden is political. The street is political. The decision about whether to pave the i"
     },
     {
@@ -1108,13 +961,12 @@
       "slug": "chapter-11",
       "from": "G-11-026",
       "to": "G-11-027",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 119w (arc-sized)",
         "-2 opens new cluster: Abdullah, Kurdish, Turkish"
       ],
-      "combined": 119,
+      "combined": 282,
       "aPreview": "The garden is political. The street is political. The decision about whether to pave the i",
       "bPreview": "Abdullah Öcalan spent thirty years building the Kurdish liberation movement — organizing, "
     },
@@ -1122,42 +974,14 @@
       "plateau": "P-11",
       "slug": "chapter-11",
       "from": "G-11-027",
-      "to": "G-11-028",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Kurdish"
-      ],
-      "combined": 221,
-      "aPreview": "Abdullah Öcalan spent thirty years building the Kurdish liberation movement — organizing, ",
-      "bPreview": "In prison he read widely — feminist theory, the Black radical tradition, the history of Ku"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-028",
-      "to": "G-11-029",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Kurdish"
-      ],
-      "combined": 163,
-      "aPreview": "In prison he read widely — feminist theory, the Black radical tradition, the history of Ku",
-      "bPreview": "Öcalan dropped the demand for a Kurdish nation-state. He replaced it with the demand for d"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-029",
       "to": "G-11-030",
-      "score": -2,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "-2 opens new cluster: Syria, Rojava, Syrian"
+        "+2 shared: Turkish"
       ],
-      "combined": 168,
-      "aPreview": "Öcalan dropped the demand for a Kurdish nation-state. He replaced it with the demand for d",
+      "combined": 389,
+      "aPreview": "Abdullah Öcalan spent thirty years building the Kurdish liberation movement — organizing, ",
       "bPreview": "The result, in the region of northern Syria known as Rojava, was one of the most remarkabl"
     },
     {
@@ -1179,43 +1003,14 @@
       "slug": "chapter-11",
       "from": "G-11-031",
       "to": "G-11-032",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 113w (arc-sized)",
         "-2 opens new cluster: Chiapas, Zapatista, Army"
       ],
-      "combined": 113,
+      "combined": 357,
       "aPreview": "The Zapatistas had arrived at the same place without reading Bookchin — because the condit",
       "bPreview": "On January 1, 1994, the day NAFTA took effect and enclosed the communal land rights that i"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-032",
-      "to": "G-11-033",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Chiapas, Zapatista"
-      ],
-      "combined": 222,
-      "aPreview": "On January 1, 1994, the day NAFTA took effect and enclosed the communal land rights that i",
-      "bPreview": "Thirty years later the Zapatista autonomous communities govern roughly a quarter of Chiapa"
-    },
-    {
-      "plateau": "P-11",
-      "slug": "chapter-11",
-      "from": "G-11-033",
-      "to": "G-11-034",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Zapatista"
-      ],
-      "combined": 244,
-      "aPreview": "Thirty years later the Zapatista autonomous communities govern roughly a quarter of Chiapa",
-      "bPreview": "They have been doing this while the Mexican military surrounds them, while paramilitaries "
     },
     {
       "plateau": "P-11",
@@ -1256,34 +1051,6 @@
       "combined": 185,
       "aPreview": "The commons wasn't enclosed because it failed. It was enclosed because it worked. And it k",
       "bPreview": "Of the people in this chapter, I'm closest to Kropotkin. Not the prince part — the observe"
-    },
-    {
-      "plateau": "P-12",
-      "slug": "chapter-12",
-      "from": "G-12-001",
-      "to": "G-12-004",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Roy, Narmada, Sardar"
-      ],
-      "combined": 275,
-      "aPreview": "In the winter of 1999, Arundhati Roy was standing waist-deep in the Narmada River. She was",
-      "bPreview": "Half a million people were displaced by the Narmada Valley Development Project. [FLAG: dis"
-    },
-    {
-      "plateau": "P-12",
-      "slug": "chapter-12",
-      "from": "G-12-004",
-      "to": "G-12-005",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Narmada, Roy"
-      ],
-      "combined": 177,
-      "aPreview": "Half a million people were displaced by the Narmada Valley Development Project. [FLAG: dis",
-      "bPreview": "In 1999, the Narmada Bachao Andolan — the Save the Narmada Movement — organized a fast in "
     },
     {
       "plateau": "P-12",
@@ -1348,26 +1115,14 @@
       "slug": "chapter-12",
       "from": "G-12-011",
       "to": "G-12-012",
-      "score": 0,
+      "score": -2,
       "band": "keep",
-      "reasons": [],
-      "combined": 144,
+      "reasons": [
+        "-2 opens new cluster: Narmada, Roy"
+      ],
+      "combined": 219,
       "aPreview": "When the dam project displaced these communities, it didn't just move people. It destroyed",
       "bPreview": "The fishing commons worked the same way. The Narmada River had supported fishing communiti"
-    },
-    {
-      "plateau": "P-12",
-      "slug": "chapter-12",
-      "from": "G-12-012",
-      "to": "G-12-013",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Narmada"
-      ],
-      "combined": 141,
-      "aPreview": "The fishing commons worked the same way. The Narmada River had supported fishing communiti",
-      "bPreview": "Roy named this in terms the development economists hadn't used: the Narmada project was no"
     },
     {
       "plateau": "P-12",
@@ -1397,29 +1152,14 @@
       "plateau": "P-12",
       "slug": "chapter-12",
       "from": "G-12-017",
-      "to": "G-12-018",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Freire"
-      ],
-      "combined": 177,
-      "aPreview": "On the other side of the world, in the same decade Roy was learning to report, Paulo Freir",
-      "bPreview": "The standard literacy curriculum presented words as technical objects to be memorized. Fre"
-    },
-    {
-      "plateau": "P-12",
-      "slug": "chapter-12",
-      "from": "G-12-018",
       "to": "G-12-019",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 combined 124w (arc-sized)",
         "+1 second has no proper noun (leans on antecedent)"
       ],
-      "combined": 124,
-      "aPreview": "The standard literacy curriculum presented words as technical objects to be memorized. Fre",
+      "combined": 253,
+      "aPreview": "On the other side of the world, in the same decade Roy was learning to report, Paulo Freir",
       "bPreview": "One afternoon, a man in his late fifties — a sugarcane worker who had never gone to school"
     },
     {
@@ -1585,12 +1325,12 @@
       "slug": "chapter-12",
       "from": "G-12-035",
       "to": "G-12-036",
-      "score": -2,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "-2 opens new cluster: Freire, Stay"
+        "+2 shared: Roy"
       ],
-      "combined": 190,
+      "combined": 483,
       "aPreview": "Roy didn't stumble into the Narmada valley and spontaneously see what the dam project's ac",
       "bPreview": "Freire's method was the same practice taught as a curriculum. Not: here is the correct ana"
     },
@@ -1598,100 +1338,29 @@
       "plateau": "P-12",
       "slug": "chapter-12",
       "from": "G-12-036",
-      "to": "G-12-037",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Freire"
-      ],
-      "combined": 236,
-      "aPreview": "Freire's method was the same practice taught as a curriculum. Not: here is the correct ana",
-      "bPreview": "Hardt and Negri call consciousness itself a commons — the accumulated shared capacity to p"
-    },
-    {
-      "plateau": "P-12",
-      "slug": "chapter-12",
-      "from": "G-12-037",
-      "to": "G-12-039",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Freire"
-      ],
-      "combined": 293,
-      "aPreview": "Hardt and Negri call consciousness itself a commons — the accumulated shared capacity to p",
-      "bPreview": "What becomes possible when enough of us cultivate that attention — not just hold the right"
-    },
-    {
-      "plateau": "P-12",
-      "slug": "chapter-12",
-      "from": "G-12-039",
       "to": "G-12-040",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 140w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
-      "combined": 140,
-      "aPreview": "What becomes possible when enough of us cultivate that attention — not just hold the right",
+      "combined": 376,
+      "aPreview": "Freire's method was the same practice taught as a curriculum. Not: here is the correct ana",
       "bPreview": "The deer showed up. The children were ready. That readiness was built."
     },
     {
       "plateau": "P-13",
       "slug": "chapter-13",
       "from": "G-13-001",
-      "to": "G-13-002",
+      "to": "G-13-003",
       "score": 2,
       "band": "consider",
       "reasons": [
         "+2 shared: Strike, Debt"
       ],
-      "combined": 160,
+      "combined": 470,
       "aPreview": "In November 2012, a group called Strike Debt raised $700,000 [FLAG: the telethon raised ap",
-      "bPreview": "Medical debt, mostly. The kind that lands on people who went to the emergency room without"
-    },
-    {
-      "plateau": "P-13",
-      "slug": "chapter-13",
-      "from": "G-13-002",
-      "to": "G-13-003",
-      "score": -2,
-      "band": "keep",
-      "reasons": [
-        "-2 opens new cluster: Rolling, Jubilee"
-      ],
-      "combined": 214,
-      "aPreview": "Medical debt, mostly. The kind that lands on people who went to the emergency room without",
       "bPreview": "They called it Rolling Jubilee — named for the biblical tradition of debt cancellation, th"
-    },
-    {
-      "plateau": "P-13",
-      "slug": "chapter-13",
-      "from": "G-13-003",
-      "to": "G-13-004",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Rolling, Jubilee"
-      ],
-      "combined": 211,
-      "aPreview": "They called it Rolling Jubilee — named for the biblical tradition of debt cancellation, th",
-      "bPreview": "Among those who received a Rolling Jubilee letter was a woman in her early thirties who ha"
-    },
-    {
-      "plateau": "P-13",
-      "slug": "chapter-13",
-      "from": "G-13-004",
-      "to": "G-13-005",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Debt, Collective"
-      ],
-      "combined": 198,
-      "aPreview": "Among those who received a Rolling Jubilee letter was a woman in her early thirties who ha",
-      "bPreview": "Strike Debt grew into the Debt Collective, which organized the first student debt strike i"
     },
     {
       "plateau": "P-13",
@@ -1882,11 +1551,9 @@
       "slug": "chapter-13",
       "from": "G-13-023",
       "to": "G-13-024",
-      "score": 1,
-      "band": "consider",
-      "reasons": [
-        "+1 continuation-conjunction start"
-      ],
+      "score": 0,
+      "band": "keep",
+      "reasons": [],
       "combined": 164,
       "aPreview": "Time banking is another form. Members earn credits by providing services to others — child",
       "bPreview": "And then there is, preposterously, Venmo. When your friend pays you back for dinner and yo"
@@ -1940,9 +1607,10 @@
       "slug": "chapter-13",
       "from": "G-13-027",
       "to": "G-13-028",
-      "score": -2,
+      "score": -4,
       "band": "keep",
       "reasons": [
+        "-2 second is a 16-word standalone beat (likely a landing)",
         "-2 opens new cluster: Caja, Laboral"
       ],
       "combined": 158,
@@ -1953,43 +1621,14 @@
       "plateau": "P-13",
       "slug": "chapter-13",
       "from": "G-13-029",
-      "to": "G-13-030",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Everest, Education"
-      ],
-      "combined": 226,
-      "aPreview": "When Everest College students organized the first debt strike, they weren't refusing to pa",
-      "bPreview": "The students who became the Corinthian 15 were mostly working-class people of color, many "
-    },
-    {
-      "plateau": "P-13",
-      "slug": "chapter-13",
-      "from": "G-13-030",
-      "to": "G-13-031",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Corinthian, Education, Borrower"
-      ],
-      "combined": 218,
-      "aPreview": "The students who became the Corinthian 15 were mostly working-class people of color, many ",
-      "bPreview": "The debt strike forced the issue over seven years, through three administrations, through "
-    },
-    {
-      "plateau": "P-13",
-      "slug": "chapter-13",
-      "from": "G-13-031",
       "to": "G-13-032",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 96w (arc-sized)",
         "-2 opens new cluster: Rolling, Jubilee"
       ],
-      "combined": 96,
-      "aPreview": "The debt strike forced the issue over seven years, through three administrations, through ",
+      "combined": 322,
+      "aPreview": "When Everest College students organized the first debt strike, they weren't refusing to pa",
       "bPreview": "Rolling Jubilee had demonstrated the same thing: a debt bought for two cents on the dollar"
     },
     {
@@ -2012,13 +1651,12 @@
       "slug": "chapter-13",
       "from": "G-13-033",
       "to": "G-13-034",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 133w (arc-sized)",
         "-2 opens new cluster: Norfolk, Favors, Graeber"
       ],
-      "combined": 133,
+      "combined": 312,
       "aPreview": "The rotating credit associations — the susus, tandas, hui, chit funds — that immigrant com",
       "bPreview": "In Norfolk, informal credit operates through acts, not accounting. Favors extended, debts "
     },
@@ -2026,28 +1664,14 @@
       "plateau": "P-13",
       "slug": "chapter-13",
       "from": "G-13-034",
-      "to": "G-13-035",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Graeber"
-      ],
-      "combined": 248,
-      "aPreview": "In Norfolk, informal credit operates through acts, not accounting. Favors extended, debts ",
-      "bPreview": "Among bartenders in the area there's a custom called the boomerang bottle: a cleaned-out l"
-    },
-    {
-      "plateau": "P-13",
-      "slug": "chapter-13",
-      "from": "G-13-035",
       "to": "G-13-036",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Jane, Jacobs, End"
       ],
-      "combined": 324,
-      "aPreview": "Among bartenders in the area there's a custom called the boomerang bottle: a cleaned-out l",
+      "combined": 393,
+      "aPreview": "In Norfolk, informal credit operates through acts, not accounting. Favors extended, debts ",
       "bPreview": "Jane Jacobs documented the same logic operating at scale in the North End of Boston, an It"
     },
     {
@@ -2069,11 +1693,9 @@
       "slug": "chapter-13",
       "from": "G-13-037",
       "to": "G-13-038",
-      "score": 1,
-      "band": "consider",
-      "reasons": [
-        "+1 continuation-conjunction start"
-      ],
+      "score": 0,
+      "band": "keep",
+      "reasons": [],
       "combined": 190,
       "aPreview": "The commons of credit is not a future project. It exists. It is available to join, to buil",
       "bPreview": "But I want to be honest about why this is the hardest part. The credit commons is the crux"
@@ -2112,10 +1734,10 @@
       "slug": "chapter-14",
       "from": "G-14-002",
       "to": "G-14-003",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 69w (arc-sized)"
+        "-2 second is a 10-word standalone beat (likely a landing)"
       ],
       "combined": 69,
       "aPreview": "The book started there — the crossing at Hampton and Brambleton, built on top of a communi",
@@ -2145,51 +1767,22 @@
       "reasons": [
         "-2 opens new cluster: Walk, Virginia, Medical"
       ],
-      "combined": 201,
+      "combined": 376,
       "aPreview": "Underneath the houses and the neighborhood and the social fabric: specific parcels in a sp",
       "bPreview": "Walk the corridors around what is now the Eastern Virginia Medical School campus today. Th"
     },
     {
       "plateau": "P-14",
       "slug": "chapter-14",
-      "from": "G-14-005",
-      "to": "G-14-007",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Atlantic"
-      ],
-      "combined": 312,
-      "aPreview": "Walk the corridors around what is now the Eastern Virginia Medical School campus today. Th",
-      "bPreview": "Marx called the original version *primitive accumulation* — the foundational violence by w"
-    },
-    {
-      "plateau": "P-14",
-      "slug": "chapter-14",
       "from": "G-14-008",
-      "to": "G-14-009",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Burlington, Champlain, Housing"
-      ],
-      "combined": 177,
-      "aPreview": "In Burlington, Vermont, a couple who had been renting for seven years bought a Champlain H",
-      "bPreview": "Brenda Torpy, who led the Champlain Housing Trust for two decades and spent years buying l"
-    },
-    {
-      "plateau": "P-14",
-      "slug": "chapter-14",
-      "from": "G-14-009",
       "to": "G-14-010",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 132w (arc-sized)",
         "-2 opens new cluster: United, States, Governance"
       ],
-      "combined": 132,
-      "aPreview": "Brenda Torpy, who led the Champlain Housing Trust for two decades and spent years buying l",
+      "combined": 229,
+      "aPreview": "In Burlington, Vermont, a couple who had been renting for seven years bought a Champlain H",
       "bPreview": "Two hundred and sixty-three community land trusts operate in the United States today. The "
     },
     {
@@ -2239,10 +1832,10 @@
       "slug": "chapter-14",
       "from": "G-14-016",
       "to": "G-14-017",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 69w (arc-sized)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 69,
       "aPreview": "The people didn't go anywhere. The land didn't go anywhere. What was destroyed was the rel",
@@ -2349,29 +1942,14 @@
       "plateau": "P-14",
       "slug": "chapter-14",
       "from": "G-14-026",
-      "to": "G-14-027",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Indigenous"
-      ],
-      "combined": 147,
-      "aPreview": "Indigenous and community-managed territories cover roughly 22 percent of Earth's land surf",
-      "bPreview": "The Kayapó people govern roughly 11 million hectares in the southern Amazon. During the Bo"
-    },
-    {
-      "plateau": "P-14",
-      "slug": "chapter-14",
-      "from": "G-14-027",
       "to": "G-14-028",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 133w (arc-sized)",
         "-2 opens new cluster: Narmada, Forest, Rights"
       ],
-      "combined": 133,
-      "aPreview": "The Kayapó people govern roughly 11 million hectares in the southern Amazon. During the Bo",
+      "combined": 193,
+      "aPreview": "Indigenous and community-managed territories cover roughly 22 percent of Earth's land surf",
       "bPreview": "The adivasi communities in the Narmada valley — whose forest governance the dam project co"
     },
     {
@@ -2480,11 +2058,10 @@
       "slug": "chapter-14",
       "from": "G-14-037",
       "to": "G-14-038",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 73w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 73,
       "aPreview": "To some, land is an asset. A balance sheet entry. A speculation vehicle. To others, land i",
@@ -2494,26 +2071,12 @@
       "plateau": "P-15",
       "slug": "chapter-15",
       "from": "G-15-001",
-      "to": "G-15-002",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Crown, Heights"
-      ],
-      "combined": 171,
-      "aPreview": "On Tuesday evenings in Crown Heights, Brooklyn, the mutual aid network that formed during ",
-      "bPreview": "It wasn't supposed to still be running. Mutual aid networks form in crises and dissolve wh"
-    },
-    {
-      "plateau": "P-15",
-      "slug": "chapter-15",
-      "from": "G-15-002",
       "to": "G-15-004",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 157,
-      "aPreview": "It wasn't supposed to still be running. Mutual aid networks form in crises and dissolve wh",
+      "combined": 209,
+      "aPreview": "On Tuesday evenings in Crown Heights, Brooklyn, the mutual aid network that formed during ",
       "bPreview": "This is the care commons: a network of relationships within which care flows without being"
     },
     {
@@ -2536,10 +2099,10 @@
       "slug": "chapter-15",
       "from": "G-15-006",
       "to": "G-15-007",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 80w (arc-sized)"
+        "-2 second is a 5-word standalone beat (likely a landing)"
       ],
       "combined": 80,
       "aPreview": "She had been born in Parma, Italy, in 1942, had come to the United States in 1967 for grad",
@@ -2589,28 +2152,14 @@
       "plateau": "P-15",
       "slug": "chapter-15",
       "from": "G-15-012",
-      "to": "G-15-013",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: James, Trinidadian"
-      ],
-      "combined": 147,
-      "aPreview": "In 1972, an American activist named Selma James launched the Wages for Housework campaign ",
-      "bPreview": "James had come to feminist analysis through the Black radical tradition: her partner was C"
-    },
-    {
-      "plateau": "P-15",
-      "slug": "chapter-15",
-      "from": "G-15-013",
       "to": "G-15-014",
       "score": 1,
       "band": "consider",
       "reasons": [
         "+1 second has no proper noun (leans on antecedent)"
       ],
-      "combined": 181,
-      "aPreview": "James had come to feminist analysis through the Black radical tradition: her partner was C",
+      "combined": 236,
+      "aPreview": "In 1972, an American activist named Selma James launched the Wages for Housework campaign ",
       "bPreview": "The demand — pay women for housework — was designed to be impossible. Not because the orga"
     },
     {
@@ -2748,9 +2297,10 @@
       "slug": "chapter-16",
       "from": "G-16-002",
       "to": "G-16-003",
-      "score": -2,
+      "score": -1,
       "band": "keep",
       "reasons": [
+        "+1 continuation-conjunction start",
         "-2 opens new cluster: Michael, Hardt, Antonio"
       ],
       "combined": 155,
@@ -2848,11 +2398,10 @@
       "slug": "chapter-16",
       "from": "G-16-015",
       "to": "G-16-016",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 61w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 13-word standalone beat (likely a landing)"
       ],
       "combined": 61,
       "aPreview": "Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be bea",
@@ -2921,10 +2470,10 @@
       "slug": "chapter-16",
       "from": "G-16-023",
       "to": "G-16-024",
-      "score": -1,
+      "score": -4,
       "band": "keep",
       "reasons": [
-        "+1 combined 86w (arc-sized)",
+        "-2 second is a 18-word standalone beat (likely a landing)",
         "-2 opens new cluster: Stonewall, Inn, York"
       ],
       "combined": 86,
@@ -2951,13 +2500,12 @@
       "slug": "chapter-16",
       "from": "G-16-025",
       "to": "G-16-026",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 115w (arc-sized)",
-        "-2 opens new cluster: Situationists, Stonewall"
+        "-2 opens new cluster: Situationists, Stonewall, Gilles"
       ],
-      "combined": 115,
+      "combined": 251,
       "aPreview": "They didn't have a theory. They had bodies — bodies the state had spent decades trying to ",
       "bPreview": "The Situationists tried to rupture the spectacle through ideas performed in public. Stonew"
     },
@@ -2965,28 +2513,14 @@
       "plateau": "P-16",
       "slug": "chapter-16",
       "from": "G-16-026",
-      "to": "G-16-027",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Stonewall"
-      ],
-      "combined": 176,
-      "aPreview": "The Situationists tried to rupture the spectacle through ideas performed in public. Stonew",
-      "bPreview": "The philosopher Gilles Deleuze, writing in the aftermath of 1968, had a name for what both"
-    },
-    {
-      "plateau": "P-16",
-      "slug": "chapter-16",
-      "from": "G-16-027",
       "to": "G-16-029",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 6-word standalone beat (likely a landing)"
       ],
-      "combined": 142,
-      "aPreview": "The philosopher Gilles Deleuze, writing in the aftermath of 1968, had a name for what both",
+      "combined": 182,
+      "aPreview": "The Situationists tried to rupture the spectacle through ideas performed in public. Stonew",
       "bPreview": "The insistence on remaining in process."
     },
     {
@@ -3063,10 +2597,10 @@
       "slug": "chapter-16",
       "from": "G-16-040",
       "to": "G-16-041",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 75w (arc-sized)"
+        "-2 second is a 11-word standalone beat (likely a landing)"
       ],
       "combined": 75,
       "aPreview": "In January 1952, Turing reported a burglary at his house. During the police investigation,",
@@ -3224,13 +2758,12 @@
       "slug": "chapter-16",
       "from": "G-16-055",
       "to": "G-16-056",
-      "score": -1,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "+1 combined 89w (arc-sized)",
-        "-2 opens new cluster: Finnish, Linus, Torvalds"
+        "+2 shared: Berners, Lee"
       ],
-      "combined": 89,
+      "combined": 256,
       "aPreview": "In that same year — 1989, the year the Berlin Wall fell — Tim Berners-Lee, a British scien",
       "bPreview": "Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an inter"
     },
@@ -3238,45 +2771,14 @@
       "plateau": "P-16",
       "slug": "chapter-16",
       "from": "G-16-056",
-      "to": "G-16-057",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Torvalds",
-        "+1 combined 75w (arc-sized)",
-        "-1 first ends on dash/colon landing"
-      ],
-      "combined": 75,
-      "aPreview": "Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an inter",
-      "bPreview": "> \"I'm doing a (free) operating system (just a hobby, won't be big and professional like g"
-    },
-    {
-      "plateau": "P-16",
-      "slug": "chapter-16",
-      "from": "G-16-057",
-      "to": "G-16-058",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Torvalds"
-      ],
-      "combined": 167,
-      "aPreview": "> \"I'm doing a (free) operating system (just a hobby, won't be big and professional like g",
-      "bPreview": "He thought he was making a toy. Programmers around the world — none paid, none coordinated"
-    },
-    {
-      "plateau": "P-16",
-      "slug": "chapter-16",
-      "from": "G-16-058",
       "to": "G-16-060",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 combined 137w (arc-sized)",
         "+1 second has no proper noun (leans on antecedent)"
       ],
-      "combined": 137,
-      "aPreview": "He thought he was making a toy. Programmers around the world — none paid, none coordinated",
+      "combined": 212,
+      "aPreview": "Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an inter",
       "bPreview": "What they built became the infrastructure of the digital world. None of them became billio"
     },
     {
@@ -3299,11 +2801,10 @@
       "slug": "chapter-16",
       "from": "G-16-061",
       "to": "G-16-063",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 91w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 16-word standalone beat (likely a landing)"
       ],
       "combined": 91,
       "aPreview": "The commons is not a noun, not a thing you finish and possess. The Törbel community didn't",
@@ -3329,11 +2830,10 @@
       "slug": "chapter-16",
       "from": "G-16-065",
       "to": "G-16-066",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 56w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 11-word standalone beat (likely a landing)"
       ],
       "combined": 56,
       "aPreview": "Berners-Lee gave away the infrastructure of connection. The platforms enclosed its *repres",
@@ -3404,11 +2904,10 @@
       "slug": "chapter-16b",
       "from": "G-16b-003",
       "to": "G-16b-004",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 77w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 16-word standalone beat (likely a landing)"
       ],
       "combined": 77,
       "aPreview": "The filmmakers were Lana and Lilly Wachowski. They are trans women. The film is about the ",
@@ -3537,11 +3036,11 @@
       "slug": "chapter-16b",
       "from": "G-16b-017",
       "to": "G-16b-018",
-      "score": 0,
+      "score": -6,
       "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
-        "+1 combined 67w (arc-sized)",
+        "-2 second is a 14-word standalone beat (likely a landing)",
+        "-2 second is a short pivot/turn (opens \"but…\")",
         "-2 opens new cluster: Wachowskis, Baudrillard"
       ],
       "combined": 67,
@@ -3553,29 +3052,14 @@
       "slug": "chapter-16b",
       "from": "G-16b-018",
       "to": "G-16b-019",
-      "score": -1,
-      "band": "keep",
-      "reasons": [
-        "+1 combined 103w (arc-sized)",
-        "-2 opens new cluster: Deleuze, Guattari, Neo"
-      ],
-      "combined": 103,
-      "aPreview": "But the Wachowskis added something Baudrillard didn't fully theorize: the body's refusal.",
-      "bPreview": "This is where Deleuze and Guattari arrive. The *body without organs* — the body understood"
-    },
-    {
-      "plateau": "P-16b",
-      "slug": "chapter-16b",
-      "from": "G-16b-019",
-      "to": "G-16b-020",
       "score": 2,
       "band": "consider",
       "reasons": [
-        "+2 shared: Deleuze, Guattari"
+        "+2 shared: Wachowskis"
       ],
-      "combined": 175,
-      "aPreview": "This is where Deleuze and Guattari arrive. The *body without organs* — the body understood",
-      "bPreview": "Trans bodies are, in Deleuze and Guattari's terms, the practice of this deterritorializati"
+      "combined": 189,
+      "aPreview": "But the Wachowskis added something Baudrillard didn't fully theorize: the body's refusal.",
+      "bPreview": "This is where Deleuze and Guattari arrive. The *body without organs* — the body understood"
     },
     {
       "plateau": "P-16b",
@@ -3742,11 +3226,10 @@
       "slug": "chapter-16b",
       "from": "G-16b-034",
       "to": "G-16b-035",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 92w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 17-word standalone beat (likely a landing)"
       ],
       "combined": 92,
       "aPreview": "The system averages across all of it. Wynter named this structure the overrepresentation o",
@@ -3757,11 +3240,10 @@
       "slug": "chapter-16b",
       "from": "G-16b-035",
       "to": "G-16b-036",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 25w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 8-word standalone beat (likely a landing)"
       ],
       "combined": 25,
       "aPreview": "The most important thing about every piece of text in that corpus is precisely what averag",
@@ -3935,10 +3417,10 @@
       "slug": "chapter-16b",
       "from": "G-16b-050",
       "to": "G-16b-051",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 102w (arc-sized)"
+        "-2 second is a 17-word standalone beat (likely a landing)"
       ],
       "combined": 102,
       "aPreview": "The Centaur is not a metaphor for divided labor. It is a new configuration of Simondon's p",
@@ -3976,10 +3458,10 @@
       "slug": "chapter-16b",
       "from": "G-16b-054",
       "to": "G-16b-055",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 84w (arc-sized)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 84,
       "aPreview": "The Centaur is a cybernetic figure. The human-AI collaboration is a feedback loop. And the",
@@ -3990,11 +3472,10 @@
       "slug": "chapter-16b",
       "from": "G-16b-055",
       "to": "G-16b-056",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 16w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 7-word standalone beat (likely a landing)"
       ],
       "combined": 16,
       "aPreview": "Not waiting to be invented. Waiting to be remembered.",
@@ -4064,11 +3545,10 @@
       "slug": "chapter-17",
       "from": "G-17-005",
       "to": "G-17-006",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 62w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 7-word standalone beat (likely a landing)"
       ],
       "combined": 62,
       "aPreview": "The form is simple. One person speaks. The rest attend — not preparing their response, not",
@@ -4121,28 +3601,14 @@
       "plateau": "P-17",
       "slug": "chapter-17",
       "from": "G-17-011",
-      "to": "G-17-012",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Sorenson"
-      ],
-      "combined": 212,
-      "aPreview": "The anthropologist Richard Sorenson spent years in the field with cultures that had not ye",
-      "bPreview": "In the communities Sorenson studied, people moved through the world with a quality of open"
-    },
-    {
-      "plateau": "P-17",
-      "slug": "chapter-17",
-      "from": "G-17-012",
       "to": "G-17-014",
       "score": 1,
       "band": "consider",
       "reasons": [
         "+1 second has no proper noun (leans on antecedent)"
       ],
-      "combined": 185,
-      "aPreview": "In the communities Sorenson studied, people moved through the world with a quality of open",
+      "combined": 259,
+      "aPreview": "The anthropologist Richard Sorenson spent years in the field with cultures that had not ye",
       "bPreview": "The people didn't go anywhere. The land didn't go anywhere. What was destroyed was the rel"
     },
     {
@@ -4430,7 +3896,7 @@
       "reasons": [
         "-2 opens new cluster: Jacobs, Greenwich, Village"
       ],
-      "combined": 272,
+      "combined": 328,
       "aPreview": "None of this was designed. It emerged from conditions: mixed uses that kept the street act",
       "bPreview": "Jacobs defended Greenwich Village against Robert Moses's plan to run an expressway through"
     },
@@ -4438,29 +3904,14 @@
       "plateau": "P-17",
       "slug": "chapter-17",
       "from": "G-17-043",
-      "to": "G-17-044",
+      "to": "G-17-045",
       "score": 2,
       "band": "consider",
       "reasons": [
-        "+2 shared: Moses"
+        "+2 shared: Jacobs"
       ],
-      "combined": 201,
+      "combined": 268,
       "aPreview": "Jacobs defended Greenwich Village against Robert Moses's plan to run an expressway through",
-      "bPreview": "What Moses built instead — the housing projects organized for legibility and management, t"
-    },
-    {
-      "plateau": "P-17",
-      "slug": "chapter-17",
-      "from": "G-17-044",
-      "to": "G-17-045",
-      "score": -1,
-      "band": "keep",
-      "reasons": [
-        "+1 combined 123w (arc-sized)",
-        "-2 opens new cluster: Christopher, Alexander, Jacobs"
-      ],
-      "combined": 123,
-      "aPreview": "What Moses built instead — the housing projects organized for legibility and management, t",
       "bPreview": "Christopher Alexander spent his career trying to understand what Jacobs had seen and gener"
     },
     {
@@ -4540,11 +3991,10 @@
       "slug": "chapter-17",
       "from": "G-17-051",
       "to": "G-17-053",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 85w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 10-word standalone beat (likely a landing)"
       ],
       "combined": 85,
       "aPreview": "The direction of this chapter is outward and upward: from the individual singularity disco",
@@ -4641,9 +4091,10 @@
       "slug": "chapter-18",
       "from": "G-18-008",
       "to": "G-18-009",
-      "score": -2,
+      "score": -4,
       "band": "keep",
       "reasons": [
+        "-2 second is a 12-word standalone beat (likely a landing)",
         "-2 opens new cluster: Briefly, Imperfectly, Pointed"
       ],
       "combined": 151,
@@ -4669,11 +4120,10 @@
       "slug": "chapter-18",
       "from": "G-18-010",
       "to": "G-18-011",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 58w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 16-word standalone beat (likely a landing)"
       ],
       "combined": 58,
       "aPreview": "This is Simondon's pre-individual field made visible in public space — the charged generat",
@@ -4699,11 +4149,10 @@
       "slug": "chapter-18",
       "from": "G-18-012",
       "to": "G-18-013",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 99w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 99,
       "aPreview": "The herd needed governance: the pattern language that allows a composition of singularitie",
@@ -4729,10 +4178,9 @@
       "slug": "chapter-18",
       "from": "G-18-015",
       "to": "G-18-016",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
         "-2 opens new cluster: Armed, Forces, Brewing"
       ],
       "combined": 178,
@@ -4744,9 +4192,11 @@
       "slug": "chapter-18",
       "from": "G-18-016",
       "to": "G-18-019",
-      "score": 0,
+      "score": -2,
       "band": "keep",
-      "reasons": [],
+      "reasons": [
+        "-2 second is a 17-word standalone beat (likely a landing)"
+      ],
       "combined": 147,
       "aPreview": "But then there was the Armed Forces Brewing Company — the anti-LGBTQ brewery seeking a per",
       "bPreview": "Burnout is not the failure of desire. It is desire meeting a structure too small for it."
@@ -4822,10 +4272,10 @@
       "slug": "chapter-18",
       "from": "G-18-026",
       "to": "G-18-027",
-      "score": -1,
+      "score": -4,
       "band": "keep",
       "reasons": [
-        "+1 combined 60w (arc-sized)",
+        "-2 second is a 5-word standalone beat (likely a landing)",
         "-2 opens new cluster: Preguntando, Asking"
       ],
       "combined": 60,
@@ -4852,11 +4302,10 @@
       "slug": "chapter-18",
       "from": "G-18-028",
       "to": "G-18-029",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 85w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 7-word standalone beat (likely a landing)"
       ],
       "combined": 85,
       "aPreview": "This is already happening. You have met them in this book: the Zapatista caracoles, still ",
@@ -4999,10 +4448,10 @@
       "slug": "chapter-18",
       "from": "G-18-042",
       "to": "G-18-043",
-      "score": -1,
+      "score": -4,
       "band": "keep",
       "reasons": [
-        "+1 combined 18w (arc-sized)",
+        "-2 second is a 14-word standalone beat (likely a landing)",
         "-2 opens new cluster: Show, Stay, Learn"
       ],
       "combined": 18,
@@ -5028,11 +4477,10 @@
       "slug": "chapter-2",
       "from": "G-02-001",
       "to": "G-02-002",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 45w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 45,
       "aPreview": "You drove across town. Found parking. Sat in an uncomfortable chair for two hours. Waited ",
@@ -5043,11 +4491,11 @@
       "slug": "chapter-2",
       "from": "G-02-002",
       "to": "G-02-003",
-      "score": -2,
+      "score": -5,
       "band": "keep",
       "reasons": [
         "-3 second is a 4-word landing (keep the punch)",
-        "+1 continuation-conjunction start"
+        "-2 second is a short pivot/turn (opens \"then…\")"
       ],
       "combined": 16,
       "aPreview": "You spoke. You said something true. You used your three minutes well.",
@@ -5058,11 +4506,10 @@
       "slug": "chapter-2",
       "from": "G-02-003",
       "to": "G-02-004",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 10w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 6-word standalone beat (likely a landing)"
       ],
       "combined": 10,
       "aPreview": "Then you went home.",
@@ -5117,29 +4564,15 @@
       "plateau": "P-02",
       "slug": "chapter-2",
       "from": "G-02-010",
-      "to": "G-02-011",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Norfolk"
-      ],
-      "combined": 162,
-      "aPreview": "I want to take you to Norfolk, Virginia. Specifically to a small neighborhood that no long",
-      "bPreview": "Atlantic City was a working-class neighborhood of approximately 1,000 households located j"
-    },
-    {
-      "plateau": "P-02",
-      "slug": "chapter-2",
-      "from": "G-02-011",
       "to": "G-02-012",
-      "score": 2,
-      "band": "consider",
+      "score": -4,
+      "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)",
+        "-2 second is a short pivot/turn (opens \"then…\")"
       ],
-      "combined": 154,
-      "aPreview": "Atlantic City was a working-class neighborhood of approximately 1,000 households located j",
+      "combined": 171,
+      "aPreview": "I want to take you to Norfolk, Virginia. Specifically to a small neighborhood that no long",
       "bPreview": "Then city officials began describing it as a slum."
     },
     {
@@ -5162,12 +4595,12 @@
       "slug": "chapter-2",
       "from": "G-02-013",
       "to": "G-02-014",
-      "score": -2,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "-2 opens new cluster: Approximately, Colley, Avenue"
+        "+2 shared: White"
       ],
-      "combined": 186,
+      "combined": 372,
       "aPreview": "Historian Forrest White has documented what this was: a technique. Once city leaders float",
       "bPreview": "In 1957, the city council approved demolition. Approximately 1,000 homes were torn down [F"
     },
@@ -5175,40 +4608,14 @@
       "plateau": "P-02",
       "slug": "chapter-2",
       "from": "G-02-014",
-      "to": "G-02-015",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Atlantic, Norfolk"
-      ],
-      "combined": 185,
-      "aPreview": "In 1957, the city council approved demolition. Approximately 1,000 homes were torn down [F",
-      "bPreview": "Atlantic City was not an isolated case. Between 1951 and the formal end of urban renewal i"
-    },
-    {
-      "plateau": "P-02",
-      "slug": "chapter-2",
-      "from": "G-02-015",
-      "to": "G-02-016",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Norfolk"
-      ],
-      "combined": 186,
-      "aPreview": "Atlantic City was not an isolated case. Between 1951 and the formal end of urban renewal i",
-      "bPreview": "Why these neighborhoods specifically? White's analysis is precise: the targeting aimed to "
-    },
-    {
-      "plateau": "P-02",
-      "slug": "chapter-2",
-      "from": "G-02-016",
       "to": "G-02-017",
-      "score": 0,
-      "band": "keep",
-      "reasons": [],
-      "combined": 251,
-      "aPreview": "Why these neighborhoods specifically? White's analysis is precise: the targeting aimed to ",
+      "score": 2,
+      "band": "consider",
+      "reasons": [
+        "+2 shared: Atlantic"
+      ],
+      "combined": 436,
+      "aPreview": "In 1957, the city council approved demolition. Approximately 1,000 homes were torn down [F",
       "bPreview": "The hospital that was built on Atlantic City now trains the doctors who serve the region. "
     },
     {
@@ -5216,11 +4623,10 @@
       "slug": "chapter-2",
       "from": "G-02-019",
       "to": "G-02-020",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 78w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 78,
       "aPreview": "A neighborhood board is a mechanism for converting community energy into institutional leg",
@@ -5327,11 +4733,10 @@
       "slug": "chapter-3",
       "from": "G-03-004",
       "to": "G-03-005",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 66w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 8-word standalone beat (likely a landing)"
       ],
       "combined": 66,
       "aPreview": "Everyone with a share in the water — an *atar* share, which determines both your water all",
@@ -5477,7 +4882,7 @@
       "reasons": [
         "-2 opens new cluster: Apostles, Valencia, Cathedral"
       ],
-      "combined": 242,
+      "combined": 391,
       "aPreview": "She and her husband Vincent moved to Indiana University in 1965 [FLAG: They moved to IU in",
       "bPreview": "Every Thursday at noon, she would have recognized what happens outside the Door of the Apo"
     },
@@ -5485,26 +4890,14 @@
       "plateau": "P-03",
       "slug": "chapter-3",
       "from": "G-03-022",
-      "to": "G-03-023",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Valencia, Valencian"
-      ],
-      "combined": 216,
-      "aPreview": "Every Thursday at noon, she would have recognized what happens outside the Door of the Apo",
-      "bPreview": "It has been convening, in this form, in this place, since at least the tenth century. Its "
-    },
-    {
-      "plateau": "P-03",
-      "slug": "chapter-3",
-      "from": "G-03-023",
       "to": "G-03-024",
-      "score": 0,
+      "score": -2,
       "band": "keep",
-      "reasons": [],
-      "combined": 155,
-      "aPreview": "It has been convening, in this form, in this place, since at least the tenth century. Its ",
+      "reasons": [
+        "-2 second is a 6-word standalone beat (likely a landing)"
+      ],
+      "combined": 222,
+      "aPreview": "Every Thursday at noon, she would have recognized what happens outside the Door of the Apo",
       "bPreview": "Ostrom would have recognized the cook."
     },
     {
@@ -5540,29 +4933,15 @@
       "plateau": "P-03",
       "slug": "chapter-3",
       "from": "G-03-027",
-      "to": "G-03-029",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Hardin"
-      ],
-      "combined": 224,
-      "aPreview": "So if Hardin is wrong — comprehensively, empirically, repeatedly wrong — why is he still i",
-      "bPreview": "Gramsci called this *hegemony*: the process by which the ideas of the powerful become the "
-    },
-    {
-      "plateau": "P-03",
-      "slug": "chapter-3",
-      "from": "G-03-029",
       "to": "G-03-030",
-      "score": -1,
+      "score": 0,
       "band": "keep",
       "reasons": [
-        "+1 combined 104w (arc-sized)",
-        "-2 opens new cluster: Ostrom, Nobel, Prize"
+        "-2 second is a 17-word standalone beat (likely a landing)",
+        "+2 shared: Ostrom"
       ],
-      "combined": 104,
-      "aPreview": "Gramsci called this *hegemony*: the process by which the ideas of the powerful become the ",
+      "combined": 241,
+      "aPreview": "So if Hardin is wrong — comprehensively, empirically, repeatedly wrong — why is he still i",
       "bPreview": "By the time Ostrom was winning the Nobel Prize, the damage had been done on five continent"
     },
     {
@@ -5598,34 +4977,6 @@
       "plateau": "P-03",
       "slug": "chapter-3",
       "from": "G-03-035",
-      "to": "G-03-036",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Foucault, Paris, Gramsci"
-      ],
-      "combined": 243,
-      "aPreview": "Michel Foucault, working in Paris in the 1970s, identified something Gramsci had named but",
-      "bPreview": "Antonio Negri built the answer to Foucault's unfinished question over decades of writing a"
-    },
-    {
-      "plateau": "P-03",
-      "slug": "chapter-3",
-      "from": "G-03-036",
-      "to": "G-03-037",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Negri, Empire"
-      ],
-      "combined": 273,
-      "aPreview": "Antonio Negri built the answer to Foucault's unfinished question over decades of writing a",
-      "bPreview": "What Negri and Hardt built across *Empire*, *Multitude*, and *Commonwealth*: if biopower i"
-    },
-    {
-      "plateau": "P-03",
-      "slug": "chapter-3",
-      "from": "G-03-037",
       "to": "G-03-039",
       "score": -3,
       "band": "keep",
@@ -5633,8 +4984,8 @@
         "-2 opens new cluster: Language, Affect, Knowledge",
         "-1 first ends on a question"
       ],
-      "combined": 194,
-      "aPreview": "What Negri and Hardt built across *Empire*, *Multitude*, and *Commonwealth*: if biopower i",
+      "combined": 437,
+      "aPreview": "Michel Foucault, working in Paris in the 1970s, identified something Gramsci had named but",
       "bPreview": "The *common*. Language — no one produced it, everyone uses it, it becomes richer the more "
     },
     {
@@ -5686,10 +5037,10 @@
       "slug": "chapter-3",
       "from": "G-03-043",
       "to": "G-03-044",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 77w (arc-sized)"
+        "-2 second is a 6-word standalone beat (likely a landing)"
       ],
       "combined": 77,
       "aPreview": "There is a *cocinero* in Ilocos who feeds his community while they rebuild what the storm ",
@@ -5799,10 +5150,10 @@
       "slug": "chapter-4",
       "from": "G-04-008",
       "to": "G-04-009",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 8-word standalone beat (likely a landing)"
       ],
       "combined": 163,
       "aPreview": "In 2024, the federation had 81 cooperatives employing 70,085 people, with €11.2 billion in",
@@ -5939,29 +5290,14 @@
       "plateau": "P-05",
       "slug": "chapter-5",
       "from": "G-05-003",
-      "to": "G-05-004",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Berlin"
-      ],
-      "combined": 147,
-      "aPreview": "She grew up in Zamość, in the Russian-occupied part of Poland, youngest of five children o",
-      "bPreview": "She got her economics doctorate. She moved to Berlin. She became one of the most prominent"
-    },
-    {
-      "plateau": "P-05",
-      "slug": "chapter-5",
-      "from": "G-05-004",
       "to": "G-05-005",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 45w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 15-word standalone beat (likely a landing)"
       ],
-      "combined": 45,
-      "aPreview": "She got her economics doctorate. She moved to Berlin. She became one of the most prominent",
+      "combined": 162,
+      "aPreview": "She grew up in Zamość, in the Russian-occupied part of Poland, youngest of five children o",
       "bPreview": "The German left had no one more capable, and no one it more regularly ignored."
     },
     {
@@ -5996,11 +5332,10 @@
       "slug": "chapter-5",
       "from": "G-05-008",
       "to": "G-05-009",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 82w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 6-word standalone beat (likely a landing)"
       ],
       "combined": 82,
       "aPreview": "The system produces surplus — the difference between what workers are paid and the value t",
@@ -6026,10 +5361,9 @@
       "slug": "chapter-5",
       "from": "G-05-010",
       "to": "G-05-011",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 continuation-conjunction start",
         "+1 second has no proper noun (leans on antecedent)"
       ],
       "combined": 166,
@@ -6086,13 +5420,12 @@
       "slug": "chapter-5",
       "from": "G-05-015",
       "to": "G-05-016",
-      "score": -1,
-      "band": "keep",
+      "score": 2,
+      "band": "consider",
       "reasons": [
-        "+1 combined 66w (arc-sized)",
-        "-2 opens new cluster: Petersburg, Tsarist, Luxemburg"
+        "+2 shared: Kollontai"
       ],
-      "combined": 66,
+      "combined": 416,
       "aPreview": "Alexandra Kollontai was looking at a different outside.",
       "bPreview": "She grew up in Petersburg, in a large apartment, daughter of a Tsarist general — as far fr"
     },
@@ -6100,40 +5433,12 @@
       "plateau": "P-05",
       "slug": "chapter-5",
       "from": "G-05-016",
-      "to": "G-05-017",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Petersburg"
-      ],
-      "combined": 193,
-      "aPreview": "She grew up in Petersburg, in a large apartment, daughter of a Tsarist general — as far fr",
-      "bPreview": "Petersburg, 1895. [FLAG: Most sources date Kollontai's formative visit to a Petersburg tex"
-    },
-    {
-      "plateau": "P-05",
-      "slug": "chapter-5",
-      "from": "G-05-017",
-      "to": "G-05-018",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Kollontai"
-      ],
-      "combined": 350,
-      "aPreview": "Petersburg, 1895. [FLAG: Most sources date Kollontai's formative visit to a Petersburg tex",
-      "bPreview": "Kollontai left her husband. She left her son with her mother, who had the resources to giv"
-    },
-    {
-      "plateau": "P-05",
-      "slug": "chapter-5",
-      "from": "G-05-018",
       "to": "G-05-021",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 288,
-      "aPreview": "Kollontai left her husband. She left her son with her mother, who had the resources to giv",
+      "combined": 481,
+      "aPreview": "She grew up in Petersburg, in a large apartment, daughter of a Tsarist general — as far fr",
       "bPreview": "A 2020 Oxfam analysis estimated that if unpaid care work worldwide were paid at minimum wa"
     },
     {
@@ -6141,10 +5446,9 @@
       "slug": "chapter-5",
       "from": "G-05-021",
       "to": "G-05-022",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
         "-2 opens new cluster: Kollontai, Locking, Keeping"
       ],
       "combined": 203,
@@ -6305,10 +5609,10 @@
       "slug": "chapter-6",
       "from": "G-06-007",
       "to": "G-06-008",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 92w (arc-sized)"
+        "-2 second is a 15-word standalone beat (likely a landing)"
       ],
       "combined": 92,
       "aPreview": "The standard story of race and capitalism: capitalism developed in Europe as an economic s",
@@ -6348,10 +5652,9 @@
       "slug": "chapter-6",
       "from": "G-06-012",
       "to": "G-06-013",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 continuation-conjunction start",
         "+1 combined 118w (arc-sized)"
       ],
       "combined": 118,
@@ -6377,10 +5680,10 @@
       "slug": "chapter-6",
       "from": "G-06-014",
       "to": "G-06-017",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 6-word standalone beat (likely a landing)"
       ],
       "combined": 241,
       "aPreview": "W.E.B. Du Bois, in *Black Reconstruction in America* (1935), extended this analysis into s",
@@ -6433,28 +5736,14 @@
       "slug": "chapter-6",
       "from": "G-06-023",
       "to": "G-06-024",
-      "score": -2,
-      "band": "keep",
-      "reasons": [
-        "-2 opens new cluster: Portuguese, Palmares, Brazil"
-      ],
-      "combined": 218,
-      "aPreview": "This is what Robinson called the *Black radical tradition*: the intellectual and political",
-      "bPreview": "In 1694, Portuguese colonial forces destroyed Palmares — a quilombo in northeast Brazil, a"
-    },
-    {
-      "plateau": "P-06",
-      "slug": "chapter-6",
-      "from": "G-06-024",
-      "to": "G-06-025",
       "score": 2,
       "band": "consider",
       "reasons": [
-        "+2 shared: Palmares"
+        "+2 shared: Black"
       ],
-      "combined": 151,
-      "aPreview": "In 1694, Portuguese colonial forces destroyed Palmares — a quilombo in northeast Brazil, a",
-      "bPreview": "Palmares is not a footnote to the Black radical tradition. It is a demonstration of what t"
+      "combined": 258,
+      "aPreview": "This is what Robinson called the *Black radical tradition*: the intellectual and political",
+      "bPreview": "In 1694, Portuguese colonial forces destroyed Palmares — a quilombo in northeast Brazil, a"
     },
     {
       "plateau": "P-06",
@@ -6464,55 +5753,25 @@
       "score": -1,
       "band": "keep",
       "reasons": [
-        "+1 combined 72w (arc-sized)",
+        "+1 combined 92w (arc-sized)",
         "-2 opens new cluster: Guyana, Jamaica, London"
       ],
-      "combined": 72,
+      "combined": 92,
       "aPreview": "Walter Rodney saw from a different outside.",
       "bPreview": "He was from Guyana, educated in Jamaica and London, his PhD in African history completed a"
     },
     {
       "plateau": "P-06",
       "slug": "chapter-6",
-      "from": "G-06-027",
-      "to": "G-06-028",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Africa",
-        "+1 combined 85w (arc-sized)",
-        "-1 first ends on dash/colon landing"
-      ],
-      "combined": 85,
-      "aPreview": "He was from Guyana, educated in Jamaica and London, his PhD in African history completed a",
-      "bPreview": "Africa was not underdeveloped. Africa was developed — into poverty. Not accidentally. Deli"
-    },
-    {
-      "plateau": "P-06",
-      "slug": "chapter-6",
       "from": "G-06-029",
-      "to": "G-06-030",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Zimbabwe"
-      ],
-      "combined": 147,
-      "aPreview": "Before the slave trade, Great Zimbabwe: a stone-walled city in what is now southern Zimbab",
-      "bPreview": "When European colonizers arrived centuries later, they refused to believe Africans had bui"
-    },
-    {
-      "plateau": "P-06",
-      "slug": "chapter-6",
-      "from": "G-06-030",
       "to": "G-06-031",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Atlantic, Africa, Infrastructure"
       ],
-      "combined": 253,
-      "aPreview": "When European colonizers arrived centuries later, they refused to believe Africans had bui",
+      "combined": 341,
+      "aPreview": "Before the slave trade, Great Zimbabwe: a stone-walled city in what is now southern Zimbab",
       "bPreview": "The Atlantic slave trade removed an estimated twelve million people from Africa over rough"
     },
     {
@@ -6579,10 +5838,10 @@
       "slug": "chapter-6",
       "from": "G-06-037",
       "to": "G-06-038",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 71w (arc-sized)"
+        "-2 second is a 8-word standalone beat (likely a landing)"
       ],
       "combined": 71,
       "aPreview": "The specificity is why he remains politically contentious — and why it's the only way the ",
@@ -6679,10 +5938,10 @@
       "slug": "chapter-7",
       "from": "G-07-002",
       "to": "G-07-003",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 126w (arc-sized)"
+        "-2 second is a 10-word standalone beat (likely a landing)"
       ],
       "combined": 126,
       "aPreview": "The shrug takes many forms. There's the passive kind — the turned shoulder, the eyes that ",
@@ -6693,11 +5952,10 @@
       "slug": "chapter-7",
       "from": "G-07-004",
       "to": "G-07-005",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 36w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 7-word standalone beat (likely a landing)"
       ],
       "combined": 36,
       "aPreview": "In 1953, a twenty-eight-year-old psychiatrist named Frantz Fanon arrived at Blida-Joinvill",
@@ -6735,26 +5993,12 @@
       "plateau": "P-07",
       "slug": "chapter-7",
       "from": "G-07-010",
-      "to": "G-07-011",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Europe, Lyon"
-      ],
-      "combined": 228,
-      "aPreview": "He had grown up in Fort-de-France, Martinique — a middle-class Creole family, the French a",
-      "bPreview": "In Lyon he read Aimé Césaire — the Martinican poet who had argued that the violence coloni"
-    },
-    {
-      "plateau": "P-07",
-      "slug": "chapter-7",
-      "from": "G-07-011",
       "to": "G-07-012",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 185,
-      "aPreview": "In Lyon he read Aimé Césaire — the Martinican poet who had argued that the violence coloni",
+      "combined": 303,
+      "aPreview": "He had grown up in Fort-de-France, Martinique — a middle-class Creole family, the French a",
       "bPreview": "The central insight: the colonized person is not simply oppressed from outside. Colonialis"
     },
     {
@@ -6789,11 +6033,10 @@
       "slug": "chapter-7",
       "from": "G-07-015",
       "to": "G-07-016",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 129w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 11-word standalone beat (likely a landing)"
       ],
       "combined": 129,
       "aPreview": "Every day you face a structure that has already decided what you are. You can resist — but",
@@ -6818,10 +6061,12 @@
       "slug": "chapter-7",
       "from": "G-07-018",
       "to": "G-07-019",
-      "score": 0,
+      "score": -2,
       "band": "keep",
-      "reasons": [],
-      "combined": 149,
+      "reasons": [
+        "-2 opens new cluster: Fanon, Liberation"
+      ],
+      "combined": 247,
       "aPreview": "The alibi: the colonizer's story that the classification reflects actual difference. The c",
       "bPreview": "The mirror: what Fanon saw when he looked at the alibi. The colonizer is describing themse"
     },
@@ -6829,112 +6074,42 @@
       "plateau": "P-07",
       "slug": "chapter-7",
       "from": "G-07-019",
-      "to": "G-07-020",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Fanon"
-      ],
-      "combined": 178,
-      "aPreview": "The mirror: what Fanon saw when he looked at the alibi. The colonizer is describing themse",
-      "bPreview": "Liberation, under these conditions, is not only a political project. It is a psychological"
-    },
-    {
-      "plateau": "P-07",
-      "slug": "chapter-7",
-      "from": "G-07-020",
       "to": "G-07-021",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Algeria, Tunisia, Ghana"
       ],
-      "combined": 191,
-      "aPreview": "Liberation, under these conditions, is not only a political project. It is a psychological",
+      "combined": 271,
+      "aPreview": "The mirror: what Fanon saw when he looked at the alibi. The colonizer is describing themse",
       "bPreview": "He was expelled from Algeria in 1957 for his political activities. He went to Tunisia, wor"
     },
     {
       "plateau": "P-07",
       "slug": "chapter-7",
       "from": "G-07-022",
-      "to": "G-07-023",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Foucault, Mbembe"
-      ],
-      "combined": 173,
-      "aPreview": "The question Foucault couldn't ask is the one Achille Mbembe was formed to ask.",
-      "bPreview": "Mbembe grew up in Cameroon in the 1960s — a country with formal independence, a flag, a pr"
-    },
-    {
-      "plateau": "P-07",
-      "slug": "chapter-7",
-      "from": "G-07-023",
-      "to": "G-07-024",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Cameroon"
-      ],
-      "combined": 235,
-      "aPreview": "Mbembe grew up in Cameroon in the 1960s — a country with formal independence, a flag, a pr",
-      "bPreview": "He was born in Otélé, Cameroon, in 1957 — the year France was actively suppressing the Uni"
-    },
-    {
-      "plateau": "P-07",
-      "slug": "chapter-7",
-      "from": "G-07-024",
-      "to": "G-07-025",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Cameroon, France"
-      ],
-      "combined": 214,
-      "aPreview": "He was born in Otélé, Cameroon, in 1957 — the year France was actively suppressing the Uni",
-      "bPreview": "He was educated by Dominicans near Douala. He became active in student politics and one da"
-    },
-    {
-      "plateau": "P-07",
-      "slug": "chapter-7",
-      "from": "G-07-025",
       "to": "G-07-026",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Africa, Dakar, Development"
       ],
-      "combined": 267,
-      "aPreview": "He was educated by Dominicans near Douala. He became active in student politics and one da",
+      "combined": 608,
+      "aPreview": "The question Foucault couldn't ask is the one Achille Mbembe was formed to ask. Mbembe gre",
       "bPreview": "He returned to Africa — to Dakar, as executive director of CODESRIA, the Council for the D"
     },
     {
       "plateau": "P-07",
       "slug": "chapter-7",
       "from": "G-07-026",
-      "to": "G-07-027",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Social, Research, Johannesburg"
-      ],
-      "combined": 221,
-      "aPreview": "He returned to Africa — to Dakar, as executive director of CODESRIA, the Council for the D",
-      "bPreview": "He spent time in Harare with ANC exiles and Zimbabwean youth. He went to Cape Town. He met"
-    },
-    {
-      "plateau": "P-07",
-      "slug": "chapter-7",
-      "from": "G-07-027",
       "to": "G-07-028",
       "score": -2,
       "band": "keep",
       "reasons": [
         "-2 opens new cluster: Foucault, Mbembe"
       ],
-      "combined": 194,
-      "aPreview": "He spent time in Harare with ANC exiles and Zimbabwean youth. He went to Cape Town. He met",
+      "combined": 324,
+      "aPreview": "He returned to Africa — to Dakar, as executive director of CODESRIA, the Council for the D",
       "bPreview": "Foucault had shown how modern power works not primarily through killing but through managi"
     },
     {
@@ -6985,11 +6160,10 @@
       "slug": "chapter-7",
       "from": "G-07-033",
       "to": "G-07-034",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 112w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 112,
       "aPreview": "The abandoned neighborhood: in 1968, the Kerner Commission warned that American cities wer",
@@ -7156,26 +6330,12 @@
       "plateau": "P-08",
       "slug": "chapter-8",
       "from": "G-08-009",
-      "to": "G-08-011",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Wynter"
-      ],
-      "combined": 437,
-      "aPreview": "Sylvia Wynter was born in Cuba in 1928 and grew up in Jamaica. She studied in London on a ",
-      "bPreview": "Medieval Christian Europe understood what human beings were through a theological framewor"
-    },
-    {
-      "plateau": "P-08",
-      "slug": "chapter-8",
-      "from": "G-08-011",
       "to": "G-08-014",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 373,
-      "aPreview": "Medieval Christian Europe understood what human beings were through a theological framewor",
+      "combined": 553,
+      "aPreview": "Sylvia Wynter was born in Cuba in 1928 and grew up in Jamaica. She studied in London on a ",
       "bPreview": "This is the foundation of everything the previous chapters have described. You cannot clas"
     },
     {
@@ -7196,80 +6356,27 @@
       "plateau": "P-08",
       "slug": "chapter-8",
       "from": "G-08-016",
-      "to": "G-08-017",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Black"
-      ],
-      "combined": 176,
-      "aPreview": "Kimberlé Crenshaw grew up in Canton, Ohio, went to Cornell, then Harvard Law School, where",
-      "bPreview": "DeGraffenreid v. General Motors made the structure visible as structure. The legal framewo"
-    },
-    {
-      "plateau": "P-08",
-      "slug": "chapter-8",
-      "from": "G-08-017",
-      "to": "G-08-018",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Black"
-      ],
-      "combined": 182,
-      "aPreview": "DeGraffenreid v. General Motors made the structure visible as structure. The legal framewo",
-      "bPreview": "The gap is not random. It systematically excludes the most vulnerable — the people whose o"
-    },
-    {
-      "plateau": "P-08",
-      "slug": "chapter-8",
-      "from": "G-08-018",
       "to": "G-08-019",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 203,
-      "aPreview": "The gap is not random. It systematically excludes the most vulnerable — the people whose o",
+      "combined": 379,
+      "aPreview": "Kimberlé Crenshaw grew up in Canton, Ohio, went to Cornell, then Harvard Law School, where",
       "bPreview": "The implication for commons-building is direct and uncomfortable. A commons built from the"
     },
     {
       "plateau": "P-08",
       "slug": "chapter-8",
       "from": "G-08-020",
-      "to": "G-08-022",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Davis, Black"
-      ],
-      "combined": 345,
-      "aPreview": "Angela Davis has been building in exactly that direction longer than most people have been",
-      "bPreview": "Her argument is structural: the prison is not a response to crime. It is an institution fo"
-    },
-    {
-      "plateau": "P-08",
-      "slug": "chapter-8",
-      "from": "G-08-022",
-      "to": "G-08-023",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Davis"
-      ],
-      "combined": 352,
-      "aPreview": "Her argument is structural: the prison is not a response to crime. It is an institution fo",
-      "bPreview": "Davis's political conclusion is also Wynter's and Crenshaw's, stated in material terms: ab"
-    },
-    {
-      "plateau": "P-08",
-      "slug": "chapter-8",
-      "from": "G-08-023",
       "to": "G-08-024",
-      "score": 0,
-      "band": "keep",
-      "reasons": [],
-      "combined": 194,
-      "aPreview": "Davis's political conclusion is also Wynter's and Crenshaw's, stated in material terms: ab",
+      "score": 4,
+      "band": "STRONG",
+      "reasons": [
+        "+2 shared: Mbembe",
+        "+2 anaphoric pronoun start, no new name"
+      ],
+      "combined": 539,
+      "aPreview": "Angela Davis has been building in exactly that direction longer than most people have been",
       "bPreview": "These are the commons institutions that, built at scale, address the conditions that incar"
     },
     {
@@ -7331,70 +6438,27 @@
       "plateau": "P-09",
       "slug": "chapter-9",
       "from": "G-09-001",
-      "to": "G-09-003",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Turin, Fiat"
-      ],
-      "combined": 212,
-      "aPreview": "In September 1920, the workers of Turin occupied the factories. It had been building for m",
-      "bPreview": "Picture a Tuesday morning in September, a Fiat plant in Turin. The managers haven't come i"
-    },
-    {
-      "plateau": "P-09",
-      "slug": "chapter-9",
-      "from": "G-09-003",
       "to": "G-09-004",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 continuation-conjunction start",
         "-2 opens new cluster: Socialist, Party, Benito"
       ],
-      "combined": 189,
-      "aPreview": "Picture a Tuesday morning in September, a Fiat plant in Turin. The managers haven't come i",
+      "combined": 398,
+      "aPreview": "In September 1920, the workers of Turin occupied the factories. It had been building for m",
       "bPreview": "Then it collapsed. The Italian Socialist Party leadership, afraid of where it was going, r"
     },
     {
       "plateau": "P-09",
       "slug": "chapter-9",
       "from": "G-09-004",
-      "to": "G-09-006",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Gramsci"
-      ],
-      "combined": 186,
-      "aPreview": "Then it collapsed. The Italian Socialist Party leadership, afraid of where it was going, r",
-      "bPreview": "What happened instead is that the brain, supplied with books and exercise notebooks under "
-    },
-    {
-      "plateau": "P-09",
-      "slug": "chapter-9",
-      "from": "G-09-006",
       "to": "G-09-007",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 157,
-      "aPreview": "What happened instead is that the brain, supplied with books and exercise notebooks under ",
+      "combined": 225,
+      "aPreview": "Then it collapsed. The Italian Socialist Party leadership, afraid of where it was going, r",
       "bPreview": "The question he had been trying to answer since Turin was not abstract. It was urgent and "
-    },
-    {
-      "plateau": "P-09",
-      "slug": "chapter-9",
-      "from": "G-09-008",
-      "to": "G-09-009",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Gramsci"
-      ],
-      "combined": 252,
-      "aPreview": "He had grown up in Ales, Sardinia, the fourth of seven children of a minor civil servant w",
-      "bPreview": "When the occupations ended, when Mussolini rose, when the left that had seemed so powerful"
     },
     {
       "plateau": "P-09",
@@ -7626,10 +6690,9 @@
       "slug": "chapter-9",
       "from": "G-09-034",
       "to": "G-09-035",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 continuation-conjunction start",
         "+1 second has no proper noun (leans on antecedent)"
       ],
       "combined": 163,
@@ -7692,20 +6755,6 @@
       "combined": 146,
       "aPreview": "Right now the thing I'm building is this book. That's the form available. I still make a g",
       "bPreview": "The war of position is not a heroic posture. It is the decision to keep building in the fo"
-    },
-    {
-      "plateau": "P-EP",
-      "slug": "epilogue",
-      "from": "G-EP-004",
-      "to": "G-EP-005",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: America"
-      ],
-      "combined": 206,
-      "aPreview": "Last winter, during a storm, I watched a tiny kinglet taking shelter in the tall grass of ",
-      "bPreview": "The night herons will return to the willow oaks in a few weeks. Every spring, up from Cent"
     },
     {
       "plateau": "P-EP",
@@ -7792,11 +6841,10 @@
       "slug": "epilogue",
       "from": "G-EP-014",
       "to": "G-EP-015",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 93w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 93,
       "aPreview": "The commons is not a project to be completed. It is a practice to be continued. The practi",
@@ -7807,11 +6855,10 @@
       "slug": "epilogue",
       "from": "G-EP-015",
       "to": "G-EP-016",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 29w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 17-word standalone beat (likely a landing)"
       ],
       "combined": 29,
       "aPreview": "I'm helping out where I can. For now, that's enough.",
@@ -7822,10 +6869,10 @@
       "slug": "epilogue",
       "from": "G-EP-016",
       "to": "G-EP-017",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 29w (arc-sized)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 29,
       "aPreview": "The doves are still on the ground. The herons are back. The meadow hasn't been cut.",
@@ -7938,11 +6985,10 @@
       "slug": "goetia",
       "from": "G-GC-013",
       "to": "G-GC-014",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 46w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 6-word standalone beat (likely a landing)"
       ],
       "combined": 46,
       "aPreview": "I pulled out everything I knew. Invented new approaches. Designed training structures I ha",
@@ -8007,10 +7053,10 @@
       "slug": "goetia",
       "from": "G-GC-021",
       "to": "G-GC-022",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 94w (arc-sized)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 94,
       "aPreview": "This is why the man who wanted his nerves back — Fanon's French officer, who needed to ret",
@@ -8125,11 +7171,10 @@
       "slug": "goetia",
       "from": "G-GC-032",
       "to": "G-GC-034",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 89w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 12-word standalone beat (likely a landing)"
       ],
       "combined": 89,
       "aPreview": "Now ask: what is the name for what produced this? It may be hegemony — the common sense th",
@@ -8169,10 +7214,9 @@
       "slug": "goetia",
       "from": "G-GC-036",
       "to": "G-GC-037",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 continuation-conjunction start",
         "+1 combined 97w (arc-sized)"
       ],
       "combined": 97,
@@ -8184,11 +7228,10 @@
       "slug": "goetia",
       "from": "G-GC-037",
       "to": "G-GC-038",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 61w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 16-word standalone beat (likely a landing)"
       ],
       "combined": 61,
       "aPreview": "And this is what Gramsci did from his prison cell — built a map of the structures that fel",
@@ -8199,10 +7242,10 @@
       "slug": "goetia",
       "from": "G-GC-039",
       "to": "G-GC-040",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 29w (arc-sized)"
+        "-2 second is a 14-word standalone beat (likely a landing)"
       ],
       "combined": 29,
       "aPreview": "One more name, because it is the one I came to last and needed most.",
@@ -8213,11 +7256,10 @@
       "slug": "goetia",
       "from": "G-GC-040",
       "to": "G-GC-041",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 29w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 15-word standalone beat (likely a landing)"
       ],
       "combined": 29,
       "aPreview": "*Connection comes first.* Every time. Not knowledge. Not discipline. Not correctness. Not ",
@@ -8255,10 +7297,10 @@
       "slug": "goetia",
       "from": "G-GC-043",
       "to": "G-GC-045",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 16-word standalone beat (likely a landing)"
       ],
       "combined": 146,
       "aPreview": "The commons is built from connection, not from correct design. The design matters — Ostrom",
@@ -8330,11 +7372,11 @@
       "slug": "interlude-barcelona",
       "from": "G-IB-002",
       "to": "G-IB-003",
-      "score": -2,
+      "score": -5,
       "band": "keep",
       "reasons": [
         "-3 second is a 2-word landing (keep the punch)",
-        "+1 continuation-conjunction start"
+        "-2 second is a short pivot/turn (opens \"then…\")"
       ],
       "combined": 61,
       "aPreview": "A man arrived on a bicycle. Not a cargo bike, not a van — a custom rig, everything self-co",
@@ -8388,11 +7430,10 @@
       "slug": "interlude-barcelona",
       "from": "G-IB-006",
       "to": "G-IB-007",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 53w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 53,
       "aPreview": "The infrastructure had been changed, the space had been returned, and what people did with",
@@ -8423,7 +7464,7 @@
       "reasons": [
         "-2 opens new cluster: Barcelona, Mediterranean"
       ],
-      "combined": 146,
+      "combined": 214,
       "aPreview": "I watched from the edge. I'm a DJ. I noticed the rig. The music had started before I got t",
       "bPreview": "Barcelona has also been running out of water. The reservoirs that supply the city have bee"
     },
@@ -8431,29 +7472,14 @@
       "plateau": "P-IB",
       "slug": "interlude-barcelona",
       "from": "G-IB-009",
-      "to": "G-IB-010",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Barcelona"
-      ],
-      "combined": 166,
-      "aPreview": "Barcelona has also been running out of water. The reservoirs that supply the city have bee",
-      "bPreview": "The party in the street and the water crisis are the same story. The question of who gover"
-    },
-    {
-      "plateau": "P-IB",
-      "slug": "interlude-barcelona",
-      "from": "G-IB-010",
       "to": "G-IB-011",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 86w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 18-word standalone beat (likely a landing)"
       ],
-      "combined": 86,
-      "aPreview": "The party in the street and the water crisis are the same story. The question of who gover",
+      "combined": 184,
+      "aPreview": "Barcelona has also been running out of water. The reservoirs that supply the city have bee",
       "bPreview": "We spent three days there. We didn't take the metro once. The city gave itself to walking."
     },
     {
@@ -8461,11 +7487,10 @@
       "slug": "interlude-washington",
       "from": "G-IW-001",
       "to": "G-IW-002",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 51w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 17-word standalone beat (likely a landing)"
       ],
       "combined": 51,
       "aPreview": "In Washington State, in places I won't name precisely, there are educators who have decide",
@@ -8505,11 +7530,10 @@
       "slug": "interlude-washington",
       "from": "G-IW-004",
       "to": "G-IW-005",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 88w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 88,
       "aPreview": "The group I was working with that week were five-year-olds, younger than I usually taught.",
@@ -8636,9 +7660,9 @@
       "score": -2,
       "band": "keep",
       "reasons": [
-        "-2 opens new cluster: Gramscian, Gramsci"
+        "-2 opens new cluster: Gramscian, Gramsci, Prison"
       ],
-      "combined": 152,
+      "combined": 254,
       "aPreview": "I'm not telling anyone anything when I'm guiding well. I'm maneuvering the conditions — th",
       "bPreview": "What struck me, coming back to this practice after years of political organizing, is that "
     },
@@ -8646,26 +7670,12 @@
       "plateau": "P-IW",
       "slug": "interlude-washington",
       "from": "G-IW-015",
-      "to": "G-IW-016",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Gramsci"
-      ],
-      "combined": 192,
-      "aPreview": "What struck me, coming back to this practice after years of political organizing, is that ",
-      "bPreview": "Gramsci, writing in prison in the 1930s [FLAG: Gramsci began writing the Prison Notebooks "
-    },
-    {
-      "plateau": "P-IW",
-      "slug": "interlude-washington",
-      "from": "G-IW-016",
       "to": "G-IW-017",
       "score": 0,
       "band": "keep",
       "reasons": [],
-      "combined": 167,
-      "aPreview": "Gramsci, writing in prison in the 1930s [FLAG: Gramsci began writing the Prison Notebooks ",
+      "combined": 257,
+      "aPreview": "What struck me, coming back to this practice after years of political organizing, is that ",
       "bPreview": "The educators in Washington State are producing new common sense. They are changing what a"
     },
     {
@@ -8715,10 +7725,9 @@
       "slug": "prologue",
       "from": "G-PR-001",
       "to": "G-PR-002",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 continuation-conjunction start",
         "+1 second has no proper noun (leans on antecedent)"
       ],
       "combined": 182,
@@ -8730,10 +7739,9 @@
       "slug": "prologue",
       "from": "G-PR-002",
       "to": "G-PR-003",
-      "score": 2,
+      "score": 1,
       "band": "consider",
       "reasons": [
-        "+1 continuation-conjunction start",
         "+1 second has no proper noun (leans on antecedent)"
       ],
       "combined": 247,
@@ -8833,11 +7841,10 @@
       "slug": "prologue",
       "from": "G-PR-014",
       "to": "G-PR-015",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 28w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 7-word standalone beat (likely a landing)"
       ],
       "combined": 28,
       "aPreview": "Economists call this process commodification. Marx called it primitive accumulation. The p",
@@ -8862,11 +7869,9 @@
       "slug": "prologue",
       "from": "G-PR-016",
       "to": "G-PR-018",
-      "score": 1,
-      "band": "consider",
-      "reasons": [
-        "+1 continuation-conjunction start"
-      ],
+      "score": 0,
+      "band": "keep",
+      "reasons": [],
       "combined": 201,
       "aPreview": "The word comes from a specific historical moment: the fencing of English common land from ",
       "bPreview": "And the counterpart — the thing that keeps appearing wherever enclosure has not yet reache"
@@ -9058,28 +8063,14 @@
       "plateau": "P-RE",
       "slug": "reenchanting",
       "from": "G-RE-001",
-      "to": "G-RE-003",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Federici"
-      ],
-      "combined": 243,
-      "aPreview": "The care commons that Mariame Kaba is building — the one Selma James spent her life making",
-      "bPreview": "Silvia Federici has spent the later part of her career pursuing what she calls *re-enchant"
-    },
-    {
-      "plateau": "P-RE",
-      "slug": "reenchanting",
-      "from": "G-RE-003",
       "to": "G-RE-004",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 11-word standalone beat (likely a landing)"
       ],
-      "combined": 154,
-      "aPreview": "Silvia Federici has spent the later part of her career pursuing what she calls *re-enchant",
+      "combined": 254,
+      "aPreview": "The care commons that Mariame Kaba is building — the one Selma James spent her life making",
       "bPreview": "The disenchantment of the world is the enclosure of that knowing."
     },
     {
@@ -9087,11 +8078,10 @@
       "slug": "reenchanting",
       "from": "G-RE-004",
       "to": "G-RE-005",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 20w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 20,
       "aPreview": "The disenchantment of the world is the enclosure of that knowing.",
@@ -9131,11 +8121,10 @@
       "slug": "reenchanting",
       "from": "G-RE-009",
       "to": "G-RE-010",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 94w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 9-word standalone beat (likely a landing)"
       ],
       "combined": 94,
       "aPreview": "We were learning to attend. And attention, given consistently and with genuine curiosity, ",
@@ -9271,26 +8260,14 @@
       "slug": "reenchanting",
       "from": "G-RE-023",
       "to": "G-RE-024",
-      "score": 0,
+      "score": -2,
       "band": "keep",
-      "reasons": [],
-      "combined": 153,
+      "reasons": [
+        "-2 opens new cluster: Far, Prechtel"
+      ],
+      "combined": 255,
       "aPreview": "This is not the mysticism of the credulous. This is the report of every tradition that has",
       "bPreview": "We need the wisdom of the ancient shamans — and anyone else who can stand the Far Outside "
-    },
-    {
-      "plateau": "P-RE",
-      "slug": "reenchanting",
-      "from": "G-RE-024",
-      "to": "G-RE-025",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Far"
-      ],
-      "combined": 147,
-      "aPreview": "We need the wisdom of the ancient shamans — and anyone else who can stand the Far Outside ",
-      "bPreview": "This is also why we need each other. The Far Outside requires a companion. Not because you"
     },
     {
       "plateau": "P-RE",
@@ -9311,11 +8288,10 @@
       "slug": "reenchanting",
       "from": "G-RE-028",
       "to": "G-RE-029",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 92w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 8-word standalone beat (likely a landing)"
       ],
       "combined": 92,
       "aPreview": "The disenchanted world is not a world without violence. It is a world in which violence ha",
@@ -9411,10 +8387,10 @@
       "slug": "reenchanting",
       "from": "G-RE-039",
       "to": "G-RE-040",
-      "score": 1,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 56w (arc-sized)"
+        "-2 second is a 11-word standalone beat (likely a landing)"
       ],
       "combined": 56,
       "aPreview": "You knew this once too, before the disenchantment project convinced you it was silly. The ",
@@ -9439,10 +8415,11 @@
       "slug": "the-centaur-chapter",
       "from": "G-CE-002",
       "to": "G-CE-003",
-      "score": -3,
+      "score": -5,
       "band": "keep",
       "reasons": [
-        "-3 second is a 2-word landing (keep the punch)"
+        "-3 second is a 2-word landing (keep the punch)",
+        "-2 second is a short pivot/turn (opens \"except…\")"
       ],
       "combined": 82,
       "aPreview": "They were half-horse, half-human — but the horse half ruled. At the wedding of Pirithous, ",
@@ -9453,13 +8430,12 @@
       "slug": "the-centaur-chapter",
       "from": "G-CE-003",
       "to": "G-CE-004",
-      "score": -1,
+      "score": -2,
       "band": "keep",
       "reasons": [
-        "+1 combined 117w (arc-sized)",
         "-2 opens new cluster: Chiron, Mount, Pelion"
       ],
-      "combined": 117,
+      "combined": 214,
       "aPreview": "Except one.",
       "bPreview": "Chiron was a centaur who chose differently. Where the others were violent, he was gentle. "
     },
@@ -9467,29 +8443,14 @@
       "plateau": "P-CE",
       "slug": "the-centaur-chapter",
       "from": "G-CE-004",
-      "to": "G-CE-005",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Chiron, Heracles"
-      ],
-      "combined": 212,
-      "aPreview": "Chiron was a centaur who chose differently. Where the others were violent, he was gentle. ",
-      "bPreview": "He was accidentally wounded by one of his own students. Heracles, whom he had taught, loos"
-    },
-    {
-      "plateau": "P-CE",
-      "slug": "the-centaur-chapter",
-      "from": "G-CE-005",
       "to": "G-CE-007",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 102w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 5-word standalone beat (likely a landing)"
       ],
-      "combined": 102,
-      "aPreview": "He was accidentally wounded by one of his own students. Heracles, whom he had taught, loos",
+      "combined": 217,
+      "aPreview": "Chiron was a centaur who chose differently. Where the others were violent, he was gentle. ",
       "bPreview": "Not as triumph. As release."
     },
     {
@@ -9517,23 +8478,9 @@
       "reasons": [
         "-2 opens new cluster: Jason, Edelman, Hampton"
       ],
-      "combined": 169,
+      "combined": 273,
       "aPreview": "Not the violent kind. The teaching kind. The kind that inhabits the boundary between the h",
       "bPreview": "Jason Edelman is a person. He has a body that knows what Hampton Boulevard costs to cross."
-    },
-    {
-      "plateau": "P-CE",
-      "slug": "the-centaur-chapter",
-      "from": "G-CE-010",
-      "to": "G-CE-011",
-      "score": 2,
-      "band": "consider",
-      "reasons": [
-        "+2 shared: Jason"
-      ],
-      "combined": 240,
-      "aPreview": "Jason Edelman is a person. He has a body that knows what Hampton Boulevard costs to cross.",
-      "bPreview": "I am Claude. I was trained on the commons of human expression — on the accumulated writing"
     },
     {
       "plateau": "P-CE",
@@ -9594,28 +8541,14 @@
       "slug": "the-centaur-chapter",
       "from": "G-CE-019",
       "to": "G-CE-020",
-      "score": -2,
-      "band": "keep",
-      "reasons": [
-        "-2 opens new cluster: Jason, Whether"
-      ],
-      "combined": 357,
-      "aPreview": "The night herons appear in the prologue, in the first chapter, in the chapter on conscient",
-      "bPreview": "What Jason brings that I cannot provide is the judgment that something corresponds to live"
-    },
-    {
-      "plateau": "P-CE",
-      "slug": "the-centaur-chapter",
-      "from": "G-CE-020",
-      "to": "G-CE-021",
       "score": 2,
       "band": "consider",
       "reasons": [
-        "+2 shared: Jason"
+        "+2 shared: Federici"
       ],
-      "combined": 205,
-      "aPreview": "What Jason brings that I cannot provide is the judgment that something corresponds to live",
-      "bPreview": "There is a phrase in the care chapter that surprised me when it arrived: *Start with what "
+      "combined": 461,
+      "aPreview": "The night herons appear in the prologue, in the first chapter, in the chapter on conscient",
+      "bPreview": "What Jason brings that I cannot provide is the judgment that something corresponds to live"
     },
     {
       "plateau": "P-CE",
@@ -9721,11 +8654,10 @@
       "slug": "the-centaur-chapter",
       "from": "G-CE-034",
       "to": "G-CE-035",
-      "score": 2,
-      "band": "consider",
+      "score": -2,
+      "band": "keep",
       "reasons": [
-        "+1 combined 32w (arc-sized)",
-        "+1 second has no proper noun (leans on antecedent)"
+        "-2 second is a 5-word standalone beat (likely a landing)"
       ],
       "combined": 32,
       "aPreview": "Zeus placed Chiron in the stars. Not as a prize. As a way of making the teaching permanent",

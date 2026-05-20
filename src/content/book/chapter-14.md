@@ -17,9 +17,7 @@ gestures:
   - G-14-003
   - G-14-004
   - G-14-005
-  - G-14-007
   - G-14-008
-  - G-14-009
   - G-14-010
   - G-14-011
   - G-14-012
@@ -36,7 +34,6 @@ gestures:
   - G-14-024
   - G-14-025
   - G-14-026
-  - G-14-027
   - G-14-028
   - G-14-029
   - G-14-030
@@ -52,26 +49,23 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
   - paragraph
   - section
   - paragraph
   - paragraph
   - section
-  - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

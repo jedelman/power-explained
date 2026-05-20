@@ -16,12 +16,10 @@ gestures:
   - G-CE-002
   - G-CE-003
   - G-CE-004
-  - G-CE-005
   - G-CE-007
   - G-CE-008
   - G-CE-009
   - G-CE-010
-  - G-CE-011
   - G-CE-013
   - G-CE-015
   - G-CE-016
@@ -29,7 +27,6 @@ gestures:
   - G-CE-018
   - G-CE-019
   - G-CE-020
-  - G-CE-021
   - G-CE-022
   - G-CE-023
   - G-CE-024
@@ -47,17 +44,14 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
+  - paragraph
   - paragraph
   - section
   - paragraph
   - paragraph
   - paragraph
   - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
   - paragraph
   - paragraph
   - section

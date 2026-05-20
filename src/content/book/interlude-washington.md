@@ -20,13 +20,11 @@ gestures:
   - G-IW-013
   - G-IW-014
   - G-IW-015
-  - G-IW-016
   - G-IW-017
   - G-IW-018
   - G-IW-020
   - G-IW-021
 separators:
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

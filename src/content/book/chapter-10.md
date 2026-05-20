@@ -17,7 +17,6 @@ gestures:
   - G-10-008
   - G-10-009
   - G-10-010
-  - G-10-011
   - G-10-012
   - G-10-014
   - G-10-015
@@ -43,7 +42,6 @@ gestures:
   - G-10-040
   - G-10-041
   - G-10-042
-  - G-10-044
 separators:
   - paragraph
   - paragraph
@@ -54,7 +52,6 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph
   - section
   - paragraph
   - paragraph
@@ -73,7 +70,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

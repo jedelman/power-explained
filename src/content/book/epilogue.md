@@ -13,7 +13,6 @@ plateau:
 gestures:
   - G-EP-001
   - G-EP-004
-  - G-EP-005
   - G-EP-006
   - G-EP-007
   - G-EP-008
@@ -28,7 +27,6 @@ gestures:
   - G-EP-017
 separators:
   - section
-  - paragraph
   - section
   - paragraph
   - paragraph

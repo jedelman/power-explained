@@ -12,10 +12,7 @@ plateau:
   status: draft
 gestures:
   - G-13-001
-  - G-13-002
   - G-13-003
-  - G-13-004
-  - G-13-005
   - G-13-006
   - G-13-007
   - G-13-008
@@ -38,21 +35,15 @@ gestures:
   - G-13-027
   - G-13-028
   - G-13-029
-  - G-13-030
-  - G-13-031
   - G-13-032
   - G-13-033
   - G-13-034
-  - G-13-035
   - G-13-036
   - G-13-037
   - G-13-038
   - G-13-039
 separators:
   - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
   - section
   - paragraph
   - paragraph
@@ -75,9 +66,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

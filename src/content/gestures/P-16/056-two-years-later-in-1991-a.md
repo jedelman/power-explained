@@ -7,9 +7,18 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
-notes: |-
+notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
+
   from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+
+  merging with adjacent gestures is expected on plateau-level revision. [merged G-16-057, G-16-058
+  on 2026-05-20]
 ---
 Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an internet discussion group:
+
+> "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones." [CORRECTION: "won't be anything big and professional" → "won't be big and professional" | the word "anything" does not appear in Torvalds's original August 25, 1991 Usenet post to comp.os.minix]
+
+He thought he was making a toy. Programmers around the world — none paid, none coordinated through any central authority — started contributing. The operating system shipped under the GPL. By 1993, Berners-Lee had built the working web, and CERN released the underlying rules into the public domain. No license. No fee. No owner.
+
+Four years. Stallman, Berners-Lee, Torvalds — working in different countries on different problems, none of them coordinating, all arriving independently at the same understanding. The spell they were casting required giving it away. A proprietary web would not be the web. Universal access was not a feature — it was the thing itself. Enclose it and you destroy it.

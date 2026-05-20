@@ -12,12 +12,9 @@ plateau:
   status: draft
 gestures:
   - G-09-001
-  - G-09-003
   - G-09-004
-  - G-09-006
   - G-09-007
   - G-09-008
-  - G-09-009
   - G-09-010
   - G-09-012
   - G-09-013
@@ -46,10 +43,7 @@ gestures:
 separators:
   - paragraph
   - paragraph
-  - paragraph
-  - paragraph
   - section
-  - paragraph
   - section
   - paragraph
   - paragraph

@@ -13,8 +13,6 @@ gestures:
   - G-01-001
   - G-01-002
   - G-01-003
-  - G-01-004
-  - G-01-005
   - G-01-006
   - G-01-007
   - G-01-008
@@ -47,8 +45,6 @@ gestures:
   - G-01-036
   - G-01-037
 separators:
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

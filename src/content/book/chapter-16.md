@@ -32,7 +32,6 @@ gestures:
   - G-16-024
   - G-16-025
   - G-16-026
-  - G-16-027
   - G-16-029
   - G-16-030
   - G-16-033
@@ -54,8 +53,6 @@ gestures:
   - G-16-054
   - G-16-055
   - G-16-056
-  - G-16-057
-  - G-16-058
   - G-16-060
   - G-16-061
   - G-16-063
@@ -87,7 +84,6 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph
   - section
   - paragraph
   - paragraph
@@ -103,8 +99,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - paragraph
