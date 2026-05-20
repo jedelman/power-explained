@@ -12,7 +12,7 @@ tags:
   - status/draft
   - person/plotkin
   - direction/nw
-  - zone/old_growth
+  - zone/second-growth
   - concept/descent
 notes: |
   Plotkin is the wizard figure (★) for this plateau per architecture map

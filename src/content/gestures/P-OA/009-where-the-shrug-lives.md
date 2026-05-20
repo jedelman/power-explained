@@ -11,7 +11,7 @@ tags:
   - capacity/read
   - status/draft
   - direction/nw
-  - zone/old_growth
+  - zone/second-growth
   - concept/character-armor
 notes: |
   OA-04 unanswered. Ch.6 (The Shrug) has the Richmond posture of

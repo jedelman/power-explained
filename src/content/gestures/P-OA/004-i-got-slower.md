@@ -10,7 +10,7 @@ tags:
   - capacity/hold
   - status/draft
   - direction/nw
-  - zone/old_growth
+  - zone/second-growth
   - concept/burnout
 notes: |
   The turn into first person and into the floor. Source: Jason's own

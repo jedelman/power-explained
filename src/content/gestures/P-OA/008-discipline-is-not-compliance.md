@@ -12,7 +12,7 @@ tags:
   - status/draft
   - person/foucault
   - direction/s
-  - zone/old_growth
+  - zone/second-growth
   - concept/discipline
   - concept/character-armor
 notes: |

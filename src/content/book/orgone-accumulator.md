@@ -12,7 +12,14 @@ plateau:
   status: draft
 
 map:
-  zone: old_growth
+  # zone intentionally unset. Jason 2026-05-20: this is SECOND-GROWTH
+  # territory — regrown forest, not the deep mature stand. old_growth
+  # would be Jason-as-Chinese-medicine-practitioner, a claim he has not
+  # earned ("not yet"). "second_growth" is not in the ZONE enum; rather
+  # than invent a new named map-zone unilaterally (the map is load-
+  # bearing architecture) or assert a false neighbor, zone is left
+  # unset until the cartography is decided. See gesture tags
+  # zone/second-growth and the notes block below.
   position: [28, 64]
   visible_from: [P-08, P-04, P-06, P-RE, P-EP]
 
@@ -149,14 +156,24 @@ beauty_check:
     REMAINING {{NEED}} GAPS — these are the beauty pass. The framing
     prose around each gap is safe; the gap itself must be filled by
     Jason in his own voice, NOT invented by Claude:
-      - G-OA-005 OA-01 ✓ ANSWERED + threaded 2026-05-20 (inert, crying,
-        existential crises, the coffee-shop couch + guitar, reading all
-        of Reich via the Redmond public library on the floor — the
-        library-commons gift). Two small Claude flourishes to check:
-        "I had no idea how" and "six pounds of dangerous books."
-      - G-OA-007 {{NEED: OA-02}} — the first week in the woods. The
-        day-3-or-5 thing the body clocked as different before language.
-        ("Why I went" already answered + threaded in G-OA-006.)
+      - OA-01 ✓ ANSWERED + threaded 2026-05-20, then RESHAPED into
+        G-OA-005 / 005b / 005c when Jason expanded it: inert AND full of
+        life; reading all of Reich via the Redmond library on the floor;
+        the five acres + named chickens + bird language + chopping wood
+        + railroad-grade trails + "is this what retirement is?"; the
+        blinding career-frame dissonance; the honest accounting of luck
+        (nest egg, burnout-not-medical, 2015 Seattle not 2020 Norfolk);
+        cannabis; "the most painful part was admitting how long I held
+        myself UP." Two small Claude flourishes flagged earlier are now
+        cut/softened in the reshape.
+      - OA-02 ✓ ANSWERED + woven into G-OA-007b ("What Is Your
+        Medicine"): armor resonates in groups (Reich); the unnamed West
+        Coast community whose body-practices (singing, moving, sitting
+        still, laughing) shake the armor OFF; "what is your medicine?";
+        curiosity/wonder do everything if no one shuts you down; the
+        only "place" is respect for earth/ancestors/life; you sing
+        people there, you don't put them there; "it did feel like dying
+        to leave."
       - G-OA-008 {{NEED: OA-03}} — the martial arts tradition. Named
         load-bearing in the architecture map. Currently a frame with
         the picture missing.
@@ -165,6 +182,17 @@ beauty_check:
       - G-OA-011 {{NEED: OA-05}} — the Buddhist body-practice in Jason's
         voice (he taught it). Claude's placeholder is convergent
         guesswork, to be replaced. Frame + closing kept.
+
+    REVERSE-CHRONOLOGY REWRITE 2026-05-20 (Jason's direction): chapter
+    now starts in the READER's body (notice your jaw/shoulders/breath),
+    names it (Goetia/NAME callback, G-OA-001b), THEN brings Reich in as
+    the one who named it. New G-OA-003b carries the Freud break (Reich
+    as heir-apparent; death-drive-rejected-as-malignant-masochism;
+    Jason confirms from his own experience; "Jungian psychology's
+    impotence against capitalism is Reich's shadow"). Box/burning/death
+    re-seated as "the price." Floor reshaped from collapse → "the
+    holding finally stopped, and underneath was partly the most alive
+    I'd been." 5,249 words; the spine chapter of the Body movement.
 
   direction_check: |
     Seats NW (the floor / the descent) and gestures SE (return, first
@@ -197,6 +225,23 @@ beauty_check:
         full text). This is the "works on Stalinists" point, sourced.
       - "Workers' Democracy" as Reich's proposed healthy alternative —
         those who do the work make the decisions. (Wikipedia MPF)
+      - FREUD BREAK (G-OA-003b), verified 2026-05-20: Freud rejected
+        Reich's masochism paper; the split is explicitly paralleled to
+        the earlier Freud–Jung break (citizenmodern/Harrison). Reich's
+        Character Analysis reframes self-destruction as LEARNED
+        (malignant masochism from authoritarian/conditional-love
+        families), against Freud's innate death drive (same source;
+        encyclopedianomadica: "There is no death instinct at work in
+        desire... socio-historical processes repress desire... held and
+        immobilized in the body by chronic muscular tension"). Freud
+        personally interfered with the 1932 publication of Reich's
+        masochism paper, wanting to append his own critique
+        (encyclopedianomadica). Freud praised Mussolini as "hero of
+        culture" and inscribed Why War? to Il Duce (same) — documented
+        but inflammatory; kept as the cleanest proof of where the
+        founder's sympathies pointed. CAVEAT honored in prose: Reich was
+        an heir-apparent in REPUTATION, never in Freud's formal inner
+        "Secret Committee."
     STILL VERIFY before publication:
       - Plotkin's "descent" / soulcraft framing cited accurately.
       - Whether to keep the "cured Nazis / treated fascism" framing as
@@ -209,7 +254,7 @@ beauty_check:
 sources:
   inbox:
     - OA-01-the-floor          # ✓ ANSWERED + threaded — G-OA-005
-    - OA-02-community          # PARTIAL — "why I went" answered in G-OA-006; day-3 texture still open in G-OA-007
+    - OA-02-community          # ✓ ANSWERED + woven — G-OA-007b ("What Is Your Medicine")
     - OA-03-martial-arts       # UNANSWERED — G-OA-008
     - OA-04-south              # UNANSWERED — G-OA-009
     - OA-05-the-practice       # NEW 2026-05-20 — the Buddhist body-practice in Jason's voice, G-OA-011
@@ -220,31 +265,41 @@ sources:
     - 2026-05-20-wizard-orgone-accumulator-drafted   # this chapter; Jason editorial pass (Reich/Foucault/the floor/practice)
 
 gestures:
-  - G-OA-001
-  - G-OA-002
-  - G-OA-002b
-  - G-OA-003
-  - G-OA-004
-  - G-OA-005
-  - G-OA-006
-  - G-OA-007
-  - G-OA-008
-  - G-OA-009
-  - G-OA-010
-  - G-OA-011
+  - G-OA-001     # praise: the body that still knows; hands off to the body
+  - G-OA-001b    # notice your jaw/shoulders/breath; your body knows more; name it (Goetia move)
+  - G-OA-003     # Reich names it: character armor, from the consulting room
+  - G-OA-003b    # the Freud break: death-drive-as-masochism; the Jungian shadow
+  - G-OA-002     # the price: the box, the 6-ton burning, Lewisburg death
+  - G-OA-002b    # the armor in the street: fascism diagnosis; run out by Nazis AND Communists; workers' democracy
+  - G-OA-004     # the turn: I got slower / four months
+  - G-OA-005     # the floor's texture (OA-01): inert + full of life; library Reich; chickens; trails
+  - G-OA-005b    # the cushion is not the lesson (the honest accounting of luck)
+  - G-OA-005c    # the lesson: how long I held myself up
+  - G-OA-006     # why I got up: the 40s plan, Saturn return, people holding a space
+  - G-OA-007     # floor=solitude / woods=being held; the inversion of Reich
+  - G-OA-007b    # what is your medicine (OA-02): armor resonates; the community that shakes it off
+  - G-OA-008     # discipline is not compliance; Foucault on coordination/subjection
+  - G-OA-009     # where the shrug lives (the South in the body)
+  - G-OA-010     # Plotkin: the descent was the curriculum
+  - G-OA-011     # here is the practice (HOLD made operational)
 
 separators:
-  - paragraph   # 001 -> 002
-  - paragraph   # 002 -> 002b
-  - paragraph   # 002b -> 003
-  - section     # 003 -> 004
-  - paragraph   # 004 -> 005
-  - section     # 005 -> 006
-  - paragraph   # 006 -> 007
-  - section     # 007 -> 008
-  - section     # 008 -> 009
-  - section     # 009 -> 010
-  - paragraph   # 010 -> 011
+  - paragraph   # 001  -> 001b
+  - section     # 001b -> 003
+  - paragraph   # 003  -> 003b
+  - paragraph   # 003b -> 002
+  - paragraph   # 002  -> 002b
+  - section     # 002b -> 004
+  - paragraph   # 004  -> 005
+  - paragraph   # 005  -> 005b
+  - paragraph   # 005b -> 005c
+  - section     # 005c -> 006
+  - paragraph   # 006  -> 007
+  - paragraph   # 007  -> 007b
+  - section     # 007b -> 008
+  - section     # 008  -> 009
+  - section     # 009  -> 010
+  - paragraph   # 010  -> 011
 
 notes: |
   The Orgone Accumulator (P-OA). Capacity HOLD, the fourth of six

@@ -10,7 +10,7 @@ tags:
   - capacity/hold
   - status/draft
   - direction/s
-  - zone/old_growth
+  - zone/second-growth
   - concept/being-held
 notes: |
   Initiation chapters land on a practice, not a conclusion (cf. Goetia

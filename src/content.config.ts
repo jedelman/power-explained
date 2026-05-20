@@ -60,7 +60,11 @@ const book = defineCollection({
 
     // === map position ===
     map: z.object({
-      zone:         ZONE,
+      // zone is optional: a plateau can exist on the map before its
+      // zone is charted. Forcing a zone onto an unmapped plateau puts a
+      // falsehood in the data. Leave it unset and note the intended
+      // territory in `notes` until the cartography is decided.
+      zone:         ZONE.optional(),
       position:     z.tuple([z.number(), z.number()]),
       visible_from: z.array(z.string()).default([]),
     }).optional(),

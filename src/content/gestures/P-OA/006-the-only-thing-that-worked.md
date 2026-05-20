@@ -10,7 +10,7 @@ tags:
   - capacity/hold
   - status/draft
   - direction/e
-  - zone/old_growth
+  - zone/second-growth
   - concept/community
 notes: |
   On record (synthesis.md): "The only thing that got him up: going to
