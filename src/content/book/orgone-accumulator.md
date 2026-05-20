@@ -146,20 +146,25 @@ beauty_check:
       - Plotkin's descent, with explicit refusal to romanticize it
       - lands on a small, refusable practice — HOLD made operational
 
-    FOUR {{NEED}} GAPS — these are the beauty pass, and they are the
-    chapter. Each is an unanswered inbox question. The framing prose
-    around each gap is safe; the gap itself must be filled by Jason in
-    his own voice, NOT invented by Claude:
-      - G-OA-005 {{NEED: OA-01}} — the texture of the floor. Tuesday
-        2pm, the light, the food, the sleep. The one scene the reader
-        on the floor needs to recognize.
+    REMAINING {{NEED}} GAPS — these are the beauty pass. The framing
+    prose around each gap is safe; the gap itself must be filled by
+    Jason in his own voice, NOT invented by Claude:
+      - G-OA-005 OA-01 ✓ ANSWERED + threaded 2026-05-20 (inert, crying,
+        existential crises, the coffee-shop couch + guitar, reading all
+        of Reich via the Redmond public library on the floor — the
+        library-commons gift). Two small Claude flourishes to check:
+        "I had no idea how" and "six pounds of dangerous books."
       - G-OA-007 {{NEED: OA-02}} — the first week in the woods. The
         day-3-or-5 thing the body clocked as different before language.
+        ("Why I went" already answered + threaded in G-OA-006.)
       - G-OA-008 {{NEED: OA-03}} — the martial arts tradition. Named
         load-bearing in the architecture map. Currently a frame with
         the picture missing.
       - G-OA-009 {{NEED: OA-04}} — the South in the body, the somatic
         shrug, what activates it, what broke it or is still breaking.
+      - G-OA-011 {{NEED: OA-05}} — the Buddhist body-practice in Jason's
+        voice (he taught it). Claude's placeholder is convergent
+        guesswork, to be replaced. Frame + closing kept.
 
   direction_check: |
     Seats NW (the floor / the descent) and gestures SE (return, first
@@ -203,7 +208,7 @@ beauty_check:
 
 sources:
   inbox:
-    - OA-01-the-floor          # UNANSWERED — G-OA-005
+    - OA-01-the-floor          # ✓ ANSWERED + threaded — G-OA-005
     - OA-02-community          # PARTIAL — "why I went" answered in G-OA-006; day-3 texture still open in G-OA-007
     - OA-03-martial-arts       # UNANSWERED — G-OA-008
     - OA-04-south              # UNANSWERED — G-OA-009
