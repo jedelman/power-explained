@@ -185,8 +185,15 @@ beauty_check:
         the recognition-across-practices clause that rhymes with 007b
         and the book's "come find us"). NO technique rendered; oath
         content withheld by design.
-      - G-OA-009 {{NEED: OA-04}} — the South in the body, the somatic
-        shrug, what activates it, what broke it or is still breaking.
+      - OA-04 ✓ ANSWERED + woven 2026-05-20 (G-OA-009). Jason's framing
+        correction LANDED: the shrug is the body accepting the weight of
+        oppression — NOT a buried layer (Claude's prior "under-layer"
+        framing corrected), a WEIGHT that must be thrown off, "every
+        time," like kokoro casting off defeat. The floor (OA-01) = being
+        DOWN (can be full of light); the shrug = being UNDER (weight).
+        Du Bois wages of whiteness; the swagger→bad knees / chest→hunch;
+        the frozen mask; the Greek chorus of staying human inside a
+        machine built to deny it to all of us.
       - G-OA-011 {{NEED: OA-05}} — the Buddhist body-practice in Jason's
         voice (he taught it). Claude's placeholder is convergent
         guesswork, to be replaced. Frame + closing kept.
@@ -274,7 +281,7 @@ sources:
     - OA-01-the-floor          # ✓ ANSWERED + threaded — G-OA-005
     - OA-02-community          # ✓ ANSWERED + woven — G-OA-007b ("What Is Your Medicine")
     - OA-03-martial-arts       # ✓ ANSWERED + woven — G-OA-008b (Kyokushin) + 008c (kokoro)
-    - OA-04-south              # UNANSWERED — G-OA-009
+    - OA-04-south              # ✓ ANSWERED + woven — G-OA-009 (the weight; "thrown off, every time")
     - OA-05-the-practice       # NEW 2026-05-20 — the Buddhist body-practice in Jason's voice, G-OA-011
   conversations:
     - 2026-05-04-back-pass-session-2   # yoga/Reich/vritti thread; armor = uncalmed vritti
