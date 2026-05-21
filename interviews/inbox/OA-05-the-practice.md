@@ -28,7 +28,8 @@
 > collapsed person a regimen") and the closing ("it is not the box, it
 > is the people around it") are kept.
 
-Buddhist meditation is not analytical or diagnostic in the sense that we understand them. It is, to ironically borrow a phrase from Castaneda, the mastery of attention. And it's not a mastery that implies dominance - rather, it's mastery in the sense that Liszt was a master of the pianoforte, Beethoven was a master of the symphony form, Miles Davis was a master of jazz, or Rembrandt was a master of portraiture. The Buddha described the mastery of attention itself and its effects. He also demonstrated it through his teaching, his discourse, and most importantly his students. The awareness of an awaken
+Buddhist meditation is not analytical or diagnostic in the sense that we understand them. It is, to ironically borrow a phrase from Castaneda, the mastery of attention. And it's not a mastery that implies dominance - rather, it's mastery in the sense that Liszt was a master of the pianoforte, Beethoven was a master of the symphony form, Miles Davis was a master of jazz, or Rembrandt was a master of portraiture. The Buddha described the mastery of attention itself and its effects. He also demonstrated it through his teaching, his discourse, and most importantly his students. The awareness of an awakened being is described as the Lion's Roar, in the way that its presence compels one to wide-open attentive alertness without engaging the thinking mind at all.
+This is what I studied and this is what I taught. My Lion's Roar was barely the cat's meow, but I like to think my sitting practice 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzU1Mjc0NCwtMTk0MTI2OTgwNF19
+eyJoaXN0b3J5IjpbLTMyODkyNDEyNywtMTk0MTI2OTgwNF19
 -->
