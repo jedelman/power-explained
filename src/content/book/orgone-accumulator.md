@@ -282,7 +282,7 @@ sources:
     - OA-02-community          # ✓ ANSWERED + woven — G-OA-007b ("What Is Your Medicine")
     - OA-03-martial-arts       # ✓ ANSWERED + woven — G-OA-008b (Kyokushin) + 008c (kokoro)
     - OA-04-south              # ✓ ANSWERED + woven — G-OA-009 (the weight; "thrown off, every time")
-    - OA-05-the-practice       # NEW 2026-05-20 — the Buddhist body-practice in Jason's voice, G-OA-011
+    - OA-05-the-practice       # ✓ ANSWERED + woven — G-OA-011 (mastery of attention) + 011b (the coda)
   conversations:
     - 2026-05-04-back-pass-session-2   # yoga/Reich/vritti thread; armor = uncalmed vritti
     - 2026-05-03-back-pass-session-2   # epilogue, heron thread, fabrication-integrity catch
@@ -309,7 +309,8 @@ gestures:
   - G-OA-008c    # kokoro — discipline of spirit, not Foucault's body; recognition across practices
   - G-OA-009     # where the shrug lives (the South, the layer under the tradition)
   - G-OA-010     # Plotkin: the descent was the curriculum
-  - G-OA-011     # here is the practice (HOLD made operational)
+  - G-OA-011     # the mastery of attention (OA-05): broken bell, Shiva gaze, Lion's Roar — the receptive twin of Reich
+  - G-OA-011b    # the important thing is to practice (the coda; the music close; SE landing)
 
 separators:
   - paragraph   # 001  -> 001b
@@ -331,6 +332,7 @@ separators:
   - section     # 008c -> 009
   - section     # 009  -> 010
   - paragraph   # 010  -> 011
+  - section     # 011  -> 011b
 
 notes: |
   The Orgone Accumulator (P-OA). Capacity HOLD, the fourth of six
