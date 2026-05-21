@@ -296,6 +296,7 @@ gestures:
   - G-OA-003b    # the Freud break: death-drive-as-masochism; the Jungian shadow
   - G-OA-002     # the price: the box, the 6-ton burning, Lewisburg death
   - G-OA-002b    # the armor in the street: fascism diagnosis; run out by Nazis AND Communists; workers' democracy
+  - G-OA-002c    # he put his hands on it: vegetotherapy; not-calming dearmoring; family-as-first-cell; the lineage
   - G-OA-004     # the turn: I got slower / four months
   - G-OA-005     # the floor's texture (OA-01): inert + full of life; library Reich; chickens; trails
   - G-OA-005b    # the cushion is not the lesson (the honest accounting of luck)
@@ -316,7 +317,8 @@ separators:
   - paragraph   # 003  -> 003b
   - paragraph   # 003b -> 002
   - paragraph   # 002  -> 002b
-  - section     # 002b -> 004
+  - paragraph   # 002b -> 002c
+  - section     # 002c -> 004
   - paragraph   # 004  -> 005
   - paragraph   # 005  -> 005b
   - paragraph   # 005b -> 005c
