@@ -28,8 +28,7 @@
 > collapsed person a regimen") and the closing ("it is not the box, it
 > is the people around it") are kept.
 
-Buddhist meditation is not analytical or diagnostic in s
+Buddhist meditation is not analytical or diagnostic in the sense that we understand them. It is, to ironically borrow a phrase from Castaneda, the mastery of attention. And it's not a mastery that implies dominance - rather, it's mastery in the sense that Liszt was a master of the pianoforte, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgzMTI0OTQsLTE5NDEyNjk4MDRdfQ
-==
+eyJoaXN0b3J5IjpbMjAyMTEyMTgwNSwtMTk0MTI2OTgwNF19
 -->
