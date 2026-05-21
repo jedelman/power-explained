@@ -28,6 +28,8 @@
 > collapsed person a regimen") and the closing ("it is not the box, it
 > is the people around it") are kept.
 
+Buddhist meditation is not analytical or diagnostic in s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEyNjk4MDRdfQ==
+eyJoaXN0b3J5IjpbLTE0NjgzMTI0OTQsLTE5NDEyNjk4MDRdfQ
+==
 -->
