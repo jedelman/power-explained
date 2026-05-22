@@ -1,0 +1,321 @@
+# Tag Ontology — power-explained
+#
+# The authoritative namespace for tags on gestures (and, in time, on
+# plateaus, manifests, and other addressable objects).
+#
+# Validation contract (enforced by scripts/lint-tags.mjs):
+#   - Every tag has the form `<namespace>/<term>`.
+#   - Unknown NAMESPACES fail the build. Namespaces are deliberate;
+#     a new dimension of attention is an architectural decision and
+#     should be declared here first.
+#   - Unknown TERMS within a known namespace WARN but pass. Terms are
+#     organic — places, people, concepts, years accumulate as the book
+#     grows. The lint output is the to-add list; we promote terms to
+#     this file in batches, not one at a time.
+#
+# Evolution policy:
+#   - Add new namespaces with deliberation. Each is a query axis the
+#     book will be sliced along forever.
+#   - Add terms freely in code, harvest into the ontology when convenient.
+#   - Never remove a term once promoted — gestures may reference it.
+#     Mark deprecated with `deprecated: true` and migration notes.
+#   - Renaming a term requires a coordinated edit across all gesture
+#     files (same discipline as renaming a gesture ID).
+
+version: 1
+last_revised: 2026-05-20
+
+namespaces:
+
+  # ===========================================================================
+  # plateau — the home plateau of this gesture, mirrored from the `plateau:`
+  # field so tag-only queries can still ask "what's in P-04". Lint enforces
+  # that the tag matches the field.
+  # ===========================================================================
+  plateau:
+    description: |
+      The gesture's home plateau. One per gesture. Must match the
+      structured `plateau:` field on the same file.
+    cardinality: exactly-one
+    terms:
+      - P-01
+      - P-02
+      - P-03
+      - P-04
+      - P-05
+      - P-06
+      - P-07
+      - P-08
+      - P-09
+      - P-10
+      - P-11
+      - P-12
+      - P-13
+      - P-14
+      - P-15
+      - P-16
+      - P-16b
+      - P-17
+      - P-18
+      - P-OA       # Orgone Accumulator (initiation chapter)
+      - P-RE       # Re-Enchanting the World (initiation chapter)
+      - P-EP       # Epilogue
+      - P-PR       # Prologue
+      - P-GC       # The Goetia of Capital (initiation chapter)
+      - P-CE       # Chiron / The Centaur Chapter
+      - P-IB       # Interlude: Barcelona
+      - P-IW       # Interlude: Counter-Hegemony Without the Word (Washington)
+
+  # ===========================================================================
+  # voice — who is speaking in the gesture. A gesture can carry multiple
+  # voices if it really does shift mid-flow. A quoted human counts as a
+  # voice when the quote is the gesture (Rukia at the memorial).
+  # ===========================================================================
+  voice:
+    description: |
+      Who is speaking in the gesture. Quoted humans count when the quote
+      IS the gesture. Multiple voices allowed when the gesture genuinely
+      braids them.
+    cardinality: one-or-more
+    terms:
+      # The register-keepers
+      - jason             # the narrator's primary voice
+      - coyote            # truth-in-plain-sight, dismissal-as-seal
+      - nasruddin         # oblique fool sharper than the room
+      - kropotkin         # fool with field notes; evidence-grounded
+      - castaneda         # the apprentice form; seeing as practice
+      # Quoted humans (additive; only when their quote is the gesture)
+      - arizmendiarrieta
+      - rukia-lumumba
+      - chokwe-antar-lumumba
+      - subcomandante-moises
+
+  # ===========================================================================
+  # kind — what kind of rhetorical move the gesture makes. Multiple kinds
+  # allowed; a gesture can be genuinely both (e.g. scene + turn).
+  # ===========================================================================
+  kind:
+    description: |
+      The rhetorical form of the gesture. Multiple kinds permitted when
+      a move is honestly both (a scene that is also a turn; an argument
+      that is also a landing). Untagged means "not yet classified" —
+      first-pass mechanical splits leave this empty rather than lie.
+    cardinality: zero-or-more
+    terms:
+      - scene             # continuous narrated event
+      - argument          # structural claim
+      - landing           # single-sentence gesture that lands
+      - litany            # rhetorical cascade
+      - turn              # confessional or perspectival shift
+      - naming            # names what something is
+      - recovery          # recovers something dormant
+      - aside             # interjection, often voice-shifted
+      - prose             # catch-all for unmarked moves (use sparingly)
+
+  # ===========================================================================
+  # capacity — which of the six reader capacities the gesture builds.
+  # ===========================================================================
+  capacity:
+    description: |
+      Reader capacities the gesture cultivates. From the book's
+      architecture: NAME, READ, BUILD, HOLD, ENTER, CONTINUE. Untagged
+      means "not yet classified" — first-pass mechanical splits leave
+      this empty rather than guess.
+    cardinality: zero-or-more
+    terms:
+      - name
+      - read
+      - build
+      - hold
+      - enter
+      - continue
+
+  # ===========================================================================
+  # status — workflow state. Mirrors beauty_check.passed but enables
+  # tag-only queries (e.g. "everything not yet passed").
+  # ===========================================================================
+  status:
+    description: |
+      Workflow state of the gesture. Mirrors `beauty_check.passed`
+      where applicable.
+    cardinality: exactly-one
+    terms:
+      - draft
+      - beauty-pending
+      - passed
+
+  # ===========================================================================
+  # place — where the gesture's events occur or what territory it covers.
+  # Open; new places get added as the book grows.
+  # ===========================================================================
+  place:
+    description: |
+      The geographic place the gesture is set in or about. Use the most
+      specific name that fits. Multiple allowed when a gesture spans
+      places.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - mondragon
+      - arrasate           # Basque name for Mondragon — kept as alias-aware
+      - basque-country
+      - spain
+      - burlington-vt
+      - champlain          # Champlain Housing Trust service area
+      - jackson-ms
+      - mississippi
+      - kerala
+      - india
+      - crown-heights      # Brooklyn neighborhood
+      - brooklyn
+      - new-york
+      - chiapas
+      - mexico
+      - oventic
+      - norfolk-va
+      - virginia
+      - valencia
+      - ilocos             # Philippines (zanjera)
+      - philippines
+      - switzerland        # alpine commons
+      - asturias           # andecha
+
+  # ===========================================================================
+  # person — historical or named individuals the gesture is about.
+  # ===========================================================================
+  person:
+    description: |
+      Named persons the gesture is about. Distinct from `voice` which
+      tags whose voice is sounding; a person can appear without speaking.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - arizmendiarrieta
+      - sanders-bernie
+      - lumumba-chokwe       # the father
+      - lumumba-chokwe-antar # the son
+      - lumumba-rukia        # the daughter
+      - franco               # the dictator (passing reference)
+      - reagan               # passing reference
+      - pope-francis         # 2015 declaration
+      - subcomandante-moises
+      - ostrom-elinor
+      - hardt                # Michael Hardt — Empire, Commonwealth
+      - negri                # Antonio Negri — Empire, Commonwealth
+      - gramsci              # Antonio Gramsci — Prison Notebooks, hegemony
+      - freire               # Paulo Freire — Pedagogy of the Oppressed
+      - luxemburg            # Rosa Luxemburg — The Accumulation of Capital
+      - federici             # Silvia Federici — Caliban and the Witch
+      - fanon                # Frantz Fanon — The Wretched of the Earth
+      - du-bois              # W.E.B. Du Bois — wages of whiteness (P-OA)
+      - foucault             # Michel Foucault — biopower, discipline, governmentality
+      - deleuze              # Gilles Deleuze — A Thousand Plateaus, Geology of Morals
+      - guattari             # Félix Guattari — A Thousand Plateaus, the refrain
+
+  # ===========================================================================
+  # concept — book-level concepts and named practices.
+  # ===========================================================================
+  concept:
+    description: |
+      Named concepts and practices the gesture invokes. The book's
+      structural argument runs through this namespace.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - auzolan
+      - andecha
+      - bayanihan
+      - minga
+      - etxe
+      - lehen-auzoa
+      - commons
+      - mutual-aid
+      - cooperative
+      - clt                  # community land trust
+      - federation
+      - mandar-obedeciendo
+      - caracol
+      - junta-de-buen-gobierno
+      - prefigurative
+      - primitive-accumulation
+      - enclosure
+      - the-outside          # Luxemburg sense
+      - racial-capitalism
+      - production-of-subjectivity  # Hardt & Negri — capital produces subjects
+      - hegemony             # Gramsci — production of consent, not domination by force
+      - conscientização      # Freire — naming the structures that made you silent
+      - biopower             # Foucault — power that manages life, not just threatens death
+      - biopolitics          # the contested field between biopower and the subject
+
+  # ===========================================================================
+  # year — the time the gesture takes place in or anchors to. Used by
+  # the wizard's terrain-reading queries (what does the temporal slice
+  # of 1941, 1981, 2020 look like across the book?).
+  # ===========================================================================
+  year:
+    description: |
+      The primary year the gesture anchors to. Multiple permitted when
+      a gesture spans years (a long-construction gesture). Format YYYY.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - "1941"
+      - "1956"
+      - "1976"
+      - "1981"
+      - "1983"
+      - "1984"
+      - "1991"
+      - "1994"
+      - "1996"
+      - "2003"
+      - "2013"
+      - "2014"
+      - "2015"
+      - "2017"
+      - "2020"
+      - "2023"
+      - "2024"
+      - "2025"
+      - "2026"
+
+  # ===========================================================================
+  # zone — the gesture's home zone on the territory map. Mirrors the
+  # plateau's `map.zone` for tag-only spatial queries.
+  # ===========================================================================
+  zone:
+    description: |
+      The territory-map zone the gesture lives in. Inherited from
+      the home plateau by default; override per gesture only when a
+      gesture genuinely belongs to a different zone (rare).
+    cardinality: zero-or-one
+    terms:
+      - outer-edge
+      - clearings
+      - high-ridges
+      - old-growth
+      - the-river
+      - the-wizards-cottage
+      - standing-stones
+
+  # ===========================================================================
+  # direction — wheel-of-eight direction the gesture sits in. Inherited
+  # from plateau by default; override when a gesture genuinely moves the
+  # wheel.
+  # ===========================================================================
+  direction:
+    description: |
+      The wheel-of-eight direction the gesture sits in. Plateaus carry
+      a seat and an axis; gestures can refine — a gesture inside an
+      S-seated plateau might genuinely sit at NE (opening) or NW (grief
+      processing). Use sparingly; over-tagging here is noise.
+    cardinality: zero-or-one
+    terms:
+      - n
+      - ne
+      - e
+      - se
+      - s
+      - sw
+      - w
+      - nw
