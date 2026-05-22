@@ -1,7 +1,7 @@
 ---
 slug: goetia
 title: "The Goetia of Capital"
-description: "Three names for what you're up against — production of subjectivity, hegemony, the outside — and one for what you're building with. The grimoire is the book you are holding."
+description: "Four names for what you're up against — production of subjectivity, biopower, hegemony, the outside — and one for what you're building with. The grimoire is the book you are holding."
 h1: "The Goetia of Capital"
 part: "Part II: The Proof"
 type: initiation
@@ -76,12 +76,15 @@ territory:
     has been making you silent and you do not yet know why.
   field_notes:
     - Hardt and Negri, "Commonwealth" (2009) — production of subjectivity
+    - Michel Foucault — biopower, governmentality (lectures at the Collège de France)
     - Gramsci, "Prison Notebooks" — hegemony as production of consent
     - Rosa Luxemburg, "The Accumulation of Capital" — primitive accumulation / the outside
     - Silvia Federici, "Caliban and the Witch" — care labor as the outside
     - Paulo Freire, "Pedagogy of the Oppressed" — conscientização as naming
     - Frantz Fanon, "The Wretched of the Earth" — the colonial nerve case
     - Elinor Ostrom, "Governing the Commons" — the eight principles (closing section)
+    - Deleuze & Guattari, "A Thousand Plateaus" — strata (plateau 3), the refrain (plateau 11)
+    - McDonough & Braungart, "Cradle to Cradle" (2002) — tree as model of productive abundance
 
 metaphor:
   choice: |
@@ -141,21 +144,56 @@ doors:
     prompt: The world the naming opens toward — re-enchanting
 
 beauty_check:
-  status: brimstone-pass-opening-2026-05-22
+  status: biopower-promoted-2026-05-22
   notes: |
-    Schema pass committed 2026-05-22. Prose is complete through first draft
-    (41 gestures, ~2,800 words). Rich gesture-level tagging added same session.
+    Schema pass committed 2026-05-22. Prose is complete through first draft.
+    Rich gesture-level tagging added same session.
 
     Opening brimstone pass 2026-05-22: revised G-GC-001, 002, 004, 006, 007
     to saga register (Icelandic, not bible-thumping). Lead with concrete,
     name the demon, trust the reader. Killed defensive preemptions
     ("not a rogues' gallery", "This is not a conspiracy") and the
     definitional opener at 006 ("Here is what the phrase means:"). Broadened
-    006 from "the economic system" to "any power" per Jason's correction —
-    subjection to power produces the subject, capital is one form among
-    several. Biopolitics turn is parked: pending architecture decision on
-    whether biopolitical production gets promoted to a fourth grimoire name
-    alongside production of subjectivity / hegemony / the outside.
+    006 from "the economic system" to "any power" per Jason's correction.
+
+    Biopower promoted to a fourth grimoire name 2026-05-22 (architecture
+    decision B). The chapter now has four demonic names + one gift:
+      1. Production of Subjectivity — the whisperer in the crowd
+      2. Biopower — the smiling parasite / car dealership / clipboard and whip
+      3. Hegemony — the demon that hands scripts to the whisperer
+      4. The Outside — the bouncer and the kidnapper
+      + Connection — the gift
+
+    Six new gestures (G-GC-008 through G-GC-008f) seated between G-GC-007
+    (production of subjectivity) and G-GC-010 (the restaurant case study).
+    Three keystone metaphors authored by Jason:
+      - Biopower as smiling parasite / car dealership (008, 008d) —
+        biopower remakes the total environment in its own image to
+        justify its own existence. Pattern available for re-use in P-05
+        (enclosure as fire suppression / sprawl) and Ghent Streets.
+      - Production of Subjectivity as the Tree (008e) — the keystone
+        metaphor of the chapter. Cradle to Cradle (McDonough & Braungart,
+        2002) called this abundance, not waste. Biopower manages the
+        orchard; the orchard cannot have the fruit without the whole
+        tree-ecology. The overflow IS the primary product.
+      - Biopolitics as the forest trail system (008f) — every creature
+        attending to every other creature. No one designed the trails;
+        the trail system is what emerges. D&G's strata and refrain as
+        the conceptual backing.
+
+    OPEN CALLS for next pass:
+      - The script-handoff: Hegemony writes scripts that Production of
+        Subjectivity carries. The ecology between demons is not yet
+        explicit in the prose. A synthesis gesture between 023 and 024
+        could name the full chain (Hegemony → PoS → Biopower's crowd →
+        Outside's bouncer). Flagged for Jason.
+      - Tag-ontology promotions committed: concept/biopower,
+        concept/biopolitics, person/foucault, person/deleuze, person/guattari.
+      - VERIFY: Cradle to Cradle (McDonough & Braungart, 2002) — tree
+        as model of productive abundance. Direct attribution.
+      - VERIFY: Deleuze & Guattari — "The Geology of Morals" (ATP plateau 3)
+        and "Of the Refrain" (ATP plateau 11). "Inscription of strata,
+        layer on layer" is Jason's reading; not a direct D&G phrase.
 
     What is here and believed solid:
       - The grimoire frame (001-004): clean, strong, recovers an old
@@ -253,6 +291,12 @@ gestures:
   - G-GC-005d   # GT-01 the failed interruption + "why I'm writing this book"
   - G-GC-006
   - G-GC-007
+  - G-GC-008    # Biopower arrival — Foucault's name, the smiling parasite
+  - G-GC-008b   # Biopower's domains — school/work/land/cities/media/prisons
+  - G-GC-008c   # The deal — devil/soul, hold the whip sometimes
+  - G-GC-008d   # The car dealership landing — remakes environment in own image
+  - G-GC-008e   # The Tree — overflow / production of subjectivity hinge
+  - G-GC-008f   # Biopolitics — the trail system, the contest
   - G-GC-010
   - G-GC-011
   - G-GC-013
@@ -297,7 +341,13 @@ separators:
   - paragraph     # 005c → 005d
   - paragraph     # 005d → 006
   - paragraph     # 006 → 007
-  - section       # 007 → 010
+  - section       # 007 → 008    (biopower arrival)
+  - paragraph     # 008 → 008b
+  - paragraph     # 008b → 008c
+  - paragraph     # 008c → 008d
+  - paragraph     # 008d → 008e
+  - paragraph     # 008e → 008f
+  - section       # 008f → 010   (transition to restaurant)
   - paragraph
   - paragraph
   - paragraph
