@@ -1,7 +1,7 @@
 ---
 id: G-GC-006
 plateau: P-GC
-title: Here is what the phrase means
+title: Power does not only produce goods
 slug: here-is-what-the-phrase-means
 
 tags:
@@ -19,12 +19,19 @@ tags:
 beauty_check:
   passed: false
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-22: Brimstone pass — killed the definitional opener
+    ("Here is what the phrase means:"). Broadened from "the economic
+    system" to "any power" per Jason's correction: subjection to power
+    produces the subject. Capital is one form of power, not the only one.
+    The biopolitics turn (society is the factory floor) lifted out to a
+    follow-on gesture, pending architecture decision on whether
+    biopolitical production becomes a fourth grimoire name.
 
 notes: |-
-  The definition of production of subjectivity — what the phrase means.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
+  Production of subjectivity, defined. Power — not only capital — produces
+  the subject. Subjection to power produces the kind of person legible to
+  that power. Hardt & Negri framing, but the claim generalizes beyond
+  capital (state, institution, movement, church).
 ---
-Here is what the phrase means: the economic system does not only produce goods. It produces people. Specifically, it produces people shaped to be legible to itself — people who know how to be employees, consumers, applicants, subjects. People who understand, in their bodies before they think about it, what is being asked of them and how to deliver it. This production is not incidental to capital. It is one of its primary outputs.
+Power does not only produce goods. It produces people. Any power — state, capital, church, institution — that structures how you live is simultaneously producing the kind of person legible to it. Employee, subject, consumer, believer. You know in the body, before the thought, what is being asked and how to deliver it. This production is not incidental. It is the primary output.

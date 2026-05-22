@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-22T20:36:30.346Z",
+  "generatedAt": "2026-05-22T23:13:18.751Z",
   "corpus": {
     "plateaus": 27,
     "migratedPlateaus": 27,
-    "gestures": 800,
-    "words": 68605,
-    "sentences": 4532
+    "gestures": 806,
+    "words": 69311,
+    "sentences": 4614
   },
   "corpusReadability": {
-    "fleschReadingEase": 55.8,
-    "fleschKincaidGrade": 9.24,
-    "gunningFog": 12.78,
-    "smog": 12.24,
-    "colemanLiau": 10.37,
-    "automatedReadabilityIndex": 8.67,
-    "avgWordsPerSentence": 15.14,
+    "fleschReadingEase": 55.97,
+    "fleschKincaidGrade": 9.19,
+    "gunningFog": 12.72,
+    "smog": 12.2,
+    "colemanLiau": 10.35,
+    "automatedReadabilityIndex": 8.61,
+    "avgWordsPerSentence": 15.02,
     "avgSyllablesPerWord": 1.6
   },
   "plateauMetrics": [
@@ -462,22 +462,22 @@
       "id": "P-GC",
       "slug": "goetia",
       "title": "The Goetia of Capital",
-      "gestureCount": 43,
-      "words": 2456,
-      "sentences": 205,
-      "avgWordsPerSentence": 11.98,
-      "avgSyllablesPerWord": 1.51,
-      "fleschReadingEase": 66.53,
-      "fleschKincaidGrade": 6.96,
-      "gunningFog": 10.59,
+      "gestureCount": 49,
+      "words": 3162,
+      "sentences": 287,
+      "avgWordsPerSentence": 11.02,
+      "avgSyllablesPerWord": 1.52,
+      "fleschReadingEase": 66.93,
+      "fleschKincaidGrade": 6.66,
+      "gunningFog": 10.24,
       "colemanLiau": 8.47,
-      "automatedReadabilityIndex": 5.98,
-      "smog": 10.66,
+      "automatedReadabilityIndex": 5.67,
+      "smog": 10.37,
       "smogReliable": true,
-      "lexicalEntropy": 8.1,
-      "typeTokenRatio": 0.32,
-      "meanGestureWords": 57.12,
-      "stdGestureWords": 46.66,
+      "lexicalEntropy": 8.28,
+      "typeTokenRatio": 0.3,
+      "meanGestureWords": 64.53,
+      "stdGestureWords": 53.22,
       "structuralEntropyNorm": 0.85
     },
     {
@@ -614,28 +614,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 800,
-    "readableCount": 602,
+    "count": 806,
+    "readableCount": 608,
     "wordCount": {
-      "n": 800,
+      "n": 806,
       "p10": 10,
-      "p25": 32,
-      "p50": 66,
+      "p25": 33,
+      "p50": 67,
       "p75": 107,
       "p90": 177,
-      "mean": 85.76
+      "mean": 85.99
     },
     "lexicalEntropy": {
-      "n": 800,
-      "p10": 3.12,
+      "n": 806,
+      "p10": 3.15,
       "p25": 4.56,
-      "p50": 5.34,
+      "p50": 5.35,
       "p75": 5.85,
-      "p90": 6.44,
+      "p90": 6.43,
       "mean": 5.06
     },
     "typeTokenRatio": {
-      "n": 800,
+      "n": 806,
       "p10": 0.6,
       "p25": 0.67,
       "p50": 0.74,
@@ -644,27 +644,27 @@
       "mean": 0.75
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 602,
-      "p10": 4.79,
-      "p25": 7.02,
-      "p50": 9.03,
+      "n": 608,
+      "p10": 4.76,
+      "p25": 6.93,
+      "p50": 8.99,
       "p75": 11.33,
       "p90": 13.47,
-      "mean": 9.16
+      "mean": 9.12
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 602,
+      "n": 608,
       "p10": 32.38,
-      "p25": 42.96,
-      "p50": 55.67,
-      "p75": 67.86,
-      "p90": 79.49,
-      "mean": 55.94
+      "p25": 43.01,
+      "p50": 55.74,
+      "p75": 68.07,
+      "p90": 79.99,
+      "mean": 56.05
     }
   },
   "transitionalEntropy": {
-    "total": 773,
-    "reliable": 177,
+    "total": 779,
+    "reliable": 180,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
   },
@@ -730,6 +730,12 @@
       "dispersionNorm": 0.98
     },
     {
+      "term": "Foucault",
+      "total": 16,
+      "plateaus": 5,
+      "dispersionNorm": 0.85
+    },
+    {
       "term": "Barcelona",
       "total": 11,
       "plateaus": 5,
@@ -746,6 +752,12 @@
       "total": 10,
       "plateaus": 5,
       "dispersionNorm": 0.93
+    },
+    {
+      "term": "Deleuze",
+      "total": 7,
+      "plateaus": 5,
+      "dispersionNorm": 0.96
     },
     {
       "term": "Washington",
@@ -770,6 +782,12 @@
       "total": 6,
       "plateaus": 5,
       "dispersionNorm": 0.97
+    },
+    {
+      "term": "Think",
+      "total": 5,
+      "plateaus": 5,
+      "dispersionNorm": 1
     }
   ],
   "localIntensities": [
