@@ -1,7 +1,7 @@
 ---
 id: G-GC-001
 plateau: P-GC
-title: There is an old tradition in
+title: The Lesser Key of Solomon catalogues
 slug: there-is-an-old-tradition-in
 
 tags:
@@ -17,12 +17,12 @@ tags:
 beauty_check:
   passed: false
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-22: Opening brimstone pass — saga register (Icelandic, not
+    bible-thumping). Lead with the count, place the demon in landscape
+    ("a season it walks in"), land on what the book is for.
 
 notes: |-
   Opening gesture. Recovers the grimoire tradition as the chapter's governing metaphor.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
-There is an old tradition in ceremonial magic of the *Goetia* — a grimoire of demons, each catalogued with a seal, a domain, a rank, and a specific set of instructions for summoning and constraining it. The *Lesser Key of Solomon* lists seventy-two of them. Each has a character. Each has a weakness. Each has a use.
+The *Lesser Key of Solomon* catalogues seventy-two demons. Each has a name. Each has a seal. Each has a rank, a domain, a season it walks in. Each has a weakness. Each has a use. That is the form of the book: a working list of what acts on you, drawn so you can act back.

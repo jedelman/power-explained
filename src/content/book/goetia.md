@@ -141,10 +141,21 @@ doors:
     prompt: The world the naming opens toward — re-enchanting
 
 beauty_check:
-  status: schema-pass-2026-05-22
+  status: brimstone-pass-opening-2026-05-22
   notes: |
     Schema pass committed 2026-05-22. Prose is complete through first draft
     (41 gestures, ~2,800 words). Rich gesture-level tagging added same session.
+
+    Opening brimstone pass 2026-05-22: revised G-GC-001, 002, 004, 006, 007
+    to saga register (Icelandic, not bible-thumping). Lead with concrete,
+    name the demon, trust the reader. Killed defensive preemptions
+    ("not a rogues' gallery", "This is not a conspiracy") and the
+    definitional opener at 006 ("Here is what the phrase means:"). Broadened
+    006 from "the economic system" to "any power" per Jason's correction —
+    subjection to power produces the subject, capital is one form among
+    several. Biopolitics turn is parked: pending architecture decision on
+    whether biopolitical production gets promoted to a fourth grimoire name
+    alongside production of subjectivity / hegemony / the outside.
 
     What is here and believed solid:
       - The grimoire frame (001-004): clean, strong, recovers an old
