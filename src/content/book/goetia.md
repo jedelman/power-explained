@@ -210,7 +210,7 @@ beauty_check:
 
 sources:
   inbox:
-    - GT-01-the-name-arriving    # OPEN — the scene of arrival with production of subjectivity
+    - GT-01-the-name-arriving    # ✓ ANSWERED + woven 2026-05-22 → G-GC-005b, G-GC-005c, G-GC-005d
   conversations:
     - 2026-05-04-back-pass-session-2     # production of subjectivity, restaurant section origin
     - 2026-05-10-wizard-book-architecture-map  # P-GC placement, NAME capacity assignment
@@ -237,6 +237,9 @@ gestures:
   - G-GC-003
   - G-GC-004
   - G-GC-005
+  - G-GC-005b   # GT-01 scene of arrival: the coffee shop, the jackboot
+  - G-GC-005c   # GT-01 the asymmetric agency/mandate inversion
+  - G-GC-005d   # GT-01 the failed interruption + "why I'm writing this book"
   - G-GC-006
   - G-GC-007
   - G-GC-010
@@ -274,13 +277,16 @@ gestures:
   - G-GC-048
 
 separators:
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - section
+  - paragraph     # 001 → 002
+  - paragraph     # 002 → 003
+  - paragraph     # 003 → 004
+  - section       # 004 → 005
+  - paragraph     # 005 → 005b
+  - paragraph     # 005b → 005c
+  - paragraph     # 005c → 005d
+  - paragraph     # 005d → 006
+  - paragraph     # 006 → 007
+  - section       # 007 → 010
   - paragraph
   - paragraph
   - paragraph
