@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-22T20:36:30.346Z",
+  "generatedAt": "2026-05-22T21:52:07.776Z",
   "corpus": {
     "plateaus": 27,
     "migratedPlateaus": 27,
     "gestures": 800,
-    "words": 68605,
-    "sentences": 4532
+    "words": 68565,
+    "sentences": 4534
   },
   "corpusReadability": {
-    "fleschReadingEase": 55.8,
-    "fleschKincaidGrade": 9.24,
-    "gunningFog": 12.78,
+    "fleschReadingEase": 55.82,
+    "fleschKincaidGrade": 9.23,
+    "gunningFog": 12.77,
     "smog": 12.24,
     "colemanLiau": 10.37,
-    "automatedReadabilityIndex": 8.67,
-    "avgWordsPerSentence": 15.14,
+    "automatedReadabilityIndex": 8.66,
+    "avgWordsPerSentence": 15.12,
     "avgSyllablesPerWord": 1.6
   },
   "plateauMetrics": [
@@ -463,22 +463,22 @@
       "slug": "goetia",
       "title": "The Goetia of Capital",
       "gestureCount": 43,
-      "words": 2456,
-      "sentences": 205,
-      "avgWordsPerSentence": 11.98,
+      "words": 2416,
+      "sentences": 207,
+      "avgWordsPerSentence": 11.67,
       "avgSyllablesPerWord": 1.51,
-      "fleschReadingEase": 66.53,
-      "fleschKincaidGrade": 6.96,
-      "gunningFog": 10.59,
-      "colemanLiau": 8.47,
-      "automatedReadabilityIndex": 5.98,
-      "smog": 10.66,
+      "fleschReadingEase": 67.14,
+      "fleschKincaidGrade": 6.79,
+      "gunningFog": 10.4,
+      "colemanLiau": 8.4,
+      "automatedReadabilityIndex": 5.82,
+      "smog": 10.51,
       "smogReliable": true,
-      "lexicalEntropy": 8.1,
+      "lexicalEntropy": 8.11,
       "typeTokenRatio": 0.32,
-      "meanGestureWords": 57.12,
-      "stdGestureWords": 46.66,
-      "structuralEntropyNorm": 0.85
+      "meanGestureWords": 56.19,
+      "stdGestureWords": 46.73,
+      "structuralEntropyNorm": 0.86
     },
     {
       "id": "P-IB",
@@ -623,16 +623,16 @@
       "p50": 66,
       "p75": 107,
       "p90": 177,
-      "mean": 85.76
+      "mean": 85.71
     },
     "lexicalEntropy": {
       "n": 800,
       "p10": 3.12,
-      "p25": 4.56,
+      "p25": 4.54,
       "p50": 5.34,
       "p75": 5.85,
       "p90": 6.44,
-      "mean": 5.06
+      "mean": 5.05
     },
     "typeTokenRatio": {
       "n": 800,
@@ -645,21 +645,21 @@
     },
     "fleschKincaidGrade_3plusSentences": {
       "n": 602,
-      "p10": 4.79,
+      "p10": 4.77,
       "p25": 7.02,
       "p50": 9.03,
       "p75": 11.33,
       "p90": 13.47,
-      "mean": 9.16
+      "mean": 9.15
     },
     "fleschReadingEase_3plusSentences": {
       "n": 602,
       "p10": 32.38,
       "p25": 42.96,
-      "p50": 55.67,
-      "p75": 67.86,
-      "p90": 79.49,
-      "mean": 55.94
+      "p50": 55.32,
+      "p75": 67.93,
+      "p90": 79.81,
+      "mean": 55.96
     }
   },
   "transitionalEntropy": {
