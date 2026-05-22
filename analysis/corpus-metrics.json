@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-20T19:56:33.990Z",
+  "generatedAt": "2026-05-22T20:28:39.939Z",
   "corpus": {
-    "plateaus": 26,
-    "migratedPlateaus": 26,
-    "gestures": 776,
-    "words": 60821,
-    "sentences": 4151
+    "plateaus": 27,
+    "migratedPlateaus": 27,
+    "gestures": 797,
+    "words": 68117,
+    "sentences": 4507
   },
   "corpusReadability": {
-    "fleschReadingEase": 54.17,
-    "fleschKincaidGrade": 9.34,
-    "gunningFog": 12.93,
-    "smog": 12.32,
-    "colemanLiau": 10.73,
-    "automatedReadabilityIndex": 8.77,
-    "avgWordsPerSentence": 14.65,
-    "avgSyllablesPerWord": 1.63
+    "fleschReadingEase": 55.75,
+    "fleschKincaidGrade": 9.24,
+    "gunningFog": 12.78,
+    "smog": 12.24,
+    "colemanLiau": 10.39,
+    "automatedReadabilityIndex": 8.67,
+    "avgWordsPerSentence": 15.11,
+    "avgSyllablesPerWord": 1.6
   },
   "plateauMetrics": [
     {
@@ -525,6 +525,28 @@
       "structuralEntropyNorm": 0.77
     },
     {
+      "id": "P-OA",
+      "slug": "orgone-accumulator",
+      "title": "The Orgone Accumulator",
+      "gestureCount": 21,
+      "words": 7296,
+      "sentences": 356,
+      "avgWordsPerSentence": 20.49,
+      "avgSyllablesPerWord": 1.4,
+      "fleschReadingEase": 67.34,
+      "fleschKincaidGrade": 8.96,
+      "gunningFog": 12.12,
+      "colemanLiau": 7.5,
+      "automatedReadabilityIndex": 8.64,
+      "smog": 11.23,
+      "smogReliable": true,
+      "lexicalEntropy": 8.41,
+      "typeTokenRatio": 0.21,
+      "meanGestureWords": 347.43,
+      "stdGestureWords": 148.48,
+      "structuralEntropyNorm": 0.7
+    },
+    {
       "id": "P-PR",
       "slug": "prologue",
       "title": "Prologue: Look Up",
@@ -592,65 +614,65 @@
     }
   ],
   "gestureDistributions": {
-    "count": 776,
-    "readableCount": 578,
+    "count": 797,
+    "readableCount": 599,
     "wordCount": {
-      "n": 776,
+      "n": 797,
       "p10": 10,
-      "p25": 29,
-      "p50": 64,
-      "p75": 101,
-      "p90": 157,
-      "mean": 78.38
+      "p25": 32,
+      "p50": 66,
+      "p75": 105,
+      "p90": 177,
+      "mean": 85.47
     },
     "lexicalEntropy": {
-      "n": 776,
-      "p10": 3.08,
-      "p25": 4.45,
-      "p50": 5.33,
-      "p75": 5.8,
-      "p90": 6.29,
-      "mean": 5.01
+      "n": 797,
+      "p10": 3.12,
+      "p25": 4.56,
+      "p50": 5.34,
+      "p75": 5.84,
+      "p90": 6.43,
+      "mean": 5.05
     },
     "typeTokenRatio": {
-      "n": 776,
-      "p10": 0.61,
-      "p25": 0.68,
+      "n": 797,
+      "p10": 0.6,
+      "p25": 0.67,
       "p50": 0.74,
-      "p75": 0.82,
-      "p90": 0.95,
-      "mean": 0.76
+      "p75": 0.81,
+      "p90": 0.94,
+      "mean": 0.75
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 578,
-      "p10": 4.76,
-      "p25": 6.94,
-      "p50": 9.01,
-      "p75": 11.38,
-      "p90": 13.77,
-      "mean": 9.17
+      "n": 599,
+      "p10": 4.77,
+      "p25": 6.97,
+      "p50": 9.03,
+      "p75": 11.33,
+      "p90": 13.47,
+      "mean": 9.15
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 578,
-      "p10": 31.64,
-      "p25": 42.34,
-      "p50": 54.88,
-      "p75": 67.43,
-      "p90": 79.49,
-      "mean": 55.46
+      "n": 599,
+      "p10": 32.09,
+      "p25": 42.96,
+      "p50": 55.67,
+      "p75": 67.86,
+      "p90": 79.81,
+      "mean": 55.93
     }
   },
   "transitionalEntropy": {
-    "total": 750,
-    "reliable": 164,
+    "total": 770,
+    "reliable": 177,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
   },
   "conceptSpine": [
     {
       "term": "Norfolk",
-      "total": 29,
-      "plateaus": 11,
+      "total": 30,
+      "plateaus": 12,
       "dispersionNorm": 0.9
     },
     {
@@ -660,10 +682,28 @@
       "dispersionNorm": 0.92
     },
     {
+      "term": "United",
+      "total": 13,
+      "plateaus": 7,
+      "dispersionNorm": 0.93
+    },
+    {
+      "term": "States",
+      "total": 13,
+      "plateaus": 7,
+      "dispersionNorm": 0.93
+    },
+    {
       "term": "Valencia",
       "total": 11,
       "plateaus": 7,
       "dispersionNorm": 0.91
+    },
+    {
+      "term": "America",
+      "total": 9,
+      "plateaus": 7,
+      "dispersionNorm": 0.97
     },
     {
       "term": "Hardt",
@@ -672,28 +712,10 @@
       "dispersionNorm": 0.97
     },
     {
-      "term": "United",
-      "total": 12,
-      "plateaus": 6,
-      "dispersionNorm": 0.93
-    },
-    {
-      "term": "States",
-      "total": 12,
-      "plateaus": 6,
-      "dispersionNorm": 0.93
-    },
-    {
       "term": "Virginia",
       "total": 10,
       "plateaus": 6,
       "dispersionNorm": 0.92
-    },
-    {
-      "term": "America",
-      "total": 8,
-      "plateaus": 6,
-      "dispersionNorm": 0.97
     },
     {
       "term": "Enclosure",
@@ -738,6 +760,12 @@
       "dispersionNorm": 0.97
     },
     {
+      "term": "Which",
+      "total": 6,
+      "plateaus": 5,
+      "dispersionNorm": 0.97
+    },
+    {
       "term": "Simondon",
       "total": 6,
       "plateaus": 5,
@@ -748,6 +776,12 @@
     {
       "term": "Lumumba",
       "total": 10,
+      "plateaus": 1,
+      "dispersionNorm": 0
+    },
+    {
+      "term": "Reich",
+      "total": 25,
       "plateaus": 1,
       "dispersionNorm": 0
     },
