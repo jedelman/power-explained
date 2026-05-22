@@ -3,11 +3,26 @@ id: G-GC-015
 plateau: P-GC
 title: What I eventually saw — after
 slug: what-i-eventually-saw-after
+
 tags:
   - plateau/P-GC
   - voice/jason
+  - kind/argument
+  - kind/turn
+  - capacity/name
+  - capacity/read
   - status/draft
+  - concept/production-of-subjectivity
+  - zone/high-ridges
+  - direction/n
+
+beauty_check:
+  passed: false
+  notes: |
+    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+
 notes: |-
+  "Authoritarian mode of perception." The structural diagnosis of why autonomy failed.
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.

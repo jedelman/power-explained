@@ -3,17 +3,27 @@ id: G-GC-032
 plateau: P-GC
 title: 'Now ask: what is the name'
 slug: now-ask-what-is-the-name
+
 tags:
   - plateau/P-GC
   - voice/jason
+  - kind/argument
+  - capacity/name
   - status/draft
-notes: >-
+  - concept/hegemony
+  - concept/production-of-subjectivity
+  - concept/the-outside
+  - zone/high-ridges
+  - direction/n
+
+beauty_check:
+  passed: false
+  notes: |
+    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+
+notes: |-
+  Merged G-GC-033 on 2026-05-20. Applies the three names to the somatic experience.
   First-pass paragraph-split (mechanical). Title and slug derived
-
-  from leading words; tags are minimal-lint-clean. Subdivision or
-
-  merging with adjacent gestures is expected on plateau-level revision. [merged G-GC-033 on
-  2026-05-20]
 ---
 Now ask: what is the name for what produced this?
 

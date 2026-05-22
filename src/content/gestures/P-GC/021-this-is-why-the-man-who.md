@@ -3,11 +3,27 @@ id: G-GC-021
 plateau: P-GC
 title: This is why the man who
 slug: this-is-why-the-man-who
+
 tags:
   - plateau/P-GC
   - voice/jason
+  - kind/scene
+  - kind/argument
+  - capacity/name
+  - capacity/read
   - status/draft
+  - person/fanon
+  - concept/hegemony
+  - zone/high-ridges
+  - direction/n
+
+beauty_check:
+  passed: false
+  notes: |
+    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+
 notes: |-
+  Fanon's French officer who wanted his nerves back. VERIFY: The Wretched of the Earth, colonial war and mental disorders section.
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
