@@ -3,11 +3,27 @@ id: G-GC-003
 plateau: P-GC
 title: Every tradition has its version of
 slug: every-tradition-has-its-version-of
+
 tags:
   - plateau/P-GC
   - voice/jason
+  - kind/recovery
+  - kind/naming
+  - capacity/name
+  - capacity/read
   - status/draft
+  - person/freire
+  - concept/conscientização
+  - zone/high-ridges
+  - direction/ne
+
+beauty_check:
+  passed: false
+  notes: |
+    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+
 notes: |-
+  Freire as the political version of the grimoire tradition. VERIFY quote ("The word is not the privilege of some few men"): Pedagogy of the Oppressed.
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.

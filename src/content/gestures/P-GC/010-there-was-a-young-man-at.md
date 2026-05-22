@@ -3,11 +3,23 @@ id: G-GC-010
 plateau: P-GC
 title: There was a young man at
 slug: there-was-a-young-man-at
+
 tags:
   - plateau/P-GC
   - voice/jason
+  - kind/scene
+  - capacity/read
   - status/draft
+  - zone/high-ridges
+  - direction/nw
+
+beauty_check:
+  passed: false
+  notes: |
+    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+
 notes: |-
+  The young man at the restaurant. Opening of the case study. Identity withheld by design.
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
