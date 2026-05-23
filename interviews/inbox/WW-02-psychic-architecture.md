@@ -13,7 +13,7 @@ for others to inhabit and manipulation? You said ethically fraught —
 what specifically makes it fraught? Is it the asymmetry of information?
 The fact that they don't know it's happening? Something else?
 
-The asymmetric nature of architecture is exactly what makes it ethically challenging. I'd 
+The asymmetric nature of architecture is exactly what makes it ethically challenging. I'd rather have people participate with full consent, but in the case of knowledge that transforms you, you can't consent to it without being changed by it. That's one reason community is helpful, because you can see other people proceeding down their own paths and make decisions for yourself based on that.
 
 >**2.** What's the difference between the psychic architecture
 you were doing in the woods (easy mode, as you called it) and
@@ -22,5 +22,5 @@ You said the woods was easy because the frame was established —
 the guide creates the aura. What does the hard version feel like?
 What is the architecture you're building when you don't have the frame?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjE3MDA0M119
+eyJoaXN0b3J5IjpbLTQxNzQxNDA0OV19
 -->
