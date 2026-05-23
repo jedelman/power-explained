@@ -33,4 +33,4 @@ notes: |-
   properly takes generations. That's a big part of why I'm writing
   this book." Load-bearing meta-claim about the book's purpose.
 ---
-The next thing I attempted to do was to interrupt its production, introducing ideas and perspectives to friends that were incompatible with the hegemonic idea. But what I didn't expect was for those friends to shrug. Here I was with what seemed to me like a master key. We can produce our own subjectivity! We can use a combination of thought, action, and reflection to remake our historical situation at a small but expanding scale! How cool is that? And it just didn't land for anyone. I thought I was a bad communicator, but I realize that I was attempting to one-shot a task that properly takes generations. That's a big part of why I'm writing this book.
+I tried to interrupt its production. Introduced ideas incompatible with the frame, handed my friends a different lens. They shrugged. I had what seemed like a master key, and it didn't open anything. I thought I was a bad communicator. What I was, was impatient. This task takes generations. That is a significant part of why I'm writing this book.

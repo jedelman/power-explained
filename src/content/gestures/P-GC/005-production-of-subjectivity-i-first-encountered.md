@@ -30,4 +30,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-*Production of subjectivity.* I first encountered this phrase in Hardt and Negri's *Commonwealth*, in May 2020, two months after the world had rearranged itself into something unrecognizable. The phrase grabbed hold of my mind and wouldn't let go. I had the answer before I had the question. It would take five more years — and a restaurant — to understand what I had been handed.
+*Production of subjectivity.* Hardt and Negri's name. I first encountered it in *Commonwealth*, in May 2020, two months after the world had rearranged itself into something unrecognizable. The phrase grabbed hold of my mind and wouldn't let go. I had the answer before I had the question. It would take five more years — and a restaurant — to understand what I had been handed.

@@ -33,4 +33,6 @@ notes: |-
   (blamed for outcomes), Right has mandate-but-no-agency (entitled
   without responsibility). The shape of hegemony in its production.
 ---
-I didn't interrupt the conversation — I let it flow. But I could hear between our words the autonomous processes, the interaction between experience and interpretation, that consistently reinforced the ruling class perspective — that the middle class and the Left have no political legitimacy or mandate to govern, but they have agency, so they must be blamed for all outcomes, meanwhile the Right has the mandate and no agency, so they can't be held responsible for any outcomes but are entitled to effect it. I saw it being made.
+I let it run. Between the words, I could hear the shapes of who carried responsibility and who held authority — and how those assignments weren't coming from the argument. They were already there. Produced before anyone walked in. Something outside the room had written the script.
+
+I saw it being made.

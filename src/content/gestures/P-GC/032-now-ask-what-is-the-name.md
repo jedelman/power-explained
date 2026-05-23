@@ -27,4 +27,4 @@ notes: |-
 ---
 Now ask: what is the name for what produced this?
 
-It may be hegemony — the common sense that made your objection seem impolite, disruptive, beside the point. It may be the production of subjectivity — the training that told you that your role was to participate, not to shape. It may be something from the Outside category: care labor you were doing invisibly, attention that was being extracted without acknowledgment, creativity that the system was consuming without compensating.
+It may be hegemony — the common sense that made your objection seem impolite, disruptive, beside the point. It may be the production of subjectivity — the training that told you your role was to participate, not to shape. It may be biopower — the apparatus that made staying inside the frame feel like good sense, and stepping outside it feel like exposure. It may be the outside: care labor you were doing invisibly, attention extracted without acknowledgment, creativity consumed without compensation.

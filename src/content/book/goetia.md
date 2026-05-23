@@ -1,8 +1,8 @@
 ---
 slug: goetia
-title: "The Goetia of Capital"
+title: "The Speaking of Names"
 description: "Four names for what you're up against — production of subjectivity, biopower, hegemony, the outside — and one for what you're building with. The grimoire is the book you are holding."
-h1: "The Goetia of Capital"
+h1: "The Speaking of Names"
 part: "Part II: The Proof"
 type: initiation
 order: 4.5
@@ -330,6 +330,7 @@ gestures:
   - G-GC-046
   - G-GC-047
   - G-GC-048
+  - G-GC-049    # Solidarity — connection's political name. The spell completed.
 
 separators:
   - paragraph     # 001 → 002
@@ -380,4 +381,5 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - paragraph    # 048 → 049 (the solidarity reveal)
 ---

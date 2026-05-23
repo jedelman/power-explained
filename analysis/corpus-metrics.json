@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-22T23:13:18.751Z",
+  "generatedAt": "2026-05-23T00:43:46.337Z",
   "corpus": {
     "plateaus": 27,
     "migratedPlateaus": 27,
-    "gestures": 806,
-    "words": 69311,
-    "sentences": 4614
+    "gestures": 807,
+    "words": 69153,
+    "sentences": 4626
   },
   "corpusReadability": {
-    "fleschReadingEase": 55.97,
-    "fleschKincaidGrade": 9.19,
-    "gunningFog": 12.72,
-    "smog": 12.2,
-    "colemanLiau": 10.35,
-    "automatedReadabilityIndex": 8.61,
-    "avgWordsPerSentence": 15.02,
+    "fleschReadingEase": 55.98,
+    "fleschKincaidGrade": 9.17,
+    "gunningFog": 12.7,
+    "smog": 12.18,
+    "colemanLiau": 10.36,
+    "automatedReadabilityIndex": 8.58,
+    "avgWordsPerSentence": 14.95,
     "avgSyllablesPerWord": 1.6
   },
   "plateauMetrics": [
@@ -461,24 +461,24 @@
     {
       "id": "P-GC",
       "slug": "goetia",
-      "title": "The Goetia of Capital",
-      "gestureCount": 49,
-      "words": 3162,
-      "sentences": 287,
-      "avgWordsPerSentence": 11.02,
-      "avgSyllablesPerWord": 1.52,
-      "fleschReadingEase": 66.93,
-      "fleschKincaidGrade": 6.66,
-      "gunningFog": 10.24,
+      "title": "The Speaking of Names",
+      "gestureCount": 50,
+      "words": 3004,
+      "sentences": 299,
+      "avgWordsPerSentence": 10.05,
+      "avgSyllablesPerWord": 1.53,
+      "fleschReadingEase": 66.84,
+      "fleschKincaidGrade": 6.43,
+      "gunningFog": 9.94,
       "colemanLiau": 8.47,
-      "automatedReadabilityIndex": 5.67,
-      "smog": 10.37,
+      "automatedReadabilityIndex": 5.4,
+      "smog": 10.1,
       "smogReliable": true,
-      "lexicalEntropy": 8.28,
-      "typeTokenRatio": 0.3,
-      "meanGestureWords": 64.53,
-      "stdGestureWords": 53.22,
-      "structuralEntropyNorm": 0.85
+      "lexicalEntropy": 8.23,
+      "typeTokenRatio": 0.31,
+      "meanGestureWords": 60.08,
+      "stdGestureWords": 42.54,
+      "structuralEntropyNorm": 0.86
     },
     {
       "id": "P-IB",
@@ -614,28 +614,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 806,
-    "readableCount": 608,
+    "count": 807,
+    "readableCount": 610,
     "wordCount": {
-      "n": 806,
+      "n": 807,
       "p10": 10,
       "p25": 33,
       "p50": 67,
-      "p75": 107,
+      "p75": 105,
       "p90": 177,
-      "mean": 85.99
+      "mean": 85.69
     },
     "lexicalEntropy": {
-      "n": 806,
+      "n": 807,
       "p10": 3.15,
       "p25": 4.56,
       "p50": 5.35,
-      "p75": 5.85,
+      "p75": 5.84,
       "p90": 6.43,
       "mean": 5.06
     },
     "typeTokenRatio": {
-      "n": 806,
+      "n": 807,
       "p10": 0.6,
       "p25": 0.67,
       "p50": 0.74,
@@ -644,27 +644,27 @@
       "mean": 0.75
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 608,
+      "n": 610,
       "p10": 4.76,
-      "p25": 6.93,
-      "p50": 8.99,
-      "p75": 11.33,
-      "p90": 13.47,
-      "mean": 9.12
+      "p25": 6.89,
+      "p50": 8.92,
+      "p75": 11.3,
+      "p90": 13.46,
+      "mean": 9.09
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 608,
+      "n": 610,
       "p10": 32.38,
-      "p25": 43.01,
-      "p50": 55.74,
-      "p75": 68.07,
+      "p25": 43.18,
+      "p50": 55.82,
+      "p75": 67.93,
       "p90": 79.99,
-      "mean": 56.05
+      "mean": 56.11
     }
   },
   "transitionalEntropy": {
-    "total": 779,
-    "reliable": 180,
+    "total": 780,
+    "reliable": 182,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
   },
