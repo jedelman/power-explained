@@ -29,4 +29,6 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-*The outside.* Luxemburg gave us this one, and we'll follow her argument fully in the next chapter. For now: the machine needs an outside. It needs territory that exists beyond its own accounting — places, people, commons where value can be taken without full payment. This is not the excess of the system. It is the mechanism.
+*The outside.* Luxemburg's name. The territory beyond the accounting. The bouncer at the door and the kidnapper in the alley: keeps certain people and certain forms of existence apart, and moves to separate them when they find each other.
+
+The machine needs an outside. It needs territory that exists beyond its own accounting — places, people, commons where value can be taken without full payment. This is not the excess of the system. It is the mechanism. We will follow Luxemburg's argument fully in the next chapter.

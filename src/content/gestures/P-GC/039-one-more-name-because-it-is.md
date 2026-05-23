@@ -26,4 +26,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-One more name, because it is the one I came to last and needed most.
+One more name. The one I came to last, and needed first.

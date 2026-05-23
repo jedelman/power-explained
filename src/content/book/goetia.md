@@ -1,8 +1,8 @@
 ---
 slug: goetia
-title: "The Goetia of Capital"
+title: "The Speaking of Names"
 description: "Four names for what you're up against — production of subjectivity, biopower, hegemony, the outside — and one for what you're building with. The grimoire is the book you are holding."
-h1: "The Goetia of Capital"
+h1: "The Speaking of Names"
 part: "Part II: The Proof"
 type: initiation
 order: 4.5
