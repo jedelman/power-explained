@@ -15,7 +15,7 @@ tags:
   - concept/burnout
   - concept/character-armor
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     Split out of the OA-01 reshape 2026-05-20. The lesson, in Jason's
     voice: the floor is often full of life and light; cannabis helped
@@ -26,6 +26,7 @@ beauty_check:
     (OA-02) and the HOLD capacity. Ends on the corrected armor/strength
     line. Cannabis stated plainly per Jason, no euphemism, no wellness
     framing.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   The chapter's hinge gesture. Direction NW (the seat). The floor is
   not only refusal — underneath the refusal is a person who, for the

@@ -11,6 +11,10 @@ tags:
   - status/draft
   - direction/ne
   - zone/second-growth
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Praise-first opening. Per architecture: every plateau opens with what
   is loved before what is threatened. The body that can still feel is

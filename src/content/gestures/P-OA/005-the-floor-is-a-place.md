@@ -12,6 +12,10 @@ tags:
   - direction/nw
   - zone/second-growth
   - concept/burnout
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   OA-01 ANSWERED by Jason 2026-05-20 (committed to inbox, pulled
   mid-session) and threaded here in his voice: inert, crying,

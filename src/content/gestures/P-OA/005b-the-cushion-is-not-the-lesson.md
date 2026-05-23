@@ -15,7 +15,7 @@ tags:
   - concept/burnout
   - place/seattle
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     Split out of the OA-01 reshape 2026-05-20. This is the honesty
     gesture — refuses to sell the floor as universally available. A
@@ -24,6 +24,7 @@ beauty_check:
     not medical emergency; 2015 Seattle not 2020 Norfolk). Keeps the
     chapter from being a privilege narrative dressed as universal
     wisdom. Load-bearing for credibility.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Sits between G-OA-005 (the floor's texture) and G-OA-005c (the
   lesson). Direction NW. The move: name the privilege, then locate the

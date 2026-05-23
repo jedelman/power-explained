@@ -19,7 +19,7 @@ tags:
   - direction/n
   - zone/second-growth
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     New gesture 2026-05-20 per Jason's editorial direction. Reich was
     Freud's heir-apparent in reputation before the break (CAVEAT: never
@@ -46,6 +46,7 @@ beauty_check:
     position (encyclopedianomadica). Use Mussolini detail with care —
     it's documented but inflammatory; kept because it's the cleanest
     proof of where the founder's sympathies pointed.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Sits after G-OA-003 (Reich names the armor) and before G-OA-002 (the
   box, the price). Direction N — the cold clarity of the break. This is

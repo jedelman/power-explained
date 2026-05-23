@@ -14,6 +14,10 @@ tags:
   - concept/character-armor
   - direction/n
   - zone/second-growth
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   The load-bearing argument of the chapter. Reich's body-armor thesis,
   stated plainly. Connects to the yoga/vritti thread already established

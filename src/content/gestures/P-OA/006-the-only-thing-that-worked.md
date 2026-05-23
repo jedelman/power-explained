@@ -12,6 +12,10 @@ tags:
   - direction/e
   - zone/second-growth
   - concept/community
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   On record (synthesis.md): "The only thing that got him up: going to
   the woods, in community. Applied to the wilderness program while on

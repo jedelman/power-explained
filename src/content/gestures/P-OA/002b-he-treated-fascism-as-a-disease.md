@@ -20,7 +20,7 @@ tags:
   - direction/n
   - zone/second-growth
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     New gesture added 2026-05-20 per Jason's editorial direction:
     "Reich cured Nazis. He fought Nazism by diagnosing it as a disease
@@ -34,6 +34,7 @@ beauty_check:
     Denmark and Norway — Reich's own words in the book's preface;
     "Workers Democracy" as his proposed alternative). See chapter
     fact_check_status.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Bridges the box (G-OA-002) to the character-armor argument
   (G-OA-003). Direction N — the cold midnight of the diagnosis.

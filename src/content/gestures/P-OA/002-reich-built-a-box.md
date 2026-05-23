@@ -14,6 +14,10 @@ tags:
   - concept/orgone
   - direction/n
   - zone/second-growth
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Names the chapter's title image plainly and does not flinch from how
   it ends — Reich died in federal prison, his books burned by the FDA.
