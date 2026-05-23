@@ -16,7 +16,7 @@ I didn't have enough to work with.
 Where, when, what you had read or learned just before,
 the first sighting, and then what changed after.
 
-The muskrats showing up wasn't planned. We had known they were there for years - we're trackers after all - but we just hadn't laid eyes on them. And then one day, when the water was low, we saw a chunky little body shuffling and snuffling around amongst old oyster shells.
+The muskrats showing up wasn't planned. We had known they were there for years - we're trackers after all - but we just hadn't laid eyes on them. And then one day, when the water was low, I saw a sheen out of the corner of my eye, turned instinctively, and we saw a chunky little body shuffling and snuffling around amongst old oyster shells. The glossy sheen of its coat reminded me of otter but it was too small, round, and waddly. We knew immediately it was a muskrat. And we just stopped. Stopped our walk and our conversation - which was light enough to let in a muskrat anyway - and just blissfully enjoyed finally seeing this little creature in broad daylight. People with busy minds 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODczNTE4NF19
+eyJoaXN0b3J5IjpbLTIyOTA4MzU1M119
 -->
