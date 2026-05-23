@@ -1,23 +1,45 @@
 {
-  "generatedAt": "2026-05-23T00:43:46.337Z",
+  "generatedAt": "2026-05-23T16:21:32.747Z",
   "corpus": {
-    "plateaus": 27,
-    "migratedPlateaus": 27,
-    "gestures": 807,
-    "words": 69153,
-    "sentences": 4626
+    "plateaus": 28,
+    "migratedPlateaus": 28,
+    "gestures": 876,
+    "words": 73718,
+    "sentences": 4967
   },
   "corpusReadability": {
-    "fleschReadingEase": 55.98,
-    "fleschKincaidGrade": 9.17,
-    "gunningFog": 12.7,
-    "smog": 12.18,
-    "colemanLiau": 10.36,
-    "automatedReadabilityIndex": 8.58,
-    "avgWordsPerSentence": 14.95,
-    "avgSyllablesPerWord": 1.6
+    "fleschReadingEase": 56.97,
+    "fleschKincaidGrade": 9,
+    "gunningFog": 12.49,
+    "smog": 12.04,
+    "colemanLiau": 10.19,
+    "automatedReadabilityIndex": 8.41,
+    "avgWordsPerSentence": 14.84,
+    "avgSyllablesPerWord": 1.59
   },
   "plateauMetrics": [
+    {
+      "id": "P-AB",
+      "slug": "angel-faces-backward",
+      "title": "The Angel Faces Backward",
+      "gestureCount": 69,
+      "words": 4625,
+      "sentences": 343,
+      "avgWordsPerSentence": 13.48,
+      "avgSyllablesPerWord": 1.44,
+      "fleschReadingEase": 71.69,
+      "fleschKincaidGrade": 6.61,
+      "gunningFog": 9.43,
+      "colemanLiau": 7.69,
+      "automatedReadabilityIndex": 5.89,
+      "smog": 9.79,
+      "smogReliable": true,
+      "lexicalEntropy": 8.38,
+      "typeTokenRatio": 0.27,
+      "meanGestureWords": 67.03,
+      "stdGestureWords": 42.79,
+      "structuralEntropyNorm": 0.94
+    },
     {
       "id": "P-01",
       "slug": "chapter-1",
@@ -463,21 +485,21 @@
       "slug": "goetia",
       "title": "The Speaking of Names",
       "gestureCount": 50,
-      "words": 3004,
-      "sentences": 299,
-      "avgWordsPerSentence": 10.05,
+      "words": 2944,
+      "sentences": 297,
+      "avgWordsPerSentence": 9.91,
       "avgSyllablesPerWord": 1.53,
-      "fleschReadingEase": 66.84,
-      "fleschKincaidGrade": 6.43,
-      "gunningFog": 9.94,
-      "colemanLiau": 8.47,
-      "automatedReadabilityIndex": 5.4,
-      "smog": 10.1,
+      "fleschReadingEase": 66.97,
+      "fleschKincaidGrade": 6.38,
+      "gunningFog": 9.88,
+      "colemanLiau": 8.44,
+      "automatedReadabilityIndex": 5.34,
+      "smog": 10.04,
       "smogReliable": true,
-      "lexicalEntropy": 8.23,
+      "lexicalEntropy": 8.21,
       "typeTokenRatio": 0.31,
-      "meanGestureWords": 60.08,
-      "stdGestureWords": 42.54,
+      "meanGestureWords": 58.88,
+      "stdGestureWords": 42.39,
       "structuralEntropyNorm": 0.86
     },
     {
@@ -614,72 +636,78 @@
     }
   ],
   "gestureDistributions": {
-    "count": 807,
-    "readableCount": 610,
+    "count": 876,
+    "readableCount": 662,
     "wordCount": {
-      "n": 807,
+      "n": 876,
       "p10": 10,
-      "p25": 33,
+      "p25": 32,
       "p50": 67,
-      "p75": 105,
-      "p90": 177,
-      "mean": 85.69
+      "p75": 104,
+      "p90": 172,
+      "mean": 84.15
     },
     "lexicalEntropy": {
-      "n": 807,
-      "p10": 3.15,
-      "p25": 4.56,
-      "p50": 5.35,
-      "p75": 5.84,
-      "p90": 6.43,
-      "mean": 5.06
+      "n": 876,
+      "p10": 3.12,
+      "p25": 4.5,
+      "p50": 5.34,
+      "p75": 5.82,
+      "p90": 6.35,
+      "mean": 5.04
     },
     "typeTokenRatio": {
-      "n": 807,
+      "n": 876,
       "p10": 0.6,
       "p25": 0.67,
-      "p50": 0.74,
+      "p50": 0.73,
       "p75": 0.81,
       "p90": 0.94,
       "mean": 0.75
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 610,
-      "p10": 4.76,
-      "p25": 6.89,
-      "p50": 8.92,
-      "p75": 11.3,
-      "p90": 13.46,
-      "mean": 9.09
+      "n": 662,
+      "p10": 4.61,
+      "p25": 6.65,
+      "p50": 8.72,
+      "p75": 11.17,
+      "p90": 13.38,
+      "mean": 8.91
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 610,
-      "p10": 32.38,
-      "p25": 43.18,
-      "p50": 55.82,
-      "p75": 67.93,
-      "p90": 79.99,
-      "mean": 56.11
+      "n": 662,
+      "p10": 33.76,
+      "p25": 44.14,
+      "p50": 57.63,
+      "p75": 69.16,
+      "p90": 80.53,
+      "mean": 57.31
     }
   },
   "transitionalEntropy": {
-    "total": 780,
-    "reliable": 182,
+    "total": 848,
+    "reliable": 194,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
   },
   "conceptSpine": [
     {
       "term": "Norfolk",
-      "total": 30,
-      "plateaus": 12,
+      "total": 31,
+      "plateaus": 13,
       "dispersionNorm": 0.9
     },
     {
       "term": "Europe",
-      "total": 12,
-      "plateaus": 8,
+      "total": 13,
+      "plateaus": 9,
       "dispersionNorm": 0.92
+    },
+    {
+      "term": "Hardt",
+      "total": 10,
+      "plateaus": 8,
+      "dispersionNorm": 0.97
     },
     {
       "term": "United",
@@ -706,16 +734,22 @@
       "dispersionNorm": 0.97
     },
     {
-      "term": "Hardt",
-      "total": 9,
-      "plateaus": 7,
-      "dispersionNorm": 0.97
-    },
-    {
       "term": "Virginia",
       "total": 10,
       "plateaus": 6,
       "dispersionNorm": 0.92
+    },
+    {
+      "term": "Deleuze",
+      "total": 8,
+      "plateaus": 6,
+      "dispersionNorm": 0.97
+    },
+    {
+      "term": "Washington",
+      "total": 8,
+      "plateaus": 6,
+      "dispersionNorm": 0.97
     },
     {
       "term": "Enclosure",
@@ -754,18 +788,6 @@
       "dispersionNorm": 0.93
     },
     {
-      "term": "Deleuze",
-      "total": 7,
-      "plateaus": 5,
-      "dispersionNorm": 0.96
-    },
-    {
-      "term": "Washington",
-      "total": 7,
-      "plateaus": 5,
-      "dispersionNorm": 0.96
-    },
-    {
       "term": "London",
       "total": 6,
       "plateaus": 5,
@@ -784,6 +806,12 @@
       "dispersionNorm": 0.97
     },
     {
+      "term": "Seattle",
+      "total": 5,
+      "plateaus": 5,
+      "dispersionNorm": 1
+    },
+    {
       "term": "Think",
       "total": 5,
       "plateaus": 5,
@@ -794,6 +822,12 @@
     {
       "term": "Lumumba",
       "total": 10,
+      "plateaus": 1,
+      "dispersionNorm": 0
+    },
+    {
+      "term": "Benjamin",
+      "total": 17,
       "plateaus": 1,
       "dispersionNorm": 0
     },

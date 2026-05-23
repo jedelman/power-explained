@@ -18,7 +18,7 @@ tags:
   - direction/nw
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: The failed-interruption beat + the meta-claim about
     why this book exists. Verbatim from inbox GT-01 (paragraph 4).
@@ -26,6 +26,8 @@ beauty_check:
     G-GC-034 ("The name will not fix it"). The shrug here is a cousin
     of P-OA's concept/the-shrug — apathy/can't-act-on-it rather than
     the dominated-posture sense, but the resonance is intentional.
+    2026-05-23: Beauty pass — confirmed. "What I was, was impatient" is
+    the gesture's load-bearing beat.
 
 notes: |-
   Inbox GT-01 woven 2026-05-22. The first attempt to use the master

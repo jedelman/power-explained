@@ -18,14 +18,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Demonological frame held all
+    the way through ("traced the seal of hegemony"). VERIFY (Prison
+    Notebooks) on fact-check track.
 
 notes: |-
   Gramsci in prison as worked example. VERIFY: Prison Notebooks as the specific reference.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 And this is what Gramsci did from his prison cell — built a map of the structures that felt like nature, named the mechanism of consent, traced the seal of hegemony so that anyone who read the notebooks could see it operating in their own experience.

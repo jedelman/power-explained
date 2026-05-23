@@ -14,14 +14,14 @@ tags:
   - direction/nw
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. The "I will not describe him
+    closely enough to identify him" + "here is someone who will respond
+    to what I actually know how to do" sets the scene and the trap.
 
 notes: |-
   The young man at the restaurant. Opening of the case study. Identity withheld by design.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 There was a young man at the restaurant. I will not describe him closely enough to identify him. He was intelligent — genuinely, visibly, the kind of intelligence that makes you want to teach. He was motivated. He was an artist, self-taught, with a real gift. I thought: here is someone who will respond to what I actually know how to do.

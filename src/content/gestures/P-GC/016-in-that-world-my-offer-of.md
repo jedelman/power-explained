@@ -18,13 +18,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. "Not liberation. It was abandonment."
+    plus "It had educated him completely — for itself." carry the gesture.
 
 notes: |-
   Merged G-GC-017 on 2026-05-20. "My offer of autonomy was not liberation. It was abandonment." The permission structure as the problem.
-  First-pass paragraph-split (mechanical). Title and slug derived
 ---
 In that world, my offer of autonomy was not liberation. It was abandonment. The freedom I was extending was not recognizable as freedom because it had no authority behind it. Nobody had sanctioned it. Nobody had told him this was the correct thing to want. And without that sanction, the wanting couldn't quite activate.
 

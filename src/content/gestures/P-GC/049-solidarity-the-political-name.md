@@ -19,7 +19,7 @@ tags:
   - direction/e
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-23: The chapter's closing ceremonial act. Connection's political
     name spoken last. Four-beat arrival matches Refrain A: name, attribution
@@ -27,6 +27,8 @@ beauty_check:
     (working people have always used it), signature image (the one act the
     demons have never administered). Lands on Refrain B's terminal seeing
     and Refrain C's terminal speaking simultaneously. The spell completed.
+    2026-05-23: Beauty pass — confirmed. Four-beat close. The chapter
+    closes here.
 
 notes: |-
   The reveal. Connection is the intimate name; solidarity is the political

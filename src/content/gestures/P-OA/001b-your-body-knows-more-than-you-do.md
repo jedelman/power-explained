@@ -15,7 +15,7 @@ tags:
   - zone/second-growth
   - concept/character-armor
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     Added 2026-05-20 per Jason's editorial direction: reverse the
     chronology. Start in the READER'S body as point of departure, name
@@ -23,6 +23,7 @@ beauty_check:
     THEN bring in Reich. "Your body knows more than you do — let's name
     it so we can work with it." Explicit callback to P-GC (NAME). This
     is the body-before-Reich gesture.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   The naming move. Direction NE (the eastern light, the entry, before
   the descent). Hands off to G-OA-002 (Reich), who is now introduced as

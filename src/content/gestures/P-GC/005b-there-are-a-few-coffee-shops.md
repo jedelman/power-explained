@@ -18,12 +18,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Scene of arrival, woven from inbox GT-01. The salon
     culture + the meta-awareness moment / "I could see the jackboot."
     First paragraph is setting; second paragraph is the diagnostic
     landing. Verbatim from Jason's GT-01 answer.
+    2026-05-23: Beauty pass — confirmed. "I wasn't talking about production
+    of subjectivity. I was watching it happen." earns the section.
 
 notes: |-
   Inbox GT-01 woven 2026-05-22. The scene of arrival. Where Jason

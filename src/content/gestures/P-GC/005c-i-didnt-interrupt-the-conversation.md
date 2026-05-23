@@ -18,7 +18,7 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: The diagnostic content of what Jason saw — the
     asymmetric inversion of agency and mandate. Verbatim from
@@ -26,6 +26,7 @@ beauty_check:
     VERIFY: the agency/mandate inversion is Jason's analytical
     framing; not yet sourced to a specific thinker but consistent
     with the chapter's hegemony argument.
+    2026-05-23: Beauty pass — confirmed. "I saw it being made" lands.
 
 notes: |-
   Inbox GT-01 woven 2026-05-22. "I saw it being made." The asymmetric-

@@ -15,14 +15,12 @@ tags:
   - direction/e
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Symmetric two-clause law.
 
 notes: |-
   "If it is there, honor it. If it is not there, nothing can fake it." The law of connection.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 If it is there, honor it. If it is not there, nothing can fake it.

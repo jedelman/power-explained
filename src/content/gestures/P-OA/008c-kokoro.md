@@ -17,7 +17,7 @@ tags:
   - concept/spirit
   - person/foucault
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     OA-03 resolution, Jason's voice. The hinge the discipline section
     was missing: the discipline that matters is NOT Foucault's physical
@@ -36,6 +36,7 @@ beauty_check:
     awake part) and the book's "come find us" terminus. This is where
     the chapter's three locations (dojo / floor / woods) become three
     doors to the same room.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Direction S, reaching toward ENTER. Sits after G-OA-008b. The
   resolution of the whole discipline section and a structural hinge for

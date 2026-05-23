@@ -19,14 +19,17 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Staccato of new outsides
+    (debt/attention/seed-code-genetic) into the Federici care-work close.
+    FLAG (not blocking): the close ("which was never paid for and therefore
+    never appeared in any economic analysis, and which Silvia Federici
+    spent her career making visible") is a long compound — could split if
+    you want more snap; reads cumulative-fine as-is.
 
 notes: |-
   Non-geographical outsides: debt, attention, seed/code/genetic info, care commons. VERIFY: Federici, Caliban and the Witch as canonical source.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 The outside is not always geographical. When the geographical frontier closes, the machine finds new ones. Debt. Attention. The privatization of seed and code and genetic information. The commons of care — the cooking, the nursing, the raising of children, the tending of the sick — which was never paid for and therefore never appeared in any economic analysis, and which Silvia Federici spent her career making visible.

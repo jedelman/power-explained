@@ -16,14 +16,14 @@ tags:
   - direction/e
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Via-negativa litany
+    (knowledge/discipline/correctness/excellence) returns to the affirmative
+    on "Connection." Earned by 039.
 
 notes: |-
   "Connection comes first. Every time." In italics. The fourth name.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 *Connection comes first.* Every time. Not knowledge. Not discipline. Not correctness. Not excellence. Connection.

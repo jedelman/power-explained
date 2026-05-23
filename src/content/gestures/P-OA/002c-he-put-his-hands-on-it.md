@@ -17,7 +17,7 @@ tags:
   - direction/n
   - zone/second-growth
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     Reich expansion 2026-05-20 (Jason: "add as much Reich as you want").
     The move the chapter was missing: Reich didn't just NAME the armor,
@@ -39,6 +39,7 @@ beauty_check:
     through an unarmored body — NOT a sex-technique claim). Facts:
     biodynamic.org, traditionalbodywork, rogermwilcox (skeptic source
     for the "not calming" detail), alchetron.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Sits after G-OA-002b (the political Reich) and before G-OA-004 (the
   floor). Direction N. The hinge from "what Reich saw" to "what Reich

@@ -14,6 +14,10 @@ tags:
   - direction/nw
   - zone/second-growth
   - concept/descent
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   Plotkin is the wizard figure (★) for this plateau per architecture map
   (returns later with Prechtel). Soulcraft / the descent: the floor was

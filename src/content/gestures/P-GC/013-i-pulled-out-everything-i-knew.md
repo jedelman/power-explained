@@ -15,14 +15,13 @@ tags:
   - direction/nw
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Staccato of attempts, ending
+    on "convinced the scaffold was the issue" sets up 014's pivot.
 
 notes: |-
   "I kept adjusting the scaffold, convinced the scaffold was the issue."
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 I pulled out everything I knew. Invented new approaches. Designed training structures I hadn't used before. Convinced myself I was solving an individual problem with an individual solution. I kept adjusting the scaffold, convinced the scaffold was the issue.

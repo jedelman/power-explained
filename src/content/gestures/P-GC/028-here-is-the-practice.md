@@ -15,14 +15,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — kept. Normally CLAUDE.md cuts "Here is..."
+    openers, but this is a kind/landing chapter-pivot, not a scaffolding
+    transition. The whole chapter turns from diagnosis to practice here.
 
 notes: |-
   Transition to practice section. Single line.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 Here is the practice.

@@ -19,15 +19,15 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. "The bouncer at the door and the
+    kidnapper in the alley" is the demonic image. "This is not the excess
+    of the system. It is the mechanism." holds the analytical move.
 
 notes: |-
   Third name introduced: the outside. Luxemburg. Forward pointer: "We'll follow her argument fully in the next chapter."
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 *The outside.* Luxemburg's name. The territory beyond the accounting. The bouncer at the door and the kidnapper in the alley: keeps certain people and certain forms of existence apart, and moves to separate them when they find each other.
 

@@ -2,9 +2,14 @@
 title: "The Angel Faces Backward"
 h1: "The Angel Faces Backward"
 part: "Part VI: What to Build"
-type: "initiation"
-description: "On Walter Benjamin's angel, aura, and the cedar chip from the Scar — a wizard's posture toward the wreckage, and the distributed work of defense."
+type: initiation
+description: >-
+  On Walter Benjamin's angel, aura, and the cedar chip from the Scar — a
+  wizard's posture toward the wreckage, and the distributed work of defense.
 order: 13.5
+plateau:
+  id: P-AB
+  status: draft
 ---
 
 Klee, 1920. Munich. *Angelus Novus*, ink and oil-transfer on paper, about thirty-two centimeters by twenty-four. The figure is an angel only by convention — eyes wide, mouth open, wings spread but unable to close. The face is turned to one side as if something has just arrived from off-canvas and the body cannot yet move toward it. The drawing is small enough to fit in a suitcase. Faintly comic, faintly tragic; one of the new angels of an interwar Europe that had begun to recognize what it had done to itself and could not yet name what was coming.

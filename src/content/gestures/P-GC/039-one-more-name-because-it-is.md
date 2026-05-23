@@ -16,7 +16,7 @@ tags:
   - direction/e
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-23: Expanded from one-liner to full confession. Jason's mentors
     (Sensei, yoga teachers, wilderness mentors) had connection first — before
@@ -24,6 +24,8 @@ beauty_check:
     load-bearing: voluntary teachers, unvarying, which makes their consistency
     meaningful. Connection came first (they always had it) and last (Jason
     finally arrived at it). The honesty is the brimstone here.
+    2026-05-23: Beauty pass — confirmed. Triplet (Sensei / yoga teachers /
+    wilderness mentors) into "waiting for me to come back" lands the turn.
 
 notes: |-
   The pivot to connection as the fifth name. The honest admission: mentors had

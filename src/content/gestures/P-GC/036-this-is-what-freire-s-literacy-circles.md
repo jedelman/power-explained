@@ -18,14 +18,13 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. The italicized litany
+    (*Peasant. Landlord. Wage. Debt.*) lands the worked example.
 
 notes: |-
   Freire's literacy circles as worked example of the grimoire practice. "The reading of the word as the reading of the world."
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 This is what Freire's literacy circles did — not teach reading as a technical skill, but use the act of reading to name the world that had been organizing the silence. *Peasant. Landlord. Wage. Debt.* The words that reorganize the visible. The reading of the word as the reading of the world.

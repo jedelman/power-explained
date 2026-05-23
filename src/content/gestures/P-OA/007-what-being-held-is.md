@@ -14,6 +14,10 @@ tags:
   - zone/second-growth
   - concept/community
   - concept/being-held
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   OA-02 is UNANSWERED. The specific day-3-or-5 detail — a meal, a
   person, the quality of silence around a fire, what the body

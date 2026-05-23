@@ -15,14 +15,13 @@ tags:
   - direction/e
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. The symmetric pivot: names for
+    what you're up against / this last one for what you're building with.
 
 notes: |-
   Closing movement. Names for what you are up against / connection for what you are building with.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 The names in the grimoire are for what you are up against. This last one is for what you are building with.

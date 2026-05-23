@@ -15,13 +15,14 @@ tags:
   - direction/ne
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Schema + rich tagging pass.
     2026-05-22: Brimstone pass — accept the bestiary frame, lean into the
     intelligence of the forces, kill the "not a rogues' gallery" defensive
     preemption. Operational distinction (grimoire = bestiary that tells you
     what to do) replaces the not-X/X structure.
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 
 notes: |-
   The logic of the grimoire: name → can work with. Naming breaks paralysis.

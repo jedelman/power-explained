@@ -12,6 +12,10 @@ tags:
   - direction/nw
   - zone/second-growth
   - concept/burnout
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. Cadence holds.
 notes: |
   The turn into first person and into the floor. Source: Jason's own
   words, on record — "I just got slower and slower, and stumbled more,
