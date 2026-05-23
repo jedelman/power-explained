@@ -330,6 +330,7 @@ gestures:
   - G-GC-046
   - G-GC-047
   - G-GC-048
+  - G-GC-049    # Solidarity — connection's political name. The spell completed.
 
 separators:
   - paragraph     # 001 → 002
@@ -380,4 +381,5 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - paragraph    # 048 → 049 (the solidarity reveal)
 ---
