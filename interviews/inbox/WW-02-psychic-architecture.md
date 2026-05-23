@@ -21,6 +21,10 @@ what you were attempting at the restaurant?
 You said the woods was easy because the frame was established —
 the guide creates the aura. What does the hard version feel like?
 What is the architecture you're building when you don't have the frame?
+
+Hahaha, the hard version feels like pitching a tent in a downpour. It's gotta be done and you know you can do it, but you'll take any help you can get, make compromises that you wouldn't have to, and have to deal with the consequences when it's all over.
+
+And the architecture is different in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzQxNDA0OV19
+eyJoaXN0b3J5IjpbLTE0NDc3MzQzNTldfQ==
 -->
