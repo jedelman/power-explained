@@ -17,7 +17,9 @@
 > Far Outside that most people flinch from?
 
 The best way for me to describe the Far Outside is that you have fallen off the map. You no longer have schema for what's happening. It's like the traveller in the Flammarion engraving - you have left the familiar world behind completely. Most people, when they come in contact with the Far Outside, immediately start to flail, grasping and gasping for the familiar or some kind of anchor. I have experienced it enough in my life that I know to calm down and pay attention.
-Within your life it's less of an actual place and more of an encounter, like making and holding eye contact with a wild animal.
+Within your life it's less of an actual place and more of an encounter, like making and holding eye contact with a wild animal. Your breath catches, but not in fear - in excitement. You become fully present. The thing that makes people flee the moment is that your whole self shows up all at once, like Benjamin's past flashing to light, and not everyone can stand to have their full consciousness lit up like a lantern. Because you can see and feel all of it. Even that part.
+The only thing that comes back with you after a moment li
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU1MTM5ODBdfQ==
+eyJoaXN0b3J5IjpbLTE2MzI5Nzg5NzEsLTExOTU1MTM5ODBdfQ
+==
 -->
