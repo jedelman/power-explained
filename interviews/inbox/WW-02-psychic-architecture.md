@@ -24,7 +24,7 @@ What is the architecture you're building when you don't have the frame?
 
 Hahaha, the hard version feels like pitching a tent in a downpour. It's gotta be done and you know you can do it, but you'll take any help you can get, make compromises that you wouldn't have to, and have to deal with the consequences when it's all over.
 
-And the architecture is different in
+And the architecture is different in a hostile environment. Maybe you run a canopy first - that was the restaurant. You manage the downpour instead of choosing an ideal site. Maybe you don't deploy things you would have otherwise - we ended up not opening a tea room for NA socialites or a nature school. The downpour is still happening. We're packing up and moving on.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc3MzQzNTldfQ==
+eyJoaXN0b3J5IjpbMTYzNjM4MjA1OF19
 -->
