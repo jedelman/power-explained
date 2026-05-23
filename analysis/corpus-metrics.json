@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-23T16:35:31.491Z",
+  "generatedAt": "2026-05-23T20:15:20.935Z",
   "corpus": {
-    "plateaus": 28,
-    "migratedPlateaus": 28,
-    "gestures": 876,
-    "words": 73718,
-    "sentences": 4967
+    "plateaus": 29,
+    "migratedPlateaus": 29,
+    "gestures": 908,
+    "words": 77568,
+    "sentences": 5242
   },
   "corpusReadability": {
-    "fleschReadingEase": 56.97,
-    "fleschKincaidGrade": 9,
-    "gunningFog": 12.49,
-    "smog": 12.04,
-    "colemanLiau": 10.19,
-    "automatedReadabilityIndex": 8.41,
-    "avgWordsPerSentence": 14.84,
-    "avgSyllablesPerWord": 1.59
+    "fleschReadingEase": 58.03,
+    "fleschKincaidGrade": 8.84,
+    "gunningFog": 12.31,
+    "smog": 11.91,
+    "colemanLiau": 10,
+    "automatedReadabilityIndex": 8.24,
+    "avgWordsPerSentence": 14.8,
+    "avgSyllablesPerWord": 1.58
   },
   "plateauMetrics": [
     {
@@ -633,59 +633,81 @@
       "meanGestureWords": 70.41,
       "stdGestureWords": 74.21,
       "structuralEntropyNorm": 0.9
+    },
+    {
+      "id": "P-WW",
+      "slug": "wizards-walk",
+      "title": "The Wizard's Walk",
+      "gestureCount": 32,
+      "words": 3850,
+      "sentences": 275,
+      "avgWordsPerSentence": 14,
+      "avgSyllablesPerWord": 1.35,
+      "fleschReadingEase": 78.29,
+      "fleschKincaidGrade": 5.82,
+      "gunningFog": 8.89,
+      "colemanLiau": 6.36,
+      "automatedReadabilityIndex": 5.02,
+      "smog": 9.26,
+      "smogReliable": true,
+      "lexicalEntropy": 7.84,
+      "typeTokenRatio": 0.21,
+      "meanGestureWords": 120.31,
+      "stdGestureWords": 23.44,
+      "structuralEntropyNorm": 0.74
     }
   ],
   "gestureDistributions": {
-    "count": 876,
-    "readableCount": 662,
+    "count": 908,
+    "readableCount": 694,
     "wordCount": {
-      "n": 876,
-      "p10": 10,
-      "p25": 32,
-      "p50": 67,
-      "p75": 104,
-      "p90": 172,
-      "mean": 84.15
+      "n": 908,
+      "p10": 11,
+      "p25": 33,
+      "p50": 69,
+      "p75": 108,
+      "p90": 168,
+      "mean": 85.43
     },
     "lexicalEntropy": {
-      "n": 876,
-      "p10": 3.12,
-      "p25": 4.5,
-      "p50": 5.34,
-      "p75": 5.82,
-      "p90": 6.35,
-      "mean": 5.04
+      "n": 908,
+      "p10": 3.17,
+      "p25": 4.57,
+      "p50": 5.36,
+      "p75": 5.84,
+      "p90": 6.34,
+      "mean": 5.06
     },
     "typeTokenRatio": {
-      "n": 876,
+      "n": 908,
       "p10": 0.6,
-      "p25": 0.67,
+      "p25": 0.66,
       "p50": 0.73,
       "p75": 0.81,
       "p90": 0.94,
-      "mean": 0.75
+      "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 662,
-      "p10": 4.61,
-      "p25": 6.65,
-      "p50": 8.72,
-      "p75": 11.17,
-      "p90": 13.38,
-      "mean": 8.91
+      "n": 694,
+      "p10": 4.58,
+      "p25": 6.51,
+      "p50": 8.37,
+      "p75": 11.07,
+      "p90": 13.18,
+      "mean": 8.78
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 662,
-      "p10": 33.76,
-      "p25": 44.14,
-      "p50": 57.63,
-      "p75": 69.16,
-      "p90": 80.53,
-      "mean": 57.31
+      "n": 694,
+      "p10": 34.12,
+      "p25": 45.14,
+      "p50": 58.85,
+      "p75": 70.95,
+      "p90": 81.14,
+      "mean": 58.26
     }
   },
   "transitionalEntropy": {
-    "total": 848,
+    "total": 879,
     "reliable": 194,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
@@ -734,10 +756,22 @@
       "dispersionNorm": 0.97
     },
     {
+      "term": "Enclosure",
+      "total": 8,
+      "plateaus": 7,
+      "dispersionNorm": 0.98
+    },
+    {
       "term": "Virginia",
       "total": 10,
       "plateaus": 6,
       "dispersionNorm": 0.92
+    },
+    {
+      "term": "Which",
+      "total": 8,
+      "plateaus": 6,
+      "dispersionNorm": 0.97
     },
     {
       "term": "Deleuze",
@@ -750,12 +784,6 @@
       "total": 8,
       "plateaus": 6,
       "dispersionNorm": 0.97
-    },
-    {
-      "term": "Enclosure",
-      "total": 7,
-      "plateaus": 6,
-      "dispersionNorm": 0.98
     },
     {
       "term": "India",
@@ -789,12 +817,6 @@
     },
     {
       "term": "London",
-      "total": 6,
-      "plateaus": 5,
-      "dispersionNorm": 0.97
-    },
-    {
-      "term": "Which",
       "total": 6,
       "plateaus": 5,
       "dispersionNorm": 0.97

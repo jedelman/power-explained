@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro'
+import { resolve } from 'path'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+
+const body = composePlateauBody(resolve('src/content/book/wizards-walk.md'))
+
+function md(text) {
+  return text
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/_(.+?)_/g, '<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/^---$/gm, '<hr class="section-break" />')
+    .split(/\n\n+/)
+    .map(b => {
+      b = b.trim()
+      if (!b) return ''
+      if (b.startsWith('<h') || b.startsWith('<hr')) return b
+      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**'))
+        return `<p class="chapter-coda">${b.slice(1,-1)}</p>`
+      return `<p>${b.replace(/\n/g, ' ')}</p>`
+    })
+    .filter(Boolean)
+    .join('\n')
+}
+---
+<Base title="The Wizard's Walk" description="The reader takes the walk. The six capacities gathered into one motion. The crossing from seeker to guide. The work named — psychic architecture, ethically fraught, done anyway. The quest handed back.">
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="book-nav">
+        <a href="/book">← The Book</a>
+        <span class="book-nav-sep">·</span>
+        <span>Part VI — What to Build</span>
+      </p>
+      <p class="book-label">Initiation</p>
+      <h1>The Wizard's Walk</h1>
+    </div>
+  </div>
+  <div class="article-wrap">
+    <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
+    <nav class="article-prev-next">
+      <div class="prev-next-inner">
+        <a href="/book/chapter-18" class="prev-next-link">
+          <span class="prev-next-label">← Previous on the highway</span>
+          <span class="prev-next-title">Chapter 18: You Wonderful Weird Birds</span>
+        </a>
+        <a href="/book/epilogue" class="prev-next-link next-link">
+          <span class="prev-next-label">Highway forward →</span>
+          <span class="prev-next-title">Epilogue: The Doves</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+</Base>
+<style>
+  .book-nav { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem; display: flex; gap: 0.5rem; align-items: center; }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
+  .chapter-body :global(hr.section-break) { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .chapter-body :global(.chapter-coda) { font-family: var(--mono); font-size: 0.8rem; line-height: 1.7; color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
+</style>
