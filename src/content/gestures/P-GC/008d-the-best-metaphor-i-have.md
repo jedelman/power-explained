@@ -17,12 +17,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Authored in biopower-promotion pass. Jason's car-dealership
     metaphor as a single-paragraph landing for the first half of the
     biopower section. Image is human, not natural — but behaves like
     a natural system (it generates the conditions of its own necessity).
+    2026-05-23: Beauty pass — confirmed. "It does not force this. It
+    administers it." holds the chapter's distinction.
 
 notes: |-
   Car dealership as the keystone metaphor for biopower. Remakes the

@@ -18,11 +18,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Authored in biopower-promotion pass. Catalog of the
     six domains (school/work/land/cities/media/prisons) in saga register.
     Each domain pairs with what it makes legible.
+    2026-05-23: Beauty pass — confirmed. Six-item litany is over the
+    CLAUDE.md "max 3" rule, but kind/litany flags this as a ritual
+    catalog; rhythm earns it.
 
 notes: |-
   What biopower does: manages life rather than threatens death. The

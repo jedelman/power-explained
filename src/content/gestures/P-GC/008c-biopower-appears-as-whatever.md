@@ -17,12 +17,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Authored in biopower-promotion pass. The devil-deal /
     inverted-forbidden-fruit metaphor (Jason's), followed by the
     administering-share landing that already existed in the earlier
     draft. The hierarchy claim is the brimstone close.
+    2026-05-23: Beauty pass — confirmed. "Its price is always the same:
+    your soul" lands the gesture.
 
 notes: |-
   The deal biopower offers. Not the forbidden fruit — the opposite:

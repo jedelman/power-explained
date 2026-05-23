@@ -16,13 +16,15 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Schema + rich tagging pass.
     2026-05-22: Brimstone pass — cut "This is not a conspiracy. It does
     not require anyone to intend it." The co-evolution argument carries
     the same point without the defensive frame. Trust the reader to
     follow the no-coordinator implication from the ecosystem claim.
+    2026-05-23: Beauty pass — confirmed. Single-line opener + ecosystem
+    paragraph + "you discover this quickly" close hold the rhythm.
 
 notes: |-
   Merged G-GC-008, G-GC-009 on 2026-05-20. "Capital produces the bodies

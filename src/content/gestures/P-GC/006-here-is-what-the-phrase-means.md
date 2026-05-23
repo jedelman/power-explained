@@ -17,7 +17,7 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
     2026-05-22: Schema + rich tagging pass.
     2026-05-22: Brimstone pass — killed the definitional opener
@@ -27,6 +27,8 @@ beauty_check:
     The biopolitics turn (society is the factory floor) lifted out to a
     follow-on gesture, pending architecture decision on whether
     biopolitical production becomes a fourth grimoire name.
+    2026-05-23: Beauty pass — confirmed. "You know in the body, before
+    the thought" earns the close.
 
 notes: |-
   Production of subjectivity, defined. Power — not only capital — produces

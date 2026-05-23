@@ -18,8 +18,11 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
+    2026-05-23: Beauty pass — confirmed. "The whisperer was always inside
+    the orchard" is the gesture's hinge. Extended tree metaphor earns
+    its length.
     2026-05-22: Authored in biopower-promotion pass. The Tree metaphor
     (Jason's, via McDonough & Braungart's Cradle to Cradle, 2002). The
     keystone metaphor of the chapter — the hinge between Biopower (the

@@ -16,13 +16,15 @@ tags:
   - direction/nw
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. "His instincts didn't take over"
+    is the load-bearing close after the methods description. Short
+    sentence after the long one is the rhythm.
 
 notes: |-
   Merged G-GC-012 on 2026-05-20. Jason's autonomy-based pedagogy. "His instincts didn't take over."
-  First-pass paragraph-split (mechanical). Title and slug derived
 ---
 My methods are built on autonomy. Not the sink-or-swim version — I scaffold the necessary knowledge, create the motivation, verify the skills, then create the conditions in which those skills are needed. After that point, the individual's instincts should take over. Not because they were told to. Because the problem is in front of them and they have what it takes to meet it.
 

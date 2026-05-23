@@ -17,13 +17,15 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Anaphora ("It may be hegemony…
+    It may be the production… It may be biopower… It may be the outside")
+    works as ritual catalog. The four names return to the reader's body.
 
 notes: |-
   Merged G-GC-033 on 2026-05-20. Applies the three names to the somatic experience.
-  First-pass paragraph-split (mechanical). Title and slug derived
 ---
 Now ask: what is the name for what produced this?
 

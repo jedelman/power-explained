@@ -14,14 +14,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. "Not the counter itself — the
+    beginning" + the close on the natural order of things bridges the
+    diagnosis into Luxemburg.
 
 notes: |-
   "The name is the beginning of the counter." Bridge from diagnosis to practice.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 The name is the beginning of the counter. Not the counter itself — the beginning. You cannot fight what you cannot see. And you cannot see what has been arranged to look like the natural order of things.

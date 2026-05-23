@@ -23,8 +23,11 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
+    2026-05-23: Beauty pass — confirmed. "Not evolution. Evolutionary."
+    is the rhythmic beat. The reader-landing triplet (Gramsci / Freire /
+    picking up this book) earns its parallel structure.
     2026-05-22: Authored in biopower-promotion pass. The trail-system
     metaphor for biopolitics (Jason's, building on Deleuze & Guattari).
     Closes the biopower section and seats the chapter's diagnostic

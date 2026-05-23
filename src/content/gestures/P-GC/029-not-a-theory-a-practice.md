@@ -14,14 +14,14 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — cut explanatory bridge ("because the naming is not useful…
+    rather than an argument"). Trust the reader to carry the logic. Replaced abstract
+    "make contact with actual experience" with concrete "touches the body."
 
 notes: |-
   The theory/practice distinction: naming only works if it makes contact with actual experience.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
-Not a theory. A practice — because the naming is not useful if it stays in the head. It has to make contact with actual experience before it becomes a tool rather than an argument.
+Not a theory. A practice. The naming is useless until it touches the body.

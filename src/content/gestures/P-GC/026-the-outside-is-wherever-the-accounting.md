@@ -18,13 +18,15 @@ tags:
   - direction/n
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. "It was enclosed because it
+    worked" inverts the standard collapse narrative — the chapter's
+    cleanest analytical move.
 
 notes: |-
   Merged G-GC-027 on 2026-05-20. "The outside is wherever the accounting stops." The enclosure of commons as proof it worked.
-  First-pass paragraph-split (mechanical). Title and slug derived
 ---
 The outside is wherever the accounting stops. And the commons, in every form, is perpetually at risk of becoming the next outside.
 

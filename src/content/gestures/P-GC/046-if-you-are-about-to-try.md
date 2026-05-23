@@ -16,14 +16,14 @@ tags:
   - direction/e
 
 beauty_check:
-  passed: false
+  passed: true
   notes: |
-    2026-05-22: Schema + rich tagging pass. Needs per-gesture beauty pass.
+    2026-05-22: Schema + rich tagging pass.
+    2026-05-23: Beauty pass — confirmed. Three "Not:" questions
+    (design / resources / scale) frame the practice-check. The
+    "I hope you are, because you are still reading" aside is in voice.
 
 notes: |-
   Direct address to the reader about to build. The check before design, resources, or scale.
-  First-pass paragraph-split (mechanical). Title and slug derived
-  from leading words; tags are minimal-lint-clean. Subdivision or
-  merging with adjacent gestures is expected on plateau-level revision.
 ---
 If you are about to try to build something free — and I hope you are, because you are still reading — let this be the first check. Not: have I designed this correctly? Not: do I have the resources? Not: will it scale?
