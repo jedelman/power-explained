@@ -12,4 +12,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-What this means in practice: she reads the substrate, the common ground that everything is shaped by and shapes. The particular quality of light in a hedgerow at dusk. The way a pond edge holds silence differently than open water. The feeling of a habitat before you can name what's in it. Through her attention to space I have access to the social field — the *habitus*, the shared body-knowledge of a place, what Bourdieu was trying to name before the word got academic — that my system-thinking moves too fast to feel. She slows me down into the actual ground.
+She reads the substrate, the ground everything is shaped by, and shapes. The particular quality of light in a hedgerow at dusk. The way a pond edge holds silence differently than open water. The feeling of a habitat before you can name what's in it. Through her attention to space I have access to the social field — the *habitus*, the shared body-knowledge of a place — that my system-thinking moves too fast to feel. She slows me down into the actual ground.

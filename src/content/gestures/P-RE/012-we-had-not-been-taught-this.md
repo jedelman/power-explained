@@ -17,4 +17,4 @@ notes: >-
 ---
 We had not been taught this. We had practiced our way into it.
 
-And once you are in, you cannot fully leave. The world does not go back to being a backdrop. The crow is not decoration. The robin is not a pleasant accompaniment to your walk. They are telling you something, specifically, about what is happening in a place you cannot see. This is information. You begin to use it. You begin to depend on it. And you discover that you are now part of a network of attention that was always there, operating at frequencies you had not been tuned to receive.
+Once you are in, you cannot fully leave. The world does not go back to being a backdrop. The crow is not decoration. The robin is not a pleasant accompaniment to your walk. They are telling you something, specifically, about what is happening in a place you cannot see. This is information. You begin to use it. You begin to depend on it. You discover you are part of a network of attention that was always there, operating at frequencies you had not been tuned to receive.

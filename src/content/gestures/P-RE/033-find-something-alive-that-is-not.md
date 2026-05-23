@@ -12,4 +12,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Find something alive that is not you — a bird, a tree, a creek, a crow, a worm turning in the soil after rain. Give it your undivided attention for longer than feels comfortable. Do not immediately reach for your phone, your field guide, your identification app. Sit with not-knowing, and keep looking.
+Find something alive that is not you — a bird, a tree, a creek, a crow, a worm turning in the soil after rain. Give it your undivided attention for longer than feels comfortable. Do not reach for your phone, your field guide, your identification app. Sit with not-knowing, and keep looking.
