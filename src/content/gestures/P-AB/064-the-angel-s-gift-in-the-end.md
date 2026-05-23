@@ -1,0 +1,24 @@
+---
+id: G-AB-064
+plateau: P-AB
+title: The angel's gift, in the end
+slug: the-angel-s-gift-in-the-end
+tags:
+  - plateau/P-AB
+  - voice/jason
+  - kind/landing
+  - kind/argument
+  - capacity/read
+  - capacity/build
+  - status/draft
+  - concept/the-wizard
+  - concept/aura
+  - concept/sacred
+  - zone/the-wizards-cottage
+  - direction/se
+notes: |-
+  First-pass paragraph-split (mechanical). Title and slug derived
+  from leading words; tags are minimal-lint-clean. Subdivision or
+  merging with adjacent gestures is expected on plateau-level revision.
+---
+The angel's gift, in the end, is not analysis. It is sight that obligates — and the obligation is already inside the sight. You cannot see the auratic thing — the cedar, the meadow, the corner, the person — and not be turned by it. The defense follows the seeing the way the body follows the breath. The first move of the wizard, after the naming, is this: to look until what is in front of them becomes irreplaceable.

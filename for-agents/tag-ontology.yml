@@ -65,6 +65,7 @@ namespaces:
       - P-CE       # Chiron / The Centaur Chapter
       - P-IB       # Interlude: Barcelona
       - P-IW       # Interlude: Counter-Hegemony Without the Word (Washington)
+      - P-AB       # The Angel Faces Backward (initiation chapter)
 
   # ===========================================================================
   # voice — who is speaking in the gesture. A gesture can carry multiple
@@ -179,6 +180,14 @@ namespaces:
       - philippines
       - switzerland        # alpine commons
       - asturias           # andecha
+      - munich             # Klee 1920, Benjamin purchase 1921
+      - paris              # the arcades, the Passagen-Werk
+      - portbou            # Benjamin's death on the Spanish border
+      - pyrenees           # Benjamin's crossing
+      - washington-state   # the Scar (P-AB)
+      - hampton-roads      # Hampton Boulevard, Norfolk-Portsmouth-Newport News region
+      - zuccotti-park      # Occupy 2011
+      - standing-rock      # 2016 prayer camp
 
   # ===========================================================================
   # person — historical or named individuals the gesture is about.
@@ -211,6 +220,13 @@ namespaces:
       - foucault             # Michel Foucault — biopower, discipline, governmentality
       - deleuze              # Gilles Deleuze — A Thousand Plateaus, Geology of Morals
       - guattari             # Félix Guattari — A Thousand Plateaus, the refrain
+      - benjamin             # Walter Benjamin — Theses on the Philosophy of History, the Arcades Project, aura
+      - klee                 # Paul Klee — painter of Angelus Novus
+      - debord               # Guy Debord — Society of the Spectacle, détournement
+      - alexander            # Christopher Alexander — A Pattern Language, the magic of the city
+      - prechtel             # Martín Prechtel — the descent requires a community that knows how to receive
+      - arendt               # Hannah Arendt — carried Benjamin's Theses out of France
+      - plotkin              # Bill Plotkin — Soulcraft, the soul's gift
 
   # ===========================================================================
   # concept — book-level concepts and named practices.
@@ -246,6 +262,20 @@ namespaces:
       - conscientização      # Freire — naming the structures that made you silent
       - biopower             # Foucault — power that manages life, not just threatens death
       - biopolitics          # the contested field between biopower and the subject
+      - aura                 # Benjamin — the unique phenomenon of a distance, however close it may be
+      - dialectical-image    # Benjamin — the past flashing up at the instant it can be recognized
+      - detournement         # Situationist — turning-back-against, reuse of dominant culture's materials
+      - the-collector        # Benjamin — the practice of finding fragments that read against the official story
+      - the-wizard           # the figure who reads the wreckage and finds the seed
+      - the-council          # the perceptual commons — where what you saw stays seen because others see it
+      - the-shard            # the specific fragment held long enough to see what it has always been saying
+      - the-line             # the frontline of defense (Zuccotti, Standing Rock, headwaters)
+      - the-back-line        # the distributed work of defense — wiring, household, teaching, writing
+      - sacer                # Latin — set apart, removed from ordinary use, defended by taboo
+      - sacred               # the generalized form of sacer/sanctus/hieros
+      - degenerate-art       # Nazi designation; the painter as madman
+      - progress             # the storm — the official story of forward motion that buries what it enclosed
+      - solidarity           # connection's political name — the act the demons have never been able to administer
 
   # ===========================================================================
   # year — the time the gesture takes place in or anchors to. Used by
@@ -278,6 +308,13 @@ namespaces:
       - "2024"
       - "2025"
       - "2026"
+      - "1920"
+      - "1921"
+      - "1933"
+      - "1936"
+      - "1940"
+      - "2011"
+      - "2016"
 
   # ===========================================================================
   # zone — the gesture's home zone on the territory map. Mirrors the
