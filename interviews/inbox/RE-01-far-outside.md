@@ -16,7 +16,7 @@
 > And: what makes it hard to stand? What is the specific quality of the
 > Far Outside that most people flinch from?
 
-The best way for me to describe the Far Outside is that you have fallen off the map. You no longer have schema for what's happening. 
+The best way for me to describe the Far Outside is that you have fallen off the map. You no longer have schema for what's happening. It's like the traveller in the Flammarion engraving - you have left the familiar world behind completely. Most people, when they come in contact with the Far Outside, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTA2MjUxM119
+eyJoaXN0b3J5IjpbLTE4NzkwMDk1MTVdfQ==
 -->
