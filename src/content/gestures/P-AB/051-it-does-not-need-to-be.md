@@ -15,6 +15,11 @@ tags:
   - concept/aura
   - zone/the-wizards-cottage
   - direction/nw
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. FLAG: "*Like Benjamin says, the past is a tricky thing.*" reads as attribution but is not a direct Benjamin quote (Thesis V: "flashes up at the instant when it can be recognized"). Either drop italics (casual paraphrase) or swap to an actual Benjamin line.
+
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

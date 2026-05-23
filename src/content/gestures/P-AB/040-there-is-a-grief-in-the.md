@@ -14,6 +14,11 @@ tags:
   - concept/the-back-line
   - zone/the-wizards-cottage
   - direction/e
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. FLAG: "The masters of consciousness warn against mistaking the visible for the whole" is a soft attribution to an unnamed tradition. Buddhist / Foucauldian / other? Worth grounding or rephrasing as the chapter's own observation.
+
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -14,6 +14,11 @@ tags:
   - year/1933
   - zone/the-wizards-cottage
   - direction/nw
+beauty_check:
+  passed: true
+  notes: |
+    2026-05-23: Beauty pass — confirmed. FLAG (non-blocking): chronology — Klee had left the Bauhaus by 1931; it closed under Nazi pressure in 1933. The prose doesn't claim he was there at closing but reads ambiguous; tighten if exact ordering matters.
+
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
