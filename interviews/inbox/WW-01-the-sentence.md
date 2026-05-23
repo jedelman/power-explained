@@ -16,7 +16,7 @@ What did it feel like in your body when you heard it?
 > The moment of crossing from seeker to guide lives in this specific scene,
 not in the summary of it.
 
-It was something along the lines of "we don't serve natural wine just because it tastes good, it has to taste good and be good for everyone involved". It was after hours, with just regulars and staff, andthis was a staff member 
+It was something along the lines of "we don't serve natural wine just because it tastes good, it has to taste good and be good for everyone involved". It was after hours, with just regulars and staff, and this was a staff member speaking. The thing that impressed me was that it was a break in the conversation they had been having. The previous conversation was about the aesthe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA4NzkzMzgsLTkxMDMzNzI4OV19
+eyJoaXN0b3J5IjpbLTUzNjIwODEzNSwtOTEwMzM3Mjg5XX0=
 -->
