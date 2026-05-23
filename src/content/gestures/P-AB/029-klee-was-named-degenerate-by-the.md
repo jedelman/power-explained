@@ -17,7 +17,10 @@ tags:
 beauty_check:
   passed: true
   notes: |
-    2026-05-23: Beauty pass — confirmed. FLAG (non-blocking): chronology — Klee had left the Bauhaus by 1931; it closed under Nazi pressure in 1933. The prose doesn't claim he was there at closing but reads ambiguous; tighten if exact ordering matters.
+    2026-05-23: Beauty pass — confirmed. Chronology loose (Klee had left
+    the Bauhaus by 1931; it closed under pressure in 1933) but Jason
+    keeps it loose deliberately — the chapter is about aura, not Klee's
+    CV. Prose stands as drafted.
 
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived

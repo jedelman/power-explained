@@ -17,7 +17,9 @@ tags:
 beauty_check:
   passed: true
   notes: |
-    2026-05-23: Beauty pass — confirmed. FLAG: "The masters of consciousness warn against mistaking the visible for the whole" is a soft attribution to an unnamed tradition. Buddhist / Foucauldian / other? Worth grounding or rephrasing as the chapter's own observation.
+    2026-05-23: Beauty pass — confirmed. "The masters of consciousness
+    warn against mistaking the visible for the whole" is Jason's own
+    claim — not a citation to an external tradition. Owned. Prose stands.
 
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
