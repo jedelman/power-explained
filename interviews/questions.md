@@ -83,6 +83,8 @@ One thing about ceremony is that sometimes it's hard to say why something is rig
 
 VERY few people have touched it. 
 
+*(Species confirmed: Western Redcedar, *Thuja plicata.* Soft, fragrant, beautiful wood.)*
+
 ***What the shard remembers.** Cedar is a long-lived tree — slow-growing, fire-resistant, rot-resistant, ceremonially central in many West Coast traditions, the wood used for canoes and longhouses and the inside of the chests where families keep what they will not lose. What does your specific shard remember that the rest of the discard pile didn't? Is there a way that holding it has changed your sense of what land is for — or what the defense of land requires?*
 
 The shard remembers the pile. It doesn't need to be held, or at least, it doesn't need me to hold it or offer it. Trees are very present - its presence shapes what I remember. It's easy to forget the hard things. Trees remember. But what exactly they remember - it's hard to say. Like Benjamin says, the past is a tricky thing.
@@ -100,6 +102,8 @@ I've always been the black sheep in my family. I'm lucky that I've never had my 
 ***From precious to defended.** There is a difference between "this is sacred" and "this must be defended." The first is felt; the second is political. The shard in your hand, the meadow not cut, the cedar where it stood — how did the felt sense become the political claim for you? Was there a moment? A specific cut that crossed a line? When did defending the land stop being one possible response among many and start being the only one?*
 
 There's no difference. If you have the courage to stay with the feeling it shapes your actions. If you don't have the courage, cowardice has its price as well. Defending the land doesn't always feel like an imperative to me, because I recognize that I'm part of it and that I deserve defense too. I was on the frontlines in Norfolk politically and I'm tired. So when a tree comes down in my neighborhood I already know that if it's on private property there's "nothing the city can do", or that that's what they'll tell me when I speak up. But people stop me on the street to talk about trees coming down in their neighborhood. Sometimes defense looks like not much at all, just neighbors having a conversation on a walk. Sometimes the most profound things are the most ordinary. We'll see, won't we?
+
+***The cost of cowardice.** You said cowardice has its price too — *ask me how I know,* you said. So I'm asking. What were you doing during Zuccotti Park in the fall of 2011? Where were you, what work was paying you, what could you see from where you were standing? And during Standing Rock through the winter of 2016–17 — water cannons in subzero temperatures, rubber bullets, the camp finally cleared in February — what were you doing then? Did you know they were happening while they were happening? What did you feel watching from wherever you were watching from? Where does that cost live now in the body — is it like the grief of the Scar, or different in kind? The chapter needs the witness's honest reckoning. Not the exhaustion of the work you did do; the specific texture of what it costs to not be on the line when the line is being drawn somewhere you could see it.*
 
 ---
 
