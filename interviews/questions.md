@@ -58,6 +58,25 @@ I mean eldritch in the old sense, not just the post-lovecraftian. Rather than ju
 
 ---
 
+## For The Angel Faces Backward chapter
+*(Benjamin's angel, the collector's posture, aura — and what the wreckage taught you to defend)*
+
+***The logged forest you can't forget.** You said you've experienced things in logged forests that you don't know if I can imagine. I want to try. Which one? Where was it — Pacific Northwest? Appalachian? Somewhere else? What was the cut — clearcut, selective harvest, salvage? Was it fresh or had it been left a season, a year, longer? Walk me into it. What did you see first when you crossed the edge?*
+
+***The pain of the earth.** You said: you can feel the pain of the earth. This is the sentence that will stop the reader cold. Where does it live in your body when you feel it? Is it like the kitchen-floor sensation under Hampton Boulevard — geological, beneath the soles — or different? Is it ambient or located? Sharp or low? Does it arrive when you cross into the cut, or does it build? Has anyone you trust ever told you they cannot feel it where you can? The reader who has never felt this needs the texture of the feeling, not the metaphor.*
+
+***The cedar shard.** Where did you find it? What were you doing in the clearcut — tracking, working, mourning, passing through? Was the discard pile fresh — sap still bleeding — or weathered? What made you reach for that specific piece? Did you know in the moment what you were doing, or did it come clear later? Where is the shard now? Where do you keep it? Have you shown it to people? What happens when someone holds it?*
+
+***What the shard remembers.** Cedar is a long-lived tree — slow-growing, fire-resistant, rot-resistant, ceremonially central in many West Coast traditions, the wood used for canoes and longhouses and the inside of the chests where families keep what they will not lose. What does your specific shard remember that the rest of the discard pile didn't? Is there a way that holding it has changed your sense of what land is for — or what the defense of land requires?*
+
+***Tracking the survivors.** When you tracked the logged ground — the deer routing around stumps, the bird in the snag — what taught you to read it that way? Was it Tom Brown Jr.'s practice, was it the place itself, was it someone you were with, or did it just arrive? I want to be careful not to put words in your mouth about tracking. The reader needs to feel it from inside your specific experience, not from a how-to. What does a logged cut feel like to walk after you have learned to read it?*
+
+***Madness.** Have you ever been called crazy, sentimental, or naïve for what you say about the forest, the birds, the way the world holds aura? The chapter argues that the angel is "mad" by the logic of progress — that the witness, the artist-out-of-time, and the figure Deleuze and Guattari call the schizo in *Anti-Oedipus* are the same figure: the one whose seeing has been pathologized so the system can keep facing forward. The reader needs to know what this position costs socially. Has someone you love ever made you doubt the sight? What did you do?*
+
+***From precious to defended.** There is a difference between "this is sacred" and "this must be defended." The first is felt; the second is political. The shard in your hand, the meadow not cut, the cedar where it stood — how did the felt sense become the political claim for you? Was there a moment? A specific cut that crossed a line? When did defending the land stop being one possible response among many and start being the only one?*
+
+---
+
 ## For the Wizard's Walk chapter
 *(the reader takes the walk — all six capacities)*
 
