@@ -20,9 +20,14 @@ beauty_check:
     move (the reader has to become the quest giver, not the Hero); the
     chapter cashes that move here. The quest does not come from the
     book. The book hands it back. Direction E.
+    2026-05-23 (Jason): more Gandalf voice. Authority through
+    restraint, not statement. Less "I am not going to"; more "the
+    quest was never mine to give." Don't tell Frodo what to do; place
+    the choice back in their hand and step aside.
 notes: |
   Direction E. Pivot into the quest section (025-028). The chapter is
   not going to give the reader a quest; the chapter is going to refuse
-  to give them one, because the quest is theirs.
+  to give them one, because the quest is theirs. Tone: Gandalf at the
+  ford — quiet, certain, declining to instruct.
 ---
-This is the part of the chapter where I am supposed to tell you what your quest is. I am not going to. The book is the map; the quest is yours. What I can do is name what a quest of this kind actually looks like, so you can recognize the one you have already been carrying without quite admitting it. Because almost everyone reading this is already carrying one. The job of the chapter is not to assign it; the job of the chapter is to hand it back to you in a form you can no longer politely set down.
+You may be expecting me to tell you, here, what your quest is. I will not. It was never mine to give. What I can do is describe the shape of one, so that when you find it in your hand you will know what you are looking at — or, more often, recognize the one already there, that you have been declining to look at directly. Almost everyone who reaches this page is carrying something. The work of the chapter is not to assign you a burden. It is to keep you from quietly setting down one that was always yours.

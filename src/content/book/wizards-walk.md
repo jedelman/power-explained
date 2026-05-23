@@ -145,7 +145,7 @@ doors:
     prompt: Forward to the doves, the herons, the meadow not cut — what the walker pays attention to once the held thing has loosened
 
 beauty_check:
-  status: draft-first-pass-2026-05-23
+  status: jason-revision-pass-1-2026-05-23
   notes: |
     Drafted 2026-05-23 in the gesture-architecture standard as the
     fourth initiation chapter (after P-GC, P-OA, P-AB). Drafted from
@@ -156,6 +156,31 @@ beauty_check:
     (2026-05-18-wizard-book-final-architecture, 2026-05-10-wizard-book-
     architecture-map) which named this chapter as the all-six-
     capacities pre-Epilogue.
+
+    JASON REVISION PASS 1 (2026-05-23, post-first-draft):
+      - G-WW-012: staff member was clocked out, shift drink in hand,
+        with the regulars — itself a commons nod. Reworked the scene
+        so the line between staff and regular at that hour is the
+        line the bar was quietly dissolving.
+      - G-WW-014: cascade fix — they shifted the register of a
+        conversation they were already in, not broke into one they
+        weren't.
+      - G-WW-018: don't telegraph "what's wrong with this." Reframed
+        as limits, ethical AND epistemic.
+      - G-WW-020: Jason was not running the wilderness program. He
+        was instructing one group at one camp at a time, downstream
+        of people wiser and wilder. The lineage is the load-bearing
+        thing.
+      - G-WW-024: more Gandalf voice — quiet, certain, declining to
+        instruct. "It was never mine to give." Place the choice back
+        in the reader's hand and step aside.
+      - G-WW-029..032: trim and sharpen. Cut "so when this chapter
+        ends, in a paragraph or two", "a phrase I want to leave you
+        with, before the doves get to talk to you", "There is a
+        small cost to this", and "The chapter ends here so the next
+        thing can start. The doves are next." Let the prose land
+        without meta-talk; let the reader cross to P-EP without
+        being walked to the door.
 
     Load-bearing moves in the first-pass draft:
       - praise-first NE opening — the body that has walked

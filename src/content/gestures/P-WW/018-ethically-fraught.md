@@ -22,9 +22,12 @@ beauty_check:
     full consent, but in the case of knowledge that transforms you,
     you can't consent to it without being changed by it." The consent
     paradox is the key move. Do not dilute it.
+    2026-05-23 (Jason): don't telegraph "what's wrong with this."
+    Reframe as limits — ethical AND epistemic. The asymmetry is a
+    limit, not a wrongness; the naming should land that way.
 notes: |
   Direction N. The ethics named honestly — the asymmetry of
   architecture is not solvable by good intentions. The next gesture
   (019) brings community as the partial answer.
 ---
-I want to say plainly what is wrong with this. The architecture is asymmetric. The architect knows something the people who will inhabit the building do not yet know — that is what makes the architect an architect. And in the case of transformative knowledge, the people inhabiting the building cannot give full consent to inhabiting it, because they would have to already be changed in order to know what they were consenting to. This is not a problem with my intentions or your intentions. It is a structural feature of any teaching that actually teaches. I would rather have everybody participate with full consent. In this domain that is not on the menu. The honest version of the work is to do it anyway, knowing that it is asymmetric, and to take the asymmetry seriously enough not to use it for anything other than what it has been entrusted with.
+There are limits here, ethical and epistemic, worth naming. The architecture is asymmetric — the architect knows something the people who will inhabit the building do not yet know, which is what makes them the architect at all. And in the case of knowledge that transforms you, the people considering whether to enter the building cannot give full consent to entering it, because they would have to already be changed in order to understand what they were agreeing to. The asymmetry is not a flaw in anyone's intentions. It is a structural feature of any teaching that actually teaches. I would rather have everyone participate with full consent; in this domain that is not on the menu. The honest version of the work is to do it anyway, with the asymmetry in plain view, and to take it seriously enough not to use it for anything other than what it has been entrusted with.
