@@ -16,7 +16,7 @@ What did it feel like in your body when you heard it?
 > The moment of crossing from seeker to guide lives in this specific scene,
 not in the summary of it.
 
-
+It was something along the lines of "we don't serve natural wine just because it tastes good, it has to taste good and be good for everyone involved". It was after hours, with just regulars and staff, andthis was a staff member 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDMzNzI4OV19
+eyJoaXN0b3J5IjpbLTIwNDA4NzkzMzgsLTkxMDMzNzI4OV19
 -->
