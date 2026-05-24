@@ -7,6 +7,8 @@ tags:
   - plateau/P-01
   - voice/jason
   - status/draft
+  - concept/civil-society
+  - year/2022
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

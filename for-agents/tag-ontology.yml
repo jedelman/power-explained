@@ -116,6 +116,10 @@ namespaces:
       - practice          # how-to-do gesture: instructions for a reader practice
       - praise            # blessing / acknowledgment register (P-WW opening)
       - coda              # closing gesture that resolves and exits
+      - synthesis         # weaves prior threads into one shape (P-01 closing summaries)
+      - orientation       # tells the reader where they are / where the book is going
+      - polemic           # commits a contestable claim; takes a side
+      - naturalist        # field-observer register: notices, names, lets be
 
   # ===========================================================================
   # capacity — which of the six reader capacities the gesture builds.
@@ -271,7 +275,7 @@ namespaces:
       - racial-capitalism
       - production-of-subjectivity  # Hardt & Negri — capital produces subjects
       - hegemony             # Gramsci — production of consent, not domination by force
-      - conscientização      # Freire — naming the structures that made you silent
+      - conscientization     # Freire — naming the structures that made you silent (ASCII form)
       - biopower             # Foucault — power that manages life, not just threatens death
       - biopolitics          # the contested field between biopower and the subject
       - character-armor      # Reich — somatic hold the body learns under conditions (P-OA, P-WW)
@@ -289,6 +293,11 @@ namespaces:
       - degenerate-art       # Nazi designation; the painter as madman
       - progress             # the storm — the official story of forward motion that buries what it enclosed
       - solidarity           # connection's political name — the act the demons have never been able to administer
+      # Power-and-governance vocabulary (theory chapters)
+      - civil-society        # Gramsci — the dense web of associations through which hegemony lives and is contested
+      - necropolitics        # Mbembe — power expressed as the management of who is allowed to die
+      - simulation           # Baudrillard — the map preceding the territory; plans based on appearances
+      - capture              # the structural form by which institutions absorb the people they recruit
       # Wizard-book / initiation vocabulary (P-OA, P-WW, etc.)
       - orgone               # Reich's hypothetical bioenergetic field (P-OA)
       - vegetotherapy        # Reich's body-oriented therapy (P-OA)
@@ -348,6 +357,7 @@ namespaces:
       - "1940"
       - "2011"
       - "2016"
+      - "2022"
 
   # ===========================================================================
   # zone — the gesture's home zone on the territory map. Mirrors the
@@ -390,3 +400,58 @@ namespaces:
       - sw
       - w
       - nw
+
+  # ===========================================================================
+  # technology — material technologies the gesture references as part of
+  # its system-naming. Distinct from `concept` (an idea) and `place` (a
+  # location): a technology is a built artifact whose form has political
+  # consequences (the car, the road, the platform, the algorithm).
+  # ===========================================================================
+  technology:
+    description: |
+      Material technologies the gesture invokes as agents in the system
+      it describes. Use when the technology is doing political work in
+      the prose, not just appearing as scenery.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - car                # the automobile as urban-form determinant (P-01)
+
+  # ===========================================================================
+  # emotion — the emotional weather of the gesture. Distinct from voice
+  # (who is speaking) and concept (what is being argued); emotion is the
+  # affective register the prose carries. The book has an emotional spine
+  # as much as an argumentative one; this is the axis to query it on.
+  # ===========================================================================
+  emotion:
+    description: |
+      The emotional register the gesture carries or evokes. Use sparingly;
+      most gestures are emotionally complex. Tag only when one register
+      is doing load-bearing work.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - rage               # the rage-at-functioning-system register (P-01)
+      - fatigue            # exhaustion, capacity-depletion (P-01, P-OA)
+      - disgust            # the moral-disgust pivot that precedes exodus (P-01)
+
+  # ===========================================================================
+  # action — what happens IN the gesture as an act, distinct from the
+  # gesture's rhetorical `kind`. `kind/naming` is a gesture that names;
+  # `action/naming` is a gesture in which an act of naming occurs (a
+  # character names something). Both can be true; they answer different
+  # questions about the same gesture.
+  # ===========================================================================
+  action:
+    description: |
+      The act performed within the gesture (someone travels, names,
+      exits, votes). Distinct from `kind` (the gesture's rhetorical form).
+      A gesture can carry both; they answer different questions.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - travel             # going-to-other-places, often as comparison-source (P-01)
+      - naming             # an act of naming-out-loud occurs in the gesture (P-01)
+      - narrative          # a narrative is told within the gesture
+      - parliamentary      # a procedural / vote / motion act (P-01)
+      - exodus             # an act of leaving — quit, resign, walk out (P-01)

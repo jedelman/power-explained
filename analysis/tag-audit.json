@@ -73,8 +73,9 @@
       }
     },
     "kind": {
-      "tagged": 197,
+      "tagged": 202,
       "byPlateau": {
+        "P-01": 5,
         "P-04": 25,
         "P-AB": 69,
         "P-GC": 50,
@@ -127,8 +128,9 @@
       }
     },
     "place": {
-      "tagged": 49,
+      "tagged": 59,
       "byPlateau": {
+        "P-01": 10,
         "P-04": 23,
         "P-AB": 22,
         "P-OA": 3,
@@ -136,8 +138,9 @@
       }
     },
     "person": {
-      "tagged": 63,
+      "tagged": 64,
       "byPlateau": {
+        "P-01": 1,
         "P-04": 17,
         "P-AB": 22,
         "P-GC": 13,
@@ -145,8 +148,9 @@
       }
     },
     "concept": {
-      "tagged": 136,
+      "tagged": 152,
       "byPlateau": {
+        "P-01": 16,
         "P-04": 20,
         "P-AB": 58,
         "P-GC": 28,
@@ -155,8 +159,9 @@
       }
     },
     "year": {
-      "tagged": 31,
+      "tagged": 32,
       "byPlateau": {
+        "P-01": 1,
         "P-04": 21,
         "P-AB": 8,
         "P-GC": 1,
@@ -181,6 +186,24 @@
         "P-GC": 50,
         "P-OA": 21,
         "P-WW": 32
+      }
+    },
+    "technology": {
+      "tagged": 1,
+      "byPlateau": {
+        "P-01": 1
+      }
+    },
+    "emotion": {
+      "tagged": 4,
+      "byPlateau": {
+        "P-01": 4
+      }
+    },
+    "action": {
+      "tagged": 5,
+      "byPlateau": {
+        "P-01": 5
       }
     }
   },
@@ -225,13 +248,17 @@
       "argument": 86,
       "scene": 66,
       "landing": 52,
-      "naming": 40,
+      "naming": 41,
       "recovery": 23,
       "turn": 22,
       "litany": 10,
       "aside": 10,
       "practice": 3,
       "praise": 2,
+      "synthesis": 1,
+      "orientation": 1,
+      "polemic": 1,
+      "naturalist": 1,
       "coda": 1
     },
     "capacity": {
@@ -246,15 +273,18 @@
       "draft": 911
     },
     "place": {
+      "hampton-roads": 10,
+      "norfolk-va": 9,
       "paris": 8,
       "washington-state": 7,
       "jackson-ms": 6,
       "basque-country": 5,
       "arrasate": 5,
       "burlington-vt": 5,
-      "norfolk-va": 5,
       "champlain": 4,
       "chiapas": 3,
+      "new-york": 2,
+      "seattle": 2,
       "spain": 2,
       "mondragon": 2,
       "virginia": 2,
@@ -266,28 +296,25 @@
       "kerala": 1,
       "india": 1,
       "brooklyn": 1,
-      "new-york": 1,
       "mexico": 1,
       "oventic": 1,
       "valencia": 1,
       "ilocos": 1,
       "zuccotti-park": 1,
-      "hampton-roads": 1,
       "portbou": 1,
       "germany": 1,
       "norway": 1,
-      "seattle": 1,
       "the-south": 1
     },
     "person": {
       "benjamin": 18,
       "arizmendiarrieta": 7,
       "reich": 6,
+      "gramsci": 5,
       "klee": 5,
       "lumumba-chokwe": 4,
       "lumumba-chokwe-antar": 4,
       "foucault": 4,
-      "gramsci": 4,
       "sanders-bernie": 3,
       "plotkin": 3,
       "arendt": 3,
@@ -318,14 +345,15 @@
       "aura": 18,
       "commons": 16,
       "the-wizard": 16,
+      "hegemony": 14,
+      "enclosure": 14,
       "production-of-subjectivity": 14,
-      "enclosure": 13,
       "the-council": 10,
-      "hegemony": 9,
       "character-armor": 9,
       "clt": 7,
       "cooperative": 6,
       "biopower": 6,
+      "community": 5,
       "auzolan": 5,
       "the-collector": 5,
       "dialectical-image": 5,
@@ -336,18 +364,22 @@
       "progress": 4,
       "the-line": 4,
       "burnout": 4,
+      "primitive-accumulation": 3,
+      "conscientization": 3,
+      "solidarity": 3,
       "caracol": 3,
-      "community": 3,
       "discipline": 3,
+      "civil-society": 2,
+      "attention": 2,
       "etxe": 2,
       "federation": 2,
       "degenerate-art": 2,
       "biopolitics": 2,
-      "solidarity": 2,
-      "primitive-accumulation": 2,
-      "conscientização": 2,
       "being-held": 2,
       "kokoro": 2,
+      "necropolitics": 1,
+      "simulation": 1,
+      "capture": 1,
       "lehen-auzoa": 1,
       "racial-capitalism": 1,
       "andecha": 1,
@@ -367,7 +399,6 @@
       "the-shrug": 1,
       "wages-of-whiteness": 1,
       "descent": 1,
-      "attention": 1,
       "citta-vritti": 1,
       "practice": 1,
       "mastery": 1
@@ -395,6 +426,7 @@
       "2016": 1,
       "2017": 1,
       "2020": 3,
+      "2022": 1,
       "2023": 3,
       "2024": 2,
       "2025": 2,
@@ -414,6 +446,20 @@
       "se": 15,
       "ne": 9,
       "w": 5
+    },
+    "technology": {
+      "car": 1
+    },
+    "emotion": {
+      "rage": 2,
+      "fatigue": 1,
+      "disgust": 1
+    },
+    "action": {
+      "exodus": 2,
+      "travel": 1,
+      "naming": 1,
+      "parliamentary": 1
     }
   },
   "unknownNs": [],
@@ -426,18 +472,21 @@
       "byNs": {
         "plateau": 34,
         "voice": 34,
-        "kind": 0,
+        "kind": 5,
         "capacity": 0,
         "status": 34,
-        "place": 0,
-        "person": 0,
-        "concept": 0,
-        "year": 0,
+        "place": 10,
+        "person": 1,
+        "concept": 16,
+        "year": 1,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 1,
+        "emotion": 4,
+        "action": 5
       },
-      "totalTags": 102,
-      "conceptTags": 0,
+      "totalTags": 151,
+      "conceptTags": 17,
       "words": 1914
     },
     "P-02": {
@@ -453,7 +502,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 63,
       "conceptTags": 0,
@@ -472,7 +524,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 102,
       "conceptTags": 0,
@@ -491,7 +546,10 @@
         "concept": 20,
         "year": 21,
         "zone": 25,
-        "direction": 25
+        "direction": 25,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 347,
       "conceptTags": 36,
@@ -510,7 +568,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 75,
       "conceptTags": 0,
@@ -529,7 +590,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 102,
       "conceptTags": 0,
@@ -548,7 +612,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 90,
       "conceptTags": 0,
@@ -567,7 +634,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 60,
       "conceptTags": 0,
@@ -586,7 +656,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 87,
       "conceptTags": 0,
@@ -605,7 +678,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 96,
       "conceptTags": 0,
@@ -624,7 +700,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 75,
       "conceptTags": 0,
@@ -643,7 +722,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 84,
       "conceptTags": 0,
@@ -662,7 +744,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 93,
       "conceptTags": 0,
@@ -681,7 +766,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 96,
       "conceptTags": 0,
@@ -700,7 +788,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 66,
       "conceptTags": 0,
@@ -719,7 +810,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 153,
       "conceptTags": 0,
@@ -738,7 +832,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 156,
       "conceptTags": 0,
@@ -757,7 +854,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 126,
       "conceptTags": 0,
@@ -776,7 +876,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 117,
       "conceptTags": 0,
@@ -795,7 +898,10 @@
         "concept": 58,
         "year": 8,
         "zone": 69,
-        "direction": 69
+        "direction": 69,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 746,
       "conceptTags": 107,
@@ -814,7 +920,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 81,
       "conceptTags": 0,
@@ -833,7 +942,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 42,
       "conceptTags": 0,
@@ -852,7 +964,10 @@
         "concept": 28,
         "year": 1,
         "zone": 50,
-        "direction": 50
+        "direction": 50,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 486,
       "conceptTags": 45,
@@ -871,7 +986,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 30,
       "conceptTags": 0,
@@ -890,7 +1008,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 54,
       "conceptTags": 0,
@@ -909,7 +1030,10 @@
         "concept": 20,
         "year": 1,
         "zone": 21,
-        "direction": 21
+        "direction": 21,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 222,
       "conceptTags": 36,
@@ -928,7 +1052,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 93,
       "conceptTags": 0,
@@ -947,7 +1074,10 @@
         "concept": 0,
         "year": 0,
         "zone": 0,
-        "direction": 0
+        "direction": 0,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 99,
       "conceptTags": 0,
@@ -966,7 +1096,10 @@
         "concept": 10,
         "year": 0,
         "zone": 32,
-        "direction": 32
+        "direction": 32,
+        "technology": 0,
+        "emotion": 0,
+        "action": 0
       },
       "totalTags": 281,
       "conceptTags": 15,

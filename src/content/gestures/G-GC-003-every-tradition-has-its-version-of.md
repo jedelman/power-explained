@@ -13,7 +13,7 @@ tags:
   - capacity/read
   - status/draft
   - person/freire
-  - concept/conscientização
+  - concept/conscientization
   - zone/high-ridges
   - direction/ne
 

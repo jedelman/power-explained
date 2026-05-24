@@ -7,6 +7,10 @@ tags:
   - plateau/P-01
   - voice/jason
   - status/draft
+  - place/hampton-roads
+  - place/new-york
+  - place/norfolk-va
+  - place/seattle
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 
