@@ -23,7 +23,7 @@
 #     files (same discipline as renaming a gesture ID).
 
 version: 1
-last_revised: 2026-05-23
+last_revised: 2026-05-24
 
 namespaces:
 
@@ -113,6 +113,9 @@ namespaces:
       - recovery          # recovers something dormant
       - aside             # interjection, often voice-shifted
       - prose             # catch-all for unmarked moves (use sparingly)
+      - practice          # how-to-do gesture: instructions for a reader practice
+      - praise            # blessing / acknowledgment register (P-WW opening)
+      - coda              # closing gesture that resolves and exits
 
   # ===========================================================================
   # capacity — which of the six reader capacities the gesture builds.
@@ -189,6 +192,10 @@ namespaces:
       - hampton-roads      # Hampton Boulevard, Norfolk-Portsmouth-Newport News region
       - zuccotti-park      # Occupy 2011
       - standing-rock      # 2016 prayer camp
+      - germany            # Reich's exile origin (P-OA)
+      - norway             # Reich's middle exile (P-OA)
+      - seattle            # the floor practice setting (P-OA)
+      - the-south          # the-shrug's regional locus (P-OA)
 
   # ===========================================================================
   # person — historical or named individuals the gesture is about.
@@ -228,6 +235,10 @@ namespaces:
       - prechtel             # Martín Prechtel — the descent requires a community that knows how to receive
       - arendt               # Hannah Arendt — carried Benjamin's Theses out of France
       - plotkin              # Bill Plotkin — Soulcraft, the soul's gift
+      - reich                # Wilhelm Reich — character armor, the orgone work (P-OA)
+      - freud                # Sigmund Freud — Reich's analyst, the death-drive
+      - jung                 # Carl Jung — Reich's contemporary, individuation
+      - buddha               # the Buddha — citta-vritti, the floor practice
 
   # ===========================================================================
   # concept — book-level concepts and named practices.
@@ -278,6 +289,26 @@ namespaces:
       - degenerate-art       # Nazi designation; the painter as madman
       - progress             # the storm — the official story of forward motion that buries what it enclosed
       - solidarity           # connection's political name — the act the demons have never been able to administer
+      # Wizard-book / initiation vocabulary (P-OA, P-WW, etc.)
+      - orgone               # Reich's hypothetical bioenergetic field (P-OA)
+      - vegetotherapy        # Reich's body-oriented therapy (P-OA)
+      - dearmoring           # the practice of unbinding character-armor (P-OA)
+      - workers-democracy    # Reich's political form before the box (P-OA)
+      - death-drive          # Freud's Thanatos — Reich's break with Freud (P-OA)
+      - burnout              # the structural form of armor's collapse (P-OA)
+      - discipline           # the practice that holds, not the punishment (P-OA)
+      - practice             # the noun: a thing done repeatedly until it knows you (P-OA)
+      - mastery              # what practice is and isn't aiming at (P-OA)
+      - attention            # the substrate the enclosure tries to enclose (P-OA, P-RE)
+      - resonance            # somatic register: bodies responding to bodies (P-OA)
+      - being-held           # what community gives that armor was substituting for (P-OA)
+      - community            # the formal counter-form to character-armor (P-OA)
+      - kokoro               # Japanese — heart-mind, the unified seat (P-OA)
+      - spirit               # the generalized form held in P-OA's register
+      - citta-vritti         # Sanskrit — the fluctuations of consciousness (P-OA)
+      - descent              # the underworld passage that becomes curriculum (P-OA, P-AB)
+      - the-shrug            # the gesture as system — Chapter 6's title (P-06)
+      - wages-of-whiteness   # Du Bois — the psychic compensation that purchased silence (P-OA)
 
   # ===========================================================================
   # year — the time the gesture takes place in or anchors to. Used by
@@ -333,6 +364,7 @@ namespaces:
       - clearings
       - high-ridges
       - old-growth
+      - second-growth      # regrown forest; the wizard-book practice ground (P-OA)
       - the-river
       - the-wizards-cottage
       - standing-stones
