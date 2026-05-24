@@ -36,8 +36,11 @@ gestures:
   - G-RE-030
   - G-RE-032
   - G-RE-033
+  - G-RE-033a
   - G-RE-034
+  - G-RE-034a
   - G-RE-037
+  - G-RE-037a
   - G-RE-038
   - G-RE-039
   - G-RE-040
@@ -65,6 +68,9 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
