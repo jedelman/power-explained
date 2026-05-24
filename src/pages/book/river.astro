@@ -1,0 +1,229 @@
+---
+import Base from '../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+
+const RIVER = yaml.load(
+  fs.readFileSync(resolve('src/content/manifests/the-river.manifest.yml'), 'utf8'),
+)
+
+function readChapterMeta(slug) {
+  const text = fs.readFileSync(resolve(`src/content/book/${slug}.md`), 'utf8')
+  const end = text.indexOf('\n---\n', 4)
+  const fm = yaml.load(text.slice(4, end)) || {}
+  return {
+    slug,
+    title: fm.title || slug,
+    h1: fm.h1 || fm.title || slug,
+    part: (fm.part || '').trim(),
+    plateauId: typeof fm.plateau === 'object' ? fm.plateau?.id : fm.plateau,
+    gestureCount: Array.isArray(fm.gestures) ? fm.gestures.length : 0,
+  }
+}
+
+const chapters = RIVER.sources.map(slug => ({
+  ...readChapterMeta(slug),
+  body: composePlateauBody(resolve(`src/content/book/${slug}.md`)),
+}))
+
+const totalGestures = chapters.reduce((s, c) => s + c.gestureCount, 0)
+const totalWords = chapters.reduce(
+  (s, c) => s + c.body.trim().split(/\s+/).filter(Boolean).length,
+  0,
+)
+
+// Group consecutive chapters by `part` for the ToC.
+const tocParts = []
+for (const c of chapters) {
+  const last = tocParts[tocParts.length - 1]
+  const partKey = c.part || '(unlabeled)'
+  if (!last || last.part !== partKey) {
+    tocParts.push({ part: partKey, chapters: [c] })
+  } else {
+    last.chapters.push(c)
+  }
+}
+
+function md(text) {
+  return text
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/_(.+?)_/g, '<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/^---$/gm, '<hr class="section-break" />')
+    .split(/\n\n+/)
+    .map(b => {
+      b = b.trim()
+      if (!b) return ''
+      if (b.startsWith('<h') || b.startsWith('<hr')) return b
+      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**')) {
+        return `<p class="chapter-coda">${b.slice(1, -1)}</p>`
+      }
+      return `<p>${b.replace(/\n/g, ' ')}</p>`
+    })
+    .filter(Boolean)
+    .join('\n')
+}
+---
+<Base
+  title="The River — Power Explained"
+  description="All 911 gestures in canonical book order. Phase 0 of the chapter restructure: one continuous read of the whole book for the consistency pass."
+>
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="book-nav">
+        <a href="/book">← The Book</a>
+        <span class="book-nav-sep">·</span>
+        <span>Consistency-pass view</span>
+      </p>
+      <p class="book-label">Whole book · one stream</p>
+      <h1>The River</h1>
+      <p class="hero-dek">
+        {chapters.length} chapters · {totalGestures} gestures ·
+        ~{totalWords.toLocaleString()} words. The book read end to end with
+        chapter seams removed. Chapter anchors below; the prose flows past them.
+      </p>
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <details class="river-toc" open>
+      <summary>Chapter index</summary>
+      <div class="toc-inner">
+        {tocParts.map(p => (
+          <div class="toc-part">
+            <div class="toc-part-label">{p.part}</div>
+            <ul class="toc-list">
+              {p.chapters.map(c => (
+                <li>
+                  <a href={`#${c.slug}`}>{c.h1}</a>
+                  <span class="toc-meta">{c.plateauId} · {c.gestureCount}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </details>
+
+    <div class="body-text river-body" data-pagefind-body>
+      {chapters.map((c, i) => (
+        <section id={c.slug} class="river-chapter" data-plateau={c.plateauId}>
+          <header class="river-chapter-head">
+            {c.part && <p class="river-part">{c.part}</p>}
+            <p class="river-slug">{c.plateauId} · {c.slug}</p>
+            <h2 class="river-chapter-title">{c.h1}</h2>
+          </header>
+          <div set:html={md(c.body)} />
+          {i < chapters.length - 1 && <hr class="river-chapter-break" />}
+        </section>
+      ))}
+    </div>
+
+    <p class="river-foot">
+      End of the river. Source manifest:
+      <code>src/content/manifests/the-river.manifest.yml</code>.
+      Snapshot lock:
+      <code>for-agents/snapshots/the-river-pre-flatten.md</code>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+  .book-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .hero-dek { font-size: 0.9rem; line-height: 1.6; opacity: 0.7; max-width: 36rem; }
+
+  .river-toc {
+    margin: 2rem 0 3rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--rule);
+    background: var(--paper-mid);
+    border-radius: 2px;
+    font-size: 0.9rem;
+  }
+  .river-toc summary {
+    cursor: pointer;
+    font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.6;
+    padding: 0.25rem 0;
+  }
+  .toc-inner {
+    margin-top: 1rem;
+    display: grid; gap: 1.25rem;
+  }
+  .toc-part-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 0.4rem;
+  }
+  .toc-list { list-style: none; padding: 0; margin: 0; }
+  .toc-list li {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 0.2rem 0;
+    border-bottom: 1px dotted rgba(var(--ink-rgb), 0.1);
+  }
+  .toc-list a { color: var(--ink); text-decoration: none; }
+  .toc-list a:hover { color: var(--red); }
+  .toc-meta {
+    font-family: var(--mono); font-size: 0.65rem; opacity: 0.4;
+    white-space: nowrap; padding-left: 1rem;
+  }
+
+  .river-chapter { margin: 0 0 2rem; scroll-margin-top: 1rem; }
+  .river-chapter-head {
+    margin: 3rem 0 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed rgba(var(--ink-rgb), 0.15);
+  }
+  .river-chapter:first-of-type .river-chapter-head {
+    margin-top: 0; padding-top: 0; border-top: none;
+  }
+  .river-part {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin: 0 0 0.5rem;
+  }
+  .river-slug {
+    font-family: var(--mono); font-size: 0.6rem; opacity: 0.35;
+    margin: 0 0 0.3rem;
+  }
+  .river-chapter-title {
+    font-family: var(--display); font-size: 1.4rem; font-weight: 600;
+    margin: 0 0 1.5rem; color: var(--ink);
+  }
+  .river-chapter-break {
+    border: none; border-top: 1px solid var(--rule); margin: 4rem 0 0;
+  }
+
+  .river-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .river-body :global(.chapter-coda) {
+    font-family: var(--mono); font-size: 0.8rem; line-height: 1.7;
+    color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem;
+    padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px;
+    background: var(--paper-mid);
+  }
+
+  .river-foot {
+    margin: 4rem 0 2rem;
+    font-family: var(--mono); font-size: 0.7rem; opacity: 0.5;
+    line-height: 1.7;
+  }
+  .river-foot code {
+    font-size: 0.85em; padding: 0.1em 0.3em;
+    background: var(--paper-mid); border-radius: 2px;
+  }
+</style>

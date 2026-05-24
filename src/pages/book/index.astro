@@ -19,7 +19,16 @@ import Base from '../../layouts/Base.astro'
 
       <p>It's being written in public. Chapters appear here as they're drafted.</p>
 
-      <p><a href="/book/prologue" class="book-cta">Look Up</a></p>
+      <p>
+        <a href="/book/prologue" class="book-cta">Look Up</a>
+        <span class="book-cta-sep">·</span>
+        <a href="/book/river" class="book-cta">Read the river</a>
+      </p>
+
+      <p class="river-pitch">
+        <em>The river</em> is the whole book end to end, no chapter seams — the
+        view we're using for the consistency pass.
+      </p>
 
       <hr />
 
@@ -194,6 +203,8 @@ import Base from '../../layouts/Base.astro'
   .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 1rem; }
   .book-cta { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--red); text-decoration: none; }
   .book-cta:hover { text-decoration: underline; }
+  .book-cta-sep { font-family: var(--mono); font-size: 0.75rem; opacity: 0.35; margin: 0 0.6em; }
+  .river-pitch { font-size: 0.85rem; opacity: 0.65; margin-top: 0.5rem; }
   .chapter-list { margin: 2rem 0; }
   .ch-part { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin: 1.5rem 0 0.5rem; }
   .chapter-item { display: grid; grid-template-columns: 3.5rem 1fr auto; gap: 0 1rem; align-items: baseline; padding: 0.6rem 0; border-bottom: 1px solid var(--rule); }
