@@ -1,0 +1,1195 @@
+{
+  "summary": {
+    "gestures": 911,
+    "plateaus": 29
+  },
+  "nsCoverage": {
+    "plateau": {
+      "tagged": 911,
+      "byPlateau": {
+        "P-01": 34,
+        "P-02": 21,
+        "P-03": 34,
+        "P-04": 25,
+        "P-05": 25,
+        "P-06": 34,
+        "P-07": 30,
+        "P-08": 20,
+        "P-09": 29,
+        "P-10": 32,
+        "P-11": 25,
+        "P-12": 28,
+        "P-13": 31,
+        "P-14": 32,
+        "P-15": 22,
+        "P-16": 51,
+        "P-16b": 52,
+        "P-17": 42,
+        "P-18": 39,
+        "P-AB": 69,
+        "P-CE": 27,
+        "P-EP": 14,
+        "P-GC": 50,
+        "P-IB": 10,
+        "P-IW": 18,
+        "P-OA": 21,
+        "P-PR": 31,
+        "P-RE": 33,
+        "P-WW": 32
+      }
+    },
+    "voice": {
+      "tagged": 911,
+      "byPlateau": {
+        "P-01": 34,
+        "P-02": 21,
+        "P-03": 34,
+        "P-04": 25,
+        "P-05": 25,
+        "P-06": 34,
+        "P-07": 30,
+        "P-08": 20,
+        "P-09": 29,
+        "P-10": 32,
+        "P-11": 25,
+        "P-12": 28,
+        "P-13": 31,
+        "P-14": 32,
+        "P-15": 22,
+        "P-16": 51,
+        "P-16b": 52,
+        "P-17": 42,
+        "P-18": 39,
+        "P-AB": 69,
+        "P-CE": 27,
+        "P-EP": 14,
+        "P-GC": 50,
+        "P-IB": 10,
+        "P-IW": 18,
+        "P-OA": 21,
+        "P-PR": 31,
+        "P-RE": 33,
+        "P-WW": 32
+      }
+    },
+    "kind": {
+      "tagged": 197,
+      "byPlateau": {
+        "P-04": 25,
+        "P-AB": 69,
+        "P-GC": 50,
+        "P-OA": 21,
+        "P-WW": 32
+      }
+    },
+    "capacity": {
+      "tagged": 197,
+      "byPlateau": {
+        "P-04": 25,
+        "P-AB": 69,
+        "P-GC": 50,
+        "P-OA": 21,
+        "P-WW": 32
+      }
+    },
+    "status": {
+      "tagged": 911,
+      "byPlateau": {
+        "P-01": 34,
+        "P-02": 21,
+        "P-03": 34,
+        "P-04": 25,
+        "P-05": 25,
+        "P-06": 34,
+        "P-07": 30,
+        "P-08": 20,
+        "P-09": 29,
+        "P-10": 32,
+        "P-11": 25,
+        "P-12": 28,
+        "P-13": 31,
+        "P-14": 32,
+        "P-15": 22,
+        "P-16": 51,
+        "P-16b": 52,
+        "P-17": 42,
+        "P-18": 39,
+        "P-AB": 69,
+        "P-CE": 27,
+        "P-EP": 14,
+        "P-GC": 50,
+        "P-IB": 10,
+        "P-IW": 18,
+        "P-OA": 21,
+        "P-PR": 31,
+        "P-RE": 33,
+        "P-WW": 32
+      }
+    },
+    "place": {
+      "tagged": 49,
+      "byPlateau": {
+        "P-04": 23,
+        "P-AB": 22,
+        "P-OA": 3,
+        "P-WW": 1
+      }
+    },
+    "person": {
+      "tagged": 63,
+      "byPlateau": {
+        "P-04": 17,
+        "P-AB": 22,
+        "P-GC": 13,
+        "P-OA": 11
+      }
+    },
+    "concept": {
+      "tagged": 136,
+      "byPlateau": {
+        "P-04": 20,
+        "P-AB": 58,
+        "P-GC": 28,
+        "P-OA": 20,
+        "P-WW": 10
+      }
+    },
+    "year": {
+      "tagged": 31,
+      "byPlateau": {
+        "P-04": 21,
+        "P-AB": 8,
+        "P-GC": 1,
+        "P-OA": 1
+      }
+    },
+    "zone": {
+      "tagged": 197,
+      "byPlateau": {
+        "P-04": 25,
+        "P-AB": 69,
+        "P-GC": 50,
+        "P-OA": 21,
+        "P-WW": 32
+      }
+    },
+    "direction": {
+      "tagged": 197,
+      "byPlateau": {
+        "P-04": 25,
+        "P-AB": 69,
+        "P-GC": 50,
+        "P-OA": 21,
+        "P-WW": 32
+      }
+    }
+  },
+  "termCounts": {
+    "plateau": {
+      "P-AB": 69,
+      "P-16b": 52,
+      "P-16": 51,
+      "P-GC": 50,
+      "P-17": 42,
+      "P-18": 39,
+      "P-01": 34,
+      "P-03": 34,
+      "P-06": 34,
+      "P-RE": 33,
+      "P-10": 32,
+      "P-14": 32,
+      "P-WW": 32,
+      "P-13": 31,
+      "P-PR": 31,
+      "P-07": 30,
+      "P-09": 29,
+      "P-12": 28,
+      "P-CE": 27,
+      "P-04": 25,
+      "P-05": 25,
+      "P-11": 25,
+      "P-15": 22,
+      "P-02": 21,
+      "P-OA": 21,
+      "P-08": 20,
+      "P-IW": 18,
+      "P-EP": 14,
+      "P-IB": 10
+    },
+    "voice": {
+      "jason": 911,
+      "rukia-lumumba": 1,
+      "subcomandante-moises": 1
+    },
+    "kind": {
+      "argument": 86,
+      "scene": 66,
+      "landing": 52,
+      "naming": 40,
+      "recovery": 23,
+      "turn": 22,
+      "litany": 10,
+      "aside": 10,
+      "practice": 3,
+      "praise": 2,
+      "coda": 1
+    },
+    "capacity": {
+      "read": 100,
+      "name": 92,
+      "hold": 56,
+      "build": 42,
+      "continue": 20,
+      "enter": 11
+    },
+    "status": {
+      "draft": 911
+    },
+    "place": {
+      "paris": 8,
+      "washington-state": 7,
+      "jackson-ms": 6,
+      "basque-country": 5,
+      "arrasate": 5,
+      "burlington-vt": 5,
+      "norfolk-va": 5,
+      "champlain": 4,
+      "chiapas": 3,
+      "spain": 2,
+      "mondragon": 2,
+      "virginia": 2,
+      "crown-heights": 2,
+      "munich": 2,
+      "pyrenees": 2,
+      "standing-rock": 2,
+      "mississippi": 1,
+      "kerala": 1,
+      "india": 1,
+      "brooklyn": 1,
+      "new-york": 1,
+      "mexico": 1,
+      "oventic": 1,
+      "valencia": 1,
+      "ilocos": 1,
+      "zuccotti-park": 1,
+      "hampton-roads": 1,
+      "portbou": 1,
+      "germany": 1,
+      "norway": 1,
+      "seattle": 1,
+      "the-south": 1
+    },
+    "person": {
+      "benjamin": 18,
+      "arizmendiarrieta": 7,
+      "reich": 6,
+      "klee": 5,
+      "lumumba-chokwe": 4,
+      "lumumba-chokwe-antar": 4,
+      "foucault": 4,
+      "gramsci": 4,
+      "sanders-bernie": 3,
+      "plotkin": 3,
+      "arendt": 3,
+      "freire": 3,
+      "lumumba-rukia": 2,
+      "ostrom-elinor": 2,
+      "luxemburg": 2,
+      "federici": 2,
+      "debord": 2,
+      "hardt": 2,
+      "negri": 2,
+      "deleuze": 2,
+      "guattari": 2,
+      "franco": 1,
+      "pope-francis": 1,
+      "reagan": 1,
+      "subcomandante-moises": 1,
+      "alexander": 1,
+      "prechtel": 1,
+      "fanon": 1,
+      "freud": 1,
+      "jung": 1,
+      "du-bois": 1,
+      "buddha": 1
+    },
+    "concept": {
+      "the-shard": 19,
+      "aura": 18,
+      "commons": 16,
+      "the-wizard": 16,
+      "production-of-subjectivity": 14,
+      "enclosure": 13,
+      "the-council": 10,
+      "hegemony": 9,
+      "character-armor": 9,
+      "clt": 7,
+      "cooperative": 6,
+      "biopower": 6,
+      "auzolan": 5,
+      "the-collector": 5,
+      "dialectical-image": 5,
+      "the-back-line": 5,
+      "sacred": 5,
+      "the-outside": 5,
+      "mutual-aid": 4,
+      "progress": 4,
+      "the-line": 4,
+      "burnout": 4,
+      "caracol": 3,
+      "community": 3,
+      "discipline": 3,
+      "etxe": 2,
+      "federation": 2,
+      "degenerate-art": 2,
+      "biopolitics": 2,
+      "solidarity": 2,
+      "primitive-accumulation": 2,
+      "conscientização": 2,
+      "being-held": 2,
+      "kokoro": 2,
+      "lehen-auzoa": 1,
+      "racial-capitalism": 1,
+      "andecha": 1,
+      "bayanihan": 1,
+      "minga": 1,
+      "junta-de-buen-gobierno": 1,
+      "mandar-obedeciendo": 1,
+      "detournement": 1,
+      "sacer": 1,
+      "orgone": 1,
+      "workers-democracy": 1,
+      "vegetotherapy": 1,
+      "dearmoring": 1,
+      "death-drive": 1,
+      "resonance": 1,
+      "spirit": 1,
+      "the-shrug": 1,
+      "wages-of-whiteness": 1,
+      "descent": 1,
+      "attention": 1,
+      "citta-vritti": 1,
+      "practice": 1,
+      "mastery": 1
+    },
+    "year": {
+      "1920": 1,
+      "1921": 1,
+      "1933": 3,
+      "1936": 1,
+      "1940": 2,
+      "1941": 5,
+      "1956": 2,
+      "1976": 1,
+      "1981": 2,
+      "1983": 1,
+      "1984": 2,
+      "1991": 1,
+      "1994": 1,
+      "1996": 1,
+      "2003": 2,
+      "2011": 1,
+      "2013": 3,
+      "2014": 4,
+      "2015": 1,
+      "2016": 1,
+      "2017": 1,
+      "2020": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "zone": {
+      "the-wizards-cottage": 101,
+      "high-ridges": 50,
+      "clearings": 25,
+      "second-growth": 21
+    },
+    "direction": {
+      "n": 64,
+      "nw": 40,
+      "e": 39,
+      "s": 25,
+      "se": 15,
+      "ne": 9,
+      "w": 5
+    }
+  },
+  "unknownNs": [],
+  "unknownClosed": [
+    {
+      "ns": "kind",
+      "term": "praise",
+      "count": 2,
+      "files": [
+        "G-OA-001",
+        "G-WW-001"
+      ]
+    },
+    {
+      "ns": "kind",
+      "term": "practice",
+      "count": 3,
+      "files": [
+        "G-OA-001b",
+        "G-OA-011",
+        "G-OA-011b"
+      ]
+    },
+    {
+      "ns": "kind",
+      "term": "coda",
+      "count": 1,
+      "files": [
+        "G-OA-011b"
+      ]
+    },
+    {
+      "ns": "zone",
+      "term": "second-growth",
+      "count": 21,
+      "files": [
+        "G-OA-001",
+        "G-OA-001b",
+        "G-OA-002",
+        "G-OA-002b",
+        "G-OA-002c",
+        "G-OA-003",
+        "G-OA-003b",
+        "G-OA-004",
+        "G-OA-005",
+        "G-OA-005b",
+        "G-OA-005c",
+        "G-OA-006",
+        "G-OA-007",
+        "G-OA-007b",
+        "G-OA-008",
+        "G-OA-008b",
+        "G-OA-008c",
+        "G-OA-009",
+        "G-OA-010",
+        "G-OA-011",
+        "G-OA-011b"
+      ]
+    }
+  ],
+  "unknownOpen": [
+    {
+      "ns": "person",
+      "term": "reich",
+      "count": 6,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "burnout",
+      "count": 4,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "community",
+      "count": 3,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "discipline",
+      "count": 3,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "being-held",
+      "count": 2,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "kokoro",
+      "count": 2,
+      "plateaus": 1
+    },
+    {
+      "ns": "place",
+      "term": "germany",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "place",
+      "term": "norway",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "place",
+      "term": "seattle",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "place",
+      "term": "the-south",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "person",
+      "term": "freud",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "person",
+      "term": "jung",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "person",
+      "term": "buddha",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "orgone",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "workers-democracy",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "vegetotherapy",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "dearmoring",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "death-drive",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "resonance",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "spirit",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "the-shrug",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "wages-of-whiteness",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "descent",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "attention",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "citta-vritti",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "practice",
+      "count": 1,
+      "plateaus": 1
+    },
+    {
+      "ns": "concept",
+      "term": "mastery",
+      "count": 1,
+      "plateaus": 1
+    }
+  ],
+  "variants": [],
+  "plateauStats": {
+    "P-01": {
+      "total": 34,
+      "byNs": {
+        "plateau": 34,
+        "voice": 34,
+        "kind": 0,
+        "capacity": 0,
+        "status": 34,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 102,
+      "conceptTags": 0,
+      "words": 1914
+    },
+    "P-02": {
+      "total": 21,
+      "byNs": {
+        "plateau": 21,
+        "voice": 21,
+        "kind": 0,
+        "capacity": 0,
+        "status": 21,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 63,
+      "conceptTags": 0,
+      "words": 1367
+    },
+    "P-03": {
+      "total": 34,
+      "byNs": {
+        "plateau": 34,
+        "voice": 34,
+        "kind": 0,
+        "capacity": 0,
+        "status": 34,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 102,
+      "conceptTags": 0,
+      "words": 2737
+    },
+    "P-04": {
+      "total": 25,
+      "byNs": {
+        "plateau": 25,
+        "voice": 25,
+        "kind": 25,
+        "capacity": 25,
+        "status": 25,
+        "place": 23,
+        "person": 17,
+        "concept": 20,
+        "year": 21,
+        "zone": 25,
+        "direction": 25
+      },
+      "totalTags": 347,
+      "conceptTags": 36,
+      "words": 4226
+    },
+    "P-05": {
+      "total": 25,
+      "byNs": {
+        "plateau": 25,
+        "voice": 25,
+        "kind": 0,
+        "capacity": 0,
+        "status": 25,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 75,
+      "conceptTags": 0,
+      "words": 1740
+    },
+    "P-06": {
+      "total": 34,
+      "byNs": {
+        "plateau": 34,
+        "voice": 34,
+        "kind": 0,
+        "capacity": 0,
+        "status": 34,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 102,
+      "conceptTags": 0,
+      "words": 2742
+    },
+    "P-07": {
+      "total": 30,
+      "byNs": {
+        "plateau": 30,
+        "voice": 30,
+        "kind": 0,
+        "capacity": 0,
+        "status": 30,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 90,
+      "conceptTags": 0,
+      "words": 2928
+    },
+    "P-08": {
+      "total": 20,
+      "byNs": {
+        "plateau": 20,
+        "voice": 20,
+        "kind": 0,
+        "capacity": 0,
+        "status": 20,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 60,
+      "conceptTags": 0,
+      "words": 2425
+    },
+    "P-09": {
+      "total": 29,
+      "byNs": {
+        "plateau": 29,
+        "voice": 29,
+        "kind": 0,
+        "capacity": 0,
+        "status": 29,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 87,
+      "conceptTags": 0,
+      "words": 2544
+    },
+    "P-10": {
+      "total": 32,
+      "byNs": {
+        "plateau": 32,
+        "voice": 32,
+        "kind": 0,
+        "capacity": 0,
+        "status": 32,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 96,
+      "conceptTags": 0,
+      "words": 2664
+    },
+    "P-11": {
+      "total": 25,
+      "byNs": {
+        "plateau": 25,
+        "voice": 25,
+        "kind": 0,
+        "capacity": 0,
+        "status": 25,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 75,
+      "conceptTags": 0,
+      "words": 3163
+    },
+    "P-12": {
+      "total": 28,
+      "byNs": {
+        "plateau": 28,
+        "voice": 28,
+        "kind": 0,
+        "capacity": 0,
+        "status": 28,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 84,
+      "conceptTags": 0,
+      "words": 2905
+    },
+    "P-13": {
+      "total": 31,
+      "byNs": {
+        "plateau": 31,
+        "voice": 31,
+        "kind": 0,
+        "capacity": 0,
+        "status": 31,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 93,
+      "conceptTags": 0,
+      "words": 3053
+    },
+    "P-14": {
+      "total": 32,
+      "byNs": {
+        "plateau": 32,
+        "voice": 32,
+        "kind": 0,
+        "capacity": 0,
+        "status": 32,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 96,
+      "conceptTags": 0,
+      "words": 2671
+    },
+    "P-15": {
+      "total": 22,
+      "byNs": {
+        "plateau": 22,
+        "voice": 22,
+        "kind": 0,
+        "capacity": 0,
+        "status": 22,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 66,
+      "conceptTags": 0,
+      "words": 1763
+    },
+    "P-16": {
+      "total": 51,
+      "byNs": {
+        "plateau": 51,
+        "voice": 51,
+        "kind": 0,
+        "capacity": 0,
+        "status": 51,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 153,
+      "conceptTags": 0,
+      "words": 3231
+    },
+    "P-16b": {
+      "total": 52,
+      "byNs": {
+        "plateau": 52,
+        "voice": 52,
+        "kind": 0,
+        "capacity": 0,
+        "status": 52,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 156,
+      "conceptTags": 0,
+      "words": 2470
+    },
+    "P-17": {
+      "total": 42,
+      "byNs": {
+        "plateau": 42,
+        "voice": 42,
+        "kind": 0,
+        "capacity": 0,
+        "status": 42,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 126,
+      "conceptTags": 0,
+      "words": 2680
+    },
+    "P-18": {
+      "total": 39,
+      "byNs": {
+        "plateau": 39,
+        "voice": 39,
+        "kind": 0,
+        "capacity": 0,
+        "status": 39,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 117,
+      "conceptTags": 0,
+      "words": 1963
+    },
+    "P-AB": {
+      "total": 69,
+      "byNs": {
+        "plateau": 69,
+        "voice": 69,
+        "kind": 69,
+        "capacity": 69,
+        "status": 69,
+        "place": 22,
+        "person": 22,
+        "concept": 58,
+        "year": 8,
+        "zone": 69,
+        "direction": 69
+      },
+      "totalTags": 746,
+      "conceptTags": 107,
+      "words": 4618
+    },
+    "P-CE": {
+      "total": 27,
+      "byNs": {
+        "plateau": 27,
+        "voice": 27,
+        "kind": 0,
+        "capacity": 0,
+        "status": 27,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 81,
+      "conceptTags": 0,
+      "words": 1890
+    },
+    "P-EP": {
+      "total": 14,
+      "byNs": {
+        "plateau": 14,
+        "voice": 14,
+        "kind": 0,
+        "capacity": 0,
+        "status": 14,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 42,
+      "conceptTags": 0,
+      "words": 1165
+    },
+    "P-GC": {
+      "total": 50,
+      "byNs": {
+        "plateau": 50,
+        "voice": 50,
+        "kind": 50,
+        "capacity": 50,
+        "status": 50,
+        "place": 0,
+        "person": 13,
+        "concept": 28,
+        "year": 1,
+        "zone": 50,
+        "direction": 50
+      },
+      "totalTags": 486,
+      "conceptTags": 45,
+      "words": 2953
+    },
+    "P-IB": {
+      "total": 10,
+      "byNs": {
+        "plateau": 10,
+        "voice": 10,
+        "kind": 0,
+        "capacity": 0,
+        "status": 10,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 30,
+      "conceptTags": 0,
+      "words": 610
+    },
+    "P-IW": {
+      "total": 18,
+      "byNs": {
+        "plateau": 18,
+        "voice": 18,
+        "kind": 0,
+        "capacity": 0,
+        "status": 18,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 54,
+      "conceptTags": 0,
+      "words": 1325
+    },
+    "P-OA": {
+      "total": 21,
+      "byNs": {
+        "plateau": 21,
+        "voice": 21,
+        "kind": 21,
+        "capacity": 21,
+        "status": 21,
+        "place": 3,
+        "person": 11,
+        "concept": 20,
+        "year": 1,
+        "zone": 21,
+        "direction": 21
+      },
+      "totalTags": 222,
+      "conceptTags": 36,
+      "words": 7350
+    },
+    "P-PR": {
+      "total": 31,
+      "byNs": {
+        "plateau": 31,
+        "voice": 31,
+        "kind": 0,
+        "capacity": 0,
+        "status": 31,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 93,
+      "conceptTags": 0,
+      "words": 2381
+    },
+    "P-RE": {
+      "total": 33,
+      "byNs": {
+        "plateau": 33,
+        "voice": 33,
+        "kind": 0,
+        "capacity": 0,
+        "status": 33,
+        "place": 0,
+        "person": 0,
+        "concept": 0,
+        "year": 0,
+        "zone": 0,
+        "direction": 0
+      },
+      "totalTags": 99,
+      "conceptTags": 0,
+      "words": 2804
+    },
+    "P-WW": {
+      "total": 32,
+      "byNs": {
+        "plateau": 32,
+        "voice": 32,
+        "kind": 32,
+        "capacity": 32,
+        "status": 32,
+        "place": 1,
+        "person": 0,
+        "concept": 10,
+        "year": 0,
+        "zone": 32,
+        "direction": 32
+      },
+      "totalTags": 281,
+      "conceptTags": 15,
+      "words": 3859
+    }
+  }
+}
