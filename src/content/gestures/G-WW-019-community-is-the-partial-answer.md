@@ -1,7 +1,7 @@
 ---
 id: G-WW-019
 plateau: P-WW
-title: "Community Is the Partial Answer"
+title: Community Is the Partial Answer
 slug: community-is-the-partial-answer
 tags:
   - plateau/P-WW
@@ -15,6 +15,8 @@ tags:
   - zone/the-wizards-cottage
   - concept/the-council
   - concept/commons
+  - concept/the-outside
+  - concept/community
 beauty_check:
   passed: false
   notes: |

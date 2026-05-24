@@ -7,11 +7,12 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - concept/practice
+  - concept/attention
 notes: >-
-  Drafted 2026-05-24 from Jason's direction: take cues from them, read and
-  respond to their response — that builds the two-way channel. "Intersubjectivity"
-  buried per Jason. Added: if they're tense, they're probably picking up on your
-  tension — relax. Inserted between G-RE-034 and G-RE-037.
+  Drafted 2026-05-24 from Jason's direction: take cues from them, read and respond to their response
+  — that builds the two-way channel. "Intersubjectivity" buried per Jason. Added: if they're tense,
+  they're probably picking up on your tension — relax. Inserted between G-RE-034 and G-RE-037.
 ---
 The practice continues in their response. Watch what happens after you've acknowledged them — whether you spoke, nodded, or simply stopped and let your attention rest on them.
 

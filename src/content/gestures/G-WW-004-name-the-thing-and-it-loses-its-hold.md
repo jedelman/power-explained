@@ -1,7 +1,7 @@
 ---
 id: G-WW-004
 plateau: P-WW
-title: "Name the Thing and It Loses Its Hold"
+title: Name the Thing and It Loses Its Hold
 slug: name-the-thing-and-it-loses-its-hold
 tags:
   - plateau/P-WW
@@ -13,6 +13,11 @@ tags:
   - direction/n
   - zone/the-wizards-cottage
   - concept/production-of-subjectivity
+  - concept/the-shrug
+  - concept/enclosure
+  - concept/hegemony
+  - concept/biopower
+  - concept/the-wizard
 beauty_check:
   passed: false
   notes: |

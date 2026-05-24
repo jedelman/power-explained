@@ -1,7 +1,7 @@
 ---
 id: G-WW-017
 plateau: P-WW
-title: "Psychic Architecture"
+title: Psychic Architecture
 slug: psychic-architecture
 tags:
   - plateau/P-WW
@@ -15,6 +15,7 @@ tags:
   - zone/the-wizards-cottage
   - concept/the-wizard
   - concept/production-of-subjectivity
+  - concept/attention
 beauty_check:
   passed: false
   notes: |

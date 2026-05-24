@@ -1,7 +1,7 @@
 ---
 id: G-WW-021
 plateau: P-WW
-title: "Pitching a Tent in a Downpour"
+title: Pitching a Tent in a Downpour
 slug: pitching-a-tent-in-a-downpour
 tags:
   - plateau/P-WW
@@ -13,6 +13,7 @@ tags:
   - status/draft
   - direction/nw
   - zone/the-wizards-cottage
+  - concept/aura
 beauty_check:
   passed: false
   notes: |

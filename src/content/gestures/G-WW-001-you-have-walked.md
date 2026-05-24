@@ -1,7 +1,7 @@
 ---
 id: G-WW-001
 plateau: P-WW
-title: "You Have Walked"
+title: You Have Walked
 slug: you-have-walked
 tags:
   - plateau/P-WW
@@ -11,6 +11,7 @@ tags:
   - status/draft
   - direction/ne
   - zone/the-wizards-cottage
+  - concept/attention
 beauty_check:
   passed: false
   notes: |

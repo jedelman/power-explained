@@ -1,7 +1,7 @@
 ---
 id: G-WW-010
 plateau: P-WW
-title: "The Six Become One Motion"
+title: The Six Become One Motion
 slug: the-six-become-one-motion
 tags:
   - plateau/P-WW
@@ -12,6 +12,7 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - concept/practice
 beauty_check:
   passed: false
   notes: |

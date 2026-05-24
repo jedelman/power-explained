@@ -1,7 +1,7 @@
 ---
 id: G-WW-003
 plateau: P-WW
-title: "The Triplet, Recalled"
+title: The Triplet, Recalled
 slug: the-triplet-recalled
 tags:
   - plateau/P-WW
@@ -16,6 +16,8 @@ tags:
   - zone/the-wizards-cottage
   - concept/the-wizard
   - concept/the-council
+  - concept/commons
+  - concept/attention
 beauty_check:
   passed: false
   notes: |

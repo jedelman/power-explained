@@ -1,7 +1,7 @@
 ---
 id: G-WW-008
 plateau: P-WW
-title: "Enter the Territory That Was Supposed to Be Empty"
+title: Enter the Territory That Was Supposed to Be Empty
 slug: enter-the-territory-that-was-supposed-to-be-empty
 tags:
   - plateau/P-WW
@@ -12,6 +12,7 @@ tags:
   - direction/e
   - zone/the-wizards-cottage
   - concept/the-outside
+  - concept/the-wizard
 beauty_check:
   passed: false
   notes: |

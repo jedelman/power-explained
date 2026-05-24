@@ -7,6 +7,10 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - concept/enclosure
+  - concept/practice
+  - concept/community
+  - person/prechtel
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

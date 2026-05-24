@@ -1,7 +1,7 @@
 ---
 id: G-WW-005
 plateau: P-WW
-title: "Read the Wreckage for What It Still Carries"
+title: Read the Wreckage for What It Still Carries
 slug: read-the-wreckage-for-what-it-still-carries
 tags:
   - plateau/P-WW
@@ -13,6 +13,8 @@ tags:
   - zone/the-wizards-cottage
   - concept/the-shard
   - concept/dialectical-image
+  - concept/the-wizard
+  - concept/discipline
 beauty_check:
   passed: false
   notes: |

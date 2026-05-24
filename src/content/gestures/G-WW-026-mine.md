@@ -1,7 +1,7 @@
 ---
 id: G-WW-026
 plateau: P-WW
-title: "Mine"
+title: Mine
 slug: mine
 tags:
   - plateau/P-WW
@@ -13,6 +13,7 @@ tags:
   - status/draft
   - direction/s
   - zone/the-wizards-cottage
+  - concept/sacred
 beauty_check:
   passed: false
   notes: |

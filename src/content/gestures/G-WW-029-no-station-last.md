@@ -1,7 +1,7 @@
 ---
 id: G-WW-029
 plateau: P-WW
-title: "No Station Last"
+title: No Station Last
 slug: no-station-last
 tags:
   - plateau/P-WW
@@ -12,6 +12,8 @@ tags:
   - status/draft
   - direction/se
   - zone/the-wizards-cottage
+  - concept/descent
+  - concept/the-wizard
 beauty_check:
   passed: false
   notes: |

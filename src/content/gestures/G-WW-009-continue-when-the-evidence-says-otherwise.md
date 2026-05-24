@@ -1,7 +1,7 @@
 ---
 id: G-WW-009
 plateau: P-WW
-title: "Continue When the Evidence Says Otherwise"
+title: Continue When the Evidence Says Otherwise
 slug: continue-when-the-evidence-says-otherwise
 tags:
   - plateau/P-WW
@@ -12,6 +12,7 @@ tags:
   - status/draft
   - direction/se
   - zone/the-wizards-cottage
+  - concept/the-wizard
 beauty_check:
   passed: false
   notes: |

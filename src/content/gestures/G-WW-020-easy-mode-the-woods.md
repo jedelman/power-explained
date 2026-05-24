@@ -1,7 +1,7 @@
 ---
 id: G-WW-020
 plateau: P-WW
-title: "Easy Mode — the Woods"
+title: Easy Mode — the Woods
 slug: easy-mode-the-woods
 tags:
   - plateau/P-WW
@@ -13,6 +13,8 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - concept/aura
+  - concept/attention
 beauty_check:
   passed: false
   notes: |

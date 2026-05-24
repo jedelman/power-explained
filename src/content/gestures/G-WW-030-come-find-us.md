@@ -1,7 +1,7 @@
 ---
 id: G-WW-030
 plateau: P-WW
-title: "Come Find Us"
+title: Come Find Us
 slug: come-find-us
 tags:
   - plateau/P-WW
@@ -14,6 +14,7 @@ tags:
   - direction/e
   - zone/the-wizards-cottage
   - concept/the-council
+  - concept/cooperative
 beauty_check:
   passed: false
   notes: |

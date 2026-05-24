@@ -1,7 +1,7 @@
 ---
 id: G-WW-012
 plateau: P-WW
-title: "After Hours, Regulars and Staff"
+title: After Hours, Regulars and Staff
 slug: after-hours-regulars-and-staff
 tags:
   - plateau/P-WW
@@ -12,6 +12,7 @@ tags:
   - direction/e
   - zone/the-wizards-cottage
   - place/norfolk-va
+  - concept/commons
 beauty_check:
   passed: false
   notes: |

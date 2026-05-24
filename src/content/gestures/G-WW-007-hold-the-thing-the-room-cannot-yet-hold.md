@@ -1,7 +1,7 @@
 ---
 id: G-WW-007
 plateau: P-WW
-title: "Hold the Thing the Room Cannot Yet Hold"
+title: Hold the Thing the Room Cannot Yet Hold
 slug: hold-the-thing-the-room-cannot-yet-hold
 tags:
   - plateau/P-WW
@@ -12,6 +12,8 @@ tags:
   - direction/nw
   - zone/the-wizards-cottage
   - concept/character-armor
+  - concept/the-wizard
+  - concept/orgone
 beauty_check:
   passed: false
   notes: |

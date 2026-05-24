@@ -1,7 +1,7 @@
 ---
 id: G-WW-006
 plateau: P-WW
-title: "Build What No One Asked You to Build"
+title: Build What No One Asked You to Build
 slug: build-what-no-one-asked-you-to-build
 tags:
   - plateau/P-WW
@@ -13,6 +13,9 @@ tags:
   - zone/the-wizards-cottage
   - concept/auzolan
   - concept/commons
+  - concept/cooperative
+  - concept/federation
+  - concept/the-wizard
 beauty_check:
   passed: false
   notes: |

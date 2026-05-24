@@ -1,7 +1,7 @@
 ---
 id: G-WW-032
 plateau: P-WW
-title: "Carry It as You Walk"
+title: Carry It as You Walk
 slug: carry-it-as-you-walk
 tags:
   - plateau/P-WW
@@ -11,6 +11,7 @@ tags:
   - status/draft
   - direction/se
   - zone/the-wizards-cottage
+  - concept/federation
 beauty_check:
   passed: false
   notes: |

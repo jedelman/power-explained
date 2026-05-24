@@ -7,13 +7,12 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - concept/enclosure
 notes: >-
-  Expanded 2026-05-24 from stub. Three vignettes: witch (relational/botanical
-  knowing, framed by enclosure), zanjero (acoustic/hydrological listening,
-  framed by continuity), Yunkaporta crocodile quote (relational ontology as
-  frame). Yunkaporta quote verified by Jason from Sand Talk — page number to
-  be added to citation once confirmed. Children who went still cut; implicit in
-  G-RE-039.
+  Expanded 2026-05-24 from stub. Three vignettes: witch (relational/botanical knowing, framed by
+  enclosure), zanjero (acoustic/hydrological listening, framed by continuity), Yunkaporta crocodile
+  quote (relational ontology as frame). Yunkaporta quote verified by Jason from Sand Talk — page
+  number to be added to citation once confirmed. Children who went still cut; implicit in G-RE-039.
 ---
 The witch knew the plant's name — not the Latin, the plant's own name, the one it answered to. She knew which root cooled fever and which would stop a heart, and she knew it the way you know a neighbor's temperament: by years of showing up. The enclosure project tried her for that knowledge. What it could not tolerate was not what she knew. It was who she had learned it from.
 
