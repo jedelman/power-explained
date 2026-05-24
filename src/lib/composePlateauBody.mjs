@@ -86,10 +86,10 @@ export function composePlateauBody(chapterMdPath, repoRoot = process.cwd()) {
   }
 
   const separators = Array.isArray(fm.separators) ? fm.separators : [];
-  const plateauId = gestureIdToPlateauId(gestureIds[0]);
 
   const parts = [];
   gestureIds.forEach((gid, i) => {
+    const plateauId = gestureIdToPlateauId(gid);
     parts.push(readGestureBody(repoRoot, plateauId, gid));
     if (i < gestureIds.length - 1) {
       const sep = separators[i] ?? "paragraph";

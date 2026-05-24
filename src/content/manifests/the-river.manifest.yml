@@ -1,0 +1,74 @@
+id: the-river
+title: The River
+description: >-
+  All gestures in canonical book order, no chapter breaks.
+  Phase 0 of the chapter restructure: a composite manifest pointing at
+  the existing chapter manifests, joined with section separators between
+  chapters. The pre-flatten snapshot at
+  for-agents/snapshots/the-river-pre-flatten.md is the byte-equivalence
+  lock for everything that follows (storage flatten, chapter retirement,
+  reordering during the consistency pass).
+notes: |
+  Source order follows src/pages/book/index.astro ("drafted" entries) and
+  the `order:` fields in each chapter's frontmatter:
+    - prologue                       (0)
+    - chapter-1, chapter-2           (Part I)
+    - interlude-barcelona            (between Part I and Part II)
+    - chapter-3                      (Part II)
+    - interlude-washington           (within Part II)
+    - chapter-4, goetia (4.5)        (Part II)
+    - chapter-5..8                   (Part III)
+    - orgone-accumulator (8.5)       Part III — has `order: 8.5` but is
+                                     not yet in the canonical book index.
+                                     Included here so the consistency pass
+                                     sees it. Reorder/remove during the pass.
+    - chapter-9..11                  (Part IV)
+    - chapter-12                     (Part V)
+    - chapter-13                     (Part VI)
+    - angel-faces-backward (13.5)
+    - chapter-14, chapter-15
+    - reenchanting (15.5)
+    - chapter-16, chapter-16b
+    - chapter-17, chapter-18
+    - wizards-walk (18.5)            Part VI — `order: 18.5`, not yet in
+                                     the canonical book index. Included
+                                     here for the same reason as orgone.
+    - the-centaur-chapter (Chiron)   queued in the book index
+    - epilogue                       queued in the book index
+
+# Composite manifest: each entry names a chapter manifest under
+# src/content/book/<slug>.md. The composer concatenates each chapter's
+# `gestures:` (with its declared `separators:`), then joins consecutive
+# chapters with `inter_chapter_separator`.
+sources:
+  - prologue
+  - chapter-1
+  - chapter-2
+  - interlude-barcelona
+  - chapter-3
+  - interlude-washington
+  - chapter-4
+  - goetia
+  - chapter-5
+  - chapter-6
+  - chapter-7
+  - chapter-8
+  - orgone-accumulator
+  - chapter-9
+  - chapter-10
+  - chapter-11
+  - chapter-12
+  - chapter-13
+  - angel-faces-backward
+  - chapter-14
+  - chapter-15
+  - reenchanting
+  - chapter-16
+  - chapter-16b
+  - chapter-17
+  - chapter-18
+  - wizards-walk
+  - the-centaur-chapter
+  - epilogue
+
+inter_chapter_separator: section
