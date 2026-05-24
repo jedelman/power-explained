@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-23T20:44:01.575Z",
+  "generatedAt": "2026-05-23T23:00:17.800Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 908,
-    "words": 77568,
-    "sentences": 5242
+    "words": 77729,
+    "sentences": 5280
   },
   "corpusReadability": {
-    "fleschReadingEase": 58.03,
-    "fleschKincaidGrade": 8.84,
-    "gunningFog": 12.31,
-    "smog": 11.91,
-    "colemanLiau": 10,
-    "automatedReadabilityIndex": 8.24,
-    "avgWordsPerSentence": 14.8,
+    "fleschReadingEase": 58.11,
+    "fleschKincaidGrade": 8.81,
+    "gunningFog": 12.28,
+    "smog": 11.89,
+    "colemanLiau": 9.99,
+    "automatedReadabilityIndex": 8.2,
+    "avgWordsPerSentence": 14.72,
     "avgSyllablesPerWord": 1.58
   },
   "plateauMetrics": [
@@ -595,22 +595,22 @@
       "slug": "reenchanting",
       "title": "Re-Enchanting the World",
       "gestureCount": 30,
-      "words": 2077,
-      "sentences": 156,
-      "avgWordsPerSentence": 13.31,
-      "avgSyllablesPerWord": 1.55,
-      "fleschReadingEase": 61.8,
-      "fleschKincaidGrade": 7.95,
-      "gunningFog": 11.12,
-      "colemanLiau": 9.37,
-      "automatedReadabilityIndex": 7.17,
-      "smog": 11.06,
+      "words": 2238,
+      "sentences": 194,
+      "avgWordsPerSentence": 11.54,
+      "avgSyllablesPerWord": 1.56,
+      "fleschReadingEase": 63.43,
+      "fleschKincaidGrade": 7.28,
+      "gunningFog": 10.32,
+      "colemanLiau": 9.15,
+      "automatedReadabilityIndex": 6.37,
+      "smog": 10.45,
       "smogReliable": true,
-      "lexicalEntropy": 7.91,
-      "typeTokenRatio": 0.33,
-      "meanGestureWords": 69.23,
-      "stdGestureWords": 53.72,
-      "structuralEntropyNorm": 0.93
+      "lexicalEntropy": 8.08,
+      "typeTokenRatio": 0.34,
+      "meanGestureWords": 74.6,
+      "stdGestureWords": 50.4,
+      "structuralEntropyNorm": 0.94
     },
     {
       "id": "P-CE",
@@ -659,24 +659,24 @@
   ],
   "gestureDistributions": {
     "count": 908,
-    "readableCount": 694,
+    "readableCount": 696,
     "wordCount": {
       "n": 908,
       "p10": 11,
-      "p25": 33,
+      "p25": 34,
       "p50": 69,
-      "p75": 108,
-      "p90": 168,
-      "mean": 85.43
+      "p75": 109,
+      "p90": 171,
+      "mean": 85.6
     },
     "lexicalEntropy": {
       "n": 908,
       "p10": 3.17,
       "p25": 4.57,
-      "p50": 5.36,
+      "p50": 5.37,
       "p75": 5.84,
       "p90": 6.34,
-      "mean": 5.06
+      "mean": 5.07
     },
     "typeTokenRatio": {
       "n": 908,
@@ -688,27 +688,27 @@
       "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 694,
+      "n": 696,
       "p10": 4.58,
-      "p25": 6.51,
+      "p25": 6.45,
       "p50": 8.37,
-      "p75": 11.07,
+      "p75": 11.06,
       "p90": 13.18,
-      "mean": 8.78
+      "mean": 8.75
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 694,
+      "n": 696,
       "p10": 34.12,
       "p25": 45.14,
       "p50": 58.85,
-      "p75": 70.95,
+      "p75": 71.22,
       "p90": 81.14,
-      "mean": 58.26
+      "mean": 58.33
     }
   },
   "transitionalEntropy": {
     "total": 879,
-    "reliable": 194,
+    "reliable": 201,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
   },
@@ -756,6 +756,12 @@
       "dispersionNorm": 0.97
     },
     {
+      "term": "Deleuze",
+      "total": 9,
+      "plateaus": 7,
+      "dispersionNorm": 0.97
+    },
+    {
       "term": "Enclosure",
       "total": 8,
       "plateaus": 7,
@@ -769,12 +775,6 @@
     },
     {
       "term": "Which",
-      "total": 8,
-      "plateaus": 6,
-      "dispersionNorm": 0.97
-    },
-    {
-      "term": "Deleuze",
       "total": 8,
       "plateaus": 6,
       "dispersionNorm": 0.97
@@ -816,13 +816,19 @@
       "dispersionNorm": 0.93
     },
     {
+      "term": "Simondon",
+      "total": 7,
+      "plateaus": 5,
+      "dispersionNorm": 0.96
+    },
+    {
       "term": "London",
       "total": 6,
       "plateaus": 5,
       "dispersionNorm": 0.97
     },
     {
-      "term": "Simondon",
+      "term": "Guattari",
       "total": 6,
       "plateaus": 5,
       "dispersionNorm": 0.97

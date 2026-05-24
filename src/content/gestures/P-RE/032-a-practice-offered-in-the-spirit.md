@@ -12,4 +12,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-A practice, offered in the spirit of the grimoire rather than the curriculum.
+A practice, offered in the spirit of the grimoire rather than the curriculum. What follows is not a set of techniques. It is ceremony — the ancient form of paying attention.

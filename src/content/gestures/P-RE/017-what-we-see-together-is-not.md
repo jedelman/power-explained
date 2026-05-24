@@ -12,4 +12,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-What we see together is not the sum of what we see separately. It is a different kind of seeing. We inhabit a commons of perception that neither of us built alone and that neither of us owns, that requires the difference between us to function. Our singularities are the condition of the shared thing, not obstacles to it.
+What we see together is not the sum of what we see separately. It is a different kind of seeing. We inhabit a commons of perception. Neither of us built it alone. Neither of us owns it. It requires the difference between us to function. Our singularities are the condition of the shared thing, not obstacles to it.
