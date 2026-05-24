@@ -76,8 +76,9 @@ for (const file of articleFiles) {
 
 // ── book ───────────────────────────────────────────────────────────────────
 // After the gestures refactor, chapter .md files carry an empty body and the
-// prose lives in src/content/gestures/<P-XX>/*.md. Count gesture bodies (with
-// a fallback to any inline body for not-yet-migrated chapters).
+// prose lives in src/content/gestures/G-<plateau>-<NNN>[a]-<slug>.md
+// (flat layout). Count gesture bodies (with a fallback to any inline body
+// for not-yet-migrated chapters).
 
 const GESTURES_DIR = path.join(ROOT, 'src/content/gestures')
 
@@ -99,14 +100,12 @@ for (const file of bookFiles) {
 
 // Count gesture bodies
 if (fs.existsSync(GESTURES_DIR)) {
-  for (const pid of fs.readdirSync(GESTURES_DIR).filter(d => d.startsWith('P-'))) {
-    const dir = path.join(GESTURES_DIR, pid)
-    if (!fs.statSync(dir).isDirectory()) continue
-    for (const gf of fs.readdirSync(dir).filter(f => f.endsWith('.md') && f !== 'README.md')) {
-      const { body } = parseFrontmatter(fs.readFileSync(path.join(dir, gf), 'utf8'))
-      bookWords += wordCount(body)
-      gestureCount++
-    }
+  for (const gf of fs.readdirSync(GESTURES_DIR)) {
+    if (!gf.endsWith('.md') || gf === 'README.md') continue
+    if (!gf.startsWith('G-')) continue
+    const { body } = parseFrontmatter(fs.readFileSync(path.join(GESTURES_DIR, gf), 'utf8'))
+    bookWords += wordCount(body)
+    gestureCount++
   }
 }
 

@@ -22,22 +22,22 @@ export function loadCorpus(repoRoot) {
 
   const gestures = {};
   if (fs.existsSync(GROOT)) {
-    for (const pid of fs.readdirSync(GROOT).filter(d => d.startsWith("P-"))) {
-      const dir = path.join(GROOT, pid);
-      if (!fs.statSync(dir).isDirectory()) continue;
-      for (const f of fs.readdirSync(dir)) {
-        if (!f.endsWith(".md") || f === "README.md") continue;
-        const text = fs.readFileSync(path.join(dir, f), "utf8");
-        const end = text.indexOf("\n---\n", 4);
-        if (end === -1) continue;
-        const fm = yaml.load(text.slice(4, end)) || {};
-        const body = text.slice(end + 5).trim();
-        if (!fm.id) continue;
-        gestures[fm.id] = {
-          id: fm.id, plateau: pid, file: f,
-          title: fm.title || "", body, tags: fm.tags || [],
-        };
-      }
+    // Flat layout: src/content/gestures/G-<plateau>-<NNN>[a]-<slug>.md
+    // Plateau identity comes from the frontmatter `plateau:` field, not
+    // the directory path (which no longer encodes it).
+    for (const f of fs.readdirSync(GROOT)) {
+      if (!f.endsWith(".md") || f === "README.md") continue;
+      if (!f.startsWith("G-")) continue;
+      const text = fs.readFileSync(path.join(GROOT, f), "utf8");
+      const end = text.indexOf("\n---\n", 4);
+      if (end === -1) continue;
+      const fm = yaml.load(text.slice(4, end)) || {};
+      const body = text.slice(end + 5).trim();
+      if (!fm.id) continue;
+      gestures[fm.id] = {
+        id: fm.id, plateau: fm.plateau || "", file: f,
+        title: fm.title || "", body, tags: fm.tags || [],
+      };
     }
   }
 

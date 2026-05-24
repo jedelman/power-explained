@@ -89,13 +89,16 @@ Other useful commands (run from project root):
 ## Book / gesture architecture
 
 The book is composed from gesture files assembled at build time by
-`src/scripts/composePlateauBody.mjs`. Each chapter has:
+`src/lib/composePlateauBody.mjs`. Each chapter has:
 
-**Gesture files:** `src/content/gestures/<PLATEAU-ID>/<NNN>-<slug>.md`
+**Gesture files (flat layout):** `src/content/gestures/G-<PLATEAU>-<NNN>[letter]-<slug>.md`
+- All gestures live in the single `src/content/gestures/` directory; the plateau
+  is metadata (`plateau:` in frontmatter), not a storage location. The
+  per-`P-NN/` layout was retired 2026-05-24 during the chapter restructure.
 - YAML frontmatter: `id`, `plateau`, `title`, `slug`, `tags`, `notes`
 - IDs are permanent: `G-<PLATEAU>-<NNN>` format
 - For inserts between existing numbered gestures, use letter suffix:
-  `G-RE-033a`, `G-RE-034a` — file name must match: `033a-<slug>.md`
+  `G-RE-033a`, `G-RE-034a` — file name must match: `G-RE-033a-<slug>.md`
 - Voice tags: `voice/jason` (first-person/experiential), `voice/narrator` (analytical)
 - Status tags: `status/draft`, `status/final`
 
@@ -105,6 +108,11 @@ The book is composed from gesture files assembled at build time by
   - `paragraph` = blank line between gestures
   - `section` = visual section break
 - When inserting N gestures, add N separators in the correct positions
+
+**Whole-book manifest:** `src/content/manifests/the-river.manifest.yml`
+- Composite manifest listing chapter slugs in canonical book order.
+- Compose with `node scripts/compose-river.mjs compose | write | verify`.
+- Snapshot lock: `for-agents/snapshots/the-river-pre-flatten.md`.
 
 ---
 

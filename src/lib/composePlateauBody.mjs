@@ -41,25 +41,37 @@ function loadFrontmatter(text) {
   return { fm, body };
 }
 
-function gestureIdToPlateauId(gestureId) {
-  // G-04-001 -> P-04 ; G-OA-002 -> P-OA
-  const parts = gestureId.split("-");
-  if (parts.length < 3 || parts[0] !== "G") {
-    throw new Error(`Bad gesture id: ${gestureId}`);
+// Flat layout: src/content/gestures/G-<plateau>-<NNN>[a]-<slug>.md
+// Build a one-time id → path index per repo root and reuse across calls.
+const _gestureIndexCache = new Map();
+
+function buildGestureIndex(repoRoot) {
+  const dir = path.join(repoRoot, "src", "content", "gestures");
+  const idx = new Map();
+  if (!fs.existsSync(dir)) return idx;
+  for (const f of fs.readdirSync(dir)) {
+    if (!f.endsWith(".md") || f === "README.md") continue;
+    if (!f.startsWith("G-")) continue;
+    const parts = f.split("-");
+    if (parts.length < 4) continue;
+    const id = parts.slice(0, 3).join("-");
+    idx.set(id, path.join(dir, f));
   }
-  return "P-" + parts[1];
+  return idx;
 }
 
-function readGestureBody(repoRoot, plateauId, gestureId) {
-  const dir = path.join(repoRoot, "src", "content", "gestures", plateauId);
-  if (!fs.existsSync(dir)) {
-    throw new Error(`No gesture dir: ${dir}`);
+function gestureIndex(repoRoot) {
+  if (!_gestureIndexCache.has(repoRoot)) {
+    _gestureIndexCache.set(repoRoot, buildGestureIndex(repoRoot));
   }
-  const num = gestureId.split("-").pop();
-  const files = fs.readdirSync(dir);
-  const match = files.find(f => f.startsWith(num + "-"));
-  if (!match) throw new Error(`Gesture ${gestureId} not found in ${dir}`);
-  const text = fs.readFileSync(path.join(dir, match), "utf8");
+  return _gestureIndexCache.get(repoRoot);
+}
+
+function readGestureBody(repoRoot, _plateauIdIgnored, gestureId) {
+  const idx = gestureIndex(repoRoot);
+  const filePath = idx.get(gestureId);
+  if (!filePath) throw new Error(`Gesture ${gestureId} not found in flat index`);
+  const text = fs.readFileSync(filePath, "utf8");
   const { body } = loadFrontmatter(text);
   return body.replace(/^\n+/, "").replace(/\n+$/, "");
 }
@@ -89,8 +101,7 @@ export function composePlateauBody(chapterMdPath, repoRoot = process.cwd()) {
 
   const parts = [];
   gestureIds.forEach((gid, i) => {
-    const plateauId = gestureIdToPlateauId(gid);
-    parts.push(readGestureBody(repoRoot, plateauId, gid));
+    parts.push(readGestureBody(repoRoot, null, gid));
     if (i < gestureIds.length - 1) {
       const sep = separators[i] ?? "paragraph";
       parts.push(sep === "section" ? "\n\n---\n\n" : "\n\n");

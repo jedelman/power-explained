@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-23T23:00:17.800Z",
+  "generatedAt": "2026-05-24T16:19:40.331Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
-    "gestures": 908,
-    "words": 77729,
-    "sentences": 5280
+    "gestures": 911,
+    "words": 78297,
+    "sentences": 5334
   },
   "corpusReadability": {
-    "fleschReadingEase": 58.11,
-    "fleschKincaidGrade": 8.81,
-    "gunningFog": 12.28,
-    "smog": 11.89,
-    "colemanLiau": 9.99,
-    "automatedReadabilityIndex": 8.2,
-    "avgWordsPerSentence": 14.72,
+    "fleschReadingEase": 58.25,
+    "fleschKincaidGrade": 8.78,
+    "gunningFog": 12.24,
+    "smog": 11.87,
+    "colemanLiau": 9.97,
+    "automatedReadabilityIndex": 8.17,
+    "avgWordsPerSentence": 14.68,
     "avgSyllablesPerWord": 1.58
   },
   "plateauMetrics": [
@@ -594,22 +594,22 @@
       "id": "P-RE",
       "slug": "reenchanting",
       "title": "Re-Enchanting the World",
-      "gestureCount": 30,
-      "words": 2238,
-      "sentences": 194,
-      "avgWordsPerSentence": 11.54,
-      "avgSyllablesPerWord": 1.56,
-      "fleschReadingEase": 63.43,
-      "fleschKincaidGrade": 7.28,
-      "gunningFog": 10.32,
-      "colemanLiau": 9.15,
-      "automatedReadabilityIndex": 6.37,
-      "smog": 10.45,
+      "gestureCount": 33,
+      "words": 2806,
+      "sentences": 248,
+      "avgWordsPerSentence": 11.31,
+      "avgSyllablesPerWord": 1.53,
+      "fleschReadingEase": 65.8,
+      "fleschKincaidGrade": 6.89,
+      "gunningFog": 9.96,
+      "colemanLiau": 8.78,
+      "automatedReadabilityIndex": 6.01,
+      "smog": 10.21,
       "smogReliable": true,
-      "lexicalEntropy": 8.08,
-      "typeTokenRatio": 0.34,
-      "meanGestureWords": 74.6,
-      "stdGestureWords": 50.4,
+      "lexicalEntropy": 8.25,
+      "typeTokenRatio": 0.32,
+      "meanGestureWords": 85.03,
+      "stdGestureWords": 55.36,
       "structuralEntropyNorm": 0.94
     },
     {
@@ -658,28 +658,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 908,
-    "readableCount": 696,
+    "count": 911,
+    "readableCount": 700,
     "wordCount": {
-      "n": 908,
+      "n": 911,
       "p10": 11,
       "p25": 34,
-      "p50": 69,
+      "p50": 70,
       "p75": 109,
-      "p90": 171,
-      "mean": 85.6
+      "p90": 172,
+      "mean": 85.95
     },
     "lexicalEntropy": {
-      "n": 908,
+      "n": 911,
       "p10": 3.17,
-      "p25": 4.57,
-      "p50": 5.37,
+      "p25": 4.59,
+      "p50": 5.38,
       "p75": 5.84,
-      "p90": 6.34,
-      "mean": 5.07
+      "p90": 6.35,
+      "mean": 5.08
     },
     "typeTokenRatio": {
-      "n": 908,
+      "n": 911,
       "p10": 0.6,
       "p25": 0.66,
       "p50": 0.73,
@@ -688,27 +688,27 @@
       "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 696,
+      "n": 700,
       "p10": 4.58,
       "p25": 6.45,
-      "p50": 8.37,
-      "p75": 11.06,
+      "p50": 8.35,
+      "p75": 11.02,
       "p90": 13.18,
-      "mean": 8.75
+      "mean": 8.74
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 696,
+      "n": 700,
       "p10": 34.12,
-      "p25": 45.14,
-      "p50": 58.85,
-      "p75": 71.22,
+      "p25": 45.23,
+      "p50": 59.02,
+      "p75": 71.4,
       "p90": 81.14,
-      "mean": 58.33
+      "mean": 58.4
     }
   },
   "transitionalEntropy": {
-    "total": 879,
-    "reliable": 201,
+    "total": 882,
+    "reliable": 203,
     "paragraphMeanDist": 0.97,
     "sectionMeanDist": 0.95
   },

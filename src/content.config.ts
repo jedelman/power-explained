@@ -158,7 +158,7 @@ const book = defineCollection({
 // Identity and structured-content fields remain typed.
 
 const gestures = defineCollection({
-  loader: glob({ pattern: 'P-*/*.md', base: './src/content/gestures' }),
+  loader: glob({ pattern: 'G-*.md', base: './src/content/gestures' }),
   schema: z.object({
     // === identity ===
     id:      z.string(),                 // e.g. "G-04-007"
