@@ -7,6 +7,11 @@ tags:
   - plateau/P-07
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/mutual-aid
+  - place/crown-heights
+  - place/palmares
+  - concept/practice
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

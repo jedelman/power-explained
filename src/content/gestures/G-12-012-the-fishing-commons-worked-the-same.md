@@ -7,6 +7,11 @@ tags:
   - plateau/P-12
   - voice/jason
   - status/draft
+  - place/narmada
+  - concept/commons
+  - person/roy-arundhati
+  - concept/progress
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

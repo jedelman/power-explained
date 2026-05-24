@@ -7,6 +7,10 @@ tags:
   - plateau/P-02
   - voice/jason
   - status/draft
+  - place/norfolk-va
+  - place/virginia
+  - place/atlantic-city
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

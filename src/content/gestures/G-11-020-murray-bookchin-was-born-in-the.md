@@ -7,6 +7,15 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - concept/commons
+  - person/bookchin
+  - concept/enclosure
+  - concept/mutual-aid
+  - concept/cooperative
+  - place/hampton-roads
+  - place/atlantic-city
+  - year/1921
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

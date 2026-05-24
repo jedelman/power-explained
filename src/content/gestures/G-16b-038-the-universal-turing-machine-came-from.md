@@ -7,6 +7,9 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/simulation
+  - person/turing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

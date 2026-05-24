@@ -7,6 +7,11 @@ tags:
   - plateau/P-02
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/enclosure
+  - place/atlantic-city
+  - concept/community
+  - concept/progress
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

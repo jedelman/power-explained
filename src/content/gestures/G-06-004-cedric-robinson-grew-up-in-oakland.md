@@ -7,6 +7,7 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - person/robinson-cedric
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

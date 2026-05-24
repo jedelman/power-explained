@@ -7,6 +7,8 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - concept/racial-capitalism
+  - place/india
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

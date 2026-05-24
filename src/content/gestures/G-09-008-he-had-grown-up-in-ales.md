@@ -7,6 +7,10 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - person/gramsci
+  - person/marx
+  - place/turin
+  - concept/the-council
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,10 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - concept/commons
+  - person/ostrom-elinor
+  - concept/community
+  - concept/practice
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

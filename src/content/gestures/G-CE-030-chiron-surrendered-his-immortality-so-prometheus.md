@@ -7,6 +7,7 @@ tags:
   - plateau/P-CE
   - voice/jason
   - status/draft
+  - concept/commons
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

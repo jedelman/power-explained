@@ -7,6 +7,8 @@ tags:
   - plateau/P-18
   - voice/jason
   - status/draft
+  - place/zuccotti-park
+  - year/2011
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,11 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - concept/cooperative
+  - person/arizmendiarrieta
+  - place/basque-country
+  - year/1956
+  - concept/community
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

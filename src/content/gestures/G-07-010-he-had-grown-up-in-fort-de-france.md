@@ -7,6 +7,9 @@ tags:
   - plateau/P-07
   - voice/jason
   - status/draft
+  - place/europe
+  - place/france
+  - concept/fascism
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,10 @@ tags:
   - plateau/P-PR
   - voice/jason
   - status/draft
+  - place/basque-country
+  - concept/commons
+  - place/burlington-vt
+  - place/valencia
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

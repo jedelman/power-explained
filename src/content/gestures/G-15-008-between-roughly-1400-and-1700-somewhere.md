@@ -7,6 +7,8 @@ tags:
   - plateau/P-15
   - voice/jason
   - status/draft
+  - person/federici
+  - place/europe
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

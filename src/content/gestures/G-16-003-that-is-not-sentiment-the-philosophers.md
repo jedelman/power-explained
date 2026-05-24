@@ -7,6 +7,9 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - concept/commons
+  - person/hardt
+  - person/negri
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

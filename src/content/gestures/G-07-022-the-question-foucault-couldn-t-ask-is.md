@@ -7,6 +7,11 @@ tags:
   - plateau/P-07
   - voice/jason
   - status/draft
+  - person/mbembe
+  - person/foucault
+  - place/france
+  - place/paris
+  - person/deleuze
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

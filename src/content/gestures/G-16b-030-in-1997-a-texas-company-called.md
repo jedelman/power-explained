@@ -7,6 +7,10 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
+  - person/robinson-cedric
+  - place/india
+  - concept/community
+  - concept/the-outside
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

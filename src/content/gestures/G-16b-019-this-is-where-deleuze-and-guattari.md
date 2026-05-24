@@ -7,6 +7,10 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
+  - person/deleuze
+  - person/guattari
+  - concept/simulation
+  - concept/practice
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,8 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - concept/fascism
+  - person/gramsci
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

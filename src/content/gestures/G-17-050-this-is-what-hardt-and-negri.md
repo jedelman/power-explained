@@ -7,6 +7,10 @@ tags:
   - plateau/P-17
   - voice/jason
   - status/draft
+  - concept/production-of-subjectivity
+  - person/hardt
+  - person/negri
+  - concept/community
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

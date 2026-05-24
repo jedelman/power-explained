@@ -7,6 +7,11 @@ tags:
   - plateau/P-18
   - voice/jason
   - status/draft
+  - person/sorenson
+  - concept/commons
+  - person/debord
+  - person/alexander
+  - concept/community
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,17 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - concept/clt
+  - year/1984
+  - concept/mutual-aid
+  - concept/cooperative
+  - concept/commons
+  - place/burlington-vt
+  - year/1956
+  - year/1994
+  - year/2020
+  - concept/community
+  - concept/the-council
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

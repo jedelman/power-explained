@@ -7,6 +7,16 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - person/marx
+  - concept/enclosure
+  - place/atlantic-city
+  - concept/commons
+  - concept/primitive-accumulation
+  - place/virginia
+  - place/hampton-roads
+  - place/africa
+  - place/narmada
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

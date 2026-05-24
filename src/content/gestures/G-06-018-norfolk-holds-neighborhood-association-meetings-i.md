@@ -7,6 +7,8 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - place/chelsea-norfolk
+  - place/norfolk-va
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,8 @@ tags:
   - plateau/P-13
   - voice/jason
   - status/draft
+  - place/india
+  - concept/debt
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

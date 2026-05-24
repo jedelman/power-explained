@@ -7,6 +7,8 @@ tags:
   - plateau/P-07
   - voice/jason
   - status/draft
+  - person/foucault
+  - person/mbembe
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

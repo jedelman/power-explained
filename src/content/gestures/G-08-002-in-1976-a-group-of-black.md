@@ -7,6 +7,7 @@ tags:
   - plateau/P-08
   - voice/jason
   - status/draft
+  - year/1976
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

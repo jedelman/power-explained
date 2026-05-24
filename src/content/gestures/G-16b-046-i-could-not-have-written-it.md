@@ -7,6 +7,10 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
+  - person/ostrom-elinor
+  - person/gramsci
+  - person/federici
+  - place/standing-rock
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

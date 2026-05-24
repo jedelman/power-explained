@@ -7,6 +7,10 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - place/palmares
+  - concept/commons
+  - person/ostrom-elinor
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

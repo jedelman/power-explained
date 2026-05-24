@@ -7,6 +7,7 @@ tags:
   - plateau/P-CE
   - voice/jason
   - status/draft
+  - person/federici
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,10 @@ tags:
   - plateau/P-IW
   - voice/jason
   - status/draft
+  - place/barcelona
+  - concept/community
+  - concept/the-outside
+  - concept/practice
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

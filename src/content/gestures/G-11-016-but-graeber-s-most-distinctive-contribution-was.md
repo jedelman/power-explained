@@ -7,6 +7,9 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/enclosure
+  - person/graeber
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

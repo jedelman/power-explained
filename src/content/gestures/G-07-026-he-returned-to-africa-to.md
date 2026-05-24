@@ -7,6 +7,8 @@ tags:
   - plateau/P-07
   - voice/jason
   - status/draft
+  - place/africa
+  - concept/the-council
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

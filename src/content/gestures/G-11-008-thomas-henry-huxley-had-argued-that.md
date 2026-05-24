@@ -7,6 +7,9 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - concept/mutual-aid
+  - concept/cooperative
+  - place/europe
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -77,6 +77,14 @@ const ALIASES = {
   "person/ostrom-elinor":              ["elinor ostrom", "ostrom"],
   "person/du-bois":                    ["du bois", "du-bois", "w.e.b. du bois", "w. e. b. du bois"],
   "person/arizmendiarrieta":           ["arizmendiarrieta", "arizmendi"],
+  "person/roy-arundhati":              ["arundhati roy", "roy"],
+  "person/robinson-cedric":            ["cedric robinson", "robinson"],
+  "person/sorenson":                   ["richard sorenson", "sorenson"],
+  "person/berners-lee":                ["berners-lee", "tim berners-lee"],
+  "person/mbembe":                     ["mbembe", "achille mbembe"],
+  "person/wynter":                     ["wynter", "sylvia wynter"],
+  "person/baudrillard":                ["baudrillard"],
+  "person/bookchin":                   ["bookchin"],
 
   // place
   "place/hampton-roads":               ["hampton roads", "hampton boulevard", "brambleton"],
@@ -90,6 +98,17 @@ const ALIASES = {
   "place/crown-heights":               ["crown heights"],
   "place/new-york":                    ["new york"],
   "place/the-south":                   ["the south", "deep south"],
+  "place/atlantic-city":               ["atlantic city"],
+  "place/chelsea-norfolk":             ["chelsea"],
+  "place/narmada":                     ["narmada"],
+  "place/palmares":                    ["palmares"],
+
+  // concept (added in the Tier-1 vocab pass)
+  "concept/debt":                      ["debt"],
+  "concept/fascism":                   ["fascism", "fascist"],
+  "concept/necropolitics":             ["necropolitics", "necropolitical"],
+  "concept/simulation":                ["simulation", "simulacra", "simulacrum"],
+  "concept/civil-society":             ["civil society"],
 };
 
 const args = process.argv.slice(2);

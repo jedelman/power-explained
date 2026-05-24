@@ -7,6 +7,8 @@ tags:
   - plateau/P-IB
   - voice/jason
   - status/draft
+  - place/barcelona
+  - concept/commons
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

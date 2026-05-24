@@ -7,6 +7,10 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - person/bookchin
+  - place/mexico
+  - concept/practice
+  - concept/community
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,8 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - person/debord
+  - place/france
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

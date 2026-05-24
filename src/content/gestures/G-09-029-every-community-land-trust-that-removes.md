@@ -7,6 +7,10 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - concept/mutual-aid
+  - concept/cooperative
+  - concept/clt
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

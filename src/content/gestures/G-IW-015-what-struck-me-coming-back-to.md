@@ -7,6 +7,9 @@ tags:
   - plateau/P-IW
   - voice/jason
   - status/draft
+  - person/gramsci
+  - concept/hegemony
+  - concept/practice
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -200,6 +200,20 @@ namespaces:
       - norway             # Reich's middle exile (P-OA)
       - seattle            # the floor practice setting (P-OA)
       - the-south          # the-shrug's regional locus (P-OA)
+      - atlantic-city      # the casino-enclosure case (P-02, P-11, P-14)
+      - europe             # the continent — enclosure's origin
+      - africa             # the continent — the slave trade, colonization
+      - barcelona          # the fish market, the cooperatives (P-IB)
+      - france             # P-03, P-07, P-16
+      - algeria            # Fanon's Algeria (P-07, P-CE)
+      - chelsea-norfolk    # the Norfolk neighborhood (distinct from London Chelsea)
+      - narmada            # the Narmada valley, India — Roy's dams
+      - turin              # Gramsci's Turin — the factory councils
+      - palmares           # Quilombo dos Palmares, Brazil — the maroon polity
+      - london
+      - berlin
+      - italy              # Gramsci's Italy
+      - aragon             # the Spanish anarchist collectives (P-03, P-10)
 
   # ===========================================================================
   # person — historical or named individuals the gesture is about.
@@ -243,6 +257,20 @@ namespaces:
       - freud                # Sigmund Freud — Reich's analyst, the death-drive
       - jung                 # Carl Jung — Reich's contemporary, individuation
       - buddha               # the Buddha — citta-vritti, the floor practice
+      - graeber              # David Graeber — Debt, bullshit jobs, the dawn of everything
+      - roy-arundhati        # Arundhati Roy — the Narmada dams, the adivasi displaced
+      - sorenson             # Richard Sorenson — preconquest consciousness
+      - robinson-cedric      # Cedric Robinson — Black Marxism, racial capitalism
+      - mbembe               # Achille Mbembe — necropolitics
+      - turing               # Alan Turing — computation, the universal machine
+      - wynter               # Sylvia Wynter — the overrepresentation of Man
+      - baudrillard          # Jean Baudrillard — simulation, the precession of simulacra
+      - bookchin             # Murray Bookchin — social ecology, libertarian municipalism
+      - marx                 # Karl Marx — primitive accumulation, the commodity form
+      - lenin                # Vladimir Lenin — the party, the state
+      - stalin               # Joseph Stalin — the terror, the betrayal of the revolution
+      - berners-lee          # Tim Berners-Lee — the open web
+      - erin                 # recurring companion in Jason's field practice (P-AB, P-OA, P-RE)
 
   # ===========================================================================
   # concept — book-level concepts and named practices.
@@ -318,6 +346,8 @@ namespaces:
       - descent              # the underworld passage that becomes curriculum (P-OA, P-AB)
       - the-shrug            # the gesture as system — Chapter 6's title (P-06)
       - wages-of-whiteness   # Du Bois — the psychic compensation that purchased silence (P-OA)
+      - debt                 # Graeber — credit as social relation, enclosed into a product
+      - fascism              # the structural form, treated across P-09 and P-OA
 
   # ===========================================================================
   # year — the time the gesture takes place in or anchors to. Used by

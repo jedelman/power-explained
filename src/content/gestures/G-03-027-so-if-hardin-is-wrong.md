@@ -7,6 +7,12 @@ tags:
   - plateau/P-03
   - voice/jason
   - status/draft
+  - concept/enclosure
+  - concept/hegemony
+  - concept/commons
+  - person/ostrom-elinor
+  - person/gramsci
+  - place/africa
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

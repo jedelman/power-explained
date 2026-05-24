@@ -7,6 +7,8 @@ tags:
   - plateau/P-17
   - voice/jason
   - status/draft
+  - person/sorenson
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

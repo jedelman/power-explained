@@ -7,6 +7,7 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - year/1936
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

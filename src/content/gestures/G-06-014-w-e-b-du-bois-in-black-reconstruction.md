@@ -7,6 +7,10 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - concept/solidarity
+  - person/du-bois
+  - concept/wages-of-whiteness
+  - concept/discipline
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

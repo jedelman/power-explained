@@ -7,6 +7,8 @@ tags:
   - plateau/P-EP
   - voice/jason
   - status/draft
+  - concept/practice
+  - concept/attention
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

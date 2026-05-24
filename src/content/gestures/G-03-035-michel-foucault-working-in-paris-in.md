@@ -7,6 +7,17 @@ tags:
   - plateau/P-03
   - voice/jason
   - status/draft
+  - person/negri
+  - person/gramsci
+  - place/france
+  - person/foucault
+  - place/paris
+  - place/italy
+  - concept/biopower
+  - person/hardt
+  - year/1981
+  - year/1983
+  - year/2023
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

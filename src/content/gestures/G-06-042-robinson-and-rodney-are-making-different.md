@@ -7,6 +7,10 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - person/robinson-cedric
+  - concept/solidarity
+  - concept/wages-of-whiteness
+  - concept/the-outside
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

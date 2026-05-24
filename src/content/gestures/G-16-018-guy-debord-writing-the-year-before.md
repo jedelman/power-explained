@@ -7,6 +7,9 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - person/debord
+  - person/baudrillard
+  - concept/enclosure
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

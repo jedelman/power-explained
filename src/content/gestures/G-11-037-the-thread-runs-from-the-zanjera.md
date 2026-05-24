@@ -7,6 +7,16 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - person/gramsci
+  - person/luxemburg
+  - person/graeber
+  - person/bookchin
+  - place/chiapas
+  - place/valencia
+  - place/ilocos
+  - place/barcelona
+  - place/turin
+  - place/palmares
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

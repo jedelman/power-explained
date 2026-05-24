@@ -7,6 +7,10 @@ tags:
   - plateau/P-15
   - voice/jason
   - status/draft
+  - concept/mutual-aid
+  - place/crown-heights
+  - place/brooklyn
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

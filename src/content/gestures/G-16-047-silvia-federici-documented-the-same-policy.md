@@ -7,6 +7,10 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - person/roy-arundhati
+  - person/federici
+  - place/india
+  - place/europe
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

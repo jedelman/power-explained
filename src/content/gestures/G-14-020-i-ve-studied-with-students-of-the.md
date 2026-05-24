@@ -7,6 +7,8 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - person/plotkin
+  - concept/descent
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

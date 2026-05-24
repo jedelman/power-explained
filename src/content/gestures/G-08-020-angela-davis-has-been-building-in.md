@@ -7,6 +7,14 @@ tags:
   - plateau/P-08
   - voice/jason
   - status/draft
+  - person/mbembe
+  - concept/necropolitics
+  - person/reagan
+  - person/foucault
+  - person/wynter
+  - year/2022
+  - concept/community
+  - concept/the-outside
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

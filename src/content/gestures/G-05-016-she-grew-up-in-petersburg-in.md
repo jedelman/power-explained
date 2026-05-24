@@ -7,6 +7,10 @@ tags:
   - plateau/P-05
   - voice/jason
   - status/draft
+  - person/luxemburg
+  - person/lenin
+  - concept/the-line
+  - concept/attention
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

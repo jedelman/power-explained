@@ -7,6 +7,8 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - place/norfolk-va
+  - place/seattle
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,9 @@ tags:
   - plateau/P-CE
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/enclosure
+  - place/hampton-roads
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

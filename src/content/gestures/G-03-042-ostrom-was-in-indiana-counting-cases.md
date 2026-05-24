@@ -7,6 +7,12 @@ tags:
   - plateau/P-03
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/enclosure
+  - person/ostrom-elinor
+  - person/negri
+  - person/foucault
+  - place/paris
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

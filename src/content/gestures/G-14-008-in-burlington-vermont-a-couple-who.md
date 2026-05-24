@@ -7,6 +7,10 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - person/sanders-bernie
+  - place/burlington-vt
+  - place/champlain
+  - year/1984
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

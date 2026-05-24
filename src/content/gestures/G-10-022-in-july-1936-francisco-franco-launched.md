@@ -7,6 +7,12 @@ tags:
   - plateau/P-10
   - voice/jason
   - status/draft
+  - place/barcelona
+  - place/aragon
+  - concept/fascism
+  - person/franco
+  - place/europe
+  - year/1936
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

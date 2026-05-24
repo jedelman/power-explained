@@ -7,6 +7,8 @@ tags:
   - plateau/P-12
   - voice/jason
   - status/draft
+  - place/narmada
+  - person/roy-arundhati
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

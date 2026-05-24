@@ -7,6 +7,10 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - person/graeber
+  - place/zuccotti-park
+  - place/seattle
+  - year/2011
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

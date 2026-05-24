@@ -7,6 +7,12 @@ tags:
   - plateau/P-08
   - voice/jason
   - status/draft
+  - person/wynter
+  - place/europe
+  - place/london
+  - concept/the-outside
+  - concept/practice
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

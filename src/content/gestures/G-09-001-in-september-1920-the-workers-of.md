@@ -7,6 +7,11 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - place/turin
+  - year/1920
+  - place/italy
+  - concept/the-council
+  - concept/discipline
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,8 @@ tags:
   - plateau/P-03
   - voice/jason
   - status/draft
+  - person/ostrom-elinor
+  - concept/attention
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

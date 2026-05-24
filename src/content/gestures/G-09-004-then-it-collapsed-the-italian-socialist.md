@@ -7,6 +7,7 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - person/gramsci
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

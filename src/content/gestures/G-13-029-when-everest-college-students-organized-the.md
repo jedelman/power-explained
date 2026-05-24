@@ -7,6 +7,8 @@ tags:
   - plateau/P-13
   - voice/jason
   - status/draft
+  - year/2022
+  - concept/debt
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

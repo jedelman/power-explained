@@ -7,6 +7,14 @@ tags:
   - plateau/P-11
   - voice/jason
   - status/draft
+  - place/chiapas
+  - year/1994
+  - concept/commons
+  - concept/junta-de-buen-gobierno
+  - concept/solidarity
+  - place/berlin
+  - year/2023
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

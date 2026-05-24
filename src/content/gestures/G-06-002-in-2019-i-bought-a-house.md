@@ -7,6 +7,11 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - person/robinson-cedric
+  - place/norfolk-va
+  - place/virginia
+  - place/chelsea-norfolk
+  - concept/the-line
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

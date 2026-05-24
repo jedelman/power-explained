@@ -7,6 +7,8 @@ tags:
   - plateau/P-IW
   - voice/jason
   - status/draft
+  - concept/hegemony
+  - place/washington-state
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

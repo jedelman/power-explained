@@ -7,6 +7,16 @@ tags:
   - plateau/P-12
   - voice/jason
   - status/draft
+  - concept/commons
+  - concept/enclosure
+  - person/freire
+  - concept/conscientization
+  - concept/simulation
+  - person/hardt
+  - person/negri
+  - person/roy-arundhati
+  - concept/attention
+  - concept/practice
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

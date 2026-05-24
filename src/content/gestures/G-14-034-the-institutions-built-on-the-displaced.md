@@ -7,6 +7,9 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - place/atlantic-city
+  - concept/enclosure
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,9 @@ tags:
   - plateau/P-12
   - voice/jason
   - status/draft
+  - concept/commons
+  - person/freire
+  - person/roy-arundhati
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

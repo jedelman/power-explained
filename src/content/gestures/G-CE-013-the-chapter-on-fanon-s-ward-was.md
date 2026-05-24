@@ -7,6 +7,8 @@ tags:
   - plateau/P-CE
   - voice/jason
   - status/draft
+  - person/fanon
+  - place/algeria
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

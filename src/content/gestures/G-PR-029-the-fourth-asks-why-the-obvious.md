@@ -7,6 +7,11 @@ tags:
   - plateau/P-PR
   - voice/jason
   - status/draft
+  - concept/commons
+  - person/gramsci
+  - person/luxemburg
+  - person/graeber
+  - person/bookchin
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

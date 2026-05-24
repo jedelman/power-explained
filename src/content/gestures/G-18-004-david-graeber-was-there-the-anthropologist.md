@@ -7,6 +7,12 @@ tags:
   - plateau/P-18
   - voice/jason
   - status/draft
+  - person/graeber
+  - place/zuccotti-park
+  - concept/commons
+  - concept/debt
+  - concept/practice
+  - concept/community
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

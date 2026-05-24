@@ -7,6 +7,9 @@ tags:
   - plateau/P-10
   - voice/jason
   - status/draft
+  - person/luxemburg
+  - place/germany
+  - concept/attention
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

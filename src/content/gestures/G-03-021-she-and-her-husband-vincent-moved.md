@@ -7,6 +7,10 @@ tags:
   - plateau/P-03
   - voice/jason
   - status/draft
+  - place/spain
+  - place/philippines
+  - place/switzerland
+  - concept/practice
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

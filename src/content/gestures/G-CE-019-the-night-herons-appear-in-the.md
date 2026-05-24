@@ -7,6 +7,14 @@ tags:
   - plateau/P-CE
   - voice/jason
   - status/draft
+  - concept/conscientization
+  - concept/enclosure
+  - person/luxemburg
+  - person/federici
+  - person/roy-arundhati
+  - person/turing
+  - person/wynter
+  - place/atlantic-city
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

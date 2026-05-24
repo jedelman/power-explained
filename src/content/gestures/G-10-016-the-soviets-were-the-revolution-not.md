@@ -7,6 +7,8 @@ tags:
   - plateau/P-10
   - voice/jason
   - status/draft
+  - person/lenin
+  - concept/capture
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,12 @@ tags:
   - plateau/P-10
   - voice/jason
   - status/draft
+  - concept/commons
+  - person/robinson-cedric
+  - place/valencia
+  - place/palmares
+  - concept/the-outside
+  - concept/practice
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

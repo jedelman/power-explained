@@ -7,6 +7,8 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - person/deleuze
+  - concept/enclosure
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

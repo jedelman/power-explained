@@ -7,6 +7,8 @@ tags:
   - plateau/P-15
   - voice/jason
   - status/draft
+  - place/brooklyn
+  - place/new-york
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 
