@@ -67,6 +67,72 @@ structural economic benefit — analyzed through the commons lens.
 
 ---
 
+## Build & dev
+
+**Always run the build from the project root:**
+
+```bash
+cd /home/user/power-explained
+./node_modules/.bin/astro build
+```
+
+**Do NOT use `npx astro build`** — it finds the wrong cached Astro install and
+throws `Could not resolve entry module 'astro/entrypoints/prerender'`.
+
+Other useful commands (run from project root):
+- `npm run analyze` — corpus metrics (word count, FK grade, per-plateau stats)
+- `npm run test:metrics` — same as analyze, test-runner format
+- `npm run lint:tags` — tag linting (run `npm install` first if deps missing)
+
+---
+
+## Book / gesture architecture
+
+The book is composed from gesture files assembled at build time by
+`src/scripts/composePlateauBody.mjs`. Each chapter has:
+
+**Gesture files:** `src/content/gestures/<PLATEAU-ID>/<NNN>-<slug>.md`
+- YAML frontmatter: `id`, `plateau`, `title`, `slug`, `tags`, `notes`
+- IDs are permanent: `G-<PLATEAU>-<NNN>` format
+- For inserts between existing numbered gestures, use letter suffix:
+  `G-RE-033a`, `G-RE-034a` — file name must match: `033a-<slug>.md`
+- Voice tags: `voice/jason` (first-person/experiential), `voice/narrator` (analytical)
+- Status tags: `status/draft`, `status/final`
+
+**Chapter manifest:** `src/content/book/<chapter-slug>.md`
+- `gestures:` array — render order, one entry per gesture ID
+- `separators:` array — exactly one fewer entry than gestures
+  - `paragraph` = blank line between gestures
+  - `section` = visual section break
+- When inserting N gestures, add N separators in the correct positions
+
+---
+
+## Wizard book voice register (P-* chapters)
+
+The wizard book plateaus (P-RE, P-WW, P-EP, etc.) use a different register
+than the analytical commons chapters. Named internally: **Gandalf voice.**
+
+**The standard:**
+- Economy over explanation. Cut every word that doesn't earn its place.
+- Gravity over enthusiasm. The wizard does not exclaim.
+- Three-beat sentences. Chiastic structures. Trust the reader.
+- Show the knowing; do not explain the knowing.
+- Ceremony register: grimoire, not curriculum.
+
+**Specific moves:**
+- Short sentence after a long one. Weight / landing.
+- Chiasm: "The silliness was the armor. The armor was the wisdom."
+- Cut hedges ("perhaps," "in a sense") — commit or don't say it.
+- Reader agency always: endings belong to the reader, not the author.
+- Tonal pops allowed ("frankly adorable," "a triumph") — they earn the serious parts.
+
+**Contrast:** The analytical chapters follow the emotional cadence template
+below. Wizard chapters follow the Gandalf register instead. Different tools
+for different plateaus.
+
+---
+
 ## Session start instructions
 
 **At the start of every session in this repo, load the memory substrate:**
