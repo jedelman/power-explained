@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/berners-lee
   - year/1991
+  - image/the-centaur
+  - image/mycorrhizal-network
+  - image/zuccotti-park
+  - emotion/wonder
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

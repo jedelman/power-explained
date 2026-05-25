@@ -10,6 +10,8 @@ tags:
   - place/africa
   - place/europe
   - place/london
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

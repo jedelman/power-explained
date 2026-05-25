@@ -9,6 +9,11 @@ tags:
   - status/draft
   - concept/commons
   - place/norfolk-va
+  - image/the-restaurant
+  - emotion/clear-eyed
+  - practice/positioning
+  - practice/building
+  - emotion/humility
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

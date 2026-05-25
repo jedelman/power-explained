@@ -3,7 +3,6 @@ id: G-GC-008b
 plateau: P-GC
 title: Biopower manages life
 slug: biopower-manages-life
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,10 @@ tags:
   - concept/biopower
   - zone/high-ridges
   - direction/n
-
+  - image/the-named-demon
+  - image/the-machine
+  - emotion/clear-eyed
+  - practice/naming
 beauty_check:
   passed: true
   notes: |
@@ -26,7 +28,6 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. Six-item litany is over the
     CLAUDE.md "max 3" rule, but kind/litany flags this as a ritual
     catalog; rhythm earns it.
-
 notes: |-
   What biopower does: manages life rather than threatens death. The
   six domains as a grimoire catalog: school (thought), work (activity),

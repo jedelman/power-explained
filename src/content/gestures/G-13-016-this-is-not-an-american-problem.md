@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/india
   - concept/debt
+  - emotion/indictment
+  - emotion/grief
+  - image/the-machine
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

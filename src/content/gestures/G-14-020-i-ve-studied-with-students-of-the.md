@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/plotkin
   - concept/descent
+  - practice/descending
+  - practice/positioning
+  - image/the-wizard
+  - emotion/wonder
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

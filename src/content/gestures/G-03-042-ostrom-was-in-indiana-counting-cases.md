@@ -13,6 +13,9 @@ tags:
   - person/negri
   - person/foucault
   - place/paris
+  - motif/proof-before-theory
+  - emotion/indictment
+  - emotion/conviction
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

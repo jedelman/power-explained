@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/africa
   - concept/the-council
+  - emotion/indictment
+  - emotion/clear-eyed
+  - motif/return-migration
+  - image/the-machine
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

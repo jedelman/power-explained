@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/necropolitics
+  - image/the-prison-cell
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

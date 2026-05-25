@@ -11,6 +11,9 @@ tags:
   - person/du-bois
   - concept/wages-of-whiteness
   - concept/discipline
+  - image/the-armor
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

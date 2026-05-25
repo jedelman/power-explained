@@ -9,6 +9,8 @@ tags:
   - status/draft
   - person/foucault
   - person/mbembe
+  - emotion/clear-eyed
+  - practice/naming
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

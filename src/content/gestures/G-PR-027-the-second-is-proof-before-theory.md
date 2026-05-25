@@ -11,6 +11,10 @@ tags:
   - concept/commons
   - place/burlington-vt
   - place/valencia
+  - motif/proof-before-theory
+  - image/water-tribunal
+  - image/the-land-trust
+  - motif/distillation
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/new-york
   - concept/community
+  - practice/building
+  - emotion/conviction
+  - practice/holding
+  - emotion/disciplined-hope
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

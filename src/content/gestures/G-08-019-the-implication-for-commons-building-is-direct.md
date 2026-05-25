@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/commons
   - concept/enclosure
+  - emotion/indictment
+  - emotion/conviction
+  - practice/building
+  - practice/attending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

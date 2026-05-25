@@ -11,6 +11,10 @@ tags:
   - person/marx
   - place/turin
   - concept/the-council
+  - emotion/grief
+  - image/the-occupied-factory
+  - emotion/clear-eyed
+  - emotion/humility
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

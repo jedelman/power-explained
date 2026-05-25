@@ -10,6 +10,11 @@ tags:
   - concept/enclosure
   - concept/attention
   - concept/debt
+  - image/night-herons
+  - practice/attending
+  - practice/blessing
+  - emotion/indictment
+  - emotion/conviction
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

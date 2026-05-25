@@ -10,6 +10,10 @@ tags:
   - concept/cooperative
   - person/graeber
   - concept/the-council
+  - motif/proof-before-theory
+  - practice/self-governing
+  - emotion/vindication
+  - image/the-occupied-factory
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

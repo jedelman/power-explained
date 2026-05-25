@@ -11,6 +11,10 @@ tags:
   - place/zuccotti-park
   - place/seattle
   - year/2011
+  - image/zuccotti-park
+  - motif/proof-before-theory
+  - practice/self-governing
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

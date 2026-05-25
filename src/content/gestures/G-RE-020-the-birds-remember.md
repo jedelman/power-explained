@@ -10,6 +10,11 @@ tags:
   - concept/attention
   - person/deleuze
   - person/guattari
+  - image/the-doves
+  - image/songbirds
+  - practice/greeting
+  - emotion/wonder
+  - practice/witnessing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

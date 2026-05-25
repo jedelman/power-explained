@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - person/baudrillard
+  - emotion/clear-eyed
+  - image/the-screen
+  - emotion/unease
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

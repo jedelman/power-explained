@@ -9,6 +9,8 @@ tags:
   - status/draft
   - emotion/disgust
   - action/exodus
+  - emotion/defiance
+  - practice/refusing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

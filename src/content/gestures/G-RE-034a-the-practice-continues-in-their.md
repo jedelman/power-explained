@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/practice
   - concept/attention
+  - practice/attending
+  - practice/witnessing
+  - image/songbirds
+  - practice/de-armoring
 notes: >-
   Drafted 2026-05-24 from Jason's direction: take cues from them, read and respond to their response
   — that builds the two-way channel. "Intersubjectivity" buried per Jason. Added: if they're tense,

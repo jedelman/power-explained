@@ -9,6 +9,9 @@ tags:
   - status/draft
   - person/robinson-cedric
   - concept/the-outside
+  - motif/return-migration
+  - emotion/defiance
+  - image/the-firing-squad
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

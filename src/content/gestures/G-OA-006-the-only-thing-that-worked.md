@@ -1,7 +1,7 @@
 ---
 id: G-OA-006
 plateau: P-OA
-title: "The Only Thing That Worked"
+title: The Only Thing That Worked
 slug: the-only-thing-that-worked
 tags:
   - plateau/P-OA
@@ -12,6 +12,10 @@ tags:
   - direction/e
   - zone/second-growth
   - concept/community
+  - image/the-floor
+  - practice/holding
+  - emotion/tenderness
+  - emotion/disciplined-hope
 beauty_check:
   passed: true
   notes: |

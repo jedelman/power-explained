@@ -7,6 +7,9 @@ tags:
   - plateau/P-05
   - voice/jason
   - status/draft
+  - emotion/defiance
+  - emotion/vindication
+  - image/the-prison-cell
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

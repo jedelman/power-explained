@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - motif/knowing-in-the-body
+  - emotion/conviction
+  - emotion/grief
+  - practice/gathering
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

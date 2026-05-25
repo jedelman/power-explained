@@ -1,7 +1,7 @@
 ---
 id: G-WW-018
 plateau: P-WW
-title: "Ethically Fraught"
+title: Ethically Fraught
 slug: ethically-fraught
 tags:
   - plateau/P-WW
@@ -13,6 +13,10 @@ tags:
   - status/draft
   - direction/n
   - zone/the-wizards-cottage
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
+  - emotion/unease
+  - practice/naming
 beauty_check:
   passed: false
   notes: |

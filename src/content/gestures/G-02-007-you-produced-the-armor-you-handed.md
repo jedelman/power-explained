@@ -7,6 +7,9 @@ tags:
   - plateau/P-02
   - voice/jason
   - status/draft
+  - image/the-armor
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

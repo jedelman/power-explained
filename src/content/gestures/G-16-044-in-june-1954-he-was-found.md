@@ -7,6 +7,9 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - emotion/grief
+  - motif/falling-through-the-gap
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

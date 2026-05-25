@@ -8,6 +8,12 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/night-herons
+  - image/the-deer
+  - image/old-growth-forest
+  - image/the-highway
+  - emotion/disciplined-hope
+  - practice/continuing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

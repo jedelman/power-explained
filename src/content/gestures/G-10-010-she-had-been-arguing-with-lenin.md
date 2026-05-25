@@ -10,6 +10,8 @@ tags:
   - person/lenin
   - place/london
   - place/berlin
+  - emotion/clear-eyed
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

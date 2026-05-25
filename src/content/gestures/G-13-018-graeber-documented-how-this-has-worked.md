@@ -10,6 +10,9 @@ tags:
   - concept/commons
   - person/graeber
   - concept/debt
+  - motif/return-migration
+  - emotion/clear-eyed
+  - motif/distillation
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

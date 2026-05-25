@@ -3,7 +3,6 @@ id: G-GC-024
 plateau: P-GC
 title: The outside. Luxemburg gave us this
 slug: the-outside-luxemburg-gave-us-this
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -17,7 +16,10 @@ tags:
   - concept/primitive-accumulation
   - zone/high-ridges
   - direction/n
-
+  - practice/naming
+  - image/the-machine
+  - emotion/indictment
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -25,9 +27,9 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. "The bouncer at the door and the
     kidnapper in the alley" is the demonic image. "This is not the excess
     of the system. It is the mechanism." holds the analytical move.
-
-notes: |-
-  Third name introduced: the outside. Luxemburg. Forward pointer: "We'll follow her argument fully in the next chapter."
+notes: >-
+  Third name introduced: the outside. Luxemburg. Forward pointer: "We'll follow her argument fully
+  in the next chapter."
 ---
 *The outside.* Luxemburg's name. The territory beyond the accounting. The bouncer at the door and the kidnapper in the alley: keeps certain people and certain forms of existence apart, and moves to separate them when they find each other.
 

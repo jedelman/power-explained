@@ -3,7 +3,6 @@ id: G-GC-008f
 plateau: P-GC
 title: Biopolitics is the name for the contest
 slug: biopolitics-is-the-name
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -21,7 +20,10 @@ tags:
   - concept/biopower
   - zone/high-ridges
   - direction/n
-
+  - practice/attending
+  - image/the-prison-cell
+  - emotion/wonder
+  - practice/practicing
 beauty_check:
   passed: true
   notes: |
@@ -37,7 +39,6 @@ beauty_check:
     A Thousand Plateaus, on strata) and "Of the Refrain" (plateau 11,
     on territorial inscription). "Inscription of strata, layer on layer"
     is Jason's reading of the strata argument; not a direct D&G phrase.
-
 notes: |-
   Biopolitics as the contest, not the apparatus and not the effect.
   The trail-system metaphor: every creature attending to and adjusting

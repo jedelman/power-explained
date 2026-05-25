@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/commons
   - place/spain
+  - emotion/vindication
+  - motif/proof-before-theory
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

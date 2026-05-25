@@ -12,6 +12,9 @@ tags:
   - person/turing
   - person/wynter
   - concept/the-outside
+  - image/the-mirror
+  - motif/the-lineage
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

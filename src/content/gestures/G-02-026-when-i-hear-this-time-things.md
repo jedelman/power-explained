@@ -9,6 +9,11 @@ tags:
   - status/draft
   - place/norfolk-va
   - concept/progress
+  - practice/refusing
+  - practice/naming
+  - emotion/defiance
+  - practice/attending
+  - emotion/disciplined-hope
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

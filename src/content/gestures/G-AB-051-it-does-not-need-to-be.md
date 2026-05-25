@@ -15,6 +15,9 @@ tags:
   - concept/aura
   - zone/the-wizards-cottage
   - direction/nw
+  - image/the-redcedar
+  - practice/remembering
+  - emotion/grief
 beauty_check:
   passed: true
   notes: |
@@ -22,7 +25,6 @@ beauty_check:
     says, the past is a tricky thing" — Jason's paraphrase, not a direct
     quote. Removing the italics keeps the casual register honest about
     the attribution.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

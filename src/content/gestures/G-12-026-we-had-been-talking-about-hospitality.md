@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/simulation
   - person/baudrillard
+  - image/the-restaurant
+  - emotion/indictment
+  - image/the-screen
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

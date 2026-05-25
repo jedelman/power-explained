@@ -7,6 +7,9 @@ tags:
   - plateau/P-EP
   - voice/jason
   - status/draft
+  - image/the-restaurant
+  - emotion/clear-eyed
+  - motif/trickle-vs-flood
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

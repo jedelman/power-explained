@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/india
   - place/narmada
+  - practice/witnessing
+  - practice/positioning
+  - emotion/indictment
+  - practice/naming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

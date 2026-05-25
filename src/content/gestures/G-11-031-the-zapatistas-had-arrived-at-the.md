@@ -11,6 +11,8 @@ tags:
   - place/mexico
   - concept/practice
   - concept/community
+  - motif/proof-before-theory
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/community
   - concept/debt
+  - emotion/clear-eyed
+  - emotion/indictment
+  - practice/naming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

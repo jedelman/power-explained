@@ -11,6 +11,10 @@ tags:
   - person/gramsci
   - person/federici
   - place/standing-rock
+  - image/the-thread
+  - motif/falling-through-the-gap
+  - emotion/conviction
+  - practice/positioning
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

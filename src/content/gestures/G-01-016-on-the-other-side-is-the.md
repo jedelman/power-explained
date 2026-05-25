@@ -9,6 +9,11 @@ tags:
   - status/draft
   - place/norfolk-va
   - place/hampton-roads
+  - image/the-superblock
+  - image/night-herons
+  - emotion/wonder
+  - emotion/reverence
+  - practice/attending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

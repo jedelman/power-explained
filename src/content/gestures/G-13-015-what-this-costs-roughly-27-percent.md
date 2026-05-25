@@ -10,6 +10,9 @@ tags:
   - year/2024
   - year/2026
   - concept/debt
+  - emotion/grief
+  - emotion/clear-eyed
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

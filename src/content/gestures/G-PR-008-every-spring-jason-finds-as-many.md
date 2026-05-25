@@ -7,6 +7,11 @@ tags:
   - plateau/P-PR
   - voice/jason
   - status/draft
+  - image/night-herons
+  - practice/greeting
+  - emotion/tenderness
+  - motif/the-lineage
+  - practice/blessing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

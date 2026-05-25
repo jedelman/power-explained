@@ -7,6 +7,9 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - emotion/clear-eyed
+  - motif/cannot-verify-from-inside
+  - image/the-operating-system
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

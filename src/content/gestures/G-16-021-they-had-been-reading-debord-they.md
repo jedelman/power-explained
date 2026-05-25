@@ -9,6 +9,9 @@ tags:
   - status/draft
   - person/debord
   - place/france
+  - image/the-occupied-factory
+  - emotion/defiance
+  - motif/self-governance-in-public
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

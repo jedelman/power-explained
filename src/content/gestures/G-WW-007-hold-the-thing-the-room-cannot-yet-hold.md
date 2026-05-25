@@ -14,6 +14,11 @@ tags:
   - concept/character-armor
   - concept/the-wizard
   - concept/orgone
+  - practice/holding
+  - image/the-armor
+  - practice/de-armoring
+  - motif/knowing-in-the-body
+  - emotion/tenderness
 beauty_check:
   passed: false
   notes: |

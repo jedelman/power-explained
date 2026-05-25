@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/cooperative
+  - image/the-caracoles
+  - practice/self-governing
+  - emotion/disciplined-hope
+  - practice/building
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

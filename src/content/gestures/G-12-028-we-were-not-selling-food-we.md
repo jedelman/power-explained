@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/simulation
+  - image/the-restaurant
+  - emotion/indictment
+  - emotion/grief
+  - practice/positioning
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

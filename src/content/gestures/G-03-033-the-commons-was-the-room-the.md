@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/the-restaurant
+  - emotion/grief
+  - emotion/tenderness
+  - image/the-hedgerow
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

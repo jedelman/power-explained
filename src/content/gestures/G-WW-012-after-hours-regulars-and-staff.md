@@ -13,6 +13,10 @@ tags:
   - zone/the-wizards-cottage
   - place/norfolk-va
   - concept/commons
+  - image/the-restaurant
+  - motif/dissolving-boundary
+  - emotion/tenderness
+  - practice/gathering
 beauty_check:
   passed: false
   notes: |

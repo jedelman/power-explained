@@ -7,6 +7,10 @@ tags:
   - plateau/P-09
   - voice/jason
   - status/draft
+  - image/the-restaurant
+  - emotion/defiance
+  - emotion/clear-eyed
+  - practice/refusing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

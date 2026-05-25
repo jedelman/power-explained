@@ -11,6 +11,11 @@ tags:
   - place/new-york
   - place/norfolk-va
   - place/seattle
+  - image/the-highway
+  - image/the-shrug
+  - motif/knowing-in-the-body
+  - emotion/unease
+  - emotion/defiance
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

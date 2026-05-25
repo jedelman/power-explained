@@ -7,6 +7,11 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - image/the-uncut-meadow
+  - image/the-screen
+  - emotion/grief
+  - practice/grieving
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

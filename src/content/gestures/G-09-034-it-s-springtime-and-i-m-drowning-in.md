@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/practice
+  - emotion/indictment
+  - emotion/grief
+  - emotion/clear-eyed
+  - image/the-uncut-meadow
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

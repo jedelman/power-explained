@@ -10,6 +10,9 @@ tags:
   - person/debord
   - person/baudrillard
   - concept/enclosure
+  - emotion/clear-eyed
+  - emotion/indictment
+  - image/the-screen
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

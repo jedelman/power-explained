@@ -10,6 +10,11 @@ tags:
   - place/norfolk-va
   - place/virginia
   - concept/community
+  - practice/positioning
+  - image/night-herons
+  - image/old-growth-forest
+  - practice/greeting
+  - emotion/wonder
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

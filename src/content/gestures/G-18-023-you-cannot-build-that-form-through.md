@@ -12,6 +12,10 @@ tags:
   - year/2011
   - concept/community
   - concept/debt
+  - motif/distillation
+  - motif/the-lineage
+  - practice/building
+  - emotion/conviction
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

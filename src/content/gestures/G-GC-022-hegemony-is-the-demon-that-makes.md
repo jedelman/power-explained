@@ -3,7 +3,6 @@ id: G-GC-022
 plateau: P-GC
 title: Hegemony is the demon that makes
 slug: hegemony-is-the-demon-that-makes
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -14,15 +13,14 @@ tags:
   - concept/hegemony
   - zone/high-ridges
   - direction/n
-
+  - image/the-named-demon
+  - emotion/indictment
 beauty_check:
   passed: true
   notes: |
     2026-05-22: Schema + rich tagging pass.
     2026-05-23: Beauty pass — confirmed. The chapter's most quotable line,
     earned by everything 019/021 set up.
-
-notes: |-
-  The chapter's most quotable line. One sentence.
+notes: The chapter's most quotable line. One sentence.
 ---
 Hegemony is the demon that makes you think you aren't possessed.

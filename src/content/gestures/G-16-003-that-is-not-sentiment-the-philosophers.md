@@ -10,6 +10,9 @@ tags:
   - concept/commons
   - person/hardt
   - person/negri
+  - emotion/tenderness
+  - motif/flowering
+  - emotion/conviction
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/luxemburg
   - person/wynter
+  - motif/falling-through-the-gap
+  - practice/naming
+  - emotion/clear-eyed
+  - emotion/defiance
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

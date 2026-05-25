@@ -3,7 +3,6 @@ id: G-GC-028
 plateau: P-GC
 title: Here is the practice
 slug: here-is-the-practice
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -13,7 +12,7 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/n
-
+  - practice/practicing
 beauty_check:
   passed: true
   notes: |
@@ -21,8 +20,6 @@ beauty_check:
     2026-05-23: Beauty pass — kept. Normally CLAUDE.md cuts "Here is..."
     openers, but this is a kind/landing chapter-pivot, not a scaffolding
     transition. The whole chapter turns from diagnosis to practice here.
-
-notes: |-
-  Transition to practice section. Single line.
+notes: Transition to practice section. Single line.
 ---
 Here is the practice.

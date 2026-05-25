@@ -1,7 +1,7 @@
 ---
 id: G-OA-003
 plateau: P-OA
-title: "What Reich Was Actually Right About"
+title: What Reich Was Actually Right About
 slug: what-reich-was-actually-right-about
 tags:
   - plateau/P-OA
@@ -14,6 +14,10 @@ tags:
   - concept/character-armor
   - direction/n
   - zone/second-growth
+  - image/the-armor
+  - image/the-held-jaw
+  - practice/naming
+  - emotion/disciplined-hope
 beauty_check:
   passed: true
   notes: |

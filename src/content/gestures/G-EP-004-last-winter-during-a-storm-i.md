@@ -7,6 +7,12 @@ tags:
   - plateau/P-EP
   - voice/jason
   - status/draft
+  - image/songbirds
+  - image/the-uncut-meadow
+  - image/night-herons
+  - motif/return-migration
+  - practice/blessing
+  - emotion/disciplined-hope
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

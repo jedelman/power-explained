@@ -7,10 +7,13 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - practice/guesting
+  - emotion/humility
+  - practice/becoming-still
 notes: >-
-  Drafted 2026-05-24 from Jason's direction: baseline commitment = treat Other
-  as equal; in their space, be on best behavior as a guest. Inserted between
-  G-RE-033 and G-RE-034. "Hosts" per Jason — not "superiors."
+  Drafted 2026-05-24 from Jason's direction: baseline commitment = treat Other as equal; in their
+  space, be on best behavior as a guest. Inserted between G-RE-033 and G-RE-034. "Hosts" per Jason —
+  not "superiors."
 ---
 The baseline is simpler than you think. You are entering someone else's space. They were here before you. Your role is guest, not director — and as a guest, your first obligation is to do no harm. Move slowly. Make no sudden movements. Speak quietly if at all. Don't reach.
 

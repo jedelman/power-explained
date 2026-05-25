@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - motif/demolished-from-outside
+  - motif/knowing-in-the-body
+  - emotion/grief
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

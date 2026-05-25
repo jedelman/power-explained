@@ -12,6 +12,9 @@ tags:
   - place/atlantic-city
   - concept/community
   - concept/progress
+  - emotion/indictment
+  - emotion/grief
+  - motif/demolished-from-outside
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

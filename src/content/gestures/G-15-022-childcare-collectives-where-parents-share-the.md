@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/cooperative
   - concept/community
+  - practice/self-governing
+  - practice/tending
+  - motif/proof-before-theory
+  - emotion/tenderness
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

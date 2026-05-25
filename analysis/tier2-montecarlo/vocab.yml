@@ -1,9 +1,11 @@
-# Tier-2 controlled vocabulary — DRAFT for approval
-# Distilled from the Monte Carlo run (285 gestures x 3 blind passes, 3,596 tag instances).
-# Each canonical tag: gloss, binding=true if it crosses >=3 registers, and the raw variant
-# strings the passes coined (these become the swarm's match aliases).
-# CORE = recurring (>=2 sampled gestures) or thematically central. The swarm tags from CORE
-# first, and may PROPOSE new locals (logged, not auto-applied).
+# Tier-2 controlled vocabulary
+# Distilled from Monte Carlo blind-pass runs, then applied to all 911 gestures
+# (see gesture-tags.json). Each canonical tag: gloss, binding=true if it crosses
+# >=3 registers, and the raw variant strings the passes coined (match aliases).
+#
+# Ontology mapping (for-agents/tag-ontology.yml): image/, motif/, practice/ are
+# their own namespaces; the `affect` family below maps onto the existing
+# `emotion` namespace (affect/grief -> emotion/grief, etc.).
 
 image:
   # --- returning life / the wild that reads us back ---
@@ -14,6 +16,9 @@ image:
   the-deer:
     gloss: "the deer that walks into camp; met by stillness"
     variants: [the-deer, the-deer-at-the-clearing, deer-in-camp, deer-through-camp]
+  the-muskrat:
+    gloss: "the muskrat that shows itself; the living world revealing"  # [full-book, promoted from proposed/]
+    variants: [the-muskrat, muskrat]
   the-doves:
     gloss: "doves on the ground beside the quieted body"
     variants: [doves-on-the-ground, the-doves]
@@ -98,6 +103,9 @@ image:
   the-credit-union:
     gloss: "the financial cooperative on the corner"
     variants: [credit-union, the-credit-union, credit-union-on-the-corner]
+  the-cooperative-bank:
+    gloss: "Mondragón's Caja Laboral; the worker-owned bank"  # [full-book, promoted from proposed/] distinct from the-credit-union
+    variants: [the-cooperative-bank, cooperative-bank, caja-laboral]
   the-land-trust:
     gloss: "the community land trust; the ground lease"
     variants: [land-trust, the-land-trust, burlington-land-trust, ground-lease]
@@ -353,10 +361,18 @@ practice:
   positioning:
     gloss: "declaring where you stand so others can calibrate the claim"  # [coined 2/3, 2g] cross-pass convergence (self-locating/positioning)
     variants: [positioning, self-locating, self-location]
+  conditioning:
+    gloss: "arranging the conditions so a connection can happen indirectly"  # [full-book, promoted from watch-list]
+    variants: [conditioning, arranging-conditions, scaffolding]
+  guesting:
+    gloss: "entering another's space as guest, not director"  # [full-book, promoted from watch-list]
+    variants: [guesting, being-a-guest]
+  reciprocating:
+    gloss: "returning the gift; the boomerang bottle; watching each other's kids"  # [full-book, promoted from proposed/]
+    variants: [reciprocating, reciprocity, returning-the-gift]
 
-# PRACTICE watch-list — coined once or twice, lovely but local; the full swarm should confirm
-# before promoting to core: conditioning (arranging conditions for connection), guesting (entering
-# another's space as guest), playing, tracking, disciplining-spirit (kokoro), deprogramming.
+# PRACTICE watch-list — coined once, still local; confirm before promoting:
+# playing, tracking, disciplining-spirit (kokoro), deprogramming.
 
 # DROPPED as concept-shadows (already covered by Tier-1 concept/ tags) — kept for the record:
 #   enclosure-of-the-commons, enclosure-destroys-it  -> concept/enclosure

@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - person/luxemburg
+  - image/the-prison-cell
+  - emotion/clear-eyed
+  - emotion/grief
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -10,6 +10,11 @@ tags:
   - person/luxemburg
   - place/germany
   - concept/attention
+  - image/the-prison-cell
+  - image/songbirds
+  - practice/attending
+  - emotion/reverence
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

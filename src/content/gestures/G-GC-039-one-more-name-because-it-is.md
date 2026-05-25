@@ -3,7 +3,6 @@ id: G-GC-039
 plateau: P-GC
 title: One more name. My Sensei had it
 slug: one-more-name-because-it-is
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -14,7 +13,10 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/e
-
+  - emotion/humility
+  - emotion/tenderness
+  - practice/greeting
+  - image/the-thread
 beauty_check:
   passed: true
   notes: |
@@ -26,7 +28,6 @@ beauty_check:
     finally arrived at it). The honesty is the brimstone here.
     2026-05-23: Beauty pass — confirmed. Triplet (Sensei / yoga teachers /
     wilderness mentors) into "waiting for me to come back" lands the turn.
-
 notes: |-
   The pivot to connection as the fifth name. The honest admission: mentors had
   it before all the theory. "Came to last, was there at the beginning" — the

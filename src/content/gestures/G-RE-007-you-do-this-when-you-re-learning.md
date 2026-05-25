@@ -7,6 +7,9 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - image/songbirds
+  - practice/practicing
+  - practice/naming
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

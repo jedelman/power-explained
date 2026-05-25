@@ -7,6 +7,9 @@ tags:
   - plateau/P-10
   - voice/jason
   - status/draft
+  - emotion/clear-eyed
+  - emotion/indictment
+  - motif/self-governance-in-public
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

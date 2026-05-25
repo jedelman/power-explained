@@ -10,6 +10,10 @@ tags:
   - concept/enclosure
   - concept/practice
   - concept/community
+  - emotion/indictment
+  - motif/return-migration
+  - practice/refusing
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

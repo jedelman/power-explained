@@ -11,6 +11,7 @@ tags:
   - place/atlantic-city
   - place/virginia
   - concept/community
+  - motif/demolished-from-outside
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - place/hampton-roads
+  - image/the-highway
+  - emotion/grief
+  - motif/defense-of-land
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

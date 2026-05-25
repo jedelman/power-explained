@@ -3,7 +3,6 @@ id: G-GC-004
 plateau: P-GC
 title: The circle is already drawn
 slug: i-am-going-to-give-you
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -13,7 +12,9 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/n
-
+  - image/the-grimoire
+  - image/the-circle
+  - practice/naming
 beauty_check:
   passed: true
   notes: |
@@ -23,7 +24,6 @@ beauty_check:
     already in the circle; the naming begins now. Reader is brought into
     the practice, not introduced to a syllabus.
     2026-05-23: Beauty pass — confirmed.
-
 notes: |-
   Invocation. The naming begins. Reader is inside the circle, not outside it.
   The act of reading the grimoire IS the act of summoning.

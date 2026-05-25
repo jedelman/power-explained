@@ -10,6 +10,9 @@ tags:
   - person/graeber
   - place/norfolk-va
   - concept/debt
+  - emotion/tenderness
+  - emotion/wonder
+  - practice/reciprocating
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

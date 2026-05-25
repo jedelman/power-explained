@@ -11,6 +11,11 @@ tags:
   - concept/practice
   - concept/community
   - person/prechtel
+  - practice/descending
+  - practice/remembering
+  - practice/holding
+  - emotion/reverence
+  - image/the-thread
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

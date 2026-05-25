@@ -7,6 +7,9 @@ tags:
   - plateau/P-07
   - voice/jason
   - status/draft
+  - image/the-shrug
+  - emotion/indictment
+  - practice/naming
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

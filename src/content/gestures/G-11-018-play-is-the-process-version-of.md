@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/the-restaurant
+  - motif/flowering
+  - image/the-coffee-shop
+  - practice/tending
+  - emotion/wonder
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

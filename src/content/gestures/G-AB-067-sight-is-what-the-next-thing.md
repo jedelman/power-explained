@@ -15,11 +15,15 @@ tags:
   - concept/the-shard
   - zone/the-wizards-cottage
   - direction/se
+  - image/the-land-trust
+  - image/the-credit-union
+  - image/the-redcedar
+  - practice/building
+  - image/the-restaurant
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

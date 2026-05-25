@@ -18,6 +18,11 @@ tags:
   - concept/the-council
   - concept/commons
   - concept/attention
+  - image/the-angel
+  - image/the-wizard
+  - practice/attending
+  - practice/holding
+  - emotion/humility
 beauty_check:
   passed: false
   notes: |

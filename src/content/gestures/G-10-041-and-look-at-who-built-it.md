@@ -13,6 +13,11 @@ tags:
   - place/palmares
   - concept/the-outside
   - concept/practice
+  - motif/proof-before-theory
+  - image/water-tribunal
+  - image/the-occupied-factory
+  - motif/the-lineage
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

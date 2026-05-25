@@ -3,7 +3,6 @@ id: G-GC-005b
 plateau: P-GC
 title: There are a few coffee shops
 slug: there-are-a-few-coffee-shops
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,10 @@ tags:
   - concept/hegemony
   - zone/high-ridges
   - direction/n
-
+  - image/the-coffee-shop
+  - practice/attending
+  - motif/making-common-sense
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -26,7 +28,6 @@ beauty_check:
     landing. Verbatim from Jason's GT-01 answer.
     2026-05-23: Beauty pass — confirmed. "I wasn't talking about production
     of subjectivity. I was watching it happen." earns the section.
-
 notes: |-
   Inbox GT-01 woven 2026-05-22. The scene of arrival. Where Jason
   first heard himself fluent in production of subjectivity without

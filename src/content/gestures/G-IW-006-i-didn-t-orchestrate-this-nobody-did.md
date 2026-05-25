@@ -7,6 +7,10 @@ tags:
   - plateau/P-IW
   - voice/jason
   - status/draft
+  - image/the-deer
+  - practice/becoming-still
+  - emotion/wonder
+  - emotion/humility
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

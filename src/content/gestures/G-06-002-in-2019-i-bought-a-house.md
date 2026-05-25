@@ -12,6 +12,10 @@ tags:
   - place/virginia
   - place/chelsea-norfolk
   - concept/the-line
+  - image/the-7-eleven
+  - image/the-restaurant
+  - practice/positioning
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

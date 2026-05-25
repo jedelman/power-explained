@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/commons
   - concept/debt
+  - emotion/disciplined-hope
+  - image/the-credit-union
+  - practice/continuing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

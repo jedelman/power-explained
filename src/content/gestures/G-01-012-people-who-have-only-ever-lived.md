@@ -10,6 +10,9 @@ tags:
   - concept/hegemony
   - place/norfolk-va
   - place/hampton-roads
+  - image/the-operating-system
+  - emotion/clear-eyed
+  - motif/cannot-verify-from-inside
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/debt
+  - emotion/clear-eyed
+  - emotion/defiance
+  - practice/refusing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

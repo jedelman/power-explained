@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/old-growth-forest
+  - practice/building
+  - emotion/disciplined-hope
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

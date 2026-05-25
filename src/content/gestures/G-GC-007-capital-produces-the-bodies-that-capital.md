@@ -3,7 +3,6 @@ id: G-GC-007
 plateau: P-GC
 title: Capital produces the bodies that capital
 slug: capital-produces-the-bodies-that-capital
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -14,7 +13,9 @@ tags:
   - concept/production-of-subjectivity
   - zone/high-ridges
   - direction/n
-
+  - image/the-machine
+  - emotion/clear-eyed
+  - emotion/indictment
 beauty_check:
   passed: true
   notes: |
@@ -25,7 +26,6 @@ beauty_check:
     follow the no-coordinator implication from the ecosystem claim.
     2026-05-23: Beauty pass — confirmed. Single-line opener + ecosystem
     paragraph + "you discover this quickly" close hold the rhythm.
-
 notes: |-
   Merged G-GC-008, G-GC-009 on 2026-05-20. "Capital produces the bodies
   that capital needs." The co-evolution argument: same ecosystem, same

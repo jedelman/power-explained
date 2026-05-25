@@ -12,6 +12,11 @@ tags:
   - place/italy
   - concept/the-council
   - concept/discipline
+  - image/the-occupied-factory
+  - motif/self-governance-in-public
+  - motif/proof-before-theory
+  - practice/self-governing
+  - emotion/wonder
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

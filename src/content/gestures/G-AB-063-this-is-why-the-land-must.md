@@ -17,11 +17,15 @@ tags:
   - place/standing-rock
   - zone/the-wizards-cottage
   - direction/se
+  - motif/defense-of-land
+  - practice/refusing
+  - image/the-land-trust
+  - image/the-redcedar
+  - practice/attending
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

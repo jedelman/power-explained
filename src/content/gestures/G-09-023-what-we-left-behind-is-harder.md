@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/norfolk-va
   - place/seattle
+  - image/scattered-seeds
+  - motif/demolished-from-outside
+  - emotion/grief
+  - image/the-restaurant
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - person/fanon
+  - image/the-mirror
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
+  - practice/de-armoring
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

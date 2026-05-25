@@ -10,6 +10,10 @@ tags:
   - concept/cooperative
   - place/jackson-ms
   - concept/the-council
+  - motif/self-governance-in-public
+  - image/the-caracoles
+  - motif/the-lineage
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - person/federici
+  - image/the-centaur
+  - motif/knowing-in-the-body
+  - emotion/vindication
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

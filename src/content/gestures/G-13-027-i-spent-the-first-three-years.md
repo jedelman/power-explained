@@ -10,6 +10,9 @@ tags:
   - concept/commons
   - person/graeber
   - place/chelsea-norfolk
+  - image/the-restaurant
+  - emotion/indictment
+  - emotion/grief
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

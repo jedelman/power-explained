@@ -1,7 +1,7 @@
 ---
 id: G-OA-002c
 plateau: P-OA
-title: "He Put His Hands on It"
+title: He Put His Hands on It
 slug: he-put-his-hands-on-it
 tags:
   - plateau/P-OA
@@ -16,6 +16,11 @@ tags:
   - concept/dearmoring
   - direction/n
   - zone/second-growth
+  - image/the-armor
+  - practice/de-armoring
+  - emotion/indictment
+  - image/the-thread
+  - emotion/conviction
 beauty_check:
   passed: true
   notes: |

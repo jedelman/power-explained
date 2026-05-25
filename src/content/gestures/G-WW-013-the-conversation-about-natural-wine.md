@@ -1,7 +1,7 @@
 ---
 id: G-WW-013
 plateau: P-WW
-title: "The Conversation About Natural Wine"
+title: The Conversation About Natural Wine
 slug: the-conversation-about-natural-wine
 tags:
   - plateau/P-WW
@@ -11,6 +11,8 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - image/the-restaurant
+  - emotion/clear-eyed
 beauty_check:
   passed: false
   notes: |

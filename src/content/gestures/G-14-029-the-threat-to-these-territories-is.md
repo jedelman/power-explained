@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/enclosure
   - year/2020
+  - emotion/indictment
+  - emotion/grief
+  - emotion/clear-eyed
+  - motif/defense-of-land
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

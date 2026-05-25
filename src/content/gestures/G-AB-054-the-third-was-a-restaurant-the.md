@@ -14,11 +14,15 @@ tags:
   - place/norfolk-va
   - zone/the-wizards-cottage
   - direction/nw
+  - image/the-restaurant
+  - image/the-redcedar
+  - image/scattered-seeds
+  - emotion/disciplined-hope
+  - image/the-thread
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

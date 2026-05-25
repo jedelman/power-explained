@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/hampton-roads
   - concept/attention
+  - image/the-restaurant
+  - emotion/wonder
+  - practice/attending
+  - image/the-highway
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,12 @@ tags:
   - voice/jason
   - status/draft
   - concept/practice
+  - image/night-herons
+  - image/the-doves
+  - image/the-deer
+  - practice/blessing
+  - motif/knowing-in-the-body
+  - emotion/reverence
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

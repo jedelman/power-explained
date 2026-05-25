@@ -10,6 +10,10 @@ tags:
   - person/freire
   - person/roy-arundhati
   - place/narmada
+  - image/the-circle
+  - image/the-plantation
+  - emotion/indictment
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

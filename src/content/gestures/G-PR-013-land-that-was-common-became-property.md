@@ -7,6 +7,10 @@ tags:
   - plateau/P-PR
   - voice/jason
   - status/draft
+  - image/common-land-fenced
+  - image/the-credit-union
+  - emotion/indictment
+  - motif/trickle-vs-flood
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

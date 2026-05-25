@@ -12,6 +12,11 @@ tags:
   - person/debord
   - person/alexander
   - concept/community
+  - image/the-superblock
+  - image/the-communal-kitchen
+  - image/the-circle
+  - motif/flowering
+  - practice/welcoming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

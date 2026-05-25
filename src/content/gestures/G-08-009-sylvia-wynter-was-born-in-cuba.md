@@ -13,6 +13,11 @@ tags:
   - concept/the-outside
   - concept/practice
   - concept/community
+  - image/the-mirror
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
+  - practice/building
+  - image/the-screen
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/commons
   - concept/enclosure
+  - emotion/indictment
+  - motif/flowering
+  - emotion/grief
+  - practice/tending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

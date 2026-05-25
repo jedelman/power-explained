@@ -10,6 +10,8 @@ tags:
   - concept/commons
   - concept/enclosure
   - person/graeber
+  - emotion/indictment
+  - motif/flowering
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -1,7 +1,7 @@
 ---
 id: G-OA-005
 plateau: P-OA
-title: "The Floor Is a Place"
+title: The Floor Is a Place
 slug: the-floor-is-a-place
 tags:
   - plateau/P-OA
@@ -12,6 +12,11 @@ tags:
   - direction/nw
   - zone/second-growth
   - concept/burnout
+  - image/the-floor
+  - image/the-library
+  - emotion/wonder
+  - emotion/grief
+  - image/songbirds
 beauty_check:
   passed: true
   notes: |

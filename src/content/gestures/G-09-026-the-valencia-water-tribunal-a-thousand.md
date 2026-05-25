@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/valencia
   - concept/practice
+  - image/water-tribunal
+  - motif/making-common-sense
+  - emotion/reverence
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

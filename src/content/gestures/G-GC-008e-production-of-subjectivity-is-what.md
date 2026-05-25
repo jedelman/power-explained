@@ -3,7 +3,6 @@ id: G-GC-008e
 plateau: P-GC
 title: Production of subjectivity is what spills out
 slug: production-of-subjectivity-is-what
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,11 @@ tags:
   - concept/production-of-subjectivity
   - zone/high-ridges
   - direction/n
-
+  - image/the-orchard
+  - image/mycorrhizal-network
+  - image/scattered-seeds
+  - motif/flowering
+  - emotion/wonder
 beauty_check:
   passed: true
   notes: |
@@ -32,7 +35,6 @@ beauty_check:
     always escapes administration.
     VERIFY: Cradle to Cradle (McDonough & Braungart, 2002) — tree as
     model of productive abundance. Direct attribution; not paraphrased.
-
 notes: |-
   Tree metaphor: a tree produces everything it needs, everything everyone
   around it needs, and surplus for generations it will never meet.

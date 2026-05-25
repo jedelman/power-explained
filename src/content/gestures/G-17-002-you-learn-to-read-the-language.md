@@ -7,6 +7,9 @@ tags:
   - plateau/P-17
   - voice/jason
   - status/draft
+  - practice/attending
+  - motif/knowing-in-the-body
+  - practice/becoming-still
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

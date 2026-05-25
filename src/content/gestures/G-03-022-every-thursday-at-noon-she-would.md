@@ -10,6 +10,11 @@ tags:
   - place/valencia
   - place/aragon
   - concept/community
+  - image/water-tribunal
+  - practice/self-governing
+  - practice/continuing
+  - emotion/reverence
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

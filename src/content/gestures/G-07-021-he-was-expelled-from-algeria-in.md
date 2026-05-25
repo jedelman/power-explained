@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - place/algeria
+  - emotion/grief
+  - motif/return-migration
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

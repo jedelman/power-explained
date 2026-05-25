@@ -10,6 +10,9 @@ tags:
   - place/mondragon
   - concept/cooperative
   - concept/federation
+  - practice/self-governing
+  - emotion/conviction
+  - image/the-cooperative-bank
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

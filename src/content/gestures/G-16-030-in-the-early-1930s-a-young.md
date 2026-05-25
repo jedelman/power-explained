@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - person/turing
+  - emotion/grief
+  - motif/falling-through-the-gap
+  - motif/body-without-organs
+  - emotion/tenderness
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

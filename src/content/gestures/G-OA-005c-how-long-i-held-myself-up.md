@@ -1,7 +1,7 @@
 ---
 id: G-OA-005c
 plateau: P-OA
-title: "How Long I Held Myself Up"
+title: How Long I Held Myself Up
 slug: how-long-i-held-myself-up
 tags:
   - plateau/P-OA
@@ -14,6 +14,11 @@ tags:
   - zone/second-growth
   - concept/burnout
   - concept/character-armor
+  - image/the-floor
+  - image/the-armor
+  - practice/de-armoring
+  - emotion/grief
+  - emotion/wonder
 beauty_check:
   passed: true
   notes: |

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/enclosure
   - concept/practice
+  - image/the-restaurant
+  - emotion/clear-eyed
+  - motif/self-governance-in-public
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

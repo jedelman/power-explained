@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - motif/return-migration
+  - practice/descending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

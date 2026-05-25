@@ -7,11 +7,15 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - practice/attending
+  - emotion/wonder
+  - practice/becoming-still
+  - motif/flowering
+  - image/the-muskrat
 notes: >-
-  Drafted 2026-05-24 from Jason's muskrat story (RE-02-the-muskrats.md).
-  "Frankly adorable" kept per Jason. Framed as example, not proof, per Jason:
-  "Drop the proof. It's just an example. Something that may happen to you."
-  Inserted between G-RE-037 and G-RE-038.
+  Drafted 2026-05-24 from Jason's muskrat story (RE-02-the-muskrats.md). "Frankly adorable" kept per
+  Jason. Framed as example, not proof, per Jason: "Drop the proof. It's just an example. Something
+  that may happen to you." Inserted between G-RE-037 and G-RE-038.
 ---
 This is what it may look like when the channel opens.
 

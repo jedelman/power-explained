@@ -7,6 +7,10 @@ tags:
   - plateau/P-18
   - voice/jason
   - status/draft
+  - practice/continuing
+  - practice/grieving
+  - practice/blessing
+  - practice/greeting
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

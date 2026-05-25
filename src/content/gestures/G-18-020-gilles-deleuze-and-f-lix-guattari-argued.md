@@ -11,6 +11,9 @@ tags:
   - person/deleuze
   - person/guattari
   - concept/community
+  - image/the-circle
+  - motif/flowering
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - image/the-land-trust
+  - practice/self-governing
+  - practice/continuing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

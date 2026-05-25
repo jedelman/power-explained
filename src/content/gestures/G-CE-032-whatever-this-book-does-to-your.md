@@ -9,6 +9,8 @@ tags:
   - status/draft
   - concept/commons
   - concept/community
+  - image/night-herons
+  - emotion/tenderness
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

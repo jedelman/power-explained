@@ -7,6 +7,9 @@ tags:
   - plateau/P-17
   - voice/jason
   - status/draft
+  - practice/descending
+  - practice/gathering
+  - emotion/grief
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

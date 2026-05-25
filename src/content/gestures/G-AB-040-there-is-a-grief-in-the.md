@@ -14,13 +14,16 @@ tags:
   - concept/the-back-line
   - zone/the-wizards-cottage
   - direction/e
+  - image/the-screen
+  - emotion/grief
+  - emotion/clear-eyed
+  - practice/grieving
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. "The masters of consciousness
     warn against mistaking the visible for the whole" is Jason's own
     claim — not a citation to an external tradition. Owned. Prose stands.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

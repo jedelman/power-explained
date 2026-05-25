@@ -9,6 +9,9 @@ tags:
   - status/draft
   - place/brooklyn
   - place/new-york
+  - emotion/clear-eyed
+  - image/the-plantation
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -10,6 +10,9 @@ tags:
   - concept/commons
   - concept/community
   - concept/debt
+  - emotion/tenderness
+  - emotion/indictment
+  - practice/reciprocating
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

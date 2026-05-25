@@ -11,6 +11,9 @@ tags:
   - concept/enclosure
   - person/graeber
   - concept/debt
+  - emotion/indictment
+  - emotion/clear-eyed
+  - emotion/reverence
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -10,6 +10,8 @@ tags:
   - concept/commons
   - concept/enclosure
   - concept/debt
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

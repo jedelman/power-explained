@@ -10,6 +10,12 @@ tags:
   - concept/commons
   - concept/enclosure
   - place/hampton-roads
+  - image/night-herons
+  - image/the-highway
+  - image/the-restaurant
+  - practice/blessing
+  - emotion/clear-eyed
+  - emotion/humility
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

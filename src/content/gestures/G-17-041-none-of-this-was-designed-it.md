@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - practice/attending
+  - motif/flowering
+  - image/the-circle
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

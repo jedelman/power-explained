@@ -20,11 +20,14 @@ tags:
   - concept/aura
   - zone/the-wizards-cottage
   - direction/n
+  - motif/body-without-organs
+  - emotion/clear-eyed
+  - practice/refusing
+  - image/the-angel
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

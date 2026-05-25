@@ -9,6 +9,9 @@ tags:
   - status/draft
   - place/africa
   - place/europe
+  - motif/demolished-from-outside
+  - emotion/grief
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

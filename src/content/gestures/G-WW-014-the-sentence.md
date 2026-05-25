@@ -1,7 +1,7 @@
 ---
 id: G-WW-014
 plateau: P-WW
-title: "The Sentence"
+title: The Sentence
 slug: the-sentence
 tags:
   - plateau/P-WW
@@ -13,6 +13,10 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - practice/naming
+  - image/the-restaurant
+  - emotion/conviction
+  - motif/knowing-in-the-body
 beauty_check:
   passed: false
   notes: |

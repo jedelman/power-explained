@@ -9,6 +9,9 @@ tags:
   - status/draft
   - person/fanon
   - place/algeria
+  - motif/cannot-verify-from-inside
+  - practice/attending
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -1,7 +1,7 @@
 ---
 id: G-WW-015
 plateau: P-WW
-title: "The Weight Came Off"
+title: The Weight Came Off
 slug: the-weight-came-off
 tags:
   - plateau/P-WW
@@ -12,6 +12,10 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - practice/de-armoring
+  - motif/knowing-in-the-body
+  - practice/holding
+  - emotion/disciplined-hope
 beauty_check:
   passed: false
   notes: |

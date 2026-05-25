@@ -1,7 +1,7 @@
 ---
 id: G-WW-027
 plateau: P-WW
-title: "Yours"
+title: Yours
 slug: yours
 tags:
   - plateau/P-WW
@@ -13,6 +13,10 @@ tags:
   - status/draft
   - direction/s
   - zone/the-wizards-cottage
+  - practice/naming
+  - practice/attending
+  - emotion/conviction
+  - emotion/unease
 beauty_check:
   passed: false
   notes: |

@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - image/the-centaur
+  - practice/descending
+  - motif/flowering
+  - practice/self-governing
+  - practice/gathering
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

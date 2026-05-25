@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/simulation
+  - motif/knowing-in-the-body
+  - image/the-restaurant
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

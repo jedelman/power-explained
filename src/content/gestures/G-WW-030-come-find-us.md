@@ -15,6 +15,11 @@ tags:
   - zone/the-wizards-cottage
   - concept/the-council
   - concept/cooperative
+  - practice/gathering
+  - image/the-coffee-shop
+  - image/the-communal-kitchen
+  - emotion/disciplined-hope
+  - practice/welcoming
 beauty_check:
   passed: false
   notes: |

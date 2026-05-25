@@ -1,7 +1,7 @@
 ---
 id: G-OA-011b
 plateau: P-OA
-title: "The Important Thing Is to Practice"
+title: The Important Thing Is to Practice
 slug: the-important-thing-is-to-practice
 tags:
   - plateau/P-OA
@@ -15,28 +15,55 @@ tags:
   - zone/second-growth
   - concept/practice
   - concept/mastery
+  - practice/practicing
+  - image/the-mask
+  - image/the-wizard
+  - emotion/disciplined-hope
+  - practice/witnessing
+  - practice/continuing
 beauty_check:
   passed: true
-  notes: |
+  notes: >
     THE CHAPTER'S FINAL BEAT (Jason 2026-05-20). Resolves the solo-vs-
+
     communal tension not by choosing but by naming what contains both:
+
     PRACTICE. Solo and group are both just practice. You gain mastery by
+
     practicing regardless of situation. "Mastery is only a title given
+
     by others; the important thing is to practice." This is the kokoro
+
     humility ("barely the cat's meow") landing as the chapter's final
+
     law, AND the retroactive justification of the book's title move —
+
     you never become a wizard by trying to; you become one by practicing
+
     connection/attention/throwing-off-weight regardless of situation,
+
     and "wizard" is just what others call you after. Musicians kept
+
     (Jason's): Buckethead, MF DOOM, Chuck Schuldiner, Musashi — none
+
     "trying to be masters," all just practicing obsessively. Musashi
+
     last = the swordsman who wrote "the way is in training." Direction
+
     SE (the axial gesture the chapter has pointed at all along — return,
+
     first warming, readiness). Keep it SHORT and plain — last words, no
+
     sermon. The Buckethead/DOOM/Schuldiner one-line glosses are Claude's
+
     framing of Jason's named list — verify they sit right with Jason on
+
     the beauty pass (esp. Schuldiner "into something like grace").
-    2026-05-23: Beauty pass — confirmed. FLAG: "Chuck Schuldiner practiced an unbearable thing until it came out the other side as something like grace" — the "something like grace" gloss was Claude's framing of Jason's named musicians list per the existing notes. Worth a quick Jason eye to confirm it sits right with how he hears Schuldiner.
+
+    2026-05-23: Beauty pass — confirmed. FLAG: "Chuck Schuldiner practiced an unbearable thing until
+    it came out the other side as something like grace" — the "something like grace" gloss was
+    Claude's framing of Jason's named musicians list per the existing notes. Worth a quick Jason eye
+    to confirm it sits right with how he hears Schuldiner.
 notes: |
   Direction SE — the chapter seats NW (the floor/descent) and gestures
   SE; this coda lands the gesture: the dawn pointed at from inside the

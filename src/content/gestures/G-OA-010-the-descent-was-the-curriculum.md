@@ -1,7 +1,7 @@
 ---
 id: G-OA-010
 plateau: P-OA
-title: "The Descent Was the Curriculum"
+title: The Descent Was the Curriculum
 slug: the-descent-was-the-curriculum
 tags:
   - plateau/P-OA
@@ -14,6 +14,11 @@ tags:
   - direction/nw
   - zone/second-growth
   - concept/descent
+  - practice/descending
+  - image/the-floor
+  - emotion/clear-eyed
+  - emotion/grief
+  - emotion/humility
 beauty_check:
   passed: true
   notes: |

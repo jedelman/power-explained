@@ -3,7 +3,6 @@ id: G-GC-019
 plateau: P-GC
 title: Hegemony. We will come to Gramsci
 slug: hegemony-we-will-come-to-gramsci
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,9 @@ tags:
   - concept/hegemony
   - zone/high-ridges
   - direction/n
-
+  - practice/naming
+  - image/the-named-demon
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -25,9 +26,9 @@ beauty_check:
     from within" (the next sentence makes the same point with material
     content instead of negation). Dropped Oxford comma in the triplet
     "natural, obvious, inevitable" for snap.
-
-notes: |-
-  Merged G-GC-020 on 2026-05-20. Hegemony introduced and defined. Not domination by force — production of consent.
+notes: >-
+  Merged G-GC-020 on 2026-05-20. Hegemony introduced and defined. Not domination by force —
+  production of consent.
 ---
 *Hegemony.* Gramsci's name. The script. The demon that writes the other demons' lines and calls it the natural order.
 

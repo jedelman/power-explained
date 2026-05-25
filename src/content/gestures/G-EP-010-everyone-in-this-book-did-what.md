@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/freire
   - person/luxemburg
+  - image/the-prison-cell
+  - practice/continuing
+  - emotion/reverence
+  - motif/the-lineage
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

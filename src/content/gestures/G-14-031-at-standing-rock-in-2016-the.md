@@ -10,6 +10,11 @@ tags:
   - place/standing-rock
   - concept/solidarity
   - year/2016
+  - motif/defense-of-land
+  - image/the-rising-river
+  - emotion/defiance
+  - practice/refusing
+  - emotion/tenderness
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

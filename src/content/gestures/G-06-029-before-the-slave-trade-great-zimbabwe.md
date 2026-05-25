@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/racial-capitalism
   - place/india
+  - motif/cannot-verify-from-inside
+  - emotion/indictment
+  - emotion/reverence
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

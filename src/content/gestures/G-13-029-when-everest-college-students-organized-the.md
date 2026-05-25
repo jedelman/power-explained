@@ -9,6 +9,11 @@ tags:
   - status/draft
   - year/2022
   - concept/debt
+  - emotion/defiance
+  - practice/refusing
+  - emotion/vindication
+  - practice/gathering
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

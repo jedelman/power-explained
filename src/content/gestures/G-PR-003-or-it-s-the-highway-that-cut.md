@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - image/the-highway
+  - motif/demolished-from-outside
+  - image/the-screen
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

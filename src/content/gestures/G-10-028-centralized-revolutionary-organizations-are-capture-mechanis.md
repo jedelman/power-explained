@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/capture
+  - image/the-machine
+  - emotion/indictment
+  - emotion/clear-eyed
+  - motif/self-governance-in-public
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

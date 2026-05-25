@@ -1,7 +1,7 @@
 ---
 id: G-WW-011
 plateau: P-WW
-title: "There Is a Day You Realize You Have Crossed"
+title: There Is a Day You Realize You Have Crossed
 slug: there-is-a-day-you-realize-you-have-crossed
 tags:
   - plateau/P-WW
@@ -12,6 +12,9 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - image/the-restaurant
+  - emotion/humility
+  - practice/positioning
 beauty_check:
   passed: false
   notes: |

@@ -7,6 +7,9 @@ tags:
   - plateau/P-RE
   - voice/jason
   - status/draft
+  - emotion/clear-eyed
+  - image/songbirds
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -11,6 +11,10 @@ tags:
   - person/hardt
   - person/negri
   - concept/community
+  - motif/body-without-organs
+  - practice/attending
+  - image/the-screen
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

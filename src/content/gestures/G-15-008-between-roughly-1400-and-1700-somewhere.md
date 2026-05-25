@@ -9,6 +9,9 @@ tags:
   - status/draft
   - person/federici
   - place/europe
+  - emotion/indictment
+  - emotion/grief
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

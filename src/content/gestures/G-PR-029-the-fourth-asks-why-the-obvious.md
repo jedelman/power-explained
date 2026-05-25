@@ -12,6 +12,8 @@ tags:
   - person/luxemburg
   - person/graeber
   - person/bookchin
+  - emotion/indictment
+  - motif/self-governance-in-public
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

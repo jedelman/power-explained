@@ -16,6 +16,11 @@ tags:
   - concept/cooperative
   - concept/federation
   - concept/the-wizard
+  - practice/building
+  - image/the-circle
+  - image/the-land-trust
+  - emotion/defiance
+  - practice/self-governing
 beauty_check:
   passed: false
   notes: |

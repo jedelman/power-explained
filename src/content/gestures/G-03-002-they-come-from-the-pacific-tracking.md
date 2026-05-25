@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - image/the-bamboo-dam
+  - image/the-typhoon
+  - motif/return-migration
+  - practice/self-governing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

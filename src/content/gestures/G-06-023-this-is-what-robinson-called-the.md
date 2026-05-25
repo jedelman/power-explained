@@ -10,6 +10,9 @@ tags:
   - person/du-bois
   - person/robinson-cedric
   - concept/the-outside
+  - motif/the-lineage
+  - practice/naming
+  - emotion/reverence
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

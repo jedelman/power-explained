@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/attention
+  - image/the-deer
+  - practice/attending
+  - emotion/wonder
+  - practice/becoming-still
+  - practice/practicing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

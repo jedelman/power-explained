@@ -11,6 +11,10 @@ tags:
   - place/philippines
   - place/switzerland
   - concept/practice
+  - motif/distillation
+  - motif/proof-before-theory
+  - practice/attending
+  - image/water-tribunal
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

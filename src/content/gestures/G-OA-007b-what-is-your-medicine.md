@@ -1,7 +1,7 @@
 ---
 id: G-OA-007b
 plateau: P-OA
-title: "What Is Your Medicine"
+title: What Is Your Medicine
 slug: what-is-your-medicine
 tags:
   - plateau/P-OA
@@ -17,6 +17,12 @@ tags:
   - concept/community
   - concept/being-held
   - concept/resonance
+  - image/the-circle
+  - image/the-armor
+  - emotion/wonder
+  - practice/welcoming
+  - practice/attending
+  - practice/remembering
 beauty_check:
   passed: true
   notes: |

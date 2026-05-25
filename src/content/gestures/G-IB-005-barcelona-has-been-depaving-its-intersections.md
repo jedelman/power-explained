@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - place/barcelona
+  - image/the-superblock
+  - motif/return-migration
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

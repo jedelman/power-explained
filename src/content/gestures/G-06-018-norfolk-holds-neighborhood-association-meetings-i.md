@@ -9,6 +9,11 @@ tags:
   - status/draft
   - place/chelsea-norfolk
   - place/norfolk-va
+  - image/the-7-eleven
+  - image/the-mask
+  - motif/demolished-from-outside
+  - emotion/unease
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -9,6 +9,9 @@ tags:
   - status/draft
   - place/norfolk-va
   - place/virginia
+  - image/the-machine
+  - motif/knowing-in-the-body
+  - image/the-highway
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

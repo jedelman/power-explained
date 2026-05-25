@@ -10,6 +10,11 @@ tags:
   - person/roy-arundhati
   - place/narmada
   - concept/practice
+  - practice/witnessing
+  - practice/attending
+  - image/the-rising-river
+  - emotion/conviction
+  - motif/cannot-verify-from-inside
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

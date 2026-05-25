@@ -9,6 +9,8 @@ tags:
   - status/draft
   - person/roy-arundhati
   - place/kerala
+  - emotion/clear-eyed
+  - emotion/defiance
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/clt
   - concept/community
+  - image/the-land-trust
+  - practice/building
+  - practice/refusing
+  - motif/proof-before-theory
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

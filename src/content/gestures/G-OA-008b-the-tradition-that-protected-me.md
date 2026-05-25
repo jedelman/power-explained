@@ -1,7 +1,7 @@
 ---
 id: G-OA-008b
 plateau: P-OA
-title: "The Tradition That Protected Me"
+title: The Tradition That Protected Me
 slug: the-tradition-that-protected-me
 tags:
   - plateau/P-OA
@@ -13,6 +13,11 @@ tags:
   - zone/second-growth
   - concept/discipline
   - concept/kokoro
+  - image/the-thread
+  - emotion/defiance
+  - practice/refusing
+  - emotion/tenderness
+  - motif/knowing-in-the-body
 beauty_check:
   passed: true
   notes: |

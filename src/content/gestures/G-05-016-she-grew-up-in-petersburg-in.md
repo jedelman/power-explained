@@ -11,6 +11,10 @@ tags:
   - person/lenin
   - concept/the-line
   - concept/attention
+  - practice/attending
+  - emotion/indictment
+  - emotion/grief
+  - motif/cannot-verify-from-inside
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

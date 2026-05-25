@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/civil-society
+  - image/the-occupied-factory
+  - image/the-armor
+  - emotion/grief
+  - emotion/clear-eyed
+  - motif/making-common-sense
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

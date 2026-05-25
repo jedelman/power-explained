@@ -7,6 +7,8 @@ tags:
   - plateau/P-15
   - voice/jason
   - status/draft
+  - emotion/conviction
+  - emotion/tenderness
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

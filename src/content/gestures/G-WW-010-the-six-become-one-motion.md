@@ -13,6 +13,9 @@ tags:
   - direction/e
   - zone/the-wizards-cottage
   - concept/practice
+  - practice/practicing
+  - practice/continuing
+  - emotion/conviction
 beauty_check:
   passed: false
   notes: |

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - place/chelsea-norfolk
+  - image/the-highway
+  - image/the-shrug
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

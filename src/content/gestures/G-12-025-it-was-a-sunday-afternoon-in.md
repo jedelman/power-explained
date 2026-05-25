@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - year/2022
+  - image/the-restaurant
+  - motif/knowing-in-the-body
+  - emotion/reverence
+  - emotion/tenderness
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

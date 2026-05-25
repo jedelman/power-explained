@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/enclosure
+  - motif/knowing-in-the-body
+  - image/the-bamboo-dam
+  - practice/witnessing
+  - emotion/reverence
+  - practice/attending
 notes: >-
   Expanded 2026-05-24 from stub. Three vignettes: witch (relational/botanical knowing, framed by
   enclosure), zanjero (acoustic/hydrological listening, framed by continuity), Yunkaporta crocodile

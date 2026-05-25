@@ -1,7 +1,7 @@
 ---
 id: G-OA-002
 plateau: P-OA
-title: "Reich Built a Box"
+title: Reich Built a Box
 slug: reich-built-a-box
 tags:
   - plateau/P-OA
@@ -14,6 +14,10 @@ tags:
   - concept/orgone
   - direction/n
   - zone/second-growth
+  - image/the-firing-squad
+  - emotion/indictment
+  - emotion/grief
+  - practice/naming
 beauty_check:
   passed: true
   notes: |

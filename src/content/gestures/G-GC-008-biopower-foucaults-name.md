@@ -3,7 +3,6 @@ id: G-GC-008
 plateau: P-GC
 title: Biopower. Foucault's name
 slug: biopower-foucaults-name
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -15,7 +14,10 @@ tags:
   - concept/biopower
   - zone/high-ridges
   - direction/n
-
+  - practice/naming
+  - image/the-named-demon
+  - emotion/indictment
+  - emotion/unease
 beauty_check:
   passed: true
   notes: |
@@ -26,7 +28,6 @@ beauty_check:
     over the parasite because we are projecting…"). The smiling-parasite
     reveal does the work without that scaffolding. Tightened the parasitism
     aside.
-
 notes: |-
   Arrival of biopower as the fourth demonic name. The smiling parasite
   framing: biopower is what we keep miscalling parasitism. Real parasites

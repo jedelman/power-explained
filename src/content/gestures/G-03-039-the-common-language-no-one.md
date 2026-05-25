@@ -9,6 +9,8 @@ tags:
   - status/draft
   - concept/practice
   - concept/community
+  - emotion/reverence
+  - motif/knowing-in-the-body
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

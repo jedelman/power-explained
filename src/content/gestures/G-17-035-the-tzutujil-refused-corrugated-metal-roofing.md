@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - motif/knowing-in-the-body
+  - practice/gathering
+  - practice/tending
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

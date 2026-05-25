@@ -10,6 +10,8 @@ tags:
   - person/graeber
   - place/london
   - year/2020
+  - practice/practicing
+  - emotion/grief
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

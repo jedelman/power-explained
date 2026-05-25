@@ -16,6 +16,10 @@ tags:
   - concept/the-wizard
   - concept/production-of-subjectivity
   - concept/attention
+  - practice/building
+  - practice/naming
+  - image/the-restaurant
+  - practice/attending
 beauty_check:
   passed: false
   notes: |

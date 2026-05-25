@@ -12,6 +12,10 @@ tags:
   - person/roy-arundhati
   - concept/progress
   - concept/community
+  - motif/knowing-in-the-body
+  - emotion/indictment
+  - practice/naming
+  - motif/trickle-vs-flood
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

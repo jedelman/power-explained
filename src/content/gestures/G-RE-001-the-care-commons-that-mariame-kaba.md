@@ -11,6 +11,11 @@ tags:
   - concept/commons
   - concept/enclosure
   - concept/community
+  - motif/knowing-in-the-body
+  - emotion/indictment
+  - emotion/grief
+  - image/the-firing-squad
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

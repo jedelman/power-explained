@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/commons
   - concept/community
+  - image/the-centaur
+  - motif/the-lineage
+  - emotion/disciplined-hope
+  - practice/building
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

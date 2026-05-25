@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - person/turing
+  - emotion/vindication
+  - image/the-machine
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -11,6 +11,9 @@ tags:
   - person/federici
   - place/india
   - place/europe
+  - motif/knowing-in-the-body
+  - emotion/indictment
+  - image/the-rising-river
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/the-shrug
   - place/norfolk-va
+  - image/the-shrug
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

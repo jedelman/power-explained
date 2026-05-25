@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/hegemony
   - person/gramsci
+  - image/the-communal-kitchen
+  - emotion/indictment
+  - emotion/clear-eyed
+  - emotion/grief
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

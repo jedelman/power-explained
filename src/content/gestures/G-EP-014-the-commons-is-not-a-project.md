@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/commons
   - concept/practice
+  - practice/continuing
+  - image/night-herons
+  - image/the-deer
+  - motif/the-lineage
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

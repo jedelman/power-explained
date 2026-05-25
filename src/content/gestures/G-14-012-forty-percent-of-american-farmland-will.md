@@ -7,6 +7,10 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - image/the-land-trust
+  - motif/knowing-in-the-body
+  - practice/tending
+  - emotion/unease
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,12 @@ tags:
   - status/draft
   - person/luxemburg
   - concept/commons
+  - image/the-prison-cell
+  - image/songbirds
+  - practice/building
+  - emotion/disciplined-hope
+  - emotion/vindication
+  - practice/remembering
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

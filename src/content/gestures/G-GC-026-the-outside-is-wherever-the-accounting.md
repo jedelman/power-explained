@@ -3,7 +3,6 @@ id: G-GC-026
 plateau: P-GC
 title: The outside is wherever the accounting
 slug: the-outside-is-wherever-the-accounting
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,9 @@ tags:
   - concept/enclosure
   - zone/high-ridges
   - direction/n
-
+  - emotion/indictment
+  - emotion/clear-eyed
+  - emotion/vindication
 beauty_check:
   passed: true
   notes: |
@@ -24,9 +25,9 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. "It was enclosed because it
     worked" inverts the standard collapse narrative — the chapter's
     cleanest analytical move.
-
-notes: |-
-  Merged G-GC-027 on 2026-05-20. "The outside is wherever the accounting stops." The enclosure of commons as proof it worked.
+notes: >-
+  Merged G-GC-027 on 2026-05-20. "The outside is wherever the accounting stops." The enclosure of
+  commons as proof it worked.
 ---
 The outside is wherever the accounting stops. And the commons, in every form, is perpetually at risk of becoming the next outside.
 

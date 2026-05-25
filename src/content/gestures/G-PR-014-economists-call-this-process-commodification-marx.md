@@ -9,6 +9,8 @@ tags:
   - status/draft
   - concept/primitive-accumulation
   - person/marx
+  - emotion/indictment
+  - practice/naming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -18,6 +18,11 @@ tags:
   - concept/hegemony
   - concept/biopower
   - concept/the-wizard
+  - practice/naming
+  - image/the-grimoire
+  - image/the-named-demon
+  - image/the-shrug
+  - emotion/clear-eyed
 beauty_check:
   passed: false
   notes: |

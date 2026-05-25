@@ -1,7 +1,7 @@
 ---
 id: G-WW-031
 plateau: P-WW
-title: "How You Find Us"
+title: How You Find Us
 slug: how-you-find-us
 tags:
   - plateau/P-WW
@@ -13,6 +13,11 @@ tags:
   - status/draft
   - direction/se
   - zone/the-wizards-cottage
+  - practice/continuing
+  - image/the-uncut-meadow
+  - practice/naming
+  - practice/attending
+  - motif/the-lineage
 beauty_check:
   passed: false
   notes: |

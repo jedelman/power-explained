@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/the-centaur
+  - emotion/conviction
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -7,6 +7,10 @@ tags:
   - plateau/P-08
   - voice/jason
   - status/draft
+  - motif/falling-through-the-gap
+  - emotion/indictment
+  - emotion/clear-eyed
+  - practice/naming
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

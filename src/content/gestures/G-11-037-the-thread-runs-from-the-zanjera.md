@@ -17,6 +17,12 @@ tags:
   - place/barcelona
   - place/turin
   - place/palmares
+  - image/the-thread
+  - image/the-bamboo-dam
+  - image/water-tribunal
+  - motif/the-lineage
+  - image/the-typhoon
+  - practice/remembering
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

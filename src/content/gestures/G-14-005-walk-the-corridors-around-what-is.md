@@ -17,6 +17,11 @@ tags:
   - place/africa
   - place/narmada
   - concept/community
+  - emotion/indictment
+  - emotion/clear-eyed
+  - image/the-machine
+  - image/the-rising-river
+  - motif/demolished-from-outside
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

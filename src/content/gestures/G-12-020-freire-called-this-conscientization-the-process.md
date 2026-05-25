@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/freire
   - concept/conscientization
+  - emotion/clear-eyed
+  - emotion/indictment
+  - emotion/vindication
+  - image/the-prison-cell
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

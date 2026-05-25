@@ -14,6 +14,9 @@ tags:
   - year/1933
   - zone/the-wizards-cottage
   - direction/nw
+  - image/the-firing-squad
+  - emotion/indictment
+  - emotion/grief
 beauty_check:
   passed: true
   notes: |
@@ -21,7 +24,6 @@ beauty_check:
     the Bauhaus by 1931; it closed under pressure in 1933) but Jason
     keeps it loose deliberately — the chapter is about aura, not Klee's
     CV. Prose stands as drafted.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

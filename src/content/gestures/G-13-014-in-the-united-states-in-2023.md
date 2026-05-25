@@ -9,6 +9,9 @@ tags:
   - status/draft
   - year/2023
   - concept/debt
+  - emotion/indictment
+  - emotion/clear-eyed
+  - image/the-machine
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

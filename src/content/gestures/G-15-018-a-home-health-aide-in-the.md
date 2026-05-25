@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/enclosure
   - place/new-york
+  - emotion/indictment
+  - emotion/clear-eyed
+  - motif/trickle-vs-flood
+  - emotion/tenderness
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -10,6 +10,8 @@ tags:
   - concept/hegemony
   - technology/car
   - emotion/fatigue
+  - image/the-highway
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

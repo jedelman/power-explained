@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/enclosure
   - concept/simulation
+  - image/the-machine
+  - emotion/indictment
+  - motif/knowing-in-the-body
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

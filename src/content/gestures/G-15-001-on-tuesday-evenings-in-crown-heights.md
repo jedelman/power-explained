@@ -11,6 +11,11 @@ tags:
   - place/crown-heights
   - place/brooklyn
   - concept/community
+  - motif/return-migration
+  - emotion/disciplined-hope
+  - practice/self-governing
+  - practice/continuing
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

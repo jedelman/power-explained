@@ -10,6 +10,9 @@ tags:
   - person/hardt
   - person/negri
   - year/2011
+  - motif/body-without-organs
+  - emotion/clear-eyed
+  - practice/gathering
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

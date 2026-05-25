@@ -13,6 +13,11 @@ tags:
   - zone/the-wizards-cottage
   - concept/the-outside
   - concept/the-wizard
+  - motif/return-migration
+  - image/songbirds
+  - image/the-uncut-meadow
+  - practice/greeting
+  - emotion/wonder
 beauty_check:
   passed: false
   notes: |

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - person/baudrillard
+  - emotion/clear-eyed
+  - emotion/unease
+  - image/the-mirror
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

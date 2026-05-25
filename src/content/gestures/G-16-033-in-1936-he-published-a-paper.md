@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - year/1936
+  - emotion/wonder
+  - motif/dissolving-boundary
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -12,6 +12,11 @@ tags:
   - place/crown-heights
   - place/palmares
   - concept/practice
+  - image/the-sidewalk-fridge
+  - image/the-plantation
+  - emotion/defiance
+  - practice/refusing
+  - practice/welcoming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

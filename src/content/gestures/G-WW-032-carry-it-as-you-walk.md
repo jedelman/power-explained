@@ -12,6 +12,10 @@ tags:
   - direction/se
   - zone/the-wizards-cottage
   - concept/federation
+  - practice/continuing
+  - practice/holding
+  - emotion/conviction
+  - emotion/humility
 beauty_check:
   passed: false
   notes: |

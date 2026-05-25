@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - motif/flowering
+  - practice/grieving
+  - practice/tending
+  - motif/return-migration
+  - emotion/reverence
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

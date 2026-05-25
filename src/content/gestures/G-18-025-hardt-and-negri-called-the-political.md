@@ -10,6 +10,9 @@ tags:
   - person/hardt
   - person/negri
   - person/gramsci
+  - motif/dissolving-boundary
+  - practice/self-governing
+  - motif/making-common-sense
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

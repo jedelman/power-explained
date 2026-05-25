@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - person/sorenson
+  - motif/knowing-in-the-body
+  - emotion/grief
+  - emotion/wonder
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

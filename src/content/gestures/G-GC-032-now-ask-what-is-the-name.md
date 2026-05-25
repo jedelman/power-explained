@@ -3,7 +3,6 @@ id: G-GC-032
 plateau: P-GC
 title: 'Now ask: what is the name'
 slug: now-ask-what-is-the-name
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -15,7 +14,8 @@ tags:
   - concept/the-outside
   - zone/high-ridges
   - direction/n
-
+  - practice/naming
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -23,9 +23,7 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. Anaphora ("It may be hegemony…
     It may be the production… It may be biopower… It may be the outside")
     works as ritual catalog. The four names return to the reader's body.
-
-notes: |-
-  Merged G-GC-033 on 2026-05-20. Applies the three names to the somatic experience.
+notes: Merged G-GC-033 on 2026-05-20. Applies the three names to the somatic experience.
 ---
 Now ask: what is the name for what produced this?
 

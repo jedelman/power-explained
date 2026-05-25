@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/practice
   - concept/attention
+  - practice/witnessing
+  - practice/attending
+  - practice/becoming-still
+  - emotion/wonder
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/zuccotti-park
   - year/2011
+  - image/zuccotti-park
+  - motif/self-governance-in-public
+  - practice/self-governing
+  - practice/gathering
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

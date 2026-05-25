@@ -7,6 +7,10 @@ tags:
   - plateau/P-IW
   - voice/jason
   - status/draft
+  - image/old-growth-forest
+  - motif/knowing-in-the-body
+  - emotion/conviction
+  - practice/witnessing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

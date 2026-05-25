@@ -15,11 +15,13 @@ tags:
   - concept/sacred
   - zone/the-wizards-cottage
   - direction/se
+  - image/the-angel
+  - emotion/disciplined-hope
+  - practice/attending
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

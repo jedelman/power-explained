@@ -8,6 +8,12 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - motif/knowing-in-the-body
+  - practice/blessing
+  - practice/witnessing
+  - image/the-deer
+  - practice/remembering
+  - image/old-growth-forest
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

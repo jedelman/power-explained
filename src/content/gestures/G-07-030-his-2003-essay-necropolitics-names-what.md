@@ -10,6 +10,9 @@ tags:
   - concept/necropolitics
   - person/foucault
   - year/2003
+  - practice/naming
+  - emotion/clear-eyed
+  - image/the-plantation
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

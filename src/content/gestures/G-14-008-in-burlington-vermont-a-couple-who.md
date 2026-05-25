@@ -11,6 +11,10 @@ tags:
   - place/burlington-vt
   - place/champlain
   - year/1984
+  - image/the-land-trust
+  - practice/refusing
+  - practice/self-governing
+  - practice/building
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

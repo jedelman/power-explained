@@ -1,7 +1,7 @@
 ---
 id: G-OA-007
 plateau: P-OA
-title: "What Being Held Is"
+title: What Being Held Is
 slug: what-being-held-is
 tags:
   - plateau/P-OA
@@ -14,6 +14,11 @@ tags:
   - zone/second-growth
   - concept/community
   - concept/being-held
+  - image/the-floor
+  - practice/holding
+  - image/the-armor
+  - image/the-circle
+  - practice/de-armoring
 beauty_check:
   passed: true
   notes: |

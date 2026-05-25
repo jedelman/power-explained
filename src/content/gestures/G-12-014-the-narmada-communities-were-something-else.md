@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/commons
   - place/narmada
+  - practice/continuing
+  - motif/self-governance-in-public
+  - emotion/conviction
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

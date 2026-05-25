@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/the-superblock
+  - motif/making-common-sense
+  - motif/proof-before-theory
+  - practice/building
+  - emotion/conviction
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

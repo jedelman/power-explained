@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/berners-lee
   - year/1991
+  - image/the-thread
+  - practice/building
+  - emotion/conviction
+  - motif/proof-before-theory
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - image/the-armor
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

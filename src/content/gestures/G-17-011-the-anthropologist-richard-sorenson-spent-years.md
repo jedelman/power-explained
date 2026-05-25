@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/sorenson
   - concept/community
+  - practice/attending
+  - motif/knowing-in-the-body
+  - emotion/grief
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

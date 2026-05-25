@@ -1,7 +1,7 @@
 ---
 id: G-WW-024
 plateau: P-WW
-title: "The Chapter Hands the Quest Back"
+title: The Chapter Hands the Quest Back
 slug: the-chapter-hands-the-quest-back
 tags:
   - plateau/P-WW
@@ -12,6 +12,9 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - emotion/humility
+  - practice/refusing
+  - emotion/conviction
 beauty_check:
   passed: false
   notes: |

@@ -11,6 +11,9 @@ tags:
   - concept/enclosure
   - person/hardt
   - person/negri
+  - emotion/indictment
+  - motif/knowing-in-the-body
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

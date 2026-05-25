@@ -12,6 +12,10 @@ tags:
   - concept/enclosure
   - person/graeber
   - concept/debt
+  - emotion/clear-eyed
+  - emotion/grief
+  - image/the-thread
+  - motif/knowing-in-the-body
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

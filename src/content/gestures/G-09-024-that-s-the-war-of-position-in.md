@@ -8,6 +8,12 @@ tags:
   - voice/jason
   - status/draft
   - person/gramsci
+  - image/scattered-seeds
+  - image/the-prison-cell
+  - image/the-foundation-stone
+  - emotion/disciplined-hope
+  - practice/building
+  - emotion/grief
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

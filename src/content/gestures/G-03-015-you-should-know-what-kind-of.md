@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/commons
   - year/1956
+  - emotion/indictment
+  - emotion/clear-eyed
+  - image/the-plantation
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

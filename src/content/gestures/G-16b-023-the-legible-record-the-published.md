@@ -7,6 +7,10 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
+  - image/mycorrhizal-network
+  - motif/knowing-in-the-body
+  - emotion/tenderness
+  - motif/cannot-verify-from-inside
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

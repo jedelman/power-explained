@@ -3,7 +3,6 @@ id: G-GC-008c
 plateau: P-GC
 title: Biopower appears as whatever you might desire
 slug: biopower-appears-as-whatever
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -15,7 +14,10 @@ tags:
   - concept/biopower
   - zone/high-ridges
   - direction/n
-
+  - image/the-named-demon
+  - emotion/indictment
+  - emotion/clear-eyed
+  - image/the-orchard
 beauty_check:
   passed: true
   notes: |
@@ -25,7 +27,6 @@ beauty_check:
     draft. The hierarchy claim is the brimstone close.
     2026-05-23: Beauty pass — confirmed. "Its price is always the same:
     your soul" lands the gesture.
-
 notes: |-
   The deal biopower offers. Not the forbidden fruit — the opposite:
   the fruit you think you need to live and have not yet realized you

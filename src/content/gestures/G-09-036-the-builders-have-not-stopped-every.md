@@ -18,6 +18,11 @@ tags:
   - year/2020
   - concept/community
   - concept/the-council
+  - image/the-thread
+  - motif/the-lineage
+  - practice/building
+  - emotion/disciplined-hope
+  - practice/remembering
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,11 @@ tags:
   - plateau/P-CE
   - voice/jason
   - status/draft
+  - image/the-centaur
+  - motif/the-lineage
+  - practice/holding
+  - emotion/reverence
+  - practice/descending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

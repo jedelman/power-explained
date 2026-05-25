@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/fascism
   - person/gramsci
+  - image/the-prison-cell
+  - image/the-thread
+  - emotion/disciplined-hope
+  - practice/building
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -1,7 +1,7 @@
 ---
 id: G-OA-001b
 plateau: P-OA
-title: "Your Body Knows More Than You Do"
+title: Your Body Knows More Than You Do
 slug: your-body-knows-more-than-you-do
 tags:
   - plateau/P-OA
@@ -14,6 +14,11 @@ tags:
   - direction/ne
   - zone/second-growth
   - concept/character-armor
+  - image/the-held-jaw
+  - image/the-armor
+  - practice/naming
+  - practice/attending
+  - practice/de-armoring
 beauty_check:
   passed: true
   notes: |

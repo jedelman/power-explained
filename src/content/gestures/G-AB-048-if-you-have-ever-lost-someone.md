@@ -15,11 +15,15 @@ tags:
   - place/washington-state
   - zone/the-wizards-cottage
   - direction/nw
+  - emotion/grief
+  - motif/knowing-in-the-body
+  - practice/grieving
+  - practice/holding
+  - practice/gathering
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

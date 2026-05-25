@@ -9,6 +9,8 @@ tags:
   - status/draft
   - concept/commons
   - person/mbembe
+  - practice/building
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

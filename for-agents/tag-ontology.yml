@@ -23,7 +23,7 @@
 #     files (same discipline as renaming a gesture ID).
 
 version: 1
-last_revised: 2026-05-24
+last_revised: 2026-05-25
 
 namespaces:
 
@@ -464,6 +464,19 @@ namespaces:
       - rage               # the rage-at-functioning-system register (P-01)
       - fatigue            # exhaustion, capacity-depletion (P-01, P-OA)
       - disgust            # the moral-disgust pivot that precedes exodus (P-01)
+      # --- Tier-2 affective register (analysis/tier2-montecarlo) ---
+      - indictment             # naming the crime plainly — 'not hypocrisy, policy'
+      - reverence              # devotional attention to the living and the enduring
+      - disciplined-hope       # hope that has done the work; not optimism
+      - defiance               # the refusal; the line drawn and held
+      - grief                  # mourning a specific, known, lost thing
+      - wonder                 # awe and curious delight at the world
+      - humility               # smallness before what one did not make
+      - vindication            # the prediction borne out; the long argument proven
+      - conviction             # settled, quiet certainty
+      - clear-eyed             # cold analytic clarity; seeing the mechanism without flinch
+      - tenderness             # care toward the vulnerable; the soft register
+      - unease                 # dread; the sense something is wrong before it is named
 
   # ===========================================================================
   # action — what happens IN the gesture as an act, distinct from the
@@ -485,3 +498,138 @@ namespaces:
       - narrative          # a narrative is told within the gesture
       - parliamentary      # a procedural / vote / motion act (P-01)
       - exodus             # an act of leaving — quit, resign, walk out (P-01)
+
+  # ===========================================================================
+  # image — recurring concrete images the gesture evokes (Tier-2; see
+  # analysis/tier2-montecarlo). A figurative-content axis distinct from
+  # technology (a built artifact doing political work) and place (a real
+  # location): an image is a picture the prose paints.
+  # ===========================================================================
+  image:
+    description: |
+      Recurring concrete images the gesture evokes — the book's visual
+      vocabulary. Surfaced and validated by multi-pass blind tagging.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - night-herons           # the colony returning each spring to Norfolk
+      - the-deer               # the deer that walks into camp; met by stillness
+      - the-muskrat            # the muskrat that shows itself; the living world revealing
+      - the-doves              # doves on the ground beside the quieted body
+      - songbirds              # small wild birds as the living world reading you back
+      - old-growth-forest      # the uncut forest; the child standing in it
+      - the-redcedar           # the felled western redcedar; the chip/shard kept on a shel
+      - mycorrhizal-network    # the underground web of care beneath the visible
+      - scattered-seeds        # seeds carried forward; what propagates
+      - the-uncut-meadow       # the meadow you can grieve (vs the graph you cannot)
+      - the-orchard            # keystone abundance (the goetia tree-ecology)
+      - the-armor              # armor made of participation / character armor
+      - the-shrug              # the learned bodily posture of diminished expectation
+      - the-held-jaw           # the clenched jaw; tension held in the body
+      - the-floor              # getting up off the floor; the floor that holds
+      - the-mask               # the frozen face/mask worn under power
+      - the-mirror             # colonial projection; the self-portrait posing as a mirror
+      - the-highway            # the six-lane crossing built for the two-ton body; severanc
+      - the-superblock         # asphalt lifted into a planted plaza; depaving
+      - common-land-fenced     # the enclosure act made visible — common land fenced off
+      - the-7-eleven           # the racial boundary running behind the 7-Eleven
+      - the-sidewalk-fridge    # the community fridge on the sidewalk
+      - the-restaurant         # Jason's restaurant; service as theatre; after-service wine
+      - the-communal-kitchen   # the cooperative/communal food space (and its absence)
+      - water-tribunal         # the thousand-year Valencia water court — commons that endu
+      - the-bamboo-dam         # Ilocos zanjera bamboo-and-stone dams; commons engineering
+      - the-credit-union       # the financial cooperative on the corner
+      - the-cooperative-bank   # Mondragón's Caja Laboral; the worker-owned bank
+      - the-land-trust         # the community land trust; the ground lease
+      - the-occupied-factory   # the Turin factory councils; workers running the machinery
+      - zuccotti-park          # Occupy; the square reclaimed
+      - the-caracoles          # the Zapatista autonomous councils
+      - the-village-assembly   # the village governing itself in public
+      - the-circle             # the gathering circle — Freire's literacy circle, the fire 
+      - the-coffee-shop        # the regulars; the Tuesday couch
+      - the-library            # the public library as commons
+      - the-hedgerow           # the hedgerow at dusk; reciprocity with place
+      - the-tenant-association # tenants organizing the building
+      - the-machine            # the extraction machine that finds new outsides
+      - the-operating-system   # the invisible OS running underneath the visible
+      - the-interface          # the board / the form as interface to power
+      - the-screen             # the phone, the scroll, the app — simulation standing in fo
+      - the-rising-river       # the Narmada reservoir rising; Roy waist-deep
+      - the-typhoon            # the storm that tests the commons
+      - the-thinning-snowpack  # climate loss made local
+      - the-thread             # the unbroken thread of builders passed through many hands
+      - the-suitcase           # Benjamin's lost suitcase; the manuscript that didn't survi
+      - the-foundation-stone   # the stone laid for what others will finish
+      - the-prison-cell        # Gramsci's cell; the notebooks written under confinement
+      - the-firing-squad       # the execution; the revolution's cost
+      - the-plantation         # plantation governance — domination's template
+      - the-grimoire           # the book of spells; the book offered as grimoire not curri
+      - the-centaur            # Chiron; the herd of centaurs occupying Wall Street
+      - the-wizard             # the one who can see and name
+      - the-named-demon        # the goetia; naming the demon to bind it
+      - the-angel              # Benjamin's angel of history, wings unable to close
+
+  # ===========================================================================
+  # motif — recurring figurative through-lines the gesture participates in
+  # (return after suppression, knowing in the body). Distinct from concept
+  # (an idea argued) and image (a picture): a motif is a repeated move.
+  # ===========================================================================
+  motif:
+    description: |
+      Recurring figurative / narrative patterns the gesture participates in.
+      The argument carried as repeated moves, not single images.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - return-migration       # return after suppression — the herons; the dormant coopera
+      - defense-of-land        # the body placed between the land and its destruction
+      - demolished-from-outside # the neighborhood erased by a decision made elsewhere
+      - knowing-in-the-body    # knowledge held in practice and the body, not the abstracti
+      - body-without-organs    # the body slipping its assigned role (Stonewall/trans/Neo)
+      - distillation           # principles distilled from hundreds of real cases (Ostrom)
+      - proof-before-theory    # operational, not theoretical — the thing works before it i
+      - making-common-sense    # war of position — building the new common sense patiently
+      - self-governance-in-public # the assembly governing itself, in the open
+      - dissolving-boundary    # class becoming party; structure dissolved to keep building
+      - the-lineage            # the inheritance passed hand to hand across generations
+      - falling-through-the-gap # the person who falls through the gap between categories
+      - trickle-vs-flood       # wealth that should flood but only trickles; flowing the wr
+      - cannot-verify-from-inside # you cannot know from inside what the system does to you
+      - flowering              # emergence; the unexpected blossoming of the commons
+
+  # ===========================================================================
+  # practice — a consciousness practice the book teaches the READER to do
+  # (attending, naming, becoming-still). Distinct from action/ (an act a
+  # character performs in the gesture) and kind/ (the gesture's rhetorical
+  # form): practice is instructional — the verb the reader takes up.
+  # ===========================================================================
+  practice:
+    description: |
+      A consciousness practice the book invites the reader to take up —
+      the verbs of how to become a wizard. The instructional axis.
+    cardinality: zero-or-more
+    open: true
+    terms:
+      - becoming-still         # stilling the body; the pause; quieting enough to perceive
+      - naming                 # calling the thing by its true name; the goetia; the spell 
+      - greeting               # acknowledging the other — the deer, the heron, the neighbo
+      - welcoming              # hospitality; making room; the open door; the sidewalk frid
+      - grieving               # allowing the mourning; grief done on purpose, as practice
+      - attending              # sustained attention; reading the world; noticing what is a
+      - holding                # holding space; bearing the seeing for others; the floor th
+      - descending             # going down to soul/underworld and returning bearing a gift
+      - de-armoring            # softening; unclenching the jaw; getting up off the floor; 
+      - blessing               # benediction; the herons blessed every spring; consecrating
+      - witnessing             # bearing witness; letting oneself be read by the living wor
+      - tending                # cultivating, watering, keeping; the patient care a commons
+      - gathering              # convening; forming the circle; calling people into the sam
+      - refusing               # the no; drawing the line and standing on it
+      - remembering            # keeping the lineage; passing the thread; refusing to let i
+      - practicing             # having a practice at all — the meta-discipline: 'the impor
+      - self-governing         # running your own work collectively; the council/cooperativ
+      - building               # keep building the alternative in whatever form is availabl
+      - continuing             # staying in it; the commons verified by continuing, not by 
+      - positioning            # declaring where you stand so others can calibrate the clai
+      - conditioning           # arranging the conditions so a connection can happen indire
+      - guesting               # entering another's space as guest, not director
+      - reciprocating          # returning the gift; the boomerang bottle; watching each ot

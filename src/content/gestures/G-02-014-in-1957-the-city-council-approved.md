@@ -11,6 +11,9 @@ tags:
   - place/virginia
   - place/atlantic-city
   - concept/community
+  - motif/demolished-from-outside
+  - emotion/indictment
+  - image/the-plantation
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

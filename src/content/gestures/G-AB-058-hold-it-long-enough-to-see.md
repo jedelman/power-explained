@@ -14,11 +14,13 @@ tags:
   - concept/aura
   - zone/the-wizards-cottage
   - direction/se
+  - practice/holding
+  - practice/attending
+  - emotion/reverence
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - place/hampton-roads
+  - emotion/defiance
+  - practice/refusing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

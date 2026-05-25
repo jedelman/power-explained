@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - person/gramsci
+  - image/the-prison-cell
+  - emotion/grief
+  - emotion/indictment
+  - practice/building
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

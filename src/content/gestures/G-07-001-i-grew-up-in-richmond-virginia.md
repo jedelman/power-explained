@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/the-shrug
   - place/virginia
+  - image/the-shrug
+  - motif/the-lineage
+  - emotion/grief
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

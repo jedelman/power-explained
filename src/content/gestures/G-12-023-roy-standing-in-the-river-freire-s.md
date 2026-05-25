@@ -10,6 +10,10 @@ tags:
   - concept/commons
   - person/freire
   - person/roy-arundhati
+  - image/the-rising-river
+  - practice/practicing
+  - practice/continuing
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/barcelona
   - concept/commons
+  - image/the-thinning-snowpack
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
+  - emotion/unease
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

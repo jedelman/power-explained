@@ -3,7 +3,6 @@ id: G-GC-010
 plateau: P-GC
 title: There was a young man at
 slug: there-was-a-young-man-at
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -12,7 +11,8 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/nw
-
+  - image/the-restaurant
+  - emotion/tenderness
 beauty_check:
   passed: true
   notes: |
@@ -20,8 +20,6 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. The "I will not describe him
     closely enough to identify him" + "here is someone who will respond
     to what I actually know how to do" sets the scene and the trap.
-
-notes: |-
-  The young man at the restaurant. Opening of the case study. Identity withheld by design.
+notes: The young man at the restaurant. Opening of the case study. Identity withheld by design.
 ---
 There was a young man at the restaurant. I will not describe him closely enough to identify him. He was intelligent — genuinely, visibly, the kind of intelligence that makes you want to teach. He was motivated. He was an artist, self-taught, with a real gift. I thought: here is someone who will respond to what I actually know how to do.

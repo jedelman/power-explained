@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/community
   - concept/practice
+  - practice/welcoming
+  - practice/attending
+  - practice/holding
+  - image/the-circle
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

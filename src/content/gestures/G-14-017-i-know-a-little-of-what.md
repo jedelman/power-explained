@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - person/sorenson
+  - practice/positioning
+  - motif/knowing-in-the-body
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

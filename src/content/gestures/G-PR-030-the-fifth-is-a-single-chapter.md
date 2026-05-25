@@ -12,6 +12,11 @@ tags:
   - concept/enclosure
   - person/freire
   - concept/the-outside
+  - image/the-rising-river
+  - image/the-circle
+  - practice/naming
+  - practice/attending
+  - emotion/vindication
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

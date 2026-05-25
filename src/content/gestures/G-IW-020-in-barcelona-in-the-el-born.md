@@ -11,6 +11,9 @@ tags:
   - concept/community
   - concept/the-outside
   - concept/practice
+  - practice/gathering
+  - practice/building
+  - emotion/wonder
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

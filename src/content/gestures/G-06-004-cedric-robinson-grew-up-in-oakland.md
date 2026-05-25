@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - person/robinson-cedric
+  - practice/attending
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

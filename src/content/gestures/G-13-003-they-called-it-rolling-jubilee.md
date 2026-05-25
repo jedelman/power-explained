@@ -10,6 +10,10 @@ tags:
   - person/graeber
   - year/2022
   - concept/debt
+  - emotion/tenderness
+  - emotion/defiance
+  - emotion/unease
+  - practice/refusing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

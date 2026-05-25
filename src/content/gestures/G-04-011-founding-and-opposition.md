@@ -1,9 +1,8 @@
 ---
 id: G-04-011
 plateau: P-04
-title: "Founding and Opposition"
+title: Founding and Opposition
 slug: founding-and-opposition
-
 tags:
   - plateau/P-04
   - voice/jason
@@ -18,18 +17,14 @@ tags:
   - year/1984
   - zone/clearings
   - direction/s
-
+  - image/the-land-trust
+  - emotion/defiance
+  - practice/building
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
-
-# claims: []        # add when fact-checked at gesture resolution
-# references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints
-#   default_prev: G-04-NNN
-#   default_next: G-04-NNN
 notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 16-17

@@ -15,6 +15,11 @@ tags:
   - place/berlin
   - year/2023
   - concept/community
+  - image/the-caracoles
+  - motif/flowering
+  - practice/self-governing
+  - emotion/defiance
+  - practice/refusing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

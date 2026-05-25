@@ -7,6 +7,9 @@ tags:
   - plateau/P-17
   - voice/jason
   - status/draft
+  - image/the-named-demon
+  - motif/body-without-organs
+  - practice/descending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

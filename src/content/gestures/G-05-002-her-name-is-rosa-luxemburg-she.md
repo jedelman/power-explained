@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - person/luxemburg
+  - emotion/clear-eyed
+  - emotion/defiance
+  - emotion/conviction
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -11,6 +11,10 @@ tags:
   - concept/commons
   - person/ostrom-elinor
   - concept/community
+  - motif/self-governance-in-public
+  - motif/defense-of-land
+  - emotion/reverence
+  - practice/self-governing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

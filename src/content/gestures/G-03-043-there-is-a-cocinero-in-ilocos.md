@@ -10,6 +10,10 @@ tags:
   - place/norfolk-va
   - place/ilocos
   - concept/community
+  - image/the-restaurant
+  - practice/welcoming
+  - emotion/grief
+  - motif/the-lineage
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

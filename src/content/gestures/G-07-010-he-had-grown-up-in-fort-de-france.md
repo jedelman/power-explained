@@ -10,6 +10,9 @@ tags:
   - place/europe
   - place/france
   - concept/fascism
+  - image/the-mask
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -10,6 +10,10 @@ tags:
   - concept/commons
   - concept/practice
   - concept/community
+  - practice/continuing
+  - practice/holding
+  - practice/self-governing
+  - emotion/conviction
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

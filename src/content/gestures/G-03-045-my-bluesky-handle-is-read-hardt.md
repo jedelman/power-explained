@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/hardt
   - person/negri
+  - emotion/conviction
+  - emotion/clear-eyed
+  - practice/naming
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

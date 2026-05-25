@@ -9,6 +9,8 @@ tags:
   - status/draft
   - concept/racial-capitalism
   - concept/the-outside
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

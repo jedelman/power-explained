@@ -9,6 +9,8 @@ tags:
   - status/draft
   - person/fanon
   - place/algeria
+  - image/the-armor
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

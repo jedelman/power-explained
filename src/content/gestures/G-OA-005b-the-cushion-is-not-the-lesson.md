@@ -1,7 +1,7 @@
 ---
 id: G-OA-005b
 plateau: P-OA
-title: "The Cushion Is Not the Lesson"
+title: The Cushion Is Not the Lesson
 slug: the-cushion-is-not-the-lesson
 tags:
   - plateau/P-OA
@@ -14,6 +14,10 @@ tags:
   - zone/second-growth
   - concept/burnout
   - place/seattle
+  - image/the-floor
+  - emotion/humility
+  - emotion/clear-eyed
+  - practice/positioning
 beauty_check:
   passed: true
   notes: |

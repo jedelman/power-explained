@@ -13,6 +13,11 @@ tags:
   - concept/debt
   - concept/practice
   - concept/community
+  - image/zuccotti-park
+  - image/the-communal-kitchen
+  - motif/return-migration
+  - practice/self-governing
+  - emotion/vindication
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

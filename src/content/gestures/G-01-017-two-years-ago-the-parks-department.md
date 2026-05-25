@@ -9,6 +9,11 @@ tags:
   - status/draft
   - concept/simulation
   - action/naming
+  - image/the-uncut-meadow
+  - image/songbirds
+  - emotion/defiance
+  - practice/refusing
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

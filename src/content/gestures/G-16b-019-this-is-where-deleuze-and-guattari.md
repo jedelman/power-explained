@@ -11,6 +11,10 @@ tags:
   - person/guattari
   - concept/simulation
   - concept/practice
+  - motif/body-without-organs
+  - motif/knowing-in-the-body
+  - practice/refusing
+  - emotion/defiance
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

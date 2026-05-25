@@ -1,7 +1,7 @@
 ---
 id: G-OA-002b
 plateau: P-OA
-title: "He Treated Fascism as a Disease"
+title: He Treated Fascism as a Disease
 slug: he-treated-fascism-as-a-disease
 tags:
   - plateau/P-OA
@@ -19,6 +19,11 @@ tags:
   - year/1933
   - direction/n
   - zone/second-growth
+  - image/the-armor
+  - image/the-occupied-factory
+  - emotion/indictment
+  - emotion/clear-eyed
+  - practice/naming
 beauty_check:
   passed: true
   notes: |

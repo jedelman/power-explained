@@ -15,6 +15,11 @@ tags:
   - concept/dialectical-image
   - concept/the-wizard
   - concept/discipline
+  - practice/attending
+  - image/the-redcedar
+  - image/the-angel
+  - practice/remembering
+  - emotion/grief
 beauty_check:
   passed: false
   notes: |

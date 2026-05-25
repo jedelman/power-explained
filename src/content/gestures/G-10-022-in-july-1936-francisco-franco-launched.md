@@ -13,6 +13,10 @@ tags:
   - person/franco
   - place/europe
   - year/1936
+  - motif/self-governance-in-public
+  - image/the-occupied-factory
+  - practice/self-governing
+  - emotion/defiance
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

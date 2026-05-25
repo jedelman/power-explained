@@ -7,6 +7,10 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - emotion/indictment
+  - emotion/clear-eyed
+  - practice/refusing
+  - motif/knowing-in-the-body
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

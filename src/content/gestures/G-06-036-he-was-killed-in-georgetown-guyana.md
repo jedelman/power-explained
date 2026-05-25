@@ -7,6 +7,9 @@ tags:
   - plateau/P-06
   - voice/jason
   - status/draft
+  - image/the-firing-squad
+  - emotion/grief
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -11,6 +11,11 @@ tags:
   - person/ostrom-elinor
   - concept/community
   - concept/practice
+  - motif/proof-before-theory
+  - motif/defense-of-land
+  - practice/self-governing
+  - motif/distillation
+  - emotion/vindication
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

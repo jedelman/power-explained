@@ -9,6 +9,11 @@ tags:
   - status/draft
   - person/bookchin
   - concept/practice
+  - image/the-prison-cell
+  - motif/knowing-in-the-body
+  - motif/proof-before-theory
+  - practice/self-governing
+  - practice/refusing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -9,6 +9,12 @@ tags:
   - status/draft
   - place/narmada
   - person/roy-arundhati
+  - image/the-rising-river
+  - motif/defense-of-land
+  - practice/naming
+  - emotion/defiance
+  - practice/witnessing
+  - emotion/grief
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

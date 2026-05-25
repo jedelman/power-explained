@@ -3,7 +3,6 @@ id: G-GC-005d
 plateau: P-GC
 title: The next thing I attempted
 slug: the-next-thing-i-attempted
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,9 @@ tags:
   - concept/production-of-subjectivity
   - zone/high-ridges
   - direction/nw
-
+  - image/the-shrug
+  - emotion/disciplined-hope
+  - practice/continuing
 beauty_check:
   passed: true
   notes: |
@@ -28,7 +29,6 @@ beauty_check:
     the dominated-posture sense, but the resonance is intentional.
     2026-05-23: Beauty pass — confirmed. "What I was, was impatient" is
     the gesture's load-bearing beat.
-
 notes: |-
   Inbox GT-01 woven 2026-05-22. The first attempt to use the master
   key. The friends' shrug. "I was attempting to one-shot a task that

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/the-centaur
+  - motif/body-without-organs
+  - image/the-screen
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

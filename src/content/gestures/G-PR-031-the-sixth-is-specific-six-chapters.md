@@ -10,6 +10,10 @@ tags:
   - concept/commons
   - place/zuccotti-park
   - year/2011
+  - image/zuccotti-park
+  - motif/flowering
+  - practice/building
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

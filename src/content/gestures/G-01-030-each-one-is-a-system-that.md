@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/community
+  - image/the-machine
+  - emotion/clear-eyed
+  - emotion/indictment
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

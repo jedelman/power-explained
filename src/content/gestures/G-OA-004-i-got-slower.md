@@ -1,7 +1,7 @@
 ---
 id: G-OA-004
 plateau: P-OA
-title: "I Got Slower"
+title: I Got Slower
 slug: i-got-slower
 tags:
   - plateau/P-OA
@@ -12,6 +12,10 @@ tags:
   - direction/nw
   - zone/second-growth
   - concept/burnout
+  - image/the-floor
+  - image/the-armor
+  - emotion/grief
+  - image/the-machine
 beauty_check:
   passed: true
   notes: |

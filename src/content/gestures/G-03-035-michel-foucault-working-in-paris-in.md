@@ -18,6 +18,10 @@ tags:
   - year/1981
   - year/1983
   - year/2023
+  - image/the-prison-cell
+  - emotion/clear-eyed
+  - image/the-operating-system
+  - motif/the-lineage
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

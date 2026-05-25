@@ -7,6 +7,10 @@ tags:
   - plateau/P-18
   - voice/jason
   - status/draft
+  - motif/flowering
+  - emotion/reverence
+  - emotion/indictment
+  - emotion/wonder
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

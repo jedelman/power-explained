@@ -7,6 +7,9 @@ tags:
   - plateau/P-16b
   - voice/jason
   - status/draft
+  - image/the-screen
+  - emotion/unease
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

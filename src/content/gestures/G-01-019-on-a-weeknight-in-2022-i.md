@@ -9,6 +9,7 @@ tags:
   - status/draft
   - concept/civil-society
   - year/2022
+  - image/the-village-assembly
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

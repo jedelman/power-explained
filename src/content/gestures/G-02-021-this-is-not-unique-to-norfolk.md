@@ -9,6 +9,8 @@ tags:
   - status/draft
   - place/norfolk-va
   - concept/community
+  - emotion/indictment
+  - image/the-screen
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

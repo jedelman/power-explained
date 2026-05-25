@@ -1,9 +1,8 @@
 ---
 id: G-04-018
 plateau: P-04
-title: "Continuation Through Reversals"
+title: Continuation Through Reversals
 slug: continuation-through-reversals
-
 tags:
   - plateau/P-04
   - voice/jason
@@ -21,18 +20,15 @@ tags:
   - year/2025
   - zone/clearings
   - direction/s
-
+  - practice/continuing
+  - practice/building
+  - motif/proof-before-theory
+  - emotion/disciplined-hope
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
-
-# claims: []        # add when fact-checked at gesture resolution
-# references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints
-#   default_prev: G-04-NNN
-#   default_next: G-04-NNN
 notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 29-31

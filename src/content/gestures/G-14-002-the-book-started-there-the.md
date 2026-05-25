@@ -10,6 +10,10 @@ tags:
   - place/norfolk-va
   - place/hampton-roads
   - concept/community
+  - image/the-highway
+  - motif/demolished-from-outside
+  - emotion/grief
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

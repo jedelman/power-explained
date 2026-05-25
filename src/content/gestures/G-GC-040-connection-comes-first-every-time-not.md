@@ -3,7 +3,6 @@ id: G-GC-040
 plateau: P-GC
 title: Connection comes first. Every time. Not
 slug: connection-comes-first-every-time-not
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -14,7 +13,9 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/e
-
+  - practice/naming
+  - emotion/conviction
+  - practice/greeting
 beauty_check:
   passed: true
   notes: |
@@ -22,8 +23,6 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. Via-negativa litany
     (knowledge/discipline/correctness/excellence) returns to the affirmative
     on "Connection." Earned by 039.
-
-notes: |-
-  "Connection comes first. Every time." In italics. The fourth name.
+notes: '"Connection comes first. Every time." In italics. The fourth name.'
 ---
 *Connection comes first.* Every time. Not knowledge. Not discipline. Not correctness. Not excellence. Connection.

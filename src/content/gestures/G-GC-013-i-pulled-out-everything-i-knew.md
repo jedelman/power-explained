@@ -3,7 +3,6 @@ id: G-GC-013
 plateau: P-GC
 title: I pulled out everything I knew
 slug: i-pulled-out-everything-i-knew
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -13,15 +12,14 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/nw
-
+  - image/the-restaurant
+  - emotion/unease
 beauty_check:
   passed: true
   notes: |
     2026-05-22: Schema + rich tagging pass.
     2026-05-23: Beauty pass — confirmed. Staccato of attempts, ending
     on "convinced the scaffold was the issue" sets up 014's pivot.
-
-notes: |-
-  "I kept adjusting the scaffold, convinced the scaffold was the issue."
+notes: '"I kept adjusting the scaffold, convinced the scaffold was the issue."'
 ---
 I pulled out everything I knew. Invented new approaches. Designed training structures I hadn't used before. Convinced myself I was solving an individual problem with an individual solution. I kept adjusting the scaffold, convinced the scaffold was the issue.

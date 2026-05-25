@@ -17,6 +17,10 @@ tags:
   - concept/commons
   - concept/the-outside
   - concept/community
+  - motif/cannot-verify-from-inside
+  - image/the-village-assembly
+  - practice/witnessing
+  - emotion/tenderness
 beauty_check:
   passed: false
   notes: |

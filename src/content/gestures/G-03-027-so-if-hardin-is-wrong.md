@@ -13,6 +13,10 @@ tags:
   - person/ostrom-elinor
   - person/gramsci
   - place/africa
+  - emotion/indictment
+  - motif/making-common-sense
+  - emotion/clear-eyed
+  - image/the-machine
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

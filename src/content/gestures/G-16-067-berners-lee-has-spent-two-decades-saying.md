@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/enclosure
   - person/berners-lee
+  - emotion/grief
+  - emotion/disciplined-hope
+  - practice/continuing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

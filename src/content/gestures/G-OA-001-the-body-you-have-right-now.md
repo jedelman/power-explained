@@ -1,7 +1,7 @@
 ---
 id: G-OA-001
 plateau: P-OA
-title: "The Body You Have Right Now"
+title: The Body You Have Right Now
 slug: the-body-you-have-right-now
 tags:
   - plateau/P-OA
@@ -11,6 +11,11 @@ tags:
   - status/draft
   - direction/ne
   - zone/second-growth
+  - emotion/disciplined-hope
+  - emotion/reverence
+  - emotion/tenderness
+  - practice/becoming-still
+  - practice/attending
 beauty_check:
   passed: true
   notes: |

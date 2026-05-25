@@ -7,6 +7,8 @@ tags:
   - plateau/P-PR
   - voice/jason
   - status/draft
+  - practice/positioning
+  - emotion/conviction
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

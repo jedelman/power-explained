@@ -12,6 +12,10 @@ tags:
   - person/ostrom-elinor
   - place/norfolk-va
   - concept/community
+  - image/the-restaurant
+  - motif/falling-through-the-gap
+  - emotion/clear-eyed
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -18,11 +18,14 @@ tags:
   - concept/commons
   - zone/the-wizards-cottage
   - direction/n
+  - practice/naming
+  - image/the-redcedar
+  - emotion/reverence
+  - image/the-thread
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

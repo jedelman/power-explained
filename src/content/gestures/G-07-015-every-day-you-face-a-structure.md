@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - person/fanon
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
+  - image/the-armor
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,8 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - emotion/wonder
+  - emotion/unease
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

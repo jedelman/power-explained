@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/practice
+  - image/the-restaurant
+  - practice/becoming-still
+  - practice/continuing
+  - practice/practicing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -11,6 +11,11 @@ tags:
   - concept/enclosure
   - place/washington-state
   - concept/practice
+  - image/old-growth-forest
+  - practice/attending
+  - practice/tending
+  - practice/witnessing
+  - emotion/disciplined-hope
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

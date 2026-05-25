@@ -14,6 +14,10 @@ tags:
   - zone/the-wizards-cottage
   - concept/descent
   - concept/the-wizard
+  - practice/continuing
+  - practice/descending
+  - emotion/clear-eyed
+  - image/the-wizard
 beauty_check:
   passed: false
   notes: |

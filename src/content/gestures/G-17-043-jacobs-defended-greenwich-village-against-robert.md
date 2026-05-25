@@ -10,6 +10,11 @@ tags:
   - place/italy
   - concept/practice
   - concept/community
+  - motif/defense-of-land
+  - emotion/defiance
+  - practice/refusing
+  - practice/attending
+  - image/the-highway
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -10,6 +10,11 @@ tags:
   - concept/mutual-aid
   - concept/cooperative
   - place/europe
+  - emotion/indictment
+  - emotion/clear-eyed
+  - practice/attending
+  - motif/distillation
+  - image/songbirds
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - concept/practice
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -3,7 +3,6 @@ id: G-GC-005c
 plateau: P-GC
 title: I didn't interrupt the conversation
 slug: i-didnt-interrupt-the-conversation
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -16,7 +15,9 @@ tags:
   - concept/production-of-subjectivity
   - zone/high-ridges
   - direction/n
-
+  - practice/attending
+  - motif/cannot-verify-from-inside
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -27,7 +28,6 @@ beauty_check:
     framing; not yet sourced to a specific thinker but consistent
     with the chapter's hegemony argument.
     2026-05-23: Beauty pass — confirmed. "I saw it being made" lands.
-
 notes: |-
   Inbox GT-01 woven 2026-05-22. "I saw it being made." The asymmetric-
   agency diagnostic — middle class/Left has agency-but-no-mandate

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/luxemburg
   - concept/discipline
+  - emotion/indictment
+  - emotion/clear-eyed
+  - motif/cannot-verify-from-inside
+  - motif/self-governance-in-public
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

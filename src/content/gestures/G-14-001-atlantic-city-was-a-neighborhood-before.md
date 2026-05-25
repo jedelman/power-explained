@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - place/atlantic-city
+  - motif/demolished-from-outside
+  - image/the-highway
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

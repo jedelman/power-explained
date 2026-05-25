@@ -7,6 +7,10 @@ tags:
   - plateau/P-IB
   - voice/jason
   - status/draft
+  - motif/flowering
+  - emotion/wonder
+  - motif/dissolving-boundary
+  - image/the-superblock
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - person/mbembe
+  - emotion/indictment
+  - image/the-highway
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

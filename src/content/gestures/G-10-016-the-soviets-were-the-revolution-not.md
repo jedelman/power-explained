@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/lenin
   - concept/capture
+  - image/the-armor
+  - motif/self-governance-in-public
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

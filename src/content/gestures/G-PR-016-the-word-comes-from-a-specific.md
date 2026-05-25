@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - image/common-land-fenced
+  - emotion/indictment
+  - practice/naming
+  - image/the-operating-system
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/practice
   - concept/attention
+  - practice/attending
+  - practice/greeting
+  - image/songbirds
+  - practice/witnessing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

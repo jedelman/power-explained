@@ -3,7 +3,6 @@ id: G-GC-006
 plateau: P-GC
 title: Power does not only produce goods
 slug: here-is-what-the-phrase-means
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -15,7 +14,9 @@ tags:
   - concept/production-of-subjectivity
   - zone/high-ridges
   - direction/n
-
+  - practice/naming
+  - motif/knowing-in-the-body
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -29,7 +30,6 @@ beauty_check:
     biopolitical production becomes a fourth grimoire name.
     2026-05-23: Beauty pass — confirmed. "You know in the body, before
     the thought" earns the close.
-
 notes: |-
   Production of subjectivity, defined. Power — not only capital — produces
   the subject. Subjection to power produces the kind of person legible to

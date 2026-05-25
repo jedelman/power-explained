@@ -9,6 +9,8 @@ tags:
   - status/draft
   - place/atlantic-city
   - concept/community
+  - motif/demolished-from-outside
+  - emotion/indictment
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -1,7 +1,7 @@
 ---
 id: G-WW-023
 plateau: P-WW
-title: "The Downpour Continues"
+title: The Downpour Continues
 slug: the-downpour-continues
 tags:
   - plateau/P-WW
@@ -13,6 +13,10 @@ tags:
   - status/draft
   - direction/se
   - zone/the-wizards-cottage
+  - image/the-restaurant
+  - practice/continuing
+  - image/the-thread
+  - emotion/grief
 beauty_check:
   passed: false
   notes: |

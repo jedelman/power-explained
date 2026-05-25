@@ -11,6 +11,10 @@ tags:
   - concept/cooperative
   - concept/clt
   - concept/community
+  - image/the-land-trust
+  - motif/making-common-sense
+  - practice/building
+  - emotion/conviction
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

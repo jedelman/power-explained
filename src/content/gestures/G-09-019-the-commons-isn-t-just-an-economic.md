@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/commons
   - concept/practice
+  - motif/making-common-sense
+  - practice/practicing
+  - practice/building
+  - image/the-thread
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

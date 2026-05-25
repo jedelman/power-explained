@@ -16,11 +16,13 @@ tags:
   - concept/primitive-accumulation
   - zone/the-wizards-cottage
   - direction/n
+  - emotion/indictment
+  - emotion/clear-eyed
+  - image/the-machine
 beauty_check:
   passed: true
   notes: |
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

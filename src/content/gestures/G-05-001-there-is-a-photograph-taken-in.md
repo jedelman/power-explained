@@ -7,6 +7,9 @@ tags:
   - plateau/P-05
   - voice/jason
   - status/draft
+  - emotion/defiance
+  - emotion/indictment
+  - motif/defense-of-land
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

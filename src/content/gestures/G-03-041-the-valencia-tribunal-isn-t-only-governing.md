@@ -10,6 +10,10 @@ tags:
   - concept/commons
   - place/valencia
   - concept/community
+  - image/water-tribunal
+  - image/the-bamboo-dam
+  - motif/knowing-in-the-body
+  - emotion/conviction
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

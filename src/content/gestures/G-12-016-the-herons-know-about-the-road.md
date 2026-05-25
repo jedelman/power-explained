@@ -9,6 +9,12 @@ tags:
   - status/draft
   - concept/commons
   - person/roy-arundhati
+  - image/night-herons
+  - motif/knowing-in-the-body
+  - image/the-highway
+  - practice/continuing
+  - emotion/reverence
+  - practice/naming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

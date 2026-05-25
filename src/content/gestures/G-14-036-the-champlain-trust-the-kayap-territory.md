@@ -10,6 +10,11 @@ tags:
   - place/champlain
   - place/standing-rock
   - concept/community
+  - image/the-land-trust
+  - motif/defense-of-land
+  - image/the-thread
+  - practice/witnessing
+  - emotion/reverence
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

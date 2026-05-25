@@ -10,6 +10,11 @@ tags:
   - concept/commons
   - concept/community
   - concept/descent
+  - motif/return-migration
+  - practice/descending
+  - practice/welcoming
+  - practice/attending
+  - emotion/disciplined-hope
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

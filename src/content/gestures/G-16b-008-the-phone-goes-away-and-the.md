@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/simulation
+  - image/the-screen
+  - emotion/unease
+  - practice/attending
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

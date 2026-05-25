@@ -9,6 +9,7 @@ tags:
   - status/draft
   - place/new-york
   - place/italy
+  - practice/naming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

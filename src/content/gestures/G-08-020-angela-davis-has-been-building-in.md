@@ -15,6 +15,12 @@ tags:
   - year/2022
   - concept/community
   - concept/the-outside
+  - image/the-prison-cell
+  - image/the-machine
+  - emotion/indictment
+  - emotion/clear-eyed
+  - emotion/vindication
+  - practice/building
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -1,7 +1,7 @@
 ---
 id: G-OA-009
 plateau: P-OA
-title: "Where the Shrug Lives"
+title: Where the Shrug Lives
 slug: where-the-shrug-lives
 tags:
   - plateau/P-OA
@@ -17,6 +17,12 @@ tags:
   - concept/wages-of-whiteness
   - person/du-bois
   - place/the-south
+  - image/the-shrug
+  - image/the-mask
+  - emotion/indictment
+  - emotion/clear-eyed
+  - emotion/defiance
+  - practice/de-armoring
 beauty_check:
   passed: true
   notes: |

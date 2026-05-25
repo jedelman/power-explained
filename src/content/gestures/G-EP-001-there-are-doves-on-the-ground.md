@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/commons
   - concept/enclosure
+  - image/the-doves
+  - practice/becoming-still
+  - emotion/tenderness
+  - emotion/disciplined-hope
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

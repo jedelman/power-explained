@@ -14,6 +14,10 @@ tags:
   - direction/s
   - zone/the-wizards-cottage
   - concept/sacred
+  - practice/naming
+  - practice/positioning
+  - emotion/conviction
+  - emotion/reverence
 beauty_check:
   passed: false
   notes: |

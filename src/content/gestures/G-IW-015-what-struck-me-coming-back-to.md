@@ -10,6 +10,10 @@ tags:
   - person/gramsci
   - concept/hegemony
   - concept/practice
+  - motif/making-common-sense
+  - image/the-prison-cell
+  - motif/knowing-in-the-body
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

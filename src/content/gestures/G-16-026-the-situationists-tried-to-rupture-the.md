@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/deleuze
   - concept/enclosure
+  - motif/body-without-organs
+  - image/mycorrhizal-network
+  - motif/dissolving-boundary
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

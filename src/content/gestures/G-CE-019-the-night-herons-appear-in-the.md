@@ -15,6 +15,10 @@ tags:
   - person/turing
   - person/wynter
   - place/atlantic-city
+  - image/night-herons
+  - image/the-thread
+  - motif/falling-through-the-gap
+  - motif/the-lineage
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

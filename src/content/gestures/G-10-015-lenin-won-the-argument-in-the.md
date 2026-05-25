@@ -9,6 +9,8 @@ tags:
   - status/draft
   - person/luxemburg
   - person/lenin
+  - emotion/vindication
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

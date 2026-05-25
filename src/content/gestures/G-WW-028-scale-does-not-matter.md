@@ -1,7 +1,7 @@
 ---
 id: G-WW-028
 plateau: P-WW
-title: "Scale Does Not Matter"
+title: Scale Does Not Matter
 slug: scale-does-not-matter
 tags:
   - plateau/P-WW
@@ -13,6 +13,11 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - image/the-hedgerow
+  - image/the-coffee-shop
+  - image/the-uncut-meadow
+  - emotion/conviction
+  - emotion/disciplined-hope
 beauty_check:
   passed: false
   notes: |

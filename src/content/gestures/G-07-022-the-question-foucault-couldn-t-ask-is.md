@@ -12,6 +12,9 @@ tags:
   - place/france
   - place/paris
   - person/deleuze
+  - motif/cannot-verify-from-inside
+  - image/the-firing-squad
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

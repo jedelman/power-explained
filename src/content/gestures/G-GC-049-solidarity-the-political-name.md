@@ -3,7 +3,6 @@ id: G-GC-049
 plateau: P-GC
 title: Solidarity. The political name
 slug: solidarity-the-political-name
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -17,7 +16,9 @@ tags:
   - concept/solidarity
   - zone/high-ridges
   - direction/e
-
+  - practice/naming
+  - image/the-thread
+  - emotion/conviction
 beauty_check:
   passed: true
   notes: |
@@ -29,7 +30,6 @@ beauty_check:
     and Refrain C's terminal speaking simultaneously. The spell completed.
     2026-05-23: Beauty pass — confirmed. Four-beat close. The chapter
     closes here.
-
 notes: |-
   The reveal. Connection is the intimate name; solidarity is the political
   name. Same act, different scale. The chapter has been building to this

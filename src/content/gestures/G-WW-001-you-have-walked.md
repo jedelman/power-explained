@@ -12,6 +12,10 @@ tags:
   - direction/ne
   - zone/the-wizards-cottage
   - concept/attention
+  - practice/continuing
+  - practice/attending
+  - emotion/tenderness
+  - practice/blessing
 beauty_check:
   passed: false
   notes: |

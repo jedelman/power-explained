@@ -10,6 +10,10 @@ tags:
   - concept/practice
   - concept/attention
   - person/erin
+  - practice/attending
+  - practice/witnessing
+  - image/the-hedgerow
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

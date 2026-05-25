@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - place/new-york
+  - image/zuccotti-park
+  - motif/body-without-organs
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

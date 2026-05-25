@@ -10,6 +10,8 @@ tags:
   - concept/racial-capitalism
   - person/robinson-cedric
   - concept/the-outside
+  - emotion/indictment
+  - emotion/clear-eyed
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

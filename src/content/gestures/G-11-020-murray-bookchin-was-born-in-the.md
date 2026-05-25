@@ -16,6 +16,11 @@ tags:
   - place/atlantic-city
   - year/1921
   - concept/community
+  - motif/demolished-from-outside
+  - image/the-highway
+  - image/the-credit-union
+  - emotion/indictment
+  - image/the-machine
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

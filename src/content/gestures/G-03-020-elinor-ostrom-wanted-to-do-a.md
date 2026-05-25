@@ -10,6 +10,8 @@ tags:
   - person/ostrom-elinor
   - concept/discipline
   - concept/practice
+  - motif/proof-before-theory
+  - practice/attending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

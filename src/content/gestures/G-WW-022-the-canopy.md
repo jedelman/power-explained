@@ -1,7 +1,7 @@
 ---
 id: G-WW-022
 plateau: P-WW
-title: "The Canopy"
+title: The Canopy
 slug: the-canopy
 tags:
   - plateau/P-WW
@@ -12,6 +12,10 @@ tags:
   - status/draft
   - direction/nw
   - zone/the-wizards-cottage
+  - image/the-restaurant
+  - practice/building
+  - emotion/grief
+  - emotion/clear-eyed
 beauty_check:
   passed: false
   notes: |

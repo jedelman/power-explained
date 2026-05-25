@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/enclosure
+  - motif/trickle-vs-flood
+  - image/songbirds
+  - image/the-uncut-meadow
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

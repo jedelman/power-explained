@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/hegemony
   - place/washington-state
+  - motif/making-common-sense
+  - image/old-growth-forest
+  - practice/building
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

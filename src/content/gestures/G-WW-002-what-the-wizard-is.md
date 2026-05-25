@@ -1,7 +1,7 @@
 ---
 id: G-WW-002
 plateau: P-WW
-title: "What the Wizard Is"
+title: What the Wizard Is
 slug: what-the-wizard-is
 tags:
   - plateau/P-WW
@@ -14,6 +14,10 @@ tags:
   - direction/n
   - zone/the-wizards-cottage
   - concept/the-wizard
+  - image/the-wizard
+  - practice/naming
+  - practice/continuing
+  - emotion/clear-eyed
 beauty_check:
   passed: false
   notes: |

@@ -13,6 +13,10 @@ tags:
   - direction/se
   - zone/the-wizards-cottage
   - concept/the-wizard
+  - practice/continuing
+  - image/the-thread
+  - emotion/disciplined-hope
+  - emotion/conviction
 beauty_check:
   passed: false
   notes: |

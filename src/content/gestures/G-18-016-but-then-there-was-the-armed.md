@@ -9,6 +9,10 @@ tags:
   - status/draft
   - concept/solidarity
   - concept/community
+  - emotion/indictment
+  - image/the-armor
+  - emotion/grief
+  - practice/refusing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

@@ -9,6 +9,11 @@ tags:
   - status/draft
   - person/gramsci
   - place/italy
+  - image/scattered-seeds
+  - image/the-thread
+  - practice/building
+  - emotion/disciplined-hope
+  - practice/continuing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

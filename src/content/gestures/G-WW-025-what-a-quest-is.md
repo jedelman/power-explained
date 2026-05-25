@@ -1,7 +1,7 @@
 ---
 id: G-WW-025
 plateau: P-WW
-title: "What a Quest Is"
+title: What a Quest Is
 slug: what-a-quest-is
 tags:
   - plateau/P-WW
@@ -13,6 +13,10 @@ tags:
   - status/draft
   - direction/s
   - zone/the-wizards-cottage
+  - practice/naming
+  - image/the-uncut-meadow
+  - emotion/conviction
+  - motif/knowing-in-the-body
 beauty_check:
   passed: false
   notes: |

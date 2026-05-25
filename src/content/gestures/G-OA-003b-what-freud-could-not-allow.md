@@ -1,7 +1,7 @@
 ---
 id: G-OA-003b
 plateau: P-OA
-title: "What Freud Could Not Allow"
+title: What Freud Could Not Allow
 slug: what-freud-could-not-allow
 tags:
   - plateau/P-OA
@@ -18,6 +18,11 @@ tags:
   - concept/character-armor
   - direction/n
   - zone/second-growth
+  - emotion/indictment
+  - emotion/clear-eyed
+  - emotion/defiance
+  - image/the-firing-squad
+  - emotion/vindication
 beauty_check:
   passed: true
   notes: |

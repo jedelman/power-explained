@@ -1,7 +1,7 @@
 ---
 id: G-OA-008
 plateau: P-OA
-title: "Discipline Is Not Compliance"
+title: Discipline Is Not Compliance
 slug: discipline-is-not-compliance
 tags:
   - plateau/P-OA
@@ -15,10 +15,17 @@ tags:
   - zone/second-growth
   - concept/discipline
   - concept/character-armor
+  - image/the-armor
+  - emotion/clear-eyed
+  - emotion/defiance
+  - practice/self-governing
 beauty_check:
   passed: true
-  notes: |
-    2026-05-23: Beauty pass — confirmed. NOTE (non-blocking): the opener "There is a confusion I need to clear" is borderline-defensive scaffolding by CLAUDE.md rules, but the question it sets up (un-armored body vs discipline) is the section's real lever. Kept as a teacher-pivot, not a defensive preemption.
+  notes: >
+    2026-05-23: Beauty pass — confirmed. NOTE (non-blocking): the opener "There is a confusion I
+    need to clear" is borderline-defensive scaffolding by CLAUDE.md rules, but the question it sets
+    up (un-armored body vs discipline) is the section's real lever. Kept as a teacher-pivot, not a
+    defensive preemption.
 notes: |
   OA-03 (the martial arts tradition) is a PRIORITY UNANSWERED question
   and is named load-bearing for this chapter in the architecture map.

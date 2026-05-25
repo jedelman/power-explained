@@ -10,6 +10,10 @@ tags:
   - concept/commons
   - concept/simulation
   - person/turing
+  - motif/falling-through-the-gap
+  - motif/body-without-organs
+  - motif/knowing-in-the-body
+  - emotion/clear-eyed
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

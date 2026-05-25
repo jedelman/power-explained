@@ -3,7 +3,6 @@ id: G-GC-002
 plateau: P-GC
 title: These forces are intelligent
 slug: the-point-of-the-grimoire-is
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -13,7 +12,9 @@ tags:
   - status/draft
   - zone/high-ridges
   - direction/ne
-
+  - image/the-named-demon
+  - practice/naming
+  - emotion/clear-eyed
 beauty_check:
   passed: true
   notes: |
@@ -23,7 +24,6 @@ beauty_check:
     preemption. Operational distinction (grimoire = bestiary that tells you
     what to do) replaces the not-X/X structure.
     2026-05-23: Beauty pass — confirmed. Cadence holds.
-
 notes: |-
   The logic of the grimoire: name → can work with. Naming breaks paralysis.
   The intelligence claim: not conspiratorial, but acting according to its nature.

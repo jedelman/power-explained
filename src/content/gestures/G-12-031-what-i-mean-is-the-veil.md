@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/freire
   - person/roy-arundhati
+  - emotion/clear-eyed
+  - image/the-rising-river
+  - motif/defense-of-land
+  - practice/naming
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

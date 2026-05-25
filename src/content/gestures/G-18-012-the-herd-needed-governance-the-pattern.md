@@ -11,6 +11,11 @@ tags:
   - person/federici
   - person/roy-arundhati
   - place/narmada
+  - image/the-centaur
+  - motif/demolished-from-outside
+  - image/the-rising-river
+  - emotion/indictment
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

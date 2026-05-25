@@ -14,6 +14,11 @@ tags:
   - year/1994
   - year/2003
   - concept/practice
+  - image/the-caracoles
+  - motif/return-migration
+  - practice/continuing
+  - practice/refusing
+  - emotion/disciplined-hope
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

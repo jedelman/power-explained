@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - concept/cooperative
+  - image/the-credit-union
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

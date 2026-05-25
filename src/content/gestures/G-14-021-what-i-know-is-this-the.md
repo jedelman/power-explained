@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - person/sorenson
+  - emotion/grief
+  - motif/return-migration
+  - practice/attending
+  - emotion/disciplined-hope
+  - practice/grieving
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

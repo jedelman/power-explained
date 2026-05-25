@@ -8,6 +8,7 @@ tags:
   - voice/jason
   - status/draft
   - place/berlin
+  - emotion/defiance
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

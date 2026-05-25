@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - concept/commons
+  - motif/trickle-vs-flood
+  - emotion/reverence
+  - emotion/disciplined-hope
+  - motif/proof-before-theory
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

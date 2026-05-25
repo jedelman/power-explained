@@ -1,7 +1,7 @@
 ---
 id: G-WW-016
 plateau: P-WW
-title: "Naming What Crossed"
+title: Naming What Crossed
 slug: naming-what-crossed
 tags:
   - plateau/P-WW
@@ -13,6 +13,10 @@ tags:
   - status/draft
   - direction/e
   - zone/the-wizards-cottage
+  - practice/naming
+  - motif/dissolving-boundary
+  - practice/holding
+  - emotion/humility
 beauty_check:
   passed: false
   notes: |

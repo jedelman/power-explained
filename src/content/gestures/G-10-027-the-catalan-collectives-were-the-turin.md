@@ -11,6 +11,10 @@ tags:
   - concept/commons
   - place/barcelona
   - place/aragon
+  - image/the-occupied-factory
+  - emotion/clear-eyed
+  - emotion/vindication
+  - motif/proof-before-theory
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

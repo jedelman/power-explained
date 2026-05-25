@@ -17,6 +17,12 @@ tags:
   - person/roy-arundhati
   - concept/attention
   - concept/practice
+  - image/the-circle
+  - practice/attending
+  - emotion/indictment
+  - image/the-screen
+  - image/the-rising-river
+  - practice/practicing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

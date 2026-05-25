@@ -8,6 +8,10 @@ tags:
   - voice/jason
   - status/draft
   - place/norfolk-va
+  - motif/demolished-from-outside
+  - emotion/disciplined-hope
+  - practice/building
+  - image/the-restaurant
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

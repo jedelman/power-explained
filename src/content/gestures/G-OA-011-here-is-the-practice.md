@@ -1,7 +1,7 @@
 ---
 id: G-OA-011
 plateau: P-OA
-title: "The Mastery of Attention"
+title: The Mastery of Attention
 slug: the-mastery-of-attention
 tags:
   - plateau/P-OA
@@ -15,6 +15,12 @@ tags:
   - concept/attention
   - concept/citta-vritti
   - person/buddha
+  - practice/attending
+  - practice/becoming-still
+  - image/the-armor
+  - emotion/reverence
+  - emotion/humility
+  - practice/witnessing
 beauty_check:
   passed: true
   notes: |

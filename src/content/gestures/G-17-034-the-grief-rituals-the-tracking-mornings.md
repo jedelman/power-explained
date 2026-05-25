@@ -9,6 +9,11 @@ tags:
   - status/draft
   - concept/practice
   - concept/community
+  - practice/gathering
+  - practice/attending
+  - practice/grieving
+  - motif/return-migration
+  - practice/tending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

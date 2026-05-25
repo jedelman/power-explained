@@ -7,6 +7,9 @@ tags:
   - plateau/P-14
   - voice/jason
   - status/draft
+  - emotion/grief
+  - motif/knowing-in-the-body
+  - motif/cannot-verify-from-inside
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

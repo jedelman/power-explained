@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/solidarity
+  - image/the-centaur
+  - emotion/indictment
+  - practice/holding
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

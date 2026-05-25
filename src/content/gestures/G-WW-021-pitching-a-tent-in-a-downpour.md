@@ -14,6 +14,10 @@ tags:
   - direction/nw
   - zone/the-wizards-cottage
   - concept/aura
+  - image/the-restaurant
+  - image/the-typhoon
+  - practice/building
+  - emotion/disciplined-hope
 beauty_check:
   passed: false
   notes: |

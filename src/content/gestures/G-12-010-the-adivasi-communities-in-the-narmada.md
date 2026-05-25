@@ -9,6 +9,10 @@ tags:
   - status/draft
   - place/narmada
   - concept/practice
+  - motif/knowing-in-the-body
+  - image/old-growth-forest
+  - practice/tending
+  - practice/self-governing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

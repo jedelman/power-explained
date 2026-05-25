@@ -1,7 +1,7 @@
 ---
 id: G-OA-008c
 plateau: P-OA
-title: "Kokoro"
+title: Kokoro
 slug: kokoro
 tags:
   - plateau/P-OA
@@ -16,6 +16,11 @@ tags:
   - concept/discipline
   - concept/spirit
   - person/foucault
+  - emotion/defiance
+  - emotion/conviction
+  - practice/practicing
+  - practice/witnessing
+  - motif/knowing-in-the-body
 beauty_check:
   passed: true
   notes: |

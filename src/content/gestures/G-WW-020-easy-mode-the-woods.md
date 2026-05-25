@@ -15,6 +15,11 @@ tags:
   - zone/the-wizards-cottage
   - concept/aura
   - concept/attention
+  - image/old-growth-forest
+  - practice/building
+  - image/the-thread
+  - emotion/wonder
+  - emotion/humility
 beauty_check:
   passed: false
   notes: |

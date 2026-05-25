@@ -9,6 +9,9 @@ tags:
   - status/draft
   - concept/sacred
   - concept/community
+  - practice/tending
+  - emotion/reverence
+  - practice/welcoming
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

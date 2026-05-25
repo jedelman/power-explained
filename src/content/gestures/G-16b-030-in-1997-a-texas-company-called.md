@@ -11,6 +11,9 @@ tags:
   - place/india
   - concept/community
   - concept/the-outside
+  - motif/knowing-in-the-body
+  - emotion/indictment
+  - image/scattered-seeds
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

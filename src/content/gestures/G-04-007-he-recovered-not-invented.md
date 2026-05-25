@@ -1,9 +1,8 @@
 ---
 id: G-04-007
 plateau: P-04
-title: "He Recovered not Invented"
+title: He Recovered not Invented
 slug: he-recovered-not-invented
-
 tags:
   - plateau/P-04
   - voice/jason
@@ -20,18 +19,15 @@ tags:
   - concept/federation
   - zone/clearings
   - direction/s
-
+  - motif/return-migration
+  - practice/remembering
+  - motif/the-lineage
+  - emotion/clear-eyed
 beauty_check:
   passed: false
   notes: |
     Inherited from P-04 chapter-level beauty_check (committed 2026-05-19).
     Needs per-gesture pass.
-
-# claims: []        # add when fact-checked at gesture resolution
-# references: []    # other gesture IDs this one points at
-# neighbors:        # default linear order hints
-#   default_prev: G-04-NNN
-#   default_next: G-04-NNN
 notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 9-9

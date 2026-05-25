@@ -10,6 +10,11 @@ tags:
   - concept/commons
   - place/valencia
   - concept/practice
+  - image/water-tribunal
+  - motif/cannot-verify-from-inside
+  - practice/continuing
+  - practice/attending
+  - motif/proof-before-theory
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -7,6 +7,8 @@ tags:
   - plateau/P-01
   - voice/jason
   - status/draft
+  - emotion/clear-eyed
+  - image/the-shrug
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

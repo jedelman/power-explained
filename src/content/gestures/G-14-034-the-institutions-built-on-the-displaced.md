@@ -10,6 +10,10 @@ tags:
   - place/atlantic-city
   - concept/enclosure
   - concept/community
+  - emotion/indictment
+  - motif/demolished-from-outside
+  - image/the-7-eleven
+  - motif/cannot-verify-from-inside
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

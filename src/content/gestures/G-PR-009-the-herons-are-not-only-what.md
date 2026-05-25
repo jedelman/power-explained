@@ -8,6 +8,11 @@ tags:
   - voice/jason
   - status/draft
   - concept/practice
+  - image/night-herons
+  - motif/flowering
+  - practice/attending
+  - emotion/disciplined-hope
+  - practice/witnessing
 notes: >-
   First-pass paragraph-split (mechanical). Title and slug derived
 

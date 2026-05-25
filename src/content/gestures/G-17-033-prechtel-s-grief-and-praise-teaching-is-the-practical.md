@@ -9,6 +9,10 @@ tags:
   - status/draft
   - person/prechtel
   - concept/community
+  - emotion/grief
+  - practice/grieving
+  - motif/return-migration
+  - practice/descending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

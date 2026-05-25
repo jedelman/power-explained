@@ -8,6 +8,8 @@ tags:
   - voice/jason
   - status/draft
   - place/washington-state
+  - image/old-growth-forest
+  - practice/witnessing
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

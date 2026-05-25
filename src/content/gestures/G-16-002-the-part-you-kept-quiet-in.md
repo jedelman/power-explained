@@ -7,6 +7,8 @@ tags:
   - plateau/P-16
   - voice/jason
   - status/draft
+  - emotion/tenderness
+  - motif/body-without-organs
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

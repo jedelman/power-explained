@@ -7,6 +7,8 @@ tags:
   - plateau/P-PR
   - voice/jason
   - status/draft
+  - image/night-herons
+  - practice/attending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

@@ -10,6 +10,11 @@ tags:
   - person/sorenson
   - year/2023
   - concept/community
+  - image/old-growth-forest
+  - motif/defense-of-land
+  - emotion/defiance
+  - emotion/grief
+  - motif/return-migration
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

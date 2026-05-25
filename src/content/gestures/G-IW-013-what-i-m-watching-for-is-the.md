@@ -8,6 +8,9 @@ tags:
   - voice/jason
   - status/draft
   - concept/attention
+  - image/scattered-seeds
+  - practice/tending
+  - practice/attending
 notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or

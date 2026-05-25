@@ -3,7 +3,6 @@ id: G-GC-008d
 plateau: P-GC
 title: The best metaphor I have is a car dealership
 slug: the-best-metaphor-i-have
-
 tags:
   - plateau/P-GC
   - voice/jason
@@ -15,7 +14,9 @@ tags:
   - concept/biopower
   - zone/high-ridges
   - direction/n
-
+  - image/the-machine
+  - emotion/clear-eyed
+  - image/the-highway
 beauty_check:
   passed: true
   notes: |
@@ -25,7 +26,6 @@ beauty_check:
     a natural system (it generates the conditions of its own necessity).
     2026-05-23: Beauty pass — confirmed. "It does not force this. It
     administers it." holds the chapter's distinction.
-
 notes: |-
   Car dealership as the keystone metaphor for biopower. Remakes the
   total environment in its own image to justify its own existence. The
