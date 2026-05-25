@@ -57,7 +57,7 @@ binding image lands so we can feel the spacing.
 Decisions, edits made, and seams checked, in reading order.
 
 ### P-PR — Prologue: Look Up
-**Current position: G-PR-002 (presented, Jason not yet reacted).**
+**Current position: G-PR-006 (next to read).**
 
 - **G-PR-001 — DONE.** Applied voice contract + cut the redundant third
   sentence ("every angle / no angle"). Now: "Rent went up again this year.
@@ -66,16 +66,21 @@ Decisions, edits made, and seams checked, in reading order.
   They said there's nothing they can do: costs are up everywhere, they have to
   stay competitive. You know this isn't quite true. You also know there's
   nothing you can do about it."
-- **G-PR-002 — PROPOSED, NOT YET APPLIED** (awaiting Jason). Apply voice
-  contract (condition pronoun-silent, "We paid," You on the phone tree, They
-  the script-reader) + kill the triple "answer" / "and…and…and" run-on.
-  Proposed text:
-  > Or maybe it's the hospital bill. Something routine, something that should
-  > have been simple — and it arrived three months later, more than we paid for
-  > the car. You call the billing department. You wait on hold. You talk to
-  > someone who reads from a script. You ask why the price is what it is. They
-  > explain it's the contracted rate with your insurer — which isn't an answer,
-  > and you both know it, but it's the only one on offer.
+- **G-PR-003 — DONE.** Highway line rewritten: "justified bulldozing people's
+  homes by pointing out they weren't entitled to them" — names the logic of
+  dispossession rather than just the outcome. Labeling paragraph cut ("One is
+  a housing problem...") — scaffolding, reader doesn't need the categories named
+  back to them. App close revised: "except access to people who you can now,
+  conveniently, only reach through the app" — the "conveniently" is the knife.
+  Close holds: "They are connected. This book is about how."
+- **G-PR-002 — DONE.** Voice contract applied (condition silent-We, You on
+  the phone tree, They the script-reader). Run-on broken into clean sentences.
+  Jason added the exhaustion close: "It's the only answer available, and you're
+  both too exhausted to do more." — implicates the script-reader, not just the
+  caller; names burnout without explaining it; different register from G-PR-001's
+  powerlessness close ("nothing you can do about it"). Deliberate decision NOT
+  to develop loss-of-agency here; the better fix is a callback later when that
+  concept is earned. If it comes up: flag it for a forward-pull then, not now.
 
 ---
 
