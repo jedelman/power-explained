@@ -18,6 +18,7 @@ gestures:
   - G-RE-007
   - G-RE-009
   - G-RE-010
+  - G-RE-010b
   - G-RE-011
   - G-RE-012
   - G-RE-014
@@ -53,22 +54,23 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - section
   - paragraph
   - paragraph
   - paragraph
+  - paragraph
+  - paragraph
   - section
   - paragraph
   - paragraph
   - paragraph
   - section
   - paragraph
+  - paragraph
+  - paragraph
+  - section
   - paragraph
   - paragraph
   - paragraph

@@ -6,6 +6,7 @@ slug: you-do-this-when-you-re-learning
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - image/songbirds
   - practice/practicing

@@ -6,6 +6,7 @@ slug: the-practice-continues-in-their
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - concept/practice
   - concept/attention

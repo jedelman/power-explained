@@ -6,6 +6,7 @@ slug: as-we-tried-to-understand-them
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - practice/witnessing
   - emotion/wonder

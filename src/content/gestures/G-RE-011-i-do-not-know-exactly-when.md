@@ -6,6 +6,7 @@ slug: i-do-not-know-exactly-when
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - practice/attending
   - image/songbirds

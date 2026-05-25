@@ -6,6 +6,7 @@ slug: the-witch-knew-this-the-zanjero
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - concept/enclosure
   - motif/knowing-in-the-body
@@ -23,4 +24,4 @@ The witch knew the plant's name — not the Latin, the plant's own name, the one
 
 The zanjero walked the acequia before anyone else was awake. He knew every foot of the ditch by sound — where the water quickened meant a blockage upstream; where it went quiet, someone had opened their gate early. He was not managing infrastructure. He was maintaining a conversation between that water and that land, a conversation four hundred years old, and his job was to keep it going.
 
-Tyson Yunkaporta, in *Sand Talk*, puts it directly: *"The crocodile is not an abstract factor in an algorithm, but a sentient being who observed you the first time and will be waiting for you the second time."* That is the shift — from the living world as backdrop, passive and processable, to the living world as a party to a relationship. It already has a read on you. The only question is what you know about it.
+Typson Yunkaporta, in *Sand Talk*, puts it directly: *"The crocodile is not an abstract factor in an algorithm, but a sentient being who observed you the first time and will be waiting for you the second time."* That is the shift — from the living world as backdrop, passive and processable, to the living world as a party to a relationship. It already has a read on you. The only question is what you know about it.

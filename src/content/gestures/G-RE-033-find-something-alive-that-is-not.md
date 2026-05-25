@@ -6,6 +6,7 @@ slug: find-something-alive-that-is-not
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - concept/attention
   - image/songbirds

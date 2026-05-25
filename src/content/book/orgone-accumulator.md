@@ -209,6 +209,12 @@ beauty_check:
     holding finally stopped, and underneath was partly the most alive
     I'd been." 5,249 words; the spine chapter of the Body movement.
 
+    SYNTHESIS/ORIENTATION/NATURALIST PASS 2026-05-25: Three new gestures
+    added. G-OA-007c (orientation, chest) bridges woods and discipline.
+    G-OA-010b (synthesis, belly/diaphragm/breath) gathers all six registers
+    and ends on "Now you have an address." G-OA-010c (naturalist, three
+    imperatives) places reader in relation before the practice is named.
+
   direction_check: |
     Seats NW (the floor / the descent) and gestures SE (return, first
     warming) at the woods section and the closing practice. Opens NE
@@ -288,6 +294,7 @@ sources:
     - 2026-05-03-back-pass-session-2   # epilogue, heron thread, fabrication-integrity catch
     - 2026-05-10-wizard-book-architecture-map  # OA placement, capacity HOLD, Plotkin
     - 2026-05-20-wizard-orgone-accumulator-drafted   # this chapter; Jason editorial pass (Reich/Foucault/the floor/practice)
+    - 2026-05-25-synthesis-naturalist-gesture-pass   # synthesis/orientation/naturalist pass; G-OA-007c, 010b, 010c added
 
 gestures:
   - G-OA-001     # praise: the body that still knows; hands off to the body
@@ -304,11 +311,14 @@ gestures:
   - G-OA-006     # why I got up: the 40s plan, Saturn return, people holding a space
   - G-OA-007     # floor=solitude / woods=being held; the inversion of Reich
   - G-OA-007b    # what is your medicine (OA-02): armor resonates; the community that shakes it off
+  - G-OA-007c    # NEW: orientation — the chest has been held; opens the discipline section
   - G-OA-008     # discipline is not compliance; Foucault on coordination/subjection
   - G-OA-008b    # the tradition that protected me (OA-03): Kyokushin, the wound, the father
   - G-OA-008c    # kokoro — discipline of spirit, not Foucault's body; recognition across practices
   - G-OA-009     # where the shrug lives (the South, the layer under the tradition)
   - G-OA-010     # Plotkin: the descent was the curriculum
+  - G-OA-010b    # NEW: synthesis — the shape of it; belly/diaphragm/breath; now you have an address
+  - G-OA-010c    # NEW: naturalist — the breath in the room; feel/hear/let; reader already in the practice
   - G-OA-011     # the mastery of attention (OA-05): broken bell, Shiva gaze, Lion's Roar — the receptive twin of Reich
   - G-OA-011b    # the important thing is to practice (the coda; the music close; SE landing)
 
@@ -326,12 +336,15 @@ separators:
   - section     # 005c -> 006
   - paragraph   # 006  -> 007
   - paragraph   # 007  -> 007b
-  - section     # 007b -> 008
+  - paragraph   # 007b -> 007c   # orientation closes being-held section
+  - section     # 007c -> 008    # section break into discipline
   - paragraph   # 008  -> 008b
   - paragraph   # 008b -> 008c
   - section     # 008c -> 009
   - section     # 009  -> 010
-  - paragraph   # 010  -> 011
+  - paragraph   # 010  -> 010b   # synthesis after descent
+  - section     # 010b -> 010c   # synthesis lands; naturalist breathes
+  - paragraph   # 010c -> 011    # naturalist flows into practice
   - section     # 011  -> 011b
 
 notes: |
