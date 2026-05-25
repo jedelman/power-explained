@@ -240,6 +240,7 @@ sources:
   inbox:
     - none-on-record  # The Angel Faces Backward chapter was drafted from Jason's existing record (the Scar, the restaurant, Hampton Boulevard) plus Benjamin/Klee/Alexander as cited sources. No new dyad questions were issued for this chapter; the outline flagged it as "no material on record — needs interview" but the drafted prose pulled from the existing spine without requiring new material.
 gestures:
+  - G-AB-000
   - G-AB-001
   - G-AB-002
   - G-AB-003
@@ -310,6 +311,7 @@ gestures:
   - G-AB-068
   - G-AB-069
 separators:
+  - section
   - paragraph
   - paragraph
   - section
