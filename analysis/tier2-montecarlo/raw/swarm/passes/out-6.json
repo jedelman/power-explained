@@ -1,0 +1,186 @@
+{"shard":6,"gestures":[
+{"id":"G-05-010","tags":[
+  {"tag":"image/the-machine","evidence":"what the machine needs to stay alive"},
+  {"tag":"affect/clear-eyed","evidence":"It is the mechanism that keeps it running"},
+  {"tag":"affect/indictment","evidence":"not an accident...correctable moral failure"}
+]},
+{"id":"G-05-011","tags":[
+  {"tag":"image/the-machine","evidence":"the machine finds new outsides"},
+  {"tag":"image/the-screen","evidence":"digital enclosure of attention and behavior"},
+  {"tag":"affect/clear-eyed","evidence":"The need for a frontier never disappears"}
+]},
+{"id":"G-05-012","tags":[
+  {"tag":"affect/conviction","evidence":"knows she'll be proven right"},
+  {"tag":"affect/defiance","evidence":"She argued with them at length"}
+]},
+{"id":"G-05-013","tags":[
+  {"tag":"image/the-firing-squad","evidence":"shot in the head by government-backed paramilitaries"},
+  {"tag":"affect/grief","evidence":"Her body was thrown into the Landwehr Canal"}
+]},
+{"id":"G-05-014","tags":[
+  {"tag":"motif/trickle-vs-flood","evidence":"the wealth was flowing the wrong direction"},
+  {"tag":"affect/vindication","evidence":"Her argument resurfaced in the second half"},
+  {"tag":"affect/clear-eyed","evidence":"Integration doesn't close the gap. It is the gap"}
+]},
+{"id":"G-05-015","tags":[]},
+{"id":"G-05-016","tags":[
+  {"tag":"practice/attending","evidence":"Machines that took fingers if you stopped paying attention"},
+  {"tag":"affect/indictment","evidence":"None of this was work...It was nature"},
+  {"tag":"affect/grief","evidence":"never cleanly resolved, never fully at peace"},
+  {"tag":"motif/cannot-verify-from-inside","evidence":"below the threshold of recognition"}
+]},
+{"id":"G-05-021","tags":[
+  {"tag":"affect/indictment","evidence":"It is not in the GDP. It is not in any price"},
+  {"tag":"affect/clear-eyed","evidence":"the water the economy swims in, unacknowledged"}
+]},
+{"id":"G-05-022","tags":[
+  {"tag":"image/the-communal-kitchen","evidence":"no communal kitchen, no shared childcare"},
+  {"tag":"affect/clear-eyed","evidence":"The isolation is the mechanism"},
+  {"tag":"affect/indictment","evidence":"the privatization of care...is useful"}
+]},
+{"id":"G-05-023","tags":[
+  {"tag":"image/the-typhoon","evidence":"When the pandemic arrived in 2020"},
+  {"tag":"affect/clear-eyed","evidence":"impossible to ignore what the system had been depending on"}
+]},
+{"id":"G-05-024","tags":[
+  {"tag":"image/the-communal-kitchen","evidence":"socialize the care. Communal kitchens"},
+  {"tag":"affect/conviction","evidence":"It can be unmaintained"}
+]},
+{"id":"G-05-025","tags":[
+  {"tag":"affect/grief","evidence":"She died in Moscow in 1952"},
+  {"tag":"affect/indictment","evidence":"Stalin solved the problem by sending her to Oslo"}
+]},
+{"id":"G-05-026","tags":[
+  {"tag":"motif/return-migration","evidence":"The communities building her answer now"},
+  {"tag":"affect/disciplined-hope","evidence":"they are answering the same question"}
+]},
+{"id":"G-05-027","tags":[
+  {"tag":"image/the-machine","evidence":"the machine requires a zone where value"},
+  {"tag":"affect/clear-eyed","evidence":"The outside is where the accounting goes to avoid itself"}
+]},
+{"id":"G-05-028","tags":[
+  {"tag":"practice/naming","evidence":"Both women named the thing"},
+  {"tag":"affect/vindication","evidence":"Both were right"}
+]},
+{"id":"G-05-029","tags":[
+  {"tag":"affect/clear-eyed","evidence":"It is maintained — actively, structurally"}
+]},
+{"id":"G-05-030","tags":[
+  {"tag":"affect/indictment","evidence":"someone is doing the maintaining"}
+]},
+{"id":"G-05-031","tags":[
+  {"tag":"image/the-plantation","evidence":"whose land can be enclosed and under what legal cover"},
+  {"tag":"affect/indictment","evidence":"Not a conspiracy. A structure"},
+  {"tag":"affect/clear-eyed","evidence":"the occupied feel responsible for their own occupation"}
+]},
+{"id":"G-06-001","tags":[
+  {"tag":"practice/positioning","evidence":"tell you where I'm standing before"}
+]},
+{"id":"G-06-002","tags":[
+  {"tag":"image/the-7-eleven","evidence":"The line between them runs behind a 7-Eleven"},
+  {"tag":"image/the-restaurant","evidence":"I did this to open a restaurant"},
+  {"tag":"practice/positioning","evidence":"It's a statement of position"},
+  {"tag":"affect/clear-eyed","evidence":"I am a beneficiary of exactly the system"}
+]},
+{"id":"G-06-004","tags":[
+  {"tag":"practice/attending","evidence":"watched and asked a question most...weren't asking"},
+  {"tag":"affect/clear-eyed","evidence":"why does the pattern keep recurring?"}
+]},
+{"id":"G-06-006","tags":[]},
+{"id":"G-06-007","tags":[
+  {"tag":"affect/clear-eyed","evidence":"Race was the cover story. The economic system was the engine"}
+]},
+{"id":"G-06-008","tags":[
+  {"tag":"affect/indictment","evidence":"invents a cleanliness that never existed"}
+]},
+{"id":"G-06-009","tags":[
+  {"tag":"affect/clear-eyed","evidence":"the condition out of which capitalism developed"}
+]},
+{"id":"G-06-010","tags":[
+  {"tag":"affect/indictment","evidence":"capitalism as a racial project from its origins"},
+  {"tag":"affect/clear-eyed","evidence":"made exploitation legible as something other than exploitation"}
+]},
+{"id":"G-06-012","tags":[
+  {"tag":"image/the-plantation","evidence":"On the plantation, a human being is classified as property"},
+  {"tag":"affect/indictment","evidence":"total externalization of reproduction costs"},
+  {"tag":"affect/clear-eyed","evidence":"capitalism at its logical extreme"}
+]},
+{"id":"G-06-013","tags":[
+  {"tag":"image/the-plantation","evidence":"Race did not justify the plantation. Race produced it"},
+  {"tag":"affect/indictment","evidence":"Race produced it"}
+]},
+{"id":"G-06-014","tags":[
+  {"tag":"image/the-armor","evidence":"a status that protected them socially"},
+  {"tag":"affect/indictment","evidence":"the wages of whiteness"},
+  {"tag":"affect/clear-eyed","evidence":"an argument about structural incentives"}
+]},
+{"id":"G-06-017","tags":[
+  {"tag":"practice/attending","evidence":"I watched this in a room"}
+]},
+{"id":"G-06-018","tags":[
+  {"tag":"image/the-7-eleven","evidence":"the 7-Eleven that outperformed every small business"},
+  {"tag":"image/the-mask","evidence":"what I saw on their faces...was fear"},
+  {"tag":"motif/demolished-from-outside","evidence":"extracted from the place without being of it"},
+  {"tag":"affect/unease","evidence":"on their faces when they talked...was fear"},
+  {"tag":"practice/attending","evidence":"look at property ownership, residency, voter registration"}
+]},
+{"id":"G-06-021","tags":[
+  {"tag":"image/the-armor","evidence":"a social wage paid in the currency of ease"},
+  {"tag":"affect/clear-eyed","evidence":"only the ambient knowledge of which spaces are yours"}
+]},
+{"id":"G-06-022","tags":[
+  {"tag":"motif/cannot-verify-from-inside","evidence":"people inside the system are organized not to see"},
+  {"tag":"affect/clear-eyed","evidence":"a clarity about the system's actual logic"}
+]},
+{"id":"G-06-023","tags":[
+  {"tag":"motif/the-lineage","evidence":"The tradition was ongoing, cumulative"},
+  {"tag":"practice/naming","evidence":"named the triple oppression of race, gender, and class"},
+  {"tag":"affect/reverence","evidence":"building theory from a position the system did not intend"}
+]},
+{"id":"G-06-024","tags":[
+  {"tag":"motif/self-governance-in-public","evidence":"governed by a king who ruled in council with elected representatives"},
+  {"tag":"motif/defense-of-land","evidence":"communal agriculture and collective defense"},
+  {"tag":"affect/reverence","evidence":"A commons built under conditions...designed to prevent it"},
+  {"tag":"practice/self-governing","evidence":"what collective self-governance required"}
+]},
+{"id":"G-06-026","tags":[]},
+{"id":"G-06-027","tags":[
+  {"tag":"affect/indictment","evidence":"Africa was developed — into poverty"},
+  {"tag":"affect/clear-eyed","evidence":"mechanisms that can be identified and traced"}
+]},
+{"id":"G-06-029","tags":[
+  {"tag":"motif/cannot-verify-from-inside","evidence":"refused to believe Africans had built it"},
+  {"tag":"affect/indictment","evidence":"To enclose something, you first have to make it appear empty"},
+  {"tag":"affect/reverence","evidence":"precision that took generations of accumulated craft knowledge"}
+]},
+{"id":"G-06-031","tags":[
+  {"tag":"motif/demolished-from-outside","evidence":"reorganized the continent around European demand"},
+  {"tag":"affect/grief","evidence":"The world those people came from...went with them"},
+  {"tag":"affect/indictment","evidence":"logistics networks for someone else's economy"}
+]},
+{"id":"G-06-033","tags":[
+  {"tag":"affect/clear-eyed","evidence":"continued the same orientation by financial means"}
+]},
+{"id":"G-06-034","tags":[
+  {"tag":"motif/trickle-vs-flood","evidence":"at prices set in London"},
+  {"tag":"affect/indictment","evidence":"The leverage was gone. The extraction continued"}
+]},
+{"id":"G-06-035","tags":[
+  {"tag":"affect/clear-eyed","evidence":"who benefits...and what maintains it?"},
+  {"tag":"affect/indictment","evidence":"as though poverty were a natural condition"}
+]},
+{"id":"G-06-036","tags":[
+  {"tag":"image/the-firing-squad","evidence":"A bomb placed in a walkie-talkie"},
+  {"tag":"affect/grief","evidence":"He was thirty-eight years old"},
+  {"tag":"affect/indictment","evidence":"arranged his death"}
+]},
+{"id":"G-06-037","tags":[
+  {"tag":"practice/naming","evidence":"Specific claims...require a response"},
+  {"tag":"affect/clear-eyed","evidence":"Vague claims...are easy to absorb and dismiss"}
+]},
+{"id":"G-06-038","tags":[]},
+{"id":"G-06-039","tags":[
+  {"tag":"image/the-shrug","evidence":"White men in positions of institutional authority shrugged"},
+  {"tag":"affect/indictment","evidence":"said it sympathetically, and did nothing"}
+]}
+]}

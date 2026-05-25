@@ -1,0 +1,191 @@
+{"shard":2,"gestures":[
+  {"id":"G-01-018","tags":[
+    {"tag":"image/the-highway","evidence":"I cross Brambleton to get there"},
+    {"tag":"affect/grief","evidence":"The rage and the beauty"},
+    {"tag":"motif/defense-of-land","evidence":"what is still fighting to be there"}
+  ]},
+  {"id":"G-01-019","tags":[
+    {"tag":"image/the-village-assembly","evidence":"running a neighborhood league meeting"}
+  ]},
+  {"id":"G-01-020","tags":[
+    {"tag":"affect/indictment","evidence":"firearms aimed at targets described as \"woke\""},
+    {"tag":"affect/clear-eyed","evidence":"a symbolic action, but a legitimate one"}
+  ]},
+  {"id":"G-01-021","tags":[
+    {"tag":"affect/defiance","evidence":"wanted to sign on in solidarity"},
+    {"tag":"motif/self-governance-in-public","evidence":"The board did not want to bring it to a vote"}
+  ]},
+  {"id":"G-01-022","tags":[
+    {"tag":"practice/self-governing","evidence":"the members raised it anyway"},
+    {"tag":"affect/defiance","evidence":"They forced a vote. It passed"},
+    {"tag":"motif/self-governance-in-public","evidence":"forced a vote. It passed"}
+  ]},
+  {"id":"G-01-023","tags":[
+    {"tag":"affect/grief","evidence":"my heart leaping at the members"},
+    {"tag":"image/the-shrug","evidence":"watched the membership vote and then did nothing"}
+  ]},
+  {"id":"G-01-024","tags":[
+    {"tag":"affect/clear-eyed","evidence":"The board was within their rights"},
+    {"tag":"image/the-shrug","evidence":"declined to act on it"}
+  ]},
+  {"id":"G-01-025","tags":[
+    {"tag":"affect/indictment","evidence":"Fear made decisive by structure"},
+    {"tag":"affect/clear-eyed","evidence":"Not corruption. Not malice"}
+  ]},
+  {"id":"G-01-026","tags":[
+    {"tag":"affect/defiance","evidence":"I resigned from the board"},
+    {"tag":"practice/refusing","evidence":"I resigned from the board"}
+  ]},
+  {"id":"G-01-027","tags":[
+    {"tag":"affect/vindication","evidence":"went out of business six months after"}
+  ]},
+  {"id":"G-01-028","tags":[
+    {"tag":"image/the-highway","evidence":"a crossing, a neighborhood under a road"},
+    {"tag":"motif/demolished-from-outside","evidence":"a neighborhood under a road"}
+  ]},
+  {"id":"G-01-029","tags":[
+    {"tag":"affect/clear-eyed","evidence":"the same problem operating at different scales"}
+  ]},
+  {"id":"G-01-030","tags":[
+    {"tag":"image/the-machine","evidence":"a system that extracts something from the community"},
+    {"tag":"affect/clear-eyed","evidence":"information flows in from below and doesn't change the outcome"},
+    {"tag":"affect/indictment","evidence":"a template so naturalized it functions without anyone"}
+  ]},
+  {"id":"G-01-032","tags":[
+    {"tag":"image/the-machine","evidence":"A machine that produces the same outcomes"},
+    {"tag":"affect/indictment","evidence":"Not a single act of theft"},
+    {"tag":"affect/clear-eyed","evidence":"the machine itself is the argument"}
+  ]},
+  {"id":"G-01-033","tags":[
+    {"tag":"image/the-machine","evidence":"what is the machine, how does it work"},
+    {"tag":"practice/building","evidence":"to build something different"}
+  ]},
+  {"id":"G-01-034","tags":[
+    {"tag":"affect/disciplined-hope","evidence":"things that are built can be built differently"},
+    {"tag":"image/the-machine","evidence":"the machine is not natural. It was built"}
+  ]},
+  {"id":"G-01-035","tags":[
+    {"tag":"image/the-restaurant","evidence":"coming home from the restaurant I owned"},
+    {"tag":"affect/wonder","evidence":"There's a magic to the midnight city"},
+    {"tag":"practice/attending","evidence":"the things built to extract from us have cracks"},
+    {"tag":"image/the-highway","evidence":"the truck traffic on Hampton Boulevard subsides"}
+  ]},
+  {"id":"G-01-036","tags":[
+    {"tag":"practice/attending","evidence":"moving slowly enough to see them"},
+    {"tag":"practice/becoming-still","evidence":"moving slowly enough to see them"}
+  ]},
+  {"id":"G-01-037","tags":[
+    {"tag":"image/night-herons","evidence":"The night herons nest in the willow oaks"},
+    {"tag":"motif/return-migration","evidence":"coming back every spring for as long"},
+    {"tag":"affect/reverence","evidence":"They will come back next spring"},
+    {"tag":"motif/defense-of-land","evidence":"refused to let it sever the relationship"},
+    {"tag":"image/the-highway","evidence":"the other side of the Brambleton crossing"}
+  ]},
+  {"id":"G-02-001","tags":[
+    {"tag":"image/the-village-assembly","evidence":"You had three minutes at the mic"}
+  ]},
+  {"id":"G-02-002","tags":[
+    {"tag":"practice/naming","evidence":"You said something true"}
+  ]},
+  {"id":"G-02-003","tags":[]},
+  {"id":"G-02-004","tags":[
+    {"tag":"image/the-shrug","evidence":"The decision went ahead as planned"}
+  ]},
+  {"id":"G-02-005","tags":[
+    {"tag":"affect/indictment","evidence":"a process that was never going to change the outcome"},
+    {"tag":"image/the-armor","evidence":"Everything was legitimate"}
+  ]},
+  {"id":"G-02-006","tags":[
+    {"tag":"image/the-armor","evidence":"It has armor. The armor is made from your participation"},
+    {"tag":"affect/clear-eyed","evidence":"a thing institutions need to keep running"}
+  ]},
+  {"id":"G-02-007","tags":[
+    {"tag":"image/the-armor","evidence":"You produced the armor. You handed it to them"},
+    {"tag":"affect/indictment","evidence":"your participation was the raw material it needed"},
+    {"tag":"affect/clear-eyed","evidence":"a description of a structural relationship"}
+  ]},
+  {"id":"G-02-009","tags":[
+    {"tag":"practice/naming","evidence":"The word for this is capture"},
+    {"tag":"affect/clear-eyed","evidence":"It absorbed it. There's a difference"}
+  ]},
+  {"id":"G-02-010","tags":[
+    {"tag":"motif/demolished-from-outside","evidence":"a small neighborhood that no longer exists"}
+  ]},
+  {"id":"G-02-012","tags":[
+    {"tag":"affect/indictment","evidence":"began describing it as a slum"}
+  ]},
+  {"id":"G-02-013","tags":[
+    {"tag":"affect/indictment","evidence":"The slum was manufactured, then used to justify"},
+    {"tag":"affect/clear-eyed","evidence":"what this was: a technique"}
+  ]},
+  {"id":"G-02-014","tags":[
+    {"tag":"motif/demolished-from-outside","evidence":"The community was not relocated. It was erased"},
+    {"tag":"affect/indictment","evidence":"James Baldwin called it what it was: Negro removal"},
+    {"tag":"image/the-plantation","evidence":"every racially integrated neighborhood in Norfolk was targeted"}
+  ]},
+  {"id":"G-02-017","tags":[
+    {"tag":"affect/indictment","evidence":"This is enclosure in its full form"},
+    {"tag":"affect/grief","evidence":"The residents who were removed are not named"},
+    {"tag":"motif/demolished-from-outside","evidence":"the community whose displacement made it possible"}
+  ]},
+  {"id":"G-02-019","tags":[
+    {"tag":"image/the-interface","evidence":"The board is the interface"},
+    {"tag":"image/the-machine","evidence":"a mechanism for converting community energy"},
+    {"tag":"affect/clear-eyed","evidence":"processed into a form the institution can use"}
+  ]},
+  {"id":"G-02-020","tags":[
+    {"tag":"motif/trickle-vs-flood","evidence":"much less than what went in"}
+  ]},
+  {"id":"G-02-021","tags":[
+    {"tag":"affect/indictment","evidence":"designed to absorb participation rather than transmit it"},
+    {"tag":"image/the-screen","evidence":"The petition that gets added to your email list"}
+  ]},
+  {"id":"G-02-022","tags":[
+    {"tag":"image/the-tenant-association","evidence":"The tenant association that negotiates directly"},
+    {"tag":"image/the-land-trust","evidence":"The community land trust that removes housing"},
+    {"tag":"practice/building","evidence":"leverage accumulating into capacity"},
+    {"tag":"affect/disciplined-hope","evidence":"kept meeting, so that the next problem"}
+  ]},
+  {"id":"G-02-023","tags":[
+    {"tag":"affect/clear-eyed","evidence":"is structural, not attitudinal"},
+    {"tag":"affect/indictment","evidence":"designed to absorb their energy, not transmit it"}
+  ]},
+  {"id":"G-02-024","tags":[
+    {"tag":"practice/building","evidence":"produce relationships, capacity, knowledge that persist"},
+    {"tag":"image/the-thread","evidence":"something the next person who shows up can inherit"}
+  ]},
+  {"id":"G-02-025","tags":[
+    {"tag":"motif/demolished-from-outside","evidence":"neighborhood was demolished in 1957"},
+    {"tag":"affect/indictment","evidence":"promising that this time, things would be different"}
+  ]},
+  {"id":"G-02-026","tags":[
+    {"tag":"practice/refusing","evidence":"she can refuse to provide the legitimacy"},
+    {"tag":"practice/naming","evidence":"the naming, the seeing clearly"},
+    {"tag":"affect/defiance","evidence":"refuse to provide the legitimacy it needs"},
+    {"tag":"practice/attending","evidence":"the naming, the seeing clearly"},
+    {"tag":"affect/disciplined-hope","evidence":"It is where the work begins"}
+  ]},
+  {"id":"G-IB-001","tags":[
+    {"tag":"image/the-superblock","evidence":"early evening in El Born"}
+  ]},
+  {"id":"G-IB-002","tags":[
+    {"tag":"affect/wonder","evidence":"No permit required, probably"}
+  ]},
+  {"id":"G-IB-003","tags":[]},
+  {"id":"G-IB-004","tags":[
+    {"tag":"motif/flowering","evidence":"nobody had organized this except in the loosest"},
+    {"tag":"affect/wonder","evidence":"the boundary dissolving quickly"},
+    {"tag":"motif/dissolving-boundary","evidence":"the boundary dissolving quickly"},
+    {"tag":"image/the-superblock","evidence":"the city had made the rest possible"}
+  ]},
+  {"id":"G-IB-005","tags":[
+    {"tag":"image/the-superblock","evidence":"The city calls them superblocks"},
+    {"tag":"motif/return-migration","evidence":"Taking back space that was given to cars"},
+    {"tag":"affect/disciplined-hope","evidence":"depaving its intersections for years"}
+  ]},
+  {"id":"G-IB-006","tags":[
+    {"tag":"image/the-superblock","evidence":"the space had been returned"},
+    {"tag":"motif/flowering","evidence":"made something together that none of them could"},
+    {"tag":"affect/wonder","evidence":"exactly what you would expect people to do"}
+  ]}
+]}

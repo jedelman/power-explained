@@ -1,0 +1,325 @@
+{
+  "shard": 16,
+  "gestures": [
+    {
+      "id": "G-16-052",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "a system of incantations — words on paper"},
+        {"tag": "affect/clear-eyed", "evidence": "restructured reality by making ownership real"}
+      ]
+    },
+    {
+      "id": "G-16-053",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "cast the same incantation backward"},
+        {"tag": "affect/defiance", "evidence": "used the grammar of ownership to prevent enclosure"},
+        {"tag": "motif/dissolving-boundary", "evidence": "could not enclose it"}
+      ]
+    },
+    {
+      "id": "G-16-054",
+      "tags": [
+        {"tag": "practice/refusing", "evidence": "hijacking of the system's own forms"},
+        {"tag": "affect/defiance", "evidence": "The master's grammar, turned"}
+      ]
+    },
+    {
+      "id": "G-16-055",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "Vague but exciting"}
+      ]
+    },
+    {
+      "id": "G-16-056",
+      "tags": [
+        {"tag": "the-thread", "evidence": "arriving independently at the same understanding"},
+        {"tag": "practice/building", "evidence": "started contributing"},
+        {"tag": "affect/conviction", "evidence": "Enclose it and you destroy it"},
+        {"tag": "motif/proof-before-theory", "evidence": "He thought he was making a toy"}
+      ]
+    },
+    {
+      "id": "G-16-060",
+      "tags": [
+        {"tag": "motif/trickle-vs-flood", "evidence": "None of them became billionaires"},
+        {"tag": "affect/indictment", "evidence": "people who built platforms on top of their gift did"}
+      ]
+    },
+    {
+      "id": "G-16-061",
+      "tags": [
+        {"tag": "practice/continuing", "evidence": "actively, in perpetuity, by ongoing collective choice"},
+        {"tag": "practice/holding", "evidence": "The field must be held"},
+        {"tag": "practice/self-governing", "evidence": "They governed, actively, in perpetuity"},
+        {"tag": "affect/conviction", "evidence": "This book exists because that is true"}
+      ]
+    },
+    {
+      "id": "G-16-063",
+      "tags": [
+        {"tag": "image/the-interface", "evidence": "It only needs to own the interface"},
+        {"tag": "affect/clear-eyed", "evidence": "does not need to own the protocol"}
+      ]
+    },
+    {
+      "id": "G-16-064",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "the open alternatives became invisible"}
+      ]
+    },
+    {
+      "id": "G-16-065",
+      "tags": [
+        {"tag": "image/the-screen", "evidence": "consuming a simulation of connection"},
+        {"tag": "affect/indictment", "evidence": "optimized not for the quality of connection but for the duration of attention"}
+      ]
+    },
+    {
+      "id": "G-16-066",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "commons was used to build the enclosure of the commons"}
+      ]
+    },
+    {
+      "id": "G-16-067",
+      "tags": [
+        {"tag": "affect/grief", "evidence": "His grief is the measure"},
+        {"tag": "affect/disciplined-hope", "evidence": "the fight is never over"},
+        {"tag": "practice/continuing", "evidence": "the web still exists. The protocols are still open"}
+      ]
+    },
+    {
+      "id": "G-16-068",
+      "tags": []
+    },
+    {
+      "id": "G-16-069",
+      "tags": [
+        {"tag": "image/the-screen", "evidence": "flatness after you close the app"},
+        {"tag": "affect/unease", "evidence": "The hum of dissatisfaction underneath the scroll"},
+        {"tag": "affect/indictment", "evidence": "the system of conditional love working exactly as designed"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "the promise that is never redeemed"}
+      ]
+    },
+    {
+      "id": "G-16-073",
+      "tags": []
+    },
+    {
+      "id": "G-16b-001",
+      "tags": [
+        {"tag": "image/the-machine", "evidence": "managed by machines, designed to harvest human energy"},
+        {"tag": "affect/unease", "evidence": "keeping people pacified inside a representation of reality"}
+      ]
+    },
+    {
+      "id": "G-16b-002",
+      "tags": [
+        {"tag": "image/the-grimoire", "evidence": "opens a hollowed-out philosophy book"}
+      ]
+    },
+    {
+      "id": "G-16b-003",
+      "tags": [
+        {"tag": "image/the-mirror", "evidence": "handed a representation of your own personhood"},
+        {"tag": "motif/body-without-organs", "evidence": "They are trans women"},
+        {"tag": "affect/indictment", "evidence": "told it is more real than your actual experience"}
+      ]
+    },
+    {
+      "id": "G-16b-004",
+      "tags": [
+        {"tag": "motif/falling-through-the-gap", "evidence": "the people who were never fully inside"},
+        {"tag": "affect/conviction", "evidence": "The people who point the way out"}
+      ]
+    },
+    {
+      "id": "G-16b-005",
+      "tags": [
+        {"tag": "image/the-mirror", "evidence": "handed a representation of themselves"},
+        {"tag": "motif/the-lineage", "evidence": "Robinson. Wynter. Rodney. Turing"},
+        {"tag": "affect/clear-eyed", "evidence": "could see the simulation as a simulation"}
+      ]
+    },
+    {
+      "id": "G-16b-006",
+      "tags": [
+        {"tag": "image/the-screen", "evidence": "takes out a phone to photograph the food"},
+        {"tag": "affect/unease", "evidence": "the table becomes a set"},
+        {"tag": "practice/attending", "evidence": "the conversation is alive"}
+      ]
+    },
+    {
+      "id": "G-16b-008",
+      "tags": [
+        {"tag": "image/the-screen", "evidence": "composing the caption before you have fully arrived"},
+        {"tag": "affect/unease", "evidence": "documenting something you have not yet felt"},
+        {"tag": "practice/attending", "evidence": "before you have fully arrived"}
+      ]
+    },
+    {
+      "id": "G-16b-010",
+      "tags": [
+        {"tag": "image/the-screen", "evidence": "watch a travel influencer online"},
+        {"tag": "affect/indictment", "evidence": "the content requires the fiction of authentic discovery"}
+      ]
+    },
+    {
+      "id": "G-16b-012",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "We are all doing this, to varying degrees"}
+      ]
+    },
+    {
+      "id": "G-16b-013",
+      "tags": [
+        {"tag": "image/the-mirror", "evidence": "the image reflects something real"},
+        {"tag": "affect/clear-eyed", "evidence": "Baudrillard described four stages"}
+      ]
+    },
+    {
+      "id": "G-16b-014",
+      "tags": []
+    },
+    {
+      "id": "G-16b-015",
+      "tags": [
+        {"tag": "motif/knowing-in-the-body", "evidence": "The body is the way back"},
+        {"tag": "practice/de-armoring", "evidence": "Still warm from the wine"},
+        {"tag": "affect/tenderness", "evidence": "present with a person it has known for years"}
+      ]
+    },
+    {
+      "id": "G-16b-016",
+      "tags": [
+        {"tag": "image/the-machine", "evidence": "the system must organize, manage, and harvest it"},
+        {"tag": "affect/indictment", "evidence": "must organize, manage, and harvest it"}
+      ]
+    },
+    {
+      "id": "G-16b-017",
+      "tags": [
+        {"tag": "image/the-machine", "evidence": "extracted as a resource by a system"},
+        {"tag": "affect/indictment", "evidence": "They are harvested"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "the irreducible specificity of embodied human life"}
+      ]
+    },
+    {
+      "id": "G-16b-018",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "the body's refusal"},
+        {"tag": "practice/refusing", "evidence": "the body's refusal"}
+      ]
+    },
+    {
+      "id": "G-16b-019",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "The body deterritorializes — it slips the assignment"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "The moment of liberation is not intellectual. It is physical"},
+        {"tag": "practice/refusing", "evidence": "refuses the fixed territory, insists on its own movement"},
+        {"tag": "affect/defiance", "evidence": "the refusal to let the assigned arrangement be the final word"}
+      ]
+    },
+    {
+      "id": "G-16b-021",
+      "tags": [
+        {"tag": "image/old-growth-forest", "evidence": "Return now to the forest"}
+      ]
+    },
+    {
+      "id": "G-16b-022",
+      "tags": [
+        {"tag": "image/mycorrhizal-network", "evidence": "The mycorrhizal network is underground"},
+        {"tag": "affect/reverence", "evidence": "most essential part of the forest's intelligence is invisible"}
+      ]
+    },
+    {
+      "id": "G-16b-023",
+      "tags": [
+        {"tag": "image/mycorrhizal-network", "evidence": "the pre-individual field — the meaning that lives in the body"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "the meaning that lives in the body and the pause"},
+        {"tag": "affect/tenderness", "evidence": "the kitchen where your grandmother's language was alive"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "never made it into the training data"}
+      ]
+    },
+    {
+      "id": "G-16b-024",
+      "tags": [
+        {"tag": "image/the-mirror", "evidence": "already a representation of the commons"},
+        {"tag": "image/mycorrhizal-network", "evidence": "The underground network, absent"}
+      ]
+    },
+    {
+      "id": "G-16b-025",
+      "tags": [
+        {"tag": "image/the-mirror", "evidence": "it was already the image of the commons"},
+        {"tag": "affect/clear-eyed", "evidence": "What came out is a simulation of that image"}
+      ]
+    },
+    {
+      "id": "G-16b-026",
+      "tags": []
+    },
+    {
+      "id": "G-16b-027",
+      "tags": [
+        {"tag": "image/the-machine", "evidence": "the simulation begins to generate the conditions of its own training"},
+        {"tag": "affect/unease", "evidence": "The image starts producing the image"}
+      ]
+    },
+    {
+      "id": "G-16b-028",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "not false, but more legible than the real"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "stay in process, find the gap"}
+      ]
+    },
+    {
+      "id": "G-16b-029",
+      "tags": [
+        {"tag": "image/old-growth-forest", "evidence": "The system is missing most of the forest"},
+        {"tag": "affect/unease", "evidence": "how far the effects of that absence will reach"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "It may not know what it's missing"}
+      ]
+    },
+    {
+      "id": "G-16b-030",
+      "tags": [
+        {"tag": "motif/knowing-in-the-body", "evidence": "knowledge was not separable from the community"},
+        {"tag": "affect/indictment", "evidence": "sell it back to the people who developed it"},
+        {"tag": "scattered-seeds", "evidence": "developed over centuries through generations of careful selection"}
+      ]
+    },
+    {
+      "id": "G-16b-031",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "have no say in what is made from them"}
+      ]
+    },
+    {
+      "id": "G-16b-032",
+      "tags": []
+    },
+    {
+      "id": "G-16b-033",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "a body without organs insisting on its own particular becoming"},
+        {"tag": "motif/falling-through-the-gap", "evidence": "specific rooms they didn't fit in, specific gaps"},
+        {"tag": "affect/reverence", "evidence": "written by a singular person"}
+      ]
+    },
+    {
+      "id": "G-16b-034",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "the overrepresentation of Man"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "the singular excluded by definition"}
+      ]
+    },
+    {
+      "id": "G-16b-035",
+      "tags": [
+        {"tag": "affect/grief", "evidence": "precisely what averaging destroys"}
+      ]
+    }
+  ]
+}

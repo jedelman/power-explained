@@ -7,10 +7,11 @@ measures *figurative content* — the recurring images and the verbs the book
 teaches — so the lyrical and analytical registers can later be bound by a shared
 image-set.
 
-Status: **the controlled vocabulary in `vocab.yml` is a DRAFT.** It is distilled
-from stratified samples, not the full corpus. The full-book swarm (tag all ~911
-gestures against this vocabulary) has **not** run yet. Nothing here has been
-wired into `for-agents/tag-ontology.yml`.
+Status: `vocab.yml` is the controlled vocabulary, distilled from stratified
+samples (the Monte-Carlo runs below). The **full-book application run has now
+happened** — all 911 gestures are tagged in `gesture-tags.json`. Nothing here
+has been wired into `for-agents/tag-ontology.yml` yet, and the 5 `proposed/`
+tags the full run surfaced are not yet promoted into `vocab.yml`.
 
 ## Method
 
@@ -33,6 +34,17 @@ Two runs:
 The practice run used the 15 candidate practices as a seed palette but instructed
 each pass to **coin new ones**, so it is discovery as well as validation.
 
+### Full-book application run
+
+Once the vocabulary was validated, a single classification pass tagged **all 911
+gestures** against it (20 shards, agents reading `vocab.yml` as the source of
+truth). 2,613 tags, 97% of gestures tagged, avg 2.9 tags/gesture. Only 2 tags
+fell outside scope (both Tier-1 `place/`), and the agents surfaced 5 `proposed/`
+candidates for vocabulary growth: `practice/reciprocating` (×2, the
+boomerang-bottle gift economy), `practice/guesting` and `practice/conditioning`
+(both already on the watch-list — confirmed), `image/the-cooperative-bank`
+(Mondragón, distinct from the credit-union), and `image/the-muskrat`.
+
 ## Files
 
 - `vocab.yml` — the distilled controlled vocabulary (DRAFT). 101 canonical tags
@@ -40,28 +52,43 @@ each pass to **coin new ones**, so it is discovery as well as validation.
   tag carries a gloss, a `binding: true` flag if it crosses ≥3 of the book's four
   registers, and the raw variant strings the passes coined (the swarm's match
   aliases).
-- `aggregated-image-motif-affect.json` — clustered results for the first run.
+- `gesture-tags.json` — **the deliverable**: all 911 gestures in reading order,
+  each with its Tier-2 tags and a quoted evidence snippet per tag. Produced by the
+  full-book application run.
+- `binding-map.json` — every image/motif that recurs across ≥2 plateaus, with the
+  plateau list and gesture count: the book's cross-chapter binding structure.
+- `fullbook-tag-map.html` — full-book heatmap (affect / practice / image / motif
+  × plateau). The headline visualization.
+- `aggregated-image-motif-affect.json` — clustered results for the first sample run.
 - `aggregated-practice.json` — clustered results for the practice run, with
   in-palette vs. newly-coined flags and per-tag agreement.
 - `recurrence-heatmap.html` — visual: affect × register, then image and motif
   recurrence across plateaus in reading order.
 - `raw/samples/` — the stratified samples and per-shard input lists.
-- `raw/passes/` — all 33 raw pass files (`shard-N-pass-X.json` for the first run,
-  `pr-shard-N-pass-X.json` for practice). Preserved because re-running costs real
-  agent time.
+- `raw/passes/` — all 33 sample-run pass files (`shard-N-pass-X.json` for the first
+  run, `pr-shard-N-pass-X.json` for practice). Preserved because re-running costs
+  real agent time.
+- `raw/swarm/` — the full-book run: 20 raw shard outputs (`passes/out-N.json`) and
+  the shard inputs + `all-gestures.json` (`samples/`).
 - `scripts/` — the aggregation + heatmap scripts. NOTE: these were run in-session
   against `/tmp/mc/`; the paths inside are hard-coded to that working dir. To
   reproduce, point them at `raw/` or stage the inputs back into `/tmp/mc/`.
 
 ## Headline findings
 
-- **Affect is the book's connective tissue.** Five affects span all four
-  registers (spine / theory / constructive / lyrical): indictment, reverence,
-  disciplined-hope, defiance, grief. The book modulates register constantly but
-  holds one emotional key.
-- **The practice curriculum has a spine: attending → naming → tending.**
-  `attending` is the master practice (77 of 225 sampled gestures, 20 of 29
-  chapters). Notice clearly → call it by its true name → care for it over time.
+- **Affect is the book's connective tissue.** Across the full book `clear-eyed`
+  appears in all 29 chapters and `indictment` in 26; `disciplined-hope` (27
+  chapters) and `grief` (24) span the whole arc. The book modulates register
+  constantly but holds one emotional key. (Note: `clear-eyed` at 232 gestures may
+  be slightly over-applied as the default analytic affect — worth a spot-check.)
+- **The practice curriculum has a spine: attending → naming → building.**
+  `attending` is the master practice (128 of 911 gestures, 24 of 29 chapters),
+  then `naming` (92g), then the constructive verbs `building` (60g) and
+  `self-governing` (51g). Notice clearly → name it truly → build and govern.
+- **The most recurrent single image is `the-restaurant`** (41 gestures, 16
+  chapters) — Jason's restaurant as the book's master metaphor — followed by
+  `the-machine` (38g) and `songbirds` (26g). The top motifs are epistemic:
+  `knowing-in-the-body` (63g, 20 chapters) and `cannot-verify-from-inside` (45g).
 - **Binding images** (recur across ≥3 registers): night-herons, the-redcedar,
   the-highway, the-restaurant, water-tribunal, zuccotti-park, the-thread,
   the-angel.

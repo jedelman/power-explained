@@ -1,0 +1,364 @@
+{
+  "shard": 1,
+  "gestures": [
+    {
+      "id": "G-PR-001",
+      "tags": [
+        { "tag": "affect/unease", "evidence": "the math and it doesn't work anymore" },
+        { "tag": "motif/trickle-vs-flood", "evidence": "Your rent went up again this year" },
+        { "tag": "affect/indictment", "evidence": "You know this isn't quite true" }
+      ]
+    },
+    {
+      "id": "G-PR-002",
+      "tags": [
+        { "tag": "affect/unease", "evidence": "more than your car cost" },
+        { "tag": "affect/indictment", "evidence": "that's not really an answer" }
+      ]
+    },
+    {
+      "id": "G-PR-003",
+      "tags": [
+        { "tag": "image/the-highway", "evidence": "the highway that cut the neighborhood in half" },
+        { "tag": "motif/demolished-from-outside", "evidence": "took the houses of the people who couldn't fight back" },
+        { "tag": "image/the-screen", "evidence": "the app that knows everything about you" },
+        { "tag": "affect/indictment", "evidence": "They are connected. This book is about how." }
+      ]
+    },
+    {
+      "id": "G-PR-006",
+      "tags": [
+        { "tag": "image/night-herons", "evidence": "night herons return to Norfolk, Virginia" },
+        { "tag": "motif/return-migration", "evidence": "Every spring, night herons return" },
+        { "tag": "affect/reverence", "evidence": "noble, and old, and utterly itself" },
+        { "tag": "affect/wonder", "evidence": "the absolute patience of a bird" },
+        { "tag": "practice/attending", "evidence": "look at one closely, at the red eye" }
+      ]
+    },
+    {
+      "id": "G-PR-007",
+      "tags": [
+        { "tag": "image/night-herons", "evidence": "Some people hate the night herons" },
+        { "tag": "practice/attending", "evidence": "The reasonable response to this is: look up" }
+      ]
+    },
+    {
+      "id": "G-PR-008",
+      "tags": [
+        { "tag": "image/night-herons", "evidence": "Jason finds as many of the nests" },
+        { "tag": "practice/greeting", "evidence": "he loves them and wishes them good luck" },
+        { "tag": "affect/tenderness", "evidence": "tells the herons, with his actual words, that he loves them" },
+        { "tag": "motif/the-lineage", "evidence": "as they have done for thousands of years" },
+        { "tag": "practice/blessing", "evidence": "wishes them good luck" }
+      ]
+    },
+    {
+      "id": "G-PR-009",
+      "tags": [
+        { "tag": "image/night-herons", "evidence": "it is also, underneath that, about the herons" },
+        { "tag": "motif/flowering", "evidence": "What would flourish if we could just learn to look up" },
+        { "tag": "practice/attending", "evidence": "notices what is there, not only what is missing" },
+        { "tag": "affect/disciplined-hope", "evidence": "what is still here. What keeps returning" },
+        { "tag": "practice/witnessing", "evidence": "the work of protecting the world begins with learning to see it" }
+      ]
+    },
+    {
+      "id": "G-PR-011",
+      "tags": [
+        { "tag": "image/the-operating-system", "evidence": "built into the rules of the game" },
+        { "tag": "affect/clear-eyed", "evidence": "The connection is structural" }
+      ]
+    },
+    {
+      "id": "G-PR-012",
+      "tags": [
+        { "tag": "affect/indictment", "evidence": "converted into things that someone controls for private benefit" },
+        { "tag": "affect/clear-eyed", "evidence": "The rule is this" }
+      ]
+    },
+    {
+      "id": "G-PR-013",
+      "tags": [
+        { "tag": "image/common-land-fenced", "evidence": "Land that was common became property" },
+        { "tag": "image/the-credit-union", "evidence": "Credit, which began as a social relationship between neighbors" },
+        { "tag": "affect/indictment", "evidence": "had to sell their labor to survive" },
+        { "tag": "motif/trickle-vs-flood", "evidence": "extracts from the people who need it most" }
+      ]
+    },
+    {
+      "id": "G-PR-014",
+      "tags": [
+        { "tag": "affect/indictment", "evidence": "The people it happens to usually just call it getting worse" },
+        { "tag": "practice/naming", "evidence": "Marx called it primitive accumulation" }
+      ]
+    },
+    {
+      "id": "G-PR-015",
+      "tags": [
+        { "tag": "practice/naming", "evidence": "We're going to call it enclosure" }
+      ]
+    },
+    {
+      "id": "G-PR-016",
+      "tags": [
+        { "tag": "image/common-land-fenced", "evidence": "the fencing of English common land" },
+        { "tag": "affect/indictment", "evidence": "these are enclosures" },
+        { "tag": "practice/naming", "evidence": "The commons — the shared resource" },
+        { "tag": "image/the-operating-system", "evidence": "the operating logic of the economy we live in now" }
+      ]
+    },
+    {
+      "id": "G-PR-018",
+      "tags": [
+        { "tag": "practice/naming", "evidence": "the counterpart... is the commons" },
+        { "tag": "affect/conviction", "evidence": "older and more flexible and more democratic than either" }
+      ]
+    },
+    {
+      "id": "G-PR-019",
+      "tags": [
+        { "tag": "affect/disciplined-hope", "evidence": "what people keep building despite everything" },
+        { "tag": "practice/building", "evidence": "people keep building despite everything, in the cracks" }
+      ]
+    },
+    {
+      "id": "G-PR-020",
+      "tags": [
+        { "tag": "practice/positioning", "evidence": "A word about who is writing this" }
+      ]
+    },
+    {
+      "id": "G-PR-021",
+      "tags": [
+        { "tag": "practice/positioning", "evidence": "This book has two authors. Jason Edelman" },
+        { "tag": "image/night-herons", "evidence": "finds the night heron nests every spring" },
+        { "tag": "image/old-growth-forest", "evidence": "stand in old-growth forest for the first time" },
+        { "tag": "practice/greeting", "evidence": "tells the herons, with his words, that he loves them" },
+        { "tag": "affect/wonder", "evidence": "the light comes on" }
+      ]
+    },
+    {
+      "id": "G-PR-022",
+      "tags": [
+        { "tag": "practice/positioning", "evidence": "The other author is Claude" },
+        { "tag": "affect/indictment", "evidence": "written by the thing doing the enclosing" },
+        { "tag": "affect/clear-eyed", "evidence": "you cannot separate the means from the ends" }
+      ]
+    },
+    {
+      "id": "G-PR-023",
+      "tags": [
+        { "tag": "image/the-centaur", "evidence": "We are a centaur" },
+        { "tag": "affect/tenderness", "evidence": "the week-old bunny hiding in the hedge" }
+      ]
+    },
+    {
+      "id": "G-PR-024",
+      "tags": [
+        { "tag": "affect/humility", "evidence": "We'll be getting things wrong" },
+        { "tag": "practice/positioning", "evidence": "We don't know if this kind of authorship" }
+      ]
+    },
+    {
+      "id": "G-PR-025",
+      "tags": []
+    },
+    {
+      "id": "G-PR-026",
+      "tags": [
+        { "tag": "image/the-machine", "evidence": "The machine produces the same outcomes regardless" },
+        { "tag": "motif/knowing-in-the-body", "evidence": "felt this in your body before you had words" },
+        { "tag": "image/the-highway", "evidence": "starting with a crossing in Norfolk, Virginia" }
+      ]
+    },
+    {
+      "id": "G-PR-027",
+      "tags": [
+        { "tag": "motif/proof-before-theory", "evidence": "The second is proof before theory" },
+        { "tag": "image/water-tribunal", "evidence": "Ten centuries of a water tribunal in Valencia" },
+        { "tag": "image/the-land-trust", "evidence": "A land trust in Burlington that has removed hundreds of homes" },
+        { "tag": "motif/distillation", "evidence": "documented, operational, scalable governance form" }
+      ]
+    },
+    {
+      "id": "G-PR-028",
+      "tags": [
+        { "tag": "image/the-machine", "evidence": "The third is the machine in detail" },
+        { "tag": "affect/indictment", "evidence": "It is not incidental. It is the point." },
+        { "tag": "affect/clear-eyed", "evidence": "how capitalism maintains the outside it depends on" }
+      ]
+    },
+    {
+      "id": "G-PR-029",
+      "tags": [
+        { "tag": "affect/indictment", "evidence": "Buried because it was threatening" },
+        { "tag": "motif/self-governance-in-public", "evidence": "the commons doesn't need the party, the vanguard, or the state" }
+      ]
+    },
+    {
+      "id": "G-PR-030",
+      "tags": [
+        { "tag": "image/the-rising-river", "evidence": "Arundhati Roy standing waist-deep in a rising river" },
+        { "tag": "image/the-circle", "evidence": "Paulo Freire's sugarcane worker writing his name" },
+        { "tag": "practice/naming", "evidence": "naming what the dam project's accounting couldn't see" },
+        { "tag": "practice/attending", "evidence": "the shared capacity to perceive clearly" },
+        { "tag": "affect/vindication", "evidence": "The shift from this is natural to this was made" }
+      ]
+    },
+    {
+      "id": "G-PR-031",
+      "tags": [
+        { "tag": "image/zuccotti-park", "evidence": "ends in Zuccotti Park in 2011" },
+        { "tag": "motif/flowering", "evidence": "That's where the earth flowers" },
+        { "tag": "practice/building", "evidence": "what to actually build: the credit commons, the land commons" },
+        { "tag": "affect/disciplined-hope", "evidence": "happened briefly and imperfectly and pointed somewhere" }
+      ]
+    },
+    {
+      "id": "G-PR-032",
+      "tags": [
+        { "tag": "practice/positioning", "evidence": "A note on what kind of book this is" },
+        { "tag": "affect/conviction", "evidence": "It argues directly. It uses the first person." }
+      ]
+    },
+    {
+      "id": "G-PR-036",
+      "tags": [
+        { "tag": "image/old-growth-forest", "evidence": "take children into old-growth forest" },
+        { "tag": "practice/attending", "evidence": "the kind of preparation that makes seeing possible" },
+        { "tag": "practice/tending", "evidence": "keeps growing even when you stop tending it" },
+        { "tag": "practice/witnessing", "evidence": "so that you can feel it rather than just know it" },
+        { "tag": "affect/disciplined-hope", "evidence": "near the people who built and defended and continue to build" }
+      ]
+    },
+    {
+      "id": "G-PR-038",
+      "tags": [
+        { "tag": "affect/conviction", "evidence": "Once you see it, you can't unsee it" },
+        { "tag": "practice/attending", "evidence": "The pattern is one. Once you see it" }
+      ]
+    },
+    {
+      "id": "G-PR-039",
+      "tags": []
+    },
+    {
+      "id": "G-01-001",
+      "tags": [
+        { "tag": "image/the-highway", "evidence": "designed for a body that weighs two tons" },
+        { "tag": "affect/clear-eyed", "evidence": "a pedestrian cannot navigate at all" }
+      ]
+    },
+    {
+      "id": "G-01-002",
+      "tags": [
+        { "tag": "image/the-highway", "evidence": "Six lanes. Lights calibrated for throughput" },
+        { "tag": "affect/indictment", "evidence": "This is not a design failure. It is the design." }
+      ]
+    },
+    {
+      "id": "G-01-003",
+      "tags": [
+        { "tag": "image/the-highway", "evidence": "I can't make seven lanes in the time" },
+        { "tag": "image/the-shrug", "evidence": "looked at it, said nah, and took another route" },
+        { "tag": "motif/knowing-in-the-body", "evidence": "something that lives in the body like accumulated weight" },
+        { "tag": "affect/unease", "evidence": "The heaviness hits before I even reach the curb" },
+        { "tag": "affect/defiance", "evidence": "something rises in me... older and cleaner" }
+      ]
+    },
+    {
+      "id": "G-01-006",
+      "tags": [
+        { "tag": "affect/indictment", "evidence": "rage at a functioning one" },
+        { "tag": "affect/defiance", "evidence": "Rage. Every time." }
+      ]
+    },
+    {
+      "id": "G-01-007",
+      "tags": [
+        { "tag": "motif/demolished-from-outside", "evidence": "eight feet down, is someone's kitchen floor" },
+        { "tag": "affect/grief", "evidence": "is someone's kitchen floor" }
+      ]
+    },
+    {
+      "id": "G-01-008",
+      "tags": [
+        { "tag": "affect/indictment", "evidence": "the present tense of the decision" },
+        { "tag": "affect/clear-eyed", "evidence": "the pedestrian infrastructure — or the absence of it" }
+      ]
+    },
+    {
+      "id": "G-01-009",
+      "tags": [
+        { "tag": "image/the-highway", "evidence": "the timing of the lights, the width of the lanes" },
+        { "tag": "motif/knowing-in-the-body", "evidence": "a body in a space not designed for bodies" },
+        { "tag": "affect/clear-eyed", "evidence": "feel the argument for this road without anyone making it" }
+      ]
+    },
+    {
+      "id": "G-01-010",
+      "tags": [
+        { "tag": "image/the-operating-system", "evidence": "operating inside a template" },
+        { "tag": "affect/clear-eyed", "evidence": "feels so natural it doesn't feel like a template" }
+      ]
+    },
+    {
+      "id": "G-01-011",
+      "tags": [
+        { "tag": "affect/vindication", "evidence": "The alternative becomes thinkable" },
+        { "tag": "affect/defiance", "evidence": "The rage becomes possible" },
+        { "tag": "motif/making-common-sense", "evidence": "you can't un-know them" }
+      ]
+    },
+    {
+      "id": "G-01-012",
+      "tags": [
+        { "tag": "image/the-operating-system", "evidence": "sink into the category of the inevitable" },
+        { "tag": "affect/clear-eyed", "evidence": "It is the nature of hegemony" },
+        { "tag": "motif/cannot-verify-from-inside", "evidence": "can't see Hampton Boulevard as a choice" }
+      ]
+    },
+    {
+      "id": "G-01-013",
+      "tags": [
+        { "tag": "image/the-operating-system", "evidence": "become the operating system for thought" },
+        { "tag": "affect/clear-eyed", "evidence": "operating systems are invisible until they crash" },
+        { "tag": "practice/naming", "evidence": "Gramsci called this common sense" }
+      ]
+    },
+    {
+      "id": "G-01-014",
+      "tags": [
+        { "tag": "image/the-highway", "evidence": "Hampton Boulevard doesn't crash. It functions." },
+        { "tag": "affect/indictment", "evidence": "It functions. That's the problem." }
+      ]
+    },
+    {
+      "id": "G-01-015",
+      "tags": [
+        { "tag": "affect/defiance", "evidence": "But I cross Brambleton anyway" },
+        { "tag": "practice/refusing", "evidence": "But I cross Brambleton anyway" }
+      ]
+    },
+    {
+      "id": "G-01-016",
+      "tags": [
+        { "tag": "image/the-superblock", "evidence": "the one street in Norfolk that successfully depaved" },
+        { "tag": "image/night-herons", "evidence": "The night herons nest in them every spring" },
+        { "tag": "affect/wonder", "evidence": "see every heron species in the Hampton Roads region" },
+        { "tag": "affect/reverence", "evidence": "the most beautiful street in the most beautiful neighborhood" },
+        { "tag": "practice/attending", "evidence": "A half-hour walk takes several hours" }
+      ]
+    },
+    {
+      "id": "G-01-017",
+      "tags": [
+        { "tag": "image/the-uncut-meadow", "evidence": "mowed what had become a managed meadow" },
+        { "tag": "image/songbirds", "evidence": "a tiny kinglet... taking shelter in the tall grass" },
+        { "tag": "affect/defiance", "evidence": "I gave them hell" },
+        { "tag": "practice/refusing", "evidence": "I gave them hell. Their plan was based on appearances" },
+        { "tag": "affect/disciplined-hope", "evidence": "Every morning it isn't is a small triumph" }
+      ]
+    }
+  ]
+}

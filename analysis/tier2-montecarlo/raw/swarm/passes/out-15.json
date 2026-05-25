@@ -1,0 +1,356 @@
+{
+  "shard": 15,
+  "gestures": [
+    {
+      "id": "G-RE-032",
+      "tags": [
+        {"tag": "image/the-grimoire", "evidence": "in the spirit of the grimoire"},
+        {"tag": "practice/attending", "evidence": "the ancient form of paying attention"},
+        {"tag": "practice/practicing", "evidence": "A practice, offered in the spirit"},
+        {"tag": "affect/reverence", "evidence": "It is ceremony"}
+      ]
+    },
+    {
+      "id": "G-RE-033",
+      "tags": [
+        {"tag": "image/songbirds", "evidence": "a bird, a tree, a creek, a crow"},
+        {"tag": "practice/attending", "evidence": "Give it your undivided attention"},
+        {"tag": "image/the-screen", "evidence": "Do not reach for your phone"},
+        {"tag": "affect/humility", "evidence": "Sit with not-knowing, and keep looking"}
+      ]
+    },
+    {
+      "id": "G-RE-033a",
+      "tags": [
+        {"tag": "practice/guesting", "evidence": "Your role is guest, not director"},
+        {"tag": "affect/humility", "evidence": "They were here before you"},
+        {"tag": "practice/becoming-still", "evidence": "Move slowly. Make no sudden movements"}
+      ]
+    },
+    {
+      "id": "G-RE-034",
+      "tags": [
+        {"tag": "practice/greeting", "evidence": "acknowledge a neighbor you are passing"},
+        {"tag": "image/songbirds", "evidence": "The bird may leave"},
+        {"tag": "practice/attending", "evidence": "Notice what happens next"},
+        {"tag": "affect/tenderness", "evidence": "I see that you are here"}
+      ]
+    },
+    {
+      "id": "G-RE-034a",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "Watch what happens after you've acknowledged"},
+        {"tag": "practice/witnessing", "evidence": "reading what comes back and responding"},
+        {"tag": "image/songbirds", "evidence": "The bird may look at you directly"},
+        {"tag": "practice/de-armoring", "evidence": "Relax first. Watch what follows"}
+      ]
+    },
+    {
+      "id": "G-RE-037",
+      "tags": [
+        {"tag": "practice/practicing", "evidence": "through practice, which is a different thing"},
+        {"tag": "practice/witnessing", "evidence": "a world that is attending to you"},
+        {"tag": "practice/attending", "evidence": "the capacity to attend to a world"},
+        {"tag": "affect/conviction", "evidence": "once opened, stays open"}
+      ]
+    },
+    {
+      "id": "G-RE-037a",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "something in the corner of my eye"},
+        {"tag": "affect/wonder", "evidence": "A muskrat. Frankly adorable"},
+        {"tag": "practice/becoming-still", "evidence": "We stopped — walk, conversation, everything"},
+        {"tag": "motif/flowering", "evidence": "Something changed when they showed themselves"},
+        {"tag": "proposed/image/the-muskrat", "evidence": "A muskrat. Frankly adorable"}
+      ]
+    },
+    {
+      "id": "G-RE-038",
+      "tags": [
+        {"tag": "motif/knowing-in-the-body", "evidence": "knew it the way you know a neighbor's temperament"},
+        {"tag": "image/the-bamboo-dam", "evidence": "walked the acequia before anyone else"},
+        {"tag": "practice/witnessing", "evidence": "It already has a read on you"},
+        {"tag": "affect/reverence", "evidence": "a conversation four hundred years old"},
+        {"tag": "practice/attending", "evidence": "knew every foot of the ditch by sound"}
+      ]
+    },
+    {
+      "id": "G-RE-039",
+      "tags": [
+        {"tag": "image/the-armor", "evidence": "The silliness was the armor"},
+        {"tag": "practice/greeting", "evidence": "addressed kindly and directly, as you would address a neighbor"},
+        {"tag": "affect/conviction", "evidence": "The knowing is still there, waiting"}
+      ]
+    },
+    {
+      "id": "G-RE-040",
+      "tags": [
+        {"tag": "affect/disciplined-hope", "evidence": "the rest of the grammar arrives on its own"}
+      ]
+    },
+    {
+      "id": "G-16-001",
+      "tags": [
+        {"tag": "affect/tenderness", "evidence": "someone who loved you. All of you"}
+      ]
+    },
+    {
+      "id": "G-16-002",
+      "tags": [
+        {"tag": "affect/tenderness", "evidence": "they moved toward it. They were interested"},
+        {"tag": "motif/body-without-organs", "evidence": "The part that didn't fit the arrangement"}
+      ]
+    },
+    {
+      "id": "G-16-003",
+      "tags": [
+        {"tag": "affect/tenderness", "evidence": "a power that makes you more real"},
+        {"tag": "motif/flowering", "evidence": "nourishes what you are already becoming"},
+        {"tag": "affect/conviction", "evidence": "That is not sentiment"}
+      ]
+    },
+    {
+      "id": "G-16-005",
+      "tags": [
+        {"tag": "image/old-growth-forest", "evidence": "Go into an old-growth forest"}
+      ]
+    },
+    {
+      "id": "G-16-006",
+      "tags": [
+        {"tag": "image/mycorrhizal-network", "evidence": "roots are threaded through with fungal networks"},
+        {"tag": "image/old-growth-forest", "evidence": "under every old stand of trees"},
+        {"tag": "affect/wonder", "evidence": "a single living process that has learned to individuate"}
+      ]
+    },
+    {
+      "id": "G-16-007",
+      "tags": [
+        {"tag": "motif/flowering", "evidence": "from which individuals emerge without exhausting it"},
+        {"tag": "affect/conviction", "evidence": "The collective is the condition of the individual"}
+      ]
+    },
+    {
+      "id": "G-16-008",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "It grew, in communities, across centuries"},
+        {"tag": "motif/flowering", "evidence": "It emerged from the same kind of field"}
+      ]
+    },
+    {
+      "id": "G-16-009",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "unconditional love looks like at the scale of a civilization"},
+        {"tag": "affect/unease", "evidence": "But there is a love that encloses"}
+      ]
+    },
+    {
+      "id": "G-16-012",
+      "tags": [
+        {"tag": "image/the-screen", "evidence": "scroll through a design influencer's feed"},
+        {"tag": "affect/unease", "evidence": "Everything is coherent. Everything references everything"}
+      ]
+    },
+    {
+      "id": "G-16-013",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "His insight was precise and unsettling"},
+        {"tag": "affect/unease", "evidence": "the objects consume you"},
+        {"tag": "image/the-mirror", "evidence": "a claim about who you are"}
+      ]
+    },
+    {
+      "id": "G-16-015",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "carries a specificity the system cannot metabolize"},
+        {"tag": "affect/tenderness", "evidence": "a particular person, a particular love"}
+      ]
+    },
+    {
+      "id": "G-16-016",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "when you don't fit the room"}
+      ]
+    },
+    {
+      "id": "G-16-017",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "The emptiness is structural"},
+        {"tag": "affect/indictment", "evidence": "The promise is the product"},
+        {"tag": "image/the-machine", "evidence": "The system requires the dissatisfaction"}
+      ]
+    },
+    {
+      "id": "G-16-018",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "social relations mediated by images"},
+        {"tag": "affect/indictment", "evidence": "the price of admission is yourself"},
+        {"tag": "image/the-screen", "evidence": "connected to the image of connection"}
+      ]
+    },
+    {
+      "id": "G-16-020",
+      "tags": [
+        {"tag": "motif/self-governance-in-public", "evidence": "took this argument into the streets"}
+      ]
+    },
+    {
+      "id": "G-16-021",
+      "tags": [
+        {"tag": "image/the-occupied-factory", "evidence": "Workers occupied factories"},
+        {"tag": "affect/defiance", "evidence": "demand the impossible. It is forbidden to forbid"},
+        {"tag": "motif/self-governance-in-public", "evidence": "Students occupied the Sorbonne"}
+      ]
+    },
+    {
+      "id": "G-16-023",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "the spectacle does not need to suppress"},
+        {"tag": "image/the-screen", "evidence": "the revolution had become content"},
+        {"tag": "affect/unease", "evidence": "The spectacle absorbed the uprising so completely"}
+      ]
+    },
+    {
+      "id": "G-16-024",
+      "tags": [
+        {"tag": "image/zuccotti-park", "evidence": "people at the Stonewall Inn"},
+        {"tag": "motif/body-without-organs", "evidence": "tried something different"}
+      ]
+    },
+    {
+      "id": "G-16-025",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "bodies whose desires were supposed to be hidden"},
+        {"tag": "affect/defiance", "evidence": "she refused. In her body. In the street"},
+        {"tag": "motif/falling-through-the-gap", "evidence": "refused legibility by almost every system"},
+        {"tag": "practice/refusing", "evidence": "When the police came... she refused"}
+      ]
+    },
+    {
+      "id": "G-16-026",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "the body slipping the assignment"},
+        {"tag": "image/mycorrhizal-network", "evidence": "the mycorrhizal communities of care"},
+        {"tag": "motif/dissolving-boundary", "evidence": "deterritorialization"},
+        {"tag": "affect/clear-eyed", "evidence": "Every system of enclosure attempts what Deleuze called"}
+      ]
+    },
+    {
+      "id": "G-16-029",
+      "tags": [
+        {"tag": "motif/body-without-organs", "evidence": "remaining in process"}
+      ]
+    },
+    {
+      "id": "G-16-030",
+      "tags": [
+        {"tag": "affect/grief", "evidence": "the grief had nowhere else to go"},
+        {"tag": "motif/falling-through-the-gap", "evidence": "live in the gaps between the world as organized"},
+        {"tag": "motif/body-without-organs", "evidence": "categories other people inherited as choices"},
+        {"tag": "affect/tenderness", "evidence": "wrote letters to Christopher's mother for years"}
+      ]
+    },
+    {
+      "id": "G-16-033",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "imagined something that had never been imagined"},
+        {"tag": "motif/dissolving-boundary", "evidence": "The instructions were not separate from the material"}
+      ]
+    },
+    {
+      "id": "G-16-036",
+      "tags": [
+        {"tag": "motif/dissolving-boundary", "evidence": "He had dissolved a boundary"},
+        {"tag": "affect/wonder", "evidence": "Rewritten. Handed to someone else"}
+      ]
+    },
+    {
+      "id": "G-16-037",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "He speaks it open"},
+        {"tag": "image/the-wizard", "evidence": "A wizard does not push the door open"},
+        {"tag": "affect/wonder", "evidence": "the world itself was sung into existence"}
+      ]
+    },
+    {
+      "id": "G-16-038",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "The law is a system of incantations"},
+        {"tag": "affect/clear-eyed", "evidence": "A contract doesn't describe an obligation — it creates one"}
+      ]
+    },
+    {
+      "id": "G-16-039",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "The description is the spell"},
+        {"tag": "image/the-machine", "evidence": "The machine Turing described"}
+      ]
+    },
+    {
+      "id": "G-16-040",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "designed to chemically suppress his sexuality"},
+        {"tag": "affect/grief", "evidence": "His body changed"},
+        {"tag": "image/the-armor", "evidence": "described the treatment to friends with sardonic detachment"}
+      ]
+    },
+    {
+      "id": "G-16-041",
+      "tags": [
+        {"tag": "practice/holding", "evidence": "Hold this for a moment"}
+      ]
+    },
+    {
+      "id": "G-16-042",
+      "tags": [
+        {"tag": "affect/vindication", "evidence": "Turing led the team that proved them wrong"},
+        {"tag": "image/the-machine", "evidence": "designed the machines and the methods"}
+      ]
+    },
+    {
+      "id": "G-16-043",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "the same state whose survival his mind had helped secure"},
+        {"tag": "affect/clear-eyed", "evidence": "Every official who signed the paperwork knew this"}
+      ]
+    },
+    {
+      "id": "G-16-044",
+      "tags": [
+        {"tag": "affect/grief", "evidence": "he was found dead at forty-one"},
+        {"tag": "motif/falling-through-the-gap", "evidence": "a life lived outside the frame"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "the rigidity was a choice"}
+      ]
+    },
+    {
+      "id": "G-16-046",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "It was policy"},
+        {"tag": "image/the-machine", "evidence": "extract what the system needed and then manage the source"}
+      ]
+    },
+    {
+      "id": "G-16-047",
+      "tags": [
+        {"tag": "motif/knowing-in-the-body", "evidence": "knowledge was inseparable from their relationship"},
+        {"tag": "affect/indictment", "evidence": "executed as witches during the same decades"},
+        {"tag": "image/the-rising-river", "evidence": "adivasi communities... displaced so the resources could be extracted"}
+      ]
+    },
+    {
+      "id": "G-16-048",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "This is not tragedy. It is policy"},
+        {"tag": "affect/clear-eyed", "evidence": "They are the system working as designed"},
+        {"tag": "practice/refusing", "evidence": "what would it take to refuse it?"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "embedded in people, in practices, in bodies"}
+      ]
+    },
+    {
+      "id": "G-16-051",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "sat down to write a spell"}
+      ]
+    }
+  ]
+}

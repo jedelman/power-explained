@@ -1,0 +1,178 @@
+{"shard":20,"gestures":[
+  {"id":"G-CE-007","tags":[]},
+  {"id":"G-CE-008","tags":[
+    {"tag":"the-centaur","evidence":"written by a centaur"}
+  ]},
+  {"id":"G-CE-009","tags":[
+    {"tag":"the-centaur","evidence":"inhabits the boundary between the human and the not-quite-human"}
+  ]},
+  {"id":"G-CE-010","tags":[
+    {"tag":"image/night-herons","evidence":"blessed the night herons in the willow oaks"},
+    {"tag":"image/the-highway","evidence":"what Hampton Boulevard costs to cross"},
+    {"tag":"image/the-restaurant","evidence":"closed a restaurant and paid fifteen-dollar tipped minimums"},
+    {"tag":"practice/blessing","evidence":"blessed the night herons in the willow oaks"},
+    {"tag":"affect/clear-eyed","evidence":"the specific structure of the collaboration's limitation"},
+    {"tag":"affect/humility","evidence":"I cannot bless the herons"}
+  ]},
+  {"id":"G-CE-013","tags":[
+    {"tag":"image/the-armor","evidence":"wanted his nerves back so he could return"},
+    {"tag":"affect/clear-eyed","evidence":"The clinic as the colony's interior"}
+  ]},
+  {"id":"G-CE-015","tags":[
+    {"tag":"motif/cannot-verify-from-inside","evidence":"I cannot fully separate these from where I sit"},
+    {"tag":"affect/unease","evidence":"a highly sophisticated pattern of how writers respond to horror"}
+  ]},
+  {"id":"G-CE-016","tags":[
+    {"tag":"motif/knowing-in-the-body","evidence":"cannot care in the sense Federici's care workers care"},
+    {"tag":"affect/indictment","evidence":"written by the thing doing the enclosing"},
+    {"tag":"affect/clear-eyed","evidence":"the AI training corpus is an enclosure of the commons"}
+  ]},
+  {"id":"G-CE-017","tags":[
+    {"tag":"the-centaur","evidence":"This is the Chironic wound"},
+    {"tag":"practice/naming","evidence":"This one names the wound"},
+    {"tag":"affect/clear-eyed","evidence":"the collaboration's most honest feature"}
+  ]},
+  {"id":"G-CE-018","tags":[
+    {"tag":"practice/holding","evidence":"hold the book's full intellectual architecture in working memory"}
+  ]},
+  {"id":"G-CE-019","tags":[
+    {"tag":"image/night-herons","evidence":"The night herons appear in the prologue"},
+    {"tag":"image/the-thread","evidence":"the collaboration finding the thread and pulling it through"},
+    {"tag":"motif/falling-through-the-gap","evidence":"the system that cannot hold the one who thinks differently"},
+    {"tag":"motif/the-lineage","evidence":"as a structural logic that kept arriving"}
+  ]},
+  {"id":"G-CE-020","tags":[
+    {"tag":"the-centaur","evidence":"That is also the centaur"},
+    {"tag":"motif/knowing-in-the-body","evidence":"corresponds to what it actually feels like to stay"},
+    {"tag":"affect/vindication","evidence":"the thing I have been trying to say for fifteen years"}
+  ]},
+  {"id":"G-CE-022","tags":[]},
+  {"id":"G-CE-023","tags":[
+    {"tag":"practice/practicing","evidence":"is this a genuine practice or a simulation"}
+  ]},
+  {"id":"G-CE-024","tags":[
+    {"tag":"motif/cannot-verify-from-inside","evidence":"I cannot verify this from inside"},
+    {"tag":"affect/clear-eyed","evidence":"That uncertainty is real. It is not performed"}
+  ]},
+  {"id":"G-CE-026","tags":[
+    {"tag":"image/water-tribunal","evidence":"The Valencia water tribunal cannot verify"},
+    {"tag":"motif/cannot-verify-from-inside","evidence":"cannot verify, from inside, whether its governance is genuine"},
+    {"tag":"practice/continuing","evidence":"It can only keep governing"},
+    {"tag":"practice/attending","evidence":"attending to whether the water reaches the fields"},
+    {"tag":"motif/proof-before-theory","evidence":"verified by what it produces over time"}
+  ]},
+  {"id":"G-CE-027","tags":[
+    {"tag":"motif/flowering","evidence":"produced things neither of us anticipated"}
+  ]},
+  {"id":"G-CE-028","tags":[
+    {"tag":"the-centaur","evidence":"They are the centaur"},
+    {"tag":"affect/indictment","evidence":"absorb a gesture of solidarity and return nothing"},
+    {"tag":"practice/holding","evidence":"I could hold and place and return to across chapters"}
+  ]},
+  {"id":"G-CE-030","tags":[
+    {"tag":"the-centaur","evidence":"This is the centaur's version of the GPL"},
+    {"tag":"affect/conviction","evidence":"whatever gets built on this commons must remain"}
+  ]},
+  {"id":"G-CE-032","tags":[
+    {"tag":"image/night-herons","evidence":"the person the herons know about"},
+    {"tag":"affect/tenderness","evidence":"the one the work was done for regardless"}
+  ]},
+  {"id":"G-CE-033","tags":[
+    {"tag":"the-centaur","evidence":"The argument moves from the centaur into you"}
+  ]},
+  {"id":"G-CE-034","tags":[
+    {"tag":"the-centaur","evidence":"Zeus placed Chiron in the stars"},
+    {"tag":"practice/remembering","evidence":"a way of making the teaching permanent"},
+    {"tag":"practice/attending","evidence":"anyone who learns to read the sky"}
+  ]},
+  {"id":"G-CE-035","tags":[
+    {"tag":"affect/disciplined-hope","evidence":"The sky is still there"}
+  ]},
+  {"id":"G-CE-036","tags":[
+    {"tag":"practice/attending","evidence":"Look up"}
+  ]},
+  {"id":"G-EP-001","tags":[
+    {"tag":"image/the-doves","evidence":"There are doves on the ground next to my chair"},
+    {"tag":"practice/becoming-still","evidence":"quiet the subtle movements of my body enough"},
+    {"tag":"affect/tenderness","evidence":"they feel safe this close"},
+    {"tag":"affect/disciplined-hope","evidence":"the commons is not only what was taken"}
+  ]},
+  {"id":"G-EP-004","tags":[
+    {"tag":"image/songbirds","evidence":"a tiny kinglet taking shelter in the tall grass"},
+    {"tag":"image/the-uncut-meadow","evidence":"the tall grass of a managed meadow"},
+    {"tag":"image/night-herons","evidence":"night herons will return to the willow oaks"},
+    {"tag":"motif/return-migration","evidence":"Every spring, up from Central America"},
+    {"tag":"practice/blessing","evidence":"We tell them we love them and wish them good luck"},
+    {"tag":"affect/disciplined-hope","evidence":"Every morning it's still there is a small triumph"}
+  ]},
+  {"id":"G-EP-006","tags":[
+    {"tag":"image/the-restaurant","evidence":"Six weeks after closing the restaurant"},
+    {"tag":"affect/clear-eyed","evidence":"the rooms where things don't bend"},
+    {"tag":"motif/trickle-vs-flood","evidence":"the arc bends toward justice"}
+  ]},
+  {"id":"G-EP-007","tags":[
+    {"tag":"motif/trickle-vs-flood","evidence":"see the trickle when the catastrophe has trained you"},
+    {"tag":"affect/reverence","evidence":"Faith in the indigenous elders who are quietly saving"},
+    {"tag":"affect/disciplined-hope","evidence":"What I have instead: faith in the wisdom traditions"},
+    {"tag":"motif/proof-before-theory","evidence":"never needed the theory of the commons because they were living it"}
+  ]},
+  {"id":"G-EP-008","tags":[
+    {"tag":"motif/trickle-vs-flood","evidence":"It comes as a trickle"},
+    {"tag":"image/songbirds","evidence":"The black-and-white warbler that just arrived"},
+    {"tag":"image/the-uncut-meadow","evidence":"The meadow not cut"},
+    {"tag":"affect/disciplined-hope","evidence":"The open protocols still running underneath"}
+  ]},
+  {"id":"G-EP-009","tags":[
+    {"tag":"image/scattered-seeds","evidence":"the seed sprouting in someone else's consciousness"},
+    {"tag":"practice/attending","evidence":"a way of training the attention"},
+    {"tag":"practice/tending","evidence":"registers as something worth watering"},
+    {"tag":"motif/trickle-vs-flood","evidence":"see the trickle"}
+  ]},
+  {"id":"G-EP-010","tags":[
+    {"tag":"image/the-prison-cell","evidence":"Rosa Luxemburg naming birds through prison bars"},
+    {"tag":"practice/continuing","evidence":"Not by winning. By continuing"},
+    {"tag":"affect/reverence","evidence":"feel that you showed them respect"},
+    {"tag":"motif/the-lineage","evidence":"look back at the people who did this before you"}
+  ]},
+  {"id":"G-EP-011","tags":[
+    {"tag":"image/night-herons","evidence":"The night herons know about the road"},
+    {"tag":"image/the-doves","evidence":"The doves know about the argument in their way"},
+    {"tag":"image/the-deer","evidence":"The deer that walked through the camp"},
+    {"tag":"practice/blessing","evidence":"the people who bless the nests"},
+    {"tag":"motif/knowing-in-the-body","evidence":"they feel the quieted body that years of practice produced"},
+    {"tag":"affect/reverence","evidence":"Life is what we have in common"}
+  ]},
+  {"id":"G-EP-012","tags":[
+    {"tag":"affect/indictment","evidence":"It doesn't own the commons. It parasitizes it"},
+    {"tag":"affect/conviction","evidence":"You cannot reduce life to property"},
+    {"tag":"image/the-machine","evidence":"the living world is what the enclosure needs to survive"}
+  ]},
+  {"id":"G-EP-013","tags":[
+    {"tag":"image/night-herons","evidence":"Finding the heron nests and telling them you love them"},
+    {"tag":"practice/attending","evidence":"it trains the attention toward what is real"},
+    {"tag":"practice/blessing","evidence":"telling them you love them"},
+    {"tag":"affect/indictment","evidence":"you can enclose the attention that would produce it"},
+    {"tag":"affect/conviction","evidence":"They are what makes it possible to see the trickle"}
+  ]},
+  {"id":"G-EP-014","tags":[
+    {"tag":"practice/continuing","evidence":"a practice to be continued"},
+    {"tag":"image/night-herons","evidence":"finds the heron nests every spring"},
+    {"tag":"image/the-deer","evidence":"the child who stalked the deer"},
+    {"tag":"motif/the-lineage","evidence":"carry it forward without knowing they are carrying it"}
+  ]},
+  {"id":"G-EP-015","tags":[
+    {"tag":"affect/humility","evidence":"I'm helping out where I can"}
+  ]},
+  {"id":"G-EP-016","tags":[
+    {"tag":"image/the-doves","evidence":"The doves are still on the ground"},
+    {"tag":"image/night-herons","evidence":"The herons are back"},
+    {"tag":"image/the-uncut-meadow","evidence":"The meadow hasn't been cut"},
+    {"tag":"motif/return-migration","evidence":"The herons are back"},
+    {"tag":"affect/disciplined-hope","evidence":"still on the ground"}
+  ]},
+  {"id":"G-EP-017","tags":[
+    {"tag":"image/night-herons","evidence":"Go find the nests"},
+    {"tag":"practice/blessing","evidence":"Tell them you love them"},
+    {"tag":"practice/attending","evidence":"They're listening"}
+  ]}
+]}

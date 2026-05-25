@@ -1,0 +1,365 @@
+{
+  "shard": 14,
+  "gestures": [
+    {
+      "id": "G-14-038",
+      "tags": [
+        {"tag": "affect/reverence", "evidence": "the foundation is alive"}
+      ]
+    },
+    {
+      "id": "G-15-001",
+      "tags": [
+        {"tag": "motif/return-migration", "evidence": "It wasn't supposed to still be running"},
+        {"tag": "affect/disciplined-hope", "evidence": "The crisis passed. The infrastructure remained."},
+        {"tag": "practice/self-governing", "evidence": "the slower, harder work of community governance"},
+        {"tag": "practice/continuing", "evidence": "They stayed. They kept meeting."},
+        {"tag": "motif/knowing-in-the-body", "evidence": "had built... the knowledge of each other"}
+      ]
+    },
+    {
+      "id": "G-15-004",
+      "tags": [
+        {"tag": "practice/welcoming", "evidence": "care flows without being mediated by a market"},
+        {"tag": "affect/tenderness", "evidence": "Neighbors knowing each other's names"}
+      ]
+    },
+    {
+      "id": "G-15-005",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "Why had it become invisible as work?"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "Why had it become invisible as work?"}
+      ]
+    },
+    {
+      "id": "G-15-006",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "naming their housework as labor for the first time"}
+      ]
+    },
+    {
+      "id": "G-15-007",
+      "tags": [
+        {"tag": "image/the-firing-squad", "evidence": "Start with what they burned"},
+        {"tag": "affect/grief", "evidence": "Start with what they burned"}
+      ]
+    },
+    {
+      "id": "G-15-008",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "Federici's argument: it was policy"},
+        {"tag": "affect/grief", "evidence": "people were executed as witches"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "midwives, herbalists, healers — women who held knowledge"}
+      ]
+    },
+    {
+      "id": "G-15-010",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "the pattern across three centuries is consistent"},
+        {"tag": "image/the-firing-squad", "evidence": "The executions destroyed that knowledge"},
+        {"tag": "affect/clear-eyed", "evidence": "the targets are women who hold knowledge"}
+      ]
+    },
+    {
+      "id": "G-15-011",
+      "tags": [
+        {"tag": "image/common-land-fenced", "evidence": "the enclosure of common land"},
+        {"tag": "affect/indictment", "evidence": "creating the landless workforce capitalism needed"},
+        {"tag": "affect/clear-eyed", "evidence": "the economy's unacknowledged foundation"}
+      ]
+    },
+    {
+      "id": "G-15-012",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "the labor the visible economy refused to count"},
+        {"tag": "image/the-plantation", "evidence": "enslaved labor, colonial extraction"},
+        {"tag": "affect/indictment", "evidence": "the labor it most depended on"}
+      ]
+    },
+    {
+      "id": "G-15-014",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "makes visible what the system needs hidden"},
+        {"tag": "practice/naming", "evidence": "the impossibility revealed the structure"},
+        {"tag": "affect/clear-eyed", "evidence": "profit margins on everything else would collapse"}
+      ]
+    },
+    {
+      "id": "G-15-015",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "it was made this way deliberately"},
+        {"tag": "image/the-firing-squad", "evidence": "destruction of the knowledge networks"}
+      ]
+    },
+    {
+      "id": "G-15-016",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "What it won was the question"},
+        {"tag": "affect/disciplined-hope", "evidence": "made it available to be contested"}
+      ]
+    },
+    {
+      "id": "G-15-017",
+      "tags": [
+        {"tag": "motif/proof-before-theory", "evidence": "is not historical. It is operational."},
+        {"tag": "affect/indictment", "evidence": "care rendered invisible so the market can extract it"}
+      ]
+    },
+    {
+      "id": "G-15-018",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "the labor made to look like love"},
+        {"tag": "affect/clear-eyed", "evidence": "It is the structure of the care economy"},
+        {"tag": "motif/trickle-vs-flood", "evidence": "the aide receives a fraction of that"},
+        {"tag": "affect/tenderness", "evidence": "the continuity of presence that is itself a form of care"}
+      ]
+    },
+    {
+      "id": "G-15-021",
+      "tags": [
+        {"tag": "practice/building", "evidence": "The commons response is being built"},
+        {"tag": "affect/defiance", "evidence": "decided the alternative was unacceptable"},
+        {"tag": "affect/disciplined-hope", "evidence": "being built, as it always is"}
+      ]
+    },
+    {
+      "id": "G-15-022",
+      "tags": [
+        {"tag": "practice/self-governing", "evidence": "governed by the families who depend on them"},
+        {"tag": "practice/tending", "evidence": "neighbors organize systematic support for elderly"},
+        {"tag": "motif/proof-before-theory", "evidence": "the quality of care improves because the incentives"},
+        {"tag": "affect/tenderness", "evidence": "keeping people in their homes rather than in institutions"}
+      ]
+    },
+    {
+      "id": "G-15-023",
+      "tags": [
+        {"tag": "practice/building", "evidence": "thirty years building the infrastructure that makes care possible"},
+        {"tag": "affect/conviction", "evidence": "when the state has decided certain people don't deserve it"}
+      ]
+    },
+    {
+      "id": "G-15-024",
+      "tags": [
+        {"tag": "practice/building", "evidence": "building youth programs, training survivor advocates"},
+        {"tag": "affect/conviction", "evidence": "abolition is care"},
+        {"tag": "practice/holding", "evidence": "We keep each other safe"},
+        {"tag": "affect/disciplined-hope", "evidence": "build the world that doesn't need prisons"}
+      ]
+    },
+    {
+      "id": "G-15-026",
+      "tags": [
+        {"tag": "affect/conviction", "evidence": "an entire theory of public safety"},
+        {"tag": "practice/holding", "evidence": "the network of relationships that knows you"},
+        {"tag": "affect/defiance", "evidence": "Not surveillance. Not punishment."}
+      ]
+    },
+    {
+      "id": "G-15-027",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "mechanisms for capturing what communities built"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "the accumulated relational intelligence"},
+        {"tag": "affect/clear-eyed", "evidence": "capital did not produce and cannot reproduce"}
+      ]
+    },
+    {
+      "id": "G-15-028",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "The commons makes it visible"},
+        {"tag": "affect/indictment", "evidence": "The enclosure made care invisible"},
+        {"tag": "practice/self-governing", "evidence": "communities that intend to sustain themselves"}
+      ]
+    },
+    {
+      "id": "G-15-029",
+      "tags": [
+        {"tag": "affect/conviction", "evidence": "That is not a weakness. That is the point."},
+        {"tag": "affect/tenderness", "evidence": "It only works if people care about each other"}
+      ]
+    },
+    {
+      "id": "G-RE-001",
+      "tags": [
+        {"tag": "motif/knowing-in-the-body", "evidence": "The knowledge lives in the relationship"},
+        {"tag": "affect/indictment", "evidence": "The disenchantment was not a natural process. It was a political project."},
+        {"tag": "affect/grief", "evidence": "This is what the enclosure destroyed"},
+        {"tag": "image/the-firing-squad", "evidence": "The witch was burned because she maintained a relationship"},
+        {"tag": "practice/attending", "evidence": "People who care for each other learn to read each other"}
+      ]
+    },
+    {
+      "id": "G-RE-004",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "disenchantment of the world is the enclosure of that knowing"}
+      ]
+    },
+    {
+      "id": "G-RE-005",
+      "tags": [
+        {"tag": "affect/disciplined-hope", "evidence": "re-enchantment of the world is its recovery"}
+      ]
+    },
+    {
+      "id": "G-RE-006",
+      "tags": [
+        {"tag": "image/songbirds", "evidence": "silly little voices for the birds"},
+        {"tag": "practice/attending", "evidence": "listen as if they were actually talking"},
+        {"tag": "practice/practicing", "evidence": "the silly voices held the practice open"},
+        {"tag": "affect/wonder", "evidence": "an endless puzzle of cute little fluffs"},
+        {"tag": "practice/de-armoring", "evidence": "The silliness was the protection"}
+      ]
+    },
+    {
+      "id": "G-RE-007",
+      "tags": [
+        {"tag": "image/songbirds", "evidence": "the Carolina wren sounds like... teakettle"},
+        {"tag": "practice/practicing", "evidence": "You do this when you're learning to birdwatch"},
+        {"tag": "practice/naming", "evidence": "you reach for language, and what comes out"}
+      ]
+    },
+    {
+      "id": "G-RE-009",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "We were learning to attend"},
+        {"tag": "practice/greeting", "evidence": "when we addressed them — kindly, directly, as one might address a neighbor"},
+        {"tag": "image/songbirds", "evidence": "The birds get as close to you"},
+        {"tag": "practice/witnessing", "evidence": "opens a channel... Reciprocal."}
+      ]
+    },
+    {
+      "id": "G-RE-010",
+      "tags": [
+        {"tag": "practice/witnessing", "evidence": "As we tried to understand them, they understood us"},
+        {"tag": "affect/wonder", "evidence": "they understood us"}
+      ]
+    },
+    {
+      "id": "G-RE-011",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "the shift happened from hearing and analyzing to reading the feeling"},
+        {"tag": "image/songbirds", "evidence": "The crow cloud over the barred owl"},
+        {"tag": "affect/wonder", "evidence": "a feeling could be transmitted across species"}
+      ]
+    },
+    {
+      "id": "G-RE-012",
+      "tags": [
+        {"tag": "practice/practicing", "evidence": "We had practiced our way into it"},
+        {"tag": "practice/attending", "evidence": "part of a network of attention that was always there"},
+        {"tag": "affect/wonder", "evidence": "operating at frequencies you had not been tuned to receive"}
+      ]
+    },
+    {
+      "id": "G-RE-014",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "Erin notices space. I notice systems."}
+      ]
+    },
+    {
+      "id": "G-RE-015",
+      "tags": [
+        {"tag": "image/the-hedgerow", "evidence": "the particular quality of light in a hedgerow at dusk"},
+        {"tag": "practice/attending", "evidence": "She reads the substrate, the ground everything is shaped by"},
+        {"tag": "practice/becoming-still", "evidence": "She slows me down into the actual ground"}
+      ]
+    },
+    {
+      "id": "G-RE-016",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "I see the processes"},
+        {"tag": "image/songbirds", "evidence": "the reason the hawk circles this field"}
+      ]
+    },
+    {
+      "id": "G-RE-017",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "It is a different kind of seeing"},
+        {"tag": "motif/flowering", "evidence": "We inhabit a commons of perception"},
+        {"tag": "practice/self-governing", "evidence": "Neither of us owns it"}
+      ]
+    },
+    {
+      "id": "G-RE-018",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "enclosed every time the curriculum decides there is only one correct answer"},
+        {"tag": "motif/flowering", "evidence": "Shared knowing that emerges from genuine encounter"},
+        {"tag": "affect/grief", "evidence": "we have forgotten what unenclosed feels like"},
+        {"tag": "practice/tending", "evidence": "It can be cultivated"}
+      ]
+    },
+    {
+      "id": "G-RE-020",
+      "tags": [
+        {"tag": "image/the-doves", "evidence": "The doves in our yard greet us differently"},
+        {"tag": "image/songbirds", "evidence": "The finches, wrens, and house sparrows do not flush"},
+        {"tag": "practice/greeting", "evidence": "we have addressed them, individually, for years"},
+        {"tag": "affect/wonder", "evidence": "The birds remember"},
+        {"tag": "practice/witnessing", "evidence": "keeps track of who has paid attention"}
+      ]
+    },
+    {
+      "id": "G-RE-021",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "the other country, the one adjacent to this one"}
+      ]
+    },
+    {
+      "id": "G-RE-022",
+      "tags": [
+        {"tag": "affect/wonder", "evidence": "an encounter with a field that... reads as larger than itself"},
+        {"tag": "practice/attending", "evidence": "extended perception into frequencies no organism"}
+      ]
+    },
+    {
+      "id": "G-RE-023",
+      "tags": [
+        {"tag": "practice/attending", "evidence": "systematic practice of sustained attention"},
+        {"tag": "practice/witnessing", "evidence": "it reads you while you are reading it"},
+        {"tag": "image/the-hedgerow", "evidence": "the hedgerow at dusk"},
+        {"tag": "affect/clear-eyed", "evidence": "This is not the mysticism of the credulous"}
+      ]
+    },
+    {
+      "id": "G-RE-024",
+      "tags": [
+        {"tag": "practice/descending", "evidence": "The shaman returns from the underground"},
+        {"tag": "practice/remembering", "evidence": "maintained the practice through the burning"},
+        {"tag": "practice/holding", "evidence": "needs to be received by someone who is not you"},
+        {"tag": "affect/reverence", "evidence": "the wisdom of the ancient shamans"},
+        {"tag": "image/the-thread", "evidence": "the living continuity of the knowing"}
+      ]
+    },
+    {
+      "id": "G-RE-026",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "It is not the belief that everything is nice"},
+        {"tag": "image/songbirds", "evidence": "The crow broadcasting the owl's location is alarmed"},
+        {"tag": "practice/attending", "evidence": "those things are legible"}
+      ]
+    },
+    {
+      "id": "G-RE-028",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "the violence of the enclosure is called progress"},
+        {"tag": "affect/clear-eyed", "evidence": "violence has been removed from legibility"}
+      ]
+    },
+    {
+      "id": "G-RE-029",
+      "tags": [
+        {"tag": "affect/disciplined-hope", "evidence": "Re-enchantment is the recovery of that legibility"}
+      ]
+    },
+    {
+      "id": "G-RE-030",
+      "tags": [
+        {"tag": "image/the-uncut-meadow", "evidence": "You cannot grieve a graph. You can grieve a meadow"},
+        {"tag": "image/the-screen", "evidence": "A statistic. A projection. A graph."},
+        {"tag": "affect/grief", "evidence": "The relationship makes the loss real"},
+        {"tag": "practice/grieving", "evidence": "the epistemology of care"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "whose specific smell you carry in your body"}
+      ]
+    }
+  ]
+}

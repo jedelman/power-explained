@@ -1,0 +1,365 @@
+{
+  "shard": 11,
+  "gestures": [
+    {
+      "id": "G-12-029",
+      "tags": [
+        {"tag": "motif/dissolving-boundary", "evidence": "Within three years, all of us were"},
+        {"tag": "practice/attending", "evidence": "see it from angles I couldn't reach alone"}
+      ]
+    },
+    {
+      "id": "G-12-030",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "I don't tell this story to make it mean more"},
+        {"tag": "the-restaurant", "evidence": "one set of wines and a conversation"}
+      ]
+    },
+    {
+      "id": "G-12-031",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "It changes what you can no longer pretend"},
+        {"tag": "image/the-rising-river", "evidence": "stood in the river anyway, and the river kept rising"},
+        {"tag": "motif/defense-of-land", "evidence": "saw the dam project's accounting and stood in the river"},
+        {"tag": "practice/naming", "evidence": "wrote his name and understood the arrangement"}
+      ]
+    },
+    {
+      "id": "G-12-033",
+      "tags": [
+        {"tag": "image/the-deer", "evidence": "a deer walks into camp"},
+        {"tag": "practice/attending", "evidence": "cultivate exactly that quality of attention"},
+        {"tag": "affect/wonder", "evidence": "drop simultaneously into a stalking gait"},
+        {"tag": "practice/becoming-still", "evidence": "Low and slow. Weight placed. Eyes soft"},
+        {"tag": "practice/practicing", "evidence": "We had practiced the gait before the deer"}
+      ]
+    },
+    {
+      "id": "G-12-035",
+      "tags": [
+        {"tag": "practice/witnessing", "evidence": "the witness becomes it, takes on its conditions"},
+        {"tag": "practice/attending", "evidence": "She had trained herself to attend"},
+        {"tag": "image/the-rising-river", "evidence": "Roy didn't stumble into the Narmada valley"},
+        {"tag": "affect/conviction", "evidence": "refusing to look away, refusing to aggregate"},
+        {"tag": "motif/cannot-verify-from-inside", "evidence": "learns to see from inside the relationship"}
+      ]
+    },
+    {
+      "id": "G-12-036",
+      "tags": [
+        {"tag": "image/the-circle", "evidence": "Freire's method was the same practice taught as a curriculum"},
+        {"tag": "practice/attending", "evidence": "given the conditions to attend to their own experience"},
+        {"tag": "affect/indictment", "evidence": "You don't need to suppress the conclusion"},
+        {"tag": "image/the-screen", "evidence": "media environment that substitutes outrage for attention"},
+        {"tag": "image/the-rising-river", "evidence": "Roy standing in the water"},
+        {"tag": "practice/practicing", "evidence": "spent a week preparing them to notice"}
+      ]
+    },
+    {
+      "id": "G-12-040",
+      "tags": [
+        {"tag": "image/the-deer", "evidence": "The deer showed up"},
+        {"tag": "practice/practicing", "evidence": "That readiness was built"},
+        {"tag": "affect/conviction", "evidence": "The children were ready"}
+      ]
+    },
+    {
+      "id": "G-13-001",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "Then they spent it buying debt"},
+        {"tag": "affect/defiance", "evidence": "Then they abolished it"},
+        {"tag": "practice/refusing", "evidence": "the debt was real, they owned it, and they were canceling it"}
+      ]
+    },
+    {
+      "id": "G-13-003",
+      "tags": [
+        {"tag": "affect/tenderness", "evidence": "The letter lifted a specific dread"},
+        {"tag": "affect/defiance", "evidence": "With $700,000 they abolished $15 million in debt"},
+        {"tag": "affect/unease", "evidence": "stopped answering the phone because they didn't recognize the number"},
+        {"tag": "practice/refusing", "evidence": "The weapon can be turned"}
+      ]
+    },
+    {
+      "id": "G-13-006",
+      "tags": []
+    },
+    {
+      "id": "G-13-007",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "You know the story in every economics textbook"}
+      ]
+    },
+    {
+      "id": "G-13-008",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "It's a myth"},
+        {"tag": "affect/clear-eyed", "evidence": "no actual evidence supports"},
+        {"tag": "motif/proof-before-theory", "evidence": "He didn't find any"}
+      ]
+    },
+    {
+      "id": "G-13-009",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "The sequence in the textbooks is backwards"},
+        {"tag": "motif/proof-before-theory", "evidence": "clay tablets from ancient Mesopotamia"}
+      ]
+    },
+    {
+      "id": "G-13-010",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "the relationship is extinguished"},
+        {"tag": "affect/grief", "evidence": "It is the destruction of a relationship"}
+      ]
+    },
+    {
+      "id": "G-13-011",
+      "tags": [
+        {"tag": "affect/tenderness", "evidence": "a neighbor brings food when you're sick"},
+        {"tag": "affect/indictment", "evidence": "like every commons it has been enclosed"},
+        {"tag": "proposed/practice/reciprocating", "evidence": "you watch their children while they're at work"}
+      ]
+    },
+    {
+      "id": "G-13-013",
+      "tags": []
+    },
+    {
+      "id": "G-13-014",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "the specific design of a healthcare system"},
+        {"tag": "affect/clear-eyed", "evidence": "extracting the maximum the law allows"},
+        {"tag": "image/the-machine", "evidence": "entire business model depends on extracting"}
+      ]
+    },
+    {
+      "id": "G-13-015",
+      "tags": [
+        {"tag": "affect/grief", "evidence": "an extra year of life lost per thousand people"},
+        {"tag": "affect/clear-eyed", "evidence": "elevated mortality rates across every leading cause"},
+        {"tag": "affect/indictment", "evidence": "27 percent of people with medical debt experience housing problems"}
+      ]
+    },
+    {
+      "id": "G-13-016",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "It is the system working as designed"},
+        {"tag": "affect/grief", "evidence": "400,000 farmers died by suicide"},
+        {"tag": "image/the-machine", "evidence": "a financial instrument optimized for extraction"},
+        {"tag": "affect/clear-eyed", "evidence": "machinery outlasting the people who worked it"}
+      ]
+    },
+    {
+      "id": "G-13-018",
+      "tags": [
+        {"tag": "motif/return-migration", "evidence": "the commons reasserting itself"},
+        {"tag": "affect/clear-eyed", "evidence": "Not charity. Crisis management"},
+        {"tag": "motif/distillation", "evidence": "Graeber documented how this has worked across five thousand years"}
+      ]
+    },
+    {
+      "id": "G-13-019",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "This is not hypocrisy. It is policy"},
+        {"tag": "affect/clear-eyed", "evidence": "debt's moral weight is applied selectively"}
+      ]
+    },
+    {
+      "id": "G-13-020",
+      "tags": [
+        {"tag": "image/the-credit-union", "evidence": "The credit union is one form of the credit commons"}
+      ]
+    },
+    {
+      "id": "G-13-021",
+      "tags": [
+        {"tag": "image/the-credit-union", "evidence": "A financial cooperative, owned and governed by its members"},
+        {"tag": "practice/self-governing", "evidence": "the institution they collectively govern"}
+      ]
+    },
+    {
+      "id": "G-13-022",
+      "tags": [
+        {"tag": "image/the-credit-union", "evidence": "Credit unions collectively hold over $2 trillion"},
+        {"tag": "motif/proof-before-theory", "evidence": "a legal structure that has existed for over a century"}
+      ]
+    },
+    {
+      "id": "G-13-023",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "The accounting is mutual rather than extractive"},
+        {"tag": "motif/proof-before-theory", "evidence": "running for decades"}
+      ]
+    },
+    {
+      "id": "G-13-024",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "convert it into something extractable"},
+        {"tag": "affect/clear-eyed", "evidence": "operates entirely on the logic of the credit commons"}
+      ]
+    },
+    {
+      "id": "G-13-025",
+      "tags": [
+        {"tag": "affect/tenderness", "evidence": "communities conventional finance has written off"},
+        {"tag": "affect/indictment", "evidence": "the algorithm is optimized for extraction"}
+      ]
+    },
+    {
+      "id": "G-13-026",
+      "tags": [
+        {"tag": "practice/self-governing", "evidence": "governed by the people who needed it"},
+        {"tag": "affect/conviction", "evidence": "That single structural fact changed everything"},
+        {"tag": "proposed/image/the-cooperative-bank", "evidence": "Mondragon cooperative federation built its own bank"}
+      ]
+    },
+    {
+      "id": "G-13-027",
+      "tags": [
+        {"tag": "image/the-restaurant", "evidence": "first three years of running the restaurant"},
+        {"tag": "affect/indictment", "evidence": "the exact mechanism Graeber describes"},
+        {"tag": "affect/grief", "evidence": "humiliating in the specific way that asking family"},
+        {"tag": "place/chelsea-norfolk", "evidence": "a restaurant in Chelsea trying to refinance"}
+      ]
+    },
+    {
+      "id": "G-13-028",
+      "tags": [
+        {"tag": "affect/conviction", "evidence": "Not as charity — as architecture"}
+      ]
+    },
+    {
+      "id": "G-13-029",
+      "tags": [
+        {"tag": "affect/defiance", "evidence": "they weren't refusing to pay a debt they'd freely incurred"},
+        {"tag": "practice/refusing", "evidence": "organized the first debt strike"},
+        {"tag": "affect/vindication", "evidence": "The Department called it a decision. It was an organizing victory"},
+        {"tag": "practice/gathering", "evidence": "When they found each other — through a Facebook page"},
+        {"tag": "affect/indictment", "evidence": "sold a dream and received... a nightmare"}
+      ]
+    },
+    {
+      "id": "G-13-032",
+      "tags": [
+        {"tag": "affect/disciplined-hope", "evidence": "The jubilee tradition is not historical"},
+        {"tag": "affect/defiance", "evidence": "can be abolished rather than collected"}
+      ]
+    },
+    {
+      "id": "G-13-033",
+      "tags": [
+        {"tag": "motif/return-migration", "evidence": "They are still running"},
+        {"tag": "affect/reverence", "evidence": "the oldest form of the same logic"},
+        {"tag": "practice/self-governing", "evidence": "through community governance rather than institutional extraction"}
+      ]
+    },
+    {
+      "id": "G-13-034",
+      "tags": [
+        {"tag": "place/norfolk-va", "evidence": "In Norfolk, informal credit operates through acts"},
+        {"tag": "affect/tenderness", "evidence": "the human in, that makes it a relationship"},
+        {"tag": "affect/wonder", "evidence": "The gap is the system"},
+        {"tag": "proposed/practice/reciprocating", "evidence": "a personalized batched cocktail, gifted from one bartender"}
+      ]
+    },
+    {
+      "id": "G-13-036",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "Enclosure claimed the value it had refused to create"},
+        {"tag": "affect/clear-eyed", "evidence": "predictably, the banks arrived"},
+        {"tag": "motif/proof-before-theory", "evidence": "financed building improvements for an entire generation"}
+      ]
+    },
+    {
+      "id": "G-13-037",
+      "tags": [
+        {"tag": "affect/disciplined-hope", "evidence": "It is not a future project. It exists"},
+        {"tag": "practice/building", "evidence": "available to join, to build, to use"}
+      ]
+    },
+    {
+      "id": "G-13-038",
+      "tags": [
+        {"tag": "affect/clear-eyed", "evidence": "why this is the hardest part"},
+        {"tag": "affect/grief", "evidence": "I cannot deprogram debt calculation"},
+        {"tag": "image/the-thread", "evidence": "Graeber traced five thousand years of history"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "the hardest thing to actually feel in your body"}
+      ]
+    },
+    {
+      "id": "G-13-039",
+      "tags": [
+        {"tag": "affect/disciplined-hope", "evidence": "It is already running"},
+        {"tag": "image/the-credit-union", "evidence": "the credit union on the corner"},
+        {"tag": "practice/continuing", "evidence": "It is available now"}
+      ]
+    },
+    {
+      "id": "G-AB-001",
+      "tags": [
+        {"tag": "image/the-angel", "evidence": "wings spread but unable to close"},
+        {"tag": "image/the-suitcase", "evidence": "small enough to fit in a suitcase"},
+        {"tag": "affect/unease", "evidence": "could not yet name what was coming"},
+        {"tag": "affect/grief", "evidence": "recognize what it had done to itself"}
+      ]
+    },
+    {
+      "id": "G-AB-002",
+      "tags": [
+        {"tag": "image/the-angel", "evidence": "Walter Benjamin bought the print in 1921"},
+        {"tag": "affect/reverence", "evidence": "kept it on the wall of every room he occupied"},
+        {"tag": "practice/remembering", "evidence": "He gave it the meaning we have inherited"}
+      ]
+    },
+    {
+      "id": "G-AB-003",
+      "tags": [
+        {"tag": "image/the-angel", "evidence": "The angel had become a kind of mascot"},
+        {"tag": "affect/unease", "evidence": "the wrong side of an argument the regime was winning"},
+        {"tag": "image/the-prison-cell", "evidence": "Benjamin took the print with him when he fled"}
+      ]
+    },
+    {
+      "id": "G-AB-004",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "Benjamin's most enduring word... is aura"},
+        {"tag": "image/the-redcedar", "evidence": "what the cedar chip holds"},
+        {"tag": "image/the-restaurant", "evidence": "the kitchen floor under Hampton Boulevard holds"}
+      ]
+    },
+    {
+      "id": "G-AB-005",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "He defined it in 1936"},
+        {"tag": "affect/wonder", "evidence": "a summer afternoon, you follow with your eyes a mountain range"},
+        {"tag": "practice/attending", "evidence": "a branch casting its shadow on you"}
+      ]
+    },
+    {
+      "id": "G-AB-006",
+      "tags": [
+        {"tag": "affect/indictment", "evidence": "The system we live inside has industrialized it"},
+        {"tag": "affect/grief", "evidence": "a thing whose aura has been declared expendable"},
+        {"tag": "affect/clear-eyed", "evidence": "the print can be perfect and still be only the image"}
+      ]
+    },
+    {
+      "id": "G-AB-007",
+      "tags": [
+        {"tag": "practice/naming", "evidence": "Benjamin's word for the same insight"},
+        {"tag": "image/the-redcedar", "evidence": "applied to a Western Redcedar"},
+        {"tag": "affect/reverence", "evidence": "the irreducible, the substitutable's opposite"},
+        {"tag": "image/the-thread", "evidence": "the gesture is universal"}
+      ]
+    },
+    {
+      "id": "G-AB-008",
+      "tags": [
+        {"tag": "image/the-redcedar", "evidence": "To find a shard is to find aura"},
+        {"tag": "motif/defense-of-land", "evidence": "To defend the land is to defend aura"},
+        {"tag": "affect/reverence", "evidence": "The whole chapter is in this word"},
+        {"tag": "practice/attending", "evidence": "to find aura where the market said it had been stripped"}
+      ]
+    }
+  ]
+}

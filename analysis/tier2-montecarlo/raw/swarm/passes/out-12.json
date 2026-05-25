@@ -1,0 +1,367 @@
+{
+  "shard": 12,
+  "gestures": [
+    {
+      "id": "G-AB-009",
+      "tags": [
+        { "tag": "image/the-suitcase", "evidence": "The manuscript in his suitcase when he crossed" },
+        { "tag": "image/the-prison-cell", "evidence": "By 1940 Benjamin was in flight" },
+        { "tag": "affect/grief", "evidence": "in case he did not make it" }
+      ]
+    },
+    {
+      "id": "G-AB-010",
+      "tags": [
+        { "tag": "image/the-angel", "evidence": "it has caught itself in the wings" },
+        { "tag": "affect/grief", "evidence": "would like to stay, to awaken the dead" },
+        { "tag": "practice/attending", "evidence": "the angel sees one single catastrophe" }
+      ]
+    },
+    {
+      "id": "G-AB-011",
+      "tags": [
+        { "tag": "image/the-angel", "evidence": "This storm is what we call progress" }
+      ]
+    },
+    {
+      "id": "G-AB-012",
+      "tags": [
+        { "tag": "image/the-wizard", "evidence": "a description of the wizard's posture" },
+        { "tag": "image/the-angel", "evidence": "The image is not a metaphor" }
+      ]
+    },
+    {
+      "id": "G-AB-013",
+      "tags": [
+        { "tag": "affect/indictment", "evidence": "what was enclosed to make the forward motion possible" },
+        { "tag": "practice/attending", "evidence": "Face the debris" },
+        { "tag": "affect/defiance", "evidence": "Refuse to be blown into the next thing" },
+        { "tag": "practice/refusing", "evidence": "turn around. Face the debris" }
+      ]
+    },
+    {
+      "id": "G-AB-014",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "The angel can only see, which is different" },
+        { "tag": "practice/grieving", "evidence": "register what was lost as actually lost" },
+        { "tag": "affect/grief", "evidence": "what was killed as actually killed" },
+        { "tag": "practice/refusing", "evidence": "To see is to refuse the official forgetting" }
+      ]
+    },
+    {
+      "id": "G-AB-015",
+      "tags": []
+    },
+    {
+      "id": "G-AB-016",
+      "tags": [
+        { "tag": "affect/wonder", "evidence": "a quality of light no one alive has seen" }
+      ]
+    },
+    {
+      "id": "G-AB-017",
+      "tags": [
+        { "tag": "affect/clear-eyed", "evidence": "the official story and its underside" }
+      ]
+    },
+    {
+      "id": "G-AB-018",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "He read the arcades because they were the dream-image" },
+        { "tag": "affect/clear-eyed", "evidence": "the seam between the dream and what the dream actually was" }
+      ]
+    },
+    {
+      "id": "G-AB-019",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "still there, attending to you, asking to be read" },
+        { "tag": "practice/witnessing", "evidence": "feel the specific weight of what it once dreamed" },
+        { "tag": "affect/reverence", "evidence": "feel the specific weight of what it once dreamed itself to be" }
+      ]
+    },
+    {
+      "id": "G-AB-020",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "held in the hand long enough to see" },
+        { "tag": "practice/naming", "evidence": "would later give this move a name" },
+        { "tag": "motif/proof-before-theory", "evidence": "the practice was older than the name" }
+      ]
+    },
+    {
+      "id": "G-AB-021",
+      "tags": [
+        { "tag": "image/the-machine", "evidence": "where capital deposits its wreckage" },
+        { "tag": "motif/flowering", "evidence": "something the planners did not design begins to be made" },
+        { "tag": "practice/attending", "evidence": "the encounters that read the wreckage" }
+      ]
+    },
+    {
+      "id": "G-AB-022",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "The wizard reads the city" },
+        { "tag": "image/the-wizard", "evidence": "The wizard reads the city the way the tracker reads" },
+        { "tag": "image/scattered-seeds", "evidence": "The seed is in the wreckage" },
+        { "tag": "affect/disciplined-hope", "evidence": "The seed is in the wreckage" }
+      ]
+    },
+    {
+      "id": "G-AB-023",
+      "tags": [
+        { "tag": "practice/naming", "evidence": "Benjamin had a name for what happens" }
+      ]
+    },
+    {
+      "id": "G-AB-024",
+      "tags": [
+        { "tag": "practice/naming", "evidence": "He called it the dialectical image" },
+        { "tag": "practice/attending", "evidence": "the moment it can be recognized" },
+        { "tag": "affect/clear-eyed", "evidence": "The moment of its legibility does" }
+      ]
+    },
+    {
+      "id": "G-AB-025",
+      "tags": [
+        { "tag": "image/the-wizard", "evidence": "This is what the wizard is doing in the city" },
+        { "tag": "image/the-redcedar", "evidence": "The chip from the cut flashed up" },
+        { "tag": "practice/attending", "evidence": "until a specific fragment becomes legible" },
+        { "tag": "practice/holding", "evidence": "two people walking the Scar had spent years learning to read" }
+      ]
+    },
+    {
+      "id": "G-AB-026",
+      "tags": [
+        { "tag": "image/the-redcedar", "evidence": "The cedar is no longer cedar; it is a witness" },
+        { "tag": "practice/holding", "evidence": "Hold it long enough that the present can use it" },
+        { "tag": "practice/witnessing", "evidence": "it is a witness held in the hand" },
+        { "tag": "practice/attending", "evidence": "The grammar of the world rearranges" }
+      ]
+    },
+    {
+      "id": "G-AB-027",
+      "tags": [
+        { "tag": "image/the-angel", "evidence": "The angel is mad by the logic of progress" },
+        { "tag": "affect/indictment", "evidence": "mad by the logic of progress" }
+      ]
+    },
+    {
+      "id": "G-AB-028",
+      "tags": [
+        { "tag": "image/the-angel", "evidence": "The angel sees too much" },
+        { "tag": "image/the-armor", "evidence": "smile at the supervisor whose smile carries the weight" },
+        { "tag": "affect/indictment", "evidence": "a clinical name and a prescription pad" },
+        { "tag": "practice/attending", "evidence": "To face the wreckage" }
+      ]
+    },
+    {
+      "id": "G-AB-029",
+      "tags": [
+        { "tag": "image/the-firing-squad", "evidence": "Klee was named degenerate by the Nazis" },
+        { "tag": "affect/indictment", "evidence": "The angel was on the list" },
+        { "tag": "affect/grief", "evidence": "His paintings were taken down from museums" }
+      ]
+    },
+    {
+      "id": "G-AB-030",
+      "tags": [
+        { "tag": "motif/body-without-organs", "evidence": "the one walking rather than lying on the couch" },
+        { "tag": "affect/clear-eyed", "evidence": "the clear sight of a subject who has refused" },
+        { "tag": "practice/refusing", "evidence": "refused the triangulation the system uses" },
+        { "tag": "image/the-angel", "evidence": "The angel is one of these" }
+      ]
+    },
+    {
+      "id": "G-AB-031",
+      "tags": [
+        { "tag": "image/the-angel", "evidence": "To take the angel's posture" },
+        { "tag": "affect/defiance", "evidence": "asking you to take it anyway" },
+        { "tag": "affect/disciplined-hope", "evidence": "The risk is real" }
+      ]
+    },
+    {
+      "id": "G-AB-032",
+      "tags": [
+        { "tag": "image/the-angel", "evidence": "The angel cannot stand alone for long" },
+        { "tag": "practice/holding", "evidence": "cannot stand alone for long" }
+      ]
+    },
+    {
+      "id": "G-AB-033",
+      "tags": [
+        { "tag": "practice/holding", "evidence": "too much for one body to register" },
+        { "tag": "image/the-thread", "evidence": "carried his words across the border he could not" },
+        { "tag": "practice/descending", "evidence": "the descent requires a community that knows how to receive" },
+        { "tag": "image/the-suitcase", "evidence": "Benjamin had Arendt, who carried his words" }
+      ]
+    },
+    {
+      "id": "G-AB-034",
+      "tags": [
+        { "tag": "practice/gathering", "evidence": "The wizard finds the others" },
+        { "tag": "image/the-circle", "evidence": "a reading group in someone's kitchen" },
+        { "tag": "image/the-hedgerow", "evidence": "Erin at the edge of the hedgerow at dusk" },
+        { "tag": "practice/holding", "evidence": "the sight does not have to be carried alone" }
+      ]
+    },
+    {
+      "id": "G-AB-035",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "the group's awareness shifts, and everyone attends" },
+        { "tag": "practice/holding", "evidence": "It makes the grief possible to hold" },
+        { "tag": "affect/tenderness", "evidence": "It is really beautiful" },
+        { "tag": "affect/grief", "evidence": "makes the grief possible to hold" }
+      ]
+    },
+    {
+      "id": "G-AB-036",
+      "tags": [
+        { "tag": "image/the-circle", "evidence": "The angel in a roomful of angels is a council" },
+        { "tag": "practice/holding", "evidence": "what you saw stays seen because someone else also sees" },
+        { "tag": "practice/witnessing", "evidence": "you are not the only witness" }
+      ]
+    },
+    {
+      "id": "G-AB-037",
+      "tags": [
+        { "tag": "practice/witnessing", "evidence": "Not every witness is on the line" }
+      ]
+    },
+    {
+      "id": "G-AB-038",
+      "tags": [
+        { "tag": "image/zuccotti-park", "evidence": "Zuccotti Park in October 2011" },
+        { "tag": "motif/defense-of-land", "evidence": "the encampment at the headwaters of any river" },
+        { "tag": "affect/defiance", "evidence": "Their refusal made physical" },
+        { "tag": "practice/refusing", "evidence": "Their refusal made physical" }
+      ]
+    },
+    {
+      "id": "G-AB-039",
+      "tags": [
+        { "tag": "image/the-screen", "evidence": "watching through the screen as friends do the thing" },
+        { "tag": "practice/holding", "evidence": "the line is held by people on the line" },
+        { "tag": "affect/tenderness", "evidence": "Someone is keeping a household together" }
+      ]
+    },
+    {
+      "id": "G-AB-040",
+      "tags": [
+        { "tag": "image/the-screen", "evidence": "the screen-distance between you and the friends" },
+        { "tag": "affect/grief", "evidence": "There is a grief in the back line" },
+        { "tag": "affect/clear-eyed", "evidence": "Not as consolation. As honest accounting" },
+        { "tag": "practice/grieving", "evidence": "That grief is real" }
+      ]
+    },
+    {
+      "id": "G-AB-041",
+      "tags": [
+        { "tag": "image/the-hedgerow", "evidence": "the neighbor on the walk" },
+        { "tag": "affect/conviction", "evidence": "the defense requires whatever the reader actually has" },
+        { "tag": "practice/positioning", "evidence": "the reader has a specific gift" }
+      ]
+    },
+    {
+      "id": "G-AB-042",
+      "tags": [
+        { "tag": "practice/attending", "evidence": "You pay attention. You look for ways to be helpful" },
+        { "tag": "affect/conviction", "evidence": "you do not refuse the courage you do" }
+      ]
+    },
+    {
+      "id": "G-AB-043",
+      "tags": [
+        { "tag": "practice/positioning", "evidence": "I have been in three wreckages I can tell you about" }
+      ]
+    },
+    {
+      "id": "G-AB-044",
+      "tags": [
+        { "tag": "image/old-growth-forest", "evidence": "The first was a forest in Washington" }
+      ]
+    },
+    {
+      "id": "G-AB-045",
+      "tags": [
+        { "tag": "image/old-growth-forest", "evidence": "the planted forest — extremely tall, skinny trees" },
+        { "tag": "image/the-deer", "evidence": "deer still walking their trails" },
+        { "tag": "affect/unease", "evidence": "The forest was already wrong before you reached the cut" },
+        { "tag": "practice/attending", "evidence": "used by deer, bear, raccoon, possum" }
+      ]
+    },
+    {
+      "id": "G-AB-046",
+      "tags": [
+        { "tag": "image/songbirds", "evidence": "The Cooper's hawk I first really saw was hunting there" },
+        { "tag": "affect/grief", "evidence": "it looked and felt like a scar on the land" },
+        { "tag": "affect/unease", "evidence": "You could feel it before you got there" },
+        { "tag": "practice/attending", "evidence": "The light changed. The smell changed" }
+      ]
+    },
+    {
+      "id": "G-AB-047",
+      "tags": [
+        { "tag": "affect/grief", "evidence": "And there was the grief" }
+      ]
+    },
+    {
+      "id": "G-AB-048",
+      "tags": [
+        { "tag": "affect/grief", "evidence": "you know how grief moves and transforms in the body" },
+        { "tag": "motif/knowing-in-the-body", "evidence": "how grief moves and transforms in the body" },
+        { "tag": "practice/grieving", "evidence": "If you find yourself holding this grief for the land" },
+        { "tag": "practice/holding", "evidence": "not meant to be borne by one person" },
+        { "tag": "practice/gathering", "evidence": "find others before it consumes you" }
+      ]
+    },
+    {
+      "id": "G-AB-049",
+      "tags": [
+        { "tag": "image/the-redcedar", "evidence": "One day we took a chip" },
+        { "tag": "affect/reverence", "evidence": "that is the lesson from that ceremony" },
+        { "tag": "practice/attending", "evidence": "you know the shard that is yours to take" },
+        { "tag": "affect/humility", "evidence": "if you do not know, you know that you do not know" }
+      ]
+    },
+    {
+      "id": "G-AB-050",
+      "tags": [
+        { "tag": "image/the-redcedar", "evidence": "The chip sat above the bar at our restaurant" },
+        { "tag": "image/the-restaurant", "evidence": "sat above the bar at our restaurant for years" },
+        { "tag": "affect/reverence", "evidence": "Very few people have touched it" },
+        { "tag": "practice/witnessing", "evidence": "there for the people who know" }
+      ]
+    },
+    {
+      "id": "G-AB-051",
+      "tags": [
+        { "tag": "image/the-redcedar", "evidence": "The chip remembers the pile" },
+        { "tag": "practice/remembering", "evidence": "Trees remember" },
+        { "tag": "affect/grief", "evidence": "It is easy to forget the hard things" }
+      ]
+    },
+    {
+      "id": "G-AB-052",
+      "tags": [
+        { "tag": "affect/grief", "evidence": "how hard it is for me to go to Home Depot" }
+      ]
+    },
+    {
+      "id": "G-AB-053",
+      "tags": [
+        { "tag": "motif/demolished-from-outside", "evidence": "felt the kitchen floors of the houses they took" },
+        { "tag": "affect/indictment", "evidence": "The wreckage is not metaphor; it is geological" },
+        { "tag": "practice/attending", "evidence": "The collector finds the corner store" },
+        { "tag": "image/scattered-seeds", "evidence": "a community garden in the right-of-way" }
+      ]
+    },
+    {
+      "id": "G-AB-054",
+      "tags": [
+        { "tag": "image/the-restaurant", "evidence": "The third was a restaurant" },
+        { "tag": "image/the-redcedar", "evidence": "The chip was above the bar the whole time" },
+        { "tag": "image/scattered-seeds", "evidence": "The seeds are the meals that worked" },
+        { "tag": "affect/disciplined-hope", "evidence": "succeeded in some unpredictable ones" },
+        { "tag": "image/the-thread", "evidence": "a cook who learned a knife skill and took it elsewhere" }
+      ]
+    }
+  ]
+}

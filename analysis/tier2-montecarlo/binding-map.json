@@ -1,0 +1,786 @@
+{
+  "image/the-highway": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-IW",
+      "P-GC",
+      "P-07",
+      "P-11",
+      "P-12",
+      "P-14",
+      "P-17",
+      "P-CE"
+    ],
+    "gestures": 23
+  },
+  "image/the-screen": {
+    "plateaus": [
+      "P-PR",
+      "P-02",
+      "P-03",
+      "P-05",
+      "P-08",
+      "P-12",
+      "P-AB",
+      "P-RE",
+      "P-16",
+      "P-16b",
+      "P-17"
+    ],
+    "gestures": 21
+  },
+  "image/night-herons": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-IW",
+      "P-12",
+      "P-CE",
+      "P-EP"
+    ],
+    "gestures": 18
+  },
+  "image/the-operating-system": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-03",
+      "P-09"
+    ],
+    "gestures": 8
+  },
+  "image/common-land-fenced": {
+    "plateaus": [
+      "P-PR",
+      "P-15"
+    ],
+    "gestures": 3
+  },
+  "image/the-credit-union": {
+    "plateaus": [
+      "P-PR",
+      "P-11",
+      "P-13",
+      "P-AB"
+    ],
+    "gestures": 7
+  },
+  "image/old-growth-forest": {
+    "plateaus": [
+      "P-PR",
+      "P-IW",
+      "P-12",
+      "P-AB",
+      "P-14",
+      "P-16",
+      "P-16b",
+      "P-17",
+      "P-WW"
+    ],
+    "gestures": 19
+  },
+  "image/the-centaur": {
+    "plateaus": [
+      "P-PR",
+      "P-16b",
+      "P-18",
+      "P-CE"
+    ],
+    "gestures": 20
+  },
+  "image/the-machine": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-02",
+      "P-03",
+      "P-GC",
+      "P-05",
+      "P-07",
+      "P-08",
+      "P-OA",
+      "P-10",
+      "P-11",
+      "P-13",
+      "P-AB",
+      "P-14",
+      "P-16",
+      "P-16b",
+      "P-EP"
+    ],
+    "gestures": 38
+  },
+  "image/water-tribunal": {
+    "plateaus": [
+      "P-PR",
+      "P-03",
+      "P-04",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-CE"
+    ],
+    "gestures": 9
+  },
+  "image/the-land-trust": {
+    "plateaus": [
+      "P-PR",
+      "P-02",
+      "P-04",
+      "P-09",
+      "P-AB",
+      "P-14",
+      "P-WW"
+    ],
+    "gestures": 16
+  },
+  "image/the-rising-river": {
+    "plateaus": [
+      "P-PR",
+      "P-12",
+      "P-14",
+      "P-16",
+      "P-18"
+    ],
+    "gestures": 11
+  },
+  "image/the-circle": {
+    "plateaus": [
+      "P-PR",
+      "P-GC",
+      "P-OA",
+      "P-12",
+      "P-AB",
+      "P-17",
+      "P-18",
+      "P-WW"
+    ],
+    "gestures": 19
+  },
+  "image/zuccotti-park": {
+    "plateaus": [
+      "P-PR",
+      "P-11",
+      "P-AB",
+      "P-16",
+      "P-18"
+    ],
+    "gestures": 7
+  },
+  "image/the-shrug": {
+    "plateaus": [
+      "P-01",
+      "P-02",
+      "P-GC",
+      "P-06",
+      "P-07",
+      "P-08",
+      "P-OA",
+      "P-WW"
+    ],
+    "gestures": 17
+  },
+  "image/the-superblock": {
+    "plateaus": [
+      "P-01",
+      "P-IB",
+      "P-11",
+      "P-18"
+    ],
+    "gestures": 12
+  },
+  "image/the-uncut-meadow": {
+    "plateaus": [
+      "P-01",
+      "P-03",
+      "P-09",
+      "P-AB",
+      "P-RE",
+      "P-WW",
+      "P-EP"
+    ],
+    "gestures": 12
+  },
+  "image/songbirds": {
+    "plateaus": [
+      "P-01",
+      "P-IW",
+      "P-04",
+      "P-OA",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-AB",
+      "P-RE",
+      "P-17",
+      "P-WW",
+      "P-EP"
+    ],
+    "gestures": 26
+  },
+  "image/the-library": {
+    "plateaus": [
+      "P-OA",
+      "P-11"
+    ],
+    "gestures": 2
+  },
+  "image/the-restaurant": {
+    "plateaus": [
+      "P-01",
+      "P-03",
+      "P-04",
+      "P-GC",
+      "P-06",
+      "P-08",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-12",
+      "P-13",
+      "P-AB",
+      "P-18",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "gestures": 41
+  },
+  "image/the-coffee-shop": {
+    "plateaus": [
+      "P-GC",
+      "P-11",
+      "P-WW"
+    ],
+    "gestures": 4
+  },
+  "image/the-prison-cell": {
+    "plateaus": [
+      "P-03",
+      "P-IW",
+      "P-GC",
+      "P-05",
+      "P-07",
+      "P-08",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-12",
+      "P-AB",
+      "P-EP"
+    ],
+    "gestures": 19
+  },
+  "image/the-occupied-factory": {
+    "plateaus": [
+      "P-OA",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-16"
+    ],
+    "gestures": 9
+  },
+  "image/the-caracoles": {
+    "plateaus": [
+      "P-04",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-18"
+    ],
+    "gestures": 7
+  },
+  "image/the-thread": {
+    "plateaus": [
+      "P-02",
+      "P-IW",
+      "P-GC",
+      "P-08",
+      "P-OA",
+      "P-09",
+      "P-11",
+      "P-13",
+      "P-AB",
+      "P-14",
+      "P-RE",
+      "P-16",
+      "P-16b",
+      "P-WW",
+      "P-CE"
+    ],
+    "gestures": 24
+  },
+  "image/the-bamboo-dam": {
+    "plateaus": [
+      "P-03",
+      "P-04",
+      "P-11",
+      "P-RE"
+    ],
+    "gestures": 6
+  },
+  "image/the-typhoon": {
+    "plateaus": [
+      "P-03",
+      "P-05",
+      "P-11",
+      "P-WW"
+    ],
+    "gestures": 6
+  },
+  "image/the-plantation": {
+    "plateaus": [
+      "P-02",
+      "P-03",
+      "P-04",
+      "P-05",
+      "P-06",
+      "P-07",
+      "P-12",
+      "P-15"
+    ],
+    "gestures": 10
+  },
+  "image/the-deer": {
+    "plateaus": [
+      "P-IW",
+      "P-12",
+      "P-AB",
+      "P-14",
+      "P-EP"
+    ],
+    "gestures": 10
+  },
+  "image/the-angel": {
+    "plateaus": [
+      "P-AB",
+      "P-WW"
+    ],
+    "gestures": 19
+  },
+  "image/the-redcedar": {
+    "plateaus": [
+      "P-AB",
+      "P-14",
+      "P-WW"
+    ],
+    "gestures": 15
+  },
+  "image/the-wizard": {
+    "plateaus": [
+      "P-04",
+      "P-OA",
+      "P-AB",
+      "P-14",
+      "P-16",
+      "P-WW"
+    ],
+    "gestures": 12
+  },
+  "image/scattered-seeds": {
+    "plateaus": [
+      "P-IW",
+      "P-GC",
+      "P-09",
+      "P-AB",
+      "P-16b",
+      "P-EP"
+    ],
+    "gestures": 10
+  },
+  "image/the-armor": {
+    "plateaus": [
+      "P-02",
+      "P-GC",
+      "P-06",
+      "P-07",
+      "P-OA",
+      "P-09",
+      "P-10",
+      "P-AB",
+      "P-RE",
+      "P-16",
+      "P-18",
+      "P-WW",
+      "P-CE"
+    ],
+    "gestures": 26
+  },
+  "image/the-firing-squad": {
+    "plateaus": [
+      "P-04",
+      "P-05",
+      "P-06",
+      "P-07",
+      "P-OA",
+      "P-10",
+      "P-AB",
+      "P-15",
+      "P-RE"
+    ],
+    "gestures": 14
+  },
+  "image/the-hedgerow": {
+    "plateaus": [
+      "P-03",
+      "P-09",
+      "P-AB",
+      "P-RE",
+      "P-WW"
+    ],
+    "gestures": 7
+  },
+  "image/the-foundation-stone": {
+    "plateaus": [
+      "P-04",
+      "P-09",
+      "P-14"
+    ],
+    "gestures": 3
+  },
+  "image/the-7-eleven": {
+    "plateaus": [
+      "P-06",
+      "P-14"
+    ],
+    "gestures": 3
+  },
+  "image/the-doves": {
+    "plateaus": [
+      "P-RE",
+      "P-EP"
+    ],
+    "gestures": 4
+  },
+  "image/the-grimoire": {
+    "plateaus": [
+      "P-GC",
+      "P-RE",
+      "P-16b",
+      "P-WW"
+    ],
+    "gestures": 8
+  },
+  "image/mycorrhizal-network": {
+    "plateaus": [
+      "P-04",
+      "P-GC",
+      "P-16",
+      "P-16b",
+      "P-18"
+    ],
+    "gestures": 12
+  },
+  "image/the-mirror": {
+    "plateaus": [
+      "P-07",
+      "P-08",
+      "P-16",
+      "P-16b"
+    ],
+    "gestures": 9
+  },
+  "image/the-interface": {
+    "plateaus": [
+      "P-02",
+      "P-16"
+    ],
+    "gestures": 2
+  },
+  "image/the-named-demon": {
+    "plateaus": [
+      "P-GC",
+      "P-17",
+      "P-WW"
+    ],
+    "gestures": 10
+  },
+  "image/the-communal-kitchen": {
+    "plateaus": [
+      "P-05",
+      "P-10",
+      "P-18",
+      "P-WW"
+    ],
+    "gestures": 6
+  },
+  "image/the-village-assembly": {
+    "plateaus": [
+      "P-01",
+      "P-02",
+      "P-04",
+      "P-WW"
+    ],
+    "gestures": 4
+  },
+  "image/the-floor": {
+    "plateaus": [
+      "P-04",
+      "P-OA"
+    ],
+    "gestures": 8
+  },
+  "image/the-sidewalk-fridge": {
+    "plateaus": [
+      "P-04",
+      "P-07"
+    ],
+    "gestures": 3
+  },
+  "image/the-held-jaw": {
+    "plateaus": [
+      "P-GC",
+      "P-OA"
+    ],
+    "gestures": 3
+  },
+  "image/the-mask": {
+    "plateaus": [
+      "P-06",
+      "P-07",
+      "P-OA"
+    ],
+    "gestures": 4
+  },
+  "motif/trickle-vs-flood": {
+    "plateaus": [
+      "P-PR",
+      "P-02",
+      "P-04",
+      "P-05",
+      "P-06",
+      "P-12",
+      "P-14",
+      "P-15",
+      "P-16",
+      "P-EP"
+    ],
+    "gestures": 15
+  },
+  "motif/demolished-from-outside": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-02",
+      "P-06",
+      "P-07",
+      "P-08",
+      "P-09",
+      "P-11",
+      "P-12",
+      "P-AB",
+      "P-14",
+      "P-18"
+    ],
+    "gestures": 21
+  },
+  "motif/return-migration": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-IB",
+      "P-03",
+      "P-04",
+      "P-05",
+      "P-06",
+      "P-07",
+      "P-08",
+      "P-13",
+      "P-14",
+      "P-15",
+      "P-17",
+      "P-18",
+      "P-WW",
+      "P-EP"
+    ],
+    "gestures": 30
+  },
+  "motif/the-lineage": {
+    "plateaus": [
+      "P-PR",
+      "P-03",
+      "P-04",
+      "P-06",
+      "P-07",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-16b",
+      "P-17",
+      "P-18",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "gestures": 26
+  },
+  "motif/flowering": {
+    "plateaus": [
+      "P-PR",
+      "P-IB",
+      "P-GC",
+      "P-11",
+      "P-AB",
+      "P-RE",
+      "P-16",
+      "P-17",
+      "P-18",
+      "P-CE"
+    ],
+    "gestures": 31
+  },
+  "motif/knowing-in-the-body": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-03",
+      "P-IW",
+      "P-GC",
+      "P-OA",
+      "P-10",
+      "P-11",
+      "P-12",
+      "P-13",
+      "P-AB",
+      "P-14",
+      "P-15",
+      "P-RE",
+      "P-16",
+      "P-16b",
+      "P-17",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "gestures": 63
+  },
+  "motif/proof-before-theory": {
+    "plateaus": [
+      "P-PR",
+      "P-IB",
+      "P-03",
+      "P-04",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-13",
+      "P-AB",
+      "P-14",
+      "P-15",
+      "P-16",
+      "P-16b",
+      "P-18",
+      "P-CE",
+      "P-EP"
+    ],
+    "gestures": 32
+  },
+  "motif/distillation": {
+    "plateaus": [
+      "P-PR",
+      "P-03",
+      "P-04",
+      "P-GC",
+      "P-11",
+      "P-13",
+      "P-14",
+      "P-17",
+      "P-18"
+    ],
+    "gestures": 11
+  },
+  "motif/self-governance-in-public": {
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-04",
+      "P-06",
+      "P-09",
+      "P-10",
+      "P-12",
+      "P-16",
+      "P-18"
+    ],
+    "gestures": 19
+  },
+  "motif/making-common-sense": {
+    "plateaus": [
+      "P-01",
+      "P-03",
+      "P-IW",
+      "P-GC",
+      "P-09",
+      "P-11",
+      "P-12",
+      "P-18"
+    ],
+    "gestures": 17
+  },
+  "motif/cannot-verify-from-inside": {
+    "plateaus": [
+      "P-01",
+      "P-IB",
+      "P-03",
+      "P-GC",
+      "P-05",
+      "P-06",
+      "P-07",
+      "P-08",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-12",
+      "P-14",
+      "P-15",
+      "P-16",
+      "P-16b",
+      "P-WW",
+      "P-CE"
+    ],
+    "gestures": 45
+  },
+  "motif/defense-of-land": {
+    "plateaus": [
+      "P-01",
+      "P-05",
+      "P-06",
+      "P-12",
+      "P-AB",
+      "P-14",
+      "P-17"
+    ],
+    "gestures": 17
+  },
+  "motif/dissolving-boundary": {
+    "plateaus": [
+      "P-IB",
+      "P-12",
+      "P-16",
+      "P-18",
+      "P-WW"
+    ],
+    "gestures": 9
+  },
+  "motif/body-without-organs": {
+    "plateaus": [
+      "P-AB",
+      "P-16",
+      "P-16b",
+      "P-17",
+      "P-18"
+    ],
+    "gestures": 19
+  },
+  "motif/falling-through-the-gap": {
+    "plateaus": [
+      "P-08",
+      "P-10",
+      "P-16",
+      "P-16b",
+      "P-CE"
+    ],
+    "gestures": 17
+  }
+}
