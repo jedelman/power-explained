@@ -6,6 +6,7 @@ slug: the-baseline-is-simpler-than
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - practice/guesting
   - emotion/humility

@@ -6,6 +6,7 @@ slug: you-cannot-protect-what-you-cannot
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - image/the-uncut-meadow
   - image/the-screen

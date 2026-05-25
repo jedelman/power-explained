@@ -6,6 +6,7 @@ slug: i-see-the-processes-the-relationship
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - concept/attention
   - practice/attending

@@ -6,6 +6,7 @@ slug: here-is-what-re-enchantment-is-not
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - emotion/clear-eyed
   - image/songbirds

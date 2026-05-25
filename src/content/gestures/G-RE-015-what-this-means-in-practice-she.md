@@ -6,6 +6,7 @@ slug: what-this-means-in-practice-she
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - concept/attention
   - image/the-hedgerow

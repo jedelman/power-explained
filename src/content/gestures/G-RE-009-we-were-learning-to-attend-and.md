@@ -6,6 +6,7 @@ slug: we-were-learning-to-attend-and
 tags:
   - plateau/P-RE
   - voice/jason
+  - kind/naturalist
   - status/draft
   - concept/practice
   - concept/attention
