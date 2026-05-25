@@ -14,4 +14,6 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The rule is this: things that communities held in common — that everyone had access to, that nobody owned, that were governed collectively or not governed at all — have been, one by one, converted into things that someone controls for private benefit.
+The condition is this: the protection of private, formal status and privilege — at the expense of the things the world needs to live. Clean air and water. Healthy soil. Knowledge and social connection.
+
+It doesn't require planning. It requires only maintenance.

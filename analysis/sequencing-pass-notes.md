@@ -57,7 +57,7 @@ binding image lands so we can feel the spacing.
 Decisions, edits made, and seams checked, in reading order.
 
 ### P-PR — Prologue: Look Up
-**Current position: G-PR-006 (next to read).**
+**Current position: G-PR-016 (next to read).**
 
 - **G-PR-001 — DONE.** Applied voice contract + cut the redundant third
   sentence ("every angle / no angle"). Now: "Rent went up again this year.
@@ -66,6 +66,44 @@ Decisions, edits made, and seams checked, in reading order.
   They said there's nothing they can do: costs are up everywhere, they have to
   stay competitive. You know this isn't quite true. You also know there's
   nothing you can do about it."
+- **G-PR-015 — DONE.** Passes clean. The naming moment — three gestures
+  building to this single sentence. Threading holds.
+- **G-PR-014 — DONE.** Passes clean. Three-register naming gesture — academic /
+  Marxist / vernacular. Referent for "this process" holds after G-PR-013 rewrite.
+- **G-PR-013 — DONE.** Opening reframed: "In order to create this system of
+  privilege, land that was common had to become property" — bridges from G-PR-012's
+  maintenance/sacrifice frame. Care sentence: "an essential convenience for those
+  who can afford it, an unaffordable luxury for the rest of us, and a multitrillion
+  dollar global industry" — three-beat escalation (individual / collective / industry
+  scale). Close: "right to govern" → "most fundamental decisions" — rights are
+  also a form of privilege; decisions names the practical power directly.
+- **G-PR-012 — DONE.** Major rewrite: "rule" → "condition" (threads from
+  G-PR-011's "conditions we can name"). Frame shifted from enclosure-process
+  to sacrifice: what the protection of private formal status costs the living
+  world. List broken into short sentences for weight. Close: "It doesn't require
+  planning. It requires only maintenance." — echoes G-PR-011 without repeating.
+  G-PR-013 opening likely needs adjustment.
+- **G-PR-011 — DONE.** Dropped preemptive "not a conspiracy" opening per
+  CLAUDE.md anti-pattern. "your rent" → "the rent" (voice contract, condition
+  is silent-We). "built into the rules of the game" → "emerges under specific
+  conditions — conditions we can name" — threads the naming motif from G-PR-009.
+- **G-PR-009 — DONE.** Major rewrite: first Wizard pivot. Opens cold on
+  the herons ("Millions of years in the shallows...") — no thesis preamble.
+  Resilience grounded in immanence ("fully in the world, without remainder").
+  Human connection to same world framed as memory, not projection. Human gift:
+  naming empowers change — not "we can see what's broken" (herons see it too)
+  but the specific power of naming. "The herons can benefit from these gifts
+  as much as us." Dropped "why things keep getting worse" thesis frame entirely.
+  New thesis: "This is a book about learning to use them."
+- **G-PR-008 — DONE.** "oak and willow" → "willow oak" (species, not two trees) —
+  also fixed retroactively in G-PR-006. "Without deciding it" → "without any
+  discussion." Dropped "The herons don't know any of this" — they do. "thousands
+  of years" → "millions of years" (lineage scale, not individual).
+- **G-PR-007 — DONE.** Passes clean. Tonal pop lands correctly against G-PR-006.
+  "Look up" does double duty: practical + title gesture.
+- **G-PR-006 — DONE.** "old" → "ancient" — species lineage, not individual age.
+  Section break before this gesture (from G-PR-003) earns the gear-shift.
+  "Utterly itself" holds as the payoff.
 - **G-PR-003 — DONE.** Highway line rewritten: "justified bulldozing people's
   homes by pointing out they weren't entitled to them" — names the logic of
   dispossession rather than just the outcome. Labeling paragraph cut ("One is
