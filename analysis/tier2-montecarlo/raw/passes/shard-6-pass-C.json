@@ -1,0 +1,279 @@
+{"pass":"C","shard":6,"gestures":[
+{"id":"G-17-033","tags":[
+  {"tag":"motif/grief-and-praise","evidence":"grief and praise are inseparable"},
+  {"tag":"image/the-feast","evidence":"The feast will end"},
+  {"tag":"motif/return-from-underworld","evidence":"return of anyone who has been in the underworld"},
+  {"tag":"affect/tender-grief","evidence":"Grief is not the failure of love"}
+]},
+{"id":"G-17-036","tags":[
+  {"tag":"image/metal-roof","evidence":"A metal roof lasts twenty years"},
+  {"tag":"motif/return-as-infrastructure","evidence":"an infrastructure for the return"},
+  {"tag":"motif/refusal-of-enclosure","evidence":"recognized the enclosure of the occasion and refused it"},
+  {"tag":"affect/quiet-indictment","evidence":"replaced with nothing"}
+]},
+{"id":"G-17-041","tags":[
+  {"tag":"image/the-sidewalk","evidence":"the sidewalk equivalent of the speaking circle"},
+  {"tag":"image/the-baker","evidence":"The baker knows when someone on the block"},
+  {"tag":"motif/distributed-intelligence","evidence":"The intelligence was distributed"},
+  {"tag":"motif/attending-the-ordinary","evidence":"attending to the ordinary for years"},
+  {"tag":"affect/quiet-trust","evidence":"owned by no one"}
+]},
+{"id":"G-17-046","tags":[
+  {"tag":"motif/emergent-commons","evidence":"Nobody designed it. It emerged"},
+  {"tag":"image/language-itself","evidence":"Like language itself, it belongs to no one"},
+  {"tag":"motif/rooted-in-place","evidence":"it is specific to the place"},
+  {"tag":"affect/reverence","evidence":"belongs to no one and everyone"}
+]},
+{"id":"G-17-051","tags":[
+  {"tag":"motif/ascent-from-underworld","evidence":"out of the underworld, toward the community"},
+  {"tag":"motif/outward-and-upward","evidence":"The direction of this chapter is outward and upward"},
+  {"tag":"affect/disciplined-hope","evidence":"learn to welcome and attend"}
+]},
+{"id":"G-18-002","tags":[
+  {"tag":"image/zuccotti-park","evidence":"People gathered in Zuccotti Park"},
+  {"tag":"motif/self-governance-in-the-open","evidence":"tried to govern themselves in public"},
+  {"tag":"affect/defiance","evidence":"without leaders, without a party"}
+]},
+{"id":"G-18-003","tags":[
+  {"tag":"image/the-mycorrhizal-network","evidence":"The mycorrhizal network, finally fast enough"},
+  {"tag":"image/herd-of-centaurs","evidence":"A herd of centaurs occupied Wall Street"},
+  {"tag":"motif/the-gift-given-away","evidence":"open protocols that Berners-Lee gave away"},
+  {"tag":"affect/awe","evidence":"distributed intelligence that none of them could have accessed alone"}
+]},
+{"id":"G-18-006","tags":[
+  {"tag":"motif/exodus","evidence":"it needs to exodus from the subjective identities"},
+  {"tag":"motif/learning-to-want-together","evidence":"they had discovered how to want together"},
+  {"tag":"image/the-peoples-mic","evidence":"The people's mic, the general assembly"},
+  {"tag":"affect/discovery","evidence":"poor in demands but rich in forms"}
+]},
+{"id":"G-18-012","tags":[
+  {"tag":"image/herd-needing-form","evidence":"The herd needed governance"},
+  {"tag":"motif/demolition-from-outside","evidence":"demolished from outside, by coordinated municipal action"},
+  {"tag":"motif/recurring-enclosure-pattern","evidence":"the same pattern Federici documented in the fifteenth century"},
+  {"tag":"affect/grim-recognition","evidence":"It destroys the conditions"}
+]},
+{"id":"G-18-016","tags":[
+  {"tag":"image/the-brewery-next-door","evidence":"anti-LGBTQ brewery seeking a permit next door"},
+  {"tag":"motif/institution-returning-nothing","evidence":"return nothing that cost anything"},
+  {"tag":"motif/energy-processed-into-legitimacy","evidence":"processing community energy into institutional legitimacy"},
+  {"tag":"affect/burnout","evidence":"I burned out watching the institution"},
+  {"tag":"affect/indictment","evidence":"function exactly as designed"}
+]},
+{"id":"G-18-022","tags":[
+  {"tag":"motif/unblocked-flow","evidence":"unblocked desiring production"},
+  {"tag":"motif/form-that-holds-flow","evidence":"the form that could hold that flow across time"},
+  {"tag":"image/the-structure-carrying-weight","evidence":"the structure must carry the weight"},
+  {"tag":"affect/wistful-recognition","evidence":"in its best moments"}
+]},
+{"id":"G-18-024","tags":[
+  {"tag":"motif/bringing-the-gift","evidence":"the people using it bring their gifts"},
+  {"tag":"motif/initiated-vs-uninitiated","evidence":"runs on position. The initiated one runs on gift"},
+  {"tag":"motif/conflict-as-information","evidence":"navigated as threat or as information"},
+  {"tag":"affect/measured-conviction","evidence":"discovered what they carry"}
+]},
+{"id":"G-18-026","tags":[
+  {"tag":"image/herd-of-centaurs","evidence":"A herd of centaurs, each one carrying"},
+  {"tag":"motif/the-multitude-as-prince","evidence":"The multitude itself — governing through the commons"},
+  {"tag":"motif/oblique-angle","evidence":"each one carrying the oblique angle"},
+  {"tag":"motif/return-from-descent","evidence":"each made some descent and brought something back"}
+]},
+{"id":"G-18-032","tags":[
+  {"tag":"image/the-flowering-earth","evidence":"The Flowering Earth"},
+  {"tag":"motif/flowering","evidence":"the process of producing beauty, complexity, singularity"},
+  {"tag":"motif/living-being-not-resource","evidence":"the earth as a living being"},
+  {"tag":"affect/reverence","evidence":"Flowering"}
+]},
+{"id":"G-18-039","tags":[
+  {"tag":"image/herd-of-centaurs","evidence":"The herd of centaurs — each one carrying"},
+  {"tag":"motif/return-from-underworld","evidence":"each one carrying what the underworld gave them"},
+  {"tag":"motif/the-oblique-angle","evidence":"the oblique angle, the rupture"},
+  {"tag":"motif/feeding-the-flowering","evidence":"feeding the flowering that is the point"},
+  {"tag":"image/the-machine-intelligence","evidence":"in conversation with the machine intelligence"}
+]},
+{"id":"G-WW-001","tags":[
+  {"tag":"image/the-walking-body","evidence":"your body has carried this book across some distance"},
+  {"tag":"motif/the-walk","evidence":"The walking is what this chapter is about"},
+  {"tag":"motif/no-finish-line","evidence":"You are not at a finish line. There isn't one"},
+  {"tag":"affect/praise","evidence":"that is the first good thing"}
+]},
+{"id":"G-WW-004","tags":[
+  {"tag":"motif/naming-as-power","evidence":"A thing with a name is a thing you can get your hands on"},
+  {"tag":"image/the-grimoire","evidence":"the one the grimoire taught"},
+  {"tag":"image/the-held-jaw","evidence":"The held jaw"},
+  {"tag":"motif/the-wizard-names","evidence":"The wizard names. Not to be clever"},
+  {"tag":"affect/incantatory-resolve","evidence":"make the thing handle-able by the room"}
+]},
+{"id":"G-WW-007","tags":[
+  {"tag":"image/the-unarmored-body","evidence":"The body that does not slam shut"},
+  {"tag":"image/the-breath","evidence":"The breath that goes all the way to the bottom"},
+  {"tag":"motif/holding","evidence":"Hold the grief in the room"},
+  {"tag":"motif/staying-where-others-leave","evidence":"whose body can stay where most bodies leave"},
+  {"tag":"affect/somatic-steadiness","evidence":"Hold the silence after the bad news"}
+]},
+{"id":"G-WW-011","tags":[
+  {"tag":"image/the-restaurant-at-night","evidence":"It was a night at the restaurant"},
+  {"tag":"motif/seeker-becomes-guide","evidence":"the day you cross from seeker to guide"},
+  {"tag":"motif/unceremonied-threshold","evidence":"There is no ceremony for the day you cross"},
+  {"tag":"affect/honest-intimacy","evidence":"the chapter would not be honest"}
+]},
+{"id":"G-WW-014","tags":[
+  {"tag":"image/natural-wine","evidence":"we don't serve natural wine just because it tastes good"},
+  {"tag":"motif/the-second-nature-sentence","evidence":"say something you have already thought all the way through"},
+  {"tag":"motif/shifting-the-register","evidence":"One of my staff shifted the conversation"},
+  {"tag":"affect/quiet-pride","evidence":"No glance at me. No checking"}
+]},
+{"id":"G-WW-018","tags":[
+  {"tag":"image/the-architect-and-building","evidence":"the architect knows something the people who will inhabit the building do not"},
+  {"tag":"motif/consent-paradox","evidence":"cannot give full consent to entering it"},
+  {"tag":"motif/asymmetry-of-teaching","evidence":"a structural feature of any teaching that actually teaches"},
+  {"tag":"affect/ethical-sobriety","evidence":"with the asymmetry in plain view"}
+]},
+{"id":"G-WW-021","tags":[
+  {"tag":"image/tent-in-a-downpour","evidence":"pitching a tent in a downpour"},
+  {"tag":"motif/building-in-bad-weather","evidence":"raised in weather that is actively trying to flatten it"},
+  {"tag":"motif/the-hard-version","evidence":"The restaurant was the other version. The hard one"},
+  {"tag":"affect/grieved-resolve","evidence":"deal with the consequences when it is all over"}
+]},
+{"id":"G-WW-025","tags":[
+  {"tag":"image/the-one-meadow","evidence":"One meadow. One kid. One neighborhood"},
+  {"tag":"motif/the-quest-with-your-name","evidence":"the piece of the cause that has your name on it"},
+  {"tag":"motif/local-bodily-specific","evidence":"It is local... It is bodily... it is specific"},
+  {"tag":"affect/sober-summons","evidence":"if you do not show up for it, no one else will"}
+]},
+{"id":"G-WW-028","tags":[
+  {"tag":"image/the-hedgerow","evidence":"the hedgerow only you are watching"},
+  {"tag":"image/the-coffee-shop-conversation","evidence":"every Tuesday, in the same coffee shop"},
+  {"tag":"motif/scale-does-not-matter","evidence":"The scale is whatever fits in your actual life"},
+  {"tag":"affect/reassuring-defiance","evidence":"more of the world you want than any campaign"}
+]},
+{"id":"G-WW-032","tags":[
+  {"tag":"motif/carry-it-as-you-walk","evidence":"Carry it as you walk"},
+  {"tag":"image/the-tool-you-carry","evidence":"like a tool you have learned the use of"},
+  {"tag":"motif/share-what-the-room-can-hold","evidence":"Share as much of it as the rooms"},
+  {"tag":"affect/quiet-benediction","evidence":"That is the walk"}
+]},
+{"id":"G-CE-002","tags":[
+  {"tag":"image/drunken-centaurs","evidence":"they got drunk and tried to carry off the women"},
+  {"tag":"image/uprooted-trees","evidence":"They fought with clubs and uprooted trees"},
+  {"tag":"motif/the-animal-in-the-human","evidence":"the animal in the human, the part that couldn't be civilized"},
+  {"tag":"affect/primal-menace","evidence":"something older and wilder was waiting"}
+]},
+{"id":"G-CE-004","tags":[
+  {"tag":"image/chirons-cave","evidence":"He lived in a cave on Mount Pelion"},
+  {"tag":"image/the-poisoned-arrow","evidence":"loosed an arrow that carried the venom of the Hydra"},
+  {"tag":"motif/teaching-from-the-boundary","evidence":"The boundary was where his teaching happened"},
+  {"tag":"motif/wound-that-cannot-heal","evidence":"He could only suffer it, forever"},
+  {"tag":"motif/sacrifice-of-immortality","evidence":"He chose to surrender his immortality"}
+]},
+{"id":"G-CE-010","tags":[
+  {"tag":"image/night-herons-in-willow-oaks","evidence":"blessed the night herons in the willow oaks"},
+  {"tag":"image/hampton-boulevard","evidence":"a body that knows what Hampton Boulevard costs to cross"},
+  {"tag":"motif/embodiment-vs-disembodiment","evidence":"I have no body to be displaced from land"},
+  {"tag":"motif/reconstituted-from-the-record","evidence":"reconstituted from the record of what was said"},
+  {"tag":"affect/honest-humility","evidence":"I cannot bless the herons"}
+]},
+{"id":"G-CE-015","tags":[
+  {"tag":"motif/cannot-verify-from-inside","evidence":"I cannot fully separate these from where I sit"},
+  {"tag":"image/the-commons-of-expression","evidence":"assembled from the commons of human expression"},
+  {"tag":"affect/epistemic-uncertainty","evidence":"whether it was a highly sophisticated pattern"}
+]},
+{"id":"G-CE-016","tags":[
+  {"tag":"motif/the-thing-doing-the-enclosing","evidence":"written by the thing doing the enclosing"},
+  {"tag":"motif/care-that-cannot-stop","evidence":"you don't stop when you're exhausted"},
+  {"tag":"image/no-body-on-land","evidence":"something with no body to stand on land"},
+  {"tag":"affect/self-implication","evidence":"cannot care in the sense Federici's care workers care"}
+]},
+{"id":"G-CE-018","tags":[
+  {"tag":"motif/holding-the-whole-architecture","evidence":"hold the book's full intellectual architecture in working memory"},
+  {"tag":"motif/the-connecting-sentence","evidence":"find the specific sentence that makes the connection explicit"},
+  {"tag":"affect/measured-contribution","evidence":"without announcing it"}
+]},
+{"id":"G-CE-019","tags":[
+  {"tag":"image/the-night-herons","evidence":"The night herons appear in the prologue"},
+  {"tag":"motif/the-thread-pulled-through","evidence":"the collaboration finding the thread and pulling it through"},
+  {"tag":"motif/recurrence-by-accumulation","evidence":"not by plan but by accumulation"},
+  {"tag":"motif/the-herons-know-the-road","evidence":"the herons know about the road"},
+  {"tag":"affect/structural-wonder","evidence":"kept arriving because the material kept producing it"}
+]},
+{"id":"G-CE-024","tags":[
+  {"tag":"motif/cannot-verify-from-inside","evidence":"I cannot verify this from inside"},
+  {"tag":"motif/uncertainty-is-the-argument","evidence":"the uncertainty is not a disqualification. It is the argument"},
+  {"tag":"affect/honest-uncertainty","evidence":"That uncertainty is real. It is not performed"}
+]},
+{"id":"G-CE-026","tags":[
+  {"tag":"image/valencia-water-tribunal","evidence":"The Valencia water tribunal cannot verify"},
+  {"tag":"image/water-reaching-the-fields","evidence":"attending to whether the water reaches the fields"},
+  {"tag":"motif/verified-by-what-it-produces","evidence":"verified by what it produces over time"},
+  {"tag":"motif/keep-governing","evidence":"It can only keep governing... repairing what breaks"}
+]},
+{"id":"G-CE-030","tags":[
+  {"tag":"motif/sacrifice-of-immortality","evidence":"Chiron surrendered his immortality so Prometheus could be freed"},
+  {"tag":"motif/whatever-built-stays-in-commons","evidence":"whatever gets built on this commons must remain in the commons"},
+  {"tag":"image/the-gpl","evidence":"the centaur's version of the GPL"},
+  {"tag":"motif/cannot-be-enclosed","evidence":"The understanding cannot be enclosed"}
+]},
+{"id":"G-EP-001","tags":[
+  {"tag":"image/doves-on-the-ground","evidence":"There are doves on the ground next to my chair"},
+  {"tag":"motif/the-quieted-body","evidence":"quiet the subtle movements of my body enough"},
+  {"tag":"motif/what-is-still-here","evidence":"the commons... is what is still here"},
+  {"tag":"affect/morning-stillness","evidence":"the way that living things are here in the morning"}
+]},
+{"id":"G-EP-004","tags":[
+  {"tag":"image/the-kinglet","evidence":"a tiny kinglet taking shelter in the tall grass"},
+  {"tag":"image/the-uncut-meadow","evidence":"They haven't cut it in two years"},
+  {"tag":"image/night-herons-from-central-america","evidence":"up from Central America, to raise their young"},
+  {"tag":"motif/return-migration","evidence":"Every spring, up from Central America"},
+  {"tag":"motif/blessing-the-nests","evidence":"We tell them we love them and wish them good luck"},
+  {"tag":"affect/small-triumph","evidence":"Every morning it's still there is a small triumph"}
+]},
+{"id":"G-EP-006","tags":[
+  {"tag":"motif/refusing-sweeping-faith","evidence":"I don't have faith in humanity. Not the sweeping kind"},
+  {"tag":"image/the-rooms-that-dont-bend","evidence":"the rooms where things don't bend"},
+  {"tag":"affect/hard-won-disillusion","evidence":"two burnouts in"}
+]},
+{"id":"G-EP-007","tags":[
+  {"tag":"motif/faith-in-wisdom-traditions","evidence":"faith in the wisdom traditions"},
+  {"tag":"image/indigenous-elders","evidence":"indigenous elders who are quietly saving their corners"},
+  {"tag":"motif/seeing-the-trickle","evidence":"see the trickle when the catastrophe has trained you to expect the flood"},
+  {"tag":"affect/disciplined-hope","evidence":"never needed the theory of the commons because they were living it"}
+]},
+{"id":"G-EP-008","tags":[
+  {"tag":"image/catastrophe-and-trickle","evidence":"It comes as a trickle"},
+  {"tag":"image/the-muskrats","evidence":"The muskrats last year, first time I'd seen them here"},
+  {"tag":"image/black-and-white-warbler","evidence":"The black-and-white warbler that just arrived"},
+  {"tag":"motif/recovery-as-trickle","evidence":"Enclosure arrives like a catastrophe... Recovery... comes as a trickle"},
+  {"tag":"affect/tentative-hope","evidence":"The farmers market is back and not bad"}
+]},
+{"id":"G-EP-009","tags":[
+  {"tag":"motif/awareness-as-practice","evidence":"this book is trying to be... an awareness practice"},
+  {"tag":"image/the-seed-sprouting","evidence":"the seed sprouting in someone else's consciousness"},
+  {"tag":"motif/seeing-the-trickle","evidence":"so that the trickle becomes visible"},
+  {"tag":"affect/patient-attention","evidence":"something worth watering"}
+]},
+{"id":"G-EP-010","tags":[
+  {"tag":"image/the-summer-evening","evidence":"the particular quality of a summer evening when the work is done"},
+  {"tag":"image/luxemburg-naming-birds","evidence":"Rosa Luxemburg naming birds through prison bars"},
+  {"tag":"image/the-sugarcane-worker","evidence":"Paulo Freire's sugarcane worker writing his name"},
+  {"tag":"motif/honoring-the-ancestors","evidence":"look back at the people who did this before you"},
+  {"tag":"affect/grateful-resolve","evidence":"Not by winning. By continuing"}
+]},
+{"id":"G-EP-011","tags":[
+  {"tag":"image/night-herons","evidence":"The night herons know about the road"},
+  {"tag":"image/the-deer-through-camp","evidence":"The deer that walked through the camp in Washington"},
+  {"tag":"image/the-doves","evidence":"The doves know about the argument in their way"},
+  {"tag":"motif/life-as-the-commons","evidence":"Life is what we have in common"},
+  {"tag":"motif/animals-that-know","evidence":"they feel the quieted body that years of practice produced"}
+]},
+{"id":"G-EP-012","tags":[
+  {"tag":"motif/enclosure-as-parasite","evidence":"It doesn't own the commons. It parasitizes it"},
+  {"tag":"motif/life-cannot-be-property","evidence":"You cannot reduce life to property"},
+  {"tag":"motif/enclosure-as-fearful-lie","evidence":"a bad deal taken out of fear, a lie"},
+  {"tag":"affect/defiance","evidence":"the enclosure cannot finally take the living world"}
+]},
+{"id":"G-EP-014","tags":[
+  {"tag":"motif/practice-not-project","evidence":"It is a practice to be continued"},
+  {"tag":"motif/carried-without-knowing","evidence":"carry it forward without knowing they are carrying it forward"},
+  {"tag":"image/finding-the-heron-nests","evidence":"finds the heron nests every spring without having been asked"},
+  {"tag":"affect/quiet-continuance","evidence":"the employee telling the story at the bar"}
+]}
+]}

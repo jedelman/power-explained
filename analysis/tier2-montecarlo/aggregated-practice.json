@@ -1,0 +1,1055 @@
+[
+  {
+    "tag": "attending",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-006",
+      "G-PR-009",
+      "G-PR-021",
+      "G-01-011",
+      "G-02-026",
+      "G-IW-003",
+      "G-IW-006",
+      "G-IW-007",
+      "G-IW-012",
+      "G-IW-013",
+      "G-PR-030",
+      "G-IW-009",
+      "G-IW-015",
+      "G-IW-017",
+      "G-IW-018",
+      "G-IW-021",
+      "G-04-025",
+      "G-GC-001",
+      "G-GC-005c",
+      "G-GC-030",
+      "G-GC-035",
+      "G-GC-046",
+      "G-06-046",
+      "G-OA-001",
+      "G-07-022",
+      "G-OA-001b",
+      "G-OA-002c",
+      "G-OA-005c",
+      "G-OA-007b",
+      "G-OA-011b",
+      "G-10-001",
+      "G-10-042",
+      "G-11-039",
+      "G-12-001",
+      "G-12-019",
+      "G-12-036",
+      "G-AB-005",
+      "G-AB-020",
+      "G-AB-024",
+      "G-AB-001",
+      "G-AB-016",
+      "G-AB-035",
+      "G-AB-040",
+      "G-AB-046",
+      "G-AB-058",
+      "G-14-021",
+      "G-RE-001",
+      "G-RE-006",
+      "G-RE-009",
+      "G-RE-012",
+      "G-RE-016",
+      "G-RE-023",
+      "G-RE-026",
+      "G-RE-030",
+      "G-RE-034a",
+      "G-RE-037a",
+      "G-16-048",
+      "G-17-002",
+      "G-17-040",
+      "G-16-069",
+      "G-17-051",
+      "G-WW-001",
+      "G-WW-003",
+      "G-WW-005",
+      "G-WW-008",
+      "G-WW-010",
+      "G-WW-020",
+      "G-WW-024",
+      "G-WW-027",
+      "G-CE-026",
+      "G-EP-001",
+      "G-EP-004",
+      "G-EP-007",
+      "G-EP-008",
+      "G-EP-009",
+      "G-EP-011",
+      "G-EP-013"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-02",
+      "P-IW",
+      "P-04",
+      "P-GC",
+      "P-06",
+      "P-OA",
+      "P-07",
+      "P-10",
+      "P-11",
+      "P-12",
+      "P-AB",
+      "P-14",
+      "P-RE",
+      "P-16",
+      "P-17",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "n": 197,
+    "maxPass": 3,
+    "gAll3": 55,
+    "raw": [
+      "attending"
+    ],
+    "ev": [
+      "look at one closely, at the red eye",
+      "begins with learning to see it",
+      "He walks his neighborhood every day"
+    ]
+  },
+  {
+    "tag": "naming",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-009",
+      "G-PR-021",
+      "G-PR-026",
+      "G-PR-030",
+      "G-02-026",
+      "G-03-045",
+      "G-PR-016",
+      "G-02-017",
+      "G-04-001",
+      "G-GC-001",
+      "G-GC-003",
+      "G-GC-024",
+      "G-GC-030",
+      "G-GC-035",
+      "G-05-001",
+      "G-07-041",
+      "G-08-005",
+      "G-OA-001b",
+      "G-OA-002b",
+      "G-OA-003b",
+      "G-10-001",
+      "G-12-001",
+      "G-12-019",
+      "G-AB-020",
+      "G-OA-002c",
+      "G-OA-005b",
+      "G-10-042",
+      "G-11-011",
+      "G-AB-001",
+      "G-AB-005",
+      "G-AB-024",
+      "G-AB-062",
+      "G-15-006",
+      "G-RE-006",
+      "G-15-028",
+      "G-WW-010",
+      "G-WW-017",
+      "G-WW-027",
+      "G-CE-017",
+      "G-CE-020",
+      "G-EP-010",
+      "G-WW-024",
+      "G-CE-016",
+      "G-CE-028"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-02",
+      "P-03",
+      "P-04",
+      "P-GC",
+      "P-05",
+      "P-07",
+      "P-08",
+      "P-OA",
+      "P-10",
+      "P-12",
+      "P-AB",
+      "P-11",
+      "P-15",
+      "P-RE",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "n": 102,
+    "maxPass": 3,
+    "gAll3": 25,
+    "raw": [
+      "naming"
+    ],
+    "ev": [
+      "say something true to the birds",
+      "tells the herons, with his words, that he loves them",
+      "the feeling itself — named, grounded, located"
+    ]
+  },
+  {
+    "tag": "tending",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-019",
+      "G-03-002",
+      "G-03-033",
+      "G-IW-013",
+      "G-02-022",
+      "G-IW-018",
+      "G-IW-020",
+      "G-04-001",
+      "G-04-006",
+      "G-GC-011",
+      "G-08-024",
+      "G-IW-017",
+      "G-04-025",
+      "G-GC-046",
+      "G-06-024",
+      "G-09-040",
+      "G-10-001",
+      "G-11-018",
+      "G-12-036",
+      "G-13-011",
+      "G-09-026",
+      "G-10-042",
+      "G-11-039",
+      "G-15-001",
+      "G-15-022",
+      "G-RE-001",
+      "G-RE-018",
+      "G-RE-037a",
+      "G-17-040",
+      "G-14-012",
+      "G-WW-017",
+      "G-WW-020",
+      "G-WW-022",
+      "G-CE-004",
+      "G-CE-026",
+      "G-EP-009",
+      "G-EP-014",
+      "G-WW-012",
+      "G-18-039",
+      "G-CE-016"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-03",
+      "P-IW",
+      "P-02",
+      "P-04",
+      "P-GC",
+      "P-08",
+      "P-06",
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-12",
+      "P-13",
+      "P-15",
+      "P-RE",
+      "P-17",
+      "P-14",
+      "P-WW",
+      "P-CE",
+      "P-EP",
+      "P-18"
+    ],
+    "n": 87,
+    "maxPass": 3,
+    "gAll3": 19,
+    "raw": [
+      "tending"
+    ],
+    "ev": [
+      "what people keep building despite everything",
+      "in the morning, the community gathers to rebuild",
+      "knowledge of what people needed before they asked"
+    ]
+  },
+  {
+    "tag": "witnessing",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-030",
+      "G-IB-008",
+      "G-IW-003",
+      "G-IW-009",
+      "G-IW-012",
+      "G-PR-009",
+      "G-IW-021",
+      "G-GC-005c",
+      "G-GC-035",
+      "G-06-002",
+      "G-06-046",
+      "G-10-042",
+      "G-12-001",
+      "G-12-036",
+      "G-OA-008c",
+      "G-OA-011b",
+      "G-11-032",
+      "G-AB-040",
+      "G-RE-012",
+      "G-RE-023",
+      "G-AB-046",
+      "G-CE-010",
+      "G-CE-020",
+      "G-CE-028",
+      "G-WW-005",
+      "G-WW-032",
+      "G-CE-017"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-IB",
+      "P-IW",
+      "P-GC",
+      "P-06",
+      "P-10",
+      "P-12",
+      "P-OA",
+      "P-11",
+      "P-AB",
+      "P-RE",
+      "P-CE",
+      "P-WW"
+    ],
+    "n": 43,
+    "maxPass": 3,
+    "gAll3": 6,
+    "raw": [
+      "witnessing"
+    ],
+    "ev": [
+      "standing waist-deep in a rising river",
+      "I watched from the edge",
+      "Take them there. Let the forest do"
+    ]
+  },
+  {
+    "tag": "refusing",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-021",
+      "G-01-037",
+      "G-02-022",
+      "G-02-026",
+      "G-IB-005",
+      "G-05-001",
+      "G-08-029",
+      "G-GC-008c",
+      "G-GC-046",
+      "G-06-024",
+      "G-04-013",
+      "G-OA-008c",
+      "G-11-032",
+      "G-11-039",
+      "G-12-001",
+      "G-13-001",
+      "G-OA-005c",
+      "G-12-028",
+      "G-16-048",
+      "G-AB-058",
+      "G-18-028",
+      "G-WW-022",
+      "G-WW-024",
+      "G-WW-032"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-01",
+      "P-02",
+      "P-IB",
+      "P-05",
+      "P-08",
+      "P-GC",
+      "P-06",
+      "P-04",
+      "P-OA",
+      "P-11",
+      "P-12",
+      "P-13",
+      "P-16",
+      "P-AB",
+      "P-18",
+      "P-WW"
+    ],
+    "n": 49,
+    "maxPass": 3,
+    "gAll3": 9,
+    "raw": [
+      "refusing"
+    ],
+    "ev": [
+      "to leave anyway, eventually",
+      "refused to let it sever the relationship",
+      "negotiates directly with the city"
+    ]
+  },
+  {
+    "tag": "remembering",
+    "inPalette": true,
+    "gestures": [
+      "G-01-037",
+      "G-02-017",
+      "G-03-022",
+      "G-IW-010",
+      "G-GC-039",
+      "G-09-040",
+      "G-10-042",
+      "G-AB-020",
+      "G-OA-007b",
+      "G-OA-008b",
+      "G-17-016",
+      "G-AB-051",
+      "G-14-012",
+      "G-RE-039",
+      "G-16b-054",
+      "G-RE-001",
+      "G-18-039",
+      "G-WW-005",
+      "G-WW-032",
+      "G-CE-019",
+      "G-EP-010",
+      "G-EP-014",
+      "G-WW-020"
+    ],
+    "plateaus": [
+      "P-01",
+      "P-02",
+      "P-03",
+      "P-IW",
+      "P-GC",
+      "P-09",
+      "P-10",
+      "P-AB",
+      "P-OA",
+      "P-17",
+      "P-14",
+      "P-RE",
+      "P-16b",
+      "P-18",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "n": 54,
+    "maxPass": 3,
+    "gAll3": 12,
+    "raw": [
+      "remembering"
+    ],
+    "ev": [
+      "coming back every spring for as long",
+      "The neighborhood is not commemorated",
+      "convening, in this form, in this place, since"
+    ]
+  },
+  {
+    "tag": "holding",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-023",
+      "G-IW-014",
+      "G-IW-013",
+      "G-OA-007",
+      "G-OA-010",
+      "G-AB-035",
+      "G-AB-058",
+      "G-17-040",
+      "G-18-022",
+      "G-18-039",
+      "G-WW-003",
+      "G-WW-010",
+      "G-WW-015",
+      "G-CE-018",
+      "G-CE-028",
+      "G-WW-017",
+      "G-WW-020",
+      "G-WW-022",
+      "G-CE-004"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-IW",
+      "P-OA",
+      "P-AB",
+      "P-17",
+      "P-18",
+      "P-WW",
+      "P-CE"
+    ],
+    "n": 45,
+    "maxPass": 3,
+    "gAll3": 11,
+    "raw": [
+      "holding"
+    ],
+    "ev": [
+      "hold the full argument and the full feeling",
+      "so that a connection can happen",
+      "hold the full argument and the full feeling simultaneously"
+    ]
+  },
+  {
+    "tag": "becoming-still",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-006",
+      "G-IW-003",
+      "G-IW-006",
+      "G-IW-007",
+      "G-IW-012",
+      "G-IW-014",
+      "G-OA-001",
+      "G-IW-021",
+      "G-OA-001b",
+      "G-AB-035",
+      "G-AB-058",
+      "G-14-021",
+      "G-RE-033a",
+      "G-RE-037a",
+      "G-17-002",
+      "G-EP-001",
+      "G-EP-011",
+      "G-EP-013"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-IW",
+      "P-OA",
+      "P-AB",
+      "P-14",
+      "P-RE",
+      "P-17",
+      "P-EP"
+    ],
+    "n": 43,
+    "maxPass": 3,
+    "gAll3": 11,
+    "raw": [
+      "becoming-still"
+    ],
+    "ev": [
+      "built for stillness rather than speed",
+      "the specific quality of silence",
+      "weight low, feet placed softly"
+    ]
+  },
+  {
+    "tag": "gathering",
+    "inPalette": true,
+    "gestures": [
+      "G-02-022",
+      "G-IB-004",
+      "G-IB-006",
+      "G-03-002",
+      "G-03-022",
+      "G-IW-020",
+      "G-06-024",
+      "G-09-001",
+      "G-11-032",
+      "G-AB-020",
+      "G-OA-007b",
+      "G-15-001",
+      "G-15-022",
+      "G-18-002",
+      "G-18-028",
+      "G-WW-003",
+      "G-WW-012"
+    ],
+    "plateaus": [
+      "P-02",
+      "P-IB",
+      "P-03",
+      "P-IW",
+      "P-06",
+      "P-09",
+      "P-11",
+      "P-AB",
+      "P-OA",
+      "P-15",
+      "P-18",
+      "P-WW"
+    ],
+    "n": 43,
+    "maxPass": 3,
+    "gAll3": 12,
+    "raw": [
+      "gathering"
+    ],
+    "ev": [
+      "kept meeting, so that the next problem",
+      "the city had made the rest possible",
+      "made something together that none of them could"
+    ]
+  },
+  {
+    "tag": "greeting",
+    "inPalette": true,
+    "gestures": [
+      "G-PR-009",
+      "G-PR-021",
+      "G-IW-021",
+      "G-OA-007b",
+      "G-OA-008c",
+      "G-AB-035",
+      "G-RE-009",
+      "G-RE-034a",
+      "G-RE-039",
+      "G-WW-008",
+      "G-EP-004",
+      "G-EP-013",
+      "G-CE-010",
+      "G-CE-028",
+      "G-EP-011"
+    ],
+    "plateaus": [
+      "P-PR",
+      "P-IW",
+      "P-OA",
+      "P-AB",
+      "P-RE",
+      "P-WW",
+      "P-EP",
+      "P-CE"
+    ],
+    "n": 31,
+    "maxPass": 3,
+    "gAll3": 6,
+    "raw": [
+      "greeting"
+    ],
+    "ev": [
+      "who find the nests and say something",
+      "finds the night heron nests every spring",
+      "who find the nests and say something true to the birds"
+    ]
+  },
+  {
+    "tag": "de-armoring",
+    "inPalette": true,
+    "gestures": [
+      "G-07-041",
+      "G-OA-002b",
+      "G-OA-002c",
+      "G-OA-005c",
+      "G-OA-007",
+      "G-OA-007b",
+      "G-OA-004",
+      "G-RE-033a",
+      "G-RE-034a",
+      "G-17-002",
+      "G-WW-015"
+    ],
+    "plateaus": [
+      "P-07",
+      "P-OA",
+      "P-RE",
+      "P-17",
+      "P-WW"
+    ],
+    "n": 30,
+    "maxPass": 3,
+    "gAll3": 8,
+    "raw": [
+      "de-armoring"
+    ],
+    "ev": [
+      "deprogramming white supremacy out of my friends",
+      "deprogramming white supremacy out of my friends",
+      "un-make a fascist by un-making the armor"
+    ]
+  },
+  {
+    "tag": "welcoming",
+    "inPalette": true,
+    "gestures": [
+      "G-03-033",
+      "G-04-001",
+      "G-OA-001",
+      "G-OA-007b",
+      "G-16-002",
+      "G-RE-033a",
+      "G-17-051",
+      "G-WW-008",
+      "G-WW-012",
+      "G-CE-010",
+      "G-CE-028"
+    ],
+    "plateaus": [
+      "P-03",
+      "P-04",
+      "P-OA",
+      "P-16",
+      "P-RE",
+      "P-17",
+      "P-WW",
+      "P-CE"
+    ],
+    "n": 25,
+    "maxPass": 3,
+    "gAll3": 6,
+    "raw": [
+      "welcoming"
+    ],
+    "ev": [
+      "A place where people could just be",
+      "A place where people could just be",
+      "A place where people could just be"
+    ]
+  },
+  {
+    "tag": "blessing",
+    "inPalette": true,
+    "gestures": [
+      "G-04-006",
+      "G-OA-001",
+      "G-WW-032",
+      "G-CE-010",
+      "G-EP-004",
+      "G-EP-011",
+      "G-EP-013",
+      "G-CE-004"
+    ],
+    "plateaus": [
+      "P-04",
+      "P-OA",
+      "P-WW",
+      "P-CE",
+      "P-EP"
+    ],
+    "n": 23,
+    "maxPass": 3,
+    "gAll3": 7,
+    "raw": [
+      "blessing"
+    ],
+    "ev": [
+      "Arizmendi blessed the foundation stone",
+      "Begin with the good news",
+      "Arizmendi blessed the foundation stone"
+    ]
+  },
+  {
+    "tag": "descending",
+    "inPalette": true,
+    "gestures": [
+      "G-OA-004",
+      "G-OA-005b",
+      "G-OA-005c",
+      "G-OA-010",
+      "G-17-028",
+      "G-17-051",
+      "G-WW-029"
+    ],
+    "plateaus": [
+      "P-OA",
+      "P-17",
+      "P-WW"
+    ],
+    "n": 15,
+    "maxPass": 3,
+    "gAll3": 4,
+    "raw": [
+      "descending"
+    ],
+    "ev": [
+      "so I lay down. I lay down for four months",
+      "curious about what it is actually like down there",
+      "give yourself room to be curious about what it is"
+    ]
+  },
+  {
+    "tag": "self-governing",
+    "inPalette": false,
+    "gestures": [
+      "G-09-001",
+      "G-09-026",
+      "G-10-024",
+      "G-10-032",
+      "G-10-042",
+      "G-11-032",
+      "G-13-021"
+    ],
+    "plateaus": [
+      "P-09",
+      "P-10",
+      "P-11",
+      "P-13"
+    ],
+    "n": 7,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "self-governing"
+    ],
+    "ev": [
+      "running the shift themselves... handling scheduling",
+      "how water is governed, accumulated in practice",
+      "coordinated without either capitalist markets or central planning"
+    ]
+  },
+  {
+    "tag": "grieving",
+    "inPalette": true,
+    "gestures": [
+      "G-AB-040",
+      "G-14-021",
+      "G-RE-023",
+      "G-RE-030",
+      "G-CE-004",
+      "G-CE-010"
+    ],
+    "plateaus": [
+      "P-AB",
+      "P-14",
+      "P-RE",
+      "P-CE"
+    ],
+    "n": 16,
+    "maxPass": 3,
+    "gAll3": 5,
+    "raw": [
+      "grieving"
+    ],
+    "ev": [
+      "That grief is real and that grief",
+      "the grief that rises when a place",
+      "meditation, tracking, ceremony, psychedelics, grief-work"
+    ]
+  },
+  {
+    "tag": "practicing",
+    "inPalette": false,
+    "gestures": [
+      "G-OA-011b",
+      "G-OA-008b",
+      "G-OA-008c",
+      "G-09-001",
+      "G-09-026"
+    ],
+    "plateaus": [
+      "P-OA",
+      "P-09"
+    ],
+    "n": 8,
+    "maxPass": 3,
+    "gAll3": 1,
+    "raw": [
+      "practicing"
+    ],
+    "ev": [
+      "The important thing... is to practice",
+      "I trained in it for ten years",
+      "have a practice that puts you in contact"
+    ]
+  },
+  {
+    "tag": "building",
+    "inPalette": false,
+    "gestures": [
+      "G-09-014",
+      "G-09-040",
+      "G-11-018",
+      "G-11-032",
+      "G-11-039"
+    ],
+    "plateaus": [
+      "P-09",
+      "P-11"
+    ],
+    "n": 5,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "building"
+    ],
+    "ev": [
+      "built nothing in the ground that surrounds factories",
+      "the decision to keep building",
+      "build the conditions and get out of the way"
+    ]
+  },
+  {
+    "tag": "continuing",
+    "inPalette": false,
+    "gestures": [
+      "G-IW-021",
+      "G-08-029",
+      "G-EP-010",
+      "G-EP-014"
+    ],
+    "plateaus": [
+      "P-IW",
+      "P-08",
+      "P-EP"
+    ],
+    "n": 4,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "persisting",
+      "continuing"
+    ],
+    "ev": [
+      "go back to the meeting, the crossing, and try again",
+      "people kept moving into Dynamite Hill anyway",
+      "Not by winning. By continuing"
+    ]
+  },
+  {
+    "tag": "positioning",
+    "inPalette": false,
+    "gestures": [
+      "G-06-002",
+      "G-06-046"
+    ],
+    "plateaus": [
+      "P-06"
+    ],
+    "n": 4,
+    "maxPass": 2,
+    "gAll3": 0,
+    "raw": [
+      "self-locating",
+      "positioning"
+    ],
+    "ev": [
+      "I'm telling you where I stand so you can calibrate",
+      "what does owning that position actually require of you",
+      "I'm telling you where I stand"
+    ]
+  },
+  {
+    "tag": "conditioning",
+    "inPalette": false,
+    "gestures": [
+      "G-IW-014",
+      "G-GC-011"
+    ],
+    "plateaus": [
+      "P-IW",
+      "P-GC"
+    ],
+    "n": 2,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "conditioning",
+      "scaffolding"
+    ],
+    "ev": [
+      "I'm maneuvering the conditions",
+      "I scaffold the necessary knowledge, create the motivation"
+    ]
+  },
+  {
+    "tag": "disciplining-spirit",
+    "inPalette": false,
+    "gestures": [
+      "G-OA-008b",
+      "G-OA-008c"
+    ],
+    "plateaus": [
+      "P-OA"
+    ],
+    "n": 2,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "disciplining-spirit"
+    ],
+    "ev": [
+      "I trained in it for ten years as a kid",
+      "how, when the feeling of defeat starts to creep... to cast it aside"
+    ]
+  },
+  {
+    "tag": "playing",
+    "inPalette": false,
+    "gestures": [
+      "G-RE-006",
+      "G-RE-039"
+    ],
+    "plateaus": [
+      "P-RE"
+    ],
+    "n": 2,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "playing"
+    ],
+    "ev": [
+      "making up silly little voices for the birds",
+      "Play is the name real wisdom hides behind"
+    ]
+  },
+  {
+    "tag": "deprogramming",
+    "inPalette": false,
+    "gestures": [
+      "G-07-041"
+    ],
+    "plateaus": [
+      "P-07"
+    ],
+    "n": 1,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "deprogramming"
+    ],
+    "ev": [
+      "deprogramming white supremacy out of my friends"
+    ]
+  },
+  {
+    "tag": "guesting",
+    "inPalette": false,
+    "gestures": [
+      "G-RE-033a"
+    ],
+    "plateaus": [
+      "P-RE"
+    ],
+    "n": 1,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "guesting"
+    ],
+    "ev": [
+      "Your role is guest, not director"
+    ]
+  },
+  {
+    "tag": "tracking",
+    "inPalette": false,
+    "gestures": [
+      "G-17-002"
+    ],
+    "plateaus": [
+      "P-17"
+    ],
+    "n": 1,
+    "maxPass": 1,
+    "gAll3": 0,
+    "raw": [
+      "tracking"
+    ],
+    "ev": [
+      "read the language the living world writes in soil"
+    ]
+  }
+]

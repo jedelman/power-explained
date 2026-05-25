@@ -1,0 +1,458 @@
+{
+  "pass": "B",
+  "shard": 2,
+  "gestures": [
+    {
+      "id": "G-IW-009",
+      "tags": [
+        {"tag": "image/old-growth-tree", "evidence": "a tree that was already old when your country was founded"},
+        {"tag": "image/canopy-air", "evidence": "breathing the air that the canopy produces"},
+        {"tag": "motif/bodily-knowing", "evidence": "The emotional and bodily argument"},
+        {"tag": "affect/reverence", "evidence": "standing in the presence of a tree"}
+      ]
+    },
+    {
+      "id": "G-IW-010",
+      "tags": [
+        {"tag": "image/the-margin", "evidence": "They work on margins, and margins are vulnerable"},
+        {"tag": "image/the-thread", "evidence": "You follow the thread"},
+        {"tag": "motif/hidden-network", "evidence": "The networks exist"},
+        {"tag": "affect/guarded-trust", "evidence": "I won't give you their names"}
+      ]
+    },
+    {
+      "id": "G-IW-013",
+      "tags": [
+        {"tag": "image/sprouting-seed", "evidence": "It's like a seed sprouting"},
+        {"tag": "image/watering", "evidence": "My job is to water it"},
+        {"tag": "motif/cultivation", "evidence": "Too much attention... the seed drowns"},
+        {"tag": "affect/attentive-patience", "evidence": "The timing is everything"}
+      ]
+    },
+    {
+      "id": "G-IW-014",
+      "tags": [
+        {"tag": "image/the-walk", "evidence": "the direction we're facing, the pace we're walking"},
+        {"tag": "motif/invisible-facilitation", "evidence": "I'm maneuvering the conditions"},
+        {"tag": "motif/self-effacement", "evidence": "I'm not sure I did anything"},
+        {"tag": "affect/quiet-craft", "evidence": "That's the sign it worked"}
+      ]
+    },
+    {
+      "id": "G-IW-017",
+      "tags": [
+        {"tag": "image/old-growth-tree", "evidence": "stand in the presence of something centuries old"},
+        {"tag": "image/the-forest", "evidence": "this is what a forest is"},
+        {"tag": "motif/making-common-sense", "evidence": "producing new common sense"},
+        {"tag": "affect/quiet-defiance", "evidence": "without manifestos, without theory"}
+      ]
+    },
+    {
+      "id": "G-IW-018",
+      "tags": [
+        {"tag": "image/child-in-forest", "evidence": "A child standing in a forest, learning"},
+        {"tag": "image/auctioned-timber", "evidence": "an old-growth forest is auctioned for timber"},
+        {"tag": "motif/slow-durable-work", "evidence": "It measures its effects in decades"},
+        {"tag": "motif/embodied-inheritance", "evidence": "understand in their bodies what is at stake"},
+        {"tag": "affect/disciplined-hope", "evidence": "once embodied, is very hard to undo"}
+      ]
+    },
+    {
+      "id": "G-IW-021",
+      "tags": [
+        {"tag": "image/deer-through-camp", "evidence": "the deer will walk through camp again next summer"},
+        {"tag": "image/herons", "evidence": "The herons don't know about the road"},
+        {"tag": "image/old-tree", "evidence": "sitting in the presence of an old tree"},
+        {"tag": "motif/life-continues", "evidence": "Life continues"},
+        {"tag": "affect/relief", "evidence": "What I felt, standing there, was relief"}
+      ]
+    },
+    {
+      "id": "G-04-001",
+      "tags": [
+        {"tag": "image/mended-roof", "evidence": "when a neighbor's roof needed mending"},
+        {"tag": "image/house-down-the-path", "evidence": "a specific house down the path"},
+        {"tag": "motif/reciprocal-obligation", "evidence": "the obligation was reciprocal"},
+        {"tag": "motif/intergenerational-stewardship", "evidence": "backward through the dead and forward through the not-yet-born"},
+        {"tag": "affect/rooted-belonging", "evidence": "the account was the community itself"}
+      ]
+    },
+    {
+      "id": "G-04-003",
+      "tags": [
+        {"tag": "image/firing-squad", "evidence": "escaped the firing squad through... an administrative oversight"},
+        {"tag": "image/the-valley", "evidence": "Into this valley, in February of 1941"},
+        {"tag": "motif/transformation-of-the-human", "evidence": "transformation of the world passes through the transformation"},
+        {"tag": "motif/recovery-of-what-was-there", "evidence": "bringing back a way of seeing what was already there"},
+        {"tag": "affect/quiet-conviction", "evidence": "those who choose to make history have the advantage"}
+      ]
+    },
+    {
+      "id": "G-04-006",
+      "tags": [
+        {"tag": "image/paraffin-stoves", "evidence": "began making paraffin stoves"},
+        {"tag": "image/foundation-stone", "evidence": "blessed the foundation stone of the new pavilion"},
+        {"tag": "motif/pooled-resources", "evidence": "pooled their savings and skills"},
+        {"tag": "motif/lifelong-building", "evidence": "thirty-five years in a single valley building"},
+        {"tag": "affect/devotion", "evidence": "what he believed the Gospel and the etxe together required"}
+      ]
+    },
+    {
+      "id": "G-04-008",
+      "tags": [
+        {"tag": "image/wage-ratio", "evidence": "earns at most six times what the lowest-paid worker earns"},
+        {"tag": "motif/no-layoffs", "evidence": "No member-worker has been laid off in an economic downturn"},
+        {"tag": "motif/durability-under-failure", "evidence": "The system is not utopian. Cooperatives have left"},
+        {"tag": "affect/sober-validation", "evidence": "roughly 95% of them were absorbed into other Mondragón cooperatives"}
+      ]
+    },
+    {
+      "id": "G-04-012",
+      "tags": [
+        {"tag": "image/ground-lease", "evidence": "owns the land permanently through 99-year ground leases"},
+        {"tag": "image/the-resale", "evidence": "sold it in 2003 for less than the open market would have paid"},
+        {"tag": "motif/foregone-gain", "evidence": "not the full speculative gain"},
+        {"tag": "motif/provision-for-strangers", "evidence": "The neighbor they were providing for didn't exist yet"},
+        {"tag": "affect/principled-restraint", "evidence": "someone made a choice"}
+      ]
+    },
+    {
+      "id": "G-04-014",
+      "tags": [
+        {"tag": "image/failed-water-system", "evidence": "The water system has failed repeatedly"},
+        {"tag": "image/plantation-governance", "evidence": "a modern form of plantation governance"},
+        {"tag": "motif/state-abandonment", "evidence": "refused to fund repairs at levels even close"},
+        {"tag": "affect/indictment", "evidence": "a maneuver so naked"}
+      ]
+    },
+    {
+      "id": "G-04-017",
+      "tags": [
+        {"tag": "image/the-memorial", "evidence": "At the memorial, Lumumba's daughter Rukia"},
+        {"tag": "motif/inheritance-of-purpose", "evidence": "My brother was bred to do this work"},
+        {"tag": "motif/service-to-the-people", "evidence": "We know nothing else but to love and serve the people"},
+        {"tag": "affect/grief", "evidence": "spoke for the family"}
+      ]
+    },
+    {
+      "id": "G-04-019",
+      "tags": [
+        {"tag": "image/the-floor-that-holds", "evidence": "A floor that holds"},
+        {"tag": "motif/broken-landlord-class", "evidence": "broke up the landlord class"},
+        {"tag": "motif/governance-as-infrastructure", "evidence": "treated governance as infrastructure for collective wellbeing"},
+        {"tag": "motif/accountable-to-the-organized", "evidence": "accountable to its own population because that population is organized"},
+        {"tag": "affect/grounded-conviction", "evidence": "The explanation is not a mystery"}
+      ]
+    },
+    {
+      "id": "G-04-022",
+      "tags": [
+        {"tag": "image/the-caracoles", "evidence": "The caracoles remain, but as community centers"},
+        {"tag": "image/village-assembly", "evidence": "Power was pushed downward, to the village assembly"},
+        {"tag": "motif/radical-decentralization", "evidence": "thousands of Local Autonomous Governments"},
+        {"tag": "motif/seven-generations-horizon", "evidence": "one hundred and twenty years — seven generations"},
+        {"tag": "affect/defiant-endurance", "evidence": "In the midst of collapse... we have to look far ahead"}
+      ]
+    },
+    {
+      "id": "G-04-025",
+      "tags": [
+        {"tag": "image/sidewalk-fridge", "evidence": "at scales from a sidewalk fridge to seventy thousand workers"},
+        {"tag": "image/water-tribunal", "evidence": "The Valencia Water Tribunal at a thousand"},
+        {"tag": "motif/litany-of-the-enduring", "evidence": "Mondragón at sixty-nine years. The Champlain Housing Trust at forty-two"},
+        {"tag": "motif/practice-older-than-capitalism", "evidence": "continuations of practices older than capitalism"},
+        {"tag": "affect/grounded-assurance", "evidence": "The proof is not theoretical. It is present tense"}
+      ]
+    },
+    {
+      "id": "G-GC-001",
+      "tags": [
+        {"tag": "image/the-grimoire", "evidence": "The Lesser Key of Solomon catalogues seventy-two demons"},
+        {"tag": "image/the-named-demon", "evidence": "Each has a name. Each has a seal"},
+        {"tag": "motif/naming-to-act-back", "evidence": "drawn so you can act back"},
+        {"tag": "affect/incantatory-gravity", "evidence": "a season it walks in"}
+      ]
+    },
+    {
+      "id": "G-GC-005",
+      "tags": [
+        {"tag": "image/the-restaurant", "evidence": "five more years — and a restaurant"},
+        {"tag": "motif/the-phrase-that-grabs", "evidence": "The phrase grabbed hold of my mind and wouldn't let go"},
+        {"tag": "motif/answer-before-question", "evidence": "I had the answer before I had the question"},
+        {"tag": "affect/intellectual-haunting", "evidence": "wouldn't let go"}
+      ]
+    },
+    {
+      "id": "G-GC-005d",
+      "tags": [
+        {"tag": "image/the-master-key", "evidence": "I had what seemed like a master key"},
+        {"tag": "image/the-shrug", "evidence": "They shrugged"},
+        {"tag": "motif/failed-interruption", "evidence": "I tried to interrupt its production"},
+        {"tag": "motif/generational-timescale", "evidence": "This task takes generations"},
+        {"tag": "affect/chastened-humility", "evidence": "What I was, was impatient"}
+      ]
+    },
+    {
+      "id": "G-GC-008",
+      "tags": [
+        {"tag": "image/clipboard-and-whip", "evidence": "The clipboard and the whip"},
+        {"tag": "image/smiling-parasite", "evidence": "the smiling parasite"},
+        {"tag": "motif/care-as-disguise", "evidence": "keeps the host healthy enough to keep giving, and calls this care"},
+        {"tag": "affect/cold-clarity", "evidence": "That is not quite right"}
+      ]
+    },
+    {
+      "id": "G-GC-008e",
+      "tags": [
+        {"tag": "image/the-tree", "evidence": "A tree produces everything it needs"},
+        {"tag": "image/mycelium", "evidence": "Mycelium runs between the roots, exchanging nutrients"},
+        {"tag": "image/the-orchard", "evidence": "Biopower manages the orchard. It wants the fruit"},
+        {"tag": "motif/overflow-as-primary-product", "evidence": "The overflow IS the primary product. The fruit is the byproduct"},
+        {"tag": "affect/abundance", "evidence": "Cradle to Cradle called this abundance, not waste"}
+      ]
+    },
+    {
+      "id": "G-GC-015",
+      "tags": [
+        {"tag": "image/the-held-frame", "evidence": "someone else always holds the frame"},
+        {"tag": "motif/authoritarian-perception", "evidence": "he relied entirely on an authoritarian mode of perception"},
+        {"tag": "motif/produced-for-a-world", "evidence": "the system that had produced him had produced him"},
+        {"tag": "affect/exhausted-clarity", "evidence": "after the exhaustion lifted enough to let me look clearly"}
+      ]
+    },
+    {
+      "id": "G-GC-021",
+      "tags": [
+        {"tag": "image/the-leaking-nerves", "evidence": "The nerves were leaking signal from a deeper layer"},
+        {"tag": "image/colonial-officer", "evidence": "Fanon's French officer... administering colonial violence"},
+        {"tag": "motif/the-frame-as-reality", "evidence": "the frame itself felt like reality"},
+        {"tag": "motif/the-body-knows-below", "evidence": "leaking signal from a deeper layer, one below the frame"},
+        {"tag": "affect/uneasy-recognition", "evidence": "he genuinely didn't"}
+      ]
+    },
+    {
+      "id": "G-GC-026",
+      "tags": [
+        {"tag": "image/where-accounting-stops", "evidence": "The outside is wherever the accounting stops"},
+        {"tag": "motif/enclosed-because-it-worked", "evidence": "It was enclosed because it worked"},
+        {"tag": "motif/commons-as-next-outside", "evidence": "perpetually at risk of becoming the next outside"},
+        {"tag": "affect/sharp-inversion", "evidence": "not enclosed because it failed"}
+      ]
+    },
+    {
+      "id": "G-GC-036",
+      "tags": [
+        {"tag": "image/literacy-circle", "evidence": "Freire's literacy circles"},
+        {"tag": "image/the-litany-of-words", "evidence": "Peasant. Landlord. Wage. Debt"},
+        {"tag": "motif/reading-the-world", "evidence": "The reading of the word as the reading of the world"},
+        {"tag": "motif/naming-breaks-silence", "evidence": "name the world that had been organizing the silence"},
+        {"tag": "affect/quiet-awakening", "evidence": "The words that reorganize the visible"}
+      ]
+    },
+    {
+      "id": "G-GC-043",
+      "tags": [
+        {"tag": "image/i-see-you", "evidence": "I see you. I am here. We are in this together"},
+        {"tag": "motif/connection-before-rules", "evidence": "Before the rules. Before the governance structure"},
+        {"tag": "motif/what-enclosure-cannot-produce", "evidence": "This is the thing the enclosure cannot produce"},
+        {"tag": "affect/tender-recognition", "evidence": "the felt sense of being recognized, of mattering"}
+      ]
+    },
+    {
+      "id": "G-05-001",
+      "tags": [
+        {"tag": "image/the-photograph", "evidence": "There is a photograph, taken in a Frankfurt courtroom"},
+        {"tag": "image/smile-before-the-judge", "evidence": "facing a judge with a smile on her face"},
+        {"tag": "motif/incitement-to-refuse", "evidence": "they didn't have to shoot their fellow workers if ordered"},
+        {"tag": "affect/defiance", "evidence": "It will not stop her writing"}
+      ]
+    },
+    {
+      "id": "G-05-003",
+      "tags": [
+        {"tag": "image/timber-merchant-father", "evidence": "a Jewish timber merchant who argued politics"},
+        {"tag": "image/underground-cell", "evidence": "organized an underground political cell at her Warsaw high school"},
+        {"tag": "motif/precocious-resistance", "evidence": "already wanted by the Russian secret police"},
+        {"tag": "affect/quiet-admiration", "evidence": "one of the most prominent voices"}
+      ]
+    },
+    {
+      "id": "G-05-008",
+      "tags": [
+        {"tag": "image/the-math-that-wont-close", "evidence": "The math doesn't close"},
+        {"tag": "motif/surplus-needs-buyers", "evidence": "That surplus has to be realized somewhere"},
+        {"tag": "motif/closing-it-elsewhere", "evidence": "it must be closing the math somewhere else"},
+        {"tag": "affect/forensic-suspicion", "evidence": "And yet the system keeps running"}
+      ]
+    },
+    {
+      "id": "G-05-010",
+      "tags": [
+        {"tag": "image/the-frontier", "evidence": "The frontier — colonial territories, peasant economies"},
+        {"tag": "image/the-machine", "evidence": "It is what the machine needs to stay alive"},
+        {"tag": "motif/extraction-from-the-outside", "evidence": "value can be taken without full payment"},
+        {"tag": "motif/structure-not-accident", "evidence": "not an accident... It is the mechanism"},
+        {"tag": "affect/cold-diagnosis", "evidence": "what the machine needs to stay alive"}
+      ]
+    },
+    {
+      "id": "G-05-013",
+      "tags": [
+        {"tag": "image/the-canal", "evidence": "Her body was thrown into the Landwehr Canal"},
+        {"tag": "image/shot-in-the-head", "evidence": "She was shot in the head by government-backed paramilitaries"},
+        {"tag": "motif/martyrdom", "evidence": "They found her four months later"},
+        {"tag": "affect/grief", "evidence": "Her body was thrown into the Landwehr Canal"}
+      ]
+    },
+    {
+      "id": "G-05-014",
+      "tags": [
+        {"tag": "image/wealth-flowing-wrong-way", "evidence": "the wealth was flowing the wrong direction"},
+        {"tag": "motif/integration-is-the-gap", "evidence": "Integration doesn't close the gap. It is the gap"},
+        {"tag": "motif/resurfacing-argument", "evidence": "Her argument resurfaced in the second half"},
+        {"tag": "affect/vindicated-clarity", "evidence": "The mechanism is Luxemburg's"}
+      ]
+    },
+    {
+      "id": "G-05-021",
+      "tags": [
+        {"tag": "image/the-water-economy-swims-in", "evidence": "It is the water the economy swims in, unacknowledged"},
+        {"tag": "image/unpaid-care-work", "evidence": "if unpaid care work worldwide were paid at minimum wage"},
+        {"tag": "motif/uncounted-labor", "evidence": "It is not in the GDP. It is not in any price"},
+        {"tag": "affect/quiet-indictment", "evidence": "overwhelmingly women... unacknowledged"}
+      ]
+    },
+    {
+      "id": "G-05-022",
+      "tags": [
+        {"tag": "image/the-isolated-household", "evidence": "A woman managing her household alone"},
+        {"tag": "image/no-communal-kitchen", "evidence": "no communal kitchen, no shared childcare"},
+        {"tag": "motif/isolation-as-mechanism", "evidence": "The isolation is the mechanism"},
+        {"tag": "motif/care-as-love-as-trap", "evidence": "constituted as personal obligation, as love, as family"},
+        {"tag": "affect/incisive-clarity", "evidence": "the privatization of care isn't only unjust. It is useful"}
+      ]
+    },
+    {
+      "id": "G-05-024",
+      "tags": [
+        {"tag": "image/communal-kitchen", "evidence": "Communal kitchens. Public childcare"},
+        {"tag": "motif/socialize-the-care", "evidence": "Kollontai's answer: socialize the care"},
+        {"tag": "motif/it-can-be-unmaintained", "evidence": "It is maintained. It can be unmaintained"},
+        {"tag": "affect/operative-hope", "evidence": "care as infrastructure rather than private burden"}
+      ]
+    },
+    {
+      "id": "G-05-031",
+      "tags": [
+        {"tag": "image/the-occupied", "evidence": "makes the occupied feel responsible for their own occupation"},
+        {"tag": "motif/structure-not-conspiracy", "evidence": "Not a conspiracy. A structure"},
+        {"tag": "motif/intersecting-forces", "evidence": "where race and gender and class meet and multiply"},
+        {"tag": "affect/diagnostic-precision", "evidence": "the place where race and gender and class meet"}
+      ]
+    },
+    {
+      "id": "G-06-002",
+      "tags": [
+        {"tag": "image/the-house-1916", "evidence": "I bought a house built in 1916 at the edge of Chelsea"},
+        {"tag": "image/the-line-behind-7-eleven", "evidence": "The line between them runs behind a 7-Eleven"},
+        {"tag": "motif/the-dividing-line", "evidence": "hard against West Ghent on the other"},
+        {"tag": "motif/stating-position", "evidence": "It's a statement of position"},
+        {"tag": "affect/self-implication", "evidence": "I am a beneficiary of exactly the system"}
+      ]
+    },
+    {
+      "id": "G-06-007",
+      "tags": [
+        {"tag": "image/color-blind-engine", "evidence": "functionally color-blind, concerned with capital and labor"},
+        {"tag": "motif/race-as-cover-story", "evidence": "Race was the cover story. The economic system was the engine"},
+        {"tag": "motif/the-standard-story", "evidence": "The standard story of race and capitalism"},
+        {"tag": "affect/setup-for-rebuttal", "evidence": "The two were, in principle, separable"}
+      ]
+    },
+    {
+      "id": "G-06-012",
+      "tags": [
+        {"tag": "image/the-plantation", "evidence": "On the plantation, a human being is classified as property"},
+        {"tag": "image/the-uncompensated-body", "evidence": "the enslaved person's body produces the next generation"},
+        {"tag": "motif/total-externalization", "evidence": "total externalization of reproduction costs"},
+        {"tag": "motif/suppressed-counter-power", "evidence": "total suppression of any counter-power"},
+        {"tag": "affect/clinical-horror", "evidence": "capitalism at its logical extreme"}
+      ]
+    },
+    {
+      "id": "G-06-018",
+      "tags": [
+        {"tag": "image/no-bus-stop", "evidence": "there is no bus stop in Chelsea. Not one"},
+        {"tag": "image/the-7-eleven", "evidence": "the 7-Eleven that outperformed every small business"},
+        {"tag": "image/fear-on-their-faces", "evidence": "what I saw on their faces... was fear"},
+        {"tag": "motif/present-but-not-of-it", "evidence": "extracted from the place without being of it"},
+        {"tag": "affect/unease", "evidence": "Fear of the thing they were, technically, a part of"}
+      ]
+    },
+    {
+      "id": "G-06-023",
+      "tags": [
+        {"tag": "image/theory-from-below", "evidence": "building theory from a position the system did not intend"},
+        {"tag": "motif/black-radical-tradition", "evidence": "This is what Robinson called the Black radical tradition"},
+        {"tag": "motif/argument-from-the-outside", "evidence": "building the argument, from the outside"},
+        {"tag": "affect/reverence", "evidence": "ongoing, cumulative — building the argument"}
+      ]
+    },
+    {
+      "id": "G-06-027",
+      "tags": [
+        {"tag": "image/developed-into-poverty", "evidence": "Africa was developed — into poverty"},
+        {"tag": "image/the-young-scholar", "evidence": "his PhD in African history completed at twenty-four"},
+        {"tag": "motif/deliberate-underdevelopment", "evidence": "Not accidentally. Deliberately"},
+        {"tag": "motif/traceable-mechanism", "evidence": "By mechanisms that can be identified and traced"},
+        {"tag": "affect/reframing-force", "evidence": "a sentence that reframes the entire conversation"}
+      ]
+    },
+    {
+      "id": "G-06-033",
+      "tags": [
+        {"tag": "image/the-debt-trap", "evidence": "The debt trap continued the same orientation"},
+        {"tag": "image/structural-adjustment", "evidence": "the IMF and World Bank imposed structural adjustment"},
+        {"tag": "motif/extraction-by-financial-means", "evidence": "continued the same orientation by financial means"},
+        {"tag": "affect/cold-continuity", "evidence": "cut public services to service the debt"}
+      ]
+    },
+    {
+      "id": "G-06-037",
+      "tags": [
+        {"tag": "image/bomb-in-a-walkie-talkie", "evidence": "sometimes been a bomb in a walkie-talkie"},
+        {"tag": "motif/specificity-demands-response", "evidence": "Specific claims... require a response"},
+        {"tag": "motif/the-shrug-of-nothing-to-do", "evidence": "More often it is: nothing we can do"},
+        {"tag": "affect/sharp-warning", "evidence": "why he remains politically contentious"}
+      ]
+    },
+    {
+      "id": "G-06-042",
+      "tags": [
+        {"tag": "image/wages-of-whiteness", "evidence": "how the wages of whiteness fragment working-class solidarity"},
+        {"tag": "motif/fractured-solidarity", "evidence": "make exploitation legible as non-exploitation"},
+        {"tag": "motif/engineered-underdevelopment", "evidence": "how underdevelopment is engineered"},
+        {"tag": "affect/analytic-distinction", "evidence": "are making different arguments"}
+      ]
+    },
+    {
+      "id": "G-06-046",
+      "tags": [
+        {"tag": "image/cleared-land", "evidence": "Whose land was cleared, whose neighborhood demolished"},
+        {"tag": "motif/geography-as-history", "evidence": "not as demographics, but as history"},
+        {"tag": "motif/the-findable-record", "evidence": "The record is findable"},
+        {"tag": "affect/demand-for-analysis", "evidence": "Not guilt — analysis"}
+      ]
+    },
+    {
+      "id": "G-07-001",
+      "tags": [
+        {"tag": "image/the-shrug", "evidence": "The posture of the people I grew up around was the shrug"},
+        {"tag": "image/the-yanked-arm", "evidence": "in the yanked arm, in the slap on the back of the head"},
+        {"tag": "image/richmond-afterward", "evidence": "the Richmond of afterward, the city history had... moved on from"},
+        {"tag": "motif/inherited-defeat", "evidence": "learned and then taught, generation to generation"},
+        {"tag": "affect/diminished-expectation", "evidence": "a physical vocabulary of diminished expectation"}
+      ]
+    }
+  ]
+}

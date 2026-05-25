@@ -1,0 +1,463 @@
+{
+  "pass": "A",
+  "shard": 4,
+  "gestures": [
+    {
+      "id": "G-10-042",
+      "tags": [
+        {"tag": "image/prison-cell", "evidence": "Luxemburg in her prison cell in 1918"},
+        {"tag": "image/named-birds", "evidence": "feeding birds she had named"},
+        {"tag": "motif/text-that-outlasts", "evidence": "writing the analysis that has outlasted"},
+        {"tag": "motif/source-not-instructions", "evidence": "This is source, not instructions"},
+        {"tag": "affect/reverence", "evidence": "Building something durable enough to survive her death"}
+      ]
+    },
+    {
+      "id": "G-11-002",
+      "tags": [
+        {"tag": "image/lifted-asphalt", "evidence": "The asphalt taken up, the ground beneath it returned"},
+        {"tag": "image/planters-and-benches", "evidence": "trees, benches, planters, space for people to sit"},
+        {"tag": "motif/pavement-to-earth", "evidence": "returned to something closer to earth"},
+        {"tag": "affect/quiet-hope", "evidence": "What was a car lane is now a plaza"}
+      ]
+    },
+    {
+      "id": "G-11-003",
+      "tags": [
+        {"tag": "image/lifted-pavement", "evidence": "the moment the pavement was lifted and something was planted"},
+        {"tag": "motif/commons-built-in-soil", "evidence": "what the means-are-the-ends insight looks like in concrete and soil"},
+        {"tag": "motif/building-settles-the-question", "evidence": "the building settles the question"},
+        {"tag": "affect/conviction", "evidence": "defending it when someone proposes to take it back"}
+      ]
+    },
+    {
+      "id": "G-11-008",
+      "tags": [
+        {"tag": "image/siberian-horses-in-blizzard", "evidence": "Siberian horses during a blizzard"},
+        {"tag": "image/tight-circle-heads-inward", "evidence": "they form a tight circle, heads inward"},
+        {"tag": "motif/distributed-survival", "evidence": "A distributed solution to a collective problem"},
+        {"tag": "motif/cooperation-as-dominant-strategy", "evidence": "Mutual aid was not the exception"},
+        {"tag": "affect/vindication", "evidence": "the same pattern everywhere"}
+      ]
+    },
+    {
+      "id": "G-11-013",
+      "tags": [
+        {"tag": "image/zuccotti-park", "evidence": "spent weeks in Zuccotti Park"},
+        {"tag": "motif/the-means-are-the-goal", "evidence": "not a tactic toward a goal but the goal"},
+        {"tag": "motif/research-in-public", "evidence": "conducting wildly unorthodox field research in public"},
+        {"tag": "affect/restless-engagement", "evidence": "organizing, arguing, taking notes"}
+      ]
+    },
+    {
+      "id": "G-11-016",
+      "tags": [
+        {"tag": "motif/play-as-excess", "evidence": "Free, intrinsically motivated, non-instrumental activity"},
+        {"tag": "motif/commons-produces-play", "evidence": "The commons produces play. Enclosure destroys it"},
+        {"tag": "affect/generative-openness", "evidence": "space where people try things"}
+      ]
+    },
+    {
+      "id": "G-11-018",
+      "tags": [
+        {"tag": "image/the-kitchen", "evidence": "the incentive structure of a good kitchen"},
+        {"tag": "image/regulars-at-the-bar", "evidence": "the regulars were making friends at the bar"},
+        {"tag": "motif/unscripted-room", "evidence": "when people are in a room together without a script"},
+        {"tag": "motif/build-conditions-step-back", "evidence": "build the conditions and get out of the way"},
+        {"tag": "affect/warmth", "evidence": "the energy had a life of its own"}
+      ]
+    },
+    {
+      "id": "G-11-027",
+      "tags": [
+        {"tag": "image/imrali-island-prison", "evidence": "imprisoned him on Imrali Island"},
+        {"tag": "motif/theory-meets-practitioner", "evidence": "The theory met the practitioner"},
+        {"tag": "motif/knowledge-from-prison", "evidence": "time to think without the pressure of the immediate"},
+        {"tag": "affect/hard-won-clarity", "evidence": "a conclusion that no amount of reading alone could have produced"}
+      ]
+    },
+    {
+      "id": "G-11-032",
+      "tags": [
+        {"tag": "image/emerging-from-the-jungle", "evidence": "emerged from the jungle and occupied several towns"},
+        {"tag": "image/communiques-from-the-jungle", "evidence": "communiqués Subcomandante Marcos wrote from the jungle"},
+        {"tag": "motif/rotating-non-accumulating-power", "evidence": "return to their communities with no accumulated authority"},
+        {"tag": "motif/argument-that-travels", "evidence": "the architecture of the argument traveled on its own"},
+        {"tag": "affect/defiance", "evidence": "while the Mexican military surrounds them"}
+      ]
+    },
+    {
+      "id": "G-11-036",
+      "tags": [
+        {"tag": "image/garden-in-opened-soil", "evidence": "grows in the soil opened when the pavement comes up"},
+        {"tag": "motif/built-block-by-block", "evidence": "The commons is built block by block"},
+        {"tag": "motif/knowing-in-the-body", "evidence": "what a person knows in their body"},
+        {"tag": "affect/patient-resolve", "evidence": "These are positions won"}
+      ]
+    },
+    {
+      "id": "G-11-039",
+      "tags": [
+        {"tag": "image/glaciers-in-siberia", "evidence": "Kropotkin counted glaciers in Siberia"},
+        {"tag": "motif/observer-not-organizer", "evidence": "Not the prince part — the observer part"},
+        {"tag": "motif/refusing-to-naturalize-difference", "evidence": "refusing to naturalize the difference"},
+        {"tag": "motif/building-as-political-act", "evidence": "The building is a political act"},
+        {"tag": "affect/humility", "evidence": "I have little to no street experience"}
+      ]
+    },
+    {
+      "id": "G-12-001",
+      "tags": [
+        {"tag": "image/waist-deep-in-the-river", "evidence": "standing waist-deep in the Narmada River"},
+        {"tag": "image/rising-reservoir", "evidence": "The reservoir was rising. The villages upstream were going under"},
+        {"tag": "motif/naming-the-specific", "evidence": "gone to the specific places where the specific people"},
+        {"tag": "motif/refusing-invisibility", "evidence": "refusing to become invisible"},
+        {"tag": "affect/witness", "evidence": "Roy stood in the water as it climbed"}
+      ]
+    },
+    {
+      "id": "G-12-008",
+      "tags": [
+        {"tag": "image/return-to-the-ground", "evidence": "go back to the ground. The Narmada. The forests"},
+        {"tag": "motif/act-of-witness", "evidence": "They are acts of witness, which requires a position"},
+        {"tag": "motif/taking-a-side", "evidence": "named what she found, and said whose side she was on"},
+        {"tag": "affect/fury", "evidence": "with the exact fury of someone who understood"}
+      ]
+    },
+    {
+      "id": "G-12-011",
+      "tags": [
+        {"tag": "image/this-forest", "evidence": "the way *this* forest responded to *this* community's use"},
+        {"tag": "motif/place-specific-knowledge", "evidence": "The knowledge was specific to the place"},
+        {"tag": "motif/governance-cannot-relocate", "evidence": "destroyed governance systems that had no way to be relocated"},
+        {"tag": "affect/loss", "evidence": "if it can be built at all"}
+      ]
+    },
+    {
+      "id": "G-12-014",
+      "tags": [
+        {"tag": "motif/continuing-not-rebuilding", "evidence": "Not rebuilding. Continuing"},
+        {"tag": "motif/never-enclosed-commons", "evidence": "Commons that had never been enclosed"},
+        {"tag": "motif/defense-against-the-state", "evidence": "a state that needed their land, their forests, their rivers"},
+        {"tag": "affect/endurance", "evidence": "operating without interruption... sometimes for centuries"}
+      ]
+    },
+    {
+      "id": "G-12-016",
+      "tags": [
+        {"tag": "image/the-herons", "evidence": "The herons know about the road"},
+        {"tag": "image/willow-oaks", "evidence": "relationship with this particular stand of willow oaks"},
+        {"tag": "motif/older-than-the-infrastructure", "evidence": "older than the infrastructure that nearly severed it"},
+        {"tag": "motif/commons-needs-no-vocabulary", "evidence": "doesn't require our vocabulary to function"},
+        {"tag": "affect/reverence", "evidence": "encodes a knowledge of that place that no traffic study produced"}
+      ]
+    },
+    {
+      "id": "G-12-020",
+      "tags": [
+        {"tag": "motif/perception-becomes-action", "evidence": "The perception and the action were not separate"},
+        {"tag": "motif/natural-to-made", "evidence": "The shift from \"this is natural\" to \"this was made\""},
+        {"tag": "motif/reaction-as-confirmation", "evidence": "the best confirmation his method ever received"},
+        {"tag": "affect/defiance", "evidence": "teaching them that their situation was historical"}
+      ]
+    },
+    {
+      "id": "G-12-025",
+      "tags": [
+        {"tag": "image/the-wine-bottle", "evidence": "A Chiaretto Rosé from La Meridiana"},
+        {"tag": "image/after-the-lunch-service", "evidence": "after the lunch service... the last guests were gone"},
+        {"tag": "motif/made-honestly-not-cheaply", "evidence": "make the thing honestly rather than cheaply"},
+        {"tag": "motif/labor-known-in-the-body", "evidence": "knew in their bodies what living labor costs"},
+        {"tag": "affect/communion", "evidence": "We opened what we had"}
+      ]
+    },
+    {
+      "id": "G-12-028",
+      "tags": [
+        {"tag": "image/the-restaurant-as-theatre", "evidence": "We were selling theatre — an immersive performance"},
+        {"tag": "image/food-as-prop", "evidence": "the food was a prop"},
+        {"tag": "motif/simulation-vs-the-real-thing", "evidence": "They wanted the simulation they knew"},
+        {"tag": "motif/honest-show-no-buyers", "evidence": "there weren't enough of them"},
+        {"tag": "affect/disillusion", "evidence": "not the show the people with money wanted to see"}
+      ]
+    },
+    {
+      "id": "G-12-031",
+      "tags": [
+        {"tag": "image/the-lifting-veil", "evidence": "the veil lifting is not a liberation"},
+        {"tag": "image/student-with-the-pen", "evidence": "Freire's student wrote his name"},
+        {"tag": "motif/seeing-does-not-stop-it", "evidence": "The seeing doesn't stop the thing"},
+        {"tag": "motif/can-no-longer-pretend", "evidence": "changes what you can no longer pretend"},
+        {"tag": "affect/sober-clarity", "evidence": "the river kept rising"}
+      ]
+    },
+    {
+      "id": "G-12-036",
+      "tags": [
+        {"tag": "image/children-in-the-forest", "evidence": "The children moving through the forest"},
+        {"tag": "image/word-you-already-know", "evidence": "look at this word you already know"},
+        {"tag": "motif/enclosure-of-attention", "evidence": "enclose the attention that would produce it"},
+        {"tag": "motif/consciousness-as-commons", "evidence": "consciousness itself a commons"},
+        {"tag": "motif/distillation-to-presence", "evidence": "the quality of presence that witnessing requires"},
+        {"tag": "affect/disciplined-hope", "evidence": "What becomes possible when enough of us cultivate that attention"}
+      ]
+    },
+    {
+      "id": "G-13-001",
+      "tags": [
+        {"tag": "image/the-cancellation-letter", "evidence": "They sent letters to the debtors"},
+        {"tag": "image/debt-bought-by-the-penny", "evidence": "bought bundles of this debt for around two cents on the dollar"},
+        {"tag": "motif/buying-debt-to-abolish-it", "evidence": "Then they abolished it"},
+        {"tag": "affect/relief", "evidence": "No payment required. No strings attached"}
+      ]
+    },
+    {
+      "id": "G-13-008",
+      "tags": [
+        {"tag": "motif/the-myth-with-no-evidence", "evidence": "Graeber looked for evidence of it. He didn't find any"},
+        {"tag": "motif/just-so-story", "evidence": "a just-so story that no actual evidence supports"},
+        {"tag": "affect/debunking", "evidence": "No society operating on generalized barter has ever been documented"}
+      ]
+    },
+    {
+      "id": "G-13-011",
+      "tags": [
+        {"tag": "image/neighbor-brings-food", "evidence": "a neighbor brings food when you're sick"},
+        {"tag": "motif/relationship-is-the-ledger", "evidence": "The relationship is the ledger"},
+        {"tag": "motif/credit-as-social-fact", "evidence": "It is a social fact"},
+        {"tag": "motif/enclosure-of-the-commons", "evidence": "like every commons it has been enclosed"},
+        {"tag": "affect/intimacy", "evidence": "embedded in the fabric of your relationship"}
+      ]
+    },
+    {
+      "id": "G-13-015",
+      "tags": [
+        {"tag": "image/eviction-and-homelessness", "evidence": "missed mortgage payments, eviction... homelessness"},
+        {"tag": "motif/debt-as-bodily-harm", "evidence": "an extra year of life lost per thousand people"},
+        {"tag": "affect/indictment", "evidence": "three times more likely to consider suicide"}
+      ]
+    },
+    {
+      "id": "G-13-019",
+      "tags": [
+        {"tag": "image/the-2008-bailout", "evidence": "trillions in public support for financial institutions"},
+        {"tag": "motif/selective-moral-weight", "evidence": "debt's moral weight is applied selectively"},
+        {"tag": "motif/one-rule-for-powerful", "evidence": "one rule when it is owed by the powerful, another when... the powerless"},
+        {"tag": "affect/indictment", "evidence": "This is not hypocrisy. It is policy"}
+      ]
+    },
+    {
+      "id": "G-13-022",
+      "tags": [
+        {"tag": "image/the-credit-union", "evidence": "Credit unions collectively hold over $2 trillion"},
+        {"tag": "motif/already-exists-not-radical", "evidence": "This is not a radical proposal"},
+        {"tag": "affect/reassurance", "evidence": "serving hundreds of millions of people"}
+      ]
+    },
+    {
+      "id": "G-13-025",
+      "tags": [
+        {"tag": "image/the-rejecting-algorithm", "evidence": "a bank's algorithm would reject"},
+        {"tag": "motif/algorithm-optimized-for-extraction", "evidence": "the algorithm is optimized for extraction"},
+        {"tag": "motif/finance-for-the-written-off", "evidence": "communities conventional finance has written off"},
+        {"tag": "affect/solidarity", "evidence": "what it would mean for their community"}
+      ]
+    },
+    {
+      "id": "G-13-027",
+      "tags": [
+        {"tag": "image/arguing-with-banks", "evidence": "the first three years... arguing with banks"},
+        {"tag": "image/the-loan-from-father", "evidence": "I eventually negotiated a loan with my father"},
+        {"tag": "motif/relationship-pulled-into-market", "evidence": "the relationship that should be outside the market, pulled into it"},
+        {"tag": "motif/inside-the-extraction-mechanism", "evidence": "inside the exact mechanism Graeber describes"},
+        {"tag": "affect/humiliation", "evidence": "humiliating in the specific way that asking family for money is humiliating"}
+      ]
+    },
+    {
+      "id": "G-13-034",
+      "tags": [
+        {"tag": "image/the-boomerang-bottle", "evidence": "a cleaned-out liquor bottle filled with a personalized batched cocktail"},
+        {"tag": "motif/the-gap-is-the-system", "evidence": "The gap is not a flaw in the system. The gap is the system"},
+        {"tag": "motif/uncalculated-reciprocity", "evidence": "the unprescribed reciprocation that brings the human in"},
+        {"tag": "motif/settling-ends-the-relationship", "evidence": "the moment you settle accounts... ended both"},
+        {"tag": "affect/warmth", "evidence": "incalculable debt, the kind that lives in relationship"}
+      ]
+    },
+    {
+      "id": "G-13-039",
+      "tags": [
+        {"tag": "image/credit-union-on-the-corner", "evidence": "the credit union on the corner"},
+        {"tag": "image/the-susu", "evidence": "in the susu, the boomerang bottle"},
+        {"tag": "motif/already-running", "evidence": "It is already running"},
+        {"tag": "motif/shift-your-relationship", "evidence": "What shifts is not the structure but your relationship to it"},
+        {"tag": "affect/availability", "evidence": "It is available now"}
+      ]
+    },
+    {
+      "id": "G-AB-001",
+      "tags": [
+        {"tag": "image/angelus-novus", "evidence": "*Angelus Novus*, ink and oil-transfer on paper"},
+        {"tag": "image/angel-wings-unable-to-close", "evidence": "wings spread but unable to close"},
+        {"tag": "image/the-suitcase", "evidence": "small enough to fit in a suitcase"},
+        {"tag": "motif/cannot-yet-name-what-is-coming", "evidence": "could not yet name what was coming"},
+        {"tag": "affect/foreboding", "evidence": "Faintly comic, faintly tragic"}
+      ]
+    },
+    {
+      "id": "G-AB-007",
+      "tags": [
+        {"tag": "image/the-redcedar", "evidence": "applied to a Western Redcedar or a print of an angel"},
+        {"tag": "image/meal-lit-a-table", "evidence": "a Tuesday in February when a meal lit a table"},
+        {"tag": "motif/aura-as-irreducible", "evidence": "the irreducible, the substitutable's opposite"},
+        {"tag": "motif/distance-survives-proximity", "evidence": "the place where distance survives proximity"},
+        {"tag": "affect/reverence", "evidence": "the specific gift the person carries"}
+      ]
+    },
+    {
+      "id": "G-AB-016",
+      "tags": [
+        {"tag": "image/iron-and-glass-arcades", "evidence": "Iron-and-glass passages cut between Paris streets"},
+        {"tag": "image/gaslight-and-electric", "evidence": "Gaslight burned overhead until the electric came"},
+        {"tag": "image/changing-light", "evidence": "the human face changing color as you walked"},
+        {"tag": "motif/vanished-quality-of-light", "evidence": "a quality of light no one alive has seen"},
+        {"tag": "affect/nostalgia", "evidence": "before the department store ate their function"}
+      ]
+    },
+    {
+      "id": "G-AB-022",
+      "tags": [
+        {"tag": "image/the-market-that-breathes", "evidence": "a square, a market that breathes"},
+        {"tag": "image/logged-forest", "evidence": "the way the tracker reads a logged forest"},
+        {"tag": "motif/the-seed-in-the-wreckage", "evidence": "The seed is in the wreckage"},
+        {"tag": "motif/reading-the-city", "evidence": "The wizard reads the city"},
+        {"tag": "affect/wonder", "evidence": "called the same thing *the magic of the city*"}
+      ]
+    },
+    {
+      "id": "G-AB-028",
+      "tags": [
+        {"tag": "image/the-angel", "evidence": "The angel cannot work the till"},
+        {"tag": "image/the-prescription-pad", "evidence": "a clinical name and a prescription pad"},
+        {"tag": "motif/seeing-too-much", "evidence": "The angel sees too much"},
+        {"tag": "motif/the-seeing-is-the-symptom", "evidence": "The seeing is the symptom"},
+        {"tag": "affect/grief", "evidence": "unable to participate in the forward motion"}
+      ]
+    },
+    {
+      "id": "G-AB-035",
+      "tags": [
+        {"tag": "image/the-silent-walk", "evidence": "There are walks where no one talks"},
+        {"tag": "image/gesture-with-the-eyes", "evidence": "they gesture with their head or their eyes"},
+        {"tag": "motif/wordless-attention", "evidence": "Sometimes the council does not need words"},
+        {"tag": "motif/holding-grief-together", "evidence": "It makes the grief possible to hold"},
+        {"tag": "affect/tenderness", "evidence": "It is really beautiful"}
+      ]
+    },
+    {
+      "id": "G-AB-041",
+      "tags": [
+        {"tag": "image/the-neighbor-on-the-walk", "evidence": "the neighbor on the walk"},
+        {"tag": "motif/the-long-defense", "evidence": "carried into the same long defense"},
+        {"tag": "motif/each-carries-a-gift", "evidence": "the reader has a specific gift, that the gift matters"},
+        {"tag": "affect/encouragement", "evidence": "whatever the reader actually has to give"}
+      ]
+    },
+    {
+      "id": "G-AB-049",
+      "tags": [
+        {"tag": "image/cedar-chip", "evidence": "the first tiny notch cut from the base of a tree"},
+        {"tag": "image/western-redcedar", "evidence": "Western Redcedar, *Thuja plicata*"},
+        {"tag": "motif/knowing-the-shard-to-take", "evidence": "you know the shard that is yours to take and which to leave"},
+        {"tag": "motif/each-moment-has-aura", "evidence": "Each moment has an aura"},
+        {"tag": "affect/reverence", "evidence": "we walked with more deliberation and certainty"}
+      ]
+    },
+    {
+      "id": "G-AB-060",
+      "tags": [
+        {"tag": "image/western-redcedar", "evidence": "A piece of Western Redcedar has aura"},
+        {"tag": "image/uncut-meadow", "evidence": "A meadow not cut has aura"},
+        {"tag": "image/the-old-river", "evidence": "A river that has been running through that ground"},
+        {"tag": "motif/litany-of-aura", "evidence": "Land has aura"},
+        {"tag": "motif/nature-as-enclosure-word", "evidence": "a word the enclosure invented to put one kind of life outside the city walls"},
+        {"tag": "affect/reverence", "evidence": "the specific, irreducible, irreplaceable thing"}
+      ]
+    },
+    {
+      "id": "G-AB-065",
+      "tags": [
+        {"tag": "image/the-closed-border", "evidence": "being told the border was closed"},
+        {"tag": "image/the-lost-suitcase", "evidence": "The suitcase he was carrying... has never been recovered"},
+        {"tag": "motif/the-lost-manuscript", "evidence": "the one that, by several accounts, held a manuscript"},
+        {"tag": "motif/text-survives-its-author", "evidence": "We have the *Theses* because he gave Arendt a copy"},
+        {"tag": "affect/grief", "evidence": "Benjamin did not make it across the border"}
+      ]
+    },
+    {
+      "id": "G-14-002",
+      "tags": [
+        {"tag": "image/the-demolished-neighborhood", "evidence": "built on top of a community demolished to build it"},
+        {"tag": "image/the-crossing", "evidence": "the crossing at Hampton and Brambleton"},
+        {"tag": "motif/erasure-not-relocation", "evidence": "The community that was erased"},
+        {"tag": "affect/grief", "evidence": "racially integrated... demolished in 1957"}
+      ]
+    },
+    {
+      "id": "G-14-005",
+      "tags": [
+        {"tag": "image/wine-bars-and-galleries", "evidence": "Art galleries. Wine bars. Renovated craftsman houses"},
+        {"tag": "image/moving-frontier", "evidence": "The frontier this requires never disappears — it just moves"},
+        {"tag": "motif/displacement-becomes-invisible", "evidence": "now invisible in the property values"},
+        {"tag": "motif/enclosure-in-real-time", "evidence": "This is the enclosure running in real time"},
+        {"tag": "affect/indictment", "evidence": "maintained by force"}
+      ]
+    },
+    {
+      "id": "G-14-011",
+      "tags": [
+        {"tag": "image/the-beginning-farmer", "evidence": "a beginning farmer works sixty trust acres growing vegetables"},
+        {"tag": "image/the-farmland-trust", "evidence": "a farmland trust holds land at permanently affordable prices"},
+        {"tag": "motif/land-commons-fruits-private", "evidence": "What he builds there... is his. The land is a commons"},
+        {"tag": "affect/quiet-hope", "evidence": "rates that make farming financially viable"}
+      ]
+    },
+    {
+      "id": "G-14-014",
+      "tags": [
+        {"tag": "image/the-particular-clearing", "evidence": "the comfort of a particular clearing, the pleasure of a stream"},
+        {"tag": "image/light-going-out", "evidence": "simply went out, like a light, in the space of a week"},
+        {"tag": "motif/navigation-by-affect", "evidence": "People navigated by *affect*, not by coordinates"},
+        {"tag": "motif/cultural-death", "evidence": "He described the collapse as a kind of cultural death"},
+        {"tag": "affect/loss", "evidence": "the subtle empathetic rapport... simply went out"}
+      ]
+    },
+    {
+      "id": "G-14-020",
+      "tags": [
+        {"tag": "motif/descent-to-soul", "evidence": "what he calls the descent to soul"},
+        {"tag": "motif/severed-relationship-to-wildness", "evidence": "a relationship that postconquest civilization has been busy severing"},
+        {"tag": "motif/shaping-reality-with-a-word", "evidence": "shaping reality with a word, a glance, your absence"},
+        {"tag": "affect/humility", "evidence": "I am a practitioner. A novice"}
+      ]
+    },
+    {
+      "id": "G-14-022",
+      "tags": [
+        {"tag": "motif/owing-the-earth-is-absurd", "evidence": "the idea of owing the earth repayment is absurd"},
+        {"tag": "motif/earth-as-condition-not-creditor", "evidence": "The earth is not a creditor"},
+        {"tag": "motif/relationship-as-kinship", "evidence": "It was kinship"},
+        {"tag": "affect/reverence", "evidence": "the condition of possibility for everything the commons produces"}
+      ]
+    },
+    {
+      "id": "G-14-026",
+      "tags": [
+        {"tag": "image/kayapo-territory", "evidence": "The Kayapó people govern roughly 11 million hectares"},
+        {"tag": "image/enforcing-the-boundary", "evidence": "community members enforced the boundary directly"},
+        {"tag": "motif/practice-before-theory", "evidence": "the practice before anyone wrote the theory"},
+        {"tag": "motif/defense-of-land", "evidence": "When illegal miners entered the territory"},
+        {"tag": "affect/vindication", "evidence": "The forest is there because of the institution"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{"pass":"B","shard":3,"gestures":[
+{"id":"G-07-006","tags":[
+  {"tag":"image/interrogation-room","evidence":"what they had done in the interrogation rooms"},
+  {"tag":"image/the-shared-hospital","evidence":"treating the torturer and the tortured in the same building"},
+  {"tag":"motif/torturer-and-tortured-together","evidence":"the torturer and the tortured in the same building"},
+  {"tag":"affect/clinical-horror","evidence":"with clinical detachment or acute distress"}
+]},
+{"id":"G-07-010","tags":[
+  {"tag":"image/the-mask","evidence":"Black Skin, White Masks, published in 1952"},
+  {"tag":"motif/assimilation-promise","evidence":"the promise that culture was universal"},
+  {"tag":"motif/colonialism-come-home","evidence":"fascism was colonialism come home"},
+  {"tag":"affect/conditional-belonging","evidence":"the promise was conditional in ways it would never acknowledge"}
+]},
+{"id":"G-07-015","tags":[
+  {"tag":"image/the-double-bind","evidence":"There is no position within the structure"},
+  {"tag":"motif/no-legible-response","evidence":"the structure determines which responses are legible"},
+  {"tag":"affect/exhaustion","evidence":"the specific exhaustion of people who have spent their lives"}
+]},
+{"id":"G-07-019","tags":[
+  {"tag":"image/the-mirror","evidence":"The colonizer looks in the mirror and sees the colonized"},
+  {"tag":"motif/projection-as-alibi","evidence":"projected onto the colonized as proof"},
+  {"tag":"motif/colony-inside-the-self","evidence":"the colony is inside the colonized person"},
+  {"tag":"affect/contested-rupture","evidence":"this rupture required violence, and this is the most contested"}
+]},
+{"id":"G-07-026","tags":[
+  {"tag":"image/swimming-pools-from-the-air","evidence":"it was the swimming pools"},
+  {"tag":"image/blue-rectangles","evidence":"a distribution of blue rectangles"},
+  {"tag":"motif/geography-seen-from-altitude","evidence":"the colony made visible from the air"},
+  {"tag":"motif/building-in-the-ruins","evidence":"building something new in the ruins"},
+  {"tag":"affect/cold-recognition","evidence":"the question of whose body deserves comfort"}
+]},
+{"id":"G-07-030","tags":[
+  {"tag":"image/the-colony-as-foundation","evidence":"The colony is the original necropolitical space"},
+  {"tag":"motif/deciding-which-deaths-are-acceptable","evidence":"the sovereign power to decide whose death is acceptable"},
+  {"tag":"affect/grave-naming","evidence":"Everything else rests on that prior decision"}
+]},
+{"id":"G-07-033","tags":[
+  {"tag":"image/the-abandoned-neighborhood","evidence":"The abandoned neighborhood: in 1968"},
+  {"tag":"image/two-societies","evidence":"two societies, one black, one white"},
+  {"tag":"motif/death-by-budget","evidence":"which deaths are acceptable in the budget"},
+  {"tag":"affect/indictment","evidence":"the systematic defunding of exactly what the commission identified"}
+]},
+{"id":"G-07-037","tags":[
+  {"tag":"image/the-empty-phrase","evidence":"nothing we can do. Nothing we can do"},
+  {"tag":"motif/the-unsayable-decision","evidence":"a decision about whose lives warrant the expenditure"},
+  {"tag":"affect/cold-refusal","evidence":"one that can't be said out loud"}
+]},
+{"id":"G-07-041","tags":[
+  {"tag":"image/colony-in-the-mind","evidence":"The colony in the mind dismantles"},
+  {"tag":"motif/dismantling-one-conversation-at-a-time","evidence":"one conversation at a time"},
+  {"tag":"affect/disciplined-hope","evidence":"the best I can think to do with the position I'm in"},
+  {"tag":"affect/excruciation","evidence":"It's excruciating"}
+]},
+{"id":"G-08-002","tags":[
+  {"tag":"image/the-assembly-line","evidence":"Black women for assembly line work"},
+  {"tag":"image/last-hired-first-fired","evidence":"a last-hired, first-fired policy"},
+  {"tag":"motif/falling-through-the-gap","evidence":"it eliminated nearly all of them"},
+  {"tag":"affect/indictment","evidence":"sued General Motors for discrimination"}
+]},
+{"id":"G-08-004","tags":[
+  {"tag":"image/the-gap-between-categories","evidence":"fell through the gap between the legally recognized categories"},
+  {"tag":"motif/invisibility-by-design","evidence":"had no name the law could see"},
+  {"tag":"affect/cold-precision","evidence":"The court's reasoning was precise"}
+]},
+{"id":"G-08-005","tags":[
+  {"tag":"image/the-crack-in-the-system","evidence":"not a crack in an otherwise coherent system"},
+  {"tag":"motif/falling-through-the-gap","evidence":"fall through"},
+  {"tag":"motif/system-working-as-designed","evidence":"It is the system working as designed"},
+  {"tag":"affect/structural-indictment","evidence":"against the people whose experiences the design couldn't see"}
+]},
+{"id":"G-08-009","tags":[
+  {"tag":"image/the-self-portrait-as-mirror","evidence":"someone's self-portrait pretending to be a mirror"},
+  {"tag":"image/the-figure-of-man","evidence":"The figure that emerged at the center of European humanism was Man"},
+  {"tag":"motif/overrepresentation","evidence":"one civilization's self-portrait became the definition"},
+  {"tag":"motif/averaging-destroys-singularity","evidence":"precisely what averaging destroys"},
+  {"tag":"affect/reverence-for-singularity","evidence":"the specific, irreducible thing that a particular person"}
+]},
+{"id":"G-08-014","tags":[
+  {"tag":"image/the-foundation-stone","evidence":"This is the foundation of everything"},
+  {"tag":"motif/prior-classification-of-the-human","evidence":"a prior framework that places them outside"},
+  {"tag":"affect/grave-naming","evidence":"All of it rests here"}
+]},
+{"id":"G-08-016","tags":[
+  {"tag":"image/the-intersection","evidence":"She arrived at the intersection constantly"},
+  {"tag":"motif/built-from-the-most-advantaged","evidence":"built from the most advantaged among its intended constituency"},
+  {"tag":"motif/falling-through-the-gap","evidence":"The people at the intersections fell through"},
+  {"tag":"affect/the-unspeakable","evidence":"the combination was unspeakable"}
+]},
+{"id":"G-08-019","tags":[
+  {"tag":"motif/start-from-the-most-excluded","evidence":"must start from the most excluded"},
+  {"tag":"motif/smaller-version-of-enclosure","evidence":"constructing a smaller version of it"},
+  {"tag":"affect/uncomfortable-honesty","evidence":"The implication for commons-building is direct and uncomfortable"}
+]},
+{"id":"G-08-024","tags":[
+  {"tag":"image/the-prison-with-a-budget","evidence":"a building with a budget and a staff"},
+  {"tag":"motif/commons-against-enclosure","evidence":"address the conditions that incarceration currently manages by enclosing them"},
+  {"tag":"affect/sober-resolve","evidence":"what do you build when the answer"}
+]},
+{"id":"G-08-026","tags":[
+  {"tag":"image/the-port-and-the-bases","evidence":"Norfolk holds the port, most of the major shipyards"},
+  {"tag":"image/the-waterfront","evidence":"a mid-size city with bones, with a waterfront"},
+  {"tag":"image/the-art-colony","evidence":"an art colony, a cultural node"},
+  {"tag":"motif/the-city-that-doesnt-hold-people","evidence":"haven't figured out how to leave"},
+  {"tag":"affect/longing-to-build","evidence":"we saw the possibility"}
+]},
+{"id":"G-08-028","tags":[
+  {"tag":"image/the-chain-of-links","evidence":"changing them at every link"},
+  {"tag":"motif/tracing-investment-decisions","evidence":"tracing those investment decisions"},
+  {"tag":"affect/reluctant-resolve","evidence":"longer than I expected and more structural than I wanted"}
+]},
+{"id":"G-OA-001","tags":[
+  {"tag":"image/the-fire","evidence":"warmed by a fire it did not light"},
+  {"tag":"image/hand-on-the-back","evidence":"steadied by a hand on its back"},
+  {"tag":"image/the-body-reading","evidence":"the thing itself, the body reading these words"},
+  {"tag":"motif/the-oldest-equipment","evidence":"It is the oldest equipment you own"},
+  {"tag":"affect/reverence","evidence":"Begin with the good news"}
+]},
+{"id":"G-OA-002","tags":[
+  {"tag":"image/the-orgone-box","evidence":"he built a box — the orgone accumulator"},
+  {"tag":"image/burning-books","evidence":"more than six tons of books and journals and papers"},
+  {"tag":"image/the-prison-cell","evidence":"found dead in his cell"},
+  {"tag":"motif/the-fire-that-confirms-the-truth","evidence":"the thing worth six tons of fire"},
+  {"tag":"affect/defiant-vindication","evidence":"Governments do not burn six tons of paper over a box that does nothing"}
+]},
+{"id":"G-OA-002c","tags":[
+  {"tag":"image/the-held-jaw","evidence":"you cannot talk a held jaw into letting go"},
+  {"tag":"image/rings-of-armor","evidence":"a series of rings around the body, roughly seven"},
+  {"tag":"image/the-fire-circle","evidence":"in a fire circle or a dojo or on its own floor"},
+  {"tag":"motif/dearmoring-the-body","evidence":"he put his hands on it"},
+  {"tag":"motif/family-as-first-cell","evidence":"the family is the first cell of the fascist state"},
+  {"tag":"affect/effortful-aliveness","evidence":"the full, embarrassing, uncontrollable aliveness"}
+]},
+{"id":"G-OA-003b","tags":[
+  {"tag":"image/the-fork-in-the-road","evidence":"the fork in the road of the whole century"},
+  {"tag":"image/jung-for-sale-at-the-airport","evidence":"Jung is for sale at the airport"},
+  {"tag":"motif/injustice-has-an-address","evidence":"injustice has an address"},
+  {"tag":"motif/the-wrong-branch-won","evidence":"the branch that won is the wrong one"},
+  {"tag":"affect/cold-clarity","evidence":"Direction N — the cold clarity of the break"},
+  {"tag":"affect/indictment","evidence":"never once mentions who hurt you"}
+]},
+{"id":"G-OA-005","tags":[
+  {"tag":"image/the-floor","evidence":"The floor is not a metaphor"},
+  {"tag":"image/the-coffee-shop-couch","evidence":"they had a couch and a guitar"},
+  {"tag":"image/the-named-chickens","evidence":"a very small flock of chickens, every one of them named"},
+  {"tag":"image/the-old-railroad-grades","evidence":"old railroad grades, the grade so gentle"},
+  {"tag":"motif/commons-overdelivering","evidence":"something well in excess of what it was funded to produce"},
+  {"tag":"affect/disorientation","evidence":"It was profoundly disorienting"}
+]},
+{"id":"G-OA-006","tags":[
+  {"tag":"image/getting-up-off-the-floor","evidence":"The thing that got me up off the floor"},
+  {"tag":"image/space-with-my-name-on-it","evidence":"a group of people were already holding a space with my name on it"},
+  {"tag":"motif/the-holding-started-before-arrival","evidence":"The holding started before I got there"},
+  {"tag":"motif/being-held","evidence":"people were hoping for me"},
+  {"tag":"affect/tender-revelation","evidence":"That is the whole secret"}
+]},
+{"id":"G-OA-007b","tags":[
+  {"tag":"image/the-fire-circle","evidence":"a teacher, a fire circle full of people"},
+  {"tag":"image/the-rally","evidence":"the rally, the mob, the parade"},
+  {"tag":"motif/resonant-armor","evidence":"Armor does something strange in a group"},
+  {"tag":"motif/what-is-your-medicine","evidence":"what is your medicine?"},
+  {"tag":"motif/sung-into-place","evidence":"You have to sing them there"},
+  {"tag":"affect/awe","evidence":"the awake part gets recognized"},
+  {"tag":"affect/grief-of-leaving","evidence":"it felt like dying to leave"}
+]},
+{"id":"G-OA-008b","tags":[
+  {"tag":"image/lockers-and-bus-seats","evidence":"shoved into lockers and under bus seats"},
+  {"tag":"image/the-sensei","evidence":"my Sensei still teaches me through flashbacks"},
+  {"tag":"motif/the-tradition-that-protected","evidence":"a tradition, and it kept me alive"},
+  {"tag":"motif/the-wound-the-training-answered","evidence":"I cared about not being prey"},
+  {"tag":"affect/reverence","evidence":"a reminder and not a self-description"}
+]},
+{"id":"G-OA-009","tags":[
+  {"tag":"image/the-shrug","evidence":"the shrug, the posture of diminished expectation"},
+  {"tag":"image/hunched-back-bad-knees","evidence":"a hunched back. The swagger that becomes bad knees"},
+  {"tag":"image/the-frozen-mask","evidence":"the frozen mask that stays frozen even while it smiles"},
+  {"tag":"motif/weight-thrown-off-every-time","evidence":"the only thing you can do with it is throw it off"},
+  {"tag":"motif/under-the-floor","evidence":"not being on the floor but under it"},
+  {"tag":"affect/defiance","evidence":"refused to accept the verdict, one more day"}
+]},
+{"id":"G-OA-011b","tags":[
+  {"tag":"image/the-chicken-coop","evidence":"Buckethead practiced in a chicken coop"},
+  {"tag":"image/the-mask-and-the-man","evidence":"until the mask and the man could no longer be told apart"},
+  {"tag":"image/the-sword-and-the-seeing","evidence":"the sword and the seeing were one motion"},
+  {"tag":"motif/practice-regardless-of-situation","evidence":"practicing in whichever situation you are actually in"},
+  {"tag":"motif/mastery-named-by-others","evidence":"That title is only ever handed to you by other people"},
+  {"tag":"affect/quiet-resolve","evidence":"The point is that you kept practicing"}
+]},
+{"id":"G-09-001","tags":[
+  {"tag":"image/occupied-factory","evidence":"the workers of Turin occupied the factories"},
+  {"tag":"image/the-tuesday-morning-shift","evidence":"Picture a Tuesday morning in September"},
+  {"tag":"image/the-machinist","evidence":"A machinist who has been making the same cut for ten years"},
+  {"tag":"motif/society-practiced-inside-the-old-one","evidence":"practicing a different kind of society inside the existing one"},
+  {"tag":"affect/ordinary-extraordinary","evidence":"ordinary and extraordinary simultaneously"}
+]},
+{"id":"G-09-008","tags":[
+  {"tag":"image/the-hunched-scholarship-boy","evidence":"small, hunched from a childhood spinal condition, brilliant"},
+  {"tag":"image/the-land-registry-office","evidence":"work in a land registry office as a child"},
+  {"tag":"motif/theory-meeting-its-subject","evidence":"as though the theory and its subject had been waiting for each other"},
+  {"tag":"motif/why-the-terrain-didnt-hold","evidence":"Why had the terrain not held?"},
+  {"tag":"affect/unreleased-question","evidence":"a question that refused release"}
+]},
+{"id":"G-09-012","tags":[
+  {"tag":"image/the-air-everyone-breathes","evidence":"those assumptions are the air everyone breathes"},
+  {"tag":"motif/hegemony-as-terrain","evidence":"the prior production of the terrain on which force operates"},
+  {"tag":"motif/common-sense-manufacture","evidence":"making its worldview everyone's common sense"},
+  {"tag":"affect/lucid-warning","evidence":"Hegemony isn't. It works through the school"}
+]},
+{"id":"G-09-019","tags":[
+  {"tag":"image/sediment","evidence":"repeated until it sediments into what feels natural"},
+  {"tag":"motif/slow-patient-building","evidence":"the slow, patient work of building institutions"},
+  {"tag":"motif/commons-as-inheritance","evidence":"what the next generation inherits"},
+  {"tag":"affect/patient-resolve","evidence":"A practice, repeated"}
+]},
+{"id":"G-09-023","tags":[
+  {"tag":"image/scattered-seeds","evidence":"A good story. Scattered seeds"},
+  {"tag":"motif/the-city-that-doesnt-hold-people","evidence":"a way of not holding the people"},
+  {"tag":"affect/wistful-loss","evidence":"none of them started their own"}
+]},
+{"id":"G-09-026","tags":[
+  {"tag":"image/the-water-tribunal","evidence":"The Valencia Water Tribunal: a thousand"},
+  {"tag":"image/the-huerta","evidence":"the only thing that feels real in the huerta"},
+  {"tag":"motif/common-sense-accumulated-in-practice","evidence":"accumulated in practice, surviving every regime"},
+  {"tag":"affect/reverence-for-endurance","evidence":"surviving every regime that has tried to absorb"}
+]},
+{"id":"G-09-029","tags":[
+  {"tag":"image/housing-removed-from-the-market","evidence":"removes housing from the speculative market permanently"},
+  {"tag":"motif/positions-in-the-war-of-position","evidence":"These are positions in the war of position"},
+  {"tag":"motif/already-the-revolution","evidence":"They are the revolution"},
+  {"tag":"affect/grounded-hope","evidence":"at the speed that permanent change actually happens"}
+]},
+{"id":"G-09-034","tags":[
+  {"tag":"image/pollen-and-male-trees","evidence":"Standard American arborist practice plants only male trees"},
+  {"tag":"image/lawnmowers","evidence":"not hear lawnmowers"},
+  {"tag":"image/four-dollar-gas","evidence":"Gas is four dollars a gallon and I want it to hit ten"},
+  {"tag":"motif/the-interregnum","evidence":"The interregnum is not an abstraction"},
+  {"tag":"affect/bitter-clarity","evidence":"die of dehydration before the people with lawns stop watering"}
+]},
+{"id":"G-09-036","tags":[
+  {"tag":"image/the-unbroken-thread","evidence":"The thread has never broken"},
+  {"tag":"image/scattered-seeds","evidence":"every commons institution this book has described"},
+  {"tag":"motif/a-single-thread-through-many-hands","evidence":"a single thread, running through different hands, accumulating"},
+  {"tag":"affect/disciplined-hope","evidence":"The builders have not stopped"}
+]},
+{"id":"G-09-040","tags":[
+  {"tag":"image/scattered-seeds","evidence":"seeds scattered in a neighborhood you're not sure will hold"},
+  {"tag":"image/the-thread-through-hands","evidence":"passed through many hands that didn't know they were holding it"},
+  {"tag":"motif/building-without-seeing-the-end","evidence":"you probably won't see what they become"},
+  {"tag":"motif/building-anyway-in-prison","evidence":"He built it anyway, in prison, in failing health"},
+  {"tag":"affect/disciplined-hope","evidence":"the decision to keep building in the form available to you"}
+]},
+{"id":"G-10-001","tags":[
+  {"tag":"image/white-anemones","evidence":"the white anemones pushing through the prison courtyard"},
+  {"tag":"image/starlings-in-the-light","evidence":"The colors of starlings in the afternoon light"},
+  {"tag":"image/birds-fed-through-the-bars","evidence":"the birds she had named, that she fed through the bars"},
+  {"tag":"motif/ferocious-attention-from-confinement","evidence":"paying ferocious attention to the world from a room she could not leave"},
+  {"tag":"affect/lucid-grief","evidence":"described exactly how the revolution would fail"}
+]},
+{"id":"G-10-008","tags":[
+  {"tag":"image/the-outlasting-sentence","evidence":"a sentence that has outlasted every Soviet apologist"},
+  {"tag":"motif/freedom-for-the-one-who-thinks-differently","evidence":"freedom for the one who thinks differently"},
+  {"tag":"affect/defiance","evidence":"is no freedom at all"}
+]},
+{"id":"G-10-010","tags":[
+  {"tag":"image/exile-and-prison-correspondence","evidence":"He was writing from exile in London; she was in Berlin"},
+  {"tag":"motif/consciousness-brought-from-outside","evidence":"brought to workers from outside"},
+  {"tag":"motif/the-party-knows-better","evidence":"The party knows what the class needs better than the class"},
+  {"tag":"affect/argumentative-tension","evidence":"the question that would define the next century"}
+]},
+{"id":"G-10-016","tags":[
+  {"tag":"image/the-rubber-stamp","evidence":"the soviets were rubber stamps"},
+  {"tag":"image/red-flag-over-the-palace","evidence":"the red flag over the Winter Palace"},
+  {"tag":"motif/the-party-ate-the-soviets","evidence":"The party absorbed it"},
+  {"tag":"motif/armor-from-participation","evidence":"The armor was made from the workers' participation"},
+  {"tag":"affect/sober-indictment","evidence":"formally present, functionally irrelevant"}
+]},
+{"id":"G-10-021","tags":[
+  {"tag":"image/the-party-eating-the-soviets","evidence":"The party ate the soviets"},
+  {"tag":"motif/capture-before-the-tyrant","evidence":"Stalin came after, not instead"},
+  {"tag":"affect/cold-correction","evidence":"This was not Stalin"}
+]},
+{"id":"G-10-025","tags":[
+  {"tag":"image/dissolved-collectives","evidence":"The collectives were dissolved"},
+  {"tag":"motif/destroyed-by-allies","evidence":"by their ostensible allies"},
+  {"tag":"motif/pragmatism-as-pretext","evidence":"The pragmatic argument: you can't fight a modern war"},
+  {"tag":"affect/bitter-betrayal","evidence":"arrested and in some cases killed"}
+]},
+{"id":"G-10-027","tags":[
+  {"tag":"image/the-aragon-countryside","evidence":"in Barcelona, in the Aragon countryside"},
+  {"tag":"motif/the-same-form-recurring","evidence":"Not a rhyme — the same form"},
+  {"tag":"motif/demonstration-as-threat","evidence":"That demonstration was the threat"},
+  {"tag":"motif/the-vanguard-unnecessary","evidence":"the vanguard was unnecessary"},
+  {"tag":"affect/grave-recognition","evidence":"The logic was identical"}
+]},
+{"id":"G-10-033","tags":[
+  {"tag":"image/the-kitchen","evidence":"operating at the level of the kitchen"},
+  {"tag":"motif/hegemony-at-small-scale","evidence":"The hegemony Gramsci named, operating at the level"},
+  {"tag":"motif/culture-that-couldnt-be-cultivated","evidence":"What we couldn't cultivate was the culture"},
+  {"tag":"affect/honest-postmortem","evidence":"What undermined us wasn't the idea"}
+]},
+{"id":"G-10-038","tags":[
+  {"tag":"image/the-parallel-tradition","evidence":"It ran in parallel with the dominant tradition"},
+  {"tag":"motif/distributed-self-governance-as-architecture","evidence":"distributed self-governance is not idealism but architecture"},
+  {"tag":"motif/suppressed-but-kept-building","evidence":"kept being right, and kept building"},
+  {"tag":"affect/quiet-vindication","evidence":"didn't die with her"}
+]}
+]}

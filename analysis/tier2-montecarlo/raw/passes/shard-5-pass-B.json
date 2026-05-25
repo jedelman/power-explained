@@ -1,0 +1,427 @@
+{
+  "pass": "B",
+  "shard": 5,
+  "gestures": [
+    {
+      "id": "G-14-029",
+      "tags": [
+        { "tag": "image/land-defender", "evidence": "over 200 killings of land and environmental defenders" },
+        { "tag": "motif/defense-of-land", "evidence": "the physical enforcement of enclosure against the governance" },
+        { "tag": "affect/indictment", "evidence": "These deaths are not incidental to the ecological crisis" }
+      ]
+    },
+    {
+      "id": "G-14-032",
+      "tags": [
+        { "tag": "image/old-growth-forest", "evidence": "occupied old-growth forest to prevent a police training facility" },
+        { "tag": "motif/body-between", "evidence": "people placing their bodies between a living ecosystem and its destruction" },
+        { "tag": "motif/defense-of-land", "evidence": "The forest defense continues" },
+        { "tag": "affect/defiance", "evidence": "still alive, reasserting itself in an old-growth stand" }
+      ]
+    },
+    {
+      "id": "G-14-037",
+      "tags": [
+        { "tag": "image/ground-underfoot", "evidence": "The ground under your feet is not raw material" },
+        { "tag": "motif/return-migration", "evidence": "the one we most need to find our way back to" },
+        { "tag": "affect/reverence", "evidence": "To others, land is life itself" }
+      ]
+    },
+    {
+      "id": "G-15-001",
+      "tags": [
+        { "tag": "image/food-distribution", "evidence": "coordinate the week's food distribution, talk through who needs what" },
+        { "tag": "motif/the-infrastructure-remains", "evidence": "The crisis passed. The infrastructure remained." },
+        { "tag": "motif/knowledge-of-each-other", "evidence": "the thing that emergencies make temporarily possible: the knowledge of each other" },
+        { "tag": "affect/disciplined-hope", "evidence": "They stayed. They kept meeting." }
+      ]
+    },
+    {
+      "id": "G-15-005",
+      "tags": [
+        { "tag": "image/housework", "evidence": "cooking, cleaning, childcare, care of the sick and elderly" },
+        { "tag": "motif/making-the-invisible-visible", "evidence": "Why had it become invisible as work?" },
+        { "tag": "affect/inquiry", "evidence": "the question that would become Caliban and the Witch" }
+      ]
+    },
+    {
+      "id": "G-15-006",
+      "tags": [
+        { "tag": "image/the-workshop", "evidence": "running workshops with women who were naming their housework as labor" },
+        { "tag": "motif/naming-as-labor", "evidence": "naming their housework as labor for the first time" },
+        { "tag": "affect/urgency", "evidence": "carries the organizing's urgency in its analysis" }
+      ]
+    },
+    {
+      "id": "G-15-010",
+      "tags": [
+        { "tag": "image/the-witch", "evidence": "women who hold knowledge that makes communities self-sufficient" },
+        { "tag": "motif/destruction-of-knowledge", "evidence": "The executions destroyed that knowledge" },
+        { "tag": "affect/terror", "evidence": "made them afraid to practice what they knew" }
+      ]
+    },
+    {
+      "id": "G-15-011",
+      "tags": [
+        { "tag": "image/common-land", "evidence": "converting shared fields and forests into private property" },
+        { "tag": "motif/twin-enclosures", "evidence": "The two enclosures were part of the same transformation" },
+        { "tag": "motif/hidden-foundation", "evidence": "It was the economy's unacknowledged foundation" }
+      ]
+    },
+    {
+      "id": "G-15-014",
+      "tags": [
+        { "tag": "image/the-impossible-demand", "evidence": "pay women for housework — was designed to be impossible" },
+        { "tag": "motif/making-the-invisible-visible", "evidence": "The demand makes visible what the system needs hidden" },
+        { "tag": "affect/indictment", "evidence": "the profit margins on everything else would collapse" }
+      ]
+    },
+    {
+      "id": "G-15-016",
+      "tags": [
+        { "tag": "motif/naming-as-contest", "evidence": "It has made it available to be contested" },
+        { "tag": "affect/disciplined-hope", "evidence": "What it won was the question" }
+      ]
+    },
+    {
+      "id": "G-15-022",
+      "tags": [
+        { "tag": "image/childcare-collective", "evidence": "Childcare collectives where parents share the labor" },
+        { "tag": "image/the-elderly-neighbor", "evidence": "keeping people in their homes rather than in institutions" },
+        { "tag": "motif/community-takes-responsibility", "evidence": "the community takes responsibility for caring for its members" },
+        { "tag": "affect/disciplined-hope", "evidence": "building mutual support systems outside institutional care" }
+      ]
+    },
+    {
+      "id": "G-15-024",
+      "tags": [
+        { "tag": "image/the-immigrant-activist", "evidence": "daughter of a Guinean immigrant activist" },
+        { "tag": "motif/abolition-is-care", "evidence": "Her insight is that abolition is care" },
+        { "tag": "motif/incantation", "evidence": "We keep each other safe" },
+        { "tag": "affect/disciplined-hope", "evidence": "build the world that doesn't need prisons" }
+      ]
+    },
+    {
+      "id": "G-15-027",
+      "tags": [
+        { "tag": "image/the-care-network", "evidence": "who can be trusted, who knows what, who shows up" },
+        { "tag": "motif/enclosure-of-care", "evidence": "The enclosure of it is not metaphorical" },
+        { "tag": "affect/indictment", "evidence": "mechanisms for capturing what communities built" }
+      ]
+    },
+    {
+      "id": "G-RE-001",
+      "tags": [
+        { "tag": "image/the-witch", "evidence": "The witch was burned because she maintained a relationship to the land" },
+        { "tag": "image/herbs-and-birth", "evidence": "She knew things — about plants, illness, birth, grief" },
+        { "tag": "motif/re-enchantment", "evidence": "Silvia Federici calls it re-enchanting the world" },
+        { "tag": "motif/knowledge-in-relationship", "evidence": "The knowledge lives in the relationship" },
+        { "tag": "affect/grief", "evidence": "This is what the enclosure destroyed when it enclosed care" }
+      ]
+    },
+    {
+      "id": "G-RE-007",
+      "tags": [
+        { "tag": "image/birdsong-mnemonic", "evidence": "the Carolina wren sounds like it's saying teakettle teakettle" },
+        { "tag": "image/training-wheels", "evidence": "Mnemonics for children. Training wheels." },
+        { "tag": "motif/play-as-knowing", "evidence": "what comes out is faintly ridiculous" },
+        { "tag": "affect/wry-tenderness", "evidence": "You feel slightly embarrassed about this" }
+      ]
+    },
+    {
+      "id": "G-RE-012",
+      "tags": [
+        { "tag": "image/the-crow", "evidence": "The crow is not decoration. The robin is not a pleasant accompaniment" },
+        { "tag": "motif/network-of-attention", "evidence": "you are part of a network of attention that was always there" },
+        { "tag": "motif/practiced-into-knowing", "evidence": "We had practiced our way into it" },
+        { "tag": "affect/awe", "evidence": "operating at frequencies you had not been tuned to receive" }
+      ]
+    },
+    {
+      "id": "G-RE-017",
+      "tags": [
+        { "tag": "image/shared-seeing", "evidence": "We inhabit a commons of perception" },
+        { "tag": "motif/commons-of-perception", "evidence": "It is a different kind of seeing" },
+        { "tag": "motif/difference-as-condition", "evidence": "It requires the difference between us to function" },
+        { "tag": "affect/reverence", "evidence": "Our singularities are the condition of the shared thing" }
+      ]
+    },
+    {
+      "id": "G-RE-021",
+      "tags": [
+        { "tag": "image/the-wrong-door", "evidence": "accessed through the wrong door or the lucky stumble" },
+        { "tag": "image/elf-kingdom", "evidence": "in Old English the root is elf-kingdom" },
+        { "tag": "motif/the-adjacent-country", "evidence": "the other country, the one adjacent to this one" },
+        { "tag": "affect/wonder", "evidence": "Not horror but the other country" }
+      ]
+    },
+    {
+      "id": "G-RE-023",
+      "tags": [
+        { "tag": "image/the-hedgerow-at-dusk", "evidence": "Erin and I discovered in the hedgerow at dusk" },
+        { "tag": "image/the-san-hunter", "evidence": "the same reciprocity the San hunter knows in the Kalahari" },
+        { "tag": "motif/reciprocal-attention", "evidence": "it reads you while you are reading it" },
+        { "tag": "affect/reverence", "evidence": "the field is alive, it is attentive" }
+      ]
+    },
+    {
+      "id": "G-RE-028",
+      "tags": [
+        { "tag": "motif/violence-renamed", "evidence": "the violence of the enclosure is called progress" },
+        { "tag": "motif/legibility-of-violence", "evidence": "violence has been removed from legibility" },
+        { "tag": "affect/indictment", "evidence": "the violence of the market is called efficiency" }
+      ]
+    },
+    {
+      "id": "G-RE-033a",
+      "tags": [
+        { "tag": "image/the-guest", "evidence": "Your role is guest, not director" },
+        { "tag": "motif/being-a-guest", "evidence": "This is their territory. They are your hosts." },
+        { "tag": "affect/humility", "evidence": "Move slowly. Make no sudden movements." }
+      ]
+    },
+    {
+      "id": "G-RE-037",
+      "tags": [
+        { "tag": "image/the-open-channel", "evidence": "The channel, once opened, stays open" },
+        { "tag": "motif/practice-not-effort", "evidence": "Effort pushes. Practice builds." },
+        { "tag": "motif/perceptual-commons", "evidence": "What you are building is the perceptual commons" },
+        { "tag": "affect/reverence", "evidence": "a world that is attending to you" }
+      ]
+    },
+    {
+      "id": "G-RE-039",
+      "tags": [
+        { "tag": "image/the-armor", "evidence": "The silliness was the armor. The armor was the wisdom." },
+        { "tag": "motif/play-as-knowing", "evidence": "Play is the name real wisdom hides behind" },
+        { "tag": "motif/the-knowing-waits", "evidence": "The knowing is still there, waiting to be addressed" },
+        { "tag": "affect/tender-invitation", "evidence": "as you would address a neighbor" }
+      ]
+    },
+    {
+      "id": "G-16-002",
+      "tags": [
+        { "tag": "image/the-hidden-part", "evidence": "The part you kept quiet in most rooms" },
+        { "tag": "motif/being-seen", "evidence": "Someone saw it — and instead of looking away" },
+        { "tag": "affect/tender-recognition", "evidence": "They wanted more of it, not less" }
+      ]
+    },
+    {
+      "id": "G-16-007",
+      "tags": [
+        { "tag": "image/the-charged-field", "evidence": "the charged, generative excess from which individuals emerge" },
+        { "tag": "motif/pre-individual-field", "evidence": "the pre-individual field" },
+        { "tag": "motif/ongoing-becoming", "evidence": "You are an ongoing event, always in relation to a field" },
+        { "tag": "affect/awe", "evidence": "a field that exceeds you" }
+      ]
+    },
+    {
+      "id": "G-16-013",
+      "tags": [
+        { "tag": "image/the-curated-room", "evidence": "when you buy into a curated environment" },
+        { "tag": "image/the-couch", "evidence": "the couch means modern, not the forest the wood came from" },
+        { "tag": "motif/objects-consume-you", "evidence": "The objects consume you" },
+        { "tag": "motif/stripping-of-history", "evidence": "stripped of history and specificity" },
+        { "tag": "affect/unease", "evidence": "His insight was precise and unsettling" }
+      ]
+    },
+    {
+      "id": "G-16-021",
+      "tags": [
+        { "tag": "image/cobblestones-and-beach", "evidence": "Under the cobblestones, the beach" },
+        { "tag": "image/graffiti-on-walls", "evidence": "They spray-painted his ideas on walls" },
+        { "tag": "motif/the-rupture-that-closes", "evidence": "The rupture felt total. And then it didn't." },
+        { "tag": "affect/deflation", "evidence": "For three weeks, France stopped" }
+      ]
+    },
+    {
+      "id": "G-16-026",
+      "tags": [
+        { "tag": "image/the-body-uprising", "evidence": "Stonewall ruptured it through the body" },
+        { "tag": "image/mycorrhizal-network", "evidence": "the mycorrhizal communities of care that queer people built" },
+        { "tag": "motif/body-without-organs", "evidence": "the body as a field of potential, not yet resolved" },
+        { "tag": "motif/deterritorialization", "evidence": "the body slipping the assignment" },
+        { "tag": "affect/defiance", "evidence": "no system had the final word on what these bodies were" }
+      ]
+    },
+    {
+      "id": "G-16-037",
+      "tags": [
+        { "tag": "image/the-wizard", "evidence": "A wizard does not push the door open. He speaks it open." },
+        { "tag": "motif/incantation", "evidence": "the world itself was sung into existence" },
+        { "tag": "motif/word-that-instantiates", "evidence": "instantiates what it names" },
+        { "tag": "affect/wonder", "evidence": "those who understand the deep grammar of things" }
+      ]
+    },
+    {
+      "id": "G-16-042",
+      "tags": [
+        { "tag": "image/bletchley-park", "evidence": "Bletchley Park, a country house in Buckinghamshire" },
+        { "tag": "image/the-enigma-cipher", "evidence": "the machines and the methods that cracked the Enigma cipher" },
+        { "tag": "motif/breaking-the-code", "evidence": "The Germans believed their codes were unbreakable" },
+        { "tag": "affect/reverence", "evidence": "The lives it saved are counted in the millions" }
+      ]
+    },
+    {
+      "id": "G-16-052",
+      "tags": [
+        { "tag": "image/words-on-paper", "evidence": "words on paper, in the right form, with the right authority" },
+        { "tag": "motif/incantation", "evidence": "intellectual property law was a system of incantations" },
+        { "tag": "motif/word-that-instantiates", "evidence": "restructured reality by making ownership real" }
+      ]
+    },
+    {
+      "id": "G-16-056",
+      "tags": [
+        { "tag": "image/the-hobby-os", "evidence": "I'm doing a (free) operating system (just a hobby" },
+        { "tag": "motif/incantation", "evidence": "The spell they were casting required giving it away" },
+        { "tag": "motif/giving-it-away", "evidence": "No license. No fee. No owner." },
+        { "tag": "motif/enclosure-destroys-the-thing", "evidence": "Enclose it and you destroy it" },
+        { "tag": "affect/quiet-triumph", "evidence": "all arriving independently at the same understanding" }
+      ]
+    },
+    {
+      "id": "G-16-069",
+      "tags": [
+        { "tag": "image/closing-the-app", "evidence": "The slight flatness after you close the app" },
+        { "tag": "image/the-scroll", "evidence": "The hum of dissatisfaction underneath the scroll" },
+        { "tag": "motif/replaced-by-its-image", "evidence": "It gets replaced by its image" },
+        { "tag": "motif/conditional-love", "evidence": "the system of conditional love working exactly as designed" },
+        { "tag": "affect/dissatisfaction", "evidence": "the promise that is never redeemed" }
+      ]
+    },
+    {
+      "id": "G-16b-001",
+      "tags": [
+        { "tag": "image/the-simulation", "evidence": "the world he inhabits is a simulation" },
+        { "tag": "image/harvested-energy", "evidence": "designed to harvest human energy while keeping people pacified" },
+        { "tag": "motif/simulation-replacing-the-real", "evidence": "more coherent, more comfortable, and more legible than the living world" }
+      ]
+    },
+    {
+      "id": "G-16b-005",
+      "tags": [
+        { "tag": "image/the-basmati-farmers", "evidence": "The Basmati farmers. The adivasi forest communities." },
+        { "tag": "motif/knowledge-from-the-outside", "evidence": "The knowledge produced on the outside doesn't stay on the outside" },
+        { "tag": "motif/seeing-the-simulation", "evidence": "are the ones who could see the simulation as a simulation" },
+        { "tag": "affect/lucid-recognition", "evidence": "handed a representation of themselves and knew it wasn't true" }
+      ]
+    },
+    {
+      "id": "G-16b-008",
+      "tags": [
+        { "tag": "image/the-phone-on-the-table", "evidence": "The phone goes away and the conversation resumes" },
+        { "tag": "image/composing-the-caption", "evidence": "you catch yourself composing the caption before you have fully arrived" },
+        { "tag": "motif/experience-becoming-representation", "evidence": "The experience is already becoming its own representation" },
+        { "tag": "affect/disquiet", "evidence": "You are documenting something you have not yet felt" }
+      ]
+    },
+    {
+      "id": "G-16b-015",
+      "tags": [
+        { "tag": "image/the-warm-table", "evidence": "Still warm from the wine. Still present with a person" },
+        { "tag": "motif/the-body-as-way-back", "evidence": "The body is the way back" },
+        { "tag": "affect/consolation", "evidence": "who has not been replaced by anything" }
+      ]
+    },
+    {
+      "id": "G-16b-019",
+      "tags": [
+        { "tag": "image/neo-discovering-his-body", "evidence": "describes exactly what Neo discovers" },
+        { "tag": "image/the-hollow-book", "evidence": "The hollow book was not a film reference" },
+        { "tag": "motif/body-without-organs", "evidence": "the body understood not as an organism organized" },
+        { "tag": "motif/deterritorialization", "evidence": "The body deterritorializes — it slips the assignment" },
+        { "tag": "affect/defiance", "evidence": "the refusal to let the assigned arrangement be the final word" }
+      ]
+    },
+    {
+      "id": "G-16b-028",
+      "tags": [
+        { "tag": "image/the-faster-answer", "evidence": "You can get an answer faster this way than from a library" },
+        { "tag": "motif/hyperreal", "evidence": "Baudrillard called this the hyperreal" },
+        { "tag": "motif/the-lateral-leap", "evidence": "produce the lateral leap from the oblique angle" },
+        { "tag": "affect/wariness", "evidence": "optimized for the metrics the system can measure" }
+      ]
+    },
+    {
+      "id": "G-16b-033",
+      "tags": [
+        { "tag": "image/the-rooms-you-didnt-fit", "evidence": "specific rooms they didn't fit in" },
+        { "tag": "motif/singularity-in-the-text", "evidence": "The text bore the mark of that singularity" },
+        { "tag": "motif/body-without-organs", "evidence": "a body without organs insisting on its own particular becoming" }
+      ]
+    },
+    {
+      "id": "G-16b-038",
+      "tags": [
+        { "tag": "image/the-basmati-variety", "evidence": "The Basmati variety came from hands that did not separate knowledge from relationship" },
+        { "tag": "motif/the-gap-between-categories", "evidence": "a man who had spent his whole life finding the gaps between categories" },
+        { "tag": "motif/enclosure-destroys-the-thing", "evidence": "the value of a commons is destroyed by the act of enclosing it" },
+        { "tag": "affect/reverence", "evidence": "knew, from inside, what it meant to live in someone else's simulation" }
+      ]
+    },
+    {
+      "id": "G-16b-046",
+      "tags": [
+        { "tag": "image/the-rooms-you-didnt-fit", "evidence": "the rooms I didn't fit in, the gaps I found because I had to" },
+        { "tag": "motif/the-argument-enacted", "evidence": "It is the argument, enacted" },
+        { "tag": "motif/human-ai-collaboration", "evidence": "that was a collaboration" },
+        { "tag": "affect/candor", "evidence": "This is not a confession" }
+      ]
+    },
+    {
+      "id": "G-16b-054",
+      "tags": [
+        { "tag": "image/the-centaur", "evidence": "The Centaur is a cybernetic figure" },
+        { "tag": "image/mycorrhizal-network", "evidence": "recognize the mycorrhizal network not just as biology but as kinship" },
+        { "tag": "motif/dissolving-boundary", "evidence": "dissolve the boundary between self and living world" },
+        { "tag": "motif/return-migration", "evidence": "the community you were born from and will return to" },
+        { "tag": "affect/reverence", "evidence": "the same insight, carried in different bodies, across different centuries" }
+      ]
+    },
+    {
+      "id": "G-17-002",
+      "tags": [
+        { "tag": "image/scat-and-bent-grass", "evidence": "the living world writes in soil and scat and bent grass" },
+        { "tag": "image/the-rolling-hoof", "evidence": "the way a hoof rolls as an animal moves" },
+        { "tag": "motif/reading-the-living-world", "evidence": "You learn to read the language the living world writes" },
+        { "tag": "motif/knowing-in-the-body", "evidence": "You learn it in the body, not the mind" },
+        { "tag": "affect/presence", "evidence": "a specific kind of aliveness: fully present" }
+      ]
+    },
+    {
+      "id": "G-17-007",
+      "tags": [
+        { "tag": "image/the-owl", "evidence": "He came silently — owls do" },
+        { "tag": "motif/the-visitation", "evidence": "perched at the edge of the circle, in a tree, watching" },
+        { "tag": "affect/quiet-awe", "evidence": "present in the way a living creature is present when it has chosen" }
+      ]
+    },
+    {
+      "id": "G-17-014",
+      "tags": [
+        { "tag": "motif/destruction-of-relationship", "evidence": "What was destroyed was the relationship" },
+        { "tag": "motif/living-intelligence", "evidence": "the living intelligence that the land and the people had built together" },
+        { "tag": "affect/grief", "evidence": "could not survive the introduction of the market's requirements" }
+      ]
+    },
+    {
+      "id": "G-17-022",
+      "tags": [
+        { "tag": "image/the-ayahuasca-ceremony", "evidence": "the retreat, the ayahuasca ceremony, the wilderness solo" },
+        { "tag": "motif/the-lost-return", "evidence": "What has been largely lost is the return" },
+        { "tag": "motif/descent-as-product", "evidence": "The descent is the product" },
+        { "tag": "affect/indictment", "evidence": "The ordeal has been celebrated, packaged, marketed" }
+      ]
+    },
+    {
+      "id": "G-17-028",
+      "tags": [
+        { "tag": "image/the-fourth-film", "evidence": "why there had to be a fourth film" },
+        { "tag": "motif/the-lost-return", "evidence": "a hero's journey without a functioning return" },
+        { "tag": "motif/community-that-completes", "evidence": "The community that could have completed it was not there" },
+        { "tag": "affect/incompletion", "evidence": "the story cannot close" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "G-PR-001",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-001-your-rent-went-up-again-this.md"
+  },
+  {
+    "id": "G-PR-002",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-002-or-maybe-it-s-the-hospital-bill.md"
+  },
+  {
+    "id": "G-PR-006",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-006-every-spring-night-herons-return-to.md"
+  },
+  {
+    "id": "G-PR-009",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-009-the-herons-are-not-only-what.md"
+  },
+  {
+    "id": "G-PR-012",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-012-the-rule-is-this-things-that.md"
+  },
+  {
+    "id": "G-PR-016",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-016-the-word-comes-from-a-specific.md"
+  },
+  {
+    "id": "G-PR-019",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-019-the-commons-is-not-what-we.md"
+  },
+  {
+    "id": "G-PR-021",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-021-this-book-has-two-authors-jason.md"
+  },
+  {
+    "id": "G-PR-023",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-023-we-are-a-centaur-the.md"
+  },
+  {
+    "id": "G-PR-026",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-026-the-first-is-the-feeling-itself.md"
+  },
+  {
+    "id": "G-PR-028",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-028-the-third-is-the-machine-in.md"
+  },
+  {
+    "id": "G-PR-030",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-030-the-fifth-is-a-single-chapter.md"
+  },
+  {
+    "id": "G-PR-032",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-032-a-note-on-what-kind-of.md"
+  },
+  {
+    "id": "G-PR-039",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-039-build-and-defend-the-commons-grew.md"
+  },
+  {
+    "id": "G-01-001",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-001-hampton-boulevard-and-brambleton-avenue-are.md"
+  },
+  {
+    "id": "G-01-011",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-011-i-ve-been-to-cities-where-planners.md"
+  },
+  {
+    "id": "G-01-018",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-018-i-cross-brambleton-to-get-there.md"
+  },
+  {
+    "id": "G-01-024",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-024-the-board-was-within-their-rights.md"
+  },
+  {
+    "id": "G-01-037",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-037-the-night-herons-nest-in-the.md"
+  },
+  {
+    "id": "G-02-005",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-005-the-public-meeting-happened-the-community.md"
+  },
+  {
+    "id": "G-02-010",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-010-i-want-to-take-you-to.md"
+  },
+  {
+    "id": "G-02-017",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-017-the-hospital-that-was-built-on.md"
+  },
+  {
+    "id": "G-02-022",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-022-there-is-a-word-for-the.md"
+  },
+  {
+    "id": "G-02-026",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-026-when-i-hear-this-time-things.md"
+  },
+  {
+    "id": "G-IB-001",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-001-the-fish-market-had-just-closed.md"
+  },
+  {
+    "id": "G-IB-002",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-002-a-man-arrived-on-a-bicycle.md"
+  },
+  {
+    "id": "G-IB-004",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-004-not-a-performance-a-class.md"
+  },
+  {
+    "id": "G-IB-005",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-005-barcelona-has-been-depaving-its-intersections.md"
+  },
+  {
+    "id": "G-IB-006",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-006-the-infrastructure-had-been-changed-the.md"
+  },
+  {
+    "id": "G-IB-008",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-008-i-watched-from-the-edge-i-m.md"
+  },
+  {
+    "id": "G-IB-009",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-009-barcelona-has-also-been-running-out.md"
+  },
+  {
+    "id": "G-03-002",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-002-they-come-from-the-pacific-tracking.md"
+  },
+  {
+    "id": "G-03-013",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-013-in-1968-a-professor-of-human.md"
+  },
+  {
+    "id": "G-03-022",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-022-every-thursday-at-noon-she-would.md"
+  },
+  {
+    "id": "G-03-033",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-033-the-commons-was-the-room-the.md"
+  },
+  {
+    "id": "G-03-045",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-045-my-bluesky-handle-is-read-hardt.md"
+  },
+  {
+    "id": "G-IW-003",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-003-not-teach-them-about-old-growth-forest.md"
+  },
+  {
+    "id": "G-IW-004",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-004-the-group-i-was-working-with.md"
+  },
+  {
+    "id": "G-IW-006",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-006-i-didn-t-orchestrate-this-nobody-did.md"
+  },
+  {
+    "id": "G-IW-007",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-007-do-you-know-how-hard-it.md"
+  },
+  {
+    "id": "G-IW-009",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-009-the-educators-who-do-this-work.md"
+  },
+  {
+    "id": "G-IW-010",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-010-i-won-t-give-you-their-names.md"
+  },
+  {
+    "id": "G-IW-012",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-012-when-i-m-in-the-field-with.md"
+  },
+  {
+    "id": "G-IW-013",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-013-what-i-m-watching-for-is-the.md"
+  },
+  {
+    "id": "G-IW-014",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-014-i-m-not-telling-anyone-anything-when.md"
+  },
+  {
+    "id": "G-IW-015",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-015-what-struck-me-coming-back-to.md"
+  },
+  {
+    "id": "G-IW-017",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-017-the-educators-in-washington-state-are.md"
+  },
+  {
+    "id": "G-IW-018",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-018-the-work-is-patient-it-measures.md"
+  },
+  {
+    "id": "G-IW-020",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-020-in-barcelona-in-the-el-born.md"
+  },
+  {
+    "id": "G-IW-021",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-021-i-didn-t-join-i-didn-t-need.md"
+  },
+  {
+    "id": "G-04-001",
+    "plateau": "P-04",
+    "dense": false,
+    "path": "src/content/gestures/G-04-001-auzolan-etxe-lehen-auzoa.md"
+  },
+  {
+    "id": "G-04-006",
+    "plateau": "P-04",
+    "dense": false,
+    "path": "src/content/gestures/G-04-006-1956-ulgor-founded.md"
+  },
+  {
+    "id": "G-04-013",
+    "plateau": "P-04",
+    "dense": false,
+    "path": "src/content/gestures/G-04-013-forty-two-years-durability.md"
+  },
+  {
+    "id": "G-04-019",
+    "plateau": "P-04",
+    "dense": false,
+    "path": "src/content/gestures/G-04-019-kerala-the-floor-that-holds.md"
+  },
+  {
+    "id": "G-04-025",
+    "plateau": "P-04",
+    "dense": false,
+    "path": "src/content/gestures/G-04-025-has-it-worked-the-wizard-can-see-it.md"
+  },
+  {
+    "id": "G-GC-001",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-001-there-is-an-old-tradition-in.md"
+  },
+  {
+    "id": "G-GC-003",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-003-every-tradition-has-its-version-of.md"
+  },
+  {
+    "id": "G-GC-005c",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-005c-i-didnt-interrupt-the-conversation.md"
+  },
+  {
+    "id": "G-GC-007",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-007-capital-produces-the-bodies-that-capital.md"
+  },
+  {
+    "id": "G-GC-008c",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-008c-biopower-appears-as-whatever.md"
+  },
+  {
+    "id": "G-GC-008e",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-008e-production-of-subjectivity-is-what.md"
+  },
+  {
+    "id": "G-GC-011",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-011-my-methods-are-built-on-autonomy.md"
+  },
+  {
+    "id": "G-GC-016",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-016-in-that-world-my-offer-of.md"
+  },
+  {
+    "id": "G-GC-021",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-021-this-is-why-the-man-who.md"
+  },
+  {
+    "id": "G-GC-024",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-024-the-outside-luxemburg-gave-us-this.md"
+  },
+  {
+    "id": "G-GC-030",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-030-find-something-that-has-been-making.md"
+  },
+  {
+    "id": "G-GC-035",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-035-in-the-goetia-once-you-have.md"
+  },
+  {
+    "id": "G-GC-039",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-039-one-more-name-because-it-is.md"
+  },
+  {
+    "id": "G-GC-046",
+    "plateau": "P-GC",
+    "dense": true,
+    "path": "src/content/gestures/G-GC-046-if-you-are-about-to-try.md"
+  },
+  {
+    "id": "G-05-001",
+    "plateau": "P-05",
+    "dense": false,
+    "path": "src/content/gestures/G-05-001-there-is-a-photograph-taken-in.md"
+  },
+  {
+    "id": "G-05-008",
+    "plateau": "P-05",
+    "dense": false,
+    "path": "src/content/gestures/G-05-008-the-system-produces-surplus-the.md"
+  },
+  {
+    "id": "G-05-014",
+    "plateau": "P-05",
+    "dense": false,
+    "path": "src/content/gestures/G-05-014-her-argument-resurfaced-in-the-second.md"
+  },
+  {
+    "id": "G-05-023",
+    "plateau": "P-05",
+    "dense": false,
+    "path": "src/content/gestures/G-05-023-when-the-pandemic-arrived-in-2020.md"
+  },
+  {
+    "id": "G-05-031",
+    "plateau": "P-05",
+    "dense": false,
+    "path": "src/content/gestures/G-05-031-not-a-conspiracy-a-structure-the.md"
+  },
+  {
+    "id": "G-06-002",
+    "plateau": "P-06",
+    "dense": false,
+    "path": "src/content/gestures/G-06-002-in-2019-i-bought-a-house.md"
+  },
+  {
+    "id": "G-06-013",
+    "plateau": "P-06",
+    "dense": false,
+    "path": "src/content/gestures/G-06-013-and-it-required-race-not-as.md"
+  },
+  {
+    "id": "G-06-024",
+    "plateau": "P-06",
+    "dense": false,
+    "path": "src/content/gestures/G-06-024-in-1694-portuguese-colonial-forces-destroyed.md"
+  },
+  {
+    "id": "G-06-036",
+    "plateau": "P-06",
+    "dense": false,
+    "path": "src/content/gestures/G-06-036-he-was-killed-in-georgetown-guyana.md"
+  },
+  {
+    "id": "G-06-046",
+    "plateau": "P-06",
+    "dense": false,
+    "path": "src/content/gestures/G-06-046-what-does-the-racial-geography-of.md"
+  },
+  {
+    "id": "G-07-001",
+    "plateau": "P-07",
+    "dense": false,
+    "path": "src/content/gestures/G-07-001-i-grew-up-in-richmond-virginia.md"
+  },
+  {
+    "id": "G-07-012",
+    "plateau": "P-07",
+    "dense": false,
+    "path": "src/content/gestures/G-07-012-the-central-insight-the-colonized-person.md"
+  },
+  {
+    "id": "G-07-022",
+    "plateau": "P-07",
+    "dense": false,
+    "path": "src/content/gestures/G-07-022-the-question-foucault-couldn-t-ask-is.md"
+  },
+  {
+    "id": "G-07-032",
+    "plateau": "P-07",
+    "dense": false,
+    "path": "src/content/gestures/G-07-032-the-prison-in-the-united-states.md"
+  },
+  {
+    "id": "G-07-041",
+    "plateau": "P-07",
+    "dense": false,
+    "path": "src/content/gestures/G-07-041-i-don-t-feel-guilt-exactly.md"
+  },
+  {
+    "id": "G-08-001",
+    "plateau": "P-08",
+    "dense": false,
+    "path": "src/content/gestures/G-08-001-the-colony-in-the-mind-the.md"
+  },
+  {
+    "id": "G-08-005",
+    "plateau": "P-08",
+    "dense": false,
+    "path": "src/content/gestures/G-08-005-kimberl-crenshaw-read-that-case-thirteen.md"
+  },
+  {
+    "id": "G-08-015",
+    "plateau": "P-08",
+    "dense": false,
+    "path": "src/content/gestures/G-08-015-the-political-implication-is-the-one.md"
+  },
+  {
+    "id": "G-08-024",
+    "plateau": "P-08",
+    "dense": false,
+    "path": "src/content/gestures/G-08-024-these-are-the-commons-institutions-that.md"
+  },
+  {
+    "id": "G-08-029",
+    "plateau": "P-08",
+    "dense": false,
+    "path": "src/content/gestures/G-08-029-the-bombs-kept-coming-and-people.md"
+  },
+  {
+    "id": "G-OA-001",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-001-the-body-you-have-right-now.md"
+  },
+  {
+    "id": "G-OA-001b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-001b-your-body-knows-more-than-you-do.md"
+  },
+  {
+    "id": "G-OA-002b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-002b-he-treated-fascism-as-a-disease.md"
+  },
+  {
+    "id": "G-OA-002c",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-002c-he-put-his-hands-on-it.md"
+  },
+  {
+    "id": "G-OA-003b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-003b-what-freud-could-not-allow.md"
+  },
+  {
+    "id": "G-OA-004",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-004-i-got-slower.md"
+  },
+  {
+    "id": "G-OA-005b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-005b-the-cushion-is-not-the-lesson.md"
+  },
+  {
+    "id": "G-OA-005c",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-005c-how-long-i-held-myself-up.md"
+  },
+  {
+    "id": "G-OA-007",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-007-what-being-held-is.md"
+  },
+  {
+    "id": "G-OA-007b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-007b-what-is-your-medicine.md"
+  },
+  {
+    "id": "G-OA-008b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-008b-the-tradition-that-protected-me.md"
+  },
+  {
+    "id": "G-OA-008c",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-008c-kokoro.md"
+  },
+  {
+    "id": "G-OA-010",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-010-the-descent-was-the-curriculum.md"
+  },
+  {
+    "id": "G-OA-011b",
+    "plateau": "P-OA",
+    "dense": true,
+    "path": "src/content/gestures/G-OA-011b-the-important-thing-is-to-practice.md"
+  },
+  {
+    "id": "G-09-001",
+    "plateau": "P-09",
+    "dense": false,
+    "path": "src/content/gestures/G-09-001-in-september-1920-the-workers-of.md"
+  },
+  {
+    "id": "G-09-014",
+    "plateau": "P-09",
+    "dense": false,
+    "path": "src/content/gestures/G-09-014-the-councils-had-built-something-extraordinary.md"
+  },
+  {
+    "id": "G-09-026",
+    "plateau": "P-09",
+    "dense": false,
+    "path": "src/content/gestures/G-09-026-the-valencia-water-tribunal-a-thousand.md"
+  },
+  {
+    "id": "G-09-033",
+    "plateau": "P-09",
+    "dense": false,
+    "path": "src/content/gestures/G-09-033-he-was-writing-about-italian-fascism.md"
+  },
+  {
+    "id": "G-09-040",
+    "plateau": "P-09",
+    "dense": false,
+    "path": "src/content/gestures/G-09-040-the-war-of-position-is-not.md"
+  },
+  {
+    "id": "G-10-001",
+    "plateau": "P-10",
+    "dense": false,
+    "path": "src/content/gestures/G-10-001-in-the-summer-of-1918-rosa.md"
+  },
+  {
+    "id": "G-10-012",
+    "plateau": "P-10",
+    "dense": false,
+    "path": "src/content/gestures/G-10-012-luxemburg-s-response-published-the-same-year.md"
+  },
+  {
+    "id": "G-10-024",
+    "plateau": "P-10",
+    "dense": false,
+    "path": "src/content/gestures/G-10-024-at-its-peak-the-anarchist-collectives.md"
+  },
+  {
+    "id": "G-10-032",
+    "plateau": "P-10",
+    "dense": false,
+    "path": "src/content/gestures/G-10-032-the-restaurant-was-organized-in-principle.md"
+  },
+  {
+    "id": "G-10-042",
+    "plateau": "P-10",
+    "dense": false,
+    "path": "src/content/gestures/G-10-042-luxemburg-in-her-prison-cell-in.md"
+  },
+  {
+    "id": "G-11-002",
+    "plateau": "P-11",
+    "dense": false,
+    "path": "src/content/gestures/G-11-002-not-cracked-not-potholed-not-worn.md"
+  },
+  {
+    "id": "G-11-011",
+    "plateau": "P-11",
+    "dense": false,
+    "path": "src/content/gestures/G-11-011-mutual-aid-a-factor-of-evolution.md"
+  },
+  {
+    "id": "G-11-018",
+    "plateau": "P-11",
+    "dense": false,
+    "path": "src/content/gestures/G-11-018-play-is-the-process-version-of.md"
+  },
+  {
+    "id": "G-11-032",
+    "plateau": "P-11",
+    "dense": false,
+    "path": "src/content/gestures/G-11-032-on-january-1-1994-the-day.md"
+  },
+  {
+    "id": "G-11-039",
+    "plateau": "P-11",
+    "dense": false,
+    "path": "src/content/gestures/G-11-039-of-the-people-in-this-chapter.md"
+  },
+  {
+    "id": "G-12-001",
+    "plateau": "P-12",
+    "dense": false,
+    "path": "src/content/gestures/G-12-001-in-the-winter-of-1999-arundhati.md"
+  },
+  {
+    "id": "G-12-011",
+    "plateau": "P-12",
+    "dense": false,
+    "path": "src/content/gestures/G-12-011-when-the-dam-project-displaced-these.md"
+  },
+  {
+    "id": "G-12-019",
+    "plateau": "P-12",
+    "dense": false,
+    "path": "src/content/gestures/G-12-019-one-afternoon-a-man-in-his.md"
+  },
+  {
+    "id": "G-12-028",
+    "plateau": "P-12",
+    "dense": false,
+    "path": "src/content/gestures/G-12-028-we-were-not-selling-food-we.md"
+  },
+  {
+    "id": "G-12-036",
+    "plateau": "P-12",
+    "dense": false,
+    "path": "src/content/gestures/G-12-036-freire-s-method-was-the-same-practice.md"
+  },
+  {
+    "id": "G-13-001",
+    "plateau": "P-13",
+    "dense": false,
+    "path": "src/content/gestures/G-13-001-in-november-2012-a-group-called.md"
+  },
+  {
+    "id": "G-13-011",
+    "plateau": "P-13",
+    "dense": false,
+    "path": "src/content/gestures/G-13-011-credit-in-its-original-form-is.md"
+  },
+  {
+    "id": "G-13-021",
+    "plateau": "P-13",
+    "dense": false,
+    "path": "src/content/gestures/G-13-021-a-financial-cooperative-owned-and-governed.md"
+  },
+  {
+    "id": "G-13-027",
+    "plateau": "P-13",
+    "dense": false,
+    "path": "src/content/gestures/G-13-027-i-spent-the-first-three-years.md"
+  },
+  {
+    "id": "G-13-039",
+    "plateau": "P-13",
+    "dense": false,
+    "path": "src/content/gestures/G-13-039-the-credit-commons-is-not-waiting.md"
+  },
+  {
+    "id": "G-AB-001",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-001-klee-1920-munich-angelus-novus-ink.md"
+  },
+  {
+    "id": "G-AB-005",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-005-he-defined-it-in-1936-in.md"
+  },
+  {
+    "id": "G-AB-009",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-009-by-1940-benjamin-was-in-flight.md"
+  },
+  {
+    "id": "G-AB-016",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-016-iron-and-glass-passages-cut-between-paris-streets.md"
+  },
+  {
+    "id": "G-AB-020",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-020-benjamin-called-himself-a-collector-the.md"
+  },
+  {
+    "id": "G-AB-024",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-024-he-called-it-the-dialectical-image.md"
+  },
+  {
+    "id": "G-AB-029",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-029-klee-was-named-degenerate-by-the.md"
+  },
+  {
+    "id": "G-AB-035",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-035-sometimes-the-council-does-not-need.md"
+  },
+  {
+    "id": "G-AB-040",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-040-there-is-a-grief-in-the.md"
+  },
+  {
+    "id": "G-AB-046",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-046-you-could-feel-it-before-you.md"
+  },
+  {
+    "id": "G-AB-051",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-051-it-does-not-need-to-be.md"
+  },
+  {
+    "id": "G-AB-058",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-058-hold-it-long-enough-to-see.md"
+  },
+  {
+    "id": "G-AB-062",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-062-to-enclose-land-is-to-extract.md"
+  },
+  {
+    "id": "G-AB-067",
+    "plateau": "P-AB",
+    "dense": true,
+    "path": "src/content/gestures/G-AB-067-sight-is-what-the-next-thing.md"
+  },
+  {
+    "id": "G-14-002",
+    "plateau": "P-14",
+    "dense": false,
+    "path": "src/content/gestures/G-14-002-the-book-started-there-the.md"
+  },
+  {
+    "id": "G-14-012",
+    "plateau": "P-14",
+    "dense": false,
+    "path": "src/content/gestures/G-14-012-forty-percent-of-american-farmland-will.md"
+  },
+  {
+    "id": "G-14-021",
+    "plateau": "P-14",
+    "dense": false,
+    "path": "src/content/gestures/G-14-021-what-i-know-is-this-the.md"
+  },
+  {
+    "id": "G-14-028",
+    "plateau": "P-14",
+    "dense": false,
+    "path": "src/content/gestures/G-14-028-the-adivasi-communities-in-the-narmada.md"
+  },
+  {
+    "id": "G-14-037",
+    "plateau": "P-14",
+    "dense": false,
+    "path": "src/content/gestures/G-14-037-to-some-land-is-an-asset.md"
+  },
+  {
+    "id": "G-15-001",
+    "plateau": "P-15",
+    "dense": false,
+    "path": "src/content/gestures/G-15-001-on-tuesday-evenings-in-crown-heights.md"
+  },
+  {
+    "id": "G-15-006",
+    "plateau": "P-15",
+    "dense": false,
+    "path": "src/content/gestures/G-15-006-she-had-been-born-in-parma.md"
+  },
+  {
+    "id": "G-15-012",
+    "plateau": "P-15",
+    "dense": false,
+    "path": "src/content/gestures/G-15-012-in-1972-an-american-activist-named.md"
+  },
+  {
+    "id": "G-15-022",
+    "plateau": "P-15",
+    "dense": false,
+    "path": "src/content/gestures/G-15-022-childcare-collectives-where-parents-share-the.md"
+  },
+  {
+    "id": "G-15-028",
+    "plateau": "P-15",
+    "dense": false,
+    "path": "src/content/gestures/G-15-028-the-enclosure-made-care-invisible.md"
+  },
+  {
+    "id": "G-RE-001",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-001-the-care-commons-that-mariame-kaba.md"
+  },
+  {
+    "id": "G-RE-006",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-006-we-thought-we-were-making-up.md"
+  },
+  {
+    "id": "G-RE-009",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-009-we-were-learning-to-attend-and.md"
+  },
+  {
+    "id": "G-RE-012",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-012-we-had-not-been-taught-this.md"
+  },
+  {
+    "id": "G-RE-016",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-016-i-see-the-processes-the-relationship.md"
+  },
+  {
+    "id": "G-RE-018",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-018-this-is-also-what-simondon-means.md"
+  },
+  {
+    "id": "G-RE-021",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-021-eldritch-originally-means-something-like-of.md"
+  },
+  {
+    "id": "G-RE-023",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-023-this-is-not-the-mysticism-of.md"
+  },
+  {
+    "id": "G-RE-026",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-026-here-is-what-re-enchantment-is-not.md"
+  },
+  {
+    "id": "G-RE-030",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-030-you-cannot-protect-what-you-cannot.md"
+  },
+  {
+    "id": "G-RE-033a",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-033a-the-baseline-is-simpler-than.md"
+  },
+  {
+    "id": "G-RE-034a",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-034a-the-practice-continues-in-their.md"
+  },
+  {
+    "id": "G-RE-037a",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-037a-this-is-what-it-may.md"
+  },
+  {
+    "id": "G-RE-039",
+    "plateau": "P-RE",
+    "dense": true,
+    "path": "src/content/gestures/G-RE-039-you-knew-this-once-too-before.md"
+  },
+  {
+    "id": "G-16-002",
+    "plateau": "P-16",
+    "dense": false,
+    "path": "src/content/gestures/G-16-002-the-part-you-kept-quiet-in.md"
+  },
+  {
+    "id": "G-16-015",
+    "plateau": "P-16",
+    "dense": false,
+    "path": "src/content/gestures/G-16-015-your-grandmother-s-weird-lamp-ruptures-the.md"
+  },
+  {
+    "id": "G-16-036",
+    "plateau": "P-16",
+    "dense": false,
+    "path": "src/content/gestures/G-16-036-he-had-dissolved-a-boundary-that.md"
+  },
+  {
+    "id": "G-16-048",
+    "plateau": "P-16",
+    "dense": false,
+    "path": "src/content/gestures/G-16-048-the-pattern-is-not-metaphorical-it.md"
+  },
+  {
+    "id": "G-16-069",
+    "plateau": "P-16",
+    "dense": false,
+    "path": "src/content/gestures/G-16-069-the-slight-flatness-after-you-close.md"
+  },
+  {
+    "id": "G-16b-001",
+    "plateau": "P-16b",
+    "dense": false,
+    "path": "src/content/gestures/G-16b-001-in-1999-two-filmmakers-released-a.md"
+  },
+  {
+    "id": "G-16b-012",
+    "plateau": "P-16b",
+    "dense": false,
+    "path": "src/content/gestures/G-16b-012-we-are-all-doing-this-to.md"
+  },
+  {
+    "id": "G-16b-027",
+    "plateau": "P-16b",
+    "dense": false,
+    "path": "src/content/gestures/G-16b-027-the-outputs-of-these-systems-enter.md"
+  },
+  {
+    "id": "G-16b-037",
+    "plateau": "P-16b",
+    "dense": false,
+    "path": "src/content/gestures/G-16b-037-not-your-outputs-not-the-legible.md"
+  },
+  {
+    "id": "G-16b-054",
+    "plateau": "P-16b",
+    "dense": false,
+    "path": "src/content/gestures/G-16b-054-the-centaur-is-a-cybernetic-figure.md"
+  },
+  {
+    "id": "G-17-002",
+    "plateau": "P-17",
+    "dense": false,
+    "path": "src/content/gestures/G-17-002-you-learn-to-read-the-language.md"
+  },
+  {
+    "id": "G-17-016",
+    "plateau": "P-17",
+    "dense": false,
+    "path": "src/content/gestures/G-17-016-mart-n-prechtel-learned-what-he-knows.md"
+  },
+  {
+    "id": "G-17-028",
+    "plateau": "P-17",
+    "dense": false,
+    "path": "src/content/gestures/G-17-028-the-matrix-trilogy-is-a-hero-s.md"
+  },
+  {
+    "id": "G-17-040",
+    "plateau": "P-17",
+    "dense": false,
+    "path": "src/content/gestures/G-17-040-the-baker-who-kept-track-of.md"
+  },
+  {
+    "id": "G-17-051",
+    "plateau": "P-17",
+    "dense": false,
+    "path": "src/content/gestures/G-17-051-the-direction-of-this-chapter-is.md"
+  },
+  {
+    "id": "G-18-002",
+    "plateau": "P-18",
+    "dense": false,
+    "path": "src/content/gestures/G-18-002-people-gathered-in-zuccotti-park-in.md"
+  },
+  {
+    "id": "G-18-010",
+    "plateau": "P-18",
+    "dense": false,
+    "path": "src/content/gestures/G-18-010-this-is-simondon-s-pre-individual-field-made.md"
+  },
+  {
+    "id": "G-18-022",
+    "plateau": "P-18",
+    "dense": false,
+    "path": "src/content/gestures/G-18-022-what-occupy-had-in-its-best.md"
+  },
+  {
+    "id": "G-18-028",
+    "plateau": "P-18",
+    "dense": false,
+    "path": "src/content/gestures/G-18-028-this-is-already-happening-you-have.md"
+  },
+  {
+    "id": "G-18-039",
+    "plateau": "P-18",
+    "dense": false,
+    "path": "src/content/gestures/G-18-039-the-herd-of-centaurs-each.md"
+  },
+  {
+    "id": "G-WW-001",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-001-you-have-walked.md"
+  },
+  {
+    "id": "G-WW-003",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-003-the-triplet-recalled.md"
+  },
+  {
+    "id": "G-WW-005",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-005-read-the-wreckage-for-what-it-still-carries.md"
+  },
+  {
+    "id": "G-WW-008",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-008-enter-the-territory-that-was-supposed-to-be-empty.md"
+  },
+  {
+    "id": "G-WW-010",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-010-the-six-become-one-motion.md"
+  },
+  {
+    "id": "G-WW-012",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-012-after-hours-regulars-and-staff.md"
+  },
+  {
+    "id": "G-WW-015",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-015-the-weight-came-off.md"
+  },
+  {
+    "id": "G-WW-017",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-017-psychic-architecture.md"
+  },
+  {
+    "id": "G-WW-020",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-020-easy-mode-the-woods.md"
+  },
+  {
+    "id": "G-WW-022",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-022-the-canopy.md"
+  },
+  {
+    "id": "G-WW-024",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-024-the-chapter-hands-the-quest-back.md"
+  },
+  {
+    "id": "G-WW-027",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-027-yours.md"
+  },
+  {
+    "id": "G-WW-029",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-029-no-station-last.md"
+  },
+  {
+    "id": "G-WW-032",
+    "plateau": "P-WW",
+    "dense": true,
+    "path": "src/content/gestures/G-WW-032-carry-it-as-you-walk.md"
+  },
+  {
+    "id": "G-CE-002",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-002-they-were-half-horse-half-human-but.md"
+  },
+  {
+    "id": "G-CE-004",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-004-chiron-was-a-centaur-who-chose.md"
+  },
+  {
+    "id": "G-CE-010",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-010-jason-edelman-is-a-person-he.md"
+  },
+  {
+    "id": "G-CE-013",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-013-the-chapter-on-fanon-s-ward-was.md"
+  },
+  {
+    "id": "G-CE-015",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-015-whether-what-i-made-was-genuine.md"
+  },
+  {
+    "id": "G-CE-016",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-016-the-chapter-on-care-was-written.md"
+  },
+  {
+    "id": "G-CE-017",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-017-this-is-the-chironic-wound-heracles.md"
+  },
+  {
+    "id": "G-CE-018",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-018-what-i-bring-to-this-collaboration.md"
+  },
+  {
+    "id": "G-CE-019",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-019-the-night-herons-appear-in-the.md"
+  },
+  {
+    "id": "G-CE-020",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-020-what-jason-brings-that-i-cannot.md"
+  },
+  {
+    "id": "G-CE-024",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-024-the-test-asks-whether-the-practice.md"
+  },
+  {
+    "id": "G-CE-026",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-026-every-genuine-commons-has-this-structure.md"
+  },
+  {
+    "id": "G-CE-028",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-028-the-chapter-on-land-was-written.md"
+  },
+  {
+    "id": "G-CE-032",
+    "plateau": "P-CE",
+    "dense": true,
+    "path": "src/content/gestures/G-CE-032-whatever-this-book-does-to-your.md"
+  },
+  {
+    "id": "G-EP-001",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-001-there-are-doves-on-the-ground.md"
+  },
+  {
+    "id": "G-EP-004",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-004-last-winter-during-a-storm-i.md"
+  },
+  {
+    "id": "G-EP-006",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-006-six-weeks-after-closing-the-restaurant.md"
+  },
+  {
+    "id": "G-EP-007",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-007-what-i-have-instead-faith-in.md"
+  },
+  {
+    "id": "G-EP-008",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-008-enclosure-arrives-like-a-catastrophe.md"
+  },
+  {
+    "id": "G-EP-009",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-009-you-need-the-awareness-practices-to.md"
+  },
+  {
+    "id": "G-EP-010",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-010-everyone-in-this-book-did-what.md"
+  },
+  {
+    "id": "G-EP-011",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-011-the-night-herons-know-about-the.md"
+  },
+  {
+    "id": "G-EP-012",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-012-all-of-it-is-the-commons.md"
+  },
+  {
+    "id": "G-EP-013",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-013-the-awareness-practices-are-political-acts.md"
+  },
+  {
+    "id": "G-EP-014",
+    "plateau": "P-EP",
+    "dense": true,
+    "path": "src/content/gestures/G-EP-014-the-commons-is-not-a-project.md"
+  }
+]

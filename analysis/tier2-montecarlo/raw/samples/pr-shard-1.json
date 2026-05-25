@@ -1,0 +1,272 @@
+[
+  {
+    "id": "G-PR-001",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-001-your-rent-went-up-again-this.md"
+  },
+  {
+    "id": "G-PR-002",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-002-or-maybe-it-s-the-hospital-bill.md"
+  },
+  {
+    "id": "G-PR-006",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-006-every-spring-night-herons-return-to.md"
+  },
+  {
+    "id": "G-PR-009",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-009-the-herons-are-not-only-what.md"
+  },
+  {
+    "id": "G-PR-012",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-012-the-rule-is-this-things-that.md"
+  },
+  {
+    "id": "G-PR-016",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-016-the-word-comes-from-a-specific.md"
+  },
+  {
+    "id": "G-PR-019",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-019-the-commons-is-not-what-we.md"
+  },
+  {
+    "id": "G-PR-021",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-021-this-book-has-two-authors-jason.md"
+  },
+  {
+    "id": "G-PR-023",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-023-we-are-a-centaur-the.md"
+  },
+  {
+    "id": "G-PR-026",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-026-the-first-is-the-feeling-itself.md"
+  },
+  {
+    "id": "G-PR-028",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-028-the-third-is-the-machine-in.md"
+  },
+  {
+    "id": "G-PR-030",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-030-the-fifth-is-a-single-chapter.md"
+  },
+  {
+    "id": "G-PR-032",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-032-a-note-on-what-kind-of.md"
+  },
+  {
+    "id": "G-PR-039",
+    "plateau": "P-PR",
+    "dense": true,
+    "path": "src/content/gestures/G-PR-039-build-and-defend-the-commons-grew.md"
+  },
+  {
+    "id": "G-01-001",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-001-hampton-boulevard-and-brambleton-avenue-are.md"
+  },
+  {
+    "id": "G-01-011",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-011-i-ve-been-to-cities-where-planners.md"
+  },
+  {
+    "id": "G-01-018",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-018-i-cross-brambleton-to-get-there.md"
+  },
+  {
+    "id": "G-01-024",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-024-the-board-was-within-their-rights.md"
+  },
+  {
+    "id": "G-01-037",
+    "plateau": "P-01",
+    "dense": false,
+    "path": "src/content/gestures/G-01-037-the-night-herons-nest-in-the.md"
+  },
+  {
+    "id": "G-02-005",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-005-the-public-meeting-happened-the-community.md"
+  },
+  {
+    "id": "G-02-010",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-010-i-want-to-take-you-to.md"
+  },
+  {
+    "id": "G-02-017",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-017-the-hospital-that-was-built-on.md"
+  },
+  {
+    "id": "G-02-022",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-022-there-is-a-word-for-the.md"
+  },
+  {
+    "id": "G-02-026",
+    "plateau": "P-02",
+    "dense": false,
+    "path": "src/content/gestures/G-02-026-when-i-hear-this-time-things.md"
+  },
+  {
+    "id": "G-IB-001",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-001-the-fish-market-had-just-closed.md"
+  },
+  {
+    "id": "G-IB-002",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-002-a-man-arrived-on-a-bicycle.md"
+  },
+  {
+    "id": "G-IB-004",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-004-not-a-performance-a-class.md"
+  },
+  {
+    "id": "G-IB-005",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-005-barcelona-has-been-depaving-its-intersections.md"
+  },
+  {
+    "id": "G-IB-006",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-006-the-infrastructure-had-been-changed-the.md"
+  },
+  {
+    "id": "G-IB-008",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-008-i-watched-from-the-edge-i-m.md"
+  },
+  {
+    "id": "G-IB-009",
+    "plateau": "P-IB",
+    "dense": true,
+    "path": "src/content/gestures/G-IB-009-barcelona-has-also-been-running-out.md"
+  },
+  {
+    "id": "G-03-002",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-002-they-come-from-the-pacific-tracking.md"
+  },
+  {
+    "id": "G-03-013",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-013-in-1968-a-professor-of-human.md"
+  },
+  {
+    "id": "G-03-022",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-022-every-thursday-at-noon-she-would.md"
+  },
+  {
+    "id": "G-03-033",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-033-the-commons-was-the-room-the.md"
+  },
+  {
+    "id": "G-03-045",
+    "plateau": "P-03",
+    "dense": false,
+    "path": "src/content/gestures/G-03-045-my-bluesky-handle-is-read-hardt.md"
+  },
+  {
+    "id": "G-IW-003",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-003-not-teach-them-about-old-growth-forest.md"
+  },
+  {
+    "id": "G-IW-004",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-004-the-group-i-was-working-with.md"
+  },
+  {
+    "id": "G-IW-006",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-006-i-didn-t-orchestrate-this-nobody-did.md"
+  },
+  {
+    "id": "G-IW-007",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-007-do-you-know-how-hard-it.md"
+  },
+  {
+    "id": "G-IW-009",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-009-the-educators-who-do-this-work.md"
+  },
+  {
+    "id": "G-IW-010",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-010-i-won-t-give-you-their-names.md"
+  },
+  {
+    "id": "G-IW-012",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-012-when-i-m-in-the-field-with.md"
+  },
+  {
+    "id": "G-IW-013",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-013-what-i-m-watching-for-is-the.md"
+  },
+  {
+    "id": "G-IW-014",
+    "plateau": "P-IW",
+    "dense": true,
+    "path": "src/content/gestures/G-IW-014-i-m-not-telling-anyone-anything-when.md"
+  }
+]

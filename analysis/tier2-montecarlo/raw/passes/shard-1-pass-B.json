@@ -1,0 +1,295 @@
+{"pass":"B","shard":1,"gestures":[
+{"id":"G-PR-001","tags":[
+  {"tag":"image/the-rent-math","evidence":"you did the math and it doesn't work anymore"},
+  {"tag":"motif/the-landlord-deflection","evidence":"costs are up everywhere, they have to stay competitive"},
+  {"tag":"affect/powerlessness","evidence":"there's nothing you can do about it"}
+]},
+{"id":"G-PR-003","tags":[
+  {"tag":"image/wall-of-concrete","evidence":"a wall of concrete through a community"},
+  {"tag":"image/the-highway","evidence":"the highway that cut the neighborhood in half"},
+  {"tag":"motif/severed-community","evidence":"divided by it"},
+  {"tag":"motif/hidden-connection","evidence":"They are connected. This book is about how."},
+  {"tag":"affect/quiet-conviction","evidence":"They feel like separate misfortunes"}
+]},
+{"id":"G-PR-008","tags":[
+  {"tag":"image/night-heron","evidence":"finds as many of the nests as he can"},
+  {"tag":"image/oak-and-willow","evidence":"raising their young in the oak and willow"},
+  {"tag":"motif/return-migration","evidence":"as they have done for thousands of years"},
+  {"tag":"motif/avowal-of-love","evidence":"he loves them and wishes them good luck"},
+  {"tag":"affect/reverence","evidence":"as long as the trees hold"}
+]},
+{"id":"G-PR-013","tags":[
+  {"tag":"image/common-land","evidence":"Land that was common became property"},
+  {"tag":"motif/enclosure-as-conversion","evidence":"Knowledge that was shared became intellectual property"},
+  {"tag":"motif/severed-relationship","evidence":"became a product that extracts"},
+  {"tag":"affect/indictment","evidence":"or simply done to you"}
+]},
+{"id":"G-PR-018","tags":[
+  {"tag":"image/the-commons","evidence":"the arrangement by which communities manage"},
+  {"tag":"motif/resurgence-of-commons","evidence":"wherever people have managed to push it back"},
+  {"tag":"affect/quiet-conviction","evidence":"Something older and more flexible and more democratic"}
+]},
+{"id":"G-PR-022","tags":[
+  {"tag":"motif/enclosure-by-the-encloser","evidence":"written by the thing doing the enclosing"},
+  {"tag":"motif/means-and-ends","evidence":"you cannot separate the means from the ends"},
+  {"tag":"affect/uneasy-honesty","evidence":"The tension doesn't resolve cleanly"}
+]},
+{"id":"G-PR-027","tags":[
+  {"tag":"image/valencia-water-tribunal","evidence":"Ten centuries of a water tribunal in Valencia"},
+  {"tag":"image/land-trust","evidence":"A land trust in Burlington"},
+  {"tag":"motif/proof-before-theory","evidence":"We show you what works before we explain why"},
+  {"tag":"affect/disciplined-hope","evidence":"documented, operational, scalable governance form"}
+]},
+{"id":"G-PR-029","tags":[
+  {"tag":"motif/buried-tradition","evidence":"the tradition that had better answers... was buried"},
+  {"tag":"motif/convergent-discovery","evidence":"arrived at the same architecture without reading any of them"},
+  {"tag":"affect/defiance","evidence":"Buried because it was threatening"}
+]},
+{"id":"G-PR-031","tags":[
+  {"tag":"image/zuccotti-park","evidence":"ends in Zuccotti Park in 2011"},
+  {"tag":"image/the-evening-meeting","evidence":"eleven people and an unread agenda"},
+  {"tag":"motif/the-earth-flowers","evidence":"That's where the earth flowers"},
+  {"tag":"affect/disciplined-hope","evidence":"happened briefly and imperfectly and pointed somewhere"}
+]},
+{"id":"G-PR-039","tags":[
+  {"tag":"motif/pointing-elsewhere","evidence":"the site is where to go"},
+  {"tag":"affect/invitation","evidence":"If something here sends you looking for more"}
+]},
+{"id":"G-01-001","tags":[
+  {"tag":"image/the-interchange","evidence":"a tangle of overpasses and ramps"},
+  {"tag":"image/two-ton-body","evidence":"a body that weighs two tons"},
+  {"tag":"motif/built-for-the-car","evidence":"no crossing, no signal, no path"},
+  {"tag":"affect/cold-indictment","evidence":"a pedestrian cannot navigate at all"}
+]},
+{"id":"G-01-002","tags":[
+  {"tag":"image/the-crosswalk","evidence":"intersections adjacent to this knot. Six lanes"},
+  {"tag":"image/exposed-pedestrian","evidence":"if you're with a child, you will not make it"},
+  {"tag":"motif/design-as-intention","evidence":"This is not a design failure. It is the design."},
+  {"tag":"affect/indictment","evidence":"Lights calibrated for throughput"}
+]},
+{"id":"G-01-009","tags":[
+  {"tag":"image/the-road-felt","evidence":"the way the road feels to drive — fast, open, efficient"},
+  {"tag":"image/body-out-of-place","evidence":"a body in a space not designed for bodies"},
+  {"tag":"motif/the-unspoken-argument","evidence":"feel the argument... without anyone making it explicitly"},
+  {"tag":"affect/exposure","evidence":"which is exposed, an afterthought"}
+]},
+{"id":"G-01-011","tags":[
+  {"tag":"image/the-other-city","evidence":"crossing a major street took thirty seconds"},
+  {"tag":"motif/cannot-unsee","evidence":"you can't un-know them"},
+  {"tag":"motif/alternative-becomes-thinkable","evidence":"The alternative becomes thinkable"},
+  {"tag":"affect/rage","evidence":"The rage becomes possible"}
+]},
+{"id":"G-01-013","tags":[
+  {"tag":"image/sediment","evidence":"the sediment of prior thought"},
+  {"tag":"image/invisible-operating-system","evidence":"operating systems are invisible until they crash"},
+  {"tag":"motif/naturalized-assumption","evidence":"what's natural, what's possible"},
+  {"tag":"affect/lucid-analysis","evidence":"it's not that people are fooled"}
+]},
+{"id":"G-01-017","tags":[
+  {"tag":"image/the-managed-meadow","evidence":"mowed what had become a managed meadow"},
+  {"tag":"image/the-kinglet","evidence":"a tiny kinglet... taking shelter in the tall grass"},
+  {"tag":"motif/daily-vigil","evidence":"Every morning I walk past it expecting it to be cut"},
+  {"tag":"motif/small-defiance","evidence":"I gave them hell"},
+  {"tag":"affect/fragile-triumph","evidence":"Every morning it isn't is a small triumph"}
+]},
+{"id":"G-01-022","tags":[
+  {"tag":"image/the-board-meeting","evidence":"In the meeting, under new business"},
+  {"tag":"motif/procedural-evasion","evidence":"The board abstained procedurally"},
+  {"tag":"motif/vote-that-changes-nothing","evidence":"do what they did next: ignore it"},
+  {"tag":"affect/cold-indictment","evidence":"which preserved their ability"}
+]},
+{"id":"G-01-030","tags":[
+  {"tag":"motif/extraction-and-return","evidence":"extracts something... and returns something else"},
+  {"tag":"motif/the-naturalized-template","evidence":"inside a template so naturalized it functions"},
+  {"tag":"motif/the-unnamed-word","evidence":"There is a word for this"},
+  {"tag":"affect/lucid-analysis","evidence":"the people operating the system are not, mostly, malicious"}
+]},
+{"id":"G-01-033","tags":[
+  {"tag":"image/the-machine","evidence":"what is the machine, how does it work"},
+  {"tag":"motif/refusing-blame","evidence":"not: who is to blame?"},
+  {"tag":"affect/disciplined-hope","evidence":"what are people actually doing... to build something different"}
+]},
+{"id":"G-01-037","tags":[
+  {"tag":"image/night-heron","evidence":"The night herons nest in the willow oaks"},
+  {"tag":"image/willow-oaks","evidence":"nest in the willow oaks on the other side"},
+  {"tag":"motif/return-migration","evidence":"coming back every spring for as long as anyone has"},
+  {"tag":"motif/routing-around-the-road","evidence":"they've routed around it, built a life"},
+  {"tag":"affect/quiet-defiance","evidence":"refused to let it sever the relationship"}
+]},
+{"id":"G-02-006","tags":[
+  {"tag":"image/armor","evidence":"It has armor. The armor is made from your participation."},
+  {"tag":"motif/manufacturing-legitimacy","evidence":"institutions need to keep running... legitimacy"},
+  {"tag":"affect/lucid-analysis","evidence":"that decision is harder to challenge"}
+]},
+{"id":"G-02-007","tags":[
+  {"tag":"image/armor","evidence":"You produced the armor. You handed it to them."},
+  {"tag":"image/the-parking-ticket","evidence":"You got a parking ticket"},
+  {"tag":"motif/participation-as-raw-material","evidence":"your participation was the raw material it needed"},
+  {"tag":"affect/cold-indictment","evidence":"This is not cynicism. It is a description"}
+]},
+{"id":"G-02-010","tags":[
+  {"tag":"image/the-erased-neighborhood","evidence":"a small neighborhood that no longer exists"},
+  {"tag":"image/the-color-line","evidence":"one of the few places... where the color line was blurring"},
+  {"tag":"motif/place-as-witness","evidence":"I want to take you to Norfolk, Virginia"},
+  {"tag":"affect/elegy","evidence":"a functioning working-class community"}
+]},
+{"id":"G-02-013","tags":[
+  {"tag":"image/the-manufactured-slum","evidence":"The slum was manufactured, then used to justify"},
+  {"tag":"motif/engineered-decline","evidence":"landlords stopped investing. Properties deteriorated."},
+  {"tag":"motif/justification-by-ruin","evidence":"deterioration was cited as evidence that clearance was justified"},
+  {"tag":"affect/indictment","evidence":"documented what this was: a technique"}
+]},
+{"id":"G-02-014","tags":[
+  {"tag":"image/the-demolition","evidence":"Approximately 1,000 homes were torn down"},
+  {"tag":"image/locked-schools","evidence":"Norfolk simply locked its public schools in 1958"},
+  {"tag":"motif/erasure-not-relocation","evidence":"The community was not relocated. It was erased."},
+  {"tag":"motif/segregation-by-demolition","evidence":"destroy the integrated neighborhoods"},
+  {"tag":"affect/indictment","evidence":"James Baldwin called it what it was: Negro removal"}
+]},
+{"id":"G-02-017","tags":[
+  {"tag":"image/the-hospital-on-the-ruins","evidence":"The hospital that was built on Atlantic City"},
+  {"tag":"image/empty-ground","evidence":"as having grown on empty ground"},
+  {"tag":"motif/enclosure-as-forgetting","evidence":"Not just the taking — the forgetting"},
+  {"tag":"motif/uncommemorated-loss","evidence":"The residents who were removed are not named"},
+  {"tag":"affect/indictment","evidence":"this is understood as progress"}
+]},
+{"id":"G-02-019","tags":[
+  {"tag":"image/the-interface","evidence":"The board is the interface"},
+  {"tag":"motif/community-energy-converted","evidence":"converting community energy into institutional legitimacy"},
+  {"tag":"motif/input-processed-away","evidence":"processed into a form the institution can use"},
+  {"tag":"affect/lucid-analysis","evidence":"they are generating something"}
+]},
+{"id":"G-02-021","tags":[
+  {"tag":"image/the-petition","evidence":"The petition that gets added to your email list"},
+  {"tag":"motif/absorbing-participation","evidence":"designed to absorb participation rather than transmit it"},
+  {"tag":"motif/recursive-meeting","evidence":"a report that produces another community meeting"},
+  {"tag":"affect/weary-indictment","evidence":"the public comment that... changes nothing"}
+]},
+{"id":"G-02-022","tags":[
+  {"tag":"image/the-tenant-association","evidence":"The tenant association that negotiates directly"},
+  {"tag":"image/the-land-trust","evidence":"community land trust that removes housing"},
+  {"tag":"motif/leverage-as-counter","evidence":"There is a word for the version... that works: leverage"},
+  {"tag":"motif/accumulating-capacity","evidence":"leverage accumulating into capacity"},
+  {"tag":"affect/disciplined-hope","evidence":"produces outcomes, not records"}
+]},
+{"id":"G-02-026","tags":[
+  {"tag":"image/the-grandmother","evidence":"whose grandmother had been displaced"},
+  {"tag":"motif/inherited-knowledge","evidence":"learned it through her grandmother's experience"},
+  {"tag":"motif/refusal-as-beginning","evidence":"the refusal to call the loss progress"},
+  {"tag":"affect/defiance","evidence":"she can refuse to provide the legitimacy"}
+]},
+{"id":"G-IB-002","tags":[
+  {"tag":"image/the-bike-rig","evidence":"a custom rig, everything self-contained"},
+  {"tag":"image/the-sound-system","evidence":"the speakers mounted low, the battery tucked in"},
+  {"tag":"motif/permissionless-arrival","evidence":"No permit required, probably"},
+  {"tag":"affect/lightness","evidence":"in the time it takes to unpack a bag"}
+]},
+{"id":"G-IB-004","tags":[
+  {"tag":"image/the-street-dance","evidence":"the street... was now about dancing"},
+  {"tag":"image/the-cart-vendor","evidence":"Cart vendors appeared, selling something cold and sweet"},
+  {"tag":"motif/dissolving-boundary","evidence":"the boundary dissolving quickly"},
+  {"tag":"motif/spontaneous-order","evidence":"nobody had organized this except in the loosest"},
+  {"tag":"affect/joy","evidence":"a class and a party"}
+]},
+{"id":"G-IB-005","tags":[
+  {"tag":"image/the-superblock","evidence":"The city calls them superblocks"},
+  {"tag":"image/depaved-intersection","evidence":"depaving its intersections for years"},
+  {"tag":"motif/reclaiming-space","evidence":"Taking back space that was given to cars"},
+  {"tag":"affect/disciplined-hope","evidence":"freed up for walking, cycling, planting"}
+]},
+{"id":"G-IB-008","tags":[
+  {"tag":"image/the-dj-at-the-edge","evidence":"I watched from the edge. I'm a DJ."},
+  {"tag":"motif/music-that-doesnt-wait","evidence":"it wasn't waiting for me, or for anyone"},
+  {"tag":"affect/equanimity","evidence":"life goes on even if yours doesn't"}
+]},
+{"id":"G-IB-009","tags":[
+  {"tag":"image/the-empty-reservoir","evidence":"reservoirs... below twenty percent of capacity"},
+  {"tag":"image/thinning-snowpack","evidence":"the snowpack that feeds the rivers is thinner"},
+  {"tag":"motif/nested-commons","evidence":"a commons larger than any municipal government"},
+  {"tag":"motif/one-question-at-different-scales","evidence":"one question, asked at different scales"},
+  {"tag":"affect/sober-warning","evidence":"The drought is structural"}
+]},
+{"id":"G-03-002","tags":[
+  {"tag":"image/the-typhoon","evidence":"tracking west across the warm water"},
+  {"tag":"image/the-bamboo-dam","evidence":"bamboo-and-stone dams that the farming cooperatives"},
+  {"tag":"image/the-palomares","evidence":"teepee-shaped structures called palomares, weighted with heavy stones"},
+  {"tag":"motif/destruction-and-rebuilding","evidence":"the community gathers to rebuild it"},
+  {"tag":"affect/resilience","evidence":"Every year. The typhoon comes, and the dam goes"}
+]},
+{"id":"G-03-006","tags":[
+  {"tag":"image/the-cook","evidence":"The cook is written into the governance structure"},
+  {"tag":"motif/feeding-as-governance","evidence":"It feeds each other because the governance structure requires it"},
+  {"tag":"motif/relationship-makes-rebuilding-possible","evidence":"the work of rebuilding is not separable from the relationship"},
+  {"tag":"affect/reverence","evidence":"they understood, across the generations"}
+]},
+{"id":"G-03-011","tags":[
+  {"tag":"image/the-zanjera","evidence":"Why does the zanjera feel like"},
+  {"tag":"motif/relegating-to-folklore","evidence":"feel like folklore rather than policy"},
+  {"tag":"affect/longing","evidence":"something you could build... or participate in next Tuesday"}
+]},
+{"id":"G-03-017","tags":[
+  {"tag":"image/the-open-pasture","evidence":"imagine a pasture open to all"},
+  {"tag":"image/anonymous-herders","evidence":"a collection of anonymous strangers"},
+  {"tag":"motif/the-strawman-commons","evidence":"removed everything that makes a commons a commons"},
+  {"tag":"affect/refutation","evidence":"He was not describing any actual commons"}
+]},
+{"id":"G-03-021","tags":[
+  {"tag":"image/the-workshop","evidence":"they deliberately called a workshop"},
+  {"tag":"image/the-lobstermen","evidence":"interviewed lobstermen herself, quizzing them"},
+  {"tag":"motif/knowledge-from-cases","evidence":"knowledge built from cases rather than derived from axioms"},
+  {"tag":"motif/the-allocation-game","evidence":"played irrigation allocation games with her students"},
+  {"tag":"affect/curiosity","evidence":"The cases accumulated across decades"}
+]},
+{"id":"G-03-025","tags":[
+  {"tag":"image/the-design-principles","evidence":"she distilled eight design principles"},
+  {"tag":"motif/distillation","evidence":"From hundreds of cases like these, she distilled"},
+  {"tag":"motif/nested-governance","evidence":"nested layers of governance coordinating upward"},
+  {"tag":"affect/rigor","evidence":"not prescriptions, but findings"}
+]},
+{"id":"G-03-032","tags":[
+  {"tag":"image/the-bootleg-pdf","evidence":"A bootleg PDF of Simulacra and Simulation"},
+  {"tag":"image/the-software-job-breaks","evidence":"on my breaks at a software job"},
+  {"tag":"motif/knowing-in-the-body","evidence":"I knew in my body... things you can't yet say"},
+  {"tag":"affect/intuition","evidence":"something was being produced... that didn't show up in the numbers"}
+]},
+{"id":"G-03-035","tags":[
+  {"tag":"image/prison-writing","evidence":"imprisoned in Italy on almost certainly fabricated charges"},
+  {"tag":"image/the-call-center-worker","evidence":"The call center worker selling warmth"},
+  {"tag":"motif/power-that-administers","evidence":"It doesn't primarily kill; it administers"},
+  {"tag":"motif/value-from-life-itself","evidence":"from life itself — from language, from affect, from care"},
+  {"tag":"affect/lucid-analysis","evidence":"capital now primarily depends on"}
+]},
+{"id":"G-03-041","tags":[
+  {"tag":"image/the-valencia-tribunal","evidence":"The Valencia tribunal isn't only governing the Turia River"},
+  {"tag":"motif/governing-the-relational","evidence":"governing the accumulated relational intelligence"},
+  {"tag":"motif/resource-beyond-the-resource","evidence":"the resource isn't only the water"},
+  {"tag":"affect/quiet-conviction","evidence":"These are biopolitical commons"}
+]},
+{"id":"G-03-045","tags":[
+  {"tag":"image/the-bluesky-handle","evidence":"My Bluesky handle is 'Read Hardt and Negri'"},
+  {"tag":"image/uncounted-care-work","evidence":"appears in no GDP"},
+  {"tag":"motif/seeing-it-everywhere","evidence":"Once you have the name, you can see it everywhere"},
+  {"tag":"motif/captured-value","evidence":"produce wealth a platform captures"},
+  {"tag":"affect/conviction","evidence":"I put it there because I believe it"}
+]},
+{"id":"G-IW-003","tags":[
+  {"tag":"image/old-growth-forest","evidence":"the scale of it, the age of it"},
+  {"tag":"image/the-silence-that-isnt","evidence":"silence that isn't silence but is the sound of something much older"},
+  {"tag":"motif/take-them-there","evidence":"Take them there. Let the forest do what it does"},
+  {"tag":"motif/experience-over-instruction","evidence":"Not explain the carbon cycle... Take them there"},
+  {"tag":"affect/awe","evidence":"more patient than anything the child has encountered"}
+]},
+{"id":"G-IW-004","tags":[
+  {"tag":"image/the-five-year-olds","evidence":"were five-year-olds, younger than I usually taught"},
+  {"tag":"image/the-state-park","evidence":"Five days in a state park... fully in the field"},
+  {"tag":"motif/rebuilt-from-scratch","evidence":"needed to be rebuilt almost from scratch"},
+  {"tag":"affect/uncertainty","evidence":"I didn't know if it was working"}
+]},
+{"id":"G-IW-006","tags":[
+  {"tag":"image/the-deer","evidence":"The deer appeared at the edge of the clearing"},
+  {"tag":"image/the-stalking-children","evidence":"into a stalking gait — weight low, feet placed softly"},
+  {"tag":"motif/unorchestrated-emergence","evidence":"I didn't orchestrate this. Nobody did."},
+  {"tag":"motif/instinctive-attunement","evidence":"the instinctive crouch of a predator or a prey animal"},
+  {"tag":"affect/wonder","evidence":"something happened that I had been trying to create conditions for"}
+]}
+]}

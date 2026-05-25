@@ -1,0 +1,364 @@
+# Tier-2 controlled vocabulary — DRAFT for approval
+# Distilled from the Monte Carlo run (285 gestures x 3 blind passes, 3,596 tag instances).
+# Each canonical tag: gloss, binding=true if it crosses >=3 registers, and the raw variant
+# strings the passes coined (these become the swarm's match aliases).
+# CORE = recurring (>=2 sampled gestures) or thematically central. The swarm tags from CORE
+# first, and may PROPOSE new locals (logged, not auto-applied).
+
+image:
+  # --- returning life / the wild that reads us back ---
+  night-herons:
+    gloss: "the colony returning each spring to Norfolk"
+    binding: true
+    variants: [herons, the-herons, night-heron, night-herons-from-central-america, willow-oaks, night-herons-in-willow-oaks, oak-and-willow]
+  the-deer:
+    gloss: "the deer that walks into camp; met by stillness"
+    variants: [the-deer, the-deer-at-the-clearing, deer-in-camp, deer-through-camp]
+  the-doves:
+    gloss: "doves on the ground beside the quieted body"
+    variants: [doves-on-the-ground, the-doves]
+  songbirds:
+    gloss: "small wild birds as the living world reading you back"
+    variants: [the-kinglet, the-kinglet-in-tall-grass, starlings, fed-birds, crow, owl, carolina-wren]
+
+  # --- trees, soil, growth ---
+  old-growth-forest:
+    gloss: "the uncut forest; the child standing in it"
+    variants: [old-growth-forest, old-growth-tree, the-forest, old-tree, the-tree, child-in-forest]
+  the-redcedar:
+    gloss: "the felled western redcedar; the chip/shard kept on a shelf"
+    binding: true
+    variants: [redcedar, the-redcedar, western-redcedar, redcedar-wedge, cedar-chip, the-cedar-chip]
+  mycorrhizal-network:
+    gloss: "the underground web of care beneath the visible"
+    variants: [mycelium, the-mycelium, the-mycorrhizal-network]
+  scattered-seeds:
+    gloss: "seeds carried forward; what propagates"
+    variants: [scattered-seeds, sprouting-seed, the-seed-sprouting]
+  the-uncut-meadow:
+    gloss: "the meadow you can grieve (vs the graph you cannot)"
+    variants: [uncut-meadow, the-uncut-meadow, the-managed-meadow, the-open-pasture]
+  the-orchard:
+    gloss: "keystone abundance (the goetia tree-ecology)"
+    variants: [the-orchard]
+
+  # --- the body under power ---
+  the-armor:
+    gloss: "armor made of participation / character armor"
+    variants: [armor, the-armor, legitimacy-armor, rings-of-armor, leaking-nerves]
+  the-shrug:
+    gloss: "the learned bodily posture of diminished expectation"
+    variants: [the-shrug, the-shrug-response]
+  the-held-jaw:
+    gloss: "the clenched jaw; tension held in the body"
+    variants: [the-held-jaw]
+  the-floor:
+    gloss: "getting up off the floor; the floor that holds"
+    variants: [the-floor, the-floor-that-holds]
+  the-mask:
+    gloss: "the frozen face/mask worn under power"
+    variants: [the-mask, the-frozen-mask, the-mask-and-the-man]
+  the-mirror:
+    gloss: "colonial projection; the self-portrait posing as a mirror"
+    variants: [the-mirror, the-self-portrait-as-mirror]
+
+  # --- the car vs the commons made physical (the enclosure<->commons contrast) ---
+  the-highway:
+    gloss: "the six-lane crossing built for the two-ton body; severance"
+    binding: true
+    variants: [the-crossing, the-six-lane-crossing, the-intersection, the-two-ton-body]
+  the-superblock:
+    gloss: "asphalt lifted into a planted plaza; depaving"
+    variants: [superblock, the-superblock, superblock-street, depaved-intersection]
+  common-land-fenced:
+    gloss: "the enclosure act made visible — common land fenced off"
+    variants: [common-land, common-land-fenced]
+  the-7-eleven:
+    gloss: "the racial boundary running behind the 7-Eleven"
+    variants: [the-7-eleven, the-line-behind-the-7-eleven]
+  the-sidewalk-fridge:
+    gloss: "the community fridge on the sidewalk"
+    variants: [the-sidewalk-fridge, sidewalk-fridge, community-fridge]
+
+  # --- commons-in-action: institutions & gathering places ---
+  the-restaurant:
+    gloss: "Jason's restaurant; service as theatre; after-service wine"
+    binding: true
+    variants: [the-restaurant, restaurant-as-theatre, the-restaurant-as-theatre, the-closed-restaurant, the-restaurant-at-night, norfolk-restaurant]
+  the-communal-kitchen:
+    gloss: "the cooperative/communal food space (and its absence)"
+    variants: [communal-kitchen, the-communal-kitchen, the-kitchen, no-communal-kitchen]
+  water-tribunal:
+    gloss: "the thousand-year Valencia water court — commons that endures"
+    binding: true
+    variants: [water-tribunal, the-water-tribunal, valencia-water-tribunal, the-valencia-tribunal]
+  the-bamboo-dam:
+    gloss: "Ilocos zanjera bamboo-and-stone dams; commons engineering"
+    variants: [the-bamboo-dam, the-bamboo-stone-dam, bamboo-and-stone-dam]
+  the-credit-union:
+    gloss: "the financial cooperative on the corner"
+    variants: [credit-union, the-credit-union, credit-union-on-the-corner]
+  the-land-trust:
+    gloss: "the community land trust; the ground lease"
+    variants: [land-trust, the-land-trust, burlington-land-trust, ground-lease]
+  the-occupied-factory:
+    gloss: "the Turin factory councils; workers running the machinery"
+    variants: [the-occupied, the-occupied-factory, occupied-factory, occupied-factories]
+  zuccotti-park:
+    gloss: "Occupy; the square reclaimed"
+    binding: true
+    variants: [zuccotti-park]
+  the-caracoles:
+    gloss: "the Zapatista autonomous councils"
+    variants: [the-caracoles, caracoles-councils]
+  the-village-assembly:
+    gloss: "the village governing itself in public"
+    variants: [the-village, the-village-assembly, village-assembly]
+  the-circle:
+    gloss: "the gathering circle — Freire's literacy circle, the fire circle"
+    variants: [the-circle, literacy-circle, the-literacy-circle, the-fire-circle]
+  the-coffee-shop:
+    gloss: "the regulars; the Tuesday couch"
+    variants: [the-coffee-shop, the-couch, the-coffee-shop-couch, the-tuesday-coffee-shop]
+  the-library:
+    gloss: "the public library as commons"
+    variants: [the-library, the-public-library]
+  the-hedgerow:
+    gloss: "the hedgerow at dusk; reciprocity with place"
+    variants: [the-hedgerow, the-hedgerow-at-dusk]
+  the-tenant-association:
+    gloss: "tenants organizing the building"
+    variants: [tenant-association, the-tenant-association]
+
+  # --- system / machine / simulation ---
+  the-machine:
+    gloss: "the extraction machine that finds new outsides"
+    variants: [the-machine, the-extraction-machine]
+  the-operating-system:
+    gloss: "the invisible OS running underneath the visible"
+    variants: [operating-system, the-operating-system, invisible-operating-system]
+  the-interface:
+    gloss: "the board / the form as interface to power"
+    variants: [the-interface, the-board-as-interface]
+  the-screen:
+    gloss: "the phone, the scroll, the app — simulation standing in for the real"
+    variants: [the-screen, the-phone, the-scroll, the-app]
+
+  # --- water / climate / loss ---
+  the-rising-river:
+    gloss: "the Narmada reservoir rising; Roy waist-deep"
+    variants: [the-rising-river, narmada-reservoir, the-narmada]
+  the-typhoon:
+    gloss: "the storm that tests the commons"
+    variants: [the-typhoon, typhoon]
+  the-thinning-snowpack:
+    gloss: "climate loss made local"
+    variants: [the-thinning-snowpack, thinning-snowpack]
+
+  # --- lineage / memory / exile / violence ---
+  the-thread:
+    gloss: "the unbroken thread of builders passed through many hands"
+    binding: true
+    variants: [the-thread, the-unbroken-thread, the-thread-through-many-hands, the-thread-through-hands]
+  the-suitcase:
+    gloss: "Benjamin's lost suitcase; the manuscript that didn't survive"
+    variants: [the-suitcase, the-lost-suitcase, suitcase-sized-drawing]
+  the-foundation-stone:
+    gloss: "the stone laid for what others will finish"
+    variants: [the-foundation-stone, foundation-stone]
+  the-prison-cell:
+    gloss: "Gramsci's cell; the notebooks written under confinement"
+    variants: [the-prison-cell, prison-cell, underground-cell, the-prison-and-exile]
+  the-firing-squad:
+    gloss: "the execution; the revolution's cost"
+    variants: [the-firing-squad, firing-squad]
+  the-plantation:
+    gloss: "plantation governance — domination's template"
+    variants: [the-plantation, plantation-governance]
+
+  # --- the esoteric / wizard register ---
+  the-grimoire:
+    gloss: "the book of spells; the book offered as grimoire not curriculum"
+    variants: [the-grimoire]
+  the-centaur:
+    gloss: "Chiron; the herd of centaurs occupying Wall Street"
+    variants: [centaur, the-centaur, chiron, chiron-the-centaur, herd-of-centaurs]
+  the-wizard:
+    gloss: "the one who can see and name"
+    variants: [the-wizard, the-wizard-who-can-see]
+  the-named-demon:
+    gloss: "the goetia; naming the demon to bind it"
+    variants: [the-named-demon]
+  the-angel:
+    gloss: "Benjamin's angel of history, wings unable to close"
+    binding: true
+    variants: [the-angel, angel-wings-unable-to-close, wings-unable-to-close]
+
+motif:
+  return-migration:
+    gloss: "return after suppression — the herons; the dormant cooperative reviving"
+    binding: true
+    variants: [return-migration, return-after-suppression]
+  defense-of-land:
+    gloss: "the body placed between the land and its destruction"
+    variants: [defense-of-land]
+  demolished-from-outside:
+    gloss: "the neighborhood erased by a decision made elsewhere"
+    variants: [demolished-from-outside, the-city-that-doesnt-hold-people]
+  knowing-in-the-body:
+    gloss: "knowledge held in practice and the body, not the abstraction"
+    variants: [knowing-in-the-body, knowledge-in-the-body]
+  body-without-organs:
+    gloss: "the body slipping its assigned role (Stonewall/trans/Neo)"
+    variants: [body-without-organs, slipping-the-assignment]
+  distillation:
+    gloss: "principles distilled from hundreds of real cases (Ostrom)"
+    variants: [distillation, knowledge-from-cases]
+  proof-before-theory:
+    gloss: "operational, not theoretical — the thing works before it is argued"
+    variants: [proof-before-theory, operational-not-theoretical]
+  making-common-sense:
+    gloss: "war of position — building the new common sense patiently"
+    variants: [making-common-sense, war-of-position]
+  self-governance-in-public:
+    gloss: "the assembly governing itself, in the open"
+    variants: [self-governance-in-public]
+  dissolving-boundary:
+    gloss: "class becoming party; structure dissolved to keep building"
+    variants: [dissolving-boundary, deterritorialization]
+  the-lineage:
+    gloss: "the inheritance passed hand to hand across generations"
+    variants: [the-lineage, the-colony-inside]
+  falling-through-the-gap:
+    gloss: "the person who falls through the gap between categories"
+    variants: [falling-through-the-gap, the-gap-between-categories]
+  trickle-vs-flood:
+    gloss: "wealth that should flood but only trickles; flowing the wrong way"
+    variants: [trickle-vs-flood, wealth-flowing-wrong-way]
+  cannot-verify-from-inside:
+    gloss: "you cannot know from inside what the system does to you"
+    variants: [cannot-verify-from-inside]
+  flowering:
+    gloss: "emergence; the unexpected blossoming of the commons"
+    variants: [flowering, emergence-from-jungle]
+
+affect:
+  indictment:
+    gloss: "naming the crime plainly — 'not hypocrisy, policy'"
+    binding: true
+    variants: [indictment, cold-indictment, structural-indictment]
+  reverence:
+    gloss: "devotional attention to the living and the enduring"
+    binding: true
+    variants: [reverence]
+  disciplined-hope:
+    gloss: "hope that has done the work; not optimism"
+    binding: true
+    variants: [disciplined-hope, grounded-hope, quiet-resolve]
+  defiance:
+    gloss: "the refusal; the line drawn and held"
+    binding: true
+    variants: [defiance]
+  grief:
+    gloss: "mourning a specific, known, lost thing"
+    binding: true
+    variants: [grief]
+  wonder:
+    gloss: "awe and curious delight at the world"
+    variants: [wonder, awe]
+  humility:
+    gloss: "smallness before what one did not make"
+    variants: [humility]
+  vindication:
+    gloss: "the prediction borne out; the long argument proven"
+    variants: [vindication]
+  conviction:
+    gloss: "settled, quiet certainty"
+    variants: [conviction, quiet-conviction, grounded-conviction]
+  clear-eyed:
+    gloss: "cold analytic clarity; seeing the mechanism without flinching"
+    variants: [clear-eyed, cold-clarity, lucid-analysis]
+  tenderness:
+    gloss: "care toward the vulnerable; the soft register"
+    variants: [tenderness]
+  unease:
+    gloss: "dread; the sense something is wrong before it is named"
+    variants: [unease, dread]
+
+practice:
+  # The consciousness practices — the verbs of "how to become a wizard."
+  # This is the INSTRUCTIONAL axis: what the reader is invited to DO, distinct from
+  # affect/ (what the prose feels). NOTE: this family was NOT in the 3-pass Monte Carlo
+  # run, so it carries no agreement/recurrence data yet — it needs its own focused pass.
+  # Provenance tags below: [seed]=Jason's list · [latent]=already surfaced as a motif/affect
+  # and reclassified here · [proposed]=candidate, prune freely.
+
+  becoming-still:
+    gloss: "stilling the body; the pause; quieting enough to perceive"   # [seed]
+    variants: [becoming-still, stilling, the-pause, quieting]
+  naming:
+    gloss: "calling the thing by its true name; the goetia; the spell cast in plain speech"  # [seed] absorbs motif/incantation
+    variants: [naming, incantation, the-spell, true-naming, naming-the-demon]
+  greeting:
+    gloss: "acknowledging the other — the deer, the heron, the neighbor on the walk"  # [seed]
+    variants: [greeting, the-greeting, acknowledgment]
+  welcoming:
+    gloss: "hospitality; making room; the open door; the sidewalk fridge as a gesture"  # [seed]
+    variants: [welcoming, hospitality, making-room]
+  grieving:
+    gloss: "allowing the mourning; grief done on purpose, as practice"   # [seed] (cf. affect/grief = the feeling)
+    variants: [grieving, mourning, letting-the-grief]
+  attending:
+    gloss: "sustained attention; reading the world; noticing what is actually there"  # [latent: motif/reading-the-world]
+    variants: [attending, attention, reading-the-world, reading-the-wreckage, what-carries-through, noticing]
+  holding:
+    gloss: "holding space; bearing the seeing for others; the floor that holds"  # [latent: motif/holding]
+    variants: [holding, holding-space, being-held]
+  descending:
+    gloss: "going down to soul/underworld and returning bearing a gift"  # [latent: motif/descent-and-return]
+    variants: [descending, the-descent, descent-and-return, return-from-underworld, the-heros-return]
+  de-armoring:
+    gloss: "softening; unclenching the jaw; getting up off the floor; laying the armor down"  # [latent: image/the-armor + the-shrug + the-floor]
+    variants: [de-armoring, softening, unclenching, laying-down-armor]
+  blessing:
+    gloss: "benediction; the herons blessed every spring; consecrating the ordinary"  # [proposed]
+    variants: [blessing, benediction, consecrating]
+  witnessing:
+    gloss: "bearing witness; letting oneself be read by the living world"  # [proposed]
+    variants: [witnessing, bearing-witness, being-witnessed]
+  tending:
+    gloss: "cultivating, watering, keeping; the patient care a commons needs"  # [proposed]
+    variants: [tending, cultivating, watering, keeping]
+  gathering:
+    gloss: "convening; forming the circle; calling people into the same room"  # [proposed]
+    variants: [gathering, convening, forming-the-circle]
+  refusing:
+    gloss: "the no; drawing the line and standing on it"  # [proposed] (cf. affect/defiance = the feeling)
+    variants: [refusing, the-refusal, drawing-the-line]
+  remembering:
+    gloss: "keeping the lineage; passing the thread; refusing to let it be forgotten"  # [proposed] (cf. image/the-thread)
+    variants: [remembering, keeping-the-lineage, passing-the-thread]
+  practicing:
+    gloss: "having a practice at all — the meta-discipline: 'the important thing is to practice'"  # [coined 3/3, 5g] the curriculum's self-aware center
+    variants: [practicing, practice, having-a-practice]
+  self-governing:
+    gloss: "running your own work collectively; the council/cooperative governing itself"  # [coined, 7g] (cf. motif removed; this is the reader's verb)
+    variants: [self-governing, self-governance, governing-self]
+  building:
+    gloss: "keep building the alternative in whatever form is available — the war of position"  # [coined, 5g]
+    variants: [building, keep-building]
+  continuing:
+    gloss: "staying in it; the commons verified by continuing, not by winning"  # [coined, 4g] the book's closing move
+    variants: [continuing, persisting, persistence]
+  positioning:
+    gloss: "declaring where you stand so others can calibrate the claim"  # [coined 2/3, 2g] cross-pass convergence (self-locating/positioning)
+    variants: [positioning, self-locating, self-location]
+
+# PRACTICE watch-list — coined once or twice, lovely but local; the full swarm should confirm
+# before promoting to core: conditioning (arranging conditions for connection), guesting (entering
+# another's space as guest), playing, tracking, disciplining-spirit (kokoro), deprogramming.
+
+# DROPPED as concept-shadows (already covered by Tier-1 concept/ tags) — kept for the record:
+#   enclosure-of-the-commons, enclosure-destroys-it  -> concept/enclosure
+#   the-commons                                       -> concept/commons
+#   the-outside, the-frontier, where-accounting-stops -> concept/the-outside / concept/enclosure
