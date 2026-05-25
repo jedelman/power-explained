@@ -8,6 +8,7 @@ tags:
   - voice/jason
   - kind/argument
   - kind/scene
+  - kind/naturalist
   - capacity/hold
   - status/draft
   - concept/the-council

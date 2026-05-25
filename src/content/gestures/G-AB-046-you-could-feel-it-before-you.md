@@ -7,6 +7,7 @@ tags:
   - plateau/P-AB
   - voice/jason
   - kind/scene
+  - kind/naturalist
   - capacity/read
   - status/draft
   - place/washington-state
@@ -15,6 +16,7 @@ tags:
   - image/songbirds
   - emotion/grief
   - emotion/unease
+  - emotion/horror
   - practice/attending
 beauty_check:
   passed: true
