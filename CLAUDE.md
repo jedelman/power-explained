@@ -141,6 +141,33 @@ for different plateaus.
 
 ---
 
+## Sequencing pass (ACTIVE — started 2026-05-25)
+
+A straight-through final read of the whole river in canonical order, gesture
+by gesture: every transition deliberate, every introduction earned, rhyme
+without repeating, voice consistent, prose not tired. Live working notes
+(cross-cutting patterns, per-chapter log, current position, pending proposals):
+**`analysis/sequencing-pass-notes.md`** — read that first to resume.
+
+### Voice contract — pronoun choreography (governs ALL editing, every chapter)
+
+Set by Jason at the book's opening line. The pronouns move with the
+experience; do not flatten them to a single voice:
+
+- **Silent We** — the shared *condition*. No possessive. "Rent went up again
+  this year" (not "Your rent" / "Our rent"). The collective is felt, unspoken.
+- **We** (audible) — the shared *reckoning*. "We did the math."
+- **You** — the *isolating individual act*. "You called the landlord." The
+  system strands you alone the moment you try to act. Keep the You exactly at
+  the lonely beats — it is the wound the book later heals. Do NOT convert it to We.
+- **They / Them** — the *enclosers*, named not addressed. "They said there's
+  nothing they can do." (Landlord, insurer, averaging machine, the city.)
+
+Worked example: G-PR-001 (done). Second-pass sweep: audit every "you"-opener
+and every "your X" condition line in the book against this.
+
+---
+
 ## Session start instructions
 
 **At the start of every session in this repo, load the memory substrate:**
