@@ -8,24 +8,26 @@ tags:
   - voice/jason
   - kind/naturalist
   - kind/scene
-  - status/stub
+  - status/draft
   - image/songbirds
   - practice/attending
   - practice/witnessing
   - emotion/wonder
-  - emotion/awe
 beauty_check:
   passed: false
   notes: |
-    Stub — Jason to write. The crow cloud story must be told in full
-    here before G-RE-011 references it. First-person, sensory, in-the-field.
-    The actual event: watching the mob form, finding the barred owl beneath
-    it, the moment the feeling crossed the species line. This is the
-    experiential proof that earns G-RE-011's retrospective claim.
+    New gesture drawn from interview-5-10.md (Ravenna Park, crow cloud
+    over barred owl). Confirmed by Jason 2026-05-25. Must precede
+    G-RE-011's retrospective reference. Olmsted note: the park was built
+    so the city could hold a forest — not simulate one.
 notes: >
-  Inserted 2026-05-25 between G-RE-010 and G-RE-011. G-RE-011 references
-  the crow cloud as a past watershed moment; the reader cannot fill in
-  "crow cloud" from prior knowledge — most have never seen one. The scene
-  must be told before it is named. Jason's story to write.
+  Body drafted 2026-05-25 from interview-5-10.md verbatim account.
+  Status upgraded from stub to draft on Jason's approval.
 ---
-[Crow cloud — stub. Jason to write.]
+We were in Ravenna Park in Seattle — an Olmsted design, a park built so the city could hold a forest — where we had been going to practice. We do most of our birding by ear.
+
+The crows. We heard them as we always did. But the quality had changed — something excited, agitated, upset in a way I hadn't recognized before. We had been learning to feel what they were feeling, not just to listen and analyze. And what we were feeling was: *something is here.*
+
+We decided to look.
+
+There was a cloud of them — many crows, hanging in trees, swooping and diving and calling, making a sustained ruckus. And at the center of it was an owl. A barred owl. The first owl we had ever seen in daylight.
