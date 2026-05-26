@@ -166,6 +166,25 @@ experience; do not flatten them to a single voice:
 Worked example: G-PR-001 (done). Second-pass sweep: audit every "you"-opener
 and every "your X" condition line in the book against this.
 
+### Wizard lexicon — core concepts in wizard register (governs voice consistency)
+
+The book's vocabulary, consolidated to six with Jason: **`for-agents/wizard-lexicon.md`**.
+The engine: the field is *enclosure ⇄ commons* (the Terrain); *incantation* casts
+subjectivity along it (enchantment / disenchantment); *magic* is the transformative
+capacity of singularities acting on each other (your gift, the land's secret ways) —
+what the averaging machine can't capture. Then the grimoire (tool), the wizard (who
+wields it), initiation (the becoming). Master principle: every concept is a tool
+turned against us that can be taken back — the spell becomes the counter-spell.
+Hold the same register for the same idea in every chapter.
+
+### Front-loaded overture (in draft)
+
+Decision: the book opens with a short wizard-register **overture** before the
+prologue, so the title's promise is alive from page one and the analytical
+chapters read as the disenchanted world the wizard learns to see. Composed from
+existing wizard prose (G-WW-002, G-RE-001/004/005, G-GC-001/002), not invented.
+Current draft + build plan + open calls: **`for-agents/overture-draft.md`**.
+
 ---
 
 ## Session start instructions
