@@ -70,9 +70,39 @@ binding image lands so we can feel the spacing.
 Decisions, edits made, and seams checked, in reading order.
 
 ### P-PR — Prologue: Look Up
-**P-PR COMPLETE. Current position: G-01-012 (next to read).**
+**P-PR COMPLETE.**
 
 ### Chapter 1 — Some Days It Costs Too Much (Part I: The Feeling Is Right)
+**Current position: G-01-019 (next to read).**
+
+- **G-01-018 — DONE.** Passes clean. "I cross Brambleton to get there. The rage
+  and the beauty are not separate." — chapter thesis lands. Triple "same corridor /
+  same decision / same structure" earns it. Close holds: "what was taken and what
+  is still fighting to be there."
+- **G-01-017 — DONE.** "right" → "correct — their plan was calibrated to mitigate
+  complaints from neighbors" — technical validation, not moral; names the institution's
+  actual logic (neighbor management, not ecology). Dropped "burning calories against
+  the wind" — the kinglet image lands cleaner without it.
+- **G-01-016 — DONE.** Dropped "not willows and oaks separately —"; dropped
+  winter leaf-hanging detail (inaccurate — street trees in Norfolk don't hold
+  through winter). Added: "Street trees in Norfolk — some so massive they take
+  over the sidewalk, being gradually replaced by more easily maintained species
+  like crepe myrtle." "constantly" → "regularly"; "takes" → "can, on a good day,
+  take." Crepe myrtle detail names a small ongoing loss inside the beautiful place
+  — keeps the gesture honest.
+- **G-01-015 — DONE.** "But" → "And" — the crossing is continuous with the
+  understanding, not defiant of it.
+- **G-01-014 — DONE.** Passes clean. "Hampton Boulevard doesn't crash. It functions.
+  That's the problem." — inverts G-01-013's "invisible until they crash." Perfect
+  three-sentence indictment.
+- **G-01-013 — DONE.** Passes clean. Gramsci's "common sense" / "operating system"
+  image lands. Seam with G-01-012 ("the natural" → "what's natural") is precise.
+  Gramsci appears in G-PR-029 (lineage) and here (application) — far enough apart,
+  different functions. No repetition concern.
+- **G-01-012 — DONE.** Opener shifted: "It's easy not to see Hampton Boulevard as
+  a choice, and that's not a failure." — drops "People who have only ever lived in
+  Norfolk"; opens with the condition, not the person. Dropped "the way things are"
+  — lands in two beats, not three.
 
 - **G-01-011 — DONE.** Passes clean. Design-constraint/variable inversion is
   precise. "The rage becomes possible" moves beyond G-01-006's rage to
