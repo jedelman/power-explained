@@ -57,7 +57,7 @@ binding image lands so we can feel the spacing.
 Decisions, edits made, and seams checked, in reading order.
 
 ### P-PR — Prologue: Look Up
-**Current position: G-PR-016 (next to read).**
+**P-PR COMPLETE. Current position: beginning of Part I (next chapter in river).**
 
 - **G-PR-001 — DONE.** Applied voice contract + cut the redundant third
   sentence ("every angle / no angle"). Now: "Rent went up again this year.
@@ -66,6 +66,69 @@ Decisions, edits made, and seams checked, in reading order.
   They said there's nothing they can do: costs are up everywhere, they have to
   stay competitive. You know this isn't quite true. You also know there's
   nothing you can do about it."
+- **G-PR-039 — DONE.** Older title "Build and Defend the Commons" → "How to
+  Become a Wizard and Save the World." Colophon otherwise clean.
+- **G-PR-038 — DONE.** Passes clean. "Can't unsee it" familiarity is
+  intentional. Three declarative sentences land well after the long G-PR-036.
+- **G-PR-036 — DONE.** "in Washington State" dropped — nature educators are
+  everywhere. "maneuvering" → "tending." "feel, in their body" → "feel,
+  understand, and remember." "near it and step back" → "in contact with it,
+  and trust." Second paragraph: "trying to do something like that / trying to
+  put you near" → "puts you in contact with the pattern." Three rhetorical
+  questions → "Questions of politics are always questions of consciousness."
+  "if it can" → "if you can take it" — agency shifts to the reader.
+- **G-PR-032 — DONE.** Opener combined into "This book is not a manifesto."
+  — drops throat-clearing label. "Doesn't yet have a framework — and wants one"
+  → "willing to see everything differently to understand it" — reader agency,
+  not just want. "A level below policy" → "goes deeper." "And means them" →
+  "hopes that they answer them for themselves" — reader arrives at their own
+  conclusions.
+- **G-PR-031 — DONE.** Passes clean. Symmetry with G-PR-013 (enclosed →
+  rebuilt) is structural gold. "Composition of singularities" held — jargon
+  is light across the prologue, earns one technical phrase here.
+- **G-PR-030 — DONE.** Passes clean. Roy image + italicized shift are the
+  prologue's strongest analytical moment. "Outside" threads correctly from
+  G-PR-028.
+- **G-PR-029 — DONE.** Gramsci holds — abandoned by the International before
+  he abandoned it. "Without reading any of them" dropped from Zapatistas line —
+  we don't know that, and the connection being real regardless of the reading
+  is the stronger point. "Because the conditions required it" stands.
+- **G-PR-028 — DONE.** Dropped "It is not incidental. It is the point." —
+  "This is the maintenance system." lands harder without the soft landing.
+- **G-PR-027 — DONE.** "documented, operational, scalable governance form" →
+  "a form of governance applied widely and studied thoroughly" — grounded in
+  empirical record, drops jargon.
+- **G-PR-026 — DONE.** "built over" → "demolished" (bulldozed already used in
+  G-PR-003). "Part I" vs "levels" inconsistency flagged but not addressed —
+  Jason's call.
+- **G-PR-025 — DONE.** "in six parts" → "on six levels" — depth and terrain,
+  not sequential sections. Connects to the plateau/river architecture.
+- **G-PR-024 — DONE.** "We'll be getting things wrong" → "We'll make mistakes
+  no one has made before" — novelty and humility simultaneously; names the
+  centaur territory as genuinely new.
+- **G-PR-023 — DONE.** Passes clean. The bunny earns everything. Flagged:
+  centaur undercovered in the book as a whole.
+- **G-PR-022 — DONE.** "the thing doing the enclosing" → "the result of that
+  enclosure" — Claude as product of the system, not its agent; same footing as
+  most readers. Opens path toward reversal rather than indictment.
+- **G-PR-021 — DONE.** "with his words" dropped — sentence earns it. G-PR-020
+  seam resolved: the first unusual thing is the nature/post-Left combination
+  (apparent from content); authorship is the second ("different, related way").
+  Readers familiar with that terrain will pick it up.
+- **G-PR-020 — DONE.** Throat-clearing replaced: "This is an unusual book in
+  a different, related way." — drops "why it matters" scaffolding, opens the
+  authorship block with forward momentum.
+- **G-PR-019 — DONE.** "In large part" hedge stands — book is about more than
+  people (birds, rivers, consciousness). Clean corrective to nostalgia reading.
+- **G-PR-018 — DONE.** Added ", escape it, or evade it" after "push it back" —
+  three modes of resistance (confrontation / exit / evasion). Otherwise clean.
+- **G-PR-016 — DONE.** Sheep/grazing image replaces "farmed cooperatively for
+  generations" (avoided repetition with G-PR-013). "Within a generation in most
+  villages, one or two families owned all of it" replaces passive removal —
+  names the speed and consolidation of dispossession. "Made scarce" dropped.
+  Close: "Made to yield profit rather than sustain life" — echoes world-needs
+  frame from G-PR-012. "your presence" kept (Jason's call). "extracted from"
+  → "for extraction."
 - **G-PR-015 — DONE.** Passes clean. The naming moment — three gestures
   building to this single sentence. Threading holds.
 - **G-PR-014 — DONE.** Passes clean. Three-register naming gesture — academic /
@@ -124,4 +187,6 @@ Decisions, edits made, and seams checked, in reading order.
 
 ## Open questions / flags for Jason
 
-- _(none yet)_
+- **Centaur undercovered.** G-PR-023 names the centaur form and there's a P-CE
+  chapter, but Jason's call: the book doesn't develop it nearly enough. Flag for
+  a dedicated pass or expansion of P-CE after this sequencing pass is complete.

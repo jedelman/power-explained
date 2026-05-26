@@ -12,4 +12,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The book moves in six parts.
+The book moves on six levels.

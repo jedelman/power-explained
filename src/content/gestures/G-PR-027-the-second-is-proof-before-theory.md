@@ -20,4 +20,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The second is proof before theory. Not argument — evidence. The commons is not a romantic idea or a historical relic. It is a documented, operational, scalable governance form. Ten centuries of a water tribunal in Valencia. Worker-owned cooperatives in the Basque country. A land trust in Burlington that has removed hundreds of homes from the speculative market permanently. We show you what works before we explain why.
+The second is proof before theory. Not argument — evidence. The commons is not a romantic idea or a historical relic. It is a form of governance applied widely and studied thoroughly. Ten centuries of a water tribunal in Valencia. Worker-owned cooperatives in the Basque country. A land trust in Burlington that has removed hundreds of homes from the speculative market permanently. We show you what works before we explain why.
