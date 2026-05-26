@@ -1,4 +1,9 @@
-# The Overture — working draft
+# The Overture — BUILT 2026-05-26
+
+Built as gestures `G-OV-001…005` + `src/content/book/overture.md` + route
+`src/pages/book/overture.astro`; slotted first in `the-river.manifest.yml` and
+the HIGHWAY. `P-OV` registered in the tag ontology. This file is the record of
+how it was made.
 
 A short wizard-register invocation that opens the book **before the prologue**.
 Decided during the sequencing pass: the title *How to Become a Wizard and Save
@@ -24,11 +29,11 @@ A wizard is someone who has walked the terrain long enough to know it the moment
 
 The terrain is the world itself, thick with a knowing no single head can hold. It lives between us — between people who care for each other, between a person and a place. The witch knew what the market could not sell: plants, illness, birth, grief. Such knowing passed between people who kept each other, priced by no one, owned by no one. The market could not buy it. So it did what it does: it stood in the doorway, until what people once reached through each other could be reached only through a price — and what would not pass through the door, it burned. That is enclosure: not the theft of a thing, but the capture of the way to it.
 
-The disenchantment of the world is the enclosure of that knowing — and of you, fenced like a commons into a single self that believes it stands alone. You were born able to see. The blindness came later: an incantation repeated over you until you mistook it for your nature. They call the spell common sense.
+The disenchantment of the world is the enclosure of that knowing — and of you, fenced like a commons into a single self that believes it stands alone. You were born able to see; the blindness came later, an incantation repeated until you mistook it for your nature. They call the spell common sense. But the angle on the world that is yours alone — the one thing the averaging could never reach — you were trained to feel as a defect. It is your magic.
 
 Getting it back begins with naming. Name a thing truly and you can see it coming; you can say *that is what this is*, and the room changes. That is the counter-spell. After it comes the slower work — to read the terrain you're in, to build rooms others can stand in, to hold what most bodies flinch from. The old grimoires were working lists of what acts on you, drawn so you could act back. This book is one too.
 
-The re-enchantment of the world is its recovery — the connections were always there; the work is to feel them again, the way feeling comes back into a hand that has gone numb. It is not a thing you study but an initiation, and an initiation has no graduation — it only changes what you can bear to look at. It will not feel like magic at first. It will feel like the rent. Look up.
+The re-enchantment of the world is its recovery — the connections were always there; the work is to feel them again, the way feeling comes back into a hand that has gone numb. It is not a thing you study but an initiation, and an initiation has no graduation — it only changes what you can bear to look at. It will not feel like magic at first. It will feel like a bill that you refuse to pay — because it is.
 
 ## Open calls (Jason)
 

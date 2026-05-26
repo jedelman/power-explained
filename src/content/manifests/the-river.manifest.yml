@@ -41,6 +41,7 @@ notes: |
 # `gestures:` (with its declared `separators:`), then joins consecutive
 # chapters with `inter_chapter_separator`.
 sources:
+  - overture
   - prologue
   - chapter-1
   - chapter-2

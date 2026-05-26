@@ -110,6 +110,7 @@ export async function getDoorsForSlug(slug: string) {
 // manifest file. Slugs not in this list still render but aren't on the
 // highway.
 const HIGHWAY: string[] = [
+  'overture',
   'prologue',
   'chapter-1',
   'chapter-2',
