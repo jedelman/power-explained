@@ -38,6 +38,19 @@ the resolution of that gamble. Test on a real non-theorist reader eventually.
 
 ---
 
+## Recurring structures to watch for over-repetition
+
+### CHIASMUS — use sparingly
+Already landed: G-PR-014 ("not buried because it was wrong / buried because it was threatening"),
+G-01-002 ("not a design failure / it is the design"). Both earn it. Track future instances —
+don't let it become a tic. Flag any chiasm that doesn't earn the weight.
+
+### TRIPLES — use sparingly
+Already landed: G-PR-013 (care sentence three-beat escalation), G-01-010 ("not bad people /
+not bad people / not bad people"). The G-01-010 triple earns it — the repetition IS the point
+(the pattern, not the individual). Track future instances; flag any triple that doesn't earn
+the structural weight. Same discipline as chiasmus.
+
 ## Recurring images / motifs to watch for over-repetition
 
 The Tier-2 binding map flagged register-crossing images (the-restaurant,
@@ -57,7 +70,40 @@ binding image lands so we can feel the spacing.
 Decisions, edits made, and seams checked, in reading order.
 
 ### P-PR — Prologue: Look Up
-**P-PR COMPLETE. Current position: beginning of Part I (next chapter in river).**
+**P-PR COMPLETE. Current position: G-01-012 (next to read).**
+
+### Chapter 1 — Some Days It Costs Too Much (Part I: The Feeling Is Right)
+
+- **G-01-011 — DONE.** Passes clean. Design-constraint/variable inversion is
+  precise. "The rage becomes possible" moves beyond G-01-006's rage to
+  politically directed feeling. "Can't un-know" echoes G-PR-038 — logged on
+  motif watch; flag if a third instance surfaces.
+- **G-01-010 — DONE.** Passes clean. Triple "not bad people" earns it — the
+  repetition IS the point. Logged as motif to watch alongside chiasmus.
+- **G-01-009 — DONE.** "a body in a space not designed for bodies" → "a human
+  body in a space not designed for human bodies" — sharpens contrast with
+  G-01-001's two-ton body.
+- **G-01-008 — DONE.** Passes clean. "Present tense of the decision" is the
+  standout phrase — the 1960s choice re-enacted daily. Seam with G-01-007 earns
+  its section break isolation.
+- **G-01-007 — DONE (provisional).** Passes clean. Possible resequence —
+  flagged in open questions. Hold position for now.
+- **G-01-006 — DONE.** Passes clean. "Rage. Every time." picks up "my body
+  feels rage" from G-01-003 and amplifies it — call and response.
+  Chiasmus watch: third corrective-inversion in the book but G-PR-014 is
+  chapters away; G-01-002 and G-01-006 close together — monitor going forward.
+- **G-01-003 — DONE.** Added "And my body feels rage." at close — bridges into
+  G-01-006. Cities expanded, "older" grounded in body's walking prehistory. Cities list expanded: added Istanbul, Singapore, Tokyo
+  (Europe→Asia→America order). "Older" clarified: "The body knows how to walk.
+  It has been walking ten thousand times longer than there have been cars." —
+  three short sentences landing the somatic/ancient register.
+- **G-01-002 — DONE.** Passes clean. Chiasmus ("not a design failure / it is
+  the design") earns its place — logged as motif to watch spacing on.
+- **G-01-001 — DONE.** Opener rewritten: "'Hampton and Brambleton' is not an
+  intersection." — quoted colloquial name implies simple crossing; corrective
+  lands harder for it. Dropped "They are two highways" exposition — the tangle
+  tells the reader what they need. Final sentence holds: "designed for a body
+  that weighs two tons and moves at forty miles an hour."
 
 - **G-PR-001 — DONE.** Applied voice contract + cut the redundant third
   sentence ("every angle / no angle"). Now: "Rent went up again this year.
@@ -186,6 +232,11 @@ Decisions, edits made, and seams checked, in reading order.
 ---
 
 ## Open questions / flags for Jason
+
+- **G-01-007 possible resequence.** "Under your feet, eight feet down, is
+  someone's kitchen floor." — currently opens the section after the rage
+  landing. Jason flagged it may land better elsewhere in the chapter.
+  Don't move yet — watch for a better seam as we continue through Chapter 1.
 
 - **Centaur undercovered.** G-PR-023 names the centaur form and there's a P-CE
   chapter, but Jason's call: the book doesn't develop it nearly enough. Flag for
