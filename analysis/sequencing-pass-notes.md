@@ -69,6 +69,30 @@ binding image lands so we can feel the spacing.
 
 Decisions, edits made, and seams checked, in reading order.
 
+### P-OV — Overture
+**P-OV COMPLETE.**
+
+Five beats reviewed in full. All pass clean.
+
+- **G-OV-001** — Passes clean. "Knowing stays low, in the hands." Anti-wizard
+  tropes (robe, tower, lamp held above) land as corrective without pedantry.
+  Gandalf register holds throughout.
+- **G-OV-002** — Strongest gesture in the overture. "Not the theft of a thing,
+  but the capture of the way to it" — best single-sentence definition of
+  enclosure in the book. The doorway/burning image is maximum compression.
+- **G-OV-003** — "You" pronoun is intentional: marks the reader as the isolated
+  self the spell has made. Indicates movement from isolated → connected. Voice
+  contract doesn't apply in the same way here — this is wizard-register direct
+  address (wizard to apprentice), not analytical-chapter condition statement.
+  Confirmed by Jason. Keep.
+- **G-OV-004** — Naming as counter-spell; grimoire as working list. Seeds the
+  naming motif that runs through the prologue.
+- **G-OV-005** — Closes the loop from G-OV-002 (price at the door → bill you
+  refuse to pay). Structural gold. Seam into prologue: G-OV-005 closes "a bill
+  that you refuse to pay — because it is" → G-PR-001 opens "Rent went up again
+  this year." The wizard-register promise resolves into material condition on the
+  next breath. Extraordinary.
+
 ### P-PR — Prologue: Look Up
 **P-PR COMPLETE.**
 
