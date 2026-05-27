@@ -287,6 +287,28 @@ Five beats reviewed in full. All pass clean.
 
 ## Open questions / flags for Jason
 
+- **Atlantic City gestures pulled forward (G-01-028 trigger).** G-01-028 names
+  "a neighborhood under a road" — that story was only one sentence in Chapter 1
+  (G-01-007). The full Atlantic City arc (G-02-010, G-02-012, G-02-013, G-02-014,
+  G-02-017) has been moved from Chapter 2 into Chapter 1, inserted after G-01-007
+  and before G-01-008. Build clean (128 pages).
+  **Pending editorial tasks:**
+  - G-02-010 opens "I want to take you to Norfolk, Virginia." — we're already in
+    Norfolk in Chapter 1. This opener needs revision for the new context. Jason
+    to rewrite when we reach it in the pass.
+  - G-02-010 and G-02-014 both have FLAG markers for fact-checking (directional
+    description, home count, institutional footprint). Unresolved; flag on next
+    fact-checking pass.
+  **Chapter 2 callback:** G-02-009 now transitions directly to G-02-019 via a
+  section break (the former Atlantic City section is gone). G-02-025 remains in
+  Chapter 2 as a callback anchor ("The Atlantic City neighborhood was demolished
+  in 1957. The campus that replaced it is still there."). When we reach Chapter 2
+  in the sequencing pass, write a bridge from G-02-009 into G-02-019 that
+  acknowledges the Atlantic City story has already been told and connects it to
+  the neighborhood board capture argument.
+
+
+
 - **G-01-007 possible resequence.** "Under your feet, eight feet down, is
   someone's kitchen floor." — currently opens the section after the rage
   landing. Jason flagged it may land better elsewhere in the chapter.
