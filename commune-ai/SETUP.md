@@ -301,14 +301,46 @@ output is *their* number.
 27.5`. Show the paper loss and the ~marginal-rate benefit. Note in the UI: usable against ordinary
 income only under PAL §469 (real-estate-professional members, or passive income) — don't overstate.
 
-**Federation layer (v3) — design decisions still open before coding:**
-- **Unit of account** for inter-node credit (labor-time vs care-credit vs USD-peg).
-- **Inter-node clearing rule** — implement Keynes/Bancor-style *symmetric* pressure on both
-  chronic-surplus and chronic-deficit nodes (balance-of-payments limits + settlement).
-- **Portable stake mechanics** — how a member's bond/share/credit balance transfers node→node
-  (redemption facility as market-maker of last resort).
-Model a node as the primitive; a federation as `Vec<Node>` + a clearing function over their
-balances. Don't code this until the three parameters above are chosen.
+**Federation layer (v3) — parameters DECIDED (defaults below; all are governance-tunable UI knobs):**
+
+*1. Unit of account — a USD-pegged credit, `1 CC = $1`.* Keep the unit fiat-legible (mortgages,
+trades sales, taxes are all USD) so it clears cleanly across nodes. The commune politics live in
+the **conversion rates, not the unit**:
+- Labor credited on a **compressed schedule**: egalitarian floor for care/community/unskilled work
+  (default 25 CC/hr); specialized work capped at **2× the floor** (50 CC/hr) — never market rate.
+  *Compression ratio is the central political knob: 1:1 = TimeBank/commune end, ∞ = market end.*
+- **Demurrage** on positive balances (default 5%/yr) so credit can't accumulate into capital.
+- **Needs-based** negative limits (overdraft set by recognized need, not collateral).
+
+*2. Inter-node clearing — a Bancor/Keynes symmetric clearing union.* Each node holds a CC clearing
+account at the federation (starts at 0); inter-node trades move CC between accounts. Each node gets
+a **quota** = its annual internal turnover. **Symmetric carrying charges** on imbalance, applied to
+BOTH chronic-surplus and chronic-deficit nodes (so adjustment isn't only the weak node's burden):
+- within ±25% of quota: 0%  ·  beyond ±25%: 1%/yr  ·  beyond ±50%: 2%/yr  ·  beyond ±75%:
+  mandatory settlement/review.
+Surplus nodes are pushed to reinvest into the network (fund the next acquisition); deficit nodes to
+export more or settle. A distress **jubilee valve** mirrors the intra-node needs principle.
+
+*3. Portable stake — three stakes, three transfer rules (node A → B):*
+- **Credit balance (CC):** instantly portable via the clearing union (subject to demurrage).
+- **Member bond:** bought out by the **federation redemption facility** (market-maker of last
+  resort), re-issued at B. Governed against a bank run: 90-day notice, ≤10%/yr of a node's bond
+  stock redeemable, backstopped by the **federation reserve**.
+- **Limited-equity share:** valued by **formula, not market** (original + indexed appreciation +
+  documented improvements, capped); the PPT golden share enforces the formula and blocks flipping.
+- **Standing/reputation:** follows the member and **carries the jubilee** (a depleted season is
+  forgiven — a positive track record, never a punitive credit score).
+
+The **federation reserve** is the linchpin (it backstops redemptions). Funded by: trades solidarity
+contributions (~10% of co-op surplus) + the Bancor imbalance charges (#2) + a slice of each node's
+operating surplus. The parameters interlock: clearing charges (#2) fund the reserve that powers
+portability (#3), all denominated in the unit (#1).
+
+*Model shape:* `Node` is the primitive; `Federation { nodes: Vec<Node>, clearing: ClearingUnion,
+reserve: f64 }`; a `clear(&mut self)` step applies inter-node settlement + carrying charges +
+demurrage each period; `Member::transfer(from, to)` moves CC instantly and queues bond/share
+redemption against the reserve. Expose floor, cap, demurrage rate, quota bands, notice period, and
+redemption cap as UI knobs — letting friends slide the commune↔market dial *is* the tool.
 
 ---
 
