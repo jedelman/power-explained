@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Armed Forces Brewing went out of business six months after it opened.
+Armed Forces Brewing went out of business about a year after it opened.

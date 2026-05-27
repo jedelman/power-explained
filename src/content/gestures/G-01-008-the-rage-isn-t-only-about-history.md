@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The rage isn't only about history. It's about the present tense of the decision, which is the pedestrian infrastructure — or the absence of it.
+My rage isn't only about history. It's about the present tense of the decision, which is the pedestrian infrastructure — or the absence of it.
