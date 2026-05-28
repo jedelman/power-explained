@@ -33,6 +33,6 @@ Barcelona has a peculiar financial position for a major European city: there is 
 
 This is a different shape of wealth. The capital is in the workshops and on the streets, not in trading floors. The vulnerability profile is different. The leverage profile is different too.
 
-What Barcelona has instead, and has built deliberately since the 1992 Olympics, is biopolitical capital. Quality of life. Climate. The walkable city. The food. The reputation. People — and increasingly the global pool of mobile knowledge workers, designers, scientists — want to be in Barcelona. The city commands mind share. The mind share converts into capital without going through a stock exchange.
+What Barcelona has instead, and has built deliberately since the 1992 Olympics, is biopolitical capital. Quality of life. Climate. The walkable city. The plazas built around old trees. The food. The reputation. People — and increasingly the global pool of mobile knowledge workers, designers, scientists — want to be in Barcelona. The city commands mind share. The mind share converts into capital without going through a stock exchange.
 
 This is its own kind of vulnerability — gentrification, tourism strangulation, the housing market pressed by short-term rentals — but it is not the vulnerability of a financialized city. A different power, attached to a different vulnerability, with different room to act.
