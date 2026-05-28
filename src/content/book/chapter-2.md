@@ -38,6 +38,7 @@ gestures:
   - G-IB-008
   - G-IB-009
   - G-IB-011
+  - G-02-027
 separators:
   - paragraph
   - paragraph
@@ -66,4 +67,5 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
 ---
