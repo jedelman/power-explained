@@ -18,4 +18,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-There is a word for the version of this that works: leverage. Participation that has leverage produces outcomes, not records. The tenant association that negotiates directly with the city over building conditions — that's leverage. The community land trust that removes housing from the speculative market permanently — that's leverage. The neighborhood that organized around speed bumps and then kept meeting, so that the next problem they faced they weren't starting from zero — that's leverage accumulating into capacity.
+If you think all you have is your voice, what you're missing is called leverage. A tenant association can call a rent strike — that's leverage. A community land trust uses ownership against the speculative market — that's leverage. An organized neighborhood has the stamina to occupy the city's time and resources, directing them at the problems it needs solved — that's leverage becoming capacity.

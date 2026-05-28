@@ -13,4 +13,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-You spoke. You said something true. You used your three minutes well.
+You spoke. Maybe your voice shook a little — it takes something to stand up in a room like that. You said something true. You used your three minutes well.

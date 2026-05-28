@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The word for this is capture. Not corruption — capture. The city didn't steal your participation. It absorbed it. There's a difference, and the difference matters for understanding what to do about it.
+The word for this is capture. Not corruption — capture. The city didn't steal your participation. It absorbed it — the way healthy soil does with fallen leaves.

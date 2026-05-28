@@ -18,9 +18,11 @@ gestures:
   - G-02-006
   - G-02-007
   - G-02-009
+  - G-02-009a
   - G-02-019
   - G-02-020
   - G-02-021
+  - G-02-021a
   - G-02-022
   - G-02-023
   - G-02-024
@@ -35,6 +37,8 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

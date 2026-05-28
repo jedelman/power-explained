@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The public meeting happened. The community was heard. Everything was legitimate — by your presence, your time, your good-faith participation in a process that was never going to change the outcome. Your effort was real. What happened to it is the question.
+Your effort was real — so what happened to it? Maybe your good-faith participation changed the outcome. Maybe it didn't. But the one thing it reliably produced was legitimacy.

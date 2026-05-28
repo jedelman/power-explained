@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The difference between capture and building is structural, not attitudinal. The people who signed the petition cared. The people who showed up to the hearing were committed. The structure they were engaging with was designed to absorb their energy, not transmit it into change.
+You signed the petition because you cared. You showed up at the hearing because you were committed. The structure you were engaging with was designed to absorb that energy, not multiply it into change.

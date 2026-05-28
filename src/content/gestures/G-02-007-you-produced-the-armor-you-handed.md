@@ -18,6 +18,6 @@ notes: >-
   merging with adjacent gestures is expected on plateau-level revision. [merged G-02-008 on
   2026-05-20]
 ---
-You produced the armor. You handed it to them. You got a parking ticket.
+You produced the armor. You handed it to them. You risked a parking ticket.
 
-This is not cynicism. It is a description of a structural relationship. The system did not deceive you — it ran the process correctly, followed the rules, gave you your three minutes. What it did not tell you, because it did not need to, is that your participation was the raw material it needed and your influence over the outcome was never part of the design.
+The system didn't deceive you. It ran the process correctly and gave you your three minutes. But amongst all the debate and procedure, the function of the system is not to arrive at the correct result. It is to bestow legitimacy on whatever the result is.

@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Ask it of everything: Does engaging with this produce relationships, capacity, knowledge that persist beyond the specific campaign? Does it leave behind something the next person who shows up can inherit? Does it accumulate?
+Ask this of everything: Does this build relationships, capacity, knowledge that persist? Does it leave something the next person can inherit? Do we walk away from this action with something in common that we can build on?
