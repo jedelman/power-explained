@@ -31,7 +31,7 @@ notes: |
   without overclaiming political-refugee status (parents are usually
   characterized as economic migrants).
 ---
-Paris has been doing this too. Anne Hidalgo has been mayor since 2014 — almost exactly Colau's tenure. She has closed the Seine quays to cars. She has pushed the fifteen-minute city, removed parking spaces by the thousand, and built bicycle infrastructure where before there was only traffic. Paris on a Sunday in central arrondissements is recognizably different from Paris a decade ago — the plane trees of the Haussmannian boulevards arching over more pedestrians now, fewer cars.
+Paris has been doing this too. Anne Hidalgo has been mayor since 2014 — almost exactly Colau's tenure. She has closed the Seine quays to cars. She has pushed the fifteen-minute city, removed parking spaces by the thousand, and built bicycle infrastructure where before there was only traffic. Paris on a Sunday in central arrondissements is recognizably different from Paris a decade ago — pedestrians on the Seine quays where the cars used to be.
 
 Hidalgo was born in Spain. Her family came to France from Franco's Spain when she was a child. She knows the lineage. But her position is not Colau's position, and the contrast is the lesson.
 
