@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-In the Ilocos region of the northern Philippines, the typhoons come every year.
+In the Ilocos region of the northern Philippines, the typhoons come every year. Ilocos is north of where my family is from.
