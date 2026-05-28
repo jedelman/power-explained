@@ -1,10 +1,10 @@
 ---
 slug: chapter-2
-title: 'Chapter 2: They''re Sprinkling Us In'
+title: 'Chapter 2: Two Cities'
 description: >-
   You showed up. You spoke. You participated in good faith. The decision went ahead as planned. The
   question is not what went wrong — it's what the system was actually designed to produce.
-h1: They're Sprinkling Us In
+h1: Two Cities
 part: 'Part I: The Feeling Is Right'
 plateau:
   id: P-02
