@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The question this book is trying to answer is not: who is to blame? The question is: what is the machine, how does it work, and what are people actually doing — in specific places, with specific tools, at specific moments — to build something different?
+Plenty of books name what's wrong. Some assign blame. The question here is different: what is the machine, how does it work, and what are people actually doing — in specific places, with specific tools, at specific moments — to build something different?

@@ -18,4 +18,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The night herons nest in the willow oaks on the other side of the Brambleton crossing. They've been coming back every spring for as long as anyone has been watching. They will come back next spring. They know about the road the way that matters: they've routed around it, built a life on the other side of it, refused to let it sever the relationship between this colony and this stand of trees.
+The night herons nest in the willow oaks on the other side of the Brambleton crossing. They've been coming back every spring for as long as anyone has been watching. They will come back next spring. They know about the road the way that matters: they've routed around it, built a life on the other side of it, refused to let it sever the relationship between this colony and this stand of trees. And even if you don't see them, they see you.
