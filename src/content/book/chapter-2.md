@@ -40,12 +40,15 @@ gestures:
   - G-IB-011
   - G-02-027
   - G-02-028
+  - G-02-036
   - G-02-029
   - G-02-030
   - G-02-031
+  - G-02-035
   - G-02-032
   - G-02-033
   - G-02-034
+  - G-02-037
 separators:
   - paragraph
   - paragraph
@@ -75,6 +78,9 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
