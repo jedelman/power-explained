@@ -37,7 +37,7 @@ Franco died in 1975. What followed was not revolution but constitutional design.
 
 The 1978 Spanish Constitution — written by a multi-party commission, ratified in referendum — established a parliamentary monarchy and, crucially, a system of *autonomous communities*. Power was devolved to seventeen regional governments, each with its own statute, parliament, and competencies. Catalonia got its 1979 Statute of Autonomy: control over education, language policy, health, urban planning, much of policing, much of cultural life. Spain became a quasi-federal state, by another name.
 
-This was the institutional opening. A city that had been brutally centralized for forty years now had a regional government that could be its own thing, its own coalition, its own argument with Madrid. The Catalan language returned to schools, signs, and television. The Generalitat — the historic Catalan government, dissolved by Franco in 1939 — was restored in legal form.
+This was the institutional opening. A city that had been dominated and suppressed for forty years now had a regional government that could be its own thing, its own coalition, its own argument with Madrid. The Catalan language returned to schools, signs, and television. The Generalitat — the historic Catalan government, dissolved by Franco in 1939 — was restored in legal form.
 
 The transition wasn't perfect. It preserved much of the Franco-era state apparatus, kept the king the Franco regime had positioned, and gave amnesty to officials who had committed atrocities. Spanish democracy carries this compromise. But the autonomous community structure is real, and Barcelona's twenty-first-century coalitions could only happen in the political space it opened.
 

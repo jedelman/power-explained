@@ -13,4 +13,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-A fish market had just closed. The vendors were still cleaning up — hosing down the stalls, boxing what was left, the smell of the sea fading slowly from the pavement. It was early evening in the Gothic quarter.
+Three years later, in a different city. A fish market had just closed. The vendors were still cleaning up — hosing down the stalls, boxing what was left, the smell of the sea fading slowly from the pavement. It was early evening in the Gothic quarter.
