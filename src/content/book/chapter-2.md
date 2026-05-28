@@ -39,6 +39,9 @@ gestures:
   - G-IB-009
   - G-IB-011
   - G-02-027
+  - G-02-032
+  - G-02-033
+  - G-02-034
 separators:
   - paragraph
   - paragraph
@@ -68,4 +71,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
+  - paragraph
 ---
