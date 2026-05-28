@@ -1,7 +1,7 @@
 ---
 id: G-02-032
 plateau: P-02
-title: Ada Colau and the insurgent coalition
+title: Ada Colau, the singular individual
 slug: ada-colau-was-a-housing-activist
 tags:
   - plateau/P-02
@@ -11,21 +11,28 @@ tags:
   - place/barcelona
   - emotion/conviction
 notes: |
-  Leverage item — the most developed of the five (Colau is "such a significant
-  figure," per Jason's research). Establishes Colau's origin in the PAH
-  housing movement after 2008, the 2014 formation of Barcelona en Comú as a
-  citizen platform rather than a party, the 2015 mayoral win and 2023 narrow
-  loss, and the durable infrastructure (participatory budgets, assembly
-  networks) the coalition built into the city. Recency is doing real work:
-  this is in living memory.
+  Per Jason's redirect: focus on Colau as a singular individual ("lest we
+  get too council communist in here"). The BeC platform work now lives in
+  G-02-031; G-02-032 foregrounds the person — the housing activist who
+  arrived in office carrying the view from the doorways, not the political
+  class's view of itself. The gift the coalition needed: a specific person
+  with a specific lived practice.
 
-  Drafted by Claude from Jason's brief; sources are well-known facts
-  (PAH founding 2009; Barcelona en Comú formed 2014; mayoral terms 2015-2023).
-  Sets up G-02-033 (the deeper antifascist lineage the coalition draws on)
-  and G-02-034 (the Hidalgo/Paris connect-and-contrast).
+  Soft biographical claims: Colau born March 1974 (so "just past forty" in
+  2014 when she ran); arrested at protests as a PAH activist (well
+  documented); never held political office before 2015. Avoided "single
+  mother" framing — she has children with longtime partner Adrià Alemany
+  and the "single" framing would be inaccurate.
+
+  Drafted by Claude; sets up G-02-033 (antifascist lineage as the deep-time
+  check) and G-02-034 (Hidalgo/Paris contrast).
 ---
-Ada Colau was a housing activist before she was a mayor. She helped found the PAH — the Plataforma de Afectados por la Hipoteca, the Platform for People Affected by Mortgages — in the wreckage of the 2008 crisis, when Spanish banks were evicting families they had just sold variable-rate loans to. The PAH did what movements do when the state will not act: it stopped evictions, one at a time, with bodies in doorways and cameras at windows. It did this for years.
+Ada Colau was a housing activist before she was a mayor.
 
-In 2014, the movement built a political vehicle. Barcelona en Comú — Barcelona in Common — was not a party. It was a citizen platform, assembled from neighborhood assemblies, that put activists on a ballot. In 2015, it won the mayoralty. Colau took office, was re-elected in 2019, and lost the seat narrowly in 2023.
+She helped found the PAH — the Plataforma de Afectados por la Hipoteca — in 2009, in the wreckage of the 2008 crisis, when Spanish banks were evicting families they had just sold variable-rate loans to. For five years she organized eviction blockades: stood in doorways, brought cameras, refused to let people be put out. The work made her a public face for an entire sector of dispossessed Spain.
 
-This was not technocratic reform. It was not a clever opposition party. It was a coalition that came from outside the political establishment and took power without first becoming it. Eight years of governing — recent enough that the people who did it are still in the streets. What they built into the city outlasted the mayoralty: the participatory budgets, the assembly networks, the cultural memory of an insurgency that won.
+In 2014, when the coalition formed around her, she ran for mayor. She had never held office. She was just past forty. She had been arrested at protests and bailed out by other activists. She had no political career to protect.
+
+In 2015, she won.
+
+What she brought to office was not the political class's view of itself. It was the view from the doorways. The eight years of her mayoralty — re-elected 2019, narrowly lost 2023 — were governed in the cadence of a person who had done direct work. The participatory budgets, the assembly networks, the housing reforms — these were not technocratic features. They were the practice of someone who had spent years refusing to make peace with the city's structural cruelty, now with the keys to the building.
