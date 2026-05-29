@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-I'm not telling anyone anything when I'm guiding well. I'm maneuvering the conditions — the direction we're facing, the pace we're walking, what I say and what I leave unsaid — so that a connection can happen that I couldn't produce directly. When it works, I'm not sure I did anything. That's the sign it worked.
+The third is *building*. I'm not telling anyone anything when I'm guiding well. I'm maneuvering the conditions — the direction we're facing, the pace we're walking, what I say and what I leave unsaid — so that a connection can happen that I couldn't produce directly. When it works, I'm not sure I did anything. That's the sign it worked.
