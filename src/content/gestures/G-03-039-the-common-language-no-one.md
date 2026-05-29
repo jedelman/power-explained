@@ -16,4 +16,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The *common*. Language — no one produced it, everyone uses it, it becomes richer the more it is shared. Affect — the capacity to care, to trust, to recognize each other as belonging to the same world. Knowledge embedded in practice, in community, in the way people in a place know how to do things together. The social fabric that makes a neighborhood function, that makes a market possible, that makes collective action coherent.
+The *common*. Language — no one produced it, everyone uses it, it becomes richer the more it is shared. Affect — the capacity to care, to trust, to recognize each other as belonging to the same world. Knowledge embedded in practice, in community, in the way people in a place know how to do things together. The social fabric that makes a friendship endure, that makes a restaurant work, that makes a neighborhood function, that makes a market possible, that makes collective action coherent.
