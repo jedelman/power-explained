@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Everyone with a share in the water — an *atar* share, which determines both your water allocation and your labor obligation — is required to show up. The rebuilding takes days. It is heavy communal labor: cutting bamboo, hauling stone, placing the structure against the current, checking the lines. During the reconstruction, a designated officer prepares meals for everyone working.
+The rebuilding is heavy communal labor: cutting bamboo, hauling stone, placing the structure against the current, checking the lines. Everyone with an *atar* — a share of water — is required to show up. More water means more labor, sometimes with multiple households contributing to a share. Meanwhile, a designated officer feeds everyone working.

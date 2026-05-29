@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-This has been running, in this form, since the Spanish colonial period. Possibly longer.
+This form has outlasted the Spanish colonial government that first required it be documented — over 400 years ago.
