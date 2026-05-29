@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-By the time Ostrom was winning the Nobel Prize, the damage had been done on five continents.
+By the time Ostrom was winning the Nobel Prize, the damage had been done on five continents. The work she won it for had been published in 1990.
