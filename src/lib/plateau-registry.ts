@@ -115,6 +115,7 @@ const HIGHWAY: string[] = [
   'chapter-1',
   'chapter-2',
   'chapter-3',
+  'becoming-wizards-in-the-woods',
   'chapter-4',
   'goetia',
   'chapter-5',

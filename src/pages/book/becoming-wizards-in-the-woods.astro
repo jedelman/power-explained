@@ -3,11 +3,13 @@ import Base from '../../layouts/Base.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
 
-const body = composePlateauBody(resolve('src/content/book/interlude-washington.md'))
+const body = composePlateauBody(resolve('src/content/book/becoming-wizards-in-the-woods.md'))
 
 function md(text) {
   return text
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(/_(.+?)_/g, '<em>$1</em>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
     .replace(/^---$/gm, '<hr class="section-break" />')
@@ -15,35 +17,33 @@ function md(text) {
     .map(b => {
       b = b.trim()
       if (!b) return ''
-      if (b.startsWith('<hr')) return b
+      if (b.startsWith('<h') || b.startsWith('<hr')) return b
       return `<p>${b.replace(/\n/g, ' ')}</p>`
     })
     .filter(Boolean)
     .join('\n')
 }
 ---
-<Base title="Interlude: Counter-Hegemony Without the Word — Build and Defend the Commons" description="">
-  <div class="hero interlude-hero">
+<Base title="Becoming Wizards in the Woods" description="Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the lexicon for what just happened.">
+  <div class="hero">
     <div class="hero-inner">
-      <p class="book-nav">
-        <a href="/book">← The Book</a>
-      </p>
-      <p class="book-label">Interlude</p>
-      <h1>Counter-Hegemony Without the Word</h1>
+      <p class="book-nav"><a href="/book">← The Book</a></p>
+      <p class="book-label">Initiation</p>
+      <h1>Becoming Wizards in the Woods</h1>
     </div>
   </div>
 
   <div class="article-wrap">
-    <div class="body-text interlude-body" data-pagefind-body set:html={md(body)} />
+    <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
     <nav class="article-prev-next">
       <div class="prev-next-inner">
         <a href="/book/chapter-3" class="prev-next-link">
           <span class="prev-next-label">← Previous</span>
-          <span class="prev-next-title">Chapter 3: Who Cooks for You and Why</span>
+          <span class="prev-next-title">Chapter 3: The Cook</span>
         </a>
         <a href="/book/chapter-4" class="prev-next-link next-link">
           <span class="prev-next-label">Next →</span>
-          <span class="prev-next-title">Chapter 4: It's Happening Now</span>
+          <span class="prev-next-title">Chapter 4: Nobody Asked Him To</span>
         </a>
       </div>
     </nav>
@@ -51,12 +51,13 @@ function md(text) {
 </Base>
 
 <style>
-  .interlude-hero { background: var(--paper-mid); color: var(--ink); border-bottom: 1px solid var(--rule); }
-  .interlude-hero h1 { color: var(--ink); font-size: clamp(1.5rem,4vw,2.5rem); }
   .book-nav { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem; }
   .book-nav a { color: inherit; text-decoration: none; }
   .book-nav a:hover { color: var(--red); }
-  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); opacity: 0.7; margin-bottom: 0.75rem; }
-  .interlude-body { max-width: 58ch; }
-  .interlude-body :global(hr.section-break) { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
+  .chapter-body :global(hr.section-break) {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0;
+  }
 </style>
