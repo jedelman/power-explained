@@ -1,46 +1,13 @@
 ---
-import Base from '../../layouts/Base.astro'
-import { resolve } from 'path'
-import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
-import { md } from '../../lib/markdown.mjs'
-
-const body = composePlateauBody(resolve('src/content/book/becoming-wizards-in-the-woods.md'))
-
+import ChapterPage from '../../layouts/ChapterPage.astro'
 ---
-<Base title="Becoming Wizards in the Woods" description="Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the lexicon for what just happened.">
-  <div class="hero">
-    <div class="hero-inner">
-      <p class="book-nav"><a href="/book">← The Book</a></p>
-      <p class="book-label">Initiation</p>
-      <h1>Becoming Wizards in the Woods</h1>
-    </div>
-  </div>
-
-  <div class="article-wrap">
-    <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
-    <nav class="article-prev-next">
-      <div class="prev-next-inner">
-        <a href="/book/chapter-3" class="prev-next-link">
-          <span class="prev-next-label">← Previous</span>
-          <span class="prev-next-title">Chapter 3: The Cook</span>
-        </a>
-        <a href="/book/chapter-4" class="prev-next-link next-link">
-          <span class="prev-next-label">Next →</span>
-          <span class="prev-next-title">Chapter 4: Nobody Asked Him To</span>
-        </a>
-      </div>
-    </nav>
-  </div>
-</Base>
-
-<style>
-  .book-nav { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem; }
-  .book-nav a { color: inherit; text-decoration: none; }
-  .book-nav a:hover { color: var(--red); }
-  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
-  .chapter-body :global(hr.section-break) {
-    border: none;
-    border-top: 1px solid var(--rule);
-    margin: 3rem 0;
-  }
-</style>
+<ChapterPage
+  slug="becoming-wizards-in-the-woods"
+  title="Becoming Wizards in the Woods"
+  description="Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the lexicon for what just happened."
+  label="Initiation"
+  h1={`Becoming Wizards in the Woods`}
+  prev={{ href: "/book/chapter-3", title: "Chapter 3: The Cook" }}
+  next={{ href: "/book/chapter-4", title: "Chapter 4: Nobody Asked Him To" }}
+>
+</ChapterPage>

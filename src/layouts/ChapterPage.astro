@@ -1,0 +1,105 @@
+---
+// Shared layout for single-chapter routes in /book (chapter-N, overture,
+// prologue, interludes, initiations, epilogue). One source of truth for the
+// hero, body wrap, and prev/next nav scaffolding every chapter route was
+// repeating in full. Doors / any other mid-page widget goes in the default
+// slot, between body and prev/next.
+//
+// Exceptions: index.astro (book home) and river.astro (whole-book stream)
+// have different shapes and do NOT use this layout.
+
+import Base from './Base.astro'
+import { resolve } from 'path'
+import { composePlateauBody } from '../lib/composePlateauBody.mjs'
+import { md } from '../lib/markdown.mjs'
+
+export interface NavLink {
+  href: string
+  title: string
+  label?: string
+}
+
+export interface Props {
+  slug: string
+  title: string
+  description: string
+  label: string
+  h1: string
+  part?: string
+  prev?: NavLink
+  next?: NavLink
+  bodyClass?: 'chapter-body' | 'prologue-body'
+}
+
+const {
+  slug, title, description, label, h1, part, prev, next,
+  bodyClass = 'chapter-body',
+} = Astro.props
+
+const body = composePlateauBody(resolve(`src/content/book/${slug}.md`))
+---
+<Base title={title} description={description}>
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="book-nav">
+        <a href="/book">← The Book</a>
+        {part && <Fragment><span class="book-nav-sep">·</span><span>{part}</span></Fragment>}
+      </p>
+      <p class="book-label">{label}</p>
+      <h1 set:html={h1} />
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <div class={`body-text ${bodyClass}`} data-pagefind-body set:html={md(body)} />
+
+    <slot />
+
+    {(prev || next) && (
+      <nav class="article-prev-next">
+        <div class="prev-next-inner">
+          {prev ? (
+            <a href={prev.href} class="prev-next-link">
+              <span class="prev-next-label">{prev.label ?? '← Previous'}</span>
+              <span class="prev-next-title">{prev.title}</span>
+            </a>
+          ) : <span />}
+          {next ? (
+            <a href={next.href} class="prev-next-link next-link">
+              <span class="prev-next-label">{next.label ?? 'Next →'}</span>
+              <span class="prev-next-title">{next.title}</span>
+            </a>
+          ) : <span />}
+        </div>
+      </nav>
+    )}
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+  .book-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .chapter-body :global(hr.section-break),
+  .prologue-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .chapter-body :global(.chapter-coda) {
+    font-family: var(--mono); font-size: 0.8rem; line-height: 1.7;
+    color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem;
+    padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px;
+    background: var(--paper-mid);
+  }
+  .prologue-body :global(p:first-child) {
+    font-size: 1.05rem;
+  }
+</style>

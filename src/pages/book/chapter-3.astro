@@ -1,46 +1,14 @@
 ---
-import Base from '../../layouts/Base.astro'
-import { resolve } from 'path'
-import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
-import { md } from '../../lib/markdown.mjs'
-
-const body = composePlateauBody(resolve('src/content/book/chapter-3.md'))
-
+import ChapterPage from '../../layouts/ChapterPage.astro'
 ---
-<Base title="Chapter 3: The Cook" description="In the northern Philippines, a governance structure writes feeding each other into law. In Norfolk, a Filipino cook is running the same practice a thousand years later.">
-  <div class="hero">
-    <div class="hero-inner">
-      <p class="book-nav">
-        <a href="/book">← The Book</a>
-        <span class="book-nav-sep">·</span>
-        <span>Part II: The Proof</span>
-      </p>
-      <p class="book-label">Chapter 3</p>
-      <h1>The Cook</h1>
-    </div>
-  </div>
-  <div class="article-wrap">
-    <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
-    <nav class="article-prev-next">
-      <div class="prev-next-inner">
-        <a href="/book/chapter-2" class="prev-next-link">
-          <span class="prev-next-label">← Previous</span>
-          <span class="prev-next-title">Chapter 2: Two Cities</span>
-        </a>
-        <a href="/book/becoming-wizards-in-the-woods" class="prev-next-link next-link">
-          <span class="prev-next-label">Next →</span>
-          <span class="prev-next-title">Becoming Wizards in the Woods</span>
-        </a>
-      </div>
-    </nav>
-  </div>
-</Base>
-<style>
-  .book-nav { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem; display: flex; gap: 0.5rem; align-items: center; }
-  .book-nav a { color: inherit; text-decoration: none; }
-  .book-nav a:hover { color: var(--red); }
-  .book-nav-sep { opacity: 0.4; }
-  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
-  .chapter-body :global(hr.section-break) { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
-  .chapter-body :global(.chapter-coda) { font-family: var(--mono); font-size: 0.8rem; line-height: 1.7; color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
-</style>
+<ChapterPage
+  slug="chapter-3"
+  title="Chapter 3: The Cook"
+  description="In the northern Philippines, a governance structure writes feeding each other into law. In Norfolk, a Filipino cook is running the same practice a thousand years later."
+  label="Chapter 3"
+  h1={`The Cook`}
+  part="Part II: The Proof"
+  prev={{ href: "/book/chapter-2", title: "Chapter 2: Two Cities" }}
+  next={{ href: "/book/becoming-wizards-in-the-woods", title: "Becoming Wizards in the Woods" }}
+>
+</ChapterPage>

@@ -1,53 +1,16 @@
 ---
-import Base from '../../layouts/Base.astro'
+import ChapterPage from '../../layouts/ChapterPage.astro'
 import Doors from '../../components/Doors.astro'
-import { resolve } from 'path'
-import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
-import { md } from '../../lib/markdown.mjs'
-
-// Body is composed from the gesture manifest declared in chapter-4.md.
-// Single source of truth for composition logic: src/lib/composePlateauBody.mjs.
-// Legacy chapters (no gestures: list) fall through to their inline body.
-const body = composePlateauBody(resolve('src/content/book/chapter-4.md'))
-
 ---
-<Base title="Chapter 4: Nobody Asked Him To" description="Arizmendi on his bike. Eight farmers in black blouses. A fridge on a Brooklyn sidewalk. The commons is present tense.">
-  <div class="hero">
-    <div class="hero-inner">
-      <p class="book-nav">
-        <a href="/book">← The Book</a>
-        <span class="book-nav-sep">·</span>
-        <span>Part II: The Proof</span>
-      </p>
-      <p class="book-label">Chapter 4</p>
-      <h1>Nobody Asked Him To</h1>
-    </div>
-  </div>
-  <div class="article-wrap">
-    <div class="body-text chapter-body" data-pagefind-body set:html={md(body)} />
-
-    <Doors slug="chapter-4" />
-
-    <nav class="article-prev-next">
-      <div class="prev-next-inner">
-        <a href="/book/becoming-wizards-in-the-woods" class="prev-next-link">
-          <span class="prev-next-label">← Previous on the highway</span>
-          <span class="prev-next-title">Becoming Wizards in the Woods</span>
-        </a>
-        <a href="/book/chapter-5" class="prev-next-link next-link">
-          <span class="prev-next-label">Highway forward →</span>
-          <span class="prev-next-title">Chapter 5: The Outside</span>
-        </a>
-      </div>
-    </nav>
-  </div>
-</Base>
-<style>
-  .book-nav { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem; display: flex; gap: 0.5rem; align-items: center; }
-  .book-nav a { color: inherit; text-decoration: none; }
-  .book-nav a:hover { color: var(--red); }
-  .book-nav-sep { opacity: 0.4; }
-  .book-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem; }
-  .chapter-body :global(hr.section-break) { border: none; border-top: 1px solid var(--rule); margin: 3rem 0; }
-  .chapter-body :global(.chapter-coda) { font-family: var(--mono); font-size: 0.8rem; line-height: 1.7; color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
-</style>
+<ChapterPage
+  slug="chapter-4"
+  title="Chapter 4: Nobody Asked Him To"
+  description="Arizmendi on his bike. Eight farmers in black blouses. A fridge on a Brooklyn sidewalk. The commons is present tense."
+  label="Chapter 4"
+  h1={`Nobody Asked Him To`}
+  part="Part II: The Proof"
+  prev={{ href: "/book/becoming-wizards-in-the-woods", title: "Becoming Wizards in the Woods", label: "← Previous on the highway" }}
+  next={{ href: "/book/chapter-5", title: "Chapter 5: The Outside", label: "Highway forward →" }}
+>
+  <Doors slug="chapter-4" />
+</ChapterPage>
