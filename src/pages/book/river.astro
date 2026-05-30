@@ -4,6 +4,7 @@ import fs from 'node:fs'
 import { resolve } from 'path'
 import yaml from 'js-yaml'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
 
 const RIVER = yaml.load(
   fs.readFileSync(resolve('src/content/manifests/the-river.manifest.yml'), 'utf8'),
@@ -46,27 +47,6 @@ for (const c of chapters) {
   }
 }
 
-function md(text) {
-  return text
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/_(.+?)_/g, '<em>$1</em>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/^---$/gm, '<hr class="section-break" />')
-    .split(/\n\n+/)
-    .map(b => {
-      b = b.trim()
-      if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
-      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**')) {
-        return `<p class="chapter-coda">${b.slice(1, -1)}</p>`
-      }
-      return `<p>${b.replace(/\n/g, ' ')}</p>`
-    })
-    .filter(Boolean)
-    .join('\n')
-}
 ---
 <Base
   title="The River — Power Explained"

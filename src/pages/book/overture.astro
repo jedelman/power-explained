@@ -2,28 +2,9 @@
 import Base from '../../layouts/Base.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
 
-// Parse the overture markdown manually — it's not in the content collection
 const body = composePlateauBody(resolve('src/content/book/overture.md'))
-
-// Basic markdown → html for the overture
-function md(text) {
-  return text
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.+?)\*/g, '<em>$1</em>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/^---$/gm, '<hr class="section-break" />')
-    .split(/\n\n+/)
-    .map(b => {
-      b = b.trim()
-      if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
-      return `<p>${b.replace(/\n/g, ' ')}</p>`
-    })
-    .filter(Boolean)
-    .join('\n')
-}
 ---
 <Base title="How to Become a Wizard and Save the World" description="What a wizard is, what the enclosure took, and the craft of getting it back. The register before the world.">
   <div class="hero">

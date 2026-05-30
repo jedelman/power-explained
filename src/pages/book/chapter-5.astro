@@ -2,28 +2,10 @@
 import Base from '../../layouts/Base.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
 
 const body = composePlateauBody(resolve('src/content/book/chapter-5.md'))
 
-function md(text) {
-  return text
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/_(.+?)_/g, '<em>$1</em>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/^---$/gm, '<hr class="section-break" />')
-    .split(/\n\n+/)
-    .map(b => {
-      b = b.trim()
-      if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
-      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**'))
-        return `<p class="chapter-coda">${b.slice(1,-1)}</p>`
-      return `<p>${b.replace(/\n/g, ' ')}</p>`
-    })
-    .filter(Boolean)
-    .join('\n')
-}
 ---
 <Base title="Chapter 5: The Smile" description="The machine needs a frontier. Rosa Luxemburg found it in the colonies. Alexandra Kollontai found it in the kitchen. Two outsides, one structural logic.">
   <div class="hero">

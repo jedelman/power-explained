@@ -2,27 +2,9 @@
 import Base from '../../layouts/Base.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
 
-// Parse the prologue markdown manually — it's not in the content collection
 const body = composePlateauBody(resolve('src/content/book/prologue.md'))
-
-// Basic markdown → html for the prologue
-function md(text) {
-  return text
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/^---$/gm, '<hr class="section-break" />')
-    .split(/\n\n+/)
-    .map(b => {
-      b = b.trim()
-      if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
-      return `<p>${b.replace(/\n/g, ' ')}</p>`
-    })
-    .filter(Boolean)
-    .join('\n')
-}
 ---
 <Base title="Prologue: Look Up" description="What connects the rent that keeps going up, the highway that cut the neighborhood in half, the hospital bill, the platform. There is one pattern.">
   <div class="hero">

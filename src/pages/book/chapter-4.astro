@@ -3,31 +3,13 @@ import Base from '../../layouts/Base.astro'
 import Doors from '../../components/Doors.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
 
 // Body is composed from the gesture manifest declared in chapter-4.md.
 // Single source of truth for composition logic: src/lib/composePlateauBody.mjs.
 // Legacy chapters (no gestures: list) fall through to their inline body.
 const body = composePlateauBody(resolve('src/content/book/chapter-4.md'))
 
-function md(text) {
-  return text
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/_(.+?)_/g, '<em>$1</em>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/^---$/gm, '<hr class="section-break" />')
-    .split(/\n\n+/)
-    .map(b => {
-      b = b.trim()
-      if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
-      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**'))
-        return `<p class="chapter-coda">${b.slice(1,-1)}</p>`
-      return `<p>${b.replace(/\n/g, ' ')}</p>`
-    })
-    .filter(Boolean)
-    .join('\n')
-}
 ---
 <Base title="Chapter 4: Nobody Asked Him To" description="Arizmendi on his bike. Eight farmers in black blouses. A fridge on a Brooklyn sidewalk. The commons is present tense.">
   <div class="hero">

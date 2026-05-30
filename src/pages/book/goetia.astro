@@ -3,30 +3,12 @@ import Base from '../../layouts/Base.astro'
 import Doors from '../../components/Doors.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
 
 // Body is composed from the gesture manifest declared in goetia.md.
 // Single source of truth for composition logic: src/lib/composePlateauBody.mjs.
 const body = composePlateauBody(resolve('src/content/book/goetia.md'))
 
-function md(text) {
-  return text
-    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/_(.+?)_/g, '<em>$1</em>')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/^---$/gm, '<hr class="section-break" />')
-    .split(/\n\n+/)
-    .map(b => {
-      b = b.trim()
-      if (!b) return ''
-      if (b.startsWith('<h') || b.startsWith('<hr')) return b
-      if (b.startsWith('*') && b.endsWith('*') && !b.startsWith('**'))
-        return `<p class="chapter-coda">${b.slice(1,-1)}</p>`
-      return `<p>${b.replace(/\n/g, ' ')}</p>`
-    })
-    .filter(Boolean)
-    .join('\n')
-}
 ---
 <Base title="The Goetia of Capital" description="On naming what you're up against — and why the name is the first move.">
   <div class="hero">
