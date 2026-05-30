@@ -7,8 +7,8 @@ plateau:
   status: draft
 gestures:
   - G-IW-001
-  - G-IW-002
   - G-IW-003
+  - G-IW-002
   - G-IW-004
   - G-IW-005
   - G-IW-006
