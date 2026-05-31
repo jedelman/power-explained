@@ -30,6 +30,7 @@ gestures:
   - G-IW-025
   - G-IW-026
   - G-IW-027
+  - G-IW-027a
   - G-IW-018
   - G-IW-030
   - G-IW-031
@@ -48,6 +49,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
@@ -83,7 +85,7 @@ notes: |
     III — The Wizard's Craft / Four Capacities (G-IW-011, 012, 013, 014, 029)
     [section break]
     IV — The Lexicon Reveals (G-IW-028 intro, 022 Terrain, 023 Incantation,
-         024 Magic, 025 Grimoire, 026 Wizard, 027 Initiation)
+         024 Magic, 025 Spellbook, 026 Wizard, 027 Initiation, 027a Map)
     [section break]
     V  — Patient Work + First Practice + Hand-off (G-IW-018, 030, 031)
 ---

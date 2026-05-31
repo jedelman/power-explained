@@ -137,7 +137,7 @@ doors:
   - to: P-RE
     prompt: The world the walking can hear again — the herons, the muskrat, the Far Outside the walker stands
   - to: P-GC
-    prompt: The names you walk with — the grimoire, production of subjectivity, the practice of naming
+    prompt: The names you walk with — the spellbook, production of subjectivity, the practice of naming
   - to: P-04
     prompt: The clearing where the building happens — Mondragón, auzolan, the unauthorized builders
   - to: P-18
