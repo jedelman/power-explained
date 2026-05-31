@@ -35,7 +35,3 @@ notes: |
   of pre-refactor prose.
 ---
 The organizing continued. Chokwe Antar Lumumba lost the April 2014 special election. He ran again in 2017 and won. He served two terms as mayor of Jackson. He was indicted in 2024 on corruption charges that he disputes; in 2025 he lost the Democratic primary to John Horhn. The work has not been seamless. Power in Jackson has not stayed with the Lumumba family or the Malcolm X Grassroots Movement.
-
-But Cooperation Jackson, the organization, has continued through all of it. Its cooperatives are deliberately small: landscaping, organic farming, a community production center with 3D printing facilities and a small fabrication shop, a childcare cooperative. Production linked to cooperative finance, to cooperative education, to community land — held together by people's assemblies and years of political organizing.
-
-What Cooperation Jackson proves is not size. It is method — building from the most marginalized, rooted in Black liberation history, patient about the timeline. The work continues when the person who carried the vision dies, when individual political careers do not.
