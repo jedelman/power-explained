@@ -1,29 +1,36 @@
 ---
 slug: wizards-walk
-title: "The Wizard's Walk"
-h1: "The Wizard's Walk"
-part: "Part VI: What to Build"
+title: The Wizard's Walk
+description: The reader takes the walk. The six capacities gathered into one motion. The crossing from seeker to guide. The work named — psychic architecture, ethically fraught, done anyway. The quest handed back.
+h1: The Wizard's Walk
+label: Initiation
+part: Part VI — What to Build
 type: initiation
-description: >-
-  The reader takes the walk. The six capacities gathered into one motion.
-  The crossing from seeker to guide. The work named — psychic architecture,
-  ethically fraught, done anyway. The quest handed back: one thing, in one
-  place, that only you can do. Come find us.
 order: 18.5
-
 plateau:
   id: P-WW
   status: draft
-
 map:
   zone: the_wizards_cottage
-  position: [50, 48]   # PLACEHOLDER — Jason to confirm territory coordinate
-  visible_from: [P-AB, P-OA, P-RE, P-GC, P-04, P-18, P-EP]
-
+  position:
+    - 50
+    - 48
+  visible_from:
+    - P-AB
+    - P-OA
+    - P-RE
+    - P-GC
+    - P-04
+    - P-18
+    - P-EP
 capacities:
   primary: CONTINUE
-  secondary: [NAME, READ, BUILD, HOLD, ENTER]
-
+  secondary:
+    - NAME
+    - READ
+    - BUILD
+    - HOLD
+    - ENTER
 direction:
   seat: E
   gestures_toward: SE
@@ -45,7 +52,6 @@ direction:
     downpour", the things not deployed (the tea room, the nature school),
     the packing up and moving on — is the wheel rolling honestly through
     the grief of the hard version before the chapter lifts back to E.
-
   wheel_note: |
     The wheel rolls through. NE opens (praise — you have walked).
     N visits briefly (naming the wizard's work, psychic architecture,
@@ -53,15 +59,13 @@ direction:
     capacities gathered). NW touches (the restaurant downpour, what
     wasn't deployed, packing up). E returns (yours; ours; come find
     us). SE points (the quest, the next walker, the dawn).
-
   active_at_intensity:
-    - E    # the seat — the council, the crossing, the cottage
-    - SE   # the axial gesture — the quest, the next walker
-    - NE   # opening: praise, the body that has walked
-    - N    # the naming: psychic architecture, the ethics, the work
-    - NW   # the restaurant downpour, what wasn't deployed
-    - S    # the quest's body: local, bodily, only-you
-
+    - E
+    - SE
+    - NE
+    - 'N'
+    - NW
+    - S
 territory:
   feature: |
     The wizards'-cottage clearing on the territory — the place where
@@ -83,7 +87,6 @@ territory:
     - Martín Prechtel — the descent requires a community that knows how to receive the one who returns
     - Bill Plotkin, *Soulcraft* — the soul's gift is not for the soul that carries it
     - Subcomandante Marcos / Subcomandante Moisés — *preguntando caminamos*, asking we walk
-
 metaphor:
   choice: |
     The walk. Not the path (which suggests a destination), not the
@@ -104,7 +107,6 @@ metaphor:
     the readers-of-the-wreckage (P-AB), and the namers (P-GC). The
     walk is the verb form of all of them. No costume; the walker's
     face is the walker's face.
-
 nagual:
   blind_spot_at_entry: |
     The reader who has walked this far is in danger of two opposite
@@ -127,7 +129,6 @@ nagual:
     inspirational reading. Never lecture them about ethics or
     discipline; show the work being done, costs included, and trust
     them to recognize whether they want to do it.
-
 doors:
   - to: P-AB
     prompt: Back to the council that holds the seeing — the triplet, the perceptual commons, the back-line
@@ -143,7 +144,6 @@ doors:
     prompt: Back to the herd that occupied Wall Street and learned what the commons needs — what to build, named
   - to: P-EP
     prompt: Forward to the doves, the herons, the meadow not cut — what the walker pays attention to once the held thing has loosened
-
 beauty_check:
   status: jason-revision-pass-1-2026-05-23
   notes: |
@@ -222,7 +222,6 @@ beauty_check:
         The chapter's center of gravity is the crossing scene and the
         come-find-us close — both E — but the chapter's whole purpose
         is the SE hand-off; this is genuinely an E-SE axis chapter.
-
   fact_check_status: |
     PENDING. Items to verify at beauty-pass time:
     ✅ standard references that are safe (book-internal):
@@ -250,7 +249,6 @@ beauty_check:
         words on the weight lifting, polishing glasses
       - the cyberpunk vision (G-WW-026) — Jason's first-person, no
         Claude expansion or aestheticization
-
   direction_check: |
     Seats E (the council, the cottage, the crossing scene, the come-
     find-us terminus). Gestures SE (the quest, the next walker, the
@@ -260,85 +258,81 @@ beauty_check:
     weight — is touched by the quest-hand-off gestures but not seated;
     that work belongs to the reader's life beyond the page, which is
     the point.
-
 sources:
   inbox:
-    - WW-01-the-sentence       # ✓ ANSWERED — woven into G-WW-012 / 013 / 014 / 015 / 016 (the crossing)
-    - WW-02-psychic-architecture  # ✓ ANSWERED — woven into G-WW-017 / 018 / 019 (the naming + the ethics) and G-WW-020 / 021 / 022 / 023 (easy / hard / canopy / downpour)
-    - WW-03-your-quest         # ✓ ANSWERED — Jason's cyberpunk vision woven into G-WW-026 (mine); G-WW-027 / 028 / 029 frame yours
+    - WW-01-the-sentence
+    - WW-02-psychic-architecture
+    - WW-03-your-quest
   conversations:
-    - 2026-05-10-wizard-book-architecture-map      # P-WW assigned all six capacities, reader's quest, pre-Epilogue
-    - 2026-05-18-wizard-book-final-architecture    # the book's posture, "come find us" terminus, the next walker
-    - 2026-05-23-initiations-beauty-pass-and-p-ab-extraction  # top-of-list flag: draft Wizard's Walk next, parallel writing
-    - 2026-05-20-wizard-orgone-accumulator-drafted # the gesture pattern used here (Jason-voice spine, Claude scaffolding)
-
+    - 2026-05-10-wizard-book-architecture-map
+    - 2026-05-18-wizard-book-final-architecture
+    - 2026-05-23-initiations-beauty-pass-and-p-ab-extraction
+    - 2026-05-20-wizard-orgone-accumulator-drafted
 gestures:
-  - G-WW-001     # praise: you have walked
-  - G-WW-002     # what the wizard actually is — plain naming
-  - G-WW-003     # the triplet recalled — angel / council / wizard
-  - G-WW-004     # NAME — recall from the goetia
-  - G-WW-005     # READ — recall from the angel
-  - G-WW-006     # BUILD — recall from the clearings
-  - G-WW-007     # HOLD — recall from the orgone
-  - G-WW-008     # ENTER — recall from the re-enchanting
-  - G-WW-009     # CONTINUE — the sixth, the walk itself
-  - G-WW-010     # the six become one motion
-  - G-WW-011     # there is a day you realize you have crossed
-  - G-WW-012     # the scene: after hours, regulars and staff
-  - G-WW-013     # the conversation about natural wine
-  - G-WW-014     # the student's interruption, the sentence (verbatim)
-  - G-WW-015     # what it felt like — the weight off, kept polishing
-  - G-WW-016     # naming what crossed — seeker to guide
-  - G-WW-017     # what the wizard is doing — psychic architecture
-  - G-WW-018     # ethically fraught — the consent paradox
-  - G-WW-019     # community as the partial answer
-  - G-WW-020     # easy mode — the woods, frame established
-  - G-WW-021     # hard mode — pitching a tent in a downpour
-  - G-WW-022     # the canopy — what wasn't deployed (tea room, nature school)
-  - G-WW-023     # the downpour continues — packing up, moving on
-  - G-WW-024     # the chapter hands the quest back
-  - G-WW-025     # what a quest is — local, bodily, only-you
-  - G-WW-026     # mine — the cyberpunk vision (Jason verbatim)
-  - G-WW-027     # yours — what will not happen if you don't show up
-  - G-WW-028     # scale doesn't matter — the room, the hedgerow, the kid
-  - G-WW-029     # the path doesn't end — no station last
-  - G-WW-030     # come find us — literal and metaphorical
-  - G-WW-031     # how you find us — by becoming able
-  - G-WW-032     # the close — carry it as you walk
-
+  - G-WW-001
+  - G-WW-002
+  - G-WW-003
+  - G-WW-004
+  - G-WW-005
+  - G-WW-006
+  - G-WW-007
+  - G-WW-008
+  - G-WW-009
+  - G-WW-010
+  - G-WW-011
+  - G-WW-012
+  - G-WW-013
+  - G-WW-014
+  - G-WW-015
+  - G-WW-016
+  - G-WW-017
+  - G-WW-018
+  - G-WW-019
+  - G-WW-020
+  - G-WW-021
+  - G-WW-022
+  - G-WW-023
+  - G-WW-024
+  - G-WW-025
+  - G-WW-026
+  - G-WW-027
+  - G-WW-028
+  - G-WW-029
+  - G-WW-030
+  - G-WW-031
+  - G-WW-032
 separators:
-  - paragraph   # 001  -> 002
-  - paragraph   # 002  -> 003
-  - section     # 003  -> 004
-  - paragraph   # 004  -> 005
-  - paragraph   # 005  -> 006
-  - paragraph   # 006  -> 007
-  - paragraph   # 007  -> 008
-  - paragraph   # 008  -> 009
-  - paragraph   # 009  -> 010
-  - section     # 010  -> 011
-  - paragraph   # 011  -> 012
-  - paragraph   # 012  -> 013
-  - paragraph   # 013  -> 014
-  - paragraph   # 014  -> 015
-  - paragraph   # 015  -> 016
-  - section     # 016  -> 017
-  - paragraph   # 017  -> 018
-  - paragraph   # 018  -> 019
-  - section     # 019  -> 020
-  - paragraph   # 020  -> 021
-  - paragraph   # 021  -> 022
-  - paragraph   # 022  -> 023
-  - section     # 023  -> 024
-  - paragraph   # 024  -> 025
-  - paragraph   # 025  -> 026
-  - paragraph   # 026  -> 027
-  - paragraph   # 027  -> 028
-  - section     # 028  -> 029
-  - paragraph   # 029  -> 030
-  - paragraph   # 030  -> 031
-  - paragraph   # 031  -> 032
-
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
 notes: |
   The Wizard's Walk (P-WW). All six capacities, the reader's quest,
   pre-Epilogue. Drafted 2026-05-23 from the three answered WW inbox

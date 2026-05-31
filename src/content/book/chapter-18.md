@@ -1,11 +1,9 @@
 ---
 slug: chapter-18
 title: 'Chapter 18: You Wonderful Weird Birds'
-description: >-
-  A herd of centaurs occupied Wall Street in 2011 and discovered what the commons needs to govern
-  itself. Ostrom's pattern language. Hardt and Negri's multitude. Deleuze's desiring production.
-  Prechtel's Flowering Earth. The answer to how: with each other, you wonderful weird birds.
+description: Elinor Ostrom spent thirty years documenting what makes commons governance work. The answer isn't theory — it's the room, at seven-fifteen, with eleven people and an unread agenda.
 h1: You Wonderful Weird Birds
+label: Chapter 18
 part: 'Part VI: What to Build'
 plateau:
   id: P-18

@@ -1,10 +1,10 @@
 ---
 slug: overture
-title: Overture
-description: >-
-  Before the world, the register. What a wizard is, what the enclosure took,
-  and the craft of getting it back.
+title: How to Become a Wizard and Save the World
+description: What a wizard is, what the enclosure took, and the craft of getting it back. The register before the world.
 h1: How to Become a Wizard and Save the World
+label: Overture
+bodyClass: prologue-body
 plateau:
   id: P-OV
   status: draft

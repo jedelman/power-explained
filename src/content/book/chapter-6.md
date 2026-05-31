@@ -1,10 +1,9 @@
 ---
 slug: chapter-6
 title: 'Chapter 6: The Shrug'
-description: >-
-  Cedric Robinson showed that capitalism was never color-blind. Walter Rodney showed that
-  underdevelopment was something done. Two arguments that change what you look for.
+description: Cedric Robinson showed that capitalism was never color-blind. Walter Rodney showed that underdevelopment was something done. Two arguments that change what you look for.
 h1: The Shrug
+label: Chapter 6
 part: 'Part III: Why the System Is the Way It Is'
 plateau:
   id: P-06

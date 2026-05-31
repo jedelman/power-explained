@@ -1,73 +1,56 @@
 ---
-// Shared layout for single-chapter routes in /book (chapter-N, overture,
-// prologue, interludes, initiations, epilogue). One source of truth for the
-// hero, body wrap, and prev/next nav scaffolding every chapter route was
-// repeating in full. Doors / any other mid-page widget goes in the default
-// slot, between body and prev/next.
+// Single-chapter layout. Routes pass `slug` only — every other field
+// is read from the chapter's manifest frontmatter and the river's
+// canonical sequence via getChapterMeta.
 //
-// Exceptions: index.astro (book home) and river.astro (whole-book stream)
-// have different shapes and do NOT use this layout.
+// Exceptions: index.astro (book home) and river.astro (whole-book
+// stream) have different shapes and do NOT use this layout.
 
 import Base from './Base.astro'
+import Doors from '../components/Doors.astro'
 import { resolve } from 'path'
 import { composePlateauBody } from '../lib/composePlateauBody.mjs'
 import { md } from '../lib/markdown.mjs'
-
-export interface NavLink {
-  href: string
-  title: string
-  label?: string
-}
+import { getChapterMeta } from '../lib/book-meta.mjs'
 
 export interface Props {
   slug: string
-  title: string
-  description: string
-  label: string
-  h1: string
-  part?: string
-  prev?: NavLink
-  next?: NavLink
-  bodyClass?: 'chapter-body' | 'prologue-body'
 }
 
-const {
-  slug, title, description, label, h1, part, prev, next,
-  bodyClass = 'chapter-body',
-} = Astro.props
-
+const { slug } = Astro.props
+const meta = getChapterMeta(slug)
 const body = composePlateauBody(resolve(`src/content/book/${slug}.md`))
 ---
-<Base title={title} description={description}>
+<Base title={meta.title} description={meta.description}>
   <div class="hero">
     <div class="hero-inner">
       <p class="book-nav">
         <a href="/book">← The Book</a>
-        {part && <Fragment><span class="book-nav-sep">·</span><span>{part}</span></Fragment>}
+        {meta.part && <Fragment><span class="book-nav-sep">·</span><span>{meta.part}</span></Fragment>}
       </p>
-      <p class="book-label">{label}</p>
-      <h1 set:html={h1} />
+      <p class="book-label">{meta.label}</p>
+      <h1 set:html={meta.h1} />
     </div>
   </div>
 
   <div class="article-wrap">
-    <div class={`body-text ${bodyClass}`} data-pagefind-body set:html={md(body)} />
+    <div class={`body-text ${meta.bodyClass}`} data-pagefind-body set:html={md(body)} />
 
-    <slot />
+    {meta.showDoors && <Doors slug={slug} />}
 
-    {(prev || next) && (
+    {(meta.prev || meta.next) && (
       <nav class="article-prev-next">
         <div class="prev-next-inner">
-          {prev ? (
-            <a href={prev.href} class="prev-next-link">
-              <span class="prev-next-label">{prev.label ?? '← Previous'}</span>
-              <span class="prev-next-title">{prev.title}</span>
+          {meta.prev ? (
+            <a href={meta.prev.href} class="prev-next-link">
+              <span class="prev-next-label">{meta.prev.label ?? '← Previous'}</span>
+              <span class="prev-next-title">{meta.prev.title}</span>
             </a>
           ) : <span />}
-          {next ? (
-            <a href={next.href} class="prev-next-link next-link">
-              <span class="prev-next-label">{next.label ?? 'Next →'}</span>
-              <span class="prev-next-title">{next.title}</span>
+          {meta.next ? (
+            <a href={meta.next.href} class="prev-next-link next-link">
+              <span class="prev-next-label">{meta.next.label ?? 'Next →'}</span>
+              <span class="prev-next-title">{meta.next.title}</span>
             </a>
           ) : <span />}
         </div>

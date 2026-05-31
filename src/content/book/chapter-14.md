@@ -1,12 +1,9 @@
 ---
 slug: chapter-14
 title: 'Chapter 14: I Became the Land'
-description: >-
-  The housing crisis is a land problem. The extinction crisis is a land problem. The displacement of
-  communities is a land problem. And the solution — governing land as a commons — has been working
-  for sixty years, in hundreds of communities, holding 80 percent of the world's remaining
-  biodiversity.
+description: The housing crisis is a land problem. The extinction crisis is a land problem. What the land commons looks like, and what's already being built.
 h1: I Became the Land
+label: Chapter 14
 part: 'Part VI: What to Build'
 plateau:
   id: P-14

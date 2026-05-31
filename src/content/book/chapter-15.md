@@ -1,12 +1,9 @@
 ---
 slug: chapter-15
 title: 'Chapter 15: Still Meeting'
-description: >-
-  Silvia Federici showed that the witch hunts were enclosure. Alexandra Kollontai named the unpaid
-  labor that makes capitalism run. The care commons is being rebuilt, in childcare collectives and
-  mutual aid networks and cooperative care structures, by people who have decided not to wait for
-  the system to value what it has always needed.
+description: Silvia Federici showed that the witch hunts were enclosure. The care commons is being rebuilt by people who have decided not to wait.
 h1: Still Meeting
+label: Chapter 15
 part: 'Part VI: What to Build'
 plateau:
   id: P-15

@@ -1,12 +1,9 @@
 ---
 slug: chapter-17
 title: 'Chapter 17: The Owl at the Edge of the Circle'
-description: >-
-  Every culture that survived long enough to develop a tradition of initiation understood the same
-  thing: that a person is not finished at birth, that becoming requires the help of the community,
-  and that the community needs what you specifically are. Plotkin, Prechtel, Sorenson — and the felt
-  knowledge they are pointing toward.
+description: Every culture that survived long enough developed practices for initiation. Plotkin, Prechtel, Sorenson, McKenna — and the felt knowledge they are pointing toward.
 h1: The Owl at the Edge of the Circle
+label: Chapter 17
 part: 'Part VI: What to Build'
 plateau:
   id: P-17

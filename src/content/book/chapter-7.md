@@ -1,10 +1,9 @@
 ---
 slug: chapter-7
 title: 'Chapter 7: He Wanted His Nerves Back'
-description: >-
-  Fanon: colonialism doesn't just extract. It produces a particular kind of human being. Mbembe: the
-  sovereign power that underlies modern politics is the right to decide whose death is acceptable.
+description: 'Fanon: colonialism doesn''t just extract. It produces a particular kind of human being. Mbembe: the sovereign power that underlies modern politics is the right to decide whose death is acceptable.'
 h1: He Wanted His Nerves Back
+label: Chapter 7
 part: 'Part III: Why the System Is the Way It Is'
 plateau:
   id: P-07

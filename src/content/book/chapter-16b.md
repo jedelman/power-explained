@@ -1,12 +1,9 @@
 ---
 slug: chapter-16b
 title: 'Chapter 16, Part 2: The Hollow Book'
-description: >-
-  The Wachowskis hid a copy of Baudrillard inside the Matrix — hollowed out, used as a hiding place
-  for contraband. Two trans women made the foundational text of simulacrum-refusal, and nobody
-  noticed for twenty years. The AI moment is Baudrillard completing his argument. The referent is
-  disappearing. And the window to act is closing.
+description: The Wachowskis hid Baudrillard inside The Matrix. The AI moment is the loop closing. The window to govern the commons of human expression is open — briefly.
 h1: The Hollow Book
+label: Chapter 16 · Part 2
 part: 'Part VI: What to Build'
 plateau:
   id: P-16b

@@ -1,10 +1,9 @@
 ---
 slug: becoming-wizards-in-the-woods
-title: 'Becoming Wizards in the Woods'
+title: Becoming Wizards in the Woods
+description: Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the lexicon for what just happened.
 h1: Becoming Wizards in the Woods
-description: >-
-  Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the
-  lexicon for what just happened. The wizard at work, named.
+label: Initiation
 order: 3.5
 plateau:
   id: P-IW

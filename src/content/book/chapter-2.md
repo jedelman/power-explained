@@ -1,10 +1,9 @@
 ---
 slug: chapter-2
 title: 'Chapter 2: Two Cities'
-description: >-
-  You showed up. You spoke. You participated in good faith. The decision went ahead as planned. The
-  question is not what went wrong — it's what the system was actually designed to produce.
+description: You showed up. You spoke. The decision went ahead as planned. The question is what the system was designed to produce.
 h1: Two Cities
+label: Chapter 2
 part: 'Part I: The Feeling Is Right'
 plateau:
   id: P-02

@@ -1,39 +1,37 @@
 ---
 slug: goetia
-title: "The Speaking of Names"
-description: "Four names for what you're up against — production of subjectivity, biopower, hegemony, the outside — and one for what you're building with. The grimoire is the book you are holding."
-h1: "The Speaking of Names"
-part: "Part II: The Proof"
+title: The Goetia of Capital
+description: On naming what you're up against — and why the name is the first move.
+h1: The Goetia of Capital
+label: Initiation
+part: Part II — The Proof
+showDoors: true
 type: initiation
 order: 4.5
-
 plateau:
   id: P-GC
   status: draft
-
 map:
   zone: high_ridges
-  position: [70, 22]
-  visible_from: [P-PR, P-04, P-05, P-IW, P-OA, P-RE]
-  # position is open cartography. high-ridges = the vantage from which
-  # the terrain patterns become visible; above the clearings (P-04 = [42,18]).
-
+  position:
+    - 70
+    - 22
+  visible_from:
+    - P-PR
+    - P-04
+    - P-05
+    - P-IW
+    - P-OA
+    - P-RE
 capacities:
   primary: NAME
-  secondary: [READ, BUILD]
-
+  secondary:
+    - READ
+    - BUILD
 direction:
-  seat: N
+  seat: 'N'
   gestures_toward: E
   axis: N-E
-  # Note: N-E is not a through-axis (axes are N-S, NE-SW, E-W, NW-SE).
-  # The chapter seats at N and gestures toward E, crossing a quarter-turn.
-  # The prose earns this: the N section (diagnostic names, cold midnight
-  # clarity) hands off to E (connection, "I see you") at the closing movement.
-  # If a strict axis is required, N-S is the cleaner read: NAME as the seed
-  # of BUILD, and the book's next chapter (P-05, the outside argument) sits
-  # S along the same N-S line. But the chapter's actual closing movement is
-  # E, not S. Flagged for Jason's call.
   rationale: |
     The chapter seats at N — the midnight, the diagnostic, the cold clear
     view from the ridge. N is where you can see the patterns. The grimoire
@@ -48,7 +46,6 @@ direction:
     build. The closing movement, "Have I connected, first?" opens the axial
     door eastward. The next plateau where the reader lands should be either
     E (direct: the commons in motion) or S (BUILD: Arizmendi, Mondragón).
-
   wheel_note: |
     The wheel is always present. This chapter intensifies at N throughout
     the diagnostic middle, but the opening is NE (the old tradition, praise-
@@ -59,13 +56,11 @@ direction:
     adjusted the scaffold too many times. The landing gestures (G-GC-022,
     G-GC-034, G-GC-038, G-GC-047, G-GC-048) are all N until the final
     pivot at G-GC-039, which turns the wheel from N toward E.
-
   active_at_intensity:
-    - N    # the seat — the diagnostic, the naming, the cold view from the ridge
-    - E    # the close — connection, community, "I see you"
-    - NE   # the opening — the old tradition, recovery, praise-first
-    - NW   # the restaurant section — grief, processing, failed attempt
-
+    - 'N'
+    - E
+    - NE
+    - NW
 territory:
   feature: |
     The high-ridges corner of the territory — the vantage from which the
@@ -85,7 +80,6 @@ territory:
     - Elinor Ostrom, "Governing the Commons" — the eight principles (closing section)
     - Deleuze & Guattari, "A Thousand Plateaus" — strata (plateau 3), the refrain (plateau 11)
     - McDonough & Braungart, "Cradle to Cradle" (2002) — tree as model of productive abundance
-
 metaphor:
   choice: |
     The Goetia — the medieval grimoire of demons, each catalogued with a
@@ -108,7 +102,6 @@ metaphor:
     inside. The Goetia is also a tradition with a prior function reassigned:
     Freire did this, Gramsci did this from prison, the chapter does it with
     the grimoire form. The reassignment is the argument.
-
 nagual:
   blind_spot_at_entry: |
     The reader thinks the problem is individual — their own motivation,
@@ -128,7 +121,6 @@ nagual:
     exhaustion is discharged does the structural name arrive. Do not lecture
     the reader about production of subjectivity before they have felt the
     shape of it in the restaurant story. Lead with the concrete failure.
-
 doors:
   - to: P-04
     prompt: To the clearing where building happens — the commons already standing
@@ -142,7 +134,6 @@ doors:
     prompt: Back to the entry — what you came in carrying
   - to: P-RE
     prompt: The world the naming opens toward — re-enchanting
-
 beauty_check:
   status: biopower-promoted-2026-05-22
   notes: |
@@ -247,7 +238,6 @@ beauty_check:
       - "Here is what the phrase means" (G-GC-006) has a slight definitional
         smell ("Here is what X means"). Consider whether it opens better
         another way on the beauty pass.
-
   direction_check: |
     N seat throughout the diagnostic middle (005-037). NE opening (001-004).
     NW inflection at restaurant section (010-018). E close (039-048). The
@@ -256,15 +246,13 @@ beauty_check:
     connection (E). The chapter does not complete the turn to S (BUILD) —
     that is chapter-4's work, which the reader should be pointed toward
     via the door.
-
 sources:
   inbox:
-    - GT-01-the-name-arriving    # ✓ ANSWERED + woven 2026-05-22 → G-GC-005b, G-GC-005c, G-GC-005d
+    - GT-01-the-name-arriving
   conversations:
-    - 2026-05-04-back-pass-session-2     # production of subjectivity, restaurant section origin
-    - 2026-05-10-wizard-book-architecture-map  # P-GC placement, NAME capacity assignment
-    - 2026-05-18-wizard-book-final-architecture  # architecture lock session
-
+    - 2026-05-04-back-pass-session-2
+    - 2026-05-10-wizard-book-architecture-map
+    - 2026-05-18-wizard-book-final-architecture
 notes: |
   The Goetia of Capital (P-GC). Capacity NAME, the first of six
   (NAME/READ/BUILD/HOLD/ENTER/CONTINUE). Sits at order 4.5 — after
@@ -279,24 +267,23 @@ notes: |
 
   The pre-existing doors-not-rendering bug is now fixed: `doors:` block
   added in this schema pass.
-
 gestures:
   - G-GC-001
   - G-GC-002
   - G-GC-003
   - G-GC-004
   - G-GC-005
-  - G-GC-005b   # GT-01 scene of arrival: the coffee shop, the jackboot
-  - G-GC-005c   # GT-01 the asymmetric agency/mandate inversion
-  - G-GC-005d   # GT-01 the failed interruption + "why I'm writing this book"
+  - G-GC-005b
+  - G-GC-005c
+  - G-GC-005d
   - G-GC-006
   - G-GC-007
-  - G-GC-008    # Biopower arrival — Foucault's name, the smiling parasite
-  - G-GC-008b   # Biopower's domains — school/work/land/cities/media/prisons
-  - G-GC-008c   # The deal — devil/soul, hold the whip sometimes
-  - G-GC-008d   # The car dealership landing — remakes environment in own image
-  - G-GC-008e   # The Tree — overflow / production of subjectivity hinge
-  - G-GC-008f   # Biopolitics — the trail system, the contest
+  - G-GC-008
+  - G-GC-008b
+  - G-GC-008c
+  - G-GC-008d
+  - G-GC-008e
+  - G-GC-008f
   - G-GC-010
   - G-GC-011
   - G-GC-013
@@ -330,25 +317,24 @@ gestures:
   - G-GC-046
   - G-GC-047
   - G-GC-048
-  - G-GC-049    # Solidarity — connection's political name. The spell completed.
-
+  - G-GC-049
 separators:
-  - paragraph     # 001 → 002
-  - paragraph     # 002 → 003
-  - paragraph     # 003 → 004
-  - section       # 004 → 005
-  - paragraph     # 005 → 005b
-  - paragraph     # 005b → 005c
-  - paragraph     # 005c → 005d
-  - paragraph     # 005d → 006
-  - paragraph     # 006 → 007
-  - section       # 007 → 008    (biopower arrival)
-  - paragraph     # 008 → 008b
-  - paragraph     # 008b → 008c
-  - paragraph     # 008c → 008d
-  - paragraph     # 008d → 008e
-  - paragraph     # 008e → 008f
-  - section       # 008f → 010   (transition to restaurant)
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
   - paragraph
   - paragraph
   - paragraph
@@ -381,5 +367,5 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - paragraph    # 048 → 049 (the solidarity reveal)
+  - paragraph
 ---

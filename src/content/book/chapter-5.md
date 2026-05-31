@@ -1,10 +1,9 @@
 ---
 slug: chapter-5
 title: 'Chapter 5: The Smile'
-description: >-
-  The machine needs a frontier. Rosa Luxemburg found it in the colonies. Alexandra Kollontai found
-  it in the kitchen. Two outsides, one structural logic.
+description: The machine needs a frontier. Rosa Luxemburg found it in the colonies. Alexandra Kollontai found it in the kitchen. Two outsides, one structural logic.
 h1: The Smile
+label: Chapter 5
 part: 'Part III: Why the System Is the Way It Is'
 plateau:
   id: P-05

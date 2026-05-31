@@ -1,11 +1,9 @@
 ---
 slug: chapter-11
 title: 'Chapter 11: The Circle in the Blizzard'
-description: >-
-  The tradition that understood what the party men didn't: you cannot build horizontal power with
-  vertical tools. Kropotkin, Graeber, Bookchin — and what it looks like when you build the new world
-  inside the old one, block by block.
+description: Kropotkin, Graeber, Bookchin — and what it looks like when you build the new world inside the old one, block by block.
 h1: The Circle in the Blizzard
+label: Chapter 11
 part: 'Part IV: Why the Obvious Fixes Failed'
 plateau:
   id: P-11
