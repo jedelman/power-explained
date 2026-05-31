@@ -23,31 +23,27 @@ tags:
 beauty_check:
   passed: false
   notes: |
-    2026-05-31: Added during the sequencing pass. The chapter has just
-    revealed the six lexicon names (Terrain / Incantation / Magic /
-    Spellbook / Wizard / Initiation) across G-IW-028, 022, 023, 024,
-    025, 026, 027. A reader holding six new names needs a map: how do
-    they compose into a working system? This gesture is that map.
-    Lands as the close of Movement IV, immediately before the section
-    break into Movement V (practice). Threads the lexicon as operative
-    vocabulary for the rest of the book, not just an experiential
-    naming of what happened in the forest.
+    2026-05-31: Added during the sequencing pass as the close of the
+    lexicon reveal — a light structural map the reader can fill in
+    as their own spellbook accumulates through the rest of the book.
+    Lexicon now precedes capacities (Jason 2026-05-31): the lexicon
+    is more total; the capacities concretize it.
+    2026-05-31 (later same day): Compressed to a "term. definition."
+    rhythm so the structure reads as scaffold, not lecture. Naming
+    expanded from "first counter" to "sometimes counter, sometimes
+    summons" — the wizard's word binds shapes into being as well as
+    breaking spells. Somatic naming detail preserved (Jason's "oh in
+    the gut, shoulders drop, eyes wider, weight of unknowing lifts").
+    Closing imperatives reorder: "Read the terrain. Hear the spell.
+    Name it: counter, or summon. Magic arrives. The spellbook fills."
 notes: |-
-  The lexicon-as-system map. Positions the five operational concepts
-  (terrain, incantation, naming, magic, spellbook) as a working flow
-  rather than a list of names. The flow:
-    1. Terrain is the field (enclosure ⇄ commons).
-    2. Incantation travels through it (the slow spell).
-    3. Naming is the wizard's first counter-move.
-    4. Magic is what becomes possible when the spell breaks.
-    5. The spellbook gathers what has been cast and what can be broken.
-  Wizard and Initiation are not in the operational map — they describe
-  the agent and the becoming, which are addressed separately. The
-  closing five-beat rhythm ("The terrain is read. The incantation is
-  named...") restates the system as motion.
+  The lexicon-as-system map. Light structure for the reader to add
+  to — each definition a flash, not a lecture. Names "naming" with
+  both faces (counter + summons). Somatic detail bridges the abstract
+  to the felt. The closing imperatives turn the map into an invitation.
 ---
-Notice the shape. These names are not a list. They are a working system.
+Notice the shape. These names are not a list. They are a working system. Yours to fill in.
 
-The terrain is the field: enclosure ⇄ commons. The incantation is what travels through it — the slow spell by which one world becomes the world everyone walks in. The naming is the wizard's first counter: to call the spell by name is to break its invisibility. The body knows it before the mind — an *oh* in the gut, the shoulders drop, the eyes open wider. The weight of unknowing lifts. The magic is what becomes possible when the break holds — singularities meeting in common. The spellbook is the wizard's accumulated list of what has been cast and what can be broken.
+Terrain. The field — enclosure ⇄ commons. Incantation. The slow spell traveling across it. Naming. The wizard's move: sometimes counter, sometimes summons. When you find the name, the body knows before the mind — an *oh* in the gut, the shoulders drop, the eyes open wider, the weight of unknowing lifts. Magic. What arrives when the work is done — singularities meeting in common. Spellbook. The list you are beginning.
 
-The terrain is read. The incantation is named. The spell is countered. The magic arrives. The spellbook gathers what worked.
+Read the terrain. Hear the spell. Name it: counter, or summon. Magic arrives. The spellbook fills.

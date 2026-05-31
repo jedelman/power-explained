@@ -18,11 +18,6 @@ gestures:
   - G-IW-007
   - G-IW-009
   - G-IW-010
-  - G-IW-011
-  - G-IW-012
-  - G-IW-013
-  - G-IW-014
-  - G-IW-029
   - G-IW-028
   - G-IW-022
   - G-IW-023
@@ -31,6 +26,11 @@ gestures:
   - G-IW-026
   - G-IW-027
   - G-IW-027a
+  - G-IW-011
+  - G-IW-012
+  - G-IW-013
+  - G-IW-014
+  - G-IW-029
   - G-IW-018
   - G-IW-030
   - G-IW-031
@@ -43,15 +43,15 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
+  - paragraph
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
   - paragraph
   - paragraph
   - section
-  - paragraph
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - paragraph
@@ -78,14 +78,17 @@ notes: |
   (the Barcelona coda — owned by Ch 2's Two Cities now). The gesture
   files remain on disk as historical record but no longer render.
 
-  Movement structure:
+  Movement structure (reordered 2026-05-31: lexicon now precedes
+  capacities — the lexicon is more total; the capacities concretize it):
     I  — The Forest (G-IW-001, 003, 002, 004)
     II — The Deer (G-IW-005, 006, 007, 009)
     [G-IW-010: the protection note]
-    III — The Wizard's Craft / Four Capacities (G-IW-011, 012, 013, 014, 029)
     [section break]
-    IV — The Lexicon Reveals (G-IW-028 intro, 022 Terrain, 023 Incantation,
-         024 Magic, 025 Spellbook, 026 Wizard, 027 Initiation, 027a Map)
+    III — The Lexicon Reveals (G-IW-028 intro, 022 Terrain, 023 Incantation,
+          024 Magic, 025 Spellbook, 026 Wizard, 027 Initiation, 027a Map)
+    [section break]
+    IV — The Wizard's Craft / Four Capacities (G-IW-011 intro, 012 Reading,
+         013 Naming, 014 Building, 029 Holding + capacities-as-spells pivot)
     [section break]
     V  — Patient Work + First Practice + Hand-off (G-IW-018, 030, 031)
 ---
