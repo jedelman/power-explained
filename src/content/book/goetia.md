@@ -291,6 +291,7 @@ gestures:
   - G-GC-008d
   - G-GC-008e
   - G-GC-008f
+  - G-GC-008g
   - G-GC-019
   - G-GC-021
   - G-GC-022
@@ -336,6 +337,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
