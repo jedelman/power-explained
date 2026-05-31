@@ -278,12 +278,6 @@ gestures:
   - G-GC-005d
   - G-GC-006
   - G-GC-007
-  - G-GC-008
-  - G-GC-008b
-  - G-GC-008c
-  - G-GC-008d
-  - G-GC-008e
-  - G-GC-008f
   - G-GC-010
   - G-GC-011
   - G-GC-013
@@ -291,6 +285,12 @@ gestures:
   - G-GC-015
   - G-GC-016
   - G-GC-018
+  - G-GC-008
+  - G-GC-008b
+  - G-GC-008c
+  - G-GC-008d
+  - G-GC-008e
+  - G-GC-008f
   - G-GC-019
   - G-GC-021
   - G-GC-022
@@ -334,8 +334,8 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - section
   - paragraph
+  - section
   - paragraph
   - paragraph
   - paragraph
