@@ -33,4 +33,4 @@ notes: |
   gesture architecture refactor. Source paragraphs: blocks 9-9
   of pre-refactor prose.
 ---
-What was the structure of what he built? It was the modernization of something the valley already had. The cooperative form was *auzolan* applied to industrial production. The federation structure was the etxe's communal stewardship applied to a manufacturing enterprise extending across many cooperatives. The multi-generational obligation — the mandatory community investment funds that lock the cooperative's wealth into service of the future — was the etxe's principle of stewardship across generations made formally institutional. Arizmendi did not invent this. He recovered it. The novelty was real. The recognition was older.
+The cooperative form was *auzolan* applied to industrial production. The federation, the etxe extended across many enterprises. Even the mandatory community investment funds — locking wealth into service of the future — were the etxe's stewardship across generations, made institutional. He didn't invent the cooperative form. He recovered the etxe.

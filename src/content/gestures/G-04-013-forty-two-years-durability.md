@@ -31,6 +31,6 @@ notes: |
   gesture architecture refactor. Source paragraphs: blocks 20-21
   of pre-refactor prose.
 ---
-Burlington's housing market has gone through multiple boom cycles since 1984. The Champlain Housing Trust's homes have stayed affordable through all of them. Not through subsidy, which is a program, and programs end when political will fluctuates. Through governance: the community decided, once, collectively and bindingly, that this land was not for sale. That decision, made once, persists structurally, independent of whoever is currently in office.
+Burlington's housing market has gone through multiple boom cycles since 1984. The Champlain Housing Trust's homes have stayed affordable through all of them — not because the city kept subsidizing them, but because the community had already decided, once, that this land was not for sale.
 
-Today the Trust holds over 3,000 units of permanently affordable housing across a three-county service area in Vermont. The model has been replicated in hundreds of communities across the United States. Forty-two years of evidence. The land that Burlington took out of the speculative market in 1984 is still out of it.
+Today the Trust holds over 3,000 units of permanently affordable housing. The model has been replicated in hundreds of communities. Forty-two years. The land that Burlington took out of the speculative market in 1984 is still out of it.
