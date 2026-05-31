@@ -48,6 +48,6 @@ notes: |-
 ---
 Notice the shape. These names are not a list. They are a working system.
 
-The terrain is the field: enclosure ⇄ commons. The incantation is what travels through it — the slow spell by which one world becomes the world everyone walks in. The naming is the wizard's first counter: to call the spell by name is to break its invisibility. The magic is what becomes possible when the break holds — singularities meeting in common. The spellbook is the wizard's accumulated list of what has been cast and what can be broken.
+The terrain is the field: enclosure ⇄ commons. The incantation is what travels through it — the slow spell by which one world becomes the world everyone walks in. The naming is the wizard's first counter: to call the spell by name is to break its invisibility. The body knows it before the mind — an *oh* in the gut, the shoulders drop, the eyes open wider. The weight of unknowing lifts. The magic is what becomes possible when the break holds — singularities meeting in common. The spellbook is the wizard's accumulated list of what has been cast and what can be broken.
 
 The terrain is read. The incantation is named. The spell is countered. The magic arrives. The spellbook gathers what worked.

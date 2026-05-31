@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The group I was working with that week were five-year-olds, younger than I usually taught. The curriculum I'd been trained in — nature awareness, observation, tracking, bird language, stealth — needed to be rebuilt almost from scratch for children who had been alive for sixty months. My expectations were different. Five days in a state park, not at a designated camp, fully in the field. I'd built something workable. I didn't know if it was working.
+The group I was working with that week were five-year-olds, younger than I usually taught. The specialists in this age group had placed me there — selected me, they said, because they had seen a flash of gift in how I worked and intuited that I might be able to do the work they were doing. Five days in a state park, not at a designated camp, fully in the field. I'd built something workable. I didn't know if it was working.

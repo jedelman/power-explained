@@ -21,4 +21,4 @@ notes: |
   of your grimoire. Two capacities only: READ (the body registers the
   room) and NAME (try to name it, privately, silently).
 ---
-The first practice is small. Once today, when you walk into a room — workplace, store, train car — let your body register the room before your mind decides what to do. Notice what you already knew before words touched it. Try to name it, privately, silently, just for yourself. *That is what this is.* That naming is the wizard, beginning. Begin a private list. That list is the first page of your spellbook.
+The first practice is small. Once today, when you walk into a room — workplace, store, train car — let your body register the room before your mind decides what to do. Notice what you already knew before words touched it. Try to name it, privately, silently, just for yourself. *That is what this is.* That naming is the wizard, beginning. Begin a private list. That list is the first page of your spellbook. You are crafting the wizard you will be.
