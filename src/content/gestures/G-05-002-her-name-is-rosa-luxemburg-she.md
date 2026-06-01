@@ -16,4 +16,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Her name is Rosa Luxemburg. She already knows what the courtroom will decide. The smile is not bravado. It is the specific expression of someone who has understood the system clearly and has stopped expecting it to behave differently.
+Her name is Rosa Luxemburg. She already knows what the courtroom will decide. The smile is not bravado. It is the specific expression of someone who has understood the system clearly, stopped expecting it to behave differently, and is no longer alone in seeing.

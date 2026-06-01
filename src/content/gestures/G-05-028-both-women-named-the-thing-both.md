@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Both women named the thing. Both were dismissed by the institutions they were trying to change. Both were right.
+Both wizards named the demon. Both were dismissed by the institutions they were trying to change. Both were right.
