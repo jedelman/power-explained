@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Both wizards named the demon. Both were dismissed by the institutions they were trying to change. Both were right.
+Both wizards did the same work — read the terrain, named the demon, built what they could, held what could not be undone. Both were dismissed by the institutions they were trying to change. Both were right.

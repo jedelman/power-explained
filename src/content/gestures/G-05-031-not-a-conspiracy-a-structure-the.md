@@ -17,4 +17,4 @@ notes: |-
 ---
 Not a conspiracy. A structure. The racial geography that decides whose land can be enclosed and under what legal cover. The psychology that makes the occupied feel responsible for their own occupation. The place where race and gender and class meet, where the demons multiply each other's force.
 
-The next chapter speaks their names.
+You have watched. The next chapter speaks their names.
