@@ -17,3 +17,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 Her name is Rosa Luxemburg. She already knows what the courtroom will decide. The smile is not bravado. It is the specific expression of someone who has understood the system clearly, stopped expecting it to behave differently, and is no longer alone in seeing.
+
+That is a wizard's smile.
