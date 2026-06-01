@@ -31,6 +31,6 @@ notes: >-
   Third name introduced: the outside. Luxemburg. Forward pointer: "We'll follow her argument fully
   in the next chapter."
 ---
-*The outside.* Luxemburg's name. The territory beyond the accounting. The bouncer at the door and the kidnapper in the alley: keeps certain people and certain forms of existence apart, and moves to separate them when they find each other.
+*The outside.* Luxemburg's name. Not a place on the map — a relation of power. The bouncer at the door and the kidnapper in the alley: it pushes certain people, and certain forms of existence, to the margin, and moves to separate them when they find each other.
 
-The machine needs an outside. It needs territory that exists beyond its own accounting — places, people, commons where value can be taken without full payment. This is not the excess of the system. It is the mechanism. We will follow Luxemburg's argument fully in the next chapter.
+The outside is made, not found — the enclosable-not-yet-enclosed, the remainder hegemony has marked as available and not yet taken. A colonizer looks at a colony and sees layers of outsides, each awaiting its turn. The machine needs this: terrain it can draw value from without full payment. This is not the excess of the system. It is the mechanism. We will follow Luxemburg's argument fully in the next chapter.
