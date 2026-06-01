@@ -1,8 +1,8 @@
 ---
 slug: goetia
-title: The Goetia of Capital
-description: On naming what you're up against — and why the name is the first move.
-h1: The Goetia of Capital
+title: The Speaking of Names
+description: An incantation. Names for some of the demons you will meet on the journey, and at the end, a powerful aid summoned to support you.
+h1: The Speaking of Names
 label: Initiation
 part: Part II — The Proof
 showDoors: true
