@@ -38,7 +38,11 @@ notes: |-
 ---
 She was born in Parma in 1942, into the wartime years of fascist occupation. She arrived in the United States in 1967 on a Fulbright to study philosophy at Buffalo. She came expecting to read Marx. She stayed to write what Marx had not.
 
-Marx had said capitalism began with enclosure — peasants pushed off the land, made dependent on wages. He had said little about what happened to women. Federici started looking. What she found was the witch hunts.
+Marx had said capitalism began with enclosure — peasants pushed off the land, made dependent on wages. He had said nothing about who fed the wage-earner, raised his children, kept his household alive. The labor that reproduced the labor-power he theorized was never theorized. Marx wrote *Capital* in the London poverty that buried four of his and Jenny's seven children, sustained by Jenny copying his manuscripts at the kitchen table and the housekeeper running everything else, and he never noticed the analysis missing from his own life.
+
+Federici's accusation was specific: Marx had naturalized reproductive labor. He took it as given, the way air is given. And so he missed that the figure called "woman" under capitalism is not biology. It is a position — the one assigned to the labor that keeps everyone alive but is never counted as labor. Femininity, as we have inherited it, is the name given to that assignment.
+
+Federici started looking. What she found was the witch hunts.
 
 Three hundred years of organized terror against women, peaking precisely when the commons were being enclosed and Europe was conquering the Americas. The witch was the woman who knew — the midwife, the herbalist, the one who could end or prevent a pregnancy, the one whose authority did not run through a man. Burning her was not superstition. It was infrastructure. The new economy needed a different kind of woman — dependent, reproductive, unpaid, alone — and a different kind of man — paid, public, separate from the household. The gender binary as we know it was made in this period. Hegemony's deepest spell: an arrangement manufactured slowly enough that no one remembers it was made.
 
