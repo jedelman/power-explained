@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-She was shot in the head by government-backed paramilitaries in January 1919. Her body was thrown into the Landwehr Canal. They found her four months later. [FLAG: Body recovered May 31, 1919 — approximately 4.5 months after January 15. "Four months" is slightly short; consider "nearly five months later" or the specific date.]
+She was shot in the head by government-backed paramilitaries in January 1919. Her body was thrown into the Landwehr Canal. They found her on May 31.

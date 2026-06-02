@@ -15,3 +15,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The somewhere else is *the outside*.
+
+Look at any system. Find where the math doesn't close. There you will find one.

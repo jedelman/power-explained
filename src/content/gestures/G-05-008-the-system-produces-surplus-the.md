@@ -16,5 +16,3 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The system produces surplus — the difference between what workers are paid and the value they produce. That surplus has to be realized somewhere: it has to find buyers. But the same system keeps wages low enough that the workers who make everything can't buy it back at the prices the system needs to charge. The math doesn't close. And yet the system keeps running. Which means it must be closing the math somewhere else.
-
-Look at any system. Find where the math doesn't close. There you will find an outside.
