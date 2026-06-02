@@ -50,3 +50,5 @@ Academic Marxism resisted her for decades. The wages-for-housework movement she 
 And before all that — Nigeria. She lived and taught at the University of Port Harcourt through the 1980s. She watched the IMF's structural adjustment programs come for African universities, African markets, African commons. Luxemburg's mechanism, not as history but as Tuesday morning. She wrote about that too.
 
 Her recent work names the counter-spell: *Re-Enchanting the World: Feminism and the Politics of the Commons*, 2019. The witch is back. So are the commons. The two were never separate.
+
+We will meet her again.
