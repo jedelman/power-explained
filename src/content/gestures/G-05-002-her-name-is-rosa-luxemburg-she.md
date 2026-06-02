@@ -20,4 +20,4 @@ Her name is Rosa Luxemburg. She already knows what the courtroom will decide. Th
 
 That is a wizard's smile.
 
-Watch two wizards. Different terrain. Same demon.
+Watch three wizards. Different terrain. Same demon.
