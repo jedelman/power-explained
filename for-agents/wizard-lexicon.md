@@ -23,7 +23,7 @@ The spell becomes the counter-spell. The averaged self becomes the gift. That
 reversal is the wizard's whole art — and the reason a concept and its mirror
 are ONE entry with two directions, not two entries.
 
-## The six
+## The seven
 
 ### 1. The Terrain — *enclosure ⇄ commons*
 The living world and the one axis everything moves along. To enclose is to
@@ -40,7 +40,18 @@ craft, two directions.
 *Cognates:* incantation, enchantment, disenchantment, re-enchantment, hegemony,
 naming, ideology, interpellation.
 
-### 3. Magic — *the average ⇄ the singular*
+### 3. Inscription — *the cut on the body*
+What incantation does to the mind, inscription does to the body. The yanked
+arm, the shrug taught early, the gait, the gaze, the body's ambient knowing of
+which spaces are yours and which require you to manage something. Incantation
+casts on the mind through speech; inscription cuts on the flesh through
+training. Both shape subjectivity; to break the spell is to undo both. Pedagogy
+of the oppressed names the harder part: both sides of the line are inscribed —
+the colonized at the sites of harm, the colonizer at the sites of ease.
+Introduced in *The Colony* (chapter 6) as the body's counterpart to incantation.
+*Cognates:* embodiment, habitus, somatic marking, the inscribed body.
+
+### 4. Magic — *the average ⇄ the singular*
 The unique transformative capacity of singularities acting on each other. In a
 person it is **the gift** — your magic, the one vantage that is yours alone. In
 the land it is **the secret ways** — the magic of place, the paths and cracks
@@ -50,20 +61,20 @@ is no magic. The wizard restores the conditions for singularities to meet and ac
 *Cognates:* singularity, intersectionality, exodus, deterritorialization, dérive,
 transindividuation.
 
-### 4. The Grimoire
+### 5. The Grimoire
 A working list of what acts on you, drawn so you can act back. Each force it
 names is a **demon** — not a devil but a power with a nature, a weakness, a use.
 The book in your hands is one.
 *Cognates:* theory/analysis as a tool for praxis; the demon.
 
-### 5. The Wizard
+### 6. The Wizard
 One who has walked the terrain long enough to know it when it rises again, and
 reaches to be useful: reads the field, wields the counter-spell, carries a gift,
 knows the secret ways. Not a robe or a tower — a knowing held low, in the hands.
 The capacities: name, read, build, hold.
 *Cognates:* the organic intellectual; the radicalized subject.
 
-### 6. Initiation
+### 7. Initiation
 The walk by which one becomes a wizard; it changes what you can bear to see,
 with no graduation. You were initiated once already — into the spell. This is
 the second. No station last; the wizard returns capable, never home.
