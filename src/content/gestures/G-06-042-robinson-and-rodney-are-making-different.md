@@ -17,4 +17,6 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
+Two wizards. Different terrain. Same demon.
+
 Robinson and Rodney are making different arguments. Robinson analyzes the racial structure internal to capitalism — how race makes exploitation legible as non-exploitation, how the wages of whiteness fragment working-class solidarity. Rodney analyzes what capitalism produces in the outside — how underdevelopment is engineered, how the machinery persists through changing forms.
