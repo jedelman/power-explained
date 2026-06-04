@@ -26,4 +26,6 @@ W.E.B. Du Bois, in *Black Reconstruction in America* (1935), extended this analy
 
 They were real wages. And accepting them cost something. To claim the wages of whiteness required performing an identification with the class above — with the employers, the owners, people whose material interests sharply diverged from white workers' own — rather than with the class alongside. It required treating Black workers not as people with shared interests but as the thing you were not. The acceptance degraded the people who accepted it. It required maintaining, daily, a solidarity that worked against them economically in exchange for a status that protected them socially. The system offered that trade because it needed the working class fragmented. It got what it paid for.
 
+Conjuration and abjuration cast as one motion — gather one category into being by casting the other out of the human.
+
 This is not an argument about white pathology. It is an argument about structural incentives. The system is organized to make racial solidarity more immediately valuable than class solidarity. That organization has never been dismantled.
