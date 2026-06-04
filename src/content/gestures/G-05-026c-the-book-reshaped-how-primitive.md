@@ -47,6 +47,6 @@ What followed was a body of work tracing the same mechanism wherever it appeared
 
 She wrote about women organizing against the same enclosures everywhere they were appearing — communal kitchens in Latin America, mutual aid in U.S. cities, land defense across the global south, neighborhood subsistence in Europe. The pattern was always the same: women on the front line of the commons defense, because the commons were what the new enclosures kept coming for, and because women had been holding what the wage never paid for.
 
-Her recent work names the counter-spell: *Re-Enchanting the World: Feminism and the Politics of the Commons*, 2019. The witch is back. So are the commons. The two were never separate.
+Her method was divination — reveal what the surface concept had hidden, and the structure becomes legible. Underneath *primitive accumulation*: the witch hunt, the colony, the slave trade. Underneath *the wage*: the housework that made the wage possible. Once seen, not unseeable. Her recent work names the counter-spell: *Re-Enchanting the World: Feminism and the Politics of the Commons*, 2019. The witch is back. So are the commons. The two were never separate.
 
 We will meet her again.
