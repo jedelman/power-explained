@@ -35,4 +35,4 @@ Occupy Wall Street erupted in the same year on the same impulse, and produced th
 
 Barcelona en Comú — Barcelona in Common — was born from that crystallization. It was not a party. It was a rhizome — a citizen platform built bottom-up from neighborhood assemblies, sending shoots up wherever the soil was good: PAH activists, Podemos cadres, ecologist groups, neighborhood associations, the green-left, independents who had never run for anything. The platform asked its assemblies what the program should be. The assemblies decided.
 
-This is what years of organizing infrastructure make possible: when the political opening came, the coalition was already built. The CNT memory, the autonomous community framework, the participatory practice — these had not been waiting. They had been preparing.
+This is what years of organizing infrastructure make possible: when the political opening came, the coalition was already built. The CNT memory, the autonomous community framework, the participatory practice — these had not been waiting. They had been preparing. Necromancy cast for commons: the lineage acting in the present.

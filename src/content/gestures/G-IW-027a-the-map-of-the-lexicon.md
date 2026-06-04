@@ -44,6 +44,6 @@ notes: |-
 ---
 Notice the shape. These names are not a list. They are a working system. Yours to fill in.
 
-Terrain. The field — enclosure ⇄ commons. Incantation. The slow spell traveling across it. Naming. The first move of incantation. The word can counter, summon, bind, protect, call forth — what it does depends on what is named. When you find the name, the body knows before the mind — an *oh* in the gut, the shoulders drop, the eyes open wider, the weight of unknowing lifts. Magic. What arrives when the work is done — singularities meeting in common. Spellbook. The list you are beginning.
+*Terrain.* The field — enclosure ⇄ commons. *Incantation.* The slow spell traveling across it, cast on the mind. *Inscription.* The same spell, cut into the body — the gait, the gaze, the ambient knowing of which spaces are yours. *Naming.* The first move of any casting — the word that summons, binds, counters, or calls forth, depending on what is named. When you find the name, the body knows before the mind — an *oh* in the gut, the shoulders drop, the eyes open wider, the weight of unknowing lifts. *Magic.* What arrives when the work is done — singularities meeting in common. Its kinds will name themselves as you meet them. *Spellbook.* The list you are beginning. Every spell on it has both directions: the same incantation casts for the commons or for enclosure. There is never an unambiguous tool. The wizard's discipline is in the casting.
 
-Read the terrain. Hear the spell. Name it true. Magic arrives. The spellbook fills.
+Read the terrain. Hear the spell. Feel the inscription. Name it true. Magic arrives. The spellbook fills.

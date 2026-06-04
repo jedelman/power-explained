@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The word for this is capture. Not corruption — capture. The city didn't steal your participation. It absorbed it — the way healthy soil does with fallen leaves.
+The word for this is capture. Not corruption — capture. The city didn't steal your participation. It absorbed it — the way healthy soil does with fallen leaves. Conjuration cast for enclosure: gather the energy, convert it into the institution's armor.
