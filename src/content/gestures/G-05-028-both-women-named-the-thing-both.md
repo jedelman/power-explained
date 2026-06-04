@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Three wizards did the same work — read the terrain, named the demon, built what they could, held what could not be undone. All three were dismissed by the institutions they were trying to change. All three were right.
+Three of them did the same work — read the terrain, named the demon, built what they could, held what could not be undone. All three were dismissed by the institutions they were trying to change. All three were right.

@@ -18,6 +18,6 @@ notes: |-
 ---
 Her name is Rosa Luxemburg. She already knows what the courtroom will decide. The smile is not bravado. It is the specific expression of someone who has understood the system clearly, stopped expecting it to behave differently, and is no longer alone in seeing.
 
-That is a wizard's smile.
+That is the smile of someone done being persuaded.
 
-Watch three wizards. Different terrain. Same demon.
+Watch three women. Different terrain. Same demon.
