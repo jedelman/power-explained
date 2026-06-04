@@ -16,3 +16,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The colony in the mind, the shrug in the meeting room, the body that has no legal recognition — all of it rests on something prior: a framework that decides, before any specific decision is made, which experiences count and which fall through.
+
+The outside. The colony. The framework. Three depths of the same question — *why is the system the way it is.* This is the third descent.
