@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Historian Forrest White has documented what this was: a technique. Once city leaders floated the possibility of redevelopment, landlords stopped investing. Properties deteriorated. The deterioration was cited as evidence that clearance was justified. The slum was manufactured, then used to justify destroying the community that had, until the manufacture began, sustained itself.
+Historian Forrest White has documented what this was: a technique. Once city leaders floated the possibility of redevelopment, landlords stopped investing. Properties deteriorated. The deterioration was cited as evidence that clearance was justified. The slum was manufactured, then used to justify destroying the community that had, until the manufacture began, sustained itself. The look of natural decay hid the engineering of it — illusion, cast as policy.
