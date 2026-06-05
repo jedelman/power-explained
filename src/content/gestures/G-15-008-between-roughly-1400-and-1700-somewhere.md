@@ -26,4 +26,4 @@ The body count understates the impact. The women killed were already the ones mo
 
 The standard historical account treats this as mass hysteria overcome by Enlightenment.
 
-Federici's argument: it was policy.
+Federici's argument: it was policy. Divination — naming what the surface concept had hidden.

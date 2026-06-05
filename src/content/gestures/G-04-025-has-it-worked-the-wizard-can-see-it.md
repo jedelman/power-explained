@@ -39,3 +39,5 @@ The question people ask is: but has it actually worked? Has it worked at scale? 
 Mondragón at sixty-nine years. The Champlain Housing Trust at forty-two. Kerala at seventy years of left governance. The Zapatistas at thirty, restructured twice in their own lifetime and now committed to a hundred and twenty more. The Valencia Water Tribunal at a thousand. The Swiss alpine commons at seven hundred. *Auzolan* from before recorded history, in continuous practice in Basque villages and across the diaspora, into the present moment.
 
 The answer is in the record. It works. It has been working in hundreds of places, across centuries, at scales from a sidewalk fridge to seventy thousand workers to thirty-five million people. It is happening now. The wizard who knows how to look can see it.
+
+Prefiguration at every scale: the world we want, built and defended in the present, against the structure that says it cannot be.

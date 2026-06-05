@@ -21,6 +21,6 @@ notes: >-
   merging with adjacent gestures is expected on plateau-level revision. [merged G-12-021 on
   2026-05-20]
 ---
-Freire called this conscientization: the process by which people come to perceive the contradictions of their situation — and to take action against the oppressive elements of that reality. The perception and the action were not separate in his method. The shift from "this is natural" to "this was made" was already the beginning of the action.
+Freire called this conscientization: the process by which people come to perceive the contradictions of their situation — and to take action against the oppressive elements of that reality. The perception and the action were not separate in his method. The shift from "this is natural" to "this was made" was already the beginning of the action. Divination at the scale of a literacy class: name what is hidden, and the room changes. The naming is the counter-spell.
 
 The 1964 military coup imprisoned Freire and sent him into exile. The generals understood his work clearly: teaching people to read was not the threat. Teaching them that their situation was historical rather than natural was. The coup's reaction was the best confirmation his method ever received.
