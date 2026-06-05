@@ -443,3 +443,72 @@ in every chapter that has the work for it:
   land pact.
 - The book index page still says "~47,000 words across 17 chapters" —
   actual count is ~83K. Cosmetic; update when ready.
+
+---
+
+## 2026-06-05 — Autonomous lexicon-deployment pass (four bounded passes)
+
+Worked `for-agents/autonomous-pass-instructions.md` end to end. Four passes,
+one commit each, build clean (126 pages) after every pass. All insertions are
+parsing-by-naming — naming a school/technique already at work in the gesture,
+one beat each, no new analytical claims, no new thinkers/citations/figures.
+
+**Pass 1 — Illusion (commit 83275bf).** Two insertions.
+- G-06-007 (Colony, the color-blind "standard story"): "The separability is
+  the illusion." — the canonical landing; the lexicon's own enclosure example
+  for Illusion is the color-blind market, and Robinson punctures the
+  separability one beat later (G-06-008).
+- G-02-013 (Two Cities, the manufactured slum): "The look of natural decay hid
+  the engineering of it — illusion, cast as policy."
+- Skipped the Reenchanting disenchantment passage: it does
+  incantation/disenchantment work, not hide-the-structure illusion.
+
+**Pass 2 — Evocation ⇄ Transformation (commit 7a32888).** One of each.
+- G-IB-004 (the salsa night): "Music made the street a commons — evocation,
+  the oldest magic, felt before it is understood." (G-IB-006 already carries
+  the prefiguration beat, so evocation went on the music gesture itself.)
+- G-16-056 (the Linux/web passage): "Transformation cast for the commons — the
+  engineer's mastery used to hold the gate open, not to charge at it." Left off
+  G-16-053 because that gesture already carries counter-spell + pact for the
+  GPL. The two together are the asymmetry-as-feature: the same gate held open
+  by feeling (the street) and by engineering (the kernel). Only the
+  Transformation naming is in the back half, per the one-per-half rule.
+
+**Pass 3 — Sigil and Pact (commit a635ebf).** One sigil, two pact.
+- G-AB-050 (the cedar chip above the bar): "A sigil, then — carrying what we
+  will not say." The personal sigil par excellence; named in wizard register
+  to land as a tonal pop without flattening the beauty-locked close. NOTE: the
+  Confederate-flag sigil the lexicon doc lists does NOT exist in the body —
+  there is no "Confederate" anywhere in the river. The lexicon doc's canonical
+  sigil example should be corrected to the cedar chip (or another live object).
+- G-14-008 (Champlain Housing Trust resale covenant): "A pact across
+  generations: the covenant binds the future to keep the land unenclosed."
+- G-13-011 (credit as social fact, then enclosed): "The pact recast — mutual
+  obligation made a contract, the binding turned to extraction." Carries the
+  asymmetry in one beat. GPL remains the third (already-deployed) pact.
+- Skipped the Reenchanting plant-names-as-sigils and the Mondragón Caja Laboral
+  as a second commons pact, to avoid a second naming of either technique.
+
+**Pass 4 — book index word count (commit 213d450).** Single edit.
+- `src/pages/book/index.astro`: "~47,000 words across 17 chapters + prologue +
+  epilogue." → "~83,000 words across 28 sections — an overture, a prologue, 17
+  chapters, interludes, the centaur chapter, and an epilogue." `npm run analyze`
+  reports 83,170 words / 28 plateaus / 961 gestures. Restored the
+  analyze-regenerated `analysis/corpus-metrics.json` to keep the diff to one line.
+
+### Lexicon coverage after this pass
+
+Every school and technique in the 9+6 lexicon is now named at least once in
+body. Remaining items are corrections/future-pass material, not gaps:
+
+- **Lexicon doc fix needed:** the Sigil entry cites the Confederate flag as the
+  canonical example, but no such passage exists in the book. Update the doc to
+  the cedar chip, or write the flag in somewhere if Jason wants it.
+- Possible future deepenings (not forced this pass): Evocation at Ch 17 (the
+  singing wilderness community); Transformation at G-16b (open-source AI / data
+  cooperatives) or G-15 (cooperative home care); a second commons Pact at the
+  Mondragón Caja Laboral (G-13-026/028); Sigil at the Reenchanting plant-names.
+  Each was evaluated and skipped only to respect the one-naming-per-school rule,
+  not because it lacks the work.
+
+Branch left for review (not main, not self-merged).
