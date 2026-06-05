@@ -317,3 +317,129 @@ Five beats reviewed in full. All pass clean.
 - **Centaur undercovered.** G-PR-023 names the centaur form and there's a P-CE
   chapter, but Jason's call: the book doesn't develop it nearly enough. Flag for
   a dedicated pass or expansion of P-CE after this sequencing pass is complete.
+
+---
+
+## Full-river pass — 2026-06-05
+
+Straight-through read of the entire river in canonical order (overture
+through epilogue, ~83K words, 28 sections) to audit connects / flows /
+glows after the structural work of the merge-and-lexicon passes.
+
+### Verdict
+
+The book is strong. Voice glows almost continuously. Major motif threads
+work — night herons (8 appearances), Atlantic City (5), the cook (3),
+the shrug (5), singularity / pre-individual field (8+), the chip from
+the cut. The Centaur chapter names many of these threads self-reflexively
+as evidence of the centaur authorship.
+
+### Three pass-level findings, all addressed in this session
+
+**1. In-body FLAG / CORRECTION annotations — RESOLVED.** Twenty-five
+editorial markers from prior fact-check passes were still in the body
+text and rendering to readers. All 25 cleaned up: corrections applied
+and bracket blocks removed where straightforward; flagged claims
+either tightened to a defensible version or softened where the precise
+figure could not be verified. See commit `aecdf4e`.
+
+**2. Back-half chapter transitions — TIGHTENED.** Front half had strong
+transitions (overture→prologue→Ch 1 etc.). Back half (Ch 9 onward) had
+been relying on the reader to carry the thread between chapters. Added
+seven one- or two-sentence forward-link beats at chapter closes,
+matching what we did for the Part III hinges. See commit `f2cdab5`.
+
+Skipped (already smooth): Ch 13 → Angel Faces Backward; the AB
+interlude → Ch 14; Ch 15 → Reenchanting (Reenchanting opens by naming
+Kaba/James/Federici from Ch 15 directly); Reenchanting → Ch 16; Ch 16 →
+Ch 16b ("Continue to Part 2" explicit already); Ch 18 → Wizards Walk
+("Build accordingly" + "You have walked" carry the handoff).
+
+**3. New lexicon (9 schools + 6 techniques) — DEPLOYED end-to-end.**
+The Part III chapters (Smile, Colony, No Name for It) and Chapter 2 +
+Wizards in the Woods had been carrying the new lexicon. The back half
+was undeployed. Eight surgical insertions added across the back half,
+each naming the school exactly where the chapter is already doing the
+work:
+
+- Ch 4 close: prefiguration (the commons-builders parade)
+- Orgone: inscription (Reich's character armor)
+- Ch 11 synthesis: necromancy in commons form (the lineage of builders
+  who never met)
+- Ch 12: divination + counter-spell (Freire's conscientização)
+- Ch 15: divination (Federici's witch-hunts argument — same move as
+  the Federici close in Ch 5, now consistent across her two appearances)
+- Ch 16: counter-spell (Stallman's GPL — the same pact, cast for the
+  commons)
+- Ch 17: ritual cast for commons (speaking circle, annual roof, tracking
+  walk)
+- Ch 18: magic + prefiguration at city scale (Simondon's pre-individual
+  field at Occupy)
+
+See commit `cd38bca`.
+
+### Motif inventory (for future passes to protect)
+
+These threads work and should be protected from drift:
+
+- **Night herons** (prologue → Ch 1 → Ch 5 → Ch 14 → Ch 17 →
+  reenchanting → Ch 18 → epilogue): 8 appearances. The centaur chapter
+  enumerates them.
+- **Atlantic City / Hampton Boulevard** (Ch 1 → Ch 2 → Ch 6/Colony →
+  Ch 14): 5 appearances. Each one earns what the previous built.
+- **The cook** (Ch 3 zanjera → Mondragón Ch 4 → reenchanting → centaur):
+  3 appearances. "Same practice. Same commons. Different typhoon."
+- **The shrug** (Ch 1 → Ch 6/Colony → orgone → wizards walk): 5
+  appearances. Major motif of the book's somatic register.
+- **Singularity / pre-individual field** (overture → Ch 5/Smile →
+  Ch 8/No Name For It → Ch 10/Luxemburg → Ch 16/Turing → Ch 16b/training
+  corpus → Ch 18/Occupy → centaur): 8+ appearances. The most theoretically
+  load-bearing thread.
+- **The chip from the cut (cedar)** (Angel Faces Backward → Ch 14 →
+  wizards walk): The aura-bearing object Jason carries.
+- **"Not buried because it was wrong / buried because it was
+  threatening"** (chiasmus): G-PR-014 (prologue Gramsci) → Ch 10
+  (Luxemburg tradition). Sparing use; protect.
+
+### Lexicon coverage map (post-pass)
+
+The new 9-school + 6-technique lexicon is now deployed at least once
+in every chapter that has the work for it:
+
+- **Prefiguration**: Ch 2 (superilles), Ch 4 close, Ch 6/Colony
+  (Palmares, ujamaa), Ch 8 (abolition), Ch 18 (Occupy)
+- **Necromancy**: Ch 2 (CNT memory), Ch 6/Colony (Black radical
+  tradition), Ch 8 (Davis before Mbembe), Ch 11 (the thread synthesis)
+- **Divination**: Ch 5 (Federici method, three divinations), Ch 6/
+  Colony (Robinson/Rodney two divinations, Fanon's mirror), Ch 8
+  (Crenshaw, Wynter), Ch 12 (Freire), Ch 15 (Federici witch hunts)
+- **Deterritorialization**: Ch 2 (superilles), Ch 6/Colony (Palmares,
+  close), Ch 8 (Wynter Man-reconstruction, Combahee)
+- **Conjuration + Abjuration**: Ch 2 (capture), Ch 5 (witch hunt as
+  conjuration), Ch 6/Colony (wages of whiteness)
+- **Illusion**: implicit throughout (the chapter's polished surfaces);
+  not named directly anywhere — possible future target
+- **Evocation / Transformation**: not named directly — possible future
+  target
+- **Inscription**: Wizards in the Woods (the body), Ch 6/Colony
+  (synthesis), Orgone (Reich), Ch 6/Colony (railway = on terrain)
+- **Incantation**: Wizards in the Woods, Ch 6/Colony (Great Zimbabwe,
+  "Nothing we can do"), Ch 6/Colony synthesis
+- **Ritual**: Ch 2 (petition/public-comment), Ch 6/Colony (Nothing we
+  can do hardens), Ch 17 (every practice)
+- **Sigil + Pact**: in the lexicon doc but not named in the body —
+  possible future target (the Confederate flag would be the natural
+  sigil; the GPL or sovereign debt the natural pact)
+
+### Open candidates for a future pass
+
+- **Illusion** and **Evocation / Transformation** schools never named
+  in the body. Strong candidates: illusion at the "color-blind market"
+  moment in Ch 6 / G-06-007; evocation at the salsa moment (Ch 2 /
+  G-IB-003 onward) or any music passage.
+- **Sigil** and **Pact** techniques never named explicitly in body.
+  The Confederate flag (already at the Colony) would land sigil; the
+  GPL (already at Ch 16) and the Mondragón Caja Laboral (Ch 13) would
+  land pact.
+- The book index page still says "~47,000 words across 17 chapters" —
+  actual count is ~83K. Cosmetic; update when ready.
