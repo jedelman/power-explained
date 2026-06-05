@@ -21,3 +21,5 @@ beauty_check:
 notes: '"The name will not fix it. The name is the first move." The chapter''s epistemic claim compressed.'
 ---
 The name will not fix it. The name is the first move.
+
+You will know you have found it when something lifts — when reality cracks a little and lets some light in. It might hurt. It might feel scary. Your challenge is to gather the courage to discern whether the name is true.

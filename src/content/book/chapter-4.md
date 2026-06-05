@@ -1,26 +1,32 @@
 ---
 slug: chapter-4
-title: "Chapter 4: Nobody Asked Him To"
-description: "Arizmendi on his bike. Eight farmers in black blouses. A community fridge on a Brooklyn sidewalk. The commons is not a theory. It is present tense."
-h1: "Nobody Asked Him To"
-part: "Part II: The Proof"
-
+title: 'Chapter 4: Nobody Asked Him To'
+description: Arizmendi on his bike. Eight farmers in black blouses. A fridge on a Brooklyn sidewalk. The commons is present tense.
+h1: Nobody Asked Him To
+label: Chapter 4
+part: 'Part II: The Proof'
+showDoors: true
 plateau:
   id: P-04
   status: draft
-
 map:
   zone: clearings
-  position: [42, 18]
-  visible_from: [P-03, P-05, P-14, P-OA]
-
+  position:
+    - 42
+    - 18
+  visible_from:
+    - P-03
+    - P-05
+    - P-14
+    - P-OA
 capacities:
   primary: BUILD
-  secondary: [NAME, READ]
-
+  secondary:
+    - NAME
+    - READ
 direction:
   seat: S
-  gestures_toward: N
+  gestures_toward: 'N'
   axis: S-N
   rationale: |
     The chapter stages at S — noon, precision, correctness,
@@ -38,7 +44,6 @@ direction:
     chapter only points to. These are techniques (commons governance
     based on reality), not principles yet — though techniques and
     principles are connected by axis.
-
   wheel_note: |
     The wheel is always present. All eight directions are in the
     chapter at all times. Intensities shift as the chapter rolls,
@@ -47,14 +52,11 @@ direction:
     axial gesture it makes. The prose rolls the rest. Over-specifying
     a step-by-step path through positions would freeze what is
     actually a continuous field. Trust the prose to roll the wheel.
-
   active_at_intensity:
-    - S    # the seat — built things, precision, evidence
-    - N    # the axial gesture — ancestors, commitment, present tense
-    - NE   # opening: what was there in the valley before the priest
-    - NW   # the restaurant section: grief, processing, transformation
-    # all other directions are present but quieter in this chapter
-
+    - S
+    - 'N'
+    - NE
+    - NW
 territory:
   feature: |
     The Mondragón corner of the territory — the region where radical
@@ -69,7 +71,6 @@ territory:
     - Cooperation Jackson, documentation of the Jackson federation
     - Davis et al., the Community Land Trust literature
     - The actual Mondragón corporation, present-day
-
 metaphor:
   choice: |
     "Nobody asked him to." The Arizmendi gesture: a man arriving in
@@ -88,7 +89,6 @@ metaphor:
     The CLT is another. To name these as clearings is to commit to
     seeing them as the same kind of place — and the kinds of places one
     might find or make next.
-
 nagual:
   blind_spot_at_entry: |
     The reader has been thinking at the scale of movements, parties,
@@ -106,7 +106,6 @@ nagual:
     and is still working. The angle is: *it is already being done. You
     have been told it cannot be done. The thing the telling protects
     is the telling itself.*
-
 doors:
   - to: P-14
     prompt: To see what this looks like at the scale of land
@@ -116,7 +115,6 @@ doors:
     prompt: If you doubt one priest generalizes — the 400-year-old version
   - to: P-05
     prompt: Highway forward — why the system tries to kill this
-
 beauty_check:
   status: draft-revised-2026-05-19
   notes: |
@@ -175,21 +173,18 @@ beauty_check:
     and got back up.' Closes 'The wizard who knows how to look
     can see it' — first appearance of 'wizard' in the chapter,
     used in earnest with no mask-drop.
-
   direction_check: |
     S seat held throughout the long middle. N gestures at each
     section close. NE opening sustained three paragraphs. NW
     present in restaurant section. The wheel rolls; the wheel
     does not march. Confirmed: chapter is at S throughout and
     the other directions shift in intensity beneath it.
-
   doors_note: |
     Navigational doors (P-05, P-14, P-OA) unchanged. Axial doors
     along the S-N axis now present at every section close,
     not just chapter end. Final axial door: 'The wizard who knows
     how to look can see it' opens toward later plateaus on how
     to learn to see.
-
   fact_check_status: |
     Verified across 2+ independent sources for: Mondragón 2024
     figures; auzolan/etxe/lehen auzoa as continuous Basque
@@ -208,13 +203,10 @@ beauty_check:
     citation for Mondragón parish priest shot; Chokwe Antar Lumumba
     2024 indictment current status and any developments through
     2026.
-
 sources:
   inbox: []
   conversations:
     - 2026-05-03-chapter-13-credit.md
-    # placeholder — to be expanded as plateau is revised
-
 notes: |
   Worked example for the plateau schema, revised 2026-05-19 under the
   updated architecture (wheel-of-eight-directions, orientation-as-
@@ -245,12 +237,6 @@ notes: |
   is build artifact, not book. It compiles out. The reader sees prose.
   Direction-check is lint; beauty_check is test; doors are the
   dependency graph; descent.md is auto-generated documentation.
-
-# Gesture manifest — the default linear traversal of this plateau.
-# IDs only; gesture content lives in src/content/gestures/P-04/.
-# `separators` declares the inter-gesture transition: "paragraph" (blank
-# line) or "section" (--- bracketed by blank lines). Length is
-# gestures.length - 1.
 gestures:
   - G-04-001
   - G-04-002
@@ -270,6 +256,8 @@ gestures:
   - G-04-016
   - G-04-017
   - G-04-018
+  - G-04-018a
+  - G-04-018b
   - G-04-019
   - G-04-020
   - G-04-021
@@ -277,30 +265,31 @@ gestures:
   - G-04-023
   - G-04-024
   - G-04-025
-
 separators:
-  - paragraph   # 001 -> 002
-  - paragraph   # 002 -> 003
-  - section     # 003 -> 004
-  - paragraph   # 004 -> 005
-  - paragraph   # 005 -> 006
-  - paragraph   # 006 -> 007
-  - paragraph   # 007 -> 008
-  - paragraph   # 008 -> 009
-  - section     # 009 -> 010
-  - paragraph   # 010 -> 011
-  - paragraph   # 011 -> 012
-  - paragraph   # 012 -> 013
-  - section     # 013 -> 014
-  - paragraph   # 014 -> 015
-  - paragraph   # 015 -> 016
-  - paragraph   # 016 -> 017
-  - paragraph   # 017 -> 018
-  - section     # 018 -> 019
-  - section     # 019 -> 020
-  - section     # 020 -> 021
-  - paragraph   # 021 -> 022
-  - section     # 022 -> 023
-  - section     # 023 -> 024
-  - section     # 024 -> 025
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - section
+  - section
+  - section
 ---

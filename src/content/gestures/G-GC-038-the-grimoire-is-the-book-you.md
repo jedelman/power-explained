@@ -22,4 +22,4 @@ beauty_check:
     you are holding IS the grimoire.
 notes: The book IS the grimoire. The meta-turn. "The names are the beginning of the counter."
 ---
-The grimoire is the book you are holding. The names are the beginning of the counter.
+The spellbook is the book you are holding. The names are the beginning of the counter.

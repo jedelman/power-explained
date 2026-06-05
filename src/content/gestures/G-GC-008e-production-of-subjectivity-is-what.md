@@ -45,10 +45,10 @@ notes: |-
   the primary product. The fruit is the byproduct. This is what spills
   out of biopower's apparatus and where the reader lives.
 ---
-Production of subjectivity is what spills out the side of all of this.
+Subjectivity is what spills out the side of all of this.
 
 A tree produces everything it needs, everything everyone around it needs, and then has a surplus for generations it will never meet. Someone eats the flowers. Someone eats the fruit. The ones who eat the fruit carry the seeds — not all of them, just enough. Mycelium runs between the roots, exchanging nutrients, amplifying what each tree can reach on its own. The tree is habitat, thermal stabilization, hydrologic regulation, alchemist working on solar time. *Cradle to Cradle* called this abundance, not waste.
 
-Biopower manages the orchard. It wants the fruit. But it cannot have the fruit without the tree, and the tree cannot be reduced to its fruit without ceasing to be a tree. The flowers, the mycelium, the seeds, the shade, the changed rain — these are not byproducts. They are the primary product. The fruit is the byproduct.
+Biopower manages the orchard. It wants the fruit. But it cannot have the fruit without the tree, and the tree cannot be reduced to its fruit without ceasing to be a tree. The flowers, the mycelium, the seeds, the shade, the changed rain — these are not byproducts. They are the living system. The fruit is just one part of it.
 
 The same is true of the subjects biopower produces. It needs legible ones. What it gets are subjects producing each other, in side conversations, in the spaces between the clipboard's boxes. The whisperer was always inside the orchard. The orchard cannot stop what the tree is. That overflow is also where you live.

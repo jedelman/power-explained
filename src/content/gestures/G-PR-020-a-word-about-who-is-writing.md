@@ -13,4 +13,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-A word about who is writing this and why it matters.
+This is an unusual book in a different, related way.

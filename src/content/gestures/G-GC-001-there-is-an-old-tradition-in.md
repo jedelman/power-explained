@@ -16,13 +16,23 @@ tags:
   - image/the-named-demon
   - practice/naming
 beauty_check:
-  passed: true
+  passed: false
   notes: |
     2026-05-22: Schema + rich tagging pass.
     2026-05-22: Opening brimstone pass — saga register (Icelandic, not
     bible-thumping). Lead with the count, place the demon in landscape
     ("a season it walks in"), land on what the book is for.
     2026-05-23: Beauty pass — confirmed. Cadence holds; no further cuts.
-notes: Opening gesture. Recovers the grimoire tradition as the chapter's governing metaphor.
+    2026-05-31: Sequencing pass — opening rewritten. The Lesser Key of
+    Solomon META frame replaced with a seeing-to-naming opening in
+    Jason's voice. The chapter is named as an incantation directly;
+    the reader is told what the chapter is doing (naming demons,
+    summoning aid). Chapter title also changed from "The Goetia of
+    Capital" to "The Speaking of Names."
+notes: Opening gesture. Moves from seeing-cracks-in-the-world to naming-as-incantation; frames the chapter as itself an incantation.
 ---
-The *Lesser Key of Solomon* catalogues seventy-two demons. Each has a name. Each has a seal. Each has a rank, a domain, a season it walks in. Each has a weakness. Each has a use. That is the form of the book: a working list of what acts on you, drawn so you can act back.
+When you study this thoroughly — as I have, as others before me have — you start to see cracks in the world. Things you don't yet have names for. You start to find others who have tried to name what we are seeing, to cast spells that help us read this unmapped terrain. Sometimes — as Paulo Freire did — just incanting the name is powerful enough to change things.
+
+This chapter is an *incantation* — naming some of the demons you will encounter on your journey to unmask them, and at the end, summoning a powerful aid and guide to support you.
+
+Let us proceed.

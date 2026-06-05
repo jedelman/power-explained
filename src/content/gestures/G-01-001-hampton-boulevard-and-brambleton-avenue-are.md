@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Hampton Boulevard and Brambleton Avenue are not one intersection. They are two highways, and where they actually meet is a tangle of overpasses and ramps that a pedestrian cannot navigate at all — there is no crossing, no signal, no path. The roads simply converge above the ground and continue, designed for a body that weighs two tons and moves at forty miles an hour.
+"Hampton and Brambleton" is not an intersection. It is a tangle of overpasses and ramps that a pedestrian cannot navigate at all — there is no crossing, no signal, no path. The roads simply converge above the ground and continue, designed for a body that weighs two tons and moves at forty miles an hour.

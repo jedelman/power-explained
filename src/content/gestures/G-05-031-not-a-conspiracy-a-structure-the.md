@@ -15,4 +15,6 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Not a conspiracy. A structure. The racial geography that decides whose land can be enclosed and under what legal cover. The psychology that makes the occupied feel responsible for their own occupation. The place where race and gender and class meet and multiply each other's force.
+Not a conspiracy. A structure. The racial geography that decides whose land can be enclosed and under what legal cover. The psychology that makes the occupied feel responsible for their own occupation. The place where race and gender and class meet, where the demons multiply each other's force.
+
+You have watched. The next chapter names the demons. Race in the mechanism. The colony in the body. Necropolitics in the budget.

@@ -36,4 +36,4 @@ notes: |-
 ---
 Biopower manages life. Not the threat of death — that is older and cruder. This is the demon that discovered it was more productive to administer the conditions of living. To count, to school, to medicate, to zone, to credentialize, to license.
 
-The domains: school makes thought legible. Work makes activity legible. Land makes environment legible. Cities make society legible. Media makes culture legible. Prisons make the body legible. Each domain has its own clipboard. They all serve the same demon.
+The domains: school makes thought legible. Work makes activity legible. Real estate makes environment legible. Cities make society legible. Media makes culture legible. Prisons make the body legible. Each domain has its own clipboard. They all serve the same demon.

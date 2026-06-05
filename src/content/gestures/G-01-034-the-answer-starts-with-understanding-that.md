@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The answer starts with understanding that the machine is not natural. It was built. And things that are built can be built differently.
+By the end of this book, you will not only be able to see it — you will be able to help change it.

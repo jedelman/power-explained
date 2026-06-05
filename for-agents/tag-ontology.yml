@@ -64,9 +64,10 @@ namespaces:
       - P-GC       # The Goetia of Capital (initiation chapter)
       - P-CE       # Chiron / The Centaur Chapter
       - P-IB       # Interlude: Barcelona
-      - P-IW       # Interlude: Counter-Hegemony Without the Word (Washington)
+      - P-IW       # Becoming Wizards in the Woods (initiation chapter — lexicon reveal)
       - P-AB       # The Angel Faces Backward (initiation chapter)
       - P-WW       # The Wizard's Walk (initiation chapter — final, pre-Epilogue)
+      - P-OV       # Overture (front-loaded wizard-register invocation, opens the book)
 
   # ===========================================================================
   # voice — who is speaking in the gesture. A gesture can carry multiple

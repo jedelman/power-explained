@@ -38,4 +38,4 @@ Biopower appears as whatever you might desire. Its price is always the same: you
 
 Not the forbidden fruit — the opposite. This is the fruit you think you need to live, that you will not realize you don't need until much later, if ever. It holds your own life out to you as if it's making you a deal. As if it's offering you a place to belong.
 
-The deal is consistent across every domain. Allow me to administer your life and I will give you a share of the administering. Hold the whip sometimes. Mark the test. Sign the permit. Issue the parole. The hierarchy of biopower is not who escapes it. It is who is allowed to wield it on others.
+The deal is consistent across every domain. Allow me to control your life and I will give you a share of the controlling. Hold the whip sometimes. Mark the test. Sign the permit. Issue the parole. The hierarchy of biopower is not who escapes it. It is who is allowed to wield it on others. This is the function, form, process, and purpose of social status.

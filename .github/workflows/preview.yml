@@ -26,28 +26,36 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload preview version to Cloudflare Workers
-        id: deploy
+      - name: Sanitize branch name for worker
+        id: sanitize
+        run: |
+          SANITIZED=$(echo "${{ github.ref_name }}" \
+            | tr '[:upper:]' '[:lower:]' \
+            | sed 's/[^a-z0-9-]/-/g' \
+            | sed 's/^-*//;s/-*$//' \
+            | tr -s '-')
+          WORKER_NAME="${SANITIZED}-power-explained"
+          WORKER_NAME=$(echo "$WORKER_NAME" | cut -c1-63 | sed 's/-*$//')
+          echo "worker_name=$WORKER_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy preview to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           wranglerVersion: '4'
-          command: 'versions upload --message "Preview ${{ github.ref_name }} @ ${{ github.sha }}"'
+          command: deploy --name "${{ steps.sanitize.outputs.worker_name }}"
 
       - name: Summarize preview URL
         if: always()
         run: |
-          PREVIEW_URL=$(echo "${{ steps.deploy.outputs.command-output }}" | grep -oE 'https://[a-z0-9-]+\.[a-z0-9-]+\.workers\.dev' | head -1 || true)
+          WORKER_NAME="${{ steps.sanitize.outputs.worker_name }}"
+          PREVIEW_URL="https://${WORKER_NAME}.edelmanja.workers.dev"
           {
             echo "### Preview Deploy"
             echo ""
             echo "**Branch:** \`${{ github.ref_name }}\`"
-            echo "**Commit:** \`${{ github.sha }}\`"
+            echo "**Worker:** \`${WORKER_NAME}\`"
             echo ""
-            if [ -n "$PREVIEW_URL" ]; then
-              echo "**Preview URL:** $PREVIEW_URL"
-            else
-              echo "_Preview URL not parsed — check the upload step's output above._"
-            fi
+            echo "**Preview URL:** $PREVIEW_URL"
           } >> "$GITHUB_STEP_SUMMARY"

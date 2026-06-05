@@ -1,32 +1,31 @@
 ---
 slug: orgone-accumulator
-title: "The Orgone Accumulator"
-description: "Reich built a box to hold a body that capitalism had emptied. The box was wrong. The need was real. On the floor, the woods, the armor that fails, and the thing the enclosure cannot use: an un-armored body in community."
-h1: "The Orgone Accumulator"
-part: "Part III: The Body"
+title: The Orgone Accumulator
+description: 'Reich built a box to hold a body that capitalism had emptied. The box was wrong. The need was real. On the floor, the woods, the armor that fails, and the thing the enclosure cannot use: an un-armored body in community.'
+h1: The Orgone Accumulator
+label: Initiation
+part: Part III — The Body
+showDoors: true
 type: initiation
 order: 8.5
-
 plateau:
   id: P-OA
   status: draft
-
 map:
-  # zone intentionally unset. Jason 2026-05-20: this is SECOND-GROWTH
-  # territory — regrown forest, not the deep mature stand. old_growth
-  # would be Jason-as-Chinese-medicine-practitioner, a claim he has not
-  # earned ("not yet"). "second_growth" is not in the ZONE enum; rather
-  # than invent a new named map-zone unilaterally (the map is load-
-  # bearing architecture) or assert a false neighbor, zone is left
-  # unset until the cartography is decided. See gesture tags
-  # zone/second-growth and the notes block below.
-  position: [28, 64]
-  visible_from: [P-08, P-04, P-06, P-RE, P-EP]
-
+  position:
+    - 28
+    - 64
+  visible_from:
+    - P-08
+    - P-04
+    - P-06
+    - P-RE
+    - P-EP
 capacities:
   primary: HOLD
-  secondary: [NAME, READ]
-
+  secondary:
+    - NAME
+    - READ
 direction:
   seat: NW
   gestures_toward: SE
@@ -47,7 +46,6 @@ direction:
     seat at SE. The full return — what you bring back — lives in later
     plateaus. This chapter only points to the dawn from inside the
     night.
-
   wheel_note: |
     The wheel is always present. The chapter opens at NE (praise, the
     body that can still feel — the eastern light before the descent),
@@ -57,15 +55,13 @@ direction:
     rolling toward S and SE (the practice, built things, readiness,
     first warming). Trust the prose to roll the wheel; the schema
     declares the seat and the axial gesture only.
-
   active_at_intensity:
-    - NW   # the seat — the floor, grief, unarmoring, the descent
-    - SE   # the axial gesture — return, first warming, readiness
-    - NE   # opening: the body that can still feel (praise-first)
-    - N    # Reich, the diagnosis, character armor as midnight
-    - E    # the woods, being held, community
-    - S    # the closing practice, the disciplined body
-
+    - NW
+    - SE
+    - NE
+    - 'N'
+    - E
+    - S
 territory:
   feature: |
     The lowlands corner of the territory — the marshy ground where the
@@ -82,7 +78,6 @@ territory:
     - Bill Plotkin, "Soulcraft" and "Wild Mind" (descent / underworld)
     - the yoga thread already in the book — vritti nirodha, the calming of the oscillations (see back-pass session 2026-05-04)
     - the wilderness program (Jason's own descent and return; OA-01, OA-02 inbox)
-
 metaphor:
   choice: |
     The orgone accumulator — Reich's box for holding a body capitalism
@@ -100,7 +95,6 @@ metaphor:
     the shared pot, the community — un-ownable, unsellable, which is
     why Reich died in prison and the boxes were burned. The wrongness
     of the box is load-bearing, not incidental.
-
 nagual:
   blind_spot_at_entry: |
     The reader — especially the burned-out, high-functioning, formerly
@@ -119,7 +113,6 @@ nagual:
     works), then the failure, then the medicine. Never instruct the
     armored reader to relax; that is more armor. Show the unholding,
     do not assign it.
-
 doors:
   - to: P-08
     prompt: Back to where this sits in the argument — the chapter before the body
@@ -131,7 +124,6 @@ doors:
     prompt: The world the body can hear again once it stops holding — the herons, the crow cloud, the owl
   - to: P-EP
     prompt: The doves, the kinglet, the meadow not cut — what the held body finally pays attention to
-
 beauty_check:
   status: draft-first-pass-2026-05-20
   notes: |
@@ -214,14 +206,12 @@ beauty_check:
     G-OA-010b (synthesis, belly/diaphragm/breath) gathers all six registers
     and ends on "Now you have an address." G-OA-010c (naturalist, three
     imperatives) places reader in relation before the practice is named.
-
   direction_check: |
     Seats NW (the floor / the descent) and gestures SE (return, first
     warming) at the woods section and the closing practice. Opens NE
     (praise). Rolls through N (Reich) and E (community). Confirmed: the
     chapter's weight rests in the dark and points at the dawn without
     arriving there. The full SE return is a later plateau's work.
-
   fact_check_status: |
     VERIFIED via web search 2026-05-20 (2+ sources each):
       - Reich died Nov 3 1957 at Lewisburg Federal Penitentiary, PA,
@@ -281,72 +271,68 @@ beauty_check:
         (editorial direction 2026-05-20), defensible as the chapter's
         claim about what Reich was attempting, not a clinical outcome
         claim. Flagged so it's a chosen frame, not an overread.
-
 sources:
   inbox:
-    - OA-01-the-floor          # ✓ ANSWERED + threaded — G-OA-005
-    - OA-02-community          # ✓ ANSWERED + woven — G-OA-007b ("What Is Your Medicine")
-    - OA-03-martial-arts       # ✓ ANSWERED + woven — G-OA-008b (Kyokushin) + 008c (kokoro)
-    - OA-04-south              # ✓ ANSWERED + woven — G-OA-009 (the weight; "thrown off, every time")
-    - OA-05-the-practice       # ✓ ANSWERED + woven — G-OA-011 (mastery of attention) + 011b (the coda)
+    - OA-01-the-floor
+    - OA-02-community
+    - OA-03-martial-arts
+    - OA-04-south
+    - OA-05-the-practice
   conversations:
-    - 2026-05-04-back-pass-session-2   # yoga/Reich/vritti thread; armor = uncalmed vritti
-    - 2026-05-03-back-pass-session-2   # epilogue, heron thread, fabrication-integrity catch
-    - 2026-05-10-wizard-book-architecture-map  # OA placement, capacity HOLD, Plotkin
-    - 2026-05-20-wizard-orgone-accumulator-drafted   # this chapter; Jason editorial pass (Reich/Foucault/the floor/practice)
-    - 2026-05-25-synthesis-naturalist-gesture-pass   # synthesis/orientation/naturalist pass; G-OA-007c, 010b, 010c added
-
+    - 2026-05-04-back-pass-session-2
+    - 2026-05-03-back-pass-session-2
+    - 2026-05-10-wizard-book-architecture-map
+    - 2026-05-20-wizard-orgone-accumulator-drafted
+    - 2026-05-25-synthesis-naturalist-gesture-pass
 gestures:
-  - G-OA-001     # praise: the body that still knows; hands off to the body
-  - G-OA-001b    # notice your jaw/shoulders/breath; your body knows more; name it (Goetia move)
-  - G-OA-003     # Reich names it: character armor, from the consulting room
-  - G-OA-003b    # the Freud break: death-drive-as-masochism; the Jungian shadow
-  - G-OA-002     # the price: the box, the 6-ton burning, Lewisburg death
-  - G-OA-002b    # the armor in the street: fascism diagnosis; run out by Nazis AND Communists; workers' democracy
-  - G-OA-002c    # he put his hands on it: vegetotherapy; not-calming dearmoring; family-as-first-cell; the lineage
-  - G-OA-004     # the turn: I got slower / four months
-  - G-OA-005     # the floor's texture (OA-01): inert + full of life; library Reich; chickens; trails
-  - G-OA-005b    # the cushion is not the lesson (the honest accounting of luck)
-  - G-OA-005c    # the lesson: how long I held myself up
-  - G-OA-006     # why I got up: the 40s plan, Saturn return, people holding a space
-  - G-OA-007     # floor=solitude / woods=being held; the inversion of Reich
-  - G-OA-007b    # what is your medicine (OA-02): armor resonates; the community that shakes it off
-  - G-OA-007c    # NEW: orientation — the chest has been held; opens the discipline section
-  - G-OA-008     # discipline is not compliance; Foucault on coordination/subjection
-  - G-OA-008b    # the tradition that protected me (OA-03): Kyokushin, the wound, the father
-  - G-OA-008c    # kokoro — discipline of spirit, not Foucault's body; recognition across practices
-  - G-OA-009     # where the shrug lives (the South, the layer under the tradition)
-  - G-OA-010     # Plotkin: the descent was the curriculum
-  - G-OA-010b    # NEW: synthesis — the shape of it; belly/diaphragm/breath; now you have an address
-  - G-OA-010c    # NEW: naturalist — the breath in the room; feel/hear/let; reader already in the practice
-  - G-OA-011     # the mastery of attention (OA-05): broken bell, Shiva gaze, Lion's Roar — the receptive twin of Reich
-  - G-OA-011b    # the important thing is to practice (the coda; the music close; SE landing)
-
+  - G-OA-001
+  - G-OA-001b
+  - G-OA-003
+  - G-OA-003b
+  - G-OA-002
+  - G-OA-002b
+  - G-OA-002c
+  - G-OA-004
+  - G-OA-005
+  - G-OA-005b
+  - G-OA-005c
+  - G-OA-006
+  - G-OA-007
+  - G-OA-007b
+  - G-OA-007c
+  - G-OA-008
+  - G-OA-008b
+  - G-OA-008c
+  - G-OA-009
+  - G-OA-010
+  - G-OA-010b
+  - G-OA-010c
+  - G-OA-011
+  - G-OA-011b
 separators:
-  - paragraph   # 001  -> 001b
-  - section     # 001b -> 003
-  - paragraph   # 003  -> 003b
-  - paragraph   # 003b -> 002
-  - paragraph   # 002  -> 002b
-  - paragraph   # 002b -> 002c
-  - section     # 002c -> 004
-  - paragraph   # 004  -> 005
-  - paragraph   # 005  -> 005b
-  - paragraph   # 005b -> 005c
-  - section     # 005c -> 006
-  - paragraph   # 006  -> 007
-  - paragraph   # 007  -> 007b
-  - paragraph   # 007b -> 007c   # orientation closes being-held section
-  - section     # 007c -> 008    # section break into discipline
-  - paragraph   # 008  -> 008b
-  - paragraph   # 008b -> 008c
-  - section     # 008c -> 009
-  - section     # 009  -> 010
-  - paragraph   # 010  -> 010b   # synthesis after descent
-  - section     # 010b -> 010c   # synthesis lands; naturalist breathes
-  - paragraph   # 010c -> 011    # naturalist flows into practice
-  - section     # 011  -> 011b
-
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
 notes: |
   The Orgone Accumulator (P-OA). Capacity HOLD, the fourth of six
   (NAME/READ/BUILD/HOLD/ENTER/RETURN). Post-Ch.8, per architecture map.

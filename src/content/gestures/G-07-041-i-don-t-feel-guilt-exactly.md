@@ -17,3 +17,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 I don't feel guilt exactly — guilt is inert. What I feel is that the least I can do is say something, clearly, to people who trust me enough to hear it. I'm deprogramming white supremacy out of my friends. It's excruciating. It's the best I can think to do with the position I'm in. The colony in the mind dismantles the same way it was built: one conversation at a time.
+
+But the framework that decides which conversations count is older than the conversation. The next chapter goes there.

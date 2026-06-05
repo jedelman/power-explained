@@ -1,27 +1,33 @@
 ---
 slug: angel-faces-backward
-title: "The Angel Faces Backward"
-h1: "The Angel Faces Backward"
-part: "Part VI: What to Build"
+title: The Angel Faces Backward
+description: On Walter Benjamin's angel, aura, and the cedar chip from the Scar — a wizard's posture toward the wreckage.
+h1: The Angel Faces Backward
+label: Initiation
+part: Part VI — What to Build
 type: initiation
-description: >-
-  On Walter Benjamin's angel, aura, and the cedar chip from the Scar —
-  a wizard's posture toward the wreckage, and the distributed work of defense.
 order: 13.5
-
 plateau:
   id: P-AB
   status: draft
-
 map:
   zone: the_wizards_cottage
-  position: [55, 35]   # PLACEHOLDER — Jason 2026-05-23: territory-map coordinate not yet confirmed
-  visible_from: [P-13, P-14, P-RE, P-OA, P-GC, P-05, P-04]
-
+  position:
+    - 55
+    - 35
+  visible_from:
+    - P-13
+    - P-14
+    - P-RE
+    - P-OA
+    - P-GC
+    - P-05
+    - P-04
 capacities:
   primary: READ
-  secondary: [HOLD, NAME]
-
+  secondary:
+    - HOLD
+    - NAME
 direction:
   seat: NW
   gestures_toward: E
@@ -52,7 +58,6 @@ direction:
     anticipated (Benjamin's analytics, the dialectical image) is in the
     chapter but rolls through, not seats. FLAG for Jason: confirm
     NW → E vs NW → N.
-
   wheel_note: |
     The wheel rolls through the chapter. NW seats (the angel's posture,
     the Scar, the grief, the chip). N visits (Thesis IX, aura defined,
@@ -62,14 +67,12 @@ direction:
     others, the distributed defense, the triplet at the close). SE
     points (the door to the next chapter — what gets built from sight).
     The chapter does not seat at S or SW.
-
   active_at_intensity:
-    - NW   # the seat — the angel facing backward, the grief, the wreckage
-    - E    # the axial gesture — the council, the others, the perceptual commons
-    - N    # the structural argument — aura, dialectical image, theory
-    - W    # the forgotten — the arcades, what was condemned to forgetting
-    - SE   # the door — what the next thing gets built from
-
+    - NW
+    - E
+    - 'N'
+    - W
+    - SE
 territory:
   feature: |
     The wizard's-cottage corner of the territory — the place where
@@ -93,7 +96,6 @@ territory:
     - Bill Plotkin, "Soulcraft" — the soul's gift is not for the soul that carries it
     - Martín Prechtel — the descent requires a community that knows how to receive the one who returns
     - Latin sacer / sanctus, Greek hieros — the line of defense is what makes the sacred
-
 metaphor:
   choice: |
     The angel of history — Klee's painting as Benjamin read it in Thesis
@@ -109,7 +111,6 @@ metaphor:
     Every claim about the angel is also a claim about a 32×24 cm piece
     of paper that crossed the same border Benjamin could not. The
     metaphor is the historical record refusing to be metaphor.
-
 nagual:
   blind_spot_at_entry: |
     The reader who has just watched Graeber turn the weapon of debt
@@ -131,7 +132,6 @@ nagual:
     to grieve; the chapter sits in grief and lets them join or refuse.
     The practice at the close ("find one shard") is small, refusable,
     and offered without consequence-talk.
-
 doors:
   - to: P-13
     prompt: Back to the move that earned the practice — Graeber's debt cancellation, the weapon turned
@@ -147,7 +147,6 @@ doors:
     prompt: Enclosure as the engine of aura-extraction — what the angel sees as wreckage, the system sees as progress
   - to: P-04
     prompt: The clearing where building happens — what the shard becomes when sight obligates and action follows
-
 beauty_check:
   status: draft-first-pass-2026-05-22
   notes: |
@@ -183,7 +182,6 @@ beauty_check:
         defense-is-the-perception argument
       - Benjamin at Portbou (1940-09-26) closes the chapter on
         historical record, not metaphor
-
   fact_check_status: |
     PENDING full verification pass. Inline VERIFY comments to add at
     beauty-pass time. Initial flags from the outline:
@@ -226,7 +224,6 @@ beauty_check:
         is in Jason's voice from on-record material. Confirm: cedar
         ceremony, chip cut, *Thuja plicata*, the chip's history above
         the bar then in the house. No invented details.
-
   direction_check: |
     Seats NW (the angel facing the wreckage, the Scar, the grief) and
     gestures E (the council, the others, the perceptual commons). The
@@ -235,10 +232,9 @@ beauty_check:
     which the chapter explicitly hands off to. The outline's proposed
     NW → N has been amended in the drafted prose to NW → E. FLAG for
     Jason's confirmation.
-
 sources:
   inbox:
-    - none-on-record  # The Angel Faces Backward chapter was drafted from Jason's existing record (the Scar, the restaurant, Hampton Boulevard) plus Benjamin/Klee/Alexander as cited sources. No new dyad questions were issued for this chapter; the outline flagged it as "no material on record — needs interview" but the drafted prose pulled from the existing spine without requiring new material.
+    - none-on-record
 gestures:
   - G-AB-000
   - G-AB-001

@@ -13,4 +13,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-You drove across town. Found parking. Sat in an uncomfortable chair for two hours. Waited through forty-five minutes of procedural business. Your item came up. You had three minutes at the mic.
+Something mattered enough that you drove across town. You found parking. You sat in an uncomfortable chair for two hours, through forty-five minutes of business that wasn't yours. Your item came up. You had three minutes at the mic.

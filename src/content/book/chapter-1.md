@@ -1,10 +1,9 @@
 ---
 slug: chapter-1
 title: 'Chapter 1: Some Days It Costs Too Much'
-description: >-
-  A crossing at Hampton and Brambleton. The neighborhood under the road. A vote that passed and was
-  ignored. Three versions of the same machine.
-h1: Some Days It Costs Too Much
+description: A crossing at Hampton and Brambleton. The neighborhood under the road. A vote that passed and was ignored. Three versions of the same machine.
+h1: The Machine That Produces<br/>the Same Outcomes
+label: Chapter 1
 part: 'Part I: The Feeling Is Right'
 plateau:
   id: P-01
@@ -15,6 +14,11 @@ gestures:
   - G-01-003
   - G-01-006
   - G-01-007
+  - G-02-010
+  - G-02-012
+  - G-02-013
+  - G-02-014
+  - G-02-017
   - G-01-008
   - G-01-009
   - G-01-010
@@ -38,7 +42,6 @@ gestures:
   - G-01-028
   - G-01-029
   - G-01-030
-  - G-01-032
   - G-01-033
   - G-01-034
   - G-01-035
@@ -49,12 +52,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
   - paragraph
   - paragraph
   - paragraph
@@ -69,8 +66,18 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - paragraph
+  - paragraph
   - section
   - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
   - paragraph
   - paragraph
   - paragraph

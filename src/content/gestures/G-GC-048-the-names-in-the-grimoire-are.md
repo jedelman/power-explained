@@ -22,4 +22,4 @@ beauty_check:
     what you're up against / this last one for what you're building with.
 notes: Closing movement. Names for what you are up against / connection for what you are building with.
 ---
-The names in the grimoire are for what you are up against. This last one is for what you are building with.
+The names in the spellbook are for what you are up against. This last one is for what you are building with.

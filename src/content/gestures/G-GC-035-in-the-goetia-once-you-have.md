@@ -25,4 +25,4 @@ notes: >-
   Returns to the grimoire metaphor. Having named it, you can call it, see it, say: that is what this
   is.
 ---
-In the *Goetia*, once you have named the demon and traced its seal, you have something to work with. You can call it by its name. You can see it when it arrives. You can say to others: that is what this is.
+Once you have named the demon and traced its seal, you have something to work with. You can call it by its name. You can see it when it arrives. You can say to others: that is what this is.

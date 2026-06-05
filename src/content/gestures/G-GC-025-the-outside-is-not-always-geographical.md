@@ -33,4 +33,4 @@ notes: >-
   Non-geographical outsides: debt, attention, seed/code/genetic info, care commons. VERIFY:
   Federici, Caliban and the Witch as canonical source.
 ---
-The outside is not always geographical. When the geographical frontier closes, the machine finds new ones. Debt. Attention. The privatization of seed and code and genetic information. The commons of care — the cooking, the nursing, the raising of children, the tending of the sick — which was never paid for and therefore never appeared in any economic analysis, and which Silvia Federici spent her career making visible.
+The outside is not always geographical. When the geographical frontier closes, the machine marks new ones. Debt. Attention. The privatization of seed and code and genetic information. The commons of care — the cooking, the nursing, the raising of children, the tending of the sick — which was never paid for and therefore never appeared in any economic analysis, and which Silvia Federici spent her career making visible.

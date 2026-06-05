@@ -16,4 +16,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-A neighborhood board is a mechanism for converting community energy into institutional legitimacy. When residents show up to meetings, speak at hearings, vote on resolutions, they are generating something — engagement, knowledge, consent, the appearance of democratic participation — that the city and its institutions need to function. The board is the interface. The community's input enters and is processed into a form the institution can use.
+A neighborhood board is a mechanism for converting community energy into institutional legitimacy. When you show up and speak, you generate engagement, knowledge, consent — the raw material for the appearance of democratic participation. The board is the interface. Your input enters and is processed into a form the institution can use.

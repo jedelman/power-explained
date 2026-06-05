@@ -16,4 +16,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The Atlantic City neighborhood was demolished in 1957. The campus that replaced it is still there. In 2021, in the midst of a federal Fair Housing lawsuit, the city was simultaneously demolishing Tidewater Gardens — another public housing complex, another predominantly Black community — and promising that this time, things would be different.
+The Atlantic City neighborhood was demolished in 1957. The campus that replaced it is still there. In 2021, in the midst of a federal Fair Housing lawsuit, the city was simultaneously demolishing Tidewater Gardens — different community, same machine — and promising that this time, things would be different.

@@ -13,4 +13,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The officer's title is *cocinero*. The cook.
+The officer's official title is simply *cocinero* — the cook.

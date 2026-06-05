@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-He had never visited Ilocos. He had never spoken to a *zanjero*.
+He had never visited Ilocos. He had never spoken to anyone who had built a *palomar*.

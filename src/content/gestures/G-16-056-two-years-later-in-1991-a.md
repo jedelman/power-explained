@@ -23,7 +23,7 @@ notes: >-
 ---
 Two years later, in 1991, a Finnish student named Linus Torvalds posted a note to an internet discussion group:
 
-> "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones." [CORRECTION: "won't be anything big and professional" → "won't be big and professional" | the word "anything" does not appear in Torvalds's original August 25, 1991 Usenet post to comp.os.minix]
+> "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones."
 
 He thought he was making a toy. Programmers around the world — none paid, none coordinated through any central authority — started contributing. The operating system shipped under the GPL. By 1993, Berners-Lee had built the working web, and CERN released the underlying rules into the public domain. No license. No fee. No owner.
 

@@ -16,4 +16,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-These are the commons institutions that, built at scale, address the conditions that incarceration currently manages by enclosing them. The abolitionist project is the commons project applied to the question Mbembe asks: what do you build when the answer to *whose death is acceptable* has been institutionalized in a building with a budget and a staff?
+These are the commons institutions that, built at scale, address the conditions that incarceration currently manages by enclosing them. Prefiguration at the scale of the necropolitical apparatus — build the world that doesn't need the cage, and the cage becomes structurally unnecessary. The abolitionist project is the commons project applied to the question Mbembe asks: what do you build when the answer to *whose death is acceptable* has been institutionalized in a building with a budget and a staff?

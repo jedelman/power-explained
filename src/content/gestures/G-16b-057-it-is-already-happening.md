@@ -14,3 +14,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 It is already happening.
+
+The next chapter is the practice.

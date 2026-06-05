@@ -6,7 +6,7 @@ slug: enclosure-not-a-single-act-of
 tags:
   - plateau/P-01
   - voice/jason
-  - status/draft
+  - status/stashed
   - concept/enclosure
   - concept/community
   - image/the-machine

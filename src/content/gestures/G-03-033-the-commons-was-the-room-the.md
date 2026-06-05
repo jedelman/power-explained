@@ -20,6 +20,6 @@ notes: >-
   merging with adjacent gestures is expected on plateau-level revision. [merged G-03-034 on
   2026-05-20]
 ---
-The commons was the room: the accumulated capacity of that particular space and those particular people to produce something that couldn't be produced alone. The trust between regulars and staff built over years. The knowledge of what people needed before they asked. The wine described in terms of the soil and the watershed and the farmer who had decided to make it honestly, planting a different relationship to the living world in whoever was willing to receive it. A place where people could just be, and that would give them space to become.
+The commons wasn't the room. It was the stable distribution of responsibility — across staff and regulars and growers, across years — both for creating and upholding the uniqueness of that space. The trust between regulars and staff built over years. The knowledge of what people needed before they asked. The wine described in terms of the soil and the watershed and the farmer who had decided to make it honestly, planting a different relationship to the living world in whoever was willing to receive it. A place where people could just be, and that would give them space to become.
 
 That is what we lost when we closed.

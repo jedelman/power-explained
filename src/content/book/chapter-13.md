@@ -1,11 +1,9 @@
 ---
 slug: chapter-13
 title: 'Chapter 13: We''re Canceling It'
-description: >-
-  David Graeber traced five thousand years of economic history proving that credit is older than
-  money, that mutual obligation is the original economy, and that debt becomes a weapon only when
-  the commons it came from has been enclosed.
+description: Credit is older than money. Mutual obligation is the original economy. What the commons of credit looks like, and what's already being built.
 h1: We're Canceling It
+label: Chapter 13
 part: 'Part VI: What to Build'
 plateau:
   id: P-13

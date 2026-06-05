@@ -18,3 +18,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The bombs kept coming and people kept moving into Dynamite Hill anyway. That is also the tradition. It has been building for centuries. The question is whether it will reach the scale the conditions require.
+
+The next chapters are about people who decided it would. The work they did. What survived.

@@ -41,17 +41,16 @@ notes: |
 # `gestures:` (with its declared `separators:`), then joins consecutive
 # chapters with `inter_chapter_separator`.
 sources:
+  - overture
   - prologue
   - chapter-1
   - chapter-2
-  - interlude-barcelona
   - chapter-3
-  - interlude-washington
+  - becoming-wizards-in-the-woods
   - chapter-4
   - goetia
   - chapter-5
-  - chapter-6
-  - chapter-7
+  - the-colony
   - chapter-8
   - orgone-accumulator
   - chapter-9

@@ -1,0 +1,88 @@
+---
+// Single-chapter layout. Routes pass `slug` only — every other field
+// is read from the chapter's manifest frontmatter and the river's
+// canonical sequence via getChapterMeta.
+//
+// Exceptions: index.astro (book home) and river.astro (whole-book
+// stream) have different shapes and do NOT use this layout.
+
+import Base from './Base.astro'
+import Doors from '../components/Doors.astro'
+import { resolve } from 'path'
+import { composePlateauBody } from '../lib/composePlateauBody.mjs'
+import { md } from '../lib/markdown.mjs'
+import { getChapterMeta } from '../lib/book-meta.mjs'
+
+export interface Props {
+  slug: string
+}
+
+const { slug } = Astro.props
+const meta = getChapterMeta(slug)
+const body = composePlateauBody(resolve(`src/content/book/${slug}.md`))
+---
+<Base title={meta.title} description={meta.description}>
+  <div class="hero">
+    <div class="hero-inner">
+      <p class="book-nav">
+        <a href="/book">← The Book</a>
+        {meta.part && <Fragment><span class="book-nav-sep">·</span><span>{meta.part}</span></Fragment>}
+      </p>
+      <p class="book-label">{meta.label}</p>
+      <h1 set:html={meta.h1} />
+    </div>
+  </div>
+
+  <div class="article-wrap">
+    <div class={`body-text ${meta.bodyClass}`} data-pagefind-body set:html={md(body)} />
+
+    {meta.showDoors && <Doors slug={slug} />}
+
+    {(meta.prev || meta.next) && (
+      <nav class="article-prev-next">
+        <div class="prev-next-inner">
+          {meta.prev ? (
+            <a href={meta.prev.href} class="prev-next-link">
+              <span class="prev-next-label">{meta.prev.label ?? '← Previous'}</span>
+              <span class="prev-next-title">{meta.prev.title}</span>
+            </a>
+          ) : <span />}
+          {meta.next ? (
+            <a href={meta.next.href} class="prev-next-link next-link">
+              <span class="prev-next-label">{meta.next.label ?? 'Next →'}</span>
+              <span class="prev-next-title">{meta.next.title}</span>
+            </a>
+          ) : <span />}
+        </div>
+      </nav>
+    )}
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 1.5rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+  .book-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .chapter-body :global(hr.section-break),
+  .prologue-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .chapter-body :global(.chapter-coda) {
+    font-family: var(--mono); font-size: 0.8rem; line-height: 1.7;
+    color: rgba(var(--ink-rgb), 0.6); margin-top: 3rem;
+    padding: 1.5rem; border: 1px solid var(--rule); border-radius: 2px;
+    background: var(--paper-mid);
+  }
+  .prologue-body :global(p:first-child) {
+    font-size: 1.05rem;
+  }
+</style>

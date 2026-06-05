@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-There is a thing institutions need to keep running that they cannot manufacture themselves: legitimacy. A decision made in public, with community input, with proper notice and hearings — that decision is harder to challenge. It has armor. The armor is made from your participation.
+Legitimacy is the one thing institutions can't manufacture for themselves. A decision made in public, with community input, is harder to challenge. It has armor. The armor is made from your participation.

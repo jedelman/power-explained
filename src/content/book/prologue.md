@@ -1,11 +1,10 @@
 ---
 slug: prologue
 title: 'Prologue: Look Up'
-description: >-
-  What connects the rent that keeps going up, the highway that cut the neighborhood in half, the
-  hospital bill, the platform. There is a word for it. This book is about what people are doing with
-  that word.
+description: What connects the rent that keeps going up, the highway that cut the neighborhood in half, the hospital bill, the platform. There is one pattern.
 h1: Look Up
+label: Prologue
+bodyClass: prologue-body
 plateau:
   id: P-PR
   status: draft

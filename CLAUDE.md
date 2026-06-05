@@ -141,6 +141,52 @@ for different plateaus.
 
 ---
 
+## Sequencing pass (ACTIVE — started 2026-05-25)
+
+A straight-through final read of the whole river in canonical order, gesture
+by gesture: every transition deliberate, every introduction earned, rhyme
+without repeating, voice consistent, prose not tired. Live working notes
+(cross-cutting patterns, per-chapter log, current position, pending proposals):
+**`analysis/sequencing-pass-notes.md`** — read that first to resume.
+
+### Voice contract — pronoun choreography (governs ALL editing, every chapter)
+
+Set by Jason at the book's opening line. The pronouns move with the
+experience; do not flatten them to a single voice:
+
+- **Silent We** — the shared *condition*. No possessive. "Rent went up again
+  this year" (not "Your rent" / "Our rent"). The collective is felt, unspoken.
+- **We** (audible) — the shared *reckoning*. "We did the math."
+- **You** — the *isolating individual act*. "You called the landlord." The
+  system strands you alone the moment you try to act. Keep the You exactly at
+  the lonely beats — it is the wound the book later heals. Do NOT convert it to We.
+- **They / Them** — the *enclosers*, named not addressed. "They said there's
+  nothing they can do." (Landlord, insurer, averaging machine, the city.)
+
+Worked example: G-PR-001 (done). Second-pass sweep: audit every "you"-opener
+and every "your X" condition line in the book against this.
+
+### Wizard lexicon — core concepts in wizard register (governs voice consistency)
+
+The book's vocabulary, consolidated to six with Jason: **`for-agents/wizard-lexicon.md`**.
+The engine: the field is *enclosure ⇄ commons* (the Terrain); *incantation* casts
+subjectivity along it (enchantment / disenchantment); *magic* is the transformative
+capacity of singularities acting on each other (your gift, the land's secret ways) —
+what the averaging machine can't capture. Then the grimoire (tool), the wizard (who
+wields it), initiation (the becoming). Master principle: every concept is a tool
+turned against us that can be taken back — the spell becomes the counter-spell.
+Hold the same register for the same idea in every chapter.
+
+### Front-loaded overture (in draft)
+
+Decision: the book opens with a short wizard-register **overture** before the
+prologue, so the title's promise is alive from page one and the analytical
+chapters read as the disenchanted world the wizard learns to see. Composed from
+existing wizard prose (G-WW-002, G-RE-001/004/005, G-GC-001/002), not invented.
+Current draft + build plan + open calls: **`for-agents/overture-draft.md`**.
+
+---
+
 ## Session start instructions
 
 **At the start of every session in this repo, load the memory substrate:**

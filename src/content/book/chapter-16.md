@@ -1,12 +1,9 @@
 ---
 slug: chapter-16
 title: 'Chapter 16: Even That Part'
-description: >-
-  Nobody invented the word love. The grammar you're reading this in grew in communities across
-  centuries without anyone's permission. Alan Turing gave the world the conceptual foundation of
-  every computer ever built — and the state that used him chemically destroyed him for being queer.
-  This is what the system does with singularity. This is what we're losing.
+description: 'Turing, Berners-Lee, Linux, and the language model: knowledge as commons, and what it looks like when the enclosure can be refused.'
 h1: Even That Part
+label: Chapter 16
 part: 'Part VI: What to Build'
 plateau:
   id: P-16

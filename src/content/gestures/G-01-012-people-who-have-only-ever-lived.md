@@ -18,4 +18,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-People who have only ever lived in Norfolk can't see Hampton Boulevard as a choice. This is not their failure. It is the nature of hegemony — the way that existing arrangements sink into the category of the inevitable, the natural, the way things are. It takes the experience of an alternative to make the existing arrangement visible as an arrangement.
+It's easy not to see Hampton Boulevard as a choice, and that's not a failure. It is the nature of hegemony — the way that existing arrangements sink into the category of the inevitable, the natural. It takes the experience of an alternative to make the existing arrangement visible as an arrangement.

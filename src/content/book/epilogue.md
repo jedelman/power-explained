@@ -1,11 +1,9 @@
 ---
 slug: epilogue
 title: 'Epilogue: The Doves'
-description: >-
-  The commons is not only what was taken. It is what is still here. What keeps returning. The doves
-  watching while you type. The herons in the willow oaks. The meadow not yet cut. Life is what we
-  have in common.
+description: The commons is not only what was taken. It is what is still here. Life is what we have in common.
 h1: The Doves
+label: Epilogue
 part: Epilogue
 plateau:
   id: P-EP

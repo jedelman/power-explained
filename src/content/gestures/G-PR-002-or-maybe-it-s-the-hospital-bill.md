@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Or maybe it's the hospital bill. You went in for something routine, something that should have been simple, and the bill arrived three months later and it's more than your car cost. You call the billing department. You wait on hold. You talk to someone who reads from a script. You ask why the price is what it is and they explain that it's the contracted rate with your insurer, and that's not really an answer, and you both know that, but it's the only answer available.
+Or maybe it's the hospital bill. Something routine, something that should have been simple — and it arrived three months later, more than we paid for the car. You call the billing department. You wait on hold. You talk to someone who reads from a script. You ask why the price is what it is. They explain it's the contracted rate with your insurer — which isn't an answer, and you both know it. It's the only answer available, and you're both too exhausted to do more.

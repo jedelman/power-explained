@@ -17,4 +17,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Every spring, Jason finds as many of the nests as he can. He goes to them. He tells the herons, with his actual words, that he loves them and wishes them good luck. He is not the only one. Without deciding it, all of his friends love night herons. The herons don't know any of this. They are raising their young in the oak and willow, as they have done for thousands of years, as they will do after we are gone, as long as the trees hold.
+Every spring, Jason finds as many of the nests as he can. He goes to them. He tells the herons, with his actual words, that he loves them and wishes them good luck. He is not the only one. Without any discussion, all of his friends love night herons. They are raising their young in the willow oak, as they have done for millions of years, as they will do after we are gone, as long as the trees hold.
