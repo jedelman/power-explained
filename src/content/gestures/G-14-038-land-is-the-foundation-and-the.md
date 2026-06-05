@@ -14,3 +14,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 Land is the foundation. And the foundation is alive.
+
+Keeping it alive is care. The next chapter is who does that work, and why the system needs the work to stay invisible.

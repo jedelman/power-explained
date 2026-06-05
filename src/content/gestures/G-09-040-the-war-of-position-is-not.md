@@ -20,3 +20,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The war of position is not a heroic posture. It is the decision to keep building in the form available to you — sentences, meals, seeds scattered in a neighborhood you're not sure will hold them — against the knowledge that you probably won't see what they become. Gramsci knew this. He built it anyway, in prison, in failing health, in an Italy that was moving in the opposite direction of everything he believed. The thread has never broken. It has passed through many hands that didn't know they were holding it.
+
+Luxemburg's hands were one pair. She knew what she was holding.

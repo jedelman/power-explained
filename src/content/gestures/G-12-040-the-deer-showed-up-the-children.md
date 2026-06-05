@@ -16,3 +16,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The deer showed up. The children were ready. That readiness was built.
+
+So was the next refusal — a refusal that bought debt to abolish it, and called itself jubilee.

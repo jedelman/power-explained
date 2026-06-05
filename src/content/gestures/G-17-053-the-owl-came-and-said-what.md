@@ -15,3 +15,5 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 ---
 The owl came and said what he had to say.
+
+A park in lower Manhattan, in 2011, briefly held the same form for a city of strangers.
