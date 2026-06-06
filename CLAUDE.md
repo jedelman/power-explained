@@ -187,6 +187,41 @@ Current draft + build plan + open calls: **`for-agents/overture-draft.md`**.
 
 ---
 
+## Composition pass (ACTIVE — started 2026-06-06)
+
+The successor to the parsing/sequencing work. Where the prior pass was bounded
+to **parsing-by-naming** (label what is already at work, never add), this pass
+crosses into **composition** — new connective prose and a new reading *form* —
+without losing that safety.
+
+**Read first to resume:** `for-agents/composition-pass-instructions.md` (the
+full system + staged plan), then `analysis/composition-pass-notes.md` (live
+position), then `for-agents/compositions/composition-ledger.md` (what's drafted,
+with sources).
+
+**The contract (set with Jason 2026-06-06):**
+- **Stage everything.** The agent composes nothing into the book on its own.
+  The canonical river (`src/content/manifests/the-river.manifest.yml` and the
+  live chapter manifests) is **sacred** — only Jason moves it. Each session
+  leaves a workbench of review-ready drafts on the branch.
+- **Provenance or it doesn't ship.** Every composed sentence is ledgered to a
+  source (a gesture, the lexicon, a cited source, or a Jason directive).
+  Composition is recombination + crystallization, never invention. No source →
+  it's a claim → route to Jason. (Reinforces the non-hallucination rules above.)
+- **Reflexive loop.** Compose → critique in a fresh-context sub-agent against
+  the Gandalf/cadence/pronoun/anti-slop checklist → revise or kill. Zero
+  compositions is a valid session.
+
+**The centerpiece — the composable river.** The book argues for the commons
+(self-governing, multiply-entered) but delivers as a single enclosed line. This
+pass makes the *form* enact the *thesis*: a **path** is a manifest over existing
+gestures (a thread through the rhizome), rendered by the river's own composer.
+Paths live in `src/content/manifests/paths/` and render at `/book/path/<slug>`
+(staged: not linked from nav, not part of the canonical river — offered
+*alongside* the line, never replacing it). First one built: the Pact thread.
+
+---
+
 ## Session start instructions
 
 **At the start of every session in this repo, load the memory substrate:**
