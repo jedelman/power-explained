@@ -95,7 +95,12 @@ function plateaus(ids) {
 
 function humanizeTag(t) {
   const [prefix, ...rest] = t.split('/')
-  let v = rest.join(' ').replace(/-/g, ' ')
+  let words = rest.join('/').split('-')
+  // Drop a trailing 2-letter state code from place tags (norfolk-va → Norfolk).
+  if (prefix === 'place' && words.length > 1 && words[words.length - 1].length === 2) {
+    words = words.slice(0, -1)
+  }
+  let v = words.join(' ')
   if (prefix === 'place' || prefix === 'person') {
     v = v.replace(/\b\w/g, c => c.toUpperCase())
   }

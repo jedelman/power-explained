@@ -26,11 +26,14 @@ Herons, Atlantic City) and the edge system are staged. Four threads now form a
 small rhizome (Pact — Atlantic City — Night Herons — Divination), with true,
 auto-computed crossings rendered on each thread page and counted on the index.
 
-**Next concrete steps:** (a) draft the grimoire-as-system gesture (A1) into the
-workbench — its own space adjacent to the build chapters; (b) prep the
-captured-commons live session (C1); (c) consider gesture-level inline edges
-(the "also on" markers) once threads share a gesture; (d) more threads if Jason
-wants them (the shrug, the singularity / pre-individual field, the cook).
+A1 (the grimoire legend) drafted + staged; two more threads (Singularity,
+Shrug) spun — six threads total, all woven by the edge graph. (2026-06-06)
+
+**Next concrete steps:** (a) the captured-commons LIVE SESSION (C1) — Jason to
+convene; prep doc still to write; (b) gesture-level inline "also on" edges once
+threads share a gesture; (c) more threads if wanted (the cook, the chip, the
+mask); (d) Jason's reviews/decisions on the grimoire (placement, M4 naming, the
+wizard-voice blessing).
 
 ## Decisions locked (Jason, 2026-06-06)
 
@@ -91,6 +94,26 @@ fresh-context critique → verdict) ran for real and passed.
   a plausible policy term in NONE of the source gestures. Fixed to sourced
   language. The provenance ledger earned its place on its second use.
 - Build clean, 131 pages.
+
+### 2026-06-06 — The grimoire legend (A1) + two more threads
+
+- **A1, the grimoire-as-system legend** — drafted and staged. Six wizard-register
+  movements (G-GR-001…006, plateau P-GR), rendered at `/book/grimoire`, linked
+  from the threads index as "the legend." Teaches the *grammar* of casting (kinds
+  + two directions + the turn to wielding); deliberately withholds the 15
+  term-names (grimoire, not curriculum). Its own space, intended adjacent to
+  Part VI (Jason's placement call). The most substantial composition yet — the
+  fresh-context critique returned REVISE on an M6 image it couldn't source from
+  lexicon/overture; verified against the gesture corpus (the herons routing the
+  road = the live Night Herons thread) and resolved to PASS. Wizard-present voice
+  awaits Jason's blessing (centaur protocol).
+- **Two more threads:** the-singularity (Simondon's pre-individual field, three
+  gestures across scales — self → perception → city) and the-shrug (four gestures
+  — witnessed → meaning → forms → the body). Both invocations PASS.
+- **Edge graph thickened to six threads,** all crossings auto-computed and true:
+  Shrug⇄Divination ("Du Bois"), Shrug⇄Atlantic City/Herons ("Norfolk"),
+  Singularity⇄Pact/Atlantic City ("enclosure"), Singularity⇄Herons ("flowering").
+- Build clean, 134 pages.
 
 ### New form of critique (Jason's insight, 2026-06-06) — logged for the system
 

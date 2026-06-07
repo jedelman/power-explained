@@ -51,6 +51,10 @@ const crossings = threadCrossings()
         gathered into one walk. These are offered alongside the canonical river,
         not in place of it. Staged and in progress.
       </p>
+      <p class="threads-legend">
+        New here? <a href="/book/grimoire">Read the grimoire</a> — how to read a
+        casting. It is the legend for these threads.
+      </p>
     </header>
 
     {threads.length === 0 ? (
@@ -100,6 +104,13 @@ const crossings = threadCrossings()
     font-size: 0.95rem; line-height: 1.7; opacity: 0.75; max-width: 36rem;
     margin-top: 1rem;
   }
+  .threads-legend {
+    font-size: 0.9rem; line-height: 1.6; margin-top: 1rem;
+    padding: 0.75rem 1rem; border-left: 2px solid var(--red);
+    background: var(--paper-mid);
+  }
+  .threads-legend a { color: var(--red); text-decoration: none; }
+  .threads-legend a:hover { text-decoration: underline; }
 
   .threads-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
   .thread-card { border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }

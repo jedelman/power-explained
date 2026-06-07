@@ -113,3 +113,84 @@ Format per entry:
   - Night Herons ⇄ Divination · "Chapter 12" (both have a P-12 gesture —
     the herons "know about the road" beside Freire's conscientização).
 - No forced overlaps: Pact↔Herons and Pact↔Divination correctly show no edge.
+
+---
+
+## the-grimoire (A1 — the grimoire-as-system legend)  ·  Tier 1 (COMPOSED interlude)  ·  staged
+
+- The most substantial composition so far: a six-movement wizard-register
+  interlude that teaches the GRAMMAR of casting (kinds + two directions + the
+  turn to wielding) rather than listing the lexicon's 15 terms. Grimoire, not
+  curriculum. The legend for the threads.
+- Gestures G-GR-001…006 (plateau P-GR, status/draft); manifest
+  src/content/book/the-grimoire.md; route /book/grimoire; linked from the
+  threads index. NOT in the canonical river.
+- Provenance per movement (full notes in each gesture file):
+  - M1 grimoire ← lexicon §3 + overture G-OV-004.
+  - M2 the field ← lexicon Terrain (door/gate).
+  - M3 magic ← lexicon Magic + overture G-OV-003.
+  - M4 kinds ← the 9 schools shown as actions, unnamed (hide/reveal/break/
+    gather/cast out/bind to dead/act-as-if-future) — Illusion, Divination,
+    Deterritorialization, Conjuration, Abjuration, Necromancy, Prefiguration.
+  - M5 the turn ← master principle + deterritorialization discipline; seeds C1.
+  - M6 reader turn ← composable-river thesis + the three live threads + naming.
+- Critique (fresh-context sub-agent): overall REVISE → resolved to PASS. The
+  critic flagged M6's "the road and the birds that route around it" as
+  unverifiable FROM THE LEXICON/OVERTURE ALONE. Verified against the gesture
+  corpus: G-01-037 ("routed around it… refused to let it sever the
+  relationship"), G-12-016 ("they navigate around it"), and the built
+  the-night-herons thread. The image recurs and is a live thread — the critic's
+  own condition for PASS. Provenance note in G-GR-006 updated to cite the IDs.
+- DESIGN CALLS for Jason: (a) M4 deliberately withholds the 15 term-names —
+  revise if you want the schools named outright; (b) M3 is the closest echo of
+  the overture's magic beat (mitigated by distance — the grimoire's intended
+  home is Part VI, ~70k words after the overture); (c) wizard-present voice =
+  centaur protocol, needs your blessing; (d) placement: its own interlude
+  adjacent to Part VI.
+
+## the-singularity  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged
+
+- Path (escalating scale): G-16-007 (the field, in a person) → G-RE-018 (the
+  commons of perception) → G-18-010 (the field made visible, at city scale).
+  All three name Simondon's pre-individual field; all self-contained.
+- Invocation: "You are not a finished object but an ongoing event, drawn from a
+  field that exceeds you and is never used up. Simondon called it the
+  pre-individual field — the charged excess from which singularities emerge
+  without exhausting it; the collective is the condition of the individual, not
+  the other way around. Follow it from one person to a shared act of perception
+  to a city in the street: the field, fast enough to see."
+- Sources: G-16-007 (verbatim "not a finished object… ongoing event"; "the
+  collective is the condition of the individual"); G-18-010 ("the field, fast
+  enough to see"; "charged generative excess… without exhausting it"); G-RE-018
+  ("the commons of perception"). Simondon licensed by the gestures.
+- Critique: PASS. Two non-blocking nits ("drawn from" vs "in relation to"; "a
+  city in the street") judged defensible crystallizations.
+- Candidate extensions (for growth, not added now): overture G-OV-003, the
+  centaur G-16b-050, Wynter G-08-009, Luxemburg G-10-009, G-16b singularity
+  argument.
+
+## the-shrug  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged
+
+- Path (witnessed → meaning → forms → the body): G-01-023 (the board did
+  nothing) → G-06-040 (what the shrug meant) → G-07-002 (the many forms, passed
+  down) → G-OA-009 (where the shrug lives; the weight thrown off every morning).
+- Invocation: "The shrug is the body accepting the weight of oppression — the
+  posture of diminished expectation, learned before the child can name it. Not
+  helplessness: a decision about whose conditions are worth managing. It does
+  not heal; you throw it off, every morning, and again."
+- Sources: G-OA-009 (verbatim "the body accepting the weight of oppression";
+  "posture of diminished expectation"; "every morning"; "throw it off… again");
+  G-06-040 ("Not helplessness. A decision about whose conditions warranted
+  management").
+- Critique: PASS, fully provenanced ("every morning" confirmed verbatim, not an
+  overstatement). G-OA-009 is beauty-locked — used as a thread member, not
+  edited.
+
+## Edges after the two new threads (now 6 threads)
+
+The rhizome thickened, all crossings auto-computed and true:
+- the-shrug ⇄ Divination · "Du Bois" (G-OA-009 and G-06-023 both person/du-bois)
+- the-shrug ⇄ Atlantic City / Night Herons · "Norfolk"
+- the-singularity ⇄ The Pact / Atlantic City · "enclosure"
+- the-singularity ⇄ Night Herons · "flowering" (motif/flowering)
+- threads.mjs humanizeTag now drops trailing state codes (norfolk-va → Norfolk).
