@@ -15,6 +15,12 @@ Spine step 1 DONE and staged (2026-06-06): the Pact thread proof-of-concept.
 The membrane is intact — no river or chapter manifest touched; the canonical
 book is unchanged.
 
+**Surfaced for review (2026-06-06):** a threads index at `/book/path`
+(`src/pages/book/path/index.astro`) auto-lists every path manifest, and the book
+index (`/book`) now carries a third CTA, "Walk the threads," + an honest
+"staged / experimental" pitch line. So threads are visible rendered on the
+preview server, not just as `.md`. New threads appear in the index automatically.
+
 **Next concrete steps:** (a) the edges (Spine step 2) — at build time, surface
 from gesture tags which other threads pass through each gesture; (b) seed more
 canonical threads (lexicon + concept-spine); (c) draft the grimoire-as-system
