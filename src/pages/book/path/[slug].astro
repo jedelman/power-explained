@@ -5,6 +5,7 @@ import { resolve } from 'path'
 import yaml from 'js-yaml'
 import { composePlateauBody } from '../../../lib/composePlateauBody.mjs'
 import { md } from '../../../lib/markdown.mjs'
+import { threadCrossings } from '../../../lib/threads.mjs'
 
 // Staged centerpiece — "the composable river." A path is an ordering of
 // existing gestures (a manifest), rendered through the same composer the
@@ -32,6 +33,7 @@ const { slug } = Astro.params
 const fm = readPath(slug)
 const body = composePlateauBody(`${PATHS_DIR}/${slug}.md`)
 const memberCount = Array.isArray(fm.gestures) ? fm.gestures.length : 0
+const crossings = threadCrossings()[slug] || []
 ---
 <Base
   title={`${fm.title} — Power Explained`}
@@ -62,6 +64,20 @@ const memberCount = Array.isArray(fm.gestures) ? fm.gestures.length : 0
         {memberCount} gestures, drawn from across the book. This is one thread,
         not the canonical order. <a href="/book/river">Read the whole river →</a>
       </p>
+
+      {crossings.length > 0 && (
+        <div class="thread-crosses">
+          <span class="crosses-label">Crosses</span>
+          <ul>
+            {crossings.map(c => (
+              <li>
+                <a href={`/book/path/${c.slug}`}>{c.h1}</a>
+                <span class="crosses-via">{c.via}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </header>
 
     <div class="body-text thread-body" data-pagefind-body set:html={md(body)} />
@@ -111,6 +127,28 @@ const memberCount = Array.isArray(fm.gestures) ? fm.gestures.length : 0
   }
   .thread-meta a, .thread-foot a { color: var(--red); text-decoration: none; }
   .thread-meta a:hover, .thread-foot a:hover { text-decoration: underline; }
+
+  .thread-crosses {
+    margin: 1.75rem 0 0; padding-top: 1.25rem;
+    border-top: 1px dashed rgba(var(--ink-rgb), 0.15);
+  }
+  .crosses-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.4;
+  }
+  .thread-crosses ul { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+  .thread-crosses li {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 1rem; padding: 0.35rem 0;
+    border-bottom: 1px dotted rgba(var(--ink-rgb), 0.1);
+  }
+  .thread-crosses a { color: var(--ink); text-decoration: none; font-size: 0.95rem; }
+  .thread-crosses a:hover { color: var(--red); }
+  .crosses-via {
+    font-family: var(--mono); font-size: 0.65rem; opacity: 0.45;
+    white-space: nowrap; text-align: right;
+  }
+  .crosses-via::before { content: '· '; }
 
   .thread-body :global(hr.section-break) {
     border: none; border-top: 1px solid var(--rule); margin: 3rem 0;

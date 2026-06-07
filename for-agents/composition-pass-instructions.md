@@ -169,6 +169,18 @@ Justify any new dependency (there should be none).
 Provenance note: paths are orderings of existing prose (Tier 0). The only
 composed text is each invocation (Tier 1, ledgered) and the legend (below).
 
+### Threads as a critique instrument (added 2026-06-06)
+
+A thread is not only a reader feature — it is an **editorial X-ray**. Because a
+thread isolates one concept across all its instances, walking it end to end
+exposes what a straight read hides: which member is weakest or least earned,
+whether the concept actually coheres across the book or just recurs by accident,
+whether the voice holds when like is set beside like, and where a rhyme does real
+work vs. mere repetition. Use the form this way: **build a thread, then walk it
+as an audit of the spine it follows.** The build process already surfaced one
+such finding (the Divination invocation under-serves Federici). This is a
+standing use of the Spine, not a one-off.
+
 ---
 
 ## The organs (prose moves serving the Spine)

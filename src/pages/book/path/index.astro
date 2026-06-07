@@ -3,6 +3,7 @@ import Base from '../../../layouts/Base.astro'
 import fs from 'node:fs'
 import { resolve } from 'path'
 import yaml from 'js-yaml'
+import { threadCrossings } from '../../../lib/threads.mjs'
 
 // Threads index — the gateway to the composable-river layer. Auto-lists every
 // path manifest under src/content/manifests/paths/. Staged / experimental:
@@ -27,6 +28,8 @@ const threads = fs
     }
   })
   .sort((a, b) => a.h1.localeCompare(b.h1))
+
+const crossings = threadCrossings()
 ---
 <Base
   title="Threads — Power Explained"
@@ -60,7 +63,12 @@ const threads = fs
               {t.kicker && <span class="thread-card-kicker">{t.kicker}</span>}
               <span class="thread-card-title">{t.h1}</span>
               {t.invocation && <span class="thread-card-inv">{t.invocation}</span>}
-              <span class="thread-card-meta">{t.count} gestures →</span>
+              <span class="thread-card-meta">
+                {t.count} gestures
+                {(crossings[t.slug]?.length || 0) > 0 &&
+                  ` · crosses ${crossings[t.slug].length} ${crossings[t.slug].length === 1 ? 'thread' : 'threads'}`}
+                {' →'}
+              </span>
             </a>
           </li>
         ))}

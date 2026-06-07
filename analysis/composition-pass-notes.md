@@ -21,11 +21,16 @@ index (`/book`) now carries a third CTA, "Walk the threads," + an honest
 "staged / experimental" pitch line. So threads are visible rendered on the
 preview server, not just as `.md`. New threads appear in the index automatically.
 
-**Next concrete steps:** (a) the edges (Spine step 2) — at build time, surface
-from gesture tags which other threads pass through each gesture; (b) seed more
-canonical threads (lexicon + concept-spine); (c) draft the grimoire-as-system
-gesture (A1) into the workbench — see placement decision below; (d) prep the
-captured-commons live session (C1).
+Spine steps 2–4 advanced (2026-06-06): three more threads (Divination, Night
+Herons, Atlantic City) and the edge system are staged. Four threads now form a
+small rhizome (Pact — Atlantic City — Night Herons — Divination), with true,
+auto-computed crossings rendered on each thread page and counted on the index.
+
+**Next concrete steps:** (a) draft the grimoire-as-system gesture (A1) into the
+workbench — its own space adjacent to the build chapters; (b) prep the
+captured-commons live session (C1); (c) consider gesture-level inline edges
+(the "also on" markers) once threads share a gesture; (d) more threads if Jason
+wants them (the shrug, the singularity / pre-individual field, the cook).
 
 ## Decisions locked (Jason, 2026-06-06)
 
@@ -71,6 +76,35 @@ What this proves: the rhizome needs no new infrastructure. A thread is a
 manifest over the gestures the book already holds, rendered by the river's own
 composer. The form can carry the thesis. The reflexive loop (compose →
 fresh-context critique → verdict) ran for real and passed.
+
+### 2026-06-06 — Three more threads + the edges
+
+- Added threads: Divination (school), Night Herons (motif), Atlantic City
+  (place) — one of each type, to prove the rhizome across thread kinds.
+- `src/lib/threads.mjs` — computes true crossings (shared gesture → shared
+  significant tag → shared chapter) with a named "via." Rendered as a "Crosses"
+  block on each thread page and a count on the index. The graph is a real chain
+  with Atlantic City as the hub; Pact↔Herons correctly shows no edge (the
+  rhizome has structure, not universal connection).
+- Reflexive loop ran on all three invocations (one fresh-context sub-agent).
+  Divination + Herons PASS. Atlantic City REVISE → the critique caught "blight,"
+  a plausible policy term in NONE of the source gestures. Fixed to sourced
+  language. The provenance ledger earned its place on its second use.
+- Build clean, 131 pages.
+
+### New form of critique (Jason's insight, 2026-06-06) — logged for the system
+
+Reading a thread end to end is an **editorial X-ray**, not just a reader feature.
+A thread isolates one concept across all its instances, so it exposes:
+- which member is weakest or least earned (the Divination invocation visibly
+  under-serves Federici — the thread-read makes that legible at a glance);
+- whether a concept actually coheres across the book or just recurs by accident;
+- whether the voice holds when like is placed beside like;
+- where a rhyme is doing real work vs. where it is repetition.
+This turns the composable river into an **audit instrument**: walk a thread to
+critique the spine it follows. Folded into the instructions as a standing use of
+the form. (Candidate next audit: walk the Pact thread and judge whether G-13-011
+— the weakest of the original insertions — still earns its place beside the GPL.)
 
 ## Open calls for Jason
 
