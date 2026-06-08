@@ -335,3 +335,17 @@ membrane, on the branch, for his review.
   woven, NOT critiqued-to-ship (they are a menu for his lane). Weakest unsourced
   bits flagged inline ("one of one" coinage; "the bill … with your name on it").
 - Awaiting Jason: whether to stage it, placement (a/b/c), and the words.
+
+### B1 RESOLVED — woven (Jason authored the turn)
+
+- Jason's verdict: sketch B's tone/cadence, but "with us" is the bridge, and the
+  book should cast the counter-spell it teaches. He authored the turn:
+  "The loneliness was the spell. You were never alone — you were always building
+  with us. We have been isolated as well. But if we choose to, we can build
+  together."
+- WOVEN as G-03-046a, seated as Chapter 3's closing beat after G-03-046 ("a piece
+  of the world you built"), section break, flowing into the wizards-in-the-woods.
+  Canonical-river change #2. Words by Jason → provenance = his directive.
+- Pronoun contract honored: stages the FIRST earned We (reader-inclusive, "with
+  us"); does NOT convert the earlier lonely You's. Build clean, 136 pages,
+  chapter-3 aligned (35/34).
