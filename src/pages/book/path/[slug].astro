@@ -1,0 +1,174 @@
+---
+import Base from '../../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { composePlateauBody } from '../../../lib/composePlateauBody.mjs'
+import { md } from '../../../lib/markdown.mjs'
+import { threadCrossings } from '../../../lib/threads.mjs'
+
+// Staged centerpiece — "the composable river." A path is an ordering of
+// existing gestures (a manifest), rendered through the same composer the
+// river uses. These routes are NOT linked from main nav and are NOT part of
+// the canonical river; they are the rhizome layer offered alongside the line.
+// See for-agents/composition-pass-instructions.md.
+
+const PATHS_DIR = resolve('src/content/manifests/paths')
+
+function readPath(slug) {
+  const text = fs.readFileSync(`${PATHS_DIR}/${slug}.md`, 'utf8')
+  const end = text.indexOf('\n---\n', 4)
+  const fm = yaml.load(text.slice(4, end)) || {}
+  return fm
+}
+
+export function getStaticPaths() {
+  const files = fs
+    .readdirSync(resolve('src/content/manifests/paths'))
+    .filter(f => f.endsWith('.md'))
+  return files.map(f => ({ params: { slug: f.replace(/\.md$/, '') } }))
+}
+
+const { slug } = Astro.params
+const fm = readPath(slug)
+const body = composePlateauBody(`${PATHS_DIR}/${slug}.md`)
+const memberCount = Array.isArray(fm.gestures) ? fm.gestures.length : 0
+const crossings = threadCrossings()[slug] || []
+---
+<Base
+  title={`${fm.title} — Power Explained`}
+  description={fm.description || ''}
+>
+  <div class="article-wrap">
+    <p class="book-nav">
+      <a href="/book">← The Book</a>
+      <span class="book-nav-sep">·</span>
+      <span>{fm.kicker || 'A thread through the river'}</span>
+    </p>
+
+    <header class="thread-head">
+      <p class="thread-label">{fm.label || 'Thread'}</p>
+      <h1>{fm.h1 || fm.title}</h1>
+      {fm.invocation && <p class="thread-invocation">{fm.invocation}</p>}
+      {Array.isArray(fm.members) && (
+        <ol class="thread-members">
+          {fm.members.map(m => (
+            <li>
+              <span class="member-note">{m.note}</span>
+              <span class="member-ref">{m.ref}</span>
+            </li>
+          ))}
+        </ol>
+      )}
+      <p class="thread-meta">
+        {memberCount} gestures, drawn from across the book. This is one thread,
+        not the canonical order. <a href="/book/river">Read the whole river →</a>
+      </p>
+
+      {crossings.length > 0 && (
+        <div class="thread-crosses">
+          <span class="crosses-label">Crosses</span>
+          <ul>
+            {crossings.map(c => (
+              <li>
+                <a href={`/book/path/${c.slug}`}>{c.h1}</a>
+                <span class="crosses-via">{c.via}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </header>
+
+    <div class="body-text thread-body" data-pagefind-body set:html={md(body)} />
+
+    {fm.seealso && (
+      <p class="thread-seealso"><a href={fm.seealso.href}>{fm.seealso.label}</a></p>
+    )}
+
+    <p class="thread-foot">
+      A path is an ordering of gestures the book already holds — the river,
+      walked along one thread. <a href="/book">Back to the book</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 2rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+
+  .thread-head { margin: 0 0 3rem; }
+  .thread-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .thread-invocation {
+    font-family: var(--display); font-size: 1.15rem; line-height: 1.6;
+    margin: 1.5rem 0 2rem; max-width: 34rem; color: var(--ink);
+  }
+  .thread-members {
+    list-style: none; padding: 0; margin: 2rem 0;
+    border-top: 1px solid var(--rule);
+  }
+  .thread-members li {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 1rem; padding: 0.5rem 0;
+    border-bottom: 1px dotted rgba(var(--ink-rgb), 0.12);
+  }
+  .member-note { color: var(--ink); font-size: 0.95rem; }
+  .member-ref {
+    font-family: var(--mono); font-size: 0.65rem; opacity: 0.45;
+    white-space: nowrap; text-align: right;
+  }
+  .thread-meta {
+    font-size: 0.85rem; line-height: 1.6; opacity: 0.6; margin-top: 1.5rem;
+  }
+  .thread-meta a, .thread-foot a { color: var(--red); text-decoration: none; }
+  .thread-meta a:hover, .thread-foot a:hover { text-decoration: underline; }
+
+  .thread-crosses {
+    margin: 1.75rem 0 0; padding-top: 1.25rem;
+    border-top: 1px dashed rgba(var(--ink-rgb), 0.15);
+  }
+  .crosses-label {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.4;
+  }
+  .thread-crosses ul { list-style: none; padding: 0; margin: 0.6rem 0 0; }
+  .thread-crosses li {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 1rem; padding: 0.35rem 0;
+    border-bottom: 1px dotted rgba(var(--ink-rgb), 0.1);
+  }
+  .thread-crosses a { color: var(--ink); text-decoration: none; font-size: 0.95rem; }
+  .thread-crosses a:hover { color: var(--red); }
+  .crosses-via {
+    font-family: var(--mono); font-size: 0.65rem; opacity: 0.45;
+    white-space: nowrap; text-align: right;
+  }
+  .crosses-via::before { content: '· '; }
+
+  .thread-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+
+  .thread-seealso {
+    margin: 3rem 0 0; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  .thread-seealso a {
+    color: var(--red); text-decoration: none;
+    font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.04em;
+  }
+  .thread-seealso a:hover { text-decoration: underline; }
+  .thread-foot {
+    margin: 4rem 0 2rem;
+    font-family: var(--mono); font-size: 0.7rem; opacity: 0.5; line-height: 1.7;
+  }
+</style>

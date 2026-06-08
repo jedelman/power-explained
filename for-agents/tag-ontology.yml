@@ -68,6 +68,8 @@ namespaces:
       - P-AB       # The Angel Faces Backward (initiation chapter)
       - P-WW       # The Wizard's Walk (initiation chapter — final, pre-Epilogue)
       - P-OV       # Overture (front-loaded wizard-register invocation, opens the book)
+      - P-GR       # RETIRED 2026-06 — grimoire-as-system was redundant with P-IW (the lexicon-reveal chapter); standalone interlude removed. Kept registered per ontology policy (never remove a promoted term).
+      - P-CC       # The Corruption of the Commons (composition pass — woven into P-GC / The Speaking of Names)
 
   # ===========================================================================
   # voice — who is speaking in the gesture. A gesture can carry multiple

@@ -1,0 +1,148 @@
+---
+import Base from '../../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { threadCrossings } from '../../../lib/threads.mjs'
+
+// Threads index — the gateway to the composable-river layer. Auto-lists every
+// path manifest under src/content/manifests/paths/. Staged / experimental:
+// these are alternate walks through the rhizome, offered alongside the
+// canonical river, not part of it. See for-agents/composition-pass-instructions.md.
+
+const PATHS_DIR = resolve('src/content/manifests/paths')
+
+const threads = fs
+  .readdirSync(PATHS_DIR)
+  .filter(f => f.endsWith('.md'))
+  .map(f => {
+    const text = fs.readFileSync(`${PATHS_DIR}/${f}`, 'utf8')
+    const end = text.indexOf('\n---\n', 4)
+    const fm = yaml.load(text.slice(4, end)) || {}
+    return {
+      slug: f.replace(/\.md$/, ''),
+      h1: fm.h1 || fm.title,
+      kicker: fm.kicker || '',
+      invocation: fm.invocation || '',
+      count: Array.isArray(fm.gestures) ? fm.gestures.length : 0,
+    }
+  })
+  .sort((a, b) => a.h1.localeCompare(b.h1))
+
+const crossings = threadCrossings()
+---
+<Base
+  title="Threads — Power Explained"
+  description="The composable-river layer: alternate paths through the book, each a thread followed across chapters."
+>
+  <div class="article-wrap">
+    <p class="book-nav">
+      <a href="/book">← The Book</a>
+      <span class="book-nav-sep">·</span>
+      <span>Experimental · the composable river</span>
+    </p>
+
+    <header class="threads-head">
+      <p class="threads-label">Threads</p>
+      <h1>Walk the river along one thread</h1>
+      <p class="threads-dek">
+        The book is one line, but it is woven from many. A <em>thread</em> follows
+        a single idea across chapters — the same gestures the book already holds,
+        gathered into one walk. These are offered alongside the canonical river,
+        not in place of it. Staged and in progress.
+      </p>
+      <p class="threads-legend">
+        New here? The lexicon these threads follow is revealed in
+        <a href="/book/becoming-wizards-in-the-woods">Becoming Wizards in the
+        Woods</a> — "the map of the lexicon." Then meet
+        <a href="/book/corruption-of-the-common">the demon that comes for the
+        commons</a>.
+      </p>
+    </header>
+
+    {threads.length === 0 ? (
+      <p class="threads-empty">No threads yet.</p>
+    ) : (
+      <ul class="threads-list">
+        {threads.map(t => (
+          <li class="thread-card">
+            <a href={`/book/path/${t.slug}`} class="thread-card-link">
+              {t.kicker && <span class="thread-card-kicker">{t.kicker}</span>}
+              <span class="thread-card-title">{t.h1}</span>
+              {t.invocation && <span class="thread-card-inv">{t.invocation}</span>}
+              <span class="thread-card-meta">
+                {t.count} gestures
+                {(crossings[t.slug]?.length || 0) > 0 &&
+                  ` · crosses ${crossings[t.slug].length} ${crossings[t.slug].length === 1 ? 'thread' : 'threads'}`}
+                {' →'}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <p class="threads-foot">
+      <a href="/book/river">Read the whole river →</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 2rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+
+  .threads-head { margin: 0 0 2.5rem; }
+  .threads-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .threads-dek {
+    font-size: 0.95rem; line-height: 1.7; opacity: 0.75; max-width: 36rem;
+    margin-top: 1rem;
+  }
+  .threads-legend {
+    font-size: 0.9rem; line-height: 1.6; margin-top: 1rem;
+    padding: 0.75rem 1rem; border-left: 2px solid var(--red);
+    background: var(--paper-mid);
+  }
+  .threads-legend a { color: var(--red); text-decoration: none; }
+  .threads-legend a:hover { text-decoration: underline; }
+
+  .threads-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+  .thread-card { border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
+  .thread-card-link {
+    display: block; padding: 1.25rem 1.5rem; text-decoration: none; color: inherit;
+  }
+  .thread-card:hover { border-color: var(--red); }
+  .thread-card-kicker {
+    display: block; font-family: var(--mono); font-size: 0.6rem;
+    letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4;
+    margin-bottom: 0.4rem;
+  }
+  .thread-card-title {
+    display: block; font-family: var(--display); font-size: 1.3rem;
+    font-weight: 600; color: var(--ink);
+  }
+  .thread-card-inv {
+    display: block; font-size: 0.9rem; line-height: 1.6;
+    opacity: 0.7; margin-top: 0.6rem;
+  }
+  .thread-card-meta {
+    display: block; font-family: var(--mono); font-size: 0.65rem;
+    letter-spacing: 0.06em; color: var(--red); margin-top: 0.8rem;
+  }
+
+  .threads-empty { opacity: 0.5; font-style: italic; }
+  .threads-foot {
+    margin: 3rem 0 2rem; font-family: var(--mono); font-size: 0.7rem; opacity: 0.5;
+  }
+  .threads-foot a { color: var(--red); text-decoration: none; }
+  .threads-foot a:hover { text-decoration: underline; }
+</style>

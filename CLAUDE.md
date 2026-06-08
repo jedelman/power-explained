@@ -187,6 +187,61 @@ Current draft + build plan + open calls: **`for-agents/overture-draft.md`**.
 
 ---
 
+## Composition pass (ACTIVE — started 2026-06-06)
+
+The successor to the parsing/sequencing work. Where the prior pass was bounded
+to **parsing-by-naming** (label what is already at work, never add), this pass
+crosses into **composition** — new connective prose and a new reading *form* —
+without losing that safety.
+
+**Read first to resume:** `for-agents/composition-pass-instructions.md` (the
+full system + staged plan), then `analysis/composition-pass-notes.md` (live
+position), then `for-agents/compositions/composition-ledger.md` (what's drafted,
+with sources).
+
+**The contract (set with Jason 2026-06-06):**
+- **Stage everything.** The agent composes nothing into the book on its own.
+  The canonical river (`src/content/manifests/the-river.manifest.yml` and the
+  live chapter manifests) is **sacred** — only Jason moves it. Each session
+  leaves a workbench of review-ready drafts on the branch.
+- **Provenance or it doesn't ship.** Every composed sentence is ledgered to a
+  source (a gesture, the lexicon, a cited source, or a Jason directive).
+  Composition is recombination + crystallization, never invention. No source →
+  it's a claim → route to Jason. (Reinforces the non-hallucination rules above.)
+- **Reflexive loop.** Compose → critique in a fresh-context sub-agent against
+  the Gandalf/cadence/pronoun/anti-slop checklist → revise or kill. Zero
+  compositions is a valid session.
+
+**The centerpiece — the composable river.** The book argues for the commons
+(self-governing, multiply-entered) but delivers as a single enclosed line. This
+pass makes the *form* enact the *thesis*: a **path** is a manifest over existing
+gestures (a thread through the rhizome), rendered by the river's own composer.
+Paths live in `src/content/manifests/paths/` and render at `/book/path/<slug>`
+(linked from `/book` → "Walk the threads"). The lexicon-map in Becoming Wizards
+in the Woods (G-IW-027a) is their legend; G-IW-027b opens the form in the prose.
+
+**What shipped (2026-06-08):** 7 threads (each flowed with before/after context)
+woven into an edge graph with true crossings; the corruption-of-the-commons demon
+named + woven into *The Speaking of Names*; the You→We counter-spell at Ch 3's
+close (B1); the 16b frontier flip (B2); the chord pass (Necromancy, Incantation,
+Prefiguration bound across domains); inscription named at the body-instructions
+line; the standalone grimoire retired (it was already woven in P-IW). Every
+composed sentence is ledgered in `for-agents/compositions/composition-ledger.md`.
+
+**Two governing principles (set with Jason 2026-06-08):**
+- **Examples are multi-school.** One example casts several schools at once
+  (Mondragón = prefiguration + hold + necromancy + pact). A gesture may carry
+  more than one school-naming where each genuinely lands; economy still governs.
+- **Name where it's at work, not only where it's labeled.** Parsing-by-naming
+  extends to implicit sites — name a school wherever the gesture is genuinely
+  doing that work. Still never invent; the work must already be on the page.
+
+**Next pass: `for-agents/non-chords-pass-instructions.md`** — deploy the
+underrepresented schools (Evocation/Transformation, commons-cast Abjuration,
+commons-cast Illusion), then thread them when each reaches 3+ instances.
+
+---
+
 ## Session start instructions
 
 **At the start of every session in this repo, load the memory substrate:**
