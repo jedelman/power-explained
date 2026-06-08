@@ -29,7 +29,14 @@ auto-computed crossings rendered on each thread page and counted on the index.
 C1 LIVE SESSION done — "The Corruption of the Common" interlude (Tier-2), now
 WOVEN into "The Speaking of Names" (Goetia) — the first sanctioned canonical-
 river change. Captured-commons thread expanded 4→10 gestures for flow. Index
-retitled Goetia → The Speaking of Names. (2026-06-XX)
+retitled Goetia → The Speaking of Names. Demon named "*The corruption of the
+commons.* Hardt and Negri's name." to parallel the chapter. (2026-06-XX)
+
+B-STAGE started. B1 (You→We seam): pronoun audit done (the turn half-exists at
+G-04-023 as Jason's biographical we; the reader's You→We is unstaged; seam at the
+Ch 3 close G-03-046). Proposal + two sketches staged in
+for-agents/compositions/b1-you-we-seam.md — awaiting Jason's voice, NOT woven.
+B2 (16b frontier intensification) queued. (2026-06-XX)
 
 **Next concrete steps:** (a) Jason reviews the weave (placement after the
 outside / before the practice), the captured-commons thread, the retitle;

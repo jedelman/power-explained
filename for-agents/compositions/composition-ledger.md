@@ -321,3 +321,17 @@ membrane, on the branch, for his review.
 - Interlude display title aligned "Common" → "Commons" (slug/route unchanged).
 - Confirmed by Jason: sequence works; keep P-CC (IDs are non-semantic — that is
   what manifests/frontmatter are for); keep the standalone duplicate (harmless).
+
+## B1 — the You→We seam  ·  Tier 2  ·  PROPOSAL staged (awaiting Jason)
+
+- Pronoun audit done (background agent). Finding: the You→We turn already half-
+  exists at G-04-023 ("you have the name… what we were trying to build"), but as
+  Jason's BIOGRAPHICAL we (the restaurant), buried in narrative. The reader's own
+  You→We — being invited into a "we" — is never staged. The wound (G-03-046, "a
+  piece of the world you built") is never explicitly healed.
+- Seam: end of Ch 3 (G-03-046), before the river turns to building.
+- Two sketches in for-agents/compositions/b1-you-we-seam.md (concrete vs wizard-
+  chiastic), provenance-flagged, clearly Jason's-voice starting points — NOT
+  woven, NOT critiqued-to-ship (they are a menu for his lane). Weakest unsourced
+  bits flagged inline ("one of one" coinage; "the bill … with your name on it").
+- Awaiting Jason: whether to stage it, placement (a/b/c), and the words.
