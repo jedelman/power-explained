@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
+
+// Staged draft interlude — "The Corruption of the Common" (composition pass, C1).
+// NOT in the-river.manifest.yml; reachable by direct URL and from the threads
+// index. See for-agents/compositions/captured-commons-session-prep.md.
+
+const MANIFEST = resolve('src/content/book/the-corruption-of-the-common.md')
+const text = fs.readFileSync(MANIFEST, 'utf8')
+const fm = yaml.load(text.slice(4, text.indexOf('\n---\n', 4))) || {}
+const body = composePlateauBody(MANIFEST)
+---
+<Base title="The Corruption of the Common — Power Explained" description="A demon, named. The shadow the proof must earn.">
+  <div class="article-wrap">
+    <p class="book-nav">
+      <a href="/book">← The Book</a>
+      <span class="book-nav-sep">·</span>
+      <span>Staged draft · a demon, named</span>
+    </p>
+
+    <header class="cc-head">
+      <p class="cc-label">{fm.label || 'Interlude'} · {fm.kicker}</p>
+      <h1>{fm.h1 || fm.title}</h1>
+      {fm.standfirst && <p class="cc-standfirst">{fm.standfirst}</p>}
+    </header>
+
+    <div class="body-text cc-body" data-pagefind-body set:html={md(body)} />
+
+    <p class="cc-foot">
+      The grammar behind this: <a href="/book/grimoire">the grimoire →</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 2rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+
+  .cc-head { margin: 0 0 2.5rem; }
+  .cc-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .cc-standfirst {
+    font-size: 0.8rem; line-height: 1.7; opacity: 0.55; max-width: 34rem;
+    margin-top: 1rem; font-family: var(--mono);
+  }
+  .cc-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .cc-foot {
+    margin: 4rem 0 2rem; font-family: var(--mono); font-size: 0.7rem; opacity: 0.5;
+  }
+  .cc-foot a { color: var(--red); text-decoration: none; }
+  .cc-foot a:hover { text-decoration: underline; }
+</style>

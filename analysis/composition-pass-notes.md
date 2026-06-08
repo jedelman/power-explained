@@ -26,6 +26,10 @@ Herons, Atlantic City) and the edge system are staged. Four threads now form a
 small rhizome (Pact — Atlantic City — Night Herons — Divination), with true,
 auto-computed crossings rendered on each thread page and counted on the index.
 
+C1 LIVE SESSION done — "The Corruption of the Common" interlude composed with
+Jason's direction and staged (2026-06-XX). The first Tier-2 composition: a real
+new argument, demon-framed, open-web case, bracing.
+
 A1 (the grimoire legend) drafted + staged; two more threads (Singularity,
 Shrug) spun — six threads total, all woven by the edge graph. (2026-06-06)
 
@@ -114,6 +118,29 @@ fresh-context critique → verdict) ran for real and passed.
   Shrug⇄Divination ("Du Bois"), Shrug⇄Atlantic City/Herons ("Norfolk"),
   Singularity⇄Pact/Atlantic City ("enclosure"), Singularity⇄Herons ("flowering").
 - Build clean, 134 pages.
+
+### 2026-06-XX — C1 live session: "The Corruption of the Common"
+
+Jason convened the captured-commons session and set the direction: its own
+interlude (corruption "deserves its own treatment"); connected to demons (the
+Goetia frame); the OPEN WEB as the single case ("let's not complicate things");
+read-and-name mode; deterritorializing rupture as the reader's work; BRACING.
+
+- Composed `the-corruption-of-the-common` — gestures G-CC-001…005 (plateau P-CC),
+  manifest, route `/book/corruption-of-the-common`, linked from the threads index.
+  Five movements: name the demon → the web given away, then the gate moves → the
+  freely-made harvested → its weakness (it makes nothing; always late) → the
+  counter is rupture, not a wall ("Make it again").
+- The first Tier-2 composition (a genuinely new argument), yet built almost
+  wholly from existing material: G-16-056 (the open web), 16b (the harvest),
+  G-16-053 (the GPL), and the lexicon (demon / Magic / corruption of the common /
+  the deterritorialization discipline). Deliberately drops every name and date
+  (Berners-Lee/Torvalds/CERN/1991) — keeps only "the web."
+- Critique: REVISE → PASS. One snag — "rented back" (M3) asserted a rent-back
+  mechanic the harvest gestures don't establish; cut. Register judged strong
+  Gandalf, genuinely bracing, neither comfort nor despair.
+- This is the captured-commons / Commonwealth move landed: hope earned by naming
+  the shadow. Pairs with a future "captured commons" thread if Jason wants it.
 
 ### New form of critique (Jason's insight, 2026-06-06) — logged for the system
 

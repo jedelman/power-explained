@@ -194,3 +194,35 @@ The rhizome thickened, all crossings auto-computed and true:
 - the-singularity ⇄ The Pact / Atlantic City · "enclosure"
 - the-singularity ⇄ Night Herons · "flowering" (motif/flowering)
 - threads.mjs humanizeTag now drops trailing state codes (norfolk-va → Norfolk).
+
+---
+
+## the-corruption-of-the-common (C1 — the captured-commons interlude)  ·  Tier 2 (COMPOSED interlude)  ·  staged
+
+- The live-session output. Jason's directive (the session): its own treatment,
+  connected to demons (Goetia frame), the OPEN WEB as the single case, read-and-
+  name mode, deterritorializing rupture as the reader's work, BRACING.
+- Gestures G-CC-001…005 (plateau P-CC, status/draft); manifest
+  src/content/book/the-corruption-of-the-common.md; route
+  /book/corruption-of-the-common; linked from the threads index. NOT in the
+  canonical river. Intended home: a bracing interlude near the proof (after
+  Ch 4) or beside the Goetia.
+- Five movements: name the demon → the web given away, then the gate moves →
+  the freely-made harvested ("the commons went in; what came out had a gate") →
+  read-and-name its weakness (it makes nothing; always late, always second) →
+  the counter is not a wall but rupture + re-common ("Make it again").
+- Provenance: lexicon (demon §3; Magic §2 "no singularity, no magic"; the
+  corruption of the common; the deterritorialization discipline); G-16-056 (the
+  web "into the public domain. No license. No fee. No owner"); G-16b-024/025/031
+  (the commons harvested; "the commons goes in, the proprietary artifact comes
+  out"); G-16-053 (the GPL: "use, share... but not free to close" → "take it,
+  use it, share it, never close it"). NO new names/dates/figures — the interlude
+  deliberately drops Berners-Lee/Torvalds/CERN/1991 and keeps only "the web."
+- Critique (fresh-context sub-agent): overall REVISE → resolved to PASS. The
+  only snag: "rented back" (M3) asserted a rent-back mechanic the harvest
+  gestures don't establish; cut, the sourced "What came out had a gate" carries
+  the closure. Register judged strong Gandalf throughout; genuinely bracing,
+  tipping into neither comfort nor despair (M5 hands the reader the rupture as
+  task). Names/dates discipline called "exemplary."
+- DESIGN CALLS for Jason: placement (after Ch 4 / beside the Goetia); whether to
+  pair it with a future "captured commons" thread; wizard-present voice blessing.
