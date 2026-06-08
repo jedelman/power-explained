@@ -473,3 +473,17 @@ section-between. Audit (background agent) proposed, all IDs verified to exist.
 - atlantic-city: 5 → 6 (G-14-002 completes the opener).
 - Build clean, 135 pages. New true shared-gesture edges emerged (e.g., the Pact
   thread now shares G-13-010/011 with the Captured Commons) — rhizome densified.
+
+## Inscription (Jason's words) + M6 composable-river pointer — WOVEN
+
+- INSCRIPTION: Jason's directive — added "They were *inscribed* into your body."
+  to G-OA-001b after "You have been carrying the instructions and calling them
+  *you*." Names the inscription technique at the body-instructions line (the spell
+  cut into the body). Supersedes the earlier proposed cross-domain Inscription
+  chord. (G-OA-001b is beauty-locked; Jason-directed edit.)
+- M6: Jason "put it in." New gesture G-IW-027b seated after the lexicon-map
+  (G-IW-027a): "And the book is a system too. Read it as a line, or walk it as a
+  field — follow one force across the chapters: the pact, or the reading that
+  reveals, or the road the birds route around…" Opens the composable-river form
+  in the book's own prose. Provenance: the thesis (this pass) + the three live
+  threads + G-IW-027a. Build 135 pages.
