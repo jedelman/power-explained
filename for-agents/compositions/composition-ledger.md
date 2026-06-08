@@ -226,3 +226,49 @@ The rhizome thickened, all crossings auto-computed and true:
   task). Names/dates discipline called "exemplary."
 - DESIGN CALLS for Jason: placement (after Ch 4 / beside the Goetia); whether to
   pair it with a future "captured commons" thread; wizard-present voice blessing.
+
+---
+
+## the-captured-commons  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged
+
+- The shadow thread — gathers the book's existing captures across four domains,
+  deliberately reusing gestures from other threads to activate the STRONG
+  (shared-gesture) edges for the first time:
+  G-02-013 (place — the manufactured slum) [also Atlantic City] →
+  G-13-011 (money — the pact recast) [also The Pact] →
+  G-15-017 (care — made invisible, extracted) [also Divination] →
+  G-16b-031 (knowledge — no say in what is made of us).
+- Invocation (REVISED to PASS): "The same demon, in four houses. A neighborhood
+  let to rot, then cleared; credit turned from a bond between people into a
+  contract; care made invisible so the market can extract it; the work that
+  trained the engine, taken with no say from the people who made it. Each was
+  made or held in common, then captured while we still called it ours. Name the
+  pattern and you can rupture it — break the enclosure open, and re-common what
+  spills out."
+- Sources: the corruption interlude (the demon; "captured while everyone still
+  called it free"); G-02-013, G-13-011 ("mutual obligation made a contract"),
+  G-15-017 ("care rendered invisible so the market can extract it"), G-16b-031
+  ("no say in what is made from them"); deterritorialization discipline.
+- `seealso` → the corruption interlude (the naming).
+- Critique (fresh-context sub-agent): REVISE → PASS. Two fidelity fixes: (1)
+  "everything we ever wrote" totalized G-16b-031 (scoped to a writer's work / no
+  say) → rescoped; (2) "into a debt" muddled G-13-011 (debt-bond is the GOOD
+  original; the enclosure makes it a contract) → "into a contract." No smuggled
+  specifics; bracing.
+
+## Strong edges, now live (threads.mjs enhancement)
+
+- `threadCrossings()` strong-edge branch now names the shared gesture via its
+  member note instead of "a shared gesture." The captured-commons thread is the
+  first hub: it shows strong crossings to Atlantic City ("the slum was
+  manufactured"), Divination ("Federici traces the mechanism"), and The Pact
+  ("the pact, and its enclosure"); those three threads gain the reciprocal edge.
+- Thread pages render an optional `seealso` link (used to point the captured-
+  commons thread at its naming interlude).
+
+## Placement note (Jason, this session)
+
+- The Corruption of the Common interlude may be placed WITHIN "The Speaking of
+  Names" (the Goetia chapter, P-GC) rather than standing alone. Jason's call;
+  manifest move is his. The interlude is built to rhyme with that chapter's
+  demon-naming frame.

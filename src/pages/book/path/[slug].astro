@@ -82,6 +82,10 @@ const crossings = threadCrossings()[slug] || []
 
     <div class="body-text thread-body" data-pagefind-body set:html={md(body)} />
 
+    {fm.seealso && (
+      <p class="thread-seealso"><a href={fm.seealso.href}>{fm.seealso.label}</a></p>
+    )}
+
     <p class="thread-foot">
       A path is an ordering of gestures the book already holds — the river,
       walked along one thread. <a href="/book">Back to the book</a>.
@@ -154,6 +158,15 @@ const crossings = threadCrossings()[slug] || []
     border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
   }
 
+  .thread-seealso {
+    margin: 3rem 0 0; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  .thread-seealso a {
+    color: var(--red); text-decoration: none;
+    font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.04em;
+  }
+  .thread-seealso a:hover { text-decoration: underline; }
   .thread-foot {
     margin: 4rem 0 2rem;
     font-family: var(--mono); font-size: 0.7rem; opacity: 0.5; line-height: 1.7;

@@ -142,7 +142,16 @@ export function threadCrossings() {
       const sharedTags = new Set([...aTags].filter(t => bTags.has(t)))
       const sharedPlat = new Set([...aPlat].filter(p => bPlat.has(p)))
       if (!sharedGest.length && !sharedTags.size && !sharedPlat.size) continue
-      const via = sharedGest.length ? 'a shared gesture' : pickVia(sharedTags, sharedPlat)
+      let via
+      if (sharedGest.length) {
+        // Name the shared gesture (the rhizome node) via its member note.
+        const note =
+          (b.members || []).find(m => m.id === sharedGest[0])?.note ||
+          (a.members || []).find(m => m.id === sharedGest[0])?.note
+        via = note || 'a shared gesture'
+      } else {
+        via = pickVia(sharedTags, sharedPlat)
+      }
       if (via) {
         map[a.slug].push({
           slug: b.slug,
