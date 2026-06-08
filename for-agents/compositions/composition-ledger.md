@@ -308,3 +308,16 @@ membrane, on the branch, for his review.
   your call) or keep P-CC as metadata; (c) the standalone route
   /book/corruption-of-the-common is now also a focused view of the same gestures
   — keep or retire.
+
+## UPDATE — the demon named (Jason), to parallel the chapter's other demons
+
+- G-CC-001 now opens "*The corruption of the commons.* Hardt and Negri's name.
+  The demon that never attacks head-on…" — matching the chapter convention
+  (*Name.* Thinker's name. Epithet.) used by G-GC-008 (Biopower/Foucault),
+  G-GC-019 (Hegemony/Gramsci), G-GC-024 (the outside/Luxemburg).
+- Attribution sourced to the lexicon master principle ("Following Hardt and
+  Negri, every form of the commons has a corrupted form") + the chapter's
+  existing field note (Commonwealth, 2009) — a connection Jason made.
+- Interlude display title aligned "Common" → "Commons" (slug/route unchanged).
+- Confirmed by Jason: sequence works; keep P-CC (IDs are non-semantic — that is
+  what manifests/frontmatter are for); keep the standalone duplicate (harmless).

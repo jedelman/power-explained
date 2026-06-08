@@ -18,6 +18,11 @@ notes: |-
   Provenance: lexicon (the demon — "a power with a nature, a weakness, a use";
   the corruption of the common, Hardt/Negri); the deterritorialization discipline
   ("a thing freed too fast becomes the next thing for sale", G-GR-005); flowering
-  motif. M1 = name the demon.
+  motif. M1 = name the demon. NAMED 2026-06-XX (Jason) to parallel the chapter's
+  other demons — convention matched to G-GC-008/019/024 ("*Name.* Thinker's name.
+  Epithet."). Attribution sourced to the lexicon master principle ("Following
+  Hardt and Negri, every form of the commons has a corrupted form") + the
+  chapter's existing field note (Commonwealth, 2009). "Common" → "Commons" per
+  Jason.
 ---
-There is a demon that never attacks the commons head-on. It waits for the commons to flourish, then encloses the flowering. It does not need to beat what you build. It needs only to outlast the day you stop defending it.
+*The corruption of the commons.* Hardt and Negri's name. The demon that never attacks head-on: it waits for the commons to flourish, then encloses the flowering. It does not need to beat what you build. It needs only to outlast the day you stop defending it.

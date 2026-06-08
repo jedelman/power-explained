@@ -19,7 +19,7 @@ invocation: >-
   it — break the enclosure open, and re-common what spills out.
 seealso:
   href: /book/corruption-of-the-common
-  label: 'The naming: The Corruption of the Common →'
+  label: 'The naming: The Corruption of the Commons →'
 members:
   - id: G-02-013
     ref: 'Chapters 2 & 14'
