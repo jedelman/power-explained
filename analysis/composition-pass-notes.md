@@ -26,6 +26,13 @@ Herons, Atlantic City) and the edge system are staged. Four threads now form a
 small rhizome (Pact — Atlantic City — Night Herons — Divination), with true,
 auto-computed crossings rendered on each thread page and counted on the index.
 
+B-STAGE: B1 (You→We seam) WOVEN at Ch 3 close (Jason's words). B2 (16b frontier
+flip) WOVEN as G-16b-039a after G-16b-039 — fires the master principle where the
+audit found it most earned ("the averaged self becomes the gift; the spell
+becomes the counter-spell"), names the absent "gift." Both on branch, PASS.
+Process flag for Jason: B2's "assemble" wasn't an explicit weave directive — one-
+line revert available if he wants it staged-only. (2026-06-XX)
+
 C1 LIVE SESSION done — "The Corruption of the Common" interlude (Tier-2), now
 WOVEN into "The Speaking of Names" (Goetia) — the first sanctioned canonical-
 river change. Captured-commons thread expanded 4→10 gestures for flow. Index

@@ -349,3 +349,38 @@ membrane, on the branch, for his review.
 - Pronoun contract honored: stages the FIRST earned We (reader-inclusive, "with
   us"); does NOT convert the earlier lonely You's. Build clean, 136 pages,
   chapter-3 aligned (35/34).
+
+## B2 — the 16b frontier flip  ·  Tier 2 (COMPOSED beat)  ·  woven on branch (canonical change #3) — confirm with Jason
+
+- The audit found 16b lands the NEGATIVE hard (G-16b-036/039, "the system cannot
+  produce the singular") but never fires the FLIP; the master principle
+  (spell→counter-spell) is most earned there and unvoiced, and "the gift" is
+  absent from the chapter. This beat is the flip.
+- WOVEN as G-16b-039a, seated after G-16b-039 (paragraph break) and before
+  G-16b-040 ("the window is open") which pivots to tactics (section break).
+  chapter-16b aligned (53 gestures / 52 separators); build clean, 136 pages.
+- Text: "Now turn it over. What cannot be averaged cannot be enclosed: the gate
+  only ever held what could be measured, and what is yours alone was never
+  measurable. The singular is the one commons it cannot take. That is the gift —
+  not a possession but a vantage, the angle on the world no corpus will ever
+  hold. The machine named the thing it could not reach and called it nothing;
+  name it again, and call it your power. The averaged self becomes the gift; the
+  spell becomes the counter-spell."
+- Provenance (all recombination): G-16b-039 (the negative, flipped); G-16b-029
+  ("if you cannot be measured, you are not seen"); G-16b-023 ("not encodable");
+  G-16b-036/037 (you / yours alone / the mycorrhizal dark); G-16b-049 ("a commons
+  that is also a singularity"); the gift + "vantage" + "the angle on the world
+  that is yours alone" (G-16-061, overture G-OV-003, lexicon Magic); naming-as-
+  counter-spell (G-12-020, the grimoire); master principle VERBATIM (lexicon:
+  "the averaged self becomes the gift; the spell becomes the counter-spell").
+- Critique (fresh-context sub-agent): PASS. Provenance sound; the one inference
+  ("cannot be averaged → cannot be enclosed") warranted inline by the book's own
+  enclosure-as-capture-by-measurement definition. No duplication of G-16b-036/050
+  or G-CE-017. Register Gandalf-clean and bracing. Refinement applied:
+  "un-takeable commons" (a coinage) → "the one commons it cannot take" (plainer).
+- TWO FLAGS FOR JASON: (1) PROCESS — B2's directive ("assemble them") did not
+  explicitly say "weave"; I wove on the branch per the B1/corruption pattern (the
+  branch is the review surface, nothing on main). One-line revert if you'd rather
+  it stay staged-only until you give the weave word. (2) The beat uses reclamation
+  "you/your" ("yours alone," "your power") — the wound healing, precedented by
+  its source G-OV-003 ("It is your magic"); confirm the choreography reads right.

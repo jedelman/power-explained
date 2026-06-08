@@ -44,6 +44,7 @@ gestures:
   - G-16b-037
   - G-16b-038
   - G-16b-039
+  - G-16b-039a
   - G-16b-040
   - G-16b-041
   - G-16b-042
@@ -89,6 +90,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
