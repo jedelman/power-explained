@@ -487,3 +487,18 @@ section-between. Audit (background agent) proposed, all IDs verified to exist.
   reveals, or the road the birds route around…" Opens the composable-river form
   in the book's own prose. Provenance: the thesis (this pass) + the three live
   threads + G-IW-027a. Build 135 pages.
+
+## Mondragón restored to the Prefiguration chord + the multi-school principle
+
+- Jason: examples are multi-school (Mondragón = prefiguration + hold + necromancy
+  + pact); the earlier critique's "category error" rejection was too strict.
+- Reverted the G-18-010 prefiguration chord to its clean impermanence landing;
+  placed the chord at G-04-025 (the Mondragón gesture, "Prefiguration at every
+  scale") instead, naming Mondragón among the rhyme with the HOLD register intact:
+  "The same spell on a Tuesday street where music made the commons, in a
+  hundred-year quilombo, in a federation of workers that built its world and held
+  it — one casting, at every scale that will carry it." Sources: G-IB-006 (salsa),
+  G-06-024 (Palmares), the Mondragón gesture itself. Multi-school (prefiguration +
+  hold) per the new principle.
+- Two principles recorded in CLAUDE.md + the non-chords instructions: examples are
+  multi-school; name where it's at work (not only where labeled).

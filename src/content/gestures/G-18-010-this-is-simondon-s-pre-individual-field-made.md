@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-This is Simondon's pre-individual field made visible in public space — the charged generative excess from which singularities emerge without exhausting it. Not a unity. Not a party. The field, fast enough to see. The mycorrhizal network in the open air. Magic in the strict sense, at the scale of a city: prefiguration made physical, for as long as the conditions held. The same casting on a Tuesday street where music made the commons, and in a quilombo self-ruled for a century: the new world lived as if it were already here, each time for as long as it could be held.
+This is Simondon's pre-individual field made visible in public space — the charged generative excess from which singularities emerge without exhausting it. Not a unity. Not a party. The field, fast enough to see. The mycorrhizal network in the open air. Magic in the strict sense, at the scale of a city: prefiguration made physical, for as long as the conditions held.

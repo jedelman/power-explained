@@ -40,4 +40,4 @@ Mondragón at sixty-nine years. The Champlain Housing Trust at forty-two. Kerala
 
 The answer is in the record. It works. It has been working in hundreds of places, across centuries, at scales from a sidewalk fridge to seventy thousand workers to thirty-five million people. It is happening now. The wizard who knows how to look can see it.
 
-Prefiguration at every scale: the world we want, built and defended in the present, against the structure that says it cannot be.
+Prefiguration at every scale: the world we want, built and defended in the present, against the structure that says it cannot be. The same spell on a Tuesday street where music made the commons, in a hundred-year quilombo, in a federation of workers that built its world and held it — one casting, at every scale that will carry it.

@@ -217,8 +217,28 @@ with sources).
 pass makes the *form* enact the *thesis*: a **path** is a manifest over existing
 gestures (a thread through the rhizome), rendered by the river's own composer.
 Paths live in `src/content/manifests/paths/` and render at `/book/path/<slug>`
-(staged: not linked from nav, not part of the canonical river — offered
-*alongside* the line, never replacing it). First one built: the Pact thread.
+(linked from `/book` → "Walk the threads"). The lexicon-map in Becoming Wizards
+in the Woods (G-IW-027a) is their legend; G-IW-027b opens the form in the prose.
+
+**What shipped (2026-06-08):** 7 threads (each flowed with before/after context)
+woven into an edge graph with true crossings; the corruption-of-the-commons demon
+named + woven into *The Speaking of Names*; the You→We counter-spell at Ch 3's
+close (B1); the 16b frontier flip (B2); the chord pass (Necromancy, Incantation,
+Prefiguration bound across domains); inscription named at the body-instructions
+line; the standalone grimoire retired (it was already woven in P-IW). Every
+composed sentence is ledgered in `for-agents/compositions/composition-ledger.md`.
+
+**Two governing principles (set with Jason 2026-06-08):**
+- **Examples are multi-school.** One example casts several schools at once
+  (Mondragón = prefiguration + hold + necromancy + pact). A gesture may carry
+  more than one school-naming where each genuinely lands; economy still governs.
+- **Name where it's at work, not only where it's labeled.** Parsing-by-naming
+  extends to implicit sites — name a school wherever the gesture is genuinely
+  doing that work. Still never invent; the work must already be on the page.
+
+**Next pass: `for-agents/non-chords-pass-instructions.md`** — deploy the
+underrepresented schools (Evocation/Transformation, commons-cast Abjuration,
+commons-cast Illusion), then thread them when each reaches 3+ instances.
 
 ---
 
