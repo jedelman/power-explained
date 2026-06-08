@@ -412,3 +412,42 @@ authorial statement (distinct from offering threads as a site feature, which the
 threads index already does). Candidate one-line beat for G-IW-027a/031 if wanted:
 "These names are a system; so is the book — read it as a line, or walk it as a
 field, following one force across the chapters." NOT woven.
+
+## A2 — the full-book chord pass  ·  Tier 1-2 (COMPOSED binding beats)  ·  woven on branch
+
+Full-book audit (background agent) found Pact + Divination are ALREADY chords
+(the threads), Evocation/Transformation can't be chords (single instances each —
+the hoped-for second evocation doesn't exist), and three strong OPEN chords,
+all lexicon-grounded (Jason's connections). Woven the three:
+
+- NECROMANCY → appended to G-11-037: "The same reach backward holds the Black
+  radical tradition, and the abolitionists who built before there was a word for
+  it — wherever a commons survives, the dead are keeping the door." Sources:
+  G-06-023, G-08-020 (both name necromancy), lexicon §Necromancy. Critique: PASS.
+- INCANTATION → appended to G-16-052: "It is the same speech-magic the early
+  chapters named: common sense cast on the mind, ownership cast onto paper — both
+  turning *the way things are* into *the way things must be*." Sources: lexicon
+  §Incantation (verbatim "the way things are/must be"), G-IW-023/G-06-039,
+  G-16-052. Critique: PASS (the cleanest — binding clause is a lexicon quote).
+- PREFIGURATION → appended to G-18-010. Critique: REVISE → PASS. The first draft
+  conscripted MONDRAGÓN into the prefiguration triad — but the book casts
+  Mondragón as the HOLD exemplar (durable/already-real), the OPPOSITE of
+  prefiguration's "as if"; a connection Jason has NOT made + it undercut the
+  gesture's impermanence landing. Dropped it. Final: "The same casting on a
+  Tuesday street where music made the commons, and in a quilombo self-ruled for a
+  century: the new world lived as if it were already here, each time for as long
+  as it could be held." Sources: G-IB-006 (salsa), G-06-024 (Palmares). No
+  year-count introduced (book conflicts 69 vs 80; avoided).
+
+PROPOSED, not woven — INSCRIPTION chord. Best site (G-OA-003, "the book has a
+word… inscription") is BEAUTY-LOCKED, so routed to Jason. Candidate beat: "The
+same cut is made in the land — the railway driven through a continent, the
+redline drawn through a city — and across the gendered body, generation after
+generation. One spell, two surfaces: the body and the ground." Sources: lexicon
+§Inscription (body AND terrain), G-06-031 (railway "spell written in steel"),
+G-05-026b (gender inscribed). Jason: place as a new G-OA-003a, fold into G-06-031,
+or skip.
+
+FLAGGED as NOT chords (would need new deployment, route to Jason): Evocation /
+Transformation (one instance each); Conjuration/Abjuration (no commons-abjuration
+named in body); Illusion (enclosure-only). Build clean, 135 pages.
