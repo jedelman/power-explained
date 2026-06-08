@@ -384,3 +384,31 @@ membrane, on the branch, for his review.
   it stay staged-only until you give the weave word. (2) The beat uses reclamation
   "you/your" ("yours alone," "your power") — the wound healing, precedented by
   its source G-OV-003 ("It is your magic"); confirm the choreography reads right.
+
+## A1 RECONCILED → RETIRED (the grimoire was already woven, in P-IW)
+
+Jason: "ideally it's woven into the entire book — most of the way there." The
+audit confirmed it is FULLY there, in the becoming-wizards-in-the-woods chapter
+(P-IW), the registered "lexicon reveal":
+- G-IW-024a "Magic has kinds… the same spell, two castings… the wizard's
+  discipline is in the casting" = my G-GR-004 + G-GR-005.
+- G-IW-025 "Every person has a *spellbook*" = the grimoire, as the reader's own.
+- G-IW-027a "The map of the lexicon. Notice the shape. These names are not a
+  list. They are a working system. Yours to fill in." = my A1 thesis exactly
+  (grammar, not glossary), already woven into the initiation chapter.
+- G-IW-029 the four capacities (read/name/build/hold); G-IW-030/031 the practice.
+
+ACTION: retired the standalone P-GR (deleted G-GR-001…006, the-grimoire.md,
+grimoire.astro). It was redundant AND fragmented the grimoire into a separate
+interlude, against "woven into the whole book." Repointed the two links (threads
+index + corruption interlude foot) to /book/becoming-wizards-in-the-woods ("the
+map of the lexicon") as the legend. P-GR left registered-but-retired in the
+ontology. Build 135 pages, no dangling refs.
+
+PRESERVED — the one thing P-GR had that P-IW does NOT: M6's composable-river
+pointer ("the book can be read as a line OR walked as a field"). Optional, and
+Jason's call, because committing the BOOK PROSE to the thread-form is an
+authorial statement (distinct from offering threads as a site feature, which the
+threads index already does). Candidate one-line beat for G-IW-027a/031 if wanted:
+"These names are a system; so is the book — read it as a line, or walk it as a
+field, following one force across the chapters." NOT woven.
