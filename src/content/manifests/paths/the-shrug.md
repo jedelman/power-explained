@@ -29,12 +29,22 @@ members:
     ref: 'Interlude · The Orgone Accumulator'
     note: where the shrug lives
 gestures:
+  - G-01-022
   - G-01-023
+  - G-01-024
+  - G-06-039
   - G-06-040
+  - G-07-001
   - G-07-002
+  - G-OA-008c
   - G-OA-009
 separators:
+  - paragraph
+  - paragraph
   - section
+  - paragraph
   - section
+  - paragraph
   - section
+  - paragraph
 ---

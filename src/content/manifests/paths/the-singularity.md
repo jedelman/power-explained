@@ -29,10 +29,18 @@ members:
     ref: 'Chapter 18 · You Wonderful Weird Birds'
     note: the field made visible, at city scale
 gestures:
+  - G-16-005
+  - G-16-006
   - G-16-007
+  - G-RE-017
   - G-RE-018
+  - G-18-009
   - G-18-010
 separators:
+  - paragraph
+  - paragraph
   - section
+  - paragraph
   - section
+  - paragraph
 ---

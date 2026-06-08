@@ -34,13 +34,15 @@ members:
     note: the boulevard is still there
 gestures:
   - G-14-001
+  - G-14-002
   - G-02-013
   - G-02-014
   - G-14-034
   - G-14-033
 separators:
+  - paragraph
   - section
   - paragraph
   - section
-  - section
+  - paragraph
 ---

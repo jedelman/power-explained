@@ -29,12 +29,22 @@ members:
     ref: 'Chapter 12 · This Was Made'
     note: Freire — the naming is the counter-spell
 gestures:
+  - G-08-004
   - G-08-005
+  - G-06-022
   - G-06-023
+  - G-15-015
+  - G-15-016
   - G-15-017
+  - G-12-019
   - G-12-020
 separators:
+  - paragraph
   - section
+  - paragraph
   - section
+  - paragraph
+  - paragraph
   - section
+  - paragraph
 ---

@@ -451,3 +451,25 @@ or skip.
 FLAGGED as NOT chords (would need new deployment, route to Jason): Evocation /
 Transformation (one instance each); Conjuration/Abjuration (no commons-abjuration
 named in body); Illusion (enclosure-only). Build clean, 135 pages.
+
+## Flow sweep — all six threads expanded for flow  ·  Tier 0 (reordering only)
+
+Applied the before/after-context principle (proven on captured-commons) to all
+six remaining threads. Each member now carries its setup/follow-through neighbor
+so it reads as a flowing unit, not a yanked fragment. No new prose — only
+existing chapter-neighbor gestures added; separators paragraph-within-unit,
+section-between. Audit (background agent) proposed, all IDs verified to exist.
+- the-singularity: 3 → 7 (each Simondon naming now opens on its concrete image —
+  the old-growth forest, the mycorrhizal network, the city).
+- the-divination-thread: 4 → 9 (each reading now has its object; notably G-08-004
+  restores the referent for G-08-005's "Crenshaw read *that case*" — fixed a
+  dangling reference).
+- the-shrug: 4 → 9 (each shrug-naming now carries its trigger; G-OA-008c kokoro
+  precedes G-OA-009, which defines the shrug against it).
+- the-pact-thread: 5 → 9 (G-13-010 sets up the credit-pact; G-13-027 bridges the
+  Caja Laboral to "not charity"; G-16-052/054 frame the GPL counter-spell).
+- the-night-herons: 6 → 12 ("look up" + the first blessing in the prologue now
+  rhyme with the final blessing; each landing carries its setup).
+- atlantic-city: 5 → 6 (G-14-002 completes the opener).
+- Build clean, 135 pages. New true shared-gesture edges emerged (e.g., the Pact
+  thread now shares G-13-010/011 with the Captured Commons) — rhizome densified.

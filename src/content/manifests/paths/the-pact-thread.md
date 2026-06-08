@@ -36,14 +36,22 @@ members:
     ref: 'Chapter 16 · Love'
     note: the GPL — code, the counter-spell
 gestures:
+  - G-13-010
   - G-13-011
   - G-13-026
+  - G-13-027
   - G-13-028
   - G-14-008
+  - G-16-052
   - G-16-053
+  - G-16-054
 separators:
+  - paragraph
   - section
+  - paragraph
   - paragraph
   - section
   - section
+  - paragraph
+  - paragraph
 ---

@@ -37,15 +37,27 @@ members:
     note: go find the nests
 gestures:
   - G-PR-006
+  - G-PR-007
+  - G-PR-008
   - G-PR-009
+  - G-01-036
   - G-01-037
+  - G-12-015
   - G-12-016
   - G-EP-011
+  - G-EP-012
+  - G-EP-016
   - G-EP-017
 separators:
   - paragraph
+  - paragraph
   - section
   - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
   - section
   - paragraph
 ---
