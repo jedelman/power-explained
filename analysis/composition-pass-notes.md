@@ -26,18 +26,16 @@ Herons, Atlantic City) and the edge system are staged. Four threads now form a
 small rhizome (Pact — Atlantic City — Night Herons — Divination), with true,
 auto-computed crossings rendered on each thread page and counted on the index.
 
-C1 LIVE SESSION done — "The Corruption of the Common" interlude (Tier-2) + the
-captured-commons thread, staged (2026-06-XX). The thread reuses gestures from
-Atlantic City / Pact / Divination, activating the first STRONG (shared-gesture)
-edges. Seven threads now. Placement note: the interlude may live within "The
-Speaking of Names" (Jason's manifest call).
+C1 LIVE SESSION done — "The Corruption of the Common" interlude (Tier-2), now
+WOVEN into "The Speaking of Names" (Goetia) — the first sanctioned canonical-
+river change. Captured-commons thread expanded 4→10 gestures for flow. Index
+retitled Goetia → The Speaking of Names. (2026-06-XX)
 
-**Next concrete steps:** (a) Jason reviews the interlude + captured-commons
-thread; decides placement (likely inside the Goetia) and the wizard-voice
-blessing; (b) optional: gesture-level inline "also on" markers (now that
-gestures are shared, the data exists — needs gesture-by-gesture rendering in
-[slug].astro); (c) more threads / the B-stage moves (You→We seam, 16b
-intensification) when wanted.
+**Next concrete steps:** (a) Jason reviews the weave (placement after the
+outside / before the practice), the captured-commons thread, the retitle;
+(b) plateau hygiene — re-home woven G-CC-* to G-GC-* or keep P-CC (his call,
+IDs permanent); (c) apply the before/after FLOW principle to the other threads
+if wanted; (d) wizard-voice blessing; (e) the B-stage (You→We seam, 16b).
 
 A1 (the grimoire legend) drafted + staged; two more threads (Singularity,
 Shrug) spun — six threads total, all woven by the edge graph. (2026-06-06)

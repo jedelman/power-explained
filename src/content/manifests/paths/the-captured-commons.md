@@ -22,24 +22,36 @@ seealso:
   label: 'The naming: The Corruption of the Common →'
 members:
   - id: G-02-013
-    ref: 'Chapter 2 · Two Cities'
-    note: place — the manufactured slum
+    ref: 'Chapters 2 & 14'
+    note: place — a neighborhood manufactured into ruin
   - id: G-13-011
     ref: 'Chapter 13 · Debt'
-    note: money — the pact recast
+    note: money — the bond made a transaction
   - id: G-15-017
     ref: 'Chapter 15 · Still Meeting'
-    note: care — made invisible, extracted
+    note: care — made invisible, then extracted
   - id: G-16b-031
     ref: 'Chapter 16b · The Hollow Book'
-    note: knowledge — no say in what is made of us
+    note: knowledge — the commons taken with no say
 gestures:
   - G-02-013
+  - G-02-014
+  - G-14-034
+  - G-13-010
   - G-13-011
+  - G-15-015
   - G-15-017
+  - G-15-018
+  - G-16b-030
   - G-16b-031
 separators:
+  - paragraph
+  - paragraph
   - section
+  - paragraph
   - section
+  - paragraph
+  - paragraph
   - section
+  - paragraph
 ---

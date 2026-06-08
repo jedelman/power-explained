@@ -272,3 +272,39 @@ The rhizome thickened, all crossings auto-computed and true:
   Names" (the Goetia chapter, P-GC) rather than standing alone. Jason's call;
   manifest move is his. The interlude is built to rhyme with that chapter's
   demon-naming frame.
+
+---
+
+## UPDATE — captured-commons thread expanded for flow (Jason: "they can be larger")
+
+- Was 4 lone gestures (felt sparse). Now 10, grouped into four flowing "houses,"
+  each 2-3 gestures with before/after context, paragraph-joined within a house
+  and section-broken between:
+  - place: G-02-013 → G-02-014 → G-14-034 (manufacture → demolition → aftermath)
+  - money: G-13-010 → G-13-011 (money kills the relationship → credit enclosed)
+  - care: G-15-015 → G-15-017 → G-15-018 (the mechanism → operational → the Bronx aide)
+  - knowledge: G-16b-030 → G-16b-031 (the Basmati patent → the writer / no say)
+- No new prose (Tier 0). Members header keeps the 4 house anchors so the strong
+  edges still resolve. PRINCIPLE for future threads: include lead-in / lead-out
+  gestures so a thread reads as flowing prose, not isolated fragments. Threads
+  can be larger.
+
+## CANONICAL-RIVER CHANGE #1 — interlude woven into "The Speaking of Names" (Goetia)
+
+First sanctioned change to a live chapter manifest (Jason's directive this
+session). Everything before this stayed in the workbench; this crosses the
+membrane, on the branch, for his review.
+
+- `src/content/book/goetia.md`: G-CC-001…005 inserted after G-GC-026a ("the
+  outside") and before G-GC-028 (the practice) — the corruption demon as the
+  last name before the chapter turns to naming-as-counter-spell. Separators
+  realigned (57 gestures / 56 separators, verified); build clean; the river
+  renders the demon in place.
+- `src/pages/book/index.astro`: the chapter retitled "The Goetia of Capital" →
+  "The Speaking of Names" (the index had lagged the chapter's own h1).
+- OPEN for Jason: (a) confirm the placement (after the outside / before the
+  practice) or move it; (b) plateau hygiene — the woven gestures are P-CC inside
+  a P-GC chapter; decide whether to re-home them to G-GC-* (IDs are permanent —
+  your call) or keep P-CC as metadata; (c) the standalone route
+  /book/corruption-of-the-common is now also a focused view of the same gestures
+  — keep or retire.
