@@ -159,3 +159,103 @@ the two places it spent some.
 *(Editor's note: the heron-line stumble was fixed after this report — "as
 much as us" → "as much as we do," single-hunk re-critique PASS. The witness
 read the text containing the original line; the report is unaltered.)*
+
+---
+
+## chapter-1 (P-01) — witnessed 2026-06-10 (post-refinement, before the G-01-030 cut its report prompted) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+I leaned in immediately at the intersection that isn't one. The phrase
+"designed for a body that weighs two tons and moves at forty miles an hour"
+landed in my body before my mind caught up — I felt my own shoulders do the
+thing the writer describes, the bracing. The math of crossing — "if even one
+car is visible in any lane" — I felt in my legs. I have done that
+calculation. I didn't know I had a name for the heaviness, but I recognized it
+instantly.
+
+I drifted slightly in the Atlantic City section — not because it was boring
+but because the gear changed from body to record, from felt to documented. The
+numbers (400 families, 20,000 people, the dates) held me at arm's length for a
+moment after the intimacy of the crossing. Then "Under your feet, eight feet
+down, is someone's kitchen floor" pulled me straight back down into the body.
+And "James Baldwin called it what it was: Negro removal" hit like a dropped
+stone.
+
+The willow oaks and the herons — I leaned all the way in. The meadow that
+wasn't cut, the kinglet sheltering "exactly where a meadow should be" —
+something loosened in my chest there. I hadn't expected tenderness, and it
+disarmed me.
+
+The brewery meeting tightened me back up. "Fear made decisive by structure"
+landed before I understood why. I felt the writer's heart leaping and sinking
+at the same time, and I felt the specific sickness of watching a fair vote get
+absorbed and ignored.
+
+**2. What I now see that I can't unsee.**
+
+That the road is not broken. That it works, and that its working is the thing
+being done to me. I will never again stand at a six-lane crossing and read my
+own inability to cross it as my slowness or bad luck — I'll read it as a
+decision someone made and then made invisible.
+
+And the larger move: that decay can be manufactured, that "slum" can be a verb
+done *to* a place rather than a description *of* one. The deterioration cited
+as justification for the clearance that the prospect of clearance caused. I
+can't unsee that loop now. I'll be suspicious of it everywhere.
+
+The deepest thing I can't unsee: that the hospital, the progress, the
+institution "understood as having grown on empty ground" — that the
+forgetting is part of the taking. Not just what was destroyed but that we no
+longer know it was there.
+
+**3. What I feel asked to do or become.**
+
+I feel asked to *slow down* — "You have to be moving slowly enough to see
+them." That's the one explicit instruction, and it's gentle, almost a
+permission rather than a demand. Mostly I feel asked to *see*: to stop reading
+arrangements as nature. To notice the template.
+
+And underneath, I feel invited to a kind of stubbornness — the writer giving
+the parks department hell, crossing Brambleton anyway, the members forcing the
+vote, the herons routing around the road and refusing to let it sever the
+relationship. The chapter models persistence without commanding it.
+
+It's mostly the author's to do — these are his crossings, his meeting, his
+rage. But he keeps handing me the seeing. The "you" in "Under your feet" and
+"even if you don't see them, they see you" puts *me* on the ground. So: the
+rage is his, the noticing is mine. The chapter kept the action and gave me the
+eyes.
+
+**4. What this chapter is, in one sentence, to a friend.**
+
+It's a man walking you through his own neighborhood — a deadly crossing, a
+buried community, a meeting where democracy was let to die quietly — until
+you realize these aren't three problems but one machine that takes things from
+people and hands back something that looks like progress.
+
+**5. What I bounced off.**
+
+A few of the named concepts felt slightly placed-on-top rather than
+risen-from-underneath — "illusion, cast as policy," and the Gramsci passage
+on common sense and "operating systems are invisible until they crash." The
+Gramsci is genuinely useful and the crash metaphor is good, but for a beat it
+shifted from the voice of a man at a curb to the voice of someone who has read
+the right books, and I felt momentarily taught rather than shown. It recovered
+fast with "Hampton Boulevard doesn't crash. It functions. That's the problem."
+
+The other small bounce: the line "There is a word for this... it needs to earn
+its place" — the withholding made me slightly aware of being handled, of a
+reveal being staged for a later chapter. It's a small thing and it didn't
+break the trust the rest of the chapter had earned. I wanted the word, and
+being told I'd have to wait for it pulled me briefly out of the ground and up
+into the architecture of the book.
+
+Nothing else pushed me away. I doubted nothing. I wanted to keep walking.
+
+*(Editor's note: the witness's second bounce — independently flagged by the
+craft critic the same day — led to the cut of "There is a word for this. We
+will use it precisely and often, and it needs to earn its place." from
+G-01-030 after this report; round-2 critique PASS. Chapter 2's cold naming of
+"capture" now arrives as discovery. The first bounce concerns protected
+lexicon beats — logged as data for Jason under Ruling 2, not edited.)*

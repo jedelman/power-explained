@@ -16,8 +16,9 @@ reports the arc against the title's promise.
 ## Current position
 
 **Phase 1 underway.** Overture DONE (passes clean, witness MATCH).
-Prologue DONE (3 edits incl. first retirement, witness MATCH).
-Next chapter: chapter-1 (river order, source 3 of 28).
+Prologue DONE (3 edits, witness MATCH). Chapter-1 DONE (6 edits incl. 1
+retirement + 1 reorder, witness MATCH; Ruling 2 promoted).
+Next chapter: chapter-2 (river order, source 4 of 28).
 
 ---
 
@@ -67,6 +68,7 @@ recomposed, and verdicts)
 |---|---|---|---|---|---|
 | overture | 441→441 | 5.78→5.78 | 15.75→15.75 | 5→5 | MATCH |
 | prologue | 2310→2299 | 8.09→8.10 | 14.81→14.83 | 31→30 | MATCH |
+| chapter-1 | 2388→2329 | 8.25→8.29 | 14.39→14.38 | 38→37 | MATCH |
 
 ---
 
@@ -112,6 +114,39 @@ recomposed, and verdicts)
   the six-levels section pulled the witness back hard — whatever happens,
   that landing stays.
 
+### chapter-1 (P-01) — 6 EDITS, ALL PASS · witness MATCH · 2026-06-10
+
+- **Essence:** Rage at a functioning system, learned in the body at a
+  crossing built on a demolished neighborhood: the road, the erasure beneath
+  it, and the ignored vote are one machine extracting from the community and
+  returning legitimacy. The turn: "Not rage at a broken system — rage at a
+  functioning one" — and the crack: the rage and the beauty are the same
+  corridor.
+- **Invocation:** The reader feels the template become visible as a template
+  — their own city's "just how it is" turns into a decision re-enacted daily
+  — and learns the posture that finds the cracks: moving slowly enough to
+  see them. (Second-initiation station: the crack.)
+- **Edits (6):** G-01-016 reorder (street-trees threat surfaced before the
+  oaks; heron antecedent fixed — critic: "reveals, not rearranges");
+  G-01-020 explained-twice cut ("but a legitimate one"); G-01-024 definition
+  sentence cut (shrug-thread sense verified intact); RETIRED G-01-034
+  (brochure promise — the question now lands directly in the midnight crack;
+  critic: "the strongest transformation in the set"); G-01-030 cut "There is
+  a word for this…" after independent critic + witness flags (Ch 2's cold
+  "capture" naming arrives as discovery, not delivery; round-2 critique
+  PASS); mechanics verified.
+- **Witness (blind):** MATCH. "I'll read it as a decision someone made and
+  then made invisible"; "decay can be manufactured… I'll be suspicious of it
+  everywhere"; the Stone again: "the rage is his, the noticing is mine. The
+  chapter kept the action and gave me the eyes." Closing line: "I wanted to
+  keep walking."
+- **Witness observations:** (1) the lexicon beats ("illusion, cast as
+  policy"; the Gramsci passage) read "slightly placed-on-top rather than
+  risen-from-underneath" to a cold reader — PROTECTED, not edited; logged as
+  recurring data for Jason (see Ruling 2). (2) The Atlantic City documentary
+  numbers "held me at arm's length" until the kitchen floor pulled back —
+  the register shift is doing its job; no edit.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -120,8 +155,8 @@ recomposed, and verdicts)
   the wrap-up Stone test will check it book-grain.
 - Both witnesses cooled at exactly the passages where the book *instructs*
   (the witch history beat; the six-levels map) and warmed at concrete
-  image landings. The pattern: instruction chills, image warms. Candidate
-  Ruling if it recurs in Ch 1+.
+  image landings. The pattern: instruction chills, image warms. CONFIRMED in
+  chapter-1 (third instance) — promoted to Ruling 2 in the instructions doc.
 
 ## Cross-cutting patterns archive
 

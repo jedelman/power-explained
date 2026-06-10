@@ -272,3 +272,11 @@ DO NOT use scripts/apply-merges.mjs (targets the retired per-plateau layout).
    separator preserves the section break — regardless of the checklist's
    default "remove the preceding separator." The section structure outranks
    the mechanical rule.
+2. **Instruction chills, image warms (2026-06-10, confirmed across overture,
+   prologue, chapter-1).** Blind witnesses consistently cool where the book
+   instructs, announces its own method, or stages a reveal, and warm at
+   concrete landings. Disposition: an unprotected meta-announcement whose
+   content is carried elsewhere is cut by default (G-01-034, G-01-030's
+   "There is a word for this"). Protected analytic/lexicon beats stay — the
+   witnesses' "placed-on-top" readings of those are logged as data for Jason,
+   never edited. New meta-announcements are never added.
