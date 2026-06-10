@@ -119,7 +119,9 @@ properly, never reused. Chapter-level order in the river is untouched.
    does something other than intended — a finding about the book) → flag
    for Jason, do not chase with edits. One re-witness max.
 10. Logbook: essence + invocation + witness summary + entry + metrics row +
-    cut counts; advance Current position.
+    cut counts; advance Current position. Append the witness's FULL report
+    verbatim to `analysis/alchemical-witness-reports.md` (the raw testimony
+    file Jason reads).
 11. Commit + push:
 
 ```
