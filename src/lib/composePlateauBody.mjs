@@ -112,3 +112,34 @@ export function composePlateauBody(chapterMdPath, repoRoot = process.cwd()) {
   if (framing) out += "\n\n" + framing;
   return out + "\n";
 }
+
+/**
+ * composePlateauUnits — the same composition, kept per-gesture.
+ *
+ * Returns { units: [{ id, body, sepAfter }], framing } where sepAfter is
+ * the declared separator ("paragraph" | "section") between this gesture and
+ * the next (null on the last unit). Used by routes that need a stable anchor
+ * per gesture (the river's deep links; the threads' origin links) without
+ * altering composePlateauBody's byte-equivalence-locked output.
+ */
+export function composePlateauUnits(chapterMdPath, repoRoot = process.cwd()) {
+  const absPath = path.isAbsolute(chapterMdPath)
+    ? chapterMdPath
+    : path.join(repoRoot, chapterMdPath);
+
+  const text = fs.readFileSync(absPath, "utf8");
+  const { fm, body: framingBody } = loadFrontmatter(text);
+  const framing = framingBody.replace(/^\n+/, "").replace(/\n+$/, "");
+
+  const gestureIds = Array.isArray(fm.gestures) ? fm.gestures : [];
+  const separators = Array.isArray(fm.separators) ? fm.separators : [];
+
+  const units = gestureIds.map((gid, i) => ({
+    id: gid,
+    body: readGestureBody(repoRoot, null, gid),
+    sepAfter:
+      i < gestureIds.length - 1 ? (separators[i] ?? "paragraph") : null,
+  }));
+
+  return { units, framing };
+}

@@ -17,4 +17,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The garden the tenant union plants together. The free library in the lobby of the cooperative. The music at the rally that isn't between speeches. These are not the fun parts of organizing that you add when you have time. They are the mechanism by which communities renew themselves — by which people learn that they are capable of more than they were told, by which the excess gets generated that makes movements irreversible in ways that policy victories are not.
+The garden the tenant union plants together. The free library in the lobby of the cooperative. The music at the rally that isn't between speeches. These are not the fun parts of organizing that you add when you have time. They are the mechanism by which communities renew themselves — by which people learn that they are capable of more than they were told, by which the excess gets generated that makes movements irreversible in ways that policy victories are not. Evocation, cast for the commons — renewal carried in the felt register.

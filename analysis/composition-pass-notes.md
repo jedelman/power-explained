@@ -184,3 +184,44 @@ the form. (Candidate next audit: walk the Pact thread and judge whether G-13-011
   voice yours? If yes, this is the template for every other thread.
 - Resolved 2026-06-06: chords greenlit (refine downriver); grimoire-as-system
   gets its own space adjacent to the build chapters; CLAUDE.md pointer added.
+
+### 2026-06-10 — The non-chords pass + the atlas + the second initiation
+
+Run by the new model on `claude/stoic-gates-6z9rmv`, all per-family commits
+pushed. Three movements:
+
+1. **Non-chords pass complete.** Evocation deployed at G-11-017 + G-14-018
+   (joining G-IB-004 → 3 instances, thread-eligible); Transformation at
+   G-02-030 (2 instances, no thread); commons-cast Abjuration first namings at
+   G-06-028, G-14-032, G-17-035 (3 instances, thread-eligible); commons-cast
+   Illusion ZERO insertions — the corpus holds no genuine hiding-as-protection
+   site; the one composed beat (G-13-034) was killed at critique for inverting
+   the gesture's own causality. Route to Jason: commons-cast illusion needs new
+   material (Underground Railroad / maroon camouflage / free school) only he
+   can supply. Every beat fresh-context critiqued; batch finding applied: the
+   full "cast for the commons" formula is reserved for a school's first
+   commons-cast naming. All ledgered.
+2. **Two offered threads** (the-evocation-thread, the-abjuration-thread) +
+   **the atlas** (`/book/atlas`, Spine step 3): the whole gesture-field mapped,
+   thread overlays, true rhizome nodes, all computed at build. Linked from
+   /book (Jason's direction) and the threads index.
+3. **The becoming-read + the second initiation.** Jason directed: read the
+   whole river in sequence, ask what digital trace of awakening the wizard
+   leaves as a sigil, make the book into that, witness and reflect. The full
+   river was read (82,667 words, 8 slices, notes kept throughout). The answer
+   came from the book's own lexicon: a sigil carries the spell forward; the
+   description is the spell; the collector arranges fragments so the original
+   meaning shows through; the room must teach itself. Built:
+   `the-second-initiation` — the becoming gathered as the river's longest
+   thread (26 gestures, 15 stations: the spell → the crack → the We → the
+   spellbook → the naming → the practice → the readiness → the shard → the
+   ledger → the gift → the return → the crossing → the quest → come find us →
+   what is still here). Staged (NOT woven): a candidate centaur witness
+   gesture, `for-agents/compositions/the-walkers-mark.md` — Jason's call.
+
+Open calls for Jason after this session: (a) review the six woven school
+beats + two flags from critique (G-06-028 paragraph-break read-aloud; the
+Weelaunee double-landing); (b) the yielded E1 relocation at G-17-034;
+(c) the walker's-mark gesture — weave, revise, or decline; (d) commons-cast
+illusion material, if wanted; (e) the second-initiation member list — does
+the walk match the initiation he means the book to perform?

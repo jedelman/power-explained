@@ -31,6 +31,7 @@ gestures:
   - G-CE-026
   - G-CE-027
   - G-CE-028
+  - G-CE-028a
   - G-CE-030
   - G-CE-032
   - G-CE-033
@@ -58,6 +59,7 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
   - section
   - paragraph
   - paragraph

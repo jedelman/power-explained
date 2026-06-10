@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro'
 import fs from 'node:fs'
 import { resolve } from 'path'
 import yaml from 'js-yaml'
-import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { composePlateauBody, composePlateauUnits } from '../../lib/composePlateauBody.mjs'
 import { md } from '../../lib/markdown.mjs'
 
 const RIVER = yaml.load(
@@ -27,6 +27,7 @@ function readChapterMeta(slug) {
 const chapters = RIVER.sources.map(slug => ({
   ...readChapterMeta(slug),
   body: composePlateauBody(resolve(`src/content/book/${slug}.md`)),
+  ...composePlateauUnits(resolve(`src/content/book/${slug}.md`)),
 }))
 
 const totalGestures = chapters.reduce((s, c) => s + c.gestureCount, 0)
@@ -97,7 +98,20 @@ for (const c of chapters) {
             <p class="river-slug">{c.plateauId} · {c.slug}</p>
             <h2 class="river-chapter-title">{c.h1}</h2>
           </header>
-          <div set:html={md(c.body)} />
+          {c.units.length > 0 ? (
+            <div>
+              {c.units.map(u => (
+                <div class="g-unit" id={u.id}>
+                  <a class="g-id" href={`#${u.id}`} title={`Link to ${u.id}`}>{u.id}</a>
+                  <div set:html={md(u.body)} />
+                  {u.sepAfter === 'section' && <hr class="section-break" />}
+                </div>
+              ))}
+              {c.framing && <div set:html={md(c.framing)} />}
+            </div>
+          ) : (
+            <div set:html={md(c.body)} />
+          )}
           {i < chapters.length - 1 && <hr class="river-chapter-break" />}
         </section>
       ))}
@@ -189,6 +203,20 @@ for (const c of chapters) {
 
   .river-body :global(hr.section-break) {
     border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .g-unit { position: relative; scroll-margin-top: 1.5rem; }
+  .g-id {
+    position: absolute; left: -5.5rem; top: 0.35rem; width: 5rem;
+    text-align: right;
+    font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.04em;
+    color: var(--ink); opacity: 0; text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .g-unit:hover .g-id { opacity: 0.35; }
+  .g-id:hover { opacity: 0.8 !important; color: var(--red); }
+  .g-unit:target .g-id { opacity: 0.6; color: var(--red); }
+  @media (max-width: 72rem) {
+    .g-id { position: static; display: block; width: auto; text-align: left; margin-bottom: 0.2rem; opacity: 0.25; }
   }
   .river-body :global(.chapter-coda) {
     font-family: var(--mono); font-size: 0.8rem; line-height: 1.7;

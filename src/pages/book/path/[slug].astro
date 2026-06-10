@@ -3,7 +3,7 @@ import Base from '../../../layouts/Base.astro'
 import fs from 'node:fs'
 import { resolve } from 'path'
 import yaml from 'js-yaml'
-import { composePlateauBody } from '../../../lib/composePlateauBody.mjs'
+import { composePlateauUnits } from '../../../lib/composePlateauBody.mjs'
 import { md } from '../../../lib/markdown.mjs'
 import { threadCrossings } from '../../../lib/threads.mjs'
 
@@ -31,7 +31,7 @@ export function getStaticPaths() {
 
 const { slug } = Astro.params
 const fm = readPath(slug)
-const body = composePlateauBody(`${PATHS_DIR}/${slug}.md`)
+const { units } = composePlateauUnits(`${PATHS_DIR}/${slug}.md`)
 const memberCount = Array.isArray(fm.gestures) ? fm.gestures.length : 0
 const crossings = threadCrossings()[slug] || []
 ---
@@ -80,7 +80,15 @@ const crossings = threadCrossings()[slug] || []
       )}
     </header>
 
-    <div class="body-text thread-body" data-pagefind-body set:html={md(body)} />
+    <div class="body-text thread-body" data-pagefind-body>
+      {units.map(u => (
+        <div class="t-unit">
+          <a class="g-origin" href={`/book/river#${u.id}`} title={`${u.id} in the river`}>{u.id}</a>
+          <div set:html={md(u.body)} />
+          {u.sepAfter === 'section' && <hr class="section-break" />}
+        </div>
+      ))}
+    </div>
 
     {fm.seealso && (
       <p class="thread-seealso"><a href={fm.seealso.href}>{fm.seealso.label}</a></p>
@@ -156,6 +164,19 @@ const crossings = threadCrossings()[slug] || []
 
   .thread-body :global(hr.section-break) {
     border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .t-unit { position: relative; }
+  .g-origin {
+    position: absolute; left: -5.5rem; top: 0.35rem; width: 5rem;
+    text-align: right;
+    font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.04em;
+    color: var(--ink); opacity: 0.18; text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .t-unit:hover .g-origin { opacity: 0.45; }
+  .g-origin:hover { opacity: 0.9 !important; color: var(--red); }
+  @media (max-width: 72rem) {
+    .g-origin { position: static; display: block; width: auto; text-align: left; margin-bottom: 0.2rem; opacity: 0.3; }
   }
 
   .thread-seealso {

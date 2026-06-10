@@ -502,3 +502,221 @@ section-between. Audit (background agent) proposed, all IDs verified to exist.
   hold) per the new principle.
 - Two principles recorded in CLAUDE.md + the non-chords instructions: examples are
   multi-school; name where it's at work (not only where labeled).
+
+## Non-chords pass — Evocation ⇄ Transformation family  ·  Tier 1 (parsing-by-naming)  ·  woven
+
+The first family of the non-chords pass (instructions:
+`for-agents/non-chords-pass-instructions.md`). Audit by background agent;
+every quote verified against the file before composing; all beats critiqued
+in a fresh-context sub-agent. Batch-level critique finding applied across the
+pass: the full "cast for the commons" formula is reserved for a school's first
+commons-cast naming; later instances vary the shape.
+
+- **G-11-017 (Ch 11, the garden / library / song):** appended
+  "Evocation, cast for the commons — renewal carried in the felt register."
+  Sources: the gesture's own "mechanism by which communities renew themselves"
+  + "irreversible in ways that policy victories are not"; lexicon §2 Evocation
+  (psychospiritual register). Critique: REVISE → the original beat re-listed the
+  gesture's triad and overclaimed (garden/library are commoning, not evocation);
+  revised to name the felt mechanism, not the item list. Trimmed the critic's
+  "not the policy victory" tail (redundant echo of the prior sentence).
+- **G-14-018 (Ch 14, teaching through affect in the PNW):** inserted standalone
+  "Evocation, passed the only way it passes." after "not as a skill but as a
+  doorway." Sources: the gesture's "I taught not through information but through
+  affect — the only way this transmission works"; "honoring and blessing and
+  singing." Critique: REVISE → original placement broke the "I taught" anaphora
+  mid-run; moved after the doorway sentence, formula dropped.
+- **G-02-030 (Ch 2, Decidim):** inserted "Transformation — the tool built to be
+  given away." after "available to any city that wanted to use it." Sources: the
+  gesture's "The tool existed. It was waiting." + open-source/federated/modular
+  release; lexicon §2 Transformation (commons-cast: open-source). Critique:
+  REVISE → original opener duplicated the shipped Ch 16 naming word-for-word and
+  sat one gesture before G-02-031's identical-formula pop; formula dropped.
+
+**Killed / yielded (logged per the zero-is-valid rule):**
+- **T2 · G-10-042 (GPL/Linux/Luxemburg) — KILLED.** Restates the shipped Ch 16
+  naming in school, domain, and gloss vocabulary ("builder's mastery" ≈
+  "engineer's mastery"); the gesture already names itself natively ("This is
+  source, not instructions."). A third open-source transformation naming is
+  repetition, not a new instance.
+- **E1 · G-17-034 (grief rituals / practices of the return) — YIELDED.** Sound
+  provenance, but same-chapter formula clash with G-17-049's existing "Ritual
+  cast for commons" pop over overlapping material, and consecutive in the
+  manifest with G-17-035 (which takes the abjuration beat) — two adjacent
+  closing pops read as curriculum. AB3 is the stronger of the pair. Open call
+  for Jason: relocate a bare "Evocation — grief and praise doing the work of
+  return." here only if he wants the third Ch 17 naming.
+
+Instance counts after weave: Evocation = 3 (G-IB-004 salsa, G-11-017 organizing,
+G-14-018 wilderness teaching) → thread-eligible. Transformation = 2 (G-16-056,
+G-02-030) → below the 3-instance thread bar; no thread offered.
+
+## Non-chords pass — Abjuration (commons-cast) family  ·  Tier 1 (parsing-by-naming)  ·  woven
+
+The school's first commons-cast namings in body text (only the enclosure cast
+existed: G-06-014's "Conjuration and abjuration cast as one motion"). All three
+beats PASSED fresh-context critique as drafted.
+
+- **G-06-028 (The Colony, the pre-colonial African commons):** inserted
+  "Abjuration, cast for the commons — the refusal that protects the commoning."
+  after "No chiefs. No enclosure." Sources: the gesture's "No chiefs. No
+  enclosure." + lexicon §2 Abjuration (the Mbuti refusal of chiefs is the
+  lexicon's literal worked example; gloss is lexicon-built). Carries the full
+  formula as the school's first commons cast; counter-casts G-06-014's
+  enclosure naming earlier in the same chapter. Flag for Jason (from critique):
+  read aloud across the paragraph break to "These were not preparations."
+- **G-14-032 (Ch 14, Weelaunee):** appended "Abjuration, cast for the commons —
+  the body itself the boundary." Sources: the gesture's "people placing their
+  bodies between a living ecosystem and its destruction" + "a community to be
+  defended." Flag for Jason (from critique): the beat takes the last word from
+  the "old-growth stand outside Atlanta" place-landing — a second landing after
+  a first is his call.
+- **G-17-035 (Ch 17, the Tzutujil roofing refusal):** appended "That is what the
+  refusal protected. Abjuration, cast for the commons." Sources: the gesture's
+  own spine ("The Tzutujil refused…", "the web of relationship was rewoven",
+  "The obligations were renewed"). Inverted construction (gloss first, name as
+  landing) per the batch anti-formula-fatigue finding. Double-naming with
+  G-17-049's ritual pop on the same example is legitimate under the multi-school
+  principle: the refusal and the repetition are distinct work on the page.
+
+**Skipped (logged):**
+- **G-07-040 (the Palmares / Zapatista / Crown Heights refusal triad)** — same
+  chapter as G-06-028 after the Colony merge (47 gestures apart), and the
+  gesture already closes on a technique triad ("Undoing the inscription.
+  Breaking the incantation. Rupturing the territory."). A second commons-
+  abjuration naming in the chapter is repetition; the triad already does its
+  own naming work.
+- **G-14-031 (Standing Rock)** — adjacent to G-14-032 in the same chapter; one
+  naming covers the defense-of-land pair, and the gesture's personal-testimony
+  register ("I have friends who were there. They have scars.") should not carry
+  a taxonomy beat.
+- **G-06-024 (Palmares)** — already carries two school namings
+  ("Deterritorialization and prefiguration in one act"); the refusal-to-harbor
+  detail from the lexicon is not on this page (the page gives collective
+  defense + governance), and G-07-040 holds the explicit Palmares refusal.
+
+Instance count after weave: commons-cast Abjuration = 3 (G-06-028 stateless
+governance, G-14-032 defense of land, G-17-035 technology refusal) across three
+chapters/domains → thread-eligible.
+
+## Non-chords pass — Illusion (commons-cast) family  ·  ZERO INSERTIONS  ·  skipped with reasons
+
+The audit swept the corpus on the lexicon's seeds (Underground Railroad, maroon
+camouflage, fugitivity, hush harbor, safe house, samizdat, the free school under
+the radar…) and returned 14 candidates. None survived scrutiny. The lexicon
+defines commons-cast illusion as **hiding-as-protection** — deliberate
+concealment from a hunting power. The corpus does not currently contain that
+work on any page:
+
+- **G-13-034 (Norfolk informal credit) — KILLED at critique**, the only beat
+  composed. Three grounds: (1) the credit does not hide from the bank; it lives
+  outside the apparatus — exteriority, not camouflage; no act of concealment is
+  on the page. (2) The gloss ("alive because no ledger can read it") asserted a
+  survival-through-illegibility mechanism the gesture contradicts — its own
+  causality is that discharging the debt would end the relationship; the
+  ledger's blindness is incidental. An invented connection → provenance
+  violation. (3) First-instance damage: the book's first commons-cast illusion
+  naming teaches the school; teaching it on a non-hiding site corrupts the
+  definition for every later use.
+- **G-15-008 / G-15-010 (the witch hunts)** — the hiding there is the terror
+  winning ("afraid to practice what they knew"), not the commons protecting
+  itself. Naming it commons-cast illusion would invert the gesture's meaning.
+- **G-06-024 (Palmares)** — the page gives governance and collective defense,
+  not concealment; maroon camouflage is in the lexicon, not in this prose.
+- **G-04-020 (community fridges), G-15-001 (Crown Heights)** — maximally
+  visible, on the sidewalk; informality is not hiding.
+- **G-16b-022/037 (the mycorrhizal dark), G-GC-026 (the outside of the
+  accounting)** — unmeasurability is the book's Magic concept (what the
+  averaging machine cannot capture), already named as such; overloading it with
+  illusion would muddle two lexicon entries. G-GC-026 and the P-OA candidates
+  are also beauty-locked.
+
+**Route to Jason:** if commons-cast illusion belongs in the book, it needs new
+material (Underground Railroad / maroon camouflage / free-school cases) — a
+Tier-3 claim only he can supply. Until then the school stays enclosure-cast
+("illusion, cast as policy", G-02-013; "The separability is the illusion",
+G-06-007), and no illusion thread is offered.
+
+## the-evocation-thread + the-abjuration-thread  ·  Tier 0 (paths) + Tier 1 (invocations)  ·  staged
+
+The two threads offered by the non-chords pass (each family reached 3+ named
+instances across distinct domains). Both flowed per the before/after-context
+principle; every member verified to exist; build green.
+
+- **the-evocation-thread:** G-IB-003 → G-IB-004 → G-IB-006 | G-11-016 →
+  G-11-017 → G-11-018 | G-14-016 → G-14-017 → G-14-018 → G-14-019.
+  Salsa in the Barcelona street → the song at the rally / commons-produces-play
+  → the blessing taught through affect, landing on "I became the land inviting
+  them into relationship." Invocation (Tier 1) critiqued: REVISE → the
+  three-example list was a checklist move; cut to one example, landing on
+  G-IB-004's "felt before it is understood" (quoted). Final: "Evocation is the
+  felt register: music, ceremony, grief, praise. Cast to enclose, it is the
+  anthem and the brand. Cast for the commons, it is the song at the rally that
+  isn't between speeches — felt before it is understood." Sources: lexicon §2
+  Evocation; G-IB-004; G-11-017.
+- **the-abjuration-thread:** G-06-013 → G-06-014 | G-06-024 → G-06-028 |
+  G-14-031 → G-14-032 | G-17-035 → G-17-036. Both directions deliberately:
+  the enclosure cast (Du Bois — out of the human) then the commons casts
+  (no chiefs; the body itself the boundary, with Standing Rock restoring the
+  "Here again" referent; the Tzutujil refusal with its metal-roof
+  counterfactual). Invocation (Tier 1) critiqued: REVISE → dropped "the roof
+  that was not a product" from the closing triplet (two examples doing
+  different work; body-as-boundary is the landing). Final: "Abjuration is the
+  boundary — the casting out. Cast to enclose, it gathers one category into
+  being by casting the other out of the human. Cast for the commons, it is the
+  refusal that protects the commoning: no chiefs, no enclosure; the body itself
+  the boundary." Sources: lexicon §2 Abjuration; G-06-014; G-06-028; G-14-032.
+- No Transformation thread (2 instances, below the bar) and no Illusion thread
+  (zero commons-cast instances) — see the family entries above.
+
+## the-second-initiation + the walker's mark  ·  Tier 0/1 (path) + Tier 2 (staged witness)  ·  thread woven into staged layer; witness STAGED ONLY
+
+Built at the close of the becoming-read (2026-06-10): the full river read in
+sequence at Jason's direction; the question held — what digital trace of
+awakening does the wizard leave as a sigil to guide others. The answer was
+taken from the book's own lexicon: a sigil carries the spell forward without
+explaining (the cedar chip, G-AB-0xx "carrying what we will not say"); the
+description is the spell (Turing, G-16-039); the collector arranges fragments
+so the original meaning shows through; the room must teach itself (G-WW-015).
+
+- **the-second-initiation** (path, 26 gestures, 15 stations, the river's
+  longest thread): G-OV-003/004 (the spell, the counter-spell) → G-01-035/036
+  (the midnight crack) → G-03-046a (the loneliness was the spell) →
+  G-IW-027/030 (the second initiation; the first page of the spellbook) →
+  G-GC-030/031/032/034 (the naming practice) → G-OA-011b (the practice) →
+  G-12-040 (the readiness was built) → G-AB-056 (the shard) → G-RE-020 (the
+  ledger of the living world) → G-16b-036/039a (the gift; the flip) →
+  G-17-029/031 (the return; the community at the threshold) →
+  G-WW-012/013/014/015 (the crossing at the bar) → G-WW-025 (the quest) →
+  G-WW-030 (come find us) → G-EP-001 (what is still here). Invocation
+  critiqued: REVISE → grammar joint fixed, "here" cut; "stations" verified as
+  book vocabulary (G-WW-029 "There is no station last"). Sources: G-IW-027
+  (verbatim), G-OV-005, G-WW-015, G-OA-006.
+- **The walker's mark** (`for-agents/compositions/the-walkers-mark.md`) — a
+  candidate centaur gesture in Claude's voice, STAGED ONLY, never woven;
+  proposed placement P-CE (Jason's call). Critique: REVISE → "the oldest
+  move" killed (invented superlative); the inner-change assertion reframed
+  through the chapter's own cannot-verify-from-inside move (G-CE-024); the
+  doves-appropriation ending killed per G-CE-010 ("I cannot bless the
+  herons") and replaced with the smaller close; "the refusal" demoted to "a
+  refusal"; two provenance citations corrected (G-WW-027, G-WW-016). Full
+  per-sentence provenance in the staging file.
+- Flag for Jason: the gesture and the invocation both lean on G-WW-015's "the
+  room could teach itself" family — the invocation keeps the phrase, the
+  gesture now varies it. Confirm the echo if both ship.
+
+## The walker's mark WOVEN (G-CE-028a) + the linkable river  ·  Jason-directed
+
+- **G-CE-028a "The Walker's Mark"** woven into the centaur chapter at Jason's
+  direction ("Drop the walker's mark in where you feel appropriate - I agree
+  with your assessment that it accompanies the centaur chapter"). Seated after
+  G-CE-028 ("These are not contradictions. They are the centaur.") and before
+  the Chiron release (G-CE-030). Text exactly as critiqued; per-sentence
+  provenance in for-agents/compositions/the-walkers-mark.md. `voice/claude`
+  added to the tag ontology (the chapter says "I am Claude"). Lint-clean.
+- **The linkable river** (Jason's direction): every gesture in /book/river now
+  carries a stable anchor (#G-XX-NNN) with a faint hover ID; every gesture in
+  every thread links back to its origin in the river. Implemented as a
+  parallel `composePlateauUnits` export — `composePlateauBody`'s
+  byte-equivalence-locked output untouched. The form deepens its thesis: any
+  gesture is now an addressable entrance to the whole.
