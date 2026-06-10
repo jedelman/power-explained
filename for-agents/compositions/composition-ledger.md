@@ -720,3 +720,11 @@ so the original meaning shows through; the room must teach itself (G-WW-015).
   parallel `composePlateauUnits` export — `composePlateauBody`'s
   byte-equivalence-locked output untouched. The form deepens its thesis: any
   gesture is now an addressable entrance to the whole.
+
+## Flags closed (Jason, 2026-06-10)
+
+Jason reviewed and closed both critique flags from the abjuration family:
+G-06-028 (the naming across the paragraph break to "These were not
+preparations") and G-14-032 (the abjuration landing after the "old-growth
+stand outside Atlanta" place-landing) — "those beats land perfectly." No
+edits required; the family is settled as woven.

@@ -1,5 +1,62 @@
 ---
 import Base from '../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+
+// The Structure list below is generated from the river manifest — the same
+// source of truth as /book/river — so the index can never drift from the
+// canonical order again. Labels, titles, and parts come from each chapter's
+// own frontmatter; initiations and interludes inherit the part they sit in.
+
+const RIVER = yaml.load(
+  fs.readFileSync(resolve('src/content/manifests/the-river.manifest.yml'), 'utf8'),
+)
+
+function chapterMeta(slug) {
+  const text = fs.readFileSync(resolve(`src/content/book/${slug}.md`), 'utf8')
+  const end = text.indexOf('\n---\n', 4)
+  const fm = yaml.load(text.slice(4, end)) || {}
+  const label = fm.label || ''
+  const interlude = label === 'Initiation' || label === 'Interlude'
+  const slugCh = /^chapter-(.+)$/.exec(slug)
+  const labelCh = /^Chapter (\S+)$/.exec(label)
+  const shortLabel = slugCh
+    ? `Ch. ${slugCh[1]}`
+    : labelCh
+      ? `Ch. ${labelCh[1]}`
+      : interlude
+        ? '—'
+        : label || '—'
+  const title = fm.title || slug
+  const display = /^(Chapter [^:]+|Prologue|Epilogue):\s/.test(title)
+    ? title.replace(/^[^:]+:\s*/, '')
+    : title
+  const part = interlude
+    ? null // inherit from the chapter before it
+    : (fm.part || '').replace(/^Part ([^:—]+):\s*/, 'Part $1 — ').trim()
+  const words = composePlateauBody(resolve(`src/content/book/${slug}.md`))
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length
+  return { slug, shortLabel, display, interlude, part, words }
+}
+
+const chapters = RIVER.sources.map(chapterMeta)
+for (let i = 0; i < chapters.length; i++) {
+  if (chapters[i].part === null) chapters[i].part = i > 0 ? chapters[i - 1].part : ''
+}
+
+const groups = []
+for (const c of chapters) {
+  const last = groups[groups.length - 1]
+  if (!last || last.part !== c.part) groups.push({ part: c.part, chapters: [c] })
+  else last.chapters.push(c)
+}
+
+const totalWords = chapters.reduce((s, c) => s + c.words, 0)
+const totalWordsRounded = `~${Math.round(totalWords / 1000)},000`
 ---
 <Base title="The Book — Power Explained" description="Build and Defend the Commons. A book by Jason Edelman and Claude. In progress.">
   <div class="hero">
@@ -42,151 +99,28 @@ import Base from '../../layouts/Base.astro'
       <h2>Structure</h2>
 
       <div class="chapter-list">
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Prologue</span>
-          <a href="/book/prologue" class="ch-title">Look Up</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">Part I — The Feeling Is Right</div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 1</span>
-          <a href="/book/chapter-1" class="ch-title">Some Days It Costs Too Much</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 2</span>
-          <a href="/book/chapter-2" class="ch-title">Two Cities</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">Part II — The Proof</div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 3</span>
-          <a href="/book/chapter-3" class="ch-title">The Cook</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">—</span>
-          <a href="/book/becoming-wizards-in-the-woods" class="ch-title" style="font-style:italic">Becoming Wizards in the Woods</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 4</span>
-          <a href="/book/chapter-4" class="ch-title">Nobody Asked Him To</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">—</span>
-          <a href="/book/goetia" class="ch-title" style="font-style:italic">The Speaking of Names</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">Part III — Why the System Is the Way It Is</div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 5</span>
-          <a href="/book/chapter-5" class="ch-title">The Smile</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 6</span>
-          <a href="/book/the-colony" class="ch-title">The Colony</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 8</span>
-          <a href="/book/chapter-8" class="ch-title">No Name for It</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">Part IV — Why the Obvious Fixes Failed</div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 9</span>
-          <a href="/book/chapter-9" class="ch-title">He Built It Anyway</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 10</span>
-          <a href="/book/chapter-10" class="ch-title">The Birds She Fed Through the Bars</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 11</span>
-          <a href="/book/chapter-11" class="ch-title">The Circle in the Blizzard</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">Part V — The World the Framework Missed</div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 12</span>
-          <a href="/book/chapter-12" class="ch-title">This Was Made</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">Part VI — What to Build</div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 13</span>
-          <a href="/book/chapter-13" class="ch-title">We're Canceling It</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">—</span>
-          <a href="/book/angel-faces-backward" class="ch-title" style="font-style:italic">The Angel Faces Backward</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 14</span>
-          <a href="/book/chapter-14" class="ch-title">I Became the Land</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 15</span>
-          <a href="/book/chapter-15" class="ch-title">Still Meeting</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">—</span>
-          <a href="/book/reenchanting" class="ch-title" style="font-style:italic">Re-Enchanting the World</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 16</span>
-          <a href="/book/chapter-16" class="ch-title">Even That Part</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 16b</span>
-          <a href="/book/chapter-16b" class="ch-title">The Hollow Book</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 17</span>
-          <a href="/book/chapter-17" class="ch-title">The Owl at the Edge of the Circle</a>
-          <span class="ch-status">drafted</span>
-        </div>
-        <div class="chapter-item chapter-item--done">
-          <span class="ch-label">Ch. 18</span>
-          <a href="/book/chapter-18" class="ch-title">You Wonderful Weird Birds</a>
-          <span class="ch-status">drafted</span>
-        </div>
-
-        <div class="ch-part">—</div>
-        <div class="chapter-item">
-          <span class="ch-label">—</span>
-          <span class="ch-title">Chiron</span>
-          <span class="ch-status ch-status--pending">queued</span>
-        </div>
-        <div class="chapter-item">
-          <span class="ch-label">Epilogue</span>
-          <span class="ch-title">The Doves</span>
-          <span class="ch-status ch-status--pending">queued</span>
-        </div>
+        {groups.map(g => (
+          <>
+            {g.part && <div class="ch-part">{g.part}</div>}
+            {g.chapters.map(c => (
+              <div class="chapter-item chapter-item--done">
+                <span class="ch-label">{c.shortLabel}</span>
+                <a
+                  href={`/book/${c.slug}`}
+                  class="ch-title"
+                  style={c.interlude ? 'font-style:italic' : undefined}
+                >{c.display}</a>
+                <span class="ch-status">drafted</span>
+              </div>
+            ))}
+          </>
+        ))}
       </div>
 
       <hr />
 
       <p style="font-family:var(--mono);font-size:0.72rem;opacity:0.45;line-height:1.7">
-        ~83,000 words across 28 sections — an overture, a prologue, 17 chapters, interludes, the centaur chapter, and an epilogue.<br/>
+        {totalWordsRounded} words across {chapters.length} sections — an overture, a prologue, the chapters, the initiations, the centaur chapter, and an epilogue. Generated from the river manifest.<br/>
         Working title: <em>Build and Defend the Commons</em>.<br/>
         All source material at <a href="/" style="color:inherit">power-explained.jason-edelman.org</a>.
       </p>
