@@ -636,3 +636,35 @@ material (Underground Railroad / maroon camouflage / free-school cases) — a
 Tier-3 claim only he can supply. Until then the school stays enclosure-cast
 ("illusion, cast as policy", G-02-013; "The separability is the illusion",
 G-06-007), and no illusion thread is offered.
+
+## the-evocation-thread + the-abjuration-thread  ·  Tier 0 (paths) + Tier 1 (invocations)  ·  staged
+
+The two threads offered by the non-chords pass (each family reached 3+ named
+instances across distinct domains). Both flowed per the before/after-context
+principle; every member verified to exist; build green.
+
+- **the-evocation-thread:** G-IB-003 → G-IB-004 → G-IB-006 | G-11-016 →
+  G-11-017 → G-11-018 | G-14-016 → G-14-017 → G-14-018 → G-14-019.
+  Salsa in the Barcelona street → the song at the rally / commons-produces-play
+  → the blessing taught through affect, landing on "I became the land inviting
+  them into relationship." Invocation (Tier 1) critiqued: REVISE → the
+  three-example list was a checklist move; cut to one example, landing on
+  G-IB-004's "felt before it is understood" (quoted). Final: "Evocation is the
+  felt register: music, ceremony, grief, praise. Cast to enclose, it is the
+  anthem and the brand. Cast for the commons, it is the song at the rally that
+  isn't between speeches — felt before it is understood." Sources: lexicon §2
+  Evocation; G-IB-004; G-11-017.
+- **the-abjuration-thread:** G-06-013 → G-06-014 | G-06-024 → G-06-028 |
+  G-14-031 → G-14-032 | G-17-035 → G-17-036. Both directions deliberately:
+  the enclosure cast (Du Bois — out of the human) then the commons casts
+  (no chiefs; the body itself the boundary, with Standing Rock restoring the
+  "Here again" referent; the Tzutujil refusal with its metal-roof
+  counterfactual). Invocation (Tier 1) critiqued: REVISE → dropped "the roof
+  that was not a product" from the closing triplet (two examples doing
+  different work; body-as-boundary is the landing). Final: "Abjuration is the
+  boundary — the casting out. Cast to enclose, it gathers one category into
+  being by casting the other out of the human. Cast for the commons, it is the
+  refusal that protects the commoning: no chiefs, no enclosure; the body itself
+  the boundary." Sources: lexicon §2 Abjuration; G-06-014; G-06-028; G-14-032.
+- No Transformation thread (2 instances, below the bar) and no Illusion thread
+  (zero commons-cast instances) — see the family entries above.
