@@ -502,3 +502,51 @@ section-between. Audit (background agent) proposed, all IDs verified to exist.
   hold) per the new principle.
 - Two principles recorded in CLAUDE.md + the non-chords instructions: examples are
   multi-school; name where it's at work (not only where labeled).
+
+## Non-chords pass — Evocation ⇄ Transformation family  ·  Tier 1 (parsing-by-naming)  ·  woven
+
+The first family of the non-chords pass (instructions:
+`for-agents/non-chords-pass-instructions.md`). Audit by background agent;
+every quote verified against the file before composing; all beats critiqued
+in a fresh-context sub-agent. Batch-level critique finding applied across the
+pass: the full "cast for the commons" formula is reserved for a school's first
+commons-cast naming; later instances vary the shape.
+
+- **G-11-017 (Ch 11, the garden / library / song):** appended
+  "Evocation, cast for the commons — renewal carried in the felt register."
+  Sources: the gesture's own "mechanism by which communities renew themselves"
+  + "irreversible in ways that policy victories are not"; lexicon §2 Evocation
+  (psychospiritual register). Critique: REVISE → the original beat re-listed the
+  gesture's triad and overclaimed (garden/library are commoning, not evocation);
+  revised to name the felt mechanism, not the item list. Trimmed the critic's
+  "not the policy victory" tail (redundant echo of the prior sentence).
+- **G-14-018 (Ch 14, teaching through affect in the PNW):** inserted standalone
+  "Evocation, passed the only way it passes." after "not as a skill but as a
+  doorway." Sources: the gesture's "I taught not through information but through
+  affect — the only way this transmission works"; "honoring and blessing and
+  singing." Critique: REVISE → original placement broke the "I taught" anaphora
+  mid-run; moved after the doorway sentence, formula dropped.
+- **G-02-030 (Ch 2, Decidim):** inserted "Transformation — the tool built to be
+  given away." after "available to any city that wanted to use it." Sources: the
+  gesture's "The tool existed. It was waiting." + open-source/federated/modular
+  release; lexicon §2 Transformation (commons-cast: open-source). Critique:
+  REVISE → original opener duplicated the shipped Ch 16 naming word-for-word and
+  sat one gesture before G-02-031's identical-formula pop; formula dropped.
+
+**Killed / yielded (logged per the zero-is-valid rule):**
+- **T2 · G-10-042 (GPL/Linux/Luxemburg) — KILLED.** Restates the shipped Ch 16
+  naming in school, domain, and gloss vocabulary ("builder's mastery" ≈
+  "engineer's mastery"); the gesture already names itself natively ("This is
+  source, not instructions."). A third open-source transformation naming is
+  repetition, not a new instance.
+- **E1 · G-17-034 (grief rituals / practices of the return) — YIELDED.** Sound
+  provenance, but same-chapter formula clash with G-17-049's existing "Ritual
+  cast for commons" pop over overlapping material, and consecutive in the
+  manifest with G-17-035 (which takes the abjuration beat) — two adjacent
+  closing pops read as curriculum. AB3 is the stronger of the pair. Open call
+  for Jason: relocate a bare "Evocation — grief and praise doing the work of
+  return." here only if he wants the third Ch 17 naming.
+
+Instance counts after weave: Evocation = 3 (G-IB-004 salsa, G-11-017 organizing,
+G-14-018 wilderness teaching) → thread-eligible. Transformation = 2 (G-16-056,
+G-02-030) → below the 3-instance thread bar; no thread offered.
