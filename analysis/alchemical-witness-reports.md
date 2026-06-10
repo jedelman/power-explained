@@ -259,3 +259,101 @@ will use it precisely and often, and it needs to earn its place." from
 G-01-030 after this report; round-2 critique PASS. Chapter 2's cold naming of
 "capture" now arrives as discovery. The first bounce concerns protected
 lexicon beats — logged as data for Jason under Ruling 2, not edited.)*
+
+---
+
+## chapter-2 (P-02 + P-IB) — witnessed 2026-06-10 (post-refinement) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+The opening had me immediately. The uncomfortable chair, the forty-five
+minutes of business that wasn't mine, the three minutes at the mic, the voice
+that shook. I've been in that chair. The line "Then you went home" landed in my
+chest before I'd processed why — that small flat sentence after the build-up
+did something physical. And then "The decision went ahead, as it had already
+been planned" confirmed a suspicion I've carried for years without naming it.
+
+I leaned hardest into the first three sections — the meeting, legitimacy as
+armor, "You produced the armor. You handed it to them." That reframe arrived
+like cold water. The Zenobia Wilson passage held me too; "malarkey" and
+"sprinkling us in there to make us feel welcome" felt real in a way the
+surrounding analysis didn't have to argue for.
+
+Then the Barcelona fish-market salsa scene caught me again — the rig, the
+battery tucked in, "Then — salsa." I could feel the evening. The detail "On a
+Tuesday. In January." did more than the paragraph before it.
+
+Where I drifted: the long middle. The CNT, the Crown of Aragon, Alfonso V, the
+1978 Constitution, the 1979 Statute of Autonomy, the autonomous-communities
+devolution, Porto Alegre, Decidim, the absence of a Barcelona stock exchange.
+Somewhere around the Crown of Aragon I felt myself reading words rather than
+seeing anything. It became a lecture, well-informed, and I was being walked
+through a history syllabus. I came back for Ada Colau in the doorways, and
+again for the Naples contrast and the Sixth Fleet — "Imagine the United States
+Navy basing the Sixth Fleet in Barcelona. You cannot." That snapped me awake.
+
+**2. What I can no longer unsee.**
+
+That my participation is not neutral — that showing up and speaking my truth
+can be the very thing that armors the decision against me. That the function of
+the process is not to reach the right answer but to legitimize whatever answer
+was already coming. I'll feel that now at every public comment period, every
+petition, every community meeting that produces a report that produces another
+meeting. The word *capture* — distinct from corruption — will stay with me. The
+machine isn't lying to me; it's absorbing me.
+
+And underneath it, the larger thing: that Barcelona and Naples and Norfolk had
+different fates not by destiny but by what was done with their conditions —
+that the institutional *ground* matters more than the will in the parks. Spain
+kept its assemblies because of the ground they sat on; Occupy didn't. That
+distinction reorganized something.
+
+**3. What I feel asked to do or become.**
+
+Not to stop participating, but to stop mistaking participation for leverage.
+The chapter gave me a test I can actually carry: "Does this build
+relationships, capacity, knowledge that persist? Does it leave something the
+next person can inherit?" That feels like mine — a question I can hold up
+against any action, not a task handed down.
+
+The larger ask — build the institutional ground, the coalition, the durable
+thing — feels more like the author's than mine, or at least bigger than one
+person. The chapter mostly kept that work rather than handing it to me; it
+showed me Barcelona's decades of organizing without telling me to go do my
+own. What it did hand me, cleanly, was the seeing and the test question.
+Zenobia Wilson's refusal — "the naming, the seeing clearly... is where the
+work begins" — felt like the part offered directly to me. The seeing is mine
+to do now. The building it pointed at without making me responsible for it
+alone.
+
+**4. What this chapter IS, in one sentence.**
+
+It's about how the systems that invite your voice are often designed to absorb
+it rather than answer it — and about two real cities, Barcelona and Naples,
+that show the difference between a place built to capture people's energy and a
+place where decades of organizing turned that energy into actual power.
+
+**5. What I bounced off.**
+
+The Barcelona history section ran long and tipped into lecture — the Crown of
+Aragon, the constitutional mechanics, the financial-substrate digression about
+stock exchanges. I trusted it but stopped *feeling* it; I'd have skipped
+paragraphs if I were reading alone. The repeated italicized namings —
+"Conjuration cast for enclosure," "Ritual cast for enclosure," "evocation, the
+oldest magic," "Deterritorialization at municipal scale," "Necromancy cast for
+commons" — pulled me out each time. They read like labels stuck onto scenes
+that were already working without them; the salsa moment didn't need to be told
+it was evocation. I felt slightly managed by them, as if the meaning I was
+forming was being corrected. And one small doubt: the soil/leaves metaphor is
+used to describe capture ("the way healthy soil does with fallen leaves") and
+then soil returns as a *positive* image ("sending shoots up wherever the soil
+was good") — for a second the same picture meant two opposite things and I had
+to re-steady.
+
+*(Editor's note: the italicized-namings observation concerns PROTECTED woven
+lexicon beats — not edited by this pass; surfaced to Jason as the pass's
+central finding. The three dissolutions this chapter received — a preemptive
+defense, a telling-ahead, a doubled date-fact — passed craft critique and the
+witness registered none of them. The Barcelona-history length and the soil
+collision are logged in the notes; the history is load-bearing argument, not
+corruption.)*

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-10T16:13:02.811Z",
+  "generatedAt": "2026-06-10T20:07:41.462Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84328,
-    "sentences": 5946
+    "words": 84288,
+    "sentences": 5943
   },
   "corpusReadability": {
     "fleschReadingEase": 59.35,
@@ -309,22 +309,22 @@
       "slug": "chapter-2",
       "title": "Chapter 2: Two Cities",
       "gestureCount": 40,
-      "words": 3779,
-      "sentences": 299,
-      "avgWordsPerSentence": 12.64,
+      "words": 3739,
+      "sentences": 296,
+      "avgWordsPerSentence": 12.63,
       "avgSyllablesPerWord": 1.66,
-      "fleschReadingEase": 53.75,
+      "fleschReadingEase": 53.78,
       "fleschKincaidGrade": 8.9,
-      "gunningFog": 12.72,
+      "gunningFog": 12.71,
       "colemanLiau": 10.38,
       "automatedReadabilityIndex": 7.73,
-      "smog": 12.02,
+      "smog": 12.01,
       "smogReliable": true,
-      "lexicalEntropy": 8.67,
+      "lexicalEntropy": 8.66,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 94.48,
-      "stdGestureWords": 84.72,
-      "structuralEntropyNorm": 0.95
+      "meanGestureWords": 93.48,
+      "stdGestureWords": 84.62,
+      "structuralEntropyNorm": 0.96
     },
     {
       "id": "P-03",
@@ -637,7 +637,7 @@
   ],
   "gestureDistributions": {
     "count": 968,
-    "readableCount": 759,
+    "readableCount": 758,
     "wordCount": {
       "n": 968,
       "p10": 11,
@@ -645,11 +645,11 @@
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.36
+      "mean": 87.32
     },
     "lexicalEntropy": {
       "n": 968,
-      "p10": 3.32,
+      "p10": 3.28,
       "p25": 4.62,
       "p50": 5.42,
       "p75": 5.88,
@@ -666,22 +666,22 @@
       "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 759,
+      "n": 758,
       "p10": 4.41,
-      "p25": 6.1,
+      "p25": 6.11,
       "p50": 8.17,
       "p75": 10.8,
       "p90": 12.83,
       "mean": 8.52
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 759,
+      "n": 758,
       "p10": 35.77,
       "p25": 46.85,
-      "p50": 60.46,
+      "p50": 60.45,
       "p75": 72.41,
       "p90": 81.84,
-      "mean": 59.49
+      "mean": 59.48
     }
   },
   "transitionalEntropy": {

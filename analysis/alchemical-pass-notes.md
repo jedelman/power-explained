@@ -15,10 +15,10 @@ reports the arc against the title's promise.
 
 ## Current position
 
-**Phase 1 underway.** Overture DONE (passes clean, witness MATCH).
-Prologue DONE (3 edits, witness MATCH). Chapter-1 DONE (6 edits incl. 1
-retirement + 1 reorder, witness MATCH; Ruling 2 promoted).
-Next chapter: chapter-2 (river order, source 4 of 28).
+**Phase 1 underway.** Overture, Prologue, Chapter-1 DONE (all witness MATCH).
+Chapter-2 DONE (3 dissolutions, witness MATCH) — surfaced the pass's central
+Jason finding: the woven lexicon namings read as labels to a blind reader.
+Next chapter: chapter-3 (river order, source 5 of 28).
 
 ---
 
@@ -69,6 +69,7 @@ recomposed, and verdicts)
 | overture | 441→441 | 5.78→5.78 | 15.75→15.75 | 5→5 | MATCH |
 | prologue | 2310→2299 | 8.09→8.10 | 14.81→14.83 | 31→30 | MATCH |
 | chapter-1 | 2388→2329 | 8.25→8.29 | 14.39→14.38 | 38→37 | MATCH |
+| chapter-2 | 3779→3739 | 8.90→8.90 | 12.64→12.63 | 40→40 | MATCH |
 
 ---
 
@@ -147,6 +148,63 @@ recomposed, and verdicts)
   numbers "held me at arm's length" until the kitchen floor pulled back —
   the register shift is doing its job; no edit.
 
+### chapter-2 (P-02 + P-IB) — 3 DISSOLUTIONS, ALL PASS · witness MATCH · 2026-06-10
+
+- **Essence:** Capture is how the system converts your participation into its
+  own armor — and Barcelona is the proof that a city's fate is not destiny
+  but the slow building of institutional ground. The turn: "Same
+  Mediterranean. Same sun. Different fates."
+- **Invocation:** The reader stops mistaking the public process for power,
+  receives the word that frees them from the three-minutes-at-the-mic trap
+  (capture), and walks out believing a different arrangement is reachable
+  from where they stand. (Second-initiation station: capture / the test
+  question.)
+- **Edits (3, all dissolutions):** G-02-027 preemptive-defense cut ("It would
+  be a misreading to dismiss this vignette…" → "Why Barcelona? There are
+  reasons." — the salsa stands on its own, the question leads clean);
+  G-02-035 telling-ahead cut ("The vulnerability profile is different. The
+  leverage profile is different too." — the next two paragraphs SHOW both
+  axes; the gesture's closer names them); G-02-036 diluting-repetition trim
+  ("that broke Catalan autonomy in 1714" — stated one paragraph up; the 1978
+  reversal and the triad rhythm survive, cleaner). All 8 protected beats
+  intact; opening You-beats untouched; "capture" lands clean as first naming
+  (Ch 1's advance announcement was cut). Critic PASS on all three incl. the
+  debatable G-02-036.
+- **Witness (blind):** MATCH. "The machine isn't lying to me; it's absorbing
+  me"; "different fates not by destiny but by what was done with their
+  conditions"; the Stone again: "the seeing is mine to do now… the building
+  it pointed at without making me responsible for it alone." Did NOT bounce
+  at the "Sounds like another world, doesn't it?" hinge → that turn is
+  earned, kept.
+- **Witness observations:**
+  - **FLAG FOR JASON — THE BIG ONE (lexicon-naming density).** Second blind
+    reader in two chapters to cool at the woven school-namings, now explicit:
+    "The repeated italicized namings — 'Conjuration cast for enclosure,'
+    'Ritual cast for enclosure,' 'evocation, the oldest magic,'
+    'Deterritorialization at municipal scale,' 'Necromancy cast for commons'
+    — pulled me out each time. They read like labels stuck onto scenes that
+    were already working without them; the salsa moment didn't need to be
+    told it was evocation. I felt slightly managed by them, as if the meaning
+    I was forming was being corrected." These are Jason-sanctioned
+    compositions (composition + non-chords passes), PROTECTED — not touched.
+    But the Stone test is reporting, blind, that the strongest scenes may
+    cast harder WITHOUT the label. This is invocation-side (a finding about
+    the book's composition), routed to Jason per the loop; only Jason re-cuts
+    the multi-school naming intent he set. Surfaced to him directly
+    2026-06-10. Candidate future move (his call): thin the namings on scenes
+    that already cast (keep the ones that genuinely reveal; drop the ones
+    that label).
+  - Jason flag (structural): the Barcelona history middle "ran long and
+    tipped into lecture — the Crown of Aragon, the constitutional mechanics,
+    the financial-substrate digression about stock exchanges." Load-bearing
+    institutional-ground argument; "ran long" is not "corrupt," so not
+    autonomously excised. G-02-035 (the no-stock-exchange / biopolitical-
+    capital gesture) is the most cuttable if Jason wants a structural trim.
+  - Minor (logged, no edit): the soil image means absorption-as-capture
+    ("the way healthy soil does with fallen leaves") and fertility ("wherever
+    the soil was good") ~100 lines apart; one reader "had to re-steady… for a
+    second." Common usages, far apart, recovered fast — left as is.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -157,6 +215,13 @@ recomposed, and verdicts)
   (the witch history beat; the six-levels map) and warmed at concrete
   image landings. The pattern: instruction chills, image warms. CONFIRMED in
   chapter-1 (third instance) — promoted to Ruling 2 in the instructions doc.
+- **The lexicon-naming finding (chapters 1-2, escalating).** Ruling 2 covers
+  UNPROTECTED meta-announcements (cut). But the blind witnesses are now also
+  cooling at PROTECTED woven school-namings — ch-1 "placed-on-top," ch-2
+  "labels… I felt slightly managed." This is the major open question of the
+  pass, routed to Jason (see chapter-2 entry). Watch every subsequent chapter
+  for the same signal; the cumulative witness testimony is the evidence base
+  for Jason's eventual call on naming density.
 
 ## Cross-cutting patterns archive
 
@@ -166,5 +231,16 @@ recomposed, and verdicts)
 
 ## Flags for Jason
 
-(invocation-side witness mismatches, beauty-locked gestures needing rewording,
-thread-gutting cuts declined, standards contradictions)
+1. **Lexicon-naming density (MAJOR, escalating — chapters 1-2).** Two blind
+   readers independently cool at the woven school-namings; ch-2 explicit:
+   they "read like labels stuck onto scenes that were already working… the
+   salsa moment didn't need to be told it was evocation." PROTECTED, not
+   touched by this pass. Your call: are the namings over-woven on
+   already-casting scenes? The witness reports are the evidence; building
+   per chapter.
+2. **Prologue six-levels map + via-negativa positioning** — read as a
+   syllabus / temperature drop (ch-PR). Authorial orientation machinery;
+   untouched.
+3. **Chapter-2 Barcelona history length** — "ran long, tipped into lecture";
+   G-02-035 financial digression the most cuttable if a structural trim is
+   wanted.
