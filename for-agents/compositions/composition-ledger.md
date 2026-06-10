@@ -598,3 +598,41 @@ beats PASSED fresh-context critique as drafted.
 Instance count after weave: commons-cast Abjuration = 3 (G-06-028 stateless
 governance, G-14-032 defense of land, G-17-035 technology refusal) across three
 chapters/domains → thread-eligible.
+
+## Non-chords pass — Illusion (commons-cast) family  ·  ZERO INSERTIONS  ·  skipped with reasons
+
+The audit swept the corpus on the lexicon's seeds (Underground Railroad, maroon
+camouflage, fugitivity, hush harbor, safe house, samizdat, the free school under
+the radar…) and returned 14 candidates. None survived scrutiny. The lexicon
+defines commons-cast illusion as **hiding-as-protection** — deliberate
+concealment from a hunting power. The corpus does not currently contain that
+work on any page:
+
+- **G-13-034 (Norfolk informal credit) — KILLED at critique**, the only beat
+  composed. Three grounds: (1) the credit does not hide from the bank; it lives
+  outside the apparatus — exteriority, not camouflage; no act of concealment is
+  on the page. (2) The gloss ("alive because no ledger can read it") asserted a
+  survival-through-illegibility mechanism the gesture contradicts — its own
+  causality is that discharging the debt would end the relationship; the
+  ledger's blindness is incidental. An invented connection → provenance
+  violation. (3) First-instance damage: the book's first commons-cast illusion
+  naming teaches the school; teaching it on a non-hiding site corrupts the
+  definition for every later use.
+- **G-15-008 / G-15-010 (the witch hunts)** — the hiding there is the terror
+  winning ("afraid to practice what they knew"), not the commons protecting
+  itself. Naming it commons-cast illusion would invert the gesture's meaning.
+- **G-06-024 (Palmares)** — the page gives governance and collective defense,
+  not concealment; maroon camouflage is in the lexicon, not in this prose.
+- **G-04-020 (community fridges), G-15-001 (Crown Heights)** — maximally
+  visible, on the sidewalk; informality is not hiding.
+- **G-16b-022/037 (the mycorrhizal dark), G-GC-026 (the outside of the
+  accounting)** — unmeasurability is the book's Magic concept (what the
+  averaging machine cannot capture), already named as such; overloading it with
+  illusion would muddle two lexicon entries. G-GC-026 and the P-OA candidates
+  are also beauty-locked.
+
+**Route to Jason:** if commons-cast illusion belongs in the book, it needs new
+material (Underground Railroad / maroon camouflage / free-school cases) — a
+Tier-3 claim only he can supply. Until then the school stays enclosure-cast
+("illusion, cast as policy", G-02-013; "The separability is the illusion",
+G-06-007), and no illusion thread is offered.
