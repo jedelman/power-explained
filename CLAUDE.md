@@ -239,6 +239,33 @@ composed sentence is ledgered in `for-agents/compositions/composition-ledger.md`
 **Next pass: `for-agents/non-chords-pass-instructions.md`** — deploy the
 underrepresented schools (Evocation/Transformation, commons-cast Abjuration,
 commons-cast Illusion), then thread them when each reaches 3+ instances.
+(COMPLETE 2026-06-10 — Evocation + Abjuration deployed and threaded;
+Transformation at 2 instances; Illusion zero-by-design, routed to Jason.)
+
+---
+
+## Alchemical pass (ACTIVE — started 2026-06-10)
+
+The river refined to its essence — alchemy in the Jungian sense: removal that
+qualitatively transforms (dissolving what weakens or corrupts) and
+restructuring that reveals (recomposing so the gold is where the reader meets
+it). Solve et coagula. The Stone test: the book intends to transform by its
+presence — every chapter is tested blind on a reader-witness against what it
+invokes; the whole refined river gets a final blind walk at wrap-up.
+
+**Read first to resume:** `for-agents/alchemical-pass-instructions.md` (the
+fixed bar: standard, frozen critic + reader-witness prompts, retirement
+checklist, Rulings), then `analysis/alchemical-pass-notes.md` (Current
+position), then the chapter's section of
+`analysis/alchemical-protected-beats.md`.
+
+**Re-gating (Jason, 2026-06-10, FOR THIS PASS — supersedes the
+composition-pass "stage everything" contract):** essence over arithmetic ·
+weave everything (the critique loop is the only gate; Jason reviews
+per-chapter diffs) · full alchemical license (gesture cuts/merges/reorders
+within chapters; per-chapter commits; IDs retired, never reused). Chapter-level
+river order stays sacred. beauty_check gestures: deletion-only, itemized in
+commit headers.
 
 ---
 
