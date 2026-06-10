@@ -550,3 +550,51 @@ commons-cast naming; later instances vary the shape.
 Instance counts after weave: Evocation = 3 (G-IB-004 salsa, G-11-017 organizing,
 G-14-018 wilderness teaching) → thread-eligible. Transformation = 2 (G-16-056,
 G-02-030) → below the 3-instance thread bar; no thread offered.
+
+## Non-chords pass — Abjuration (commons-cast) family  ·  Tier 1 (parsing-by-naming)  ·  woven
+
+The school's first commons-cast namings in body text (only the enclosure cast
+existed: G-06-014's "Conjuration and abjuration cast as one motion"). All three
+beats PASSED fresh-context critique as drafted.
+
+- **G-06-028 (The Colony, the pre-colonial African commons):** inserted
+  "Abjuration, cast for the commons — the refusal that protects the commoning."
+  after "No chiefs. No enclosure." Sources: the gesture's "No chiefs. No
+  enclosure." + lexicon §2 Abjuration (the Mbuti refusal of chiefs is the
+  lexicon's literal worked example; gloss is lexicon-built). Carries the full
+  formula as the school's first commons cast; counter-casts G-06-014's
+  enclosure naming earlier in the same chapter. Flag for Jason (from critique):
+  read aloud across the paragraph break to "These were not preparations."
+- **G-14-032 (Ch 14, Weelaunee):** appended "Abjuration, cast for the commons —
+  the body itself the boundary." Sources: the gesture's "people placing their
+  bodies between a living ecosystem and its destruction" + "a community to be
+  defended." Flag for Jason (from critique): the beat takes the last word from
+  the "old-growth stand outside Atlanta" place-landing — a second landing after
+  a first is his call.
+- **G-17-035 (Ch 17, the Tzutujil roofing refusal):** appended "That is what the
+  refusal protected. Abjuration, cast for the commons." Sources: the gesture's
+  own spine ("The Tzutujil refused…", "the web of relationship was rewoven",
+  "The obligations were renewed"). Inverted construction (gloss first, name as
+  landing) per the batch anti-formula-fatigue finding. Double-naming with
+  G-17-049's ritual pop on the same example is legitimate under the multi-school
+  principle: the refusal and the repetition are distinct work on the page.
+
+**Skipped (logged):**
+- **G-07-040 (the Palmares / Zapatista / Crown Heights refusal triad)** — same
+  chapter as G-06-028 after the Colony merge (47 gestures apart), and the
+  gesture already closes on a technique triad ("Undoing the inscription.
+  Breaking the incantation. Rupturing the territory."). A second commons-
+  abjuration naming in the chapter is repetition; the triad already does its
+  own naming work.
+- **G-14-031 (Standing Rock)** — adjacent to G-14-032 in the same chapter; one
+  naming covers the defense-of-land pair, and the gesture's personal-testimony
+  register ("I have friends who were there. They have scars.") should not carry
+  a taxonomy beat.
+- **G-06-024 (Palmares)** — already carries two school namings
+  ("Deterritorialization and prefiguration in one act"); the refusal-to-harbor
+  detail from the lexicon is not on this page (the page gives collective
+  defense + governance), and G-07-040 holds the explicit Palmares refusal.
+
+Instance count after weave: commons-cast Abjuration = 3 (G-06-028 stateless
+governance, G-14-032 defense of land, G-17-035 technology refusal) across three
+chapters/domains → thread-eligible.
