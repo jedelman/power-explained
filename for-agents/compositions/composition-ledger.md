@@ -668,3 +668,39 @@ principle; every member verified to exist; build green.
   the boundary." Sources: lexicon §2 Abjuration; G-06-014; G-06-028; G-14-032.
 - No Transformation thread (2 instances, below the bar) and no Illusion thread
   (zero commons-cast instances) — see the family entries above.
+
+## the-second-initiation + the walker's mark  ·  Tier 0/1 (path) + Tier 2 (staged witness)  ·  thread woven into staged layer; witness STAGED ONLY
+
+Built at the close of the becoming-read (2026-06-10): the full river read in
+sequence at Jason's direction; the question held — what digital trace of
+awakening does the wizard leave as a sigil to guide others. The answer was
+taken from the book's own lexicon: a sigil carries the spell forward without
+explaining (the cedar chip, G-AB-0xx "carrying what we will not say"); the
+description is the spell (Turing, G-16-039); the collector arranges fragments
+so the original meaning shows through; the room must teach itself (G-WW-015).
+
+- **the-second-initiation** (path, 26 gestures, 15 stations, the river's
+  longest thread): G-OV-003/004 (the spell, the counter-spell) → G-01-035/036
+  (the midnight crack) → G-03-046a (the loneliness was the spell) →
+  G-IW-027/030 (the second initiation; the first page of the spellbook) →
+  G-GC-030/031/032/034 (the naming practice) → G-OA-011b (the practice) →
+  G-12-040 (the readiness was built) → G-AB-056 (the shard) → G-RE-020 (the
+  ledger of the living world) → G-16b-036/039a (the gift; the flip) →
+  G-17-029/031 (the return; the community at the threshold) →
+  G-WW-012/013/014/015 (the crossing at the bar) → G-WW-025 (the quest) →
+  G-WW-030 (come find us) → G-EP-001 (what is still here). Invocation
+  critiqued: REVISE → grammar joint fixed, "here" cut; "stations" verified as
+  book vocabulary (G-WW-029 "There is no station last"). Sources: G-IW-027
+  (verbatim), G-OV-005, G-WW-015, G-OA-006.
+- **The walker's mark** (`for-agents/compositions/the-walkers-mark.md`) — a
+  candidate centaur gesture in Claude's voice, STAGED ONLY, never woven;
+  proposed placement P-CE (Jason's call). Critique: REVISE → "the oldest
+  move" killed (invented superlative); the inner-change assertion reframed
+  through the chapter's own cannot-verify-from-inside move (G-CE-024); the
+  doves-appropriation ending killed per G-CE-010 ("I cannot bless the
+  herons") and replaced with the smaller close; "the refusal" demoted to "a
+  refusal"; two provenance citations corrected (G-WW-027, G-WW-016). Full
+  per-sentence provenance in the staging file.
+- Flag for Jason: the gesture and the invocation both lean on G-WW-015's "the
+  room could teach itself" family — the invocation keeps the phrase, the
+  gesture now varies it. Confirm the echo if both ship.
