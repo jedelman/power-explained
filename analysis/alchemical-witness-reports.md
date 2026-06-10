@@ -82,3 +82,80 @@ flattered — *of course* my weirdness is secretly my gift, that's a nice thing
 to be told. The text mostly earns it back by being so unsentimental everywhere
 else (the wizard "does not exclaim"), but that single sentence is the one
 place I felt a hand on my back, gently steering, and noticed the hand.
+
+---
+
+## prologue (P-PR) — witnessed 2026-06-10 (post-refinement) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+The first three vignettes pulled me in fast. The rent one landed in the chest
+— that specific motion of doing the math and watching it not work, the phone
+call where the other person isn't lying exactly but isn't telling the truth
+either. I felt the tiredness in the hospital-billing paragraph in my body, the
+"too exhausted to do more." Then "They are connected. This book is about how."
+stopped me — I leaned in hard there, wanting the answer.
+
+The herons made me drift at first. I felt a small resistance — *why are we at
+the birds now, I was promised a connection* — but by the red eye and
+"standing motionless until the moment arrives," something quieted in me and I
+let it be slow. The line "Their resilience is not a strategy" landed before I
+understood why it mattered.
+
+I leaned all the way back in at "We're going to call it enclosure," and at the
+sentence about Marx and "the people it happens to usually just call it getting
+worse" — that one made me exhale, almost laugh, because it was true.
+
+The "six levels" section is where I drifted most — it reads like a table of
+contents and my attention thinned out across the numbered paragraphs. I
+skimmed. But the very last image of it — eleven people, an unread agenda,
+seven-fifteen in the evening, "that's where the earth flowers" — pulled me
+back from the abstraction sharply.
+
+The two-authors section woke me up. The admission that the AI co-author *is*
+the enclosure the book argues against gave me a small jolt of attention — I
+didn't expect the book to turn the knife on itself.
+
+**2. What I now see that I can't unsee.**
+
+That the rent, the hospital bill, the highway, and the app are the same thing
+— not metaphorically, but as one process. That "enclosure" isn't a historical
+event that ended in the 1800s but a present-tense verb, something happening to
+me continuously. The reframe from *this is natural / this is how it is* to
+*this was made, and maintained, and it serves someone* — that's the thing I
+can't put back. The line "It doesn't require planning. It requires only
+maintenance" reorganized how I think about who's responsible. There's no room
+where they all meet, and that's somehow worse and clearer than if there were.
+
+**3. What I feel asked to do or become.**
+
+I don't feel handed a task. The book is explicit that it won't give me one —
+"not a guide to action, exactly." What it asks is smaller and larger than
+action: to *see*, and to let the seeing settle in the body rather than just
+the mind. The nature-educator image made this concrete — I'm the child being
+put in contact with something, not lectured. The doing is kept as mine,
+deliberately: "What you do with it is up to you." It didn't hand me a lever
+and it told me, honestly, that it was withholding one. I felt trusted rather
+than instructed, and that made me more willing, not less.
+
+**4. What this chapter IS, in one sentence, to a friend.**
+
+It's the opening of a book that takes the vague, tired sense that something is
+rigged and gives it a single name — enclosure — then promises to show you
+both the machine and the people quietly building the alternative.
+
+**5. What I bounced off.**
+
+The "six levels" section. It shifted from the felt, concrete register of
+everything before it into a syllabus, and I drifted — the numbered
+architecture, the roll-calls of names (Gramsci, Luxemburg, Kropotkin...), the
+chapter-preview cadence. I trust it's structurally necessary, but as a reader
+I went cool there and waited to be warmed back up. A smaller snag: the heron
+line "The herons can benefit from these gifts as much as us" — I stumbled on
+it, unsure what it meant, and it briefly broke the spell of an otherwise
+beautiful passage. Everywhere else the text earned my attention; those were
+the two places it spent some.
+
+*(Editor's note: the heron-line stumble was fixed after this report — "as
+much as us" → "as much as we do," single-hunk re-critique PASS. The witness
+read the text containing the original line; the report is unaltered.)*

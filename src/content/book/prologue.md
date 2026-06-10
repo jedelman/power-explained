@@ -24,7 +24,6 @@ gestures:
   - G-PR-016
   - G-PR-018
   - G-PR-019
-  - G-PR-020
   - G-PR-021
   - G-PR-022
   - G-PR-023
@@ -56,7 +55,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

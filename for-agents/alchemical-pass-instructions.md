@@ -267,4 +267,8 @@ DO NOT use scripts/apply-merges.mjs (targets the retired per-plateau layout).
 
 ## Rulings (case law — append as judgment calls generalize)
 
-(none yet)
+1. **Section-boundary retirement (2026-06-10, prologue/G-PR-020).** When
+   retiring a gesture that sits at a section boundary, keep whichever
+   separator preserves the section break — regardless of the checklist's
+   default "remove the preceding separator." The section structure outranks
+   the mechanical rule.

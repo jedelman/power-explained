@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-10T15:05:22.810Z",
+  "generatedAt": "2026-06-10T15:51:15.141Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
-    "gestures": 970,
-    "words": 84398,
-    "sentences": 5951
+    "gestures": 969,
+    "words": 84387,
+    "sentences": 5950
   },
   "corpusReadability": {
     "fleschReadingEase": 59.36,
@@ -528,23 +528,23 @@
       "id": "P-PR",
       "slug": "prologue",
       "title": "Prologue: Look Up",
-      "gestureCount": 31,
-      "words": 2310,
-      "sentences": 156,
-      "avgWordsPerSentence": 14.81,
+      "gestureCount": 30,
+      "words": 2299,
+      "sentences": 155,
+      "avgWordsPerSentence": 14.83,
       "avgSyllablesPerWord": 1.52,
-      "fleschReadingEase": 63.4,
-      "fleschKincaidGrade": 8.09,
-      "gunningFog": 11.52,
-      "colemanLiau": 9.1,
-      "automatedReadabilityIndex": 7.52,
-      "smog": 11.35,
+      "fleschReadingEase": 63.43,
+      "fleschKincaidGrade": 8.1,
+      "gunningFog": 11.5,
+      "colemanLiau": 9.12,
+      "automatedReadabilityIndex": 7.54,
+      "smog": 11.34,
       "smogReliable": true,
       "lexicalEntropy": 8.18,
       "typeTokenRatio": 0.35,
-      "meanGestureWords": 74.52,
-      "stdGestureWords": 42.44,
-      "structuralEntropyNorm": 0.88
+      "meanGestureWords": 76.63,
+      "stdGestureWords": 41.41,
+      "structuralEntropyNorm": 0.87
     },
     {
       "id": "P-RE",
@@ -636,28 +636,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 970,
+    "count": 969,
     "readableCount": 759,
     "wordCount": {
-      "n": 970,
+      "n": 969,
       "p10": 11,
       "p25": 35,
-      "p50": 70,
+      "p50": 71,
       "p75": 111,
       "p90": 175,
-      "mean": 87.25
+      "mean": 87.33
     },
     "lexicalEntropy": {
-      "n": 970,
+      "n": 969,
       "p10": 3.32,
-      "p25": 4.62,
+      "p25": 4.63,
       "p50": 5.42,
       "p75": 5.88,
       "p90": 6.37,
       "mean": 5.12
     },
     "typeTokenRatio": {
-      "n": 970,
+      "n": 969,
       "p10": 0.6,
       "p25": 0.66,
       "p50": 0.73,
@@ -685,7 +685,7 @@
     }
   },
   "transitionalEntropy": {
-    "total": 940,
+    "total": 939,
     "reliable": 224,
     "paragraphMeanDist": 0.96,
     "sectionMeanDist": 0.95

@@ -1083,5 +1083,11 @@
     "id": "G-CE-021",
     "mergedInto": "G-CE-020",
     "plateau": "P-CE"
+  },
+  {
+    "id": "G-PR-020",
+    "mergedInto": null,
+    "plateau": "P-PR",
+    "note": "cut \u2014 alchemical pass 2026-06-10 (scaffolding announcement; the centaur paragraph carries the tie explicitly)"
   }
 ]
