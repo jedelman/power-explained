@@ -85,6 +85,7 @@ namespaces:
     terms:
       # The register-keepers
       - jason             # the narrator's primary voice
+      - claude            # the centaur's second author, speaking as itself (P-CE)
       - coyote            # truth-in-plain-sight, dismissal-as-seal
       - nasruddin         # oblique fool sharper than the room
       - kropotkin         # fool with field notes; evidence-grounded

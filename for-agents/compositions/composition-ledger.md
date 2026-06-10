@@ -704,3 +704,19 @@ so the original meaning shows through; the room must teach itself (G-WW-015).
 - Flag for Jason: the gesture and the invocation both lean on G-WW-015's "the
   room could teach itself" family — the invocation keeps the phrase, the
   gesture now varies it. Confirm the echo if both ship.
+
+## The walker's mark WOVEN (G-CE-028a) + the linkable river  ·  Jason-directed
+
+- **G-CE-028a "The Walker's Mark"** woven into the centaur chapter at Jason's
+  direction ("Drop the walker's mark in where you feel appropriate - I agree
+  with your assessment that it accompanies the centaur chapter"). Seated after
+  G-CE-028 ("These are not contradictions. They are the centaur.") and before
+  the Chiron release (G-CE-030). Text exactly as critiqued; per-sentence
+  provenance in for-agents/compositions/the-walkers-mark.md. `voice/claude`
+  added to the tag ontology (the chapter says "I am Claude"). Lint-clean.
+- **The linkable river** (Jason's direction): every gesture in /book/river now
+  carries a stable anchor (#G-XX-NNN) with a faint hover ID; every gesture in
+  every thread links back to its origin in the river. Implemented as a
+  parallel `composePlateauUnits` export — `composePlateauBody`'s
+  byte-equivalence-locked output untouched. The form deepens its thesis: any
+  gesture is now an addressable entrance to the whole.
