@@ -56,9 +56,11 @@ self-ref — all PASS; witness MATCH — "I stopped. Actually stopped moving my
 eyes" at the enclosed-because-it-worked chiasm; ONE FLAG: the witness
 bounced on the PROTECTED G-11-017 Evocation naming — routed to Jason, not
 edited). 14 of 28 sources done.
-Next chapter: chapter-12 (P-12, river order, source 15 of 28) — protected:
-G-12-020 divination naming x2 ("The naming is the counter-spell.") +
-forward-link close G-12-040 (the jubilee).
+Chapter-12 DONE (4 dissolutions incl. a witness-driven explained-twice cut,
+all PASS; witness MATCH — "The witness is handed across"; interview row 9
+added for the H&N citation chill). 15 of 28 sources done.
+Next chapter: chapter-13 (P-13, river order, source 16 of 28) — FK 11.14,
+one of the densest; check protected-beats section on load.
 
 ---
 
@@ -121,6 +123,7 @@ recomposed, and verdicts)
 | chapter-9 | 2444→2339 | 8.89→8.83 | 14.72→14.62 | 29→28 | MATCH |
 | chapter-10 | 2679→2579 | 10.47→10.34 | 14.80→14.49 | 32→32 | MATCH |
 | chapter-11 | 3111→3088 | 11.38→11.38 | 17.88→17.75 | 25→25 | MATCH |
+| chapter-12 | 2755→2723 | 9.22→9.21 | 15.92→15.92 | 28→28 | MATCH |
 
 ---
 
@@ -691,6 +694,42 @@ incants subliminally, the hypertext layer is the reveal.
   transmutation. The Bluesky self-reference did NOT flinch this witness
   ("felt earned rather than performed" covered the close; no mention of
   Bluesky) — hold released.
+
+### chapter-12 (P-12) — 4 EDITS, ALL PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The witness is not passive — Roy trained herself to attend
+  and stood in the rising river; Freire's student wrote his name and saw the
+  arrangement was made; the deer arrived and the children were ready because
+  the readiness was built. Attention is the commons beneath all the others —
+  enclose it and every other enclosure gets easier — and seeing doesn't stop
+  the thing; it changes what you can no longer pretend.
+- **Invocation:** the reader receives the question as theirs — has my
+  attention been enclosed? — and the model of the active witness: stay with
+  the specific person, refuse to let the accounting substitute for their
+  presence.
+- **Edits (4):** G-12-031 "What I mean is:" throat-clear cut (the veil
+  chiasm opens cold); G-12-033 chapter self-reference cut ("That's the
+  argument this chapter is actually making." — the deer lands on "The
+  preparation met the moment." and Roy delivers the collect by
+  demonstration); G-12-036 explained-twice mechanism list dissolved
+  ("— through curriculum, through pace, through the steady replacement of
+  attention with noise —" — the concrete triad survives upstream); G-12-036
+  witness-driven: "The commons of consciousness is the foundation." cut
+  (explained-twice within its own paragraph; the surviving "It is also what
+  the system most needs to take." was independently carried out by the
+  witness as the chapter's essence; round-2 PASS — "the cut sharpens the
+  landing").
+- **Witness (blind, Sonnet):** MATCH. Freire's student: "I stopped
+  breathing for a moment… at the rendering of it as a specific spoken
+  moment." The wine afternoon: "the writer stepped into the frame, and I
+  felt the permission to do the same. The detail was the argument." Can't
+  unsee: place-specific knowledge ("a relationship, not a possession") and
+  the coup's logic ("the ability to perceive clearly is something that can
+  be taken"). The Stone: "What it hands me is the question of whether my
+  attention has been enclosed… That question is mine now." Bounce: the
+  Hardt & Negri paragraph ("citation rather than demonstration") →
+  interview row 9 (attribution stays per fact-checking rules; the image is
+  the missing half); the "foundation" overclaim → cut (above).
 
 ## Cross-cutting patterns (updated)
 

@@ -155,7 +155,24 @@ same-door* mechanism. (Trained vine on a trellis? The hedgerow laid by the
 hedger's hand? Your call — or skip; the witness did not bounce.)
 **JASON:**
 
-### (rows 9+ append as the pass walks — the known heavy-theory sections
+### 9. Chapter 12 — Hardt & Negri, consciousness as commons (G-12-036)
+**Concept needing image:** attention/consciousness as the commons beneath
+all the others — built, nourished, defended; enclosed through curriculum,
+outrage-substitution, and pace.
+**Witness:** "the closest thing to a lecture… it arrived as citation rather
+than demonstration, which is a different gear than the rest of the chapter…
+the one moment I felt the writing was working harder to persuade me than
+the material required." (The deer and the children recovered it.)
+**Note:** the attribution must stay (it is genuinely their concept — the
+fact-checking rules). What lacks is the image: what does enclosed attention
+look like on land? The chapter's own deer-stalking games are the positive
+casting (attention CULTIVATED); the missing half is attention ENCLOSED —
+the pace that leaves no time to notice. (Light pollution drowning the
+stars? The field too noisy for the birds to hear each other's alarm calls?
+Your call.)
+**JASON:**
+
+### (rows 10+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system

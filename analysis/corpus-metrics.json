@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-11T17:35:52.643Z",
+  "generatedAt": "2026-06-11T17:44:00.488Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 83905,
-    "sentences": 5925
+    "words": 83873,
+    "sentences": 5923
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.44,
+    "fleschReadingEase": 59.45,
     "fleschKincaidGrade": 8.49,
     "gunningFog": 11.9,
     "smog": 11.62,
     "colemanLiau": 9.78,
-    "automatedReadabilityIndex": 7.82,
+    "automatedReadabilityIndex": 7.81,
     "avgWordsPerSentence": 14.16,
     "avgSyllablesPerWord": 1.57
   },
@@ -133,21 +133,21 @@
       "slug": "chapter-12",
       "title": "Chapter 12: This Was Made",
       "gestureCount": 28,
-      "words": 2755,
-      "sentences": 173,
+      "words": 2723,
+      "sentences": 171,
       "avgWordsPerSentence": 15.92,
       "avgSyllablesPerWord": 1.58,
-      "fleschReadingEase": 57.34,
-      "fleschKincaidGrade": 9.22,
-      "gunningFog": 12.99,
-      "colemanLiau": 10.15,
-      "automatedReadabilityIndex": 8.81,
-      "smog": 12.4,
+      "fleschReadingEase": 57.39,
+      "fleschKincaidGrade": 9.21,
+      "gunningFog": 12.97,
+      "colemanLiau": 10.12,
+      "automatedReadabilityIndex": 8.78,
+      "smog": 12.39,
       "smogReliable": true,
-      "lexicalEntropy": 8.19,
+      "lexicalEntropy": 8.18,
       "typeTokenRatio": 0.32,
-      "meanGestureWords": 98.39,
-      "stdGestureWords": 80.79,
+      "meanGestureWords": 97.25,
+      "stdGestureWords": 78.61,
       "structuralEntropyNorm": 0.91
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 110,
       "p90": 175,
-      "mean": 87.01
+      "mean": 86.98
     },
     "lexicalEntropy": {
       "n": 967,
@@ -667,7 +667,7 @@
     },
     "fleschKincaidGrade_3plusSentences": {
       "n": 754,
-      "p10": 4.43,
+      "p10": 4.41,
       "p25": 6.12,
       "p50": 8.18,
       "p75": 10.79,

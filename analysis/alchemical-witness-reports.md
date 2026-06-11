@@ -1511,3 +1511,126 @@ register"). Notable: G-11-037's Necromancy naming did NOT chill this
 witness — it sits inside the lineage roll-call where the register is
 already ceremonial. The three round-1 dissolutions were invisible; the
 Bluesky self-reference drew no flinch — hold released.)*
+
+---
+
+## chapter-12 (P-12) — witnessed 2026-06-11 (post-refinement; its report prompted the foundation cut, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read — where I leaned in, where I drifted,
+where something landed in the body before the mind.**
+
+I leaned in from the first sentence. Roy standing waist-deep in a river,
+documenting what is about to disappear — that image carries physical weight.
+I felt it land in the chest rather than the head. The description of the
+adivasi communities' knowledge — not written down, embedded in practice,
+specific to *this* forest, *these* generations — I slowed there
+involuntarily. Something true about the nature of local knowledge arrived
+before I had words for why it was true.
+
+I drifted slightly in the biographical paragraph about Roy — birthplace,
+architectural training, the Booker Prize. It felt like necessary credential,
+but I was waiting to get back to the water.
+
+Freire's student writing his name and saying *I made this. This arrangement
+— I didn't make it. It was made.* I stopped breathing for a moment. Not at
+the idea, which I had encountered before, but at the rendering of it as a
+specific spoken moment. That landed in the body first.
+
+Then the Sunday afternoon with the wines, the restaurant conversation,
+Baudrillard finally making sense over a Chiaretto Rosé — I leaned all the
+way in. Not because wine is important, but because the writer stepped into
+the frame, and I felt the permission to do the same. The detail was exacting
+(Parés Baltà, Extra Brut, biodynamic Penedès) without being decorative. The
+detail was the argument: this is what careful attention looks like, and this
+is what it costs.
+
+The sentence "The veil lifting is not a liberation. It is a change in what
+you can see" — that landed without announcement. I wanted to stop and sit
+with it. I didn't skip forward.
+
+The deer and the children moving through the forest — I felt something warm
+and clarifying there. Not sentimental. More like: *oh, that's what the
+chapter has been building toward.* Readiness. Practice that meets the
+moment.
+
+I drifted briefly at the Hardt and Negri citation. Not badly, but I was in
+the writer's own experience and that felt like a small step out of it. It
+returned quickly.
+
+**2. What I now see that I didn't see before, or can no longer unsee.**
+
+I cannot unsee the specific form of what gets destroyed when a commons is
+displaced. I knew in abstract that displacement is loss. I did not have
+language for the fact that the knowledge is *place-specific* — that the
+fishing knowledge of the Narmada belongs to that river, that stretch, that
+community across those generations, and cannot be relocated because it is a
+relationship, not a possession. That is now visible to me in a way it
+wasn't.
+
+I also cannot unsee the coup's logic. The generals weren't afraid of
+literacy. They were afraid that teaching people their situation was
+*historical* rather than *natural* was itself a form of power — that the
+ability to perceive clearly is something that can be taken from people, and
+that taking it makes every other enclosure easier. The chapter names this
+"the enclosure underneath all the other enclosures." That reframe is sitting
+in me now in a way I won't be able to unhave.
+
+**3. What I feel asked to do, or to become. Is it mine to do, or the
+author's?**
+
+The chapter doesn't instruct me directly. It doesn't say "here is what you
+must do." But it models something — a quality of attention, a willingness to
+stay with specific people rather than aggregating them, a practice of
+refusing to look away. Roy in the river. Freire's student at the word. The
+children who had been prepared to notice the deer.
+
+The chapter hands something to me rather than keeping it. What it hands me
+is the question of whether my attention has been enclosed — whether I have
+been taught which questions are answerable, whether the pace of my days
+leaves room for the quality of presence that witnessing requires. That
+question is mine now. What I do with it is mine.
+
+The author's work, I think, is already complete in the writing. The witness
+is handed across.
+
+**4. What I would say this chapter IS, in one sentence, to a friend.**
+
+It's a chapter about how to see clearly and why that capacity is the one
+thing the system most needs to take from you — told through Roy standing in
+a river, a Brazilian farmworker writing his name for the first time, and a
+Sunday afternoon in a restaurant where something finally clicked.
+
+**5. What, if anything, I bounced off — felt lectured by, doubted, or
+wanted to skip.**
+
+The Hardt and Negri paragraph was the closest thing to a lecture.
+"Consciousness itself a commons" — that's a large claim, and it arrived as
+citation rather than demonstration, which is a different gear than the rest
+of the chapter. I didn't skip it, but I felt the prose shift register
+slightly toward essay-argument and away from presence. It recovered quickly.
+
+I had a flicker of resistance at "the commons of consciousness is the
+foundation." It felt close to an overclaim — a sentence that wants to be the
+organizing thesis but arrives a little too late and a little too broad for
+the chapter that preceded it. The chapter had earned something more specific
+by that point, and the abstraction felt like a small step back from what had
+been shown. The deer and the children in the closing paragraphs recovered
+it, but the Hardt and Negri passage is the one moment I felt the writing was
+working harder to persuade me than the material required.
+
+Everything else I was inside.
+
+*(Editor's note: both flickers were acted on within the rules. "The commons
+of consciousness is the foundation." was cut — explained-twice within its
+own paragraph ("the enclosure underneath all the other enclosures. The one
+that makes the rest possible." already states it), and the witness
+independently carried the surviving half out as their one-sentence essence
+of the chapter — round-2 Opus PASS ("the cut sharpens the landing"). The
+Hardt & Negri citation chill became interview row 9: the attribution stays
+(it is genuinely their concept — the fact-checking rules), and what's
+missing is the image — the deer-stalking games are attention CULTIVATED;
+the row asks Jason for attention ENCLOSED. The three round-1 cuts —
+including the chapter self-reference after "The preparation met the
+moment." — were invisible to this reader, who received the deer→Roy seam
+exactly as intended: "oh, that's what the chapter has been building
+toward.")*
