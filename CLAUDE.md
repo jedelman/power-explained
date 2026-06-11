@@ -244,7 +244,7 @@ Transformation at 2 instances; Illusion zero-by-design, routed to Jason.)
 
 ---
 
-## Alchemical pass (ACTIVE — started 2026-06-10)
+## Alchemical pass (CHAPTER LOOP COMPLETE 2026-06-11 — Stone test at wrap-up)
 
 The river refined to its essence — alchemy in the Jungian sense: removal that
 qualitatively transforms (dissolving what weakens or corrupts) and
@@ -253,9 +253,21 @@ it). Solve et coagula. The Stone test: the book intends to transform by its
 presence — every chapter is tested blind on a reader-witness against what it
 invokes; the whole refined river gets a final blind walk at wrap-up.
 
+**STATUS: all 28 river sources walked and witnessed blind (2026-06-10/11);
+all verdicts MATCH; 27 seams spot-read clean; corpus 84,398 → 83,625 words
+(−0.9% — essence over arithmetic held); 7 IDs retired; Rulings grown to 5.
+Pass summary + per-chapter log: `analysis/alchemical-pass-notes.md`.
+Verbatim witness reports (Jason's reading copy):
+`analysis/alchemical-witness-reports.md`. The nature-image interview (11
+rows, Jason fills all at once): `for-agents/nature-image-interview.md`.
+Standing flags for Jason: 12, in the logbook's Flags section — chief among
+them the thread-anchor naming question (3 witnessed chill sites) and the
+G-CE-022 "[Jason's section]" placeholder. This pass supersedes the
+sequencing pass above.**
+
 **Read first to resume:** `for-agents/alchemical-pass-instructions.md` (the
 fixed bar: standard, frozen critic + reader-witness prompts, retirement
-checklist, Rulings), then `analysis/alchemical-pass-notes.md` (Current
+checklist, Rulings 1–5), then `analysis/alchemical-pass-notes.md` (Current
 position), then the chapter's section of
 `analysis/alchemical-protected-beats.md`.
 

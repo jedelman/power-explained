@@ -114,9 +114,41 @@ processed; the pre-compaction handoff list skipped it and the running count
 inherited the error. Goetia processed out of river order as source 28 of
 28: PASSES CLEAN (zero edits, 52/57 locked; witness MATCH — "That's not the
 author's job anymore. That's mine."). ALL 28 SOURCES NOW WALKED.
-PHASE 2 IN PROGRESS: 27-seam spot-read → final analyze + pass summary →
-the full-river blind Stone test (the pass's primary deliverable) →
-CLAUDE.md update → session log to claude-memory. Then Phase 2 wrap-up:
+PHASE 2: 27-seam spot-read DONE (all clean — every forward-link hands off
+precisely; "Look up" descending to the doves is the deliberate inversion).
+Pass summary below. NEXT: the full-river blind Stone test (the pass's
+primary deliverable) → CLAUDE.md update → session log to claude-memory.
+
+## Pass summary (Phase 2, 2026-06-11)
+
+- **Corpus:** 84,398 → 83,625 words (−773, −0.9%) · 970 → 963 gestures (−7)
+  · 5,951 → 5,908 sentences. Essence over arithmetic, as gated: the pass
+  cut less than one percent of the book and every cut was a named
+  corruption — the transformation was qualitative.
+- **Retired this pass (7, never reused):** G-PR-020, G-01-034, G-09-017
+  ("Here is Gramsci's answer"), G-16b-032 ("Here is the singularity
+  argument"), G-16b-056 (doubled forward-link), G-17-014 (verbatim
+  cross-chapter twin), G-18-011 (chapter-about announcement).
+- **All 28 sources walked, all witnessed blind, all verdicts MATCH** (8
+  passed clean: overture, chapter-4, reenchanting, chapter-16,
+  wizards-walk, the-centaur-chapter, goetia — and angel-faces-backward/
+  orgone-accumulator passed clean on the read with only witness-driven
+  pure deletions under their full locks).
+- **Rulings grown 1→5** (section-boundary retirement; instruction chills/
+  image warms; the sneaked name; cross-references earn or chill; the motif
+  inventory protects the work, not the grep hit).
+- **The witness program's findings:** the sneaked-name technique confirmed
+  by controlled re-witness (ch-2); theory warms via persons, images, and
+  felt-first delivery; the H&N citation rule (cut when the claim leaves
+  with the citation; attribute + image when it stays); the
+  protected-naming-chill pattern (3 instances, all thread anchors — Jason
+  flag); "Start with what they burned" and the ch-12 attention line each
+  landed bodily in two separate blind witnesses — the gathering-weight
+  mechanism confirmed at book scale.
+- **For Jason (the standing flags, 12):** see Flags below — chief among
+  them the thread-anchor naming question (3 witnessed sites), the
+  G-CE-022 placeholder, and the nature-image interview (11 rows, ready to
+  fill all at once). Then Phase 2 wrap-up:
 27-seam spot-read, final analyze + pass summary, the full-river blind
 Stone test (the pass's primary deliverable), CLAUDE.md update, session log.
 
