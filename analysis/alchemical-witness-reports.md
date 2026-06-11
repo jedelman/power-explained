@@ -2123,3 +2123,117 @@ this chapter read as "borrowed" to this witness, where the two prior
 chapters' witnesses both bounced on the H&N seminar register: the rule is
 working. Village-to-Village catalog mode and the C.L.R. James rhythm are
 logged as minor; both sit in load-bearing material.)*
+
+---
+
+## reenchanting (P-RE) — witnessed 2026-06-11 (passes clean — zero edits, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the witch. Not the argument about the witch — the
+specific claim about what she knew and why that made her dangerous. "You
+could not extract the knowledge from her and sell it as a service. You could
+only destroy it or absorb it." Something in that sentence went somewhere
+before I had a thought about it.
+
+I drifted slightly in the Simondon paragraph — not because it was wrong, but
+because it named the thing after it had already been shown. The muskrat and
+the otter passages had already given me the feeling Simondon was trying to
+explain, and then Simondon arrived and I was a little less in my body than I
+had been. It felt like a moment where the book reached for a credential it
+didn't need.
+
+I leaned back in hard at the zanjero. "He was not managing infrastructure.
+He was maintaining a conversation between that water and that land, a
+conversation four hundred years old, and his job was to keep it going." That
+landed completely. It didn't explain anything. It was just true and I could
+feel the weight of the four hundred years.
+
+The line "You are already in that ledger. The only question is what you will
+write next to your name" — I felt that in the chest. Not as a threat. As a
+door opening.
+
+The practice section at the end slowed me down in a good way. I read it more
+carefully than the rest, almost word by word. The instruction "Do not reach
+for your phone, your field guide, your identification app" — I recognized an
+instinct in myself to do exactly that, and the sentence caught me in the
+middle of the instinct.
+
+"Frankly adorable" made me smile. In a chapter with this gravity, it was
+permission. It made the whole thing feel safer to believe.
+
+**2. What I now see and cannot unsee**
+
+The separation of knowing from relationship — I had understood it as an
+economic argument before (enclosure, commons, extraction of value). This
+chapter made it felt differently: there is a kind of knowing that only
+exists between two beings who have been paying attention to each other over
+time. When that relationship ends, the knowing disappears. It doesn't go
+somewhere else. It ends. That is a different kind of loss than I had been
+carrying the concept as.
+
+Also: the disenchantment project was not about superstition. It was about
+dependency. The witch had to be destroyed not because her knowledge was
+false, but because her knowledge was ungovernable — embedded in
+relationship, not transferable to a market, not scalable. The accusation of
+superstition was cover. That distinction I cannot now unfeel.
+
+**3. What I feel asked to do or become — and by whom**
+
+The practice section at the end is a direct ask. It is specific, achievable,
+and genuinely mine to do. Go outside. Find something alive. Sit with
+not-knowing. Address it. The chapter hands this to me, clearly, without
+drama.
+
+The deeper ask — becoming someone who is legible to the living world, who
+shows up consistently enough to be entered into the ledger with a good
+account — that one is also mine, but it is longer. The chapter doesn't
+pretend it isn't. It says: "The channel, once opened, stays open. Not
+through effort — through practice." That distinction is doing real work. It
+doesn't ask for a heroic act. It asks for a habit.
+
+One thing the chapter holds rather than hands: the grief. It gestures at it
+— "you cannot grieve a graph" — but doesn't take me there. I felt the
+outline of a grief and then the chapter moved on. I don't think that's a
+failure. I think that's intentional. The grief may be the next chapter's
+work.
+
+**4. What this chapter IS, in one sentence**
+
+This chapter is a case that the living world has been paying attention to
+you your whole life, that you lost the ability to notice because the project
+that enclosed the land also enclosed that form of knowing, and that
+recovering it is not mysticism but practice — specific, available, and
+already beginning the moment you stop treating the world as backdrop.
+
+**5. What I bounced off**
+
+The opening paragraph — Mariame Kaba, Silvia Federici, Selma James all in
+the first three lines — I felt a small bracing. Not because they're wrong to
+invoke, but because the chapter came out swinging with intellectual
+authority before it had given me anything to feel. By the end I understood
+why: the opening is the most analytical register, and the chapter moves
+steadily toward the experiential and then the practical. But the first time
+through I felt slightly positioned rather than invited. It recovered fast.
+
+The Simondon name-drop, as I mentioned — I didn't bounce hard, but I noticed
+I left my body for a sentence and came back when the birds returned.
+
+Nothing I wanted to skip. One moment I doubted: the claim that "every
+tradition that ever developed a systematic practice of sustained attention"
+describes "the same encounter in different vocabularies." I believe the
+thrust of it. The universality is a strong claim and I noticed myself
+wanting one acknowledgment that these traditions don't map onto each other
+perfectly — that the San hunter and the Nepali shaman and the meditator are
+not doing exactly the same thing. The chapter moves past that. It may be
+right to move past it. But I noticed the speed.
+
+*(Editor's note: PASSES CLEAN — zero edits; the chapter is already at its
+essence. The Simondon bounce is on material protected three ways (the
+inventoried pre-individual motif site, a second-initiation thread member,
+a wizard-register chapter) — it joins the ch-11 Evocation naming as the
+second instance of the protected-naming-chill pattern, itemized in the
+Flags for Jason with the proposed thread-frame alternative. The opening
+name-cluster is the seam carrying chapter-15's close — the bracing
+"recovered fast" and the handoff is load-bearing. The
+universality-of-traditions speed is Jason's claim, logged minor.)*

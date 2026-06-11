@@ -76,8 +76,15 @@ Chapter-15 DONE (2 dissolutions — a Ruling-4 filing reference and the third
 H&N attribution frame, both PASS; witness MATCH — "asked to become the kind
 of person who notices what labor is being made invisible in a given room").
 19 of 28 sources done.
-Next chapter: reenchanting (P-RE, river order, source 20 of 28) — wizard +
-naturalist register (senses lead); check protected beats and locks on load.
+Reenchanting DONE (PASSES CLEAN — zero edits; the one candidate, the
+G-RE-020 citation clause, is the inventoried pre-individual motif site in a
+second-initiation thread member in a wizard chapter — protected three ways;
+witness MATCH — the practice "genuinely mine to do"; the Simondon bounce
+joins the ch-11 Evocation flag: protected-naming chill, now 2 instances).
+20 of 28 sources done.
+Next chapter: chapter-16 (P-16, river order, source 21 of 28) — the system
+of objects / the spectacle; a known interview-row candidate; check
+protected beats on load.
 
 ---
 
@@ -145,6 +152,7 @@ recomposed, and verdicts)
 | angel-faces-backward | 4679→4631 | 6.52→6.46 | 13.33→13.23 | 70→70 | MATCH |
 | chapter-14 | 2736→2724 | 10.39→10.37 | 15.46→15.39 | 32→32 | MATCH |
 | chapter-15 | 1715→1705 | 11.17→11.24 | 17.86→17.95 | 22→22 | MATCH |
+| reenchanting | 2937→2937 | 6.80→6.80 | 11.30→11.30 | 34→34 | MATCH (passes clean) |
 
 ---
 
@@ -893,6 +901,40 @@ incants subliminally, the hypertext layer is the reveal.
   had already named it myself" — kept: reader-first-book-confirms is the
   naming working (cf. ch-9's "That's the right order").
 
+### reenchanting (P-RE) — PASSES CLEAN · witness MATCH · 2026-06-11
+
+- **Essence:** The disenchantment of the world is the enclosure of a
+  knowing — the witch's, the zanjero's, the birder's — that lives only in
+  relationship and cannot be sold, and re-enchantment is its recovery:
+  attention, given consistently and kindly, opens a real channel, and the
+  living world keeps a ledger of who has paid it. You are already in that
+  ledger.
+- **Invocation:** the reader goes outside, finds something alive, sits with
+  not-knowing, and addresses it as a neighbor — the practice handed whole,
+  ceremony not curriculum.
+- **Edits: none (passes clean).** The one candidate — G-RE-020's "Deleuze
+  and Guattari territory, Simondon's pre-individual field at work" — is the
+  inventoried pre-individual motif appearance, in a second-initiation
+  thread member, in a wizard-register chapter (explicit names keep per
+  Ruling 3): protected three ways; not cut.
+- **Witness (blind, Sonnet):** MATCH. The witch: "Something in that
+  sentence went somewhere before I had a thought about it." The zanjero:
+  "I could feel the weight of the four hundred years." The ledger line:
+  "Not as a threat. As a door opening." The practice: "It caught me in the
+  middle of the instinct" (reaching for the app); "It doesn't ask for a
+  heroic act. It asks for a habit." "Frankly adorable" = "permission. It
+  made the whole thing feel safer to believe." Can't unsee: knowing that
+  ends when the relationship ends ("It doesn't go somewhere else. It
+  ends."); disenchantment as dependency-management ("the accusation of
+  superstition was cover"). The grief withheld read as intentional ("may
+  be the next chapter's work"). Bounces: the Simondon paragraph ("named
+  the thing after it had already been shown… a credential it didn't
+  need") — PROTECTED, joins the ch-11 Evocation flag (the
+  protected-naming-chill pattern, now 2 instances, both thread anchors);
+  the opening Kaba/James/Federici cluster ("slightly positioned rather
+  than invited… recovered fast" — the seam carrying ch-15, kept); the
+  universality-of-traditions claim speed (Jason's claim, logged minor).
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -1008,3 +1050,14 @@ incants subliminally, the hypertext layer is the reveal.
    will recur for every thread-anchor naming in analytical chapters
    (G-11-037's Necromancy naming did NOT chill this witness — it sits inside
    the lineage roll where the register is already ceremonial).
+   SECOND INSTANCE (2026-06-11, reenchanting): G-RE-020's "Memory here goes
+   transorganic: Deleuze and Guattari territory, Simondon's pre-individual
+   field at work." — the witness: "it named the thing after it had already
+   been shown… a moment where the book reached for a credential it didn't
+   need." Protected three ways (motif site + second-initiation member +
+   wizard chapter), so untouched. The pattern across both: thread-anchor
+   namings chill when they arrive AFTER the demonstration in a felt
+   register; they pass unnoticed inside ceremonial rolls (ch-11 Necromancy)
+   and at question-answering positions. Your call whether the anchor layer
+   moves to the thread pages' frame text book-wide; both sites itemized
+   here.
