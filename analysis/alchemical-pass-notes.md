@@ -82,9 +82,13 @@ second-initiation thread member in a wizard chapter — protected three ways;
 witness MATCH — the practice "genuinely mine to do"; the Simondon bounce
 joins the ch-11 Evocation flag: protected-naming chill, now 2 instances).
 20 of 28 sources done.
-Next chapter: chapter-16 (P-16, river order, source 21 of 28) — the system
-of objects / the spectacle; a known interview-row candidate; check
-protected beats on load.
+Chapter-16 DONE (PASSES CLEAN — zero edits; witness MATCH — "The author
+held up their end"; the protected cliff-close received as "a door being
+held open. I want to go through it"; interview row 11 added for the
+Baudrillard section). 21 of 28 sources done.
+Next chapter: chapter-16b (P-16b, river order, source 22 of 28) — The
+Simulacrum and the Field; the frontier flip (B2); second-initiation members
+G-16b-036/039a; check protected beats on load.
 
 ---
 
@@ -153,6 +157,7 @@ recomposed, and verdicts)
 | chapter-14 | 2736→2724 | 10.39→10.37 | 15.46→15.39 | 32→32 | MATCH |
 | chapter-15 | 1715→1705 | 11.17→11.24 | 17.86→17.95 | 22→22 | MATCH |
 | reenchanting | 2937→2937 | 6.80→6.80 | 11.30→11.30 | 34→34 | MATCH (passes clean) |
+| chapter-16 | 3196→3196 | 8.25→8.25 | 12.68→12.68 | 51→51 | MATCH (passes clean) |
 
 ---
 
@@ -934,6 +939,41 @@ incants subliminally, the hypertext layer is the reveal.
   the opening Kaba/James/Federici cluster ("slightly positioned rather
   than invited… recovered fast" — the seam carrying ch-15, kept); the
   universality-of-traditions claim speed (Jason's claim, logged minor).
+
+### chapter-16 (P-16) — PASSES CLEAN · witness MATCH · 2026-06-11
+
+- **Essence:** There is a love that nourishes becoming (the pre-individual
+  field, the forest feeding its trees) and a love that encloses (the system
+  of objects, the spectacle — belonging contingent on legibility). Turing,
+  who lived outside the frame, dissolved the boundary between device and
+  function; the state extracted the knowledge and managed the source — not
+  tragedy, policy. The counter-spell: Stallman cast ownership's incantation
+  backward, and the gift that built the digital world is never secured once
+  and for all.
+- **Invocation:** the reader feels the flatness after closing the app as
+  the system of conditional love working as designed — and receives the
+  question, placed and left: what would it take to refuse it? Be harder to
+  enclose. Stay in process.
+- **Edits: none (passes clean).** Every citation arrives
+  demonstration-first; the Federici "policy" echo and the Roy callback are
+  cross-chapter weight without chapter numbers (Ruling 4's earn side); the
+  H&N "force" naming is their distinct claim at a load-bearing site
+  (attribution stays per the H&N rule).
+- **Witness (blind, Sonnet):** MATCH. "Yes, even that part" — "I felt
+  recognized before I knew by what." "You are not a finished object. You
+  are an ongoing event" — "hit in the sternum." Stonewall: "They didn't
+  have a theory. They had bodies" — "I felt [it] before I understood it."
+  Turing's death "I received in something closer to silence than reading…
+  'The knowledge was useful. The person was a problem.' …landed like a
+  stone." Can't unsee: enclosure as operational decision ("From grief to
+  clarity"); "The spectacle does not need to own the protocol. It only
+  needs to own the interface" — "I will be unable to scroll without feeling
+  it." The Stone: "It gives the question without giving the answer…
+  Whether something does is on me. The author held up their end." The
+  protected cliff-close: "a door being held open. I want to go through
+  it." Bounces: Baudrillard familiarity-slide (recovered by the
+  grandmother's lamp) → interview row 11; the "You have felt this" list
+  "didn't quite fall" — logged, not edited.
 
 ## Cross-cutting patterns (updated)
 

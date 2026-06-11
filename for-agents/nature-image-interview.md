@@ -193,7 +193,26 @@ the water table dropping a little every season no matter the rain? Your
 call.)
 **JASON:**
 
-### (rows 11+ append as the pass walks — the known heavy-theory sections
+### 11. Chapter 16 — Baudrillard, the system of objects (G-16-0xx, the
+furniture-showroom section)
+**Concept needing image:** the curated arrangement that consumes its
+inhabitant — objects stripped of history, the person stripped to a legible
+signal, the emptiness structural ("the promise is the product").
+**Witness:** "not because it was wrong but because I have encountered that
+furniture-as-system argument before and the mind slid into recognition
+rather than discovery. I was following rather than being moved. The
+grandmother's lamp brought me back. That was precise."
+**Note:** the chapter's own counter-image already works (the weird lamp =
+the unmetabolizable singularity; the old-growth network opens the chapter).
+What lacks is the SYSTEM side's image in nature — does the curated
+arrangement have a wild analogue, or is its unnaturalness the point? (A
+monoculture plantation pretending to be a forest? The lawn? If the lawn,
+note ch-9 already has lawnmowers as interregnum noise — same family could
+bind them.) Low priority: the witness recovered fast and the section may
+simply be carrying recognition for readers who've met Baudrillard.
+**JASON:**
+
+### (rows 12+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system

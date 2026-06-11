@@ -2237,3 +2237,115 @@ Flags for Jason with the proposed thread-frame alternative. The opening
 name-cluster is the seam carrying chapter-15's close — the bracing
 "recovered fast" and the handoff is load-bearing. The
 universality-of-traditions speed is Jason's claim, logged minor.)*
+
+---
+
+## chapter-16 (P-16) — witnessed 2026-06-11 (passes clean — zero edits, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the opening. "Yes, even that part" — that landed
+before I had processed why. It was the specificity of the omission, the way
+the sentence pointed at something without naming it. I felt recognized
+before I knew by what.
+
+I stayed close through the forest passage. The mycorrhizal network as
+metaphor did not feel like a metaphor. It felt like a fact I already knew
+being applied somewhere I hadn't thought to apply it. The sentence "You are
+not a finished object. You are an ongoing event" hit in the sternum. I did
+not drift there.
+
+I drifted slightly in the Baudrillard section — not because it was wrong but
+because I have encountered that furniture-as-system argument before and the
+mind slid into recognition rather than discovery. I was following rather
+than being moved. The grandmother's lamp brought me back. That was precise.
+
+I came back fully and hard at Stonewall. "They didn't have a theory. They
+had bodies." The contrast with the Situationists was a formal move that I
+felt before I understood it. Marsha P. Johnson refusing "in her body, in the
+street" — that sentence did something that the theory could not have.
+
+The Turing passage slowed me down in the best way. I did not expect the
+grief about Christopher Morcom. I did not expect Tolkien. The movement from
+Turing's mind to the Tolkien register to the legal incantation back to the
+machine — I tracked that with something close to suspense. When it resolved
+into "The description is the spell," I felt the architecture of the whole
+chapter click into place.
+
+The account of his death I received in something closer to silence than
+reading. The half-eaten apple. The inquest. Then: "The knowledge was useful.
+The person was a problem." That is one of the most precise sentences I have
+read about how systems work. It landed like a stone.
+
+I leaned in again at Stallman, Berners-Lee, Torvalds — not because the tech
+history surprised me but because the counter-spell framing made me feel the
+weight of what they were doing differently than I had before. "Enclose it
+and you destroy it" felt like a principle I could carry.
+
+Then near the end — "You have felt this" — I felt the chapter step directly
+toward me and speak to my actual experience of an app. That transition from
+historical scale to my own body was abrupt in a way that worked.
+
+**2. What I now see that I didn't see before**
+
+I cannot unsee enclosure as a recurring operational decision rather than a
+tragedy or an accident. The chapter lines up Federici's witches, Turing's
+chemical castration, the adivasi communities, and makes the pattern
+operational. It is not cruelty by bad people. It is policy by systems. That
+reframe does something to my moral intuitions I did not expect: it doesn't
+reduce the outrage, it redirects it. From grief to clarity.
+
+I also cannot unsee the counter-spell logic. That the GPL used the grammar
+of ownership to prevent ownership — I knew this factually, but the chapter
+placed it in a lineage that made it feel like a form of magic that actually
+works. The master's tool turned.
+
+And "The spectacle does not need to own the protocol. It only needs to own
+the interface." That sentence may be the most useful thing I read in it. I
+will be unable to scroll without feeling it.
+
+**3. What I feel asked to do or become**
+
+The chapter does not hand me a task. It hands me a way of seeing. The
+question at the end — "what would it take to refuse it?" — is not assigned
+to me. It is placed in front of me and left there.
+
+I felt something like: be harder to enclose. Be the grandmother's lamp. Stay
+in process. Refuse to complete the arrangement.
+
+Whether that is mine to do or the author's call — I think the chapter does
+the harder thing. It gives the question without giving the answer, and
+trusts that if the seeing is real, something will move. Whether something
+does is on me. The author held up their end.
+
+**4. What this chapter IS, in one sentence**
+
+A rigorous argument that every system of power works by converting living,
+relational, embodied things into manageable, legible, enclosed ones — and
+that every genuine resistance has been the refusal to be resolved.
+
+**5. What I bounced off**
+
+The furniture-system / Baudrillard section — not wrong, but familiar. My
+mind went ahead of the text for a paragraph. The grandmother's lamp
+recovered it.
+
+The final turn — "You have felt this" — worked emotionally but the list that
+follows (slight flatness, conversation in person, hum of dissatisfaction)
+almost became a list. It was on the edge of losing the register it had held
+the whole chapter. It didn't quite fall. But it was the one moment where I
+felt the argument being demonstrated rather than enacted.
+
+The chapter ends on a cliff — "And then something stranger happens" — which
+is either a perfect suspension or a slight withholding depending on whether
+Part 2 earns it. From inside this chapter, it felt like a door being held
+open. I want to go through it.
+
+*(Editor's note: PASSES CLEAN — zero edits. The chapter's citations all
+arrive demonstration-first; the H&N "force" naming is their distinct claim
+(attribution stays per the rule); the Federici/Roy callbacks carry
+cross-chapter weight without chapter numbers. The Baudrillard
+familiarity-slide became interview row 11 (low priority — the grandmother's
+lamp already recovers it). The protected cliff-close was received exactly
+as designed: "a door being held open. I want to go through it" — the
+forward-link to Part 2 earning its suspension.)*
