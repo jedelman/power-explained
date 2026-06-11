@@ -15,10 +15,14 @@ reports the arc against the title's promise.
 
 ## Current position
 
-**Phase 1 underway.** Overture, Prologue, Chapter-1 DONE (all witness MATCH).
-Chapter-2 DONE (3 dissolutions, witness MATCH) — surfaced the pass's central
-Jason finding: the woven lexicon namings read as labels to a blind reader.
-Next chapter: chapter-3 (river order, source 5 of 28).
+**Phase 1 underway.** Overture, Prologue, Chapter-1, Chapter-2 DONE (all
+witness MATCH). THE SNEAKED-NAME CYCLE COMPLETE on ch1+ch2: Jason answered
+the labels finding with the sneaked-name directive (Ruling 3 + word-map);
+8 explicit school call-outs transmuted to motion-words; the controlled
+re-witness of ch2 confirms the technique — the labels complaint VANISHED and
+the new reader thinks in the book's verb ("they composted it").
+Next chapter: chapter-3 (river order, source 5 of 28) — apply the word-map
+to all formula call-outs from here forward.
 
 ---
 
@@ -70,6 +74,7 @@ recomposed, and verdicts)
 | prologue | 2310→2299 | 8.09→8.10 | 14.81→14.83 | 31→30 | MATCH |
 | chapter-1 | 2388→2329 | 8.25→8.29 | 14.39→14.38 | 38→37 | MATCH |
 | chapter-2 | 3779→3739 | 8.90→8.90 | 12.64→12.63 | 40→40 | MATCH |
+| ch1+ch2 (sneaked-name cycle) | −8 labels | — | — | — | MATCH (labels complaint gone) |
 
 ---
 
@@ -205,6 +210,53 @@ recomposed, and verdicts)
     the soil was good") ~100 lines apart; one reader "had to re-steady… for a
     second." Common usages, far apart, recovered fast — left as is.
 
+### The sneaked-name cycle (ch1 + ch2 retro-application) — 2026-06-10
+
+Jason's directive, same day as the labels finding: fold explicit call-outs
+into rhythmic, strategic repetition of consistent motion-words ("naming still
+works if you sneak in the name… a subliminal incantation that, when the
+reader finally notices it, reveals itself as having been present the entire
+time"). Recorded as Ruling 3 + the word-map in the instructions doc. The
+architecture already supported it: the P-IW lexicon-map teaches the schools
+as motion-words; the thread pages carry the explicit names — the river
+incants subliminally, the hypertext layer is the reveal.
+
+- **8 transmutations applied** (1 in ch1, 7 in ch2): illusion→beguiling
+  (G-02-013); conjuration→gathering, folded into the soil image (G-02-009 —
+  critic: "the strongest of the eight… soil gathering leaf-energy IS the
+  conjuration"); ritual formula folded, repeats-until carries (G-02-021);
+  evocation→"evoked it, not organized it" (G-IB-004 — critic: "the
+  directive's form enacted," double-anchored with "felt before understood");
+  deterritorialization→"Rupture… the car's code broken… turned toward the
+  commons" (G-IB-005); prefiguration→the as-if carries (G-IB-006);
+  transformation label folded (G-02-030); necromancy→"the lineage… summoned
+  by the opening" (G-02-031, cadence-revised round 2 to restore the two-beat
+  landing). 7 PASS round 1, 1 punctuation REVISE applied, 0 reverts.
+- **THE CONTROLLED EXPERIMENT:** fresh blind witness on transmuted ch2.
+  Before: "the repeated italicized namings… pulled me out each time… I felt
+  slightly managed." After: NO mention of labels anywhere in the report —
+  and the reader reproduced the sneaked incantation in its own thinking:
+  "nobody stole my participation, they composted it." Capture lodged, the
+  test question carried, Zenobia's refusal received as "the one thing
+  genuinely handed to me." MATCH. The technique is validated; it governs
+  all remaining chapters.
+- **Critic's word-map findings (recorded in instructions):** bare
+  turn/turned = transformation vs "turned toward" = re-territorialization;
+  ritual native-uses stay, only formulas transmute (G-17-049 needs a
+  deliberate call). FLAGS FOR JASON: (a) ch2's transformation anchor is
+  cross-wired — "transforming" rides the superilles/rupture site while
+  Decidim now carries no school-word; accept the upstream anchor or approve
+  a one-word "turned" stitch at Decidim — his call; (b) beguiling has no
+  reveal layer (Illusion has no thread, zero-by-design) — pairs with the
+  existing Illusion routing; the word currently incants with no site where
+  it is finally named.
+- Mechanical fix ridden along: atlantic-city thread member refs for
+  G-02-013/014 corrected ('Chapter 2 · Two Cities' → 'Chapter 1', where the
+  gestures actually render).
+- Remaining-river note: every chapter from ch3 onward applies the word-map
+  to its formula call-outs as part of the standard loop (the
+  protected-beats inventory's school-name clauses are governed by Ruling 3).
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -231,13 +283,11 @@ recomposed, and verdicts)
 
 ## Flags for Jason
 
-1. **Lexicon-naming density (MAJOR, escalating — chapters 1-2).** Two blind
-   readers independently cool at the woven school-namings; ch-2 explicit:
-   they "read like labels stuck onto scenes that were already working… the
-   salsa moment didn't need to be told it was evocation." PROTECTED, not
-   touched by this pass. Your call: are the namings over-woven on
-   already-casting scenes? The witness reports are the evidence; building
-   per chapter.
+1. **Lexicon-naming density — ANSWERED by Jason 2026-06-10** with the
+   sneaked-name directive (Ruling 3 + word-map). Retro-applied to ch1+ch2;
+   controlled re-witness validates. Two residuals are his to call: the ch2
+   transformation anchor (cross-wired) and beguiling's missing reveal layer
+   (no Illusion thread).
 2. **Prologue six-levels map + via-negativa positioning** — read as a
    syllabus / temperature drop (ch-PR). Authorial orientation machinery;
    untouched.

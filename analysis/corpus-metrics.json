@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-10T20:07:41.462Z",
+  "generatedAt": "2026-06-11T02:49:43.382Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84288,
-    "sentences": 5943
+    "words": 84283,
+    "sentences": 5942
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.35,
+    "fleschReadingEase": 59.37,
     "fleschKincaidGrade": 8.5,
     "gunningFog": 11.92,
     "smog": 11.63,
-    "colemanLiau": 9.8,
-    "automatedReadabilityIndex": 7.84,
+    "colemanLiau": 9.79,
+    "automatedReadabilityIndex": 7.83,
     "avgWordsPerSentence": 14.18,
     "avgSyllablesPerWord": 1.57
   },
@@ -309,22 +309,22 @@
       "slug": "chapter-2",
       "title": "Chapter 2: Two Cities",
       "gestureCount": 40,
-      "words": 3739,
-      "sentences": 296,
-      "avgWordsPerSentence": 12.63,
-      "avgSyllablesPerWord": 1.66,
-      "fleschReadingEase": 53.78,
-      "fleschKincaidGrade": 8.9,
-      "gunningFog": 12.71,
-      "colemanLiau": 10.38,
-      "automatedReadabilityIndex": 7.73,
+      "words": 3734,
+      "sentences": 295,
+      "avgWordsPerSentence": 12.66,
+      "avgSyllablesPerWord": 1.65,
+      "fleschReadingEase": 54.15,
+      "fleschKincaidGrade": 8.85,
+      "gunningFog": 12.7,
+      "colemanLiau": 10.3,
+      "automatedReadabilityIndex": 7.68,
       "smog": 12.01,
       "smogReliable": true,
-      "lexicalEntropy": 8.66,
+      "lexicalEntropy": 8.65,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 93.48,
-      "stdGestureWords": 84.62,
-      "structuralEntropyNorm": 0.96
+      "meanGestureWords": 93.35,
+      "stdGestureWords": 84.72,
+      "structuralEntropyNorm": 0.95
     },
     {
       "id": "P-03",
@@ -643,9 +643,9 @@
       "p10": 11,
       "p25": 35,
       "p50": 70,
-      "p75": 111,
+      "p75": 112,
       "p90": 175,
-      "mean": 87.32
+      "mean": 87.31
     },
     "lexicalEntropy": {
       "n": 968,
@@ -678,10 +678,10 @@
       "n": 758,
       "p10": 35.77,
       "p25": 46.85,
-      "p50": 60.45,
+      "p50": 60.46,
       "p75": 72.41,
       "p90": 81.84,
-      "mean": 59.48
+      "mean": 59.49
     }
   },
   "transitionalEntropy": {

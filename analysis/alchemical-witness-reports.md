@@ -357,3 +357,90 @@ defense, a telling-ahead, a doubled date-fact — passed craft critique and the
 witness registered none of them. The Barcelona-history length and the soil
 collision are logged in the notes; the history is load-bearing argument, not
 corruption.)*
+
+---
+
+## chapter-2 RE-WITNESS (post sneaked-name transmutation) — 2026-06-10 · verdict MATCH · the controlled experiment
+
+*Context for this entry: after the previous ch2 witness reported the italic
+school-namings "pulled me out each time… like labels stuck onto scenes that
+were already working," Jason directed the sneaked-name technique — fold the
+explicit call-outs into consistent, rhythmic motion-words; let the thread
+pages remain the reveal. Eight transmutations were applied across ch1+ch2.
+A completely fresh witness then read the transmuted chapter 2. The question:
+does the labels complaint survive?*
+
+**1. What happened to me as I read.**
+
+The opening had me immediately, because it was me. The drive across town, the
+uncomfortable chair, the forty-five minutes of business that wasn't mine, the
+three minutes at the mic, the voice that shook a little. I've done that. I
+leaned all the way in through "Then you went home. The decision went ahead, as
+it had already been planned." Something dropped in my stomach there — not a
+thought, a recognition. The word *legitimacy* arriving right after landed like
+a hand on the back of my neck. "You produced the armor. You handed it to
+them." I felt that before I understood it.
+
+The Zenobia Wilson section held me hard. "Malarkey" and "sprinkling us in
+there to make us feel welcome" — that woman's voice cut through the analysis
+and made it bodily again.
+
+Then Barcelona, and I'll be honest: the fish market and the salsa rig pulled
+me back in beautifully — I could smell the sea fading off the pavement — but
+somewhere around the Crown of Aragon and Alfonso V, I drifted. The CNT, the
+May Days of 1937, Negri and Deleuze-Guattari, the 1978 Constitution, the
+autonomous communities, the Bolsa de Barcelona — I was following with my mind
+but my body had left the room. It became a very good lecture. I came back
+fully at Ada Colau "in the doorways," and again at Naples — "the place people
+leave" against "the place people come to" — that contrast snapped me awake.
+And the close, "Same Mediterranean. Same sun. Different fates," landed clean.
+
+**2. What I now see that I can't unsee.**
+
+That showing up can be the thing that gets used against me. That the meeting
+isn't failing when it changes nothing — it's *working*; producing my consent
+is its actual product. The distinction between corruption and *capture*
+reorganized something: nobody stole my participation, they composted it. I
+won't be able to sit in a public-comment chair again without feeling the armor
+being made out of me. And the test — does this leave something the next
+person can inherit? — I can't unsee that question now. It's a different way
+to measure whether anything I do is worth doing.
+
+**3. What I feel asked to do or become.**
+
+Less to *do* than to *re-aim*. The chapter doesn't hand me a single lever —
+it hands me a question to carry: build relationships, capacity, knowledge that
+persist; leave something inheritable. That's mine, and it stays mine — the
+chapter keeps its hands off the specifics, which I trusted. The implicit ask
+is to stop spending myself on forms designed to absorb me, and to start
+building ground. But it's honest that I can't do that alone, which is the
+point. Zenobia can't stop the demolition; she can refuse the legitimacy. That
+scaled-down, available refusal felt like the one thing genuinely handed to me.
+
+**4. What this chapter IS, in one sentence.**
+
+It's the chapter that shows you why your showing-up gets eaten — and then
+takes you to a real city where it didn't, to prove the difference is
+conditions you can build, not fate.
+
+**5. What I bounced off.**
+
+The long Barcelona history. Roughly from the Crown of Aragon through the
+financial-position section, I felt lectured — too many proper nouns and dates
+arriving faster than I could feel them, more than I needed to believe the
+point. I trusted that the author knows it cold, but I wanted to skip ahead,
+and I did skim. The Naples turn earned a lot of it back retroactively, but for
+several pages I was reading *about* power again rather than seeing it, which
+is exactly the spell the first half had broken. One small doubt, more felt
+than reasoned: the "you cannot imagine the Sixth Fleet in Barcelona" move is
+rhetorically strong but slid past me a little fast as proof — I nodded before
+I'd checked whether I agreed.
+
+*(Editor's note: THE EXPERIMENT RESULT — the previous witness's labels
+complaint does not appear anywhere in this report. No mention of namings, no
+"felt managed." And the reader now thinks in the book's sneaked verb: "nobody
+stole my participation, they composted it" — the gathering/soil incantation
+absorbed and used as the reader's own thought. The technique is validated and
+governs the remaining 24 chapters. The Barcelona-history length remains the
+chapter's one structural flag, already routed to Jason; the Sixth Fleet note
+is new and minor — logged.)*

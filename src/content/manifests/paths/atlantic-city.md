@@ -21,10 +21,10 @@ members:
     ref: 'Chapter 14 · I Became the Land'
     note: a neighborhood before a highway
   - id: G-02-013
-    ref: 'Chapter 2 · Two Cities'
+    ref: 'Chapter 1 · Some Days It Costs Too Much'
     note: the slum was manufactured
   - id: G-02-014
-    ref: 'Chapter 2 · Two Cities'
+    ref: 'Chapter 1 · Some Days It Costs Too Much'
     note: 1957 — the demolition
   - id: G-14-034
     ref: 'Chapter 14 · I Became the Land'

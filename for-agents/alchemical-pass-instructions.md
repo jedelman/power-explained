@@ -265,6 +265,65 @@ DO NOT use scripts/apply-merges.mjs (targets the retired per-plateau layout).
 - Pass kill: unrecoverable build, or a standards contradiction needing
   Jason → commit the logbook with the question, leave the branch pushed.
 
+
+## The sneaked name (Jason's directive, 2026-06-10 — re-gates the school-naming beats)
+
+Jason, responding to the witnesses' "labels" finding, in his words: "naming
+still works if you sneak in the name. if you're very consistent and deliberate
+about using the same word to describe the same thing, it becomes a subliminal
+incantation that, when the reader finally notices it, reveals itself as having
+been present the entire time — prompting a re-examination, heightening
+awareness… your invitation is to fold explicit call outs into the rhythmic,
+strategic repetition of a word — and sometimes not the same word but one that
+rhymes."
+
+**What changes:** the explicit school-naming call-outs (the italic taxonomic
+formula "X cast for Y — gloss") in ANALYTICAL chapters are no longer
+untouchable — they are transmuted: the Latinate school-name folds away and the
+school's consistent MOTION WORD carries the naming subliminally. The gloss-work
+(the sentence's image and insight) survives verbatim or near-verbatim.
+
+**What does not change:** (a) wizard-ceremony chapters where explicit naming IS
+the act (P-IW's lexicon-map, P-GC's demon-naming, the grimoire material) keep
+their explicit names; (b) the thread pages and their invocations keep explicit
+school names — the hypertext layer is the REVEAL where the subliminal word is
+finally named (the form enacting the technique); (c) native-register words
+(spell, counter-spell, magic, pact, ritual, sigil, grimoire, spellbook,
+enclosure, commons) are not taxonomy — they stay; (d) beauty_check gestures
+remain deletion-only — any transmutation needed there is a Jason flag.
+
+**The word-map (one consistent word per school — consistency IS the
+incantation; rhyme-variants only where the primary word cannot sit):**
+
+| School | Sneaked word (primary) | Variant/rhyme |
+|---|---|---|
+| Conjuration | gather / gathering | summon (call-forth face) |
+| Abjuration | refuse / refusal | cast out |
+| Evocation | evoke / evoked | felt before understood |
+| Transformation | turn / turned | remake; transforming |
+| Necromancy | the dead …; the lineage | summoned back |
+| Prefiguration | as if (lived/danced/built as if already here) | rehearse |
+| Divination | read / reading | reveal |
+| Illusion | beguile / beguiling | hide / hid |
+| Deterritorialization | rupture | break the code |
+| (re-territorialize) | turn toward / take root | reseed — NO (invented); use "turned toward" |
+| Enchantment | bewitch / bewitching | the spell breathed as air |
+| Incantation | said until it sounds like fact | the slow spell |
+| Inscription | cut into / written into | — |
+| Ritual | repeated until it holds | — |
+| Pact | bind / bound | — |
+| Invocation | call by name | — |
+
+**Disambiguations (critic findings, 2026-06-10):** bare *turn/turned* =
+Transformation; the two-word unit *turned toward* = re-territorialization —
+hold this across all chapters. *Ritual* sits on both lists: native uses stay;
+only the taxonomic formula ("Ritual cast for…") transmutes — G-17-049 needs a
+deliberate call when reached (its gloss already IS the word-map phrase).
+
+Every transmutation goes through the full loop (craft critique + the witness
+where the chapter is re-tested). The word-map may grow — new entries are added
+HERE so consistency holds across all 28 chapters and across sessions.
+
 ## Rulings (case law — append as judgment calls generalize)
 
 1. **Section-boundary retirement (2026-06-10, prologue/G-PR-020).** When
@@ -280,3 +339,10 @@ DO NOT use scripts/apply-merges.mjs (targets the retired per-plateau layout).
    "There is a word for this"). Protected analytic/lexicon beats stay — the
    witnesses' "placed-on-top" readings of those are logged as data for Jason,
    never edited. New meta-announcements are never added.
+3. **The sneaked name (2026-06-10, Jason's directive — see the section
+   above).** The explicit school-naming formula in analytical chapters
+   transmutes to the school's consistent motion-word; wizard-ceremony naming
+   and the thread/legend reveal-layer stay explicit. Supersedes the
+   protected-beats inventory's "may not be de-named" clause for analytical
+   call-outs: the WORK stays protected; the LABEL transmutes per the
+   word-map.
