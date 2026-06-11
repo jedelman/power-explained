@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-11T17:03:30.110Z",
+  "generatedAt": "2026-06-11T17:14:23.060Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84161,
-    "sentences": 5935
+    "words": 84133,
+    "sentences": 5934
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.42,
+    "fleschReadingEase": 59.41,
     "fleschKincaidGrade": 8.49,
     "gunningFog": 11.91,
     "smog": 11.63,
@@ -485,21 +485,21 @@
       "slug": "orgone-accumulator",
       "title": "The Orgone Accumulator",
       "gestureCount": 24,
-      "words": 7492,
-      "sentences": 372,
-      "avgWordsPerSentence": 20.14,
+      "words": 7464,
+      "sentences": 371,
+      "avgWordsPerSentence": 20.12,
       "avgSyllablesPerWord": 1.4,
-      "fleschReadingEase": 67.84,
-      "fleschKincaidGrade": 8.8,
+      "fleschReadingEase": 67.86,
+      "fleschKincaidGrade": 8.79,
       "gunningFog": 11.92,
       "colemanLiau": 7.48,
-      "automatedReadabilityIndex": 8.47,
+      "automatedReadabilityIndex": 8.46,
       "smog": 11.1,
       "smogReliable": true,
-      "lexicalEntropy": 8.4,
+      "lexicalEntropy": 8.41,
       "typeTokenRatio": 0.21,
-      "meanGestureWords": 312.17,
-      "stdGestureWords": 169.9,
+      "meanGestureWords": 311,
+      "stdGestureWords": 168.94,
       "structuralEntropyNorm": 0.78
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.19
+      "mean": 87.16
     },
     "lexicalEntropy": {
       "n": 968,

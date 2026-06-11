@@ -40,9 +40,12 @@ names invisible, the swimming pools "irreversible"). 9 of 28 sources done.
 Chapter-8 DONE (5 transmutations + 1 witness-driven header cut, all PASS;
 witness MATCH — "the gap is load-bearing… I don't think I can put it down").
 10 of 28 sources done.
-Next chapter: orgone-accumulator (P-OA, river order, source 11 of 28) — the
-body chapter: ALL 24 gestures beauty-locked (deletion-only); Reich, the
-floor, kokoro, the shrug; the largest gestures in the book (347 w/avg).
+Orgone-accumulator DONE (2 dissolutions — a dangling back-reference and a
+witness-flagged defensive clause, both pure deletions under the full
+beauty-lock, both PASS; witness MATCH — "I noticed my jaw… I was already
+inside the text before I had agreed to be"). 11 of 28 sources done.
+Next chapter: chapter-9 (P-09, river order, source 12 of 28) — Luxemburg;
+protected forward-link close G-09-040; no beauty locks, no thread members.
 
 ---
 
@@ -101,6 +104,7 @@ recomposed, and verdicts)
 | chapter-5 | 2538→2495 | 8.15→8.13 | 12.14→12.05 | 28→28 | MATCH |
 | the-colony | 6488→6448 | 10.23→10.22 | 14.17→14.15 | 67→67 | MATCH |
 | chapter-8 | 2607→2580 | 10.92→10.81 | 16.19→16.23 | 22→22 | MATCH |
+| orgone-accumulator | 7492→7464 | 8.80→8.79 | 20.14→20.12 | 24→24 | MATCH |
 
 ---
 
@@ -512,6 +516,48 @@ incants subliminally, the hypertext layer is the reveal.
   sneak registered in the word-map (as-if + build-it-now imperative; chord
   capped at two explicit instances).
 
+### orgone-accumulator (P-OA) — 2 EDITS, BOTH PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The armor is enclosure's deepest inscription — history pressed
+  into muscle until the holding feels like character — and it cannot be
+  talked off, only set down by a body that has concluded, among others that
+  hold it, that it is safe. Reich named it and was burned for it; the floor
+  is where the holding gave out; the practice is how a body takes itself
+  back.
+- **Invocation:** the chapter performs itself on the reader's body in the
+  first page — the jaw, the shoulders, the held breath — and leaves them one
+  instruction that is theirs alone: practice, in whichever situation they
+  are actually in. (Second-initiation station: the descent and the
+  unholding.)
+- **Edits (2, both pure deletions under the FULL beauty-lock — all 24
+  gestures):** (1) G-OA-011: the dangling back-reference "I told you at the
+  start of this chapter that nothing supernatural would happen, and nothing
+  does." — verified false: no such promise exists anywhere in the composed
+  chapter (it arrived already-dangling in b6a9e61, pointing at a draft
+  structure that never shipped); "And none of this is magical." carries the
+  no-woo register. Critic: PASS, "removes a false claim the text never
+  made"; chapter-level restraint ruled CORRECT — no further deletion-only
+  dissolution demanded. (2) G-OA-002, witness-driven: the defensive clause
+  ", and I am not asking you to follow him into it" cut — preemptive-defense
+  anti-pattern the witness flagged ("anticipating an objection rather than
+  talking to me"); round-2 critic: PASS, "the pivot to 'But watch what the
+  government did' lands harder."
+- **Witness (blind, Sonnet):** MATCH — the strongest enactment of an
+  invocation yet: "I leaned in immediately, at the jaw instruction… because
+  I noticed my jaw… I was already inside the text before I had agreed to
+  be." Can no longer unsee: "the clench is the history — not a record of the
+  history… the history, still happening in real time, in the muscles"; "the
+  lineage that kept the politics got burned, and the lineage that dropped
+  the politics is sold at the airport. That is going to follow me." The
+  Stone: "the practice instruction… is offered, not imposed… That is mine to
+  do. The chapter pointed and then stepped back" — and the withheld
+  community address received as RIGHT ("It would be worse if it handed them
+  to you"). Mild drift at the Foucault/discipline section (interview row 8,
+  low priority). Minor notes logged, not edited: Castaneda residue (the
+  "with some irony" marker already does the work — Jason flag, minor);
+  shrug-section saturation ("not a failure of the section — a consequence
+  of the chapter's early strength").
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -578,4 +624,11 @@ incants subliminally, the hypertext layer is the reveal.
    the gesture is locked — deletion-only, only by you.
 7. **Minor voice flags:** ch3 Bluesky self-reference flinch; ch3 G-03-006
    "While I can say for sure… endless arguments" construction (possible
-   inversion or both-true — your voice, your read).
+   inversion or both-true — your voice, your read); ch-OA Castaneda citation
+   ("to borrow a phrase, with some irony, from Castaneda") — the witness felt
+   "a faint doubting pull… cultural residue that briefly shifted my attention
+   to the citation rather than the sentence. That passed." The irony marker
+   already does the distancing work; locked gesture, your call, minor.
+8. **The-colony "deprogramming" line** — that witness's one slip-flag
+   ("witness to performance… it recovered immediately"); your first-person
+   voice, untouched.

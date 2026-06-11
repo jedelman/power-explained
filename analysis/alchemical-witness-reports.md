@@ -1018,3 +1018,120 @@ the foundation of everything the previous chapters have described." was cut
 from G-08-014 — the You-cannot anaphora now opens cold, demonstrate-then-
 collect — and the cut passed round-2 Opus critique. The witness report above
 is the original blind reading, pre-cut, preserved verbatim.)*
+
+---
+
+## orgone-accumulator (P-OA) — witnessed 2026-06-11 (post-dissolution, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately, at the jaw instruction. Not because I was curious
+about it theoretically — because I noticed my jaw. That was a small shock,
+the kind that happens before you decide anything. I was already inside the
+text before I had agreed to be.
+
+I leaned in harder at the sentence "You have been carrying the instructions
+and calling them *you*." Something clicked into place there. Not new
+information — something I had known vaguely for years, now said with the
+precision of a pin.
+
+Reich held me. The biography especially — not the ideas, the cost. The six
+tons of books in the incinerator. I felt something adjacent to grief, which
+surprised me. The sentence "Governments do not burn six tons of paper over a
+box that does nothing" arrived with physical weight.
+
+I drifted, slightly, in the middle section on Foucault. The chapter handled
+it well — the move from Foucault into kokoro was necessary — but it was the
+place where the chapter became most like argument and least like experience.
+I was still with it, but I had moved from leaning forward to reading
+carefully, which is different.
+
+I snapped back at "my armor had to fail before I could see it." That is
+where the personal narrative rejoined the thesis, and I felt it as relief,
+the way you feel it when someone stops explaining and just says the true
+thing.
+
+The final section on practice landed quietly. No single sentence detonated.
+It accumulated — the musicians, the chicken coop, the mask. And then the
+last two sentences arrived and I sat with them longer than I expected to.
+
+**2. What I now see that I didn't see before**
+
+I can no longer see armor as a metaphor. That is the main thing. I have used
+the word "embodied" in plenty of conversations. I did not, before reading
+this, actually understand that the clench is the history — not a record of
+the history, not a response to it, but the history, still happening in real
+time, in the muscles. That distinction collapsed something I hadn't known
+was standing.
+
+The fascism argument also did something to me I did not anticipate. I had
+encountered Reich's thesis before, abstractly. But the chapter's particular
+move — *resonance has another setting* — named something I have felt in
+rooms without being able to describe it. Some crowds tighten what is already
+tight. Some don't. I have been in both kinds. I now have a word for the
+difference, and the word has a diagnosis attached to it.
+
+I also cannot unsee the fork: the lineage that kept the politics got burned,
+and the lineage that dropped the politics is sold at the airport. That is
+going to follow me.
+
+**3. What I feel asked to do or become**
+
+The chapter hands me the practice instruction at the end, but it doesn't
+grip. It is offered, not imposed. What I feel is not quite an instruction —
+it is more like an invitation to notice that I have already been
+not-practicing something I know matters, and the chapter simply makes that
+harder to ignore.
+
+The discipline section — kokoro — asked something more particular of me: to
+distinguish, in my own body, between what I am holding from fear and what I
+am holding from choice. That is mine to do. The chapter pointed and then
+stepped back.
+
+What it kept for itself: the woods, the unnamed community, the fire. The
+chapter does not hand you those. It describes what they did and then
+deliberately withholds the address. That felt intentional and right. It
+would be worse if it handed them to you.
+
+**4. What I would say this chapter IS**
+
+This is a chapter about where the political project lives — which turns out
+to be in the body, and specifically in the belly and the jaw of every person
+who is being managed by a system that depends on their compliance, and who
+has agreed to the management in the deepest possible way, by calling it
+themselves.
+
+**5. What I bounced off**
+
+The orgone box section had a slightly defensive quality — "the box does not
+work, I am not asking you to follow him into it" — that I noticed. The
+chapter was right to address it, but the phrasing felt like it was
+anticipating an objection rather than talking to me. A small flag of
+self-consciousness in what had otherwise felt direct.
+
+The Castaneda citation was the one moment I felt a faint doubting pull. Not
+because it was wrong — it was used fairly — but because Castaneda carries a
+certain cultural residue that briefly shifted my attention to the citation
+rather than the sentence. That passed.
+
+The shrug section, which is doing real work, hit me slightly less hard than
+I expected, given how hard the earlier sections had hit. I think it is
+because the chapter had given me so much by then that I was slightly
+saturated. Not a failure of the section — a consequence of the chapter's
+early strength.
+
+Nothing made me want to skip. I read it straight through.
+
+*(Editor's note: the invocation named before editing was that the chapter
+performs itself on the reader's body in the first page — and the witness
+opened with exactly that: "I noticed my jaw… I was already inside the text
+before I had agreed to be." The whole chapter is beauty-locked, all 24
+gestures; only two pure deletions were made. The first — a dangling
+back-reference to a promise the chapter never makes — preceded this reading.
+The second was driven BY this reading: the defensive clause the witness
+flagged in the orgone box section (", and I am not asking you to follow him
+into it") was cut whole and passed round-2 Opus critique. The Castaneda
+residue and the shrug saturation are logged as flags, not edited — the
+first is Jason's voice in a locked gesture, the second the witness itself
+called "not a failure of the section." The Foucault drift became interview
+row 8, low priority.)*

@@ -137,7 +137,25 @@ faster than they return? Your call — the structural register may want the
 soil system again, or its own family.)
 **JASON:**
 
-### (rows 8+ append as the pass walks — the known heavy-theory sections
+### 8. Orgone Accumulator — Foucault, discipline as coordination-plus-
+subjection (G-OA-005 area) — LOW PRIORITY
+**Concept needing image:** discipline enhances the body by coordinating it,
+and coordination and subjection arrive together through the same door —
+the schools, the barracks, the factories looking like one another.
+**Witness:** "I drifted, slightly, in the middle section on Foucault…
+it was the place where the chapter became most like argument and least
+like experience. I was still with it, but I had moved from leaning forward
+to reading carefully." Mildest drift of the pass so far — the kokoro answer
+right after it fully recovered the reader.
+**Note:** the chapter is ALL beauty-locked, so any weave here is yours to
+hand raw or to authorize beyond the deletion license. The armor/discipline
+contrast already has its image ("rigid because afraid / relaxed because
+ready"); what lacks one is the *coordination-and-subjection-through-the-
+same-door* mechanism. (Trained vine on a trellis? The hedgerow laid by the
+hedger's hand? Your call — or skip; the witness did not bounce.)
+**JASON:**
+
+### (rows 9+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system
