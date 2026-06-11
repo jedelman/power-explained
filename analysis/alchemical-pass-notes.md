@@ -107,7 +107,13 @@ restraint is the ask"; the G-CE-022 [Jason's section] placeholder flagged
 for wrap-up). 26 of 28 sources done.
 Epilogue DONE (1 dissolution — the within-chapter heron-clause duplicate
 resolved in favor of the thread anchor, PASS; witness MATCH — "I felt
-invited, not assigned"). ALL 28 SOURCES WALKED.
+invited, not assigned").
+CORRECTION (2026-06-11): the Phase-2 seam-read caught an omission — GOETIA
+(P-GC, river position 8, between chapter-4 and chapter-5) had never been
+processed; the pre-compaction handoff list skipped it and the running count
+inherited the error. Goetia processed out of river order as source 28 of
+28: PASSES CLEAN (zero edits, 52/57 locked; witness MATCH — "That's not the
+author's job anymore. That's mine."). ALL 28 SOURCES NOW WALKED.
 PHASE 2 IN PROGRESS: 27-seam spot-read → final analyze + pass summary →
 the full-river blind Stone test (the pass's primary deliverable) →
 CLAUDE.md update → session log to claude-memory. Then Phase 2 wrap-up:
@@ -188,6 +194,7 @@ recomposed, and verdicts)
 | wizards-walk | 3850→3850 | 5.82→5.82 | 14.00→14.00 | 32→32 | MATCH (passes clean) |
 | the-centaur-chapter | 2159→2159 | 8.41→8.41 | 14.69→14.69 | 28→28 | MATCH (passes clean) |
 | epilogue | 1181→1160 | 6.52→6.58 | 14.76→14.87 | 14→14 | MATCH |
+| goetia | 3593→3593 | 6.18→6.18 | 10.18→10.18 | 57→57 | MATCH (passes clean; processed out of order — see Correction) |
 
 ---
 
@@ -1209,6 +1216,38 @@ incants subliminally, the hypertext layer is the reveal.
   "slightly too long, slightly curated"; the "rooms where things don't
   bend" door deliberately closed; the political-acts paragraph's announced
   register ("It earns it").
+
+### goetia (P-GC) — PASSES CLEAN · witness MATCH · 2026-06-11 (processed out of river order; see Correction in Current position)
+
+- **Essence:** This chapter is an incantation — the bestiary that names the
+  demons (production of subjectivity, biopower, hegemony, the outside, the
+  corruption of the commons) so you can say *that is what this is* and the
+  room changes. The young man waiting for the clipboard is the production at
+  close range; the orchard is what the apparatus can never fully capture.
+  The last name is what you are building with: connection comes first.
+  Solidarity.
+- **Invocation:** the reader finds the thing that has been making them
+  silent, reaches for the feeling before the explanation, and names the
+  demon that produced it — the spellbook handed, the circle drawn.
+- **Edits: none (passes clean)** — 52/57 gestures locked; the chapter was
+  heavily refined in the composition passes (the demon, the rupture); the
+  enclosed-because-it-worked chiasm here is the upstream SEEDING of ch-11's
+  bookends (river readers meet ch-11's landing as recognition).
+- **Witness (blind, Sonnet):** MATCH. The young man: "recognition in the
+  sternum… 'I was trying to offer a commons to someone who had been
+  produced for an enclosure' landed before I finished the sentence." The
+  clipboard: "the person who never learned to act without it isn't broken —
+  they were completed, for a different world… That image is going to follow
+  me into rooms." The corruption demon: "not an attack on the commons. It's
+  a waiting game… You can't defend by walling. You can only keep
+  reopening." The practice: "Not the chest. The throat." The Stone: "find
+  the specific contraction, not the explanation… That's not the author's
+  job anymore. That's mine." Bounces, all logged: the six-domain list went
+  "slightly mechanical" (the bestiary's cataloging form, locked); Freire/
+  Gramsci "audible as citations" by the fourth mention; the
+  connection-arrives-late want ("Not a critique. It's a want") — a
+  blind-reading condition; the river reader has the restaurant chapters
+  upstream.
 
 ## Cross-cutting patterns (updated)
 

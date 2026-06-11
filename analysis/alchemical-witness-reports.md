@@ -3047,3 +3047,110 @@ now landed in two blind witnesses at two different sites, which is the
 gathering-weight mechanism confirmed at book scale. All 28 sources are now
 walked; this was the final chapter witness before the full-river Stone
 test.)*
+
+---
+
+## goetia (P-GC) — witnessed 2026-06-11 (passes clean — zero edits; processed out of river order after the seam-read caught the omission, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in hard at the restaurant story. The young man with the real gift,
+the scaffold that kept getting adjusted, the slow realization that the
+problem wasn't the scaffold. That pulled something physical — recognition in
+the sternum, the kind you feel when someone names a mistake you've made and
+didn't have language for. I've been that teacher. I've been that student.
+The line "I was trying to offer a commons to someone who had been produced
+for an enclosure" landed before I finished the sentence. I was ahead of the
+words, which is where you want a reader.
+
+I drifted slightly in the bestiary section — biopower, hegemony, the
+outside. Not because the writing was bad, but because I was waiting for it
+to come back to ground. The concepts arrived in sequence, each with a proper
+name and a brief definition, and for a stretch it felt like I was being
+walked through a reading list rather than shown something moving. The forest
+metaphor and the car dealership brought me back. The orchard paragraph
+brought me all the way back — the tree producing everything it needs and
+more, the mycelium, the overflow that the apparatus can never fully capture.
+That one I read twice.
+
+The corruption of the commons section was fast and clean. I didn't drift.
+The web example was almost too familiar, but "the commons went in, what came
+out had a gate" is the compression I've been wanting for years and didn't
+have.
+
+The practice section at the end hit differently than I expected — harder,
+more quietly. Not the chest. The throat. Something about being asked to feel
+for the specific contraction rather than reach for the explanation first.
+That's not a common instruction.
+
+**2. What I now see that I can't unsee**
+
+The clipboard. Specifically: that the clipboard is not a tool of control but
+a tool of legibility, and that the person who never learned to act without
+it isn't broken — they were completed, for a different world. I knew
+abstractly that systems produce the people they need. I didn't have a
+close-range image of what that looks like from the inside of an attempted
+alternative. Now I do. That image is going to follow me into rooms.
+
+Also: the corruption of the commons is not an attack on the commons. It's a
+waiting game. The demon cannot make anything. It only closes gates. That
+reframe changes what defense means. You can't defend by walling. You can
+only keep reopening.
+
+**3. What I feel asked to do or become**
+
+Two things, at different registers.
+
+The first is mine: find the specific contraction, not the explanation. I
+have a reflexive habit of jumping to analysis of why I went quiet in a room.
+The chapter is asking me to feel where that silence lives first. That's not
+the author's job anymore. That's mine.
+
+The second feels more like the author's unfinished business than mine: the
+question of connection as prior condition. The chapter names it beautifully
+— "care talking to itself" — but it names it at the end, almost as arrival.
+I want to see that principle tested under pressure earlier in the book. Not
+because the chapter withholds it. Because I'm not sure I trust it yet and I
+want more room to. Whether that trust is earned elsewhere in the book, I
+don't know. This chapter hands me the concept but I don't think it fully
+hands me the experience of the thing it's pointing at. That's not a
+critique. It's a want.
+
+**4. What I would say this chapter IS**
+
+This chapter is a spellbook chapter that earns the metaphor — it gives you
+the names for what has been administering your silence, then dares you to
+feel where that silence lives in your body before you do anything else with
+the information.
+
+**5. What I bounced off**
+
+One thing, honestly. The passage listing the domains of biopower — "school
+makes thought legible, work makes activity legible, real estate makes
+environment legible" — runs to a list of six in quick succession. It's not
+wrong. But I felt the rhythm go slightly mechanical there. My eye moved
+faster than my understanding, which means I skimmed it rather than received
+it. Each of those domains could be a chapter and I was given them in a
+column. The chapter recovered immediately after, but I noticed the
+micro-drift.
+
+The Freire and Gramsci names also arrive more than once — they're woven in
+well, but by the third or fourth mention I was aware of them as citations
+rather than presences. That may be unavoidable in a chapter of this kind. It
+didn't break the reading. It was just audible.
+
+Nothing else. I didn't want to skip anything. I didn't feel lectured more
+than the form requires. The author knows what they're doing, and more
+importantly, they know why they're doing it — which is the thing you feel
+when a writer is writing from inside the problem rather than above it.
+
+*(Editor's note: PASSES CLEAN — zero edits, 52/57 gestures locked. Goetia
+had been silently skipped by the pre-compaction handoff; the Phase-2
+seam-read caught it and it was processed out of river order as the true
+28th source. The enclosed-because-it-worked line here is the upstream
+seeding of ch-11's bookend chiasm — the river reader meets ch-11's landing
+as recognition. The connection-arrives-late want is a blind-reading
+condition (the river reader carries the restaurant chapters); the
+six-domain list and the citation audibility are the bestiary form's own
+costs, logged. The witness's close is the chapter working: "writing from
+inside the problem rather than above it.")*
