@@ -1888,3 +1888,133 @@ carry the beat) — round-2 Opus PASS. This is the second consecutive
 witness to bounce on an H&N citation; the working rule is now in the
 cross-cutting log. The back-line "managing me" flicker self-resolved in
 the witness's own reading — no action.)*
+
+---
+
+## chapter-14 (P-14) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+I leaned in immediately at the first sentence. "Atlantic City was a
+neighborhood before it was a highway." I stopped there for a second before
+reading on. Something had already happened — a small collapse of assumption.
+I had been ready to read about something big and systemic and the text had
+opened in a specific place, a specific before-and-after. I felt that.
+
+The paragraph on the Ghent neighborhood — the art galleries, wine bars,
+$600,000 craftsman houses — landed in the body before the mind. I felt
+something like nausea, not metaphorically. The mechanism being described was
+obscene, and the prose was not dramatizing it. That restraint made it worse.
+"Their displacement is now invisible in the property values of the people
+who replaced them." I read that sentence twice.
+
+I drifted slightly in the middle — the Burlington and Iowa sections. Not
+because they were wrong or dull but because they moved into information
+mode, and the emotional temperature dropped. I was being told things I
+mostly believed. The Champlain Housing Trust section did its job but I was
+processing rather than receiving. I noted the shift and moved through it.
+
+I came back fully at the Sorenson passage. "Boundaries were hazy,
+overlapping, felt rather than drawn." That opened something. I have
+experienced the affect-based navigation the text is describing — not in an
+enclosed community, but in moments. The passage made me name that experience
+and place it inside a larger argument. That is what good reading does to
+you.
+
+Then the personal section — the author in the Pacific Northwest, teaching
+honoring and blessing, becoming the land. Here I slowed down almost to
+stopping. I was uncertain whether to trust it. Not because it felt false —
+it didn't feel false — but because it was doing something different than
+everything before it, and I didn't know yet whether the text had earned it.
+By the end of that section, with Plotkin named and the stalker's gait and
+the grief as information, I had decided it had. The theoretical argument and
+the experiential argument were running in parallel, not competing. That is a
+difficult thing to pull off and it worked.
+
+Standing Rock and Weelaunee landed. The sentence about Tortuguita — named,
+killed, January 2023 — landed hard. The book made me sit with that person
+for a moment.
+
+The close — "And the foundation is alive" — I felt as arrival rather than
+conclusion. The chapter had been building to it and the final sentence did
+not cheat by explaining what it meant.
+
+**2. What I now see that I didn't see before, or can no longer unsee.**
+
+The mechanism of displacement-as-value-creation. I knew in the abstract that
+gentrification was connected to prior displacement. The Atlantic City
+example made the causal chain specific and structural in a way I cannot now
+un-know. The community was displaced not as a side effect of institutional
+investment but as the precondition for it — and the resulting land value is
+the trace of the erasure, permanently legible if you know how to read it.
+
+I also cannot un-see the 22%/80% figure — 22% of Earth's land surface, 80%
+of remaining biodiversity. I have heard formulations like that before but
+this text placed it so plainly, without drama, that it settled differently.
+The conservation argument and the governance argument became one argument.
+
+And the grief thing. The text said grief is information, is the preconquest
+consciousness still alive in us recognizing a loss the language of property
+cannot name. I believed that as I read it. I still believe it. I cannot
+un-believe it.
+
+**3. What I feel asked to do, or become.**
+
+The chapter does not ask me to do something specific. The last paragraph
+gestures toward the next chapter — this is not the final word — and the only
+directive is indirect: recognize. Name what is happening. Understand the
+structure.
+
+But there is something underneath the argument that is doing a different
+kind of asking. The season in the Pacific Northwest section, the Weelaunee
+bodies between forest and machinery, the stalker's gait — those are asking
+me to pay attention differently to land I am already on. Not to act
+politically, exactly, but to shift the mode of relationship.
+
+That asking felt like it belonged to me to decide what to do with. The
+chapter handed it and stepped back. It did not press. That restraint felt
+right and also, in one small way, like a missed chance — I wanted one
+sentence more, something that named what the chapter was inviting without
+naming it explicitly. But perhaps that would have ruined it.
+
+**4. What this chapter IS, in one sentence, to a friend.**
+
+It is the chapter that explains why your grief when a place is destroyed is
+not sentiment but knowledge — and then shows, through specific examples from
+Burlington to the Amazon to a Pacific Northwest forest to Atlanta, that the
+people who have held onto that knowledge are the ones keeping the living
+world intact.
+
+**5. What I bounced off.**
+
+The Burlington and Iowa sections. Not wrong, not poorly written — just lower
+temperature than what surrounded them. I felt the gear shift into "here is
+the evidence, here are the cases." The cases were well chosen. But after the
+Atlantic City opening, the prose had established a particular intensity and
+those sections asked me to shift into a receptive-informational mode that
+required a small act of will. I did it. I don't think the chapter has a
+better option structurally. But I noticed the shift.
+
+I also had one moment of doubt in the personal section, when the author
+wrote "I became the land inviting them into relationship." I believe the
+experience the sentence is describing. But the sentence is doing ambitious
+philosophical work — claiming a specific kind of non-dual consciousness —
+and for one beat I wanted a breath before it. Something to slow the entry
+in. It recovered immediately with "There's no other way to say it that's
+accurate," which is exactly the right acknowledgment. But the sentence
+itself moved fast for how far it was asking the reader to go.
+
+Nothing else. Nothing felt like a lecture. The Graeber reference at the end
+of the Sorenson section was the closest thing to a name-drop that might
+distract, but it was deployed precisely and briefly and earned its place.
+
+*(Editor's note: every flicker self-resolved inside the witness's own
+reading — the Burlington/Iowa dip ("I don't think the chapter has a better
+option structurally"), the "I became the land" speed (recovered by the
+acknowledgment line), the close's restraint ("perhaps that would have
+ruined it"). No witness-driven edits. The two round-1 cuts were the
+bookkeeping cross-references — invisible, as bookkeeping should be — and
+the chapter produced Ruling 4: cross-references earn (perform recognition)
+or chill (filing). Note the Graeber reference here EARNED per this witness
+— consistent with the H&N rule: deployed precisely and briefly, carrying
+its claim.)*

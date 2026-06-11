@@ -361,3 +361,16 @@ HERE so consistency holds across all 28 chapters and across sessions.
    protected-beats inventory's "may not be de-named" clause for analytical
    call-outs: the WORK stays protected; the LABEL transmutes per the
    word-map.
+4. **Cross-references earn or chill (2026-06-11, chapter-14; critic
+   concurred and stated the test).** A numbered-chapter cross-reference
+   earns its place only when removing it would cost a recognition the
+   sentence cannot otherwise make (ch-10's "the capture mechanism from
+   Chapter 2, operating at revolutionary scale"; ch-14's "said it plainly
+   in Chapter 2… She knew the structure before this chapter existed").
+   If the sentence states the pattern/fact without the citation, the
+   citation is bookkeeping — cut it ("introduced in Chapter 4"; "the same
+   pattern Chapter 11 named"). Sibling of Ruling 2. The same test governs
+   "this chapter / this book" self-references: cut when they announce or
+   rank (ch-9/11/12/13 cuts), keep when the self-reference IS the content
+   (ch-12's "older than the vocabulary this book has been using"; P-AB's
+   chapter-as-speaker register).

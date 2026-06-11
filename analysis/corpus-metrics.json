@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-11T17:53:36.684Z",
+  "generatedAt": "2026-06-11T17:57:20.500Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 83815,
+    "words": 83803,
     "sentences": 5921
   },
   "corpusReadability": {
@@ -14,7 +14,7 @@
     "smog": 11.62,
     "colemanLiau": 9.78,
     "automatedReadabilityIndex": 7.81,
-    "avgWordsPerSentence": 14.16,
+    "avgWordsPerSentence": 14.15,
     "avgSyllablesPerWord": 1.57
   },
   "plateauMetrics": [
@@ -177,21 +177,21 @@
       "slug": "chapter-14",
       "title": "Chapter 14: I Became the Land",
       "gestureCount": 32,
-      "words": 2736,
+      "words": 2724,
       "sentences": 177,
-      "avgWordsPerSentence": 15.46,
+      "avgWordsPerSentence": 15.39,
       "avgSyllablesPerWord": 1.69,
-      "fleschReadingEase": 48.14,
-      "fleschKincaidGrade": 10.39,
-      "gunningFog": 13.98,
-      "colemanLiau": 11.8,
-      "automatedReadabilityIndex": 9.94,
-      "smog": 13.04,
+      "fleschReadingEase": 48.1,
+      "fleschKincaidGrade": 10.37,
+      "gunningFog": 13.97,
+      "colemanLiau": 11.81,
+      "automatedReadabilityIndex": 9.93,
+      "smog": 13.03,
       "smogReliable": true,
       "lexicalEntropy": 8.36,
       "typeTokenRatio": 0.34,
-      "meanGestureWords": 85.5,
-      "stdGestureWords": 63.74,
+      "meanGestureWords": 85.13,
+      "stdGestureWords": 63.31,
       "structuralEntropyNorm": 0.87
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 110,
       "p90": 175,
-      "mean": 86.92
+      "mean": 86.91
     },
     "lexicalEntropy": {
       "n": 967,

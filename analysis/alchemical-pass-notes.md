@@ -68,8 +68,13 @@ Angel-faces-backward DONE (passes clean on the full read — the four-fold
 witness-driven pure deletion under the 70-gesture lock: the H&N seminar
 sentence in G-AB-021, round-2 PASS; witness MATCH — "I received it as an
 actual ask"). 17 of 28 sources done.
-Next chapter: chapter-14 (P-14, river order, source 18 of 28) — FK 10.47;
-check protected-beats section on load.
+Chapter-14 DONE (2 bookkeeping cross-references dissolved, both PASS;
+Ruling 4 promoted — cross-references earn or chill; witness MATCH — "felt
+something like nausea, not metaphorically" at the Ghent property-values
+mechanism). 18 of 28 sources done.
+Next chapter: chapter-15 (P-15, river order, source 19 of 28) — FK 11.05,
+care economy; the known interview-row candidate; check protected beats on
+load.
 
 ---
 
@@ -135,6 +140,7 @@ recomposed, and verdicts)
 | chapter-12 | 2755→2723 | 9.22→9.21 | 15.92→15.92 | 28→28 | MATCH |
 | chapter-13 | 2861→2851 | 10.64→10.66 | 16.54→16.58 | 31→31 | MATCH |
 | angel-faces-backward | 4679→4631 | 6.52→6.46 | 13.33→13.23 | 70→70 | MATCH |
+| chapter-14 | 2736→2724 | 10.39→10.37 | 15.46→15.39 | 32→32 | MATCH |
 
 ---
 
@@ -815,6 +821,41 @@ incants subliminally, the hypertext layer is the reveal.
   chapter was managing me… that feeling passed… honest rather than
   preemptive" — self-resolved, no action; the Situationists cluster slip
   relieved by the H&N cut.
+
+### chapter-14 (P-14) — 2 EDITS, BOTH PASS · witness MATCH · 2026-06-11
+
+- **Essence:** Land is the oldest commons and the foundation — what was
+  taken when Atlantic City was taken. Enclosure of land destroys a mode of
+  consciousness (Sorenson watched it go out like a light), and the defense —
+  the trust's covenant, the Kayapó boundary, the body in the river, the body
+  in the forest — is the same recognition at different scales: land is not a
+  commodity; the foundation is alive.
+- **Invocation:** the reader receives their grief for paved-over places as
+  information, not sentiment — the preconquest consciousness still alive in
+  them — and is invited, without pressure, to shift the mode of relationship
+  to the land they are already on.
+- **Edits (2):** G-14-008: ", introduced in Chapter 4" cut (bookkeeping; the
+  protected pact line in the next paragraph untouched); G-14-026: "It is the
+  same pattern Chapter 11 named:" dissolved ("This is not a coincidence."
+  retains the pattern-claim). **Ruling 4 promoted from this chapter:**
+  cross-references earn (perform recognition) or chill (bookkeeping/label) —
+  the critic stated the test and extended it to this-chapter/this-book
+  self-references. Restraint upheld: "This is not romanticism" = live
+  evidentiary distinction, answered by evidence, not preemption.
+- **Witness (blind, Sonnet):** MATCH. The Ghent mechanism: "I felt
+  something like nausea, not metaphorically… 'Their displacement is now
+  invisible in the property values of the people who replaced them.' I read
+  that sentence twice." Sorenson: "The passage made me name that experience
+  and place it inside a larger argument." The personal section trust-arc:
+  "I didn't know yet whether the text had earned it… I had decided it had."
+  Tortuguita "landed hard. The book made me sit with that person." Can't
+  unsee: displacement as PRECONDITION of value; 22%/80% ("became one
+  argument"); "grief is information… I cannot un-believe it." The Stone:
+  "The chapter handed it and stepped back." Bounces, all self-resolved:
+  Burlington/Iowa info-mode dip ("I don't think the chapter has a better
+  option structurally"); "I became the land" speed (recovered by "There's
+  no other way to say it that's accurate"); the close's restraint ("perhaps
+  [more] would have ruined it").
 
 ## Cross-cutting patterns (updated)
 
