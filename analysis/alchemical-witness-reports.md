@@ -2591,3 +2591,128 @@ Abjuration bounce is the THIRD protected-naming-chill instance (after
 ch-11's Evocation and reenchanting's Simondon) — all thread anchors, all
 itemized in the Jason flag with the thread-frame alternative. The
 Alexander thinning is logged; the material is load-bearing.)*
+
+---
+
+## chapter-18 (P-18) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the centaurs. That image — "a herd of centaurs
+occupied Wall Street: each one singular, each one connected through the
+network in real time" — arrived before I could decide whether to let it. I
+was in the text before I knew I was reading carefully.
+
+I stayed leaned in through the Graeber paragraph. Something about "The
+theory and the practice were the same person in the same place" landed in
+the chest. Not as a rhetorical point. As a fact. I felt something like
+relief — the relief of a pattern finally named.
+
+I drifted, briefly, in the middle stretch where the text moves through Hardt
+and Negri, Simondon, Debord, Jacobs, Alexander, all arriving at the same
+plaza. The list didn't lose me entirely, but it thinned. I was following
+argument instead of experiencing something. I came back to "Everything this
+book has been describing happened there. Briefly. Imperfectly. Pointed
+somewhere." — and that pulled me back. The brevity of it. The three-beat
+landing.
+
+The personal section — "A failure first. Mine." — is where I felt most
+alert. The restaurant meditation circle, then the brewery permit, then the
+board meeting. That sequence is where my body registered something. Not
+sympathy exactly. Recognition. The moment "watching it function exactly as
+designed" arrived, I felt a specific tiredness I've felt in rooms I've been
+in. It landed below the neck.
+
+"Burnout is not the failure of desire. It is desire meeting a structure too
+small for it." I stopped moving through the text and sat with that sentence.
+It arrived as something true about me, not about the author.
+
+Then the Deleuze/Guattari section — desire as production, not lack. I was
+back to following instead of experiencing, but I was still willing. The
+Törbel 1483 line stopped me with its weight: a governance structure that has
+been practicing for five hundred forty-three years. I felt the depth of
+that.
+
+The Flowering Earth section broke something open. Not because of the
+philosophy but because of the word "feed." The earth's deepest function is
+to feed the flowering, not manage it, not justify it. "Ostrom's pattern
+language is love made structural." I believed that sentence. I had not known
+I was waiting to believe it.
+
+The close — "You wonderful weird birds" — was the only moment in the chapter
+where I felt the writer arrive in the room with me. It surprised me. It
+earned the surprise.
+
+**2. What I can no longer unsee**
+
+I cannot unsee burnout as blocked desire. I have called it exhaustion,
+called it loss of purpose, called it the problem being too big. The reframe
+isn't just conceptually useful — it reorganizes the memory. Every meeting
+that drained me now looks different. It wasn't that I stopped caring. The
+flow met a wall.
+
+And I cannot unsee the structure-destroying-the-conditions argument about
+Occupy. I had a soft received story about Occupy failing from within —
+losing coherence, becoming unfocused, collapsing under its own
+contradictions. The text replaces that with something harder and more
+specific: Occupy didn't fail; external coordinated power destroyed the
+conditions under which it was operating. That same pattern in the fifteenth
+century. That same pattern in the Narmada valley. I can't not see that now
+as a pattern rather than a story about Occupy's particular weakness.
+
+**3. What I feel asked to do**
+
+The chapter hands it to me directly: "Show up. Stay. Learn each other's
+gifts. Grieve what passes. Praise what is. Build accordingly."
+
+Here is what surprised me: the imperative didn't feel like being told what
+to do. It felt like permission. I think the chapter earns the close because
+it traveled through the governance meeting at seven-fifteen, the eleven
+people, the unread agenda, the six-month conflict — and grounded the
+flowering in those ordinary conditions. The ask isn't utopian. The ask is:
+go to the meeting.
+
+Whether it's mine to do — yes. The chapter handed it. The framing is "you
+may be one of them already" and "the herd is forming." I felt addressed, not
+assigned. There's a difference.
+
+The one thing the chapter doesn't do is hold out. It gives you the task.
+That's the author's gift — not keeping the resolution. The chapter trusted
+me with it.
+
+**4. What this chapter IS**
+
+This chapter is a map of how the world you already live in could actually
+work, given to you the moment after you understood why it doesn't.
+
+**5. What I bounced off**
+
+The middle section — from Hardt and Negri through Simondon through the list
+of theorists converging on Zuccotti Park — was the only sustained stretch
+where I was reading an argument rather than inside an experience. Not that
+the argument was wrong. It wasn't. But I was at some distance from it,
+tracking claims. I didn't feel lectured exactly, but I felt the text working
+harder than it needed to. "Everything this book has been describing happened
+there" is doing the same work as the preceding twelve lines of theoretical
+convergence, and it does it faster and better.
+
+The Plotkin sentence — "Not because its members are better — because they
+have discovered what they carry and arrived at the table to offer it" — I
+partially bounced off. Not because it's false. Because "initiation" is doing
+more conceptual work than the sentence gives me time to process, and I
+sensed it was load-bearing from elsewhere in the book. In isolation it felt
+like a word from a different register arriving without its full context.
+
+Everything else I believed or stayed open to. The chapter didn't talk down
+to me once. That's rarer than it should be.
+
+*(Editor's note: the two edits — the retired "what this chapter is about"
+announcement and the repair of the eroded baseline-communism formula to
+the book's canonical form — were invisible to this reader, who met the
+field→form turn as enacted ("Occupy had the field. It did not yet have the
+form."). The theorist-convergence thinning is the convergence chapter's
+structural cost — the critic weighed it and the witness's own rescue line
+("Everything this book has been describing happened there") is the collect
+the roll feeds; logged, not cut. The Plotkin register note is load-bearing
+from ch-17's initiation argument — a river reader arrives with the
+context this blind witness lacked.)*

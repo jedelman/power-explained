@@ -95,9 +95,14 @@ Chapter-17 DONE (4 edits incl. the G-17-014 retirement — the verbatim twin
 of G-14-016, the pass's first cross-chapter duplication find — all PASS;
 witness MATCH — "I felt accompanied"; the Abjuration naming = THIRD
 protected-naming-chill instance). 23 of 28 sources done.
-Next chapter: chapter-18 (P-18, river order, source 24 of 28) — check
-protected beats on load. Then wizards-walk (all 32 locked), the-centaur-
-chapter, epilogue.
+Chapter-18 DONE (1 retirement — the chapter-about announcement — + 1
+formula repair ruled within license, both PASS; witness MATCH — "It felt
+like permission… I felt addressed, not assigned"). 24 of 28 sources done.
+Next chapter: wizards-walk (P-WW, river order, source 25 of 28) — ALL 32
+gestures beauty-locked (deletion-only); then the-centaur-chapter (P-CE,
+incl. G-CE-028a the walker's mark), epilogue (P-EP). Then Phase 2 wrap-up:
+27-seam spot-read, final analyze + pass summary, the full-river blind
+Stone test (the pass's primary deliverable), CLAUDE.md update, session log.
 
 ---
 
@@ -169,6 +174,7 @@ recomposed, and verdicts)
 | chapter-16 | 3196→3196 | 8.25→8.25 | 12.68→12.68 | 51→51 | MATCH (passes clean) |
 | chapter-16b | 2554→2539 | 8.49→8.50 | 12.83→12.89 | 53→51 | MATCH |
 | chapter-17 | 2589→2471 | 8.63→8.50 | 13.35→13.21 | 42→41 | MATCH |
+| chapter-18 | 1951→1937 | 8.96→9.00 | 12.92→12.91 | 39→38 | MATCH |
 
 ---
 
@@ -1055,6 +1061,43 @@ incants subliminally, the hypertext layer is the reveal.
   commons" "briefly ejected me… for one sentence the spell broke" —
   PROTECTED (G-17-035, abjuration-thread anchor) — THIRD instance of the
   protected-naming-chill pattern, added to the Jason flag.
+
+### chapter-18 (P-18) — 2 EDITS, BOTH PASS · witness MATCH · 2026-06-11
+
+- **Essence:** Occupy was the field made visible — the gift economy running
+  in public, the herd of centaurs, magic at the scale of a city — and what
+  it lacked was the form: the pattern language that lets a composition of
+  singularities govern across time. Burnout is not depleted desire but
+  blocked desire; the multitude is the subject; and the commons is the
+  institutional form of love, feeding the Flowering Earth. Show up. Stay.
+  Build accordingly.
+- **Invocation:** the reader receives the close's imperatives as permission,
+  not assignment — the ask grounded in the seven-fifteen meeting: go to the
+  meeting. You may be one of them already.
+- **Edits (2):** G-18-011 RETIRED ("What it couldn't hold is what this
+  chapter is about — and what holding it requires." — the turn now enacted
+  by G-18-012's "The herd needed governance"); G-18-004: the eroded formula
+  "to each need" repaired to the book's canonical "to each according to
+  need" (verbatim at G-11-015 and G-13-034) — critic ruled the repair
+  within the recomposition license ("an eroded instance corrected… not
+  invention"); the protected gift-economy beat in the same gesture
+  untouched.
+- **Witness (blind, Sonnet):** MATCH. The centaurs: "I was in the text
+  before I knew I was reading carefully." "Burnout is not the failure of
+  desire…" — "It arrived as something true about me, not about the author…
+  reorganizes the memory. Every meeting that drained me now looks
+  different." Can't unsee: Occupy "didn't fail; external coordinated power
+  destroyed the conditions" — received as a PATTERN (Federici, Narmada).
+  "Ostrom's pattern language is love made structural. I believed that
+  sentence. I had not known I was waiting to believe it." The close: "the
+  only moment in the chapter where I felt the writer arrive in the room
+  with me. It surprised me. It earned the surprise." The Stone: "It felt
+  like permission… I felt addressed, not assigned… The chapter trusted me
+  with it." Bounces, logged not edited: the theorist-convergence middle
+  thinned ("the text working harder than it needed to" — the collect line
+  "does it faster and better"; load-bearing convergence, critic-weighed,
+  kept); the Plotkin initiation sentence ("a word from a different
+  register arriving without its full context" — load-bearing from ch-17).
 
 ## Cross-cutting patterns (updated)
 

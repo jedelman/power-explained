@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-11T20:50:24.540Z",
+  "generatedAt": "2026-06-11T20:56:14.308Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
-    "gestures": 964,
-    "words": 83660,
-    "sentences": 5911
+    "gestures": 963,
+    "words": 83646,
+    "sentences": 5910
   },
   "corpusReadability": {
     "fleschReadingEase": 59.47,
     "fleschKincaidGrade": 8.48,
     "gunningFog": 11.9,
-    "smog": 11.61,
-    "colemanLiau": 9.77,
+    "smog": 11.62,
+    "colemanLiau": 9.78,
     "automatedReadabilityIndex": 7.81,
     "avgWordsPerSentence": 14.15,
     "avgSyllablesPerWord": 1.57
@@ -286,22 +286,22 @@
       "id": "P-18",
       "slug": "chapter-18",
       "title": "Chapter 18: You Wonderful Weird Birds",
-      "gestureCount": 39,
-      "words": 1951,
-      "sentences": 151,
-      "avgWordsPerSentence": 12.92,
-      "avgSyllablesPerWord": 1.65,
-      "fleschReadingEase": 53.83,
-      "fleschKincaidGrade": 8.96,
-      "gunningFog": 12.61,
-      "colemanLiau": 11.11,
-      "automatedReadabilityIndex": 8.42,
-      "smog": 11.99,
+      "gestureCount": 38,
+      "words": 1937,
+      "sentences": 150,
+      "avgWordsPerSentence": 12.91,
+      "avgSyllablesPerWord": 1.66,
+      "fleschReadingEase": 53.57,
+      "fleschKincaidGrade": 9,
+      "gunningFog": 12.66,
+      "colemanLiau": 11.15,
+      "automatedReadabilityIndex": 8.45,
+      "smog": 12.02,
       "smogReliable": true,
       "lexicalEntropy": 8.04,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 50.03,
-      "stdGestureWords": 43.21,
+      "meanGestureWords": 50.97,
+      "stdGestureWords": 43.58,
       "structuralEntropyNorm": 0.91
     },
     {
@@ -636,28 +636,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 964,
+    "count": 963,
     "readableCount": 753,
     "wordCount": {
-      "n": 964,
+      "n": 963,
       "p10": 12,
       "p25": 35,
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.03
+      "mean": 87.1
     },
     "lexicalEntropy": {
-      "n": 964,
+      "n": 963,
       "p10": 3.32,
-      "p25": 4.61,
+      "p25": 4.62,
       "p50": 5.41,
       "p75": 5.88,
       "p90": 6.36,
       "mean": 5.12
     },
     "typeTokenRatio": {
-      "n": 964,
+      "n": 963,
       "p10": 0.6,
       "p25": 0.66,
       "p50": 0.73,
@@ -685,8 +685,8 @@
     }
   },
   "transitionalEntropy": {
-    "total": 934,
-    "reliable": 225,
+    "total": 933,
+    "reliable": 226,
     "paragraphMeanDist": 0.96,
     "sectionMeanDist": 0.95
   },
