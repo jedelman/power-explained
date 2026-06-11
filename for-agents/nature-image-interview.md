@@ -172,7 +172,28 @@ stars? The field too noisy for the birds to hear each other's alarm calls?
 Your call.)
 **JASON:**
 
-### (rows 10+ append as the pass walks — the known heavy-theory sections
+### 10. Chapter 13 — the debt machinery in numbers (G-13-0xx, the
+statistics block: 100M medical debtors, the JAMA mortality finding, the
+Indian farmer suicides, the tractors at auction)
+**Concept needing image:** debt as an instrument optimized for extraction,
+at population scale — the block where the chapter "began proving things"
+after it had been showing them.
+**Witness:** "I read without disengagement but with a mild sense of being
+enrolled in an evidence case rather than continuing the experience of
+discovery… my body was doing something like closing slightly." AND the
+witness's own ruling: "The statistics are necessary and I do not think they
+should be cut." (The tractor detail — "machinery outlasting the people who
+worked it" — is the block's one embodied image and the proof an image
+works there.)
+**Note:** this is the row the pass has been expecting (the known-list's
+"ch-13 debt machinery"). The question is what the COMPOUNDING of debt
+looks like on land — the thing that grows by its own logic until it owns
+the field. (Kudzu? The vine that girdles the tree it climbs? Interest as
+the water table dropping a little every season no matter the rain? Your
+call.)
+**JASON:**
+
+### (rows 11+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system

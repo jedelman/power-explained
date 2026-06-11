@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-11T17:44:00.488Z",
+  "generatedAt": "2026-06-11T17:47:26.805Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 83873,
-    "sentences": 5923
+    "words": 83863,
+    "sentences": 5922
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.45,
+    "fleschReadingEase": 59.44,
     "fleschKincaidGrade": 8.49,
     "gunningFog": 11.9,
     "smog": 11.62,
@@ -155,21 +155,21 @@
       "slug": "chapter-13",
       "title": "Chapter 13: We're Canceling It",
       "gestureCount": 31,
-      "words": 2861,
-      "sentences": 173,
-      "avgWordsPerSentence": 16.54,
+      "words": 2851,
+      "sentences": 172,
+      "avgWordsPerSentence": 16.58,
       "avgSyllablesPerWord": 1.68,
-      "fleschReadingEase": 48.26,
-      "fleschKincaidGrade": 10.64,
-      "gunningFog": 14.16,
-      "colemanLiau": 11.67,
-      "automatedReadabilityIndex": 10.28,
-      "smog": 13.22,
+      "fleschReadingEase": 48.14,
+      "fleschKincaidGrade": 10.66,
+      "gunningFog": 14.19,
+      "colemanLiau": 11.69,
+      "automatedReadabilityIndex": 10.31,
+      "smog": 13.24,
       "smogReliable": true,
       "lexicalEntropy": 8.52,
       "typeTokenRatio": 0.35,
-      "meanGestureWords": 92.29,
-      "stdGestureWords": 69.25,
+      "meanGestureWords": 91.97,
+      "stdGestureWords": 68.95,
       "structuralEntropyNorm": 0.9
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 110,
       "p90": 175,
-      "mean": 86.98
+      "mean": 86.97
     },
     "lexicalEntropy": {
       "n": 967,
@@ -670,7 +670,7 @@
       "p10": 4.41,
       "p25": 6.12,
       "p50": 8.18,
-      "p75": 10.79,
+      "p75": 10.8,
       "p90": 12.83,
       "mean": 8.52
     },

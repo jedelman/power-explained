@@ -59,8 +59,13 @@ edited). 14 of 28 sources done.
 Chapter-12 DONE (4 dissolutions incl. a witness-driven explained-twice cut,
 all PASS; witness MATCH — "The witness is handed across"; interview row 9
 added for the H&N citation chill). 15 of 28 sources done.
-Next chapter: chapter-13 (P-13, river order, source 16 of 28) — FK 11.14,
-one of the densest; check protected-beats section on load.
+Chapter-13 DONE (1 dissolution — the importance-ranking self-reference —
+PASS; witness MATCH — "That is a directive. It is addressed to me… The
+chapter handed it"; interview row 10 added for the debt-statistics block).
+16 of 28 sources done.
+Next chapter: angel-faces-backward (P-AB, river order, source 17 of 28) —
+ALL 70 gestures beauty-locked (deletion-only); protected G-AB-007/041/050;
+the cook motif G-AB-034; cedar-chip motif x10; singularity x2.
 
 ---
 
@@ -124,6 +129,7 @@ recomposed, and verdicts)
 | chapter-10 | 2679→2579 | 10.47→10.34 | 14.80→14.49 | 32→32 | MATCH |
 | chapter-11 | 3111→3088 | 11.38→11.38 | 17.88→17.75 | 25→25 | MATCH |
 | chapter-12 | 2755→2723 | 9.22→9.21 | 15.92→15.92 | 28→28 | MATCH |
+| chapter-13 | 2861→2851 | 10.64→10.66 | 16.54→16.58 | 31→31 | MATCH |
 
 ---
 
@@ -731,6 +737,42 @@ incants subliminally, the hypertext layer is the reveal.
   interview row 9 (attribution stays per fact-checking rules; the image is
   the missing half); the "foundation" overclaim → cut (above).
 
+### chapter-13 (P-13) — 1 EDIT, PASS · witness MATCH · 2026-06-11
+
+- **Essence:** Credit is older than money and was a commons — the
+  relationship is the ledger — until it was enclosed into an instrument
+  optimized for extraction, with one moral rule for the powerful and another
+  for the powerless. The jubilee is not historical; it is available right
+  now. The hardest part is in the body: debt calculation was installed
+  earlier and deeper than ideology, and what shifts is not the structure but
+  your relationship to it.
+- **Invocation:** the reader receives the dread as structural, not personal
+  — and leaves with the directive made fair by the chapter's honesty about
+  what it cannot undo: look at the institutions that touch your life and
+  ask which of them you govern, and which govern you.
+- **Edits (1):** G-13-038: "That is the most important thing in this
+  chapter." dissolved ("also" stitched out) — the importance now carried by
+  position at the confession's climax. Critic upheld restraint on: the data
+  block (witness-watch, not pre-cut); the deprogram callback (VERIFIED as
+  deliberate cross-chapter escalation of G-07-041 — note added to the
+  colony flag: cutting it there would orphan this); "But I want to be
+  honest" (confessional register, not meta); "The enclosure looks like
+  this." (functional pivot).
+- **Witness (blind, Sonnet):** MATCH. "Who had stopped answering the phone"
+  — "I recognized it… something I thought was just anxiety." "Not as
+  charity — as architecture" = "the single sharpest moment… collapsed a
+  very long argument into a form I could hold." The boomerang bottle: "I
+  felt the chapter breathe there." The deprogram line: "I'm not sure I had
+  ever actually felt it as contingent. That is different." The Stone: "That
+  is a directive. It is addressed to me… That is mine to do. The chapter
+  handed it" — the ask received as FAIR because the chapter is honest about
+  what it can't undo. Bounces: the statistics block ("my body was doing
+  something like closing slightly" — but the witness ruled "necessary…
+  should not be cut") → interview row 10; Mondragon arriving before its
+  reason-to-care — retroactively earned by the restaurant paragraph, and
+  the dependency (Caja Laboral must precede "would have saved my ass")
+  makes a reorder structurally impossible; no action.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -809,7 +851,10 @@ incants subliminally, the hypertext layer is the reveal.
    already does the distancing work; locked gesture, your call, minor.
 8. **The-colony "deprogramming" line** — that witness's one slip-flag
    ("witness to performance… it recovered immediately"); your first-person
-   voice, untouched.
+   voice, untouched. NOTE (2026-06-11): ch-13 escalates it deliberately
+   ("I can deprogram white supremacy out of my friends. I cannot deprogram
+   debt calculation.") — cutting the colony line would orphan that
+   callback; the pair is load-bearing.
 9. **Ch-10 "She did not live to be wrong about anything"** — the witness:
    "beautiful… a little too clean — a sentence that might be doing some
    rhetorical work that history wouldn't fully support… I note this not as

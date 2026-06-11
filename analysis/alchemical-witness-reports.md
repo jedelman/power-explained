@@ -1634,3 +1634,132 @@ including the chapter self-reference after "The preparation met the
 moment." — were invisible to this reader, who received the deer→Roy seam
 exactly as intended: "oh, that's what the chapter has been building
 toward.")*
+
+---
+
+## chapter-13 (P-13) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately, in the first three paragraphs. The Rolling Jubilee
+section had a physical quality — the phrase "who had stopped answering the
+phone because they didn't recognize the number" landed somewhere in the
+chest. I recognized it. Not from my own debt history but from people I know,
+and from the specific dread the sentence names precisely: owing money to
+someone who has no interest in you except as a source of extraction. That is
+a very exact description of something I thought was just anxiety.
+
+I stayed close through the Graeber section. The inversion — credit before
+money, the textbook backwards — made me sit up. Not because the fact was new
+exactly, but because having it stated flatly, with the authority of "not
+one, anywhere, across the entire anthropological and archaeological record,"
+made it feel different than I'd held it before. Like having a suspicion
+confirmed as documented.
+
+The statistics section — 100 million adults with medical debt, the JAMA
+study, the Indian farmer suicides, the tractors arriving at auction from
+farmer deaths — I read without drifting, but I also noticed something
+constricting, a bracing. It had the quality of being told something I needed
+to hear and didn't want to keep hearing. That is not the same as boredom.
+The chapter didn't lose me there. But my body was doing something like
+closing slightly.
+
+I opened back up at the restaurant paragraph. The line "A Caja Laboral would
+have saved my ass many times over. Not as charity — as architecture" was the
+single sharpest moment in the text for me. Something clicked there. "Not as
+charity — as architecture" collapsed a very long argument into a form I
+could hold.
+
+The boomerang bottle section made me smile, which felt like a deliberate
+unlocking after the weight of what came before. It worked. I felt the
+chapter breathe there, and then the Jane Jacobs paragraph landed the
+historical example without feeling like a lecture because I had just been
+warmed.
+
+The last two paragraphs I read slowly. The line about not being able to
+deprogram debt calculation — that ran deeper than anything in the
+statistical section. It named something I actually feel in myself, the
+durability of the belief that debt is a moral condition. I believed I knew
+this was contingent. Reading it here, I'm not sure I had ever actually felt
+it as contingent. That is different.
+
+**2. What I now see, or cannot unsee**
+
+The enclosure metaphor as applied to credit is now, for me, permanently
+installed. I had understood enclosure as something that happened to land. I
+now cannot not see it happening to what happens between people who need each
+other. The thing that used to live in relationship, tracked in memory,
+reciprocated with human uncertainty — that got converted into an instrument
+that can be bought for two cents on the dollar and wielded for full face
+value against the person who got sick. I cannot look at a collection notice
+the same way.
+
+The boomerang bottle section did something specific: it named something that
+already existed in my understanding as a gap or looseness in social
+exchanges as the system. The unprescribed return, the not-knowing-when — I
+had understood this as imprecision or warmth. The chapter says it is the
+mechanism. The gap is the space where creativity enters and makes it a
+relationship. Now I see that closing the gap — settling accounts — destroys
+the relationship. That I will not be able to un-know.
+
+**3. What I feel asked to do, or become**
+
+The chapter lands something and then, at the end, hands it explicitly: "It
+is available now. What shifts is not the structure but your relationship to
+it." That is a directive. It is addressed to me.
+
+Whether it is mine to do is harder. I notice the text is honest about what
+it cannot do — it cannot make me feel, in my body, that debt as moral weight
+is contingent. It acknowledges the depth of the installation without
+pretending to undo it. That honesty makes the ask feel fair rather than
+utopian. The chapter does not pretend the credit union or the susu dissolves
+the dread. It says: the structure exists; the structural fact that the
+institution is governed by people like you changes what happens when things
+get hard. That is a smaller, more believable ask than transformation.
+
+So: I feel asked to look at the specific financial institutions that touch
+my life and ask which of them I govern, and which govern me. That is mine to
+do. The chapter handed it.
+
+**4. What I would say this chapter IS**
+
+A five-thousand-year argument that the dread you feel about money is not
+personal — and that the alternative to the system that installed it has
+always been running, right next to it, and is available to you now.
+
+**5. What I bounced off**
+
+The statistical block — the 100 million adults, the JAMA study, the Indian
+farmer suicides, the 48 per day — I read without disengagement but with a
+mild sense of being enrolled in an evidence case rather than continuing the
+experience of discovery. The chapter had been showing me things; there the
+chapter began proving things. The shift in mode was small but perceptible.
+The statistics are necessary and I do not think they should be cut. But they
+carry a different register than the Rolling Jubilee opening, and I felt the
+seam.
+
+The phrase "This is not a bug in the debt system. It is the system working
+as designed" — I agreed with it, and I had heard it before, and I felt
+briefly that I was in more familiar territory. The chapter earns its way
+back out of that quickly.
+
+The Mondragon paragraph felt slightly faster than what came before — denser
+with names and facts. I followed it but I was slightly more distant. The
+restaurant paragraph immediately after pulled me back in and retroactively
+made the Mondragon reference feel earned, but in the moment I felt the Caja
+Laboral arriving before I had been given a reason to care about it.
+
+None of this broke the reading. The chapter holds.
+
+*(Editor's note: the statistics-block bracing is the data pattern the pass
+has been tracking since Kerala — and this witness issued its own ruling:
+"necessary… should not be cut." It became interview row 10 (the
+known-list's "ch-13 debt machinery" row), where the question is what
+COMPOUNDING looks like on land. The Mondragon-before-its-reason note was
+weighed for a reorder and rejected: "A Caja Laboral would have saved my
+ass" requires the institution established first — the dependency is
+structural, and the witness confirmed it resolves retroactively. The one
+edit this chapter (the importance-ranking self-reference at the
+deprogram-confession's climax) was invisible: the witness called that
+paragraph the place the chapter "ran deeper than anything in the
+statistical section.")*
