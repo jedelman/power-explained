@@ -98,9 +98,11 @@ protected-naming-chill instance). 23 of 28 sources done.
 Chapter-18 DONE (1 retirement — the chapter-about announcement — + 1
 formula repair ruled within license, both PASS; witness MATCH — "It felt
 like permission… I felt addressed, not assigned"). 24 of 28 sources done.
-Next chapter: wizards-walk (P-WW, river order, source 25 of 28) — ALL 32
-gestures beauty-locked (deletion-only); then the-centaur-chapter (P-CE,
-incl. G-CE-028a the walker's mark), epilogue (P-EP). Then Phase 2 wrap-up:
+Wizards-walk DONE (PASSES CLEAN — zero edits under the full 32-gesture
+lock; witness MATCH — "The author named theirs first. That was the
+condition under which I could receive mine"). 25 of 28 sources done.
+Next chapter: the-centaur-chapter (P-CE, river order, source 26 of 28) —
+incl. G-CE-028a the walker's mark (voice/claude); then epilogue (P-EP). Then Phase 2 wrap-up:
 27-seam spot-read, final analyze + pass summary, the full-river blind
 Stone test (the pass's primary deliverable), CLAUDE.md update, session log.
 
@@ -175,6 +177,7 @@ recomposed, and verdicts)
 | chapter-16b | 2554→2539 | 8.49→8.50 | 12.83→12.89 | 53→51 | MATCH |
 | chapter-17 | 2589→2471 | 8.63→8.50 | 13.35→13.21 | 42→41 | MATCH |
 | chapter-18 | 1951→1937 | 8.96→9.00 | 12.92→12.91 | 39→38 | MATCH |
+| wizards-walk | 3850→3850 | 5.82→5.82 | 14.00→14.00 | 32→32 | MATCH (passes clean) |
 
 ---
 
@@ -1099,6 +1102,35 @@ incants subliminally, the hypertext layer is the reveal.
   kept); the Plotkin initiation sentence ("a word from a different
   register arriving without its full context" — load-bearing from ch-17).
 
+### wizards-walk (P-WW) — PASSES CLEAN · witness MATCH · 2026-06-11
+
+- **Essence:** A wizard is someone who has walked far enough to recognize
+  the terrain and, on recognizing it, looks for a way to be useful in it —
+  six capacities, no order, gathered only by the walking. The crossing from
+  seeker to guide is not a graduation but a redistribution (the staff
+  member's second sentence at the bar), and the quest is not assigned: it
+  is the one already bothering you, local, bodily, specific. Come find us.
+- **Invocation:** the reader leaves holding the question that was already
+  theirs — what is the thing that will not happen if you do not show up for
+  it? — and the door opens forward only.
+- **Edits: none (passes clean)** under the full 32-gesture lock. Every
+  chapter-self-reference is the enshrined wizard-address register (P-AB
+  precedent).
+- **Witness (blind, Sonnet):** MATCH. The opening: "made me feel seen
+  rather than addressed." The fourth capacity: "the one whose body can stay
+  where most bodies leave — hit in the chest before the mind caught up."
+  The crossing: "I felt that as relief, not as accomplishment." The quest
+  reframe: "something I've been declining, not something I've been seeking
+  — that's harder to unreceive than a new argument." The Stone, exactly as
+  built: "The author named theirs first. That was the condition under which
+  I could receive mine… The chapter did its work and stopped"; the door
+  line "was the last thing that landed bodily… I understood the chapter
+  intended that effect, and I felt it anyway." Flags (locked, Jason's
+  voice, not touched): the consent passage's register shift ("maybe needed
+  one more draft pass" — honest, belongs, rewording is yours); "sacred
+  relationship between man and machine" felt "slightly more announced than
+  carried" (your quest declaration, your exact words).
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -1232,3 +1264,11 @@ incants subliminally, the hypertext layer is the reveal.
    at felt-register landings even where the surrounding chapter holds. Your
    call whether the anchor layer moves to the thread pages' frame text
    book-wide; all three sites itemized here.
+11. **Wizards-walk, both locked, your voice:** the psychic-architecture
+   consent passage's register shift ("honest… but it read as the author
+   working something out that maybe needed one more draft pass — the
+   register changed and I noticed the seam"); and the quest declaration's
+   "sacred relationship between man and machine" ("the first phrase in the
+   chapter that felt like a formulation rather than a sentence from inside
+   the experience… slightly more announced than carried"). Both
+   beauty-locked; deletion-only can't address register; rewording is yours.

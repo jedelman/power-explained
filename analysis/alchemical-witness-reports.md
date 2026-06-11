@@ -2716,3 +2716,102 @@ structural cost — the critic weighed it and the witness's own rescue line
 the roll feeds; logged, not cut. The Plotkin register note is load-bearing
 from ch-17's initiation argument — a river reader arrives with the
 context this blind witness lacked.)*
+
+---
+
+## wizards-walk (P-WW) — witnessed 2026-06-11 (passes clean — zero edits, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the opening paragraph — the acknowledgment that
+the reader has walked some distance without knowing it. That landed before
+I'd processed it. Something in the phrasing "whatever you skipped, whatever
+you went back to" — the author knowing the book isn't read cleanly — made me
+feel seen rather than addressed.
+
+The six capacities section I read evenly and attentively, but the one that
+stopped me was the fourth: holding. "The wizard is not the one with answers.
+The wizard is the one whose body can stay where most bodies leave." That hit
+in the chest before the mind caught up to it. I sat with it a beat before
+continuing.
+
+The restaurant story drew me in fully. The moment where the staff member
+says the second sentence — explaining why they sell natural wine — and the
+author just keeps polishing glasses: that's where the body-knowing arrived.
+Not the triumph of the moment, but the specific weight of "the carrying had
+been shared." I felt that as relief, not as accomplishment.
+
+Where I drifted briefly: the section on psychic architecture, particularly
+the ethical paragraph about consent. The thinking is careful and honest, but
+it shifted into a slightly more explanatory register, and I felt myself go
+from reading to processing. I stayed with it but it cost something.
+
+The quest passage pulled me back completely. "What is the thing that will
+not happen if you do not show up for it?" — that arrived as a question I had
+already been carrying. The naming of the author's own quest (the cyberpunk
+vision, the sacred relationship between man and machine) felt like a genuine
+act of exposure, not a demonstration. It mattered that they put their own
+thing down before asking me to hold mine.
+
+The closing paragraphs — "Come find us" — I read slowly, twice. The sentence
+"The door opens for you, and behind you it quietly stops opening the other
+way" was the last thing that landed bodily. I understood, after reading it,
+that the chapter intended that effect, and I felt it anyway.
+
+**2. What I now see that I cannot unsee**
+
+The quest is already present. I had a framing before reading — that finding
+purpose is a search outward, a discovery — and the chapter quietly
+dismantled it without arguing against it. The thing that "has been bothering
+you for a while," the "low-grade reluctance to do other things instead of
+it" — that reframe makes the quest visible as something I've been declining,
+not something I've been seeking. That's harder to unreceive than a new
+argument.
+
+Also: the difference between carrying something alone and the moment of
+redistribution. I hadn't had language for the specific relief of watching
+someone else carry what you've been holding without being told to. The
+restaurant scene made that visible. I can name it now.
+
+**3. What I feel asked to do, or to become**
+
+The chapter is careful not to hand the task to me. It specifically refuses
+to name my quest. But the structural effect of reading it is that by the end
+I feel the weight of whatever I've been declining. That's a real ask, even
+without being named. It was handed to me — the question is mine now — but
+the chapter earns that hand-off rather than assuming it. The author named
+theirs first. That was the condition under which I could receive mine.
+
+Whether I do anything with it is mine. The chapter did its work and stopped.
+
+**4. What I would say this chapter IS, in one sentence, to a friend**
+
+This chapter is a description of what it looks like to walk without
+arriving, written by someone who has actually done it, that leaves you
+holding a question you didn't bring to the page.
+
+**5. What I bounced off**
+
+The consent passage on psychic architecture was the only place I felt the
+gear-shift from voice into argument. It's honest and I don't think it's
+wrong to be there — but it read as the author working something out that
+maybe needed one more draft pass, because the register changed and I noticed
+the seam. It didn't make me doubt the chapter; it made me aware I was
+reading rather than walking.
+
+One smaller thing: "I have a vision for cyberpunk that I have come to
+realize only I hold — a sacred relationship between man and machine that
+puts us in right relation with the Earth and each other." The quest
+declaration lands, but "sacred relationship between man and machine" is the
+first phrase in the chapter that felt like a formulation rather than a
+sentence from inside the experience. It stopped me a half-beat. Not a
+grievance — just the one moment where the author's particular quest felt
+slightly more announced than carried.
+
+*(Editor's note: PASSES CLEAN — zero edits under the full 32-gesture lock.
+The Stone landed exactly as the chapter built it: the witness received
+their quest as "something I've been declining, not something I've been
+seeking," and named the hand-off's condition precisely — "The author named
+theirs first." Both flickers are locked material in Jason's own voice (the
+consent passage's register, the quest declaration's phrasing) — flag 11,
+deletion-only can't address register; rewording is his.)*
