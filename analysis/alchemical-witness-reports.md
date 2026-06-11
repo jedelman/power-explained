@@ -444,3 +444,92 @@ absorbed and used as the reader's own thought. The technique is validated and
 governs the remaining 24 chapters. The Barcelona-history length remains the
 chapter's one structural flag, already routed to Jason; the Sixth Fleet note
 is new and minor — logged.)*
+
+---
+
+## chapter-3 (P-03) — witnessed 2026-06-10 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+I leaned in immediately at the image of the *palomares* — teepee-shaped
+bamboo-and-stone dams weighted against the current and washed out every year,
+rebuilt every morning. That image held. I didn't drift there; I went still.
+The word *cocinero* landing in a governance document — that was where
+something arrived before I could analyze it. The cook written into law. I felt
+the weight of that.
+
+I drifted, slightly, in the Foucault and Negri section. Not because it was
+wrong, but because the register shifted — it became more coursework-shaped,
+more explanatory. I was still reading, but I was reading differently. Less
+body, more tracking.
+
+I came back in fully at the Norfolk restaurant paragraph. The line "I knew in
+my body — the way you know things you can't yet say" reached me because I had
+just been in that state reading the *zanjera*. Then the line "That is what we
+lost when we closed" landed like a door shutting quietly.
+
+The final three short sections accelerated something. "Same practice. Same
+commons. Different typhoon." I read it twice without choosing to. The close —
+"The loneliness was the spell" — I felt as a kind of release, though I'm not
+certain I fully earned it from where I'd started.
+
+**2. What I now see that I cannot unsee.**
+
+The inversion of Hardin. What he described wasn't a commons — it was a commons
+with everything removed that makes it work. That reframe restructures years of
+absorbed assumption. I have heard "the tragedy of the commons" used as
+conclusive argument in dozens of conversations, and I never had the
+counter-frame at hand. Now I do. I can no longer encounter that phrase without
+seeing it as a choice — a cover story for something.
+
+And the cook written into law. That image has reorganized something for me
+about the relationship between governance and care. Feeding people while they
+do hard collective work is not a kindness offered; it is a structural
+recognition that relationship must be maintained for the work to continue.
+That the governance structure that omits care will, over time, produce people
+who stop showing up. I will see this absence now wherever it operates.
+
+**3. What I feel asked to do, or become.**
+
+The chapter hands me something but does not insist I take it. The close says
+"if we choose to, we can build together" — which is an invitation, not a
+demand. The chapter seems to know the difference.
+
+What I feel asked toward is something like: look at what you are already part
+of. Not look for somewhere to join, but look at what is already around you and
+recognize what it is. The commons isn't a project to find; it's a condition to
+see.
+
+That feels like mine to do. The author hands it over cleanly. The chapter does
+not keep it.
+
+**4. What this chapter IS, in one sentence.**
+
+It is the chapter that gives you the name for what you already knew was being
+taken from you.
+
+**5. What I bounced off.**
+
+The Foucault/Negri summary felt like the one section where the chapter was
+doing the work the reader was supposed to do. The terms arrived with
+definitions attached — "biopower," "biopolitical production" — and while the
+writing is clear and the examples are good (the call center worker, the nurse,
+the neighborhood), I was aware I was being told rather than shown. The
+*zanjera* and the Valencia tribunal showed me. The Negri passage explained to
+me. The explanation is accurate; the register is different.
+
+The Bluesky handle paragraph skated close to an edge I almost slid off — I
+felt a small flinch at self-reference, at the slight brightness of the tone.
+It recovered immediately with "Once you have the name, you can see it
+everywhere," which earned its place. But the handle itself was a moment where
+I noticed the author rather than the argument.
+
+Those are small. They didn't break the reading. The chapter worked.
+
+*(Editor's note: first witness run on Sonnet per the new model budget — MATCH,
+indistinguishable in depth from the Opus witnesses. The two edits this chapter
+received (a brochure-promise cut, a triple-"received" reword) were invisible to
+the reader. The Foucault/Negri "told rather than shown" is the FOURTH instance
+of the theory-section pattern (PR/1/2/3) — load-bearing concept-work, flagged
+to Jason as a book-scale register question, not cut. The Bluesky flinch and the
+"endless arguments" construction are Jason-voice flags.)*

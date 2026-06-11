@@ -89,6 +89,17 @@ properly, never reused. Chapter-level order in the river is untouched.
    redundancy. Cutting what breathes is the failure mode. Essence is not
    minimization; the book breathes.
 
+## Model assignments (Jason, 2026-06-10 — token budget)
+
+- **Composition / editing sub-agents (the transmutations, recompositions):**
+  Fable (`model: fable`).
+- **Witness sub-agents (blind reader):** Sonnet (`model: sonnet`).
+- **Critique sub-agents (craft critic):** Opus (`model: opus`).
+
+Pass these via the Agent tool's `model` parameter. The editor (this main
+thread) drives the loop and applies edits directly; sub-agents carry the
+per-role model.
+
 ## The per-chapter loop
 
 1. Load: this doc, the chapter's protected-beats section, the logbook

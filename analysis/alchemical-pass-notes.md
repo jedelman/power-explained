@@ -21,8 +21,11 @@ the labels finding with the sneaked-name directive (Ruling 3 + word-map);
 8 explicit school call-outs transmuted to motion-words; the controlled
 re-witness of ch2 confirms the technique — the labels complaint VANISHED and
 the new reader thinks in the book's verb ("they composted it").
-Next chapter: chapter-3 (river order, source 5 of 28) — apply the word-map
-to all formula call-outs from here forward.
+Chapter-3 DONE (2 edits, witness MATCH; team: Fable-edit/Sonnet-witness/
+Opus-critique per Jason's token budget).
+Next chapter: becoming-wizards-in-the-woods (P-IW, river order, source 6 of
+28) — WIZARD-CEREMONY chapter: explicit lexicon naming STAYS (Ruling 3
+exception); 1 beauty_check gesture (G-IW-027a, deletion-only).
 
 ---
 
@@ -75,6 +78,7 @@ recomposed, and verdicts)
 | chapter-1 | 2388→2329 | 8.25→8.29 | 14.39→14.38 | 38→37 | MATCH |
 | chapter-2 | 3779→3739 | 8.90→8.90 | 12.64→12.63 | 40→40 | MATCH |
 | ch1+ch2 (sneaked-name cycle) | −8 labels | — | — | — | MATCH (labels complaint gone) |
+| chapter-3 | 2559→2532 | 9.48→9.50 | 14.06→13.99 | 35→35 | MATCH |
 
 ---
 
@@ -257,6 +261,46 @@ incants subliminally, the hypertext layer is the reveal.
   to its formula call-outs as part of the standard loop (the
   protected-beats inventory's school-name clauses are governed by Ruling 3).
 
+### chapter-3 (P-03) — 2 EDITS, ALL PASS · witness MATCH · 2026-06-10
+
+- **Essence:** The zanjera's cook — written into law because the relationship
+  that rebuilds the dam must be fed — proves the commons governs itself, and
+  Hardin's "tragedy" was a fiction useful to enclosure, demolished by
+  Ostrom's real cases. The turn: the loneliness was the spell; we were always
+  building with each other.
+- **Invocation:** the reader recognizes the commons as something they've
+  already lived, sees the "it's impossible" assumption as installed hegemony
+  rather than fact, and crosses the You→We seam from stranded individual into
+  "we can build together." (Second-initiation station: the We.)
+- **Edits (2, no formula call-outs to transmute — the concept-namings here
+  are the thinkers' own, attributed):** G-03-012 brochure-promise cut ("By
+  the end of this chapter, you'll be able to see the assumption…" — Ruling 2;
+  the section now hands "the arguments come from the graphs" into "It starts
+  in 1968," the paper that produced them); G-03-027 reword of the tangled
+  triple-"received" → "received as fact for being true / for being useful"
+  (critic: net gain — removes the stumble, threads "as fact" back to the
+  earlier "taught as established fact"). Critic PASS both; the protected
+  You→We seam and the cook motif (6 sites) verified intact.
+- **Witness (blind, Sonnet):** MATCH. "What he described wasn't a commons —
+  it was a commons with everything removed that makes it work… I can no
+  longer encounter that phrase without seeing it as a cover story"; the cook
+  written into law "reorganized something… about the relationship between
+  governance and care"; the Stone: "The author hands it over cleanly. The
+  chapter does not keep it." One-sentence: "the chapter that gives you the
+  name for what you already knew was being taken from you."
+- **Witness observations (flags for Jason, not edited):** (1) the
+  Foucault/Negri section "felt like the one section where the chapter was
+  doing the work the reader was supposed to do… I was being told rather than
+  shown." Fourth instance of THE THEORY-SECTION PATTERN (see cross-cutting).
+  Load-bearing concept-work, not corruption — flagged. (2) the Bluesky-handle
+  paragraph drew "a small flinch at self-reference… a moment where I noticed
+  the author rather than the argument" — recovered immediately; Jason's voice/
+  persona, his call. (3) Critic flag: G-03-006 "While I can say for sure, as
+  a Filipino, that there are endless arguments…" — critic read a possible
+  meaning-inversion; editor reads it as a both-things-true construction (there
+  ARE arguments AND it wasn't theory-designed); idiosyncratic but parseable
+  Jason-voice — flagged, not touched.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -267,6 +311,20 @@ incants subliminally, the hypertext layer is the reveal.
   (the witch history beat; the six-levels map) and warmed at concrete
   image landings. The pattern: instruction chills, image warms. CONFIRMED in
   chapter-1 (third instance) — promoted to Ruling 2 in the instructions doc.
+- **THE THEORY-SECTION PATTERN (chapters PR, 1, 2, 3 — four instances).**
+  Distinct from the lexicon-naming finding (fixed). Blind witnesses
+  consistently cool at the thinker-summary / theory-exposition sections —
+  prologue six-levels map, ch1 Gramsci/common-sense, ch2 Barcelona
+  constitutional history, ch3 Foucault/Negri biopolitical-production. The
+  felt-recognition register (zanjera, the salsa, the crossing) warms them;
+  the concept-summary register chills them ("told rather than shown,"
+  "coursework-shaped," "reading about power again"). These sections are
+  LOAD-BEARING — they carry the book's conceptual spine — so not autonomously
+  cut. This is a book-scale register-oscillation question for Jason: is the
+  theory the "disenchanted world" the reader must pass through deliberately,
+  or do the summaries want interleaving with more concrete? Evidence
+  accumulating per chapter. (The Latinate theory chapters — 5, 8, 10, 11 —
+  will be the stress test.)
 - **The lexicon-naming finding (chapters 1-2, escalating).** Ruling 2 covers
   UNPROTECTED meta-announcements (cut). But the blind witnesses are now also
   cooling at PROTECTED woven school-namings — ch-1 "placed-on-top," ch-2
@@ -294,3 +352,14 @@ incants subliminally, the hypertext layer is the reveal.
 3. **Chapter-2 Barcelona history length** — "ran long, tipped into lecture";
    G-02-035 financial digression the most cuttable if a structural trim is
    wanted.
+4. **THE THEORY-SECTION PATTERN (MAJOR, building — PR/1/2/3).** Blind readers
+   cool at every thinker-summary/theory section while warming at the felt
+   scenes. Load-bearing, not cut. Your book-scale call: is the register
+   oscillation deliberate (theory = the disenchanted world to pass through),
+   or do the summaries want more concrete interleaved? The Latinate-heavy
+   chapters (5, 8, 10, 11) are the coming stress test.
+5. **Chapter-2 transformation anchor** (cross-wired) and **beguiling's
+   missing reveal layer** (no Illusion thread) — from the sneaked-name cycle.
+6. **Minor voice flags:** ch3 Bluesky self-reference flinch; ch3 G-03-006
+   "While I can say for sure… endless arguments" construction (possible
+   inversion or both-true — your voice, your read).

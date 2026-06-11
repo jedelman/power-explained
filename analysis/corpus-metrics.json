@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-11T02:49:43.382Z",
+  "generatedAt": "2026-06-11T03:53:26.498Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84283,
-    "sentences": 5942
+    "words": 84256,
+    "sentences": 5941
   },
   "corpusReadability": {
     "fleschReadingEase": 59.37,
@@ -331,22 +331,22 @@
       "slug": "chapter-3",
       "title": "Chapter 3: The Cook",
       "gestureCount": 35,
-      "words": 2559,
-      "sentences": 182,
-      "avgWordsPerSentence": 14.06,
+      "words": 2532,
+      "sentences": 181,
+      "avgWordsPerSentence": 13.99,
       "avgSyllablesPerWord": 1.66,
-      "fleschReadingEase": 52.13,
-      "fleschKincaidGrade": 9.48,
-      "gunningFog": 13.11,
-      "colemanLiau": 10.86,
-      "automatedReadabilityIndex": 8.64,
+      "fleschReadingEase": 51.87,
+      "fleschKincaidGrade": 9.5,
+      "gunningFog": 13.13,
+      "colemanLiau": 10.94,
+      "automatedReadabilityIndex": 8.68,
       "smog": 12.4,
       "smogReliable": true,
-      "lexicalEntropy": 8.5,
+      "lexicalEntropy": 8.51,
       "typeTokenRatio": 0.37,
-      "meanGestureWords": 73.11,
-      "stdGestureWords": 62.19,
-      "structuralEntropyNorm": 0.87
+      "meanGestureWords": 72.34,
+      "stdGestureWords": 62.03,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-04",
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 112,
       "p90": 175,
-      "mean": 87.31
+      "mean": 87.29
     },
     "lexicalEntropy": {
       "n": 968,
@@ -669,7 +669,7 @@
       "n": 758,
       "p10": 4.41,
       "p25": 6.11,
-      "p50": 8.17,
+      "p50": 8.18,
       "p75": 10.8,
       "p90": 12.83,
       "mean": 8.52
@@ -681,7 +681,7 @@
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.84,
-      "mean": 59.49
+      "mean": 59.48
     }
   },
   "transitionalEntropy": {
