@@ -627,3 +627,111 @@ sneaked-name architecture), but the witness's specific note on the recap line
 to Jason, deletion-only and his alone. The witness extended the chapter's own
 claim about enchantment-as-overlay — the strongest evidence yet that the Stone
 transforms: the reader didn't just receive the idea, it grew it.)*
+
+---
+
+## chapter-4 (P-04) — witnessed 2026-06-10 (passes clean, Sonnet) · verdict MATCH
+
+**1. Where I leaned in, where I drifted, where something landed in the body before the mind.**
+
+I leaned in hard at the opening. *Auzolan.* The word arrived before the
+explanation, and I felt it before I understood it — not a concept but a
+practice someone had already been doing, long enough to have a name for the
+kind of neighbor who shows up at births and deaths. That landed before I could
+analyze it. The sentence "Community was not an abstraction. It was a specific
+house down the path" stopped me. I read it twice.
+
+I stayed close through Arizmendi — the detail of the one eye, the monotone,
+the congregation asking the bishop to remove him within weeks — because the
+chapter was showing me failure's texture before it showed me what survived the
+failure. The fifteen years of patient school-building before the first
+cooperative: I felt the scale of that patience in my body as a kind of
+reproach to my own impatience.
+
+I drifted slightly in the Kerala section. Not because it was wrong, but
+because it arrived as data — life expectancy, infant mortality, literacy
+rates — after sections that had arrived as people. I registered it and moved
+on, less moved.
+
+I came back fully at the restaurant. The shift in register — "And one more —
+this one mine" — landed like a gear change I felt in my chest. The five
+years, the cashing out of the 401k, the queers keeping them in business while
+the neighborhood never quite came, the best menu in the final year, just the
+two of them. Then the closing. Then: "It cost me my idealism and my faith in
+humanity. I say this as transformation, not as defeat." That sentence held me.
+I had to sit with it.
+
+The closing litany — Arizmendi on his bike, the Champlain homeowner who sold
+below market for a neighbor who did not yet exist, the community fridge
+stocked by whoever walked by that morning — that built something. I felt it
+accumulate. By the time I reached "The wizard who knows how to look can see
+it," I was, in fact, looking differently.
+
+**2. What I can no longer unsee.**
+
+I can no longer see failure the way I could before. That's the main thing.
+Fagor going bankrupt, 5,600 workers absorbed. Lumumba dying at eight months in
+office. The Zapatistas dissolving their own structure. The restaurant closing.
+Every one of these had been, in my mind, a refutation — the kind of fact
+someone reaches for when you talk about alternatives. The chapter reframed
+every one of them as the record of the thing continuing to work. Not despite
+the setbacks. Through them, and in response to them.
+
+I also can no longer see mutual aid as emergency behavior — as something
+people do only when the normal systems fail and then abandon when they return.
+The 2020 networks, the fridges, Crown Heights converting crisis into ongoing
+infrastructure — I see now that what I had filed under "temporary" was
+practicing being permanent.
+
+**3. What I feel asked to do, or to become.**
+
+The chapter is careful about this. It doesn't hand me a to-do list. The
+closest it comes is the closing line — "Prefiguration at every scale: the
+world we want, built and defended in the present" — but that's not
+instruction. It's an observation.
+
+What I feel asked to become is someone who can hold the long timeline. The
+chapter keeps returning to duration: 1941, fifteen years before the first
+cooperative, sixty-nine years of no layoffs, a hundred and twenty years as an
+explicit horizon. Against that, my own three-year sense of what it takes to
+build something feels like a category error. The ask is not a task. It's a
+different relationship with time and loss.
+
+Whether that's mine to take up or the author's to carry: I think the chapter
+hands it out while keeping it. The author has already paid something — the
+401k, the five years, the "cost me my idealism" — and the transformation they
+describe in themselves is what authorizes the ask. But the ask, once made,
+doesn't stay with them. It arrived in me.
+
+**4. What this chapter IS, in one sentence.**
+
+It is the record of the thing actually working, in specific places and for
+specific spans of time, told in enough human detail that you can no longer
+claim it has never been tried.
+
+**5. What I bounced off.**
+
+The Kerala section felt like a gear change in the wrong direction. After
+Mondragón and Burlington and Jackson, each delivered through people — a
+one-eyed priest on a bike, a mayor's daughter speaking at the memorial, a
+homeowner selling below market for a future neighbor — Kerala arrived as
+statistics. The explanation ("Decades of communist-led government that broke
+up the landlord class") was accurate and true, but I was farther from it. I
+didn't doubt it. I just wasn't as present for it.
+
+The 2020 mutual aid section, I briefly felt was going to be
+inspirational-energy, the kind of thing that makes you nod and move on. It
+earned its place — particularly the specificity of Crown Heights converting,
+and the closing observation that "people knew how to do this, they had not
+forgotten" — but it came close to the line I don't want crossed, where the
+account becomes evidence for a predetermined conclusion. It didn't cross it.
+It came close.
+
+Nothing made me want to skip.
+
+*(Editor's note: passes clean — zero edits; all 27 gestures beauty-locked and
+the read found nothing to delete. The flag on the explicit prefiguration chord
+SELF-RESOLVED: the witness received it as "not instruction. It's an
+observation" — the chapter earns the name before speaking it. Kerala's
+data-among-people drift became interview row 5 — the enrichment is Jason's by
+definition, since the chapter is locked.)*

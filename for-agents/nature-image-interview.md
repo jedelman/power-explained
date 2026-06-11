@@ -90,7 +90,21 @@ orchard) already exists downstream — this section could either borrow
 forward from it or take its own image. Consistency call is yours.
 **JASON:**
 
-### (rows 5+ append as the pass walks — the known heavy-theory sections
+### 5. Chapter 4 — Kerala, the floor that holds (G-04-019 area)
+**Concept needing image (or person):** seventy years of left governance as a
+FLOOR — the only section in your locked worked example delivered as
+statistics among sections delivered as people.
+**Witness:** "Kerala arrived as data — life expectancy, infant mortality,
+literacy rates — after sections that had arrived as people… I didn't doubt
+it. I just wasn't as present for it."
+**Note:** "A floor that holds" is already half an image — what does the
+floor look like in nature? (Bedrock? The waterline a marsh never drops
+below? A canopy that catches?) Or a person — one Keralan life lived on the
+floor. The chapter is fully beauty-locked: this enrichment is yours to weave
+or to hand me raw. Either grain works.
+**JASON:**
+
+### (rows 6+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system
@@ -98,6 +112,42 @@ of objects / the spectacle. Each gets its row, with witness quotes, when
 its chapter is witnessed.)
 
 ---
+
+## The grain (settled with Jason, 2026-06-10)
+
+Jason's worked example, for hegemony: "it's the soil conditions — sometimes a
+fertile rainforest floor, more often a parking lot, always determinative of
+what thrives and what struggles." **That grain is exactly right.** It carries
+the three parts a weave needs:
+
+1. **The identification** — concept = image (hegemony = soil conditions).
+2. **The range, both castings** — fertile floor ⇄ parking lot (the lexicon's
+   master principle, two directions, native to the image).
+3. **The mechanism** — "always determinative of what thrives and what
+   struggles." This is what makes it explanation rather than decoration: the
+   causal handle the theory section needs.
+
+Optional, never required: a lived specific (THE parking lot, THE meadow —
+witnessed images carry aura that stock images don't), and one sensory detail.
+No prose needed — the weave is the centaur's job.
+
+## Image-map additions (recorded as answered)
+
+- **HEGEMONY = soil conditions** (Jason, 2026-06-10): fertile floor ⇄ parking
+  lot; determinative of what thrives. Weave notes: the existing Gramsci text
+  already says "the sediment of prior thought" — sediment becomes soil; the
+  parking-lot soil is STILL SOIL under the asphalt (rhymes with the P-IW
+  witness's own discovery: "the original becomes inaccessible, while still
+  present") and the weed in the expansion joint rhymes with ch-1's midnight
+  cracks. DESIGN NOTE for Jason: soil-absorbing-leaves is already reserved
+  for capture. Two options: (a) keep families separate (risk: the ch-2
+  re-steady moment); (b) ONE INTEGRATED SOIL SYSTEM for the prior/structural
+  register — conditions = hegemony, absorption = capture, sediment = the
+  laid-down past — distinct soil-behaviors carrying sibling concepts, woven
+  so each behavior stays distinct. The editor recommends (b): hegemony and
+  capture are siblings in the argument, and a coherent soil ecosystem is
+  stronger than two metaphors avoiding each other. Your call before the
+  weave.
 
 **Process when answered:** images woven per the standard loop (Fable weave →
 Opus critique incl. image-map consistency check → fresh Sonnet witness on

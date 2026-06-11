@@ -27,9 +27,14 @@ Becoming-wizards-in-the-woods DONE (1 dissolution, witness MATCH — the
 deepest reception yet). Nature-image interview file opened
 (for-agents/nature-image-interview.md) per Jason's proposal — rows accumulate
 as the pass walks; Jason answers in StackEdit.
-Next chapter: chapter-4 (P-04, river order, source 7 of 28) — NOTE: 27 of its
-gestures are beauty_check (deletion-only); the chapter is Jason's locked
-worked example. Expect passes-clean or near.
+Chapter-4 DONE (PASSES CLEAN — zero edits, the lock honored and the read
+confirms it; witness MATCH, the prefiguration-chord flag self-resolved).
+Nature-image grain settled with Jason (hegemony = soil conditions recorded;
+integrated-soil-system design note pending his call). Kerala interview row
+added.
+Next chapter: chapter-5 (P-05, river order, source 8 of 28) — The Smile:
+Luxemburg/Kollontai/Federici; 3 beauty_check gestures; first of the
+FK-densest chapters (theory-section stress test begins).
 
 ---
 
@@ -84,6 +89,7 @@ recomposed, and verdicts)
 | ch1+ch2 (sneaked-name cycle) | −8 labels | — | — | — | MATCH (labels complaint gone) |
 | chapter-3 | 2559→2532 | 9.48→9.50 | 14.06→13.99 | 35→35 | MATCH |
 | becoming-wizards (P-IW) | 2472→2454 | 5.64→5.66 | 11.72→11.67 | 28→28 | MATCH |
+| chapter-4 | 4015→4015 | 9.20→9.20 | 14.39→14.39 | 27→27 | MATCH (passes clean) |
 
 ---
 
@@ -343,6 +349,41 @@ incants subliminally, the hypertext layer is the reveal.
   line lives in BEAUTY-LOCKED G-IW-027a: Jason's call entirely (deletion-only
   if he agrees). (2) "It is what produces them, by producing the people who
   consent" — compression noted as near-too-tight; protected beat, logged.
+
+### chapter-4 (P-04) — PASSES CLEAN · witness MATCH · 2026-06-10
+
+- **Essence:** Auzolan — the neighborhood work dormant under suppression —
+  recovered by a one-eyed priest on a bicycle who built people before
+  institutions, and proven again in Burlington, Jackson, Kerala, the
+  pandemic fridges, Chiapas, and a Norfolk restaurant: the commons works, in
+  the record, at every scale. The turn: "Nobody asked him to do any of it."
+- **Invocation:** proof before theory — the installed doubt ("does it
+  actually work?") dissolves against the record's accumulated time, and the
+  reader meets the form of commitment that doesn't need permission.
+  (Second-initiation adjacent: the record.)
+- **Edits:** none. All 27 gestures beauty-locked (deletion-only) and the
+  read found nothing to delete — Jason's hand throughout; every sentence
+  load-bearing. Zero edits, the lock honored, the verdict the lock
+  predicted.
+- **Witness (blind, Sonnet):** MATCH, profound. "I can no longer see failure
+  the way I could before… Fagor going bankrupt… Lumumba dying at eight
+  months… the Zapatistas dissolving their own structure. Every one of these
+  had been, in my mind, a refutation. The chapter reframed every one of them
+  as the record of the thing continuing to work." Duration received as the
+  ask: "The ask is not a task. It's a different relationship with time and
+  loss." The Stone, new form: "the chapter hands it out while keeping it…
+  the ask, once made, doesn't stay with them. It arrived in me."
+- **FLAG SELF-RESOLVED:** the explicit "Prefiguration at every scale" chord
+  (G-04-025, beauty-locked, Jason-placed) did NOT pull the witness out —
+  received as "not instruction. It's an observation." The chapter earns the
+  name before speaking it. Evidence that explicit naming lands when the
+  scene-work precedes it — consistent with Ruling 3's reveal-layer logic.
+- **Witness observations:** (1) Kerala "arrived as data… after sections that
+  had arrived as people" — same family as the theory-section pattern (data
+  chills, people warm); added as interview row 5 (the chapter is fully
+  locked, so the enrichment is Jason's weave by definition). (2) the 2020
+  mutual-aid section "came close to the line" of evidence-for-predetermined-
+  conclusion but "didn't cross it" — logged, no action.
 
 ## Cross-cutting patterns (updated)
 
