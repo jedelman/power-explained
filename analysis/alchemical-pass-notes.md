@@ -23,9 +23,13 @@ re-witness of ch2 confirms the technique — the labels complaint VANISHED and
 the new reader thinks in the book's verb ("they composted it").
 Chapter-3 DONE (2 edits, witness MATCH; team: Fable-edit/Sonnet-witness/
 Opus-critique per Jason's token budget).
-Next chapter: becoming-wizards-in-the-woods (P-IW, river order, source 6 of
-28) — WIZARD-CEREMONY chapter: explicit lexicon naming STAYS (Ruling 3
-exception); 1 beauty_check gesture (G-IW-027a, deletion-only).
+Becoming-wizards-in-the-woods DONE (1 dissolution, witness MATCH — the
+deepest reception yet). Nature-image interview file opened
+(for-agents/nature-image-interview.md) per Jason's proposal — rows accumulate
+as the pass walks; Jason answers in StackEdit.
+Next chapter: chapter-4 (P-04, river order, source 7 of 28) — NOTE: 27 of its
+gestures are beauty_check (deletion-only); the chapter is Jason's locked
+worked example. Expect passes-clean or near.
 
 ---
 
@@ -79,6 +83,7 @@ recomposed, and verdicts)
 | chapter-2 | 3779→3739 | 8.90→8.90 | 12.64→12.63 | 40→40 | MATCH |
 | ch1+ch2 (sneaked-name cycle) | −8 labels | — | — | — | MATCH (labels complaint gone) |
 | chapter-3 | 2559→2532 | 9.48→9.50 | 14.06→13.99 | 35→35 | MATCH |
+| becoming-wizards (P-IW) | 2472→2454 | 5.64→5.66 | 11.72→11.67 | 28→28 | MATCH |
 
 ---
 
@@ -301,6 +306,44 @@ incants subliminally, the hypertext layer is the reveal.
   ARE arguments AND it wasn't theory-designed); idiosyncratic but parseable
   Jason-voice — flagged, not touched.
 
+### becoming-wizards-in-the-woods (P-IW) — 1 DISSOLUTION, PASS · witness MATCH · 2026-06-10
+
+- **Essence:** The deer walks through camp and twenty five-year-olds drop
+  into a stalking gait nobody taught them to need — and the chapter hands
+  the reader the working system the book runs on: terrain, incantation,
+  inscription, naming, magic, spellbook. The turn: "These names are not a
+  list. They are a working system. Yours to fill in."
+- **Invocation:** the reader is initiated into the legend — receives the
+  names as their own returned, starts the first page of their spellbook with
+  one private naming, and learns the book can be walked as a field.
+  (Second-initiation stations: the spellbook — G-IW-027, G-IW-030.)
+- **Edits (1):** G-IW-011 — dissolved "These are names for you to learn to
+  see and call them forth." (explanation pre-empting the four demonstrations
+  that immediately show it; its own see/call tangle confirmed the cut).
+  "You won't be able to cast them — yet." now lands directly into "The first
+  is *reading*." Critic (Opus) PASS: "the withholding em-dash resolves into
+  the first demonstration instead of dissipating." Everything else clean —
+  the most recently forged ceremony chapter; explicit naming is its
+  sanctioned act (Ruling 3 reveal layer). Beauty-locked G-IW-027a untouched.
+- **Witness (blind, Sonnet):** MATCH, deepest reception yet. The witness
+  EXTENDED the chapter's claim: "Enchantment covered something that was
+  already there… laying something over the top so the original becomes
+  inaccessible, while still present. That's different from how I had been
+  holding the word 'enclosure.'" The first practice received as "an
+  offering, not an assignment." One-sentence: "the tools turn out to be
+  things you already had, and the chapter's real job is to make you realize
+  that." The second-person turn ("You recognized it") — "there was a
+  moment's wariness before it held. It held."
+- **Witness observations (flags, no edits):** (1) the lexicon-list section
+  dragged ("being handed a taxonomy of it… the recapping cooled something
+  the story had warmed") — this is the reveal layer working as designed
+  (the river's one taxonomic moment), BUT the witness specifically named the
+  recap line "Read the terrain. Hear the spell. Feel the inscription…" as
+  "reaching for ceremony before it had fully earned the authority" — that
+  line lives in BEAUTY-LOCKED G-IW-027a: Jason's call entirely (deletion-only
+  if he agrees). (2) "It is what produces them, by producing the people who
+  consent" — compression noted as near-too-tight; protected beat, logged.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -360,6 +403,9 @@ incants subliminally, the hypertext layer is the reveal.
    chapters (5, 8, 10, 11) are the coming stress test.
 5. **Chapter-2 transformation anchor** (cross-wired) and **beguiling's
    missing reveal layer** (no Illusion thread) — from the sneaked-name cycle.
-6. **Minor voice flags:** ch3 Bluesky self-reference flinch; ch3 G-03-006
+6. **Beauty-locked, your call:** P-IW witness named the recap line in
+   G-IW-027a ("Read the terrain. Hear the spell…") as ceremony-before-earned;
+   the gesture is locked — deletion-only, only by you.
+7. **Minor voice flags:** ch3 Bluesky self-reference flinch; ch3 G-03-006
    "While I can say for sure… endless arguments" construction (possible
    inversion or both-true — your voice, your read).

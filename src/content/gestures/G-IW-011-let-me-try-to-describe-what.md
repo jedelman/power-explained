@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Here are a few spells, from my spellbook to yours. You won't be able to cast them — yet. These are names for you to learn to see and call them forth.
+Here are a few spells, from my spellbook to yours. You won't be able to cast them — yet.

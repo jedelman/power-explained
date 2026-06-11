@@ -533,3 +533,97 @@ the reader. The Foucault/Negri "told rather than shown" is the FOURTH instance
 of the theory-section pattern (PR/1/2/3) — load-bearing concept-work, flagged
 to Jason as a book-scale register question, not cut. The Bluesky flinch and the
 "endless arguments" construction are Jason-voice flags.)*
+
+---
+
+## becoming-wizards-in-the-woods (P-IW) — witnessed 2026-06-10 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+I leaned in hard at the deer. Not the setup — the setup was doing its job and
+I was tracking it — but the moment it arrived at the clearing's edge and the
+children dropped. Something in me did the same thing the children did: a kind
+of involuntary recognition, a posture shift. I felt the stalking gait
+described as a memory rather than a picture.
+
+I drifted briefly in the lexicon section — terrain, incantation, inscription,
+naming, magic, spellbook listed out in sequence. The accumulation of
+definitions after the aliveness of the story created a kind of drag. Not
+enough to lose me, but I felt the difference between being inside something
+and being handed a taxonomy of it.
+
+I leaned back in at "The wizard's first spellbook is the one they make of
+themselves." That landed before I understood why.
+
+The four spells — reading, naming, building, holding — I took at reading pace
+and felt each one, especially holding. "The grief gets to be grief." Something
+eased in me when I read that. I hadn't known I was carrying tension about it.
+
+The last line before the next-chapter tease — "a child standing in a forest,
+learning for the first time what old means" — landed in the chest. Short
+sentence after the long build. I stayed there.
+
+**2. What I now see that I didn't see before reading, or can no longer unsee.**
+
+The thing I can't unsee: that the children's stalking gait was already in the
+body before the educator arrived. She didn't install it. The deer unlocked it.
+Which means the spell — the one that replaced the gait with eyes-forward and
+pavement-feet — was the intrusion. The stalking gait was prior. Enchantment
+covered something that was already there, not built something new. That's
+different from how I had been holding the word "enclosure." I had understood
+enclosure as taking something away. Now I see it differently: laying something
+over the top so the original becomes inaccessible, while still present.
+
+I also can no longer unsee the educator's choice not to orchestrate. That
+restraint is the whole argument in practice. She could have ruined it by
+helping.
+
+**3. What I feel asked to do, or become.**
+
+The chapter gave me the first practice — once today, walk into a room and let
+the body register before the mind decides — and left it genuinely open. It
+didn't require me to accept it. It felt like an offering, not an assignment.
+
+What I feel asked to become is harder to name without overclaiming. Something
+like: a person who is paying more attention than I usually do, and keeping a
+private list of what that attention returns. That feels mine to do. The
+chapter handed it to me.
+
+What the author kept: the educator's name, the precise locations, and whatever
+happened in the twenty years before the story. That restraint felt deliberate.
+The chapter was not trying to convince me the educator existed; it was
+trusting me to recognize the shape of what she was doing. I found I did.
+
+**4. What I would say this chapter IS, in one sentence, to a friend.**
+
+It's the moment the book stops describing a problem and starts handing you the
+tools, except the tools turn out to be things you already had, and the
+chapter's real job is to make you realize that.
+
+**5. What, if anything, I bounced off.**
+
+The lexicon list. The paragraph that begins "Read the terrain. Hear the spell.
+Feel the inscription. Name it true." — I understood what it was doing, but I
+felt it reaching for ceremony before it had fully earned the authority to do
+so. The story of the deer had earned it. The list recapped what I'd just
+received, and the recapping cooled something the story had warmed.
+
+The sentence "It is what produces them, by producing the people who consent" —
+I read it twice. I followed the logic but the compression was almost too
+tight; I had to work to stay with it, and for a moment I felt like a student
+catching up rather than a reader being trusted. It's not wrong. It just
+shifted the register in a way I noticed.
+
+I didn't doubt the forest or the deer or the children. I didn't doubt the
+educator. I doubted, briefly, whether the second-person transition ("You
+recognized it") was going to hold, or whether it would feel imposed. It held.
+But there was a moment's wariness before it did.
+
+*(Editor's note: one dissolution this chapter — an explainer pre-empting the
+four demonstrations — invisible to the reader. The lexicon-list drag is the
+reveal layer working as designed (the river's one taxonomic moment, per the
+sneaked-name architecture), but the witness's specific note on the recap line
+"Read the terrain. Hear the spell…" concerns BEAUTY-LOCKED G-IW-027a — routed
+to Jason, deletion-only and his alone. The witness extended the chapter's own
+claim about enchantment-as-overlay — the strongest evidence yet that the Stone
+transforms: the reader didn't just receive the idea, it grew it.)*
