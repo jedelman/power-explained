@@ -374,3 +374,10 @@ HERE so consistency holds across all 28 chapters and across sessions.
    rank (ch-9/11/12/13 cuts), keep when the self-reference IS the content
    (ch-12's "older than the vocabulary this book has been using"; P-AB's
    chapter-as-speaker register).
+5. **The motif inventory protects the work, not the grep hit (2026-06-11,
+   chapter-16b/G-16b-032; critic ruled).** The protected-beats motif lists
+   were built by grepping lexicon vocabulary — a listed site whose only
+   content is a staging announcement or label (the WORD without the WORK)
+   may be dissolved when the motif's work survives undiminished at its
+   other sites. Companion to Ruling 3's work/label distinction. The critic
+   must rule on this explicitly whenever an inventoried site is touched.

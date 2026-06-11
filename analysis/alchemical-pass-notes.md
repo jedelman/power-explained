@@ -86,9 +86,14 @@ Chapter-16 DONE (PASSES CLEAN — zero edits; witness MATCH — "The author
 held up their end"; the protected cliff-close received as "a door being
 held open. I want to go through it"; interview row 11 added for the
 Baudrillard section). 21 of 28 sources done.
-Next chapter: chapter-16b (P-16b, river order, source 22 of 28) — The
-Simulacrum and the Field; the frontier flip (B2); second-initiation members
-G-16b-036/039a; check protected beats on load.
+Chapter-16b DONE (2 retirements — the "Here is the singularity argument"
+staging gesture and the diluting double of the forward-link close — both
+PASS; Ruling 5 promoted (the motif inventory protects the work, not the
+grep hit); witness MATCH — "the confession is load-bearing… With it, it
+becomes demonstration"). 22 of 28 sources done.
+Next chapter: chapter-17 (P-17, river order, source 23 of 28) — the
+practice chapter; second-initiation member G-17-029; check protected beats
+on load.
 
 ---
 
@@ -158,6 +163,7 @@ recomposed, and verdicts)
 | chapter-15 | 1715→1705 | 11.17→11.24 | 17.86→17.95 | 22→22 | MATCH |
 | reenchanting | 2937→2937 | 6.80→6.80 | 11.30→11.30 | 34→34 | MATCH (passes clean) |
 | chapter-16 | 3196→3196 | 8.25→8.25 | 12.68→12.68 | 51→51 | MATCH (passes clean) |
+| chapter-16b | 2554→2539 | 8.49→8.50 | 12.83→12.89 | 53→51 | MATCH |
 
 ---
 
@@ -974,6 +980,41 @@ incants subliminally, the hypertext layer is the reveal.
   it." Bounces: Baudrillard familiarity-slide (recovered by the
   grandmother's lamp) → interview row 11; the "You have felt this" list
   "didn't quite fall" — logged, not edited.
+
+### chapter-16b (P-16b) — 2 RETIREMENTS, BOTH PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The simulation is the management system and the enclosure is
+  the product — the corpus is the canopy, photographed; the mycorrhizal
+  dark never made it in. What averaging destroys is precisely the most
+  important thing about every singular person, and what cannot be averaged
+  cannot be enclosed: the averaged self becomes the gift, the spell becomes
+  the counter-spell. The Centaur is the field plus the rupture; the book
+  itself is the argument, enacted.
+- **Invocation:** the reader receives back the part of themselves no
+  corpus holds — "do not mistake your averaged outputs for yourself" — as
+  an invitation, not an imperative.
+- **Edits (2 retirements, both standalone single-sentence gestures):**
+  G-16b-032 "Here is the singularity argument at its fullest." (staging
+  announcement; the section opens cold per Ruling 1's section-break
+  preservation; critic ruled the motif-inventory listing mechanical —
+  promoted to **Ruling 5**: the inventory protects the work, not the grep
+  hit); G-16b-056 "The next chapter is about that remembering." (diluting
+  double of the protected close — the single forward-link now lands once,
+  hard).
+- **Witness (blind, Sonnet):** MATCH. "*You are what the system cannot
+  train on*… like being caught out." The canopy/underground image "is now
+  permanently attached to how I think about what gets encoded." Basmati:
+  "a slow, clean anger… The commons goes in. The proprietary artifact
+  comes out." THE CONFESSION TEST PASSED: "not betrayal, but a test being
+  administered… The confession is load-bearing. Without it, the chapter
+  would be persuasion. With it, it becomes demonstration." The Stone: "It
+  is giving something back… an invitation, not an imperative." The close:
+  "Clean. The chapter knew when to stop." Drifts, all on PROTECTED beats,
+  logged not edited: the D&G body-without-organs scaffolding (G-16b-019
+  protected trans deterritorialization); the Centaur passage "working
+  slightly harder than it needed" (G-16b-050 protected); the kybernetes
+  warm-up (G-16b-053 protected). "None of this broke the reading. It
+  created slower water."
 
 ## Cross-cutting patterns (updated)
 

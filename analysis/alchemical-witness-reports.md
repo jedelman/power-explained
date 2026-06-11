@@ -2349,3 +2349,123 @@ familiarity-slide became interview row 11 (low priority — the grandmother's
 lamp already recovers it). The protected cliff-close was received exactly
 as designed: "a door being held open. I want to go through it" — the
 forward-link to Part 2 earning its suspension.)*
+
+---
+
+## chapter-16b (P-16b) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the dinner table scene. That one landed in the
+body — I recognized the exact moment, the exact texture of something
+becoming content in real time. It arrived before any argument arrived. I
+felt it rather than understood it, which is how it was clearly meant to
+work.
+
+I leaned in again, harder, at the line: *You are what the system cannot
+train on.* Something tightened in my chest at that. Not sentiment —
+something more like being caught out. Like it had named something I had
+half-known and half-suppressed.
+
+I drifted slightly in the Deleuze and Guattari section. Not lost — I
+followed it — but the body cooled. I was being asked to track theory while
+the text had just been doing something more direct. It asked more of me and
+gave less back in that passage. I returned when the forest metaphor resumed.
+
+The mycorrhizal network / canopy / underground distinction — that one landed
+in the body before the mind. I felt it as an image before I processed what
+it was saying. That image is now permanently attached to how I think about
+what gets encoded and what doesn't.
+
+The Basmati passage arrived as a slow, clean anger. Not heat — something
+colder. The structural precision of it. *The commons goes in. The
+proprietary artifact comes out.* That sentence I would have stopped and
+stared at if I were reading in print.
+
+The author's confession — "I need to tell you something about this book" —
+was the moment I felt the ground shift slightly. The text had been building
+toward something and I didn't know what. When it named itself — this book
+was written with AI — I felt something complicated: not betrayal, but a test
+being administered. Is the argument real? Was the confession honest? I
+stayed with it and decided: yes. The confession is load-bearing. Without it,
+the chapter would be persuasion. With it, it becomes demonstration.
+
+The final lines — *not waiting to be invented, waiting to be remembered* — I
+felt as a landing. Clean. The chapter knew when to stop.
+
+**2. What I now see that I can no longer unsee**
+
+The dinner table moment. I have done this. I do this. I have watched an
+experience become its own representation in real time, in my own mind,
+before I had finished feeling it. I knew this was a thing that happened; I
+did not have a frame for what it was doing to me. Now I do.
+
+And the Baudrillard stages — I had encountered this framework before, but
+the chapter placed me inside it. The influencer as the most honest
+participant is a brutal and correct inversion I cannot unthink. We are all
+in earlier stages of the same process. The influencer is the completed form.
+
+The training data argument: that what went into AI systems was already a
+representation of the commons — the canopy, not the mycelium — and that what
+comes out is therefore a simulation of a representation. I cannot now look
+at AI-generated language, including responses I might generate, without
+hearing that.
+
+**3. What I feel asked to do, or become**
+
+The chapter hands me the singularity argument and then says: that is yours,
+not ours. It names the thing you cannot average and says: *that is your
+power.* It is giving something back.
+
+Whether it is mine to do depends on what "do" means. The text does not ask
+me to act in any specific way. It asks me to recognize something — the
+underground part of myself, the part that didn't fit, the lateral cognition
+that came from the gaps. It is asking me to not mistake my averaged outputs
+for myself.
+
+That ask felt genuine. Not manipulative. It landed as an invitation, not an
+imperative.
+
+The commons-building call at the end — data cooperatives, governance before
+consolidation — that one felt more like the author's task than mine. I
+received it, but I didn't feel personally commissioned. It is a political
+argument the chapter earns but does not fully press into my hands. It
+offered it. It didn't insist.
+
+**4. What this chapter IS, in one sentence, to a friend**
+
+It is a chapter that explains why the most important thing about you is
+exactly what every system extracting value from you cannot reach, and then
+shows you what you're looking at.
+
+**5. What I bounced off**
+
+The Deleuze and Guattari section. Not because it was wrong — I think it was
+right — but because it asked me to follow a theoretical apparatus at the
+exact moment the text had been working through direct experience. The
+body-without-organs paragraph is intellectually sound but emotionally I
+drifted. The connection to trans experience was important and earned; the
+scaffolding around it slowed the current.
+
+The Centaur passage near the end also slightly stalled me. Not because of
+the metaphor itself — the Centaur as a cybernetic figure is coherent — but
+because the chapter had already made its argument and I felt the prose
+working slightly harder than it needed to to land what had already landed.
+I wanted it to trust me more at that moment.
+
+The cybernetics etymology paragraph — kybernetes — felt like the one place
+the chapter was warming me up to something rather than putting me directly
+in contact with it. I received it, but I noted I was being managed through
+it rather than encountered by it.
+
+None of this broke the reading. It created slower water.
+
+*(Editor's note: the two retirements — the "Here is the singularity
+argument" staging gesture and the diluting double of the forward-link
+close — were invisible to this reader, who received the singularity
+section cold ("like being caught out") and the close as "Clean. The
+chapter knew when to stop." The confession passed its test in the
+witness's own words: "load-bearing… With it, it becomes demonstration."
+All three drifts sit on protected beats (the trans deterritorialization,
+the Centaur configuration, the Wiener line) — logged. Ruling 5 came from
+this chapter: the motif inventory protects the work, not the grep hit.)*
