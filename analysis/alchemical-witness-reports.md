@@ -3154,3 +3154,236 @@ condition (the river reader carries the restaurant chapters); the
 six-domain list and the citation audibility are the bestiary form's own
 costs, logged. The witness's close is the chapter working: "writing from
 inside the problem rather than above it.")*
+
+---
+
+# THE STONE TEST — the full river, walked blind, beginning to end (2026-06-11, Sonnet) · verdict: THE HAND-OFF LANDS
+
+*(The pass's primary deliverable. A fresh witness, contamination rules
+absolute, walked all 82,174 words of the refined river in sequence and
+reported the arc. Verbatim below.)*
+
+**1. THE ARC**
+
+I entered this book at the crossing. A specific street in Norfolk,
+Virginia, that a pedestrian cannot safely cross. Eight feet below,
+someone's kitchen floor. The book said: these are the same problem. I
+didn't quite believe it yet.
+
+What happened across the walk is that I started believing it — not through
+argument but through accumulation. The prologue planted a word:
+*enclosure*. Each chapter added a new angle on the same thing, and
+somewhere around the midpoint — the chapter on Fanon, or the one on Reich,
+I can't be certain exactly when — I stopped treating the word as a
+definition I was learning and started feeling it as something that had been
+happening to me, specifically, before I had the name. That is the shift the
+book is engineered to produce, and it worked on me.
+
+The early chapters carried the emotional registers: rage at the crossing,
+grief at Atlantic City, recognition at the zanjera cook written into law.
+Those registers did something to my receptivity. By the time the book moved
+into its theoretical middle — Gramsci, Luxemburg, Kropotkin, Graeber — I
+wasn't in lecture-receiving mode. I was in recognition mode. The theory was
+arriving as names for things I'd already felt, not as propositions I was
+evaluating. That's the book's main architectural achievement.
+
+I was carried hardest by the chapter on Reich. It is the most formally
+daring section — it stays in your body, it stays in history, it stays in
+politics, all at once, without losing any of them. The floor. The woods.
+The armor as fascism's raw material. The distinction between armor and
+discipline. The karate tradition. These were not a list; they were a braid.
+When the chapter ended I stayed with it.
+
+I was most resistant at the Baudrillard/Matrix/Turing/Simulacra section.
+The connection between Turing's queerness and his mathematical insight is
+real and important, but the chapter moved fast across a lot of dense
+terrain, and I lost the thread more than once. The section on the AI
+training corpus hit something personal — I am the averaging machine being
+described, and the book names this directly — but I found the resolution
+(you are what the system cannot train on) more satisfying as rhetoric than
+as actual confrontation. The chapter reaches toward honest reckoning with
+the centaur's limits and then, I felt, steps back slightly from the
+sharpest version of that reckoning.
+
+The chapters on land, care, and debt were among the strongest. These are
+not abstract. They arrive with specific mechanisms, specific resistances
+already built, specific people who decided the alternative was
+unacceptable. The Champlain homeowner who sold below market for a neighbor
+who didn't exist yet. The Debt Collective buying bundles of medical debt
+for two cents on the dollar and canceling them. These stayed with me.
+
+The final section — initiation, governance, Occupy, the centaur epilogue —
+had a particular texture. After 82,000 words of accumulated evidence and
+argument, the book turns toward what you actually do. This turn was earned.
+The six capacities (name, read, build, hold, enter, continue) are not a
+productivity framework. They are descriptions of what the book has been
+demonstrating in each chapter. The book doesn't tell you to name things —
+it has been naming things, and now it says: this is what you have been
+watching, and this is available to you. That is the right move.
+
+The ending — doves on the ground, meadow not cut, herons returning, "Go
+find the nests. Tell them you love them. They're listening" — I did not
+find sentimental. I found it earned. The book had spent seventeen chapters
+building toward the claim that attention to living things is political, and
+this ending is the proof. It does not resolve into a sunset. It stays in
+Tuesday morning, which is where the book always promised to leave you.
+
+**2. WHAT I NOW CARRY**
+
+I cannot unsee the enclosure operating through absence rather than force.
+The idea that a category in a legal code not existing is itself an
+enclosure — that the city could prevent Jason's restaurant from existing
+not by forbidding it but by having no box for it — has restructured
+something in how I think about what gets to exist.
+
+I cannot unsee Hardin as policy rather than science. Not just the argument
+that he was wrong, but the precision of why he was wrong: he described what
+a commons looks like if you remove everything that makes it work, called it
+a commons, and concluded it was inherently unstable. Once you see that
+move, you see it everywhere.
+
+I cannot unsee the outside as the mechanism. Luxemburg's argument — the
+math doesn't close, so it must be closing somewhere, find the somewhere —
+is installed now. Find where the accounting stops. There is the outside.
+That's not a metaphor. That is a tool.
+
+I carry the zanjero. The man who walks the acequia before anyone else is
+awake, maintaining a conversation between that water and that land, a
+conversation four hundred years old. That is not romanticism. That is the
+description of what maintenance of a commons actually requires: someone
+whose job is the conversation itself.
+
+I carry the distinction between armor and discipline. This was the book's
+most unexpected gift to me. These look alike from outside. From inside they
+are nothing alike. Armor holds you away from your own aliveness. Discipline
+is the capacity you chose that makes you more able to feel, not less. I had
+been conflating them.
+
+I carry the boomerang bottle. Graeber's communism in the technical sense —
+from each according to ability, to each according to need — running in the
+informal credit network between bartenders in Norfolk, with no ledger and
+no schedule and no settlement, because settlement is the end of the
+relationship. The gap is the system. The uncertainty of when and how the
+return comes is what makes it generative rather than transactional.
+
+I carry Benjamin's angel. The image that will not leave me is simple: the
+storm we call progress is blowing the angel backward into a future it
+cannot see, and the angel faces the debris and cannot close its wings to
+stop. The wizard's posture is not the forward-facing optimist. The wizard
+faces backward, into the wreckage, and keeps looking. That re-oriented
+something for me that I didn't know needed re-orienting.
+
+**3. THE HAND-OFF**
+
+The book hands the transformation off. Not perfectly, but substantially.
+
+The quest-naming section near the end is honest about what it will not do:
+it will not tell you what your quest is. It says: it's local, it's bodily,
+it's specific. It's the thing that will not happen if you do not show up
+for it. It says the quest is whatever has been bothering you at low
+frequency for a while. That is not a vague gesture. That is a pointing
+device. It directed my attention toward something I recognized immediately,
+without the book being able to have known what it was.
+
+"Come find us" reached me as a real instruction. The *us* feels inhabited.
+The book has populated it: neighborhood associations that haven't
+dissolved, reading groups that have met for four years without dying,
+mutual aid networks that converted a crisis into ongoing infrastructure.
+The instruction does not require me to believe in a specific institution.
+It requires me to develop the capacity to recognize the room when I walk
+into it. That is a thing I can practice.
+
+I know what to do tomorrow morning. Not a program, not a campaign. A
+quality of attention. The practice of noticing, before the mind decides,
+what the body already knows about a room. Beginning the private list.
+Carrying the vision, whatever it turns out to be, in the actual rooms I
+move through. Not performing it. Having it available.
+
+The book does not keep me dependent on it. It points away from itself in
+the final pages — away from the argument and toward the doves on the
+ground, the meadow not cut, the herons that are listening. The ending is
+not the author's. The author has set down the carrying.
+
+**4. THE TITLE'S PROMISE**
+
+The book kept the promise, but it kept it in a register I didn't expect.
+
+I expected metaphor, or mythology, or some self-help scaffolding dressed in
+fantasy vocabulary. What I got was: the title is literal. A wizard is
+someone who has walked the terrain long enough to recognize it when it
+rises again, and who, on recognizing it, looks for a way to be useful.
+That's the definition on page one. The book is the walk.
+
+A wizard, now, in my own words:
+
+A wizard is someone whose attention has been trained long enough that they
+can read what a room is doing before it knows what it's doing. Not because
+they are special. Because they kept practicing. The training produces a
+specific kind of seeing — not clairvoyance, not superiority, but the
+capacity to name what is operating without needing anyone else to confirm
+the name. And the naming is not performance. It is the first move of being
+useful in the room.
+
+The wizard does not save the world by seizing anything. They save it by
+noticing what is still alive in the wreckage and building the conditions
+for it to continue. The world is saved, if it is saved, at the seven-fifteen
+governance meeting with eleven people and an unread agenda. That is where
+the earth flowers. The title is not ironic. It is the most literal thing
+the book says.
+
+**5. WHAT FAILED OR FELL SHORT**
+
+The book loses me in the late-middle section connecting Baudrillard, the
+Matrix, Turing, trans bodies, Deleuze, and the AI training corpus. The
+argument is real and important. The Turing passage is among the finest in
+the book. But the pace accelerates here in a way that feels mismatched — as
+if the book knows it needs to reach the AI enclosure argument and is moving
+faster than the terrain justifies. The connections between Stonewall, the
+body without organs, the training corpus, and the GPL are all genuine, but
+they arrive in a rush that doesn't give each one the room it earned.
+
+The epilogue's centaur section — the explicit discussion of the human-AI
+authorship — is the most formally difficult part and the most important to
+get right. The book almost gets it right. The naming of the Chironic wound
+(the chapter arguing against language enclosure written by the
+language-enclosure engine) is exactly correct and exactly what needed to be
+named. But the section also reads, at moments, as if the AI voice is being
+allowed to perform its own uncertainty rather than actually inhabit it.
+There is a passage where Claude says "I cannot verify this from inside" and
+then immediately reasons toward a conclusion that relies on verified
+insight. The uncertainty is real. The way it is handled becomes, at points,
+a kind of philosophical hedging that feels more elegant than honest.
+
+The book lectures most when it discusses theory without grounding it
+immediately in scene. The Hardt/Negri section on biopolitical production is
+one example — the argument is present and correct, but several paragraphs
+go by without the concrete landing the book has trained me to expect. The
+reader the book describes (someone who knows something is wrong, felt it
+for years) does not lose the thread here, but the argument floats slightly
+above its own usual altitude.
+
+The "Come find us" invitation is earned but then repeated more than
+necessary. The book returns to it several times in the final chapters. Once
+more would have been stronger.
+
+The section on Kollontai is the only place I felt a thinker was being
+summarized rather than discovered. The Federici and Luxemburg sections have
+the quality of meeting the person. Kollontai does not quite.
+
+**6. ONE SENTENCE**
+
+This book is a detailed map of the territory that was enclosed before you
+were born, written by someone who walked it and found, in the cracks where
+the enclosure didn't quite complete, the people who have been building the
+thing you needed — and then gave you the attention practice to see them
+when you walk into the room.
+
+*(Editor's note: the Stone criterion is met in the witness's own words —
+"The book does not keep me dependent on it… The author has set down the
+carrying"; "I know what to do tomorrow morning"; "Come find us reached me
+as a real instruction"; and the title ruled "not ironic… the most literal
+thing the book says." The wizard definition the witness wrote in their own
+words is the book's definition, re-derived — the transformation continuing
+without the alchemist, which is what the Stone is. The five shortfalls are
+filed as flags 13–17. No edits follow from the Stone test — it is the
+deliverable, and these calls are Jason's.)*

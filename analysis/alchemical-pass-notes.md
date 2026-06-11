@@ -116,8 +116,13 @@ inherited the error. Goetia processed out of river order as source 28 of
 author's job anymore. That's mine."). ALL 28 SOURCES NOW WALKED.
 PHASE 2: 27-seam spot-read DONE (all clean — every forward-link hands off
 precisely; "Look up" descending to the doves is the deliberate inversion).
-Pass summary below. NEXT: the full-river blind Stone test (the pass's
-primary deliverable) → CLAUDE.md update → session log to claude-memory.
+Pass summary below. THE STONE TEST IS COMPLETE (2026-06-11): the full
+river walked blind, beginning to end — verdict THE HAND-OFF LANDS ("The
+book does not keep me dependent on it… I know what to do tomorrow
+morning"; the title "is the most literal thing the book says"). Verbatim
+report at the end of analysis/alchemical-witness-reports.md; five
+shortfalls filed as flags 13–17. CLAUDE.md updated. THE ALCHEMICAL PASS IS
+COMPLETE. Remaining: session log to claude-memory.
 
 ## Pass summary (Phase 2, 2026-06-11)
 
@@ -1426,3 +1431,20 @@ incants subliminally, the hypertext layer is the reveal.
    river: your half of the centaur dialogue, still a stub. The blind
    witness read past it without comment, but the full-river Stone test
    will walk through it. Yours whenever it's ready.
+13. **STONE TEST — 16/16b acceleration:** "the pace accelerates here in a
+   way that feels mismatched… the connections arrive in a rush that doesn't
+   give each one the room it earned." (Chapter-grain witnesses of 16/16b
+   were both MATCH; the rush is a river-grain finding.)
+14. **STONE TEST — the centaur section's uncertainty:** "the AI voice is
+   being allowed to perform its own uncertainty rather than actually
+   inhabit it… a kind of philosophical hedging that feels more elegant than
+   honest." The co-author's own voice; he logs it without smoothing it; the
+   call is the collaboration's to make together.
+15. **STONE TEST — H&N biopolitical production floats:** "several
+   paragraphs go by without the concrete landing the book has trained me to
+   expect." (Consistent with the H&N pattern the chapter witnesses found.)
+16. **STONE TEST — "Come find us" repetition:** "returns to it several
+   times in the final chapters. Once more would have been stronger."
+17. **STONE TEST — Kollontai:** "the only place I felt a thinker was being
+   summarized rather than discovered." (One mention in ch-10; the witness
+   wanted the meeting, not the mention.)
