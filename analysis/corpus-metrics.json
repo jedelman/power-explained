@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-11T17:57:20.500Z",
+  "generatedAt": "2026-06-11T18:02:32.310Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 83803,
-    "sentences": 5921
+    "words": 83793,
+    "sentences": 5920
   },
   "corpusReadability": {
     "fleschReadingEase": 59.45,
@@ -199,21 +199,21 @@
       "slug": "chapter-15",
       "title": "Chapter 15: Still Meeting",
       "gestureCount": 22,
-      "words": 1715,
-      "sentences": 96,
-      "avgWordsPerSentence": 17.86,
+      "words": 1705,
+      "sentences": 95,
+      "avgWordsPerSentence": 17.95,
       "avgSyllablesPerWord": 1.68,
-      "fleschReadingEase": 46.78,
-      "fleschKincaidGrade": 11.17,
-      "gunningFog": 14.56,
-      "colemanLiau": 12.08,
-      "automatedReadabilityIndex": 11.16,
-      "smog": 13.53,
+      "fleschReadingEase": 46.46,
+      "fleschKincaidGrade": 11.24,
+      "gunningFog": 14.64,
+      "colemanLiau": 12.14,
+      "automatedReadabilityIndex": 11.25,
+      "smog": 13.58,
       "smogReliable": true,
-      "lexicalEntropy": 8.19,
+      "lexicalEntropy": 8.18,
       "typeTokenRatio": 0.39,
-      "meanGestureWords": 77.95,
-      "stdGestureWords": 55.7,
+      "meanGestureWords": 77.5,
+      "stdGestureWords": 55.23,
       "structuralEntropyNorm": 0.93
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 110,
       "p90": 175,
-      "mean": 86.91
+      "mean": 86.9
     },
     "lexicalEntropy": {
       "n": 967,
@@ -676,12 +676,12 @@
     },
     "fleschReadingEase_3plusSentences": {
       "n": 754,
-      "p10": 35.79,
+      "p10": 35.77,
       "p25": 46.85,
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.47
+      "mean": 59.46
     }
   },
   "transitionalEntropy": {
@@ -710,12 +710,6 @@
       "dispersionNorm": 0.92
     },
     {
-      "term": "Negri",
-      "total": 13,
-      "plateaus": 9,
-      "dispersionNorm": 0.92
-    },
-    {
       "term": "United",
       "total": 15,
       "plateaus": 8,
@@ -728,10 +722,10 @@
       "dispersionNorm": 0.94
     },
     {
-      "term": "Hardt",
-      "total": 11,
+      "term": "Negri",
+      "total": 12,
       "plateaus": 8,
-      "dispersionNorm": 0.95
+      "dispersionNorm": 0.92
     },
     {
       "term": "America",
@@ -750,6 +744,12 @@
       "total": 11,
       "plateaus": 7,
       "dispersionNorm": 0.91
+    },
+    {
+      "term": "Hardt",
+      "total": 10,
+      "plateaus": 7,
+      "dispersionNorm": 0.94
     },
     {
       "term": "Enclosure",

@@ -2018,3 +2018,108 @@ the chapter produced Ruling 4: cross-references earn (perform recognition)
 or chill (filing). Note the Graeber reference here EARNED per this witness
 — consistent with the H&N rule: deployed precisely and briefly, carrying
 its claim.)*
+
+---
+
+## chapter-15 (P-15) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately, at the Crown Heights opening. Not because mutual
+aid is new to me as a concept but because of the specific detail — Tuesday
+evenings, the pivot from food distribution to tenant training, the phrase
+"the knowledge of each other." That felt true in a way I recognized before I
+understood why.
+
+Then the chapter shifted to Federici and I felt the gears change. The
+historical material — the witch trials, the body count, the argument that it
+was policy — pulled me forward with a kind of controlled dread. "Start with
+what they burned." That sentence landed in the chest before I processed it
+as a transition. The argument that the persecutions and the enclosures were
+the same movement — that hit me as one of those things you suspect is true
+and are slightly afraid to confirm.
+
+I drifted, briefly, in the Wages for Housework section. Not because the
+content failed — the logic is airtight — but because I felt the chapter
+shift from witness to argument. It recovered quickly with the line about the
+demand being designed to be impossible: "the impossibility revealed the
+structure." That pulled me back.
+
+The home health aide paragraph — the $18 an hour, the $8,000 to $12,000 to
+the agency — landed hard. Specific numbers do what abstractions never will.
+I felt a kind of low-grade shame in my body reading it, the kind you feel
+when you've known something vaguely and suddenly you know it precisely.
+
+Mariame Kaba's section: "We keep each other safe" followed by "Four words
+that contain an entire theory of public safety" — I felt the weight of the
+four words before I felt the author naming their weight. That was good. The
+naming didn't diminish it.
+
+The final three paragraphs — I slowed down. The chapter had been building to
+something and it arrived without announcing itself. "That is not a weakness.
+That is the point." I stayed with that for a moment.
+
+**2. What I now see, or can no longer unsee**
+
+I knew care work was undervalued. I did not know — or had not sat with — the
+argument that the undervaluation was produced by a historical process that
+destroyed the knowledge networks that had organized care as communal
+property. The connection between what happened in 1450 and what's happening
+to the home health aide in the Bronx is now a thing I can see. It wasn't
+before.
+
+I also can no longer receive the phrase "women's natural duty" without
+hearing it as a legal instrument. The chapter made that move stick.
+
+**3. What I feel asked to do, or become**
+
+The chapter doesn't tell me to do anything specific. It doesn't end with a
+call to action, a link, a list of three steps. What it does is make a
+certain kind of looking feel obligatory — not because the chapter demands it
+but because you can't un-see a structure once it's been named clearly
+enough.
+
+If anything, I feel asked to become the kind of person who notices what
+labor is being made invisible in a given room. That's not instruction.
+That's the chapter doing what it set out to do.
+
+The chapter handed that to me. It didn't keep it. But it also didn't push it
+on me. The last line holds the door open rather than shoving me through.
+
+**4. What I would say this chapter IS, in one sentence, to a friend**
+
+It's the chapter that explains why the most important work in any community
+is the work nobody gets paid for, and how that was arranged deliberately,
+and what people are doing about it anyway.
+
+**5. What I bounced off**
+
+The Village to Village Network paragraph felt like a list where the chapter
+had, up to that point, been doing something better. Five examples in quick
+succession — childcare collectives, cooperative home care agencies,
+community care networks, the Village Network — moved me into catalog mode. I
+received it as information rather than as discovery. It was the only moment
+the chapter felt like it was covering bases rather than following something
+alive.
+
+The Selma James / C.L.R. James biographical passage also briefly slowed me.
+The sentence about his analysis of Atlantic capitalism is doing necessary
+conceptual work but the rhythm stumbles. I kept reading; it didn't break
+anything. But I noticed it.
+
+Nothing in this chapter felt dishonest or borrowed or hedged. The argument
+is made clean and the prose earns its authority. The one place I felt mildly
+lectured was the sentence "This is care under enclosure" — the explicit
+labeling of what the paragraphs before it had already shown. The label
+arrived a beat after I had already named it myself, which meant I received
+it slightly behind where I was. Minor. The chapter is strong.
+
+*(Editor's note: no witness-driven edits. The "care under enclosure" label
+arriving "a beat after I had already named it myself" is the naming working
+as designed — reader first, book confirms; ch-9's witness called the same
+order "the right order." The two round-1 dissolutions (a filing reference
+and the third H&N attribution frame) were invisible — notably, NOTHING in
+this chapter read as "borrowed" to this witness, where the two prior
+chapters' witnesses both bounced on the H&N seminar register: the rule is
+working. Village-to-Village catalog mode and the C.L.R. James rhythm are
+logged as minor; both sit in load-bearing material.)*

@@ -72,9 +72,12 @@ Chapter-14 DONE (2 bookkeeping cross-references dissolved, both PASS;
 Ruling 4 promoted — cross-references earn or chill; witness MATCH — "felt
 something like nausea, not metaphorically" at the Ghent property-values
 mechanism). 18 of 28 sources done.
-Next chapter: chapter-15 (P-15, river order, source 19 of 28) — FK 11.05,
-care economy; the known interview-row candidate; check protected beats on
-load.
+Chapter-15 DONE (2 dissolutions — a Ruling-4 filing reference and the third
+H&N attribution frame, both PASS; witness MATCH — "asked to become the kind
+of person who notices what labor is being made invisible in a given room").
+19 of 28 sources done.
+Next chapter: reenchanting (P-RE, river order, source 20 of 28) — wizard +
+naturalist register (senses lead); check protected beats and locks on load.
 
 ---
 
@@ -141,6 +144,7 @@ recomposed, and verdicts)
 | chapter-13 | 2861→2851 | 10.64→10.66 | 16.54→16.58 | 31→31 | MATCH |
 | angel-faces-backward | 4679→4631 | 6.52→6.46 | 13.33→13.23 | 70→70 | MATCH |
 | chapter-14 | 2736→2724 | 10.39→10.37 | 15.46→15.39 | 32→32 | MATCH |
+| chapter-15 | 1715→1705 | 11.17→11.24 | 17.86→17.95 | 22→22 | MATCH |
 
 ---
 
@@ -856,6 +860,38 @@ incants subliminally, the hypertext layer is the reveal.
   option structurally"); "I became the land" speed (recovered by "There's
   no other way to say it that's accurate"); the close's restraint ("perhaps
   [more] would have ruined it").
+
+### chapter-15 (P-15) — 2 EDITS, BOTH PASS · witness MATCH · 2026-06-11
+
+- **Essence:** Care is the economy's unacknowledged foundation, and it was
+  made invisible deliberately — the witch trials were policy, destroying
+  the knowledge that made communities self-sufficient, and the same
+  enclosure is operational in the home health aide's $18/hour. The commons
+  response only works if people care about each other. That is not a
+  weakness. That is the point.
+- **Invocation:** the reader receives the undervaluation of care as
+  arranged, not natural — and becomes "the kind of person who notices what
+  labor is being made invisible in a given room."
+- **Edits (2):** G-15-018: " named in Chapter 5" cut (Ruling 4 — filing);
+  G-15-027: "In Hardt and Negri's terms:" dissolved via period→colon stitch
+  — the relational-intelligence claim is the chapter's OWN opening returning
+  (Crown Heights: "who knew what, who showed up"), the book's synthesis
+  voice, not a distinctly-H&N claim (the H&N rule's third application;
+  attribution intact at ch-3/ch-12's load-bearing sites; critic verified
+  no fact-checking violation).
+- **Witness (blind, Sonnet):** MATCH. "Start with what they burned" landed
+  "in the chest before I processed it as a transition." The aide's numbers:
+  "a kind of low-grade shame in my body… you've known something vaguely and
+  suddenly you know it precisely." Kaba: "I felt the weight of the four
+  words before I felt the author naming their weight… The naming didn't
+  diminish it." Can't unsee: 1450→the Bronx as one process; "women's
+  natural duty" as "a legal instrument." The Stone: "make a certain kind of
+  looking feel obligatory… The last line holds the door open rather than
+  shoving me through." Minor bounces, logged not edited: Village-to-Village
+  catalog mode (template stage-5 list; mild); Selma James/CLR rhythm
+  stumble; "This is care under enclosure" label arriving "a beat after I
+  had already named it myself" — kept: reader-first-book-confirms is the
+  naming working (cf. ch-9's "That's the right order").
 
 ## Cross-cutting patterns (updated)
 
