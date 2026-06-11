@@ -1261,3 +1261,134 @@ working as designed — the witness suspected as much. Note for the
 cross-cutting log: hegemony theory WARMED this witness ("I had already felt
 it. That's the right order") — the reflex-first delivery is the
 theory-section fix working without an image.)*
+
+---
+
+## chapter-10 (P-10) — witnessed 2026-06-11 (post-refinement; its report prompted the collect cut, Sonnet) · verdict MATCH
+
+**1. Where I leaned in, where I drifted, where something landed in the body
+before the mind.**
+
+I leaned in immediately at the birds. That detail — Luxemburg in prison,
+naming birds, feeding them through the bars while simultaneously predicting
+the failure of a revolution she loved — did something before I processed it
+as a rhetorical choice. It placed her in the body, in time, in a specific
+sensory world. And then the gap: she was right about Lenin, right about the
+revolution, killed five months after writing it, never wrong about anything
+because she didn't live long enough. That sequence landed hard. Not as
+information. As grief.
+
+I leaned in again at the sentence from her manuscript — *freedom is always
+and exclusively freedom for the one who thinks differently* — and felt the
+weight of a sentence that has outlasted the people who tried to disprove it.
+
+The Spain section pulled me fully forward. Something about the Barcelona
+trams specifically. The flatness of it: workers took over the trams and kept
+them running. Fares reduced to a flat rate anyone could afford. That is not
+an abstraction. That is a sentence about what people did on a specific
+Tuesday when they decided to. The move from "workers took over" to "fares
+reduced" is the whole argument in two clauses. I felt that in my chest.
+
+The Kronstadt moment hit without warning. Lenin killing the people who made
+the revolution. That's when the chapter stopped being history and became a
+diagnosis. Not Stalin — Lenin. At the height of his legitimacy. I had to sit
+with that.
+
+I drifted slightly in the long analytical paragraph beginning "Centralized
+revolutionary organizations are capture mechanisms" — not because it's
+wrong, but because it summarizes what the chapter had already demonstrated.
+I had already understood. Being told what I'd understood interrupted the
+understanding.
+
+I came back fully at the restaurant section. The personal turn did something
+the historical record couldn't: it made the theory into something someone
+had walked into, had lost something through. "The contract is a boundary
+that produces exactly the relationship it describes" landed with the
+particular weight of a sentence earned by experience.
+
+**2. What I now see that I can no longer unsee.**
+
+The means are the ends. Every time.
+
+I have heard versions of this. I had not felt it as a structural fact
+before. The chapter doesn't argue this — it demonstrates it with three cases
+across forty years. By the time the sentence appears on the page, it has
+already been proved. What I can no longer unsee is the architecture: that
+the form of the organization is not a container for a vision, it *is* the
+vision. A vanguard party that claims to want distributed power builds a
+centralized state because it cannot do otherwise. This is not tragedy. It is
+engineering.
+
+I also cannot unsee the specific way the distributed tradition was
+suppressed — not because it failed, but because it succeeded. The Kronstadt
+sailors, the Barcelona collectives, the Turin councils: all destroyed not by
+their enemies but by their ostensible allies, because the evidence of their
+success threatened the party's claim to necessity. The suppression was the
+proof. That inversion is now permanent in how I see this history.
+
+**3. What I feel asked to do, or become. Is it yours to do, or the
+author's? Did the chapter hand it to you or keep it?**
+
+The chapter hands it over. Explicitly, at the end: "This is source, not
+instructions. Whether it's received that way is bigger than me." That is the
+author naming the gesture and stepping back from it.
+
+But what the chapter actually asks of me — what it deposited without
+announcing — is quieter than a call to action. It asked me to locate myself
+in a tradition I didn't know I was already in. The open source reference,
+the GPL, the Linux kernel: these are not metaphors. They are the same
+architecture. Reading that, I felt something like recognition. Not "I should
+do something about this" but "I have been part of this. I just didn't have
+the political vocabulary for it."
+
+So what I feel asked to do is: hold the architecture. Recognize it when I
+see it. Build it when the conditions allow. Not lead. Not capture.
+Contribute and release.
+
+Whether that is mine to do — yes. The chapter placed it in my hands. It made
+the understanding available rather than giving instructions, and then named
+that move, which made the naming itself a demonstration of the argument.
+
+**4. What this chapter IS, in one sentence, to a friend.**
+
+It is the chapter that explains why every revolution that has ever won has
+eaten itself — and why the people who knew this in advance, who built
+something different with their actual hands and bodies, are still right and
+still building.
+
+**5. What I bounced off, felt lectured by, doubted, or wanted to skip.**
+
+The paragraph beginning "Centralized revolutionary organizations are capture
+mechanisms" is the one place the chapter tells me what I already know. It is
+the chapter lecturing me after it has already taught me. I didn't want to
+skip it — I understood why it was there — but I felt the register shift. The
+analytical summary dropped me out of the witness state I had been in and
+made me a student being given notes. It recovers immediately in the
+restaurant section, but the interruption was real.
+
+The final paragraph, where the author makes the "I am an open source
+developer" move, is almost too much — it risks becoming the kind of
+universal resolution that the chapter has spent ninety lines teaching me to
+distrust. The Luxemburg comparison is audacious. It works, but only because
+the author catches it and releases it: "This is source, not instructions."
+Without that self-aware step back, I would have bounced hard. With it, I
+trusted it.
+
+One thing I doubted: "She did not live to be wrong about anything." This is
+beautiful. I also felt it was a little too clean — a sentence that might be
+doing some rhetorical work that history wouldn't fully support. I believed
+it in the moment and then noticed I had believed it, which is a different
+thing. It stayed in my body as true even after my mind registered the
+caveat. I note this not as a flaw but as a place where the writing was
+working harder than the evidence.
+
+*(Editor's note: the one chill was acted on — the two summary sentences
+after "Centralized revolutionary organizations are capture mechanisms."
+were cut whole; the bare claim now stands as a demonstrated conclusion and
+the round-2 Opus critic ruled the lost "because it's wrong" beat had been
+working AGAINST the chapter's own not-a-moral-claim turn. The earlier
+round-1 cuts (the "tension I want to name before we leave this chapter"
+announcement and a near-verbatim intra-gesture repetition) were invisible
+to this reader — the reflexive close they cleared was received exactly as
+intended: "made the naming itself a demonstration of the argument." The
+"did not live to be wrong" doubt is logged as a Jason flag, untouched.)*

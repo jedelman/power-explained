@@ -48,9 +48,13 @@ Chapter-9 DONE (5 dissolutions incl. the retirement of G-09-017 and a
 witness-driven explained-twice cut, all PASS; witness MATCH — "I stopped
 being a reader and became something closer to a witness to my own prior
 states"). 12 of 28 sources done.
-Next chapter: chapter-10 (P-10, river order, source 13 of 28) — protected:
-forward-link close G-10-042; singularity motif G-10-009; the
-buried-because-threatening chiasm G-10-040. No beauty locks, no threads.
+Chapter-10 DONE (3 dissolutions incl. a witness-driven summary cut at the
+capture-mechanisms collect, all PASS; witness MATCH — "hold the
+architecture… The chapter placed it in my hands"). 13 of 28 sources done.
+Next chapter: chapter-11 (P-11, river order, source 14 of 28) — protected:
+G-11-017 Evocation school-naming + G-11-037 necromancy naming + forward-link
+close G-11-039; Atlantic City motif G-11-020; singularity G-11-018;
+evocation-thread members G-11-016/017/018. FK 11.50 — densest remaining.
 
 ---
 
@@ -111,6 +115,7 @@ recomposed, and verdicts)
 | chapter-8 | 2607→2580 | 10.92→10.81 | 16.19→16.23 | 22→22 | MATCH |
 | orgone-accumulator | 7492→7464 | 8.80→8.79 | 20.14→20.12 | 24→24 | MATCH |
 | chapter-9 | 2444→2339 | 8.89→8.83 | 14.72→14.62 | 29→28 | MATCH |
+| chapter-10 | 2679→2579 | 10.47→10.34 | 14.80→14.49 | 32→32 | MATCH |
 
 ---
 
@@ -604,6 +609,48 @@ incants subliminally, the hypertext layer is the reveal.
   close felt "as a promise rather than a landing… may be intentional" —
   it is (protected forward-link), no action.
 
+### chapter-10 (P-10) — 3 EDITS, ALL PASS · witness MATCH · 2026-06-11
+
+- **Essence:** Luxemburg named the architecture: the vanguard doesn't lead
+  the class, it substitutes for it, and substitution is domination with good
+  intentions — the party ate the soviets, then ate Catalonia, because the
+  distributed commons demonstrated the vanguard was unnecessary. The means
+  are the ends, every time; her essay, written from a cell and proved right
+  for thirty-five years, is source, not instructions.
+- **Invocation:** the reader receives the architectural seeing — form
+  determines what the movement builds — and is located inside the
+  distributed tradition without being directed ("source, not
+  instructions"): hold the architecture, recognize it, build it when
+  conditions allow.
+- **Edits (3):** (1) G-10-042: meta-announcement "There is a tension I want
+  to name before we leave this chapter." cut — the reflexive close now opens
+  cold on "A book that argues against vanguardism… is still a person
+  standing up to explain the thing." (2) G-10-042: the appositive "writing
+  the analysis that would outlast the people who imprisoned her" cut —
+  near-verbatim intra-gesture repetition of paragraph 1. (3) G-10-028,
+  witness-driven: the two summary sentences after "Centralized revolutionary
+  organizations are capture mechanisms." cut — "lecturing me after it has
+  already taught me"; the bare claim now stands as demonstrated conclusion;
+  the gradient/coercion content carried by the skin-in-the-game paragraph
+  ("The intelligence drained out. Coercion filled the gap."); round-2 critic
+  PASS, incl. ruling that the lost "because it's wrong" beat worked AGAINST
+  the chapter's own architectural turn. Restraint upheld by critic on three
+  kept candidates (the understood-this anaphora = earned escalation; the
+  Breslau-letters evaluation = antecedent for "between the letters"; "not a
+  moral claim / architectural claim" = the essence's own hinge).
+- **Witness (blind, Sonnet):** MATCH. The birds → grief ("Not as
+  information. As grief."); Barcelona trams: "the move from 'workers took
+  over' to 'fares reduced' is the whole argument in two clauses. I felt
+  that in my chest." Can't unsee: "The means are the ends… it has already
+  been proved"; "destroyed not by their enemies but by their ostensible
+  allies… The suppression was the proof." The Stone, explicitly received:
+  "hold the architecture. Recognize it when I see it. Build it when the
+  conditions allow. Not lead. Not capture. Contribute and release… The
+  chapter placed it in my hands" — and the reflexive close validated:
+  "made the naming itself a demonstration of the argument." Flags: "She did
+  not live to be wrong about anything" — "the writing working harder than
+  the evidence" (logged, Jason's line, minor).
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -683,3 +730,8 @@ incants subliminally, the hypertext layer is the reveal.
 8. **The-colony "deprogramming" line** — that witness's one slip-flag
    ("witness to performance… it recovered immediately"); your first-person
    voice, untouched.
+9. **Ch-10 "She did not live to be wrong about anything"** — the witness:
+   "beautiful… a little too clean — a sentence that might be doing some
+   rhetorical work that history wouldn't fully support… I note this not as
+   a flaw but as a place where the writing was working harder than the
+   evidence." Untouched; your line, your call.

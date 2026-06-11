@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-11T17:24:40.770Z",
+  "generatedAt": "2026-06-11T17:31:56.728Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 84028,
-    "sentences": 5928
+    "words": 83928,
+    "sentences": 5925
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.42,
+    "fleschReadingEase": 59.45,
     "fleschKincaidGrade": 8.49,
-    "gunningFog": 11.91,
+    "gunningFog": 11.9,
     "smog": 11.62,
-    "colemanLiau": 9.79,
-    "automatedReadabilityIndex": 7.83,
+    "colemanLiau": 9.78,
+    "automatedReadabilityIndex": 7.82,
     "avgWordsPerSentence": 14.17,
     "avgSyllablesPerWord": 1.57
   },
@@ -89,22 +89,22 @@
       "slug": "chapter-10",
       "title": "Chapter 10: The Birds She Fed Through the Bars",
       "gestureCount": 32,
-      "words": 2679,
-      "sentences": 181,
-      "avgWordsPerSentence": 14.8,
+      "words": 2579,
+      "sentences": 178,
+      "avgWordsPerSentence": 14.49,
       "avgSyllablesPerWord": 1.72,
-      "fleschReadingEase": 46.36,
-      "fleschKincaidGrade": 10.47,
-      "gunningFog": 13.89,
-      "colemanLiau": 12.21,
-      "automatedReadabilityIndex": 10.01,
-      "smog": 12.94,
+      "fleschReadingEase": 46.71,
+      "fleschKincaidGrade": 10.34,
+      "gunningFog": 13.77,
+      "colemanLiau": 12.1,
+      "automatedReadabilityIndex": 9.8,
+      "smog": 12.84,
       "smogReliable": true,
-      "lexicalEntropy": 8.25,
-      "typeTokenRatio": 0.33,
-      "meanGestureWords": 83.72,
-      "stdGestureWords": 62.77,
-      "structuralEntropyNorm": 0.92
+      "lexicalEntropy": 8.23,
+      "typeTokenRatio": 0.34,
+      "meanGestureWords": 80.59,
+      "stdGestureWords": 59.45,
+      "structuralEntropyNorm": 0.91
     },
     {
       "id": "P-11",
@@ -643,15 +643,15 @@
       "p10": 11,
       "p25": 35,
       "p50": 70,
-      "p75": 111,
+      "p75": 110,
       "p90": 175,
-      "mean": 87.14
+      "mean": 87.04
     },
     "lexicalEntropy": {
       "n": 967,
       "p10": 3.28,
       "p25": 4.61,
-      "p50": 5.42,
+      "p50": 5.41,
       "p75": 5.88,
       "p90": 6.37,
       "mean": 5.12
@@ -681,7 +681,7 @@
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.48
+      "mean": 59.47
     }
   },
   "transitionalEntropy": {
