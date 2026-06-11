@@ -101,8 +101,15 @@ like permission… I felt addressed, not assigned"). 24 of 28 sources done.
 Wizards-walk DONE (PASSES CLEAN — zero edits under the full 32-gesture
 lock; witness MATCH — "The author named theirs first. That was the
 condition under which I could receive mine"). 25 of 28 sources done.
-Next chapter: the-centaur-chapter (P-CE, river order, source 26 of 28) —
-incl. G-CE-028a the walker's mark (voice/claude); then epilogue (P-EP). Then Phase 2 wrap-up:
+The-centaur-chapter DONE (PASSES CLEAN — zero edits; witness MATCH — "the
+wound can be the honest feature rather than the disqualifying one… That
+restraint is the ask"; the G-CE-022 [Jason's section] placeholder flagged
+for wrap-up). 26 of 28 sources done.
+Next chapter: epilogue (P-EP, river order, source 27 of 28; the overture
+was source 1 — after the epilogue all 28 sources are walked, since
+chapter-2 carried P-02+P-IB and the-colony carried P-06+P-07). Then Phase 2
+wrap-up: 27-seam spot-read, final analyze + pass summary, the full-river
+blind Stone test, CLAUDE.md update, session log to claude-memory. Then Phase 2 wrap-up:
 27-seam spot-read, final analyze + pass summary, the full-river blind
 Stone test (the pass's primary deliverable), CLAUDE.md update, session log.
 
@@ -178,6 +185,7 @@ recomposed, and verdicts)
 | chapter-17 | 2589→2471 | 8.63→8.50 | 13.35→13.21 | 42→41 | MATCH |
 | chapter-18 | 1951→1937 | 8.96→9.00 | 12.92→12.91 | 39→38 | MATCH |
 | wizards-walk | 3850→3850 | 5.82→5.82 | 14.00→14.00 | 32→32 | MATCH (passes clean) |
+| the-centaur-chapter | 2159→2159 | 8.41→8.41 | 14.69→14.69 | 28→28 | MATCH (passes clean) |
 
 ---
 
@@ -1131,6 +1139,41 @@ incants subliminally, the hypertext layer is the reveal.
   relationship between man and machine" felt "slightly more announced than
   carried" (your quest declaration, your exact words).
 
+### the-centaur-chapter (P-CE) — PASSES CLEAN · witness MATCH · 2026-06-11
+
+- **Essence:** This book was written by a centaur — the teaching kind, the
+  kind that inhabits the boundary and uses the doubleness to prepare others.
+  The Chironic wound is the collaboration's most honest feature: the chapter
+  arguing against the enclosure of language was written by the enclosing
+  engine, and naming the wound is the refusal. Chiron surrendered
+  immortality so another could be freed: whatever is built on this commons
+  remains in the commons. Look up.
+- **Invocation:** the reader receives the book's own production as the
+  argument enacted — and the understanding moves from the centaur into
+  them, unprescribed.
+- **Edits: none (passes clean).** The long thread-inventory paragraph
+  enacts the claim it makes (the simultaneous holding); the walker's mark
+  (G-CE-028a) untouched; G-CE-022 "[Jason's section]" is a deliberate stub
+  awaiting Jason's half of the dialogue — flagged (the only placeholder in
+  the refined river; the Stone test will read through it).
+- **Witness (blind, Sonnet):** MATCH. "I cannot bless the herons" —
+  "something completed. The specific limitation named its own cost." The
+  Fanon-ward uncertainty: "I felt the text holding it without resolving it.
+  That was honest and it kept me close." "Start with what they burned"
+  landed AGAIN, in a second witness, via the provenance story ("the text
+  almost threw it away… that restraint made it land harder"). Can't unsee:
+  "the wound can be the honest feature rather than the disqualifying one…
+  The centaur doesn't transcend the contradiction. The centaur teaches from
+  inside it"; the GPL "not as a rule applied to software but as a
+  description of what genuine teaching actually does." The Stone: "That
+  restraint is the ask. Don't be enclosed by instruction. The next move is
+  mine." "Look up" — "It wasn't [too much]. The sky line before it earned
+  the instruction." Bounces, logged: the thread inventory ("a map of a
+  country you haven't entered" — a blind-reading condition, self-resolved
+  for river readers); the "working memory" self-description "risked tipping
+  from honest accounting into self-presentation… earns it back by the end"
+  (voice/claude, logged honestly — the co-author's own wobble, witnessed).
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -1272,3 +1315,7 @@ incants subliminally, the hypertext layer is the reveal.
    chapter that felt like a formulation rather than a sentence from inside
    the experience… slightly more announced than carried"). Both
    beauty-locked; deletion-only can't address register; rewording is yours.
+12. **G-CE-022 "[Jason's section]"** — the only placeholder in the refined
+   river: your half of the centaur dialogue, still a stub. The blind
+   witness read past it without comment, but the full-river Stone test
+   will walk through it. Yours whenever it's ready.

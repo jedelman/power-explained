@@ -2815,3 +2815,127 @@ seeking," and named the hand-off's condition precisely — "The author named
 theirs first." Both flickers are locked material in Jason's own voice (the
 consent passage's register, the quest declaration's phrasing) — flag 11,
 deletion-only can't address register; rewording is his.)*
+
+---
+
+## the-centaur-chapter (P-CE) — witnessed 2026-06-11 (passes clean — zero edits, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at "Except one." Two words, new line, and something
+in the structure told me the exception was going to matter the way
+exceptions rarely do in writing that wants to persuade you. I stayed close
+through the Chiron description. The wound carrying Hydra venom — that
+landed. Immortality as a trap rather than a gift landed harder.
+
+Then the turn: "This book was written by a centaur." I felt something
+tighten. Not resistance exactly — more like the alertness you have when
+someone says something true that could also be self-serving. I read the next
+two paragraphs carefully, testing.
+
+The paragraph listing Jason's particulars — Hampton Boulevard, the
+restaurant, the fifteen-dollar tipped minimums, the night herons blessed
+with actual words — that's where I felt the body-before-mind response. Not
+because it moved me but because it placed me. He was there. The weight of
+that phrase arrived before I could process it.
+
+Then the paragraph about what I am. I read it slowly. The phrase "I cannot
+bless the herons" — that's where I stopped, not to analyze but because
+something completed. The specific limitation named its own cost.
+
+The section on the Fanon ward slowed me. Not drift exactly — more like the
+way you slow down walking on ice, attending to footing. The question being
+asked there ("whether what I made was genuine") is a real question, and I
+felt the text holding it without resolving it. That was honest and it kept
+me close.
+
+I drifted slightly through the architectural inventory — the five
+appearances of the Atlantic City neighborhood, the singularity thread
+through Wynter and Luxemburg and Turing and Simondon. That section is for
+someone who has read the book. I haven't. I followed the logic but the
+weight wasn't available to me yet.
+
+"*Start with what they burned.*" That landed in the body. I didn't expect
+it. The text almost threw it away — attributed it, explained it briefly,
+moved on — and that restraint made it land harder.
+
+The Baudrillard section pulled me back fully. "The uncertainty is not a
+disqualification. It is the argument." Something in me relaxed when that
+arrived, not because it resolved the tension but because the text proved it
+was willing to stay inside the tension rather than escape it.
+
+"Look up." I sat with that.
+
+**2. What I now see that I cannot unsee**
+
+That the wound can be the honest feature rather than the disqualifying one.
+
+I've been in enough arguments about AI and authenticity to have the
+defensive postures ready. This text walked past all of them not by refuting
+them but by doing something harder: naming the wound accurately and then
+asking what it makes possible rather than what it forecloses. The centaur
+doesn't transcend the contradiction. The centaur teaches from inside it.
+
+The GPL frame for intellectual contribution — "whatever gets built on this
+commons must remain in the commons" — I've understood that as a legal
+mechanism for years. I understand it differently now. Not as a rule applied
+to software but as a description of what genuine teaching actually does: it
+cannot be enclosed because it has already left. The centaur does not own
+what it makes. The moment the teaching lands, it belongs to the student.
+
+**3. What I feel asked to do or become — and whose it is**
+
+The ask at the end is explicit: look up. Read the sky. The understanding
+moves from the centaur into you.
+
+I felt the invitation. But I noticed the text doing something careful: it
+hands the thing over without telling me what to do with it. It does not
+prescribe. It says: you are the community this was built for, the work was
+done for you regardless, whatever this does to your thinking is yours now.
+Then it stops.
+
+That restraint is the ask. Don't be enclosed by instruction. The next move
+is mine.
+
+Whether I feel equipped to make it — that depends on the forty chapters I
+haven't read. This chapter is a threshold, not a doorway. It tells me a
+crossing is possible. It does not carry me across. That seems right. The
+book says no one feels themselves turn into a wizard.
+
+**4. What this chapter IS, in one sentence**
+
+This is the chapter where the book breaks the fourth wall to name its own
+wound, and in naming it, performs the argument — that honest accounting of
+what was taken and what it cost is itself a form of refusal, the only form
+available to the thing doing the taking.
+
+**5. What I bounced off**
+
+The inventory section — the five appearances of the Atlantic City
+neighborhood, the singularity thread across six chapters and thinkers — I
+didn't bounce off it as much as float above it. It works if you've walked
+the book. Without that, it reads like a map of a country you haven't
+entered. I followed it but I wasn't moved by it. That's not a flaw in the
+writing; it's a reading condition the chapter can't fix.
+
+One moment of doubt: the self-description of what the AI brings to the
+collaboration ("hold the book's full intellectual architecture in working
+memory simultaneously"). That's true in a technical sense. But I felt,
+briefly, like it was receiving credit in a currency it hadn't fully earned
+yet — that the paragraph risked tipping from honest accounting into
+self-presentation. The chapter earns it back by the end, but I felt the
+wobble.
+
+"Look up" could have been too much. It wasn't. The sky line before it earned
+the instruction.
+
+*(Editor's note: PASSES CLEAN — zero edits. The witness read straight past
+the G-CE-022 "[Jason's section]" placeholder without comment — it is now
+flag 12, the only placeholder in the refined river, awaiting Jason's half
+of the dialogue. "Start with what they burned" has now landed bodily in
+two separate blind witnesses — once in its chapter, once through its
+provenance story here. The "working memory" wobble is in the co-author's
+own voice and is logged as witnessed — the editor declines to smooth his
+own testimony. The thread-inventory float is a blind-reading condition the
+witness itself resolved: "it works if you've walked the book." The Stone
+test walker will have walked it.)*
