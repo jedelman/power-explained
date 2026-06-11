@@ -840,3 +840,108 @@ stop and sit with it") — explicit naming after scene-work works; the
 transmutation flags on the locked Federici beats downgrade to notes. "She
 held, even held" drew no stumble — the pun stands. The Oxfam figure joined
 the interview as row 6.)*
+
+---
+
+## the-colony (P-06+P-07) — witnessed 2026-06-10 (post-transmutation, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+I leaned in at the opening, immediately — the positioning statement before
+the argument. The specificity of it: the $100,000 overpayment, the median
+income under $45,000, the restaurant. That snapped me awake. I stayed leaned
+in through Robinson, through the sentence "The word *slave* descends from
+*Slav*," which I knew but which landed differently here, set in its
+structural context rather than offered as a curiosity.
+
+I drifted slightly in the middle of the Rodney section — the mechanics of
+structural adjustment, the cocoa marketing board. Not because it was wrong,
+but because the rhythm flattened there. I was reading to be through it rather
+than reading to discover.
+
+Then the *nothing we can do* sequence. That landed before I processed it. The
+meeting room, the speed bumps, the official's explanation of how *people in
+neighborhoods like ours* would damage their cars rather than slow down. That
+sentence is a crime committed in meeting-room language, and I felt it as a
+physical thing. The chapter named it and named it correctly: it's not
+helplessness, it's a decision that can't be said out loud, so it gets said
+that way.
+
+Palmares. I sat with that for a moment after reading it. Twenty thousand
+people. A century. Governance structures Ostrom would recognize. Built under
+conditions designed to prevent it. The "magic in the strict sense" framing
+did something — it refused to make Palmares merely admirable, it insisted on
+what it demonstrated.
+
+Mbembe from the plane — the swimming pools, the blue rectangles distributed
+by race across Johannesburg from altitude. That image is irreversible. I can
+see it now and won't un-see it.
+
+**2. What I now see that I didn't see before, or can no longer unsee.**
+
+I can't unsee the transit-as-dispossession argument. No bus stop in Chelsea.
+The workforce that constitutes the neighborhood every day cannot anchor to
+it, cannot constitute a constituency there, cannot show up to the meeting
+that decides what the neighborhood becomes. I had a version of this thought
+before, but the chapter made it structural — not an oversight in transit
+planning, but dispossession by infrastructure. The people who are the
+neighborhood are extracted from it.
+
+I also can't unsee the wages of whiteness in the meeting-room scenes the
+author places throughout. The fear at the neighborhood association. The ease
+at the dive bar across the street. That's not a story about bad people. It's
+a story about a social wage being paid in the currency of ease, and the
+people paying for it being the ones whose presence you were, at some level,
+managing against.
+
+**3. What I feel asked to do, or become — and whether it's mine to do.**
+
+The chapter is careful about this. It doesn't hand you a task list. The
+author names what they're doing — deprogramming white supremacy out of
+friends, one conversation at a time — and offers it as the best they can
+think to do with their position, not as a prescription. The "what do you do
+with it is the question" at the close of the historical section is a genuine
+open, not a rhetorical gesture toward obvious action.
+
+What I feel asked to do is specific: find the record. The chapter says the
+record is findable, and it means it. The racial geography of where you live
+as history — whose land, whose neighborhood demolished, whose labor built
+what you move through — is not hidden, just unread. I feel asked to read it,
+or continue reading it. That feels genuinely mine to do rather than something
+the chapter is keeping.
+
+The colony in the mind dismantles the way it was built: one conversation at a
+time. That instruction is for the author, clearly, in their position. But the
+frame — that it's a slow structural project, not a moment of awakening —
+fits whoever is doing it, from wherever they're standing.
+
+**4. What I would say this chapter IS, in one sentence, to a friend.**
+
+It is the chapter that shows you how race is not the stain on the mechanism
+but the mechanism, and then takes you to the meeting rooms and city officials
+where you can watch the mechanism running in real time, and then asks what
+you're going to do with the position you're in.
+
+**5. What I bounced off — felt lectured by, doubted, or wanted to skip.**
+
+The structural adjustment passage (Ghana, cocoa marketing board, the IMF
+conditions) moved past me rather than through me. The information was right.
+The rhythm broke. I think the chapter knows how to do this — show it in a
+room, in a body, in a specific meeting — and that section tells rather than
+shows. I did not stop reading, but I was reading at a different altitude for
+a paragraph.
+
+The "deprogramming white supremacy out of my friends" line is the only moment
+where I briefly felt the chapter slip from witness to performance — where
+the author's positioning of themselves started to feel like it was doing two
+things at once: naming a real practice and being seen naming it. It recovered
+immediately. But I noticed the slip.
+
+Nothing else. The chapter earned what it asked for.
+
+*(Editor's note: the six sneaked-name transmutations — including the editor's
+own woven abjuration beat, folded by the same knife that placed it — were
+invisible to this reader: Palmares, the gather/cast-out chiasm, and the
+lineage-held line all landed without any label complaint. The
+structural-adjustment drift became interview row 7. The "deprogramming" slip
+is Jason's first-person voice — flagged to him, untouched.)*

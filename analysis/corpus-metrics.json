@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-11T15:37:15.713Z",
+  "generatedAt": "2026-06-11T16:10:32.283Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84207,
-    "sentences": 5938
+    "words": 84188,
+    "sentences": 5937
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.36,
+    "fleschReadingEase": 59.39,
     "fleschKincaidGrade": 8.5,
-    "gunningFog": 11.92,
+    "gunningFog": 11.91,
     "smog": 11.63,
     "colemanLiau": 9.79,
     "automatedReadabilityIndex": 7.83,
@@ -595,21 +595,21 @@
       "slug": "the-colony",
       "title": "Chapter 6: The Colony",
       "gestureCount": 67,
-      "words": 6488,
-      "sentences": 458,
-      "avgWordsPerSentence": 14.17,
+      "words": 6469,
+      "sentences": 457,
+      "avgWordsPerSentence": 14.16,
       "avgSyllablesPerWord": 1.72,
-      "fleschReadingEase": 46.92,
-      "fleschKincaidGrade": 10.23,
-      "gunningFog": 14.21,
-      "colemanLiau": 12.03,
-      "automatedReadabilityIndex": 9.62,
-      "smog": 13.06,
+      "fleschReadingEase": 47.17,
+      "fleschKincaidGrade": 10.2,
+      "gunningFog": 14.17,
+      "colemanLiau": 11.99,
+      "automatedReadabilityIndex": 9.59,
+      "smog": 13.04,
       "smogReliable": true,
-      "lexicalEntropy": 8.99,
+      "lexicalEntropy": 8.98,
       "typeTokenRatio": 0.28,
-      "meanGestureWords": 96.84,
-      "stdGestureWords": 76.08,
+      "meanGestureWords": 96.55,
+      "stdGestureWords": 75.77,
       "structuralEntropyNorm": 0.95
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 112,
       "p90": 175,
-      "mean": 87.23
+      "mean": 87.21
     },
     "lexicalEntropy": {
       "n": 968,
@@ -681,7 +681,7 @@
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.43
+      "mean": 59.44
     }
   },
   "transitionalEntropy": {

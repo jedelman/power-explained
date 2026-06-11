@@ -24,14 +24,13 @@ inline (StackEdit-friendly: write under each **JASON:** prompt).
 - The mycorrhizal network carrying Simondon (ch 16/16b) is the existing
   proof at full scale.
 
-**Jason's working hypothesis (2026-06-10):** a few MASTER IMAGES — the soil,
-the canopy, flowering — may unlock the entire layer; he'll be able to tell
+**Jason's working hypothesis (2026-06-10, corrected):** there MAY be a few
+master images that unlock the entire layer — the soil, the canopy, flowering
+are CANDIDATES ONLY, not chosen; others may emerge. He'll be able to tell
 once all the missing images are surfaced. So: the pass stacks every row
-first, Jason fills them all at once after. When reading the completed list,
-group-by-candidate-master: which rows could the soil system carry
-(conditions/absorption/sediment — the structural register)? which the canopy
-(the visible/legible layer over the unseen — representation, the spectacle,
-the corpus)? which flowering (the commons producing, excess, renewal)?
+first; Jason fills them all at once after, reading the completed list for
+whatever masters actually reveal themselves. The grouping question stays
+open — don't pre-sort the rows into the three candidates.
 
 **The discipline (from the sneaked-name cycle's lessons):**
 - An IMAGE-MAP like the word-map: one image-family per concept, held
@@ -124,7 +123,21 @@ or whether the stat stays and simply gets an image around it. Low priority;
 the witness didn't doubt it, just cooled.
 **JASON:**
 
-### (rows 7+ append as the pass walks — the known heavy-theory sections
+### 7. The Colony — structural adjustment / the debt trap (G-06-033…035,
+Ghana cocoa)
+**Concept needing image:** the IMF/World Bank debt conditions as the
+extraction architecture continued by financial means — leverage removed,
+extraction continuing.
+**Witness:** "moved past me rather than through me. The information was
+right. The rhythm broke… that section tells rather than shows."
+**Note:** the chapter's own strongest images are nearby (railways as "the
+spell written in steel"; the engineered emptying). What does the debt trap
+look like on land? (A watershed dammed upstream? Soil mined of nutrients
+faster than they return? Your call — the structural register may want the
+soil system again, or its own family.)
+**JASON:**
+
+### (rows 8+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system

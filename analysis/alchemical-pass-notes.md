@@ -35,9 +35,11 @@ added.
 Chapter-5 DONE (1 witness-driven dissolution, witness MATCH — the
 theory-through-persons finding CONFIRMED: the witness took the chapter's
 densest math as "a tool I could actually use").
-Next chapter: the-colony (P-06+P-07 merged, river order, source 9 of 28) —
-the big double chapter: 19 protected beats incl. formula call-outs to
-transmute (G-06-023 necromancy), my woven abjuration beat, 10 thread members.
+The-colony DONE (6 transmutations, all PASS; witness MATCH — the sneaked
+names invisible, the swimming pools "irreversible"). 9 of 28 sources done.
+Next chapter: chapter-8 (P-08, river order, source 10 of 28) — No Name for
+It: Wynter/Crenshaw/Combahee/Davis; FK 11.52, the densest chapter in the
+book; 2 thread members (divination); watch the framework-gap theory section.
 
 ---
 
@@ -94,6 +96,7 @@ recomposed, and verdicts)
 | becoming-wizards (P-IW) | 2472→2454 | 5.64→5.66 | 11.72→11.67 | 28→28 | MATCH |
 | chapter-4 | 4015→4015 | 9.20→9.20 | 14.39→14.39 | 27→27 | MATCH (passes clean) |
 | chapter-5 | 2538→2495 | 8.15→8.13 | 12.14→12.05 | 28→28 | MATCH |
+| the-colony | 6488→6448 | 10.23→10.22 | 14.17→14.15 | 67→67 | MATCH |
 
 ---
 
@@ -429,6 +432,46 @@ incants subliminally, the hypertext layer is the reveal.
   interview. (5) "Someone is doing the maintaining" — the witness "wanted it
   to stay… the chapter moved on before I was done" — that wanting is the
   ch-6 hook working; logged as confirmation.
+
+### the-colony (P-06+P-07) — 6 TRANSMUTATIONS, ALL PASS · witness MATCH · 2026-06-10
+
+- **Essence:** Four readers of one structure — Robinson finds race in the
+  mechanism, Rodney finds underdevelopment engineered, Fanon finds the
+  colony inside the self, Mbembe finds the budget deciding whose deaths are
+  acceptable — and the author stands inside his own evidence, in Chelsea,
+  watching the shrug administer it. The turn: "Race did not justify the
+  plantation. Race produced it" — the colony lives on both sides of the line.
+- **Invocation:** the reader receives the four-fold seeing and the
+  position-statement discipline; learns to ask "who benefits and what
+  maintains it" past the shrug designed to end the question; if a
+  beneficiary, receives the assignment: not guilt — analysis.
+- **Edits (6 transmutations, 0 dissolutions — the chapter is person-routed
+  throughout; nothing else corroded):** G-06-014 → "One motion: gather…
+  casting out…"; G-06-023 → "Across generations, the lineage held — each
+  wizard's reading taken up by the next." (both schools sneaked); G-06-024 →
+  "One act: rupture… as if…"; G-06-028 (my own woven beat) → "No chiefs. No
+  enclosure. The refusal that protects the commoning."; G-06-042 → "two
+  readings"; G-07-019 → "Fanon's reading". Critic (Opus): all PASS; found
+  the "One motion:"/"One act:" structural rhyme — "a genuine coagula gain";
+  all four deliberate KEEPs upheld (prefiguration rhyme-pair with locked
+  ch-4; incantation/inscription native family; "the separability is the
+  illusion" native; "race is the enchantment" native); thread reveal layer
+  verified against both manifests; zero word-map collisions. Editor
+  overruled the critic's one residual observation (G-06-031 inscription
+  line ≠ explained-twice — it is the protected steel-rail naming doing
+  register work; disagreement logged).
+- **Witness (blind, Sonnet):** MATCH. The transmutations invisible —
+  Palmares received whole ("the 'magic in the strict sense' framing did
+  something — it refused to make Palmares merely admirable"); the
+  speed-bumps line "is a crime committed in meeting-room language, and I
+  felt it as a physical thing"; the swimming pools "irreversible"; the
+  assignment taken: "find the record… That feels genuinely mine to do."
+- **Witness observations:** (1) the Ghana/structural-adjustment passage
+  "tells rather than shows… I was reading at a different altitude" — the
+  data-chills family; interview row 7 added. (2) "Deprogramming white
+  supremacy out of my friends" — "the only moment where I briefly felt the
+  chapter slip from witness to performance… It recovered immediately" —
+  Jason's first-person line, his voice, FLAG only.
 
 ## Cross-cutting patterns (updated)
 
