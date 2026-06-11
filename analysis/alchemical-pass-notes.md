@@ -32,9 +32,12 @@ confirms it; witness MATCH, the prefiguration-chord flag self-resolved).
 Nature-image grain settled with Jason (hegemony = soil conditions recorded;
 integrated-soil-system design note pending his call). Kerala interview row
 added.
-Next chapter: chapter-5 (P-05, river order, source 8 of 28) — The Smile:
-Luxemburg/Kollontai/Federici; 3 beauty_check gestures; first of the
-FK-densest chapters (theory-section stress test begins).
+Chapter-5 DONE (1 witness-driven dissolution, witness MATCH — the
+theory-through-persons finding CONFIRMED: the witness took the chapter's
+densest math as "a tool I could actually use").
+Next chapter: the-colony (P-06+P-07 merged, river order, source 9 of 28) —
+the big double chapter: 19 protected beats incl. formula call-outs to
+transmute (G-06-023 necromancy), my woven abjuration beat, 10 thread members.
 
 ---
 
@@ -90,6 +93,7 @@ recomposed, and verdicts)
 | chapter-3 | 2559→2532 | 9.48→9.50 | 14.06→13.99 | 35→35 | MATCH |
 | becoming-wizards (P-IW) | 2472→2454 | 5.64→5.66 | 11.72→11.67 | 28→28 | MATCH |
 | chapter-4 | 4015→4015 | 9.20→9.20 | 14.39→14.39 | 27→27 | MATCH (passes clean) |
+| chapter-5 | 2538→2495 | 8.15→8.13 | 12.14→12.05 | 28→28 | MATCH |
 
 ---
 
@@ -385,6 +389,47 @@ incants subliminally, the hypertext layer is the reveal.
   mutual-aid section "came close to the line" of evidence-for-predetermined-
   conclusion but "didn't cross it" — logged, no action.
 
+### chapter-5 (P-05) — 1 DISSOLUTION, PASS · witness MATCH · 2026-06-10
+
+- **Essence:** Three women read the same demon from three vantages —
+  Luxemburg found the outside where the math doesn't close, Kollontai found
+  it in the unpaid labor called love, Federici found it cut into the body
+  itself — all three dismissed, all three right. The turn: the smile of
+  someone done being persuaded; the Witch as the unkilled remainder in
+  everyone.
+- **Invocation:** the reader takes the diagnostic that travels — find where
+  the math doesn't close; there you will find an outside — and discovers the
+  place to revolt from is already inside them.
+- **Edits (1, witness-driven):** G-05-027 — the synthesis paragraph's three
+  restatement sentences dissolved; the aphorism promoted to lead: "The
+  outside is where the accounting goes to avoid itself. Keep it
+  unacknowledged, and the returns look better than they are." Critic (Opus)
+  PASS: "promoting it from third position to first is the edit's real move…
+  'Three of them did the same work' now reads as escalation rather than
+  repetition."
+- **Witness (blind, Sonnet):** MATCH. THE STRESS TEST PASSED — the witness
+  leaned IN at the densest math in the book because it arrived through
+  Luxemburg: "something clicked… never seen assembled this plainly"; the
+  diagnostic received as "a tool I could actually use." Federici's witch
+  hunts: "Something in the chest… I had to stop and sit with it." The three
+  outsides fused: "I don't think I can put them back in separate
+  compartments." The isolation-as-mechanism reframe: "difficult to unknow."
+- **FINDINGS:** (1) THEORY-THROUGH-PERSONS CONFIRMED as the theory-section
+  pattern's fix — this FK-dense chapter reads hot because its theory arrives
+  through three biographies. The flagged sections (PR map, ch1 Gramsci, ch2
+  history, ch3 Foucault/Negri) chill where theory arrives as summary; Jason's
+  nature-image pass + person-routing are the two proven warmers. (2) The
+  beauty-locked explicit call-out "conjuration cast for enclosure" (G-05-026b)
+  LANDED ("I had to stop and sit with it") — second confirmation with ch4's
+  chord that explicit naming after scene-work works; the 026b/026c
+  transmutation flags DOWNGRADE to notes. (3) "She held, even held" — no
+  witness stumble; the pun (held her position even while held in prison)
+  stands. (4) Oxfam $10.8T stat: "the one moment where I felt an argument
+  being made at me" — the data-chills family (Kerala); noted on the
+  interview. (5) "Someone is doing the maintaining" — the witness "wanted it
+  to stay… the chapter moved on before I was done" — that wanting is the
+  ch-6 hook working; logged as confirmation.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -436,12 +481,14 @@ incants subliminally, the hypertext layer is the reveal.
 3. **Chapter-2 Barcelona history length** — "ran long, tipped into lecture";
    G-02-035 financial digression the most cuttable if a structural trim is
    wanted.
-4. **THE THEORY-SECTION PATTERN (MAJOR, building — PR/1/2/3).** Blind readers
-   cool at every thinker-summary/theory section while warming at the felt
-   scenes. Load-bearing, not cut. Your book-scale call: is the register
-   oscillation deliberate (theory = the disenchanted world to pass through),
-   or do the summaries want more concrete interleaved? The Latinate-heavy
-   chapters (5, 8, 10, 11) are the coming stress test.
+4. **THE THEORY-SECTION PATTERN — FIX CONFIRMED (ch-5).** Blind readers
+   cool at theory-as-summary and warm at theory-through-persons (ch-5's
+   densest math read as "a tool I could actually use" because Luxemburg
+   carried it) and theory-through-images (the composted soil). The flagged
+   sections (PR map, ch1 Gramsci, ch2 history, ch3 Foucault/Negri) are the
+   ones with neither person nor image — exactly what the nature-image
+   interview now covers. Your two proven warmers; the interview is the
+   delivery vehicle.
 5. **Chapter-2 transformation anchor** (cross-wired) and **beguiling's
    missing reveal layer** (no Illusion thread) — from the sneaked-name cycle.
 6. **Beauty-locked, your call:** P-IW witness named the recap line in

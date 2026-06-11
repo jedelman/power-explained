@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-11T04:12:53.091Z",
+  "generatedAt": "2026-06-11T15:37:15.713Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84243,
-    "sentences": 5940
+    "words": 84207,
+    "sentences": 5938
   },
   "corpusReadability": {
     "fleschReadingEase": 59.36,
     "fleschKincaidGrade": 8.5,
     "gunningFog": 11.92,
     "smog": 11.63,
-    "colemanLiau": 9.8,
-    "automatedReadabilityIndex": 7.84,
+    "colemanLiau": 9.79,
+    "automatedReadabilityIndex": 7.83,
     "avgWordsPerSentence": 14.18,
     "avgSyllablesPerWord": 1.57
   },
@@ -375,22 +375,22 @@
       "slug": "chapter-5",
       "title": "Chapter 5: The Smile",
       "gestureCount": 28,
-      "words": 2538,
-      "sentences": 209,
-      "avgWordsPerSentence": 12.14,
+      "words": 2502,
+      "sentences": 207,
+      "avgWordsPerSentence": 12.09,
       "avgSyllablesPerWord": 1.61,
-      "fleschReadingEase": 58.24,
-      "fleschKincaidGrade": 8.15,
-      "gunningFog": 11.52,
-      "colemanLiau": 9.83,
-      "automatedReadabilityIndex": 7.12,
-      "smog": 11.26,
+      "fleschReadingEase": 58.37,
+      "fleschKincaidGrade": 8.12,
+      "gunningFog": 11.5,
+      "colemanLiau": 9.79,
+      "automatedReadabilityIndex": 7.07,
+      "smog": 11.24,
       "smogReliable": true,
-      "lexicalEntropy": 8.38,
-      "typeTokenRatio": 0.35,
-      "meanGestureWords": 90.64,
-      "stdGestureWords": 111.26,
-      "structuralEntropyNorm": 0.85
+      "lexicalEntropy": 8.37,
+      "typeTokenRatio": 0.36,
+      "meanGestureWords": 89.36,
+      "stdGestureWords": 111.84,
+      "structuralEntropyNorm": 0.84
     },
     {
       "id": "P-08",
@@ -637,7 +637,7 @@
   ],
   "gestureDistributions": {
     "count": 968,
-    "readableCount": 757,
+    "readableCount": 756,
     "wordCount": {
       "n": 968,
       "p10": 11,
@@ -645,12 +645,12 @@
       "p50": 70,
       "p75": 112,
       "p90": 175,
-      "mean": 87.27
+      "mean": 87.23
     },
     "lexicalEntropy": {
       "n": 968,
       "p10": 3.28,
-      "p25": 4.62,
+      "p25": 4.61,
       "p50": 5.42,
       "p75": 5.88,
       "p90": 6.37,
@@ -666,22 +666,22 @@
       "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 757,
+      "n": 756,
       "p10": 4.43,
-      "p25": 6.12,
-      "p50": 8.2,
+      "p25": 6.11,
+      "p50": 8.18,
       "p75": 10.81,
       "p90": 12.83,
       "mean": 8.53
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 757,
+      "n": 756,
       "p10": 35.77,
-      "p25": 46.85,
+      "p25": 46.66,
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.42
+      "mean": 59.43
     }
   },
   "transitionalEntropy": {

@@ -24,6 +24,15 @@ inline (StackEdit-friendly: write under each **JASON:** prompt).
 - The mycorrhizal network carrying Simondon (ch 16/16b) is the existing
   proof at full scale.
 
+**Jason's working hypothesis (2026-06-10):** a few MASTER IMAGES — the soil,
+the canopy, flowering — may unlock the entire layer; he'll be able to tell
+once all the missing images are surfaced. So: the pass stacks every row
+first, Jason fills them all at once after. When reading the completed list,
+group-by-candidate-master: which rows could the soil system carry
+(conditions/absorption/sediment — the structural register)? which the canopy
+(the visible/legible layer over the unseen — representation, the spectacle,
+the corpus)? which flowering (the commons producing, excess, renewal)?
+
 **The discipline (from the sneaked-name cycle's lessons):**
 - An IMAGE-MAP like the word-map: one image-family per concept, held
   consistently across the book; no collisions (ch-2's soil briefly meant
@@ -104,7 +113,18 @@ floor. The chapter is fully beauty-locked: this enrichment is yours to weave
 or to hand me raw. Either grain works.
 **JASON:**
 
-### (rows 6+ append as the pass walks — the known heavy-theory sections
+### 6. Chapter 5 — the scale of unpaid care (G-05-0xx, the Oxfam figure)
+**Concept needing image:** $10.8 trillion of invisible labor — the one beat
+in a person-carried chapter where the witness felt "an argument being made
+at me rather than a world being shown to me."
+**Note:** the section already holds two strong images nearby ("like
+sunlight — there to be drawn on"; "the water the economy swims in"). The
+question is whether the NUMBER wants to become an image of scale instead —
+or whether the stat stays and simply gets an image around it. Low priority;
+the witness didn't doubt it, just cooled.
+**JASON:**
+
+### (rows 7+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
 machinery; ch-15 the care economy's invisible foundation; ch-16 the system

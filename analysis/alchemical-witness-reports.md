@@ -735,3 +735,108 @@ SELF-RESOLVED: the witness received it as "not instruction. It's an
 observation" — the chapter earns the name before speaking it. Kerala's
 data-among-people drift became interview row 5 — the enrichment is Jason's by
 definition, since the chapter is locked.)*
+
+---
+
+## chapter-5 (P-05) — witnessed 2026-06-10 (pre-dissolution; its report prompted the edit) · verdict MATCH
+
+**1. Where I leaned in, where I drifted, where something landed in the body before the mind.**
+
+I leaned in immediately at the photograph in the Frankfurt courtroom — the
+smile. That detail stopped me before I understood why. The phrase "the
+specific expression of someone who has understood the system clearly, stopped
+expecting it to behave differently, and is no longer alone in seeing" landed
+before I could process it as an argument. It felt like recognition, not
+description.
+
+I leaned in again at the mechanics of Luxemburg's accumulation argument — the
+part about the math not closing internally. Something clicked there that I had
+heard before in fragments but never seen assembled this plainly. "Find where
+the math doesn't close. There you will find one." That landed as a tool I
+could actually use.
+
+I drifted slightly in the middle of Kollontai's section — the $10.8 trillion
+Oxfam figure came in and I felt the rhythm change, became slightly more aware
+of being argued at. It recovered quickly with the isolation mechanism: "She
+cannot withdraw her labor collectively, because the labor is constituted as
+personal obligation, as love, as family." That hit harder than the statistic.
+
+Federici's section: the witch hunts arriving as infrastructure, not
+superstition. That one didn't arrive in the mind first. Something in the
+chest. The sentence "Burning her was not superstition. It was infrastructure —
+conjuration cast for enclosure, the demon named first so the burning could
+land second." I had to stop and sit with it.
+
+The closing line of Federici's section — "The Witch is the unkilled remainder
+of that capacity. She lives in everyone." — I expected this to feel like a
+reach, and it didn't. I'm still not entirely sure why.
+
+**2. What I can no longer unsee.**
+
+The three "outsides" as a single structure, not three separate feminist
+arguments. I had held these three thinkers in loosely connected compartments:
+colonial extraction, reproductive labor, witch hunts. The chapter made them
+the same mechanism — the machine's need for a zone where value is taken
+without being counted. Seeing them as triangulations of the same demon rather
+than three separate critiques changes something. I don't think I can put them
+back in separate compartments.
+
+Also: the isolation of care work as mechanism, not consequence. I had
+understood it as a justice problem — women working more and being paid less.
+The chapter reframed it as a structural technology: keeping care private keeps
+care workers atomized, which keeps the extraction invisible, which keeps the
+political challenge impossible. The injustice is downstream of the function.
+That reframe is difficult to unknow.
+
+**3. What I feel asked to do, or to become.**
+
+The chapter explicitly tells me the next chapter names the demons. So it is
+withholding the close. It hands me a posture — the posture of someone who has
+seen the terrain — and then stops. I don't feel handed an action. I feel
+handed a set of eyes.
+
+Whether that's mine to do with: partly. The chapter ends with "someone is
+doing the maintaining." That is a prompt, not a summons. It asks whether I
+know what I'm maintaining, or being maintained by. That part feels aimed at me
+specifically. The rest — the intellectual argument, the historical recovery —
+belongs to the author. But the moment of "someone is doing the maintaining"
+briefly pointed at the reader and then looked away.
+
+I noticed I wanted it to stay. The chapter moved on before I was done with
+that sentence.
+
+**4. What this chapter IS, in one sentence.**
+
+It is three divinations of the same demon — the mechanism by which every
+economy extracts from what it refuses to count — told through the lives of
+three women who were right and were punished for being right, and who were
+right anyway.
+
+**5. What I bounced off.**
+
+The Oxfam statistic ($10.8 trillion) briefly pulled me out. Not because the
+figure is wrong, but because it was the one moment where I felt an argument
+being made at me rather than a world being shown to me. The rest of the
+chapter earns its claims through evidence and mechanism; the number felt like
+a different rhetorical register.
+
+The final bridging paragraph before the closing section — "What they share:
+the machine requires a zone where value can be extracted without full
+payment..." — summarized what the three portraits had already conveyed. I
+didn't need it. The portraits did the work. The summary told me what I'd just
+seen, and for a moment I felt myself stepped back to where I had been before
+the portraits moved me. It recovered in the last paragraph, but that summary
+section was the one place I wanted to skip.
+
+*(Editor's note: the witness's skip-wish became the chapter's one edit — the
+three restatement sentences dissolved, the aphorism promoted to lead: "The
+outside is where the accounting goes to avoid itself." Opus critique PASS.
+THE STRESS TEST FINDING: this FK-dense chapter read hot because its theory
+arrives through three biographies — the witness took the densest math as "a
+tool I could actually use." Theory-through-persons is confirmed as the
+theory-section pattern's fix, alongside Jason's nature images. The
+beauty-locked "conjuration cast for enclosure" call-out LANDED ("I had to
+stop and sit with it") — explicit naming after scene-work works; the
+transmutation flags on the locked Federici beats downgrade to notes. "She
+held, even held" drew no stumble — the pun stands. The Oxfam figure joined
+the interview as row 6.)*
