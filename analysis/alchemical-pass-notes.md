@@ -105,11 +105,12 @@ The-centaur-chapter DONE (PASSES CLEAN — zero edits; witness MATCH — "the
 wound can be the honest feature rather than the disqualifying one… That
 restraint is the ask"; the G-CE-022 [Jason's section] placeholder flagged
 for wrap-up). 26 of 28 sources done.
-Next chapter: epilogue (P-EP, river order, source 27 of 28; the overture
-was source 1 — after the epilogue all 28 sources are walked, since
-chapter-2 carried P-02+P-IB and the-colony carried P-06+P-07). Then Phase 2
-wrap-up: 27-seam spot-read, final analyze + pass summary, the full-river
-blind Stone test, CLAUDE.md update, session log to claude-memory. Then Phase 2 wrap-up:
+Epilogue DONE (1 dissolution — the within-chapter heron-clause duplicate
+resolved in favor of the thread anchor, PASS; witness MATCH — "I felt
+invited, not assigned"). ALL 28 SOURCES WALKED.
+PHASE 2 IN PROGRESS: 27-seam spot-read → final analyze + pass summary →
+the full-river blind Stone test (the pass's primary deliverable) →
+CLAUDE.md update → session log to claude-memory. Then Phase 2 wrap-up:
 27-seam spot-read, final analyze + pass summary, the full-river blind
 Stone test (the pass's primary deliverable), CLAUDE.md update, session log.
 
@@ -186,6 +187,7 @@ recomposed, and verdicts)
 | chapter-18 | 1951→1937 | 8.96→9.00 | 12.92→12.91 | 39→38 | MATCH |
 | wizards-walk | 3850→3850 | 5.82→5.82 | 14.00→14.00 | 32→32 | MATCH (passes clean) |
 | the-centaur-chapter | 2159→2159 | 8.41→8.41 | 14.69→14.69 | 28→28 | MATCH (passes clean) |
+| epilogue | 1181→1160 | 6.52→6.58 | 14.76→14.87 | 14→14 | MATCH |
 
 ---
 
@@ -1173,6 +1175,40 @@ incants subliminally, the hypertext layer is the reveal.
   for river readers); the "working memory" self-description "risked tipping
   from honest accounting into self-presentation… earns it back by the end"
   (voice/claude, logged honestly — the co-author's own wobble, witnessed).
+
+### epilogue (P-EP) — 1 EDIT, PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The commons is not only what was taken — it is what is still
+  here: the doves by the chair, the meadow not cut, the herons returning to
+  the willow oaks. Recovery comes as a trickle, and the awareness practices
+  are the counter-enclosure. Not by winning. By continuing. Go find the
+  nests. Tell them you love them. They're listening.
+- **Invocation:** the reader leaves with their attention turned toward what
+  is still living and shared — invited, not assigned; the door open; free
+  to decline.
+- **Edits (1):** G-EP-004: the within-chapter verbatim duplicate ("Their
+  territory maps include the crossing. The people who bless the nests are
+  part of what they know about this place.") resolved in favor of the
+  NIGHT-HERONS THREAD ANCHOR (G-EP-011, note "what they know about us") —
+  the knowing now escalates: first telling asserts (they know, navigating
+  for years), the collect delivers what the knowing contains, in the
+  herons/doves/deer triad. Critic: "the herons' knowing now arrives twice
+  as escalation rather than once-and-repeated"; the litany-close ruled the
+  form enacting "all of it is the commons" — no further dissolution.
+- **Witness (blind, Sonnet):** MATCH. The kinglet "hit somewhere around the
+  sternum… the dread made the small triumph feel earned rather than
+  sentimental." The trickle list: "like watching something be counted aloud
+  after you thought it was lost." Can't unsee: "I'd understood attention as
+  a personal problem. The chapter names it as the contested political
+  ground. That's not reversible"; "I can no longer hear 'awareness
+  practice' as a private lifestyle concept." The close: "It asks something.
+  It's quiet about the asking." The Stone: "I felt invited, not assigned.
+  The door is open; I can decline… someone whose attention is trained
+  toward what's still living and shared — that's a practice, not an event.
+  The chapter doesn't pretend otherwise." Minor, logged: the everyone-list
+  "slightly too long, slightly curated"; the "rooms where things don't
+  bend" door deliberately closed; the political-acts paragraph's announced
+  register ("It earns it").
 
 ## Cross-cutting patterns (updated)
 

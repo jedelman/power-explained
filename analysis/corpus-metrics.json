@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-11T20:56:14.308Z",
+  "generatedAt": "2026-06-11T21:49:55.725Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 963,
-    "words": 83646,
-    "sentences": 5910
+    "words": 83625,
+    "sentences": 5908
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.47,
+    "fleschReadingEase": 59.46,
     "fleschKincaidGrade": 8.48,
     "gunningFog": 11.9,
     "smog": 11.62,
@@ -441,21 +441,21 @@
       "slug": "epilogue",
       "title": "Epilogue: The Doves",
       "gestureCount": 14,
-      "words": 1181,
-      "sentences": 80,
-      "avgWordsPerSentence": 14.76,
+      "words": 1160,
+      "sentences": 78,
+      "avgWordsPerSentence": 14.87,
       "avgSyllablesPerWord": 1.39,
-      "fleschReadingEase": 74.59,
-      "fleschKincaidGrade": 6.52,
-      "gunningFog": 9.29,
-      "colemanLiau": 7.46,
-      "automatedReadabilityIndex": 6.19,
-      "smog": 9.52,
+      "fleschReadingEase": 74.39,
+      "fleschKincaidGrade": 6.58,
+      "gunningFog": 9.36,
+      "colemanLiau": 7.45,
+      "automatedReadabilityIndex": 6.22,
+      "smog": 9.57,
       "smogReliable": true,
-      "lexicalEntropy": 7.51,
-      "typeTokenRatio": 0.36,
-      "meanGestureWords": 84.36,
-      "stdGestureWords": 52.55,
+      "lexicalEntropy": 7.52,
+      "typeTokenRatio": 0.37,
+      "meanGestureWords": 82.86,
+      "stdGestureWords": 49.25,
       "structuralEntropyNorm": 0.87
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.1
+      "mean": 87.08
     },
     "lexicalEntropy": {
       "n": 963,
@@ -672,7 +672,7 @@
       "p50": 8.18,
       "p75": 10.8,
       "p90": 12.8,
-      "mean": 8.51
+      "mean": 8.52
     },
     "fleschReadingEase_3plusSentences": {
       "n": 753,

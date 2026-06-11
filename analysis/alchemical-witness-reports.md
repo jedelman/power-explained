@@ -2939,3 +2939,111 @@ own voice and is logged as witnessed — the editor declines to smooth his
 own testimony. The thread-inventory float is a blind-reading condition the
 witness itself resolved: "it works if you've walked the book." The Stone
 test walker will have walked it.)*
+
+---
+
+## epilogue (P-EP) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+The opening landed before I had time to prepare for it. Doves on the ground.
+A body quieted by years of practice. I leaned in immediately — not because
+it was beautiful, though it was, but because it felt true in a way that
+bypassed the usual skepticism I bring to writing about nature. The writer
+wasn't announcing a theme. They were just there.
+
+I stayed close through the kinglet in the storm. That image — four inches,
+burning calories against cold, tucked into unmown grass — hit somewhere
+around the sternum. The meadow not cut yet. Every morning expecting the
+mowers. That sentence carried real dread, and the dread made the small
+triumph feel earned rather than sentimental.
+
+The shift to the burnouts and the closed restaurant was the one place I
+briefly wobbled. Not because it was wrong — it felt honest — but because the
+transition asked me to recalibrate emotionally, and for a few sentences I
+was slightly ahead of the text, waiting to see where it was taking me. Then
+the list of trickling-back things caught me again: the music gig, the Airbnb
+guests who don't want to leave, the muskrats. The rhythm of that passage did
+something — not argument, more like watching something be counted aloud
+after you thought it was lost.
+
+The ending arrived with full weight. By the time I hit "You cannot reduce
+life to property. The life was never property," something had settled in my
+chest. Not surprise — recognition. Like I'd known this but hadn't had words
+that sat flat against it. And then "Go find the nests. Tell them you love
+them. They're listening." I sat with that for a moment. It asks something.
+It's quiet about the asking.
+
+**2. What I now see, or can no longer unsee.**
+
+Before reading: "the commons" was a structural-political concept, something
+argued toward and defended analytically. After reading: it's also just the
+meadow not cut, the herons back in the willows, the doves comfortable enough
+to sit near a body that learned over years to be still. The enclosure isn't
+only the thing that takes. The commons isn't only what was taken.
+
+What I can no longer unsee: the attention claim. "The enclosure underneath
+all the other enclosures: you don't need to suppress the conclusion if you
+can enclose the attention that would produce it." That sentence reframed
+something for me about why it feels so hard to hold onto clarity about
+systemic things. I'd understood attention as a personal problem. The chapter
+names it as the contested political ground. That's not reversible.
+
+Also: I can no longer hear "awareness practice" as a private lifestyle
+concept. The walk around the neighborhood is political. That's uncomfortable
+in a productive way.
+
+**3. What I feel asked to do, or become.**
+
+The final line hands something to me directly. Not to the author, not to a
+general reader — it's second person, imperative, specific. Go find the
+nests. Tell them you love them.
+
+Whether it's mine to do depends on whether I have nests to find. The chapter
+doesn't claim I do. It assumes it, which is different. The assumption feels
+mostly right rather than universalizing. I felt invited, not assigned. The
+door is open; I can decline.
+
+What I feel asked to become is subtler: someone whose attention is trained
+toward what's still living and shared, rather than primarily toward what's
+been lost or taken. That's a practice, not an event. The chapter doesn't
+pretend otherwise.
+
+**4. What this chapter IS, in one sentence to a friend.**
+
+It's a closing argument made in a quiet voice — the kind where the writer
+stops defending the thesis and just shows you the living thing the thesis
+was always about, and trusts that you'll understand why it matters.
+
+**5. What I bounced off.**
+
+One passage: "Everyone in this book did what they did for the birds and the
+food and the music and the laughter and the friendships." That sentence is
+doing real work, but the catalog felt slightly too long, slightly curated. I
+stayed with it but I felt the construction for a moment — the shaping hand —
+where the rest of the chapter mostly hid its hand. I didn't want to skip it.
+I wanted it tighter.
+
+The sentence "I've spent enough time in the rooms where things don't bend to
+say that plainly" — I wanted to follow that further. It gestures at
+something the chapter doesn't open. That's a choice, not a failure, but I
+felt the door close.
+
+Nothing lectured me. The closest the chapter came was the paragraph
+beginning "The awareness practices are political acts," which announces its
+argument more directly than the surrounding text. It earns it — that idea
+needed to be named rather than only shown — but I registered a slight tonal
+shift, a moment where the essay reminded me it was an essay. I read it, I
+agreed, I returned.
+
+That's the full witness.
+
+*(Editor's note: the one dissolution — the within-chapter heron-clause
+duplicate, resolved in favor of the night-herons thread anchor so the
+knowing escalates instead of repeating — was invisible to this reader. The
+ch-12 attention line, reprised verbatim at the book's close, was carried
+out by THIS witness too ("That's not reversible") — the same sentence has
+now landed in two blind witnesses at two different sites, which is the
+gathering-weight mechanism confirmed at book scale. All 28 sources are now
+walked; this was the final chapter witness before the full-river Stone
+test.)*
