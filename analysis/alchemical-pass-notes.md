@@ -51,10 +51,14 @@ states"). 12 of 28 sources done.
 Chapter-10 DONE (3 dissolutions incl. a witness-driven summary cut at the
 capture-mechanisms collect, all PASS; witness MATCH — "hold the
 architecture… The chapter placed it in my hands"). 13 of 28 sources done.
-Next chapter: chapter-11 (P-11, river order, source 14 of 28) — protected:
-G-11-017 Evocation school-naming + G-11-037 necromancy naming + forward-link
-close G-11-039; Atlantic City motif G-11-020; singularity G-11-018;
-evocation-thread members G-11-016/017/018. FK 11.50 — densest remaining.
+Chapter-11 DONE (3 dissolutions — reassurance, chapter self-ref, book
+self-ref — all PASS; witness MATCH — "I stopped. Actually stopped moving my
+eyes" at the enclosed-because-it-worked chiasm; ONE FLAG: the witness
+bounced on the PROTECTED G-11-017 Evocation naming — routed to Jason, not
+edited). 14 of 28 sources done.
+Next chapter: chapter-12 (P-12, river order, source 15 of 28) — protected:
+G-12-020 divination naming x2 ("The naming is the counter-spell.") +
+forward-link close G-12-040 (the jubilee).
 
 ---
 
@@ -116,6 +120,7 @@ recomposed, and verdicts)
 | orgone-accumulator | 7492→7464 | 8.80→8.79 | 20.14→20.12 | 24→24 | MATCH |
 | chapter-9 | 2444→2339 | 8.89→8.83 | 14.72→14.62 | 29→28 | MATCH |
 | chapter-10 | 2679→2579 | 10.47→10.34 | 14.80→14.49 | 32→32 | MATCH |
+| chapter-11 | 3111→3088 | 11.38→11.38 | 17.88→17.75 | 25→25 | MATCH |
 
 ---
 
@@ -651,6 +656,42 @@ incants subliminally, the hypertext layer is the reveal.
   not live to be wrong about anything" — "the writing working harder than
   the evidence" (logged, Jason's line, minor).
 
+### chapter-11 (P-11) — 3 EDITS, ALL PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The commons wasn't enclosed because it failed; it was
+  enclosed because it worked — Kropotkin counted it in Siberia, Graeber
+  walked it in Rojava, Bookchin watched Moses pave it, the Zapatistas built
+  it without the theory. Mutual aid is the evolutionary baseline, play is
+  its renewal, and the lineage is an architecture: the same insight arrived
+  at independently because the conditions required it. The choice is the
+  point.
+- **Invocation:** the reader receives the inversion (enclosed because it
+  worked) as a reordering they can't unhold, and leaves with the chapter's
+  one quiet ask — look at what you were given and what others weren't, and
+  refuse to naturalize the difference.
+- **Edits (3):** G-11-005 reassurance cut ("and the path is not as strange
+  as it sounds" — the bare three-beat now lands on "anarchist"); G-11-030
+  chapter self-reference dissolved ("the tradition this chapter is about" →
+  "the tradition"); G-11-039 book self-reference dissolved ("— that's what
+  we're arguing throughout this book"); protected forward-link close intact.
+  Critic upheld all restraint calls: the bookend chiasm is a deliberate
+  set-and-collect pair; the density is load-bearing ("the lineage made
+  material — cutting into it would be the minimization failure mode").
+- **Witness (blind, Sonnet):** MATCH. The chiasm: "I stopped. Actually
+  stopped moving my eyes… it reorders something." The horses: "I felt
+  something almost like relief. Like: yes, of course they do that." The
+  Zapatista "not to win": "a frame I haven't fully held before." The Norfolk
+  anchor: "should have felt small. It didn't." The Stone: "The chapter hands
+  it and walks away. It doesn't hover." ONE BOUNCE, on PROTECTED material:
+  G-11-017's "Evocation, cast for the commons — renewal carried in the felt
+  register." — "a code-switch into a vocabulary that belongs to another
+  chapter or framework… the chapter briefly spoke to itself rather than to
+  me." Not edited (protected school-naming + evocation-thread member; check
+  2 makes de-naming a REVERT) — routed to Flags for Jason with a proposed
+  transmutation. The Bluesky self-reference did NOT flinch this witness
+  ("felt earned rather than performed" covered the close; no mention of
+  Bluesky) — hold released.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -735,3 +776,20 @@ incants subliminally, the hypertext layer is the reveal.
    rhetorical work that history wouldn't fully support… I note this not as
    a flaw but as a place where the writing was working harder than the
    evidence." Untouched; your line, your call.
+10. **Ch-11 G-11-017 — the PROTECTED Evocation naming chilled its blind
+   witness.** "Evocation, cast for the commons — renewal carried in the felt
+   register." The witness: "a code-switch into a vocabulary that belongs to
+   another chapter or framework… the intrusion of the technical term briefly
+   broke the current… the chapter briefly spoke to itself rather than to
+   me." This is the labels finding hitting a protected beat: the gesture is
+   an evocation-thread member and the explicit name is the thread's anchor
+   in the river, so it was NOT transmuted (check 2 = REVERT on de-naming).
+   The sneak already exists in the same sentence ("renewal carried in the
+   felt register" — the word-map's felt-before-understood). PROPOSED, your
+   call: transmute the label half to its motion-word — e.g. the sentence
+   becomes "Renewal carried in the felt register — evoked, not argued." (or
+   plain deletion of "Evocation, cast for the commons — "), with the thread
+   page carrying the explicit name in its frame text instead. Same question
+   will recur for every thread-anchor naming in analytical chapters
+   (G-11-037's Necromancy naming did NOT chill this witness — it sits inside
+   the lineage roll where the register is already ceremonial).

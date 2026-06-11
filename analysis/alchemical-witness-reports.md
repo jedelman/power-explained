@@ -1392,3 +1392,122 @@ announcement and a near-verbatim intra-gesture repetition) were invisible
 to this reader — the reflexive close they cleared was received exactly as
 intended: "made the naming itself a demonstration of the argument." The
 "did not live to be wrong" doubt is logged as a Jason flag, untouched.)*
+
+---
+
+## chapter-11 (P-11) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the Barcelona opening. Not because the
+superblocks idea was new to me, but because the sentence "the neighborhood
+changed" hit before I expected it to. Then: "The street became a commons
+before anyone had finished debating whether it should be." That landed in my
+chest. Something about the fact of it preceding the argument for it. I held
+that for a moment.
+
+The Kropotkin section pulled me forward at pace. "He chose instead to go to
+Siberia" — I felt the gear shift. The horses in the blizzard forming a
+circle, no hierarchy, no leader: that was the first moment something landed
+in the body before the mind had processed it. I didn't think "interesting
+evolutionary strategy." I felt something almost like relief. Like: yes, of
+course they do that.
+
+Then the sentence arrived. "The commons wasn't enclosed because it failed.
+It was enclosed because it worked." I stopped. Actually stopped moving my
+eyes. That is the kind of sentence you have to sit in. Not because it's
+rhetorical — because it reorders something.
+
+The Graeber section moved faster. The restaurant passage — "the best nights
+were when the regulars were making friends at the bar" — came out of nowhere
+and I felt it fully. It wasn't argument at that point. It was memory. It
+made me think of a specific place. That surprised me.
+
+I drifted slightly in the Bookchin section. Not badly — the Moses
+destruction was sharp — but I was processing more than feeling.
+Jacobs/Bookchin are a dense pairing and I was tracking the intellectual
+architecture more than experiencing it. I came back at "The garden is
+political. The street is political."
+
+The Öcalan-to-Rojava-to-Zapatistas arc: I leaned in harder than anywhere
+else. Specifically at this: "They were not trying to take state power. They
+said so explicitly: the point was not to win but to be heard, to force a
+conversation the Mexican state had foreclosed." Something shifted in me at
+"not to win." That is a frame I haven't fully held before — that winning
+might not be the point, that being heard and then building is a different
+political logic entirely. I turned that over.
+
+The final thread — the paragraph that begins "The thread runs from the
+zanjera farmers of Ilocos" — I read slowly. It felt like a cadence, a roll,
+a closing movement. "Not a lineage — an architecture." That sentence is
+load-bearing and I felt its weight. Then the author stepped into the text.
+"I ran a restaurant in Norfolk and found the same thing." That pivot — from
+the grand sweep of Kropotkin/Graeber/Öcalan to a restaurant in Norfolk —
+should have felt small. It didn't. It felt like an anchor.
+
+**2. What I now see that I didn't see before, or can't unsee**
+
+I knew enclosure as an economic and political concept. I understood it as
+something done to people. What I couldn't fully hold before — and now can't
+unhold — is the specific terror of it: the enclosed commons was working. The
+hostility wasn't to something broken. It was to something that worked too
+well on its own terms to fit inside someone else's accounting.
+
+I also can't unsee the architecture-not-lineage point. When the chapter
+lists Kropotkin, Graeber, Bookchin, Öcalan, Marcos as arriving at the same
+insight independently and from different conditions — that argument is about
+convergent social evolution, and it hits differently than "here is a
+tradition to join." It says: the conditions keep producing this answer.
+Which means the conditions are real. Which means the answer is real.
+
+**3. What I felt asked to do or become**
+
+There's an ask in this chapter, but it's not loud. It's in the final two
+sentences: "The commons doesn't build itself. People choose to build it,
+against the enclosures and incentive structures that make other choices
+easier."
+
+The chapter doesn't tell me what to build. It doesn't give me a program. It
+shows me that the choice is political, that building is political, and that
+the people who built without a theory (the Zapatistas without Bookchin, the
+farmers without Gramsci) built anyway because the conditions required it.
+
+The ask, as I feel it: look at what you were given and what others weren't,
+and refuse to naturalize the difference.
+
+That one is mine to do. The chapter hands it and walks away. It doesn't
+hover.
+
+**4. What I would say this chapter IS, in one sentence, to a friend**
+
+It's the chapter that proves, without sentimentality, that people have
+always built the world differently when they were free to — and that the
+reason they weren't always free to is that it worked.
+
+**5. What I bounced off**
+
+One moment. The sentence: "Evocation, cast for the commons — renewal carried
+in the felt register." I felt the gear shift there and not in a good way.
+The preceding passage about play was alive and specific — the restaurant,
+the regulars, the energy that had a life of its own. That sentence arrived
+in a different register, like a code-switch into a vocabulary that belongs
+to another chapter or framework. I didn't know what evocation meant in this
+context (it has a specific meaning somewhere in the wider book, I suspect),
+and the intrusion of the technical term briefly broke the current.
+
+I bounced off nothing else. I didn't want to skip anything. I didn't feel
+lectured. The author's self-placement at the end — the admission of
+inherited wealth, the "I'm closest to Kropotkin" — felt earned rather than
+performed. The only place I felt the author performing was in that one
+sentence I named above, where the chapter briefly spoke to itself rather
+than to me.
+
+*(Editor's note: the one bounce is on PROTECTED material — G-11-017 is an
+evocation-thread member and its explicit school-naming is the thread's
+anchor in the river; the critic checklist makes de-naming a REVERT, so it
+was not edited. Routed to Flags for Jason with a proposed transmutation
+(the sneak already lives in the same sentence: "renewal carried in the felt
+register"). Notable: G-11-037's Necromancy naming did NOT chill this
+witness — it sits inside the lineage roll-call where the register is
+already ceremonial. The three round-1 dissolutions were invisible; the
+Bluesky self-reference drew no flinch — hold released.)*

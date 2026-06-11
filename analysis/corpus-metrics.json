@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-11T17:31:56.728Z",
+  "generatedAt": "2026-06-11T17:35:52.643Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 83928,
+    "words": 83905,
     "sentences": 5925
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.45,
+    "fleschReadingEase": 59.44,
     "fleschKincaidGrade": 8.49,
     "gunningFog": 11.9,
     "smog": 11.62,
     "colemanLiau": 9.78,
     "automatedReadabilityIndex": 7.82,
-    "avgWordsPerSentence": 14.17,
+    "avgWordsPerSentence": 14.16,
     "avgSyllablesPerWord": 1.57
   },
   "plateauMetrics": [
@@ -111,21 +111,21 @@
       "slug": "chapter-11",
       "title": "Chapter 11: The Circle in the Blizzard",
       "gestureCount": 25,
-      "words": 3111,
+      "words": 3088,
       "sentences": 174,
-      "avgWordsPerSentence": 17.88,
-      "avgSyllablesPerWord": 1.69,
-      "fleschReadingEase": 45.29,
+      "avgWordsPerSentence": 17.75,
+      "avgSyllablesPerWord": 1.7,
+      "fleschReadingEase": 45.1,
       "fleschKincaidGrade": 11.38,
       "gunningFog": 14.88,
-      "colemanLiau": 12.18,
-      "automatedReadabilityIndex": 11.25,
+      "colemanLiau": 12.22,
+      "automatedReadabilityIndex": 11.23,
       "smog": 13.75,
       "smogReliable": true,
       "lexicalEntropy": 8.54,
-      "typeTokenRatio": 0.35,
-      "meanGestureWords": 124.44,
-      "stdGestureWords": 99.62,
+      "typeTokenRatio": 0.36,
+      "meanGestureWords": 123.52,
+      "stdGestureWords": 99.86,
       "structuralEntropyNorm": 0.97
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 110,
       "p90": 175,
-      "mean": 87.04
+      "mean": 87.01
     },
     "lexicalEntropy": {
       "n": 967,
