@@ -63,9 +63,13 @@ Chapter-13 DONE (1 dissolution — the importance-ranking self-reference —
 PASS; witness MATCH — "That is a directive. It is addressed to me… The
 chapter handed it"; interview row 10 added for the debt-statistics block).
 16 of 28 sources done.
-Next chapter: angel-faces-backward (P-AB, river order, source 17 of 28) —
-ALL 70 gestures beauty-locked (deletion-only); protected G-AB-007/041/050;
-the cook motif G-AB-034; cedar-chip motif x10; singularity x2.
+Angel-faces-backward DONE (passes clean on the full read — the four-fold
+"hold it long enough" ruled incantational escalation, not dilution; ONE
+witness-driven pure deletion under the 70-gesture lock: the H&N seminar
+sentence in G-AB-021, round-2 PASS; witness MATCH — "I received it as an
+actual ask"). 17 of 28 sources done.
+Next chapter: chapter-14 (P-14, river order, source 18 of 28) — FK 10.47;
+check protected-beats section on load.
 
 ---
 
@@ -130,6 +134,7 @@ recomposed, and verdicts)
 | chapter-11 | 3111→3088 | 11.38→11.38 | 17.88→17.75 | 25→25 | MATCH |
 | chapter-12 | 2755→2723 | 9.22→9.21 | 15.92→15.92 | 28→28 | MATCH |
 | chapter-13 | 2861→2851 | 10.64→10.66 | 16.54→16.58 | 31→31 | MATCH |
+| angel-faces-backward | 4679→4631 | 6.52→6.46 | 13.33→13.23 | 70→70 | MATCH |
 
 ---
 
@@ -773,6 +778,44 @@ incants subliminally, the hypertext layer is the reveal.
   the dependency (Caja Laboral must precede "would have saved my ass")
   makes a reorder structurally impossible; no action.
 
+### angel-faces-backward (P-AB) — 1 EDIT (witness-driven), PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The angel's posture is the wizard's: turn around, face the
+  wreckage, and hold the fragment until it flashes legible — aura is the
+  irreducible singularity reproduction strips, the defense is in the
+  perception, and the sight obligates. The seeing cannot be carried alone:
+  the council holds it. Find one shard from your own debris.
+- **Invocation:** the reader turns around — receives progress as the storm
+  that forbids looking back — and leaves with one real instruction taken as
+  their own: find one shard, hold it long enough to see what it is saying.
+- **Edits (1, pure deletion under the FULL 70-gesture lock):** G-AB-021,
+  witness-driven — the Hardt & Negri sentence cut whole ("the one moment
+  the register shifted from incantation to seminar… borrowed authority it
+  didn't need"); the multitude claim left WITH its attribution; the
+  wreckage/encounters synthesis and Alexander's Pattern 10 carry the beat;
+  the reference cluster (Benjamin→Situationists→H&N→Alexander) relieved.
+  Round-2 critic: PASS — "dissolves a corruption and reveals the chapter's
+  own synthesis voice in the landing position." Full-read restraint: the
+  four-fold "hold it long enough" ruled incantational escalation (Benjamin
+  → the flash → Jason's wreckages → the reader's instruction — the
+  sneaked-name technique applied to the chapter's own practice line); the
+  chapter-as-speaker meta-lines are this chapter's enshrined register
+  (protected G-AB-041 is itself one).
+- **Witness (blind, Sonnet):** MATCH. "*This storm is what we call
+  progress* arrived like a door opening in a wall I had been walking along
+  for years." The Scar grief: "'It is unbearable because it was not meant
+  to be borne by one person' — that arrived before I could think about it."
+  The Home Depot parenthetical "hit harder than almost anything else…
+  funny and true and devastating in three words." Can't unsee: "The
+  not-looking is the story"; *sancire* — "the defense is in the
+  perception… I had been carrying a version of this without the grammar
+  for it"; the chip-sigil "is now permanent." The Stone: "It crossed. I
+  received it as an actual ask… The chapter doesn't follow me past the
+  edge of the page." Minor: back-line grief section "briefly felt the
+  chapter was managing me… that feeling passed… honest rather than
+  preemptive" — self-resolved, no action; the Situationists cluster slip
+  relieved by the H&N cut.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -800,7 +843,18 @@ incants subliminally, the hypertext layer is the reveal.
   after, and I followed it easily because I had already felt it. That's the
   right order." The reflex demonstration ("that's not realistic… it just
   feels like knowing") preceded the concept. Felt-first delivery is a third
-  proven warmer alongside persons and images. (The Latinate theory chapters — 5, 8, 10, 11 —
+  proven warmer alongside persons and images.
+- **THE H&N CITATION PATTERN (ch-12 + P-AB, two consecutive witnesses).**
+  Both blind witnesses bounced on a Hardt & Negri citation as the chapter's
+  register-break ("citation rather than demonstration"; "incantation to
+  seminar… borrowed authority it didn't need"). The working rule, set by
+  the two cases: when the borrowed claim LEAVES WITH the citation and the
+  surrounding synthesis carries the beat, cut the sentence whole (P-AB —
+  done); when the claim must stay, the attribution stays with it
+  (fact-checking rules) and the section routes to the image interview
+  (ch-12 — row 9). Remaining H&N sites should be read against this rule as
+  the pass reaches them (ch-3's biopolitical-production naming already
+  witnessed clean; ch-15/16 may carry more). (The Latinate theory chapters — 5, 8, 10, 11 —
   will be the stress test.)
 - **The lexicon-naming finding (chapters 1-2, escalating).** Ruling 2 covers
   UNPROTECTED meta-announcements (cut). But the blind witnesses are now also

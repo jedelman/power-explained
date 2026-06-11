@@ -1763,3 +1763,128 @@ edit this chapter (the importance-ranking self-reference at the
 deprogram-confession's climax) was invisible: the witness called that
 paragraph the place the chapter "ran deeper than anything in the
 statistical section.")*
+
+---
+
+## angel-faces-backward (P-AB) — witnessed 2026-06-11 (pre-cut; its report prompted the one deletion, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately at the opening — the crow, the thing the crow is
+alarmed about, the instruction to turn around. It placed me somewhere
+physical before I knew what the chapter was doing, and I didn't resist it.
+
+The Klee and Benjamin material in the first third held me fully. The
+biographical details — the suitcase, the sum he couldn't afford, the print
+on the wall of every room for nineteen years — those landed in the body
+before the mind. When I got to "a storm is blowing from paradise; it has
+caught itself in the wings with such violence that he can no longer close
+them," I stopped moving through the text the way you stop walking when
+something changes in the air. The line *This storm is what we call progress*
+arrived like a door opening in a wall I had been walking along for years.
+
+Then the arcade passage. I drifted slightly — not because it was boring, but
+because it felt like being shown a beautiful room I hadn't been invited into
+yet. The scholarship was alive but I was slightly outside it. What brought
+me back was "every epoch dreams its successor." That one reoriented me.
+
+The dialectical image section pulled me sharply back in. "The truth does not
+run from us. The moment of its legibility does." I felt that in the chest.
+The examples — the Rolling Jubilee, the cedar chip — grounded the
+abstraction so cleanly I stopped feeling like I was reading about Benjamin
+and started feeling like I was being shown something about my own life.
+
+The wreckage passages — the forest, the restaurant — dropped into a
+different frequency than the rest of the chapter. First-person, slower,
+heavier. The grief passage about the Scar went somewhere I wasn't expecting.
+"It is unbearable because it was not meant to be borne by one person." That
+arrived before I could think about it. So did the parenthetical about Home
+Depot. The parenthetical hit harder than almost anything else in the
+chapter, partly because of where it was placed, partly because it was funny
+and true and devastating in three words.
+
+The section on back-line grief — the person wiring up the Twitter feed while
+others are in the water cannons — that's where I found myself reading most
+slowly. It felt like it was speaking to a specific wound the text already
+knew was there.
+
+The close — Benjamin not making it, the suitcase never recovered — I
+received that quietly. The last line, *We'll see, won't we?*, felt like the
+angel's posture made verbal: not promised survival, just sight. I sat with
+it for a moment before I moved.
+
+**2. What I now see that I didn't see before, or can no longer unsee**
+
+Progress moves forward because it has to. Not because forward is better but
+because turning around would expose what was destroyed to make the motion
+possible. I understood this abstractly before. Now I feel it as a structural
+necessity of the system — the storm is not enthusiasm, it is architecture.
+You cannot look back and keep the story going. The not-looking is the story.
+
+I can no longer encounter the word *sacred* without the etymology sitting
+behind it — *sancire*, to draw the line that protects. The defense is in the
+perception. I read that and something shifted about what it means to love a
+place. I had been carrying a version of this without the grammar for it.
+
+The cedar chip as a sigil for people who don't need it explained — that
+image is now permanent. "It is there for the people who know, so they can
+know we know too, so we do not have to say anything." I recognized that
+practice before I could name it. Now I have a name for it.
+
+**3. What I felt asked to do, or to become**
+
+The chapter does not ask me to chain myself to anything. It says that
+explicitly, and the saying is clean — not consolation, honest accounting.
+
+What it asked me to do was find one shard. A specific one. Not a category, a
+thing: a line in a contract, a street name, a clause in a deed, a piece of
+wood. The instruction is real and I felt its realness. It didn't feel like
+homework. It felt like being told something I already knew I needed to do
+and hadn't.
+
+Whether it's mine to do or the author's: the chapter hands it. But
+carefully. The direction at the close — "find one shard from your own
+debris" — is genuinely given, not performed. It crossed. I received it as an
+actual ask. Whether I act on it is mine. The chapter doesn't follow me past
+the edge of the page.
+
+**4. What this chapter IS, in one sentence, to a friend**
+
+It is the one that teaches you to turn around and face what you have been
+blown past, by showing you exactly what it costs not to — and then showing
+you that you are not alone in the wreckage.
+
+**5. What I bounced off**
+
+The Hardt and Negri paragraph. It arrived as a name-drop that the chapter
+immediately moved past — "the city is the terrain of biopolitical
+production" — and I felt it as the one moment the register shifted from
+incantation to seminar. The insight was real, but the framing borrowed
+authority it didn't need. The chapter earns everything else on its own
+terms; that paragraph leaned on borrowed credibility for a beat.
+
+The section on the Situationists and détournement also slipped slightly —
+not because it was wrong but because it arrived in a quick cluster of
+references (Benjamin, then Situationists, then Hardt-Negri, then Alexander)
+and the acceleration made me less present. The Christopher Alexander landing
+was the one that pulled me back in because it was specific: Pattern 10, a
+specific corner, a square, a market that breathes.
+
+The back-line grief section was the one place I briefly felt the chapter was
+managing me — anticipating my discomfort and addressing it — rather than
+simply showing me what was true. That feeling passed. By the end of the
+section it felt honest rather than preemptive. But there was a moment in the
+middle where I registered the scaffolding.
+
+Nothing else. The rest of the chapter I trusted.
+
+*(Editor's note: the full read under the 70-gesture beauty-lock found zero
+corruptions — the four-fold "hold it long enough" is incantational
+escalation, each instance in different hands, and the chapter-as-speaker
+lines are this chapter's enshrined register. The witness's one bounce was
+acted on: the Hardt & Negri sentence cut whole (pure deletion, the claim
+leaving WITH its attribution; the synthesis and Alexander's Pattern 10
+carry the beat) — round-2 Opus PASS. This is the second consecutive
+witness to bounce on an H&N citation; the working rule is now in the
+cross-cutting log. The back-line "managing me" flicker self-resolved in
+the witness's own reading — no action.)*

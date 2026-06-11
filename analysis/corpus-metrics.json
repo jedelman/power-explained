@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-11T17:47:26.805Z",
+  "generatedAt": "2026-06-11T17:53:36.684Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 967,
-    "words": 83863,
-    "sentences": 5922
+    "words": 83815,
+    "sentences": 5921
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.44,
-    "fleschKincaidGrade": 8.49,
+    "fleschReadingEase": 59.45,
+    "fleschKincaidGrade": 8.48,
     "gunningFog": 11.9,
     "smog": 11.62,
     "colemanLiau": 9.78,
@@ -23,21 +23,21 @@
       "slug": "angel-faces-backward",
       "title": "The Angel Faces Backward",
       "gestureCount": 70,
-      "words": 4679,
-      "sentences": 351,
-      "avgWordsPerSentence": 13.33,
+      "words": 4631,
+      "sentences": 350,
+      "avgWordsPerSentence": 13.23,
       "avgSyllablesPerWord": 1.43,
-      "fleschReadingEase": 72.05,
-      "fleschKincaidGrade": 6.52,
-      "gunningFog": 9.34,
-      "colemanLiau": 7.64,
-      "automatedReadabilityIndex": 5.79,
-      "smog": 9.73,
+      "fleschReadingEase": 72.31,
+      "fleschKincaidGrade": 6.46,
+      "gunningFog": 9.29,
+      "colemanLiau": 7.58,
+      "automatedReadabilityIndex": 5.71,
+      "smog": 9.7,
       "smogReliable": true,
       "lexicalEntropy": 8.37,
       "typeTokenRatio": 0.27,
-      "meanGestureWords": 66.84,
-      "stdGestureWords": 42.6,
+      "meanGestureWords": 66.16,
+      "stdGestureWords": 42.53,
       "structuralEntropyNorm": 0.94
     },
     {
@@ -645,7 +645,7 @@
       "p50": 70,
       "p75": 110,
       "p90": 175,
-      "mean": 86.97
+      "mean": 86.92
     },
     "lexicalEntropy": {
       "n": 967,
@@ -654,7 +654,7 @@
       "p50": 5.41,
       "p75": 5.88,
       "p90": 6.37,
-      "mean": 5.12
+      "mean": 5.11
     },
     "typeTokenRatio": {
       "n": 967,
@@ -671,7 +671,7 @@
       "p25": 6.12,
       "p50": 8.18,
       "p75": 10.8,
-      "p90": 12.83,
+      "p90": 12.8,
       "mean": 8.52
     },
     "fleschReadingEase_3plusSentences": {
@@ -711,15 +711,9 @@
     },
     {
       "term": "Negri",
-      "total": 14,
-      "plateaus": 10,
-      "dispersionNorm": 0.93
-    },
-    {
-      "term": "Hardt",
-      "total": 12,
+      "total": 13,
       "plateaus": 9,
-      "dispersionNorm": 0.95
+      "dispersionNorm": 0.92
     },
     {
       "term": "United",
@@ -732,6 +726,12 @@
       "total": 15,
       "plateaus": 8,
       "dispersionNorm": 0.94
+    },
+    {
+      "term": "Hardt",
+      "total": 11,
+      "plateaus": 8,
+      "dispersionNorm": 0.95
     },
     {
       "term": "America",
