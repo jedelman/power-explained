@@ -2469,3 +2469,125 @@ witness's own words: "load-bearing… With it, it becomes demonstration."
 All three drifts sit on protected beats (the trans deterritorialization,
 the Centaur configuration, the Wiener line) — logged. Ruling 5 came from
 this chapter: the motif inventory protects the work, not the grep hit.)*
+
+---
+
+## chapter-17 (P-17) — witnessed 2026-06-11 (post-refinement, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately — the tracking passage. Something in those first
+three paragraphs landed before I had any idea what the chapter was about.
+The phrase "releasing the insistence on what you expect to find" arrived in
+the chest, not the head. I felt it as a small correction to something I
+habitually do.
+
+The speaking circle held me. The owl arriving — I didn't drift there. I
+slowed. I let it happen at the pace it asked for. The sentence "Nobody
+announced that this had been significant. Nobody needed to" did something.
+It trusted me. I felt trusted.
+
+I stayed close through Sorenson and Prechtel. The idea that the return
+requires a community that was waiting — that landed fully. I felt the truth
+of it before I'd consciously parsed the argument.
+
+Then Neo. I expected to drift, or to feel a slight embarrassment on behalf
+of the text — the way you do when a book reaches for a cultural reference to
+do work the prose should do itself. But it worked. Not because the Matrix
+analysis was brilliant — because by the time we got there, the chapter had
+already given me the concept, and Neo just confirmed it. "Most of us are
+Neo" landed. I felt it in the sternum, which surprised me.
+
+The Tzutujil metal roof was where I leaned in hardest. "A metal roof lasts
+twenty years. During those twenty years, the occasion does not exist." That
+sentence is the whole chapter in miniature. I stopped and sat with it.
+
+I was mostly present for Jacobs. The ballet passage I've encountered before
+in other contexts, but the chapter uses it precisely — I didn't drift, I
+tracked. The connection to the speaking circle made explicit in the
+sidewalk-as-form paragraph felt like a genuine arrival, not a forced link.
+
+I drifted slightly during the Christopher Alexander section. Not because it
+was wrong — because it felt like the chapter had already landed and was now
+cataloguing. I understood the move intellectually. My attention thinned.
+
+The closing came back and got me. "The owl came and said what he had to
+say." And then that last line — the park in lower Manhattan in 2011. It
+lands and immediately withholds. It is one sentence and it knows exactly
+what it's doing.
+
+**2. What I now see that I can't unsee**
+
+The absence. The chapter named something I'd felt without being able to hold
+it: that the journey loops because the return is refused — not maliciously,
+but by absence. I have experienced this. I didn't have language for it
+before reading this. Now I do, and I cannot not have it.
+
+Also: that the roof is not a product. That the occasion is an
+infrastructure. I had understood "commons" in the economic or political
+sense before — land, water, public goods. I had not understood the occasion
+as commons, the annual gathering to repair the roof as commons
+infrastructure. That reframe is now available to me in a way it wasn't
+twenty minutes ago.
+
+And the direction of enclosure: not only that land is enclosed, but that the
+form of attending is enclosed — that what gets taken is not just resources
+but the occasions through which communities develop the capacity to receive
+each other.
+
+**3. What I feel asked to do, or to become**
+
+The chapter is explicit about the call: not to descend, but to learn to
+welcome and attend. To become the community at the threshold.
+
+The strange thing is — it's mine to do and also not mine alone to do. The
+chapter gives the call cleanly. It doesn't perform urgency or guilt. It
+names the work and then trusts me to decide. The form is the circle: I can
+hold silence after the speaker finishes. I don't have to respond
+immediately.
+
+What it asks of me is more like a reorientation than an action. Stop looking
+for another descent. Practice the form of attending. Rebuild the occasions.
+
+Whether the author kept it or handed it: the author handed it. The chapter
+doesn't hoard the conclusion. It sets it down at the threshold and steps
+back.
+
+**4. What this chapter IS, in one sentence**
+
+This chapter is a map of the form that must exist before the wound can close
+— the community that practices receiving, without which every descent loops
+endlessly, and with which the singular gift of the returned traveler finally
+finds its home.
+
+**5. What I bounced off**
+
+The Alexander section thinned for me, as noted. Not because it's wrong — it
+earns its place structurally — but because by the time we arrive there, the
+chapter has already completed its emotional arc. The pattern language as
+commons is an interesting claim, but it arrived after the hinge had already
+turned, and it reads slightly like appended evidence. If I were reading
+quickly, I might have skimmed it.
+
+The phrase "Abjuration, cast for the commons" — inside the metal roof
+passage — briefly ejected me. I recognized it as a term of art from a
+different register, and for one sentence the spell broke. I came back
+immediately, but it was a small gap.
+
+The Matrix section I expected to resist more than I did. I want to name that
+honestly: I was prepared to feel lectured, and I didn't. The chapter had
+earned the detour by the time it arrived.
+
+Nothing made me doubt the intelligence or honesty of what was being said. I
+didn't feel manipulated. I felt accompanied.
+
+*(Editor's note: the chapter produced the pass's first CROSS-CHAPTER
+DUPLICATION find — G-17-014 was a verbatim twin of chapter-14's "The people
+didn't go anywhere…" gesture, and the Sorenson collapse was re-narrated
+beat-for-beat; both dissolved, the destruction story staying whole in its
+first home. All four edits were invisible to this reader — the seam they
+created carried ("That intelligence is not gone everywhere"). The
+Abjuration bounce is the THIRD protected-naming-chill instance (after
+ch-11's Evocation and reenchanting's Simondon) — all thread anchors, all
+itemized in the Jason flag with the thread-frame alternative. The
+Alexander thinning is logged; the material is load-bearing.)*

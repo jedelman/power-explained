@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-11T20:43:31.802Z",
+  "generatedAt": "2026-06-11T20:50:24.540Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
-    "gestures": 965,
-    "words": 83778,
-    "sentences": 5918
+    "gestures": 964,
+    "words": 83660,
+    "sentences": 5911
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.45,
+    "fleschReadingEase": 59.47,
     "fleschKincaidGrade": 8.48,
     "gunningFog": 11.9,
-    "smog": 11.62,
-    "colemanLiau": 9.78,
+    "smog": 11.61,
+    "colemanLiau": 9.77,
     "automatedReadabilityIndex": 7.81,
-    "avgWordsPerSentence": 14.16,
+    "avgWordsPerSentence": 14.15,
     "avgSyllablesPerWord": 1.57
   },
   "plateauMetrics": [
@@ -264,22 +264,22 @@
       "id": "P-17",
       "slug": "chapter-17",
       "title": "Chapter 17: The Owl at the Edge of the Circle",
-      "gestureCount": 42,
-      "words": 2589,
-      "sentences": 194,
-      "avgWordsPerSentence": 13.35,
-      "avgSyllablesPerWord": 1.61,
-      "fleschReadingEase": 56.93,
-      "fleschKincaidGrade": 8.63,
-      "gunningFog": 12.35,
-      "colemanLiau": 10.51,
-      "automatedReadabilityIndex": 8.09,
-      "smog": 11.87,
+      "gestureCount": 41,
+      "words": 2471,
+      "sentences": 187,
+      "avgWordsPerSentence": 13.21,
+      "avgSyllablesPerWord": 1.6,
+      "fleschReadingEase": 57.67,
+      "fleschKincaidGrade": 8.5,
+      "gunningFog": 12.21,
+      "colemanLiau": 10.4,
+      "automatedReadabilityIndex": 7.96,
+      "smog": 11.77,
       "smogReliable": true,
-      "lexicalEntropy": 8.07,
-      "typeTokenRatio": 0.31,
-      "meanGestureWords": 61.64,
-      "stdGestureWords": 41.86,
+      "lexicalEntropy": 8.03,
+      "typeTokenRatio": 0.32,
+      "meanGestureWords": 60.27,
+      "stdGestureWords": 37.63,
       "structuralEntropyNorm": 0.88
     },
     {
@@ -636,28 +636,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 965,
-    "readableCount": 754,
+    "count": 964,
+    "readableCount": 753,
     "wordCount": {
-      "n": 965,
+      "n": 964,
       "p10": 12,
       "p25": 35,
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.06
+      "mean": 87.03
     },
     "lexicalEntropy": {
-      "n": 965,
+      "n": 964,
       "p10": 3.32,
-      "p25": 4.62,
+      "p25": 4.61,
       "p50": 5.41,
       "p75": 5.88,
-      "p90": 6.37,
+      "p90": 6.36,
       "mean": 5.12
     },
     "typeTokenRatio": {
-      "n": 965,
+      "n": 964,
       "p10": 0.6,
       "p25": 0.66,
       "p50": 0.73,
@@ -666,27 +666,27 @@
       "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 754,
-      "p10": 4.41,
+      "n": 753,
+      "p10": 4.38,
       "p25": 6.12,
       "p50": 8.18,
       "p75": 10.8,
       "p90": 12.8,
-      "mean": 8.52
+      "mean": 8.51
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 754,
+      "n": 753,
       "p10": 35.77,
-      "p25": 46.85,
-      "p50": 60.46,
-      "p75": 72.41,
+      "p25": 47.04,
+      "p50": 60.47,
+      "p75": 72.47,
       "p90": 81.79,
-      "mean": 59.46
+      "mean": 59.48
     }
   },
   "transitionalEntropy": {
-    "total": 935,
-    "reliable": 224,
+    "total": 934,
+    "reliable": 225,
     "paragraphMeanDist": 0.96,
     "sectionMeanDist": 0.95
   },

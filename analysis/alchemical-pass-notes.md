@@ -91,9 +91,13 @@ staging gesture and the diluting double of the forward-link close — both
 PASS; Ruling 5 promoted (the motif inventory protects the work, not the
 grep hit); witness MATCH — "the confession is load-bearing… With it, it
 becomes demonstration"). 22 of 28 sources done.
-Next chapter: chapter-17 (P-17, river order, source 23 of 28) — the
-practice chapter; second-initiation member G-17-029; check protected beats
-on load.
+Chapter-17 DONE (4 edits incl. the G-17-014 retirement — the verbatim twin
+of G-14-016, the pass's first cross-chapter duplication find — all PASS;
+witness MATCH — "I felt accompanied"; the Abjuration naming = THIRD
+protected-naming-chill instance). 23 of 28 sources done.
+Next chapter: chapter-18 (P-18, river order, source 24 of 28) — check
+protected beats on load. Then wizards-walk (all 32 locked), the-centaur-
+chapter, epilogue.
 
 ---
 
@@ -164,6 +168,7 @@ recomposed, and verdicts)
 | reenchanting | 2937→2937 | 6.80→6.80 | 11.30→11.30 | 34→34 | MATCH (passes clean) |
 | chapter-16 | 3196→3196 | 8.25→8.25 | 12.68→12.68 | 51→51 | MATCH (passes clean) |
 | chapter-16b | 2554→2539 | 8.49→8.50 | 12.83→12.89 | 53→51 | MATCH |
+| chapter-17 | 2589→2471 | 8.63→8.50 | 13.35→13.21 | 42→41 | MATCH |
 
 ---
 
@@ -1016,6 +1021,41 @@ incants subliminally, the hypertext layer is the reveal.
   warm-up (G-16b-053 protected). "None of this broke the reading. It
   created slower water."
 
+### chapter-17 (P-17) — 4 EDITS, ALL PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The community reconstitutes itself through the singular
+  journeys of its members — initiation is the mechanism, and the return is
+  the hinge the market cannot supply. Most of us are Neo: descended,
+  transformed, arrived at an unmanned threshold. So we have had to find
+  each other — not as consolation, as the work: become the community at the
+  threshold, practice the form of the circle that already knows how to
+  receive the owl.
+- **Invocation:** the reader stops looking for another descent and receives
+  the reorientation as theirs: learn to welcome and attend; rebuild the
+  occasions.
+- **Edits (4):** G-17-009 "This is the chapter's central image." cut (the
+  paragraph opens "Not the owl — the receiving."); G-17-031 (second-
+  initiation member, anchor verified) "the chapter is making" dissolved —
+  "This is the call." keeps the frame the close collects; G-17-011 third
+  paragraph cut + G-17-014 RETIRED — the Sorenson collapse re-narration and
+  its verbatim-twin gesture (same title/slug as G-14-016, three chapters
+  upstream): the pass's first CROSS-CHAPTER DUPLICATION find; the
+  destruction story stays whole in ch-14; critic ruled no callback needed
+  and the kept re-introduction "necessary modular re-grounding."
+- **Witness (blind, Sonnet):** MATCH. "Nobody announced that this had been
+  significant. Nobody needed to" — "It trusted me. I felt trusted." The
+  roof: "'During those twenty years, the occasion does not exist' — that
+  sentence is the whole chapter in miniature." "Most of us are Neo" landed
+  "in the sternum." Can't unsee: "the journey loops because the return is
+  refused — not maliciously, but by absence"; the occasion as commons
+  infrastructure. The Stone: "It names the work and then trusts me to
+  decide… sets it down at the threshold and steps back… I felt
+  accompanied." Bounces: Alexander section thinned ("appended evidence"
+  after the arc — load-bearing, logged); "Abjuration, cast for the
+  commons" "briefly ejected me… for one sentence the spell broke" —
+  PROTECTED (G-17-035, abjuration-thread anchor) — THIRD instance of the
+  protected-naming-chill pattern, added to the Jason flag.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -1139,6 +1179,13 @@ incants subliminally, the hypertext layer is the reveal.
    wizard chapter), so untouched. The pattern across both: thread-anchor
    namings chill when they arrive AFTER the demonstration in a felt
    register; they pass unnoticed inside ceremonial rolls (ch-11 Necromancy)
-   and at question-answering positions. Your call whether the anchor layer
-   moves to the thread pages' frame text book-wide; both sites itemized
-   here.
+   and at question-answering positions.
+   THIRD INSTANCE (2026-06-11, chapter-17): G-17-035's "Abjuration, cast
+   for the commons." inside the Tzutujil metal-roof passage — the witness:
+   "briefly ejected me. I recognized it as a term of art from a different
+   register, and for one sentence the spell broke. I came back immediately."
+   Same protection (school-naming + abjuration-thread anchor). The pattern
+   is now consistent across three witnesses: the school-name formulas chill
+   at felt-register landings even where the surrounding chapter holds. Your
+   call whether the anchor layer moves to the thread pages' frame text
+   book-wide; all three sites itemized here.

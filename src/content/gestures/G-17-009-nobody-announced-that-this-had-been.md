@@ -23,4 +23,4 @@ notes: >-
 ---
 Nobody announced that this had been significant. Nobody needed to. The community already knew how to receive a singular presence — to pause, to attend, to let it speak and then let it go. The form of the circle had already taught them that. The owl arrived, and the form held him, and the form held the group, and both were the same form.
 
-This is the chapter's central image. Not the owl — the receiving. The community that already knows how to attend to what arrives from outside its ordinary frame. The community that has built, through practice, the capacity to welcome the singular and be changed by it.
+Not the owl — the receiving. The community that already knows how to attend to what arrives from outside its ordinary frame. The community that has built, through practice, the capacity to welcome the singular and be changed by it.
