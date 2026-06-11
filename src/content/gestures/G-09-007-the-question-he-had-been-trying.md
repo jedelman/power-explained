@@ -14,4 +14,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The question he had been trying to answer since Turin was not abstract. It was urgent and personal: *why did the councils fail?* And the answer he arrived at across those notebooks is the argument this chapter is about.
+The question he had been trying to answer since Turin was not abstract. It was urgent and personal: *why did the councils fail?*

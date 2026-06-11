@@ -1135,3 +1135,129 @@ residue and the shrug saturation are logged as flags, not edited — the
 first is Jason's voice in a locked gesture, the second the witness itself
 called "not a failure of the section." The Foucault drift became interview
 row 8, low priority.)*
+
+---
+
+## chapter-9 (P-09) — witnessed 2026-06-11 (post-refinement; its report prompted the catalogue cut, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read**
+
+I leaned in immediately, at the Tuesday morning scene in the Fiat plant.
+Something about the specificity — "a machinist who has been making the same
+cut for ten years" — made it land in the body before I had a concept for it.
+That sentence did something. The ordinary and extraordinary simultaneously:
+I felt that. Not as an idea. As a recognition of something I know from
+moments at work when a room reorganizes itself and everyone present knows,
+for a second, that the hierarchy was a choice.
+
+Then it collapsed fast. Mussolini. The prosecutor's line — "we must stop
+this brain from functioning for twenty years" — landed hard. Not because it
+was dramatic but because it was precise. That sentence named the threat
+accurately. Power knew exactly what it was afraid of.
+
+I drifted slightly in the biographical section on Gramsci. Sardinia,
+scholarship, Turin. I read it but it felt like it was preparing me for
+something rather than being something. I was patient with it because I
+already trusted the chapter.
+
+Then the "think about a moment" passage on the reflex dismissal — *that's
+not realistic* — I felt that in the chest. I have had that reflex. Many
+times. And the sentence "it just feels like knowing" named the texture of it
+with precision I have not encountered before. That's where I stopped being a
+reader and became something closer to a witness to my own prior states.
+
+The explanation of hegemony came after, and I followed it easily because I
+had already felt it. That's the right order.
+
+I drifted again slightly in the catalogue of examples toward the end —
+Valencia, Arizmendi, Zapatistas, land trusts. Not because they were wrong.
+They were real. But the list accumulated and I needed to trust the author
+that each earned its place, and I was doing a bit of work to maintain that
+trust rather than the text doing it for me.
+
+The restaurant section: I leaned back in. Something personal entered. The
+honesty of "we weren't willing to accept those terms, and so we stopped.
+That's a different story than failure." That hit in the chest. I know that
+distinction. I have made that distinction about my own decisions and been
+unable to say it that cleanly.
+
+The ending: the pollen and the lawnmowers and the price of gas — I was back.
+The interregnum made visible through the daily irritants. The great crested
+flycatchers. I felt something lift in me at the flycatchers and then felt
+embarrassed about feeling it, and then felt the author had earned it, and
+stopped being embarrassed.
+
+The final paragraphs: the war of position as a personal practice, the book
+as the current form available, the bread and curry and beans. "I just wish
+it felt like that more often." That sentence broke something open quietly.
+Not a speech. Just honest. That was the sentence I would carry out of the
+chapter.
+
+**2. What I now see that I didn't before, or cannot unsee**
+
+I cannot unsee the distinction between force and hegemony as a description
+of my own prior thinking. I have thought about power primarily as force —
+visible, resistible, named. The idea that most of it works through the
+production of what feels normal, what feels realistic, what a reasonable
+person assumes — that I have always sort of known but have not had the
+language for at this precision. Now I have the language. That changes what I
+look at.
+
+I also cannot unsee the councils' specific failure. They were right.
+Everything about them was right. They still fell — not from being wrong but
+from being isolated, building nothing in the surrounding terrain. I have
+thought about the failure of good ideas as a question of whether the idea
+was good enough. This chapter argues the question is different: whether the
+terrain was prepared to receive them. That is a different question and it
+changes what building means.
+
+**3. What I feel asked to do, or become**
+
+I feel asked to keep building in the form available. But the chapter is
+careful about this. It hands me the idea and does not tell me what my form
+is. It's mine to discover. The author told me theirs — the book, the bread,
+the beans. They did not tell me mine. They gave me the framework and
+withheld the application, which is the right move. The chapter earns its ask
+precisely by not making it explicit.
+
+The thing it asks me to become, more than do: someone who understands that
+not seeing the results of what you build is not failure. That's a harder
+becoming than a task.
+
+**4. What this chapter IS, in one sentence**
+
+It's the explanation of why the best ideas keep losing, told by someone who
+has personally absorbed that loss and kept building anyway.
+
+**5. What I bounced off**
+
+The catalogue in the third-to-last section — Valencia, Arizmendi,
+Zapatistas, land trusts, cooperatives — arrived in accumulation and I felt
+the pacing shift into a mode I can only call "listing toward a conclusion."
+Each item was real. I believed each one. But taken together in that sequence
+I felt the argument being reinforced rather than advanced. I was not
+lectured to — that's too strong — but I was held at a slight distance for
+that passage where I had been close in throughout.
+
+And one small doubt: the final sentence — "Luxemburg's hands were one pair.
+She knew what she was holding." It's a clean close. It's earned. But it
+arrives as a bridge to something I haven't read, and I felt it slightly as a
+promise rather than a landing. That may be intentional. It put me in a
+posture of waiting rather than completion. Whether that's a failure or a
+design is something only the next chapter can answer.
+
+Those are my only resistances. They are minor. The chapter did what it said
+it would do — I saw something, felt something, and came out different from
+when I went in.
+
+*(Editor's note: this reading prompted one more cut — the catalogue
+distance had a concrete source: the close's "Every land trust, every
+cooperative, every mutual aid network… these are positions being won right
+now" sentence re-listed, nearly verbatim, what the Part-II recognitions
+section had already delivered. Cut whole; the paragraph now advances
+directly to the 1919→2020 historical thread; round-2 Opus PASS. The
+Luxemburg "promise rather than landing" is the protected forward-link close
+working as designed — the witness suspected as much. Note for the
+cross-cutting log: hegemony theory WARMED this witness ("I had already felt
+it. That's the right order") — the reflex-first delivery is the
+theory-section fix working without an image.)*

@@ -22,5 +22,3 @@ notes: >-
   2026-05-20]
 ---
 Gramsci died in 1937 with the notebooks smuggled out. The councils were long gone. Fascism was everywhere. He had been in prison for eleven years and would not live to see what the notebooks would do — how they would circulate through the hands of builders doing war-of-position work without quite having the language for it, giving that work a name — *the war of position* — precise enough to build on.
-
-He knew what he was building. He built it anyway.

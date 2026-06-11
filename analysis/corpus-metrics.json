@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-11T17:14:23.060Z",
+  "generatedAt": "2026-06-11T17:24:40.770Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
-    "gestures": 968,
-    "words": 84133,
-    "sentences": 5934
+    "gestures": 967,
+    "words": 84028,
+    "sentences": 5928
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.41,
+    "fleschReadingEase": 59.42,
     "fleschKincaidGrade": 8.49,
     "gunningFog": 11.91,
-    "smog": 11.63,
+    "smog": 11.62,
     "colemanLiau": 9.79,
     "automatedReadabilityIndex": 7.83,
-    "avgWordsPerSentence": 14.18,
+    "avgWordsPerSentence": 14.17,
     "avgSyllablesPerWord": 1.57
   },
   "plateauMetrics": [
@@ -418,22 +418,22 @@
       "id": "P-09",
       "slug": "chapter-9",
       "title": "Chapter 9: He Built It Anyway",
-      "gestureCount": 29,
-      "words": 2444,
-      "sentences": 166,
-      "avgWordsPerSentence": 14.72,
+      "gestureCount": 28,
+      "words": 2339,
+      "sentences": 160,
+      "avgWordsPerSentence": 14.62,
       "avgSyllablesPerWord": 1.59,
-      "fleschReadingEase": 57.51,
-      "fleschKincaidGrade": 8.89,
-      "gunningFog": 12.63,
-      "colemanLiau": 10.29,
-      "automatedReadabilityIndex": 8.44,
-      "smog": 12.13,
+      "fleschReadingEase": 57.81,
+      "fleschKincaidGrade": 8.83,
+      "gunningFog": 12.55,
+      "colemanLiau": 10.27,
+      "automatedReadabilityIndex": 8.38,
+      "smog": 12.07,
       "smogReliable": true,
-      "lexicalEntropy": 8.26,
-      "typeTokenRatio": 0.33,
-      "meanGestureWords": 84.28,
-      "stdGestureWords": 53.22,
+      "lexicalEntropy": 8.25,
+      "typeTokenRatio": 0.34,
+      "meanGestureWords": 83.54,
+      "stdGestureWords": 53.79,
       "structuralEntropyNorm": 0.96
     },
     {
@@ -636,19 +636,19 @@
     }
   ],
   "gestureDistributions": {
-    "count": 968,
-    "readableCount": 756,
+    "count": 967,
+    "readableCount": 754,
     "wordCount": {
-      "n": 968,
+      "n": 967,
       "p10": 11,
       "p25": 35,
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.16
+      "mean": 87.14
     },
     "lexicalEntropy": {
-      "n": 968,
+      "n": 967,
       "p10": 3.28,
       "p25": 4.61,
       "p50": 5.42,
@@ -657,7 +657,7 @@
       "mean": 5.12
     },
     "typeTokenRatio": {
-      "n": 968,
+      "n": 967,
       "p10": 0.6,
       "p25": 0.66,
       "p50": 0.73,
@@ -666,26 +666,26 @@
       "mean": 0.74
     },
     "fleschKincaidGrade_3plusSentences": {
-      "n": 756,
+      "n": 754,
       "p10": 4.43,
-      "p25": 6.11,
+      "p25": 6.12,
       "p50": 8.18,
-      "p75": 10.8,
+      "p75": 10.79,
       "p90": 12.83,
       "mean": 8.52
     },
     "fleschReadingEase_3plusSentences": {
-      "n": 756,
+      "n": 754,
       "p10": 35.79,
-      "p25": 46.66,
+      "p25": 46.85,
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.47
+      "mean": 59.48
     }
   },
   "transitionalEntropy": {
-    "total": 938,
+    "total": 937,
     "reliable": 224,
     "paragraphMeanDist": 0.96,
     "sectionMeanDist": 0.95

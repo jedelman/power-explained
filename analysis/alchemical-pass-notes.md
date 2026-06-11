@@ -44,8 +44,13 @@ Orgone-accumulator DONE (2 dissolutions — a dangling back-reference and a
 witness-flagged defensive clause, both pure deletions under the full
 beauty-lock, both PASS; witness MATCH — "I noticed my jaw… I was already
 inside the text before I had agreed to be"). 11 of 28 sources done.
-Next chapter: chapter-9 (P-09, river order, source 12 of 28) — Luxemburg;
-protected forward-link close G-09-040; no beauty locks, no thread members.
+Chapter-9 DONE (5 dissolutions incl. the retirement of G-09-017 and a
+witness-driven explained-twice cut, all PASS; witness MATCH — "I stopped
+being a reader and became something closer to a witness to my own prior
+states"). 12 of 28 sources done.
+Next chapter: chapter-10 (P-10, river order, source 13 of 28) — protected:
+forward-link close G-10-042; singularity motif G-10-009; the
+buried-because-threatening chiasm G-10-040. No beauty locks, no threads.
 
 ---
 
@@ -105,6 +110,7 @@ recomposed, and verdicts)
 | the-colony | 6488→6448 | 10.23→10.22 | 14.17→14.15 | 67→67 | MATCH |
 | chapter-8 | 2607→2580 | 10.92→10.81 | 16.19→16.23 | 22→22 | MATCH |
 | orgone-accumulator | 7492→7464 | 8.80→8.79 | 20.14→20.12 | 24→24 | MATCH |
+| chapter-9 | 2444→2339 | 8.89→8.83 | 14.72→14.62 | 29→28 | MATCH |
 
 ---
 
@@ -558,6 +564,46 @@ incants subliminally, the hypertext layer is the reveal.
   shrug-section saturation ("not a failure of the section — a consequence
   of the chapter's early strength").
 
+### chapter-9 (P-09) — 5 EDITS, ALL PASS · witness MATCH · 2026-06-11
+
+- **Essence:** The councils were right and still they fell — not of will but
+  of territory: hegemony is the terrain that decides what feels realistic
+  before anyone argues. The war of position is the answer the failure
+  taught: build the counter-terrain in the form available to you, knowing
+  you probably won't see what it becomes. He built it anyway.
+- **Invocation:** the reader feels their own "that's not realistic" reflex
+  named as built terrain, and leaves with the war of position as theirs —
+  keep building in the form available, against the knowledge you won't see
+  what it becomes.
+- **Edits (5):** (1) G-09-007: chapter-about announcement cut ("…is the
+  argument this chapter is about") — lands on the question itself. (2)
+  G-09-017 RETIRED (pure cut, single-sentence "Here is Gramsci's answer…"
+  gesture) — the war of position now arrives as discovery inside G-09-018's
+  maneuver/position contrast; critic: "the seam is in fact better than
+  before." (3) G-09-033: explained-twice restatement of the interregnum
+  quote cut — the pollen paragraph now demonstrates directly. (4) G-09-037:
+  the bare middle "He knew what he was building. He built it anyway." cut —
+  diluting-repetition of the TITLE motto (3 in-text sites → 2: earned at the
+  restaurant, collected at the close); critic weighed the title complication
+  and upheld ("the final use collects rather than recaps"; the load-bearing
+  echo into Luxemburg is hands/holding, untouched). (5) G-09-036,
+  witness-driven: the re-listing sentence ("Every land trust, every
+  cooperative… these are positions being won right now") cut as
+  explained-twice of the Part-II recognitions list; round-2 PASS.
+- **Witness (blind, Sonnet):** MATCH. The reflex passage: "*that's not
+  realistic* — I felt that in the chest… That's where I stopped being a
+  reader and became something closer to a witness to my own prior states."
+  Hegemony THEORY WARMED this witness — "I followed it easily because I had
+  already felt it. That's the right order" (felt-first delivery works; cf.
+  cross-cutting). Can't unsee: "whether the terrain was prepared to receive
+  them. That is a different question and it changes what building means."
+  The Stone: "They gave me the framework and withheld the application,
+  which is the right move… a harder becoming than a task." Carried out: "I
+  just wish it felt like that more often." Bounces: the example catalogue
+  ("reinforced rather than advanced") → fixed by edit 5; the Luxemburg
+  close felt "as a promise rather than a landing… may be intentional" —
+  it is (protected forward-link), no action.
+
 ## Cross-cutting patterns (updated)
 
 - Both witnesses so far (overture, prologue) spontaneously verified the
@@ -580,7 +626,12 @@ incants subliminally, the hypertext layer is the reveal.
   cut. This is a book-scale register-oscillation question for Jason: is the
   theory the "disenchanted world" the reader must pass through deliberately,
   or do the summaries want interleaving with more concrete? Evidence
-  accumulating per chapter. (The Latinate theory chapters — 5, 8, 10, 11 —
+  accumulating per chapter. CH-9 COUNTER-CASE (2026-06-11): the hegemony
+  theory passage WARMED its witness — "The explanation of hegemony came
+  after, and I followed it easily because I had already felt it. That's the
+  right order." The reflex demonstration ("that's not realistic… it just
+  feels like knowing") preceded the concept. Felt-first delivery is a third
+  proven warmer alongside persons and images. (The Latinate theory chapters — 5, 8, 10, 11 —
   will be the stress test.)
 - **The lexicon-naming finding (chapters 1-2, escalating).** Ruling 2 covers
   UNPROTECTED meta-announcements (cut). But the blind witnesses are now also
