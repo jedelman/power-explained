@@ -261,3 +261,58 @@ No prose needed — the weave is the centaur's job.
 Opus critique incl. image-map consistency check → fresh Sonnet witness on
 the affected chapter). New image-families get registered in the image-map
 section above so no future weave collides.
+
+---
+
+## Master-image candidates (editor's analysis from the 11 completed rows, 2026-06-11 — CANDIDATES for Jason's work session, not choices)
+
+Reading the completed rows together, the concepts cluster into three
+families — and the three map onto the book's three deepest mechanisms.
+That mapping is the argument for them being masters:
+
+**1. THE SOIL SYSTEM — the prior layer (what conditions everything).**
+You seeded this one yourself with hegemony = soil conditions. The design
+note already proposes the integrated system: *conditions* = hegemony,
+*absorption* = capture, *sediment* = the laid-down past, and ch-2's row
+wants *seedbank/rootstock* (the coppice that regrew because the roots
+survived Franco). One soil, distinct behaviors, sibling concepts.
+Unlocks: rows 2 (answered), 3, and arguably 7's "soil mined of nutrients
+faster than they return."
+
+**2. THE WATERSHED — the flow layer (what is extracted and from where).**
+The book is already a river; the zanjera, the acequia, the Narmada, the
+creek are already its waters — this family would make the form enact the
+thesis one more time. The behaviors: *the dam upstream* (the colony's debt
+trap — leverage removed, flow continuing), *the waterline the marsh never
+drops below* (Kerala's floor), *the water table dropping a little every
+season no matter the rain* (debt compounding), *the water the economy
+swims in* (care — already in the text). Unlocks: rows 5, 6, 7, 10 — and
+possibly row 1: the prologue's six levels as one watershed walked from
+ridge to estuary, always the same water. That would dissolve the syllabus
+problem by replacing the map with a descent.
+
+**3. THE CANOPY AND THE DARK BENEATH — the visibility layer (what is seen,
+managed, and photographed).** The anchors already exist in the book and
+the witnesses confirmed them: the Goetia orchard (biopower managing the
+canopy for fruit), 16b's canopy-photographed/mycorrhizal-dark (a witness:
+"permanently attached to how I think about what gets encoded"), and P-AB's
+planted forest ("extremely tall, skinny trees grown close together for
+straightness… already wrong before you reached the cut") — which is the
+MONOCULTURE PRETENDING TO BE A FOREST, i.e. the simulacrum on land.
+Unlocks: rows 4, 9 (attention enclosed = light pollution / the field too
+noisy for alarm calls), 11 (the system of objects = the plantation's
+curated coherence).
+
+**Where flowering went:** your third original candidate may not need to be
+an explanatory family at all — the Flowering Earth is already the book's
+named destination (ch-18). Soil, water, and light are the conditions;
+flowering is what they're FOR. It may belong to the close, not the theory.
+
+**Rows the masters don't reach:** row 8 (discipline/trellis — low
+priority, witness barely drifted). It can take its own small image or
+stay as is.
+
+**The consistency discipline still governs:** soil-absorbing stays
+reserved for capture; mycorrhizae for the pre-individual field; the meadow
+for the unmown refusal. The masters would be SYSTEMS those reserved images
+already live inside, not replacements for them.
