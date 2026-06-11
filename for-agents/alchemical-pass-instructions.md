@@ -325,7 +325,11 @@ incantation; rhyme-variants only where the primary word cannot sit):**
 | Pact | bind / bound | — |
 | Invocation | call by name | — |
 
-**Disambiguations (critic findings, 2026-06-10):** bare *turn/turned* =
+**Disambiguations (critic findings, 2026-06-10):** Prefiguration's sneak is
+the AS-IF construction and the build-it-now imperative ("build the world that
+doesn't need X, now / as if already here") — no single noun; the explicit
+chord survives exactly twice (locked ch-4, kept ch-6) and further explicit
+instances fold per diluting-repetition. bare *turn/turned* =
 Transformation; the two-word unit *turned toward* = re-territorialization —
 hold this across all chapters. *Ritual* sits on both lists: native uses stay;
 only the taxonomic formula ("Ritual cast for…") transmutes — G-17-049 needs a

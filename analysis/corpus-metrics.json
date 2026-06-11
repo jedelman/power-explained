@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-11T16:10:32.283Z",
+  "generatedAt": "2026-06-11T17:03:30.110Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 968,
-    "words": 84188,
-    "sentences": 5937
+    "words": 84161,
+    "sentences": 5935
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.39,
-    "fleschKincaidGrade": 8.5,
+    "fleschReadingEase": 59.42,
+    "fleschKincaidGrade": 8.49,
     "gunningFog": 11.91,
     "smog": 11.63,
     "colemanLiau": 9.79,
@@ -397,22 +397,22 @@
       "slug": "chapter-8",
       "title": "Chapter 8: No Name for It",
       "gestureCount": 22,
-      "words": 2607,
-      "sentences": 161,
-      "avgWordsPerSentence": 16.19,
-      "avgSyllablesPerWord": 1.71,
-      "fleschReadingEase": 45.6,
-      "fleschKincaidGrade": 10.92,
-      "gunningFog": 14.69,
-      "colemanLiau": 12.06,
-      "automatedReadabilityIndex": 10.45,
-      "smog": 13.54,
+      "words": 2580,
+      "sentences": 159,
+      "avgWordsPerSentence": 16.23,
+      "avgSyllablesPerWord": 1.7,
+      "fleschReadingEase": 46.45,
+      "fleschKincaidGrade": 10.81,
+      "gunningFog": 14.6,
+      "colemanLiau": 11.94,
+      "automatedReadabilityIndex": 10.36,
+      "smog": 13.49,
       "smogReliable": true,
-      "lexicalEntropy": 8.44,
+      "lexicalEntropy": 8.43,
       "typeTokenRatio": 0.34,
-      "meanGestureWords": 118.5,
-      "stdGestureWords": 111.6,
-      "structuralEntropyNorm": 0.94
+      "meanGestureWords": 117.27,
+      "stdGestureWords": 111.82,
+      "structuralEntropyNorm": 0.92
     },
     {
       "id": "P-09",
@@ -643,9 +643,9 @@
       "p10": 11,
       "p25": 35,
       "p50": 70,
-      "p75": 112,
+      "p75": 111,
       "p90": 175,
-      "mean": 87.21
+      "mean": 87.19
     },
     "lexicalEntropy": {
       "n": 968,
@@ -670,18 +670,18 @@
       "p10": 4.43,
       "p25": 6.11,
       "p50": 8.18,
-      "p75": 10.81,
+      "p75": 10.8,
       "p90": 12.83,
-      "mean": 8.53
+      "mean": 8.52
     },
     "fleschReadingEase_3plusSentences": {
       "n": 756,
-      "p10": 35.77,
+      "p10": 35.79,
       "p25": 46.66,
       "p50": 60.46,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.44
+      "mean": 59.47
     }
   },
   "transitionalEntropy": {

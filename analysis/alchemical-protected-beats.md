@@ -10,6 +10,15 @@ gestures that belong to published threads (paths), and the beauty_check
 gestures (deletion-only under the 2026-06-10 re-gating — itemize any deletion
 in the commit header).
 
+**Ruling 3 reconciliation (2026-06-10):** entries below that quote the
+explicit school-formula ("X cast for Y — gloss") are governed by the
+sneaked-name directive: in analytical chapters the LABEL has been or will be
+transmuted to the school's motion-word; the protected thing is the WORK (the
+gloss-image and the sneaked word). A quoted label that no longer appears
+verbatim in the body is NOT a revert trigger if the work and motion-word
+survive — check the alchemical logbook's per-chapter entry before flagging.
+Wizard-ceremony chapters and beauty-locked gestures keep their labels.
+
 **How to use it.** Editors: read your chapter's section before touching the
 chapter. Critics: receive the chapter's section with the critique prompt; a
 draft that drops or weakens a protected beat fails. A protected sentence may be

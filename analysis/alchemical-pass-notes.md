@@ -37,9 +37,12 @@ theory-through-persons finding CONFIRMED: the witness took the chapter's
 densest math as "a tool I could actually use").
 The-colony DONE (6 transmutations, all PASS; witness MATCH — the sneaked
 names invisible, the swimming pools "irreversible"). 9 of 28 sources done.
-Next chapter: chapter-8 (P-08, river order, source 10 of 28) — No Name for
-It: Wynter/Crenshaw/Combahee/Davis; FK 11.52, the densest chapter in the
-book; 2 thread members (divination); watch the framework-gap theory section.
+Chapter-8 DONE (5 transmutations + 1 witness-driven header cut, all PASS;
+witness MATCH — "the gap is load-bearing… I don't think I can put it down").
+10 of 28 sources done.
+Next chapter: orgone-accumulator (P-OA, river order, source 11 of 28) — the
+body chapter: ALL 24 gestures beauty-locked (deletion-only); Reich, the
+floor, kokoro, the shrug; the largest gestures in the book (347 w/avg).
 
 ---
 
@@ -97,6 +100,7 @@ recomposed, and verdicts)
 | chapter-4 | 4015→4015 | 9.20→9.20 | 14.39→14.39 | 27→27 | MATCH (passes clean) |
 | chapter-5 | 2538→2495 | 8.15→8.13 | 12.14→12.05 | 28→28 | MATCH |
 | the-colony | 6488→6448 | 10.23→10.22 | 14.17→14.15 | 67→67 | MATCH |
+| chapter-8 | 2607→2580 | 10.92→10.81 | 16.19→16.23 | 22→22 | MATCH |
 
 ---
 
@@ -472,6 +476,41 @@ incants subliminally, the hypertext layer is the reveal.
   supremacy out of my friends" — "the only moment where I briefly felt the
   chapter slip from witness to performance… It recovered immediately" —
   Jason's first-person line, his voice, FLAG only.
+
+### chapter-8 (P-08) — 6 EDITS, ALL PASS · witness MATCH · 2026-06-10
+
+- **Essence:** Beneath the colony and the outside sits the framework itself
+  — the category of the human, built as a self-portrait pretending to be a
+  mirror, deciding which experiences exist before any decision is made. The
+  turn: the gap is not a crack; it is the system working as designed — and
+  the women who fell through it built the tools from the fall.
+- **Invocation:** the reader sees frameworks as decisions, the absence of a
+  category as enclosure, and takes the commons-builder's hardest discipline:
+  start from the most excluded.
+- **Edits (6):** 5 transmutations — G-08-005 divination label folded
+  (read/named already carry it); G-08-015 → "Rupture, at the deepest
+  possible scale — the code of *Man* itself broken" (deliberate
+  cross-chapter parallel with ch-2's "Rupture, at municipal scale" — critic:
+  "the strongest single instance of the gathering-weight mechanism");
+  G-08-019a → "The reading was collective."; G-08-020 → "The lineage was
+  already there: the wizard before the wizard's name."; G-08-024
+  prefiguration chord THINNED (the explicit chord survives exactly twice —
+  locked ch-4 + kept ch-6; the third instance folded per
+  diluting-repetition; critic upheld: "two-explicit-plus-sneaked is
+  stronger"). Plus 1 witness-driven cut: G-08-014's recap header ("This is
+  the foundation of everything…") dissolved — the You-cannot anaphora now
+  opens cold and "All of it rests here" collects backward (round-2 critic:
+  "demonstrate-then-collect… keep the cut").
+- **Witness (blind, Sonnet):** MATCH. "I cannot unsee the gap as a design
+  feature… The gap is load-bearing"; the LLM passage "landed hard… I felt
+  that in the chest"; the ontological sequence received: "you need the
+  ontological exclusion before the economic one is possible. I hadn't had
+  that in that order before." The Stone: "must start from the most excluded
+  — handed to me… as a test for any project I'm part of."
+- **Bookkeeping:** protected-beats inventory header gained the Ruling 3
+  reconciliation note (transmuted labels ≠ revert triggers); prefiguration's
+  sneak registered in the word-map (as-if + build-it-now imperative; chord
+  capped at two explicit instances).
 
 ## Cross-cutting patterns (updated)
 

@@ -945,3 +945,76 @@ invisible to this reader: Palmares, the gather/cast-out chiasm, and the
 lineage-held line all landed without any label complaint. The
 structural-adjustment drift became interview row 7. The "deprogramming" slip
 is Jason's first-person voice — flagged to him, untouched.)*
+
+---
+
+## chapter-8 (P-08) — witnessed 2026-06-10 (post-transmutation, Sonnet) · verdict MATCH
+
+**1. What happened to me as I read.**
+
+I leaned in immediately at the General Motors case — the precision of the
+court's reasoning, the way it named what it was doing while doing something
+worse. "The Black women fell through the gap between the legally recognized
+categories." I felt that before I understood it. Then I drifted slightly
+during the transition to Wynter — there was a lot of biographical setup
+before the argument arrived. When it arrived — *overrepresentation* — I came
+back fast. The LLM passage landed hard. "The most important thing about any
+person is precisely what averaging destroys." I felt that in the chest before
+I located the thought. The Norfolk section pulled me in differently, almost
+too personally — it shifted the register so completely that I had to
+reorient. Davis's material — the prison population numbers, the chain of
+traceable decisions — I read quickly, verifying rather than discovering. The
+close, "The bombs kept coming and people kept moving in anyway," landed
+quietly. I sat with it.
+
+**2. What I now see that I didn't see before, or can no longer unsee.**
+
+I cannot unsee the gap as a design feature. Before this, I think I understood
+exclusion as failure — oversight, negligence, prejudice not yet corrected.
+The chapter makes that impossible to hold. The gap is load-bearing. The law
+that couldn't see the Black women at General Motors wasn't broken; it was
+working as designed, for the people whose experiences shaped the design. That
+reframe is not comfortable and I don't think I can put it down. The Wynter
+move also stays: the definition of the human is someone's self-portrait
+pretending to be a mirror. That's the prior thing — the thing before
+enclosure, before capture, before race as mechanism. I see the sequence now:
+you need the ontological exclusion before the economic one is possible. I
+hadn't had that in that order before.
+
+**3. What I feel asked to do, or to become.**
+
+The chapter hands me the structure and keeps the assignment. It doesn't tell
+me what to do; it tells me what kind of work would follow from understanding
+this. The line that felt most like an ask was the commons-building
+implication: "must start from the most excluded." That one felt like it was
+handed to me — not abstractly, but as a test for any project I'm part of. Is
+this built from the most advantaged among its dependents? I feel asked to
+hold that question. The decision about what to do with it feels like mine.
+
+**4. What I would say this chapter IS, in one sentence, to a friend.**
+
+This chapter is the floor beneath everything the book has already built — the
+moment you see that the design of what counts as human is itself the first
+and deepest enclosure.
+
+**5. What I bounced off — felt lectured by, doubted, or wanted to skip.**
+
+The one place I felt the chapter explaining rather than showing was the
+paragraph that begins "This is the foundation of everything the previous
+chapters have described." It names the connections explicitly — colony,
+framework, necropolitics — where the chapter had been trusting me to hold
+them. I didn't need the inventory. The argument had already arrived;
+summarizing it pulled me slightly out of the experience. Everywhere else, I
+was being shown. That paragraph told.
+
+*(Editor's note: the five sneaked-name transmutations — divination folded
+into Crenshaw's reading-the-gap, the rupture-of-the-code-of-Man parallel to
+ch-2's municipal rupture, the collective reading at Combahee, the
+wizard-before-the-wizard's-name lineage line, and the prefiguration
+chord-thinning — were all invisible to this reader: no label complaint
+anywhere, and the witness's own sentence "I see the sequence now" arrives in
+the chapter's verbs. The one bounce was acted on: the recap header "This is
+the foundation of everything the previous chapters have described." was cut
+from G-08-014 — the You-cannot anaphora now opens cold, demonstrate-then-
+collect — and the cut passed round-2 Opus critique. The witness report above
+is the original blind reading, pre-cut, preserved verbatim.)*
