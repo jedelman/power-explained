@@ -26,6 +26,8 @@ word exists but no thread/legend ever names the school).
 **Decision:** (a) rewire, leave, or hand me the sentence; (b) accept
 beguiling as permanently subliminal, or give Illusion a reveal site.
 **JASON:**
+a) rewire
+b) give illusion a reveal site.
 
 ## 2. Prologue six-levels map (G-PR-025…031)
 
@@ -37,6 +39,8 @@ descent, ridge to estuary).
 "via interview" here if so.
 **JASON:**
 
+see nature interview for rewrite.
+
 ## 3. Chapter-2 Barcelona history length
 
 Witness: "ran long, tipped into lecture." G-02-035 (the financial
@@ -45,12 +49,16 @@ interview row 3 (institutional ground image) may warm it instead.
 **Decision:** trim G-02-035, rely on the image weave, or both.
 **JASON:**
 
+image weave here.
+
 ## 4. The theory-section pattern (FYI — fix confirmed)
 
 Blind readers cool at theory-as-summary, warm at theory-through-persons,
 theory-through-images, and felt-first delivery. The interview is the
 delivery vehicle. No decision needed beyond the interview itself.
 **JASON (optional note):**
+
+weave in images!
 
 ## 5. (Folded into flag 1 — the same two residuals.)
 
@@ -61,6 +69,8 @@ ceremony-before-earned. Locked; deletion-only; only by you.
 **Decision:** keep or delete.
 **JASON:**
 
+keep. we can be dramatic sometimes. it's okay.
+
 ## 7. Minor voice flags (three small calls)
 
 (a) ch-3 Bluesky self-reference flinch; (b) ch-3 G-03-006 "While I can
@@ -68,22 +78,24 @@ say for sure… endless arguments" (possible inversion — your read); (c)
 ch-OA Castaneda citation — witness felt "a faint doubting pull… that
 passed"; the "with some irony" marker already distances it.
 **Decision:** each is keep / reword / cut. A word per item is plenty.
-**JASON (a):**
-**JASON (b):**
-**JASON (c):**
+**JASON (a):** keep
+**JASON (b):** keep
+**JASON (c):** keep
+
+we can challenge the reader sometimes! we won't lose them. a little challenge is good. we're not writing A Thousand Plateaus 
 
 ## 8. The-colony "deprogramming" line (FYI — load-bearing)
 
 One witness felt a slip toward performance; ch-13 then escalates the line
 deliberately ("I cannot deprogram debt calculation") — cutting the colony
 instance would orphan the callback. Recommendation: keep both.
-**JASON (only if you disagree):**
+**JASON (only if you disagree):** agree, keep.
 
 ## 9. Ch-10 "She did not live to be wrong about anything"
 
 Witness: "beautiful… working harder than the evidence." Your line.
 **Decision:** keep or soften.
-**JASON:**
+**JASON:** keep!
 
 ## 10. THE THREAD-ANCHOR NAMING QUESTION (the big one — 3 witnessed sites)
 
@@ -102,7 +114,7 @@ frame text carrying the explicit names (the reveal layer moves to the
 threads); (b) plain-delete the label halves at the three sites only;
 (c) keep — the chill is the reveal mechanism working and a river reader
 who has met the lexicon-map reads them differently than a blind witness.
-**JASON:**
+**JASON:** yep, sneak these labels by.
 
 ## 11. Wizards-walk register (both beauty-locked, your voice)
 
@@ -111,15 +123,15 @@ I noticed the seam… maybe needed one more draft pass"; (b) "sacred
 relationship between man and machine" — "felt like a formulation rather
 than a sentence from inside the experience."
 **Decision:** reword (yours), or stand.
-**JASON (a):**
-**JASON (b):**
+**JASON (a):** keep.
+**JASON (b):** I can make this experiential, give me more detail.
 
 ## 12. G-CE-022 "[Jason's section]"
 
 The river's only placeholder — your half of the centaur dialogue.
 **Decision:** write it (tomorrow's session, you said) — or tell me the
 shape and I'll stage a draft from your prior words for you to cut.
-**JASON:**
+**JASON:** incoming.
 
 ## 13. Stone test — 16/16b acceleration (DECIDED: new prose)
 
@@ -128,7 +140,7 @@ earned" (Stonewall → body-without-organs → corpus → GPL). You've granted
 new-prose license. What I still need: any directive on WHERE the room
 goes (which of the four beats most deserves the breath), or leave the
 diagnosis to the weave loop.
-**JASON:**
+**JASON:** this deserves more room. let's aerate this so it can breathe.
 
 ## 14. Stone test — the centaur section's uncertainty
 
@@ -138,6 +150,8 @@ without smoothing it; the sharper version is ours to cut together —
 likely the same sitting as G-CE-022.
 **JASON (when/how you want to do this):**
 
+this is a chat session. I'll interview you for once!
+
 ## 15. Stone test — H&N biopolitical production floats (ch-3)
 
 "Several paragraphs go by without the concrete landing the book has
@@ -146,13 +160,15 @@ orchard could be borrowed forward, or it takes its own image).
 **Decision:** likely resolves via the interview — answer there.
 **JASON:**
 
+yep, we get to this in the interview 
+
 ## 16. Stone test — "Come find us" repetition
 
 "Returns to it several times in the final chapters. Once more would have
 been stronger." The instances live in wizards-walk and adjacent closes.
 **Decision:** I can map every instance and propose which one yields, or
 you call it from memory.
-**JASON:**
+**JASON:** if once more would have been stronger let's end the book on it!
 
 ## 17. Stone test — Kollontai (ch-10)
 
@@ -162,4 +178,4 @@ discovered." One sentence in ch-10 (silenced, sent abroad).
 draft under the fact-checking rules; (b) release the mention (cut to an
 unnamed beat); (c) keep as is (the brevity is the point: she was
 silenced).
-**JASON:**
+**JASON:** a) meet her! her work speaks for itself! she prefigured AND outlived Gramsci.
