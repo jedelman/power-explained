@@ -244,7 +244,7 @@ Transformation at 2 instances; Illusion zero-by-design, routed to Jason.)
 
 ---
 
-## Alchemical pass (CHAPTER LOOP COMPLETE 2026-06-11 — Stone test at wrap-up)
+## Alchemical pass (CHAPTER LOOP COMPLETE 2026-06-11 — Stone test at wrap-upACTIVE — started 2026-06-10)
 
 The river refined to its essence — alchemy in the Jungian sense: removal that
 qualitatively transforms (dissolving what weakens or corrupts) and
@@ -429,3 +429,6 @@ risk. Check them separately, every time.
 
 ### Attribution rule
 Always attribute to the originating outlet, not a secondary one.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5NTQ1MDgyNDFdfQ==
+-->

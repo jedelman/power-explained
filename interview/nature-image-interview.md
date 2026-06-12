@@ -315,4 +315,19 @@ stay as is.
 **The consistency discipline still governs:** soil-absorbing stays
 reserved for capture; mycorrhizae for the pre-individual field; the meadow
 for the unmown refusal. The masters would be SYSTEMS those reserved images
-already live inside, not replacements for them.
+already live inside, not replacements for them(rows 5+ append as the pass walks — the known heavy-theory sections
+coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
+framework gap / intersectionality; ch-10 war of position; ch-13 the debt
+machinery; ch-15 the care economy's invisible foundation; ch-16 the system
+of objects / the spectacle. Each gets its row, with witness quotes, when
+its chapter is witnessed.)
+
+---
+
+**Process when answered:** images woven per the standard loop (Fable weave →
+Opus critique incl. image-map consistency check → fresh Sonnet witness on
+the affected chapter). New image-families get registered in the image-map
+section above so no future weave collides.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjI4Njk4ODIyXX0=
+-->

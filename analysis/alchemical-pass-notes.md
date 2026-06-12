@@ -94,7 +94,8 @@ becomes demonstration"). 22 of 28 sources done.
 Chapter-17 DONE (4 edits incl. the G-17-014 retirement — the verbatim twin
 of G-14-016, the pass's first cross-chapter duplication find — all PASS;
 witness MATCH — "I felt accompanied"; the Abjuration naming = THIRD
-protected-naming-chill instance). 23 of 28 sources done.
+protected-naming-chill instance). 23 of 28 soNext chapter: chapter-4 (P-04, river order, source 7 of 28) — NOTE: 27 of its
+gesturces done.
 Chapter-18 DONE (1 retirement — the chapter-about announcement — + 1
 formula repair ruled within license, both PASS; witness MATCH — "It felt
 like permission… I felt addressed, not assigned"). 24 of 28 sources done.
@@ -155,7 +156,8 @@ COMPLETE. Remaining: session log to claude-memory.
   G-CE-022 placeholder, and the nature-image interview (11 rows, ready to
   fill all at once). Then Phase 2 wrap-up:
 27-seam spot-read, final analyze + pass summary, the full-river blind
-Stone test (the pass's primary deliverable), CLAUDE.md update, session log.
+Stone test (the pass's primary deliverable), CLAUDE.md update, session logare beauty_check (deletion-only); the chapter is Jason's locked
+worked example. Expect passes-clean or near.
 
 ---
 
@@ -1353,14 +1355,17 @@ incants subliminally, the hypertext layer is the reveal.
 3. **Chapter-2 Barcelona history length** — "ran long, tipped into lecture";
    G-02-035 financial digression the most cuttable if a structural trim is
    wanted.
-4. **THE THEORY-SECTION PATTERN — FIX CONFIRMED (ch-5).** Blind readers
-   cool at theory-as-summary and warm at theory-through-persons (ch-5's
-   densest math read as "a tool I could actually use" because Luxemburg
+4. **THE THEORY-SECTION PATTERN — FIX CONFIRMED (ch-5(MAJOR, building — PR/1/2/3).** Blind readers
+   cool at theory-as-summary andevery thinker-summary/theory section while warming at theory-through-persons (ch-5's felt
+   dscensest math read as "a tool I could actually use" because Luxemburg
    carried it) and theory-through-images (the composted soil). The flagged
    sections (PR map, ch1 Gramsci, ch2 history, ch3 Foucault/Negri) are the
    ones with neither person nor image — exactly what the nature-image
    interview now covers. Your two proven warmers; the interview is the
-   delivery vehicle.
+   delivery vehicle. Load-bearing, not cut. Your book-scale call: is the register
+   oscillation deliberate (theory = the disenchanted world to pass through),
+   or do the summaries want more concrete interleaved? The Latinate-heavy
+   chapters (5, 8, 10, 11) are the coming stress test.
 5. **Chapter-2 transformation anchor** (cross-wired) and **beguiling's
    missing reveal layer** (no Illusion thread) — from the sneaked-name cycle.
 6. **Beauty-locked, your call:** P-IW witness named the recap line in
@@ -1447,4 +1452,7 @@ incants subliminally, the hypertext layer is the reveal.
    times in the final chapters. Once more would have been stronger."
 17. **STONE TEST — Kollontai:** "the only place I felt a thinker was being
    summarized rather than discovered." (One mention in ch-10; the witness
-   wanted the meeting, not the mention.)
+   wanted the meeting, not the mention.).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNTkxMjI2OTRdfQ==
+-->
