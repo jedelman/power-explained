@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-12T17:50:25.683Z",
+  "generatedAt": "2026-06-12T19:28:35.439Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
     "gestures": 964,
-    "words": 84269,
-    "sentences": 5938
+    "words": 84537,
+    "sentences": 5945
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.53,
-    "fleschKincaidGrade": 8.48,
+    "fleschReadingEase": 59.54,
+    "fleschKincaidGrade": 8.49,
     "gunningFog": 11.9,
     "smog": 11.62,
-    "colemanLiau": 9.77,
+    "colemanLiau": 9.76,
     "automatedReadabilityIndex": 7.82,
-    "avgWordsPerSentence": 14.19,
+    "avgWordsPerSentence": 14.22,
     "avgSyllablesPerWord": 1.57
   },
   "plateauMetrics": [
@@ -353,44 +353,44 @@
       "slug": "chapter-4",
       "title": "Chapter 4: Nobody Asked Him To",
       "gestureCount": 27,
-      "words": 4015,
-      "sentences": 279,
-      "avgWordsPerSentence": 14.39,
-      "avgSyllablesPerWord": 1.63,
-      "fleschReadingEase": 54.72,
-      "fleschKincaidGrade": 9.2,
-      "gunningFog": 12.86,
-      "colemanLiau": 10.8,
-      "automatedReadabilityIndex": 8.72,
-      "smog": 12.26,
+      "words": 4157,
+      "sentences": 283,
+      "avgWordsPerSentence": 14.69,
+      "avgSyllablesPerWord": 1.62,
+      "fleschReadingEase": 55.02,
+      "fleschKincaidGrade": 9.23,
+      "gunningFog": 12.88,
+      "colemanLiau": 10.74,
+      "automatedReadabilityIndex": 8.79,
+      "smog": 12.29,
       "smogReliable": true,
-      "lexicalEntropy": 8.87,
+      "lexicalEntropy": 8.89,
       "typeTokenRatio": 0.34,
-      "meanGestureWords": 148.7,
-      "stdGestureWords": 97.26,
-      "structuralEntropyNorm": 0.92
+      "meanGestureWords": 153.96,
+      "stdGestureWords": 101.53,
+      "structuralEntropyNorm": 0.93
     },
     {
       "id": "P-05",
       "slug": "chapter-5",
       "title": "Chapter 5: The Smile",
       "gestureCount": 28,
-      "words": 2502,
-      "sentences": 207,
-      "avgWordsPerSentence": 12.09,
-      "avgSyllablesPerWord": 1.61,
-      "fleschReadingEase": 58.37,
-      "fleschKincaidGrade": 8.12,
+      "words": 2628,
+      "sentences": 210,
+      "avgWordsPerSentence": 12.51,
+      "avgSyllablesPerWord": 1.6,
+      "fleschReadingEase": 58.9,
+      "fleschKincaidGrade": 8.15,
       "gunningFog": 11.5,
-      "colemanLiau": 9.79,
-      "automatedReadabilityIndex": 7.07,
-      "smog": 11.24,
+      "colemanLiau": 9.71,
+      "automatedReadabilityIndex": 7.15,
+      "smog": 11.28,
       "smogReliable": true,
-      "lexicalEntropy": 8.37,
-      "typeTokenRatio": 0.36,
-      "meanGestureWords": 89.36,
-      "stdGestureWords": 111.84,
-      "structuralEntropyNorm": 0.84
+      "lexicalEntropy": 8.41,
+      "typeTokenRatio": 0.35,
+      "meanGestureWords": 93.86,
+      "stdGestureWords": 113.62,
+      "structuralEntropyNorm": 0.88
     },
     {
       "id": "P-08",
@@ -644,16 +644,16 @@
       "p25": 35,
       "p50": 71,
       "p75": 112,
-      "p90": 175,
-      "mean": 87.66
+      "p90": 176,
+      "mean": 87.94
     },
     "lexicalEntropy": {
       "n": 964,
       "p10": 3.32,
       "p25": 4.62,
       "p50": 5.42,
-      "p75": 5.88,
-      "p90": 6.37,
+      "p75": 5.89,
+      "p90": 6.38,
       "mean": 5.12
     },
     "typeTokenRatio": {
@@ -677,16 +677,16 @@
     "fleschReadingEase_3plusSentences": {
       "n": 754,
       "p10": 35.77,
-      "p25": 47.13,
+      "p25": 47.15,
       "p50": 60.47,
       "p75": 72.41,
       "p90": 81.79,
-      "mean": 59.54
+      "mean": 59.55
     }
   },
   "transitionalEntropy": {
     "total": 934,
-    "reliable": 226,
+    "reliable": 228,
     "paragraphMeanDist": 0.96,
     "sectionMeanDist": 0.95
   },
@@ -861,6 +861,12 @@
     },
     {
       "term": "Seattle",
+      "total": 5,
+      "plateaus": 5,
+      "dispersionNorm": 1
+    },
+    {
+      "term": "Under",
       "total": 5,
       "plateaus": 5,
       "dispersionNorm": 1

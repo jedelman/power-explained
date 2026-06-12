@@ -3577,3 +3577,47 @@ verbatim, now seated on "The floor is the kept soil." The dust-bowl rhymes
 FORWARD to row 7 (the colony's inflicted soil-extraction) and row 11 (the
 lawn) without pre-empting them — same family, distinct castings, the
 image-map working as designed.)*
+
+---
+
+## chapter-5, image-weave row 6 (mycorrhizae — care as the substrate) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, the data-chill dissolved
+
+**The before/after on the Oxfam beat:** the alchemical witness chilled at
+exactly this figure — "$10.8 trillion of invisible labor… an argument being
+made at me rather than a world being shown to me." The image-weave witness:
+"The mycorrhizal web passage hit harder than I expected. I came to it
+expecting an analogy and it did something more than that. The image of the
+forest staying green for a season, two seasons, a generation after the web
+is severed — 'productive enough to hide the wound' — felt true in a way
+that wasn't only about care labor. It felt true about many things I've
+watched erode without being able to name the mechanism. I stayed with that
+image for a moment before continuing." The number is no longer "an argument
+made at me" — it is the standing crop with a shown world beneath it. The
+critic's flagged delayed-collapse mechanism became the reader's
+thinking-tool, carried forward exactly as designed.
+
+**Carried out:** the outside as structural requirement ("not the system
+misfiring. It is the system functioning"); "the isolation is the
+mechanism"; the gender binary as enclosure infrastructure ("I knew these
+histories separately. I did not know them as the same story"); "Every self
+was now half-banished from itself… arrived before I could defend against
+it." The Stone: "I feel equipped, not directed."
+
+**Logged, not chased:** the chapter's closing summary ("Read the terrain,
+name what's there…") read "slightly told what I'd just seen" and the
+"next chapter names the demons" transition "a transition announcement" —
+both pre-date this weave (alchemical-era closes, not touched here); noted
+for a possible future pass, not part of row 6.
+
+*(Editor's note: row 6's FIRST river-order deployment of mycorrhizae-as-
+care — the meaning Jason confirmed as ONE with the pre-individual field.
+Opus critic: PASS, no revise. The image-map's hardest call held: care here
+and Simondon's field at ch-16/16b are the same mycorrhizae seen twice, not
+two — and this is the correct first seeding. Natural history clears at this
+illustrative register (the wood-wide-web transfer magnitude is in live
+scientific debate; the prose carries it as inhabited image, not cited
+finding — Jason flag offered, hedge declined to keep the inhabitation).
+"Water the economy swims in" grep-confirmed load-bearing nowhere else —
+clean swap to the structural substrate. Two whole-river wrap-up watch-items
+logged: ch-5 mycorrhizae-severance vs. ch-7 soil-depletion proximity-blur;
+read the long landing aloud for drag, trimmable clause identified.)*
