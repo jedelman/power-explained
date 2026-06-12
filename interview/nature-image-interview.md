@@ -62,6 +62,8 @@ governing image (a terrain the levels descend through? a watershed?) could
 carry the map without the syllabus cadence.
 **JASON:**
 
+the metaphor here is ancient human body awareness itself. I'll illustrate the six levels. this can be condensed. the sequence is this: felt sense at first, in the gut or shoulders, that something is wrong (tension) or right (relaxation), paired with recognition - this is a pattern. second, sensation activates sensory arousal - vigilance, observation, gathering context. the eyes dilate, pulse quickens, breathing accelerates. third: detailed observation. this is muscular, active - running towards or away, grasping, catching and throwing, tearing - or carefully weaving, processing a fish or a plant, sorting the harvest. the fourth is social - learning from those around us, mirror neurons activating, being bodies in motion together. laughing or crying or sighing, storytelling. storytelling is an ancient and critical part of tracking practices. the fifth is questioning, digging deeper, often the voice of an elder. the way that you stand up straighter and choose your best words when someone you revere questions you. the way you return to a spot to see what you didn't see the first time because of that elders questions. the sixth is the return, awakening: the next sunrise, rising, activating, all your memories returning to you on waking, recalling actively.
+
 ### 2. Chapter 1 — Gramsci, common sense, hegemony (G-01-013…015)
 **Concept needing image:** hegemony as sediment of prior thought; the
 template that feels like reality; arrangements sinking into the inevitable.
