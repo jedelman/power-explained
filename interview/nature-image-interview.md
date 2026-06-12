@@ -340,3 +340,79 @@ stay as is.
 reserved for capture; mycorrhizae for the pre-individual field; the meadow
 for the unmown refusal. The masters would be SYSTEMS those reserved images
 already live inside, not replacements for them.
+
+---
+
+## MASTER IMAGE RESOLVED — TRACKING (Jason, 2026-06-12)
+
+**The master image is the tracker, and the substrate is the soil.** Not one
+of the three candidate families alone — the candidates were the *layers*;
+tracking is the *act that reads across all of them*. Jason's through-line:
+
+> Consciousness is pattern recognition — but the patterns we recognize are
+> conditioned by the substrate, which is conditioned by history. It connects
+> soil, organism, plant, climate — and tracker.
+
+This is the book's own existing practice (the deer in the Washington camp,
+the stalker's gait, the birding by ear, Sand Talk's crocodile, the zanjero
+reading the acequia by sound) promoted to the explanatory frame. It is not
+imported; it is the book recognizing what it has been doing all along.
+
+**The two interlocking families (the image-map, as answered):**
+
+- **TRACKS & TRAILS = the reading layer (consciousness / attention).**
+  Rows 1, 2, 9. Hegemony is the trail worn by animal habit, followed
+  automatically; the tracker reads the sign and compiles the terrain-map in
+  the body (row 2). The prologue's six levels ARE the tracker's own arousal
+  sequence — felt sense → vigilance → muscular observation → social/
+  storytelling → the elder's questioning → the return at sunrise (row 1).
+  Attention-as-commons is the trackability itself (row 9).
+
+- **SOIL / SUBSTRATE = the conditioning layer (what can be read).** Rows 3,
+  6, 7, 10, 11 — and the master that absorbs the 2026-06-10 design note: the
+  ONE INTEGRATED SOIL SYSTEM is now confirmed, with history written into it.
+  Cultural ground = fermentation + microbial cultures + smell (row 3); care
+  = mycorrhizae (row 6); the colony's debt trap = soil extraction that burns
+  the seed bank and moisture so it cannot self-regenerate — the case for
+  reparations (row 7); the debt machinery = erosion, money-as-water turned
+  from a steady flow to a flood that washes out the banks until the river
+  dries (row 10); the system of objects = the LAWN — kills soil, wastes
+  water, and the owners don't want to see any tracks on it (row 11).
+
+**The pavement/lawn is the keystone.** Enclosure is not only taking the
+soil — it is *paving the substrate so nothing can be tracked except trucks*
+(row 9: "hard to track on pavement unless you're tracking trucks"; row 11:
+"the owners don't want to see any tracks on it"). Enclosure destroys
+LEGIBILITY — the capacity for pattern recognition itself. This loops exactly
+onto ch-12's deepest claim ("you don't need to suppress the conclusion if
+you can enclose the attention that would produce it"): the attention IS the
+tracking, and the enclosure paves the ground so there is nothing left to
+read but capital's own heavy passage. The wetland, by contrast, registers
+the tiniest creature in fine silt — and registers the truck, correctly, as
+a catastrophe.
+
+**The connective tissue — organisms in relationship within the substrate
+(rows 4, 5, 8):** domestication and neoteny, the organism that alters
+another's development to serve its needs, zombie ants at the dramatic end
+(biopower, row 4); agroforestry that harvests just enough vs. the clear-cut
+that is a dust bowl in two generations (Kerala, row 5); the grapevine whose
+disciplining capability is the same hand that harvests it, and sustainable
+viticulture that returns enough to outlast a human life (Orgone, row 8).
+These are the middle term: how the reading layer and the conditioning layer
+act on each other over time.
+
+**IMAGE-MAP RECONCILIATION (one collision to resolve before the weave):**
+mycorrhizae was reserved for the *pre-individual field* (Simondon, ch-16/
+16b) and is now also assigned to *care* (row 5). These are arguably siblings
+— both name the invisible substrate of relation that takes generations to
+notice when destroyed — so the recommendation is to KEEP both and let
+mycorrhizae mean "the invisible relational substrate" in both places (care
+and the pre-individual field are the same thing seen from two chapters). But
+it is a genuine double-assignment and the weave's consistency check must
+hold it deliberately, not by accident. Flag confirmed for the instructions
+doc.
+
+**Rows that stay out of the soil/track system:** row 8's grapevine is its
+own (viticulture, not soil-as-such); kudzu explicitly rejected for row 10
+("leave them out of it" — debt is the compounding of absence, erosion not
+growth). Honor both.
