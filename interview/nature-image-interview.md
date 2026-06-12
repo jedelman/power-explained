@@ -213,6 +213,8 @@ the water table dropping a little every season no matter the rain? Your
 call.)
 **JASON:**
 
+even kudzu is useful, leave them out of it :) this is soil again. debt doesn't grow - it's the compounding of absence. this is more similar to erosion in the desert. if money is trust/obligation is water, changing a trickle to a flood can wash away the substrates ability to hold. the banks of the river erode and the river dries up because it washes out instead of flowing steadily. the Valencia water Tribunal knew this.
+
 ### 11. Chapter 16 — Baudrillard, the system of objects (G-16-0xx, the
 furniture-showroom section)
 **Concept needing image:** the curated arrangement that consumes its
