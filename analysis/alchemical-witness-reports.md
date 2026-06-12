@@ -3536,3 +3536,44 @@ verified (dog/neoteny domestication syndrome; the ant's climb-bite-fruit
 at the fungus's required height). The Goetia orchard downstream ruled the
 sibling casting (conditioning the organism vs. managing its surplus), no
 collision. Stone-test flag 15 RESOLVED.)*
+
+---
+
+## chapter-4, image-weave row 5 (agroforestry — the kept soil) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, the data-chill dissolved
+
+**The before/after on the data beat:** the alchemical witness had cooled
+exactly here — "Kerala arrived as data — life expectancy, infant
+mortality, literacy rates… I didn't doubt it. I just wasn't as present for
+it." The image-weave witness: "The Kerala section stayed with me longest.
+The homegarden metaphor is the chapter's intellectual center — I felt it
+click into something structural. 'The floor is the kept soil. A floor that
+holds.' I read that twice." The one data-among-people beat in a locked
+worked-example chapter now reads as the chapter's center. The critic's
+watch-point (the "the way Kerala grows pepper" simile-frame) cleared — the
+witness met it as inhabited, no detach.
+
+**Carried out:** "commons practice is not a theory or a hope or a demand —
+it is a record"; "the two-farms image. I will not look at the phrase
+'economic development' the same way. The chapter didn't argue against
+extraction; it showed the other thing so clearly that extraction became
+visibly stupid." The Stone: "a lens, not an assignment… something like
+eligibility. Like I have been told I am capable of something I had not
+previously claimed."
+
+**Logged, not chased:** the close's "The wizard who knows how to look can
+see it" — "wizard arriving in what had been sober, documented prose… asked
+me to take on faith" — the blind-reading condition again (the river reader
+carries the overture's wizard frame; the chapter is fully locked, the line
+is Jason's, no prior ch-4 witness flagged it).
+
+*(Editor's note: LOCKED chapter, license open for the weave — the bare
+"Seventy years… A floor that holds." landing replaced with Kerala's real
+layered homegarden (coconut/areca canopy, pepper vines, banana/coffee
+mid-shade, ginger/turmeric/tuber ground — species fact-checked accurate to
+Kerala homegarden agroforestry), the kept soil vs. the clear-cut dust
+bowl, left governance mapped onto canopy-thinning land reform. Opus critic:
+PASS on all 12 checks; the protected "A floor that holds" landing kept
+verbatim, now seated on "The floor is the kept soil." The dust-bowl rhymes
+FORWARD to row 7 (the colony's inflicted soil-extraction) and row 11 (the
+lawn) without pre-empting them — same family, distinct castings, the
+image-map working as designed.)*
