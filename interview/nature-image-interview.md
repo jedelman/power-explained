@@ -416,3 +416,28 @@ doc.
 own (viticulture, not soil-as-such); kudzu explicitly rejected for row 10
 ("leave them out of it" — debt is the compounding of absence, erosion not
 growth). Honor both.
+
+**MYCORRHIZAE — CONFIRMED (Jason, 2026-06-12):** care, regeneration,
+reproduction, and the pre-individual field are one meaning — "all embodied
+in mycorrhizae and healthy soil." The invisible relational substrate, held
+deliberately across ch-5/15 (care) and ch-16/16b (the field). Not a
+collision; a discovery.
+
+**THE DESICCATED LEAF (Jason, 2026-06-12):** "leaves don't compost on
+pavement — their nutrition is lost to desiccation." This completes the
+substrate gradient with the term the book was missing:
+
+1. **Living soil composts the fall** — contribution metabolized into shared
+   fertility. The commons.
+2. **Captured soil composts your participation into someone else's ground**
+   — the ch-2 image ("nobody stole my participation, they composted it").
+   Capture: the value returns, but not to you.
+3. **Pavement desiccates** — the leaf falls and nothing returns to anyone.
+   Not even extraction. Waste. Enclosure's end state.
+
+Candidate weave sites: ch-2 (the capture passage gains its third term —
+what happens to participation when the ground is paved); ch-18's burnout
+(desire meeting a structure too small = the leaf on pavement, its
+nutrition lost to no one); ch-12/row 9 (the paved substrate that cannot be
+read is also the substrate that cannot receive). Each weave still passes
+the loop; provenance: this entry.
