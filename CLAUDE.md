@@ -259,7 +259,7 @@ all verdicts MATCH; 27 seams spot-read clean; corpus 84,398 → 83,625 words
 Pass summary + per-chapter log: `analysis/alchemical-pass-notes.md`.
 Verbatim witness reports (Jason's reading copy):
 `analysis/alchemical-witness-reports.md`. The nature-image interview (11
-rows, Jason fills all at once): `for-agents/nature-image-interview.md`.
+rows, Jason fills all at once): `interview/nature-image-interview.md`.
 Standing flags for Jason: 12, in the logbook's Flags section — chief among
 them the thread-anchor naming question (3 witnessed chill sites) and the
 G-CE-022 "[Jason's section]" placeholder. This pass supersedes the

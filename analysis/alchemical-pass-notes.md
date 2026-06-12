@@ -25,7 +25,7 @@ Chapter-3 DONE (2 edits, witness MATCH; team: Fable-edit/Sonnet-witness/
 Opus-critique per Jason's token budget).
 Becoming-wizards-in-the-woods DONE (1 dissolution, witness MATCH — the
 deepest reception yet). Nature-image interview file opened
-(for-agents/nature-image-interview.md) per Jason's proposal — rows accumulate
+(interview/nature-image-interview.md) per Jason's proposal — rows accumulate
 as the pass walks; Jason answers in StackEdit.
 Chapter-4 DONE (PASSES CLEAN — zero edits, the lock honored and the read
 confirms it; witness MATCH, the prefiguration-chord flag self-resolved).
