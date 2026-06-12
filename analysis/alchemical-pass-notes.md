@@ -130,8 +130,9 @@ dissolved), chapter-1 (row 2, tracks and trails — the witness adopted
 "the tracker's eye" unprompted), chapter-2 (row 3, the fermenter's
 culture + the paved ground — "hit in the chest before the brain") DONE,
 witnessed, committed.
-NEXT: chapter-3 (row 4, domestication/neoteny/zombie ants — resolves flag
-15), then ch-4 (row 5 agroforestry, LOCKED-open), ch-5 (row 6
+ch-3 (row 4, domestication/neoteny/the zombie ant — the float became the
+section's strongest image; flag 15 RESOLVED) DONE, witnessed, committed.
+NEXT: ch-4 (row 5 agroforestry, LOCKED-open), ch-5 (row 6
 mycorrhizae), the-colony (row 7 soil extraction/reparations), OA (row 8
 grapevine, low priority, may skip), ch-12 (row 9 pavement/wetland), ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose

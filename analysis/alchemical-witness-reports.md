@@ -3497,3 +3497,42 @@ the double-reading earned. The protected necromancy close untouched and
 pre-echoed correctly. The desiccated leaf was deliberately NOT deployed
 here — capture's absorption image stays clean; the leaf's site is ch-18's
 burnout.)*
+
+---
+
+## chapter-3, image-weave row 4 (domestication / the zombie ant) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, the float resolved
+
+**The before/after on the Stone-test float:** the alchemical + Stone
+witnesses chilled here — biopolitical production "floats… several
+paragraphs without the concrete landing"; "coursework-shaped… The Negri
+passage explained to me." The image-weave witness: "The Foucault/Negri/
+fungus section was where I had to slow down. The ant with the fungus in
+its head — that's the image that stayed. It was doing what ants do. That
+phrase followed me into the next paragraph and sat there." Can't unsee:
+"The call center worker selling warmth and calling it a career. I have
+called things careers that the fungus needed. I don't think I knew that
+before reading." The float became the section's strongest image.
+
+**Carried out:** the commons as substrate ("what the market cannot
+produce, only consume"); the Hardin trick named ("He removed
+communication, history, relationship, and governance from the commons, and
+then announced that the commons without those things would fail"); the
+Stone — "in what I am already doing, what is the cook, and have I written
+the cook down?" and "The author kept their part… What I do with it belongs
+to me."
+
+**Logged, not chased:** the "hegemony" naming-beat ("explanation speed"
+for one paragraph — the same set-by-the-previous-paragraph beat as ch-1,
+small, recovered) and the Bluesky handle ("recruited to a position rather
+than handed a lens… passed quickly") — flag 7a, Jason KEPT ("we can
+challenge the reader sometimes").
+
+*(Editor's note: two insertions in G-03-035 — the abstract biopower
+definition given the domestication/neoteny hinge ("it doesn't primarily
+kill; it domesticates… bends the body's development toward usefulness
+until the usefulness feels like character"), and biopolitical production
+landed on the Ophiocordyceps ant. Opus critic 2/2 PASS, natural history
+verified (dog/neoteny domestication syndrome; the ant's climb-bite-fruit
+at the fungus's required height). The Goetia orchard downstream ruled the
+sibling casting (conditioning the organism vs. managing its surplus), no
+collision. Stone-test flag 15 RESOLVED.)*
