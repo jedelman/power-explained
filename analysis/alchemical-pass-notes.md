@@ -1355,17 +1355,14 @@ incants subliminally, the hypertext layer is the reveal.
 3. **Chapter-2 Barcelona history length** — "ran long, tipped into lecture";
    G-02-035 financial digression the most cuttable if a structural trim is
    wanted.
-4. **THE THEORY-SECTION PATTERN — FIX CONFIRMED (ch-5(MAJOR, building — PR/1/2/3).** Blind readers
-   cool at theory-as-summary andevery thinker-summary/theory section while warming at theory-through-persons (ch-5's felt
-   dscensest math read as "a tool I could actually use" because Luxemburg
+4. **THE THEORY-SECTION PATTERN — FIX CONFIRMED (ch-5).** Blind readers
+   cool at theory-as-summary and warm at theory-through-persons (ch-5's
+   densest math read as "a tool I could actually use" because Luxemburg
    carried it) and theory-through-images (the composted soil). The flagged
    sections (PR map, ch1 Gramsci, ch2 history, ch3 Foucault/Negri) are the
    ones with neither person nor image — exactly what the nature-image
    interview now covers. Your two proven warmers; the interview is the
-   delivery vehicle. Load-bearing, not cut. Your book-scale call: is the register
-   oscillation deliberate (theory = the disenchanted world to pass through),
-   or do the summaries want more concrete interleaved? The Latinate-heavy
-   chapters (5, 8, 10, 11) are the coming stress test.
+   delivery vehicle.
 5. **Chapter-2 transformation anchor** (cross-wired) and **beguiling's
    missing reveal layer** (no Illusion thread) — from the sneaked-name cycle.
 6. **Beauty-locked, your call:** P-IW witness named the recap line in
@@ -1452,7 +1449,14 @@ incants subliminally, the hypertext layer is the reveal.
    times in the final chapters. Once more would have been stronger."
 17. **STONE TEST — Kollontai:** "the only place I felt a thinker was being
    summarized rather than discovered." (One mention in ch-10; the witness
-   wanted the meeting, not the mention.).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkxMjI2OTRdfQ==
--->
+   wanted the meeting, not the mention.)
+
+## Re-gating for the image-weave pass (Jason, 2026-06-11)
+
+- **The locks are opened.** The image-weave may ADD prose to beauty-locked
+  chapters; the critique + fresh-witness loop is the gate (supersedes the
+  alchemical pass's deletion-only rule for locked gestures, FOR THE WEAVE).
+- **16/16b acceleration: new prose, most likely** — composition-grade
+  license to give that stretch room, provenance rules in force.
+- Interview answers, flag decisions, G-CE-022, Kollontai, and the centaur
+  passage sitting: Jason's work session 2026-06-12.
