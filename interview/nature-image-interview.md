@@ -122,7 +122,7 @@ floor. The chapter is fully beauty-locked: this enrichment is yours to weave
 or to hand me raw. Either grain works.
 **JASON:**
 
-agroforestry. Kerala farms spices. extend the orchard metaphor to one that harvests just enough and lets the forest thrive vs one that clear cuts it for maximum extraction and had a dust bowl in two generations.
+agroforestry. Kerala farms spices. extend the orchard metaphor to one that harvests just enough and lets the forest thrive vs one that clear cuts it for maximum extraction and has a dust bowl in two generations.
 
 ### 6. Chapter 5 — the scale of unpaid care (G-05-0xx, the Oxfam figure)
 **Concept needing image:** $10.8 trillion of invisible labor — the one beat
@@ -134,6 +134,8 @@ question is whether the NUMBER wants to become an image of scale instead —
 or whether the stat stays and simply gets an image around it. Low priority;
 the witness didn't doubt it, just cooled.
 **JASON:**
+
+mycorrhizae! invisible but crucial and even when it's destroyed it takes several generations to notice because it's so productive!
 
 ### 7. The Colony — structural adjustment / the debt trap (G-06-033…035,
 Ghana cocoa)
@@ -148,6 +150,8 @@ look like on land? (A watershed dammed upstream? Soil mined of nutrients
 faster than they return? Your call — the structural register may want the
 soil system again, or its own family.)
 **JASON:**
+
+this is soil extraction indeed. and not just nutrients die but you burn the moisture and the seed bank out so it can't even regenerate itself. that's the case for reparations - and artificially depleted environment will not recover on its own.
 
 ### 8. Orgone Accumulator — Foucault, discipline as coordination-plus-
 subjection (G-OA-005 area) — LOW PRIORITY
