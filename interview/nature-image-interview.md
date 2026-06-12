@@ -190,7 +190,7 @@ stars? The field too noisy for the birds to hear each other's alarm calls?
 Your call.)
 **JASON:**
 
-tracks and trails again, but combine with soil and substrate imagery. it's hard to track on pavement unless you're tracking trucks.
+tracks and trails again, but combine with soil and substrate imagery. it's hard to track on pavement unless you're tracking trucks. but in a wetland, even the tiniest creatures show up in fine silt- and the truck registers (correctly) as a catastrophe.
 
 ### 10. Chapter 13 — the debt machinery in numbers (G-13-0xx, the
 statistics block: 100M medical debtors, the JAMA mortality finding, the
