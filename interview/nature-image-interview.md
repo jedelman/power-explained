@@ -90,6 +90,7 @@ needs a distinct family: seedbank? rootstock? the coppice that regrows
 because the roots survived Franco?)
 **JASON:**
 
+it's not institutional, it's cultural. let's use natural culture metaphors - fermentation i.e. microbial cultures, soil composition as their traces and tracks. in the body it's smells - freshness, ripeness, fragrance, or rot, decay, dessication.
 
 
 ### 4. Chapter 3 — Foucault/Negri, biopower → biopolitical production
@@ -103,6 +104,9 @@ showed me. The Negri passage explained to me."
 orchard) already exists downstream — this section could either borrow
 forward from it or take its own image. Consistency call is yours.
 **JASON:**
+
+domestication and neoteny is the nature image here.
+
 
 ### 5. Chapter 4 — Kerala, the floor that holds (G-04-019 area)
 **Concept needing image (or person):** seventy years of left governance as a
