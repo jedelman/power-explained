@@ -3662,3 +3662,39 @@ ruled distinct behaviors with distinct agents — the map at its density
 ceiling, noted. The maxim line "Whoever burned out the seed bank owes the
 seed" flagged for Jason's eye on the diff — his claim at maximum
 compression.)*
+
+---
+
+## orgone-accumulator, image-weave row 8 (the grapevine) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH; row-8 result honestly neutral
+
+**The honest before/after:** the alchemical witness drifted mildly at the
+Foucault section ("I was still with it… reading carefully, which is
+different"); this witness drifted comparably ("became a little more
+academic… aware of the seam… It resolved in kokoro and the parking lot
+flashback"). THE VINE PASSED SILENTLY — neither warmed nor flagged. The
+drift is structural to the Foucault beat (the chapter's one
+argument-shaped seam), and the low-priority row was spent without harm
+and without clear gain. Logged as the pass's first neutral weave.
+
+**What landed instead:** the chapter's own material, again — "I felt
+caught out" at the jaw; "Freud… calling Mussolini a hero of culture landed
+in my chest"; the wellness fork ("I now see [it] in every airport
+bookstore… the comfortable half of the inheritance, standing in the light
+because the dangerous half was burned"); the floor/shrug geometry ("on the
+floor and being under it"); and the Stone, in the witness's final line:
+"the chapter changed what I will do with my body in the next hour. That
+doesn't happen often with reading."
+
+**Logged:** the musicians list "ran one name past where it needed to stop"
+(locked, Jason's); residual fairness-scaffolding awareness at the orgone
+box (already improved by the alchemical clause cut; the witness "felt the
+author working to be fair" — arguably the honesty showing, not a flaw).
+Jason one-word confirm requested by the critic: "years deliberately taken
+light" (real practice, his grain — the one interpretive phrase).
+
+*(Editor's note: Opus critic PASS — insertion-only verified under the
+lock; the vine's "deal" deliberately rhymes the biopower deal; "what comes
+back" maps who-keeps-the-coordination; the image stops short of modeling
+reclaimed agency, leaving that to the human. The witness's silence on the
+vine is recorded as the result: no chill existed to dissolve, none was
+created.)*
