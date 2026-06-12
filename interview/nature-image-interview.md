@@ -234,6 +234,8 @@ bind them.) Low priority: the witness recovered fast and the section may
 simply be carrying recognition for readers who've met Baudrillard.
 **JASON:**
 
+lawn is ENTIRELY correct for this. kills soil, wastes water - and the owners don't want to see any tracks on it.
+
 ### (rows 12+ append as the pass walks — the known heavy-theory sections
 coming: ch-5 Luxemburg's outside / the math that doesn't close; ch-8 the
 framework gap / intersectionality; ch-10 war of position; ch-13 the debt
