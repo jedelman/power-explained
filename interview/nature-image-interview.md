@@ -171,6 +171,8 @@ same-door* mechanism. (Trained vine on a trellis? The hedgerow laid by the
 hedger's hand? Your call — or skip; the witness did not bounce.)
 **JASON:**
 
+grapevine is correct. the discipline that makes the grape more capable is the same one that harvests the fruits of that capability. sustainable viticulture knows to return enough to keep the vines going as long or longer than a human lifetime through care and attention.
+
 ### 9. Chapter 12 — Hardt & Negri, consciousness as commons (G-12-036)
 **Concept needing image:** attention/consciousness as the commons beneath
 all the others — built, nourished, defended; enclosed through curriculum,
