@@ -3621,3 +3621,44 @@ finding — Jason flag offered, hedge declined to keep the inhabitation).
 clean swap to the structural substrate. Two whole-river wrap-up watch-items
 logged: ch-5 mycorrhizae-severance vs. ch-7 soil-depletion proximity-blur;
 read the long landing aloud for drag, trimmable clause identified.)*
+
+---
+
+## the-colony, image-weave row 7 (the burned seed bank) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, the chill dissolved — the strongest weave result yet
+
+**The before/after on the structural-adjustment stretch:** the alchemical
+witness — "moved past me rather than through me. The information was
+right. The rhythm broke… that section tells rather than shows." The
+image-weave witness: "The agricultural imagery near the end — the seed
+bank, the moisture in the ground, whoever burned out the seed bank owes
+the seed — was the most emotionally surprising moment in the chapter. It
+arrived without announcement and it was right. **The reparations argument
+has never landed for me through any other framing. It landed here.**"
+
+**Carried out:** the wages of whiteness as a TRADE ("the mechanics of it
+rather than the argument about it"); the meeting and the dive bar as "a
+system rather than human inconsistency"; "nothing we can do" as
+incantation ("not something I can put back where I found it"); the
+railways ("the colony written in steel"). The Stone: "making inaction feel
+like a choice rather than a default… The author modeled what theirs looks
+like. Mine would look different."
+
+**Logged, not chased (all pre-existing material, not the weave):** the
+Kerner paragraph's summary register; the Claudia Jones parenthetical
+("performing its bona fides"); the Ostrom design-principles list arriving
+"from a different register."
+
+*(Editor's note: row 7 — Jason's depleted-soil mechanism appended to
+G-06-034: the harvest/field split (colonialism took the harvest;
+structural adjustment took the field), the marketing board = the seed
+bank, public services = the moisture, landing "Whoever burned out the
+seed bank owes the seed. That is the case for reparations: not charity
+for a misfortune — restitution for a removal." Opus critic PASS — the
+harvest/field split ruled crystallization of a distinction already on the
+page; the reparations claim is Jason's explicit row-7 directive, ruled
+TIGHTER in image form than the raw sentence; the three consecutive
+soil-images (ch-4 counter-image, ch-5 severed web, ch-6 inflicted burn)
+ruled distinct behaviors with distinct agents — the map at its density
+ceiling, noted. The maxim line "Whoever burned out the seed bank owes the
+seed" flagged for Jason's eye on the diff — his claim at maximum
+compression.)*
