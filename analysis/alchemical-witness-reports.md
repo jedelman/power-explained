@@ -3738,3 +3738,52 @@ attention line keeps its peak with the image landing as quiet aftermath
 ("Leave the ground unable to take an impression of anything lighter than a
 truck."). Loops closed with ch-1's trail-poured-permanent; row 11's lawn
 still holds its own distinct work.)*
+
+---
+
+## chapter-13, image-weave row 10 (erosion — the compounding of absence) — witnessed twice 2026-06-12 (Sonnet, blind ×2) · verdict MATCH after one refinement round
+
+**Round 1:** the stats block WARMED (
+
+---
+
+## chapter-13, image-weave row 10 (erosion — debt as the compounding of absence) — witnessed 2026-06-12 (Sonnet, blind, re-witnessed after one refinement) · verdict MATCH
+
+**The refinement loop, in two witness readings of the same paragraph:**
+- Round 1 (full version): "the one place where the chapter seemed to pause
+  and admire its own image rather than push through it… I was watching the
+  prose rather than receiving the idea." Trimmed ~30% (throat-clear,
+  simile-frame, the "desert's arithmetic" announce, and the aphorism's
+  trailing explanation all cut; "Debt does not grow. Nothing is added; it
+  is the compounding of an absence — erosion, not growth.").
+- Round 2 (fresh witness, trimmed): "I had to slow down. It asks more of
+  the reader than the surrounding prose, and I felt the gear-change. Not a
+  complaint. It earned its difficulty." Admire → earned. The image now
+  pushes through.
+
+**The keystone-adjacent loop held:** the statistics block the alchemical
+witness braced at now reads as the flood's wreckage — the round-2 witness
+returned to the body exactly at "machinery outlasting the people who
+worked it," the tractor detail rhyming with "everything that should have
+soaked in and held went downstream." Carried out: credit-before-money as
+irreversible ("I will not be able to read an economics textbook origin
+story the same way"); debt's selective moral weight "as architecture, not
+accident"; the boomerang bottle "as infrastructure." The Stone: "it ends
+by pointing to the exits that are already open."
+
+**Logged, not chased (all pre-existing, not the weave):** the statistics
+register-shift (the witness's own ruling, twice, that the facts are
+"necessary" — the image warms them retroactively, does not replace them);
+the Corinthian-students-as-summary beat (alchemical-era, wanted one more
+human beat).
+
+*(Editor's note: row 10 — debt as erosion, the compounding of absence;
+money as trust, obligation as the water; the steady flow that feeds its
+banks (Valencia, ten centuries) vs. the flood that takes the land; "The
+river that floods is the river that dries." Kudzu excluded per Jason.
+Opus critic PASS, then a witness-driven trim: the only REVISE trigger the
+critic flagged (cadence/length) materialized in round 1 and was fixed by
+compression, not by cutting the image. The flood here ruled a DISTINCT
+casting from the reserved typhoon/dam-zanjera family (extraction-as-flood
+vs. weather-the-commons-outlasts) — wrap-up image-map note logged. The
+book's own river-form quietly implicated and kept.)*

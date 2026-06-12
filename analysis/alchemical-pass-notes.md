@@ -146,7 +146,9 @@ OA (row 8 grapevine — honestly neutral: the vine passed silently,
 no harm no clear gain) DONE. ch-12 (row 9 THE KEYSTONE —
 'pavement over the silt of consciousness… I can't unsee that now'; the
 critic caught and removed a heron-as-spoor collision pre-witness) DONE.
-NEXT: ch-13 (row 10 erosion), ch-13
+ch-13 (row 10 erosion — 'it earned its
+difficulty' after one witness-driven trim; the flood ruled distinct from
+the reserved typhoon/zanjera) DONE. NEXT: ch-16 (row 11 the lawn), ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
 license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
 Opus critique (checks 10-12) → fresh blind Sonnet witness vs. the
