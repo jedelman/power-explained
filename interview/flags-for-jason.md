@@ -124,14 +124,14 @@ relationship between man and machine" — "felt like a formulation rather
 than a sentence from inside the experience."
 **Decision:** reword (yours), or stand.
 **JASON (a):** keep.
-**JASON (b):** I can make this experiential, give me more detail.
+**JASON (b):** dropped in `./cybernetics-quest.md`
 
 ## 12. G-CE-022 "[Jason's section]"
 
 The river's only placeholder — your half of the centaur dialogue.
 **Decision:** write it (tomorrow's session, you said) — or tell me the
 shape and I'll stage a draft from your prior words for you to cut.
-**JASON:** incoming.
+**JASON:** dropped in `./centaur.md`.
 
 ## 13. Stone test — 16/16b acceleration (DECIDED: new prose)
 
