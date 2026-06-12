@@ -11,5 +11,9 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+  image: interview row 1 (the tracker's arousal sequence), Jason
+  2026-06-12 — woven by the image-weave pass; the six levels mapped onto
+  the six stages of ancient body awareness; condensation per Jason's row-1
+  license ("this can be condensed").
 ---
-The book moves on six levels.
+The book moves on six levels. The sequence is not a syllabus — it is the oldest sequence the body knows, the one that runs every time a human picks up a trail.

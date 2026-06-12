@@ -3387,3 +3387,38 @@ words is the book's definition, re-derived — the transformation continuing
 without the alchemist, which is what the Stone is. The five shortfalls are
 filed as flags 13–17. No edits follow from the Stone test — it is the
 deliverable, and these calls are Jason's.)*
+
+---
+
+# THE IMAGE-WEAVE PASS — witness reports continue below (same reading copy, one record)
+
+## prologue, image-weave row 1 (the tracker's arousal sequence) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, chill dissolved
+
+**The before/after on the flagged section:** the alchemical witness read
+the six-levels map as "a table of contents… I skimmed… waited to be warmed
+back up." The image-weave witness: "It's necessary — it has to be there…
+I read it more carefully than I experienced it. That's not a failure; it's
+a different register… For me it read as honest orientation. I came back
+fully when 'This book is not a manifesto' arrived." The skim is gone; the
+reader stayed inside; the protected close received as "the whole argument
+in one image" ("A room at seven-fifteen… That's where the earth flowers.
+I felt that. Not as a dramatic line — as truth.").
+
+**Other landings:** the opening "tightened in the chest. Not anger.
+Recognition." The herons: "I braced for the metaphor to be worked too
+hard. It wasn't… Something quieted in me that had been tense." The centaur
+disclosure: "honest and brave and uncomfortable… It didn't resolve. I
+think it's not supposed to." The Stone: "It's something that happened to
+me. The difference matters."
+
+**Logged, not chased:** the map remains "the most lecture-adjacent section
+in the chapter" — its residual map-ness is its function (the orientation
+block); the witness exited warm. The "centaur" word "not fully earned yet
+at that point" — persuaded by the bunny-in-the-hedge line; no action.
+
+*(Editor's note: the weave mapped the six levels onto Jason's row-1
+tracker sequence — felt sense, vigilance (eyes dilate), the close work,
+social/storytelling, the elder's question, the return at sunrise — with
+the frame "not a syllabus — the oldest sequence the body knows." Opus
+critic: 7/7 PASS, one fidelity fix taken (Jason's "dilate" restored). One
+sentence condensed under his row-1 license.)*
