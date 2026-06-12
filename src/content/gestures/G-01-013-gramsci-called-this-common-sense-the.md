@@ -15,5 +15,9 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+  image: interview row 2 (tracks and trails), Jason 2026-06-12 — the
+  image-weave pass; the OS-crash machine metaphor (mind-reaching, per the
+  witness) replaced by the trail (body-reaching); G-01-014 re-landed off
+  the same image.
 ---
-Gramsci called this common sense: the sediment of prior thought that tells you what's natural, what's possible, what a realistic person thinks. Common sense is not false consciousness — it's not that people are fooled. It's that the assumptions built into the infrastructure, the institutions, the daily texture of life become the operating system for thought, and operating systems are invisible until they crash.
+Gramsci called this common sense: the sediment of prior thought that tells you what's natural, what's possible, what a realistic person thinks. Common sense is not false consciousness — it's not that people are fooled. It's that the assumptions built into the infrastructure, the institutions, the daily texture of life wear in like trails — pressed by every passage until the ground holds the route, and the body follows automatically. Common sense is the trail, not the decision. A tracker reads the same ground differently: reads the signs, and compiles in the body a map of the terrain — including the pressures that pressed the trail into it.

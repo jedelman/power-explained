@@ -3422,3 +3422,37 @@ social/storytelling, the elder's question, the return at sunrise — with
 the frame "not a syllabus — the oldest sequence the body knows." Opus
 critic: 7/7 PASS, one fidelity fix taken (Jason's "dilate" restored). One
 sentence condensed under his row-1 license.)*
+
+---
+
+## chapter-1, image-weave row 2 (tracks and trails) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, chill dissolved
+
+**The before/after on the flagged section:** the alchemical witness
+half-chilled at the Gramsci passage — "for a beat it shifted from the
+voice of a man at a curb to the voice of someone who has read the right
+books"; the OS-crash metaphor reached the mind, not the body. The
+image-weave witness drifted only at the word "hegemony" itself ("names it
+first, then illustrates… cost a beat") and "came back when it resolved:
+'the trail, not the decision.'" THE MASTER IMAGE WORKED AS A THINKING
+TOOL: the witness left with "something like the tracker's eye — reading
+the trail for the pressures that pressed it into shape" — the row-2 image
+adopted, unprompted, as their own posture.
+
+**Other landings:** the crossing arithmetic "landed in the chest before I
+understood why"; the manufactured slum — "the word ['slum'] is a weapon…
+you can't hear it as description anymore"; "Not corruption. Not malice.
+Fear made decisive by structure — a key turning in a lock"; the herons'
+close: "stubbornness is its own form of intelligence… 'You have to be
+moving slowly enough to see them.' I sat with that." The beguiling sneak
+was NOTICED without breaking ("caught me. I stopped there for a second…
+not a drift, just a noticing") — the subliminal incantation working, and
+its reveal site now exists (the Illusion thread).
+
+*(Editor's note: the weave replaced the OS-crash machine metaphor with
+Jason's row-2 trail — "Common sense is the trail, not the decision" — and
+re-landed Hampton Boulevard as "that trail, poured permanent" (the
+pavement-keystone's first seed). Opus critic: REVISE on the entry simile,
+exact fix applied (the doubled "the way… the way" frame killed); G-01-014
+PASS; the Goetia trail-system downstream ruled seed-and-bloom, not
+collision. The naming-order beat at "hegemony" is set by the PREVIOUS
+paragraph's structure — logged, small, recovered.)*
