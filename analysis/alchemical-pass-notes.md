@@ -132,8 +132,9 @@ culture + the paved ground — "hit in the chest before the brain") DONE,
 witnessed, committed.
 ch-3 (row 4, domestication/neoteny/the zombie ant — the float became the
 section's strongest image; flag 15 RESOLVED) DONE, witnessed, committed.
-NEXT: ch-4 (row 5 agroforestry, LOCKED-open — DONE), ch-5 (row 6
-mycorrhizae), the-colony (row 7 soil extraction/reparations), OA (row 8
+DONE through ch-5: prologue, ch-1, ch-2, ch-3 (flag 15), ch-4 (LOCKED-open),
+ch-5 (row 6 mycorrhizae — first seeding of care-as-substrate). NEXT:
+the-colony (row 7 soil extraction/reparations), OA (row 8
 grapevine, low priority, may skip), ch-12 (row 9 pavement/wetland), ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
 license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
