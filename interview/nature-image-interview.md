@@ -74,6 +74,8 @@ good but reaches the mind, not the body.
 finish it? (Your call; the corridor/crossing imagery is nearby and strong.)
 **JASON:**
 
+not a river - these are animal habits. tracks and trails. the body follows automatically, but the tracker reads the signs to compile the map of the terrain in his body.
+
 ### 3. Chapter 2 — the institutional ground (G-02-027…036: CNT memory, 1978
 devolution, autonomous communities, Porto Alegre, the financial substrate)
 **Concept needing image:** institutional ground — why the same assembly
@@ -87,6 +89,8 @@ seed bank, what overwinters? (Soil-absorbing is reserved for capture —
 needs a distinct family: seedbank? rootstock? the coppice that regrows
 because the roots survived Franco?)
 **JASON:**
+
+
 
 ### 4. Chapter 3 — Foucault/Negri, biopower → biopolitical production
 (G-03-035…041)
