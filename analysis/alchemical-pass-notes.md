@@ -115,7 +115,31 @@ processed; the pre-compaction handoff list skipped it and the running count
 inherited the error. Goetia processed out of river order as source 28 of
 28: PASSES CLEAN (zero edits, 52/57 locked; witness MATCH — "That's not the
 author's job anymore. That's mine."). ALL 28 SOURCES NOW WALKED.
-PHASE 2: 27-seam spot-read DONE (all clean — every forward-link hands off
+## THE IMAGE-WEAVE PASS (started 2026-06-12 — instructions:
+for-agents/image-weave-pass-instructions.md)
+
+Flag decisions executed (batches A+B, all critic-verified): the three
+thread-anchor labels sneak by (the names live in the thread frames); the
+Decidim "turned" stitch; the book now ENDS on "Come find us" (G-EP-018);
+Kollontai met (G-10-019, facts verified); the Illusion thread created
+(140th page). Flags 6/7/8/9/11a: keep, recorded. 11b/12/14: Jason's
+sessions.
+
+WEAVE POSITION: prologue (row 1, the tracker's arousal sequence — chill
+dissolved), chapter-1 (row 2, tracks and trails — the witness adopted
+"the tracker's eye" unprompted), chapter-2 (row 3, the fermenter's
+culture + the paved ground — "hit in the chest before the brain") DONE,
+witnessed, committed.
+NEXT: chapter-3 (row 4, domestication/neoteny/zombie ants — resolves flag
+15), then ch-4 (row 5 agroforestry, LOCKED-open), ch-5 (row 6
+mycorrhizae), the-colony (row 7 soil extraction/reparations), OA (row 8
+grapevine, low priority, may skip), ch-12 (row 9 pavement/wetland), ch-13
+(row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
+license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
+Opus critique (checks 10-12) → fresh blind Sonnet witness vs. the
+chapter's alchemical report.
+
+PHASE 2 (alchemical, COMPLETE): 27-seam spot-read DONE (all clean — every forward-link hands off
 precisely; "Look up" descending to the doves is the deliberate inversion).
 Pass summary below. THE STONE TEST IS COMPLETE (2026-06-11): the full
 river walked blind, beginning to end — verdict THE HAND-OFF LANDS ("The

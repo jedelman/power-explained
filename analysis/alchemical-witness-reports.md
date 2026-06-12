@@ -3456,3 +3456,44 @@ exact fix applied (the doubled "the way… the way" frame killed); G-01-014
 PASS; the Goetia trail-system downstream ruled seed-and-bloom, not
 collision. The naming-order beat at "hegemony" is set by the PREVIOUS
 paragraph's structure — logged, small, recovered.)*
+
+---
+
+## chapter-2, image-weave row 3 (fermentation / the ground) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, chill substantially dissolved
+
+**The before/after on the twice-flagged stretch:** the alchemical
+witnesses read the institutional-ground section as "a history syllabus…
+I felt myself reading words rather than seeing anything" and "my body had
+left the room." The image-weave witness: "I leaned in again at the soil
+passage: 'The same starter, poured onto different ground. You can smell
+the difference in soil before you can say it.' That hit in the chest
+before the brain. It's the chapter's thesis in a sensory form, and it
+arrived exactly when the abstract scaffolding needed to come down." The
+history blocks now: "I stayed in them; I didn't skip" — residual
+informational temperature logged ("organized for completeness rather than
+discovery"), the critic's optional upstream touch held in reserve.
+
+**The critic's watch-items, cleared:** no re-steady at the soil word —
+capture-absorption upstream was received separately and powerfully
+("almost natural-historical, which makes it more disturbing"); the
+integrated soil system held its distinct behaviors.
+
+**Carried out:** "capture implies a functioning system doing exactly what
+it was designed to do. That reframe is not something I can undo"; "good
+intentions are not enough. It also means the ground can be built"; the
+persistence test "genuinely handed to me." Logged, not chased: the
+wizard-register close "arrived slightly ahead of what this specific text
+had built" (blind-reading condition — the river reader carries the
+overture's wizard frame; neither prior ch-2 witness flagged it); the
+Zenobia commentary "almost too much" (the controlled-experiment witness
+had called the same framing "the one thing genuinely handed to me" —
+conflicting witness data, Jason's line, logged).
+
+*(Editor's note: two insertions in G-02-031 — the dormant "culture of
+assembly" pun made live in the fermenter's sense, and the fed/inoculated
+vs. paved ground with Jason's smell-register entry. The pavement keystone
+landed on Zuccotti, which is literally a paved plaza — the critic ruled
+the double-reading earned. The protected necromancy close untouched and
+pre-echoed correctly. The desiccated leaf was deliberately NOT deployed
+here — capture's absorption image stays clean; the leaf's site is ch-18's
+burnout.)*
