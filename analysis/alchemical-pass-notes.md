@@ -143,7 +143,10 @@ ch-5 (row 6 mycorrhizae — first seeding of care-as-substrate). the-colony (row
 reparations argument has never landed for me through any other framing.
 It landed here') DONE. Jason's lacunae INSTALLED (G-CE-022 + G-WW-026).
 OA (row 8 grapevine — honestly neutral: the vine passed silently,
-no harm no clear gain) DONE. NEXT: ch-12 (row 9 pavement/wetland), ch-13
+no harm no clear gain) DONE. ch-12 (row 9 THE KEYSTONE —
+'pavement over the silt of consciousness… I can't unsee that now'; the
+critic caught and removed a heron-as-spoor collision pre-witness) DONE.
+NEXT: ch-13 (row 10 erosion), ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
 license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
 Opus critique (checks 10-12) → fresh blind Sonnet witness vs. the

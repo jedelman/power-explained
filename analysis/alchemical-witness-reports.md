@@ -3698,3 +3698,43 @@ back" maps who-keeps-the-coordination; the image stops short of modeling
 reclaimed agency, leaving that to the human. The witness's silence on the
 vine is recorded as the result: no chill existed to dissolve, none was
 created.)*
+
+---
+
+## chapter-12, image-weave row 9 (THE KEYSTONE — pavement over the silt) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, the citation-chill dissolved
+
+**The before/after on the H&N beat:** the alchemical witness — "the
+closest thing to a lecture… 'consciousness itself a commons' arrived as
+citation rather than demonstration… working harder to persuade me than the
+material required." The image-weave witness, on the same beat: "The
+tracker and the wetland metaphor is where the book showed me its full
+hand" — and the keystone carried out in the witness's own compression:
+"the enclosure I didn't know was an enclosure: the enclosure of attention
+itself… the systematic pouring of pavement over the silt of consciousness
+— making the ground unable to take an impression of anything smaller than
+a truck. I can't unsee that now. I've lived this without having the frame
+for it." No bounce on the H&N paragraph at all; the citation now arrives
+after the demonstration, attribution intact.
+
+**Also carried:** the rebuilding/continuing distinction ("once it's named,
+I see how much of the 'build alternatives' conversation misses what's
+already operating"); the Stone: "The chapter doesn't hold it back. It
+gives you the thing. What you do with it is actually yours."
+
+**The critic's catch, vindicated:** the weave's first draft put a heron's
+footprint in the wetland silt — a REVERT-grade collision (the night herons
+are knowing subjects, never spoor, and "the herons know about the road" is
+in this same chapter). Removed before witnessing; the witness's only heron
+note was the PRE-EXISTING G-12-016 paragraph ("came from somewhere else in
+the book… The disorientation might not be a flaw" — the river condition,
+correct). Minor, logged: Freire middle temperature (pre-existing);
+"Simulacra" over-signaled (pre-existing); the restaurant scale-shift seam
+("once it earns it, it earns it completely").
+
+*(Editor's note: the keystone row complete — the wetland/pavement substrate
+delivered demonstration-BEFORE-citation (the witnesses' exact complaint
+inverted); the enclosure mechanisms now pour pavement; the twice-carried
+attention line keeps its peak with the image landing as quiet aftermath
+("Leave the ground unable to take an impression of anything lighter than a
+truck."). Loops closed with ch-1's trail-poured-permanent; row 11's lawn
+still holds its own distinct work.)*
