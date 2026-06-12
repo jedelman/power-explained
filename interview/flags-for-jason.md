@@ -124,14 +124,14 @@ relationship between man and machine" — "felt like a formulation rather
 than a sentence from inside the experience."
 **Decision:** reword (yours), or stand.
 **JASON (a):** keep.
-**JASON (b):** dropped in `./cybernetics-quest.md`
+**JASON (b):** dropped in `./cybernetics-quest.md` — INSTALLED 2026-06-12 (G-WW-026, verbatim at his anchor). RESOLVED.
 
 ## 12. G-CE-022 "[Jason's section]"
 
 The river's only placeholder — your half of the centaur dialogue.
 **Decision:** write it (tomorrow's session, you said) — or tell me the
 shape and I'll stage a draft from your prior words for you to cut.
-**JASON:** dropped in `./centaur.md`.
+**JASON:** dropped in `./centaur.md`. — INSTALLED 2026-06-12 (G-CE-022, verbatim; the river's last placeholder is gone). RESOLVED.
 
 ## 13. Stone test — 16/16b acceleration (DECIDED: new prose)
 

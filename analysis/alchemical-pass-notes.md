@@ -122,8 +122,14 @@ Flag decisions executed (batches A+B, all critic-verified): the three
 thread-anchor labels sneak by (the names live in the thread frames); the
 Decidim "turned" stitch; the book now ENDS on "Come find us" (G-EP-018);
 Kollontai met (G-10-019, facts verified); the Illusion thread created
-(140th page). Flags 6/7/8/9/11a: keep, recorded. 11b/12/14: Jason's
-sessions.
+(140th page). Flags 6/7/8/9/11a: keep, recorded. 11b + 12 DELIVERED AND INSTALLED
+(2026-06-12): G-CE-022 = interview/centaur.md verbatim (the river's last
+placeholder gone — natal Chiron answering the chapter's myth; 'I hope it's
+of benefit' handing into the Baudrillard test); G-WW-026 expanded with
+interview/cybernetics-quest.md at Jason's anchor (the quest declaration now
+ends on the tracker: 'This book is one of my offerings'). Editor touched
+only typesetting + one spelling. Both chapters re-witness at weave wrap-up.
+14 (the interview of Claude): pending, Jason's chat session.
 
 WEAVE POSITION: prologue (row 1, the tracker's arousal sequence — chill
 dissolved), chapter-1 (row 2, tracks and trails — the witness adopted
