@@ -333,7 +333,7 @@ inline where relevant.
 
 **Protected beats**
 
-- G-11-017: "Evocation, cast for the commons — renewal carried in the felt register."
+- G-11-017: "The renewal is carried in the felt register — felt before it is understood." (TRANSMUTED per Jason flag 10, 2026-06-12 — the explicit name lives in the evocation-thread frame)
 - G-11-037: "Necromancy in commons form, even when the practitioners never met: the dead held what the living kept rediscovering."
 - forward-link close, G-11-039: "The next chapter is what looking looks like, when looking is the work."
 
@@ -404,7 +404,7 @@ inline where relevant.
 
 - G-14-008: "A pact across generations: the covenant binds the future to keep the land unenclosed."
 - G-14-018: "Evocation, passed the only way it passes."
-- G-14-032: "Abjuration, cast for the commons — the body itself the boundary."
+- G-14-032: "Abjuration, cast for the commons — the body itself the boundary." (KEPT — not among the three witnessed chill sites; ceremonial position)
 - forward-link close, G-14-038: "The next chapter is who does that work, and why the system needs the work to stay invisible."
 
 **Motif appearances**
@@ -439,7 +439,7 @@ inline where relevant.
 
 **Motif appearances**
 
-- singularity / pre-individual: G-RE-017, G-RE-018, G-RE-020
+- singularity / pre-individual: G-RE-017, G-RE-018, G-RE-020 (G-RE-020's Simondon naming deleted per Jason flag 10, 2026-06-12 — the work survives in the preceding sentence; Ruling 5)
 
 **Structural**
 
@@ -497,7 +497,7 @@ inline where relevant.
 - G-17-019: "Initiation is the mechanism."
 - G-17-022: "Not because the return is unimportant — because the return requires something the market cannot supply: a community that was waiting, that needs what you found, that can recognize the gift and give it a home."
 - G-17-027: "Now let us show you where your gift fits in the weave of what we are building together.*"
-- G-17-035: "Abjuration, cast for the commons."
+- G-17-035: "That is what the refusal protected." (label TRANSMUTED away per Jason flag 10, 2026-06-12 — "refusal" carries the school; the name lives in the abjuration-thread frame)
 - G-17-048: "Initiation is the mechanism."
 - G-17-049: "Ritual cast for commons: the form repeated until the form holds."
 - G-17-049: "To recognize the gift, name it, give it a home in the weave of what is being built together."

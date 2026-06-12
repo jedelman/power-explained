@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-11T21:49:55.725Z",
+  "generatedAt": "2026-06-12T16:42:40.119Z",
   "corpus": {
     "plateaus": 29,
     "migratedPlateaus": 29,
-    "gestures": 963,
-    "words": 83625,
+    "gestures": 964,
+    "words": 83615,
     "sentences": 5908
   },
   "corpusReadability": {
-    "fleschReadingEase": 59.46,
+    "fleschReadingEase": 59.47,
     "fleschKincaidGrade": 8.48,
     "gunningFog": 11.9,
-    "smog": 11.62,
-    "colemanLiau": 9.78,
+    "smog": 11.61,
+    "colemanLiau": 9.77,
     "automatedReadabilityIndex": 7.81,
     "avgWordsPerSentence": 14.15,
     "avgSyllablesPerWord": 1.57
@@ -111,21 +111,21 @@
       "slug": "chapter-11",
       "title": "Chapter 11: The Circle in the Blizzard",
       "gestureCount": 25,
-      "words": 3088,
+      "words": 3090,
       "sentences": 174,
-      "avgWordsPerSentence": 17.75,
+      "avgWordsPerSentence": 17.76,
       "avgSyllablesPerWord": 1.7,
-      "fleschReadingEase": 45.1,
-      "fleschKincaidGrade": 11.38,
+      "fleschReadingEase": 45.15,
+      "fleschKincaidGrade": 11.37,
       "gunningFog": 14.88,
-      "colemanLiau": 12.22,
-      "automatedReadabilityIndex": 11.23,
+      "colemanLiau": 12.21,
+      "automatedReadabilityIndex": 11.22,
       "smog": 13.75,
       "smogReliable": true,
-      "lexicalEntropy": 8.54,
+      "lexicalEntropy": 8.53,
       "typeTokenRatio": 0.36,
-      "meanGestureWords": 123.52,
-      "stdGestureWords": 99.86,
+      "meanGestureWords": 123.6,
+      "stdGestureWords": 99.84,
       "structuralEntropyNorm": 0.97
     },
     {
@@ -265,21 +265,21 @@
       "slug": "chapter-17",
       "title": "Chapter 17: The Owl at the Edge of the Circle",
       "gestureCount": 41,
-      "words": 2471,
-      "sentences": 187,
-      "avgWordsPerSentence": 13.21,
+      "words": 2466,
+      "sentences": 186,
+      "avgWordsPerSentence": 13.26,
       "avgSyllablesPerWord": 1.6,
-      "fleschReadingEase": 57.67,
-      "fleschKincaidGrade": 8.5,
-      "gunningFog": 12.21,
+      "fleschReadingEase": 57.66,
+      "fleschKincaidGrade": 8.51,
+      "gunningFog": 12.23,
       "colemanLiau": 10.4,
-      "automatedReadabilityIndex": 7.96,
-      "smog": 11.77,
+      "automatedReadabilityIndex": 7.98,
+      "smog": 11.78,
       "smogReliable": true,
       "lexicalEntropy": 8.03,
       "typeTokenRatio": 0.32,
-      "meanGestureWords": 60.27,
-      "stdGestureWords": 37.63,
+      "meanGestureWords": 60.15,
+      "stdGestureWords": 37.48,
       "structuralEntropyNorm": 0.88
     },
     {
@@ -309,11 +309,11 @@
       "slug": "chapter-2",
       "title": "Chapter 2: Two Cities",
       "gestureCount": 40,
-      "words": 3734,
+      "words": 3735,
       "sentences": 295,
       "avgWordsPerSentence": 12.66,
       "avgSyllablesPerWord": 1.65,
-      "fleschReadingEase": 54.15,
+      "fleschReadingEase": 54.14,
       "fleschKincaidGrade": 8.85,
       "gunningFog": 12.7,
       "colemanLiau": 10.3,
@@ -322,8 +322,8 @@
       "smogReliable": true,
       "lexicalEntropy": 8.65,
       "typeTokenRatio": 0.33,
-      "meanGestureWords": 93.35,
-      "stdGestureWords": 84.72,
+      "meanGestureWords": 93.38,
+      "stdGestureWords": 84.74,
       "structuralEntropyNorm": 0.95
     },
     {
@@ -440,22 +440,22 @@
       "id": "P-EP",
       "slug": "epilogue",
       "title": "Epilogue: The Doves",
-      "gestureCount": 14,
-      "words": 1160,
-      "sentences": 78,
-      "avgWordsPerSentence": 14.87,
+      "gestureCount": 15,
+      "words": 1163,
+      "sentences": 79,
+      "avgWordsPerSentence": 14.72,
       "avgSyllablesPerWord": 1.39,
-      "fleschReadingEase": 74.39,
-      "fleschKincaidGrade": 6.58,
-      "gunningFog": 9.36,
-      "colemanLiau": 7.45,
-      "automatedReadabilityIndex": 6.22,
-      "smog": 9.57,
+      "fleschReadingEase": 74.63,
+      "fleschKincaidGrade": 6.51,
+      "gunningFog": 9.29,
+      "colemanLiau": 7.41,
+      "automatedReadabilityIndex": 6.14,
+      "smog": 9.52,
       "smogReliable": true,
       "lexicalEntropy": 7.52,
       "typeTokenRatio": 0.37,
-      "meanGestureWords": 82.86,
-      "stdGestureWords": 49.25,
+      "meanGestureWords": 77.53,
+      "stdGestureWords": 51.58,
       "structuralEntropyNorm": 0.87
     },
     {
@@ -551,21 +551,21 @@
       "slug": "reenchanting",
       "title": "Re-Enchanting the World",
       "gestureCount": 34,
-      "words": 2937,
+      "words": 2926,
       "sentences": 260,
-      "avgWordsPerSentence": 11.3,
+      "avgWordsPerSentence": 11.25,
       "avgSyllablesPerWord": 1.52,
-      "fleschReadingEase": 66.44,
-      "fleschKincaidGrade": 6.8,
-      "gunningFog": 9.84,
-      "colemanLiau": 8.62,
-      "automatedReadabilityIndex": 5.87,
-      "smog": 10.13,
+      "fleschReadingEase": 66.63,
+      "fleschKincaidGrade": 6.76,
+      "gunningFog": 9.79,
+      "colemanLiau": 8.59,
+      "automatedReadabilityIndex": 5.84,
+      "smog": 10.1,
       "smogReliable": true,
-      "lexicalEntropy": 8.28,
+      "lexicalEntropy": 8.27,
       "typeTokenRatio": 0.32,
-      "meanGestureWords": 86.38,
-      "stdGestureWords": 55.09,
+      "meanGestureWords": 86.06,
+      "stdGestureWords": 54.52,
       "structuralEntropyNorm": 0.94
     },
     {
@@ -636,28 +636,28 @@
     }
   ],
   "gestureDistributions": {
-    "count": 963,
+    "count": 964,
     "readableCount": 753,
     "wordCount": {
-      "n": 963,
-      "p10": 12,
+      "n": 964,
+      "p10": 11,
       "p25": 35,
       "p50": 70,
       "p75": 111,
       "p90": 175,
-      "mean": 87.08
+      "mean": 86.98
     },
     "lexicalEntropy": {
-      "n": 963,
-      "p10": 3.32,
-      "p25": 4.62,
+      "n": 964,
+      "p10": 3.28,
+      "p25": 4.61,
       "p50": 5.41,
       "p75": 5.88,
       "p90": 6.36,
       "mean": 5.12
     },
     "typeTokenRatio": {
-      "n": 963,
+      "n": 964,
       "p10": 0.6,
       "p25": 0.66,
       "p50": 0.73,
@@ -672,7 +672,7 @@
       "p50": 8.18,
       "p75": 10.8,
       "p90": 12.8,
-      "mean": 8.52
+      "mean": 8.51
     },
     "fleschReadingEase_3plusSentences": {
       "n": 753,
@@ -681,11 +681,11 @@
       "p50": 60.47,
       "p75": 72.47,
       "p90": 81.79,
-      "mean": 59.48
+      "mean": 59.49
     }
   },
   "transitionalEntropy": {
-    "total": 933,
+    "total": 934,
     "reliable": 226,
     "paragraphMeanDist": 0.96,
     "sectionMeanDist": 0.95
@@ -734,12 +734,6 @@
       "dispersionNorm": 0.97
     },
     {
-      "term": "Deleuze",
-      "total": 10,
-      "plateaus": 8,
-      "dispersionNorm": 0.97
-    },
-    {
       "term": "Valencia",
       "total": 11,
       "plateaus": 7,
@@ -750,6 +744,12 @@
       "total": 10,
       "plateaus": 7,
       "dispersionNorm": 0.94
+    },
+    {
+      "term": "Deleuze",
+      "total": 9,
+      "plateaus": 7,
+      "dispersionNorm": 0.97
     },
     {
       "term": "Enclosure",
@@ -771,12 +771,6 @@
     },
     {
       "term": "London",
-      "total": 7,
-      "plateaus": 6,
-      "dispersionNorm": 0.98
-    },
-    {
-      "term": "Guattari",
       "total": 7,
       "plateaus": 6,
       "dispersionNorm": 0.98
@@ -842,13 +836,19 @@
       "dispersionNorm": 0.92
     },
     {
-      "term": "Simondon",
-      "total": 7,
+      "term": "Guattari",
+      "total": 6,
       "plateaus": 5,
-      "dispersionNorm": 0.96
+      "dispersionNorm": 0.97
     },
     {
       "term": "Zuccotti",
+      "total": 6,
+      "plateaus": 5,
+      "dispersionNorm": 0.97
+    },
+    {
+      "term": "Simondon",
       "total": 6,
       "plateaus": 5,
       "dispersionNorm": 0.97
