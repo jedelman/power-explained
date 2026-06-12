@@ -105,8 +105,8 @@ orchard) already exists downstream — this section could either borrow
 forward from it or take its own image. Consistency call is yours.
 **JASON:**
 
-domestication and neoteny is the nature image here.
-
+domestication and neoteny is the nature image here. the way that organisms development and behavior can be altered 
+ by other organisms to serve their needs. zombie ants are the most dramatic, but I'm sure we can pull out other examples.
 
 ### 5. Chapter 4 — Kerala, the floor that holds (G-04-019 area)
 **Concept needing image (or person):** seventy years of left governance as a
@@ -121,6 +121,8 @@ below? A canopy that catches?) Or a person — one Keralan life lived on the
 floor. The chapter is fully beauty-locked: this enrichment is yours to weave
 or to hand me raw. Either grain works.
 **JASON:**
+
+agroforestry. Kerala farms spices. extend the orchard metaphor to one that harvests just enough and lets the forest thrive vs one that clear cuts it for maximum extraction and had a dust bowl in two generations.
 
 ### 6. Chapter 5 — the scale of unpaid care (G-05-0xx, the Oxfam figure)
 **Concept needing image:** $10.8 trillion of invisible labor — the one beat
