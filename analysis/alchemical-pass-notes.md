@@ -152,8 +152,13 @@ the reserved typhoon/zanjera) DONE. ch-16 (row 11 THE LAWN — PARTIAL:
 the keystone completed + the lamp deepened to 'territorial refusal'; the
 low-priority Baudrillard-familiarity slide persisted, logged straight)
 DONE. 16/16b aeration (flag 13, two beats — the four-fold rush
-RESOLVED, the climax density logged as inherent) DONE. NEXT (final weave):
-ch-18 the desiccated leaf (the substrate gradient's third term), ch-13
+RESOLVED, the climax density logged as inherent) DONE. ch-18 THE DESICCATED LEAF (the gradient's third
+term — 'precise and devastating'; the keystone closed at the institutional
+scale) DONE — THE FINAL WEAVE. ALL ROWS COMPLETE.
+NEXT (wrap-up): re-witness centaur + Wizard's Walk with Jason's installed
+sections; whole-river image-map consistency read (the soil-water-track
+system + the gradient + the lawn/ch-9 lawnmower rhyme); flag 14 (Jason
+interviews Claude); session log., ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
 license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
 Opus critique (checks 10-12) → fresh blind Sonnet witness vs. the

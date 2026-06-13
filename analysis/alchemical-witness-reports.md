@@ -3891,3 +3891,54 @@ one beat wouldn't cover the witness's named set and that a second belonged
 at the four-fold; capped at two per the critic's "do not exceed two." The
 four-stages-of-Baudrillard chill and the Deleuze density are pre-existing /
 inherent, logged not chased.)*
+
+---
+
+## chapter-18, THE DESICCATED LEAF (the substrate gradient's third term — the FINAL weave) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH, the gradient closed
+
+**The result, witnessed in the reader's own words:** "I cannot unsee the
+pavement image — the board that returns nothing, where even the enclosers
+get nothing, where the gift dries to dust and blows off. That is a
+description of something I have sat inside without having a name for it.
+The distinction between extraction (which at least keeps what it takes)
+and deadness (which returns nothing to anyone) is new to me and feels
+precise and devastating." The gradient's terminal term — the one Jason
+taught ("leaves don't compost on pavement — their nutrition is lost to
+desiccation") — landed exactly as designed, AND set up rather than stole
+the protected burnout beat two sentences down ("Burnout is not the failure
+of desire… That is the sentence I'll carry out of this chapter").
+
+**The three-term system, now complete across the river:**
+1. living soil composts the fall — the commons (a functioning league
+   metabolizes solidarity into shared fertility)
+2. captured soil composts your participation into someone else's ground —
+   capture (ch-2: "nobody stole my participation, they composted it")
+3. PAVEMENT desiccates, nothing returns to anyone, the enclosers included —
+   enclosure's end state (the dead institution as social pavement)
+
+The keystone's pavement (ch-1 trail-poured-permanent, ch-12
+attention-over-the-silt, ch-16 the lawn) reappears here at the
+human/institutional scale, closing both the gradient and the keystone.
+
+**Carried out (the chapter, strong):** the centaurs ("I felt it before I
+understood it"); the protocols given away; form-preceding-content ("inverts
+how I usually think about institutions"); the Stone: "show up, stay…
+handed. The mundane place. That reorientation feels like mine to carry
+now"; "You wonderful weird birds" landed "like a hand on the shoulder."
+
+**Logged, not chased (all pre-existing):** the Debord/Alexander/Jacobs
+recapitulation ("a summary chapter doing its duty"); the H&N friction; the
+desiring-production paragraph "extended a bit long after the insight
+arrived" — alchemical-era material, not the weave.
+
+*(Editor's note: THE FINAL WEAVE of the image-weave pass. Opus critic PASS
+on all checks — the gradient's three terms land in order, the third
+(desiccation, returns to no one) genuinely distinct from capture (relocates
+value); "the enclosers included" ruled consistent with the epilogue's
+"enclosure is a bad deal taken out of fear"; the keystone completed at the
+institutional scale without over-spending. One tension flagged for Jason's
+eye: the passage briefly grades capture "at least" something to make
+pavement worse by contrast — earned, structurally necessary, his call. The
+desiccated leaf was deliberately withheld from ch-2 (to keep capture's
+absorption image clean) and reserved for here — the gradient's terminal
+term in the gradient's terminal emotional register, a dead institution.)*

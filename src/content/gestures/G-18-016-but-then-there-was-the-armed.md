@@ -20,9 +20,18 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-18-017 on
   2026-05-20] [merged G-18-018 on 2026-05-20]
+  image: THE DESICCATED LEAF (Jason 2026-06-12: "leaves don't compost on
+  pavement — their nutrition is lost to desiccation") — the image-weave
+  pass, the substrate gradient's THIRD and final term. Living soil composts
+  the fall (commons) / captured soil composts your participation into
+  someone else's ground (capture, ch-2) / pavement desiccates, nothing
+  returns to anyone (enclosure's end state). The dead institution as the
+  social pavement — the keystone's pavement (ch-1/12/16) reappearing at the
+  human scale; seats 'returning nothing that cost anything' two sentences
+  down. Closes the gradient and the lawn/pavement keystone.
 ---
 But then there was the Armed Forces Brewing Company — the anti-LGBTQ brewery seeking a permit next door to an LGBTQ aid center. The neighboring league wanted to issue a statement of opposition. A symbolic act. A gesture. My league's new members wanted to sign on in solidarity. The board left it off the agenda.
 
-They were within their rights. No rule violated. Just fear, made decisive by the structure of the institution. I watched the board absorb a majority impulse of the membership and return nothing.
+They were within their rights. No rule violated. Just fear, made decisive by the structure of the institution. I watched the board absorb a majority impulse of the membership and return nothing. Healthy ground takes the fallen leaf and makes it soil — the energy comes back as fertility the whole stand can draw on. A captured ground at least composts your fall into someone else's field; the value goes, but it goes somewhere. This was neither. This was pavement. The leaf falls on pavement and there is no rot, no return, no one downstream who is fed — the nutrition simply dries to dust and blows off, lost to everyone, the enclosers included. That is the last stage of the thing: not extraction, which at least keeps what it takes, but a deadness so complete that the gift given to it returns to no one at all.
 
 I didn't resign over Armed Forces. But I burned out watching the institution I had invested years in fail to perform even a gesture — watching it function exactly as designed, processing community energy into institutional legitimacy, returning nothing that cost anything.
