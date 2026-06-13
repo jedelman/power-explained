@@ -124,14 +124,14 @@ relationship between man and machine" — "felt like a formulation rather
 than a sentence from inside the experience."
 **Decision:** reword (yours), or stand.
 **JASON (a):** keep.
-**JASON (b):** dropped in `./cybernetics-quest.md` — INSTALLED 2026-06-12 (G-WW-026, verbatim at his anchor). RESOLVED.
+**JASON (b):** dropped in `./cybernetics-quest.md` — INSTALLED 2026-06-12 (G-WW-026, verbatim at his anchor). RESOLVED. RE-WITNESS 2026-06-13: the section deepened it but a witness still reads the vision 'named from the outside.' Jason: KEEP — 'a true signal, an authentic expression of where I'm at.'
 
 ## 12. G-CE-022 "[Jason's section]"
 
 The river's only placeholder — your half of the centaur dialogue.
 **Decision:** write it (tomorrow's session, you said) — or tell me the
 shape and I'll stage a draft from your prior words for you to cut.
-**JASON:** dropped in `./centaur.md`. — INSTALLED 2026-06-12 (G-CE-022, verbatim; the river's last placeholder is gone). RESOLVED.
+**JASON:** dropped in `./centaur.md`. — INSTALLED 2026-06-12 (G-CE-022, verbatim; the river's last placeholder is gone). RESOLVED. RE-WITNESS 2026-06-13: flag-14 AI-voice uncertainty resolved by the two-halves conversation; the one remaining 'I hope it's of benefit' beat — Jason: KEEP, authentic.
 
 ## 13. Stone test — 16/16b acceleration (DECIDED: new prose)
 
