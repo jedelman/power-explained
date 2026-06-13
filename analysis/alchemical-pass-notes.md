@@ -151,8 +151,9 @@ difficulty' after one witness-driven trim; the flood ruled distinct from
 the reserved typhoon/zanjera) DONE. ch-16 (row 11 THE LAWN — PARTIAL:
 the keystone completed + the lamp deepened to 'territorial refusal'; the
 low-priority Baudrillard-familiarity slide persisted, logged straight)
-DONE. NEXT: 16/16b aeration (new-prose license, flag 13), then ch-18 the
-desiccated leaf (row's third term), ch-13
+DONE. 16/16b aeration (flag 13, two beats — the four-fold rush
+RESOLVED, the climax density logged as inherent) DONE. NEXT (final weave):
+ch-18 the desiccated leaf (the substrate gradient's third term), ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
 license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
 Opus critique (checks 10-12) → fresh blind Sonnet witness vs. the

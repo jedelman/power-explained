@@ -3842,3 +3842,52 @@ rhyme; the whole-river feel of the forest→lawn pair. Logged honestly as a
 PARTIAL: architecture + lamp-depth gained, the low-priority familiarity
 slide unchanged — the pass's second non-total result after the OA
 grapevine, recorded straight.)*
+
+---
+
+## chapter-16b, AERATION (flag 13 — the 16/16b rush) — witnessed 2026-06-12 (Sonnet, blind, pacing-attended) · verdict: the named rush RESOLVED; the climax density acknowledged as inherent
+
+**The Stone-test rush, before/after:** the whole-river Stone witness — "the
+connections… arrive in a rush that doesn't give each one the room it
+earned" (Turing/Matrix/Basmati/GPL). After two aeration beats (new-prose
+license), the chapter witness's verdict on that exact four-fold: the RUSH
+COMPLAINT IS GONE — replaced by the milder "powerful as a list, but the
+chapter has already used them earlier. The return felt slightly assembled
+rather than discovered." That is the recap-noticed property inherent to any
+recapitulation chord, not the rush. Each origin now has its earned clause
+and the chord lands on "Four singularities… not one an average could have
+reached." RESOLVED.
+
+**The first beat (trans-bodies) landed:** "the extension to trans bodies,
+the 'made daily is the part that matters' — that arrived with weight." The
+cinematic-vs-lived contrast (Neo's scene vs. the years) was received, not
+read as bloat.
+
+**The honest remaining edge — inherent density, not rush:** the witness
+names the Deleuze/Guattari → body-without-organs → trans → Neo → hollow-book
+sequence as "the most demanding stretch… the most at risk of losing
+someone. A reader less prepared might need a breath." Critically: "I didn't
+bounce off… I held it." This is the philosophical climax being hard because
+the material is hard (four major concepts converging) — distinct from the
+Stone witness's compression-rush, and Jason himself named the chapter "tough
+conceptual territory… some rough edges still." Decision: NOT chased with a
+third beat — over-aerating the conceptual core would violate the economy the
+alchemical pass established and pad what the witness held. Logged as a
+standing edge for Jason, his call.
+
+**Carried out (the chapter, strong):** "watched it as an action film" ("a
+small collapse"); the grandmother's kitchen in the mycorrhizal-dark list
+("hit last and hardest"); "*You* are what the system cannot train on. Full
+stop. I stopped reading for a moment. That is the chapter's center of
+gravity"; the confession "deepened it… I trusted it more, not less." The
+Stone: "closer to permission than instruction… The doing is mine."
+
+*(Editor's note: two aeration beats under flag-13's new-prose license, both
+critic-PASS — G-16b-019 (trans-bodies, the made-daily lived rupture vs.
+Neo's cinematic one) and G-16b-038 (the four-fold origins given each member
+a clause, no new claim — every detail a recall of Turing's prosecution, the
+Wachowskis' years, RiceTec, Stallman). The critic correctly diagnosed that
+one beat wouldn't cover the witness's named set and that a second belonged
+at the four-fold; capped at two per the critic's "do not exceed two." The
+four-stages-of-Baudrillard chill and the Deleuze density are pre-existing /
+inherent, logged not chased.)*
