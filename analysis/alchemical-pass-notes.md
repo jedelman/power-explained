@@ -1516,3 +1516,55 @@ incants subliminally, the hypertext layer is the reveal.
   license to give that stretch room, provenance rules in force.
 - Interview answers, flag decisions, G-CE-022, Kollontai, and the centaur
   passage sitting: Jason's work session 2026-06-12.
+
+## WHOLE-RIVER IMAGE-MAP CONSISTENCY GATE — PASSED (2026-06-13)
+
+The final consistency gate. A read-only Opus audit walked all 84,670 woven
+words in canonical order against the complete image-map. Verdict:
+**CONSISTENT — the image-map holds across the whole river; no repair
+required.** All ~10 families hold their single meaning at every site.
+
+The three highest-risk checks, all PASS:
+- **mycorrhizae = ONE meaning** across every site (care/Oxfam L939 the
+  canonical statement; the biopower orchard L775; the old-growth opening
+  L2405 EXPLICITLY named Simondon's pre-individual field; the mycorrhizal
+  dark L2639; the queer communities of care L2453; Occupy's field made
+  visible L2827). The CLAUDE/instructions requirement — care, regeneration,
+  reproduction, AND the pre-individual field are the same invisible
+  relational substrate — is met on the page.
+- **the substrate gradient** (commons-compost / capture-relocates /
+  pavement-desiccates) lands consolidated at L2841 (ch-18 burnout), the
+  three terms held perfectly distinct, capture (value relocates) vs.
+  desiccation (value destroyed, returns to no one) explicit — "the single
+  cleanest articulation of the law in the book," back-referencing the ch-2
+  capture image (L217) without contradiction.
+- **the three consecutive soil-damage images** read DISTINCT: Kerala's
+  dust bowl = a husbandry choice / counter-image (L633); the care chapter's
+  severed web = a severance with delayed collapse (L939); the colony's
+  burned seed bank = an inflicted burn with a named agent and an owed
+  restitution (L1103).
+
+Also PASS: the pavement keystone's FOUR faces distinct organs (poured-trail
+L151 / unreadable-ground L1811 / mowed-false-nature L2419 / dead-return
+L2841); tracks-and-trails ch-1 (single trail, individual habit) vs. Goetia
+(the trail-SYSTEM, collective inscription, L785) = clean escalation/
+seed-and-bloom; NO heron-as-spoor survives (the heron/tracker firewall
+intact — the ch-12 catch held); flood/trickle/flow three consonant castings
+(violent fast-water = extraction/catastrophe; trickle/steady = commons);
+the reserved singles (meadow, cedar chip, deer, old-growth, orchard,
+typhoon-rebuild) all held; biopower's domestication/zombie-ant confined to
+its chapter; the ch-9 lawnmower-noise vs. ch-16 lawn-anti-forest a distant
+rhyme, not a collision. No image carries a second meaning by connotation.
+No crowding — the two densest sites (the system-of-objects forest+lawn, the
+burnout gradient-convergence) are designed layerings/culminations, executed
+clean.
+
+## THE IMAGE-WEAVE PASS — COMPLETE (2026-06-13)
+
+All 11 image rows + 2 aerations (16/16b) + the desiccated leaf woven,
+critiqued (Opus), witnessed blind (Sonnet), committed. Jason's two lacunae
+installed (G-CE-022, G-WW-026). All 17 alchemical flags resolved or kept
+by Jason's call. Wrap-up re-witnesses done (centaur flag-14 resolved;
+Wizard's Walk strong). The whole-river image-map consistency gate PASSED.
+Distillation: analysis/what-we-learned.md. Remaining: session log; the
+reverse interview (flag 14, Jason interviews Claude) — likely a new session.
