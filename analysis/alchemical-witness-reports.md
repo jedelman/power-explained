@@ -3787,3 +3787,58 @@ compression, not by cutting the image. The flood here ruled a DISTINCT
 casting from the reserved typhoon/dam-zanjera family (extraction-as-flood
 vs. weather-the-commons-outlasts) — wrap-up image-map note logged. The
 book's own river-form quietly implicated and kept.)*
+
+---
+
+## chapter-16, image-weave row 11 (THE LAWN — the anti-forest) — witnessed 2026-06-12 (Sonnet, blind) · verdict MATCH; PARTIAL result, logged honestly
+
+**Honest before/after — the keystone completed, the lamp deepened, the
+familiarity-slide persisted:**
+- The GAIN that landed, witnessed and explicit — the grandmother's lamp,
+  recast as the track on the lawn, gained a whole level for this reader:
+  "I now see that my grandmother's weird lamp is not just sentimental
+  value resisting commodity logic. It is an act of territorial refusal. It
+  points somewhere the arrangement cannot metabolize. I had never felt the
+  weight of that before." The track-on-the-lawn seating worked — the
+  counter-image is now read as territorial refusal, exactly the keystone's
+  "no tracks" payoff.
+- The PERSISTENCE — the showroom slide did NOT fully dissolve. Alchemical
+  witness: "the mind slid into recognition rather than discovery… the
+  grandmother's lamp brought me back." This witness: "my mind got a
+  half-step ahead of the text. I was tracking, not reading. Your
+  grandmother's weird lamp brought me back… the furniture showroom
+  argument goes on two beats longer than it needs to before arriving
+  there." Same shape. The lawn (even after the critic's trim) added length
+  to the exact paragraph the reader wanted shorter. Row 11 was flagged
+  low-priority in the interview ("the section may simply be carrying
+  recognition for readers who've met Baudrillard") — and that diagnosis
+  holds: the slide is largely the familiarity of the Baudrillard argument
+  itself, which no image fully cures for a theory-read reader.
+
+**The architectural win stands regardless of the slide:** the lawn binds
+the chapter's OPENING old-growth forest into a single landscape pair (the
+mycorrhizal network = love that nourishes; the lawn = love that encloses,
+"the anti-forest… the opposite of the forest you just walked through"),
+and completes the keystone's two faces (ch-12 pavement = abolished
+legibility; the lawn = mowed legibility, false nature). These are
+river-grain gains the single chapter-read cannot fully register — the
+wrap-up whole-river witness is where the forest→lawn pair will be felt.
+
+**Other landings (the chapter, strong throughout):** "Yes, even that part"
+("my chest did something… before I understood why"); the spectacle
+absorbing 1968 ("I have owned those posters. I am the evidence"); Turing's
+"the knowledge was useful. The person was a problem" ("anger… clean, not
+hot. The kind that stays"); "The commons is not a noun" carried out. The
+Stone: "It hands me a question… It keeps the question… The doing is mine."
+
+*(Editor's note: Opus critic PASS with one REVISE applied exactly — a
+musical-metaphor flourish ("a single flat note held forever") smuggled
+into the nature image, plus two stumbles, all cut; the anti-forest binding
+ruled "the strongest single move I've reviewed in this pass." The
+desiccated-leaf gradient confirmed preserved (the lawn KILLS soil; the
+ch-18 leaf DESICCATES with nothing returning — distinct verb, distinct
+substrate). Two wrap-up watch-items: the ch-9 lawnmower-as-noise distant
+rhyme; the whole-river feel of the forest→lawn pair. Logged honestly as a
+PARTIAL: architecture + lamp-depth gained, the low-priority familiarity
+slide unchanged — the pass's second non-total result after the OA
+grapevine, recorded straight.)*
