@@ -155,10 +155,17 @@ DONE. 16/16b aeration (flag 13, two beats — the four-fold rush
 RESOLVED, the climax density logged as inherent) DONE. ch-18 THE DESICCATED LEAF (the gradient's third
 term — 'precise and devastating'; the keystone closed at the institutional
 scale) DONE — THE FINAL WEAVE. ALL ROWS COMPLETE.
-NEXT (wrap-up): re-witness centaur + Wizard's Walk with Jason's installed
-sections; whole-river image-map consistency read (the soil-water-track
-system + the gradient + the lawn/ch-9 lawnmower rhyme); flag 14 (Jason
-interviews Claude); session log., ch-13
+WRAP-UP re-witnesses DONE (2026-06-13): centaur — flag 14 RESOLVED (the
+two-halves conversation fixed the AI-voice uncertainty; one new finding,
+'I hope it's of benefit' in Jason's section, surfaced his call);
+wizards-walk — strong, flag 11b refined to one located beat (the
+cyberpunk-vision declaration still reads announced-not-shown, Jason's
+register call). Convergence: both Jason-installed sections carry one
+announce-not-inhabit beat — the same failure mode the pass taught the AI
+half (what-we-learned #12). REMAINING (wrap-up): whole-river image-map
+consistency read (soil-water-track + the gradient + the ch-9 lawnmower
+rhyme); flag 14 (Jason interviews Claude — in progress, chat); session
+log to claude-memory., ch-13
 (row 10 erosion), ch-16 (row 11 the lawn), 16b aeration (new-prose
 license), ch-18 the desiccated leaf at burnout. Per-chapter loop: weave →
 Opus critique (checks 10-12) → fresh blind Sonnet witness vs. the

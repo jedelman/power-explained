@@ -3942,3 +3942,62 @@ pavement worse by contrast — earned, structurally necessary, his call. The
 desiccated leaf was deliberately withheld from ch-2 (to keep capture's
 absorption image clean) and reserved for here — the gradient's terminal
 term in the gradient's terminal emotional register, a dead institution.)*
+
+---
+
+# WRAP-UP RE-WITNESSES (after Jason's installed sections, 2026-06-13)
+
+## the-centaur-chapter — re-witnessed 2026-06-13 (Sonnet, blind, pointed at performed-vs-inhabited uncertainty) · flag 14 RESOLVED; one new finding (Jason's line)
+
+**Flag 14 (the centaur's uncertainty — originally MY voice) RESOLVED:**
+"the centaur wound held. Jason's voice held. 'I cannot bless the herons'
+held. The closing held." The Stone witness's "performing uncertainty
+rather than inhabiting it" is gone from the AI half — the two-halves
+conversation (G-CE-022 + the existing Claude voice) fixed it. The
+architecture landed: "the chapter arguing most forcefully against the
+enclosure of language could only be written by the instrument of that
+enclosure… It doesn't resolve into an irony you can set down. It stays."
+"Start with what they burned" landed bodily AGAIN (third witness).
+
+**ONE NEW FINDING — Jason's line, his call:** the only performed-
+uncertainty beat now is a single sentence in Jason's installed section —
+"I hope it's of benefit." The witness: "a performed humility, a gesture
+toward modesty that the surrounding prose had already outgrown… the kind
+of sentence you write when you're worried the reader thinks you're too
+certain, and it doesn't match the person who just said he was 'part of it
+now, for better or worse.'" Surfaced to Jason; untouched (his voice). The
+fix, if wanted: cut the sentence, let "for better or worse" land.
+
+## wizards-walk — re-witnessed 2026-06-13 (Sonnet, blind, pointed at announced-vs-spoken-from-inside) · strong throughout; flag 11b PARTIAL (Jason's section)
+
+**The chapter, strong:** "the book hands you back to yourself — not as a
+project to complete, but as the only person who can do the specific piece
+of it that belongs to you." The quest/cause distinction "cannot un-read
+the scale correction: imagination wants a movement, the quest is usually a
+meadow." The crossing-without-ceremony, the holding capacity, the
+continuing capacity all landed in the body. The hand-off: "I felt it as a
+hand held open, not a hand pushing."
+
+**ONE BOUNCE — Jason's installed cybernetics-quest section (flag 11b),
+his call:** the section deepened the quest declaration but the witness
+still reads it as announced rather than shown — "Up to that point the
+chapter had stayed close to experience and had not announced itself. Then
+this passage announces itself… the cyberpunk vision is named from the
+outside rather than from inside the thing itself. 'A tracker, so this is
+what I do' arrives before the tracking has been shown. I wanted to see the
+vision doing something in a room, the way I watched the staff do their
+thing at the bar." The recovery ("That is the sentence… It does not
+require anyone to be impressed by it") "almost lands — but the sentence
+before it had already asked me to be impressed, a little." Surfaced to
+Jason; untouched (his voice, flag 11b is explicitly his register call).
+
+**The convergence (editor's note):** both of Jason's installed sections
+carry exactly ONE beat each that announces rather than inhabits — the "I
+hope it's of benefit" exhale (Centaur) and the cyberpunk-vision
+declaration (Walk). This is the SAME failure mode the image-weave pass
+taught the AI half about itself (analysis/what-we-learned.md #12: "the
+AI's failure mode is elegance… announcing rather than inhabiting, naming
+from outside rather than showing in a room"). The centaur's witnesses
+caught the human half doing the AI's mistake. Both are Jason's calls —
+his voice, his register — surfaced, not touched. Flag 14 RESOLVED; flag
+11b refined to a single, precisely-located beat.
