@@ -19,4 +19,4 @@ notes: |
   defensive frame and the contrast-preview, leaving only the question and
   the promise.
 ---
-It would be a misreading to dismiss this vignette as some sort of utopian *thats-just-how-europe-is*. A better question — why Barcelona? Because there are reasons.
+Why Barcelona? There are reasons.

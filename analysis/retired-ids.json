@@ -1083,5 +1083,47 @@
     "id": "G-CE-021",
     "mergedInto": "G-CE-020",
     "plateau": "P-CE"
+  },
+  {
+    "id": "G-PR-020",
+    "mergedInto": null,
+    "plateau": "P-PR",
+    "note": "cut \u2014 alchemical pass 2026-06-10 (scaffolding announcement; the centaur paragraph carries the tie explicitly)"
+  },
+  {
+    "id": "G-01-034",
+    "mergedInto": null,
+    "plateau": "P-01",
+    "note": "cut \u2014 alchemical pass 2026-06-10 (brochure-promise close; the prologue carries the promise with agency, and the midnight crack now answers the question directly)"
+  },
+  {
+    "id": "G-09-017",
+    "mergedInto": null,
+    "plateau": "P-09",
+    "note": "cut \u2014 alchemical pass 2026-06-11 ('Here is Gramsci's answer' announcement gesture; the war of position now arrives as discovery in G-09-018)"
+  },
+  {
+    "id": "G-16b-032",
+    "mergedInto": null,
+    "plateau": "P-16b",
+    "note": "cut \u2014 alchemical pass 2026-06-11 ('Here is the singularity argument at its fullest.' staging announcement; the argument opens cold in G-16b-033; Ruling 1 kept the section break)"
+  },
+  {
+    "id": "G-16b-056",
+    "mergedInto": null,
+    "plateau": "P-16b",
+    "note": "cut \u2014 alchemical pass 2026-06-11 ('The next chapter is about that remembering.' \u2014 diluting double of the protected forward-link close G-16b-057)"
+  },
+  {
+    "id": "G-17-014",
+    "mergedInto": null,
+    "plateau": "P-17",
+    "note": "cut \u2014 alchemical pass 2026-06-11 (verbatim twin of G-14-016 'The people didn't go anywhere\u2026' \u2014 cross-chapter duplication; the collapse story lives whole in chapter-14)"
+  },
+  {
+    "id": "G-18-011",
+    "mergedInto": null,
+    "plateau": "P-18",
+    "note": "cut \u2014 alchemical pass 2026-06-11 ('What it couldn't hold is what this chapter is about' announcement; the turn happens at G-18-012's 'The herd needed governance')"
   }
 ]

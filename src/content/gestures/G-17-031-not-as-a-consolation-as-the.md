@@ -23,4 +23,4 @@ notes: >-
 ---
 Not as a consolation. As the work. The building of the community at the threshold — the one that learns to welcome and attend — is not the lesser version of the thing. It is the thing.
 
-This is the call the chapter is making. Not to descend — many of us have already descended, more than once. To learn to welcome and attend. To become the community at the threshold. To practice the form of the circle that already knows how to receive the owl when it arrives.
+This is the call. Not to descend — many of us have already descended, more than once. To learn to welcome and attend. To become the community at the threshold. To practice the form of the circle that already knows how to receive the owl when it arrives.

@@ -17,7 +17,6 @@ gestures:
   - G-09-012
   - G-09-013
   - G-09-014
-  - G-09-017
   - G-09-018
   - G-09-019
   - G-09-021
@@ -46,7 +45,6 @@ separators:
   - paragraph
   - paragraph
   - section
-  - paragraph
   - paragraph
   - paragraph
   - paragraph

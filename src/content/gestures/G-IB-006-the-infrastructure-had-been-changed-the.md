@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The infrastructure had been changed, the space had been returned, and what people did with it was exactly what you would expect people to do when given a street and an evening: they made something together that none of them could have made alone. Prefiguration as Tuesday-night practice — the new world danced as if it had always been here.
+The infrastructure had been changed, the space had been returned, and what people did with it was exactly what you would expect people to do when given a street and an evening: they made something together that none of them could have made alone. Tuesday-night practice: the new world danced as if it had always been here.

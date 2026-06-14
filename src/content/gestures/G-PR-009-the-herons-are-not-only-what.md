@@ -25,6 +25,6 @@ Millions of years in the shallows, returning to the willow oak, standing motionl
 
 We are not so different, at the root. The recognition you felt looking at that red eye was not sentiment. It was memory — something in us that knows it belongs to the same world, the same long story.
 
-We have something the herons don't. When we see what's broken, we can name it, and the name we use can empower us to change it. The herons can benefit from these gifts as much as us.
+We have something the herons don't. When we see what's broken, we can name it, and the name we use can empower us to change it. The herons can benefit from these gifts as much as we do.
 
 This is a book about learning to use them.

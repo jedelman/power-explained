@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-What they share: the machine requires a zone where value can be extracted without full payment. The math only works if someone isn't being fully compensated. The outside is where the accounting goes to avoid itself. Keep it unacknowledged, keep it outside the categories of recognition and compensation, and the returns look better than they are.
+The outside is where the accounting goes to avoid itself. Keep it unacknowledged, and the returns look better than they are.

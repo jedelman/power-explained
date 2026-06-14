@@ -18,7 +18,6 @@ gestures:
   - G-18-008
   - G-18-009
   - G-18-010
-  - G-18-011
   - G-18-012
   - G-18-013
   - G-18-014
@@ -49,7 +48,6 @@ gestures:
   - G-18-043
   - G-18-044
 separators:
-  - paragraph
   - paragraph
   - paragraph
   - paragraph
