@@ -46,14 +46,12 @@ naming the terrain improves it.
    perception" (✅ l.2322); "angles I couldn't reach alone" (✅ l.1810). This is the
    answer to Hayek turned around (see move 4).
 
-4. **Hayek concedes the premise; Ostrom is the proof against his conclusion.** ⚠️ ROUTE —
-   *Hayek is not currently named in the book* (confirmed by the Adversary critic). Proposed
-   addition: Hayek grants that the knowledge running the world is distributed and cannot be
-   centralized — and stops at the *only* (price is the sole coordinator). Ostrom's eight
-   design principles, "not prescriptions but findings" (✅ l.438), are the empirical proof
-   of the *other* coordinator — self-governing commons — against Hayek's own "only." Likely
-   home: near the Ostrom passage (l.428–450) or the Ostrom/Negri convergence already on the
-   page: "Both arrived, from opposite directions, at the same answer" (✅ l.480).
+4. **Ostrom is the proof that distributed agency self-coordinates.** ✅ DECIDED (Jason,
+   2026-06-16): **no Hayek** — the argument stands without the foil. Ostrom's eight design
+   principles, "not prescriptions but findings" (✅ l.438), are the empirical demonstration
+   that self-governing commons coordinate distributed agency without a center — against
+   Hardin's determinism. Already paired on the page with Negri: "Both arrived, from opposite
+   directions, at the same answer" (✅ l.480).
 
 5. **The machine is asignifying — real production, neutral.** 🗣️ + D&G: machines are
    *without semantics*; they do not mean, they produce. The text is real (the way the body
@@ -86,7 +84,8 @@ naming the terrain improves it.
    l.1294 refinement and the l.1504 honesty fix (below).
 
 8. **The counterspell: inside the simulation, performed love wields real force.** 🗣️ +
-   ⚠️ ROUTE (explicit reading is new). Baudrillard read as *possibility, not defeat*: in a
+   ✅ DECIDED EXPLICIT (Jason, 2026-06-16) — make the turn explicit in the prose, not
+   silent. Baudrillard read as *possibility, not defeat*: in a
    regime where performance and reality are indistinguishable and the sign has become
    operative, the *performance* of love becomes a real deployment of force — because the
    simulation itself has made performance efficacious. You do not escape the simulation to
@@ -204,14 +203,14 @@ the deer scene. Revised passage below.)*
 
 1. ✅ This foundation doc (staged).
 2. ✅ Fresh-context critic on the keystone-seed — REVISE→passed after one revision.
-3. ☐ Part VI crystallization drafts (love-as-force → two modes → counterspell → chance).
-4. ☐ The Centaur chapter rewrite (the living case).
-5. ☐ The agency thread (path manifest over existing gestures).
-6. ☐ Apply the l.1294 refinement and l.1504 honesty fix.
+3. ✅ Keystone-seed SHIPPED in place at `G-03-046a` (Jason, 2026-06-16).
+4. ☐ The Centaur chapter rewrite (the living case) — counterspell made EXPLICIT.
+5. ☐ Part VI crystallization drafts (love-as-force → two modes → counterspell → chance).
+6. ☐ The agency thread (path manifest over existing gestures).
+7. ☐ Apply the l.1294 refinement and l.1504 honesty fix.
 
-## Open calls for Jason (nothing ships unbidden)
-- **⚠️ Hayek** (move 4): add him, or keep the argument Hayek-free?
-- **⚠️ The counterspell reading** (move 8): make the "performed-love-wields-force-inside-
-  the-simulation" turn explicit in the prose, or hold it as the book's silent method?
-- **Keystone-seed:** ship the expansion at `G-03-046a`, or keep that gesture terse and move
-  the seed to a companion `G-03-046b`?
+## Decisions locked (Jason, 2026-06-16)
+- **No Hayek** — the argument stands without the foil (move 4 rewritten).
+- **Counterspell EXPLICIT** — the performed-love-wields-force turn is stated in the prose,
+  not held as silent method (lands in Part VI crystallization + the Centaur).
+- **Keystone-seed SHIPPED in place** at `G-03-046a` — gesture body expanded, not split.
