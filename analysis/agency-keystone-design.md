@@ -172,13 +172,18 @@ them.**
 *Pronoun contract held: the wounded "You" kept at the lonely beats; "we/us" for the
 reckoning and the building; the original landing preserved.*
 
+*(Passed the fresh-context critic loop after one revision, 2026-06-16. The critic cut two
+register violations from the first draft — "which is why" (explain-the-knowing) and "the
+way out is…" (instruction/curriculum register) — and over-engineered triples. Verdict on
+the revision: seed lands for a ch.3 reader; pronoun contract clean; hands off cleanly into
+the deer scene. Revised passage below.)*
+
 > The loneliness was the spell. Not a feeling — a fence. You looked for your power in
 > yourself, found little, and called that the size of the world. But it was never yours
-> alone to hold. Power lives between us — in what we build and defend together — which is
-> why being made alone feels exactly like being made powerless. It is. The way out is not
-> to grow stronger by yourself. It is to act as if your strength is shared — because it is
-> — and to find, in the building, that it was. You were never alone. You were always
-> building with us. If we choose to, we can build together.
+> alone to hold. Power lives between us, in what we build and defend together. Being made
+> alone feels like being made powerless. It is. You do not grow stronger alone. You act as
+> if your strength is shared — and find, in the building, that it was. You were never
+> alone. You were always building with us. If we choose to, we can build together.
 
 **Ledger (per clause):**
 - "The loneliness was the spell" / "You were never alone… building with us… if we choose
@@ -189,17 +194,16 @@ reckoning and the building; the original landing preserved.*
 - "it was never yours alone to hold. Power lives between us" — 🗣️ distributed agency + H&N
   multitude (✅ l.2874).
 - "in what we build and defend together" — love-as-force seed (H&N; ✅ l.2410 `G-16-003`).
-- "being made alone feels exactly like being made powerless. It is." — 🗣️ + ✅ l.1492.
-- "act as if your strength is shared — because it is — and to find, in the building, that
-  it was" — 🗣️ the enactive move (+ first-practice register, ✅ l.568).
+- "Being made alone feels like being made powerless. It is." — 🗣️ + ✅ l.1492.
+- "You act as if your strength is shared — and find, in the building, that it was" — 🗣️ the
+  enactive move (+ first-practice register, ✅ l.568).
 
 ---
 
 ## Build plan / next steps
 
 1. ✅ This foundation doc (staged).
-2. ▶ Fresh-context critic on the keystone-seed (Gandalf/cadence/pronoun/anti-slop/
-   provenance) — running.
+2. ✅ Fresh-context critic on the keystone-seed — REVISE→passed after one revision.
 3. ☐ Part VI crystallization drafts (love-as-force → two modes → counterspell → chance).
 4. ☐ The Centaur chapter rewrite (the living case).
 5. ☐ The agency thread (path manifest over existing gestures).
