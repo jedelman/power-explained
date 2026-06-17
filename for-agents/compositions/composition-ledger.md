@@ -832,3 +832,20 @@ the isolated line-citations implied.
   violation ("your crossing" = possessive condition-line); de-possessed to "a
   crossing on foot," tightened "set the lights to strand" → "aimed the lights at
   you," kept isolating-You. Build clean (141 pp).
+
+### G-04-025a — REVISED on Jason's PR review (2026-06-17, PR #10)
+Jason's review comment (line 36): "too gentle on markets… they have different intentions…
+we don't know if the intentions of millions of strangers can be coordinated by a commons
+but we can confidently assert that it's worth trying — and hasn't been. There are tools we
+haven't invented yet." Reframed from "concede the calculation problem" to "open, untested,
+worth trying":
+- market vs commons = different *intentions* (not the market's settled superiority);
+- "has not replaced the market — not yet" (future open);
+- "no one knows… It hasn't been tried. And it is worth trying" (don't concede impossibility);
+- "tools we may not have invented yet";
+- "Whether the commons grows beside the market or past it, we do not yet know" (drop the
+  asserted complementarity).
+Source: Jason directive (PR #10 review, his analytical position as author). Critique
+(fresh-context): SHIP WITH REVISION → applied (intention-framing without a market-capability
+leak; "built"→"sustained" airtight vs G-10-024 Catalonia; cut a lecture tail; split an
+overpacked sentence). Build clean (141 pp).
