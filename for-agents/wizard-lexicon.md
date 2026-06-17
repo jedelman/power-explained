@@ -13,6 +13,32 @@ the sequencing pass (2026-05-26, restructured 2026-06-04).
 - **The apparatus:** the grimoire (the tool), the wizard (who wields it),
   initiation (the becoming).
 
+## The causal structure — two axes, one rhizome
+
+Idealism and materialism do not compete here. They are two linked causal axes,
+and change moves *rhizomatically* along both — no single root, many entries,
+each term feeding back on the others.
+
+- **Agency (the inner axis):** *attention → seeing/naming → possibility.* What you attend to
+  sets what you can see; naming truly what you see is the counter-spell that changes the room,
+  and that sets what you can hold as possible. The middle term is **recognition, not invention**
+  — in a pro-remembrance book the imaginative act is seeing what was always there (the names are
+  yours, returned), never conjuring the new. This is why the enclosure of attention is *the
+  enclosure underneath all the other enclosures* — built to in G-12-036 (the wetland silt;
+  "capture the attention that would produce the conclusion") and returned to in G-EP-013
+  ("attention trained that way is the root of everything else… the counter-enclosure").
+  "Attention is the root" is the first link, not idealism.
+- **Action (the outer axis):** *goals → means → outcomes.* The means shape the
+  outcome so completely that *the means are the ends, every time* (G-10-030).
+
+Not two parallel lines but one rhizome: possibility feeds goals, outcomes retrain
+attention, and any point can be entered first. The *paths* form enacts it — many
+threads through one field, no privileged root. The two axes meet at the book's
+own thesis: consciousness as terrain for revolution.
+
+*Provenance: Jason directive, 2026-06-17 (the Finish-the-Sentence / kintsugi pass).
+Wording captured from the directive — Jason to confirm.*
+
 ## The master principle
 
 Every concept here is a tool that was turned against us and can be taken back.

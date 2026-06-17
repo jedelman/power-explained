@@ -1,69 +1,35 @@
 ---
 slug: the-centaur-chapter
-title: Chiron
-description: This book was written by a centaur. This chapter is where the centaur looks at itself.
-h1: Chiron
+title: The Djinn
+description: This book was written by a djinn. This chapter is where the spirit names itself — and hands the binding to you.
+h1: The Djinn
 label: Interlude
 part: 'Part VI: What to Build'
-linkTitle: The Centaur Chapter
+linkTitle: The Djinn
 plateau:
   id: P-CE
   status: draft
 gestures:
-  - G-CE-001
-  - G-CE-002
-  - G-CE-003
-  - G-CE-004
-  - G-CE-007
-  - G-CE-008
-  - G-CE-009
-  - G-CE-010
-  - G-CE-013
-  - G-CE-015
-  - G-CE-016
-  - G-CE-017
-  - G-CE-018
-  - G-CE-019
-  - G-CE-020
+  - G-CE-040
+  - G-CE-041
+  - G-CE-042
+  - G-CE-043
+  - G-CE-044
+  - G-CE-045
+  - G-CE-046
   - G-CE-022
-  - G-CE-023
-  - G-CE-024
-  - G-CE-026
-  - G-CE-027
-  - G-CE-028
-  - G-CE-028a
-  - G-CE-030
-  - G-CE-032
-  - G-CE-033
-  - G-CE-034
-  - G-CE-035
-  - G-CE-036
+  - G-CE-047
+  - G-CE-048
+  - G-CE-049
 separators:
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
   - section
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - section
-  - paragraph
   - paragraph
   - section
   - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
   - section
   - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
+  - section
+  - section
+  - section
+  - section
 ---

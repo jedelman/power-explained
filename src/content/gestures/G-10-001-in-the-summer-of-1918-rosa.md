@@ -23,7 +23,7 @@ notes: >-
   merging with adjacent gestures is expected on plateau-level revision. [merged G-10-002 on
   2026-05-20] [merged G-10-003 on 2026-05-20]
 ---
-In the summer of 1918, Rosa Luxemburg was in the women's prison at Breslau, Germany, serving a sentence for opposing the war. She was forty-seven years old. The Russian Revolution had happened the previous year — the soviets taking power in October, the Bolsheviks consolidating control, the first workers' state in history declared.
+In the summer of 1918, Rosa Luxemburg was in the women's prison at Breslau, Germany, serving a sentence for opposing the war. The Russian Revolution had happened the previous year — the soviets taking power in October, the Bolsheviks consolidating control, the first workers' state in history declared.
 
 Her letters from Breslau are some of the most extraordinary documents of the period. She wrote about the white anemones pushing through the prison courtyard in April. The colors of starlings in the afternoon light. The birds she had named, that she fed through the bars of her window. She was paying ferocious attention to the world from a room she could not leave.
 

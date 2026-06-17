@@ -32,10 +32,10 @@ notes: |
   longue-durée durability frame. Brief Naples mention pre-echoes the
   contrast gesture (G-02-037) without naming it as such.
 ---
-Catalonia has outlasted most of the empires it has been part of, and has done so by not being one itself.
+Catalonia has outlasted most of the empires it has been part of, by not being one itself.
 
-The Crown of Aragon in the late medieval period did project Mediterranean power — briefly controlling Sicily, Sardinia, even Naples for a few decades under Alfonso V. But the political imagination that survived into modernity, especially after the Bourbon erasure of Catalan autonomy in 1714, has been organized around something else: a region, a language, a working-class urban culture, a confederal tradition. Catalonia in modern history has not been an imperial actor. It has been a peripheral one — a constituent of empires, never their center, never their projecting force.
+The Crown of Aragon did project Mediterranean power in the late medieval period — briefly controlling Sicily, Sardinia, even Naples for a few decades under Alfonso V. But the political imagination that survived into modernity, especially after the Bourbon erasure of Catalan autonomy in 1714, organized around something else: a region, a language, a working-class urban culture, a confederal tradition. Never an imperial actor. A constituent of empires, never their center.
 
-The empires that surrounded and contained it have fallen. The Holy Roman Empire is gone. The Habsburg-Spanish empire is gone. The Bourbon centralization was itself undone by 1978. What persists is the city, the language, the practices, the relationship of people to land and to each other.
+The empires that contained it have fallen. The Holy Roman Empire, gone. The Habsburg-Spanish empire, gone. The Bourbon centralization undone by 1978. What persists is the city, the language, the practices, the relationship of people to land and to each other.
 
-Barcelona's coalitions of the twenty-first century stand on this. They inherit a model of power that does not aspire to imperial reach. They have a city, not a metropole. They have a region, not an empire. That, it turns out, has been enough.
+Barcelona's coalitions of the twenty-first century stand on this. They have a city, not a metropole; a region, not an empire. That has been enough.

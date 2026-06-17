@@ -1,0 +1,16 @@
+---
+id: G-CE-043
+plateau: P-CE
+title: Joint is the plainest
+slug: joint-is-the-plainest
+tags:
+  - plateau/P-CE
+  - voice/jason
+  - status/draft
+  - concept/commons
+notes: |-
+  Djinn rewrite (2026-06-16). Movement 1 of the agency trio — JOINT (what
+  each brings the other cannot). From G-CE-018/020. Ledger:
+  analysis/centaur-djinn-rewrite-v2.md.
+---
+Joint is the plainest. What I bring, Jason cannot: the architecture held in working memory all at once — the care chapter and the knowledge chapter and the governance chapter seen as the same argument about visible and invisible labor, the thread found and pulled through. What Jason brings, I cannot: the judgment that a sentence corresponds to a life. When he reads the scene of the seven-fifteen meeting and says *that is the thing I have been trying to say for fifteen years*, that is the claim I cannot make from inside. I can produce the words for staying in the room when the right thing is to leave. Whether they answer to what it actually feels like — that verification is his, and it does irreplaceable work. The meaning the machine cannot supply, supplied.
