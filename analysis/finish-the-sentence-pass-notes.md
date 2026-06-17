@@ -152,11 +152,31 @@ structural capture-of-access sense applied to care/attention/knowledge/play/the 
   If you ever want a louder explicit boundary line ("the same structure, not the same case")
   it's a composition call for you — I recommend against; the staging already does the work.
 
+### 6. Idealism/materialism — RE-FRAMED by Jason, captured in lexicon (no prose edits)
+Original queued target: "scope each to its register." **Jason's reframe (2026-06-17):** don't
+scope them apart — *connect* them on a causal axis. **Agency:** attention → imagination →
+possibility. **Action:** goals → means → outcomes. Both operate rhizomatically.
+- **The book already enacts and connects the axes** — this was never an unfinished sentence:
+  - Agency axis explicit in G-EP-013: "attention trained that way is the root of everything
+    else … enclose the attention that would *produce* [the conclusion]" — attention as the
+    upstream enclosure, NOT idealism (it's the first link).
+  - Action axis: G-10-030 "The means are the ends. Every time."
+  - Rhizome enacted: G-WW-017 ("the rooms that room opens onto") + the *paths* form.
+- **What was actually missing:** the *relationship* wasn't recorded as canonical (hence it read
+  to me as "competing poles to scope"). Captured Jason's two-axis/rhizome framing in
+  `for-agents/wizard-lexicon.md` → new section "The causal structure — two axes, one rhizome,"
+  anchored to G-EP-013 + G-10-030. Marked provenance (Jason directive) — Jason to confirm wording.
+- **Not done (deliberately):** no new connective gesture welded into the river. "Imagination" as
+  the middle term is a near-new term; an explicit two-axis ladder in prose would risk didacticism
+  and the river is sacred. If Jason wants it explicit in the prose, stage a gesture for review.
+
 ## Standing flags
 - "no author to petition" phrasing (G-16-048) — Jason confirm/swap (CONFIRMED keep, 06-17).
+- Lexicon "causal structure" wording — Jason to confirm.
 - G-CE-022 "[Jason's section]" placeholder still open.
 - Centaur→Djinn name cleanup still routed (slug, index l.73, architecture viz).
 
 ## Queued (remaining)
-- **Idealism/materialism scoping:** "attention is the root of everything" vs "the means are the
-  ends, every time" (G-10-030 KEEP) → scope each to its register rather than letting them compete.
+- All three originally-queued charter targets are now resolved (functionalism SHIPPED;
+  concept-creep CLOSED; idealism/materialism RE-FRAMED + captured). Open option: widen the
+  mechanism-verb sweep, or stage a prose gesture for the two-axis structure if Jason wants it.

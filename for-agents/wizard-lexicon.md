@@ -13,6 +13,29 @@ the sequencing pass (2026-05-26, restructured 2026-06-04).
 - **The apparatus:** the grimoire (the tool), the wizard (who wields it),
   initiation (the becoming).
 
+## The causal structure — two axes, one rhizome
+
+Idealism and materialism do not compete here. They are two linked causal axes,
+and change moves *rhizomatically* along both — no single root, many entries,
+each term feeding back on the others.
+
+- **Agency (the inner axis):** *attention → imagination → possibility.* What you
+  attend to sets what you can imagine; what you can imagine sets what you can hold
+  as possible. This is why the enclosure of attention is *the enclosure underneath
+  all the other enclosures* — capture the attention and you never need to suppress
+  the conclusion it would reach (G-EP-013). "Attention is the root" is not idealism;
+  it is the first link.
+- **Action (the outer axis):** *goals → means → outcomes.* The means shape the
+  outcome so completely that *the means are the ends, every time* (G-10-030).
+
+Not two parallel lines but one rhizome: possibility feeds goals, outcomes retrain
+attention, and any point can be entered first. The *paths* form enacts it — many
+threads through one field, no privileged root. The two axes meet at the book's
+own thesis: consciousness as terrain for revolution.
+
+*Provenance: Jason directive, 2026-06-17 (the Finish-the-Sentence / kintsugi pass).
+Wording captured from the directive — Jason to confirm.*
+
 ## The master principle
 
 Every concept here is a tool that was turned against us and can be taken back.
