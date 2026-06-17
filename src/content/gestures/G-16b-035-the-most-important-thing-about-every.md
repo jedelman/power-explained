@@ -13,4 +13,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The most important thing about every piece of text in that corpus is precisely what averaging destroys.
+The most important thing about every piece of text in that corpus is precisely what averaging cannot hold.

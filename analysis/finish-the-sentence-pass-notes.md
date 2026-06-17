@@ -39,15 +39,30 @@ Method per target: find the overclaim → find the correction already on the pag
   as completion-of-the-move; flagged here so Jason can confirm or swap the phrase.
 - Build clean (140 pages); lint errors all pre-existing (unrelated tag-ontology), none on G-16-048.
 
+### 2. Averaging machine — "destroys" → "cannot hold" (G-16b-035) — SHIPPED
+- **Overclaim:** "The most important thing about every piece of text in that corpus is
+  precisely what averaging *destroys*." — grants the machine reach over the singular, flatly
+  contradicting the book's own thesis.
+- **Correction already on the page (adjacent gestures):** G-16b-034 "the smoothed surface of
+  everything that was jagged and specific"; G-16b-036 "*You* are what the system cannot train
+  on"; G-16b-039a "the one commons it cannot take"; G-CC-002 "the thing was never destroyed.
+  It was captured."
+- **Finish (lower the verb to a capacity claim):** "destroys" → **"cannot hold."** Enlists 035
+  into the book's "cannot ___" through-line (034 smooths → 035 cannot hold → 036 cannot train
+  on → 039a cannot take); states the machine's *incapacity*, not a destructive power; relocates
+  the grief to G-16b-037 ("underground… the mycorrhizal dark") where it's earned.
+- **NB:** G-16b-039 KEEPS "destroy" — there the object is *the conditions under which they keep
+  becoming possible*, which is the book's true, defensible grief claim (it can't take the
+  singular but can starve its soil). Untouched.
+- **Critic loop:** one pass, SHIP as written.
+
 ---
 
 ## Queued (charter targets; correction already on page in each)
 
 - **G-13-016** (debt "system working as designed") — already marked-by-mechanism (the
-  instrument extracts), less exposed than the flagship. Decide: light boundary echo, or leave.
-- **Averaging machine** "destroys singularity" (~l.1294) → "not a possession but a **vantage**"
-  (~l.2658) → finish: it can't *produce* the singular; it doesn't *destroy* it — the relation
-  encloses it. (capacity vs vantage)
+  instrument extracts), and the no-designer frame is set upstream (prologue + Goetia) before
+  the reader reaches ch.13. LEAVE; revisit only if the flagship mark makes it feel unmarked.
 - **Concept-creep:** "enclosure/commons" stretched unbounded vs the strict Ostrom sense the
   book also uses → MARK where the strict sense is left for the extended one.
 - **Idealism/materialism tilt:** "attention is the root of everything" vs "the means are the
