@@ -70,5 +70,53 @@ Method per target: find the overclaim → find the correction already on the pag
 - **Metacausal Keep/Mark/Fix sweep:** enchanted vocabulary read as causal where prose leaves
   the register unmarked (natal chart already KEPT; sweep for unmarked causal slides).
 
+### 3. Averaging machine, twin site — "destroys" → "cannot hold" (G-08-009) — SHIPPED
+- Same fault as G-16b-035, in the Wynter/overrepresentation gesture. The gesture itself says,
+  one sentence earlier, "no averaging process can **recover**" singularity — then "the most
+  important thing about any person is precisely what averaging **destroys**." Self-contradiction
+  (can't recover ≠ destroys). Lowered to **"cannot hold"** — consistent with the shipped 16b
+  twin and the book's spine ("the one commons it cannot take"). Critic: SHIP. Build clean.
+
+---
+
+## Corpus-wide sweep (2026-06-17) — 6 parallel hunters, then triaged + critic-gated
+
+**Method:** 6 hunter agents scanned the whole river by plateau group for overclaims *with a
+correction already on the page*; I triaged against the no-hedge / no-invent discipline and
+critic-looped the survivors. Most hunter proposals were **rejected as hedging** — the charter
+and CLAUDE.md forbid softening the framework's claims.
+
+**Shipped from the sweep:** G-08-009 (above).
+
+**Rejected (hedging — would soften, not finish):**
+- G-14-034 "made it impossible" → "extremely difficult"; G-14-005 "cannot extract rent" →
+  "cannot easily"; G-12-012 "had nowhere to go" → qualified. All add hedges the book refuses.
+- G-10-028 "are capture mechanisms" → wordy mechanism-clause: gesture ALREADY self-marks ("not
+  a moral claim … an architectural claim"). KEEP.
+- G-07-030 "it is its foundation" (Mbembe): reinterpretive rewrite, thin provenance. KEEP.
+- G-08-019, G-11-016 rewrites: elaboration/slop, not overclaim-finishing. KEEP.
+
+**Rejected (contradicts a prior critic ruling):**
+- G-16b-039 "destroy the conditions" → the averaging-machine critic already ruled this KEEPS
+  "destroy" (object = *the conditions / the soil*, the book's true grief claim). Untouched.
+
+**Rejected (critic KILL):**
+- G-08-014 "functioning as designed ever since" — NOT a real overclaim: "as designed" points
+  back to the founding intent (the category genuinely *was* built to exclude), not a live
+  designer. My mark was longer/softer and photocopied G-08-008's signature line. Reverted.
+
+## FLAG for Jason — the "destroys a capacity" consistency question (the one real pattern)
+Across the book, enclosure/averaging/external power is repeatedly said to **destroy** a human
+capacity or mode — while elsewhere the book insists the capacity is **"not destroyed, only
+suppressed. It reasserts itself"** (G-14-021) and is **"the one commons it cannot take"**
+(G-16b-039a). Sites: G-14-013 "It destroys a mode of consciousness"; G-11-016 "Enclosure
+destroys it [play]"; G-GC-043 "the enclosure systematically destroys [the felt sense of being
+recognized]"; G-18-012 "destroys the conditions that make commons governance possible."
+**Question for Jason:** are these intentional grief-then-hope *arcs* (claim the loss at full
+strength, recover it later — e.g. 013→021), or unfinished sentences to reconcile? They are NOT
+auto-fixable by hedging, and the object matters (*the conditions/soil* = defensible to
+"destroy"; *the capacity itself* = the book says it can't be destroyed). Routed, not touched.
+
 ## Standing flags
-- "no author to petition" phrasing (above) — Jason confirm/swap.
+- "no author to petition" phrasing (G-16-048) — Jason confirm/swap.
+- The "destroys a capacity" consistency question (above) — Jason's call: arcs or reconcile?
