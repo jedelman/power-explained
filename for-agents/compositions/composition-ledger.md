@@ -728,3 +728,74 @@ G-06-028 (the naming across the paragraph break to "These were not
 preparations") and G-14-032 (the abjuration landing after the "old-growth
 stand outside Atlanta" place-landing) — "those beats land perfectly." No
 edits required; the family is settled as woven.
+
+---
+
+# ARGUMENT PASS — 2026-06-17 (the standing body-of-book holes)
+
+The dedicated argument pass the 06-16/06-17 critics flagged as the real remaining
+work (separate from the craft/Djinn passes). Forks resolved with Jason directly
+(AskUserQuestion, 2026-06-17). Each change is the move all four critics named:
+**lower the overclaim to the claim the book already half-states** — subtraction +
+one distinction, no new doctrine. Reflexive loop run (fresh-context critic): 2
+ship, 1 revise-then-ship. Build clean (141 pp), lint clean for new files, metrics ran.
+
+## G-GC-002a — "Not all of them were bred on purpose"  ·  Tier 0 (functionalism falsifier)  ·  woven
+- Jason directive (2026-06-17): the falsifier is the *distinction* — "some people
+  (e.g. white supremacy) have it intentionally, others don't."
+- Composed: the intentional/emergent split + the off-switch (what is NOT enclosure).
+- Sources:
+  - "most have no author … persist because they pay" ← G-GC-002 ("they have no
+    plan"), G-PR-012 ("requires only maintenance"), G-16-048 ("it persists because
+    it is maintained").
+  - "the color line was written into law, enforced, intended" ← Jason directive
+    (white supremacy as the intentional case); safe general history (Jim Crow /
+    covenants / redlining) — no date/quote/named figure, no hallucination tell.
+  - "a demon is the harm that has someone to serve and a hand to keep it so" ←
+    G-13-016 (debt "optimized for extraction" = the beneficiary test).
+  - "where a hurt has neither … it is grief, carried not fought" ← the stated
+    falsifier the critics requested (Synthesis Tier-0 #1). The off-switch.
+- Critique: SHIP. Gives a real falsifiable test; refines G-GC-002 cleanly (rescues
+  "no plan" from erasing intentional racism); register holds.
+- Placement: after the beauty-checked (deletion-only) G-GC-002, Goetia manifest.
+
+## G-04-025a — "See the Edges of the Spell"  ·  Tier 0 (markets / scale / Kerala)  ·  woven
+- Jason directive (2026-06-17): scope to "alongside/within" — the commons does not
+  replace the price system.
+- Composed: concede the calculation problem unsolved; name the three scales as
+  different instruments (gift / federation / state); name Kerala as a state.
+- Sources:
+  - "no one has yet solved what the price system solves … the commons does not
+    pretend to" ← Jason directive (scope, don't solve).
+  - "Kerala is not a commons in the strict sense but a government that chose the
+    floor" ← G-04-019 ("communist-led government" / "left governance"); aligned
+    with chapter-4 beauty_check note (5) ("welfare state / commons / accountable
+    state distinction preserved").
+  - "a fridge is a gift / 70k is a federation / 35M is a state" ← G-04-025's own
+    scale-range, disaggregated (Adversary §1–2: the scale-jump + Kerala double-count).
+  - "beside the market, inside it, in the ground it left unpriced" ← Jason directive
+    (alongside/within).
+- Critique: REVISE → SHIP. Cut a self-congratulatory meta-comment ("costs nothing"
+  → "the difference is worth keeping straight"); added "yet" to protect the seam
+  with G-10-024 (Catalonia coordinated without markets for ~a year — bounded, not
+  contradicted). Seated BEFORE the closing litany: concede-then-land.
+
+## G-05-028 — vindication grounds attached  ·  Tier 2/argument (defend the read)  ·  edited
+- Jason directive (2026-06-17): DEFEND the vindication read (not hedge it).
+- Edit: added "Dismissed, not refuted: the demon they named was real, and the
+  naming outlived the dismissal." — so "All three were right" rests on the
+  diagnosis being true and enduring, not on persecution.
+- Sources: G-02-028 ("they lost by being defeated, not by being wrong");
+  G-10-042 ("It wasn't buried. We're still reading it"); G-10-040 ("buried because
+  threatening, not because wrong").
+- Critique: SHIP. Defends on real grounds; matches the book's existing vindication
+  grammar; economical.
+
+## HELD / NOT TOUCHED (Jason's calls, 2026-06-17)
+- Concept-creep (Synthesis Tier-0 #3): HELD — no fork given; Jason's other answers
+  all lean "keep the book's reach." Not policed this pass.
+- Sourcing — Sorenson single-source + survivorship denominator: LEAVE AS-STATED
+  (Jason's explicit call; his risk to own). Note: the Djinn chapter's new
+  "auditable provenance" promise now leans on these; flagged, not changed.
+- The vindication read kept and strengthened, NOT converted to "a bet under
+  uncertainty" (the Logic Auditor's proposed fix — Jason declined it).
