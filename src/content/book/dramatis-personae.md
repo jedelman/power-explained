@@ -8,6 +8,13 @@ plateau:
   id: P-DP
   status: draft
 gestures:
+  - G-DP-008
+  - G-DP-009
+  - G-DP-010
+  - G-DP-011
+  - G-DP-012
+  - G-DP-013
+  - G-DP-014
   - G-DP-001
   - G-DP-002
   - G-DP-003
@@ -16,6 +23,13 @@ gestures:
   - G-DP-006
   - G-DP-007
 separators:
+  - section
+  - section
+  - section
+  - section
+  - section
+  - section
+  - section
   - section
   - section
   - section
