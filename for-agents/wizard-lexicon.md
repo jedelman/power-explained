@@ -19,12 +19,15 @@ Idealism and materialism do not compete here. They are two linked causal axes,
 and change moves *rhizomatically* along both — no single root, many entries,
 each term feeding back on the others.
 
-- **Agency (the inner axis):** *attention → imagination → possibility.* What you
-  attend to sets what you can imagine; what you can imagine sets what you can hold
-  as possible. This is why the enclosure of attention is *the enclosure underneath
-  all the other enclosures* — capture the attention and you never need to suppress
-  the conclusion it would reach (G-EP-013). "Attention is the root" is not idealism;
-  it is the first link.
+- **Agency (the inner axis):** *attention → seeing/naming → possibility.* What you attend to
+  sets what you can see; naming truly what you see is the counter-spell that changes the room,
+  and that sets what you can hold as possible. The middle term is **recognition, not invention**
+  — in a pro-remembrance book the imaginative act is seeing what was always there (the names are
+  yours, returned), never conjuring the new. This is why the enclosure of attention is *the
+  enclosure underneath all the other enclosures* — built to in G-12-036 (the wetland silt;
+  "capture the attention that would produce the conclusion") and returned to in G-EP-013
+  ("attention trained that way is the root of everything else… the counter-enclosure").
+  "Attention is the root" is the first link, not idealism.
 - **Action (the outer axis):** *goals → means → outcomes.* The means shape the
   outcome so completely that *the means are the ends, every time* (G-10-030).
 
