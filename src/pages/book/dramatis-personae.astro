@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro'
+import { resolve } from 'path'
+import { composePlateauBody } from '../../lib/composePlateauBody.mjs'
+import { md } from '../../lib/markdown.mjs'
+
+// Appendix route. Composes its manifest directly (not via getChapterMeta),
+// because the dramatis personae is deliberately NOT in the canonical river —
+// it is back matter, the home for biographical detail lifted out of the
+// chapters during the tightening pass so the argument can move.
+
+const body = composePlateauBody(resolve('src/content/book/dramatis-personae.md'))
+---
+<Base
+  title="Appendix: The People in This Book — Power Explained"
+  description="The thinkers the book draws on, with the biographical detail lifted out of the chapters so the argument can move."
+>
+  <div class="article-wrap">
+    <p class="book-nav"><a href="/book">← The Book</a></p>
+    <header class="appendix-head">
+      <p class="appendix-label">Appendix</p>
+      <h1>The People in This Book</h1>
+      <p class="appendix-lede">
+        The lives, gathered out of the chapters so the argument could move. A
+        reference, not a reading order — read it when you want the person behind
+        the name.
+      </p>
+    </header>
+    <div class="body-text appendix-body" set:html={md(body)} data-pagefind-body></div>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 2rem;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .appendix-head { margin: 0 0 3rem; }
+  .appendix-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .appendix-lede {
+    font-family: var(--display); font-size: 1.1rem; line-height: 1.6;
+    margin: 1.25rem 0 0; max-width: 34rem; opacity: 0.85;
+  }
+</style>
