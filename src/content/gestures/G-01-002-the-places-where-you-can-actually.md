@@ -17,4 +17,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-The places where you can actually cross — on foot, as a human being — are the intersections adjacent to this knot. Six lanes. Lights calibrated for throughput, for the movement of cars. If you're slow, if you're in a wheelchair, if you're with a child, you will not make it before the signal changes. This is not a design failure. It is the design.
+The places where you can actually cross — on foot, as a human being — are the intersections adjacent to this knot. Six lanes. Lights calibrated for throughput, for the movement of cars. If you're slow, if you're in a wheelchair, if you're with a child, you will not make it before the signal changes. This is not a design failure. It is the design. No one aimed the lights at you. They are only kept this way — because a crossing on foot counts for less than the cars.

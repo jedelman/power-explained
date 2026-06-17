@@ -799,3 +799,36 @@ ship, 1 revise-then-ship. Build clean (141 pp), lint clean for new files, metric
   "auditable provenance" promise now leans on these; flagged, not changed.
 - The vindication read kept and strengthened, NOT converted to "a bet under
   uncertainty" (the Logic Auditor's proposed fix — Jason declined it).
+
+## FUNCTIONALISM CLEANUP — 2026-06-17 (applying the falsifier downstream)
+Audit of every live "by design / it is policy / serves someone" instance against
+the G-GC-002a test (enclosure = a harm with a beneficiary AND a maintainer;
+intentional vs. merely-maintained). Result: the book is already more careful than
+the isolated line-citations implied.
+- G-13-016 (debt "working as designed"): the INTENTIONAL kind, already shown
+  ("optimized for extraction… sold to the party best positioned to extract"). Keep.
+- G-16-040/043 (Turing "it is policy"): INTENTIONAL, already shown ("every official
+  who signed the relevant paperwork knew this"). Keep.
+- G-16-048 ("working as designed… it is policy"): already nuanced in-gesture ("No
+  single hand planned the whole of it; it persists because it is maintained"). Keep.
+- G-11-012 / G-11-038 ("enclosed because it worked"): intentional historical
+  enclosure (the Acts); chiasm. Keep.
+- G-PR-012 ("requires only maintenance"): emergent, maintenance-phrased. Keep.
+- G-01-010 ("the people who designed this road were not bad people… a template…
+  who it serves"): already supplies the no-villain/emergent framing in Ch.1. Keep.
+- **G-01-002 (the crossing, the book's FIRST functionalist hammer): the one genuine
+  over-assertion — "It is the design" claims intent for what is emergent-maintained,
+  and it lands before any falsifier exists. EDITED.**
+
+### G-01-002 — the test applied at the first hammer  ·  edited
+- Added: "No one aimed the lights at you. They are only kept this way — because a
+  crossing on foot counts for less than the cars."
+- Applies all three legs of the seal: no malice (no author), "only kept" (the
+  maintainer), "the cars" (the beneficiary). Sharpens the indictment (indifference,
+  not intent — the colder read) rather than softening it. Rhymes forward to G-01-010.
+- Sources: G-GC-002a (the test); G-01-010 ("who it serves" / not-bad-people);
+  the gesture's own "calibrated for throughput, for the movement of cars."
+- Critique (fresh-context): SHIP WITH REVISION → applied. Caught a pronoun-contract
+  violation ("your crossing" = possessive condition-line); de-possessed to "a
+  crossing on foot," tightened "set the lights to strand" → "aimed the lights at
+  you," kept isolating-You. Build clean (141 pp).
