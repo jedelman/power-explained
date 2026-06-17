@@ -21,6 +21,6 @@ notes: >-
 ---
 The pattern is not metaphorical. It is a recurring operational decision. The living, embodied, relationally-held knowledge is most valuable in the form that is hardest to enclose: embedded in people, in practices, in bodies, in communities. To enclose it, you must first separate it from those bodies. The execution, the displacement, the prosecution — these are not failures of the system. They are the system working as designed.
 
-This is not tragedy. It is policy.
+Not by anyone's design. No one planned this; it requires only maintenance. There is no author to petition, only a logic to refuse — which makes it harder, not softer. This is not tragedy. It is not conspiracy. It is policy.
 
 And when you see it as policy, the question changes. It is not *how could this happen?* It is: *what would it take to refuse it?*
