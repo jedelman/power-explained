@@ -35,5 +35,18 @@ removal alone** — no structural change, no argument lost, no facts/citations d
   now? anything lost?) → apply survivors → build → commit per chapter. Jason reviews diffs.
 - Chapter-level river order stays sacred. IDs retired, never reused.
 
+## Render (Jason chose appendix + typeset PDF, 2026-06-17)
+- **Typeset PDF + true page count — DONE.** Tools: `scripts/emit-river-chapters.mjs` (chapter-
+  delimited text) → `scripts/render-book-pdf.py` (ReportLab, Liberation Serif 11/14.5, justified).
+  **Body-only page count (no front/back matter, TOC, or part dividers): 5.5×8.5 = 303 pp;
+  6×9 = 254 pp; 85,862 words, 28 chapters.** Finished trade pb ≈ +30–60 pp of apparatus.
+  (ReportLab is a local Python tool, not a project JS dependency. Regenerate:
+  `node scripts/emit-river-chapters.mjs && python3 scripts/render-book-pdf.py`.)
+- **Thinkers' appendix / dramatis personae — NEXT.** The destination that lets the river shed
+  the born/educated/fled CV costume entirely (extract bio detail → appendix; cut hard in-river).
+  Per-chapter, Jason reviews diffs. Model on the existing path machinery (manifests/paths/).
+
 ## Status
-- 2026-06-17: pass opened. Starting with ch 2 (Barcelona) as the proof tranche.
+- 2026-06-17: pass opened. Barcelona proof tranche shipped (G-02-029, G-02-036). Typeset-PDF
+  render done (page count above). Next: thinkers' appendix build + the per-chapter bio surgery,
+  pending Jason's read of the Barcelona proof + appendix model.
