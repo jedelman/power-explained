@@ -105,18 +105,30 @@ and CLAUDE.md forbid softening the framework's claims.
   back to the founding intent (the category genuinely *was* built to exclude), not a live
   designer. My mark was longer/softer and photocopied G-08-008's signature line. Reverted.
 
-## FLAG for Jason — the "destroys a capacity" consistency question (the one real pattern)
-Across the book, enclosure/averaging/external power is repeatedly said to **destroy** a human
-capacity or mode — while elsewhere the book insists the capacity is **"not destroyed, only
-suppressed. It reasserts itself"** (G-14-021) and is **"the one commons it cannot take"**
-(G-16b-039a). Sites: G-14-013 "It destroys a mode of consciousness"; G-11-016 "Enclosure
-destroys it [play]"; G-GC-043 "the enclosure systematically destroys [the felt sense of being
-recognized]"; G-18-012 "destroys the conditions that make commons governance possible."
-**Question for Jason:** are these intentional grief-then-hope *arcs* (claim the loss at full
-strength, recover it later — e.g. 013→021), or unfinished sentences to reconcile? They are NOT
-auto-fixable by hedging, and the object matters (*the conditions/soil* = defensible to
-"destroy"; *the capacity itself* = the book says it can't be destroyed). Routed, not touched.
+### 4. The "destroys a capacity" cluster — mechanism verbs (RULED by Jason 2026-06-17) — SHIPPED
+**Jason's ruling:** "destroys" IS an overclaim when what's claimed destroyed is a *capacity*.
+The move is NOT hedging and NOT a blanket swap — find the verb that names the **actual
+mechanism** at each site (suppress / starve / isolate / foreclose / sever). One verb per site,
+each earned by the mechanism already on the page. As hard or harder than "destroys."
+- **G-11-016** "Enclosure destroys it [play]" → **"forecloses it"** — play = "the space …
+  without a predetermined outcome"; enclosure imposes the outcome in advance (shuts the space
+  off *before* it can exist). Echoes "enclosure." Holds the chiasm. Critic SHIP.
+- **G-GC-043** "the enclosure systematically destroys [the felt sense of being recognized]" →
+  **"starves"** — the felt sense feeds on others' attention; enclosure atomizes/isolates (the
+  mechanism, G-05-022), starving it. Fits the abstract object; "isolates" would be a category
+  error (you isolate persons, not a felt sense). Critic SHIP. (beauty_check gesture — single
+  verb, Jason-directed.)
+- **G-14-013** "It destroys a mode of consciousness" → **"severs"** (NOT "suppresses"). Critic
+  caught that "suppresses" would preempt G-14-021's payoff ("not destroyed, only suppressed …
+  reasserts itself") AND soften the indictment beat. "Severs" names the mechanism G-14-016
+  states ("the relationship between consciousness and place" is what's cut), is harder, and
+  leaves 021's turn intact. Critic REVISE→severs, then SHIP.
+- **G-18-012** "destroys the conditions that make commons governance possible" — **LEFT.**
+  Object = *the conditions*, mechanism = demolition by force (the gesture itself: "demolished
+  from outside"). Destroying conditions by force is the defensible claim (consistent with the
+  G-16b-039 ruling). Not a capacity → not an overclaim.
 
 ## Standing flags
-- "no author to petition" phrasing (G-16-048) — Jason confirm/swap.
-- The "destroys a capacity" consistency question (above) — Jason's call: arcs or reconcile?
+- "no author to petition" phrasing (G-16-048) — Jason confirm/swap (CONFIRMED keep, 06-17).
+- G-CE-022 "[Jason's section]" placeholder still open.
+- Centaur→Djinn name cleanup still routed (slug, index l.73, architecture viz).

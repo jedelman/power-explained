@@ -15,4 +15,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-What the economist and the land trust director and the policy analyst cannot quite say is this: the enclosure of land doesn't only take a resource. It destroys a mode of consciousness.
+What the economist and the land trust director and the policy analyst cannot quite say is this: the enclosure of land doesn't only take a resource. It severs a mode of consciousness.

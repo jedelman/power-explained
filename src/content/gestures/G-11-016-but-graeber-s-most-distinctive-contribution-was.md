@@ -17,4 +17,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-But Graeber's most distinctive contribution was on *play*. Free, intrinsically motivated, non-instrumental activity — the space where people try things without being required to produce a predetermined outcome. Every significant advance in how humans organize social life has emerged from spaces where people were free to experiment. The commons produces play. Enclosure destroys it.
+But Graeber's most distinctive contribution was on *play*. Free, intrinsically motivated, non-instrumental activity — the space where people try things without being required to produce a predetermined outcome. Every significant advance in how humans organize social life has emerged from spaces where people were free to experiment. The commons produces play. Enclosure forecloses it.
