@@ -17,4 +17,4 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 ---
-Elinor Ostrom would. When she applied for her PhD studies, the economics department at UCLA rejected her because she hadn't taken a trigonometry course — in high school. The political science department gave her a chance. It turned out to be the correct discipline for what she was trying to understand — not how markets optimize resource allocation in theory, but how humans govern shared resources in practice.
+Elinor Ostrom would. Political science turned out to be the correct discipline for what she was trying to understand — not how markets optimize resource allocation in theory, but how humans govern shared resources in practice.
