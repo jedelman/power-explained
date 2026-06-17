@@ -9,5 +9,17 @@ plateau:
   status: draft
 gestures:
   - G-DP-001
-separators: []
+  - G-DP-002
+  - G-DP-003
+  - G-DP-004
+  - G-DP-005
+  - G-DP-006
+  - G-DP-007
+separators:
+  - section
+  - section
+  - section
+  - section
+  - section
+  - section
 ---
