@@ -180,3 +180,52 @@ possibility. **Action:** goals → means → outcomes. Both operate rhizomatical
 - All three originally-queued charter targets are now resolved (functionalism SHIPPED;
   concept-creep CLOSED; idealism/materialism RE-FRAMED + captured). Open option: widen the
   mechanism-verb sweep, or stage a prose gesture for the two-axis structure if Jason wants it.
+
+---
+
+## Whole-river critic pass (2026-06-17) — 3 fresh-context critics over the composed river
+Composed the current river (all edits baked in) to /tmp/river-current.md (84.7k words) and ran
+three lenses: (1) ripple & coherence of the 6 edits, (2) causal/metacausal + two-axis, (3)
+whole-arc reader. Critics propose; I gate.
+
+### ACTED — flagship revision (the one real seam the edits introduced)
+Ripple critic caught that the flagship insert collided with its own Turing passage: G-16-046
+"the **decision** … was not an accident. It was policy" and G-16-048's own "a **recurring
+operational decision**" vs my insert's "**No one planned this. There is no author.**" The
+no-agent absolutism contradicted the named decisions beside it. **Revised** (keep the master-
+author denial + the maintainers, drop the absolute): "Not by anyone's design. No one planned
+this; it requires only maintenance." → **"No single hand planned the whole of it; it persists
+because it is maintained."** Metacausal mark intact (Critic 2 confirmed the line is metacausal-
+done-right); collision gone; "it persists because it is maintained" keeps the Goetia
+"someone is doing the maintaining" frame. Build clean.
+(NB the "policy" anaphora across G-16-046/047/048 is the author's deliberate cross-century
+hammer — predates this pass; not touched.)
+
+### ROUTED TO JASON (judgment calls / composition / his voice / bigger pass — NOT auto-applied)
+1. **Natal-Chiron "so" (Djinn chapter)** — Critic 2's #1 register exposure: "Chiron in Gemini
+   *so* conversation is difficult" uses bald causal grammar with no correspondence-frame, in the
+   final chapter where it can recolor the whole. Jason KEEPS the content (ruled 06-17 AM); the
+   open question is a one-touch MARK ("a glyph for a shape I keep finding in myself," not a
+   cause). His voice, his chart — his call.
+2. **The "imagination" question (agency axis)** — Critic 2's highest-value structural note: the
+   axis reads attention→[ ]→possibility; the middle term is carried under "seeing/naming/
+   recovery," never named "imagination" (the book is pro-remembrance, anti-novelty by design).
+   Bears on the lexicon entry I added (which uses "imagination"): either name it once in the
+   prose, or reconcile the lexicon to acknowledge the substitution. Jason's call.
+3. **"attention is the root of everything else" (G-EP-013)** — unmarked near the contemplative
+   epilogue; could read as idealism at the moment of highest exposure. Optional one-touch
+   re-yoke to leverage/material. Composition → Jason.
+4. **G-14-016 "what was destroyed was the relationship"** vs G-14-021 "not destroyed, only
+   suppressed" — surface seam the verb-sweep stopped one line short of. Judgment call (Sorenson's
+   "went out like a light" supports a strong verb). Candidate: "what went out / what was severed."
+5. **Mid-book thinker-CV scaffolding** (Critic 3's "most important next") — born-in/educated/
+   fled/death-coda template becomes audible across the racial-capitalism→council-communism
+   chapters; death-codas numb by repetition; Barcelona middle-third lectures. NOT a kintsugi
+   finish — a prose-tightening pass on the connective scaffolding. Route as its own future pass.
+6. Low: compressed causal aphorisms ("Race produced it") — deliberate hammer-blows; accept or
+   one-touch re-ground. Jason's call.
+
+### Critic verdict (whole): the book coheres and the close earns itself; the precision edits read
+as sharpening, not fuss ("forecloses/starves/severs" name the mechanism; "policy, not conspiracy"
+closes the reader's escape hatch). The action axis is a real spine; the agency axis is traced but
+missing its named middle term. No surviving causal overclaim under mystical cover.
