@@ -128,7 +128,35 @@ each earned by the mechanism already on the page. As hard or harder than "destro
   from outside"). Destroying conditions by force is the defensible claim (consistent with the
   G-16b-039 ruling). Not a capacity → not an overclaim.
 
+### 5. Concept-creep (commons/enclosure: strict Ostrom vs extended) — INVESTIGATED, TARGET CLOSED (no edits)
+Charter target: "MARK where you've left the strict sense for the extended one." Mapped the
+whole corpus (strict = Ostrom common-pool resources, ch.3 G-03-013..042; extended = the
+structural capture-of-access sense applied to care/attention/knowledge/play/the singular).
+**Finding: the book already handles the extension; concept-creep is not a real fault here.**
+- **Explicit bridge:** G-03-042 — Ostrom (empirical) + Negri (philosophical) "arrived from
+  opposite directions at the same answer: the commons is prior to the market and prior to the
+  state … Enclosure doesn't create value. It captures value … and charges them to access what
+  they made." Licenses the move from common-pool resource to the general structure.
+- **Structural definition up front:** G-OV-002 "not the theft of a thing, but the capture of
+  the way to it"; the lexicon's enclosure⇄commons (capture-the-way ⇄ hold-it-open).
+- **Each extended use carries its OWN evidence** (not Ostrom's Nobel): care = Federici +
+  Crown Heights (G-15-027); digital = Stallman/Berners-Lee/Torvalds (G-16-056); play = Graeber
+  (G-11-018). No site argues "Ostrom's cases prove it, therefore care/attention too" — that
+  would be the creep, and it is absent.
+- **Closest-to-unmarked candidate, G-05-011** ("the digital enclosure of attention and
+  behavior"): LEFT. It sits in a rapid accelerating *list* of frontiers (debt, IP, water/seed/
+  genetic code, attention/behavior); the structural sense is fully live and a mid-list gloss
+  would break the cadence. A mark here would be over-explaining, not finishing.
+- **Note for Jason (not a fault):** the book's breadth ("enclosure⇄commons is the one axis
+  everything moves along," per the lexicon) is the intentional Negri/Hardt thesis, not creep.
+  If you ever want a louder explicit boundary line ("the same structure, not the same case")
+  it's a composition call for you — I recommend against; the staging already does the work.
+
 ## Standing flags
 - "no author to petition" phrasing (G-16-048) — Jason confirm/swap (CONFIRMED keep, 06-17).
 - G-CE-022 "[Jason's section]" placeholder still open.
 - Centaur→Djinn name cleanup still routed (slug, index l.73, architecture viz).
+
+## Queued (remaining)
+- **Idealism/materialism scoping:** "attention is the root of everything" vs "the means are the
+  ends, every time" (G-10-030 KEEP) → scope each to its register rather than letting them compete.
