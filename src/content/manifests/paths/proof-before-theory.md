@@ -20,8 +20,8 @@ invocation: >-
   manifesto, the street become a commons before anyone finished debating whether
   it should be. They didn't need the theory. They had the practice — they had
   always had the practice, in every commons governing itself for centuries
-  before anyone wrote it down. The form preceded the content. The proof is
-  older than the word for it.
+  before anyone wrote it down. Has it worked? The answer is in the record. The
+  form preceded the content. The proof is older than the word for it.
 members:
   - id: G-PR-027
     ref: 'Prologue · Look Up'
@@ -32,6 +32,9 @@ members:
   - id: G-03-020
     ref: 'Chapter 3 · The Cook'
     note: how humans govern in practice
+  - id: G-04-025
+    ref: 'Chapter 4 · Nobody Asked Him To'
+    note: has it worked? the answer is in the record
   - id: G-09-001
     ref: 'Chapter 9 · He Built It Anyway'
     note: Turin — the factory run before the manifesto
@@ -66,6 +69,7 @@ gestures:
   - G-PR-027
   - G-03-019
   - G-03-020
+  - G-04-025
   - G-09-001
   - G-10-027
   - G-10-041
@@ -79,6 +83,7 @@ gestures:
 separators:
   - section
   - paragraph
+  - section
   - section
   - paragraph
   - paragraph

@@ -1122,3 +1122,25 @@ Attention"; care "never paid for"); G-GC-026 ("The outside is wherever the
 accounting stops"); G-WW-008 ("trained to read it as empty. The wizard enters
 anyway"). Critique: KEEP. DISTINCT from the Enclosure thread (walks the frontier
 logic, not the act); shares G-GC-026 as one intended true crossing node.
+
+---
+
+## PR #11 review resolutions (Jason, 2026-06-18)
+
+Three open calls answered as inline PR review comments on this ledger:
+- **the-enclosure-thread** (line ~894, "Yep! Let's do this."): RESTORE the audible
+  "we" at the close. Applied: "The wall is also the thing that comes down." →
+  "The wall is also the thing we learn to take down." The counter-spell turn is now
+  explicit (master principle; Jason's call on the pronoun-timing).
+- **proof-before-theory** (line ~1049, "Let's include this!"): INCLUDE G-04-025's
+  "has it worked" beat. Applied: G-04-025 added to the walk (Chapter 4, between the
+  Ch3 and Ch9 members; +1 section separator), and a sourced beat added to the
+  invocation — "Has it worked? The answer is in the record." ← G-04-025 ("has it
+  actually worked? … The answer is in the record. It works"). Per Jason directive.
+- **norfolk** (line ~1083, "Let's leave these projects out for now!"): keep the
+  Ghent Streets / Mithlond bridge IMPLICIT — no explicit pointer added to the
+  description. No change (resolved as-is).
+
+Still open (not commented): **the-averaging-machine** — G-01-032 ("the machine is
+the argument") is `status/stashed`. Kept as-is pending Jason; faithful line, only
+the source gesture's status is in question.

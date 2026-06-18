@@ -14,5 +14,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  You have to be moving slow enough to see them.
+plain_meta:
+  source: G-01-036
+  status: draft
 ---
 You have to be moving slowly enough to see them.

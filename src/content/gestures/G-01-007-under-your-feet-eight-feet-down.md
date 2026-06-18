@@ -14,5 +14,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Under your feet, eight feet down, is someone's kitchen floor.
+plain_meta:
+  source: G-01-007
+  status: draft
 ---
 Under your feet, eight feet down, is someone's kitchen floor.

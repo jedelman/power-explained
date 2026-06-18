@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Then city officials began to call it a slum.
+plain_meta:
+  source: G-02-012
+  status: draft
 ---
 Then city officials began describing it as a slum.

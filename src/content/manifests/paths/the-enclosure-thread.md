@@ -20,7 +20,7 @@ invocation: >-
   common land, then care, then debt, then the web that was given away. Every
   outside it swallows makes it need another, and the commons is only ever the
   next outside — enclosed not because it failed but because it worked. Name the
-  gate and you can see it move. The wall is also the thing that comes down.
+  gate and you can see it move. The wall is also the thing we learn to take down.
 members:
   - id: G-PR-015
     ref: 'Prologue · Look Up'
