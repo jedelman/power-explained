@@ -28,5 +28,16 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Benjamin did not make it across the border. He died at Portbou on September
+  26, 1940. That is on the Spanish side of the Pyrenees. He had been told the
+  border was closed, and would be closed again the next day.
+
+  He was carrying a suitcase. Several accounts say it held a written work. The
+  suitcase has never been found. We still have the *Theses* for one reason. He
+  gave Arendt a copy in Marseille.
+plain_meta:
+  source: G-AB-065
+  status: draft
 ---
 Benjamin did not make it across the border. He died at Portbou on September 26, 1940, on the Spanish side of the Pyrenees, after being told the border was closed and would be closed again the next day. The suitcase he was carrying — the one that, by several accounts, held a manuscript — has never been recovered. We have the *Theses* because he gave Arendt a copy in Marseille.

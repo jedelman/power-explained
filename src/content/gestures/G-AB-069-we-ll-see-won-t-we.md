@@ -21,5 +21,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  We will see, won't we?
+plain_meta:
+  source: G-AB-069
+  status: draft
 ---
 We'll see, won't we?

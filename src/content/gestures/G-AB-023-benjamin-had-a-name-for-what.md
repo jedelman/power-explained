@@ -25,5 +25,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  A broken piece can flash and become clear all at once. Benjamin
+  had a name for that moment.
+plain_meta:
+  source: G-AB-023
+  status: draft
 ---
 Benjamin had a name for what happens when the shard flashes legible.

@@ -21,5 +21,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I have been through three wrecks I can tell you about.
+plain_meta:
+  source: G-AB-043
+  status: draft
 ---
 I have been in three wreckages I can tell you about.

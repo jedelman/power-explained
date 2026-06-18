@@ -29,5 +29,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  To collect, in Benjamin's sense, is to find aura where the market
+  said it was gone. To find a shard is to find aura. To defend the
+  land is to defend aura. The whole chapter is in this word.
+plain_meta:
+  source: G-AB-008
+  status: draft
 ---
 To collect, in Benjamin's sense, is to find aura where the market said it had been stripped. To find a shard is to find aura. To defend the land is to defend aura. The whole chapter is in this word.

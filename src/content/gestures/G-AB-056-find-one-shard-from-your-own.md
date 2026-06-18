@@ -23,5 +23,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Find one piece from your own wreckage.
+plain_meta:
+  source: G-AB-056
+  status: draft
 ---
 Find one shard from your own debris.

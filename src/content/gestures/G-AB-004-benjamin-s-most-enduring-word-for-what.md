@@ -26,5 +26,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Benjamin had a word that lasted. It is his word for what the
+  painting holds. It is his word for what the cedar chip holds. It
+  is his word for what the kitchen floor under Hampton Boulevard
+  holds. The word is *aura.*
+plain_meta:
+  source: G-AB-004
+  status: draft
 ---
 Benjamin's most enduring word for what the painting holds, what the cedar chip holds, what the kitchen floor under Hampton Boulevard holds, is *aura.*

@@ -20,5 +20,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  (Now think how hard it is for me to go to Home Depot.)
+plain_meta:
+  source: G-AB-052
+  status: draft
 ---
 (Now imagine how hard it is for me to go to Home Depot.)

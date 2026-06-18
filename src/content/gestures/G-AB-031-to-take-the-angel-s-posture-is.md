@@ -24,5 +24,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  If you stand like the angel, people may call you crazy too. That
+  risk is real. This chapter asks you to take the risk anyway.
+plain_meta:
+  source: G-AB-031
+  status: draft
 ---
 To take the angel's posture is to risk this designation. The risk is real. The chapter is asking you to take it anyway.

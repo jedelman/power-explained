@@ -28,5 +28,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Sight is what you build the next thing from. The land trust. The credit
+  union. The commune. The block that is built better. The cedar passed down
+  in a household. The meal that lit up a table on a Tuesday in February. Each
+  one gets built from sight.
+plain_meta:
+  source: G-AB-067
+  status: draft
 ---
 Sight is what the next thing — the land trust, the credit union, the commune, the better-built block, the cedar passed down through a household, the meal that lit a table on a Tuesday in February — gets built *from.*

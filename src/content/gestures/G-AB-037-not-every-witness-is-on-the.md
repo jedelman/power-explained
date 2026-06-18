@@ -22,5 +22,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Not every witness stands on the front line.
+plain_meta:
+  source: G-AB-037
+  status: draft
 ---
 Not every witness is on the line.

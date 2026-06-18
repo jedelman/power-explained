@@ -27,5 +27,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Walter Benjamin bought the print in 1921. He paid more than he
+  could afford. He kept it on the wall of every room he lived in for
+  the next nineteen years. He gave it the meaning we now use.
+plain_meta:
+  source: G-AB-002
+  status: draft
 ---
 Walter Benjamin bought the print in 1921, for a sum he could not afford, and kept it on the wall of every room he occupied for the next nineteen years. He gave it the meaning we have inherited.

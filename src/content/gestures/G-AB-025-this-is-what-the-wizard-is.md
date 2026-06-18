@@ -29,5 +29,23 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  This is what the wizard does in the city. The wizard does not
+  collect to save everything from being forgotten. The wizard waits
+  in the crowded city. The wizard waits until one piece becomes clear
+  for the exact need being carried.
+
+  The arcade flashed up to Benjamin. Paris in the 1930s was the only
+  Paris that could read what 1830 had dreamed.
+
+  The Rolling Jubilee flashed up to Graeber. The market for old debt
+  existed in just that form, at just the moment his work needed a way
+  in.
+
+  The chip from the cut flashed up too. Two people walking the Scar
+  had spent years learning to read what was killed.
+plain_meta:
+  source: G-AB-025
+  status: draft
 ---
 This is what the wizard is doing in the city. Not collecting in the antiquarian sense — preserving everything against forgetting — but waiting in the dense terrain of the metropolis until a specific fragment becomes legible to the specific need being carried. The arcade flashed up to Benjamin because Paris in the 1930s was the only Paris that could read what 1830 had dreamed. The Rolling Jubilee flashed up to Graeber because the secondary debt market existed in the precise form it did at the precise moment his organizing needed an opening. The chip from the cut flashed up because two people walking the Scar had spent years learning to read what was killed.

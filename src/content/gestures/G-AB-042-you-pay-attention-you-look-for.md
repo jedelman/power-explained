@@ -22,5 +22,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  You pay attention. You look for ways to help. You do not fake a
+  bravery you do not have. You do not turn away from the bravery
+  you do have.
+plain_meta:
+  source: G-AB-042
+  status: draft
 ---
 You pay attention. You look for ways to be helpful. You do not pretend to a courage you do not have, and you do not refuse the courage you do.
