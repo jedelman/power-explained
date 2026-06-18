@@ -14,5 +14,22 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Imagine you are an Algerian. France rules Algeria. The schools teach French
+  history as if it is your history. In that story, your people look backward.
+  The story says you need to be made civilized.
+
+  The law calls you a subject, not a citizen. You live in the land. But you do
+  not get the rights that Europeans get.
+
+  Jobs follow the same color line. The best-paid jobs go to Europeans. The jobs
+  with skills go to Europeans. The jobs with legal protection go to Europeans.
+
+  Your neighborhood is kept apart from the European ones. The land keeps you
+  apart. The police keep you apart, with everyday harm. You live in this world
+  every day.
+plain_meta:
+  source: G-07-014
+  status: draft
 ---
 You are an Algerian in French colonial Algeria. The schools teach French history as your history — a history in which your people appear as primitive, in need of civilization. The law treats you as a subject rather than a citizen: present in the territory but without the political standing that applies to Europeans. The labor market's hierarchy mirrors the colonial racial hierarchy — the best-paid work, the professional work, the work with legal protections is European. Your neighborhood is separated from European neighborhoods by geography and by the ordinary violence of colonial policing. You navigate this world every day.

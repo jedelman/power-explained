@@ -11,5 +11,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Walter Rodney saw from a different outside.
+plain_meta:
+  source: G-06-026
+  status: draft
 ---
 Walter Rodney saw from a different outside.

@@ -13,5 +13,22 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Europeans built race ranks inside Europe first. This came
+  before they built colonies far away. In the Middle Ages and
+  the years after, they sorted their own people into ranks.
+  Welsh, Irish, Slavic, and Jewish people were marked as
+  different kinds of people. They had different ties to the
+  law. They had different ties to land. They had different
+  ties to the use of force. And they had a different place in
+  who counted as fully human. These look a lot like early race
+  ideas. The word slave comes from the word Slav. Many people
+  from eastern Europe were made slaves. This came before
+  African people became the main form of slaves. So this rank
+  did not come from the colonies. It was here first.
+  Capitalism grew out of it.
+plain_meta:
+  source: G-06-009
+  status: draft
 ---
 Before Europeans built colonial empires, they had already built racial hierarchies inside Europe. Medieval and early modern European societies organized their internal populations through what we would recognize as proto-racial categories — Welsh, Irish, Slavic, Jewish — marked as distinct kinds of persons with distinct relationships to law, to land, to legitimate violence, to the category of the fully human. The word *slave* descends from *Slav*: eastern Europeans enslaved in large numbers before African slavery became the dominant form. The hierarchy wasn't imported from the colonies. It was the condition out of which capitalism developed.

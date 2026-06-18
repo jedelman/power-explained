@@ -22,6 +22,22 @@ notes: |-
   intentionally altering consciousness (Federici, Fanon, Freire). The
   diagnosticians here (Robinson, Rodney, Mbembe) read the terrain
   rigorously but do not practice the counter-spell as their method.
+plain: >
+  Four readers. They stand in different spots. They look at
+  the same field. They see the same demon.
+
+  Robinson reads the inside of capitalism. He shows how race
+  lives in the machine. Rodney reads the outside. He shows how
+  the outside was made poor on purpose. Fanon reads the body
+  and the mind. He shows how the colony gets inside the self.
+  Mbembe reads what comes after. He shows how the same logic
+  stays even after the flag comes down.
+
+  One structure. Four readings. The chapter calls it the
+  colony.
+plain_meta:
+  source: G-06-003
+  status: draft
 ---
 Four readers. Different positions on the same field. Same demon.
 

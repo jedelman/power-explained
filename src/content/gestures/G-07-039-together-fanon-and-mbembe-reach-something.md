@@ -27,6 +27,34 @@ notes: |-
   complementary ways. Lands the chapter's four-wizard read as one
   structure with two motions, mind and body. Sets up G-07-040's "undo
   the inscription, break the incantation" close.
+plain: >
+  Robinson and Rodney named the structure. Fanon and Mbembe named what the
+  structure does to the person inside it. These are two moves of the same demon.
+
+  *Incantation* is a spell cast on the mind. It is slow talk that turns *the
+  way things are* into *the way things must be*. Race becomes the label that
+  makes the taking look normal. *Nothing we can do*, said until it sounds like
+  a plain fact. *Inscription* does to the body what incantation does to the
+  mind. It carves the structure into the flesh. Into the nerves. Into how you
+  walk. Into how you look at things. Into the quiet sense of which places are
+  yours and which ones make you stay on guard. The arm yanked. The shrug
+  learned young. The shoulders drop where the body has been told it can rest.
+  They tighten where it has been told it cannot.
+
+  Paulo Freire wrote *Pedagogy of the Oppressed* in 1968, while living in exile
+  from Brazil. He held the harder truth: *both* sides of the line are marked.
+  The body of the oppressed is marked where it is hurt. Their mind is taught
+  the story that makes the hurt look like nature. The body of the oppressor is
+  marked where it is at ease. Their mind is taught the story that makes the
+  ease look earned. Different marks. The sickness Fanon treated walked into his
+  clinic from both sides of the line, and there was a reason for that.
+
+  This is why getting rid of the colonizer is not yet freedom. The colony in
+  the mind. The colony in the bone. The flag comes down. The mark on the body
+  stays. The spell on the mind stays. The work is to break both.
+plain_meta:
+  source: G-07-039
+  status: draft
 ---
 Robinson and Rodney named the structure. Fanon and Mbembe named what the structure does to the person inside it. Two motions of the same demon.
 
