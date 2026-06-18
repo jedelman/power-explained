@@ -270,6 +270,7 @@ notes: |
 gestures:
   - G-GC-001
   - G-GC-002
+  - G-GC-002a
   - G-GC-003
   - G-GC-004
   - G-GC-005
@@ -326,6 +327,7 @@ gestures:
   - G-GC-049
   - G-GC-050
 separators:
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

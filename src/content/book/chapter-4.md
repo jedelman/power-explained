@@ -264,6 +264,7 @@ gestures:
   - G-04-022
   - G-04-023
   - G-04-024
+  - G-04-025a
   - G-04-025
 separators:
   - paragraph
@@ -289,6 +290,7 @@ separators:
   - section
   - section
   - paragraph
+  - section
   - section
   - section
   - section
