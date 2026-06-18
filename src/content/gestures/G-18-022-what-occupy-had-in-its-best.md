@@ -14,5 +14,14 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  At its best, Occupy had making that was not blocked. Smart ideas flowed
+  through a group that had, for a while, broken down the structures that
+  usually block them. What it did not have was a form that could hold that
+  flow over time. A form that could hold it through fights, and through the
+  slow times when the group runs low and the structure has to carry the load.
+plain_meta:
+  source: G-18-022
+  status: draft
 ---
 What Occupy had, in its best moments, was unblocked desiring production — collective intelligence flowing through a community that had temporarily dissolved the structures that usually block it. What it lacked was the form that could hold that flow across time, conflict, and the moments when the network slows and the structure must carry the weight.

@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  First, a failure. It was mine.
+plain_meta:
+  source: G-18-014
+  status: draft
 ---
 A failure first. Mine.
