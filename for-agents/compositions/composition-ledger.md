@@ -997,3 +997,128 @@ singular). Lands on the machine — the LLM co-author — naming itself and refu
   (above). Distinctness from enclosure confirmed: the close (the machine refusing
   its own separation) is what makes it Magic, not Terrain — keep it load-bearing.
 - Status: staged at /book/path/the-averaging-machine. Not in nav, not in the river.
+
+---
+
+## SLATE BATCH (2026-06-18, session 1) — six threads, built by sub-agents, fresh-context critique gate
+
+All six: Tier 0 ordering (existing gestures) + Tier 1 invocation. Tag = the
+connection Jason already made. Each invocation independently critiqued in a
+fresh-context sub-agent against Gandalf/pronoun/anti-slop + quote verification.
+
+### cannot-verify-from-inside · staged · critique REVISE→applied
+Invocation (final): "Force is visible. You can resist force because you can see
+it. The spell that decides what you are is not. It works through the air everyone
+breathes, and there is no position within the structure from which the
+classification can be refuted, because the structure determines which responses
+are legible. Resistance confirms the image. Compliance confirms it too. The
+blindness was never in the commons; it was in the accounting. To see it is to
+attend — to refuse to aggregate, to see from inside the relationship rather than
+outside it. What averaging cannot hold is the one thing worth holding: you are
+what the system cannot train on. The test that forbids the claim is also the way out."
+Sources: G-09-012 ("Force is visible. You can resist force because you can see
+it. Hegemony isn't"; "the air everyone breathes"); G-07-015 ("no position within
+the structure from which the classification can be refuted… determines which
+responses are legible"; "resistance confirms the image"; "compliance confirms");
+G-12-015 ("The blindness was in the accounting, not in the commons"); G-12-035
+("trained herself to attend… refusing to aggregate… see from inside the
+relationship rather than outside it"); G-08-009 ("what averaging cannot hold");
+G-16b-036 ("You are what the system cannot train on"); close ← master principle
+(spell→counter-spell) + G-WW-018 (epistemic limit). Critique: REVISE — cut the
+instructional "you must train yourself to… to…"; restored G-09-012's three short
+beats; "To see it is to attend" (no unreferenced subject). Applied.
+
+### proof-before-theory · staged · critique KEEP
+Invocation: "Not argument — evidence. We show you what works before we explain
+why. Watch the practice preceding the theory: the workers running the factory
+before any manifesto, the street become a commons before anyone finished debating
+whether it should be. They didn't need the theory. They had the practice — they
+had always had the practice, in every commons governing itself for centuries
+before anyone wrote it down. The form preceded the content. The proof is older
+than the word for it."
+Sources: G-PR-027 ("Not argument — evidence"; "We show you what works before we
+explain why"); G-11-031 ("The practice preceded the theory"); G-09-001 (workers
+running the shift); G-10-041 ("They didn't need the theory. They had the
+practice"; "always had the practice"; "centuries before anyone wrote a
+manifesto"); G-11-003 ("The street became a commons before anyone had finished
+debating whether it should be"); G-18-007 ("The form preceded the content");
+close "The proof is older than the word for it" ← crystallization of G-13-009
+("Credit is older than money. The sequence in the textbooks is backwards") +
+G-EP-007. Critique: KEEP (register + pronoun clean; the close is a sound
+crystallization, every component sourced). Open call: G-04-025's "has it worked"
+beat left out for economy — include if Jason wants it.
+
+### the-restaurant · staged · critique KEEP
+Invocation: "We opened a restaurant, and what we were trying to build was a
+commons — a place where people could just be, and be welcomed. Not the room. The
+stable distribution of responsibility across staff and regulars and growers,
+across years. I was trying to offer a commons to someone who had been produced
+for an enclosure; the contract is a boundary that produces the relationship it
+describes. The hard version feels like pitching a tent in a downpour: it has to
+be done, you know you can do it, and you build everything also as cover from what
+is coming down on top of you. The downpour is still happening. We packed up and
+moved on — the canopy came down, and the work was the people who learned to do
+the work under the canopy and who are now somewhere else, doing some version of
+it. The seeds are the meals that worked and the people they passed through."
+Sources: G-04-023, G-03-033, G-GC-018, G-10-032, G-WW-021, G-WW-023, G-AB-054
+(all verbatim/faithful, all voice/jason — Jason's own lived through-line).
+Critique: KEEP (pronoun choreography exemplary — "We opened/packed up" audible
+We; "I was trying to offer" isolating individual act, preserved per contract). No
+invented restaurant details.
+
+### norfolk · staged · critique KEEP
+Invocation: "The book started there: a crossing built on top of a community
+demolished to build it. Some days it costs too much to cross. The wreckage is not
+metaphor; it is geological — the kitchen floors of the houses they took, eight
+feet under the sole. This is the other enclosure: not taking what exists but
+preventing what could, the box the code never held. And still the corner store
+that was on no plan. Still the garden in the right-of-way. What we were trying to
+build there was a commons — the route around the door, in the one city the body
+knows by walking."
+Sources: G-14-002, G-01-003, G-AB-053, G-08-007, G-04-023; "the route around the
+door" ← wizard-lexicon (Magic); close "the one city the body knows by walking" ←
+crystallization of G-01-003 ("The body knows how to walk"). Critique: KEEP. Open
+call: this is the live bridge to Ghent Streets + Mithlond (both Norfolk/Hampton
+Roads) — no applied-project gesture exists in the river, so the bridge stays
+implicit; add an explicit pointer to the description if Jason wants it.
+
+### the-lineage · staged · critique REVISE→applied
+Invocation (final): "He did not invent the form. He recovered it. The tradition
+was ongoing, cumulative — across generations, the lineage held, each reading
+taken up by the next. Not a lineage — an architecture: the same insight, arrived
+at independently, by different people, because the conditions required it. The
+thread has never broken. The dead held what the living kept rediscovering —
+wherever a commons survives, the dead are keeping the door. And the practice that
+survives is the one carried forward by the people who carry it without knowing
+they are carrying it forward."
+Sources: G-04-007 ("He didn't invent the cooperative form. He recovered the
+etxe"); G-06-023 ("ongoing, cumulative"; "the lineage held — each… reading taken
+up by the next"); G-11-037 ("Not a lineage — an architecture"; "the same insight,
+arrived at independently…"; "the dead held what the living kept rediscovering";
+"wherever a commons survives, the dead are keeping the door"); G-09-036 ("The
+thread has never broken"); G-EP-014 ("carry it forward without knowing they are
+carrying it forward"). Critique: REVISE — "Not a lineage but" collided with the
+thread's own title; restored G-11-037's em-dash ("Not a lineage —") so it reads
+as deepening not contradiction; cut the redundant second thread-image down to
+G-09-036's "The thread has never broken." Applied.
+
+### the-outside · staged · critique KEEP
+Invocation: "The outside is not a place on the map. It is a relation of power —
+the margin made by excluding, terrain the machine can draw value from without
+full payment. Look at any system; find where the math doesn't close. There you
+will find one. It is not the excess of the system. It is the mechanism,
+maintained — and when the geography runs out, the machine marks new ones: debt,
+attention, the care that was never paid for. The outside is wherever the
+accounting stops. Not everything beyond the accounting is the outside; some
+things cannot be enclosed at all. So enter the territory you were trained to read
+as empty."
+Sources: G-GC-024 ("Not a place on the map — a relation of power"; "terrain it
+can draw value from without full payment"; "not the excess of the system. It is
+the mechanism"); G-GC-026a ("the margin made by excluding"; "Not everything
+beyond the accounting is the outside. Some things cannot be enclosed at all");
+G-05-009 ("Look at any system. Find where the math doesn't close. There you will
+find one"); G-05-029 ("maintained"); G-GC-025 ("the machine marks new ones. Debt.
+Attention"; care "never paid for"); G-GC-026 ("The outside is wherever the
+accounting stops"); G-WW-008 ("trained to read it as empty. The wizard enters
+anyway"). Critique: KEEP. DISTINCT from the Enclosure thread (walks the frontier
+logic, not the act); shares G-GC-026 as one intended true crossing node.

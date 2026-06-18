@@ -7,28 +7,35 @@
 ## Coverage
 
 - River gestures: **943**
-- On at least one thread: **122** (12.9%)
-- Orphans (on zero threads): **821**
-- Threads: **14**
-- Multi-thread nodes (on ≥2): **13**
+- On at least one thread: **179** (19.0%)
+- Orphans (on zero threads): **764**
+- Threads: **20**
+- Multi-thread nodes (on ≥2): **20+**
 
 ## The load-bearing spine (super-nodes)
 
 Gestures where the most threads already cross — the book's structural pivots.
 
 - **G-02-013** (3) — Historian Forrest White has documented what · _Atlantic City, The Captured Commons, Illusion_
+- **G-02-014** (3) — In 1957, the city council approved · _Atlantic City, Norfolk, The Captured Commons_
 - **G-OV-003** (2) — The spell and your magic · _The Averaging Machine, The Second Initiation_
+- **G-PR-008** (2) — Every spring, Jason finds as many · _The Lineage, The Night Herons_
 - **G-PR-026** (2) — The first is the feeling itself · _Knowing in the Body, The Averaging Machine_
-- **G-02-014** (2) — In 1957, the city council approved · _Atlantic City, The Captured Commons_
 - **G-01-036** (2) — You have to be moving slowly · _The Night Herons, The Second Initiation_
+- **G-04-023** (2) — The Restaurant the Turn · _Norfolk, The Restaurant_
+- **G-GC-026** (2) — The outside is wherever the accounting · _Enclosure, The Outside_
 - **G-GC-031** (2) — Do not reach for the explanation · _Knowing in the Body, The Second Initiation_
+- **G-06-023** (2) — This is what Robinson called the · _Divination, The Lineage_
+- **G-06-040** (2) — What made my blood boil — · _Norfolk, The Shrug_
+- **G-08-007** (2) — In 2019 the city of Norfolk · _Norfolk, Enclosure_
+- **G-08-009** (2) — Sylvia Wynter was born in Cuba · _Cannot Verify From Inside, The Averaging Machine_
 - **G-OA-008c** (2) — Kokoro · _Knowing in the Body, The Shrug_
+- **G-12-015** (2) — The dam project made visible something · _Cannot Verify From Inside, The Night Herons_
 - **G-12-016** (2) — The herons know about the road · _Knowing in the Body, The Night Herons_
 - **G-13-010** (2) — When commodity money becomes dominant, it · _The Captured Commons, The Pact_
 - **G-13-011** (2) — Credit in its original form is · _The Captured Commons, The Pact_
-- **G-14-034** (2) — The institutions built on the displaced · _Atlantic City, The Captured Commons_
-- **G-15-015** (2) — Federici adds the historical mechanism: it · _The Captured Commons, Divination_
-- **G-15-017** (2) — The mechanism Federici traced — care · _The Captured Commons, Divination_
+- **G-13-027** (2) — I spent the first three years · _The Pact, The Restaurant_
+- **G-14-002** (2) — The book started there — the · _Atlantic City, Norfolk_
 
 ## Strongest unrealized thread spines
 
@@ -38,66 +45,66 @@ whose connection Jason has *already made* (the tag). Top 30:
 
 | tag | gestures | unthreaded |
 | --- | ---: | ---: |
-| `concept/enclosure` | 69 | 48 |
-| `motif/knowing-in-the-body` | 66 | 48 |
-| `motif/cannot-verify-from-inside` | 42 | 34 |
-| `image/the-restaurant` | 40 | 33 |
-| `image/the-machine` | 36 | 31 |
-| `motif/proof-before-theory` | 33 | 32 |
-| `motif/return-migration` | 30 | 25 |
-| `motif/the-lineage` | 30 | 26 |
+| `concept/enclosure` | 69 | 43 |
+| `motif/knowing-in-the-body` | 66 | 47 |
+| `motif/cannot-verify-from-inside` | 42 | 26 |
+| `image/the-restaurant` | 40 | 21 |
+| `image/the-machine` | 36 | 27 |
+| `motif/proof-before-theory` | 33 | 19 |
+| `motif/return-migration` | 30 | 23 |
+| `motif/the-lineage` | 30 | 15 |
 | `motif/flowering` | 30 | 20 |
-| `concept/the-outside` | 30 | 24 |
-| `image/songbirds` | 28 | 27 |
-| `place/norfolk-va` | 27 | 20 |
+| `concept/the-outside` | 30 | 14 |
+| `image/songbirds` | 28 | 25 |
+| `place/norfolk-va` | 27 | 11 |
 | `concept/attention` | 27 | 24 |
-| `image/the-armor` | 24 | 23 |
-| `concept/cooperative` | 24 | 21 |
-| `person/gramsci` | 23 | 23 |
-| `image/the-thread` | 23 | 23 |
-| `concept/the-wizard` | 23 | 23 |
-| `image/the-highway` | 22 | 13 |
-| `motif/demolished-from-outside` | 22 | 18 |
-| `concept/debt` | 22 | 19 |
+| `image/the-armor` | 24 | 22 |
+| `concept/cooperative` | 24 | 19 |
+| `person/gramsci` | 23 | 21 |
+| `image/the-thread` | 23 | 19 |
+| `concept/the-wizard` | 23 | 22 |
+| `image/the-highway` | 22 | 12 |
+| `motif/demolished-from-outside` | 22 | 15 |
+| `concept/debt` | 22 | 18 |
 | `image/the-screen` | 21 | 17 |
-| `motif/self-governance-in-public` | 20 | 17 |
-| `concept/aura` | 20 | 19 |
+| `motif/self-governance-in-public` | 20 | 15 |
+| `concept/aura` | 20 | 18 |
 | `image/the-circle` | 19 | 18 |
 | `image/the-angel` | 19 | 19 |
-| `concept/the-shard` | 19 | 18 |
+| `concept/the-shard` | 19 | 16 |
 | `motif/body-without-organs` | 19 | 19 |
-| `concept/hegemony` | 18 | 15 |
-| `concept/simulation` | 18 | 18 |
+| `concept/hegemony` | 18 | 14 |
+| `concept/simulation` | 18 | 17 |
 
 ## Per-chapter thread density
 
 | chapter | gestures | threaded | % |
 | --- | ---: | ---: | ---: |
 | How to Become a Wizard and Save the World | 5 | 2 | 40% |
-| Prologue: Look Up | 30 | 6 | 20% |
-| Chapter 1: Some Days It Costs Too Much | 37 | 9 | 24% |
+| Prologue: Look Up | 30 | 7 | 23% |
+| Chapter 1: Some Days It Costs Too Much | 37 | 13 | 35% |
 | Chapter 2: Two Cities | 40 | 3 | 8% |
-| Chapter 3: The Cook | 35 | 1 | 3% |
+| Chapter 3: The Cook | 35 | 4 | 11% |
 | Becoming Wizards in the Woods | 28 | 3 | 11% |
-| Chapter 4: Nobody Asked Him To | 28 | 0 | 0% |
-| The Speaking of Names | 58 | 9 | 16% |
-| Chapter 5: The Smile | 28 | 1 | 4% |
-| Chapter 6: The Colony | 67 | 10 | 15% |
-| Chapter 8: No Name for It | 22 | 4 | 18% |
+| Chapter 4: Nobody Asked Him To | 28 | 2 | 7% |
+| The Speaking of Names | 58 | 13 | 22% |
+| Chapter 5: The Smile | 28 | 6 | 21% |
+| Chapter 6: The Colony | 67 | 14 | 21% |
+| Chapter 8: No Name for It | 22 | 7 | 32% |
 | The Orgone Accumulator | 24 | 3 | 13% |
-| Chapter 9: He Built It Anyway | 28 | 0 | 0% |
-| Chapter 10: The Birds She Fed Through the Bars | 32 | 0 | 0% |
-| Chapter 11: The Circle in the Blizzard | 25 | 3 | 12% |
-| Chapter 12: This Was Made | 28 | 5 | 18% |
-| Chapter 13: We're Canceling It | 31 | 6 | 19% |
-| The Angel Faces Backward | 70 | 2 | 3% |
+| Chapter 9: He Built It Anyway | 28 | 4 | 14% |
+| Chapter 10: The Birds She Fed Through the Bars | 32 | 4 | 13% |
+| Chapter 11: The Circle in the Blizzard | 25 | 6 | 24% |
+| Chapter 12: This Was Made | 28 | 7 | 25% |
+| Chapter 13: We're Canceling It | 31 | 8 | 26% |
+| The Angel Faces Backward | 70 | 4 | 6% |
 | Chapter 14: I Became the Land | 32 | 12 | 38% |
 | Chapter 15: Still Meeting | 22 | 6 | 27% |
 | Re-Enchanting the World | 34 | 4 | 12% |
 | Chapter 16: Even That Part | 51 | 9 | 18% |
-| Chapter 16, Part 2: The Hollow Book | 51 | 5 | 10% |
-| Chapter 17: The Owl at the Edge of the Circle | 41 | 4 | 10% |
-| Chapter 18: You Wonderful Weird Birds | 38 | 2 | 5% |
-| The Wizard's Walk | 32 | 6 | 19% |
+| Chapter 16, Part 2: The Hollow Book | 51 | 8 | 16% |
+| Chapter 17: The Owl at the Edge of the Circle | 41 | 5 | 12% |
+| Chapter 18: You Wonderful Weird Birds | 38 | 4 | 11% |
+| The Wizard's Walk | 32 | 11 | 34% |
 | The Djinn | 11 | 2 | 18% |
-| Epilogue: The Doves | 15 | 5 | 33% |
+| Epilogue: The Doves | 15 | 8 | 53% |
