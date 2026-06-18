@@ -13,5 +13,14 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Everyone else saw a line they thought could not move. It was the
+  line between the machine and what the machine does. Turing erased
+  that line. The machine did not have to be built for one job. The
+  job could be written down. It could be written again a new way. It
+  could be handed to someone else. It could be given away.
+plain_meta:
+  source: G-16-036
+  status: draft
 ---
 He had dissolved a boundary that everyone else had taken as fixed: the distinction between the device and what the device does. The machine did not have to be organized around one function. The function could be written. Rewritten. Handed to someone else. Given away.

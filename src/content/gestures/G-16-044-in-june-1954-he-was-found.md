@@ -17,6 +17,23 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-16-045 on
   2026-05-20]
+plain: >
+  In June 1954, he was found dead at age forty-one.
+  A half-eaten apple sat on the nightstand. The
+  inquest ruled it a suicide.
+
+  This man had spent his whole adult life finding the
+  gaps in systems. He had to. The system had been built
+  against him. He had a special way of thinking. He
+  could look at a machine and see that its hard rules
+  were just a choice. He saw that the groups things were
+  sorted into were made up. He saw that you could erase
+  the line between a thing and what it does. That way of
+  thinking came from somewhere. It came from a life
+  lived outside the frame.
+plain_meta:
+  source: G-16-044
+  status: draft
 ---
 In June 1954, he was found dead at forty-one. A half-eaten apple on the nightstand. The inquest ruled suicide.
 

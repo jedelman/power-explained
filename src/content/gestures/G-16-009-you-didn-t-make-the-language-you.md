@@ -16,6 +16,17 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-16-010, G-16-011
   on 2026-05-20]
+plain: >
+  You did not make the language you think in. It made you, in part. And
+  you are making it, a little, right now.
+
+  This is what love with no strings looks like at the size of a whole
+  people.
+
+  But there is a love that fences you in.
+plain_meta:
+  source: G-16-009
+  status: draft
 ---
 You didn't make the language you think in. It made you, partly. And you are making it, slightly, right now.
 

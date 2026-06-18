@@ -13,5 +13,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The spectacle does not need to own the rules of the web. It only
+  needs to own the screen you look at.
+plain_meta:
+  source: G-16-063
+  status: draft
 ---
 The spectacle does not need to own the protocol. It only needs to own the interface.

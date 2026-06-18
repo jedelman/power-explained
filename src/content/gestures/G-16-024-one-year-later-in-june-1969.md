@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  One year later, it was June 1969. The people at the Stonewall Inn
+  in New York tried something else.
+plain_meta:
+  source: G-16-024
+  status: draft
 ---
 One year later, in June 1969, the people at the Stonewall Inn in New York tried something different.
