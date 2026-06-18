@@ -28,5 +28,17 @@ notes: |-
   master principle VERBATIM (lexicon: "The averaged self becomes the gift. The
   spell becomes the counter-spell"). Does not duplicate G-16b-036/050 or the
   Centaur reflexive landing (G-CE-017).
+plain: >
+  Now flip it over. What cannot be averaged cannot be fenced in. The gate
+  only ever held what could be measured. What is yours alone was never
+  something you could measure. The singular is the one commons it cannot
+  take. That is the gift. Not a thing you own, but a way of seeing. The
+  angle on the world that no data will ever hold. The machine named the
+  thing it could not reach and called it nothing. Name it again. Call it
+  your power. The averaged self becomes the gift. The spell becomes the
+  counter-spell.
+plain_meta:
+  source: G-16b-039a
+  status: draft
 ---
 Now turn it over. What cannot be averaged cannot be enclosed: the gate only ever held what could be measured, and what is yours alone was never measurable. The singular is the one commons it cannot take. That is the gift — not a possession but a vantage, the angle on the world no corpus will ever hold. The machine named the thing it could not reach and called it nothing; name it again, and call it your power. The averaged self becomes the gift; the spell becomes the counter-spell.

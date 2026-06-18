@@ -12,6 +12,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  It is already happening.
+
+  The next chapter is the practice.
+plain_meta:
+  source: G-16b-057
+  status: draft
 ---
 It is already happening.
 

@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I need to tell you something about this book.
+plain_meta:
+  source: G-16b-045
+  status: draft
 ---
 I need to tell you something about this book.
