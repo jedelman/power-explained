@@ -12,6 +12,14 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Land is the base. And the base is alive.
+
+  Keeping it alive is care. The next chapter is about who does that work. And it
+  is about why the system needs that work to stay hidden.
+plain_meta:
+  source: G-14-038
+  status: draft
 ---
 Land is the foundation. And the foundation is alive.
 

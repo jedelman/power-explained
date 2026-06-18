@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I know a little of what Sorenson is talking about. I know it from the
+  inside.
+plain_meta:
+  source: G-14-017
+  status: draft
 ---
 I know a little of what Sorenson is describing from the inside.

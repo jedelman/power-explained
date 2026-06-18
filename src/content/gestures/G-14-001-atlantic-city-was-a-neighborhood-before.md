@@ -14,5 +14,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Atlantic City was a neighborhood first. Later it was a highway.
+plain_meta:
+  source: G-14-001
+  status: draft
 ---
 Atlantic City was a neighborhood before it was a highway.
