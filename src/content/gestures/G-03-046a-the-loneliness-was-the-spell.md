@@ -28,5 +28,18 @@ notes: |-
   instruction register), ledgered per clause in analysis/agency-keystone-design.md.
   Shipped in place by Jason ("ship it!", 2026-06-16). Uses only ch.3-available
   concepts; the full engine crystallizes at Part VI + the Centaur.
+plain: >
+  The loneliness was the spell. It was not just a feeling. It was a
+  fence. You looked for your power inside yourself. You found little.
+  You thought that was how big the world was. But your power was never
+  yours alone to hold. Power lives between us. It lives in what we build
+  and defend together. Being made alone feels like being made
+  powerless. It is. You do not grow stronger alone. You act as if your
+  strength is shared. Then, in the building, you find that it holds. You
+  were never alone. You were always building with us. If we choose to,
+  we can build together.
+plain_meta:
+  source: G-03-046a
+  status: draft
 ---
 The loneliness was the spell. Not a feeling — a fence. You looked for your power in yourself, found little, and called that the size of the world. But it was never yours alone to hold. Power lives between us, in what we build and defend together. Being made alone feels like being made powerless. It is. You do not grow stronger alone. You act as if your strength is shared — and find, in the building, that it holds. You were never alone. You were always building with us. If we choose to, we can build together.

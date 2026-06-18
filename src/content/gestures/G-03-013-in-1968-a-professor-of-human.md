@@ -17,6 +17,17 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-03-014 on
   2026-05-20]
+plain: >
+  It starts in 1968. A science paper came out. Its name is one that
+  many people know: "The Tragedy of the Commons." It is one of the
+  most quoted papers ever written about the earth and the economy.
+  It is still taught. Classes in basic economics and the study of
+  nature teach it as a fact.
+
+  It told of a thing that is not real.
+plain_meta:
+  source: G-03-013
+  status: draft
 ---
 It starts in 1968, with the publication of one of the few scientific papers whose title is a household name: "The Tragedy of the Commons." It is one of the most cited papers in the history of environmental and economic policy. It is taught, still, in introductory economics and environmental studies courses as established fact.
 

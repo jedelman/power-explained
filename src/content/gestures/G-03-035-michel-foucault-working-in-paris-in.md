@@ -39,6 +39,58 @@ notes: >-
   orchard downstream (biopower managing the overflow) is the sibling
   casting — domestication is the conditioning of the organism, the orchard
   the management of its surplus.
+plain: >
+  Michel Foucault worked in Paris in the 1970s. He saw something Gramsci had
+  named but had not fully laid out. Power, he said, had changed. The old power
+  of the king was the right to kill you or let you live. New power is different.
+  It does not mostly kill. It tames. A wolf is not hunted into a dog. It is bred
+  into one, over many years, until it grows tame and the tameness looks like its
+  own nature. Neoteny is how this works: the tamed animal keeps its young traits
+  for life. It keeps the need and the give that a wild adult would have grown
+  out of, because those traits serve the keeper. This is what biopower does to a
+  group of people. It does not take your life. It runs it. It manages it, sets
+  rules for it, tunes it — bends the body toward being useful until the
+  usefulness feels like who you are. The prison, the hospital, the school, the
+  factory: these are not just places where bodies are controlled. They are
+  places where the line between normal and not, useful and useless, is made and
+  kept.
+
+
+  Antonio Negri built the answer to the question Foucault left open. It took him
+  decades. He was arrested in Italy in 1979 on charges most saw as political. He
+  wrote the book The Savage Anomaly from prison. He was elected to Parliament
+  from his cell. He used the safety that gave him to flee to France in 1983.
+  From exile through the 1990s, he and Michael Hardt would write the book
+  Empire. He died in Paris in December 2023, at ninety.
+
+
+  Here is what Negri and Hardt built across their books Empire, Multitude, and
+  Commonwealth. If biopower is power that works through life, then biopolitical
+  production is what business now leans on most. Not value pulled from raw stuff
+  or the same factory work over and over. Value pulled from life itself — from
+  language, from feeling, from care, from knowledge, from the built-up power of
+  people to work together, to talk, and to make. The call center worker selling
+  warmth. The nurse handling pain and fear. The teacher making the power to
+  learn. The neighborhood whose long-time people make it nice enough that
+  builders move in and push out the poor. None of this makes a thing you can
+  hold. All of it makes value that business takes.
+
+
+  At the far end of taming is the thing that does not breed its host but rewrites
+  it. A fungus gets into an ant, and the ant climbs — not where the ant was
+  going, but where the fungus needs to grow. It locks its jaws onto a leaf at
+  the right height and dies there, so the fungus can grow out of its head. The
+  ant does the climbing. The ant feels, most likely, like it is doing what ants
+  do. That is biopolitical production at its edge: not the body forced, but the
+  body's own push turned to another's harvest. The worker sells warmth and calls
+  it a career. The neighborhood makes itself lovely for the builder who will
+  price it out. The power is yours. The fruit is someone else's.
+
+
+  And what feeds all this making?
+plain_meta:
+  source: G-03-035
+  status: draft
 ---
 Michel Foucault, working in Paris in the 1970s, identified something Gramsci had named but not fully anatomized. Power, he argued, had undergone a transformation. Classical sovereign power — the power of the king — was the right to take life or let live. Modern power is something different. It doesn't primarily kill; it domesticates. A wolf is not hunted into a dog — it is bred into one, generation by generation, its development bent toward tameness until the docility looks like its own nature. Neoteny is the mechanism: the domesticated animal keeps its juvenile traits for life, the dependence and the pliancy that the wild adult would have outgrown, because those are the traits that serve the keeper. This is what biopower does to a population. It does not take your life; it administers it. It manages, regulates, optimizes — bends the body's development toward usefulness until the usefulness feels like character. The prison, the hospital, the school, the factory: not just places where bodies are controlled but where the definition of normal and deviant, productive and useless, is manufactured and maintained.
 
