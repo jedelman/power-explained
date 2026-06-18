@@ -30,6 +30,30 @@ notes: |-
   first witness drifted at the paragraph ("admire its own image rather
   than push through it") — throat-clear, simile-frame, the announce, and
   the aphorism's trailing explanation all cut; re-witnessed fresh.
+plain: >
+  Debt does not grow. Nothing gets added. It is the piling up of an
+  absence. It wears things away, like water wearing away land. Money is
+  trust. What people owe each other is like water that moves. A healthy
+  credit commons is a steady flow. The banks of the river hold because
+  the flow feeds them. The Valencia tribunal has kept one river's worth
+  of trust flowing this way for ten centuries. Now turn the trickle into
+  a flood. Interest piles on interest. Fees pile on fees. The debt comes
+  faster than any life can pay. Then the water stops feeding the land and
+  starts taking it. The banks wash out. A river that floods is a river
+  that dries up.
+
+  Graeber showed how this has worked for five thousand years. Debt builds
+  up. Interest piles on. The people at the bottom fall into debt they
+  can never pay to the people at the top. And again and again, in the old
+  Near East, rulers called debt jubilees. They wiped out the debts. They
+  gave back land that had been taken. They freed people held as slaves
+  for debt. This was not kindness. It was a way to stop a crisis. The
+  rulers knew this. A land where the poor always owe the rich is a land
+  that cannot work. The jubilee was the commons coming back. The other
+  choice was collapse.
+plain_meta:
+  source: G-13-018
+  status: draft
 ---
 Debt does not grow. Nothing is added; it is the compounding of an absence — erosion, not growth. Money is trust, obligation is the water it moves in, and a working credit commons is a steady flow: the banks hold because the flow feeds them — the Valencia tribunal has kept one river's worth of trust moving that way for ten centuries. Turn the trickle into a flood — interest on interest, penalty on penalty, the obligation arriving faster than any life can absorb it — and the water stops feeding the land and starts taking it. The banks wash out. The river that floods is the river that dries.
 

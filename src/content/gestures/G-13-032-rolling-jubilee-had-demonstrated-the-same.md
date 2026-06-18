@@ -14,5 +14,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Rolling Jubilee showed the same thing. A debt bought for two cents on
+  the dollar can be wiped out, not collected. The jubilee is not just
+  old history. It can be done right now.
+plain_meta:
+  source: G-13-032
+  status: draft
 ---
 Rolling Jubilee had demonstrated the same thing: a debt bought for two cents on the dollar can be abolished rather than collected. The jubilee tradition is not historical. It is available right now.
