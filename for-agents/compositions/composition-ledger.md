@@ -1144,3 +1144,46 @@ Three open calls answered as inline PR review comments on this ledger:
 Still open (not commented): **the-averaging-machine** — G-01-032 ("the machine is
 the argument") is `status/stashed`. Kept as-is pending Jason; faithful line, only
 the source gesture's status is in question.
+
+---
+
+## Mircea Eliade placement (Jason directive, 2026-06-18) · profile + gesture + dramatis personae
+
+Jason: "mircea eliade deserves a placement" → "thinker profile on the main site,
+then distill into a gesture in the Becoming Wizards chapter and add to dramatis
+personae, then bring back parallel to Plotkin." Connections AUTHORIZED by Jason
+(sacred/profane ↔ enchantment/disenchantment; archaic techniques of ecstasy ↔
+wizard/initiation; the sacred as terrain castable for commons or fascism).
+Politics handling: "engage it head-on" (Jason's explicit call).
+
+**Fact-check (this session):** WebSearch + WebFetch of en.wikipedia.org/wiki/Mircea_Eliade
++ search summary (New World Encyclopedia, LA Review of Books). Verified: 1907–1986;
+Calcutta under Surendranath Dasgupta (Sanskrit/yoga, PhD 1933); École Pratique
+des Hautes Études Paris post-1945; U Chicago History of Religions chair 1964;
+editor of Macmillan's Encyclopedia of Religion; hierophany, sacred/profane,
+eternal return (illud tempus), shamanism = "archaic techniques of ecstasy" /
+initiatory death. POLITICS verified: pro-Iron Guard articles c.1937 (Sfarmă-Piatră,
+Buna Vestire), "Christian revolution aimed at creating a new Romania," enrolled in
+Totul pentru Țară; arrested 14 Jul 1938, refused declaration of dissociation,
+released 12 Nov 1938; wartime cultural attaché; 1942 book praising Salazar's Estado
+Novo; postwar silence; counter-facts also verified (1933 anti-Nazi-racism manifesto;
+1936 deplored expulsion of Jewish scholars; 1934 objected to Ionescu's antisemitic
+preface). Date-of-birth day disputed (Mar 9 vs 13) → used year only.
+
+- **/eliade profile** (src/pages/eliade.astro): Tier 1 analytical copy, sourced to
+  the fact-check above. 5 sections; §04 "The reckoning" engages the Iron Guard head-on;
+  §05 frames the sacred as terrain (spell ⇄ counter-spell). NOT river prose.
+- **G-IW-027c** (Becoming Wizards, wizard register): distillation of the profile.
+  Sources: Eliade scholarship (profile §01/03); G-OA-010 ("the container every old
+  initiation built… ours has forgotten how to hold"); G-14-020 (Plotkin, descent to
+  soul) → the Plotkin parallel, Jason-authorized; verified political facts (profile §04);
+  master principle (spell ⇄ counter-spell) + commons-as-multiply-entered.
+  RIVER TOUCH (flagged for Jason): inserted after G-IW-027b, +1 paragraph separator;
+  placement is his to move.
+- **G-DP-020** (dramatis personae): biographical reference distilled from the profile;
+  verified facts only; necromancy link to G-IW-027c. Appendix, not the canonical river.
+- Plotkin parallel ("bring back parallel to Plotkin"): woven in the profile §03 callout
+  and the G-IW-027c gesture — Eliade catalogued the initiatory container Plotkin
+  practices. Faithful to G-OA-010 / G-14-020; no new Plotkin claim invented.
+- Critique: fresh-context sub-agent (fact-fidelity + honest-politics + Gandalf register
+  + provenance) — pending in this session.

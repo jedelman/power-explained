@@ -10,7 +10,7 @@ prose ships (see CLAUDE.md fact-checking protocol).
 
 ---
 
-## Mircea Eliade — flagged 2026-06-18 (Jason)
+## Mircea Eliade — PLACED 2026-06-18 (profile + gesture + dramatis personae; staged on branch, pending Jason review)
 - **Directive:** "Mircea Eliade deserves a placement."
 - **Who (well-established):** Romanian historian of religions (1907–1986). Best
   known for work on the sacred and the profane, myth, and comparative religion.
