@@ -13,5 +13,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The others at the table thought about the idea too. They looked at it
+  their own way. So I could see it from sides I could not see alone.
+  Within a year, most of them had left the work. Within three years, all
+  of us had.
+plain_meta:
+  source: G-12-029
+  status: draft
 ---
 The others at the table held the thought and turned it in their own hands, and I could see it from angles I couldn't reach alone. Within a year, most of them were out of the industry. Within three years, all of us were.

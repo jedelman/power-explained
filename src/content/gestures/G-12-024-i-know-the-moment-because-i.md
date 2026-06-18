@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I know this moment because I was there in it.
+plain_meta:
+  source: G-12-024
+  status: draft
 ---
 I know the moment because I was in it.

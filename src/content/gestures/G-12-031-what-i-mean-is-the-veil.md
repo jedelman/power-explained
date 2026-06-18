@@ -20,6 +20,18 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-12-032 on
   2026-05-20]
+plain: >
+  When the veil lifts, you are not set free. You just see more than
+  before. Roy saw what the dam project's numbers were really doing. She
+  stood in the river anyway. The river kept rising. Freire's student
+  wrote his name. He saw that the deal had been made. The generals came
+  the next year. Seeing the thing does not stop the thing. It just means
+  you can no longer pretend.
+
+  But that is not the end of it.
+plain_meta:
+  source: G-12-031
+  status: draft
 ---
 The veil lifting is not a liberation. It is a change in what you can see. Roy saw the dam project's accounting for what it was and stood in the river anyway, and the river kept rising. Freire's student wrote his name and understood that the arrangement had been made, and the generals came the following year. The seeing doesn't stop the thing. It changes what you can no longer pretend.
 
