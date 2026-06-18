@@ -58,6 +58,65 @@ notes: |
   the gesture that earns the chapter its place in a LEFT book about the
   body: the split in depth psychology is political, and the wrong branch
   won.
+plain: >
+  You should know who this man was. It tells you why the name cost so much.
+  Reich was not a crank on the edge. For a while he was close to the
+  center. He was one of Freud's most gifted young doctors. He was the kind
+  of student a teacher watches and thinks *this one will carry it forward*.
+  Then they broke apart. Freud had broken with Jung before this. The break
+  was over something big, not a small detail.
+
+  Late in his life, Freud landed on the death drive. This is the idea that
+  a person is born with a pull toward their own ruin. It is a pull toward
+  death, there from birth. Some of it turns inward, as wanting to hurt
+  yourself. Some turns outward, as cruelty.
+
+  It is a very hopeless idea. It says the misery is *in* us from the start.
+  It is no one's fault. It cannot really be cured. You can only manage it.
+
+  Reich said no. In his book *Character Analysis* he said it plainly: there
+  is no death drive. What looks like a pull toward death is something else.
+  It is a *bad form of wanting to hurt yourself*. And it is learned, not
+  born. He showed it is made in a certain kind of childhood. It is the
+  strict, controlling family. There, love and praise come only if you
+  obey. The child learns that pain is the price of being held. So the child
+  starts to seek pain. The pain is where the love was.
+
+  So ruining yourself is not your nature. It is an injury you were trained
+  into, one body at a time. Families did it, to make the kind of obeying
+  the larger system needed. And what is trained can be untrained.
+
+  I will tell you plainly. I have found Reich right about this and Freud
+  wrong. I found it in my own body and in the bodies of people I have
+  worked with. The wish to die is never the first thing. When you get
+  under it, it is always sitting on top of a love that came with strings.
+
+  Notice what each idea allows. If the misery is a born death drive, then
+  nothing about it is political. You take medicine for it. You channel it.
+  You make peace with it. And the family, the factory, and the state are
+  all innocent. The rot was in the person all along. In those same years,
+  Freud was calling Mussolini a hero of culture.
+
+  But what if the misery is *made*? Made by love with strings, by strict
+  families, by a system that needs obedient bodies. Then it is not fate. It
+  is an injustice. And an injustice has an address.
+
+  This is the fork in the road for a whole century of this kind of
+  psychology. And the branch that won was the wrong one. One branch kept
+  Freud's hopelessness and quietly dropped the politics. That is the long
+  soft road from Jung, through "becoming your true self," into the
+  self-help aisle. It is the wellness that asks you to heal yourself and
+  never says who hurt you. That branch did well. Capital can sell it back
+  to you and lose nothing.
+
+  This is Reich's shadow. The comfortable, sellable, no-politics half of
+  the inheritance stands in the light. It stands there because the
+  dangerous half was burned. Reich kept the politics. That is why six tons
+  of his books went into a federal incinerator. And Jung is for sale at the
+  airport.
+plain_meta:
+  source: G-OA-003b
+  status: draft
 ---
 You should know who this man was, because it tells you why the name cost what it cost. Reich was not a crank at the edge of psychoanalysis. He was, for a while, close to its center — one of Freud's most gifted young clinicians, the kind of student a founder watches and thinks *this one will carry it forward*. And then they broke, the way Freud had broken with Jung before him, over something that was not a detail.
 

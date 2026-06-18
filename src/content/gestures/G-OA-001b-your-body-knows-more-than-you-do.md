@@ -34,6 +34,46 @@ notes: |
   the descent). Hands off to G-OA-002 (Reich), who is now introduced as
   the person who NAMED this thing the reader has just felt, not as the
   start of an argument the reader hasn't been set up for.
+plain: >
+  First, do one thing. Notice your jaw. It is most likely doing a small
+  job all the time. A low clench. You did not order it. You cannot turn it
+  off by yourself.
+
+  Now your shoulders. Notice where they really are. Not where you would
+  put them if asked. Where they have sat all day. They are probably near
+  your ears.
+
+  Now your breath. Notice you can take it deeper than you just were. That
+  means you were holding some back. There is a bottom of your breath you
+  have not been reaching.
+
+  You did not choose any of that. You did not choose the clench or the
+  held breath this morning. They were already going when you woke up. They
+  were going yesterday too. They have likely been going for years.
+
+  Your body knows more than you do. It has kept records you never asked
+  for. You never got to read them. It saved every room that was not safe.
+  It saved every love that came with strings. It saved every time you were
+  made small and learned to stay quiet. But it did not save these as
+  memories. It saved them as orders. A held jaw. A raised shoulder. A
+  breath that does not go all the way down.
+
+  You have carried these orders and called them *you*. But they were cut
+  into your body.
+
+  Earlier in this book we did a thing with names. We said the first move
+  against a power is to name it. A thing with a name is a thing you can
+  finally grab. This is the same move, turned inward. The held thing in
+  your jaw has a name.
+
+  Once it has a name, you can stop thinking it is your character. You can
+  start treating it as what it is. It is a plan your body made to survive
+  something. And a plan can be looked at. A plan can, in time, be set down.
+  But only once you stop calling it yourself. So let me give you the name.
+  And the man who paid for giving it to us.
+plain_meta:
+  source: G-OA-001b
+  status: draft
 ---
 So, before anything else, do one thing. Notice your jaw. Most likely it is doing a small constant work it never told you about — a low clench you did not order and will not, on your own, call off. Now your shoulders: notice where they actually are, not where you would put them if asked, but where they have been sitting all day, probably nearer your ears than you would like. Now the breath. Notice that you can take it deeper than you were taking it a second ago — which means you were holding some of it back, which means there is a bottom of the breath you have not been visiting. None of that was a decision. You did not choose the clench or the held breath this morning; they were already running when you woke, the way they were running yesterday, the way they have likely been running for years.
 

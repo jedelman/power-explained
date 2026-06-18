@@ -50,6 +50,71 @@ notes: |
   floor). Direction N. The hinge from "what Reich saw" to "what Reich
   did" — which makes the writer's own dearmoring (floor, woods) and the
   closing practice (OA-05) Reich's lineage rather than a non-sequitur.
+plain: >
+  Here is the part that makes Reich more than a diagnoser. It should matter
+  most to anyone who has been told to just relax. He did not only name the
+  armor. He put his hands on it.
+
+  He had grasped the one thing that makes the armor so hard to shift. You
+  cannot talk a held jaw into letting go. The jaw does not speak the
+  language that talking uses. Understanding does not reach it. Knowing your
+  childhood does not loosen your gut. You can know exactly why you hold and
+  go on holding for the rest of your life.
+
+  So Reich did something new. He had started as a talk analyst in Freud's
+  own circle. Now he began working straight on the body. This shocked that
+  circle as badly as his politics had. He called it vegetotherapy. The name
+  comes from the vegetative nervous system. That is the part you do not
+  control on purpose. That is the part he was trying to reach.
+
+  He mapped the armor as a set of rings around the body. There were about
+  seven of them. They stacked from the eyes down. The jaw. The throat. The
+  chest. The diaphragm. The belly. The pelvis. Each one is a band where the
+  holding gathers. He went after them with breath and sound and movement.
+  When he judged it right, he used his own hands.
+
+  I want to fix something before it forms in your mind. The word
+  *breathwork* now comes wrapped in candles and soft music. There was
+  nothing soft about what Reich did. The breathing was loud and hard. He
+  had people gag, kick, and make noise. He had them breathe all the way out
+  to the bottom. Then he pressed down on the belly to push it further.
+
+  It was not relaxing. It was the opposite. He set out to stir up
+  everything the body had spent years learning not to feel. He did this so
+  the held thing could finally move. Because that was the whole goal:
+  *movement*.
+
+  Under all of it, Reich believed one thing. Life is something that flows
+  through a body. The armor's real crime is not pain. It is blockage. It
+  dams the flow. He spoke of the unblocked body, the one that has let the
+  rings melt, in very glad terms, sexual ones among them. But the sex was
+  never really the point. People who giggle at Reich's "orgasm theory" have
+  missed him. The point was being alive. The full, awkward, uncontrolled
+  aliveness of a creature no longer holding itself back from its own life.
+  The orgasm was just the place that aliveness is hardest to deny.
+
+  You should know where this went. The line runs straight to the rest of
+  this chapter. Vegetotherapy is the root of almost every body-practice
+  that came after. The somatic therapies. Bioenergetics. The dance and
+  movement work. The whole tradition of reaching the held body through the
+  body, not the mind.
+
+  Later I will tell you about a community in the woods. They shook people's
+  armor loose through singing and moving and sitting still. I am describing
+  Reich's children. They may never have heard his name.
+
+  And one more thing he left. This line got him in more trouble than the
+  box ever did. *The family is the first cell of the fascist state.* Not a
+  metaphor. A factory. The strict family is where the obedient body is
+  made, before the state ever has to lift a hand. It is where the holding
+  is installed, ring by ring, in a person too small to refuse it.
+
+  Which means this. Every body that learns to unhold, in a fire circle or a
+  dojo or on its own floor, is quietly taking apart the smallest cell of
+  the thing this whole book is against.
+plain_meta:
+  source: G-OA-002c
+  status: draft
 ---
 And here is the part that makes Reich more than a diagnostician, the part that should matter most to anyone who has ever been told to just relax. He did not only name the armor. He put his hands on it. He had grasped the one thing that makes the armor so durable: you cannot talk a held jaw into letting go. The jaw does not speak the language the talking happens in. Insight does not reach it; understanding your childhood does not loosen your diaphragm; you can know exactly why you hold and go on holding for the rest of your life. So Reich, who began as a talk analyst in Freud's own circle, did the thing that scandalized that circle as badly as the politics had: he started working directly on the body. He called it vegetotherapy, after the vegetative — the autonomic, involuntary — nervous system he was trying to reach. He mapped the armor as a series of rings around the body, roughly seven of them, stacked from the eyes down through the jaw, the throat, the chest, the diaphragm, the belly, the pelvis — each a band where the holding gathers. And he went after them with breath and sound and movement and, when he judged it right, his own hands.
 

@@ -42,6 +42,19 @@ notes: |
   beat only — the witness barely drifted here; the vine carries
   coordination-and-subjection-through-the-same-door, and "what comes
   back" seats the who-keeps-the-coordination question.
+plain: >
+  I need to clear up one mix-up. Here is the easy thing to ask about all I just said. If the un-armored body is the goal, what about discipline? Does the soft, open, feeling body just get run over by the hard one?
+
+  Reich's answer, and my own life's answer, is this. Armor and discipline are opposites, not cousins. Armor is obeying that has frozen so deep into the body that it forgot it was ever forced on you. Discipline is the reverse. It is a skill you choose and build into the body over years. You can pick it up and put it down. It makes you more able to feel, not less. It lets you take a hit without breaking. It lets you stay present where an armored body would freeze or blow up. The armored body is stiff because it is scared. The disciplined body is loose because it is ready. From outside they can look the same. From inside they are not even close.
+
+  Foucault saw the part of this that should scare you. He was right to. Discipline does not weaken the body. It makes it stronger by putting it in order. A drill turns a crowd of men into a unit that can do what no crowd can. The trained soldier, the trained worker, the trained student: each can do more than the untrained body. And in the very same move, each obeys more. Order and being controlled come together, through the same door. That is why schools and army camps and factories all look alike.
+
+  The grapevine knows this door. Training makes the vine able to do more. The frame holds it higher than it could climb alone. The cutting back packs all it has into fruit. But the same hand that trains it is the hand that picks it. The vine cannot say no to the deal. What decides if this is care or theft is one thing: what comes back. Growers who want a vine to live longer than they will give enough back. They give water, rest, and light years on purpose. The vine outlives them. The ones who do not get ten years of heavy fruit and then a dead field.
+
+  So I will not pretend discipline is innocent. The disciplined body Foucault wrote about belongs to the place that trained it. The only question that matters here is this: who keeps the order? A discipline you cannot put down is just armor with better posture. A discipline that is yours, that you took back from the drill and carry on your own, is the rarest thing the system makes. It is the hardest for it to use. A body that was put in order and then kept itself is a body that has learned it can be strong without being owned.
+plain_meta:
+  source: G-OA-008
+  status: draft
 ---
 There is a confusion I need to clear, because the obvious objection to everything I have just said is this: if the un-armored body is the goal, what about discipline? Does the soft, open, feeling body not get run over by the hard one? And the answer Reich gives, the answer my own life gives, is that armor and discipline are opposites, not cousins. Armor is compliance that has frozen so deep into the tissue that it forgot it was ever imposed. Discipline is the exact reverse: a capacity *chosen* and built into the body over years, that you can pick up and put down, that makes you more able to feel rather than less, more able to take a hit without shattering, more able to be present in a moment that would send an armored body into either freeze or explosion. The armored body is rigid because it is afraid. The disciplined body is relaxed because it is ready. From the outside they can look similar. From the inside they are not even the same species.
 

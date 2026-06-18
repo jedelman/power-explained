@@ -52,6 +52,55 @@ notes: |
   011b). NOT a how-to — a description of what the practice IS and what
   mastery of it looks like, which lands harder than instruction. The
   receptive method that completes Reich's active one.
+plain: >
+  So here is the practice. It is not a regimen. The floor taught me to
+  distrust anyone who hands a fallen person a regimen. It is not a device
+  either. You cannot buy it, seal it, or sit inside it. It is not the box. It
+  is older and plainer than that. I taught it for years, before I had a word
+  of the politics in this book. Back then the only tradition I worked from was
+  the one that sits down and pays attention.
+
+  Buddhist meditation is not analysis. It is not diagnosis. Not in the way we
+  usually mean those words. It is, to borrow a phrase from Castaneda with some
+  irony, the mastery of attention. And I mean mastery the way Liszt mastered
+  the piano, Beethoven the symphony, Miles the trumpet, Rembrandt the face.
+  Not mastery as power over a thing. The ease you earn by coming back to the
+  thing ten thousand times, until it moves through you without a fight. The
+  Buddha described the mastery of attention and what it does. He showed it.
+  Through his teaching, through his talk, and most of all through what
+  happened to his students. The awareness of an awakened being is called the
+  Lion's Roar. A presence that pulls everyone near it into wide-open, alert
+  attention, without using the thinking mind at all.
+
+  That is what I studied and what I taught. And I will be honest about my own
+  reach. My Lion's Roar was barely the cat's meow. But I like to think the
+  sitting did more than keep my students from falling asleep. Drawing on my
+  yoga teacher training, I would mostly just listen to the silence in the
+  room. I would shift the shared awareness with a single cue when one was
+  needed. In our best sessions I said nothing and did less. The saying I keep
+  is to be like a broken bell. One that does not hold the energy of the
+  strike but lets it out as fast as it comes. The image goes deeper than it
+  first seems. A broken bell does not only fail to ring. It takes in sound
+  from the room around it. In the same way, the awareness of every great
+  teacher I have sat with takes in the citta vritti. That is the messy
+  back-and-forth of the mind and body. The same static this book named in its
+  first part and has tracked ever since. The thing Reich called armor and the
+  yogis called the unstilled mind. The teacher's open attention takes it in
+  and lets it pass. And yours, sitting near, learns to do the same.
+
+  The last image for the work is the gaze of Shiva. True seeing is the deep
+  awareness of how each thing is held in being by its conditions. It breaks a
+  held form by showing it is not fixed, and by showing the conditions that
+  hold it. The form may come back the instant the gaze moves on. That coming
+  back is the physical explanation of karma. But the seeing, kept up, open and
+  whole, frees it in layers. And none of this is magic. It is only that
+  awareness of the rising and passing of all things, starting with something
+  as small as your own breath, turns out to build on itself. A cascade that
+  grows. Even in a fifteen-minute lunch-break sit, in an empty meeting room in
+  Bellevue, under fluorescent light, with your shoes still on.
+plain_meta:
+  source: G-OA-011
+  status: draft
 ---
 So here is the practice, and it is not a regimen, because the floor taught me to distrust anyone who hands a collapsed person a regimen, and it is not a device either — it cannot be bought, sealed, or sat inside; it is not the box. It is older and plainer than any of that. I taught it for years, before I had a word of the politics in this book, back when the only tradition I worked out of was the one that sits down and pays attention.
 

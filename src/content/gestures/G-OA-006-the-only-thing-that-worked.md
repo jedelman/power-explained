@@ -31,5 +31,16 @@ notes: |
   arrived. "The holding started before I got there." This reframes the
   woods as already-communal pre-arrival. OA-02 proper (the day-3
   texture once there) is still {{NEED}} in G-OA-007.
+plain: >
+  Here is the part I did not get until much later. The thing that got me up off the floor was not a thing I did. It was not a plan. It was not a big idea. It was not me trying harder. I had tried all of those. The floor soaked them up with no change.
+
+  What got me up was sending in a form, from the floor, in the state I just described. I applied to a wilderness program. I would go be outside, in the woods, with other people. Years before, I had told myself I would do this in my forties. Now my mind and my career were broken. It was one of the few things left that still made sense.
+
+  And here is the part that matters most. I did not see it then. I see it now. I got up and went because people were hoping for me. Somewhere ahead of me, in a place I had not reached yet, a group was already holding a space with my name on it. The holding started before I got there.
+
+  That is the whole secret. I will spend the rest of this chapter trying, and failing, to say it plain enough. I was accepted. I went. I want to be exact about what changed. If I am vague here, I will fail the one reader this chapter is for.
+plain_meta:
+  source: G-OA-006
+  status: draft
 ---
 Here is the part I did not understand until much later. The thing that got me up off the floor was not a thing I did, exactly. It was not a regimen, or a realization, or a decision to try harder, all of which I had attempted and all of which the floor had absorbed without effect. What got me up was applying — from the floor, in the state I have just described — to a wilderness program. To go be outside, in the woods, with other people. It was a thing I had told myself, years earlier, that I would do in my forties, and now I was going into my Saturn return with a broken mind and a broken career and it was one of the only things left that still made any sense. And then there is the part that matters most, which I did not see at the time and can only see now: I got up and went because people were hoping for me. Because somewhere ahead of me, in a place I had not arrived at yet, a group of people were already holding a space with my name on it. The holding started before I got there. That is the whole secret and I will spend the rest of this chapter failing to say it plainly enough. I was accepted. I went. And I want to be precise about what changed, because if I am vague here I will have failed the one reader this chapter is actually for.

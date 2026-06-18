@@ -27,5 +27,10 @@ notes: |
   Chest = the body part active when held in community (resonance moves
   through the chest; being held involves the chest). Opens the question:
   what holds the chest upright when the woods end? Discipline section answers.
+plain: >
+  The chest has been held. Now the question is this. What holds it up when the woods end?
+plain_meta:
+  source: G-OA-007c
+  status: draft
 ---
 The chest has been held. The question now is what holds it when the woods end.

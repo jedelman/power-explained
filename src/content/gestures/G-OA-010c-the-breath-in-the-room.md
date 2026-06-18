@@ -31,5 +31,11 @@ notes: |
   collapse. Do NOT add argument or conclusion — the observation rests.
   Section break AFTER this gesture (before G-OA-011) honors the naturalist's
   "let be" before the practice argument begins.
+plain: >
+  Feel the breath in the room. Hear the silence before anyone speaks. Let the
+  body find the floor.
+plain_meta:
+  source: G-OA-010c
+  status: draft
 ---
 Feel the breath in the room. Hear the silence before anyone speaks. Let the body find the floor.

@@ -36,6 +36,31 @@ notes: |
   Sits after G-OA-008 (discipline/Foucault). Direction S (built things,
   the disciplined body). The arrival of the tradition; the wound it
   answered. Hands to G-OA-008c (kokoro — the resolution).
+plain: >
+  I can talk about this because I have a tradition. It kept me alive before
+  I knew any politics to explain why. It is Kyokushin. That is a kind of
+  karate. Its name is often said to mean "ultimate truth." That sounds too
+  big until you see what it means. It is a reminder, not a brag. It does not
+  say it has found the truth. It tells the student what to look for.
+
+  I trained in it for ten years as a kid. It still teaches me now. My Sensei
+  still teaches me through flashbacks, thirty years later. That sounds like a
+  line from a kung fu movie. Then it happens to you in a parking lot, or on
+  the floor when you fall apart.
+
+  I came to it the way many people come to fighting. I needed to. I was a
+  mixed-race, too-femme boy. I got shoved into lockers and under bus seats. I
+  saw early that people treated me different than other kids when I fought
+  back. There were rules no one had told me. I did not care about the rules.
+  I cared about not being prey.
+
+  My father had trained for years in the seventies, with a real samurai. He
+  knew something more people should know. He was the wrong person to teach
+  his own son. So he checked the schools near us. He found the right one a
+  few towns away. He handed me to it.
+plain_meta:
+  source: G-OA-008b
+  status: draft
 ---
 I can speak to this because I have a tradition, and it kept me alive before I had any politics to explain why. It is Kyokushin — a karate whose name is usually translated *ultimate truth*, which sounds grandiose until you understand that it is a reminder and not a self-description. It does not claim to have found the truth. It instructs the student what to seek. I trained in it for ten years as a kid and I am still being taught by it; my Sensei still teaches me through flashbacks thirty years later, which sounds like a line from a kung fu movie until it happens to you in a parking lot or on the floor of your own collapse.
 
