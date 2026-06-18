@@ -20,6 +20,20 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-09-020 on
   2026-05-20]
+plain: >
+  The commons is not just another way to run the economy. It is a hegemonic
+  project.
+
+
+  It is the slow, patient work of building groups that live by different
+  beliefs. They practice a different common sense. In time it becomes the ground
+  the next generation stands on. It is not a plan. It is not a platform. It is a
+  practice. You do it over and over. In time it settles into what feels natural.
+  It settles into what a sensible person takes for granted. It settles into what
+  the next generation grows up thinking is just the way things are.
+plain_meta:
+  source: G-09-019
+  status: draft
 ---
 The commons isn't just an economic alternative. It's a hegemonic project.
 

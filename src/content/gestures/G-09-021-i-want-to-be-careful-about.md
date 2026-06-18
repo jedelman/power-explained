@@ -13,5 +13,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I do not want to use the word *failed*. The long, slow fight does not end
+  when you lose one spot. It keeps going in the next way you can find.
+plain_meta:
+  source: G-09-021
+  status: draft
 ---
 I want to be careful about the word *failed*. The war of position doesn't end when a specific position is lost. It continues in the next form available.
