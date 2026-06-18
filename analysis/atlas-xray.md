@@ -6,10 +6,10 @@
 
 ## Coverage
 
-- River gestures: **943**
-- On at least one thread: **179** (19.0%)
-- Orphans (on zero threads): **764**
-- Threads: **20**
+- River gestures: **947**
+- On at least one thread: **184** (19.4%)
+- Orphans (on zero threads): **763**
+- Threads: **21**
 - Multi-thread nodes (on ≥2): **20+**
 
 ## The load-bearing spine (super-nodes)
@@ -45,16 +45,16 @@ whose connection Jason has *already made* (the tag). Top 30:
 
 | tag | gestures | unthreaded |
 | --- | ---: | ---: |
-| `concept/enclosure` | 69 | 43 |
+| `concept/enclosure` | 72 | 43 |
 | `motif/knowing-in-the-body` | 66 | 47 |
 | `motif/cannot-verify-from-inside` | 42 | 26 |
 | `image/the-restaurant` | 40 | 21 |
 | `image/the-machine` | 36 | 27 |
-| `motif/proof-before-theory` | 33 | 19 |
+| `motif/the-lineage` | 34 | 15 |
+| `motif/proof-before-theory` | 33 | 18 |
+| `concept/the-outside` | 31 | 14 |
 | `motif/return-migration` | 30 | 23 |
-| `motif/the-lineage` | 30 | 15 |
 | `motif/flowering` | 30 | 20 |
-| `concept/the-outside` | 30 | 14 |
 | `image/songbirds` | 28 | 25 |
 | `place/norfolk-va` | 27 | 11 |
 | `concept/attention` | 27 | 24 |
@@ -85,11 +85,11 @@ whose connection Jason has *already made* (the tag). Top 30:
 | Chapter 1: Some Days It Costs Too Much | 37 | 13 | 35% |
 | Chapter 2: Two Cities | 40 | 3 | 8% |
 | Chapter 3: The Cook | 35 | 4 | 11% |
-| Becoming Wizards in the Woods | 28 | 3 | 11% |
-| Chapter 4: Nobody Asked Him To | 28 | 2 | 7% |
+| Becoming Wizards in the Woods | 29 | 4 | 14% |
+| Chapter 4: Nobody Asked Him To | 28 | 3 | 11% |
 | The Speaking of Names | 58 | 13 | 22% |
 | Chapter 5: The Smile | 28 | 6 | 21% |
-| Chapter 6: The Colony | 67 | 14 | 21% |
+| Chapter 6: The Colony | 68 | 15 | 22% |
 | Chapter 8: No Name for It | 22 | 7 | 32% |
 | The Orgone Accumulator | 24 | 3 | 13% |
 | Chapter 9: He Built It Anyway | 28 | 4 | 14% |
@@ -98,8 +98,8 @@ whose connection Jason has *already made* (the tag). Top 30:
 | Chapter 12: This Was Made | 28 | 7 | 25% |
 | Chapter 13: We're Canceling It | 31 | 8 | 26% |
 | The Angel Faces Backward | 70 | 4 | 6% |
-| Chapter 14: I Became the Land | 32 | 12 | 38% |
-| Chapter 15: Still Meeting | 22 | 6 | 27% |
+| Chapter 14: I Became the Land | 33 | 13 | 39% |
+| Chapter 15: Still Meeting | 23 | 7 | 30% |
 | Re-Enchanting the World | 34 | 4 | 12% |
 | Chapter 16: Even That Part | 51 | 9 | 18% |
 | Chapter 16, Part 2: The Hollow Book | 51 | 8 | 16% |

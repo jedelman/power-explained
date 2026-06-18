@@ -1249,3 +1249,27 @@ verified facts; no invented quotes):**
 
 ### Eliade↔Ginzburg pairing — RESOLVED (Jason, 2026-06-18): "put it in!"
 Restored to /ginzburg: the §03 callout (Ginzburg as the living instance of what Eliade catalogued) and the §05 two-faced/lineage close. Now Jason-endorsed.
+
+---
+
+## the-sacred-and-its-keepers  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Jason directive ("can you make a path/thread with all these?"). Gathers the four
+shamanism placements into one walk. Connections all Jason-endorsed (the placements
++ this thread request).
+- Path = ordering of existing gestures: G-IW-027c (Eliade) → G-15-008a (Ginzburg)
+  → G-07-019a (Taussig) → G-14-029a (Kopenawa). Arc: frame + warning → historical/
+  Inquisition enclosure → colonial enclosure + the turn-back → the living
+  practitioner who speaks for himself (crests on agency, not grief).
+- Composed (Tier 1): the invocation only — "The sacred is a terrain, and it can be
+  cast either way…" Sources: G-IW-027c (the sacred is a terrain / cast for fascism /
+  disenchanted world the strange one), G-15-008a (living core; renamed and overwrote),
+  G-07-019a (the wild man manufactured, turned back, a power to heal), G-14-029a
+  (his own words), + master principle (whose hand casts it).
+- Critique (fresh-context, 2026-06-18): REVISE → applied. MANDATORY fix: "renamed
+  and burned" → "renamed and overwrote" (the benandanti were not burned; not in the
+  gesture). Softened "needs no scholar" → "is no one's subject… in his own words"
+  (don't erase Bruce Albert's co-authorship; land on refusal-of-appropriation).
+  Matched the Eliade clause to its gesture ("disenchanted world was the strange one").
+  Ordering judged optimal. KEEP otherwise.
+- Status: staged at /book/path/the-sacred-and-its-keepers. Not in nav, not in the river.
