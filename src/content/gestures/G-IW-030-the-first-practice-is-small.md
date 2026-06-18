@@ -20,5 +20,16 @@ notes: |
   Beat 4's grimoire invitation made specific: this list IS the first page
   of your grimoire. Two capacities only: READ (the body registers the
   room) and NAME (try to name it, privately, silently).
+plain: >
+  The first practice is small. Once today, when you walk into a room — at
+  work, a store, a train car — let your body take in the room before your
+  mind decides what to do. Notice what you already knew before any words
+  touched it. Try to name it, just to yourself, with no sound. That is what
+  this is. That naming is the wizard, starting out. Start a private list.
+  That list is the first page of your book of skills. You are making the
+  wizard you will become.
+plain_meta:
+  source: G-IW-030
+  status: draft
 ---
 The first practice is small. Once today, when you walk into a room — workplace, store, train car — let your body register the room before your mind decides what to do. Notice what you already knew before words touched it. Try to name it, privately, silently, just for yourself. *That is what this is.* That naming is the wizard, beginning. Begin a private list. That list is the first page of your spellbook. You are crafting the wizard you will be.

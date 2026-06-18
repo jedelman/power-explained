@@ -19,5 +19,16 @@ notes: |
   every spell has both directions, the same spell cast for commons or
   enclosure. After Hardt and Negri on the corruption of the common — there
   is no unambiguous tool. The wizard's discipline is in the casting.
+plain: >
+  Magic has kinds. The book will name them as you meet them.
+  Gathering and casting out. Hiding and revealing. Breaking the
+  code. The dead acting and the not-yet-born acting. Mastery felt
+  and mastery measured. Each kind goes both ways. Every spell can be
+  cast for the shared world or for fencing it off. The same spell,
+  two ways to cast it. There is never a tool that goes only one way.
+  The wizard's skill is in how it is cast.
+plain_meta:
+  source: G-IW-024a
+  status: draft
 ---
 Magic has kinds. The book will name them as you meet them — gathering and casting-out, hiding and revealing, rupturing the code, the dead acting and the not-yet-born acting, mastery felt and mastery measured. Each kind has both directions. Every spell can be cast for the commons or for enclosure — the same spell, two castings. There is never an unambiguous tool. The wizard's discipline is in the casting.

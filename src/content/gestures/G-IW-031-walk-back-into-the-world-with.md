@@ -17,5 +17,13 @@ notes: |
   (mountain town in northern Spain) plants enough anticipation without
   pre-empting Ch4's opening. "Walk back into the world with the names"
   carries the lexicon forward as the reader's working vocabulary.
+plain: >
+  Walk back into the world with the names. The next chapter shows what the
+  commons looks like when the work has had time to set, and to hold weight,
+  and to be passed down. Eighty years of it, in a mountain town in northern
+  Spain.
+plain_meta:
+  source: G-IW-031
+  status: draft
 ---
 Walk back into the world with the names. The next chapter is what the commons looks like when the work has had time to set, and to bear weight, and to be inherited. Eighty years' worth, in a mountain town in northern Spain.

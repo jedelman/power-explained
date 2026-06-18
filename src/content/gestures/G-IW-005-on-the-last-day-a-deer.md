@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  On the last day, a deer walked through camp.
+plain_meta:
+  source: G-IW-005
+  status: draft
 ---
 On the last day, a deer walked through camp.
