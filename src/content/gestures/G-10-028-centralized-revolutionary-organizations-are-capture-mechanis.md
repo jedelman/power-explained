@@ -19,6 +19,18 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-10-029 on
   2026-05-20]
+plain: >
+  Revolutionary groups that put all power in the center end up trapping that
+  power.
+
+  This is not about leaders being bad people. It is about shape. The shape of a
+  movement decides the shape of what the movement builds. A movement run by a
+  small ruling group builds a state that looks like a small ruling group. A
+  movement run by spread-out self-rule builds things that run on spread-out
+  self-rule.
+plain_meta:
+  source: G-10-028
+  status: draft
 ---
 Centralized revolutionary organizations are capture mechanisms.
 
