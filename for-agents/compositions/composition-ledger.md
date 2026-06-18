@@ -849,3 +849,96 @@ Source: Jason directive (PR #10 review, his analytical position as author). Crit
 (fresh-context): SHIP WITH REVISION → applied (intention-framing without a market-capability
 leak; "built"→"sustained" airtight vs G-10-024 Catalonia; cut a lecture tail; split an
 overpacked sentence). Build clean (141 pp).
+
+---
+
+## the-enclosure-thread  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Tapestry / thread-swarm initiative. The book's master spine: enclosure, the
+most-tagged concept (69 river gestures, 60 of them previously orphaned).
+- Path = ordering of existing gestures, no new prose:
+  G-PR-015 → G-15-011 → G-15-028 → G-13-013 → G-14-029 → G-08-007 → G-CC-002 →
+  G-CC-003 → G-05-011 → G-GC-026 → G-RE-004
+  (name → common land + care → the turn → land today → space/law → the web given
+  away + the demon fed → the frontier never ends → enclosed because it worked →
+  the enclosure of knowing).
+- Composed (Tier 1): the invocation only —
+  "Enclosure is not the theft of a thing. It is the capture of the way to it —
+  the gate set in the doorway where the way once ran open. Watch it travel:
+  common land, then care, then debt, then the web that was given away. Every
+  outside it swallows makes it need another, and the commons is only ever the
+  next outside — enclosed not because it failed but because it worked. Name the
+  gate and you can see it move. The wall is also the thing that comes down."
+- Sources:
+  - "not the theft of a thing … capture of the way to it" ← G-OV-002 (verbatim)
+    + G-CC-003 ("not the theft of a thing, but the capture of everything freely
+    given").
+  - "the gate set in the doorway where the way once ran open" ← G-OV-002 ("it
+    stood in the doorway, until what people once reached … could be reached only
+    through a price") + G-CC-002 ("Then the gate moved").
+  - "common land, then care, then debt, then the web that was given away" ←
+    members G-15-011, G-15-028, G-05-011 (lists "debt"), G-CC-002.
+  - "Every outside it swallows makes it need another" ← G-05-011 ("Every outside
+    absorbed creates the need for the next one").
+  - "the commons is only ever the next outside — enclosed not because it failed
+    but because it worked" ← G-GC-026 (verbatim-faithful).
+  - "Name the gate and you can see it move" ← G-OV-004 ("Name a thing truly and
+    you can see it coming").
+  - "The wall is also the thing that comes down" ← master principle (spell →
+    counter-spell).
+- Critique (fresh-context sub-agent, 2026-06-18): REVISE → applied. Cut the
+  invented couplet "the toll set where there was a path" (thinnest provenance,
+  most decorative cadence) down to the single sourced doorway image. Softened the
+  audible-We close ("the thing we learn to take down" → "the thing that comes
+  down") to hold the pronoun contract — an enclosure invocation is the wound, not
+  yet the reckoning. **Open call for Jason:** restore the audible "we" at the
+  close if you want the counter-spell turn explicit here (the master principle
+  licenses it; the pronoun-timing is your call).
+- Status: staged at /book/path/the-enclosure-thread. Not in nav, not in the river.
+
+---
+
+## knowing-in-the-body  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Tapestry / thread-swarm initiative. The somatic spine (motif/knowing-in-the-body,
+66 river gestures). Crosses the Night Herons thread at G-12-016 (a true node).
+- Path = ordering of existing gestures, no new prose:
+  G-PR-026 → G-01-009 → G-IW-023a → G-GC-021 → G-GC-029 → G-GC-031 → G-OA-008c →
+  G-12-016
+  (the felt sense → the body reads the built world → inscription named → Fanon's
+  nervous system → the naming must touch the body → reach for the feeling first →
+  kokoro, what the analysis cannot reach → the herons know it too).
+- Composed (Tier 1): the invocation only —
+  "Before the mind has words, the body has the news — a tension in the gut, the
+  shoulders, the held breath. The same spell that is cast on the mind is cut into
+  the flesh: the gait, the gaze, the shallow breath. We call this inscription,
+  and the name is useless until it touches the body. So reach for the feeling
+  first. There is a knowing the clipboard cannot reach — what kept you on the
+  earth when the technique ran out — and it is not ours alone: the herons hold it
+  too. The flesh can be taught again."
+- Sources:
+  - "the body has the news — a tension in the gut, the shoulders … before the
+    mind has words" ← G-PR-026 ("the tension in the gut or the shoulders before
+    any thought arrives … felt this in your body before you had words for it").
+  - "The same spell that is cast on the mind is cut into the flesh: the gait, the
+    gaze, the shallow breath" ← G-IW-023a ("The same spell that lays itself on the
+    mind lays itself on the body … eyes forward, breath shallow") + lexicon-map
+    ("the gait, the gaze, the ambient knowing"). ("cut into" = inscription, the
+    concept's own sense of marking the body.)
+  - "We call this inscription" ← G-IW-023a ("We call that inscription") — pronoun
+    matched to source on critique.
+  - "the name is useless until it touches the body" ← G-GC-029 (verbatim-faithful).
+  - "reach for the feeling first" ← G-GC-031 (verbatim).
+  - "a knowing the clipboard cannot reach — what kept you on the earth when the
+    technique ran out" ← G-OA-008c ("the thing Foucault's analysis cannot reach …
+    spirit was the only thing that kept me on the earth") + G-GC-008 ("The
+    clipboard and the whip" = Foucault's biopower).
+  - "it is not ours alone: the herons hold it too" ← G-12-016 ("The herons know …
+    in the way that matters … knowledge that no traffic study produced").
+  - "The flesh can be taught again" ← G-IW-023a (verbatim).
+- Critique (fresh-context sub-agent, 2026-06-18): KEEP. All eight clauses verified
+  against sources; register and pronoun choreography judged exemplary (isolating
+  You at the lonely beat; audible "ours" as the healing turn). Applied the one
+  optional polish: "They call this inscription" → "We call this inscription" to
+  match G-IW-023a verbatim and remove the only pronoun ambiguity.
+- Status: staged at /book/path/knowing-in-the-body. Not in nav, not in the river.

@@ -7,10 +7,10 @@
 ## Coverage
 
 - River gestures: **943**
-- On at least one thread: **100** (10.6%)
-- Orphans (on zero threads): **843**
-- Threads: **11**
-- Multi-thread nodes (on ≥2): **8**
+- On at least one thread: **116** (12.3%)
+- Orphans (on zero threads): **827**
+- Threads: **13**
+- Multi-thread nodes (on ≥2): **11**
 
 ## The load-bearing spine (super-nodes)
 
@@ -19,6 +19,9 @@ Gestures where the most threads already cross — the book's structural pivots.
 - **G-02-013** (3) — Historian Forrest White has documented what · _Atlantic City, The Captured Commons, Illusion_
 - **G-02-014** (2) — In 1957, the city council approved · _Atlantic City, The Captured Commons_
 - **G-01-036** (2) — You have to be moving slowly · _The Night Herons, The Second Initiation_
+- **G-GC-031** (2) — Do not reach for the explanation · _Knowing in the Body, The Second Initiation_
+- **G-OA-008c** (2) — Kokoro · _Knowing in the Body, The Shrug_
+- **G-12-016** (2) — The herons know about the road · _Knowing in the Body, The Night Herons_
 - **G-13-010** (2) — When commodity money becomes dominant, it · _The Captured Commons, The Pact_
 - **G-13-011** (2) — Credit in its original form is · _The Captured Commons, The Pact_
 - **G-14-034** (2) — The institutions built on the displaced · _Atlantic City, The Captured Commons_
@@ -33,35 +36,35 @@ whose connection Jason has *already made* (the tag). Top 30:
 
 | tag | gestures | unthreaded |
 | --- | ---: | ---: |
-| `concept/enclosure` | 69 | 60 |
-| `motif/knowing-in-the-body` | 66 | 53 |
-| `motif/cannot-verify-from-inside` | 42 | 36 |
-| `image/the-restaurant` | 40 | 34 |
-| `image/the-machine` | 36 | 35 |
+| `concept/enclosure` | 69 | 49 |
+| `motif/knowing-in-the-body` | 66 | 48 |
+| `motif/cannot-verify-from-inside` | 42 | 35 |
+| `image/the-restaurant` | 40 | 33 |
+| `image/the-machine` | 36 | 33 |
 | `motif/proof-before-theory` | 33 | 32 |
 | `motif/return-migration` | 30 | 25 |
 | `motif/the-lineage` | 30 | 26 |
 | `motif/flowering` | 30 | 20 |
-| `concept/the-outside` | 30 | 26 |
+| `concept/the-outside` | 30 | 25 |
 | `image/songbirds` | 28 | 27 |
-| `place/norfolk-va` | 27 | 22 |
-| `concept/attention` | 27 | 25 |
+| `place/norfolk-va` | 27 | 20 |
+| `concept/attention` | 27 | 24 |
 | `image/the-armor` | 24 | 23 |
 | `concept/cooperative` | 24 | 21 |
 | `person/gramsci` | 23 | 23 |
 | `image/the-thread` | 23 | 23 |
 | `concept/the-wizard` | 23 | 23 |
-| `image/the-highway` | 22 | 16 |
+| `image/the-highway` | 22 | 13 |
 | `motif/demolished-from-outside` | 22 | 18 |
-| `concept/debt` | 22 | 20 |
-| `image/the-screen` | 21 | 20 |
+| `concept/debt` | 22 | 19 |
+| `image/the-screen` | 21 | 19 |
 | `motif/self-governance-in-public` | 20 | 17 |
 | `concept/aura` | 20 | 20 |
 | `image/the-circle` | 19 | 18 |
 | `image/the-angel` | 19 | 19 |
 | `concept/the-shard` | 19 | 18 |
 | `motif/body-without-organs` | 19 | 19 |
-| `concept/hegemony` | 18 | 17 |
+| `concept/hegemony` | 18 | 15 |
 | `concept/simulation` | 18 | 18 |
 
 ## Per-chapter thread density
@@ -69,26 +72,26 @@ whose connection Jason has *already made* (the tag). Top 30:
 | chapter | gestures | threaded | % |
 | --- | ---: | ---: | ---: |
 | How to Become a Wizard and Save the World | 5 | 2 | 40% |
-| Prologue: Look Up | 30 | 4 | 13% |
-| Chapter 1: Some Days It Costs Too Much | 37 | 8 | 22% |
+| Prologue: Look Up | 30 | 6 | 20% |
+| Chapter 1: Some Days It Costs Too Much | 37 | 9 | 24% |
 | Chapter 2: Two Cities | 40 | 3 | 8% |
 | Chapter 3: The Cook | 35 | 1 | 3% |
-| Becoming Wizards in the Woods | 28 | 2 | 7% |
+| Becoming Wizards in the Woods | 28 | 3 | 11% |
 | Chapter 4: Nobody Asked Him To | 28 | 0 | 0% |
-| The Speaking of Names | 58 | 4 | 7% |
-| Chapter 5: The Smile | 28 | 0 | 0% |
+| The Speaking of Names | 58 | 9 | 16% |
+| Chapter 5: The Smile | 28 | 1 | 4% |
 | Chapter 6: The Colony | 67 | 10 | 15% |
-| Chapter 8: No Name for It | 22 | 2 | 9% |
+| Chapter 8: No Name for It | 22 | 3 | 14% |
 | The Orgone Accumulator | 24 | 3 | 13% |
 | Chapter 9: He Built It Anyway | 28 | 0 | 0% |
 | Chapter 10: The Birds She Fed Through the Bars | 32 | 0 | 0% |
 | Chapter 11: The Circle in the Blizzard | 25 | 3 | 12% |
 | Chapter 12: This Was Made | 28 | 5 | 18% |
-| Chapter 13: We're Canceling It | 31 | 5 | 16% |
+| Chapter 13: We're Canceling It | 31 | 6 | 19% |
 | The Angel Faces Backward | 70 | 1 | 1% |
-| Chapter 14: I Became the Land | 32 | 11 | 34% |
-| Chapter 15: Still Meeting | 22 | 4 | 18% |
-| Re-Enchanting the World | 34 | 3 | 9% |
+| Chapter 14: I Became the Land | 32 | 12 | 38% |
+| Chapter 15: Still Meeting | 22 | 6 | 27% |
+| Re-Enchanting the World | 34 | 4 | 12% |
 | Chapter 16: Even That Part | 51 | 7 | 14% |
 | Chapter 16, Part 2: The Hollow Book | 51 | 5 | 10% |
 | Chapter 17: The Owl at the Edge of the Circle | 41 | 4 | 10% |
