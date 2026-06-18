@@ -1,0 +1,124 @@
+---
+import Base from '../../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { composePlainUnits } from '../../../lib/composePlainBody.mjs'
+
+// Plain edition index — the gateway to the parallel river. Lists every chapter
+// in canonical river order with its plain-translation coverage, so the
+// 5th-grade-reading-level edition is fully navigable. Staged / experimental;
+// linked from /book ("Read it plain"). The river itself is never touched.
+
+const BOOK = resolve('src/content/book')
+const RIVER = resolve('src/content/manifests/the-river.manifest.yml')
+
+const river = yaml.load(fs.readFileSync(RIVER, 'utf8')) || {}
+const order = river.sources || river.chapters || []
+
+const chapterMeta = slug => {
+  const text = fs.readFileSync(`${BOOK}/${slug}.md`, 'utf8')
+  const end = text.indexOf('\n---\n', 4)
+  return yaml.load(text.slice(4, end)) || {}
+}
+
+const rows = order
+  .filter(slug => fs.existsSync(`${BOOK}/${slug}.md`))
+  .map(slug => {
+    const fm = chapterMeta(slug)
+    const { coverage } = composePlainUnits(`${BOOK}/${slug}.md`)
+    return {
+      slug,
+      title: fm.title || slug,
+      label: fm.label || '',
+      total: coverage.total,
+      translated: coverage.translated,
+      pct: coverage.total ? Math.round((100 * coverage.translated) / coverage.total) : 0,
+    }
+  })
+
+const totGest = rows.reduce((n, r) => n + r.total, 0)
+const totTrans = rows.reduce((n, r) => n + r.translated, 0)
+const totPct = totGest ? Math.round((100 * totTrans) / totGest) : 0
+---
+<Base
+  title="Plain edition — Power Explained"
+  description="The whole book in the simplest words it can be told in: a 5th-grade-reading-level translation of the river, chapter by chapter."
+>
+  <div class="article-wrap">
+    <p class="book-nav">
+      <a href="/book">← The Book</a>
+      <span class="book-nav-sep">·</span>
+      <span>Plain edition · experimental</span>
+    </p>
+
+    <header class="plain-head">
+      <p class="plain-label">Plain edition</p>
+      <h1>The book in plain words</h1>
+      <p class="plain-dek">
+        The same book, told at a 5th-grade reading level — a faithful
+        translation of the river, sentence by sentence, never a separate
+        argument. Each passage is built from one gesture of the original, and
+        every original sits one click away. In progress, chapter by chapter.
+      </p>
+      <p class="plain-counts">{totTrans} / {totGest} gestures translated ({totPct}%)</p>
+    </header>
+
+    <ul class="plain-list">
+      {rows.map(r => (
+        <li class="plain-card">
+          <a href={`/book/plain/${r.slug}`} class="plain-card-link">
+            {r.label && <span class="plain-card-kicker">{r.label}</span>}
+            <span class="plain-card-title">{r.title}</span>
+            <span class="plain-card-meta">
+              {r.translated} / {r.total} translated
+              {r.pct === 100 ? ' · complete' : r.translated === 0 ? ' · not started' : ` · ${r.pct}%`}
+              {' →'}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <p class="plain-foot">
+      <a href="/book/river">Read the whole river (original) →</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 2rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+
+  .plain-head { margin: 0 0 2.5rem; }
+  .plain-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .plain-dek { font-size: 0.95rem; line-height: 1.7; opacity: 0.75; max-width: 36rem; margin-top: 1rem; }
+  .plain-counts { font-family: var(--mono); font-size: 0.7rem; opacity: 0.5; margin-top: 0.75rem; }
+
+  .plain-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+  .plain-card { border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
+  .plain-card-link { display: block; padding: 1rem 1.25rem; text-decoration: none; color: inherit; }
+  .plain-card:hover { border-color: var(--red); }
+  .plain-card-kicker {
+    display: block; font-family: var(--mono); font-size: 0.6rem;
+    letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.4; margin-bottom: 0.3rem;
+  }
+  .plain-card-title { display: block; font-family: var(--display); font-size: 1.15rem; font-weight: 600; color: var(--ink); }
+  .plain-card-meta {
+    display: block; font-family: var(--mono); font-size: 0.65rem;
+    letter-spacing: 0.06em; color: var(--red); margin-top: 0.5rem;
+  }
+
+  .plain-foot { margin: 3rem 0 2rem; font-family: var(--mono); font-size: 0.7rem; opacity: 0.5; }
+  .plain-foot a { color: var(--red); text-decoration: none; }
+  .plain-foot a:hover { text-decoration: underline; }
+</style>

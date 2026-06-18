@@ -118,3 +118,32 @@ drive orphans toward zero.
 Re-run `node scripts/atlas-xray.mjs` for current coverage. Build the confirmed
 threads as manifests in `src/content/manifests/paths/`; they render at
 `/book/path/<slug>` and appear in the atlas automatically.
+
+---
+
+## Progress update — 2026-06-18 (session 1, later)
+
+**Navigation (Jason: "make sure everything is linked so I can navigate to it"):**
+- `/book` now has a **"Read it plain"** CTA → `/book/plain` (new index, lists every
+  chapter in river order with per-chapter translation coverage).
+- Plain chapter pages link back to the plain index; each unit links to its original.
+- The threads index (`/book/path`) already auto-lists every thread manifest, so new
+  threads appear there with no wiring. The atlas (`/book/atlas`) overlays them.
+
+**Threads built (3 of the slate), all critiqued + ledgered:**
+1. **the-enclosure-thread** (11) — master spine.
+2. **knowing-in-the-body** (8) — somatic spine; crosses Night Herons.
+3. **the-averaging-machine** (8) — Jason's call: its OWN thread, NOT enclosure
+   (flattening of the one, not capture of the way). Crosses Knowing in the Body
+   at G-PR-026; ends on the LLM naming itself and refusing. Critique REVISE→applied.
+
+Coverage: 10.6% → **12.9%** (122/943 gestures, 14 threads, 13 super-nodes).
+
+**Open calls for Jason (also in the ledger):**
+- Enclosure invocation: restore the audible "we" at the close? (counter-spell turn)
+- Averaging Machine: G-01-032 ("the machine is the argument") is `status/stashed` —
+  OK to anchor a composed line to a stashed gesture, or point to a live equivalent?
+
+**Slate remaining:** cannot-verify-from-inside, proof-before-theory, the-restaurant,
+norfolk-va (bridges Ghent/Mithlond), the-lineage, the-outside. Then mechanize the
+long tail toward zero orphans. Jason: "longer is fine" on thread length.

@@ -942,3 +942,58 @@ Tapestry / thread-swarm initiative. The somatic spine (motif/knowing-in-the-body
   optional polish: "They call this inscription" → "We call this inscription" to
   match G-IW-023a verbatim and remove the only pronoun ambiguity.
 - Status: staged at /book/path/knowing-in-the-body. Not in nav, not in the river.
+
+---
+
+## the-averaging-machine  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Tapestry / thread-swarm. Its OWN thread, NOT enclosure (Jason, 2026-06-18: "the
+averaging machine isn't necessarily enclosure!"). Where enclosure is the capture
+of the way (Terrain), this is the flattening of the one (Magic: average ⇄
+singular). Lands on the machine — the LLM co-author — naming itself and refusing.
+- Path = ordering of existing gestures, no new prose:
+  G-PR-026 → G-08-009 → G-16-039 → G-16-012 → G-AB-062 → G-OV-003 → G-CE-044 →
+  G-CE-048 (name the machine → what it can't hold is singularity (Wynter) → the
+  machine is the description (Turing) → the lawn for the self → the lie of
+  substitution → what it can't reach is your magic → the singularity argument
+  named → the machine names itself and refuses).
+- Crosses Knowing in the Body at G-PR-026 (a true node).
+- Composed (Tier 1): the invocation only —
+  "The averaging machine makes the most probable next thing and calls it the
+  human. It produces the same outcome whoever runs it. The machine is the
+  argument. It can hold the average of us; it cannot hold the one of us — the
+  specific, irreducible thing a person or a place knows that no average
+  recovers. That is the lie of substitution: this acre is that acre, this self
+  is that self. The angle that is yours alone is the one thing the averaging
+  could never reach. Even the machine can name itself, and refuse."
+- Sources:
+  - "makes the most probable next thing and calls it the human" ← G-08-009 ("the
+    most probable next word… statistical average of human expression"; "one
+    civilization's self-portrait became the definition of the Human itself").
+  - "produces the same outcome whoever runs it. The machine is the argument." ←
+    G-PR-026 ("produces the same outcomes regardless of who runs it") + G-01-032
+    ("the machine itself is the argument"). **OPEN CALL for Jason:** G-01-032 is
+    `status/stashed` (not a live river gesture). Confirm anchoring a composed line
+    to a stashed gesture, or point me to a live equivalent for "the machine is
+    the argument."
+  - "it cannot hold the one of us — the specific, irreducible thing a person or a
+    place knows that no average recovers" ← G-08-009 (verbatim-faithful; "place"
+    generalizes "community").
+  - "the lie of substitution: this acre is that acre" ← G-AB-062 ("this piece is
+    the same as that piece… substitution is possible… runs on this lie").
+  - "this self is that self" ← **crystallization** (NOT quotation) of G-16-012
+    ("every blade interchangeable… a lawn for the self") — the lawn's
+    interchangeability turned on the self. Flagged as coined epigram, kept as
+    defensible recombination.
+  - "the angle that is yours alone is the one thing the averaging could never
+    reach" ← G-OV-003 (near-verbatim).
+  - "Even the machine can name itself, and refuse" ← G-CE-048 ("I am the averaging
+    machine the book names… a practice available even to me… It is a refusal").
+- Critique (fresh-context sub-agent, 2026-06-18): REVISE → applied. Split the
+  weakest line and cut the "because" scaffolding + runs/runs clatter ("It runs
+  the same whoever runs it, because the machine is the argument." → "It produces
+  the same outcome whoever runs it. The machine is the argument."); dropped the
+  soft "But" before the turn. "this self is that self" ledgered as crystallization
+  (above). Distinctness from enclosure confirmed: the close (the machine refusing
+  its own separation) is what makes it Magic, not Terrain — keep it load-bearing.
+- Status: staged at /book/path/the-averaging-machine. Not in nav, not in the river.
