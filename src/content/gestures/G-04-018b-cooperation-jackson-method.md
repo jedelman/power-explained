@@ -31,5 +31,14 @@ notes: |
   formerly the third paragraph of G-04-018. Pulled into its own
   gesture so the method statement lands as the section's emotional
   close, after the verified-numbers beat in G-04-018a.
+plain: >
+  What Cooperation Jackson proves is not its size. It is a way of
+  working. They start with the people who have the least. Their work
+  is rooted in the history of Black freedom. They are patient about how
+  long it takes. The work keeps going after the person who led it dies.
+  It keeps going even when one person's time in office ends.
+plain_meta:
+  source: G-04-018b
+  status: draft
 ---
 What Cooperation Jackson proves is not size. It is method — building from the most marginalized, rooted in Black liberation history, patient about the timeline. The work continues when the person who carried the vision dies, when individual political careers do not.

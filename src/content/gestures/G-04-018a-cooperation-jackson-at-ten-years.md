@@ -55,6 +55,21 @@ notes: |
   Note: the earlier list mentioned "a childcare cooperative," which
   is not in the verified Sept 2024 operating list. Replaced with
   the verified six.
+plain: >
+  Ten years in, by May 2024, there were six worker cooperatives running. One was
+  Freedom Farms. It grows organic vegetables on five acres. One was Green Team
+  Landscaping. One was the Community Production Cooperative. It does 3D printing and
+  small-scale making. One was Zero Waste. One was Eversville Design and Print Shop.
+  And one was the Catering Cooperative. Five more were being built.
+
+  The Fannie Lou Hamer Community Land Trust holds over forty-five properties in West
+  Jackson. These include five homes. There is a community center. There are two
+  stores. There is a shopping plaza. There are twelve farm plots. The making of
+  goods was tied to shared money. It was tied to shared learning. It was tied to
+  community land. People's assemblies held it together. So did years of organizing.
+plain_meta:
+  source: G-04-018a
+  status: draft
 ---
 Ten years in, by May 2024: six operating worker cooperatives — Freedom Farms (organic vegetables on five acres), Green Team Landscaping, the Community Production Cooperative (3D printing and small-scale fabrication), Zero Waste, Eversville Design and Print Shop, and the Catering Cooperative — with five more in development.
 

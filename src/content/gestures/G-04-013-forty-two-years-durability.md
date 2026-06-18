@@ -30,6 +30,18 @@ notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 20-21
   of pre-refactor prose.
+plain: >
+  Burlington's housing market has gone up and down many times since 1984. Through
+  all of it, the Champlain Housing Trust's homes have stayed cheap. This was not
+  because the city kept paying for them. It was because the community had already
+  decided, one time, that this land was not for sale.
+
+  Today the Trust holds over 3,000 homes that will stay affordable for good. The
+  model has been copied in hundreds of communities. Forty-two years. The land that
+  Burlington took off the market in 1984 is still off it.
+plain_meta:
+  source: G-04-013
+  status: draft
 ---
 Burlington's housing market has gone through multiple boom cycles since 1984. The Champlain Housing Trust's homes have stayed affordable through all of them — not because the city kept subsidizing them, but because the community had already decided, once, that this land was not for sale.
 
