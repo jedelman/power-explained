@@ -18,6 +18,30 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-17-042 on
   2026-05-20]
+plain: >
+  No one planned this. It grew out of how things were.
+  Many kinds of buildings were used in one place. So
+  the street stayed busy at all hours. The buildings
+  were old. So they were cheap. Cheap places let new
+  things happen. The blocks were short. So people met
+  at the corners. Lots of people lived there. That kept
+  the street alive.
+
+  No one ran it. Everyone helped make it safe. No one
+  owned that safety.
+
+  This is like the speaking circle, but on a sidewalk.
+  The people practice paying attention. They do not do
+  it in one big act. They do it in many small ways, day
+  after day. Over time this builds the skill to take in
+  the rare thing when it comes.
+
+  The baker knows when someone on the block is in
+  trouble. He did not watch them. He just paid attention
+  to small things for years.
+plain_meta:
+  source: G-17-041
+  status: draft
 ---
 None of this was designed. It emerged from conditions: mixed uses that kept the street active at different hours, buildings old enough to be cheap enough for the unexpected, blocks short enough that corners generated encounters, density sufficient to support the ballet. The intelligence was distributed. The safety was produced by everyone and owned by no one.
 

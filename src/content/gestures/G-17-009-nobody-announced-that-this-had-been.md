@@ -20,6 +20,20 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-17-010 on
   2026-05-20]
+plain: >
+  Nobody said this had been a big deal. Nobody had to. The community already
+  knew how to take in one special guest. They knew to pause. They knew to pay
+  attention. They knew to let it speak and then let it go. The circle had
+  already taught them that. The owl came. The circle held him. The circle
+  held the group. Both were held the same way.
+
+  The point is not the owl. The point is how they took him in. This is a
+  community that knows how to pay attention to what comes from outside its
+  normal world. Through practice, they built the skill to welcome the one
+  special thing and let it change them.
+plain_meta:
+  source: G-17-009
+  status: draft
 ---
 Nobody announced that this had been significant. Nobody needed to. The community already knew how to receive a singular presence — to pause, to attend, to let it speak and then let it go. The form of the circle had already taught them that. The owl arrived, and the form held him, and the form held the group, and both were the same form.
 

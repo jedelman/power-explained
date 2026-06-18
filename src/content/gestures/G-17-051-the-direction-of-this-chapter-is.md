@@ -22,6 +22,21 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-17-052 on
   2026-05-20]
+plain: >
+  This chapter moves out and up. It starts with the
+  single self found in the descent. It moves to the
+  community that can take that self in. It moves to the
+  city that builds these practices into its streets. It
+  moves to the institutions that hold all of it on a big
+  scale. Those institutions are how the commons governs
+  itself.
+
+  But the way is always the same. It is out of the deep
+  and toward the community. The call is always the same.
+  Learn to welcome. Learn to pay attention.
+plain_meta:
+  source: G-17-051
+  status: draft
 ---
 The direction of this chapter is outward and upward: from the individual singularity discovered in descent, toward the community capable of receiving it, toward the city that embeds those practices in its built form, toward the institutions — the governance structures of the commons — that hold all of it at scale.
 

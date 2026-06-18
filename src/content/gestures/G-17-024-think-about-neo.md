@@ -17,6 +17,15 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-17-025, G-17-026
   on 2026-05-20]
+plain: >
+  Think about Neo. He goes through the hard test. He dies and comes
+  back. He beats the system. By the shape of the story, he is a
+  finished initiate. He went down below and came back changed.
+
+  But who welcomes him back home?
+plain_meta:
+  source: G-17-024
+  status: draft
 ---
 Think about Neo.
 
