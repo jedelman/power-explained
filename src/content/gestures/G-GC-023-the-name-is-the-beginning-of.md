@@ -21,5 +21,12 @@ beauty_check:
     beginning" + the close on the natural order of things bridges the
     diagnosis into Luxemburg.
 notes: '"The name is the beginning of the counter." Bridge from diagnosis to practice.'
+plain: >
+  The name is the start of fighting back. Not the fight itself. Just the
+  start. You cannot fight what you cannot see. And you cannot see what has
+  been set up to look like the way things just are.
+plain_meta:
+  source: G-GC-023
+  status: draft
 ---
 The name is the beginning of the counter. Not the counter itself — the beginning. You cannot fight what you cannot see. And you cannot see what has been arranged to look like the natural order of things.

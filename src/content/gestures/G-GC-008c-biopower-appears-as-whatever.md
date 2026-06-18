@@ -33,6 +33,24 @@ notes: |-
   don't. The deal is consistent across every domain: allow me to
   administer your life, hold the whip sometimes. The hierarchy of
   biopower is not who escapes it but who is allowed to wield it on others.
+plain: >
+  Biopower looks like whatever you want. But it always costs the same thing.
+  It costs your soul.
+
+  It is not like the apple Adam and Eve were told not to eat. It is the
+  opposite. It looks like food you think you need to live. You may not learn
+  you never needed it until much later. Maybe never. It holds out your own
+  life to you. It acts like it is giving you a deal. It acts like it is
+  offering you a place to belong.
+
+  The deal is the same everywhere. Let me run your life, and I will let you
+  help run it. You get to hold the whip sometimes. You grade the test. You
+  sign the permit. You decide who gets out of jail. Biopower is not ranked
+  by who gets free of it. It is ranked by who gets to use it on other
+  people. That is what social rank really is.
+plain_meta:
+  source: G-GC-008c
+  status: draft
 ---
 Biopower appears as whatever you might desire. Its price is always the same: your soul.
 

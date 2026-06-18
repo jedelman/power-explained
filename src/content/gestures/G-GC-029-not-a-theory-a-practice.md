@@ -22,5 +22,11 @@ beauty_check:
     rather than an argument"). Trust the reader to carry the logic. Replaced abstract
     "make contact with actual experience" with concrete "touches the body."
 notes: 'The theory/practice distinction: naming only works if it makes contact with actual experience.'
+plain: >
+  Not a theory. A practice. Naming a thing does nothing until you feel
+  it in your body.
+plain_meta:
+  source: G-GC-029
+  status: draft
 ---
 Not a theory. A practice. The naming is useless until it touches the body.

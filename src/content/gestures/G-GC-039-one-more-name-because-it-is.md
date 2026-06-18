@@ -33,5 +33,16 @@ notes: |-
   it before all the theory. "Came to last, was there at the beginning" — the
   temporal paradox. "The ones I chose" distinguishes voluntary mentorship from
   assigned authority.
+plain: >
+  One more name. My Sensei had it. My yoga teachers had it. My
+  wilderness mentors had it. These were teachers I picked, not
+  ones given to me. They were always the same. I spent years on
+  the other names in this chapter. I built the theory. I made
+  mistakes. I thought I was working toward something new. But
+  connection was there from the start, in the room with the
+  people trying to teach me. It was waiting for me to come back.
+plain_meta:
+  source: G-GC-039
+  status: draft
 ---
 One more name. My Sensei had it. My yoga teachers had it. My wilderness mentors had it — the ones I chose, not the ones assigned to me. They were unvarying. I spent years on the other names in this chapter, building the theory, accumulating the mistakes, convinced I was working toward something new. Connection was there at the beginning, in the room with the people who were trying to teach me, waiting for me to come back.

@@ -30,6 +30,20 @@ beauty_check:
     summoning aid). Chapter title also changed from "The Goetia of
     Capital" to "The Speaking of Names."
 notes: Opening gesture. Moves from seeing-cracks-in-the-world to naming-as-incantation; frames the chapter as itself an incantation.
+plain: >
+  When you study this for a long time, you start to see problems in the world.
+  At first you have no names for these problems. Then you find other people who
+  have tried to name them. Putting a name to a problem is like a kind of magic.
+  Sometimes just saying the name is enough to change things. A man named Paulo
+  Freire showed this.
+
+  This chapter names some of these problems. The goal is to see them clearly.
+  At the end, the chapter brings in a helper and guide for you.
+
+  Let us begin.
+plain_meta:
+  source: G-GC-001
+  status: draft
 ---
 When you study this thoroughly — as I have, as others before me have — you start to see cracks in the world. Things you don't yet have names for. You start to find others who have tried to name what we are seeing, to cast spells that help us read this unmapped terrain. Sometimes — as Paulo Freire did — just incanting the name is powerful enough to change things.
 

@@ -22,5 +22,10 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. The chapter's most quotable line,
     earned by everything 019/021 set up.
 notes: The chapter's most quotable line. One sentence.
+plain: >
+  Hegemony is a demon. It makes you think no demon has you.
+plain_meta:
+  source: G-GC-022
+  status: draft
 ---
 Hegemony is the demon that makes you think you aren't possessed.

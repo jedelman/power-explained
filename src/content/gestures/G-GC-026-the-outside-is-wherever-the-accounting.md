@@ -28,6 +28,15 @@ beauty_check:
 notes: >-
   Merged G-GC-027 on 2026-05-20. "The outside is wherever the accounting stops." The enclosure of
   commons as proof it worked.
+plain: >
+  The outside is wherever the counting stops. And the commons, in every
+  form, is always in danger of becoming the next outside.
+
+  So the commons was not taken because it failed. It was taken because
+  it worked. A commons that works is a commons worth taking.
+plain_meta:
+  source: G-GC-026
+  status: draft
 ---
 The outside is wherever the accounting stops. And the commons, in every form, is perpetually at risk of becoming the next outside.
 

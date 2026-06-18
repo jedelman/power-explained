@@ -27,5 +27,14 @@ beauty_check:
 notes: >-
   Freire's literacy circles as worked example of the grimoire practice. "The reading of the word as
   the reading of the world."
+plain: >
+  Freire's reading groups did this. They did not just teach
+  reading as a skill. They used reading to name the world that
+  had kept people quiet. Words like: Peasant. Landlord. Wage.
+  Debt. These words changed what people could see. Reading the
+  word became a way to read the world.
+plain_meta:
+  source: G-GC-036
+  status: draft
 ---
 This is what Freire's literacy circles did — not teach reading as a technical skill, but use the act of reading to name the world that had been organizing the silence. *Peasant. Landlord. Wage. Debt.* The words that reorganize the visible. The reading of the word as the reading of the world.

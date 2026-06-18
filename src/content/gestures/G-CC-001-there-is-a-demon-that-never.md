@@ -24,5 +24,14 @@ notes: |-
   Hardt and Negri, every form of the commons has a corrupted form") + the
   chapter's existing field note (Commonwealth, 2009). "Common" → "Commons" per
   Jason.
+plain: >
+  The corruption of the commons. That is the name Hardt and Negri gave
+  it. It is a demon that never attacks you face to face. It waits for
+  the commons to grow. Then it walls in what has grown. It does not need
+  to beat what you build. It only needs to wait until the day you stop
+  guarding it.
+plain_meta:
+  source: G-CC-001
+  status: draft
 ---
 *The corruption of the commons.* Hardt and Negri's name. The demon that never attacks head-on: it waits for the commons to flourish, then encloses the flowering. It does not need to beat what you build. It needs only to outlast the day you stop defending it.

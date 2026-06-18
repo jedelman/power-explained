@@ -38,6 +38,22 @@ notes: |-
   framing: biopower is what we keep miscalling parasitism. Real parasites
   are rare in nature because they are self-destructive. Biopower keeps
   the host healthy enough to keep giving, and calls this care.
+plain: >
+  This force has a name. Foucault called it biopower. It works through
+  rules and forms. It is the clipboard and the whip.
+
+  You feel it in your body before you can name it. Your breath catches in
+  your throat. Your chest stops. You freeze. You hold back the word you
+  want to say. Your anger has nowhere to go.
+
+  We have sometimes called this kind of power a parasite. That is not
+  quite right. A real parasite eats its host until the host dies. Then
+  the parasite dies too. That is why real parasites are rare. What we
+  have here is a parasite that smiles. It keeps the host healthy enough
+  to keep giving. And it calls this care.
+plain_meta:
+  source: G-GC-008
+  status: draft
 ---
 *Biopower.* Foucault's name. The apparatus. The clipboard and the whip.
 

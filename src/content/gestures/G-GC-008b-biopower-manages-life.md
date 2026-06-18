@@ -33,6 +33,20 @@ notes: |-
   six domains as a grimoire catalog: school (thought), work (activity),
   land (environment), cities (society), media (culture), prisons (the
   body). Each its own clipboard. All the same demon.
+plain: >
+  Biopower runs your life. It does not threaten to kill you. That kind of
+  power is older and meaner. This power found out it works better to
+  manage how you live. It counts you. It schools you. It gives you
+  medicine. It plans where you can build. It hands out degrees. It hands
+  out licenses.
+
+  It works in many places. School sorts your thoughts. Work sorts what
+  you do. Real estate sorts the land. Cities sort how people live
+  together. Media sorts what you like. Prisons sort the body. Each place
+  has its own clipboard. They all serve the same force.
+plain_meta:
+  source: G-GC-008b
+  status: draft
 ---
 Biopower manages life. Not the threat of death — that is older and cruder. This is the demon that discovered it was more productive to administer the conditions of living. To count, to school, to medicate, to zone, to credentialize, to license.
 

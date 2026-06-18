@@ -31,6 +31,22 @@ beauty_check:
 notes: >-
   Merged G-GC-044 on 2026-05-20. Connection as prior condition for commons governance. "I see you. I
   am here. We are in this together. Before the rules."
+plain: >
+  The commons is built from connection. It is not built from correct design. The
+  design matters. Ostrom's eight rules are real, and they work. But the design comes
+  after something that comes first. The first thing people need when they try to run
+  something together is this: I see you. I am here. We are in this together. That
+  comes before the rules. Before the way they share power. Before the plan.
+
+  This is the thing the enclosure cannot make. It can make people obey. It can make
+  people act it out. It can make connection look real by paying for it. But the real
+  thing cannot be faked. The real thing is the felt sense of being seen, of
+  mattering to the people with you, of living in their attention. The enclosure
+  starves this on purpose. It starves it because it is the one thing that makes
+  everything the enclosure cannot control.
+plain_meta:
+  source: G-GC-043
+  status: draft
 ---
 The commons is built from connection, not from correct design. The design matters — Ostrom's eight principles are real, and they work — but the design is downstream of something prior. The first thing that has to exist between people attempting to govern something together is: *I see you. I am here. We are in this together.* Before the rules. Before the governance structure. Before the plan.
 

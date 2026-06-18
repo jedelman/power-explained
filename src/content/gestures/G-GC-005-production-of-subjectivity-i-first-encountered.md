@@ -29,5 +29,14 @@ beauty_check:
 notes: >-
   The encounter with production of subjectivity, May 2020. Arrival scene woven into 005b–005d from
   inbox GT-01.
+plain: >
+  Production of subjectivity. That is Hardt and Negri's name for it. I first
+  saw it in their book Commonwealth, in May 2020. That was two months after the
+  world had changed into something I did not know. The phrase grabbed my mind
+  and would not let go. I had the answer before I had the question. It took me
+  five more years, and a restaurant, to learn what I had been given.
+plain_meta:
+  source: G-GC-005
+  status: draft
 ---
 *Production of subjectivity.* Hardt and Negri's name. I first encountered it in *Commonwealth*, in May 2020, two months after the world had rearranged itself into something unrecognizable. The phrase grabbed hold of my mind and wouldn't let go. I had the answer before I had the question. It would take five more years — and a restaurant — to understand what I had been handed.

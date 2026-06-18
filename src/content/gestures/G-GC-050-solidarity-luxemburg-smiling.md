@@ -28,5 +28,11 @@ beauty_check:
 notes: |-
   Forward seam to chapter-5 (The Smile). Solidarity, the chapter's
   summoned aid, is the through-line into Luxemburg's courtroom smile.
+plain: >
+  The next chapter starts with a woman named Rosa Luxemburg. She is smiling. Why is
+  she smiling? The answer is solidarity.
+plain_meta:
+  source: G-GC-050
+  status: draft
 ---
 Solidarity is why Rosa Luxemburg starts the next chapter smiling.

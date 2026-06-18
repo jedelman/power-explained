@@ -32,5 +32,13 @@ notes: |-
   infrastructure for alternatives disappears; the need for what it sells
   grows. Not forced — administered. Pattern available for re-use in P-05
   (enclosure) and Ghent Streets (zoning).
+plain: >
+  The best way I can explain it is a car dealership. It changes everything
+  around it to make itself look needed. Other ways to get around go away.
+  The need for cars grows. It does not make you buy a car. It just sets
+  things up so you have to.
+plain_meta:
+  source: G-GC-008d
+  status: draft
 ---
 The best metaphor I have is a car dealership. It remakes the total environment in its own image to justify its own existence. The infrastructure for alternatives disappears. The need for what it sells grows. It does not force this. It administers it.

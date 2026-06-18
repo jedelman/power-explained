@@ -27,5 +27,11 @@ beauty_check:
 notes: |-
   Invocation. The naming begins. Reader is inside the circle, not outside it.
   The act of reading the grimoire IS the act of summoning.
+plain: >
+  The circle is already drawn. You are holding the spellbook. The naming starts
+  now.
+plain_meta:
+  source: G-GC-004
+  status: draft
 ---
 The circle is already drawn. You are holding the spellbook. The naming begins now.

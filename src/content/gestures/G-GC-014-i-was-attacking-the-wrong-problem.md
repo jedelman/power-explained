@@ -20,5 +20,10 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. Single-line pivot gesture; the
     whole restaurant section turns here.
 notes: The pivot. Single sentence.
+plain: >
+  I was going after the wrong problem.
+plain_meta:
+  source: G-GC-014
+  status: draft
 ---
 I was attacking the wrong problem.

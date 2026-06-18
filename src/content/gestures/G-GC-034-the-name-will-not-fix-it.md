@@ -19,6 +19,17 @@ beauty_check:
     2026-05-22: Schema + rich tagging pass.
     2026-05-23: Beauty pass — confirmed. Two-sentence epistemic claim.
 notes: '"The name will not fix it. The name is the first move." The chapter''s epistemic claim compressed.'
+plain: >
+  The name will not fix the problem. But naming it is the first
+  step.
+
+  You will know you found the right name when something feels
+  lighter. It is like a crack opens and lets in some light. It
+  might hurt. It might feel scary. Your job is to be brave enough
+  to ask if the name is true.
+plain_meta:
+  source: G-GC-034
+  status: draft
 ---
 The name will not fix it. The name is the first move.
 

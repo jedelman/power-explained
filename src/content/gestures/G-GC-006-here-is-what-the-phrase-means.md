@@ -35,5 +35,14 @@ notes: |-
   the subject. Subjection to power produces the kind of person legible to
   that power. Hardt & Negri framing, but the claim generalizes beyond
   capital (state, institution, movement, church).
+plain: >
+  Power does not just make goods. It makes people. Any power that shapes how you
+  live also makes a kind of person it can use. The state, money, a church, a big
+  group — each one does this. It makes you into a worker, a subject, a buyer, or
+  a believer. You feel in your body, before you even think, what is wanted and
+  how to give it. This is not a side effect. It is the main thing power makes.
+plain_meta:
+  source: G-GC-006
+  status: draft
 ---
 Power does not only produce goods. It produces people. Any power — state, capital, church, institution — that structures how you live is simultaneously producing the kind of person legible to it. Employee, subject, consumer, believer. You know in the body, before the thought, what is being asked and how to deliver it. This production is not incidental. It is the primary output.

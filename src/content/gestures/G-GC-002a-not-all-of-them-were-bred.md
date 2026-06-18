@@ -28,6 +28,23 @@ notes: |-
   maintained"); G-13-016 (the debt instrument "optimized for extraction" =
   the beneficiary test). Added after the beauty-checked G-GC-002, which is
   deletion-only.
+plain: >
+  Not all of these forces were made on purpose. Most have no maker. They run on
+  their nature. They keep going because they pay off. They would keep going even
+  if everyone who started them forgot why. But some were made on purpose. The
+  color line was written into law. People made it, enforced it, and meant it.
+  Its makers knew its name. The book holds both kinds. The name tells them apart.
+
+  The name tells you one more thing. This is the thing to know before you name
+  anything. Not every hard thing is one of these forces. Some weight is just
+  weight. One of these forces is a harm that helps someone and that someone
+  keeps going. But some harm helps no one. No one is keeping it alive. That kind
+  of harm is grief. Grief is carried, not fought. So know which one you face.
+  If you mix them up, you will fight the weather. Or you will give in to a thing
+  you could have stopped.
+plain_meta:
+  source: G-GC-002a
+  status: draft
 ---
 Not all of them were bred on purpose. Most have no author. They run on their nature and persist because they pay — and would go on paying if every hand that raised them forgot why. But some were drawn deliberately: the color line was written into law, enforced, intended, a demon whose makers knew its name. The bestiary holds both, and the seal tells them apart.
 

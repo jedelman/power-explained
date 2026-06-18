@@ -34,5 +34,14 @@ notes: |-
   key. The friends' shrug. "I was attempting to one-shot a task that
   properly takes generations. That's a big part of why I'm writing
   this book." Load-bearing meta-claim about the book's purpose.
+plain: >
+  I tried to break in and stop it. I shared ideas that did not fit the script. I
+  handed my friends a new way to look. They shrugged. I held what felt like a
+  master key, but it opened nothing. I thought I was bad at explaining. The real
+  problem was that I was in a hurry. This kind of change takes many lifetimes.
+  That is a big part of why I am writing this book.
+plain_meta:
+  source: G-GC-005d
+  status: draft
 ---
 I tried to interrupt its production. Introduced ideas incompatible with the frame, handed my friends a different lens. They shrugged. I had what seemed like a master key, and it didn't open anything. I thought I was a bad communicator. What I was, was impatient. This task takes generations. That is a significant part of why I'm writing this book.

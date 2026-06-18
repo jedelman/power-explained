@@ -33,6 +33,19 @@ notes: |-
   first heard himself fluent in production of subjectivity without
   having intended to be. "The transition from seeing the track to
   seeing the presence of the foot making the track."
+plain: >
+  Some coffee shops are also meeting places. If the right people are there on
+  the right night, big ideas meet real life and stay for hours. I have had these
+  talks for years. One night we worked through a fight about housing rules. Which
+  groups wanted what. Whose ideas about who should rule matched where they really
+  stood. Who got blamed for what went wrong, and who got the credit but no blame.
+  I was not talking about production of subjectivity. I was watching it happen.
+
+  I went from seeing the footprint to seeing the foot that made it. This time, I
+  could see the boot itself.
+plain_meta:
+  source: G-GC-005b
+  status: draft
 ---
 There are coffee shops that double as salons — if the right people are there on the right night, theory meets whatever is actually happening and stays for hours. I've been having these conversations for years. One night we were working through a housing policy dispute: which factions held what interests, whose assumptions about political legitimacy matched their actual position, who carried responsibility for outcomes and who got credit without it. I wasn't talking about production of subjectivity. I was watching it happen.
 

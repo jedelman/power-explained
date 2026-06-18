@@ -35,6 +35,16 @@ beauty_check:
     incantation / spell). "Has names" sets up the biopower section as the
     first of several namings.
 notes: The diagnostic sentence in italics. The chapter's sharpest single claim.
+plain: >
+  I was trying to hand a shared, open space to someone who was made for a
+  closed one. The link was already missing before I started to help. I
+  did not see it until I was deep in the trying.
+
+  He was waiting for the clipboard. I would not pick it up. The spell he
+  grew up inside has names.
+plain_meta:
+  source: G-GC-018
+  status: draft
 ---
 *I was trying to offer a commons to someone who had been produced for an enclosure.* The connection was missing before the scaffold went up. I didn't see it until I was deep in the attempt.
 
