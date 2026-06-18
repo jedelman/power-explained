@@ -20,5 +20,16 @@ notes: |-
   2026-06-12 — woven by the image-weave pass; the six levels mapped onto
   the six stages of ancient body awareness; condensation per Jason's row-1
   license ("this can be condensed").
+plain: >
+  The third thing is the close work, with the hands in it: holding,
+  taking apart, sorting. Four chapters on how capitalism keeps the outside
+  it needs. It encloses care and the work of raising people. It builds a
+  racial order that hides where the taking comes from. It shapes minds so
+  that people help keep themselves down. And it builds the idea of who
+  counts as human at all, as a way to decide who matters. The whole upkeep
+  system is laid out on the table, piece by piece.
+plain_meta:
+  source: G-PR-028
+  status: draft
 ---
 The third is the close work — muscular, active, the hands in the thing: grasping, taking apart, sorting the harvest, processing the catch. Four chapters on how capitalism maintains the outside it depends on: the enclosure of care and reproductive labor, the racial architecture that makes extraction invisible, the colonized consciousness that makes subjects cooperate in their own subjection, the construction of the human category itself as a mechanism for deciding who counts. The maintenance system, laid out on the table piece by piece.
