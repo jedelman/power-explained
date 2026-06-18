@@ -1246,3 +1246,6 @@ verified facts; no invented quotes):**
   - Kopenawa: softened the 1992 causal ("helped win/bring") → "following his international
     campaigning, Brazil recognized…" to track the verified source phrasing exactly. (3 surfaces.)
   - Plain blocks tightened to FK ≤6 (3.0 / 3.6 / 4.0).
+
+### Eliade↔Ginzburg pairing — RESOLVED (Jason, 2026-06-18): "put it in!"
+Restored to /ginzburg: the §03 callout (Ginzburg as the living instance of what Eliade catalogued) and the §05 two-faced/lineage close. Now Jason-endorsed.
