@@ -40,6 +40,54 @@ notes: |
   sentence); editor touched only house typesetting (spaced hyphens to
   em-dashes). The tracker close ties the quest declaration into the
   master image.
+plain: >
+  I will name mine. It would not be fair to ask you to name
+  yours if I did not. I have a vision for cyberpunk that I
+  have come to see only I hold. It is a sacred bond between
+  people and machines. A bond that puts us in right relation
+  with the Earth and with each other.
+
+  The ways we are out of balance with machines are a mirror.
+  And by machines I mean more than metal and chips. I mean
+  money and information too. Those out-of-balance ties mirror
+  the ones we have with each other and with the Earth.
+  Machines give us a great gift. They let us see the imbalance
+  clearly and fix it, if we have the will and the courage.
+  Nothing else on Earth shows the human will as plainly as
+  machines do. That is what they are for. To try this with
+  anything else — art, music, or living things — would be
+  strange and not human.
+
+  I once read an idea from evolution. It said the uncanny
+  valley must exist for a reason. Long ago there was a
+  predator that seemed human but was not. So we learned to
+  fear the almost-human. I think evolution claims like this
+  are mostly junk. But this one stayed with me. Why do we
+  pull back from the almost-human? I now think it is fear of
+  what we ourselves could be. In the uncanny we see our own
+  dark side. We all carry it just by being human.
+
+  A strange few of us are willing to wander the edges and
+  the in-between places. We bring back odd gifts. The edge I
+  walk is between the human and the machine. It makes me
+  strange. It lets me see what others cannot. In a tracking
+  people, this gift would be mine to tend and give to the
+  group. I am a tracker, so this is what I do. This book is
+  one of my gifts.
+
+  In my writing, my music, and my way of being, I carry the
+  vision as I walk. I share it as much as I can. That is the
+  sentence. That is the whole thing. No one has to be
+  impressed by it. It does not need a movement. It just needs
+  me to carry it, in the real rooms I am in, today and
+  tomorrow. That is what makes it the quest. That is what
+  makes it mine alone. If I drop it, no one picks it up. Not
+  because it is precious. Because it is shaped to fit the
+  exact size and weight of the one carrying it. I am the only
+  one shaped like this.
+plain_meta:
+  source: G-WW-026
+  status: draft
 ---
 I will name mine, because the chapter would not be fair if it asked you to and did not. I have a vision for cyberpunk that I have come to realize only I hold — a sacred relationship between man and machine that puts us in right relation with the Earth and each other.
 

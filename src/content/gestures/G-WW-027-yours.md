@@ -30,5 +30,21 @@ notes: |
   Direction S. The hand-off. The question is the gesture. Do not
   answer it for the reader; the next gesture (028) opens out the
   scale, but the question stays open.
+plain: >
+  Now yours. Not on this page. This page cannot answer it.
+  In whatever room you are in when you put the book down.
+  What is the thing that will not happen if you do not show
+  up for it? Not "what should I be doing." Not "what cause
+  should I join." In the real life you already live, what
+  is the small piece of the world's repair that is shaped
+  like you?
+
+  You will know it. It has been bugging you for a while. It
+  shows up as a soft pull away from other things, back
+  toward it. The quest is the thing already trying to find
+  you. The thing you have been choosing not to fully meet.
+plain_meta:
+  source: G-WW-027
+  status: draft
 ---
 Now yours. Not on this page; this page cannot answer it. In whatever room you are in when you put the book down. What is the thing that will not happen if you do not show up for it? Not "what should I be doing." Not "what cause should I attach to." What, in the specific life you are already living, is the small particular piece of the world's repair that has your shape on it? You will recognize it because it has been bothering you for a while. It has been showing up as a low-grade reluctance to do other things instead of it. The quest is whatever is already trying to find you, that you have been declining to fully meet.

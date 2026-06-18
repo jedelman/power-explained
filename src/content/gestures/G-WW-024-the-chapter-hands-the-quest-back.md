@@ -32,5 +32,20 @@ notes: |
   not going to give the reader a quest; the chapter is going to refuse
   to give them one, because the quest is theirs. Tone: Gandalf at the
   ford — quiet, certain, declining to instruct.
+plain: >
+  You may think I am about to tell you what your quest is.
+  I will not. It was never mine to give. What I can do is
+  tell you the shape of one. Then you will know it when you
+  find it in your hand. More often, you will know the one
+  that is already there. The one you keep choosing not to
+  look at.
+
+  Almost everyone who reaches this page is carrying
+  something. My job here is not to hand you a load. My job
+  is to keep you from quietly setting down a load that was
+  always yours.
+plain_meta:
+  source: G-WW-024
+  status: draft
 ---
 You may be expecting me to tell you, here, what your quest is. I will not. It was never mine to give. What I can do is describe the shape of one, so that when you find it in your hand you will know what you are looking at — or, more often, recognize the one already there, that you have been declining to look at directly. Almost everyone who reaches this page is carrying something. The work of the chapter is not to assign you a burden. It is to keep you from quietly setting down one that was always yours.

@@ -18,5 +18,10 @@ notes: |-
   (the living world), find us (the people). The OA/WW gesture notes had
   long called this the book's "come find us" terminus — the placement
   makes the terminus literal.
+plain: >
+  Come find us.
+plain_meta:
+  source: G-EP-018
+  status: draft
 ---
 *Come find us.*

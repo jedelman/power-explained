@@ -32,5 +32,22 @@ notes: |
   Direction E. Lifts the quest section out of the bodily S register
   and into the relational E register, preparing the chapter for the
   "come find us" terminus.
+plain: >
+  Your quest will likely be smaller than you wish it were.
+  You want a movement. The quest is usually a meadow. Or the
+  kid down the block. Their world did not let them build a
+  self. You are the adult who will finally treat them like
+  one. Or the hedgerow only you are watching. Or the room
+  only you can hold. Or the talk, every Tuesday, in the same
+  coffee shop. No one pays you to keep having it. But it has
+  quietly made more of the world you want than any campaign
+  you gave money to.
+
+  The size is whatever fits your real life. The size is not
+  the question. The question is whether the thing gets done
+  because you are the one doing it.
+plain_meta:
+  source: G-WW-028
+  status: draft
 ---
 The shape of your quest will probably be smaller than your imagination wants it to be. Imagination wants a movement. The quest is usually a meadow. Or the kid down the block whose system did not let them build a self, and you are the adult who is finally going to treat them like one. Or the hedgerow only you are watching. Or the room only you can hold. Or the conversation, every Tuesday, in the same coffee shop, that nobody is paying you to keep having but that has been quietly producing more of the world you want than any campaign you have donated to. The scale is whatever fits in your actual life. The scale is not the question. The question is whether the thing gets done because you are the one doing it.
