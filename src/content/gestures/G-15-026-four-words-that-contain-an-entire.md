@@ -14,5 +14,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Four words hold a whole idea of how to keep people safe. *We Do This 'Til We
+  Free Us.* Not watching people. Not punishing them. It means the group of
+  people who know you. The people you answer to. The people who have put care
+  into how you are doing.
+plain_meta:
+  source: G-15-026
+  status: draft
 ---
 Four words that contain an entire theory of public safety. *We Do This 'Til We Free Us.* Not surveillance. Not punishment. The network of relationships that knows you, that you are accountable to, that has invested in your wellbeing.

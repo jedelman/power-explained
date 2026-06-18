@@ -13,5 +13,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Mariame Kaba has spent thirty years building the things that make care
+  possible. She does this for people the state has decided do not deserve it.
+plain_meta:
+  source: G-15-023
+  status: draft
 ---
 Mariame Kaba has spent thirty years building the infrastructure that makes care possible when the state has decided certain people don't deserve it.
