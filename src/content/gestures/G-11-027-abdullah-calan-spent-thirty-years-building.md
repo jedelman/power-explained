@@ -21,6 +21,36 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-11-028, G-11-029
   on 2026-05-20]
+plain: >
+  Abdullah Öcalan spent thirty years building the Kurdish freedom
+  movement. He organized and fought. He survived. He watched friends
+  die. He reached a hard truth that no book alone could teach him. The
+  state was not the answer. He had been trying to build one. From the
+  inside, he saw what it cost and what it could not give. Turkish forces
+  caught him in 1999. They locked him on Imrali Island. Without meaning
+  to, they gave him something. They gave him time to think with no rush.
+
+  In prison he read a lot. He read feminist theory and the Black
+  radical tradition. He read the history of Kurdish women organizing.
+  That work had run beside the armed fight, and often ahead of it. He
+  found Bookchin. Bookchin's Social Ecology named the shape Öcalan had
+  been moving toward. Not a Kurdish nation-state. Instead, a group of
+  self-ruling communes joined together. Healing nature and ruling
+  yourself are one project. Hierarchy is the root of both the nature
+  crisis and one group ruling another. Bookchin made clear something
+  Öcalan had already earned through years of work. The theory met the
+  doer, and what came out was neither one. It was democratic
+  confederalism. This is a way of thinking built out from the Kurdish
+  experience. It says no to the nation-state. It also says no to the
+  vanguard party. That party had shaped how the left imagined organizing
+  for a hundred years.
+
+  Öcalan dropped the call for a Kurdish nation-state. He called instead
+  for democratic autonomy. People would rule themselves through shared
+  community bodies, not through a state.
+plain_meta:
+  source: G-11-027
+  status: draft
 ---
 Abdullah Öcalan spent thirty years building the Kurdish liberation movement — organizing, fighting, surviving, watching comrades die — and arrived at a conclusion that no amount of reading alone could have produced: the state was not the solution. He had been trying to build one. He understood, from inside that effort, what it cost and what it couldn't deliver. When Turkish forces captured him in 1999 and imprisoned him on Imrali Island, they gave him something unintentional: time to think without the pressure of the immediate.
 

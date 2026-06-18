@@ -17,5 +17,15 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-11-007 on
   2026-05-20]
+plain: >
+  He could have had any job he wanted. The Russian nobles would have
+  given it to him. Instead he chose to go to Siberia. He spent five
+  years there in the 1860s. He watched the animals there. It is one of
+  the hardest places on earth to live. What he saw did not match the
+  main theory. That theory said one thing about nature. He saw the
+  opposite.
+plain_meta:
+  source: G-11-006
+  status: draft
 ---
 He could have had any career the Russian aristocracy offered. He chose instead to go to Siberia — five years in the 1860s observing animal populations in one of the harshest environments on earth. What he found contradicted everything the dominant theory was saying about nature.

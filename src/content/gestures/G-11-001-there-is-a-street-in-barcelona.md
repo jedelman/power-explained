@@ -13,5 +13,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  There is a street in Barcelona. There are many like it now. Workers
+  took away the pavement.
+plain_meta:
+  source: G-11-001
+  status: draft
 ---
 There is a street in Barcelona — there are dozens of them now — where the pavement has been removed.

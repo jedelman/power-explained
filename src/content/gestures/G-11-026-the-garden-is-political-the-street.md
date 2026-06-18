@@ -13,5 +13,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The garden is political. The street is political. Do we pave the
+  intersection, or do we plant it? That choice says what kind of
+  community this is. It says whose needs come first.
+plain_meta:
+  source: G-11-026
+  status: draft
 ---
 The garden is political. The street is political. The decision about whether to pave the intersection or plant it is a decision about what kind of community this is and whose needs it serves.
