@@ -28,6 +28,19 @@ notes: |
   Black, lesbian, feminist, mother, poet, warrior. She was a contributor
   to *Conditions: Five* (1979), the Black women's issue that also
   carried the Combahee Statement — situating the dialogue.
+plain: >
+  Audre Lorde talked with the Combahee group in the late 1970s. She was
+  Black, lesbian, a mother, a poet, and a cancer survivor. She said it more
+  sharply than anyone.
+
+  The master's tools will never take down the master's house, she said in
+  1979. There is no such thing as a single-issue fight, she said in 1982,
+  because we do not live single-issue lives.
+
+  Build your own tools. Live the real lives we live. The ideas come after that.
+plain_meta:
+  source: G-08-019b
+  status: draft
 ---
 Audre Lorde was in dialogue with Combahee through the late 1970s. Black, lesbian, mother, poet, cancer-survivor. She put it sharper than anyone.
 

@@ -13,5 +13,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The same logic runs through other rules too. Zoning law. Permit systems.
+  Tax codes. Each one gives life to what it can name. It holds life back
+  from what it cannot name.
+plain_meta:
+  source: G-08-006
+  status: draft
 ---
 The same logic runs through zoning law, permitting systems, tax codes — any framework that grants existence to what it can name and withholds it from what it can't.
