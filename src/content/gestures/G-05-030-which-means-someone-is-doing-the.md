@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Which means someone is doing the work to keep it that way.
+plain_meta:
+  source: G-05-030
+  status: draft
 ---
 Which means someone is doing the maintaining.

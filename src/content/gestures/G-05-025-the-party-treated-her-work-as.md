@@ -14,5 +14,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The party treated her work as less important. Stalin dealt with the
+  problem by sending her to Oslo as an ambassador. The job was grand enough
+  that no one could attack it. It was also far enough away to matter less.
+  She died in Moscow in 1952.
+plain_meta:
+  source: G-05-025
+  status: draft
 ---
 The party treated her work as secondary. Stalin solved the problem by sending her to Oslo as ambassador — prestigious enough to be unassailable, far enough away to matter less. She died in Moscow in 1952.

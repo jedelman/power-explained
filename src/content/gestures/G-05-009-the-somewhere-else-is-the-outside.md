@@ -13,6 +13,14 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  That somewhere else is *the outside*.
+
+  Look at any system. Find where the math does not add up. There you will
+  find one.
+plain_meta:
+  source: G-05-009
+  status: draft
 ---
 The somewhere else is *the outside*.
 

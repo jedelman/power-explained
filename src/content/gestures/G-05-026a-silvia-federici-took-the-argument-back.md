@@ -27,5 +27,11 @@ notes: |-
   (the body). Sets up the section's depth (she goes back further than
   Kollontai — to the witch hunts of the 15th-17th centuries) and its
   scope (the body, not the kitchen).
+plain: >
+  Silvia Federici took the argument back to its root. She was looking at the
+  body.
+plain_meta:
+  source: G-05-026a
+  status: draft
 ---
 Silvia Federici took the argument back to its root. She was looking at the body.

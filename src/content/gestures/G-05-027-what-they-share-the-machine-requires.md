@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The outside is where the books go to hide from themselves. Leave the costs
+  out, and the profits look better than they really are.
+plain_meta:
+  source: G-05-027
+  status: draft
 ---
 The outside is where the accounting goes to avoid itself. Keep it unacknowledged, and the returns look better than they are.

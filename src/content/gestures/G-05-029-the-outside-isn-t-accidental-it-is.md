@@ -13,5 +13,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The outside is not an accident. It is kept that way on purpose. It is held
+  in place by the system itself. The conditions that keep it outside are made
+  again and again.
+plain_meta:
+  source: G-05-029
+  status: draft
 ---
 The outside isn't accidental. It is maintained — actively, structurally, through the continuous reproduction of conditions that keep it outside.
