@@ -13,5 +13,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Erin notices space. I notice systems.
+plain_meta:
+  source: G-RE-014
+  status: draft
 ---
 Erin notices space. I notice systems.

@@ -23,6 +23,15 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-RE-002 on
   2026-05-20] [merged G-RE-003 on 2026-05-20]
+plain: >
+  Mariame Kaba builds a care commons. Selma James spent her life showing this kind of work. Federici traced it back to the witch trials. This work is about money, but not only money. It is also about knowing. People who care for each other learn to read each other. They build a shared way of talking. They build a way of knowing that you cannot hand to someone who was not there. The knowing lives in the bond between people. No one person holds it alone.
+
+  When care was enclosed, this is what was destroyed. Not just the work. The knowing too.
+
+  Silvia Federici calls fixing this re-enchanting the world. Losing the magic was not a natural thing that just happened. It was done on purpose, for power. The witch was not burned because old people believed in magic and newer people did not. The witch was burned for another reason. She kept a tie to the land, to the body, and to the cycles of birth, death, and the seasons. That tie made her town need the market less. She knew things the market could not sell. She knew about plants, sickness, birth, and grief. She gave this knowing for free. It lived inside her bonds with people, not in a set of steps. You could not take the knowing out of her and sell it. You could only destroy it or take it in.
+plain_meta:
+  source: G-RE-001
+  status: draft
 ---
 The care commons that Mariame Kaba is building — the one Selma James spent her life making visible, that Federici traced back through the witch trials — is not only economic. It is epistemic. People who care for each other learn to read each other. They develop a shared vocabulary, a way of knowing that cannot be transferred to someone who wasn't there. The knowledge lives in the relationship. No individual holds it.
 

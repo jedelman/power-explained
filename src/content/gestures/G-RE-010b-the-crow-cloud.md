@@ -23,6 +23,17 @@ beauty_check:
 notes: >
   Body drafted 2026-05-25 from interview-5-10.md verbatim account.
   Status upgraded from stub to draft on Jason's approval.
+plain: >
+  We were in Ravenna Park in Seattle. Olmsted made it. The park was built so the city could hold a real forest. We went there to practice. We do most of our birding by ear.
+
+  We heard the crows, like we always did. But this time the sound was different. They seemed excited and upset in a way I had not heard before. We had been learning to feel what they felt, not just to listen and think it through. What we felt was: something is here.
+
+  We chose to look.
+
+  There was a cloud of them. Many crows hung in the trees, swooping and diving and calling, making a loud, steady racket. In the middle of it was an owl. A barred owl. It was the first owl we had ever seen in daylight.
+plain_meta:
+  source: G-RE-010b
+  status: draft
 ---
 We were in Ravenna Park in Seattle — an Olmsted design, a park built so the city could hold a forest — where we had been going to practice. We do most of our birding by ear.
 

@@ -17,6 +17,17 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  We thought we were just making up silly voices for the birds.
+
+  We had always loved them. Watching birds was easy and fun. It felt like a game, never like work. Then Jon Young said, on a CD, to listen as if the birds were really talking. So we did. We did not know much, so we made guesses. We said little phrases that put our guesses into words. The story we told kept us paying attention. The silly voices kept the practice going.
+
+  The silliness kept us safe. If you take it too seriously, you get heavy. If you are heavy, you cannot keep up with the birds.
+
+  Then the guesses began to fit.
+plain_meta:
+  source: G-RE-006
+  status: draft
 ---
 *We thought we were making up silly little voices for the birds.*
 

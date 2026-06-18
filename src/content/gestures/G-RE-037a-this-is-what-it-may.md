@@ -16,6 +16,30 @@ notes: >-
   Drafted 2026-05-24 from Jason's muskrat story (RE-02-the-muskrats.md). "Frankly adorable" kept per
   Jason. Framed as example, not proof, per Jason: "Drop the proof. It's just an example. Something
   that may happen to you." Inserted between G-RE-037 and G-RE-038.
+plain: >
+  This is what it may look like when the path opens.
+
+  We knew they were there. Trackers know. But we had not seen them with
+  our own eyes. Then one afternoon, when the water was low, I saw
+  something out of the corner of my eye. A shine. I turned fast. There
+  was a chunky body, shuffling and sniffing among old oyster shells. The
+  fur looked like an otter. But the shape was wrong. It was too small,
+  too round, too waddly. It was a muskrat. Frankly adorable. We
+  stopped. We stopped walking. We stopped talking. We stood there for
+  fifteen or twenty minutes while it did its work. Time moves
+  differently out in the wild. And the wild is often not far from you at
+  all.
+
+  After that, we knew where to look. There are at least two of them now.
+  Nearby there is a small wetland that people built. That is a win on
+  its own. We check it now and then. We hope they have a burrow, a good
+  winter, and babies.
+
+  They were always there. Something changed when they let us see them.
+  Something changed in the feel of chance.
+plain_meta:
+  source: G-RE-037a
+  status: draft
 ---
 This is what it may look like when the channel opens.
 

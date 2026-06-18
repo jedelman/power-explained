@@ -18,6 +18,21 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-RE-027 on
   2026-05-20]
+plain: >
+  Here is what re-enchantment is not.
+
+  It is not the belief that everything is nice. The living world holds
+  hunting, parasites, disease, and death. The crow that calls out where
+  the owl is hiding is scared. The fear is real. The owl is a danger to
+  the robin's eggs. The re-enchanted world is not a world without
+  violence or loss. It is not a world where things stop eating each
+  other. It is a world where you can read these things. The crow's alarm
+  is news. The owl being there is a sign. Who is scared, who is hunting,
+  and who is hiding tells you something true about the exact place where
+  you stand.
+plain_meta:
+  source: G-RE-026
+  status: draft
 ---
 Here is what re-enchantment is not.
 
