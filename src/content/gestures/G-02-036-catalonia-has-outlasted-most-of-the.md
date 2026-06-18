@@ -31,6 +31,31 @@ notes: |
   Tonal pivot from G-02-028's defeat-but-not-wrong landing into a
   longue-durée durability frame. Brief Naples mention pre-echoes the
   contrast gesture (G-02-037) without naming it as such.
+plain: >
+  Catalonia has outlasted most of the empires it has been part of. It did so by
+  not being an empire itself.
+
+
+  The Crown of Aragon did spread its power across the Mediterranean long ago.
+  For a while it held Sicily, Sardinia, and even Naples for a few decades under
+  Alfonso V. But the way of thinking that lived on into modern times grew around
+  something else. This was true above all after 1714, when the Bourbons wiped
+  out Catalan self-rule. It grew around a region, a language, a working-class
+  city life, and a tradition of joining together as equals. It was never an
+  empire. It was a part of empires, never their center.
+
+
+  The empires that held it have fallen. The Holy Roman Empire is gone. The
+  Habsburg-Spanish empire is gone. By 1978, the Bourbon central rule was undone.
+  What lasts is the city, the language, the practices, and the way people relate
+  to the land and to each other.
+
+
+  Barcelona's groups of today stand on this. They have a city, not an empire's
+  capital. They have a region, not an empire. That has been enough.
+plain_meta:
+  source: G-02-036
+  status: draft
 ---
 Catalonia has outlasted most of the empires it has been part of, by not being one itself.
 

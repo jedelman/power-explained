@@ -18,5 +18,10 @@ notes: |
   Drafted by Claude in wizard register; revised by Jason to cut the
   defensive frame and the contrast-preview, leaving only the question and
   the promise.
+plain: >
+  Why Barcelona? There are reasons.
+plain_meta:
+  source: G-02-027
+  status: draft
 ---
 Why Barcelona? There are reasons.

@@ -30,6 +30,38 @@ notes: |
   was a child (born Spain 1959, moved early 1960s). Phrased to be true
   without overclaiming political-refugee status (parents are usually
   characterized as economic migrants).
+plain: >
+  Paris has been doing this too. Anne Hidalgo has been mayor since 2014. That is
+  almost the same span as Colau. She closed the roads by the Seine to cars. She
+  pushed the fifteen-minute city. She removed thousands of parking spaces. She
+  built bike paths where there had been only traffic. On a Sunday in central
+  Paris, things look different now. People walk by the Seine where the cars used
+  to be.
+
+
+  Hidalgo was born in Spain. Her family came to France from Franco's Spain when
+  she was a child. She knows the history. But her place is not Colau's place,
+  and the difference is the lesson.
+
+
+  Hidalgo works inside France's strong central government. The mayor of Paris is
+  held in by national rules in ways the mayor of Barcelona is not. Barcelona's
+  mayor works inside the Catalan region. Hidalgo's base is the French Socialist
+  Party, not a citizen group built from meetings. She is a career politician.
+  She pushes a forward-looking plan from inside an old party. She faces pushback
+  from drivers, from the right, and from the right-wing press. Her plan has made
+  real change. But the next mayor can put the parking spaces back. The system
+  that made Hidalgo can also make her opposite.
+
+
+  Colau had something Hidalgo does not. She had a group rooted in the
+  neighborhoods that elected her. She had a culture older than her time in
+  office and able to outlast it. The Barcelona that Colau changed has an immune
+  system. What Hidalgo is building in Paris is a different kind of power. It is
+  weak in a different way.
+plain_meta:
+  source: G-02-034
+  status: draft
 ---
 Paris has been doing this too. Anne Hidalgo has been mayor since 2014 — almost exactly Colau's tenure. She has closed the Seine quays to cars. She has pushed the fifteen-minute city, removed parking spaces by the thousand, and built bicycle infrastructure where before there was only traffic. Paris on a Sunday in central arrondissements is recognizably different from Paris a decade ago — pedestrians on the Seine quays where the cars used to be.
 

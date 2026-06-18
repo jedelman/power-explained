@@ -28,6 +28,37 @@ notes: |
   in Madrid; 1992 Olympics inflected Barcelona toward global mind-share
   branding; current vulnerabilities are gentrification and short-term
   rental pressure (tourism/Airbnb-driven displacement).
+plain: >
+  For a big European city, Barcelona's money works in an odd way. It has almost
+  no stock market of its own. The old Bolsa de Barcelona was folded into the
+  joined-up Spanish exchanges. The real money markets are in Madrid. Barcelona's
+  wealth is in owning things and running businesses. It is in small and
+  mid-sized firms, in family firms, in the port, in factories, in design work,
+  in cooperatives, and in the tourist trade. It is not in stocks and bonds. It
+  is not the kind of money-stripping that built Zurich or Frankfurt or took over
+  Geneva.
+
+
+  This is a different shape of wealth. The money is in the workshops and on the
+  streets, not on trading floors.
+
+
+  What Barcelona has instead is a different kind of value. It has built it on
+  purpose since the 1992 Olympics. It is the value of a good life. Good weather.
+  A city you can walk. Plazas built around old trees. The plane trees over the
+  wide streets. The food. The good name. People want to be in Barcelona. More
+  and more, that means skilled workers, designers, and scientists who can live
+  anywhere. The city draws their attention. That attention turns into money
+  without going through a stock market.
+
+
+  This brings its own danger. Rents rise and push people out. Tourism crowds the
+  city. Short-term rentals squeeze the housing market. But this is not the
+  danger of a money-market city. It is a different power, with a different
+  danger, and a different room to act.
+plain_meta:
+  source: G-02-035
+  status: draft
 ---
 Barcelona has a peculiar financial position for a major European city: there is no stock exchange of its own to speak of. The historical Bolsa de Barcelona was folded into the integrated Spanish exchanges; the real capital markets sit in Madrid. Barcelona's economic substrate is equity and business — ownership of small and medium enterprises, the deep network of family firms, the port, manufacturing, the design industries, the cooperative sector, the tourist economy. Not securities. Not the financial extraction that produced Zurich or Frankfurt or captured Geneva.
 

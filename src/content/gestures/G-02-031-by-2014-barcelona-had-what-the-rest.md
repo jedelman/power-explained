@@ -32,6 +32,44 @@ notes: |
   explained as substrate (fed ground vs. paved — the pavement keystone);
   the smell register is Jason’s body-entry for the stretch. The protected
   necromancy close untouched.
+plain: >
+  By 2014, Barcelona had something the rest of Spain did not yet have. It had a
+  group ready to govern.
+
+
+  In 2011, the 15M movement filled the public squares. Millions of Spaniards
+  came out. They said no to the cuts that came after the 2008 crash. The
+  movement did not make a party. It made something stranger. It made a way of
+  meeting and deciding together. Like a living culture in a jar, it was alive.
+  It was its own thing. It was useless with nothing to work on.
+
+
+  Occupy Wall Street started the same year, from the same urge. It made the
+  same thing. But in the United States, that way of meeting faded with nothing
+  left behind. The police cleared Zuccotti Park. In Spain, most of the meetings
+  faded too. But in a few places they hardened into something that lasted. The
+  reason was not the will of the people in the squares. It was the ground the
+  squares sat on. The same starter, poured onto different ground. You can smell
+  the difference in soil before you can name it. Fresh or rotten. Ripe or dry.
+  One ground had been fed for many years. Every group that lived in it had
+  worked it and seeded it. The other ground had been paved over.
+
+
+  Barcelona en Comú means Barcelona in Common. It grew from that hardening.
+  It was not a party. It grew up from below, from neighborhood meetings,
+  sending shoots up wherever the ground was good. It drew in PAH activists,
+  Podemos members, green groups, neighborhood groups, the green left, and
+  people who had never run for anything. The group asked its meetings what the
+  plan should be. The meetings decided.
+
+
+  This is what years of building can do. When the opening came, the group was
+  already there. The memory of the CNT, the region system, and the practice of
+  shared deciding had not just been waiting. They had been getting ready. The
+  past was acting in the present, called up by the opening.
+plain_meta:
+  source: G-02-031
+  status: draft
 ---
 By 2014, Barcelona had what the rest of Spain did not yet have: a coalition ready to govern.
 

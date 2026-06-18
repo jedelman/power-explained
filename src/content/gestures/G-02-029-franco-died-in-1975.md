@@ -32,6 +32,41 @@ notes: |
   Constitution; 17 autonomous communities; Catalan Statute 1979;
   Generalitat dissolved by Franco 1939 and restored 1979; Amnesty Law 1977
   preserved Franco-era state apparatus and gave amnesty to officials.
+plain: >
+  Franco died in 1975. What came next was not a revolution. It was a new plan
+  for how the country would be run.
+
+
+  In 1978, Spain voted for a new constitution. It set up a parliament with a
+  king. It also split power among seventeen regions. Each region got its own
+  rules, its own parliament, and its own jobs to do. In 1979, Catalonia got
+  its own deal. Catalonia would run its schools, its language, its health care,
+  its city planning, and much of its police and culture. Spain had become
+  almost like a country of many small states.
+
+
+  This was the opening. For forty years the city had been held down. Now it had
+  a regional government. It could stand up to Madrid and argue for itself. The
+  Catalan language came back to schools, to signs, and to television. The old
+  Catalan government was called the Generalitat. Franco had shut it down in
+  1939. Now it was brought back.
+
+
+  The change was not perfect. It kept much of the old system Franco had built.
+  It kept the king the old rulers had picked. It let officials who had done
+  terrible things go free. Spanish democracy still carries that deal. But the
+  region system is real. And Barcelona's later teamwork could only happen in
+  the room this opened.
+
+
+  This was also the time of three thinkers: Negri, Deleuze, and Guattari. They
+  came after 1968. They were thinking past parties. They thought about power
+  spread out among many people. Franco died in this moment. Spain wrote its new
+  rules in a time that was already dreaming up new ways for people to act
+  together.
+plain_meta:
+  source: G-02-029
+  status: draft
 ---
 Franco died in 1975. What followed was not revolution but constitutional design.
 

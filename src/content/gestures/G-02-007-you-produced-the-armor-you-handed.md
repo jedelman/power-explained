@@ -17,6 +17,15 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-02-008 on
   2026-05-20]
+plain: >
+  You made the armor. You handed it to them. You even risked a
+  parking ticket. The system did not lie to you. It ran the steps the
+  right way and gave you your three minutes. But under all the
+  talking and rules, the system's job is not to reach the right
+  answer. Its job is to make any answer look fair.
+plain_meta:
+  source: G-02-007
+  status: draft
 ---
 You produced the armor. You handed it to them. You risked a parking ticket.
 

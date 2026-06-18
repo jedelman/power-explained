@@ -31,6 +31,28 @@ notes: |
   so the chapter's structural lesson lands as available to the reader.
 
   Closes the chapter; G-02-038 is the final gesture in chapter-2.
+plain: >
+  Sounds like another world, doesn't it?
+
+
+  It is not another world. It is a different choice. You can reach it from this
+  one, by paths that are real, named in this chapter. The Zapatistas have a
+  saying that ends, many worlds are possible. They mean it for real. The way we
+  live is a setup, not a law of nature.
+
+
+  A wizard's job is to show you how. To name the conditions. To point at the
+  cracks. To lend you the sight that lets you know a possible world when you
+  walk into one. And to show you how to reach them. The hidden paths. The
+  gathered groups. The slow building of the ground that makes different fates
+  possible.
+
+
+  Barcelona is real. So are Naples and Norfolk. The difference between them is
+  not fate. It is what was done with the conditions each city had.
+plain_meta:
+  source: G-02-038
+  status: draft
 ---
 Sounds like another world, doesn't it?
 
