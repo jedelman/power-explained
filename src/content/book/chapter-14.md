@@ -33,6 +33,7 @@ gestures:
   - G-14-026
   - G-14-028
   - G-14-029
+  - G-14-029a
   - G-14-030
   - G-14-031
   - G-14-032
@@ -63,6 +64,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

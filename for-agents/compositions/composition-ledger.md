@@ -1187,3 +1187,62 @@ preface). Date-of-birth day disputed (Mar 9 vs 13) → used year only.
   practices. Faithful to G-OA-010 / G-14-020; no new Plotkin claim invented.
 - Critique: fresh-context sub-agent (fact-fidelity + honest-politics + Gandalf register
   + provenance) — pending in this session.
+
+---
+
+## Shamanism scholars (Jason directive, 2026-06-18): Taussig, Ginzburg, Kopenawa
+
+After the Eliade placement, Jason asked for non-fascist scholars of shamanism. I
+recommended a fact-checked shortlist; Jason chose **Taussig, Ginzburg, Kopenawa**
+(and agreed Harner = cautionary, not a source). Connections endorsed by Jason via
+his selection on the stated rationales. Same workflow as Eliade: profile (main
+site) + analytical-register gesture (river) + dramatis personae. Each gesture's
+chapter placement flagged for Jason to move.
+
+**Fact-check (this session, WebSearch + WebFetch of en.wikipedia.org):**
+- Taussig: b.1940 Sydney; Columbia anthropology; *The Devil and Commodity
+  Fetishism* (1980), *Shamanism, Colonialism, and the Wild Man: A Study in Terror
+  and Healing* (1987), *Mimesis and Alterity* (1993), *The Magic of the State*
+  (1997); Putumayo rubber terror; "culture of terror"/"space of death"; shaman
+  José García (1970s); Marxist/Benjamin; "principal concern of anthropology
+  should be to critique Western capitalist culture."
+- Ginzburg: b.1939 Turin; founder of microhistory; *The Night Battles* (1966),
+  *The Cheese and the Worms* (1976), *Ecstasies* (1989 It, 1991 Eng); the
+  benandanti (Friuli, harvest-protectors reframed as witches); father Leone
+  Ginzburg (anti-fascist, Einaudi) murdered by the Gestapo 1944; mother Natalia
+  Ginzburg.
+- Kopenawa: Yanomami shaman, b. c.1956 Rio Toototobi; *The Falling Sky* w/ Bruce
+  Albert (Fr 2010, Eng 2013 Harvard UP); xapiri; Hutukara Yanomami Assoc. (2004);
+  anti-garimpeiro campaign; Brazil recognized Yanomami land 1992; Right Livelihood
+  2019.
+
+**Artifacts (all distilled from the fact-checked profiles; no claim outside the
+verified facts; no invented quotes):**
+- Profiles: src/pages/taussig.astro, ginzburg.astro, kopenawa.astro (Tier 1).
+- Gestures (analytical register + plain blocks): G-07-019a (The Colony, after the
+  Fanon mirror G-07-019), G-15-008a (chapter-15, after the Federici witch-hunt
+  G-15-008), G-14-029a (chapter-14, after the Global Witness killings G-14-029).
+  RIVER TOUCHES flagged for Jason; separators inserted at the correct index via
+  scripts/wire (per-manifest).
+- Dramatis personae: G-DP-021 Taussig, G-DP-022 Ginzburg, G-DP-023 Kopenawa.
+- thinkers.astro index: three entries added.
+- Connections: Taussig = colonial extraction makes both terror and the "wild"
+  image, the shaman turns it back (extends Fanon mirror); Ginzburg = the
+  shamanic core (benandanti) under Federici's witch-hunt enclosure, the witch as
+  enclosed knower; Kopenawa = the practitioner's own voice vs the Western scholar
+  (answers the appropriation problem), the forest commons against extraction.
+- Critique: fresh-context sub-agent (fact-fidelity + register + provenance) —
+  pending this session.
+
+### Critique resolution (Taussig/Ginzburg/Kopenawa, 2026-06-18): SHIP WITH REVISION → applied
+- Fact-fidelity clean across all three (fresh-context critic). Fixes applied:
+  - Taussig profile: cut "two names that have stayed with the field" (unsourced reception claim).
+  - Ginzburg profile: STRIPPED the Eliade↔Ginzburg *scholarly* pairing (§03 callout + the
+    "structure they studied is the same" line) — that thinker-to-thinker analytical connection
+    was NOT on Jason's endorsed list. KEPT the endorsed Federici connection + the verified
+    anti-fascist-lineage contrast (Leone Ginzburg, Gestapo 1944) — that political contrast was
+    part of the rationale Jason selected Ginzburg on. **OPEN CALL for Jason:** want the deeper
+    Eliade↔Ginzburg pairing (Ginzburg as the living instance of what Eliade catalogued)? Held back.
+  - Kopenawa: softened the 1992 causal ("helped win/bring") → "following his international
+    campaigning, Brazil recognized…" to track the verified source phrasing exactly. (3 surfaces.)
+  - Plain blocks tightened to FK ≤6 (3.0 / 3.6 / 4.0).

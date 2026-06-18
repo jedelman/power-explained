@@ -23,3 +23,12 @@ prose ships (see CLAUDE.md fact-checking protocol).
   candidate angles to RAISE WITH JASON, not connections to assert.
 - **Placement: TBD by Jason** (thinker profile? lineage gesture? a wizard-chapter
   beat? dramatis-personae?). Awaiting his direction.
+
+## Taussig, Ginzburg, Kopenawa — PLACED 2026-06-18 (profile + gesture + dramatis personae; staged on PR #11, pending Jason review)
+- Chosen by Jason from a fact-checked shortlist of non-fascist scholars/practitioners of shamanism.
+- **Michael Taussig** (b.1940) — *Shamanism, Colonialism, and the Wild Man*; terror+healing under colonial extraction. Gesture G-07-019a (The Colony). Profile /taussig.
+- **Carlo Ginzburg** (b.1939) — the benandanti; shamanic core under the witch hunts; anti-fascist lineage (father murdered by the Gestapo 1944) — the pointed inverse of Eliade. Gesture G-15-008a (chapter-15, w/ Federici). Profile /ginzburg.
+- **Davi Kopenawa** (b.c.1956) — Yanomami shaman; *The Falling Sky*; the practitioner's own voice against mining. Gesture G-14-029a (chapter-14, land defenders). Profile /kopenawa.
+
+## Michael Harner — CONSIDERED, NOT PLACED (Jason, 2026-06-18)
+- Founder of "core shamanism." Jason has taken a Harner class and agrees with the assessment: not a source/hero. Useful only as a CAUTIONARY case — the decontextualizing/commercializing of shamanism into a sellable technique is itself an enclosure (the sacred turned product). Do not write a hero profile.

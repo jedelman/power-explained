@@ -28,7 +28,13 @@ gestures:
   - G-DP-007
   - G-DP-017
   - G-DP-020
+  - G-DP-021
+  - G-DP-022
+  - G-DP-023
 separators:
+  - section
+  - section
+  - section
   - section
   - section
   - section
