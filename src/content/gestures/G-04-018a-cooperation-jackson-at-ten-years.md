@@ -56,7 +56,7 @@ notes: |
   is not in the verified Sept 2024 operating list. Replaced with
   the verified six.
 plain: >
-  Ten years in, by May 2024, there were six worker cooperatives running. One was
+  Ten years into Cooperation Jackson, by May 2024, there were six worker cooperatives running. One was
   Freedom Farms. It grows organic vegetables on five acres. One was Green Team
   Landscaping. One was the Community Production Cooperative. It does 3D printing and
   small-scale making. One was Zero Waste. One was Eversville Design and Print Shop.

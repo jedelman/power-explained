@@ -20,7 +20,7 @@ notes: >-
   merging with adjacent gestures is expected on plateau-level revision. [merged G-06-028 on
   2026-05-20]
 plain: >
-  In 1972, Walter Rodney wrote a book. It was called *How Europe
+  In 1972, Rodney wrote a book. It was called *How Europe
   Underdeveloped Africa*. His main idea changes how we talk about Africa.
 
   Africa was not poor by chance. People made it poor on purpose. They

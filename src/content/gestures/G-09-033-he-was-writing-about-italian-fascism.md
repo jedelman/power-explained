@@ -16,7 +16,7 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
-  He was writing about fascism in Italy. We are in such an in-between
+  Gramsci was writing about fascism in Italy. We are in such an in-between
   time now. The old liberal order is breaking. It is breaking under
   the weight of two things: harm to nature, and the failure of
   democracy. The new way is not yet born. The sick signs show up in

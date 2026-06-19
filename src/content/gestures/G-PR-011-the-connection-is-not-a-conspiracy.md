@@ -14,10 +14,10 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
-  No one plans it. The people who raised the rent do not sit with the
-  people who built the highway. The people who made the app are not in
-  the room either. The connection is built into the system. No one has
-  to plan it. It shows up on its own under certain conditions. And we
+  No one plans the connection. The people who raised the rent do not sit
+  with the people who built the highway. The people who made the app are
+  not in the room either. The connection is built into the system. No one
+  has to plan it. It shows up on its own under certain conditions. And we
   can name those conditions.
 plain_meta:
   source: G-PR-011
