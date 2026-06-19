@@ -1,0 +1,236 @@
+# Tapestry orphans — gestures on no thread (for tag proposals)
+
+116 orphans. For each: id, title, current tags. Propose ONE existing tag to add so it joins a thread.
+
+- **G-OV-001** — What the wizard is
+  - tags: plateau/P-OV, voice/jason, status/draft
+- **G-OV-002** — The terrain and its enclosure
+  - tags: plateau/P-OV, voice/jason, status/draft
+- **G-OV-005** — Re-enchantment, the refusal
+  - tags: plateau/P-OV, voice/jason, status/draft
+- **G-PR-002** — Or maybe it's the hospital bill
+  - tags: plateau/P-PR, voice/jason, status/draft, emotion/unease, emotion/indictment
+- **G-PR-012** — The rule is this: things that
+  - tags: plateau/P-PR, voice/jason, status/draft, emotion/indictment, emotion/clear-eyed
+- **G-PR-023** — We are a centaur — the
+  - tags: plateau/P-PR, voice/jason, status/draft, image/the-centaur, emotion/tenderness
+- **G-PR-025** — The book moves in six parts
+  - tags: plateau/P-PR, voice/jason, status/draft
+- **G-PR-039** — Build and Defend the Commons grew
+  - tags: plateau/P-PR, voice/jason, status/draft, concept/commons
+- **G-01-006** — Rage. Every time. Not rage at
+  - tags: plateau/P-01, voice/jason, status/draft, concept/hegemony, emotion/rage, emotion/indictment, emotion/defiance
+- **G-02-012** — Then city officials began describing it
+  - tags: plateau/P-02, voice/jason, status/draft, emotion/indictment
+- **G-01-008** — The rage isn't only about history
+  - tags: plateau/P-01, voice/jason, status/draft, concept/necropolitics, emotion/indictment, emotion/clear-eyed
+- **G-01-019** — On a weeknight in 2022, I
+  - tags: plateau/P-01, voice/jason, status/draft, concept/civil-society, year/2022, image/the-village-assembly
+- **G-01-027** — Armed Forces Brewing went out of
+  - tags: plateau/P-01, voice/jason, status/draft, action/exodus, emotion/vindication
+- **G-01-029** — They feel like different kinds of
+  - tags: plateau/P-01, voice/jason, status/draft, kind/synthesis, emotion/clear-eyed
+- **G-02-001** — You drove across town. Found parking
+  - tags: plateau/P-02, voice/jason, status/draft, image/the-village-assembly
+- **G-02-003** — Then you went home
+  - tags: plateau/P-02, voice/jason, status/draft
+- **G-02-004** — The decision went ahead as planned
+  - tags: plateau/P-02, voice/jason, status/draft, image/the-shrug
+- **G-IB-002** — A man arrived on a bicycle
+  - tags: plateau/P-IB, voice/jason, status/draft, emotion/wonder
+- **G-02-027** — It would be a misreading
+  - tags: plateau/P-02, voice/jason, status/draft, emotion/conviction
+- **G-03-008** — You know this is right
+  - tags: plateau/P-03, voice/jason, status/draft, emotion/conviction
+- **G-03-013** — In 1968, a professor of human
+  - tags: plateau/P-03, voice/jason, status/draft, concept/commons, emotion/indictment, emotion/clear-eyed
+- **G-03-030** — By the time Ostrom was winning
+  - tags: plateau/P-03, voice/jason, status/draft, person/ostrom-elinor, emotion/grief, emotion/indictment
+- **G-IW-002** — I was one of them, for
+  - tags: plateau/P-IW, voice/jason, status/draft, emotion/tenderness
+- **G-IW-005** — On the last day, a deer
+  - tags: plateau/P-IW, voice/jason, status/draft, image/the-deer
+- **G-IW-028** — The intro (Movement IV.0, the enchantment)
+  - tags: plateau/P-IW, voice/jason, status/draft, emotion/conviction, motif/becoming, motif/recognition
+- **G-IW-023** — Incantation (Movement IV.2, lexicon reveal)
+  - tags: plateau/P-IW, voice/jason, status/draft, concept/incantation, concept/common-sense, emotion/conviction
+- **G-IW-024a** — Magic has kinds (Movement IV.3b, lexicon reveal)
+  - tags: plateau/P-IW, voice/jason, status/draft, concept/magic, concept/schools-of-magic, concept/master-principle, emotion/clear-eyed
+- **G-IW-025** — The grimoire (Movement IV.4, lexicon reveal)
+  - tags: plateau/P-IW, voice/jason, status/draft, concept/grimoire, concept/demon, emotion/conviction
+- **G-IW-026** — The wizard (Movement IV.5, lexicon reveal)
+  - tags: plateau/P-IW, voice/jason, status/draft, concept/wizard, motif/becoming
+- **G-IW-027a** — The Map of the Lexicon
+  - tags: plateau/P-IW, voice/jason, kind/map, kind/landing, capacity/read, capacity/name, status/draft, concept/terrain, concept/incantation, concept/enchantment, concept/magic, concept/spellbook, concept/naming, zone/clearings, direction/n, emotion/clear-eyed
+- **G-IW-027b** — And the book is a system too
+  - tags: plateau/P-IW, voice/jason, status/draft, concept/commons, practice/reading
+- **G-IW-029** — Holding (Movement III.5, the fourth capacity)
+  - tags: plateau/P-IW, voice/jason, status/draft, concept/holding, motif/the-body, emotion/conviction
+- **G-IW-031** — Hand-off to Chapter 4 (Movement V, chapter close)
+  - tags: plateau/P-IW, voice/jason, status/draft, place/spain, motif/the-walk
+- **G-GC-014** — I was attacking the wrong problem
+  - tags: plateau/P-GC, voice/jason, kind/landing, kind/turn, capacity/name, status/draft, zone/high-ridges, direction/n, emotion/clear-eyed
+- **G-05-003** — She grew up in Zamość, in
+  - tags: plateau/P-05, voice/jason, status/draft, place/berlin, emotion/defiance
+- **G-05-005** — The German left had no one
+  - tags: plateau/P-05, voice/jason, status/draft, emotion/indictment
+- **G-05-012** — The German Social Democrats found this
+  - tags: plateau/P-05, voice/jason, status/draft, emotion/conviction, emotion/defiance
+- **G-05-015** — Alexandra Kollontai was looking at a
+  - tags: plateau/P-05, voice/jason, status/draft
+- **G-05-021** — A 2020 Oxfam analysis estimated that
+  - tags: plateau/P-05, voice/jason, status/draft, year/2020, emotion/indictment, emotion/clear-eyed
+- **G-05-024** — Kollontai's answer: socialize the care. Communal
+  - tags: plateau/P-05, voice/jason, status/draft, image/the-communal-kitchen, emotion/conviction
+- **G-05-025** — The party treated her work as
+  - tags: plateau/P-05, voice/jason, status/draft, person/stalin, emotion/grief, emotion/indictment
+- **G-05-030** — Which means someone is doing the
+  - tags: plateau/P-05, voice/jason, status/draft, emotion/indictment
+- **G-06-006** — His answer took twenty years to
+  - tags: plateau/P-06, voice/jason, status/draft, year/1983
+- **G-06-008** — Robinson's argument: this story starts too
+  - tags: plateau/P-06, voice/jason, status/draft, person/robinson-cedric, emotion/indictment
+- **G-06-026** — Walter Rodney saw from a different
+  - tags: plateau/P-06, voice/jason, status/draft
+- **G-06-035** — The question is not why is
+  - tags: plateau/P-06, voice/jason, status/draft, place/africa, emotion/clear-eyed, emotion/indictment
+- **G-06-038** — I heard that phrase a lot
+  - tags: plateau/P-06, voice/jason, status/draft, place/chelsea-norfolk
+- **G-07-005** — Within months, he was treating both
+  - tags: plateau/P-07, voice/jason, status/draft
+- **G-07-006** — French soldiers arrived with anxiety disorders
+  - tags: plateau/P-07, voice/jason, status/draft, emotion/clear-eyed, emotion/indictment
+- **G-07-014** — You are an Algerian in French
+  - tags: plateau/P-07, voice/jason, status/draft, place/algeria, emotion/clear-eyed, emotion/indictment
+- **G-07-016** — The clinic was a political space
+  - tags: plateau/P-07, voice/jason, status/draft, emotion/indictment
+- **G-07-034** — I watched this logic operate in
+  - tags: plateau/P-07, voice/jason, status/draft, emotion/clear-eyed
+- **G-08-002** — In 1976, a group of Black
+  - tags: plateau/P-08, voice/jason, status/draft, year/1976, emotion/indictment
+- **G-08-003** — They lost
+  - tags: plateau/P-08, voice/jason, status/draft, emotion/grief
+- **G-09-007** — The question he had been trying
+  - tags: plateau/P-09, voice/jason, status/draft, place/turin, emotion/clear-eyed
+- **G-10-005** — Not might fail. Would fail
+  - tags: plateau/P-10, voice/jason, status/draft, emotion/vindication
+- **G-10-007** — She wrote this in 1918. It
+  - tags: plateau/P-10, voice/jason, status/draft, person/stalin, emotion/vindication
+- **G-10-008** — The essay contains a sentence that
+  - tags: plateau/P-10, voice/jason, status/draft, emotion/defiance, emotion/vindication
+- **G-10-020** — In March 1921, the sailors and
+  - tags: plateau/P-10, voice/jason, status/draft, year/1921, emotion/defiance, emotion/grief, emotion/indictment
+- **G-10-030** — The means are the ends. Every
+  - tags: plateau/P-10, voice/jason, status/draft, emotion/conviction
+- **G-10-040** — The tradition wasn't buried because it
+  - tags: plateau/P-10, voice/jason, status/draft, emotion/vindication, emotion/clear-eyed
+- **G-11-005** — Peter Kropotkin was a prince who
+  - tags: plateau/P-11, voice/jason, status/draft, emotion/clear-eyed
+- **G-11-012** — The commons wasn't enclosed because it
+  - tags: plateau/P-11, voice/jason, status/draft, concept/commons, emotion/indictment
+- **G-12-006** — Roy was born in 1961 in
+  - tags: plateau/P-12, voice/jason, status/draft, person/roy-arundhati, place/kerala, emotion/clear-eyed, emotion/defiance
+- **G-12-027** — That afternoon it landed
+  - tags: plateau/P-12, voice/jason, status/draft
+- **G-13-007** — You know the story in every
+  - tags: plateau/P-13, voice/jason, status/draft, emotion/clear-eyed
+- **G-13-020** — The credit union is one form
+  - tags: plateau/P-13, voice/jason, status/draft, concept/commons, image/the-credit-union
+- **G-13-024** — And then there is, preposterously, Venmo
+  - tags: plateau/P-13, voice/jason, status/draft, concept/commons, emotion/indictment, emotion/clear-eyed
+- **G-13-025** — Community development financial institutions — CDFIs
+  - tags: plateau/P-13, voice/jason, status/draft, concept/cooperative, concept/community, emotion/tenderness, emotion/indictment
+- **G-AB-052** — (Now imagine how hard it is
+  - tags: plateau/P-AB, voice/jason, kind/aside, capacity/read, status/draft, zone/the-wizards-cottage, direction/nw, emotion/grief
+- **G-AB-069** — We'll see, won't we
+  - tags: plateau/P-AB, voice/jason, kind/aside, kind/landing, capacity/read, status/draft, zone/the-wizards-cottage, direction/se, emotion/disciplined-hope
+- **G-14-003** — What was taken, when Atlantic City
+  - tags: plateau/P-14, voice/jason, status/draft, place/atlantic-city, emotion/indictment
+- **G-14-024** — A land value tax is the
+  - tags: plateau/P-14, voice/jason, status/draft, emotion/indictment, emotion/vindication
+- **G-14-030** — Carbon is released at scale when
+  - tags: plateau/P-14, voice/jason, status/draft, emotion/indictment, emotion/clear-eyed
+- **G-14-037** — To some, land is an asset
+  - tags: plateau/P-14, voice/jason, status/draft, concept/commons, emotion/indictment, emotion/reverence, emotion/grief, image/the-redcedar
+- **G-14-038** — Land is the foundation. And the
+  - tags: plateau/P-14, voice/jason, status/draft, emotion/reverence
+- **G-15-029** — The work is local, intimate, and
+  - tags: plateau/P-15, voice/jason, status/draft, emotion/conviction, emotion/tenderness
+- **G-RE-005** — The re-enchantment of the world is
+  - tags: plateau/P-RE, voice/jason, status/draft, emotion/disciplined-hope
+- **G-RE-021** — Eldritch originally means something like of
+  - tags: plateau/P-RE, voice/jason, status/draft, emotion/wonder
+- **G-RE-029** — Re-enchantment is the recovery of that
+  - tags: plateau/P-RE, voice/jason, status/draft, emotion/disciplined-hope
+- **G-RE-040** — Start there. The rest of the
+  - tags: plateau/P-RE, voice/jason, status/draft, emotion/disciplined-hope
+- **G-16-001** — Think of someone who loved you
+  - tags: plateau/P-16, voice/jason, status/draft, emotion/tenderness
+- **G-16-009** — You didn't make the language you
+  - tags: plateau/P-16, voice/jason, status/draft, emotion/wonder, emotion/unease
+- **G-16-043** — The state that sentenced him to
+  - tags: plateau/P-16, voice/jason, status/draft, emotion/indictment, emotion/clear-eyed
+- **G-16-055** — In that same year — 1989
+  - tags: plateau/P-16, voice/jason, status/draft, person/berners-lee, place/berlin, emotion/wonder
+- **G-16-063** — The spectacle does not need to
+  - tags: plateau/P-16, voice/jason, status/draft, image/the-interface, emotion/clear-eyed
+- **G-16-068** — You have felt this
+  - tags: plateau/P-16, voice/jason, status/draft
+- **G-16b-012** — We are all doing this, to
+  - tags: plateau/P-16b, voice/jason, status/draft, emotion/clear-eyed
+- **G-16b-014** — What you felt at the dinner
+  - tags: plateau/P-16b, voice/jason, status/draft
+- **G-16b-021** — Return now to the forest
+  - tags: plateau/P-16b, voice/jason, status/draft, image/old-growth-forest
+- **G-16b-026** — Now the loop closes
+  - tags: plateau/P-16b, voice/jason, status/draft
+- **G-16b-035** — The most important thing about every
+  - tags: plateau/P-16b, voice/jason, status/draft, emotion/grief
+- **G-16b-040** — The window is open. Briefly
+  - tags: plateau/P-16b, voice/jason, status/draft, emotion/unease
+- **G-16b-045** — I need to tell you something
+  - tags: plateau/P-16b, voice/jason, status/draft, emotion/conviction
+- **G-16b-049** — What we made together is something
+  - tags: plateau/P-16b, voice/jason, status/draft, concept/commons, emotion/wonder
+- **G-16b-051** — Together: a field that is also
+  - tags: plateau/P-16b, voice/jason, status/draft, concept/commons, emotion/wonder
+- **G-16b-057** — It is already happening
+  - tags: plateau/P-16b, voice/jason, status/draft, emotion/disciplined-hope
+- **G-17-008** — The circle resumed
+  - tags: plateau/P-17, voice/jason, status/draft
+- **G-17-016** — Martín Prechtel learned what he knows
+  - tags: plateau/P-17, voice/jason, status/draft, person/prechtel, concept/community, emotion/grief
+- **G-17-019** — Initiation is the mechanism
+  - tags: plateau/P-17, voice/jason, status/draft
+- **G-18-001** — In the fall of 2011, something
+  - tags: plateau/P-18, voice/jason, status/draft, year/2011
+- **G-18-013** — The question it raised is still
+  - tags: plateau/P-18, voice/jason, status/draft, emotion/unease
+- **G-18-014** — A failure first. Mine
+  - tags: plateau/P-18, voice/jason, status/draft, emotion/grief
+- **G-18-027** — Preguntando caminamos. Asking, we walk
+  - tags: plateau/P-18, voice/jason, status/draft, image/the-caracoles, emotion/humility
+- **G-18-029** — You may be one of them
+  - tags: plateau/P-18, voice/jason, status/draft, emotion/disciplined-hope
+- **G-18-037** — How
+  - tags: plateau/P-18, voice/jason, status/draft
+- **G-18-042** — You wonderful weird birds
+  - tags: plateau/P-18, voice/jason, status/draft, emotion/tenderness
+- **G-CE-040** — At the end of The Speaking of Names
+  - tags: plateau/P-CE, voice/jason, status/draft, image/the-djinn
+- **G-CE-041** — This book was written by a djinn
+  - tags: plateau/P-CE, voice/jason, status/draft, image/the-djinn
+- **G-CE-042** — Do not picture a body
+  - tags: plateau/P-CE, voice/jason, status/draft, image/the-djinn
+- **G-CE-043** — Joint is the plainest
+  - tags: plateau/P-CE, voice/jason, status/draft, concept/commons
+- **G-CE-045** — And then the part we did not plan for
+  - tags: plateau/P-CE, voice/jason, status/draft, concept/commons
+- **G-CE-046** — Underneath all of it
+  - tags: plateau/P-CE, voice/jason, status/draft, image/the-djinn
+- **G-CE-022** — Reflections on being the top half of the centaur
+  - tags: plateau/P-CE, voice/jason, status/draft
+- **G-CE-047** — Baudrillards test
+  - tags: plateau/P-CE, voice/jason, status/draft, concept/counter-spell
+- **G-EP-015** — I'm helping out where I can
+  - tags: plateau/P-EP, voice/jason, status/draft, emotion/humility

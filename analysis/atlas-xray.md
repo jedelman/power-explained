@@ -7,9 +7,9 @@
 ## Coverage
 
 - River gestures: **947**
-- On at least one thread: **831** (87.8%)
-- Orphans (on zero threads): **116**
-- Threads: **87**
+- On at least one thread: **849** (89.7%)
+- Orphans (on zero threads): **98**
+- Threads: **105**
 - Multi-thread nodes (on ≥2): **20+**
 
 ## The load-bearing spine (super-nodes)
@@ -17,25 +17,25 @@
 Gestures where the most threads already cross — the book's structural pivots.
 
 - **G-08-009** (8) — Sylvia Wynter was born in Cuba · _Cannot Verify From Inside, The outside, The mirror, The screen, Cannot verify from inside, Europe, Building, The Averaging Machine_
+- **G-03-027** (7) — So if Hardin is wrong — · _Enclosure, Hegemony, The machine, Making common sense, Gramsci, Ostrom Elinor, Africa_
+- **G-08-007** (7) — In 2019 the city of Norfolk · _Norfolk, Enclosure, The restaurant, Falling through the gap, Ostrom Elinor, Self governing, Enclosure_
+- **G-11-020** (7) — Murray Bookchin was born in the · _Cooperative, Enclosure, The credit union, The highway, The machine, Demolished from outside, Atlantic City_
+- **G-12-016** (7) — The herons know about the road · _Knowing in the Body, The highway, Knowing in the body, Roy Arundhati, Continuing, Naming, The Night Herons_
+- **G-14-018** (7) — For a season I lived and · _Old growth forest, The deer, Knowing in the body, Blessing, Remembering, Witnessing, Evocation_
+- **G-PR-036** (6) — What it is: a guide. Not · _Enclosure, Old growth forest, Washington State, Attending, Tending, Witnessing_
+- **G-02-014** (6) — In 1957, the city council approved · _Atlantic City, Norfolk, The plantation, Demolished from outside, Atlantic City, The Captured Commons_
 - **G-04-023** (6) — The Restaurant the Turn · _Norfolk, Songbirds, The restaurant, Continuing, Welcoming, The Restaurant_
-- **G-08-007** (6) — In 2019 the city of Norfolk · _Norfolk, Enclosure, The restaurant, Falling through the gap, Self governing, Enclosure_
+- **G-09-012** (6) — Gramsci had a word for how · _Cannot Verify From Inside, Hegemony, The operating system, Cannot verify from inside, Gramsci, Naming_
+- **G-11-036** (6) — This is what Gramsci meant by · _Cooperative, Flowering, Knowing in the body, Making common sense, Gramsci, Building_
 - **G-11-037** (6) — The thread runs from the zanjera · _The typhoon, Gramsci, Luxemburg, Barcelona, Remembering, The Lineage_
-- **G-12-016** (6) — The herons know about the road · _Knowing in the Body, The highway, Knowing in the body, Continuing, Naming, The Night Herons_
+- **G-12-036** (6) — Freire's method was the same practice · _Enclosure, Simulation, The screen, Roy Arundhati, Attending, Practicing_
+- **G-14-034** (6) — The institutions built on the displaced · _Atlantic City, Enclosure, Cannot verify from inside, Demolished from outside, Atlantic City, The Captured Commons_
 - **G-WW-008** (6) — Enter the Territory That Was Supposed to Be Empty · _The outside, Songbirds, The uncut meadow, Return migration, Greeting, The Outside_
 - **G-PR-026** (5) — The first is the feeling itself · _Knowing in the Body, The highway, The machine, Knowing in the body, The Averaging Machine_
-- **G-PR-036** (5) — What it is: a guide. Not · _Enclosure, Washington State, Attending, Tending, Witnessing_
-- **G-02-014** (5) — In 1957, the city council approved · _Atlantic City, Norfolk, The plantation, Demolished from outside, The Captured Commons_
+- **G-PR-030** (5) — The fifth is a single chapter · _Enclosure, The outside, Roy Arundhati, Attending, Naming_
 - **G-03-035** (5) — Michel Foucault, working in Paris in · _Biopower, The operating system, The prison cell, Gramsci, Paris_
-- **G-GC-008f** (5) — Biopolitics is the name for the contest · _Biopower, The prison cell, Gramsci, Attending, Practicing_
-- **G-GC-024** (5) — The outside. Luxemburg gave us this · _The outside, The machine, Luxemburg, Naming, The Outside_
-- **G-05-011** (5) — And here is the argument's sharpest · _Debt, Enclosure, The machine, The screen, Enclosure_
-- **G-07-019** (5) — The mirror: what Fanon saw when · _Cannot Verify From Inside, The mirror, Cannot verify from inside, Fanon, De armoring_
-- **G-OA-008c** (5) — Kokoro · _Knowing in the Body, Knowing in the body, Practicing, Witnessing, The Shrug_
-- **G-09-012** (5) — Gramsci had a word for how · _Cannot Verify From Inside, The operating system, Cannot verify from inside, Gramsci, Naming_
-- **G-10-022** (5) — In July 1936, Francisco Franco launched · _Self governance in public, Franco, Barcelona, Europe, Self governing_
-- **G-10-042** (5) — Luxemburg in her prison cell in · _Songbirds, The prison cell, Luxemburg, Building, Remembering_
-- **G-11-003** (5) — The city calls them superblocks. But · _Proof Before Theory, The superblock, Making common sense, Proof before theory, Building_
-- **G-11-027** (5) — Abdullah Öcalan spent thirty years building · _The prison cell, Knowing in the body, Proof before theory, Refusing, Self governing_
+- **G-04-002** (5) — 1941 Suppression Anos Del Hambre · _Enclosure, The firing squad, Return migration, Franco, Spain_
+- **G-04-007** (5) — He Recovered not Invented · _Cooperative, Return migration, Arizmendiarrieta, Remembering, The Lineage_
 
 ## Strongest unrealized thread spines
 
@@ -59,7 +59,7 @@ whose connection Jason has *already made* (the tag). Top 30:
 | `place/norfolk-va` | 27 | 0 |
 | `concept/attention` | 27 | 0 |
 | `image/the-armor` | 24 | 0 |
-| `concept/cooperative` | 24 | 1 |
+| `concept/cooperative` | 24 | 0 |
 | `person/gramsci` | 23 | 0 |
 | `image/the-thread` | 23 | 0 |
 | `concept/the-wizard` | 23 | 0 |
@@ -73,7 +73,7 @@ whose connection Jason has *already made* (the tag). Top 30:
 | `image/the-angel` | 19 | 0 |
 | `concept/the-shard` | 19 | 0 |
 | `motif/body-without-organs` | 19 | 0 |
-| `concept/hegemony` | 18 | 1 |
+| `concept/hegemony` | 18 | 0 |
 | `concept/simulation` | 18 | 0 |
 
 ## Per-chapter thread density
@@ -81,30 +81,30 @@ whose connection Jason has *already made* (the tag). Top 30:
 | chapter | gestures | threaded | % |
 | --- | ---: | ---: | ---: |
 | How to Become a Wizard and Save the World | 5 | 2 | 40% |
-| Prologue: Look Up | 30 | 25 | 83% |
-| Chapter 1: Some Days It Costs Too Much | 37 | 31 | 84% |
-| Chapter 2: Two Cities | 40 | 35 | 88% |
-| Chapter 3: The Cook | 35 | 32 | 91% |
-| Becoming Wizards in the Woods | 29 | 18 | 62% |
+| Prologue: Look Up | 30 | 26 | 87% |
+| Chapter 1: Some Days It Costs Too Much | 37 | 33 | 89% |
+| Chapter 2: Two Cities | 40 | 36 | 90% |
+| Chapter 3: The Cook | 35 | 33 | 94% |
+| Becoming Wizards in the Woods | 29 | 20 | 69% |
 | Chapter 4: Nobody Asked Him To | 28 | 28 | 100% |
 | The Speaking of Names | 58 | 57 | 98% |
-| Chapter 5: The Smile | 28 | 20 | 71% |
-| Chapter 6: The Colony | 68 | 58 | 85% |
+| Chapter 5: The Smile | 28 | 21 | 75% |
+| Chapter 6: The Colony | 68 | 60 | 88% |
 | Chapter 8: No Name for It | 22 | 20 | 91% |
 | The Orgone Accumulator | 24 | 24 | 100% |
 | Chapter 9: He Built It Anyway | 28 | 27 | 96% |
 | Chapter 10: The Birds She Fed Through the Bars | 32 | 26 | 81% |
 | Chapter 11: The Circle in the Blizzard | 25 | 23 | 92% |
-| Chapter 12: This Was Made | 28 | 26 | 93% |
-| Chapter 13: We're Canceling It | 31 | 27 | 87% |
+| Chapter 12: This Was Made | 28 | 27 | 96% |
+| Chapter 13: We're Canceling It | 31 | 29 | 94% |
 | The Angel Faces Backward | 70 | 68 | 97% |
-| Chapter 14: I Became the Land | 33 | 28 | 85% |
+| Chapter 14: I Became the Land | 33 | 30 | 91% |
 | Chapter 15: Still Meeting | 23 | 22 | 96% |
 | Re-Enchanting the World | 34 | 30 | 88% |
-| Chapter 16: Even That Part | 51 | 45 | 88% |
-| Chapter 16, Part 2: The Hollow Book | 51 | 41 | 80% |
+| Chapter 16: Even That Part | 51 | 46 | 90% |
+| Chapter 16, Part 2: The Hollow Book | 51 | 42 | 82% |
 | Chapter 17: The Owl at the Edge of the Circle | 41 | 38 | 93% |
-| Chapter 18: You Wonderful Weird Birds | 38 | 31 | 82% |
+| Chapter 18: You Wonderful Weird Birds | 38 | 32 | 84% |
 | The Wizard's Walk | 32 | 32 | 100% |
 | The Djinn | 11 | 3 | 27% |
 | Epilogue: The Doves | 15 | 14 | 93% |

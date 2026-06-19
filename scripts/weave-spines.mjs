@@ -134,6 +134,26 @@ while (true) {
   pool.delete(best);
 }
 
+// Mop-up — a gesture that still sits on no thread but carries a substantial
+// theme tag (>= SPINE_TOTAL_MIN) deserves that thread, even though the minimal
+// cover skipped it (its siblings were already covered). These are real walks.
+{
+  const stillOrphan = order.filter((id) => !covered.has(id));
+  const wanted = new Set();
+  for (const id of stillOrphan) {
+    const big = (fmOf(id).tags || [])
+      .filter((t) => !DENY.has(t) && SPINE_NS.some((p) => t.startsWith(p)) && (spineTags.get(t)?.length || 0) >= SPINE_TOTAL_MIN)
+      .sort((a, b) => spineTags.get(b).length - spineTags.get(a).length)[0];
+    if (big) wanted.add(big);
+  }
+  for (const tag of wanted) {
+    if (chosen.some((c) => c.tag === tag)) continue;
+    const ids = spineTags.get(tag);
+    chosen.push({ tag, axis: "theme", ids });
+    ids.forEach((i) => covered.add(i));
+  }
+}
+
 const orphans = order.filter((id) => !covered.has(id));
 
 // --- naming / framing ------------------------------------------------------
