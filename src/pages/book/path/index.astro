@@ -24,10 +24,20 @@ const threads = fs
       h1: fm.h1 || fm.title,
       kicker: fm.kicker || '',
       invocation: fm.invocation || '',
+      kind: fm.kind || 'curated',
+      axis: fm.axis || '',
       count: Array.isArray(fm.gestures) ? fm.gestures.length : 0,
     }
   })
   .sort((a, b) => a.h1.localeCompare(b.h1))
+
+// Two layers: curated "featured" walks (hand-authored, with invocations) and
+// the generated spine layer — the complete weave, every gesture gathered by the
+// book's own tags. The spine layer splits by axis: practices ("what the book
+// does") and themes ("what it's about"). See scripts/weave-spines.mjs.
+const featured = threads.filter(t => t.kind !== 'spine')
+const practices = threads.filter(t => t.kind === 'spine' && t.axis === 'practice')
+const themes = threads.filter(t => t.kind === 'spine' && t.axis === 'theme')
 
 const crossings = threadCrossings()
 ---
@@ -60,26 +70,70 @@ const crossings = threadCrossings()
       </p>
     </header>
 
-    {threads.length === 0 ? (
-      <p class="threads-empty">No threads yet.</p>
-    ) : (
-      <ul class="threads-list">
-        {threads.map(t => (
-          <li class="thread-card">
-            <a href={`/book/path/${t.slug}`} class="thread-card-link">
-              {t.kicker && <span class="thread-card-kicker">{t.kicker}</span>}
-              <span class="thread-card-title">{t.h1}</span>
-              {t.invocation && <span class="thread-card-inv">{t.invocation}</span>}
-              <span class="thread-card-meta">
-                {t.count} gestures
-                {(crossings[t.slug]?.length || 0) > 0 &&
-                  ` · crosses ${crossings[t.slug].length} ${crossings[t.slug].length === 1 ? 'thread' : 'threads'}`}
-                {' →'}
-              </span>
-            </a>
-          </li>
-        ))}
-      </ul>
+    {threads.length === 0 && <p class="threads-empty">No threads yet.</p>}
+
+    {featured.length > 0 && (
+      <section class="thread-section">
+        <h2 class="section-h">Featured walks</h2>
+        <p class="section-note">Hand-woven threads — a single idea followed across the book.</p>
+        <ul class="threads-list">
+          {featured.map(t => (
+            <li class="thread-card">
+              <a href={`/book/path/${t.slug}`} class="thread-card-link">
+                {t.kicker && <span class="thread-card-kicker">{t.kicker}</span>}
+                <span class="thread-card-title">{t.h1}</span>
+                {t.invocation && <span class="thread-card-inv">{t.invocation}</span>}
+                <span class="thread-card-meta">
+                  {t.count} gestures
+                  {(crossings[t.slug]?.length || 0) > 0 &&
+                    ` · crosses ${crossings[t.slug].length} ${crossings[t.slug].length === 1 ? 'thread' : 'threads'}`}
+                  {' →'}
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {(practices.length > 0 || themes.length > 0) && (
+      <section class="thread-section">
+        <h2 class="section-h">The complete weave</h2>
+        <p class="section-note">
+          Every gesture, gathered by the book's own tags. Two axes: what the book
+          <em>does</em> (the practices) and what it is <em>about</em> (the spines).
+          These are the index, not curated walks — the connection in each is a tag
+          already assigned in the text.
+        </p>
+
+        {practices.length > 0 && <h3 class="section-h3">What the book does — the practices</h3>}
+        {practices.length > 0 && (
+          <ul class="threads-list threads-list-compact">
+            {practices.map(t => (
+              <li class="thread-card thread-card-compact">
+                <a href={`/book/path/${t.slug}`} class="thread-card-link">
+                  <span class="thread-card-title">{t.h1}</span>
+                  <span class="thread-card-meta">{t.count} gestures →</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {themes.length > 0 && <h3 class="section-h3">What it's about — the spines</h3>}
+        {themes.length > 0 && (
+          <ul class="threads-list threads-list-compact">
+            {themes.map(t => (
+              <li class="thread-card thread-card-compact">
+                <a href={`/book/path/${t.slug}`} class="thread-card-link">
+                  <span class="thread-card-title">{t.h1}</span>
+                  <span class="thread-card-meta">{t.count} gestures →</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
     )}
 
     <p class="threads-foot">
@@ -117,7 +171,29 @@ const crossings = threadCrossings()
   .threads-legend a { color: var(--red); text-decoration: none; }
   .threads-legend a:hover { text-decoration: underline; }
 
+  .thread-section { margin: 0 0 3rem; }
+  .section-h {
+    font-family: var(--display); font-size: 1.5rem; font-weight: 600;
+    margin: 0 0 0.4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+  }
+  .section-h3 {
+    font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.55; margin: 1.75rem 0 0.85rem;
+  }
+  .section-note {
+    font-size: 0.9rem; line-height: 1.6; opacity: 0.65; max-width: 36rem;
+    margin: 0 0 1.25rem;
+  }
   .threads-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+  .threads-list-compact {
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.6rem;
+  }
+  .thread-card-compact .thread-card-link {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 0.75rem; padding: 0.7rem 0.9rem;
+  }
+  .thread-card-compact .thread-card-title { font-size: 1rem; }
+  .thread-card-compact .thread-card-meta { margin-top: 0; white-space: nowrap; font-size: 0.6rem; }
   .thread-card { border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-mid); }
   .thread-card-link {
     display: block; padding: 1.25rem 1.5rem; text-decoration: none; color: inherit;

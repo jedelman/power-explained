@@ -1,0 +1,95 @@
+---
+id: spine-image-the-restaurant
+slug: spine-image-the-restaurant
+label: Spine
+kind: spine
+axis: theme
+title: The restaurant
+h1: The restaurant
+kicker: What the book is about
+spine_tag: image/the-restaurant
+description: >-
+  Every gesture the book tags with the image of the restaurant, in the order the river meets them.
+  40 stops.
+gestures:
+  - G-01-035
+  - G-03-031
+  - G-03-032
+  - G-03-033
+  - G-03-043
+  - G-04-023
+  - G-04-024
+  - G-GC-005
+  - G-GC-010
+  - G-GC-011
+  - G-GC-013
+  - G-GC-018
+  - G-GC-042
+  - G-06-002
+  - G-08-007
+  - G-08-026
+  - G-09-022
+  - G-09-023
+  - G-10-032
+  - G-11-018
+  - G-11-039
+  - G-12-025
+  - G-12-026
+  - G-12-028
+  - G-12-030
+  - G-13-027
+  - G-AB-004
+  - G-AB-050
+  - G-AB-054
+  - G-AB-067
+  - G-18-015
+  - G-WW-011
+  - G-WW-012
+  - G-WW-013
+  - G-WW-014
+  - G-WW-017
+  - G-WW-021
+  - G-WW-022
+  - G-WW-023
+  - G-EP-006
+separators:
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+---

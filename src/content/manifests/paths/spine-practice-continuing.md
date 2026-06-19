@@ -1,0 +1,91 @@
+---
+id: spine-practice-continuing
+slug: spine-practice-continuing
+label: Practice
+kind: spine
+axis: practice
+title: Continuing
+h1: Continuing
+kicker: What the book does
+spine_tag: practice/continuing
+description: >-
+  Every gesture the book marks as the practice of continuing — one of the things the wizard does,
+  gathered in the river's order. 38 stops.
+gestures:
+  - G-03-007
+  - G-03-022
+  - G-04-013
+  - G-04-017
+  - G-04-018
+  - G-04-018b
+  - G-04-022
+  - G-04-023
+  - G-GC-005d
+  - G-08-029
+  - G-OA-011b
+  - G-09-021
+  - G-09-040
+  - G-12-014
+  - G-12-015
+  - G-12-016
+  - G-12-023
+  - G-13-039
+  - G-14-010
+  - G-15-001
+  - G-16-061
+  - G-16-067
+  - G-16b-042
+  - G-16b-044
+  - G-18-015
+  - G-18-028
+  - G-18-035
+  - G-18-043
+  - G-WW-001
+  - G-WW-002
+  - G-WW-009
+  - G-WW-010
+  - G-WW-023
+  - G-WW-029
+  - G-WW-031
+  - G-WW-032
+  - G-EP-010
+  - G-EP-014
+separators:
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+---

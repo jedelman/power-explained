@@ -1,0 +1,99 @@
+---
+id: spine-motif-cannot-verify-from-inside
+slug: spine-motif-cannot-verify-from-inside
+label: Spine
+kind: spine
+axis: theme
+title: Cannot verify from inside
+h1: Cannot verify from inside
+kicker: What the book is about
+spine_tag: motif/cannot-verify-from-inside
+description: >-
+  Every gesture the book tags with the motif of cannot verify from inside, in the order the river
+  meets them. 42 stops.
+gestures:
+  - G-01-012
+  - G-IB-009
+  - G-03-046
+  - G-GC-005c
+  - G-GC-015
+  - G-GC-016
+  - G-GC-021
+  - G-05-016
+  - G-06-022
+  - G-06-029
+  - G-06-043
+  - G-07-007
+  - G-07-010
+  - G-07-012
+  - G-07-015
+  - G-07-018
+  - G-07-019
+  - G-07-022
+  - G-07-039
+  - G-08-009
+  - G-08-014
+  - G-08-015
+  - G-09-010
+  - G-09-012
+  - G-10-012
+  - G-11-011
+  - G-12-009
+  - G-12-015
+  - G-12-035
+  - G-14-016
+  - G-14-028
+  - G-14-034
+  - G-15-005
+  - G-16-069
+  - G-16b-023
+  - G-16b-028
+  - G-16b-029
+  - G-16b-034
+  - G-16b-036
+  - G-16b-048
+  - G-WW-018
+  - G-WW-019
+separators:
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+---
