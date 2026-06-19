@@ -23,8 +23,9 @@ notes: |-
   ledger. PLACEMENT for Jason's review: inserted as the closing beat of the
   lexicon reveal, before the capacities section break — move if it sits wrong.
 plain: >
-  Mircea Eliade spent his life showing that the world without magic is the
-  odd one. For almost everyone who ever lived, he found, the world felt
+  There is one more terrain, and it is the oldest of all: the sacred. Mircea
+  Eliade spent his life showing that the world without magic is the odd one.
+  For almost everyone who ever lived, he found, the world felt
   charged. A stone was a stone, but it was also a kind of door. In many
   cultures that never met, he found the same thing: people went down into a
   hard inner journey, and each old culture built a safe way to hold it. It is
@@ -43,6 +44,6 @@ plain_meta:
   source: G-IW-027c
   status: draft
 ---
-Mircea Eliade spent his life proving the disenchanted world was the strange one. For almost everyone who ever lived, he showed, the world was charged — a stone was a stone and also a door. And across cultures that never met, he found the same thing: the descent, and the container every old initiation built to hold it. What Plotkin walks people into, Eliade found in culture after culture. Proof that the door is not exotic. It is human. It can be opened again.
+There is an older terrain beneath all the others: the sacred. Mircea Eliade spent his life proving the disenchanted world was the strange one. For almost everyone who ever lived, he showed, the world was charged — a stone was a stone and also a door. And across cultures that never met, he found the same thing: the descent, and the container every old initiation built to hold it. What Plotkin walks people into, Eliade found in culture after culture. Proof that the door is not exotic. It is human. It can be opened again.
 
 Hold the other half. The same man gave his gift to the Iron Guard — the nation made holy, the stranger made profane, the sacred cast for fascism. He never took it back. So remember him whole. The sacred is a terrain, and the spell that re-enchants is the spell that damns, depending on the hand that casts it. The commons is the discipline that tells them apart: the holy entered by many doors, never fused into one people's claim.
