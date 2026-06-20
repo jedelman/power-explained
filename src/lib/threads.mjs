@@ -182,3 +182,156 @@ export function sharedGestureThreads() {
   }
   return m
 }
+
+// --- the trail map ---------------------------------------------------------
+//
+// threadNetwork() bakes a full node-link layout at build time (no client
+// framework, no runtime layout): each thread is a *station* placed by its
+// position in the river (x = median river index of its gestures) and banded by
+// axis (curated walks / practices / themes), lane-packed so stations in a band
+// don't collide. Edges are the crossings: a shared gesture (the true rhizome
+// node, weight = how many) or, failing that, a shared significant tag. The
+// view renders the shared-gesture backbone by default and lights a station's
+// full set of crossings on hover. See src/pages/book/atlas.astro.
+
+// gestureId -> canonical river index (0-based), built once.
+let _order = null
+function riverOrder() {
+  if (_order) return _order
+  _order = new Map()
+  const RIVER = path.resolve('src/content/manifests/the-river.manifest.yml')
+  if (!fs.existsSync(RIVER)) return _order
+  const river = yaml.load(fs.readFileSync(RIVER, 'utf8')) || {}
+  let i = 0
+  for (const slug of river.sources || []) {
+    const cp = path.resolve('src/content/book', `${slug}.md`)
+    if (!fs.existsSync(cp)) continue
+    const text = fs.readFileSync(cp, 'utf8')
+    const end = text.indexOf('\n---\n', 4)
+    const fm = yaml.load(text.slice(4, end)) || {}
+    for (const g of fm.gestures || []) if (!_order.has(g)) _order.set(g, i++)
+  }
+  return _order
+}
+
+const BAND = { curated: 0, practice: 1, theme: 2 }
+
+export function threadNetwork(opts = {}) {
+  const W = opts.width || 1200
+  const marginX = 48
+  const innerW = W - marginX * 2
+  const laneH = 26 // vertical gap between lanes
+  const bandGap = 40 // gap between axis bands
+  const topPad = 16
+
+  const threads = loadThreads()
+  const order = riverOrder()
+  const N = Math.max(order.size, 2)
+
+  // --- base node data ---
+  const nodes = threads.map(t => {
+    const idxs = t.gestures
+      .map(g => order.get(g))
+      .filter(v => v != null)
+      .sort((a, b) => a - b)
+    const median = idxs.length ? idxs[Math.floor(idxs.length / 2)] : (N - 1) / 2
+    const axis = t.kind === 'spine' ? t.axis || 'theme' : 'curated'
+    return {
+      slug: t.slug,
+      label: t.h1 || t.title,
+      count: t.gestures.length,
+      axis,
+      xn: median / (N - 1),
+      r: 2.6 + Math.sqrt(t.gestures.length) * 0.9,
+      _ids: new Set(t.gestures),
+      _sig: significantTags(t.gestures),
+    }
+  })
+  const bySlug = Object.fromEntries(nodes.map(n => [n.slug, n]))
+
+  // --- edges (crossings) ---
+  const edges = []
+  const neighbors = Object.fromEntries(nodes.map(n => [n.slug, []]))
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      const a = nodes[i]
+      const b = nodes[j]
+      let shared = 0
+      for (const id of b._ids) if (a._ids.has(id)) shared++
+      let type
+      let weight
+      let via
+      if (shared > 0) {
+        type = 'gesture'
+        weight = shared
+        via = `${shared} shared gesture${shared > 1 ? 's' : ''}`
+      } else {
+        const st = [...a._sig].filter(t => b._sig.has(t))
+        if (!st.length) continue
+        type = 'tag'
+        weight = st.length
+        via = humanizeTag(st[0])
+      }
+      edges.push({ a: a.slug, b: b.slug, type, weight, via })
+      // degree counts only true crossings (a shared gesture), which is what
+      // the trail map draws — tag adjacency would connect nearly everything.
+      if (type === 'gesture') {
+        neighbors[a.slug].push(b.slug)
+        neighbors[b.slug].push(a.slug)
+      }
+    }
+  }
+  for (const n of nodes) n.degree = neighbors[n.slug].length
+
+  // --- layout: x = river position, y = axis band + lane packing ---
+  const xpx = xn => marginX + xn * innerW
+  const bands = { curated: [], practice: [], theme: [] }
+  for (const n of nodes) (bands[n.axis] || bands.theme).push(n)
+
+  let y = topPad
+  const bandMeta = []
+  for (const key of ['curated', 'practice', 'theme']) {
+    const group = bands[key].sort((a, b) => a.xn - b.xn)
+    const lanes = [] // lane -> last x px used
+    for (const n of group) {
+      const px = xpx(n.xn)
+      const gap = n.r + 14
+      let lane = lanes.findIndex(last => px - last > gap)
+      if (lane === -1) {
+        lane = lanes.length
+        lanes.push(0)
+      }
+      lanes[lane] = px + n.r
+      n.x = px
+      n._lane = lane
+    }
+    const laneCount = Math.max(lanes.length, 1)
+    const bandTop = y
+    for (const n of group) n.y = bandTop + n._lane * laneH + laneH / 2
+    const bandH = laneCount * laneH
+    bandMeta.push({ key, top: bandTop, height: bandH, count: group.length })
+    y = bandTop + bandH + bandGap
+  }
+  const height = y - bandGap + topPad
+
+  // strip working sets before returning
+  for (const n of nodes) {
+    delete n._ids
+    delete n._sig
+    delete n._lane
+  }
+
+  return {
+    width: W,
+    height,
+    nodes,
+    edges,
+    neighbors,
+    bands: bandMeta,
+    counts: {
+      gesture: edges.filter(e => e.type === 'gesture').length,
+      tag: edges.filter(e => e.type === 'tag').length,
+    },
+    bySlug,
+  }
+}

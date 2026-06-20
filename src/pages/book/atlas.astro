@@ -4,14 +4,17 @@ import fs from 'node:fs'
 import { resolve } from 'path'
 import yaml from 'js-yaml'
 import { loadCorpus } from '../../lib/load-corpus.mjs'
-import { loadThreads, sharedGestureThreads, threadCrossings } from '../../lib/threads.mjs'
+import { loadThreads, sharedGestureThreads, threadCrossings, threadNetwork } from '../../lib/threads.mjs'
 
 // The atlas — the map of the rhizome. Spine step 3 of the composable river
-// (see for-agents/composition-pass-instructions.md). Every gesture in the
-// canonical river, chapter by chapter, with thread membership overlaid and
-// the true rhizome nodes (gestures on more than one thread) marked. Staged:
-// linked from the threads index, not from main nav. All data is computed
-// from existing manifests at build time — no new prose, no client JS.
+// (see for-agents/composition-pass-instructions.md). Two views, both computed
+// from existing manifests at build time, no new prose:
+//   1. The trail map — a node-link network of the threads and where they cross
+//      (layout baked at build time in threads.mjs; a small vanilla-JS handler
+//      lights a station's crossings on hover — the one place this page uses JS).
+//   2. The field — every gesture in the river, chapter by chapter, with thread
+//      membership overlaid and the true rhizome nodes (a gesture on more than
+//      one thread) marked.
 
 const RIVER = resolve('src/content/manifests/the-river.manifest.yml')
 const river = yaml.load(fs.readFileSync(RIVER, 'utf8'))
@@ -20,6 +23,12 @@ const corpus = loadCorpus(resolve('.'))
 const threads = loadThreads()
 const shared = sharedGestureThreads()
 const crossings = threadCrossings()
+
+// The trail map — node-link layout baked at build time (see threads.mjs).
+const net = threadNetwork()
+const bandLabel = { curated: 'Curated walks', practice: 'Practices', theme: 'Themes' }
+const anchorMin = 45 // big threads keep their label always-on for orientation
+const gestureEdges = net.edges.filter(e => e.type === 'gesture')
 
 // gestureId -> [thread] for every thread member (not just shared nodes)
 const onThreads = {}
@@ -82,6 +91,81 @@ const edgeCount =
         · {memberCount} on a thread · {nodeCount} nodes · {edgeCount} crossings
       </p>
     </header>
+
+    <section class="trailmap">
+      <div class="tm-head">
+        <h2>The trail map</h2>
+        <p class="tm-dek">
+          Every thread is a station, placed left-to-right by where it sits in
+          the river and banded by kind. A line between two stations is a
+          crossing — a gesture both threads pass through. Hover (or tap) a
+          station to light its full route and the threads it meets.
+        </p>
+        <ul class="tm-key">
+          <li><span class="dot ax-curated"></span> Curated walk</li>
+          <li><span class="dot ax-practice"></span> Practice</li>
+          <li><span class="dot ax-theme"></span> Theme</li>
+          <li class="tm-key-sep">river →</li>
+        </ul>
+      </div>
+
+      <div class="tm-scroll">
+        <svg
+          class="tm-svg"
+          viewBox={`0 0 ${net.width} ${Math.round(net.height)}`}
+          role="img"
+          aria-label="Network map of the book's threads and where they cross."
+        >
+          {net.bands.map(b => (
+            <g class="tm-band">
+              <text class="tm-band-label" x="4" y={b.top + 11}>{bandLabel[b.key]}</text>
+            </g>
+          ))}
+
+          <g class="tm-edges">
+            {gestureEdges.map(e => {
+              const a = net.bySlug[e.a]
+              const b = net.bySlug[e.b]
+              return (
+                <line
+                  class={`tm-edge${e.weight >= 2 ? ' bb' : ''}`}
+                  data-a={e.a}
+                  data-b={e.b}
+                  x1={a.x}
+                  y1={a.y}
+                  x2={b.x}
+                  y2={b.y}
+                  stroke-width={Math.min(0.5 + e.weight * 0.3, 2.4)}
+                >
+                  <title>{`${a.label} ✕ ${b.label} — ${e.via}`}</title>
+                </line>
+              )
+            })}
+          </g>
+
+          <g class="tm-nodes">
+            {net.nodes.map(n => (
+              <a
+                class={`tm-node ax-${n.axis}${n.count >= anchorMin ? ' anchor' : ''}`}
+                data-slug={n.slug}
+                href={`/book/path/${n.slug}`}
+                transform={`translate(${n.x} ${n.y})`}
+              >
+                <title>{`${n.label} · ${n.count} gestures · crosses ${n.degree} threads`}</title>
+                <circle r={n.r} />
+                <text class="tm-label" x={n.r + 3} y="3.2">{n.label}</text>
+              </a>
+            ))}
+          </g>
+        </svg>
+      </div>
+
+      <p class="tm-foot">
+        {net.nodes.length} threads · {gestureEdges.length} crossings (where two
+        threads share a gesture). The thick lines are threads that meet at more
+        than one. <a href="/book/path">Walk the threads →</a>
+      </p>
+    </section>
 
     <ul class="atlas-legend">
       {threads
@@ -188,7 +272,120 @@ const edgeCount =
   .atlas-foot a { color: var(--red); text-decoration: none; }
   .atlas-foot a:hover { text-decoration: underline; }
 
+  /* --- the trail map --- */
+  .trailmap { margin: 0 0 3rem; }
+  .tm-head h2 {
+    font-family: var(--display); font-size: 1.4rem; font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+  .tm-dek {
+    font-size: 0.9rem; line-height: 1.65; opacity: 0.72; max-width: 38rem;
+    margin: 0 0 0.85rem;
+  }
+  .tm-key {
+    list-style: none; padding: 0; margin: 0 0 1rem; display: flex;
+    flex-wrap: wrap; gap: 0.25rem 1.1rem; align-items: center;
+    font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.04em;
+    text-transform: uppercase; opacity: 0.6;
+  }
+  .tm-key li { display: flex; align-items: center; gap: 0.4rem; }
+  .tm-key .dot {
+    width: 9px; height: 9px; border-radius: 50%; display: inline-block;
+  }
+  .tm-key .dot.ax-curated { background: var(--red); }
+  .tm-key .dot.ax-practice { background: var(--ink); }
+  .tm-key .dot.ax-theme {
+    background: var(--paper); box-shadow: inset 0 0 0 1.4px var(--ink);
+  }
+  .tm-key-sep { opacity: 0.5; }
+
+  .tm-scroll {
+    overflow-x: auto; border: 1px solid var(--rule); border-radius: 3px;
+    background: rgba(var(--ink-rgb), 0.015);
+  }
+  .tm-svg { display: block; width: 100%; min-width: 720px; height: auto; }
+
+  .tm-band-label {
+    font-family: var(--mono); font-size: 8px; letter-spacing: 0.08em;
+    text-transform: uppercase; fill: var(--ink); opacity: 0.3;
+  }
+
+  .tm-edge { stroke: var(--ink); opacity: 0; transition: opacity 0.12s; }
+  .tm-edge.bb { opacity: 0.1; }
+  .tm-svg.tm-focused .tm-edge { opacity: 0; }
+  .tm-svg.tm-focused .tm-edge.hot { opacity: 0.65; stroke: var(--red); }
+
+  .tm-node { cursor: pointer; transition: opacity 0.12s; }
+  .tm-node circle { transition: stroke 0.12s; }
+  .ax-curated circle { fill: var(--red); }
+  .ax-practice circle { fill: var(--ink); }
+  .ax-theme circle { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+
+  .tm-label {
+    font-family: var(--mono); font-size: 9px; fill: var(--ink);
+    opacity: 0; pointer-events: none; paint-order: stroke;
+    stroke: var(--paper); stroke-width: 2.5px;
+  }
+  .tm-node.anchor .tm-label { opacity: 0.55; }
+
+  .tm-svg.tm-focused .tm-node { opacity: 0.18; }
+  .tm-svg.tm-focused .tm-node.hot,
+  .tm-svg.tm-focused .tm-node.near { opacity: 1; }
+  .tm-svg.tm-focused .tm-node.hot .tm-label,
+  .tm-svg.tm-focused .tm-node.near .tm-label { opacity: 0.92; }
+  .tm-node.hot circle { stroke: var(--red); stroke-width: 2.2; }
+
+  .tm-foot {
+    margin: 1rem 0 0; font-family: var(--mono); font-size: 0.68rem;
+    opacity: 0.55; line-height: 1.7;
+  }
+  .tm-foot a { color: var(--red); text-decoration: none; }
+  .tm-foot a:hover { text-decoration: underline; }
+
   @media (max-width: 40rem) {
     .atlas-row { grid-template-columns: 1fr; gap: 0.3rem; }
   }
 </style>
+
+<script>
+  // Trail map interactivity: hover/focus a station to light its crossings and
+  // the threads it meets. No framework; layout is baked at build time.
+  const svg = document.querySelector('.tm-svg')
+  if (svg) {
+    const nodes = [...svg.querySelectorAll('.tm-node')]
+    const edges = [...svg.querySelectorAll('.tm-edge')]
+    const adj = new Map()
+    for (const e of edges) {
+      const a = e.dataset.a
+      const b = e.dataset.b
+      if (!adj.has(a)) adj.set(a, new Set())
+      if (!adj.has(b)) adj.set(b, new Set())
+      adj.get(a).add(b)
+      adj.get(b).add(a)
+    }
+    const focus = slug => {
+      const near = adj.get(slug) || new Set()
+      svg.classList.add('tm-focused')
+      for (const n of nodes) {
+        const s = n.dataset.slug
+        n.classList.toggle('hot', s === slug)
+        n.classList.toggle('near', near.has(s))
+      }
+      for (const e of edges) {
+        e.classList.toggle('hot', e.dataset.a === slug || e.dataset.b === slug)
+      }
+    }
+    const clear = () => {
+      svg.classList.remove('tm-focused')
+      for (const n of nodes) n.classList.remove('hot', 'near')
+      for (const e of edges) e.classList.remove('hot')
+    }
+    for (const n of nodes) {
+      const slug = n.dataset.slug
+      n.addEventListener('mouseenter', () => focus(slug))
+      n.addEventListener('mouseleave', clear)
+      n.addEventListener('focus', () => focus(slug))
+      n.addEventListener('blur', clear)
+    }
+  }
+</script>
