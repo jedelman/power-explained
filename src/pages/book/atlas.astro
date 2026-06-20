@@ -5,6 +5,7 @@ import { resolve } from 'path'
 import yaml from 'js-yaml'
 import { loadCorpus } from '../../lib/load-corpus.mjs'
 import { loadThreads, sharedGestureThreads, threadCrossings, threadNetwork } from '../../lib/threads.mjs'
+import { topoContours } from '../../lib/topo.mjs'
 
 // The atlas — the map of the rhizome. Spine step 3 of the composable river
 // (see for-agents/composition-pass-instructions.md). Two views, both computed
@@ -28,6 +29,29 @@ const crossings = threadCrossings()
 const net = threadNetwork()
 const bandLabel = { curated: 'Curated walks', practice: 'Practices', theme: 'Themes' }
 const anchorMin = 45 // big threads keep their label always-on for orientation
+
+// Topographic contours from the density of the network (see topo.mjs): the
+// brown lines are the terrain of the rhizome, peaks where threads cluster.
+const contours = topoContours(net.nodes, net.width, Math.round(net.height))
+
+// Edges as meandering trails: a quadratic curve bowed off the straight line.
+// Bow direction is hashed per pair so neighbouring trails curve different ways.
+const hash = s => {
+  let h = 0
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0
+  return h
+}
+const trailPath = e => {
+  const a = net.bySlug[e.a]
+  const b = net.bySlug[e.b]
+  const dx = b.x - a.x
+  const dy = b.y - a.y
+  const len = Math.hypot(dx, dy) || 1
+  const bow = (hash(e.a + e.b) % 2 ? 1 : -1) * Math.min(len * 0.16, 46)
+  const cx = (a.x + b.x) / 2 + (-dy / len) * bow
+  const cy = (a.y + b.y) / 2 + (dx / len) * bow
+  return `M${a.x.toFixed(1)} ${a.y.toFixed(1)} Q${cx.toFixed(1)} ${cy.toFixed(1)} ${b.x.toFixed(1)} ${b.y.toFixed(1)}`
+}
 const gestureEdges = net.edges.filter(e => e.type === 'gesture')
 
 // gestureId -> [thread] for every thread member (not just shared nodes)
@@ -102,10 +126,10 @@ const edgeCount =
           station to light its full route and the threads it meets.
         </p>
         <ul class="tm-key">
-          <li><span class="dot ax-curated"></span> Curated walk</li>
-          <li><span class="dot ax-practice"></span> Practice</li>
-          <li><span class="dot ax-theme"></span> Theme</li>
-          <li class="tm-key-sep">river →</li>
+          <li><span class="swatch trail"></span> a trail (thread)</li>
+          <li><span class="swatch cross"></span> a crossing</li>
+          <li><span class="swatch contour"></span> density contour</li>
+          <li class="tm-key-sep">bands: curated · practices · themes &nbsp;·&nbsp; river →</li>
         </ul>
       </div>
 
@@ -116,6 +140,12 @@ const edgeCount =
           role="img"
           aria-label="Network map of the book's threads and where they cross."
         >
+          <g class="tm-contours" aria-hidden="true">
+            {contours.map(c => (
+              <path class={`tm-contour${c.index ? ' index' : ''}`} d={c.d} />
+            ))}
+          </g>
+
           {net.bands.map(b => (
             <g class="tm-band">
               <text class="tm-band-label" x="4" y={b.top + 11}>{bandLabel[b.key]}</text>
@@ -127,18 +157,15 @@ const edgeCount =
               const a = net.bySlug[e.a]
               const b = net.bySlug[e.b]
               return (
-                <line
+                <path
                   class={`tm-edge${e.weight >= 2 ? ' bb' : ''}`}
                   data-a={e.a}
                   data-b={e.b}
-                  x1={a.x}
-                  y1={a.y}
-                  x2={b.x}
-                  y2={b.y}
+                  d={trailPath(e)}
                   stroke-width={Math.min(0.5 + e.weight * 0.3, 2.4)}
                 >
                   <title>{`${a.label} ✕ ${b.label} — ${e.via}`}</title>
-                </line>
+                </path>
               )
             })}
           </g>
@@ -162,8 +189,9 @@ const edgeCount =
 
       <p class="tm-foot">
         {net.nodes.length} threads · {gestureEdges.length} crossings (where two
-        threads share a gesture). The thick lines are threads that meet at more
-        than one. <a href="/book/path">Walk the threads →</a>
+        threads share a gesture); thicker trails meet at more than one. The
+        brown contours map the density of the network — high ground where the
+        threads gather. <a href="/book/path">Walk the threads →</a>
       </p>
     </section>
 
@@ -282,6 +310,12 @@ const edgeCount =
     font-size: 0.9rem; line-height: 1.65; opacity: 0.72; max-width: 38rem;
     margin: 0 0 0.85rem;
   }
+  /* Green Trails topo palette — scoped to the map */
+  .trailmap {
+    --trail: #4f7a3f;      /* trail green */
+    --trail-deep: #3c5f30;
+    --contour: #9a7b54;    /* topo contour brown */
+  }
   .tm-key {
     list-style: none; padding: 0; margin: 0 0 1rem; display: flex;
     flex-wrap: wrap; gap: 0.25rem 1.1rem; align-items: center;
@@ -289,51 +323,61 @@ const edgeCount =
     text-transform: uppercase; opacity: 0.6;
   }
   .tm-key li { display: flex; align-items: center; gap: 0.4rem; }
-  .tm-key .dot {
-    width: 9px; height: 9px; border-radius: 50%; display: inline-block;
+  .tm-key .swatch { width: 16px; height: 0; display: inline-block; }
+  .tm-key .swatch.trail { border-top: 2px solid var(--trail); }
+  .tm-key .swatch.cross {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--ink);
   }
-  .tm-key .dot.ax-curated { background: var(--red); }
-  .tm-key .dot.ax-practice { background: var(--ink); }
-  .tm-key .dot.ax-theme {
-    background: var(--paper); box-shadow: inset 0 0 0 1.4px var(--ink);
-  }
+  .tm-key .swatch.contour { border-top: 1px solid var(--contour); }
   .tm-key-sep { opacity: 0.5; }
 
   .tm-scroll {
     overflow-x: auto; border: 1px solid var(--rule); border-radius: 3px;
-    background: rgba(var(--ink-rgb), 0.015);
+    background: #f7f1e3; /* aged-paper map base */
   }
-  .tm-svg { display: block; width: 100%; min-width: 720px; height: auto; }
+  .tm-svg { display: block; width: 100%; min-width: 760px; height: auto; }
 
   .tm-band-label {
     font-family: var(--mono); font-size: 8px; letter-spacing: 0.08em;
-    text-transform: uppercase; fill: var(--ink); opacity: 0.3;
+    text-transform: uppercase; fill: var(--contour); opacity: 0.7;
   }
 
-  .tm-edge { stroke: var(--ink); opacity: 0; transition: opacity 0.12s; }
-  .tm-edge.bb { opacity: 0.1; }
-  .tm-svg.tm-focused .tm-edge { opacity: 0; }
-  .tm-svg.tm-focused .tm-edge.hot { opacity: 0.65; stroke: var(--red); }
+  .tm-contour { fill: none; stroke: var(--contour); stroke-width: 0.6; opacity: 0.32; }
+  .tm-contour.index { stroke-width: 0.9; opacity: 0.46; }
 
+  /* trails — green, meandering; thin ones dashed like secondary routes */
+  .tm-edge {
+    fill: none; stroke: var(--trail); stroke-linecap: round;
+    opacity: 0; transition: opacity 0.12s;
+  }
+  .tm-edge:not(.bb) { stroke-dasharray: 2 3; }
+  .tm-edge.bb { opacity: 0.4; }
+  .tm-svg.tm-focused .tm-edge { opacity: 0.06; }
+  .tm-svg.tm-focused .tm-edge.hot {
+    opacity: 0.95; stroke: var(--red); stroke-dasharray: none;
+  }
+
+  /* trailheads */
   .tm-node { cursor: pointer; transition: opacity 0.12s; }
-  .tm-node circle { transition: stroke 0.12s; }
-  .ax-curated circle { fill: var(--red); }
-  .ax-practice circle { fill: var(--ink); }
-  .ax-theme circle { fill: var(--paper); stroke: var(--ink); stroke-width: 1.2; }
+  .tm-node circle {
+    fill: var(--ink); stroke: #f7f1e3; stroke-width: 1.2;
+    transition: fill 0.12s, stroke 0.12s;
+  }
+  .ax-curated circle { fill: var(--trail-deep); }
 
   .tm-label {
-    font-family: var(--mono); font-size: 9px; fill: var(--ink);
+    font-family: var(--mono); font-size: 9px; fill: var(--trail-deep);
     opacity: 0; pointer-events: none; paint-order: stroke;
-    stroke: var(--paper); stroke-width: 2.5px;
+    stroke: #f7f1e3; stroke-width: 2.6px;
   }
-  .tm-node.anchor .tm-label { opacity: 0.55; }
+  .tm-node.anchor .tm-label { opacity: 0.7; }
 
-  .tm-svg.tm-focused .tm-node { opacity: 0.18; }
+  .tm-svg.tm-focused .tm-node { opacity: 0.2; }
   .tm-svg.tm-focused .tm-node.hot,
   .tm-svg.tm-focused .tm-node.near { opacity: 1; }
   .tm-svg.tm-focused .tm-node.hot .tm-label,
-  .tm-svg.tm-focused .tm-node.near .tm-label { opacity: 0.92; }
-  .tm-node.hot circle { stroke: var(--red); stroke-width: 2.2; }
+  .tm-svg.tm-focused .tm-node.near .tm-label { opacity: 0.95; }
+  .tm-node.hot circle { fill: var(--red); stroke: #f7f1e3; stroke-width: 2; }
 
   .tm-foot {
     margin: 1rem 0 0; font-family: var(--mono); font-size: 0.68rem;
