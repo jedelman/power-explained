@@ -26,13 +26,10 @@ const shared = sharedGestureThreads()
 const crossings = threadCrossings()
 
 // The trail map — node-link layout baked at build time (see threads.mjs).
-const net = threadNetwork()
+// Two orientations: landscape for wide screens, a transposed portrait (river
+// running top-to-bottom, bands as columns) that swaps in on mobile.
 const bandLabel = { curated: 'Curated walks', practice: 'Practices', theme: 'Themes' }
 const anchorMin = 45 // big threads keep their label always-on for orientation
-
-// Topographic contours from the density of the network (see topo.mjs): the
-// brown lines are the terrain of the rhizome, peaks where threads cluster.
-const contours = topoContours(net.nodes, net.width, Math.round(net.height))
 
 // Edges as meandering trails: a quadratic curve bowed off the straight line.
 // Bow direction is hashed per pair so neighbouring trails curve different ways.
@@ -41,7 +38,7 @@ const hash = s => {
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0
   return h
 }
-const trailPath = e => {
+const trailPath = (net, e) => {
   const a = net.bySlug[e.a]
   const b = net.bySlug[e.b]
   const dx = b.x - a.x
@@ -52,7 +49,16 @@ const trailPath = e => {
   const cy = (a.y + b.y) / 2 + (dx / len) * bow
   return `M${a.x.toFixed(1)} ${a.y.toFixed(1)} Q${cx.toFixed(1)} ${cy.toFixed(1)} ${b.x.toFixed(1)} ${b.y.toFixed(1)}`
 }
-const gestureEdges = net.edges.filter(e => e.type === 'gesture')
+
+const views = ['landscape', 'portrait'].map(key => {
+  const net = threadNetwork(key === 'portrait' ? { orientation: 'portrait' } : {})
+  // Topographic contours from the density of the network (see topo.mjs).
+  const contours = topoContours(net.nodes, net.width, Math.round(net.height), {
+    cols: net.vertical ? 60 : 130,
+  })
+  return { key, net, contours, edges: net.edges.filter(e => e.type === 'gesture') }
+})
+const meta = views[0].net // shared counts/bands for captions
 
 // gestureId -> [thread] for every thread member (not just shared nodes)
 const onThreads = {}
@@ -133,62 +139,62 @@ const edgeCount =
         </ul>
       </div>
 
-      <div class="tm-scroll">
-        <svg
-          class="tm-svg"
-          viewBox={`0 0 ${net.width} ${Math.round(net.height)}`}
-          role="img"
-          aria-label="Network map of the book's threads and where they cross."
-        >
-          <g class="tm-contours" aria-hidden="true">
-            {contours.map(c => (
-              <path class={`tm-contour${c.index ? ' index' : ''}`} d={c.d} />
-            ))}
-          </g>
-
-          {net.bands.map(b => (
-            <g class="tm-band">
-              <text class="tm-band-label" x="4" y={b.top + 11}>{bandLabel[b.key]}</text>
+      {views.map(v => (
+        <div class={`tm-scroll tm-view ${v.key}`}>
+          <svg
+            class="tm-svg"
+            viewBox={`0 0 ${v.net.width} ${Math.round(v.net.height)}`}
+            role="img"
+            aria-label="Network map of the book's threads and where they cross."
+          >
+            <g class="tm-contours" aria-hidden="true">
+              {v.contours.map(c => (
+                <path class={`tm-contour${c.index ? ' index' : ''}`} d={c.d} />
+              ))}
             </g>
-          ))}
 
-          <g class="tm-edges">
-            {gestureEdges.map(e => {
-              const a = net.bySlug[e.a]
-              const b = net.bySlug[e.b]
-              return (
-                <path
-                  class={`tm-edge${e.weight >= 2 ? ' bb' : ''}`}
-                  data-a={e.a}
-                  data-b={e.b}
-                  d={trailPath(e)}
-                  stroke-width={Math.min(0.5 + e.weight * 0.3, 2.4)}
-                >
-                  <title>{`${a.label} ✕ ${b.label} — ${e.via}`}</title>
-                </path>
-              )
-            })}
-          </g>
-
-          <g class="tm-nodes">
-            {net.nodes.map(n => (
-              <a
-                class={`tm-node ax-${n.axis}${n.count >= anchorMin ? ' anchor' : ''}`}
-                data-slug={n.slug}
-                href={`/book/path/${n.slug}`}
-                transform={`translate(${n.x} ${n.y})`}
-              >
-                <title>{`${n.label} · ${n.count} gestures · crosses ${n.degree} threads`}</title>
-                <circle r={n.r} />
-                <text class="tm-label" x={n.r + 3} y="3.2">{n.label}</text>
-              </a>
+            {v.net.bands.map(b => (
+              <text class="tm-band-label" x={b.lx} y={b.ly}>{bandLabel[b.key]}</text>
             ))}
-          </g>
-        </svg>
-      </div>
+
+            <g class="tm-edges">
+              {v.edges.map(e => {
+                const a = v.net.bySlug[e.a]
+                const b = v.net.bySlug[e.b]
+                return (
+                  <path
+                    class={`tm-edge${e.weight >= 2 ? ' bb' : ''}`}
+                    data-a={e.a}
+                    data-b={e.b}
+                    d={trailPath(v.net, e)}
+                    stroke-width={Math.min(0.5 + e.weight * 0.3, 2.4)}
+                  >
+                    <title>{`${a.label} ✕ ${b.label} — ${e.via}`}</title>
+                  </path>
+                )
+              })}
+            </g>
+
+            <g class="tm-nodes">
+              {v.net.nodes.map(n => (
+                <a
+                  class={`tm-node ax-${n.axis}${n.count >= anchorMin ? ' anchor' : ''}`}
+                  data-slug={n.slug}
+                  href={`/book/path/${n.slug}`}
+                  transform={`translate(${n.x} ${n.y})`}
+                >
+                  <title>{`${n.label} · ${n.count} gestures · crosses ${n.degree} threads`}</title>
+                  <circle r={n.r} />
+                  <text class="tm-label" x={n.r + 3} y="3.2">{n.label}</text>
+                </a>
+              ))}
+            </g>
+          </svg>
+        </div>
+      ))}
 
       <p class="tm-foot">
-        {net.nodes.length} threads · {gestureEdges.length} crossings (where two
+        {meta.nodes.length} threads · {views[0].edges.length} crossings (where two
         threads share a gesture); thicker trails meet at more than one. The
         brown contours map the density of the network — high ground where the
         threads gather. <a href="/book/path">Walk the threads →</a>
@@ -335,7 +341,15 @@ const edgeCount =
     overflow-x: auto; border: 1px solid var(--rule); border-radius: 3px;
     background: #f7f1e3; /* aged-paper map base */
   }
-  .tm-svg { display: block; width: 100%; min-width: 760px; height: auto; }
+  .tm-svg { display: block; width: 100%; height: auto; }
+  /* landscape on wide screens; a transposed portrait swaps in on mobile */
+  .tm-view.landscape .tm-svg { min-width: 760px; }
+  .tm-view.portrait { display: none; }
+  .tm-view.portrait .tm-svg { max-width: 460px; margin-inline: auto; }
+  @media (max-width: 40rem) {
+    .tm-view.landscape { display: none; }
+    .tm-view.portrait { display: block; }
+  }
 
   .tm-band-label {
     font-family: var(--mono); font-size: 8px; letter-spacing: 0.08em;
@@ -394,8 +408,7 @@ const edgeCount =
 <script>
   // Trail map interactivity: hover/focus a station to light its crossings and
   // the threads it meets. No framework; layout is baked at build time.
-  const svg = document.querySelector('.tm-svg')
-  if (svg) {
+  for (const svg of document.querySelectorAll('.tm-svg')) {
     const nodes = [...svg.querySelectorAll('.tm-node')]
     const edges = [...svg.querySelectorAll('.tm-edge')]
     const adj = new Map()

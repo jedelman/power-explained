@@ -217,12 +217,16 @@ function riverOrder() {
 const BAND = { curated: 0, practice: 1, theme: 2 }
 
 export function threadNetwork(opts = {}) {
-  const W = opts.width || 1200
-  const marginX = 48
-  const innerW = W - marginX * 2
-  const laneH = 26 // vertical gap between lanes
-  const bandGap = 40 // gap between axis bands
+  const vertical = opts.orientation === 'portrait'
+  const margin = 44
+  const laneGap = 26 // gap between lanes (cross axis)
+  const bandGap = vertical ? 24 : 40 // gap between axis bands
   const topPad = 16
+  // The river runs along the "main" axis; bands + lanes stack on the "cross"
+  // axis. Landscape: main = x, cross = y. Portrait: main = y, cross = x.
+  const W = opts.width || 1200
+  const mainSpan = vertical ? opts.mainSpan || 1640 : W - margin * 2
+  const mainPx = mn => margin + mn * mainSpan
 
   const threads = loadThreads()
   const order = riverOrder()
@@ -241,7 +245,7 @@ export function threadNetwork(opts = {}) {
       label: t.h1 || t.title,
       count: t.gestures.length,
       axis,
-      xn: median / (N - 1),
+      mn: median / (N - 1),
       r: 2.6 + Math.sqrt(t.gestures.length) * 0.9,
       _ids: new Set(t.gestures),
       _sig: significantTags(t.gestures),
@@ -283,18 +287,17 @@ export function threadNetwork(opts = {}) {
   }
   for (const n of nodes) n.degree = neighbors[n.slug].length
 
-  // --- layout: x = river position, y = axis band + lane packing ---
-  const xpx = xn => marginX + xn * innerW
-  const bands = { curated: [], practice: [], theme: [] }
-  for (const n of nodes) (bands[n.axis] || bands.theme).push(n)
+  // --- layout: main = river position, cross = axis band + lane packing ---
+  const grouped = { curated: [], practice: [], theme: [] }
+  for (const n of nodes) (grouped[n.axis] || grouped.theme).push(n)
 
-  let y = topPad
+  let cross = topPad
   const bandMeta = []
   for (const key of ['curated', 'practice', 'theme']) {
-    const group = bands[key].sort((a, b) => a.xn - b.xn)
-    const lanes = [] // lane -> last x px used
+    const group = grouped[key].sort((a, b) => a.mn - b.mn)
+    const lanes = [] // lane -> last main-px used
     for (const n of group) {
-      const px = xpx(n.xn)
+      const px = mainPx(n.mn)
       const gap = n.r + 14
       let lane = lanes.findIndex(last => px - last > gap)
       if (lane === -1) {
@@ -302,32 +305,46 @@ export function threadNetwork(opts = {}) {
         lanes.push(0)
       }
       lanes[lane] = px + n.r
-      n.x = px
-      n._lane = lane
+      n._main = px
+      n._cross = cross + lane * laneGap + laneGap / 2
     }
     const laneCount = Math.max(lanes.length, 1)
-    const bandTop = y
-    for (const n of group) n.y = bandTop + n._lane * laneH + laneH / 2
-    const bandH = laneCount * laneH
-    bandMeta.push({ key, top: bandTop, height: bandH, count: group.length })
-    y = bandTop + bandH + bandGap
+    const bandStart = cross
+    const bandSize = laneCount * laneGap
+    bandMeta.push({ key, start: bandStart, size: bandSize, count: group.length })
+    cross = bandStart + bandSize + bandGap
   }
-  const height = y - bandGap + topPad
+  const crossTotal = cross - bandGap + topPad
 
-  // strip working sets before returning
+  // map main/cross onto x/y per orientation
   for (const n of nodes) {
+    n.x = vertical ? n._cross : n._main
+    n.y = vertical ? n._main : n._cross
     delete n._ids
     delete n._sig
-    delete n._lane
+    delete n._main
+    delete n._cross
+    delete n.mn
   }
+  const width = vertical ? crossTotal : W
+  const height = vertical ? margin + mainSpan + margin : crossTotal
+  const bands = bandMeta.map(b => ({
+    key: b.key,
+    count: b.count,
+    // label anchor
+    lx: vertical ? b.start + 2 : 4,
+    ly: vertical ? 11 : b.start + 11,
+    rotate: vertical,
+  }))
 
   return {
-    width: W,
+    width,
     height,
+    vertical,
     nodes,
     edges,
     neighbors,
-    bands: bandMeta,
+    bands,
     counts: {
       gesture: edges.filter(e => e.type === 'gesture').length,
       tag: edges.filter(e => e.type === 'tag').length,
