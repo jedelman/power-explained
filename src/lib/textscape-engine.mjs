@@ -1,5 +1,7 @@
-// Vendored from claude-memory/tools/textscape/engine.mjs — SOURCE OF TRUTH is there.
-// Keep in sync; do not edit here without updating the canonical copy.
+// textscape engine — CANONICAL SOURCE OF TRUTH.
+// The standalone skill (github.com/jedelman/claude-memory:tools/textscape) fetches THIS file;
+// edit here. The atlas (/book/atlas) uses buildMap; comparison + homology-loop features
+// (buildComparisonMap, opts.loops) are used by the standalone textscape maps.
 // textscape/engine.mjs — corpus-agnostic theme-landscape renderer.
 //
 // Input: a theme graph. `threads` is an array of
@@ -742,7 +744,17 @@ function textscapeMount(root){
     c.addEventListener('mouseenter',function(){if(sel<0)focus(i);});
     c.addEventListener('mouseleave',function(){if(sel<0)clear();});
     c.addEventListener('click',function(ev){ev.stopPropagation();select(i);});});
-  svg.addEventListener('click',function(){if(sel>=0)deselect();});
+  function esc(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]});}
+  var loops=[].slice.call(vp.querySelectorAll('.tm-loop'));
+  loops.forEach(function(lp,i){
+    lp.addEventListener('mouseenter',function(){lp.classList.add('lp-hot');});
+    lp.addEventListener('mouseleave',function(){lp.classList.remove('lp-hot');});
+    lp.addEventListener('click',function(ev){ev.stopPropagation();showLoop(i);});});
+  function showLoop(i){var L=data.loops&&data.loops[i];if(!L)return;sel=-2;
+    var h='<button class="ts-x" aria-label="close">×</button><h2>'+esc(L.title||'Loop')+'</h2><p class="ts-meta">a certified H₁ generator, in the text\\'s own words</p>';
+    if(L.steps&&L.steps.length){h+='<ol class="ts-loop">';for(var s=0;s<L.steps.length;s++){var st=L.steps[s];h+='<li><span class="ts-uid">'+esc(st.from)+' \\u2192 '+esc(st.to)+'</span>'+esc(st.line)+'</li>';}h+='</ol>';}
+    panel.innerHTML=h;panel.classList.add('open');panel.querySelector('.ts-x').addEventListener('click',function(){deselect();});}
+  svg.addEventListener('click',function(){if(sel!==-1)deselect();});
   // pan/zoom via pointer events
   var pts={},last=null,pinch=null;
   function zoomAt(cx,cy,factor){var sc=s();var u=cx/sc,v=cy/sc;var wx=(u-tx)/k,wy=(v-ty)/k;
@@ -774,6 +786,7 @@ function textscapeMount(root){
 // pans/zooms; labels live in an HTML overlay so they stay crisp and declutter.
 export function renderMapBody(map, meta = {}) {
   const { width, height, nodes, edges, contours, streams } = map
+  const loopEls = (map.loops || []).map((L, i) => `<path class="tm-loop" data-loop="${i}" d="${L.d}"/>`).join('')
   const idx = Object.fromEntries(nodes.map((n, i) => [n.id, i]))
   const contourEls = contours.map(c => `<path class="ct${c.index ? ' ix' : ''}" d="${c.d}"/>`).join('')
   const streamEls = streams.map(s => `<path class="st" d="${s.d}" stroke-width="${s.w}"/>`).join('')
@@ -789,11 +802,12 @@ export function renderMapBody(map, meta = {}) {
     nodes: nodes.map(n => ({ l: n.label, x: +n.x.toFixed(1), y: +n.y.toFixed(1), r: +n.r.toFixed(1), c: n.count, u: n.units || [], g: n.group || 0, gl: n.groupLabel || '' })),
     edges: edges.map(e => [idx[e.a], idx[e.b]]),
     ut: meta.unitText || {},
+    loops: (map.loops || []).map(L => ({ title: L.title, steps: L.steps })),
   }
   return `<div class="ts-map">
   <div class="ts-zoom"><button class="zin" aria-label="zoom in">+</button><button class="zout" aria-label="zoom out">−</button><button class="zreset" aria-label="reset">⤢</button></div>
   <svg class="ts-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(meta.title || 'Theme landscape')}">
-    <g class="ts-vp"><g aria-hidden="true">${contourEls}</g><g aria-hidden="true">${streamEls}</g><g>${edgeEls}</g><g>${nodeEls}</g></g>
+    <g class="ts-vp"><g aria-hidden="true">${contourEls}</g><g aria-hidden="true">${streamEls}</g><g>${edgeEls}</g><g class="tm-loops" aria-hidden="true">${loopEls}</g><g>${nodeEls}</g></g>
   </svg>
   <div class="ts-labels" aria-hidden="true"></div>
   <aside class="ts-panel" aria-live="polite"></aside>
@@ -817,6 +831,11 @@ export const MAP_CSS = `
   .nd.g0{fill:var(--ink,#241f1a)}.nd.g1{fill:#a8602f}
   .ts-svg.foc .nd{opacity:.25}.ts-svg.foc .nd.hot,.ts-svg.foc .nd.near{opacity:1}
   .nd.hot{fill:var(--red,#b23b2e)}
+  .tm-loop{fill:none;stroke:#c9892b;stroke-width:3.4;stroke-linejoin:round;stroke-linecap:round;opacity:.9;vector-effect:non-scaling-stroke;pointer-events:stroke;cursor:pointer}
+  .tm-loop.lp-hot{stroke-width:5;opacity:1;stroke:#e0a52f}
+  .ts-loop{list-style:none;margin:0;padding:0;font:.84rem/1.5 Georgia,serif}
+  .ts-loop li{padding:.45rem 0;border-top:1px solid #e3d9bf}
+  .ts-loop .ts-uid{display:block;font:9px ui-monospace,monospace;color:#c9892b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.15rem}
   .ts-labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
   .ts-lb{position:absolute;font:11px/1.1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--trail-deep,#294d1c);
     white-space:nowrap;pointer-events:auto;cursor:pointer;padding:1px 2px;transform:translateY(-1px);
@@ -841,9 +860,10 @@ export const MAP_CSS = `
 `
 
 export function renderHTML(map, meta = {}) {
+  const loopK = (map.loops && map.loops.length) ? '<span><i class="sw lp"></i>certified H₁ loop</span>' : ''
   const key = meta.groups
-    ? `<div class="key">${meta.groups.map((g, i) => `<span><i class="sw dot g${i}"></i>${esc(g)}</span>`).join('')}<span><i class="sw xt"></i>shared vocabulary</span><span><i class="sw st"></i>drainage</span></div>`
-    : `<div class="key"><span><i class="sw tr"></i>theme trail</span><span><i class="sw cr"></i>theme</span><span><i class="sw st"></i>drainage</span><span><i class="sw ct"></i>contour</span></div>`
+    ? `<div class="key">${meta.groups.map((g, i) => `<span><i class="sw dot g${i}"></i>${esc(g)}</span>`).join('')}<span><i class="sw xt"></i>shared vocabulary</span><span><i class="sw st"></i>drainage</span>${loopK}</div>`
+    : `<div class="key"><span><i class="sw tr"></i>theme trail</span><span><i class="sw cr"></i>theme</span><span><i class="sw st"></i>drainage</span><span><i class="sw ct"></i>contour</span>${loopK}</div>`
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(meta.title || 'Textscape')}</title>
 <style>
@@ -859,6 +879,7 @@ export function renderHTML(map, meta = {}) {
   .sw.cr{width:7px;height:7px;border-radius:50%;background:var(--ink)}
   .sw.dot{width:9px;height:9px;border-radius:50%}.sw.g0{background:var(--ink)}.sw.g1{background:#a8602f}
   .sw.xt{border-top:2px dashed #7a5a9a}
+  .sw.lp{border-top:3px solid #c9892b}
   .ts-map{height:74vh}
 ${MAP_CSS}
   .foot{font:12px ui-monospace,monospace;opacity:.6;margin-top:1rem}
@@ -886,7 +907,19 @@ export function buildMap(threads, opts = {}) {
   }
   map.contours = contours
   map.streams = streams
-  // provenance: truncated unit text for the click panel
+  // certified homology loops. opts.loops = [[nodeId,...]] or
+  // [{ nodes:[nodeId,...], title, steps:[{from,to,line,id}] }] (steps = skeletal text)
+  map.loops = (opts.loops || []).map(L => {
+    const nodes = Array.isArray(L) ? L : L.nodes
+    let d = ''
+    for (let i = 0; i < nodes.length; i++) {
+      const a = map.bySlug[nodes[i]]
+      const b = map.bySlug[nodes[(i + 1) % nodes.length]]
+      if (!a || !b) { d = ''; break }
+      d += route(a.x, a.y, b.x, b.y)
+    }
+    return { d, title: L.title || '', steps: L.steps || null }
+  }).filter(L => L.d)
   const meta = { ...(opts.meta || {}) }
   if (opts.units) {
     const ut = {}
