@@ -5,7 +5,7 @@ import { resolve } from 'path'
 import yaml from 'js-yaml'
 import { loadCorpus } from '../../lib/load-corpus.mjs'
 import { loadThreads, sharedGestureThreads, threadCrossings, threadNetwork } from '../../lib/threads.mjs'
-import { topoContours } from '../../lib/topo.mjs'
+import { terrain } from '../../lib/topo.mjs'
 
 // The atlas — the map of the rhizome. Spine step 3 of the composable river
 // (see for-agents/composition-pass-instructions.md). Two views, both computed
@@ -52,11 +52,12 @@ const trailPath = (net, e) => {
 
 const views = ['landscape', 'portrait'].map(key => {
   const net = threadNetwork(key === 'portrait' ? { orientation: 'portrait' } : {})
-  // Topographic contours from the density of the network (see topo.mjs).
-  const contours = topoContours(net.nodes, net.width, Math.round(net.height), {
-    cols: net.vertical ? 60 : 130,
+  // Eroded watershed from the network's density (see topo.mjs): contours of the
+  // carved surface + the drainage network water collects into.
+  const { contours, streams } = terrain(net.nodes, net.width, Math.round(net.height), {
+    cols: net.vertical ? 64 : 150,
   })
-  return { key, net, contours, edges: net.edges.filter(e => e.type === 'gesture') }
+  return { key, net, contours, streams, edges: net.edges.filter(e => e.type === 'gesture') }
 })
 const meta = views[0].net // shared counts/bands for captions
 
@@ -134,7 +135,8 @@ const edgeCount =
         <ul class="tm-key">
           <li><span class="swatch trail"></span> a trail (thread)</li>
           <li><span class="swatch cross"></span> a crossing</li>
-          <li><span class="swatch contour"></span> density contour</li>
+          <li><span class="swatch stream"></span> drainage</li>
+          <li><span class="swatch contour"></span> contour</li>
           <li class="tm-key-sep">bands: curated · practices · themes &nbsp;·&nbsp; river →</li>
         </ul>
       </div>
@@ -150,6 +152,12 @@ const edgeCount =
             <g class="tm-contours" aria-hidden="true">
               {v.contours.map(c => (
                 <path class={`tm-contour${c.index ? ' index' : ''}`} d={c.d} />
+              ))}
+            </g>
+
+            <g class="tm-streams" aria-hidden="true">
+              {v.streams.map(s => (
+                <path class="tm-stream" d={s.d} stroke-width={s.w} />
               ))}
             </g>
 
@@ -195,9 +203,9 @@ const edgeCount =
 
       <p class="tm-foot">
         {meta.nodes.length} threads · {views[0].edges.length} crossings (where two
-        threads share a gesture); thicker trails meet at more than one. The
-        brown contours map the density of the network — high ground where the
-        threads gather. <a href="/book/path">Walk the threads →</a>
+        threads share a gesture); thicker trails meet at more than one. The land
+        is a watershed eroded from the network's own density — high ground where
+        the threads gather, blue where the flow collects. <a href="/book/path">Walk the threads →</a>
       </p>
     </section>
 
@@ -321,6 +329,7 @@ const edgeCount =
     --trail: #4f7a3f;      /* trail green */
     --trail-deep: #3c5f30;
     --contour: #9a7b54;    /* topo contour brown */
+    --water: #6f93b0;      /* drainage blue */
   }
   .tm-key {
     list-style: none; padding: 0; margin: 0 0 1rem; display: flex;
@@ -334,6 +343,7 @@ const edgeCount =
   .tm-key .swatch.cross {
     width: 7px; height: 7px; border-radius: 50%; background: var(--ink);
   }
+  .tm-key .swatch.stream { border-top: 2px solid var(--water); }
   .tm-key .swatch.contour { border-top: 1px solid var(--contour); }
   .tm-key-sep { opacity: 0.5; }
 
@@ -356,8 +366,14 @@ const edgeCount =
     text-transform: uppercase; fill: var(--contour); opacity: 0.7;
   }
 
-  .tm-contour { fill: none; stroke: var(--contour); stroke-width: 0.6; opacity: 0.32; }
-  .tm-contour.index { stroke-width: 0.9; opacity: 0.46; }
+  .tm-contour { fill: none; stroke: var(--contour); stroke-width: 0.6; opacity: 0.28; }
+  .tm-contour.index { stroke-width: 0.9; opacity: 0.4; }
+
+  /* the drainage network — where the watershed collects */
+  .tm-stream {
+    fill: none; stroke: var(--water); stroke-linecap: round;
+    stroke-linejoin: round; opacity: 0.55;
+  }
 
   /* trails — green, meandering; thin ones dashed like secondary routes */
   .tm-edge {
