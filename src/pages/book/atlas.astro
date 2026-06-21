@@ -37,6 +37,7 @@ const views = ['landscape', 'portrait'].map(key => {
   // the least-energy way over that terrain.
   const { contours, streams, field } = terrain(net.nodes, net.width, net.height, {
     cols: net.vertical ? 64 : 150,
+    levels: 13,
   })
   const route = makeRouter(field)
   const edges = net.edges
@@ -308,10 +309,10 @@ const edgeCount =
   }
   /* Green Trails topo palette — scoped to the map */
   .trailmap {
-    --trail: #4f7a3f;      /* trail green */
-    --trail-deep: #3c5f30;
-    --contour: #9a7b54;    /* topo contour brown */
-    --water: #6f93b0;      /* drainage blue */
+    --trail: #3f6e2c;      /* trail green */
+    --trail-deep: #294d1c;
+    --contour: #8a6534;    /* topo contour brown */
+    --water: #2f6fa6;      /* drainage blue */
   }
   .tm-key {
     list-style: none; padding: 0; margin: 0 0 1rem; display: flex;
@@ -343,13 +344,13 @@ const edgeCount =
     .tm-view.portrait { display: block; }
   }
 
-  .tm-contour { fill: none; stroke: var(--contour); stroke-width: 0.6; opacity: 0.28; }
-  .tm-contour.index { stroke-width: 0.9; opacity: 0.4; }
+  .tm-contour { fill: none; stroke: var(--contour); stroke-width: 0.7; opacity: 0.45; }
+  .tm-contour.index { stroke-width: 1.1; opacity: 0.68; }
 
   /* the drainage network — where the watershed collects */
   .tm-stream {
     fill: none; stroke: var(--water); stroke-linecap: round;
-    stroke-linejoin: round; opacity: 0.55;
+    stroke-linejoin: round; opacity: 0.8;
   }
 
   /* trails — green, meandering; thin ones dashed like secondary routes */
@@ -358,8 +359,8 @@ const edgeCount =
     opacity: 0; transition: opacity 0.12s;
   }
   .tm-edge:not(.bb) { stroke-dasharray: 2 3; }
-  .tm-edge.bb { opacity: 0.4; }
-  .tm-svg.tm-focused .tm-edge { opacity: 0.06; }
+  .tm-edge.bb { opacity: 0.55; }
+  .tm-svg.tm-focused .tm-edge { opacity: 0.07; }
   .tm-svg.tm-focused .tm-edge.hot {
     opacity: 0.95; stroke: var(--red); stroke-dasharray: none;
   }

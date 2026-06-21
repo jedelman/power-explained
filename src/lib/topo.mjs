@@ -188,7 +188,7 @@ function isoPaths(val, gw, gh, sx, sy, levels, max) {
         }
       }
     }
-    if (d) paths.push({ level: L, index: L % 2 === 0, d })
+    if (d) paths.push({ level: L, index: L % 3 === 0, d })
   }
   return paths
 }
