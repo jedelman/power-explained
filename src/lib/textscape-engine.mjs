@@ -72,32 +72,42 @@ function makeNoise(seed) {
 
 // ---------- force layout (commons = the force) ----------
 export function layout(threads, opts = {}) {
-  const W = opts.width || 1180
-  const H = opts.height || 660
-  const margin = 48
   const nodes = threads.map(t => ({
     id: t.id,
     label: t.label || t.id,
+    group: t.group ?? 0,
     count: (t.units || []).length,
     r: 2.6 + Math.sqrt((t.units || []).length) * 0.9,
     units: [...(t.units || [])],
     _units: new Set(t.units || []),
   }))
-  const idxOf = Object.fromEntries(nodes.map((n, i) => [n.id, i]))
-  const bySlug = Object.fromEntries(nodes.map(n => [n.id, n]))
-
   // edges = shared-unit crossings, weight = how many shared
   const edges = []
-  const neighbors = Object.fromEntries(nodes.map(n => [n.id, []]))
   for (let i = 0; i < nodes.length; i++) {
     for (let j = i + 1; j < nodes.length; j++) {
       let shared = 0
       for (const u of nodes[j]._units) if (nodes[i]._units.has(u)) shared++
       if (!shared) continue
       edges.push({ a: nodes[i].id, b: nodes[j].id, weight: shared })
-      neighbors[nodes[i].id].push(nodes[j].id)
-      neighbors[nodes[j].id].push(nodes[i].id)
     }
+  }
+  for (const n of nodes) delete n._units
+  return assemble(nodes, edges, opts)
+}
+
+// Runs the force simulation over a prepared node/edge set and returns the map.
+// Shared by layout() (one text) and buildComparisonMap() (two). Edges may carry
+// `cross: true` (a cross-text resonance edge) which pulls more gently.
+function assemble(nodes, edges, opts = {}) {
+  const W = opts.width || 1180
+  const H = opts.height || 660
+  const margin = 48
+  const idxOf = Object.fromEntries(nodes.map((n, i) => [n.id, i]))
+  const bySlug = Object.fromEntries(nodes.map(n => [n.id, n]))
+  const neighbors = Object.fromEntries(nodes.map(n => [n.id, []]))
+  for (const e of edges) {
+    neighbors[e.a].push(e.b)
+    neighbors[e.b].push(e.a)
   }
   for (const n of nodes) n.degree = neighbors[n.id].length
 
@@ -114,6 +124,7 @@ export function layout(threads, opts = {}) {
   const kRep = opts.kRep ?? 120
   const kAtt = opts.kAtt ?? 0.05
   const grav = opts.gravity ?? 0.3
+  const crossPull = opts.crossPull ?? 0.45
   const dvx = new Float64Array(n)
   const dvy = new Float64Array(n)
   const iters = opts.iters || 700
@@ -145,7 +156,7 @@ export function layout(threads, opts = {}) {
       const ib = idxOf[e.b]
       const dx = px[ia] - px[ib]
       const dy = py[ia] - py[ib]
-      const f = kAtt * Math.pow(e.weight, weightPow)
+      const f = kAtt * Math.pow(e.weight, weightPow) * (e.cross ? crossPull : 1)
       dvx[ia] -= dx * f
       dvy[ia] -= dy * f
       dvx[ib] += dx * f
@@ -187,9 +198,134 @@ export function layout(threads, opts = {}) {
   for (let i = 0; i < n; i++) {
     nodes[i].x = px[i] * scaleX + ox
     nodes[i].y = py[i] * scaleY + oy
-    delete nodes[i]._units
   }
   return { width: W, height: H, nodes, edges, neighbors, bySlug }
+}
+
+// ---------- comparison: two (or more) texts on one map ----------
+const STOP = new Set(('a an the of to and in is it that this for as with be by on not or but they them their' +
+  ' he she we you i his her our your its my me us who which what when where how all any are was were been being have has had do does did' +
+  ' from at into than then so such no nor only own same too very can will just should now also if up out off over under again further' +
+  ' more most other some these those there here both each few many much one two thing things make made men man may must like unto upon' +
+  ' shall would could thou thee thy thus things every himself thyself whatever whatsoever').split(/\s+/))
+
+// tf-idf vector per thread over the pooled corpus (for cross-text cosine).
+function tfidf(threadsWithText) {
+  const docs = threadsWithText.map(t => {
+    const tf = {}
+    const words = (t.text || '').toLowerCase().match(/[a-z][a-z'-]{3,}/g) || []
+    for (const w of words) if (!STOP.has(w)) tf[w] = (tf[w] || 0) + 1
+    return tf
+  })
+  const df = {}
+  for (const tf of docs) for (const w of Object.keys(tf)) df[w] = (df[w] || 0) + 1
+  const T = docs.length
+  return docs.map(tf => {
+    const vec = new Map()
+    let n2 = 0
+    for (const [w, c] of Object.entries(tf)) {
+      const s = (1 + Math.log(c)) * Math.log((T + 1) / df[w])
+      if (s > 0) {
+        vec.set(w, s)
+        n2 += s * s
+      }
+    }
+    return { vec, norm: Math.sqrt(n2) || 1 }
+  })
+}
+
+// buildComparisonMap({ texts: [{ id, label, threads:[{id,label,units}], units:{unitId:text} }], opts })
+// Within-text edges = shared units. Cross-text edges = shared tf-idf vocabulary
+// between a theme in one text and a theme in another (the resonance bridges).
+export function buildComparisonMap(texts, opts = {}) {
+  // namespaced nodes
+  const nodes = []
+  const threadText = []
+  texts.forEach((tx, g) => {
+    for (const th of tx.threads) {
+      const id = g + ':' + th.id
+      nodes.push({
+        id,
+        label: th.label || th.id,
+        group: g,
+        groupLabel: tx.label,
+        count: (th.units || []).length,
+        r: 2.6 + Math.sqrt((th.units || []).length) * 0.9,
+        units: (th.units || []).map(u => g + ':' + u),
+        _set: new Set((th.units || []).map(u => g + ':' + u)),
+      })
+      threadText.push({ text: (th.units || []).map(u => (tx.units || {})[u] || '').join(' ') })
+    }
+  })
+  const edges = []
+  // within-text: shared units
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      if (nodes[i].group !== nodes[j].group) continue
+      let shared = 0
+      for (const u of nodes[j]._set) if (nodes[i]._set.has(u)) shared++
+      if (shared) edges.push({ a: nodes[i].id, b: nodes[j].id, weight: shared })
+    }
+  }
+  // cross-text: tf-idf cosine resonance — keep the strongest bridges per node
+  const sig = tfidf(threadText)
+  const cross = []
+  for (let i = 0; i < nodes.length; i++) {
+    for (let j = i + 1; j < nodes.length; j++) {
+      if (nodes[i].group === nodes[j].group) continue
+      const [s, l] = sig[i].vec.size < sig[j].vec.size ? [i, j] : [j, i]
+      let dot = 0
+      const contrib = []
+      for (const [w, v] of sig[s].vec) {
+        const o = sig[l].vec.get(w)
+        if (o) {
+          dot += v * o
+          contrib.push([w, v * o])
+        }
+      }
+      const cos = dot / (sig[i].norm * sig[j].norm)
+      if (cos < (opts.crossMin ?? 0.03)) continue
+      contrib.sort((a, b) => b[1] - a[1])
+      cross.push({
+        a: nodes[i].id, b: nodes[j].id, cos, cross: true,
+        weight: Math.min(1 + cos * 6, 5),
+        via: contrib.slice(0, 5).map(c => c[0]).join(', '),
+      })
+    }
+  }
+  cross.sort((a, b) => b.cos - a.cos)
+  const capPer = opts.crossCapPerNode || 3
+  const used = {}
+  for (const e of cross) {
+    used[e.a] = used[e.a] || 0
+    used[e.b] = used[e.b] || 0
+    if (used[e.a] < capPer && used[e.b] < capPer) {
+      edges.push(e)
+      used[e.a]++
+      used[e.b]++
+    }
+  }
+  for (const n of nodes) delete n._set
+  const map = assemble(nodes, edges, opts)
+  // build provenance unit text (namespaced)
+  const ut = {}
+  texts.forEach((tx, g) => {
+    for (const [u, t] of Object.entries(tx.units || {})) {
+      const s = String(t)
+      ut[g + ':' + u] = s.length > 220 ? s.slice(0, 217).trimEnd() + '…' : s
+    }
+  })
+  const meta = { ...(opts.meta || {}), unitText: ut, groups: texts.map(t => t.label), comparison: true }
+  const { contours, streams, field } = terrain(map.nodes, map.width, map.height, opts)
+  const route = makeRouter(field, opts)
+  for (const e of map.edges) {
+    const a = map.bySlug[e.a]
+    const b = map.bySlug[e.b]
+    e.d = route(a.x, a.y, b.x, b.y)
+  }
+  map.contours = contours
+  map.streams = streams
+  return { map, html: renderHTML(map, meta), body: renderMapBody(map, meta), css: MAP_CSS, clientJs: CLIENT_JS }
 }
 
 // ---------- watershed terrain ----------
@@ -597,7 +733,7 @@ function textscapeMount(root){
     labels.forEach(function(l){var li=+l.dataset.i;l.classList.toggle('lhot',li===i);l.classList.toggle('lnear',!!nb[li]);});}
   function clear(){svg.classList.remove('foc');circles.forEach(function(c){c.classList.remove('hot','near');});edges.forEach(function(e){e.classList.remove('hot');});labels.forEach(function(l){l.classList.remove('lhot','lnear');});}
   function select(i){sel=i;focus(i);var n=N[i];
-    var html='<button class="ts-x" aria-label="close">×</button><h2>'+n.l+'</h2><p class="ts-meta">'+n.c+' passages · crosses '+Object.keys(adj[i]).length+' themes</p>';
+    var html='<button class="ts-x" aria-label="close">×</button><h2>'+n.l+'</h2><p class="ts-meta">'+(n.gl?n.gl+' · ':'')+n.c+' passages · crosses '+Object.keys(adj[i]).length+' themes</p>';
     if(n.u&&n.u.length){html+='<ul class="ts-units">';for(var u=0;u<n.u.length;u++){var id=n.u[u],t=(data.ut&&data.ut[id])||'';html+='<li><span class="ts-uid">'+id+'</span> '+t+'</li>';}html+='</ul>';}
     panel.innerHTML=html;panel.classList.add('open');
     panel.querySelector('.ts-x').addEventListener('click',function(){deselect();});}
@@ -642,15 +778,15 @@ export function renderMapBody(map, meta = {}) {
   const contourEls = contours.map(c => `<path class="ct${c.index ? ' ix' : ''}" d="${c.d}"/>`).join('')
   const streamEls = streams.map(s => `<path class="st" d="${s.d}" stroke-width="${s.w}"/>`).join('')
   const edgeEls = edges
-    .map(e => `<path class="ed${e.weight >= 2 ? ' bb' : ''}" data-a="${idx[e.a]}" data-b="${idx[e.b]}" d="${e.d}" stroke-width="${Math.min(0.5 + e.weight * 0.3, 2.4).toFixed(2)}"/>`)
+    .map(e => `<path class="ed${e.cross ? ' xt' : ''}${e.weight >= 2 ? ' bb' : ''}" data-a="${idx[e.a]}" data-b="${idx[e.b]}" d="${e.d}" stroke-width="${Math.min(0.5 + e.weight * 0.3, 2.4).toFixed(2)}"/>`)
     .join('')
   const nodeEls = nodes
-    .map((n, i) => `<circle class="nd" data-i="${i}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}"/>`)
+    .map((n, i) => `<circle class="nd g${n.group || 0}" data-i="${i}" cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${n.r.toFixed(1)}"/>`)
     .join('')
   const data = {
     w: width,
     h: height,
-    nodes: nodes.map(n => ({ l: n.label, x: +n.x.toFixed(1), y: +n.y.toFixed(1), r: +n.r.toFixed(1), c: n.count, u: n.units || [] })),
+    nodes: nodes.map(n => ({ l: n.label, x: +n.x.toFixed(1), y: +n.y.toFixed(1), r: +n.r.toFixed(1), c: n.count, u: n.units || [], g: n.group || 0, gl: n.groupLabel || '' })),
     edges: edges.map(e => [idx[e.a], idx[e.b]]),
     ut: meta.unitText || {},
   }
@@ -674,8 +810,11 @@ export const MAP_CSS = `
   .st{fill:none;stroke:var(--water,#2f6fa6);stroke-linecap:round;stroke-linejoin:round;opacity:.8;vector-effect:non-scaling-stroke}
   .ed{fill:none;stroke:var(--trail,#3f6e2c);stroke-linecap:round;opacity:0;vector-effect:non-scaling-stroke;transition:opacity .1s}
   .ed.bb{opacity:.5}.ed:not(.bb){stroke-dasharray:2 3}
-  .ts-svg.foc .ed{opacity:.06}.ts-svg.foc .ed.hot{opacity:.95;stroke:var(--red,#b23b2e);stroke-dasharray:none}
-  .nd{fill:var(--ink,#241f1a);stroke:var(--paper,#f7f1e3);stroke-width:1.4;cursor:pointer;vector-effect:non-scaling-stroke}
+  .ed.xt{stroke:#7a5a9a;opacity:.6;stroke-dasharray:4 3}
+  .ts-svg.foc .ed{opacity:.06}.ts-svg.foc .ed.xt{opacity:.1}
+  .ts-svg.foc .ed.hot{opacity:.95;stroke:var(--red,#b23b2e);stroke-dasharray:none}
+  .nd{stroke:var(--paper,#f7f1e3);stroke-width:1.4;cursor:pointer;vector-effect:non-scaling-stroke}
+  .nd.g0{fill:var(--ink,#241f1a)}.nd.g1{fill:#a8602f}
   .ts-svg.foc .nd{opacity:.25}.ts-svg.foc .nd.hot,.ts-svg.foc .nd.near{opacity:1}
   .nd.hot{fill:var(--red,#b23b2e)}
   .ts-labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
@@ -702,6 +841,9 @@ export const MAP_CSS = `
 `
 
 export function renderHTML(map, meta = {}) {
+  const key = meta.groups
+    ? `<div class="key">${meta.groups.map((g, i) => `<span><i class="sw dot g${i}"></i>${esc(g)}</span>`).join('')}<span><i class="sw xt"></i>shared vocabulary</span><span><i class="sw st"></i>drainage</span></div>`
+    : `<div class="key"><span><i class="sw tr"></i>theme trail</span><span><i class="sw cr"></i>theme</span><span><i class="sw st"></i>drainage</span><span><i class="sw ct"></i>contour</span></div>`
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(meta.title || 'Textscape')}</title>
 <style>
@@ -715,13 +857,15 @@ export function renderHTML(map, meta = {}) {
   .key span{display:flex;align-items:center;gap:.4rem}
   .sw{width:16px;display:inline-block}.sw.tr{border-top:2px solid var(--trail)}.sw.st{border-top:2px solid var(--water)}.sw.ct{border-top:1px solid var(--contour)}
   .sw.cr{width:7px;height:7px;border-radius:50%;background:var(--ink)}
+  .sw.dot{width:9px;height:9px;border-radius:50%}.sw.g0{background:var(--ink)}.sw.g1{background:#a8602f}
+  .sw.xt{border-top:2px dashed #7a5a9a}
   .ts-map{height:74vh}
 ${MAP_CSS}
   .foot{font:12px ui-monospace,monospace;opacity:.6;margin-top:1rem}
 </style></head><body><div class="wrap">
 <h1>${esc(meta.title || 'Textscape')}</h1>
 <p class="dek">${esc(meta.dek || 'Each station is a theme, placed by what it shares with others. Drag to pan, scroll to zoom, hover to trace crossings, click a theme for its passages.')}</p>
-<div class="key"><span><i class="sw tr"></i>theme trail</span><span><i class="sw cr"></i>theme</span><span><i class="sw st"></i>drainage</span><span><i class="sw ct"></i>contour</span></div>
+${key}
 ${renderMapBody(map, meta)}
 <p class="foot">${map.nodes.length} themes · ${map.edges.length} crossings${meta.source ? ' · ' + esc(meta.source) : ''} · made with textscape</p>
 </div>
