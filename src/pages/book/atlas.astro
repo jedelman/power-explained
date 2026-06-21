@@ -5,7 +5,7 @@ import { resolve } from 'path'
 import yaml from 'js-yaml'
 import { loadCorpus } from '../../lib/load-corpus.mjs'
 import { loadThreads, sharedGestureThreads, threadCrossings, threadNetwork } from '../../lib/threads.mjs'
-import { terrain } from '../../lib/topo.mjs'
+import { terrain, makeRouter } from '../../lib/topo.mjs'
 
 // The atlas — the map of the rhizome. Spine step 3 of the composable river
 // (see for-agents/composition-pass-instructions.md). Two views, both computed
@@ -28,38 +28,27 @@ const crossings = threadCrossings()
 // The trail map — node-link layout baked at build time (see threads.mjs).
 // Two orientations: landscape for wide screens, a transposed portrait (river
 // running top-to-bottom, bands as columns) that swaps in on mobile.
-const bandLabel = { curated: 'Curated walks', practice: 'Practices', theme: 'Themes' }
 const anchorMin = 45 // big threads keep their label always-on for orientation
-
-// Edges as meandering trails: a quadratic curve bowed off the straight line.
-// Bow direction is hashed per pair so neighbouring trails curve different ways.
-const hash = s => {
-  let h = 0
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0
-  return h
-}
-const trailPath = (net, e) => {
-  const a = net.bySlug[e.a]
-  const b = net.bySlug[e.b]
-  const dx = b.x - a.x
-  const dy = b.y - a.y
-  const len = Math.hypot(dx, dy) || 1
-  const bow = (hash(e.a + e.b) % 2 ? 1 : -1) * Math.min(len * 0.16, 46)
-  const cx = (a.x + b.x) / 2 + (-dy / len) * bow
-  const cy = (a.y + b.y) / 2 + (dx / len) * bow
-  return `M${a.x.toFixed(1)} ${a.y.toFixed(1)} Q${cx.toFixed(1)} ${cy.toFixed(1)} ${b.x.toFixed(1)} ${b.y.toFixed(1)}`
-}
 
 const views = ['landscape', 'portrait'].map(key => {
   const net = threadNetwork(key === 'portrait' ? { orientation: 'portrait' } : {})
-  // Eroded watershed from the network's density (see topo.mjs): contours of the
-  // carved surface + the drainage network water collects into.
-  const { contours, streams } = terrain(net.nodes, net.width, Math.round(net.height), {
+  // Eroded watershed from the layout's density (see topo.mjs): contours of the
+  // carved surface + the drainage network, plus a router that walks each trail
+  // the least-energy way over that terrain.
+  const { contours, streams, field } = terrain(net.nodes, net.width, net.height, {
     cols: net.vertical ? 64 : 150,
   })
-  return { key, net, contours, streams, edges: net.edges.filter(e => e.type === 'gesture') }
+  const route = makeRouter(field)
+  const edges = net.edges
+    .filter(e => e.type === 'gesture')
+    .map(e => {
+      const a = net.bySlug[e.a]
+      const b = net.bySlug[e.b]
+      return { ...e, d: route(a.x, a.y, b.x, b.y), aLabel: a.label, bLabel: b.label }
+    })
+  return { key, net, contours, streams, edges }
 })
-const meta = views[0].net // shared counts/bands for captions
+const meta = views[0].net // shared counts for the caption
 
 // gestureId -> [thread] for every thread member (not just shared nodes)
 const onThreads = {}
@@ -127,17 +116,18 @@ const edgeCount =
       <div class="tm-head">
         <h2>The trail map</h2>
         <p class="tm-dek">
-          Every thread is a station, placed left-to-right by where it sits in
-          the river and banded by kind. A line between two stations is a
-          crossing — a gesture both threads pass through. Hover (or tap) a
-          station to light its full route and the threads it meets.
+          Every thread is a station, placed by the commons it shares — threads
+          that pass through the same gestures pull together and settle into
+          clusters, the basecamps and temples of the range. The land is a
+          watershed eroded from that terrain; each trail takes the low way
+          across it. Hover (or tap) a station to light its crossings.
         </p>
         <ul class="tm-key">
           <li><span class="swatch trail"></span> a trail (thread)</li>
           <li><span class="swatch cross"></span> a crossing</li>
           <li><span class="swatch stream"></span> drainage</li>
           <li><span class="swatch contour"></span> contour</li>
-          <li class="tm-key-sep">bands: curated · practices · themes &nbsp;·&nbsp; river →</li>
+          <li class="tm-key-sep">stations settle by what they share</li>
         </ul>
       </div>
 
@@ -161,26 +151,18 @@ const edgeCount =
               ))}
             </g>
 
-            {v.net.bands.map(b => (
-              <text class="tm-band-label" x={b.lx} y={b.ly}>{bandLabel[b.key]}</text>
-            ))}
-
             <g class="tm-edges">
-              {v.edges.map(e => {
-                const a = v.net.bySlug[e.a]
-                const b = v.net.bySlug[e.b]
-                return (
-                  <path
-                    class={`tm-edge${e.weight >= 2 ? ' bb' : ''}`}
-                    data-a={e.a}
-                    data-b={e.b}
-                    d={trailPath(v.net, e)}
-                    stroke-width={Math.min(0.5 + e.weight * 0.3, 2.4)}
-                  >
-                    <title>{`${a.label} ✕ ${b.label} — ${e.via}`}</title>
-                  </path>
-                )
-              })}
+              {v.edges.map(e => (
+                <path
+                  class={`tm-edge${e.weight >= 2 ? ' bb' : ''}`}
+                  data-a={e.a}
+                  data-b={e.b}
+                  d={e.d}
+                  stroke-width={Math.min(0.5 + e.weight * 0.3, 2.4)}
+                >
+                  <title>{`${e.aLabel} ✕ ${e.bLabel} — ${e.via}`}</title>
+                </path>
+              ))}
             </g>
 
             <g class="tm-nodes">
@@ -359,11 +341,6 @@ const edgeCount =
   @media (max-width: 40rem) {
     .tm-view.landscape { display: none; }
     .tm-view.portrait { display: block; }
-  }
-
-  .tm-band-label {
-    font-family: var(--mono); font-size: 8px; letter-spacing: 0.08em;
-    text-transform: uppercase; fill: var(--contour); opacity: 0.7;
   }
 
   .tm-contour { fill: none; stroke: var(--contour); stroke-width: 0.6; opacity: 0.28; }

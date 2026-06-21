@@ -185,72 +185,46 @@ export function sharedGestureThreads() {
 
 // --- the trail map ---------------------------------------------------------
 //
-// threadNetwork() bakes a full node-link layout at build time (no client
-// framework, no runtime layout): each thread is a *station* placed by its
-// position in the river (x = median river index of its gestures) and banded by
-// axis (curated walks / practices / themes), lane-packed so stations in a band
-// don't collide. Edges are the crossings: a shared gesture (the true rhizome
-// node, weight = how many) or, failing that, a shared significant tag. The
-// view renders the shared-gesture backbone by default and lights a station's
-// full set of crossings on hover. See src/pages/book/atlas.astro.
+// threadNetwork() bakes a force-directed layout at build time (no client
+// framework, no runtime layout). The binding force is the *commons*: two
+// threads attract in proportion to the gestures they hold in common (their
+// shared-gesture crossings), while all threads repel. Left to settle, they
+// gather into clusters — the basecamps and temples of the landscape. Position
+// means relationship, not reading order. The watershed terrain (topo.mjs) is
+// then grown from this layout's density, and trails route ergonomically over
+// it. See src/pages/book/atlas.astro.
 
-// gestureId -> canonical river index (0-based), built once.
-let _order = null
-function riverOrder() {
-  if (_order) return _order
-  _order = new Map()
-  const RIVER = path.resolve('src/content/manifests/the-river.manifest.yml')
-  if (!fs.existsSync(RIVER)) return _order
-  const river = yaml.load(fs.readFileSync(RIVER, 'utf8')) || {}
-  let i = 0
-  for (const slug of river.sources || []) {
-    const cp = path.resolve('src/content/book', `${slug}.md`)
-    if (!fs.existsSync(cp)) continue
-    const text = fs.readFileSync(cp, 'utf8')
-    const end = text.indexOf('\n---\n', 4)
-    const fm = yaml.load(text.slice(4, end)) || {}
-    for (const g of fm.gestures || []) if (!_order.has(g)) _order.set(g, i++)
+// A small deterministic RNG so the layout is identical every build.
+function lcg(seed) {
+  let a = seed >>> 0
+  return () => {
+    a = (Math.imul(a, 1664525) + 1013904223) >>> 0
+    return a / 4294967296
   }
-  return _order
 }
-
-const BAND = { curated: 0, practice: 1, theme: 2 }
 
 export function threadNetwork(opts = {}) {
   const vertical = opts.orientation === 'portrait'
-  const margin = 44
-  const laneGap = 26 // gap between lanes (cross axis)
-  const bandGap = vertical ? 24 : 40 // gap between axis bands
-  const topPad = 16
-  // The river runs along the "main" axis; bands + lanes stack on the "cross"
-  // axis. Landscape: main = x, cross = y. Portrait: main = y, cross = x.
-  const W = opts.width || 1200
-  const mainSpan = vertical ? opts.mainSpan || 1640 : W - margin * 2
-  const mainPx = mn => margin + mn * mainSpan
+  const W = opts.width || (vertical ? 660 : 1180)
+  const H = opts.height || (vertical ? 880 : 660)
+  const margin = 48
 
   const threads = loadThreads()
-  const order = riverOrder()
-  const N = Math.max(order.size, 2)
 
   // --- base node data ---
   const nodes = threads.map(t => {
-    const idxs = t.gestures
-      .map(g => order.get(g))
-      .filter(v => v != null)
-      .sort((a, b) => a - b)
-    const median = idxs.length ? idxs[Math.floor(idxs.length / 2)] : (N - 1) / 2
     const axis = t.kind === 'spine' ? t.axis || 'theme' : 'curated'
     return {
       slug: t.slug,
       label: t.h1 || t.title,
       count: t.gestures.length,
       axis,
-      mn: median / (N - 1),
       r: 2.6 + Math.sqrt(t.gestures.length) * 0.9,
       _ids: new Set(t.gestures),
       _sig: significantTags(t.gestures),
     }
   })
+  const idxOf = Object.fromEntries(nodes.map((n, i) => [n.slug, i]))
   const bySlug = Object.fromEntries(nodes.map(n => [n.slug, n]))
 
   // --- edges (crossings) ---
@@ -287,67 +261,125 @@ export function threadNetwork(opts = {}) {
   }
   for (const n of nodes) n.degree = neighbors[n.slug].length
 
-  // --- layout: main = river position, cross = axis band + lane packing ---
-  const grouped = { curated: [], practice: [], theme: [] }
-  for (const n of nodes) (grouped[n.axis] || grouped.theme).push(n)
-
-  let cross = topPad
-  const bandMeta = []
-  for (const key of ['curated', 'practice', 'theme']) {
-    const group = grouped[key].sort((a, b) => a.mn - b.mn)
-    const lanes = [] // lane -> last main-px used
-    for (const n of group) {
-      const px = mainPx(n.mn)
-      const gap = n.r + 14
-      let lane = lanes.findIndex(last => px - last > gap)
-      if (lane === -1) {
-        lane = lanes.length
-        lanes.push(0)
+  // --- force-directed layout (ForceAtlas2 / LinLog flavour) -----------------
+  // The commons is the force: linear attraction along shared-gesture springs
+  // (so tightly-shared threads contract into a clump), degree-weighted 1/d
+  // repulsion (so hubs push apart and clusters separate), light gravity to
+  // hold it together. This reveals communities — the basecamps and temples —
+  // rather than the even scatter a classic spring layout gives. Run in a free
+  // coordinate space; the result is fitted to the frame afterwards.
+  const springs = edges.filter(e => e.type === 'gesture')
+  const n = nodes.length
+  const rand = lcg(opts.seed || 0x50574552) // "PWER"
+  const px = new Float64Array(n)
+  const py = new Float64Array(n)
+  for (let i = 0; i < n; i++) {
+    px[i] = (rand() - 0.5) * 800
+    py[i] = (rand() - 0.5) * 800
+  }
+  const deg = nodes.map(nd => nd.degree + 1)
+  const repDeg = opts.repDeg ?? false
+  const weightPow = opts.weightPow ?? 2.6 // strong bonds (many shared gestures) dominate
+  const kRep = opts.kRep ?? 120
+  const kAtt = opts.kAtt ?? 0.05
+  const grav = opts.gravity ?? 0.3
+  const dvx = new Float64Array(n)
+  const dvy = new Float64Array(n)
+  const iters = opts.iters || 700
+  let temp = 30
+  const cool = Math.pow(0.04, 1 / iters)
+  for (let it = 0; it < iters; it++) {
+    dvx.fill(0)
+    dvy.fill(0)
+    // degree-weighted repulsion
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        let dx = px[i] - px[j]
+        let dy = py[i] - py[j]
+        let d2 = dx * dx + dy * dy
+        if (d2 < 0.01) {
+          dx = rand() - 0.5
+          dy = rand() - 0.5
+          d2 = dx * dx + dy * dy + 0.01
+        }
+        const d = Math.sqrt(d2)
+        const f = (kRep * (repDeg ? deg[i] * deg[j] : 1)) / d
+        const ux = (dx / d) * f
+        const uy = (dy / d) * f
+        dvx[i] += ux
+        dvy[i] += uy
+        dvx[j] -= ux
+        dvy[j] -= uy
       }
-      lanes[lane] = px + n.r
-      n._main = px
-      n._cross = cross + lane * laneGap + laneGap / 2
     }
-    const laneCount = Math.max(lanes.length, 1)
-    const bandStart = cross
-    const bandSize = laneCount * laneGap
-    bandMeta.push({ key, start: bandStart, size: bandSize, count: group.length })
-    cross = bandStart + bandSize + bandGap
+    // linear attraction along the commons, weighted by how much is shared
+    for (const e of springs) {
+      const ia = idxOf[e.a]
+      const ib = idxOf[e.b]
+      const dx = px[ia] - px[ib]
+      const dy = py[ia] - py[ib]
+      const w = Math.pow(e.weight, weightPow)
+      const f = kAtt * w
+      dvx[ia] -= dx * f
+      dvy[ia] -= dy * f
+      dvx[ib] += dx * f
+      dvy[ib] += dy * f
+    }
+    // gravity toward the centroid so the whole range holds together
+    for (let i = 0; i < n; i++) {
+      const d = Math.hypot(px[i], py[i]) || 1
+      dvx[i] -= (px[i] / d) * grav * deg[i]
+      dvy[i] -= (py[i] / d) * grav * deg[i]
+    }
+    // displace, capped by temperature
+    for (let i = 0; i < n; i++) {
+      const d = Math.hypot(dvx[i], dvy[i]) || 1
+      const step = Math.min(d, temp)
+      px[i] += (dvx[i] / d) * step
+      py[i] += (dvy[i] / d) * step
+    }
+    temp *= cool
   }
-  const crossTotal = cross - bandGap + topPad
 
-  // map main/cross onto x/y per orientation
-  for (const n of nodes) {
-    n.x = vertical ? n._cross : n._main
-    n.y = vertical ? n._main : n._cross
-    delete n._ids
-    delete n._sig
-    delete n._main
-    delete n._cross
-    delete n.mn
+  // fit the settled cloud to the frame (uniform scale, centred)
+  let minx = Infinity
+  let miny = Infinity
+  let maxx = -Infinity
+  let maxy = -Infinity
+  for (let i = 0; i < n; i++) {
+    if (px[i] < minx) minx = px[i]
+    if (px[i] > maxx) maxx = px[i]
+    if (py[i] < miny) miny = py[i]
+    if (py[i] > maxy) maxy = py[i]
   }
-  const width = vertical ? crossTotal : W
-  const height = vertical ? margin + mainSpan + margin : crossTotal
-  const bands = bandMeta.map(b => ({
-    key: b.key,
-    count: b.count,
-    // label anchor
-    lx: vertical ? b.start + 2 : 4,
-    ly: vertical ? 11 : b.start + 11,
-    rotate: vertical,
-  }))
+  const spanx = Math.max(1, maxx - minx)
+  const spany = Math.max(1, maxy - miny)
+  const sx = (W - 2 * margin) / spanx
+  const sy = (H - 2 * margin) / spany
+  // capped anisotropic fit: fill the frame but don't distort clusters past 1.6x
+  const uni = Math.min(sx, sy)
+  const maxA = 1.6
+  const scaleX = Math.min(sx, uni * maxA)
+  const scaleY = Math.min(sy, uni * maxA)
+  const ox = (W - spanx * scaleX) / 2 - minx * scaleX
+  const oy = (H - spany * scaleY) / 2 - miny * scaleY
+  for (let i = 0; i < n; i++) {
+    nodes[i].x = px[i] * scaleX + ox
+    nodes[i].y = py[i] * scaleY + oy
+    delete nodes[i]._ids
+    delete nodes[i]._sig
+  }
 
   return {
-    width,
-    height,
+    width: W,
+    height: H,
     vertical,
     nodes,
     edges,
     neighbors,
-    bands,
     counts: {
-      gesture: edges.filter(e => e.type === 'gesture').length,
-      tag: edges.filter(e => e.type === 'tag').length,
+      gesture: springs.length,
+      tag: edges.length - springs.length,
     },
     bySlug,
   }
