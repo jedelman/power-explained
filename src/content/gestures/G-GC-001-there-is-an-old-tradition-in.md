@@ -37,8 +37,9 @@ plain: >
   Sometimes just saying the name is enough to change things. A man named Paulo
   Freire showed this.
 
-  This chapter names some of these problems. The goal is to see them clearly.
-  At the end, the chapter brings in a helper and guide for you.
+  This chapter names some of these demons — the forces that act on you whether
+  or not you can see them. The goal is to see them clearly. At the end, the
+  chapter brings in a helper and guide for you.
 
   Let us begin.
 plain_meta:
