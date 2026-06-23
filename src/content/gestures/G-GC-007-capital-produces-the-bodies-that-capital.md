@@ -35,7 +35,7 @@ notes: |-
   that capital needs." The co-evolution argument: same ecosystem, same
   pressures, same adaptive solution. No coordinator required.
 plain: >
-  The money system shapes people to fit what the money system needs.
+  Capital shapes people to fit what Capital needs.
 
   A school teaches kids to be good at taking tests. A factory needs
   workers who will follow orders. The school and the factory do not

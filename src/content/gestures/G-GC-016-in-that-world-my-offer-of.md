@@ -34,7 +34,7 @@ plain: >
   said it was allowed. No one had told him this was the right thing to
   want. And without that, the wanting could not switch on.
 
-  This is the money system shaping a person, up close. The system did not
+  This is Capital shaping a person, up close. The system did not
   fail to teach him. It taught him all the way through, for itself. The
   art was there. The drive was there. But they were tied to a need for
   permission. I could not give that permission, and I would not make it,
