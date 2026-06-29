@@ -4,7 +4,7 @@ title: 'Chapter 1: Some Days It Costs Too Much'
 description: A crossing at Hampton and Brambleton. The neighborhood under the road. A vote that passed and was ignored. Three versions of the same machine.
 h1: The Machine That Produces<br/>the Same Outcomes
 label: Chapter 1
-part: 'Part I: The Feeling Is Right'
+part: 'Part I: The Feeling'
 plateau:
   id: P-01
   status: draft

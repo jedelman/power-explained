@@ -4,7 +4,7 @@ title: 'Chapter 2: Two Cities'
 description: You showed up. You spoke. The decision went ahead as planned. The question is what the system was designed to produce.
 h1: Two Cities
 label: Chapter 2
-part: 'Part I: The Feeling Is Right'
+part: 'Part I: The Feeling'
 plateau:
   id: P-02
   status: draft
