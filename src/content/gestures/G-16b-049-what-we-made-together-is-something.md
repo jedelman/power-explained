@@ -15,7 +15,7 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
   What we made together is something neither of us could have made
-  alone. It is a shared thing that is also one of a kind. It is a
+  alone. It is a shared thing that is also singular. It is a
   whole field that is also one person growing.
 plain_meta:
   source: G-16b-049

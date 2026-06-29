@@ -36,7 +36,7 @@ plain: >
   watched to make sure rules were kept. They had ways to settle fights.
   They had steps for dealing with people who broke the rules. It was a
   commons built where the rulers had set everything up to stop one from
-  forming. That is magic in the real sense. Single people came together
+  forming. That is magic in the real sense. Singular people came together
   and made something the system swore could not be made. One act. Break
   the plantation's rules. Live the new world now, as if it were already
   here.

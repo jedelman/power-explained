@@ -16,7 +16,7 @@ notes: |-
 plain: >
   This is what Simondon called the pre-individual field,
   made plain to see in a public space. It is the full,
-  buzzing source that single beings come out of, and it
+  buzzing source that singular beings come out of, and it
   is never used up. It was not one single thing. It was
   not a party. It was the field, fast enough to see. It
   was the web of roots, out in the open air. It was magic

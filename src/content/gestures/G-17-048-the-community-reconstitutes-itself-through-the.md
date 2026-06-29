@@ -16,7 +16,7 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
   The community makes itself again and again. It does
-  this through the single trips its members take. The
+  this through the singular journeys its members take. The
   start of the trip is how it begins. The return is the
   turning point.
 plain_meta:

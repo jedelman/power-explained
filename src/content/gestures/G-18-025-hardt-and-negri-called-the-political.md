@@ -18,8 +18,7 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
-  Hardt and Negri called the group we need the multitude. It is many
-  different people who work together but do not all become the same. It
+  Hardt and Negri called the group we need the multitude. It is many singular people who work together but do not all become the same. It
   is a group that rules itself. It does not turn into one party. It does
   not give all the power to one place. Gramsci showed the plan. Simondon
   showed the shape. The multitude is the group. It is not one thing. It

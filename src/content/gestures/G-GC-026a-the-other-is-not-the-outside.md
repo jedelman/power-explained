@@ -48,7 +48,7 @@ plain: >
   The outside is made by power. It is land held down by a ruling group,
   the edge that is made by leaving people out. Take the power away, and
   the outside goes away too. The Other was never made by power at all.
-  The Other is just another being that is not you. A person. An animal.
+  The Other is just another singular being that is not you. A person. An animal.
   A forest. And it holds the chance of magic. Magic is when two beings
   meet and become, for a moment, one thing that was not there before.
 

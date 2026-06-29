@@ -22,8 +22,7 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
   The group needed a way to govern itself. It needed a
-  pattern language. That is a way for many single people
-  to make choices over time. It keeps them from falling
+  pattern language. That is a way for many singular people to make choices over time. It keeps them from falling
   into a boss's rule, and it keeps them from getting
   stuck. Occupy had the field. It did not yet have the
   form. It was not broken from the inside. It was torn

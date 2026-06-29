@@ -18,7 +18,7 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
   The Matrix makes this real. The people in their pods are not just
-  fooled. They are harvested. Their warmth, their oneness, the way
+  fooled. They are harvested. Their warmth, their singularity, the way
   each human life is one of a kind and cannot be reduced — all of it
   is taken as a resource. The system does not see people. It sees
   only outputs. The fake world is the way it runs them. Locking them

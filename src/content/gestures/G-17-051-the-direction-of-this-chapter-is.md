@@ -23,8 +23,7 @@ notes: >-
   merging with adjacent gestures is expected on plateau-level revision. [merged G-17-052 on
   2026-05-20]
 plain: >
-  This chapter moves out and up. It starts with the
-  single self found in the descent. It moves to the
+  This chapter moves out and up. It starts with the singular self found in the descent. It moves to the
   community that can take that self in. It moves to the
   city that builds these practices into its streets. It
   moves to the institutions that hold all of it on a big

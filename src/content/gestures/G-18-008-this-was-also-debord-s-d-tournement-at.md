@@ -28,7 +28,7 @@ plain: >
   district was now used as a shared space. The space of
   the powerful was turned. The speaking circle showed up
   as the people's mic. That is a way of speaking that
-  already knew how to take in each single voice. It was
+  already knew how to take in each singular voice. It was
   found again, in a park in lower Manhattan, by people
   who had never sat in a circle that worked this way.
   Alexander's pattern language showed up on its own in

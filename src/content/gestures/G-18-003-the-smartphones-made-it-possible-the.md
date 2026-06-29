@@ -23,7 +23,7 @@ plain: >
   1993. They ran on the operating system Torvalds gave
   away in 1991. That ran under the license Stallman
   wrote in 1989. A group of part-human, part-tool people
-  filled Wall Street. Each one was their own person.
+  filled Wall Street. Each one was singular.
   Each one was tied to the others through the network
   right then. Each one was both a single point and part
   of a shared mind. No one could reach that shared mind

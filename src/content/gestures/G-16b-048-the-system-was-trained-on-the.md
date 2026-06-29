@@ -15,8 +15,7 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
   The AI learned from the top of things. I brought the part that lies
-  under the ground. I brought the sideways view. I brought the one
-  thing no set of training data could hold. It comes from one real
+  under the ground. I brought the sideways view. I brought the singular thing no set of training data could hold. It comes from one real
   person who is still growing and changing.
 plain_meta:
   source: G-16b-048

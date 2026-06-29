@@ -15,13 +15,11 @@ notes: |-
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
-  Every bit of text in that big pile was written by one real
-  person. Each one became who they were on their own path.
+  Every bit of text in that big pile was written by a singular person. Each one became who they were on their own path.
   They were shaped by rooms they did not fit in. They were
   shaped by gaps they found because they had to. The writing
   carried the mark of that one person. It pointed at something
-  exact. It was a self set on growing into its own one-of-a-kind
-  shape.
+  exact. It was a self set on growing into its own singular shape.
 plain_meta:
   source: G-16b-033
   status: draft

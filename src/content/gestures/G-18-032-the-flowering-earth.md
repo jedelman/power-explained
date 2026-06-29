@@ -25,7 +25,7 @@ plain: >
   as a resource we keep from running out. Not the just earth. Justice fixes
   things. It sees the earth as a system we put back in balance. The Flowering
   Earth means this: the earth is alive. It is making beauty. It is making
-  new and complex things. It is making things that are one of a kind. It is
+  new and complex things. It is making things that are singular. It is
   flowering.
 plain_meta:
   source: G-18-032

@@ -25,8 +25,9 @@ plain: >
   magic. We will see many more in this book. Magic is what happens
   when separate things meet and become, for a short time, one thing
   that was not there before. The deer carried the secret ways. That
-  is the forest's own one-of-a-kind nature that no grid can map.
-  Each child carried the gift. That is their own angle on the world,
+  is the forest's own singular nature — one of a kind, found nowhere
+  else — that no grid can map. Each child carried the gift. That is
+  their singular angle on the world,
   the body they got from people whose names they do not know. I had
   taught them the stalking walk earlier that week. When the deer
   came, the body took over. The body remembers things the mind has

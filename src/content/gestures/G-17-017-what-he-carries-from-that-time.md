@@ -17,8 +17,7 @@ notes: |-
 plain: >
   He still carries something from that time. For years he has been
   sharing it with people who never had it. It is a way of seeing how
-  a community builds itself back up. It does this through the single,
-  one-of-a-kind journeys of each of its members.
+  a community builds itself back up. It does this through the singular journeys of each of its members.
 plain_meta:
   source: G-17-017
   status: draft

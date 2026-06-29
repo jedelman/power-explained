@@ -53,7 +53,7 @@ plain: >
   binds, undoes, or summons, depending on what is named. When you
   find the name, the body knows before the mind. An oh in the gut.
   The shoulders drop. The eyes open wider. The weight of not knowing
-  lifts. Magic. What arrives when the work is done — separate things
+  lifts. Magic. What arrives when the work is done — singular things
   meeting and joining. Its kinds will name themselves as you meet
   them. Spellbook. The list you are starting. Every spell on it goes
   both ways. The same incantation casts for the shared world or for

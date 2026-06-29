@@ -23,8 +23,8 @@ plain: >
   people is built around it. That idea cannot stand the one who thinks
   differently. The one who thinks differently shows that the "one true
   human" is made up. Luxemburg is not just making a soft point about
-  letting people disagree. She is saying that each person being one of
-  a kind is what freedom needs. The system that cannot make room for
+  letting people disagree. She is saying that each person being singular is what freedom
+  needs. The system that cannot make room for
   the one who thinks differently is the same system that cannot make
   room for the person it does not count as human. It is the same way
   of thinking. It is the same shutting out. It just shows up in a

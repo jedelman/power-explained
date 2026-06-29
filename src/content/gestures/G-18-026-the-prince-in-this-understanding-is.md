@@ -18,8 +18,7 @@ notes: |-
   merging with adjacent gestures is expected on plateau-level revision.
 plain: >
   Here the Prince is not the king. It is not the party. The Prince is the
-  multitude itself. It rules through the commons. It is many single beings
-  joined together. Each one has gone down into something hard and brought
+  multitude itself. It rules through the commons. It is many singular beings joined together. Each one has gone down into something hard and brought
   something back. Picture a herd of centaurs. Each one carries its own slanted
   view. Each one is linked to the others through the shared field.
 plain_meta:

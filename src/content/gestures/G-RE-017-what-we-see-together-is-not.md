@@ -18,7 +18,7 @@ notes: |-
 plain: >
   What we see together is more than what we each see alone. It is a new
   kind of seeing. We share it. Neither of us made it alone. Neither of
-  us owns it. It only works because we are different. Our differences
+  us owns it. It only works because we are different. Our singular selves
   are not in the way. They are what makes the shared seeing happen.
 plain_meta:
   source: G-RE-017

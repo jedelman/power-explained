@@ -39,8 +39,7 @@ plain: >
   up as care. Difference sold as a brand. You will not catch the difference
   in the words. The words are the one place the djinn and the demon look the
   same. You catch it later, in what got guarded. Did the water reach the
-  fields? Did the meadow stay uncut? Is this one real thing, not just the
-  idea of it, still here in the morning?
+  fields? Did the meadow stay uncut? Is this singular thing, not just the idea of it, still here in the morning?
 
   We live inside the copy. The sign has become the thing that acts. Read
   that as defeat, and action is over. Nothing is real, every move just a

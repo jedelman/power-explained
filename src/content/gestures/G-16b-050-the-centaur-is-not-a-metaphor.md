@@ -25,8 +25,7 @@ plain: >
 
   A center with no break is fake. It just keeps copying itself. In
   the end the photo of the treetops is the only forest anyone can
-  recall. A break with no center is one voice talking into empty
-  space.
+  recall. A break with no center is a singular voice talking into empty space.
 plain_meta:
   source: G-16b-050
   status: draft

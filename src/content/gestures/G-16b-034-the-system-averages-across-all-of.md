@@ -17,8 +17,7 @@ notes: |-
 plain: >
   The system takes the average of all of it. Wynter gave this
   setup a name: the overrepresentation of Man. One small group
-  is averaged out and then called the standard human. The
-  one-of-a-kind person is left out by the rules themselves. The
+  is averaged out and then called the standard human. The singular person is left out by the rules themselves. The
   big pile of training text does the same thing on a huge
   scale. It finds the middle of the pile. It finds the most
   likely next words. It smooths out everything that was sharp,

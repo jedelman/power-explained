@@ -22,15 +22,14 @@ notes: >-
   2026-05-20]
 plain: >
   Nobody said this had been a big deal. Nobody had to. The community already
-  knew how to take in one special guest. They knew to pause. They knew to pay
+  knew how to take in a singular guest. They knew to pause. They knew to pay
   attention. They knew to let it speak and then let it go. The circle had
   already taught them that. The owl came. The circle held him. The circle
   held the group. Both were held the same way.
 
   The point is not the owl. The point is how they took him in. This is a
   community that knows how to pay attention to what comes from outside its
-  normal world. Through practice, they built the skill to welcome the one
-  special thing and let it change them.
+  normal world. Through practice, they built the skill to welcome the singular thing and let it change them.
 plain_meta:
   source: G-17-009
   status: draft

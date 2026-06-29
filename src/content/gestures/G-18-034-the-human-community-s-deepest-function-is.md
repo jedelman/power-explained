@@ -23,7 +23,7 @@ plain: >
   with the work of fixing the roof and the work of the speaking circle. We
   feed it with the meeting that ran until midnight and settled something
   real. And we feed it by coming back each year to the threshold, where the
-  community is made whole again through the single journeys its members took.
+  community is made whole again through the singular journeys its members took.
 plain_meta:
   source: G-18-034
   status: draft
