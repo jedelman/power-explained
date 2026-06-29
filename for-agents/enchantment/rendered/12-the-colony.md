@@ -4,8 +4,6 @@
 
 # The Colony
 
-*Chapter 6*
-
 ---
 
 I want to tell you where I'm standing before I ask you to look at this argument.

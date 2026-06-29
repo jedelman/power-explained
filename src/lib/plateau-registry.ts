@@ -2,7 +2,7 @@
 //
 // Loads the full `book` content collection and exposes:
 //   - getRegistry()           : Map of plateau-id → plateau entry
-//   - getBySlug(slug)         : entry by file slug (e.g. "chapter-4")
+//   - getBySlug(slug)         : entry by file slug (e.g. "nobody-asked-him-to")
 //   - getById(id)             : entry by plateau id (e.g. "P-04")
 //   - getDoorsForSlug(slug)   : resolved doors with target titles + URLs
 //   - getHighway()            : the default linear reading order
@@ -109,31 +109,43 @@ export async function getDoorsForSlug(slug: string) {
 // For now this is a hardcoded sequence; eventually it lives in a separate
 // manifest file. Slugs not in this list still render but aren't on the
 // highway.
+// Mirrors the canonical order in
+// src/content/manifests/the-river.manifest.yml. Keep in sync when the river
+// is reordered.
 const HIGHWAY: string[] = [
   'overture',
   'prologue',
-  'chapter-1',
-  'chapter-2',
-  'chapter-3',
+  // Part I — The Feeling
+  'the-machine-that-produces-the-same-outcomes',
+  'two-cities',
+  // Part II — Learning to See
   'becoming-wizards-in-the-woods',
-  'chapter-4',
+  'the-cook',
+  'nobody-asked-him-to',
+  'even-that-part',
+  'the-hollow-book',
+  // Part III — Taking It Apart
   'goetia',
-  'chapter-5',
+  'the-smile',
   'the-colony',
-  'chapter-8',
-  'chapter-9',
-  'chapter-10',
-  'chapter-11',
-  'chapter-12',
-  'chapter-13',
-  'chapter-14',
-  'chapter-15',
+  'no-name-for-it',
+  'orgone-accumulator',
+  // Part IV — Learning from Those Who Walked Before
   'reenchanting',
-  'chapter-16',
-  'chapter-16b',
-  'chapter-17',
-  'chapter-18',
-  'the-centaur-chapter',
+  'he-built-it-anyway',
+  'the-birds-she-fed-through-the-bars',
+  'the-circle-in-the-blizzard',
+  // Part V — Seeing What You Missed
+  'angel-faces-backward',
+  'this-was-made',
+  // Part VI — When You Wake
+  'wizards-walk',
+  'were-canceling-it',
+  'i-became-the-land',
+  'still-meeting',
+  'the-owl-at-the-edge-of-the-circle',
+  'you-wonderful-weird-birds',
+  'the-djinn',
   'epilogue',
 ]
 
