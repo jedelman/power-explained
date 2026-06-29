@@ -90,6 +90,8 @@ They feel like different kinds of problems. Infrastructure. History. Governance.
 
 Each one is a system that extracts something from the community — mobility, housing, political agency — and returns something else — throughput, institutional development, the appearance of process. In each one, information flows in from below and doesn't change the outcome. In each one, the people operating the system are not, mostly, malicious. They are inside a template so naturalized it functions without anyone having to enforce it.
 
+A machine like that has no driver to vote out, no villain to expose. It runs on a worn path, and on the belief that the path is the ground. But belief can be seen through — and what can be seen through can be undone. Name the path as a path, and it is a choice again: something someone made, that someone can unmake.
+
 Plenty of books name what's wrong. Some assign blame. The question here is different: what is the machine, how does it work, and what are people actually doing — in specific places, with specific tools, at specific moments — to build something different?
 
 After midnight, the truck traffic on Hampton Boulevard subsides. I used to cross it by bike coming home from the restaurant I owned — in the strange silence, the rumble gone, the road empty in both directions. There's a magic to the midnight city that has nothing to do with danger. The feeling of being free, and that the people who have assembled this world have turned their backs, so the weird ones like you can play. Even Hampton Boulevard has that hour. Even the things built to extract from us have cracks where something else comes through.

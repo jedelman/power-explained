@@ -1273,3 +1273,36 @@ shamanism placements into one walk. Connections all Jason-endorsed (the placemen
   Matched the Eliade clause to its gesture ("disenchanted world was the strange one").
   Ordering judged optimal. KEEP otherwise.
 - Status: staged at /book/path/the-sacred-and-its-keepers. Not in nav, not in the river.
+
+---
+
+## G-01-030a (the-machine… ch1) · Enchantment-pass Move 3 · staged (PASS)
+- Composed: one wizard-register bridge between G-01-030 and G-01-033 — the wizard
+  turn that names the demon's nature and weakness (the counter-spell) without
+  re-explaining the machine.
+  "A machine like that has no driver to vote out, no villain to expose. It runs on
+  a worn path, and on the belief that the path is the ground. But belief can be seen
+  through — and what can be seen through can be undone. Name the path as a path, and
+  it is a choice again: something someone made, that someone can unmake."
+- Sources:
+  - "no driver to vote out, no villain to expose" ← G-01-030 ("the people operating
+    the system are not, mostly, malicious") + the ignored-vote scene (G-01-022/024)
+    + G-01-033 ("Some assign blame").
+  - "runs on a worn path / belief that the path is the ground" ← G-01-013 ("Common
+    sense is the trail, not the decision"; "wear in like trails… the body follows
+    automatically") + G-01-010 ("It feels like reality").
+  - "belief can be seen through… name the path as a path… a choice again" ← G-01-012
+    ("make the existing arrangement visible as an arrangement") + lexicon §Incantation
+    (the counter-spell "names a thing so you see it coming, and the room changes") +
+    lexicon §Grimoire (a demon = "a power with a nature, a weakness, a use").
+- Critique (fresh-context craft critic, 2026-06-29): PASS on all 8 checks. Fills a
+  real gap — the chapter's old "can be removed" beat (G-01-032) is status: stashed,
+  so the made-thing/choice-again turn was absent at this seam; the insert also repairs
+  the 030→033 join (cause→consequence). No pre-emption (pays off G-01-013's dropped
+  trail image). No new claims/names/dates.
+- Witness (fresh-context blind reader, 2026-06-29): the line landed as the reader's
+  OWN realization ("the machine is just a worn path that someone could choose to
+  unmake") and read as invitation, not conscription — principle C confirmed.
+- Notes: witness bounced off two EXISTING beats (the "Gramsci called this common
+  sense" citation as over-explaining; the brewery "went out of business" vindication
+  note) — flagged to Jason, not edited in this commit.
