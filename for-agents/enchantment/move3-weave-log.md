@@ -68,9 +68,60 @@ becoming-wizards→the-cook (G-IW-031, "Mondragón"), the-circle→angel-faces (
 angel-faces→this-was-made (G-AB-063, "the land trust"), the-hollow-book→goetia
 (G-16b-057). Several other handoffs verified intact.
 
-## Finding so far
+## Part IV — Learning from Those Who Walked Before (opened by Re-Enchanting)
 
-Parts II–III: **0 beats / 7 chapters ZERO.** The alchemical + composition passes
-already wove read→name→magic into these chapters; the enchantment thesis is already
-enacted at the prose level. Chapter 1 (one beat) was the rare genuine gap. Move 3 is
-largely a verification pass confirming the weave is present.
+- **he-built-it-anyway** · **ZERO** · "He built it anyway" / "the thread has never
+  broken" is the spine (necromancy-as-inheritance); demon's weakness on the page
+  (G-09-010 "That reflex has a history. It was built").
+- **the-birds-she-fed-through-the-bars** · **ZERO** · the lexicon explicitly excludes
+  Luxemburg from "wizard," so a Gandalf beat would *violate* it; the chapter rightly
+  stays analytical; grief already converted to inheritance (G-10-042 "It wasn't buried.
+  We're still reading it. And in reading it, we're in the tradition").
+- **the-circle-in-the-blizzard** · **ZERO** · "enclosed because it worked" is the
+  counter-spell refrain; "Necromancy in commons form" self-named (G-11-037).
+
+## Part V — Seeing What You Missed (opened by Angel-Faces)
+
+- **this-was-made** · **ZERO** · the pivot; the title's "this is natural → this was
+  made" IS the demon's weakness (G-12-019); Divination named, counter-spell explicit
+  (G-12-020); "the enclosure underneath all the other enclosures" (G-12-036).
+
+## Part VI — When You Wake (opened by Wizard's Walk)
+
+- **were-canceling-it** · **ZERO** · Pact school cast (G-13-011); weakness in register
+  (G-13-003 "debt… has been weaponized. The weapon can be turned"); boomerang-bottle
+  singular close.
+- **i-became-the-land** · **ZERO** · weakness explicit (the land-value tax "cannot be
+  passed on… land cannot be moved or hidden"); the magic-singular close is the lexicon's
+  "secret ways" verbatim (Sorenson); grief→agency (G-14-021).
+- **still-meeting** · **ZERO** · Federici named as Divination; "It only works if people
+  care about each other. That is not a weakness. That is the point" (G-15-029);
+  inheritance from the title.
+- **the-owl-at-the-edge-of-the-circle** · **ZERO** · the owl *is* the singular; "the
+  enclosure of the occasion" named with its weakness (refusable); recognition-handoff
+  at G-17-053.
+- **you-wonderful-weird-birds** · **ZERO** · the confirmation-seed IS the chapter's
+  hinge — G-18-028→029 "You have met them in this book… You may be one of them already"
+  — handing straight into the-djinn's "we need you."
+
+---
+
+## Move 3 — complete
+
+**16 analytical chapters assessed: 1 beat (chapter 1, the template) + 15 ZERO.**
+
+The alchemical + composition passes had already woven read→name→magic into the
+analytical chapters in register — the enchantment thesis is **already enacted at the
+prose level** throughout. Chapter 1 was the one genuine gap (its naming beat G-01-032
+was stashed), filled by G-01-030a. Every other chapter names its demon (with the
+weakness on the page), reads the terrain, closes on the singular, and holds the
+inheritance-not-grief register. Adding beats would have gold-plated and violated
+principle C.
+
+The confirmation-reveal arc (principle C) was verified intact and deliberate across the
+whole river — see `for-agents/enchantment/confirmation-reveal-tracker.md`.
+
+**Outstanding for Jason (not blocking):**
+1. Relocation seam audit — 4 broken forward-handoffs (`relocation-seam-audit.md`).
+2. Chapter-1 witness flags on existing prose — the "Gramsci called this" citation
+   (over-explaining) and the brewery "went out of business" vindication note.
