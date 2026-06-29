@@ -12,7 +12,8 @@ notes: |-
   single self that stands alone), the spell (common sense / hegemony), and the
   turn: your singularity is your magic. Composed from G-RE-004.
 plain: >
-  You were fenced in too. You were closed off into one small self that
+  You were fenced in too. The same enclosure took the magic out of the
+  world — and out of you. It closed you off into one small self that
   believes it stands alone. But you were born able to see. The blindness
   came later. It was like a spell, said over and over until you thought
   it was simply who you are. People call that spell common sense. Here is
