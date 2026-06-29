@@ -44,3 +44,33 @@ Format: chapter · decision · note.
   written for the old order; it now precedes Goetia (*The Speaking of Names*). Naming-as-
   practice is plausibly apt, but whether to re-point that close at the demons is a
   sacred chapter-seam decision — routed to Jason, not woven.
+
+## Part III — Taking It Apart (opened by Goetia)
+
+- **the-smile** · **ZERO** · names the demon across three terrains; weakness on the
+  page (G-05-024 "It is maintained. It can be unmaintained"); closes on the singular
+  (the Witch, "the unkilled remainder"). Confirmation-seed + correct handoff to
+  the-colony (G-05-031 "race in the mechanism, the colony in the body").
+- **the-colony** · **ZERO** · among the most heavily woven chapters; reads the Black
+  radical tradition as living inheritance (Necromancy commons-cast named verbatim at
+  G-06-023, "the lineage held — each wizard's reading taken up by the next"); Palmares
+  as "magic in the strict sense" (G-06-024); counter-spell explicit at G-07-040.
+- **no-name-for-it** · **ZERO** · the chapter is built from the naming move (its demon
+  is namelessness; G-08-005 "the name made it speakable"); singular-vs-averaging
+  explicit (G-08-009); inheritance lineage (G-08-019a/020); a beat would pre-empt.
+
+## Relocation seams (separate from the weave)
+
+The Move 2 relocations broke four forward-handoff lines (a wizard Part-opener was
+inserted between an analytical chapter and the chapter its handoff named). Audited and
+routed to Jason in `for-agents/enchantment/relocation-seam-audit.md`:
+becoming-wizards→the-cook (G-IW-031, "Mondragón"), the-circle→angel-faces (G-11-039),
+angel-faces→this-was-made (G-AB-063, "the land trust"), the-hollow-book→goetia
+(G-16b-057). Several other handoffs verified intact.
+
+## Finding so far
+
+Parts II–III: **0 beats / 7 chapters ZERO.** The alchemical + composition passes
+already wove read→name→magic into these chapters; the enchantment thesis is already
+enacted at the prose level. Chapter 1 (one beat) was the rare genuine gap. Move 3 is
+largely a verification pass confirming the weave is present.
