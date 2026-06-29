@@ -36,6 +36,26 @@ notes: |
   free, it would mean that everyone else would have to be free since
   our freedom would necessitate the destruction of all the systems of
   oppression") are from the Statement.
+plain: >
+  Crenshaw was not the first. A group called the Combahee River Collective
+  had named the same thing twelve years before. They just said it in a
+  different way.
+
+  They were a group of Black feminist lesbian socialist women. They started
+  in Boston in 1974. The founders were Barbara Smith, Beverly Smith, and
+  Demita Frazier. They named the group after Harriet Tubman's Combahee River
+  raid in 1863. The name itself carried their history. Their 1977 statement
+  said it plainly: the big systems that hold people down are linked together.
+  If Black women were free, then all the other systems would have to fall
+  too. People left out of every group can not be only half free.
+
+  They did not ask for a spot in the old groups. They wanted to break the
+  groups apart so something new could grow. They read the world together. And
+  they did the work itself before it had a name. They held meetings to raise
+  each other up. They helped each other directly. They taught each other.
+plain_meta:
+  source: G-08-019a
+  status: draft
 ---
 Crenshaw was not first. The Combahee River Collective had named the same structure twelve years earlier, in a different register.
 

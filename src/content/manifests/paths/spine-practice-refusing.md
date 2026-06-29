@@ -1,0 +1,79 @@
+---
+id: spine-practice-refusing
+slug: spine-practice-refusing
+label: Practice
+kind: spine
+axis: practice
+title: Refusing
+h1: Refusing
+kicker: What the book does
+spine_tag: practice/refusing
+description: >-
+  Every gesture the book marks as the practice of refusing — one of the things the wizard does,
+  gathered in the river's order. 32 stops.
+gestures:
+  - G-01-015
+  - G-01-017
+  - G-01-026
+  - G-02-026
+  - G-07-040
+  - G-OA-008b
+  - G-09-022
+  - G-11-027
+  - G-11-032
+  - G-13-001
+  - G-13-003
+  - G-13-029
+  - G-AB-013
+  - G-AB-014
+  - G-AB-030
+  - G-AB-038
+  - G-AB-061
+  - G-AB-063
+  - G-14-008
+  - G-14-025
+  - G-14-031
+  - G-16-025
+  - G-16-048
+  - G-16-054
+  - G-16b-018
+  - G-16b-019
+  - G-16b-044
+  - G-17-036
+  - G-17-043
+  - G-18-016
+  - G-18-028
+  - G-WW-024
+separators:
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+---

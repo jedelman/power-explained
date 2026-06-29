@@ -14,5 +14,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  It is not just about the hero going down into hardship. It is about
+  the hero coming back. Our culture loves the idea of a single person
+  who achieves great things. That culture has gotten the coming-back
+  part wrong. It has thrown that part away.
+plain_meta:
+  source: G-17-020
+  status: draft
 ---
 Not the hero's descent alone. The *return*. This is the piece that the culture of individual achievement has systematically misunderstood and discarded.

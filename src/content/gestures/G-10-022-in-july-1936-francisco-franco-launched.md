@@ -24,6 +24,22 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-10-023 on
   2026-05-20]
+plain: >
+  In July 1936, Francisco Franco led a fascist army takeover against the
+  Spanish Republic. In Catalonia and Aragon, workers and farmers did not wait
+  for a party to tell them what to do.
+
+  In Barcelona, workers took over the trams and kept them running. The workers
+  ran them. They picked their own bosses by vote. They set the fare at one low
+  price anyone could pay. Barcelona had fine machine shops. They made it one of
+  Europe's big factory cities. The workers took these over. They made war goods
+  instead. In the Aragon countryside, hundreds of villages joined their land
+  together. No one forced them. They met and chose this. The people who worked
+  the land decided together how to run it. The CNT helped them. It was a labor
+  union with over a million members. It followed the anarcho-syndicalist way.
+plain_meta:
+  source: G-10-022
+  status: draft
 ---
 In July 1936, Francisco Franco launched a fascist military coup against the Spanish Republic. In Catalonia and Aragon, workers and peasants didn't wait for a party directive.
 

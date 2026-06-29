@@ -15,5 +15,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Hampton Boulevard is still here. The crossing is still not safe. The
+  neighborhood it was built on is still gone.
+plain_meta:
+  source: G-14-033
+  status: draft
 ---
 Hampton Boulevard is still there. The crossing is still dangerous. The neighborhood it was built on is still gone.

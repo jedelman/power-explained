@@ -25,6 +25,43 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-08-010 on
   2026-05-20] [merged G-08-011 on 2026-05-20]
+plain: >
+  Sylvia Wynter spent years trying to write the Caribbean into being. Not as
+  a backdrop for European stories. As the center of its own history. As its
+  own ways of being human. That work led to her big idea. She told a story
+  about being human from a spot the old idea of "human" had shut out. You
+  cannot write Caribbean history with care and miss one fact. The people in
+  it were sorted as less than fully human. Once you see that, you have to ask
+  more. Who made that sorting? When? Why? Follow the question far enough and
+  you reach a claim. The very idea of the "human" was built to make an
+  outside.
+
+  In the Middle Ages, Christian Europe had one way to know what a human was.
+  It came from religion. To be fully human was to be made in the image of
+  God. The Renaissance changed this. A new figure stood at the center.
+  Europe called him Man. He was a thinking person who ruled himself. He could
+  master nature by reason. But Man was not a picture of all people. He was a
+  picture of one kind of person. Schooled. Owning property. European. Male.
+  His traits were turned into the meaning of "fully human." Everyone else
+  was measured against him and judged as less.
+
+  Wynter has a name for this. She calls it overrepresentation. One group's
+  picture of itself became the meaning of Human for all. Everyone else was
+  measured against a mirror they did not make.
+
+  A version of this is happening right now. A large language model gives you
+  the average of human writing. It guesses the most likely next word. It
+  builds that guess from everything ever written down. It is very useful for
+  many things. But it cannot make one thing. It cannot make singularity. That
+  is the one true thing a person or a group knows that no average can reach.
+  The most important thing about anyone is the very thing an average cannot
+  hold. Wynter's overrepresentation is not an old mistake we have fixed. It
+  keeps coming back in new shapes. Our systems keep reaching for one
+  all-purpose human to aim at. And that human is always one group's
+  self-portrait pretending to be a mirror.
+plain_meta:
+  source: G-08-009
+  status: draft
 ---
 Sylvia Wynter spent years trying to write the Caribbean into literary existence — not as backdrop for European stories but as the center of its own history, its own ways of being human. That practice — telling a story about what it means to be human from a position the existing category of the human had excluded — is where the theoretical argument came from. You cannot write Caribbean history seriously without noticing that the people in it have been systematically classified as less than fully human. You cannot notice that without asking who made the classification, when, and for what purpose. When you follow that question far enough, you arrive at the claim: the category of the *human itself* was constructed to produce the outside.
 

@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The window is open. Only for a short time.
+plain_meta:
+  source: G-16b-040
+  status: draft
 ---
 The window is open. Briefly.

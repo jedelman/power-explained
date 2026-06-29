@@ -34,5 +34,16 @@ notes: |
   Direction SE. Sets up the come-find-us terminus by clarifying that
   the chapter is not closing out the walk. No meta-talk about the
   chapter ending; the next gesture lands without preamble.
+plain: >
+  There is no last stop. Each time the wizard goes down and
+  comes back, they are stronger than when they went in. But
+  they do not come back to a porch with the light on. They
+  come back to the next trip down. Their body is a little
+  more able. Their eye is a little more practiced. There is
+  never enough time. You stop because you ran out of time,
+  not because the work is done.
+plain_meta:
+  source: G-WW-029
+  status: draft
 ---
 There is no station last. The wizard returns from each descent more capable than they went in, but they do not come back to a porch with the light on. They come back to the next descent, in a slightly more useful body, with a slightly more practiced eye. There is never enough time. You stop because you ran out of time, not because the work is finished.

@@ -22,5 +22,10 @@ notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 12-12
   of pre-refactor prose.
+plain: >
+  Nobody asked him to do any of it.
+plain_meta:
+  source: G-04-009
+  status: draft
 ---
 Nobody asked him to do any of it.

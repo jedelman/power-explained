@@ -23,5 +23,11 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. Italic *I see you* lands the
     section. Two-sentence gesture.
 notes: '"The commons begins with: I see you. The rest is structure in service of that seeing."'
+plain: >
+  The commons starts with this: I see you. The rest is just a way to keep that
+  seeing alive.
+plain_meta:
+  source: G-GC-045
+  status: draft
 ---
 The commons begins with: *I see you.* The rest is structure in service of that seeing.

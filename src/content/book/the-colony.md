@@ -62,6 +62,7 @@ gestures:
   - G-07-017
   - G-07-018
   - G-07-019
+  - G-07-019a
   - G-07-021
   - G-07-022
   - G-07-026
@@ -126,6 +127,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

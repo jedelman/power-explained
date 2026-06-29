@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I did not have the words for this when I was running the restaurant in
+  Norfolk.
+plain_meta:
+  source: G-03-031
+  status: draft
 ---
 I didn't have the language for this when I was running the restaurant in Norfolk.

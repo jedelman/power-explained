@@ -25,5 +25,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Hold it long enough to see what it is saying. Feel its aura. That is the
+  distance it keeps even when it is in your hand. Do not just file it away.
+  Do not let the next thing pull you past it.
+plain_meta:
+  source: G-AB-058
+  status: draft
 ---
 Hold it long enough to see what it is saying. Feel its aura — the irreducible distance it keeps even in your hand. Do not file it. Do not let the next forward motion blow you past it.

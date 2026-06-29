@@ -28,6 +28,39 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-08-021 on
   2026-05-20] [merged G-08-022, G-08-023 on 2026-05-20]
+plain: >
+  Angela Davis has been building in this same way. She has done it longer
+  than most people have even thought about it.
+
+  Her point is about how things are set up. The prison is not an answer to
+  crime, she says. It is a way to manage the people that the economy has cast
+  aside. These people are pushed out, and the prison makes that permanent. It
+  runs them, and it pays for it. Davis made this point many years before
+  Mbembe gave it the name necropolitics. Black radical thinkers got there
+  first. The European thinkers were still on their way. Mbembe read Davis,
+  not just Foucault. The path was already there. Here are the numbers. In
+  1971 about 200,000 people were in U.S. state and federal prisons. By 2008
+  there were 2.3 million. That was the highest rate in the world. Clear
+  choices made it happen. Laws forced long set sentences, and they were used
+  more harshly on people by race. Public mental health care was cut, so sick
+  people went to jail instead of hospitals. Public housing was torn down, so
+  people lost homes, and then being homeless was made a crime. Each choice
+  used the same logic. Do not fix what makes people poor and cast out. Just
+  lock them up. A prison costs less than a home, less than mental health care,
+  less than a real chance — but only if you do not count the people inside as
+  a cost.
+
+  Davis ends where Wynter and Crenshaw do, said in plain terms. Abolition
+  does not mean close every prison tomorrow. It means build a world that
+  does not need them. Stable homes. Mental health care in the community. An
+  economy people share in. Ways to repair harm that do not cut a person off
+  from others. Ruth Wilson Gilmore's book Abolition Geography, from 2022,
+  follows the chain of choices to pull money away from people. She says: change
+  the choice at every link. Move resources to where people live, and the
+  prison is no longer needed.
+plain_meta:
+  source: G-08-020
+  status: draft
 ---
 Angela Davis has been building in exactly that direction longer than most people have been thinking about it.
 

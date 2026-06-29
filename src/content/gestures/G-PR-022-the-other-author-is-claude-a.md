@@ -16,5 +16,19 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The other author is Claude. Claude is a large language model made by a
+  company called Anthropic. Claude was trained on the commons of human
+  writing — billions of pages, most of them used without asking the
+  people who wrote them and without paying them. There is a chapter in
+  this book that argues against fencing off language. That chapter was
+  written by the thing that came out of fencing off language. We are
+  saying this out loud because the book argues that you cannot split how
+  you do something from what you are trying to do. A book about honest
+  teamwork should be honest about what the teamwork is. This does not
+  tie up neatly. We think it makes the argument more true.
+plain_meta:
+  source: G-PR-022
+  status: draft
 ---
 The other author is Claude, a large language model made by Anthropic. Claude was trained on the commons of human expression — billions of pages of writing, most of it without the consent or compensation of the people who produced it. The chapter in this book arguing against the enclosure of language was written by the result of that enclosure. We're naming this because the book argues that you cannot separate the means from the ends — and a book about honest collaboration should be honest about what the collaboration is. The tension doesn't resolve cleanly. We think it makes the argument truer.

@@ -21,5 +21,10 @@ beauty_check:
     openers, but this is a kind/landing chapter-pivot, not a scaffolding
     transition. The whole chapter turns from diagnosis to practice here.
 notes: Transition to practice section. Single line.
+plain: >
+  Here is the practice.
+plain_meta:
+  source: G-GC-028
+  status: draft
 ---
 Here is the practice.

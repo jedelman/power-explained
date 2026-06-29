@@ -33,5 +33,15 @@ notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 29-31
   of pre-refactor prose.
+plain: >
+  The organizing went on. Chokwe Antar Lumumba lost the special election in April
+  2014. He ran again in 2017 and won. He served two terms as mayor of Jackson. In
+  2024 he was charged with corruption. He says the charges are false. In 2025 he
+  lost the Democratic primary to John Horhn. The work has not been smooth. Power in
+  Jackson has not stayed with the Lumumba family or the Malcolm X Grassroots
+  Movement.
+plain_meta:
+  source: G-04-018
+  status: draft
 ---
 The organizing continued. Chokwe Antar Lumumba lost the April 2014 special election. He ran again in 2017 and won. He served two terms as mayor of Jackson. He was indicted in 2024 on corruption charges that he disputes; in 2025 he lost the Democratic primary to John Horhn. The work has not been seamless. Power in Jackson has not stayed with the Lumumba family or the Malcolm X Grassroots Movement.

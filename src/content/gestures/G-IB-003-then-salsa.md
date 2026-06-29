@@ -11,5 +11,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Then he played salsa.
+plain_meta:
+  source: G-IB-003
+  status: draft
 ---
 Then — salsa.

@@ -42,6 +42,22 @@ notes: |-
   wizards (magic = the meeting that becomes briefly a single thing
   that was not there before). Sets up the connection/solidarity close
   (meeting the Other) and re-enchanting later.
+plain: >
+  The Other. It is not the outside. It is the opposite of the outside.
+
+  The outside is made by power. It is land held down by a ruling group,
+  the edge that is made by leaving people out. Take the power away, and
+  the outside goes away too. The Other was never made by power at all.
+  The Other is just another singular being that is not you. A person. An animal.
+  A forest. And it holds the chance of magic. Magic is when two beings
+  meet and become, for a moment, one thing that was not there before.
+
+  Not everything past the counting is the outside. Some things can never
+  be taken at all. The Other is the first of these. It is here whether
+  power touches it or not.
+plain_meta:
+  source: G-GC-026a
+  status: draft
 ---
 *The Other.* Not the outside — its opposite.
 

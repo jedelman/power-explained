@@ -35,6 +35,25 @@ notes: |
   TWO small Claude additions to check on beauty pass: "I had no idea
   how" (amplifies "disorienting") and "six pounds of dangerous books"
   (flourish; Jason said three titles, not a weight).
+plain: >
+  The floor is not just an idea. It is a real place. If you are on it now, I will not lie to you. It was not failure. It was not rest. It was something else.
+
+  For the first time, I had nothing to do. No one told me to do anything. I could just be. But I did not know how. It felt very strange. I cried a few times. My mind ran through big worries. I did not move much.
+
+  Some days my partner Erin worked a shift at a coffee shop. I went along just to be there. They had a couch and a guitar. I would play the guitar and read.
+
+  That is where I read Reich. I read all of him. I read The Sexual Revolution, Character Analysis, and The Mass Psychology of Fascism. I got them from the Redmond public library a few blocks away.
+
+  So the man whose ideas run through this whole chapter, I met for real. I met him while I lay on the floor he wrote about. A free public library gave a broken stranger its most risky books. The library gave far more than it was paid to give.
+
+  I studied hard, when I studied at all. I read about Buddhism. I read about herbs from the West and from China. I read about Reich's body work. My mind broke at work. It did not break at this. It had only refused the thing it was used for.
+
+  Other days I stayed home. We lived in the woods on five acres. We had a few chickens. Each one had a name. They taught me bird sounds as much as any person did. I cooked. I wrote music. I chopped a lot of wood.
+
+  Many days we walked the valley trails. They were old train tracks. The path was gentle because a train once needed it that way. One day I caught myself asking, is this what it is like to be retired?
+plain_meta:
+  source: G-OA-005
+  status: draft
 ---
 The floor is not a metaphor and it is not nothing. It is a place, with its own geography, and if you are on it right now I do not want to lie to you about it by making it sound like either failure or rest. It was neither, and it was stranger than both.
 

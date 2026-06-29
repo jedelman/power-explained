@@ -13,5 +13,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Some people hate the night herons, because if you park under a nest,
+  they will cover your car in droppings. The sensible thing to do is:
+  look up.
+plain_meta:
+  source: G-PR-007
+  status: draft
 ---
 Some people hate the night herons because if you park under a nest, they will cover your car. The reasonable response to this is: look up.

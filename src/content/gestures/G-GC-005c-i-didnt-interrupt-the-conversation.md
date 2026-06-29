@@ -33,6 +33,16 @@ notes: |-
   agency diagnostic — middle class/Left has agency-but-no-mandate
   (blamed for outcomes), Right has mandate-but-no-agency (entitled
   without responsibility). The shape of hegemony in its production.
+plain: >
+  I let the talk go on. In the spaces between the words, I could hear who was
+  made to carry the blame and who was given the power. And those roles did not
+  come from the argument itself. They were already there. They were set before
+  anyone walked in. Something outside the room had written the script.
+
+  I saw it being made.
+plain_meta:
+  source: G-GC-005c
+  status: draft
 ---
 I let it run. Between the words, I could hear the shapes of who carried responsibility and who held authority — and how those assignments weren't coming from the argument. They were already there. Produced before anyone walked in. Something outside the room had written the script.
 

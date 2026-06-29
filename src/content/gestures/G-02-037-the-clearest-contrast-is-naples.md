@@ -36,6 +36,44 @@ notes: |
   place since the 1950s; Italian regional autonomy is structurally weaker
   than Spanish autonomous communities; the Mezzogiorno question is a
   durable feature of Italian political economy.
+plain: >
+  The clearest contrast is Naples.
+
+
+  Naples is the same kind of place as Barcelona in the ways that matter. It is a
+  Mediterranean port city. It has a working-class core. It has anarchist and
+  socialist traditions. It has a deep food culture. Its people have lived under
+  empires and outlasted them. By the signs that should make a Barcelona, Naples
+  should be one too.
+
+
+  It is not. Naples is the place people leave. For decades, fewer and fewer
+  people live in the metro area. Young Italians from the South flee north, to
+  Milan, Turin, and Rome, for work that is not there at home. Barcelona is the
+  reverse. It is the place people come to. Catalans come back. Spaniards come
+  from inland regions where chances have dried up. Workers come from across
+  Europe.
+
+
+  The contrast goes deeper. Naples is home to the United States Sixth Fleet.
+  This is Naval Support Activity Naples. It is the base for the American
+  military across Europe and Africa, and it has been there since the 1950s. Now
+  picture the United States Navy putting the Sixth Fleet in Barcelona. You
+  cannot. In the world system, the two cities stand as very different kinds of
+  places. One is a place to take from. The other is a place to live.
+
+
+  The reasons are everything this chapter has named. Naples had nothing like the
+  1979 change in Spain. The Italian state never handed power to its regions the
+  way Spain did. The South of Italy never got the room Catalonia got. Naples has
+  the same deep memory as Barcelona. It did not get the ground to turn that
+  memory into governing.
+
+
+  Same Mediterranean. Same sun. Different fates.
+plain_meta:
+  source: G-02-037
+  status: draft
 ---
 The clearest contrast is Naples.
 

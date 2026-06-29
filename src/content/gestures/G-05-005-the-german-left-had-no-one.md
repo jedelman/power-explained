@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The German left had no one more able. And no one it ignored more often.
+plain_meta:
+  source: G-05-005
+  status: draft
 ---
 The German left had no one more capable, and no one it more regularly ignored.

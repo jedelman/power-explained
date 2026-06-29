@@ -35,6 +35,69 @@ notes: |-
   The body of the Federici portrait — biography, the gap in Marx,
   the witch hunts, Caliban's argument. Verified against Federici's
   Wikipedia entry and contemporary reviews of Caliban and the Witch.
+plain: >
+  She was born in Parma in 1942, during the wartime years of fascist rule.
+  She came to the United States in 1967 on a Fulbright. She went to study
+  philosophy at Buffalo. She came to read Marx. She stayed to write what Marx
+  had not.
+
+
+  Marx said capitalism began with enclosure. Peasants were pushed off the
+  land. They had to work for wages. But he said nothing about who fed the
+  wage-earner. He said nothing about who raised his children. He said nothing
+  about who kept his home running. That work made the work he wrote about
+  possible. He never wrote about it. Marx wrote *Capital* while poor in
+  London. Four of his and Jenny's seven children died there. Jenny copied his
+  pages at the kitchen table. The housekeeper ran everything else. He never
+  noticed the part missing from his own life.
+
+
+  Federici's charge was clear. Marx treated this home work as a fact of
+  nature. He took it for granted, the way we take air for granted. So he
+  missed something. The "woman" under capitalism is not about biology. It is a
+  role. It is the role given to the work that keeps everyone alive but is
+  never counted as work. The idea of being feminine is the name for that role.
+
+
+  Federici started looking. What she found was the witch hunts.
+
+
+  This was three hundred years of planned terror against women. It peaked at
+  the same time the commons were being enclosed. It peaked while Europe was
+  taking over the Americas. The witch was the woman who knew things. She was
+  the midwife. She was the healer with herbs. She could end or stop a
+  pregnancy. Her power did not come through a man. Burning her was not just
+  fear or false belief. It was a tool. The new economy needed a new kind of
+  woman. She had to depend on a man. She had to do unpaid home work. She had
+  to be alone. The economy also needed a new kind of man. He was paid. He
+  worked in public. He was kept apart from the home. The split between men and
+  women that we know was made in this time. It was made so slowly that no one
+  remembers it was made.
+
+
+  This did more than split women from men. It was pressed into the body. It
+  was taught again and again, one generation after the next, until the split
+  felt like the way bodies just are. Every person is born able to care, to
+  nurture, to pay attention, to keep others alive. These powers were pushed
+  out of the public economy and called feminine. Now every person was cut in
+  half, kept apart from part of their own self.
+
+
+  This means the Self that Cares and Nurtures still lives in that pushed-out
+  place, in all of us. There is always a place to revolt from. This being cut
+  off is something we all share. Each of us is cut off from our own power to
+  keep each other alive without asking permission. The Witch is the part of
+  that power that was never killed. She lives in everyone.
+
+
+  *Caliban and the Witch* came out in 2004. Its argument is this. The birth
+  of the working class needed a war against women. The enclosure of the
+  commons, the conquest of the Americas, the slave trade, and the witch hunts
+  were not separate stories. They were the same story. The body was the first
+  enclosure.
+plain_meta:
+  source: G-05-026b
+  status: draft
 ---
 She was born in Parma in 1942, into the wartime years of fascist occupation. She arrived in the United States in 1967 on a Fulbright to study philosophy at Buffalo. She came expecting to read Marx. She stayed to write what Marx had not.
 

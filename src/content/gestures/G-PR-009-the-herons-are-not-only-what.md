@@ -20,6 +20,29 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-PR-010 on
   2026-05-20]
+plain: >
+  Millions of years in the shallow water. Coming back to the willow
+  oak. Standing still until the right moment comes. They are not
+  showing off how patient they are. They just are patient. Their way
+  of lasting is not a trick or a plan. It is what it looks like to be
+  fully in the world, with nothing held back.
+
+
+  Deep down, we are not so different. When you looked at that red eye
+  and felt something, that was not just a soft feeling. It was memory.
+  Something in us knows we belong to the same world, the same long
+  story.
+
+
+  We have something the herons do not. When we see what is broken, we
+  can name it. And the name we use can give us the power to change it.
+  The herons can gain from these gifts just as much as we do.
+
+
+  This is a book about learning to use them.
+plain_meta:
+  source: G-PR-009
+  status: draft
 ---
 Millions of years in the shallows, returning to the willow oak, standing motionless until the moment arrives. Not performing patience — just being it. Their resilience is not a strategy. It is what it looks like to be fully in the world, without remainder.
 

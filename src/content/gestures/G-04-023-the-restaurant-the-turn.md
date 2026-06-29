@@ -34,6 +34,48 @@ notes: |
   Extracted from chapter-4.md monolith on 2026-05-20 as part of the
   gesture architecture refactor. Source paragraphs: blocks 53-58
   of pre-refactor prose.
+plain: >
+  And one more. This one is mine.
+
+  In December 2020, in an industrial part of Norfolk, Virginia, my wife,
+  a friend, and I opened a restaurant. We had been dreaming of it since
+  2017. We used the money left over from selling a house. We bought the
+  building straight from the owner, with no bank. We fixed it up ourselves
+  on very little money. I spent eight months getting the city to change
+  the zoning. COVID hit while we were getting our last permits. I took
+  $100,000 out of a Microsoft 401k to keep us going through the shutdown.
+  We opened anyway.
+
+  You have the word for this now. What we were trying to build was a
+  commons. It was a place where people could just be. It gave them room
+  to choose who they wanted to become, not what big institutions offered.
+  They could show their soul, their love, their joy, and be welcomed.
+  Southern hospitality has a real name and a real catch: you are welcomed
+  if you are the right kind of person, and you always know if you are not.
+  What we offered was different. You can be one of us instead.
+
+  We paid a $15 tipped minimum starting in 2021 and never lowered it. We
+  always paid our people well and on time. We taught about nature right at
+  the table. When someone asked about the wine, I told them about the
+  plants, the birds, the soil, and how it was all made. The queers kept us
+  in business. The neighborhood never quite came. We ran the best menu we
+  ever ran in our last year, just the two of us. We closed in December
+  2025. We sold the building in March 2026.
+
+  It cost me my idealism and my faith in people.
+
+  I say this as a change, not as defeat. Idealism that has been tested by
+  five years of fifteen-dollar minimums, hot dog cartons in the bushes,
+  COVID, and two earlier burnouts is not gone. Mondragón has lost some
+  cooperatives. Cooperation Jackson lost the mayor in eight months. The
+  Zapatistas ended their own structure because it could not survive what
+  was coming. The commons does not always survive in the form it first
+  took. The people we paid, the people who felt welcome, the talks about
+  birds and wine: those happened. The idealism has turned into something
+  that knows what it is up against.
+plain_meta:
+  source: G-04-023
+  status: draft
 ---
 And one more — this one mine.
 

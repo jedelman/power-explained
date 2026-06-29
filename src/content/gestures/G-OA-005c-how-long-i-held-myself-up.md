@@ -37,6 +37,17 @@ notes: |
   not only refusal — underneath the refusal is a person who, for the
   first time, did not have to hold. Hands off to G-OA-006 (why he got
   up / went to the woods).
+plain: >
+  Here is the lesson. The floor can feel good once you stop trying to get off it. Let yourself get curious about what it is like down there. It is not so bad. It can be calm. It can be lonely. Sometimes it is dark. But very often it is full of life and full of light.
+
+  I had cannabis. It helped me stop fighting the floor long enough to look. And what I saw still costs me the most to admit. The worst part of the floor was never being down there. It was seeing how long I had held myself up. I held myself up and away from all that life and light. I called the holding a career. I called the tiredness strength.
+
+  So I can tell you for sure. It was not being lazy. It was not a sad mood. It was a body that had finally said no. And under that no, once the holding stopped, there was more than a person who could not stand. There was a person who, for the first time as an adult, did not have to.
+
+  I had mixed up strength with being stiff. I still do that sometimes. It is a hard habit to break. But the strength was never the holding. The strength was the thing the holding had been eating the whole time.
+plain_meta:
+  source: G-OA-005c
+  status: draft
 ---
 Here is the lesson. The floor can be quite comfortable, once you abandon the desire to get off it and give yourself room to be curious about what it is actually like down there. It is not so bad. It can be peaceful. It can be lonely. Sometimes it is dark. But very, very often it is full of life, and full of light. I had cannabis, which helped me stop fighting the floor long enough to actually look at it. And what I found when I looked was the thing that still costs me the most to admit: the most painful part of the floor was never being down there. It was realizing how long I had held myself *up* — up and away from all that life and light — and called the holding a career, and called the exhaustion strength.
 

@@ -21,5 +21,11 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. The symmetric pivot: names for
     what you're up against / this last one for what you're building with.
 notes: Closing movement. Names for what you are up against / connection for what you are building with.
+plain: >
+  The names in the spellbook are for the things you have to fight. This last name is
+  for the thing you build with.
+plain_meta:
+  source: G-GC-048
+  status: draft
 ---
 The names in the spellbook are for what you are up against. This last one is for what you are building with.

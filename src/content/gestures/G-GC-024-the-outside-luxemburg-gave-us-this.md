@@ -30,6 +30,22 @@ beauty_check:
 notes: >-
   Third name introduced: the outside. Luxemburg. Forward pointer: "We'll follow her argument fully
   in the next chapter."
+plain: >
+  The outside. This is Luxemburg's name for it. It is not a spot on the map.
+  It is a way power works. Think of a bouncer at the door and a kidnapper in
+  the alley. It pushes some people, and some ways of living, to the edge.
+  Then, when they find each other, it moves to keep them apart.
+
+  The outside is made, not found. It is the part that can be fenced in but
+  has not been fenced in yet. It is what hegemony has marked as up for grabs
+  and not yet grabbed. A colonizer looks at a colony and sees layer after
+  layer of outsides, each one waiting its turn. The machine needs this. It
+  needs land it can take value from without paying the full price. This is
+  not extra to the system. This is how the system runs. We will follow
+  Luxemburg's argument all the way in the next chapter.
+plain_meta:
+  source: G-GC-024
+  status: draft
 ---
 *The outside.* Luxemburg's name. Not a place on the map — a relation of power. The bouncer at the door and the kidnapper in the alley: it pushes certain people, and certain forms of existence, to the margin, and moves to separate them when they find each other.
 

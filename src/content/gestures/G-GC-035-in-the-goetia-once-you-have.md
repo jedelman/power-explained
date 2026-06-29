@@ -24,5 +24,12 @@ beauty_check:
 notes: >-
   Returns to the grimoire metaphor. Having named it, you can call it, see it, say: that is what this
   is.
+plain: >
+  Once you name the demon and draw its mark, you have something
+  to work with. You can call it by its name. You can spot it when
+  it shows up. You can tell other people: that is what this is.
+plain_meta:
+  source: G-GC-035
+  status: draft
 ---
 Once you have named the demon and traced its seal, you have something to work with. You can call it by its name. You can see it when it arrives. You can say to others: that is what this is.

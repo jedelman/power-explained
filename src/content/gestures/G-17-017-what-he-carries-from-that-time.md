@@ -14,5 +14,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  He still carries something from that time. For years he has been
+  sharing it with people who never had it. It is a way of seeing how
+  a community builds itself back up. It does this through the singular journeys of each of its members.
+plain_meta:
+  source: G-17-017
+  status: draft
 ---
 What he carries from that time — and has spent years transmitting to people who never had it — is a particular understanding of how a community reconstitutes itself through the singular journeys of its members.

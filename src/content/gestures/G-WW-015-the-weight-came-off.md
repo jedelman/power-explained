@@ -29,5 +29,16 @@ notes: |
   Direction E. The body's report of the crossing. The kept-polishing
   is the load-bearing detail — the room did not change shape; only
   the weight of holding it alone changed.
+plain: >
+  Right then, I knew I was doing my job. The thing I had taught the
+  room, the room could now teach on its own.
+
+  I felt a weight lift off my shoulders. I just kept cleaning
+  glasses. That was the whole thing. No big rush of joy. No "I made
+  it" feeling. My body just knew. It had been carrying something
+  for a long time. And for one moment, someone helped carry it.
+plain_meta:
+  source: G-WW-015
+  status: draft
 ---
 At that moment I knew I was doing my job. The thing the room had needed me to teach had become a thing the room could teach itself. I felt the weight come off my shoulders. I just kept on polishing glasses. That was the whole experience. No surge of triumph. No "I have arrived" feeling. Just the body recognizing that it had been carrying something for a long time and that, for a second, the carrying had been shared.

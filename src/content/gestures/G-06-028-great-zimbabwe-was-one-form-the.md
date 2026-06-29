@@ -19,6 +19,30 @@ notes: |-
   without fabricating specifics. The architecture of a working commons
   was on the continent before Europe arrived; Ostrom would later
   describe what was already there.
+plain: >
+  Palmares was one form. The continent it remembered held many more.
+
+  The Igbo live in what is now southeastern Nigeria. They ruled
+  themselves for hundreds of years with no central state. They used
+  village councils, age-grade groups, and women who ran the markets.
+  Settling fights was spread out on purpose. The Akan peoples of West
+  Africa held land through the mother's line. The wealth belonged to
+  the family line, not to one person. The Kingdom of Kongo ran a large
+  realm through councils stacked in layers. This was in place before
+  the Portuguese came in 1483, and it lived on for generations after
+  the first upheaval. The Mbuti of the Ituri forest lived by sharing
+  gifts and agreeing together. No chiefs. No fences. This is the refusal
+  that keeps the commons safe.
+
+  These were not getting ready for Europe to show up. They were what
+  the continent already was when Europe came. They were working systems
+  with rules for using land, passing it on, and settling fights. Ostrom
+  would know them right away. A clear community. Its own rules. People
+  watching to keep them. Ways to settle fights. The forms look
+  different. The basic build of a working commons is the same.
+plain_meta:
+  source: G-06-028
+  status: draft
 ---
 Palmares was one form. The continent it remembered held many.
 

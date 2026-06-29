@@ -28,5 +28,18 @@ notes: |
   Direction SE — the continuing direction, the dawn pointed at. This
   is the chapter's own capacity, the one it teaches by being itself a
   continuation. Keep it short.
+plain: >
+  The sixth skill is going on. Walking after the bad news. Walking after
+  the money falls through. Walking after the third person you trusted
+  decides this is not their time. Walking when the news is bad enough to
+  make the walking feel silly. There is no special gear for this one.
+  The skill is just you, not breaking, putting one foot down.
+
+  The wizard goes on. More than any of the others, that is the test.
+  Anyone can name once. Read once. Build once. Hold once. Enter once.
+  The walk is what turns the other five into a whole life.
+plain_meta:
+  source: G-WW-009
+  status: draft
 ---
 The sixth capacity is continuing. Walking after the bad news. Walking after the funding falls through. Walking after the third person you trusted decides this is not the time for them. Walking when the news is bad enough to make the walking feel ridiculous. There is no special equipment for this one. The capacity is just the unbroken thread of you, putting the foot down. The wizard continues. That, more than any of the others, is the test. Anyone can name once, read once, build once, hold once, enter once. The walk is what makes the other five into a life.

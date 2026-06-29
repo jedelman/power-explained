@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I saw this happen in a room.
+plain_meta:
+  source: G-06-017
+  status: draft
 ---
 I watched this in a room.

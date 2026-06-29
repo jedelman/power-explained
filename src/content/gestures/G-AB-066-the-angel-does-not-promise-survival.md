@@ -26,5 +26,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The angel does not promise that you will live. It promises sight, and the
+  duty that sight brings.
+plain_meta:
+  source: G-AB-066
+  status: draft
 ---
 The angel does not promise survival. It promises sight, and the obligation sight carries.

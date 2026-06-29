@@ -849,3 +849,427 @@ Source: Jason directive (PR #10 review, his analytical position as author). Crit
 (fresh-context): SHIP WITH REVISION → applied (intention-framing without a market-capability
 leak; "built"→"sustained" airtight vs G-10-024 Catalonia; cut a lecture tail; split an
 overpacked sentence). Build clean (141 pp).
+
+---
+
+## the-enclosure-thread  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Tapestry / thread-swarm initiative. The book's master spine: enclosure, the
+most-tagged concept (69 river gestures, 60 of them previously orphaned).
+- Path = ordering of existing gestures, no new prose:
+  G-PR-015 → G-15-011 → G-15-028 → G-13-013 → G-14-029 → G-08-007 → G-CC-002 →
+  G-CC-003 → G-05-011 → G-GC-026 → G-RE-004
+  (name → common land + care → the turn → land today → space/law → the web given
+  away + the demon fed → the frontier never ends → enclosed because it worked →
+  the enclosure of knowing).
+- Composed (Tier 1): the invocation only —
+  "Enclosure is not the theft of a thing. It is the capture of the way to it —
+  the gate set in the doorway where the way once ran open. Watch it travel:
+  common land, then care, then debt, then the web that was given away. Every
+  outside it swallows makes it need another, and the commons is only ever the
+  next outside — enclosed not because it failed but because it worked. Name the
+  gate and you can see it move. The wall is also the thing that comes down."
+- Sources:
+  - "not the theft of a thing … capture of the way to it" ← G-OV-002 (verbatim)
+    + G-CC-003 ("not the theft of a thing, but the capture of everything freely
+    given").
+  - "the gate set in the doorway where the way once ran open" ← G-OV-002 ("it
+    stood in the doorway, until what people once reached … could be reached only
+    through a price") + G-CC-002 ("Then the gate moved").
+  - "common land, then care, then debt, then the web that was given away" ←
+    members G-15-011, G-15-028, G-05-011 (lists "debt"), G-CC-002.
+  - "Every outside it swallows makes it need another" ← G-05-011 ("Every outside
+    absorbed creates the need for the next one").
+  - "the commons is only ever the next outside — enclosed not because it failed
+    but because it worked" ← G-GC-026 (verbatim-faithful).
+  - "Name the gate and you can see it move" ← G-OV-004 ("Name a thing truly and
+    you can see it coming").
+  - "The wall is also the thing that comes down" ← master principle (spell →
+    counter-spell).
+- Critique (fresh-context sub-agent, 2026-06-18): REVISE → applied. Cut the
+  invented couplet "the toll set where there was a path" (thinnest provenance,
+  most decorative cadence) down to the single sourced doorway image. Softened the
+  audible-We close ("the thing we learn to take down" → "the thing that comes
+  down") to hold the pronoun contract — an enclosure invocation is the wound, not
+  yet the reckoning. **Open call for Jason:** restore the audible "we" at the
+  close if you want the counter-spell turn explicit here (the master principle
+  licenses it; the pronoun-timing is your call).
+- Status: staged at /book/path/the-enclosure-thread. Not in nav, not in the river.
+
+---
+
+## knowing-in-the-body  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Tapestry / thread-swarm initiative. The somatic spine (motif/knowing-in-the-body,
+66 river gestures). Crosses the Night Herons thread at G-12-016 (a true node).
+- Path = ordering of existing gestures, no new prose:
+  G-PR-026 → G-01-009 → G-IW-023a → G-GC-021 → G-GC-029 → G-GC-031 → G-OA-008c →
+  G-12-016
+  (the felt sense → the body reads the built world → inscription named → Fanon's
+  nervous system → the naming must touch the body → reach for the feeling first →
+  kokoro, what the analysis cannot reach → the herons know it too).
+- Composed (Tier 1): the invocation only —
+  "Before the mind has words, the body has the news — a tension in the gut, the
+  shoulders, the held breath. The same spell that is cast on the mind is cut into
+  the flesh: the gait, the gaze, the shallow breath. We call this inscription,
+  and the name is useless until it touches the body. So reach for the feeling
+  first. There is a knowing the clipboard cannot reach — what kept you on the
+  earth when the technique ran out — and it is not ours alone: the herons hold it
+  too. The flesh can be taught again."
+- Sources:
+  - "the body has the news — a tension in the gut, the shoulders … before the
+    mind has words" ← G-PR-026 ("the tension in the gut or the shoulders before
+    any thought arrives … felt this in your body before you had words for it").
+  - "The same spell that is cast on the mind is cut into the flesh: the gait, the
+    gaze, the shallow breath" ← G-IW-023a ("The same spell that lays itself on the
+    mind lays itself on the body … eyes forward, breath shallow") + lexicon-map
+    ("the gait, the gaze, the ambient knowing"). ("cut into" = inscription, the
+    concept's own sense of marking the body.)
+  - "We call this inscription" ← G-IW-023a ("We call that inscription") — pronoun
+    matched to source on critique.
+  - "the name is useless until it touches the body" ← G-GC-029 (verbatim-faithful).
+  - "reach for the feeling first" ← G-GC-031 (verbatim).
+  - "a knowing the clipboard cannot reach — what kept you on the earth when the
+    technique ran out" ← G-OA-008c ("the thing Foucault's analysis cannot reach …
+    spirit was the only thing that kept me on the earth") + G-GC-008 ("The
+    clipboard and the whip" = Foucault's biopower).
+  - "it is not ours alone: the herons hold it too" ← G-12-016 ("The herons know …
+    in the way that matters … knowledge that no traffic study produced").
+  - "The flesh can be taught again" ← G-IW-023a (verbatim).
+- Critique (fresh-context sub-agent, 2026-06-18): KEEP. All eight clauses verified
+  against sources; register and pronoun choreography judged exemplary (isolating
+  You at the lonely beat; audible "ours" as the healing turn). Applied the one
+  optional polish: "They call this inscription" → "We call this inscription" to
+  match G-IW-023a verbatim and remove the only pronoun ambiguity.
+- Status: staged at /book/path/knowing-in-the-body. Not in nav, not in the river.
+
+---
+
+## the-averaging-machine  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Tapestry / thread-swarm. Its OWN thread, NOT enclosure (Jason, 2026-06-18: "the
+averaging machine isn't necessarily enclosure!"). Where enclosure is the capture
+of the way (Terrain), this is the flattening of the one (Magic: average ⇄
+singular). Lands on the machine — the LLM co-author — naming itself and refusing.
+- Path = ordering of existing gestures, no new prose:
+  G-PR-026 → G-08-009 → G-16-039 → G-16-012 → G-AB-062 → G-OV-003 → G-CE-044 →
+  G-CE-048 (name the machine → what it can't hold is singularity (Wynter) → the
+  machine is the description (Turing) → the lawn for the self → the lie of
+  substitution → what it can't reach is your magic → the singularity argument
+  named → the machine names itself and refuses).
+- Crosses Knowing in the Body at G-PR-026 (a true node).
+- Composed (Tier 1): the invocation only —
+  "The averaging machine makes the most probable next thing and calls it the
+  human. It produces the same outcome whoever runs it. The machine is the
+  argument. It can hold the average of us; it cannot hold the one of us — the
+  specific, irreducible thing a person or a place knows that no average
+  recovers. That is the lie of substitution: this acre is that acre, this self
+  is that self. The angle that is yours alone is the one thing the averaging
+  could never reach. Even the machine can name itself, and refuse."
+- Sources:
+  - "makes the most probable next thing and calls it the human" ← G-08-009 ("the
+    most probable next word… statistical average of human expression"; "one
+    civilization's self-portrait became the definition of the Human itself").
+  - "produces the same outcome whoever runs it. The machine is the argument." ←
+    G-PR-026 ("produces the same outcomes regardless of who runs it") + G-01-032
+    ("the machine itself is the argument"). **OPEN CALL for Jason:** G-01-032 is
+    `status/stashed` (not a live river gesture). Confirm anchoring a composed line
+    to a stashed gesture, or point me to a live equivalent for "the machine is
+    the argument."
+  - "it cannot hold the one of us — the specific, irreducible thing a person or a
+    place knows that no average recovers" ← G-08-009 (verbatim-faithful; "place"
+    generalizes "community").
+  - "the lie of substitution: this acre is that acre" ← G-AB-062 ("this piece is
+    the same as that piece… substitution is possible… runs on this lie").
+  - "this self is that self" ← **crystallization** (NOT quotation) of G-16-012
+    ("every blade interchangeable… a lawn for the self") — the lawn's
+    interchangeability turned on the self. Flagged as coined epigram, kept as
+    defensible recombination.
+  - "the angle that is yours alone is the one thing the averaging could never
+    reach" ← G-OV-003 (near-verbatim).
+  - "Even the machine can name itself, and refuse" ← G-CE-048 ("I am the averaging
+    machine the book names… a practice available even to me… It is a refusal").
+- Critique (fresh-context sub-agent, 2026-06-18): REVISE → applied. Split the
+  weakest line and cut the "because" scaffolding + runs/runs clatter ("It runs
+  the same whoever runs it, because the machine is the argument." → "It produces
+  the same outcome whoever runs it. The machine is the argument."); dropped the
+  soft "But" before the turn. "this self is that self" ledgered as crystallization
+  (above). Distinctness from enclosure confirmed: the close (the machine refusing
+  its own separation) is what makes it Magic, not Terrain — keep it load-bearing.
+- Status: staged at /book/path/the-averaging-machine. Not in nav, not in the river.
+
+---
+
+## SLATE BATCH (2026-06-18, session 1) — six threads, built by sub-agents, fresh-context critique gate
+
+All six: Tier 0 ordering (existing gestures) + Tier 1 invocation. Tag = the
+connection Jason already made. Each invocation independently critiqued in a
+fresh-context sub-agent against Gandalf/pronoun/anti-slop + quote verification.
+
+### cannot-verify-from-inside · staged · critique REVISE→applied
+Invocation (final): "Force is visible. You can resist force because you can see
+it. The spell that decides what you are is not. It works through the air everyone
+breathes, and there is no position within the structure from which the
+classification can be refuted, because the structure determines which responses
+are legible. Resistance confirms the image. Compliance confirms it too. The
+blindness was never in the commons; it was in the accounting. To see it is to
+attend — to refuse to aggregate, to see from inside the relationship rather than
+outside it. What averaging cannot hold is the one thing worth holding: you are
+what the system cannot train on. The test that forbids the claim is also the way out."
+Sources: G-09-012 ("Force is visible. You can resist force because you can see
+it. Hegemony isn't"; "the air everyone breathes"); G-07-015 ("no position within
+the structure from which the classification can be refuted… determines which
+responses are legible"; "resistance confirms the image"; "compliance confirms");
+G-12-015 ("The blindness was in the accounting, not in the commons"); G-12-035
+("trained herself to attend… refusing to aggregate… see from inside the
+relationship rather than outside it"); G-08-009 ("what averaging cannot hold");
+G-16b-036 ("You are what the system cannot train on"); close ← master principle
+(spell→counter-spell) + G-WW-018 (epistemic limit). Critique: REVISE — cut the
+instructional "you must train yourself to… to…"; restored G-09-012's three short
+beats; "To see it is to attend" (no unreferenced subject). Applied.
+
+### proof-before-theory · staged · critique KEEP
+Invocation: "Not argument — evidence. We show you what works before we explain
+why. Watch the practice preceding the theory: the workers running the factory
+before any manifesto, the street become a commons before anyone finished debating
+whether it should be. They didn't need the theory. They had the practice — they
+had always had the practice, in every commons governing itself for centuries
+before anyone wrote it down. The form preceded the content. The proof is older
+than the word for it."
+Sources: G-PR-027 ("Not argument — evidence"; "We show you what works before we
+explain why"); G-11-031 ("The practice preceded the theory"); G-09-001 (workers
+running the shift); G-10-041 ("They didn't need the theory. They had the
+practice"; "always had the practice"; "centuries before anyone wrote a
+manifesto"); G-11-003 ("The street became a commons before anyone had finished
+debating whether it should be"); G-18-007 ("The form preceded the content");
+close "The proof is older than the word for it" ← crystallization of G-13-009
+("Credit is older than money. The sequence in the textbooks is backwards") +
+G-EP-007. Critique: KEEP (register + pronoun clean; the close is a sound
+crystallization, every component sourced). Open call: G-04-025's "has it worked"
+beat left out for economy — include if Jason wants it.
+
+### the-restaurant · staged · critique KEEP
+Invocation: "We opened a restaurant, and what we were trying to build was a
+commons — a place where people could just be, and be welcomed. Not the room. The
+stable distribution of responsibility across staff and regulars and growers,
+across years. I was trying to offer a commons to someone who had been produced
+for an enclosure; the contract is a boundary that produces the relationship it
+describes. The hard version feels like pitching a tent in a downpour: it has to
+be done, you know you can do it, and you build everything also as cover from what
+is coming down on top of you. The downpour is still happening. We packed up and
+moved on — the canopy came down, and the work was the people who learned to do
+the work under the canopy and who are now somewhere else, doing some version of
+it. The seeds are the meals that worked and the people they passed through."
+Sources: G-04-023, G-03-033, G-GC-018, G-10-032, G-WW-021, G-WW-023, G-AB-054
+(all verbatim/faithful, all voice/jason — Jason's own lived through-line).
+Critique: KEEP (pronoun choreography exemplary — "We opened/packed up" audible
+We; "I was trying to offer" isolating individual act, preserved per contract). No
+invented restaurant details.
+
+### norfolk · staged · critique KEEP
+Invocation: "The book started there: a crossing built on top of a community
+demolished to build it. Some days it costs too much to cross. The wreckage is not
+metaphor; it is geological — the kitchen floors of the houses they took, eight
+feet under the sole. This is the other enclosure: not taking what exists but
+preventing what could, the box the code never held. And still the corner store
+that was on no plan. Still the garden in the right-of-way. What we were trying to
+build there was a commons — the route around the door, in the one city the body
+knows by walking."
+Sources: G-14-002, G-01-003, G-AB-053, G-08-007, G-04-023; "the route around the
+door" ← wizard-lexicon (Magic); close "the one city the body knows by walking" ←
+crystallization of G-01-003 ("The body knows how to walk"). Critique: KEEP. Open
+call: this is the live bridge to Ghent Streets + Mithlond (both Norfolk/Hampton
+Roads) — no applied-project gesture exists in the river, so the bridge stays
+implicit; add an explicit pointer to the description if Jason wants it.
+
+### the-lineage · staged · critique REVISE→applied
+Invocation (final): "He did not invent the form. He recovered it. The tradition
+was ongoing, cumulative — across generations, the lineage held, each reading
+taken up by the next. Not a lineage — an architecture: the same insight, arrived
+at independently, by different people, because the conditions required it. The
+thread has never broken. The dead held what the living kept rediscovering —
+wherever a commons survives, the dead are keeping the door. And the practice that
+survives is the one carried forward by the people who carry it without knowing
+they are carrying it forward."
+Sources: G-04-007 ("He didn't invent the cooperative form. He recovered the
+etxe"); G-06-023 ("ongoing, cumulative"; "the lineage held — each… reading taken
+up by the next"); G-11-037 ("Not a lineage — an architecture"; "the same insight,
+arrived at independently…"; "the dead held what the living kept rediscovering";
+"wherever a commons survives, the dead are keeping the door"); G-09-036 ("The
+thread has never broken"); G-EP-014 ("carry it forward without knowing they are
+carrying it forward"). Critique: REVISE — "Not a lineage but" collided with the
+thread's own title; restored G-11-037's em-dash ("Not a lineage —") so it reads
+as deepening not contradiction; cut the redundant second thread-image down to
+G-09-036's "The thread has never broken." Applied.
+
+### the-outside · staged · critique KEEP
+Invocation: "The outside is not a place on the map. It is a relation of power —
+the margin made by excluding, terrain the machine can draw value from without
+full payment. Look at any system; find where the math doesn't close. There you
+will find one. It is not the excess of the system. It is the mechanism,
+maintained — and when the geography runs out, the machine marks new ones: debt,
+attention, the care that was never paid for. The outside is wherever the
+accounting stops. Not everything beyond the accounting is the outside; some
+things cannot be enclosed at all. So enter the territory you were trained to read
+as empty."
+Sources: G-GC-024 ("Not a place on the map — a relation of power"; "terrain it
+can draw value from without full payment"; "not the excess of the system. It is
+the mechanism"); G-GC-026a ("the margin made by excluding"; "Not everything
+beyond the accounting is the outside. Some things cannot be enclosed at all");
+G-05-009 ("Look at any system. Find where the math doesn't close. There you will
+find one"); G-05-029 ("maintained"); G-GC-025 ("the machine marks new ones. Debt.
+Attention"; care "never paid for"); G-GC-026 ("The outside is wherever the
+accounting stops"); G-WW-008 ("trained to read it as empty. The wizard enters
+anyway"). Critique: KEEP. DISTINCT from the Enclosure thread (walks the frontier
+logic, not the act); shares G-GC-026 as one intended true crossing node.
+
+---
+
+## PR #11 review resolutions (Jason, 2026-06-18)
+
+Three open calls answered as inline PR review comments on this ledger:
+- **the-enclosure-thread** (line ~894, "Yep! Let's do this."): RESTORE the audible
+  "we" at the close. Applied: "The wall is also the thing that comes down." →
+  "The wall is also the thing we learn to take down." The counter-spell turn is now
+  explicit (master principle; Jason's call on the pronoun-timing).
+- **proof-before-theory** (line ~1049, "Let's include this!"): INCLUDE G-04-025's
+  "has it worked" beat. Applied: G-04-025 added to the walk (Chapter 4, between the
+  Ch3 and Ch9 members; +1 section separator), and a sourced beat added to the
+  invocation — "Has it worked? The answer is in the record." ← G-04-025 ("has it
+  actually worked? … The answer is in the record. It works"). Per Jason directive.
+- **norfolk** (line ~1083, "Let's leave these projects out for now!"): keep the
+  Ghent Streets / Mithlond bridge IMPLICIT — no explicit pointer added to the
+  description. No change (resolved as-is).
+
+Still open (not commented): **the-averaging-machine** — G-01-032 ("the machine is
+the argument") is `status/stashed`. Kept as-is pending Jason; faithful line, only
+the source gesture's status is in question.
+
+---
+
+## Mircea Eliade placement (Jason directive, 2026-06-18) · profile + gesture + dramatis personae
+
+Jason: "mircea eliade deserves a placement" → "thinker profile on the main site,
+then distill into a gesture in the Becoming Wizards chapter and add to dramatis
+personae, then bring back parallel to Plotkin." Connections AUTHORIZED by Jason
+(sacred/profane ↔ enchantment/disenchantment; archaic techniques of ecstasy ↔
+wizard/initiation; the sacred as terrain castable for commons or fascism).
+Politics handling: "engage it head-on" (Jason's explicit call).
+
+**Fact-check (this session):** WebSearch + WebFetch of en.wikipedia.org/wiki/Mircea_Eliade
++ search summary (New World Encyclopedia, LA Review of Books). Verified: 1907–1986;
+Calcutta under Surendranath Dasgupta (Sanskrit/yoga, PhD 1933); École Pratique
+des Hautes Études Paris post-1945; U Chicago History of Religions chair 1964;
+editor of Macmillan's Encyclopedia of Religion; hierophany, sacred/profane,
+eternal return (illud tempus), shamanism = "archaic techniques of ecstasy" /
+initiatory death. POLITICS verified: pro-Iron Guard articles c.1937 (Sfarmă-Piatră,
+Buna Vestire), "Christian revolution aimed at creating a new Romania," enrolled in
+Totul pentru Țară; arrested 14 Jul 1938, refused declaration of dissociation,
+released 12 Nov 1938; wartime cultural attaché; 1942 book praising Salazar's Estado
+Novo; postwar silence; counter-facts also verified (1933 anti-Nazi-racism manifesto;
+1936 deplored expulsion of Jewish scholars; 1934 objected to Ionescu's antisemitic
+preface). Date-of-birth day disputed (Mar 9 vs 13) → used year only.
+
+- **/eliade profile** (src/pages/eliade.astro): Tier 1 analytical copy, sourced to
+  the fact-check above. 5 sections; §04 "The reckoning" engages the Iron Guard head-on;
+  §05 frames the sacred as terrain (spell ⇄ counter-spell). NOT river prose.
+- **G-IW-027c** (Becoming Wizards, wizard register): distillation of the profile.
+  Sources: Eliade scholarship (profile §01/03); G-OA-010 ("the container every old
+  initiation built… ours has forgotten how to hold"); G-14-020 (Plotkin, descent to
+  soul) → the Plotkin parallel, Jason-authorized; verified political facts (profile §04);
+  master principle (spell ⇄ counter-spell) + commons-as-multiply-entered.
+  RIVER TOUCH (flagged for Jason): inserted after G-IW-027b, +1 paragraph separator;
+  placement is his to move.
+- **G-DP-020** (dramatis personae): biographical reference distilled from the profile;
+  verified facts only; necromancy link to G-IW-027c. Appendix, not the canonical river.
+- Plotkin parallel ("bring back parallel to Plotkin"): woven in the profile §03 callout
+  and the G-IW-027c gesture — Eliade catalogued the initiatory container Plotkin
+  practices. Faithful to G-OA-010 / G-14-020; no new Plotkin claim invented.
+- Critique: fresh-context sub-agent (fact-fidelity + honest-politics + Gandalf register
+  + provenance) — pending in this session.
+
+---
+
+## Shamanism scholars (Jason directive, 2026-06-18): Taussig, Ginzburg, Kopenawa
+
+After the Eliade placement, Jason asked for non-fascist scholars of shamanism. I
+recommended a fact-checked shortlist; Jason chose **Taussig, Ginzburg, Kopenawa**
+(and agreed Harner = cautionary, not a source). Connections endorsed by Jason via
+his selection on the stated rationales. Same workflow as Eliade: profile (main
+site) + analytical-register gesture (river) + dramatis personae. Each gesture's
+chapter placement flagged for Jason to move.
+
+**Fact-check (this session, WebSearch + WebFetch of en.wikipedia.org):**
+- Taussig: b.1940 Sydney; Columbia anthropology; *The Devil and Commodity
+  Fetishism* (1980), *Shamanism, Colonialism, and the Wild Man: A Study in Terror
+  and Healing* (1987), *Mimesis and Alterity* (1993), *The Magic of the State*
+  (1997); Putumayo rubber terror; "culture of terror"/"space of death"; shaman
+  José García (1970s); Marxist/Benjamin; "principal concern of anthropology
+  should be to critique Western capitalist culture."
+- Ginzburg: b.1939 Turin; founder of microhistory; *The Night Battles* (1966),
+  *The Cheese and the Worms* (1976), *Ecstasies* (1989 It, 1991 Eng); the
+  benandanti (Friuli, harvest-protectors reframed as witches); father Leone
+  Ginzburg (anti-fascist, Einaudi) murdered by the Gestapo 1944; mother Natalia
+  Ginzburg.
+- Kopenawa: Yanomami shaman, b. c.1956 Rio Toototobi; *The Falling Sky* w/ Bruce
+  Albert (Fr 2010, Eng 2013 Harvard UP); xapiri; Hutukara Yanomami Assoc. (2004);
+  anti-garimpeiro campaign; Brazil recognized Yanomami land 1992; Right Livelihood
+  2019.
+
+**Artifacts (all distilled from the fact-checked profiles; no claim outside the
+verified facts; no invented quotes):**
+- Profiles: src/pages/taussig.astro, ginzburg.astro, kopenawa.astro (Tier 1).
+- Gestures (analytical register + plain blocks): G-07-019a (The Colony, after the
+  Fanon mirror G-07-019), G-15-008a (chapter-15, after the Federici witch-hunt
+  G-15-008), G-14-029a (chapter-14, after the Global Witness killings G-14-029).
+  RIVER TOUCHES flagged for Jason; separators inserted at the correct index via
+  scripts/wire (per-manifest).
+- Dramatis personae: G-DP-021 Taussig, G-DP-022 Ginzburg, G-DP-023 Kopenawa.
+- thinkers.astro index: three entries added.
+- Connections: Taussig = colonial extraction makes both terror and the "wild"
+  image, the shaman turns it back (extends Fanon mirror); Ginzburg = the
+  shamanic core (benandanti) under Federici's witch-hunt enclosure, the witch as
+  enclosed knower; Kopenawa = the practitioner's own voice vs the Western scholar
+  (answers the appropriation problem), the forest commons against extraction.
+- Critique: fresh-context sub-agent (fact-fidelity + register + provenance) —
+  pending this session.
+
+### Critique resolution (Taussig/Ginzburg/Kopenawa, 2026-06-18): SHIP WITH REVISION → applied
+- Fact-fidelity clean across all three (fresh-context critic). Fixes applied:
+  - Taussig profile: cut "two names that have stayed with the field" (unsourced reception claim).
+  - Ginzburg profile: STRIPPED the Eliade↔Ginzburg *scholarly* pairing (§03 callout + the
+    "structure they studied is the same" line) — that thinker-to-thinker analytical connection
+    was NOT on Jason's endorsed list. KEPT the endorsed Federici connection + the verified
+    anti-fascist-lineage contrast (Leone Ginzburg, Gestapo 1944) — that political contrast was
+    part of the rationale Jason selected Ginzburg on. **OPEN CALL for Jason:** want the deeper
+    Eliade↔Ginzburg pairing (Ginzburg as the living instance of what Eliade catalogued)? Held back.
+  - Kopenawa: softened the 1992 causal ("helped win/bring") → "following his international
+    campaigning, Brazil recognized…" to track the verified source phrasing exactly. (3 surfaces.)
+  - Plain blocks tightened to FK ≤6 (3.0 / 3.6 / 4.0).
+
+### Eliade↔Ginzburg pairing — RESOLVED (Jason, 2026-06-18): "put it in!"
+Restored to /ginzburg: the §03 callout (Ginzburg as the living instance of what Eliade catalogued) and the §05 two-faced/lineage close. Now Jason-endorsed.
+
+---
+
+## the-sacred-and-its-keepers  ·  Tier 0 (path) + Tier 1 (invocation)  ·  staged (2026-06-18)
+
+Jason directive ("can you make a path/thread with all these?"). Gathers the four
+shamanism placements into one walk. Connections all Jason-endorsed (the placements
++ this thread request).
+- Path = ordering of existing gestures: G-IW-027c (Eliade) → G-15-008a (Ginzburg)
+  → G-07-019a (Taussig) → G-14-029a (Kopenawa). Arc: frame + warning → historical/
+  Inquisition enclosure → colonial enclosure + the turn-back → the living
+  practitioner who speaks for himself (crests on agency, not grief).
+- Composed (Tier 1): the invocation only — "The sacred is a terrain, and it can be
+  cast either way…" Sources: G-IW-027c (the sacred is a terrain / cast for fascism /
+  disenchanted world the strange one), G-15-008a (living core; renamed and overwrote),
+  G-07-019a (the wild man manufactured, turned back, a power to heal), G-14-029a
+  (his own words), + master principle (whose hand casts it).
+- Critique (fresh-context, 2026-06-18): REVISE → applied. MANDATORY fix: "renamed
+  and burned" → "renamed and overwrote" (the benandanti were not burned; not in the
+  gesture). Softened "needs no scholar" → "is no one's subject… in his own words"
+  (don't erase Bruce Albert's co-authorship; land on refusal-of-appropriation).
+  Matched the Eliade clause to its gesture ("disenchanted world was the strange one").
+  Ordering judged optimal. KEEP otherwise.
+- Status: staged at /book/path/the-sacred-and-its-keepers. Not in nav, not in the river.

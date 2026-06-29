@@ -16,5 +16,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Graeber died in Venice in September 2020. He was fifty-nine. In his
+  last years he went back and forth between Rojava and London. He kept
+  writing and organizing. To the end he lived out what he had argued
+  for over thirty years.
+plain_meta:
+  source: G-11-019
+  status: draft
 ---
 Graeber died in Venice in September 2020, at fifty-nine. He had spent his last years traveling between Rojava and London, writing and organizing and practicing until the end what he had spent thirty years arguing for.

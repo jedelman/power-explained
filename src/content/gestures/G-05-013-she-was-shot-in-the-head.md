@@ -13,5 +13,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Soldiers paid by the government shot her in the head. This was in January
+  1919. They threw her body into the Landwehr Canal. People found her on
+  May 31.
+plain_meta:
+  source: G-05-013
+  status: draft
 ---
 She was shot in the head by government-backed paramilitaries in January 1919. Her body was thrown into the Landwehr Canal. They found her on May 31.

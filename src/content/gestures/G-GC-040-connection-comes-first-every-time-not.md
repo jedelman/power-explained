@@ -24,5 +24,11 @@ beauty_check:
     (knowledge/discipline/correctness/excellence) returns to the affirmative
     on "Connection." Earned by 039.
 notes: '"Connection comes first. Every time." In italics. The fourth name.'
+plain: >
+  Connection comes first. Every time. Not knowledge. Not
+  discipline. Not being right. Not being the best. Connection.
+plain_meta:
+  source: G-GC-040
+  status: draft
 ---
 *Connection comes first.* Every time. Not knowledge. Not discipline. Not correctness. Not excellence. Connection.

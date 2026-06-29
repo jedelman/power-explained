@@ -25,5 +25,19 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Making copies strips aura away. A photo of the Mona Lisa does not
+  hold aura the way the painting in the Louvre does. The print can
+  be perfect and still be only the image. It is not the thing.
+
+  Benjamin saw two sides to this. Losing aura also opened new
+  political doors. Film let many people see together. Photos could
+  serve as proof. But the loss was real. The system we live in has
+  made that loss happen at a huge scale. When a thing can be
+  swapped for another, the system has decided its aura does not
+  matter.
+plain_meta:
+  source: G-AB-006
+  status: draft
 ---
 Aura is what reproduction strips. A photograph of the Mona Lisa is not aura-bearing in the way the painting in the Louvre is — the print can be perfect and still be only the image, not the thing. Benjamin meant this dialectically; the loss of aura also opened new political possibilities (film as collective sight, photography as evidence). But the loss was real. The system we live inside has industrialized it. Every replaceable thing is a thing whose aura has been declared expendable.

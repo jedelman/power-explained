@@ -20,5 +20,10 @@ beauty_check:
     2026-05-23: Beauty pass — confirmed. Italicized one-line question.
     The check that 046 set up.
 notes: '"Have I connected, first?" The chapter''s operative question. In italics.'
+plain: >
+  Have I connected with people first?
+plain_meta:
+  source: G-GC-047
+  status: draft
 ---
 *Have I connected, first?*

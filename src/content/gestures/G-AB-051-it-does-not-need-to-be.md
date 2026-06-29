@@ -29,5 +29,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The chip does not need to be held. Trees are very present. The chip being
+  there shapes what I remember. Trees remember. It is easy to forget the
+  hard things. The chip remembers the pile. Benjamin says the past is a
+  tricky thing.
+plain_meta:
+  source: G-AB-051
+  status: draft
 ---
 It does not need to be held. Trees are very present; the chip's presence shapes what I remember. Trees remember. It is easy to forget the hard things. The chip remembers the pile. Like Benjamin says, the past is a tricky thing.

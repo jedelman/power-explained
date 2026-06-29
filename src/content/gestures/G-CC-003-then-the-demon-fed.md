@@ -18,5 +18,16 @@ notes: |-
   [Critique 2026-06-XX cut "and rented back" — it asserted a rent-back mechanic
   the harvest gestures don't establish; the sourced "What came out had a gate"
   now carries the closure.]
+plain: >
+  Then the demon fed. Everything people made for free was gathered up.
+  The code. The encyclopedia. The writing. The talk between strangers.
+  All of it was pulled into machines that no outsider could open. The
+  commons went in. What came out had a gate.
+
+  This is what corruption looks like at its purest. It is not the theft
+  of one thing. It is the capture of everything that was freely given.
+plain_meta:
+  source: G-CC-003
+  status: draft
 ---
 Then the demon fed. Everything freely made — the code, the encyclopedia, the writing, the talk between strangers — was gathered into engines no outsider could open. The commons went in. What came out had a gate. This is corruption in its pure form: not the theft of a thing, but the capture of everything freely given.

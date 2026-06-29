@@ -15,5 +15,11 @@ notes: |-
   (gestures G-02-010 through G-02-017, moved to Chapter 1 on 2026-05-27)
   and the neighborhood-board examination that follows in Chapter 2.
   Connects historical capture at full scale to everyday procedural capture.
+plain: >
+  Atlantic City was capture at full force. Most days, it looks like
+  the meeting you just sat through.
+plain_meta:
+  source: G-02-009a
+  status: draft
 ---
 Atlantic City was capture at full force; most days, it looks like the meeting you just attended.

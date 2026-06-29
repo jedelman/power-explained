@@ -36,5 +36,12 @@ notes: |-
   the wizard register as the chapter's intended frame and makes the
   rest of the chapter (hegemony, outside, practice, connection) read
   as further wizard naming.
+plain: >
+  The wizard's name for this is enchantment. It is the slow spell by which
+  one way of seeing the world becomes the air everyone breathes. Biopolitics
+  is the field. The spell is what moves across it.
+plain_meta:
+  source: G-GC-008g
+  status: draft
 ---
 The wizard's name for this: *enchantment*. The slow incantation by which one view of the world becomes the background everyone breathes. Biopolitics is the field; the spell is what travels through it.

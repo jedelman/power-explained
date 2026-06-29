@@ -28,5 +28,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The angel pays attention. The council holds the seeing. The wizard looks for
+  ways to help.
+plain_meta:
+  source: G-AB-068
+  status: draft
 ---
 The angel pays attention. The council holds the seeing. The wizard looks for ways to be helpful.

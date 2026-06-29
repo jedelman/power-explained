@@ -1,8 +1,10 @@
 name: Preview Deploy
 
+# Disabled 2026-06-19: redundant with Cloudflare's native "Workers Builds"
+# integration, which already deploys every branch push. This Action also
+# fails on long branch names (auto-generated Worker name exceeds Cloudflare's
+# 54-char preview limit, error 100315). Kept for manual dispatch only.
 on:
-  push:
-    branches-ignore: [main]
   workflow_dispatch:
 
 jobs:

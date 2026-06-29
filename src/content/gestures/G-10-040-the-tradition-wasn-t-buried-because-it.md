@@ -13,5 +13,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  This way of thinking was not buried because it was wrong. It was buried
+  because it was a threat the party could not take in. It showed that the
+  party was not needed.
+plain_meta:
+  source: G-10-040
+  status: draft
 ---
 The tradition wasn't buried because it was wrong. It was buried because it was threatening in the specific way that the party couldn't absorb: it demonstrated that the party was unnecessary.

@@ -24,6 +24,19 @@ beauty_check:
     It may be the production… It may be biopower… It may be the outside")
     works as ritual catalog. The four names return to the reader's body.
 notes: Merged G-GC-033 on 2026-05-20. Applies the three names to the somatic experience.
+plain: >
+  Now ask: what made this happen? What is its name?
+
+  It may be hegemony. That is the shared "common sense" that made
+  your point feel rude or off-topic. It may be the production of
+  subjectivity. That is the training that taught you to go along,
+  not to lead. It may be biopower. That is the system that made
+  staying quiet feel smart, and speaking up feel risky. It may be
+  the outside. That is the care work you did that no one saw, the
+  attention taken from you, the ideas used without pay.
+plain_meta:
+  source: G-GC-032
+  status: draft
 ---
 Now ask: what is the name for what produced this?
 

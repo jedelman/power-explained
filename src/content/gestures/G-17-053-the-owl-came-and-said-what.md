@@ -13,6 +13,14 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The owl came and said what it had to say.
+
+  In 2011, a park in lower Manhattan held the same form
+  for a short time. It held it for a city of strangers.
+plain_meta:
+  source: G-17-053
+  status: draft
 ---
 The owl came and said what he had to say.
 

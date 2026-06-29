@@ -11,5 +11,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Alexandra Kollontai was looking at a different outside.
+plain_meta:
+  source: G-05-015
+  status: draft
 ---
 Alexandra Kollontai was looking at a different outside.

@@ -69,6 +69,34 @@ notes: |
   SE; this coda lands the gesture: the dawn pointed at from inside the
   night. The last word. Short, plain, refusable. Hands toward the rest
   of the book (you keep practicing) and the "come find us" terminus.
+plain: >
+  So if there is an instruction in any of this, it is only the one the
+  musicians already know. You get better by practicing. Sometimes you are
+  lucky and you get to practice next to a master. A teacher, a fire circle
+  full of people more awake than you, a room that holds you. Most of the time
+  you are just practicing with your friends. And much of the time you are
+  practicing alone, in a meeting room, with your shoes on. None of those is
+  the real one. The way you gain anything worth having is by practicing in
+  whatever spot you are actually in. Solo and together are both needed.
+  Neither is the point. The point is that you kept practicing.
+
+  Buckethead practiced in a chicken coop until his hands did things hands are
+  not supposed to do. MF DOOM practiced until the mask and the man could no
+  longer be told apart. Chuck Schuldiner practiced an unbearable thing until
+  it came out the other side as something like grace. Musashi practiced the
+  sword until the sword and the seeing were one motion, and then wrote that
+  the way is in the training and nowhere else. Not one of them set out to be
+  called a master. That title is only ever handed to you by other people.
+  Usually late. Often after you have already become the thing without noticing
+  the day it happened. You will not feel yourself turn into a wizard. You will
+  just look up, some ordinary afternoon, and find that the held thing has
+  loosened. That the room arranges itself toward your attention. That someone
+  across the fire has seen in you the thing you once saw in someone else. The
+  important thing, the only thing this chapter has really been about, is to
+  practice.
+plain_meta:
+  source: G-OA-011b
+  status: draft
 ---
 So if there is an instruction in any of this, it is only the one the musicians already know. You get better by practicing. Sometimes you are lucky and you get to practice beside a master — a teacher, a fire circle full of people more awake than you, a room that holds you. Most of the time you are just practicing with your friends. And much of the time you are practicing alone, in a meeting room, with your shoes on. None of those situations is the real one. The way you gain anything worth having is by practicing in whichever situation you are actually in. Solo and together are both needed; neither is the point. The point is that you kept practicing.
 

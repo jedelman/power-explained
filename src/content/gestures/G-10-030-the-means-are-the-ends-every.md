@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  How you get there is what you get. Every time.
+plain_meta:
+  source: G-10-030
+  status: draft
 ---
 The means are the ends. Every time.

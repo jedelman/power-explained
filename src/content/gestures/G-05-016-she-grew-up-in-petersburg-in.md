@@ -22,6 +22,48 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-05-017, G-05-018
   on 2026-05-20]
+plain: >
+  She grew up in Petersburg in a large apartment. Her father was a Tsarist
+  general. Her life was as far from Luxemburg's life as it could be. But she
+  reached the same place by a different road. She got an education. She was
+  not allowed to go to university. She married young. She had a son. She
+  went to see the textile mills.
+
+  Petersburg, 1896. Women worked twelve and fourteen hours at the looms.
+  Lint filled the air. The machines could take a finger if you stopped
+  paying attention. The women were paid less than men for the same work.
+  People said this was fine because women would quit when they married, so
+  why pay them well? After the shift, they walked home. At home there was
+  coal to fetch, food to cook, and children to care for. The children got
+  sick often because of how they lived. There was a husband to look after
+  too. None of this counted as work. None of it showed up in any study of
+  the economy. It was just what women did. People called it love. People
+  called it nature.
+
+  Kollontai left her husband. She left her son with her mother. Her mother
+  had the money to give the boy a steadier life than a revolutionary on the
+  run could. Kollontai wrote about this choice for the rest of her life. She
+  never fully made peace with it. She became one of the most well-known
+  women in the Bolshevik movement. She was the only woman in Lenin's first
+  cabinet.
+
+  Others thought this was nature. She saw it as terrain. She wrote about
+  what she had seen. The work that kept a worker alive and ready to go back
+  to the factory the next day — cooking, cleaning, child care, nursing, and
+  the hundred small daily acts that keep people going — was the base the
+  whole economy sat on. Every hour in the factory needed hours of hidden
+  work to make it possible. The system did not pay for this work. It did not
+  count it. It treated this work like sunlight, a free thing to draw on.
+  This was because no one had ever named it as a resource in the first
+  place.
+
+  This is an outside. It is not a place on a map. It is a kind of line. It
+  is the line between what counts as economic activity and what gets called
+  something else. That something else sits below notice and below pay,
+  because it has been filed away as not-work.
+plain_meta:
+  source: G-05-016
+  status: draft
 ---
 She grew up in Petersburg, in a large apartment, daughter of a Tsarist general — as far from Luxemburg's circumstances as it was possible to be, and the same destination by a different path. She was educated. She was not permitted to attend university. She married young. She had a son. She went to see the textile mills.
 

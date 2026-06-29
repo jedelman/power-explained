@@ -13,5 +13,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  That is just why the system must take it over. It must sort it,
+  run it, and harvest it.
+plain_meta:
+  source: G-16b-016
+  status: draft
 ---
 Which is exactly why the system must organize, manage, and harvest it.

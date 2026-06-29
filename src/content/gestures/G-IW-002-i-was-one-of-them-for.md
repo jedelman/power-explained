@@ -12,5 +12,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I was one of those teachers for one summer. I want to tell you about
+  the last day.
+plain_meta:
+  source: G-IW-002
+  status: draft
 ---
 I was one of them, for a summer. I want to tell you about the last day.

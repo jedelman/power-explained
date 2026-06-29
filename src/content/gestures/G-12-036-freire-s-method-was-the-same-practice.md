@@ -42,6 +42,56 @@ notes: >-
   the herons are knowing subjects, never spoor, and G-12-016 is in this
   chapter); the closing echo trimmed so the twice-carried attention line
   keeps the peak.
+plain: >
+  Freire's way was that same practice, taught like a class. He did not
+  say: here is the right read on your life. He said: look at this word
+  you already know. What is inside it? What does it touch? Stay with it.
+  He did not pour the new seeing into people. It grew on its own once
+  people had the room to study their own lives. School had spent years
+  teaching them not to.
+
+  A tracker will tell you this: what you can know depends on what you are
+  standing on. In a wetland, the fine mud takes every mark. The raccoon's
+  hand-prints. The print of something small that came down to drink. The
+  dragging belly of something that passed before dawn. The ground is so
+  soft that the tiniest life shows up in it. A truck driving through
+  shows up too, and it reads, rightly, as a disaster. On pavement there
+  is almost nothing to read. The hard top takes no mark. You can track on
+  pavement, but only the heavy things, only the machines.
+
+  Hardt and Negri say that the mind itself is a commons. It is the shared
+  power we build up to see, to make sense, and to act on the world. And
+  it is a commons just like the wetland. It is a soft ground, kept fine
+  by use, where the smallest moves of a life can show up. Like any
+  commons, it must be built, fed, and guarded. The fencing-off of the
+  mind is not just a figure of speech. It really happens. School teaches
+  which questions are allowed to have answers. The media feeds us anger
+  instead of attention. The pace of work leaves no time for the calm
+  presence that witnessing needs. Each of these pours a little more
+  pavement over the mud.
+
+  The coup that jailed Freire knew this well. You do not have to crush the
+  answer if you can fence off the attention that would reach it. Leave the
+  ground too hard to take any mark lighter than a truck.
+
+  This is the fence under all the other fences. The one that makes the
+  rest work. When the power to see clearly is itself fenced off, every
+  other fence gets easier to run and harder to fight. It is also the thing
+  the system most needs to take.
+
+  What becomes possible when enough of us grow that attention? Not just
+  hold the right views, but really see? Not a revolution as one big break.
+  Something harder to stop, because it does not live in one group that can
+  be shut down, or one leader who can be jailed or killed. It lives in the
+  built-up power of people who have been present to what is really
+  happening. People who have built or guarded or joined something that
+  runs on other rules. People who have paid close enough attention to know
+  the show from the real thing. Roy standing in the water. Freire's
+  student with the pen. The children moving through the forest, because we
+  had spent a week getting them ready to notice.
+plain_meta:
+  source: G-12-036
+  status: draft
 ---
 Freire's method was the same practice taught as a curriculum. Not: here is the correct analysis of your situation. But: look at this word you already know. What does it contain? What does it touch? Stay with it. The conscientization wasn't installed — it was what happened when people were given the conditions to attend to their own experience without the curriculum that had been busy teaching them not to.
 

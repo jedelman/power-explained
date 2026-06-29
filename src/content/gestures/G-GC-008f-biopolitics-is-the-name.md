@@ -47,6 +47,32 @@ notes: |-
   accumulated inscription of all the creatures tracking and being tracked.
   Gramsci, Freire, and the reader are added to the catalog. D&G's strata
   and refrain are the conceptual backing.
+plain: >
+  Biopolitics is the name for the contest. Not the machine, and not what the
+  machine does. It is the fight between them.
+
+  Deleuze and Guattari describe something like this in their book A Thousand
+  Plateaus. They write about layers that build up, one on top of the next.
+  Each layer holds a record of what pushed on it. A bird's song that marks
+  its land is one of these records. The song works out, day by day, where
+  things stand. This is not evolution. But it is like it.
+
+  Think of a forest. Every animal in it watches and reacts to every other
+  animal. Coyotes note where the cougars have been. Wolves read the wind for
+  elk. Birds settle their borders again each morning through song, without a
+  break. Ants lay scent trails that join into roads. Bears walk the same
+  paths for many years, until the trail becomes part of the land.
+
+  No one planned the trail system. The trail system is biopolitics. It is
+  the buildup of every animal tracking and being tracked, moving and being
+  moved. It is how the forest knows itself.
+
+  Gramsci writing in his prison cell was doing biopolitics. Freire teaching
+  adults to read words as a way to read the world was doing biopolitics.
+  Picking up this book is doing biopolitics.
+plain_meta:
+  source: G-GC-008f
+  status: draft
 ---
 *Biopolitics* is the name for the contest. Not the apparatus, not the effect — the fight between them.
 

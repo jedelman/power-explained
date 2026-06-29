@@ -29,6 +29,33 @@ notes: >-
   social pavement — the keystone's pavement (ch-1/12/16) reappearing at the
   human scale; seats 'returning nothing that cost anything' two sentences
   down. Closes the gradient and the lawn/pavement keystone.
+plain: >
+  But then there was the Armed Forces Brewing Company. It was an anti-LGBTQ
+  brewery. It wanted a permit next door to an LGBTQ aid center. The
+  neighboring league wanted to put out a statement against it. That was just a
+  symbol. A small act. My league's new members wanted to sign it too, to show
+  they stood together. The board kept it off the meeting list.
+
+  The board broke no rule. They were allowed to do this. They were just
+  afraid, and the way the group was built let that fear win. I watched the
+  board take in what most members wanted and give nothing back. When ground is
+  healthy, a fallen leaf rots and turns into soil. The energy comes back, and
+  the whole group of plants can use it. When ground is taken over, your fallen
+  leaf still rots, but into someone else's field. You lose it, but at least it
+  goes somewhere. This was neither one. This was like pavement. A leaf falls on
+  pavement and does not rot. Nothing comes back. No one further down is fed.
+  The leaf just dries up and blows away. It is lost to everyone, even the ones
+  who took it. That is the last stage. It is not taking, which at least keeps
+  what it takes. It is a deadness so full that the gift you give it comes back
+  to no one.
+
+  I did not quit over Armed Forces. But I wore out. I had put years into this
+  group, and I watched it fail to do even a small act. I watched it work just
+  the way it was built to work. It turned the group's energy into proof that
+  the group mattered, and gave back nothing that cost anything.
+plain_meta:
+  source: G-18-016
+  status: draft
 ---
 But then there was the Armed Forces Brewing Company — the anti-LGBTQ brewery seeking a permit next door to an LGBTQ aid center. The neighboring league wanted to issue a statement of opposition. A symbolic act. A gesture. My league's new members wanted to sign on in solidarity. The board left it off the agenda.
 

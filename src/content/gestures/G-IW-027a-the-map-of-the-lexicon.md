@@ -41,6 +41,30 @@ notes: |-
   to — each definition a flash, not a lecture. Names "naming" with
   both faces (counter + summons). Somatic detail bridges the abstract
   to the felt. The closing imperatives turn the map into an invitation.
+plain: >
+  Notice the shape. These names are not a list. They are a working
+  system. They are yours to fill in.
+
+  Terrain. The field — fenced off, or shared by all. Incantation.
+  The slow spell that travels across it, cast on the mind.
+  Inscription. The same spell, cut into the body — the way you walk,
+  the way you look, the quiet knowing of which spaces are yours.
+  Naming. The first move of any spell — the word that calls up,
+  binds, undoes, or summons, depending on what is named. When you
+  find the name, the body knows before the mind. An oh in the gut.
+  The shoulders drop. The eyes open wider. The weight of not knowing
+  lifts. Magic. What arrives when the work is done — singular things
+  meeting and joining. Its kinds will name themselves as you meet
+  them. Spellbook. The list you are starting. Every spell on it goes
+  both ways. The same incantation casts for the shared world or for
+  fencing it off. There is never a tool that goes only one way. The
+  wizard's skill is in how it is cast.
+
+  Read the terrain. Hear the spell. Feel the inscription. Name it
+  true. Magic arrives. The spellbook fills.
+plain_meta:
+  source: G-IW-027a
+  status: draft
 ---
 Notice the shape. These names are not a list. They are a working system. Yours to fill in.
 

@@ -25,5 +25,17 @@ beauty_check:
 notes: |
   Direction E. Opens the WW-01 scene (the restaurant, after hours, the
   natural wine sentence). The crossing is shown, not announced.
+plain: >
+  There is no ceremony for the day you go from seeker to guide. The
+  crossing happens in a room you were standing in for some other reason,
+  doing some other thing. You only know it happened later. And you know
+  it because of something someone else did, not something you did.
+
+  I want to tell you about the one I had. The chapter would not be
+  honest if I named the crossing but skipped the night I felt mine. It
+  was a night at the restaurant.
+plain_meta:
+  source: G-WW-011
+  status: draft
 ---
 There is no ceremony for the day you cross from seeker to guide. The crossing happens in a room you were just standing in for some other reason, doing some other thing. You only know it happened afterward, and you only know it because of something somebody else did, not because of something you did. I want to tell you about the one I had, because the chapter would not be honest if I named the crossing without naming the night I felt mine. It was a night at the restaurant.

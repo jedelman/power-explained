@@ -17,6 +17,16 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-07-038 on
   2026-05-20]
+plain: >
+  What they said instead was: nothing we can do. Nothing we can do. Nothing
+  we can do.
+
+  That line is not really about what they can do. It is a choice about whose
+  lives are worth the effort. They cannot say that out loud. So they say it
+  this way instead.
+plain_meta:
+  source: G-07-037
+  status: draft
 ---
 What they said instead was: nothing we can do. Nothing we can do. Nothing we can do.
 

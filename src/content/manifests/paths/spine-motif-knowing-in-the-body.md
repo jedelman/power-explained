@@ -1,0 +1,147 @@
+---
+id: spine-motif-knowing-in-the-body
+slug: spine-motif-knowing-in-the-body
+label: Spine
+kind: spine
+axis: theme
+title: Knowing in the body
+h1: Knowing in the body
+kicker: What the book is about
+spine_tag: motif/knowing-in-the-body
+description: >-
+  Every gesture the book tags with the motif of knowing in the body, in the order the river meets
+  them. 66 stops.
+gestures:
+  - G-PR-026
+  - G-01-003
+  - G-01-009
+  - G-03-009
+  - G-03-022
+  - G-03-032
+  - G-03-039
+  - G-03-041
+  - G-IW-009
+  - G-IW-023a
+  - G-IW-024
+  - G-IW-012
+  - G-IW-018
+  - G-GC-006
+  - G-GC-007
+  - G-GC-008
+  - G-GC-019
+  - G-GC-021
+  - G-GC-029
+  - G-GC-030
+  - G-GC-031
+  - G-GC-042
+  - G-OA-008b
+  - G-OA-008c
+  - G-10-034
+  - G-11-027
+  - G-11-035
+  - G-11-036
+  - G-12-010
+  - G-12-011
+  - G-12-012
+  - G-12-016
+  - G-12-025
+  - G-13-038
+  - G-AB-048
+  - G-14-011
+  - G-14-012
+  - G-14-014
+  - G-14-016
+  - G-14-017
+  - G-14-018
+  - G-15-001
+  - G-15-008
+  - G-15-027
+  - G-RE-001
+  - G-RE-030
+  - G-RE-038
+  - G-16-044
+  - G-16-047
+  - G-16-048
+  - G-16b-015
+  - G-16b-017
+  - G-16b-019
+  - G-16b-023
+  - G-16b-030
+  - G-16b-038
+  - G-16b-053
+  - G-17-002
+  - G-17-011
+  - G-17-035
+  - G-17-046
+  - G-WW-007
+  - G-WW-014
+  - G-WW-015
+  - G-WW-025
+  - G-EP-011
+separators:
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+---

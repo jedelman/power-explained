@@ -1,0 +1,121 @@
+---
+id: spine-practice-self-governing
+slug: spine-practice-self-governing
+label: Practice
+kind: spine
+axis: practice
+title: Self governing
+h1: Self governing
+kicker: What the book does
+spine_tag: practice/self-governing
+description: >-
+  Every gesture the book marks as the practice of self governing — one of the things the wizard
+  does, gathered in the river's order. 53 stops.
+gestures:
+  - G-01-022
+  - G-02-030
+  - G-03-002
+  - G-03-004
+  - G-03-006
+  - G-03-022
+  - G-03-025
+  - G-04-008
+  - G-04-013
+  - G-04-015
+  - G-04-019
+  - G-04-021
+  - G-04-022
+  - G-04-025a
+  - G-04-025
+  - G-06-024
+  - G-08-007
+  - G-OA-008
+  - G-09-001
+  - G-09-026
+  - G-09-028
+  - G-10-014
+  - G-10-022
+  - G-10-024
+  - G-10-041
+  - G-11-013
+  - G-11-027
+  - G-11-030
+  - G-11-031
+  - G-11-032
+  - G-12-010
+  - G-13-021
+  - G-13-026
+  - G-13-033
+  - G-14-008
+  - G-14-010
+  - G-14-011
+  - G-14-026
+  - G-14-028
+  - G-15-001
+  - G-15-022
+  - G-15-028
+  - G-RE-017
+  - G-16-061
+  - G-18-002
+  - G-18-004
+  - G-18-012
+  - G-18-020
+  - G-18-025
+  - G-18-026
+  - G-18-039
+  - G-18-040
+  - G-WW-006
+separators:
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+---

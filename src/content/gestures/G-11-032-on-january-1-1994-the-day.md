@@ -27,6 +27,38 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-11-033, G-11-034
   on 2026-05-20]
+plain: >
+  On January 1, 1994, a trade deal called NAFTA began. It took away the
+  shared land rights that native communities in Chiapas had held for many
+  lifetimes. On that same day, the Zapatista Army of National Liberation came
+  out of the jungle. They took over several towns in the hills. They were not
+  trying to take over the country. They said this plainly. The point was not
+  to win. The point was to be heard. They wanted to start a talk the Mexican
+  government had shut off. In a few days they went back to the mountains. Then
+  they began to build.
+
+  Thirty years later, the Zapatista towns rule about a third of Chiapas. They
+  rule by trading the job around. Leaders are not paid. The towns use the
+  caracoles, the regional councils, and the Juntas de Buen Gobierno — the
+  Good Government Councils. Members serve for a set time. Then they go home
+  with no extra power to show for it. The schools teach native languages
+  first. The towns run their own health clinics. Shared businesses handle
+  coffee, crafts, and rides. No one stays in charge long enough to become a
+  must-have. The whole setup is made to stop power from piling up at the top.
+  That is the exact opposite of every revolution government in this book.
+
+  They do all this while the Mexican army surrounds them. Armed gangs attack
+  them now and then. The government holds back roads and services. After 1994,
+  people from around the world came to help. They came to watch, to learn, to
+  bring supplies. These helpers became a kind of shared thing too. They spread
+  across many countries. They sorted themselves out around the Zapatista
+  example. No one ran them from above. The letters Subcomandante Marcos wrote
+  from the jungle were read in squats in Berlin. They were read in colleges in
+  Buenos Aires. They were read in community centers in Los Angeles. No one set
+  up that spread. The shape of the idea traveled on its own.
+plain_meta:
+  source: G-11-032
+  status: draft
 ---
 On January 1, 1994, the day NAFTA took effect and enclosed the communal land rights that indigenous communities in Chiapas had held for generations, the Zapatista Army of National Liberation emerged from the jungle and occupied several towns in the highlands. They were not trying to take state power. They said so explicitly: the point was not to win but to be heard, to force a conversation the Mexican state had foreclosed. Within days they had withdrawn to the mountains — and begun building.
 

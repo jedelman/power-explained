@@ -14,5 +14,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  One thing that group did was a speaking circle.
+plain_meta:
+  source: G-17-004
+  status: draft
 ---
 One of the practices in that community was a speaking circle.

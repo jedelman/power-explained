@@ -26,6 +26,37 @@ notes: |
 
   Drafted by Claude; sets up G-02-033 (antifascist lineage as the deep-time
   check) and G-02-034 (Hidalgo/Paris contrast).
+plain: >
+  Ada Colau worked on housing before she was a mayor.
+
+
+  She helped start the PAH in 2009. The full name is Plataforma de Afectados
+  por la Hipoteca. It started in the wreck of the 2008 crisis. Spanish banks
+  were kicking families out of their homes. The banks had just sold those
+  families loans with rates that went up. For five years Colau worked to stop
+  evictions. She stood in doorways. She brought cameras. She would not let
+  people be put out of their homes. The work made her a known face for a whole
+  part of Spain that had lost everything.
+
+
+  In 2014, a group formed around her. She ran for mayor. She had never held
+  office. She was just past forty. She had been arrested at protests, and other
+  activists bailed her out. She had no career in politics to protect.
+
+
+  In 2015, she won.
+
+
+  She did not bring the view that politicians have of themselves. She brought
+  the view from the doorways. She was mayor for eight years. She was elected
+  again in 2019. She lost by a little in 2023. She ran the city like a person
+  who had done hands-on work. The shared budgets, the meeting networks, the
+  housing rules were not cold, technical things. They were the work of someone
+  who had spent years refusing to accept the city's cruelty. Now she held the
+  keys to the building.
+plain_meta:
+  source: G-02-032
+  status: draft
 ---
 Ada Colau was a housing activist before she was a mayor.
 

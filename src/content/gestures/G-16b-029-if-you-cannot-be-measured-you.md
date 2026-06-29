@@ -14,5 +14,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  If you cannot be counted, you are not seen. The system is
+  missing most of the forest. It may not even know it is
+  missing it. And none of us yet know how far the harm from
+  that missing part will go.
+plain_meta:
+  source: G-16b-029
+  status: draft
 ---
 If you cannot be measured, you are not seen. The system is missing most of the forest. It may not know what it's missing. None of us yet know how far the effects of that absence will reach.

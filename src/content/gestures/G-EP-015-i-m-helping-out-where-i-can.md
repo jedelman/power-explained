@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  I help out where I can. For now, that is enough.
+plain_meta:
+  source: G-EP-015
+  status: draft
 ---
 I'm helping out where I can. For now, that's enough.

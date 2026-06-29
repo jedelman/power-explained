@@ -26,5 +26,19 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  A piece of Western Redcedar has aura. A meadow that has not been cut has
+  aura. So does a river that has run through that ground since before the
+  road was built. So does a neighborhood that has known itself for many
+  generations. Land has aura.
+
+  This does not mean land is part of a group we call "nature." That word was
+  made by the enclosure. It was used to put one kind of life outside the city
+  walls, so it could be taken. The aura is something else. It is the exact,
+  one-of-a-kind thing that each piece of ground really is. It cannot be
+  reduced or replaced.
+plain_meta:
+  source: G-AB-060
+  status: draft
 ---
 A piece of Western Redcedar has aura. A meadow not cut has aura. A river that has been running through that ground since before the road has aura. A neighborhood that has known itself, generation after generation, has aura. Land has aura — not as a category called *nature* (which is a word the enclosure invented to put one kind of life outside the city walls so it could be taken), but as the specific, irreducible, irreplaceable thing that each piece of ground actually is.

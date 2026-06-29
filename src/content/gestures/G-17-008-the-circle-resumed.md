@@ -11,5 +11,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The circle went on.
+plain_meta:
+  source: G-17-008
+  status: draft
 ---
 The circle resumed.

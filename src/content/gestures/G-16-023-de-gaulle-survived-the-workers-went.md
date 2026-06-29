@@ -15,5 +15,16 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  De Gaulle stayed in power. The workers went back to work. The
+  spectacle took in the uprising all the way. In a few years, the
+  wall slogans were on posters you could buy. The barricades were in
+  films you could watch. The revolt had turned into content.
+  Baudrillard saw this happen. He drew the idea that shaped the rest
+  of his work. The spectacle does not need to crush a break. It only
+  needs to show it.
+plain_meta:
+  source: G-16-023
+  status: draft
 ---
 De Gaulle survived. The workers went back. The spectacle absorbed the uprising so completely that within a few years, the slogans were on posters you could buy, the barricades were in documentaries you could watch, the revolution had become content. Baudrillard watched this happen and drew the conclusion that would define his career: the spectacle does not need to suppress the rupture. It only needs to represent it.

@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  He had never been to Ilocos. He had never talked to anyone who had
+  built a palomar.
+plain_meta:
+  source: G-03-019
+  status: draft
 ---
 He had never visited Ilocos. He had never spoken to anyone who had built a *palomar*.

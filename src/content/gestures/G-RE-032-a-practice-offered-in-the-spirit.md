@@ -17,5 +17,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Here is a practice. It comes in the spirit of a spell book, not a
+  school lesson. What follows is not a set of techniques. It is ceremony.
+  That is the old way of paying attention.
+plain_meta:
+  source: G-RE-032
+  status: draft
 ---
 A practice, offered in the spirit of the grimoire rather than the curriculum. What follows is not a set of techniques. It is ceremony — the ancient form of paying attention.

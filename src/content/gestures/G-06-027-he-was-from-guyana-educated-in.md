@@ -19,6 +19,15 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-06-028 on
   2026-05-20]
+plain: >
+  In 1972, Rodney wrote a book. It was called *How Europe
+  Underdeveloped Africa*. His main idea changes how we talk about Africa.
+
+  Africa was not poor by chance. People made it poor on purpose. They
+  used clear methods. We can name those methods and trace them.
+plain_meta:
+  source: G-06-027
+  status: draft
 ---
 In 1972 Walter Rodney published *How Europe Underdeveloped Africa*. The argument begins with a sentence that reframes the entire conversation:
 

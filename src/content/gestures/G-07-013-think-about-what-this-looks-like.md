@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Think about how this feels from inside.
+plain_meta:
+  source: G-07-013
+  status: draft
 ---
 Think about what this looks like from inside.

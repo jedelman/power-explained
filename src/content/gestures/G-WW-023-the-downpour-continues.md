@@ -28,5 +28,21 @@ beauty_check:
 notes: |
   Direction SE. The lift from NW back to the chapter's axial direction.
   Hands off to the quest-handback section (024).
+plain: >
+  The hard rain is still coming down. We packed up and left.
+  That is not a word picture. The restaurant really closed.
+  We took down the cover that kept off the rain. The work
+  it had been shielding had to be carried some other way,
+  into some other weather.
+
+  This is what happens at the end of any project like that.
+  The thing you build does its job for as long as it can
+  hold up. Then you take what you made inside it, and you
+  move on. The work is not the cover. The work is the people.
+  They learned to do the work under the cover. Now they are
+  somewhere else, doing some kind of it, in their own weather.
+plain_meta:
+  source: G-WW-023
+  status: draft
 ---
 The downpour is still happening. We packed up and moved on. That is not a metaphor — the restaurant closed, the canopy came down, and the work the canopy had been sheltering had to be carried in some other form into some other weather. Which is also what happens at the end of any psychic-architecture project that actually got built. The structure does its work for as long as it can hold up under what is hitting it, and then you take what was built inside it with you, and you go on. The work is not the canopy. The work is the people who learned to do the work under the canopy and who are now somewhere else, doing some version of it, in their own weather.

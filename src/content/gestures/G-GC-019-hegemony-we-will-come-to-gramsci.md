@@ -33,6 +33,25 @@ beauty_check:
 notes: >-
   Merged G-GC-020 on 2026-05-20. Hegemony introduced and defined. Not domination by force —
   production of consent.
+plain: >
+  Hegemony. This is Gramsci's name for it. It is the script. It is the demon
+  that writes the lines for the other demons, then calls the whole thing the
+  natural order.
+
+  Hegemony is not ruling by force. Force is what power uses when hegemony
+  fails. Hegemony makes you agree on your own. It sets up ideas, groups, and
+  ways of life so the people in charge seem normal, obvious, and bound to
+  happen. The person on the bottom is not made to accept this view. They
+  grow up inside it. They are shaped by it from birth. So accepting it feels
+  like just seeing the truth.
+
+  It feels a certain way. It feels easy. The view moves right along with
+  you. The words come before you choose them. You do not freeze. You flow.
+  There is a fog where your objection should be. The thought that almost
+  forms. The way you forget what you were about to say.
+plain_meta:
+  source: G-GC-019
+  status: draft
 ---
 *Hegemony.* Gramsci's name. The script. The demon that writes the other demons' lines and calls it the natural order.
 

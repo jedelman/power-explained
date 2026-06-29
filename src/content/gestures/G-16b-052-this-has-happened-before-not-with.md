@@ -12,5 +12,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  This has happened before. Not with these tools. But with this same
+  way of knowing.
+plain_meta:
+  source: G-16b-052
+  status: draft
 ---
 This has happened before. Not with these tools — but with this understanding.

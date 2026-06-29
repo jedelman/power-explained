@@ -17,5 +17,16 @@ notes: |-
   16b territory, kept conceptual — no new company names/figures); Illusion
   school (captured while still called free). VERIFY note: keep "the platform"
   generic; if Jason wants a named instance, source it.
+plain: >
+  You have already seen it happen. The web was given away. No owner. No
+  fee. The rules were set free for anyone to use. A web that someone
+  owned would not have been the web at all.
+
+  Then the gate moved. What had been the commons became the platform.
+  And the platform set the price. The web was never broken. It was
+  caught while everyone still called it free.
+plain_meta:
+  source: G-CC-002
+  status: draft
 ---
 You have already watched it work. The web was given away — no owner, no fee, the rules let into the public domain; a proprietary web would not have been the web at all. Then the gate moved. What had been the commons became the platform, and the platform set the price. The thing was never destroyed. It was captured while everyone still called it free.

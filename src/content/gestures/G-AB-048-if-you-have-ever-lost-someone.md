@@ -29,5 +29,26 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Have you ever lost someone you loved? Then you know how grief
+  moves and changes in the body. You know it never fully leaves.
+  Each grief is its own. But they all share one feeling.
+
+  The ache. The sharp pain in the chest. The fog in the head that
+  makes it hard to see or hear what people say. The heavy feeling,
+  like lead. The tightness of the air before a storm.
+
+  Sometimes it is the storm. It rises up and bursts out as a cry,
+  or sobs, or rage, or art, or poetry. Some animals come to people
+  who are grieving and try to comfort them. If this has happened to
+  you, you know the feeling for sure.
+
+  If you track, you may find yourself doing this for the forest.
+  *You cannot bear this alone, because it was never meant for one
+  person. If you find yourself holding this grief for the land,
+  find others before it eats you up.*
+plain_meta:
+  source: G-AB-048
+  status: draft
 ---
 If you have ever lost someone dear to you, you know how grief moves and transforms in the body and never really leaves. Each grief is different but they share a common frequency. The ache. The sharp pain in the chest. The fog around the head that makes it hard to see or hear what people are saying. The lead-heaviness. The tension of a field before a thunderstorm. Sometimes it is the storm, welling up and bursting forth in a cry, or sobs, or rage, or art, or poetry. Some animals are drawn to people grieving and offer comfort, and if you have had this happen to you you know it is unmistakable. If you track, you may find yourself doing just that for the forest. *It is unbearable because it was not meant to be borne by one person. If you find yourself holding this grief for the land, find others before it consumes you.*

@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Giving the world its magic back is getting that knowing back.
+plain_meta:
+  source: G-RE-005
+  status: draft
 ---
 The re-enchantment of the world is its recovery.

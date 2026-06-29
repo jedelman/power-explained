@@ -13,5 +13,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  We are going to call this enclosure.
+plain_meta:
+  source: G-PR-015
+  status: draft
 ---
 We're going to call it enclosure.

@@ -14,5 +14,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The commons is not some good old thing we had before capitalism and
+  then lost. It is what people keep building anyway, in the cracks of a
+  system that keeps trying to fence it off. This book is, in large part,
+  about those people.
+plain_meta:
+  source: G-PR-019
+  status: draft
 ---
 The commons is not what we had before capitalism and lost. It is what people keep building despite everything, in the cracks of the system that keeps trying to enclose it. This book is, in large part, about those people.

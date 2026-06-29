@@ -34,6 +34,24 @@ notes: |-
   Merged G-GC-008, G-GC-009 on 2026-05-20. "Capital produces the bodies
   that capital needs." The co-evolution argument: same ecosystem, same
   pressures, same adaptive solution. No coordinator required.
+plain: >
+  Capital shapes people to fit what Capital needs.
+
+  A school teaches kids to be good at taking tests. A factory needs
+  workers who will follow orders. The school and the factory do not
+  secretly talk to each other. But they grew up in the same world, under
+  the same push, and they both ended up wanting the same kind of person.
+  So people get shaped to fit the system that shaped them. It shapes
+  their habits. It shapes what they react to. It even shapes what they
+  learn not to notice. This shaping is so fast that you obey before you
+  know you are obeying. Do it long enough and you stop noticing it at
+  all. Your body goes quiet. Forgetting that it happened is the point.
+
+  When you try to build something that needs a different kind of person,
+  you find this out fast.
+plain_meta:
+  source: G-GC-007
+  status: draft
 ---
 Capital produces the bodies that capital needs.
 

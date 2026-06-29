@@ -15,5 +15,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Same practice. Same commons. A different typhoon.
+plain_meta:
+  source: G-03-044
+  status: draft
 ---
 Same practice. Same commons. Different typhoon.

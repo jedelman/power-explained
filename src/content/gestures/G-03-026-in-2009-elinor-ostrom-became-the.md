@@ -16,5 +16,13 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  In 2009, Elinor Ostrom became the first woman to win the Nobel Prize in
+  Economics. In her speech, she walked the crowd through Hardin's field. In that
+  story, people are trapped alone. They cannot talk to each other. "The users of
+  a common-pool resource," she said, "are not so limited."
+plain_meta:
+  source: G-03-026
+  status: draft
 ---
 In 2009, Elinor Ostrom became the first woman to win the Nobel Prize in Economics. In her acceptance lecture, she walked the audience through Hardin's pasture — prisoners trapped in their isolation, unable to speak to one another. "The users of a common-pool resource," she said, "are not so limited."

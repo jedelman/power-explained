@@ -29,5 +29,24 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Benjamin called himself a collector. For thirteen years he walked
+  through libraries and flea markets and reading rooms. This was his
+  Arcades Project. He looked for small pieces of the 1800s that the
+  1900s had buried. He set them side by side. That way you could see
+  what they first meant, not the meaning the rulers gave them.
+
+  A poster. A sales list. A page from a forgotten book. He held the
+  piece in his hand long enough to see what it had been saying all
+  along.
+
+  Later, a group called the Situationists gave this move a name.
+  They called it détournement. It means turning something back
+  against itself. You reuse the ruling culture's own stuff to show
+  what it wants to forget. But people did this long before there was
+  a name for it.
+plain_meta:
+  source: G-AB-020
+  status: draft
 ---
 Benjamin called himself a *collector.* The Arcades Project was thirteen years of walking through libraries and flea markets and reading rooms, finding fragments of the nineteenth century that the twentieth had buried, and arranging them so that their original meaning showed through against their official one. A poster. A sales catalogue. A passage from a forgotten novel. The fragment held in the hand long enough to see what it had always been saying. The Situationists would later give this move a name — *détournement*, the turning-back-against, the reuse of the dominant culture's own materials to reveal what the dominant culture would rather forget. But the practice was older than the name.

@@ -19,6 +19,26 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-09-005 on
   2026-05-20] [merged G-09-006 on 2026-05-20]
+plain: >
+  Then it fell apart. The leaders of the Italian Socialist Party were scared of
+  where this was going. They would not spread the action across the country.
+  The factory owners waited. In two years, Benito Mussolini was in power. In
+  four years, a young man was arrested. His name was Antonio Gramsci. He was
+  from Sardinia. He had been a journalist and a leader of the Communist Party.
+
+
+  He was thirty-five years old. Mussolini's lawyer told the court they had to
+  stop this brain from working for twenty years.
+
+
+  Here is what happened instead. The prison let him have books and notebooks.
+  The guards checked what he wrote. Even so, he wrote almost three thousand
+  pages over the next six years. Then his health gave out and he stopped. He
+  died in 1937, six days after they let him out. Eleven years in prison had
+  wrecked his body. He was forty-six.
+plain_meta:
+  source: G-09-004
+  status: draft
 ---
 Then it collapsed. The Italian Socialist Party leadership, afraid of where it was going, refused to extend the action nationally. The industrialists waited. Within two years, Benito Mussolini was in power. Within four, a young Sardinian journalist and Communist Party leader named Antonio Gramsci was arrested.
 

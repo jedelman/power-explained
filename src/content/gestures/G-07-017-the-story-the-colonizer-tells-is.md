@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The colonizer tells a story. The story is about him.
+plain_meta:
+  source: G-07-017
+  status: draft
 ---
 The story the colonizer tells is about themselves.

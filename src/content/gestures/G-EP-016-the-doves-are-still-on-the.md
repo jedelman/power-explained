@@ -16,5 +16,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The doves are still on the ground. The herons are back. The meadow has
+  not been cut.
+plain_meta:
+  source: G-EP-016
+  status: draft
 ---
 The doves are still on the ground. The herons are back. The meadow hasn't been cut.

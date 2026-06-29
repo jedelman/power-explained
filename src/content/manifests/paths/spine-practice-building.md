@@ -1,0 +1,143 @@
+---
+id: spine-practice-building
+slug: spine-practice-building
+label: Practice
+kind: spine
+axis: practice
+title: Building
+h1: Building
+kicker: What the book does
+spine_tag: practice/building
+description: >-
+  Every gesture the book marks as the practice of building — one of the things the wizard does,
+  gathered in the river's order. 64 stops.
+gestures:
+  - G-PR-019
+  - G-PR-031
+  - G-01-033
+  - G-02-022
+  - G-02-024
+  - G-03-046a
+  - G-IW-018
+  - G-04-005
+  - G-04-006
+  - G-04-010
+  - G-04-011
+  - G-04-015
+  - G-04-018
+  - G-04-018a
+  - G-CC-005
+  - G-GC-046
+  - G-GC-048
+  - G-08-009
+  - G-08-019
+  - G-08-020
+  - G-08-024
+  - G-08-026
+  - G-08-028
+  - G-09-004
+  - G-09-018
+  - G-09-019
+  - G-09-024
+  - G-09-027
+  - G-09-028
+  - G-09-029
+  - G-09-036
+  - G-09-037
+  - G-09-039
+  - G-09-040
+  - G-10-031
+  - G-10-038
+  - G-10-042
+  - G-11-003
+  - G-11-036
+  - G-11-038
+  - G-11-039
+  - G-13-037
+  - G-AB-059
+  - G-AB-067
+  - G-14-008
+  - G-14-025
+  - G-15-021
+  - G-15-023
+  - G-15-024
+  - G-16-056
+  - G-16b-043
+  - G-16b-044
+  - G-17-031
+  - G-18-023
+  - G-18-030
+  - G-18-044
+  - G-WW-006
+  - G-WW-017
+  - G-WW-020
+  - G-WW-021
+  - G-WW-022
+  - G-CE-048
+  - G-CE-049
+  - G-EP-018
+separators:
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+---

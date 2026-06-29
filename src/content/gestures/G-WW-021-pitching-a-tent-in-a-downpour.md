@@ -32,5 +32,20 @@ notes: |
   Direction NW. The chapter rolls NW briefly here for the honest
   reckoning with the restaurant's hard mode. Keep the simile tight
   (pitching a tent in a downpour); do not aestheticize.
+plain: >
+  The restaurant was the other kind. The hard kind. It felt like
+  putting up a tent in heavy rain.
+
+  It has to be done, and you know you can do it. But you will take
+  any help you can get. You will make trade-offs you would not make
+  in good weather. And you will have to deal with the mess after it
+  is over.
+
+  The frame was not set up for me. The wonder was not free. I had to
+  raise the shelter while the storm tried to flatten it. Everything
+  I built also had to keep out the rain coming down on top of me.
+plain_meta:
+  source: G-WW-021
+  status: draft
 ---
 The restaurant was the other version. The hard one. The hard version feels like pitching a tent in a downpour. It has to be done and you know you can do it, but you will take any help you can get, you will make compromises you would not have to make under better conditions, and you will have to deal with the consequences when it is all over. The frame is not established. The aura is not free. The container has to be raised in weather that is actively trying to flatten it. Everything you build has to be built also as cover from what is coming down on top of you.

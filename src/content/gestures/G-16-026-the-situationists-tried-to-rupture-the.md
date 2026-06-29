@@ -20,6 +20,29 @@ notes: >-
 
   merging with adjacent gestures is expected on plateau-level revision. [merged G-16-027 on
   2026-05-20]
+plain: >
+  The Situationists tried to break the spectacle with ideas acted out
+  in public. Stonewall broke it with the body. They said no system
+  got the last word on what these bodies were, or what they could
+  become.
+
+  The thinker Gilles Deleuze wrote after 1968. He had a name for what
+  both uprisings reached for. He wrote about the body without organs.
+  This is not the body cut into its set jobs and roles. It is the
+  body seen as full of what could be. It has not yet been forced into
+  the shape the system made for it. Before the box. Before the set
+  role. The body still becoming.
+
+  Every enclosure tries to do what Deleuze called territorialization.
+  That means fixing the body to a spot, a job, and an easy-to-read
+  name it cannot leave. The refusal is the other way. Stonewall, the
+  ballroom houses, and the webs of care that queer people built
+  because the official world would not hold them. Deleuze called this
+  deterritorialization. The body slips the role it was given. What
+  could be refuses to settle into the finished shape.
+plain_meta:
+  source: G-16-026
+  status: draft
 ---
 The Situationists tried to rupture the spectacle through ideas performed in public. Stonewall ruptured it through the body — through the insistence that no system had the final word on what these bodies were, or what they were allowed to become.
 

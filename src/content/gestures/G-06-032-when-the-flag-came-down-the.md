@@ -21,6 +21,31 @@ notes: |-
   destroyed after independence — ujamaa, food-sovereignty movements,
   pastoralist commons, AFSA — and forward-links to Federici's reading
   of demolished commons from chapter 5.
+plain: >
+  When the colonial flag came down, one question stayed. What would take
+  the place of the system that took from Africa? Or what would even be
+  allowed to?
+
+  People tried some answers. In Tanzania, Julius Nyerere set up
+  *ujamaa*. It built farming around the big-family village. The land was
+  shared. The work was shared. The people in the village ran it. But
+  there were conditions tied to the loans. Rodney was tracing those
+  conditions. The villages fell apart. The same thing keeps happening.
+  African food movements, small farm co-ops, and herding groups in the
+  Sahel all share land, water, and herds. Debt rules written in
+  Washington squeeze them. Land deals paid for elsewhere squeeze them.
+  The same system Rodney named squeezes them. The Alliance for Food
+  Sovereignty in Africa now works across the continent. It defends
+  shared seeds against patented single-crop farming. It defends them
+  against the trade rules built to force that farming.
+
+  This is the same thing Federici saw in Europe. There, the shared lands
+  of peasants were destroyed. People build something new, but it is
+  always under attack. Each shared system they rebuild must be defended
+  against the same forced emptying.
+plain_meta:
+  source: G-06-032
+  status: draft
 ---
 When the flag came down, the question stayed: what would replace the extraction architecture, or be allowed to.
 

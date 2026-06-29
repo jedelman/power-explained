@@ -17,5 +17,19 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  His book is called Mutual Aid: A Factor of Evolution. It came out in
+  1902. It made a claim the main theory was built to hide. The main
+  theory says some things are just natural. It says ranks of high and
+  low are natural. It says fighting is the deepest human drive. It says
+  the strong must rule the weak. Kropotkin said that is not science. It
+  is just one way of life dressed up to look natural. He said helping
+  each other is the normal way for life to work. Groups build it
+  whenever they can. So fencing off the shared land does not fix a
+  failed thing. It blocks a way of life that works. And a way of life
+  that works is the one thing the fencing cannot let stand.
+plain_meta:
+  source: G-11-011
+  status: draft
 ---
 *Mutual Aid: A Factor of Evolution*, published in 1902, drew the conclusion the dominant theory had organized itself to prevent: the claim that hierarchy is natural, that competition is the deepest human drive, that the strong must govern the weak is not science. It is the ideology of a specific arrangement, naturalizing itself. And if mutual aid is the evolutionary baseline — if communities build it whenever conditions allow — then enclosing the commons isn't correcting a failure. It's foreclosing a working alternative, because a working alternative is exactly what the enclosure can't afford to leave standing.

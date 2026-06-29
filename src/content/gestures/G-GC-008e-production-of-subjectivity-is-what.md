@@ -44,6 +44,33 @@ notes: |-
   cannot have the fruit without the whole tree-ecology. The overflow IS
   the primary product. The fruit is the byproduct. This is what spills
   out of biopower's apparatus and where the reader lives.
+plain: >
+  Who you are spills out the side of all of this.
+
+  Think about a tree. A tree makes everything it needs. It makes everything
+  the things around it need. And it makes extra for trees and animals it
+  will never meet. Something eats the flowers. Something eats the fruit. The
+  ones who eat the fruit carry the seeds away. Not all of them. Just enough.
+  Tiny threads called mycelium run between the roots. They trade food and
+  help each tree reach more than it could alone. The tree is a home for
+  animals. It keeps the air cool. It helps hold water in the ground. The
+  book Cradle to Cradle (McDonough and Braungart, 2002) called this plenty,
+  not waste.
+
+  Biopower runs the orchard. It wants the fruit. But it cannot have the
+  fruit without the tree. And the tree cannot be cut down to just its fruit
+  and still be a tree. The flowers, the threads, the seeds, the shade, the
+  changed rain are not leftovers. They are the living thing. The fruit is
+  only one part.
+
+  The same is true of the people biopower makes. It wants people it can read
+  and sort. What it gets are people making each other. They do this in side
+  talks. They do this in the gaps between the boxes on the form. The voice
+  that escapes was always inside the orchard. The orchard cannot stop what
+  the tree is. That spilling over is also where you live.
+plain_meta:
+  source: G-GC-008e
+  status: draft
 ---
 Subjectivity is what spills out the side of all of this.
 

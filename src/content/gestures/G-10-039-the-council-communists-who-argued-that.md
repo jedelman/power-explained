@@ -18,5 +18,19 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The council communists said the factory council is the base unit of a
+  worker-run society. Why? Because that is where the workers hold the
+  know-how to run things. Not a party office. Not a top board. The people
+  doing the work.
+
+  The Catalan collectives ran for a year. Co-op movements have been
+  building for a hundred years on six continents. The Zapatistas turned
+  down state power. They knew what taking it does. Cooperation Jackson is
+  patient about the timeline. It builds from the people pushed down the
+  most.
+plain_meta:
+  source: G-10-039
+  status: draft
 ---
 The council communists, who argued that the factory council is the basic unit of socialist organization because it's where workers actually hold the knowledge to govern — not a party headquarters, not a central committee, but the people doing the work. The Catalan collectives, running for a year. The cooperative movements building across a century on six continents. The Zapatistas, refusing state power because they understood what taking it does. Cooperation Jackson, patient about the timeline, building from the most marginalized.

@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  By the time Ostrom was winning the Nobel Prize, the harm had been done on five
+  continents. The work she won it for had come out in 1990.
+plain_meta:
+  source: G-03-030
+  status: draft
 ---
 By the time Ostrom was winning the Nobel Prize, the damage had been done on five continents. The work she won it for had been published in 1990.

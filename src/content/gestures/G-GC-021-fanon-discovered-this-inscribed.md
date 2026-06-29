@@ -36,5 +36,12 @@ notes: >-
   Fanon's officer — body-image punch landing into the chiastic close
   at G-GC-022. VERIFY: The Wretched of the Earth, "Colonial War and
   Mental Disorders" appendix.
+plain: >
+  Frantz Fanon found this written into the body of a colonial officer. It
+  was in the man's own nerves. And it surprised and upset the officer to
+  learn it was there.
+plain_meta:
+  source: G-GC-021
+  status: draft
 ---
 Frantz Fanon discovered this inscribed into a colonial officer's nervous system — to that officer's surprise and dismay.

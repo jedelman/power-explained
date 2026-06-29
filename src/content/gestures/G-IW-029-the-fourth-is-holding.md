@@ -19,6 +19,25 @@ notes: |
   somatic cost of holding ("the body learns the cost" — light forward
   reference without naming Orgone). Slots between G-IW-014 (BUILD) and
   G-IW-028 (the intro to Movement IV's lexicon reveal).
+plain: >
+  The fourth skill is holding. It is an unseen kind of work. It is the
+  quiet and stillness a skill needs to grow. There are moments when nothing
+  is happening, and the urge to fill the silence is huge. A child sitting
+  with grief or confusion. A group whose energy has gone flat. An afternoon
+  when the deer does not come. In those moments, the guide's job is to
+  hold. Not to fix it. Not to explain it. Not to start a new activity to
+  break the stillness. The person who stays present when the guide has
+  nothing to offer is doing the most important work of the day. The grief
+  gets to be grief. The confusion gets to be confusion. The flat afternoon
+  gets to be a flat afternoon. And in that space, something moves that the
+  guide could not have made happen. The body learns the cost.
+
+  These four skills — read, name, build, hold — are skills too. They are
+  ways of being the wizard chose on purpose, over years. The wizard's first
+  set of skills is the one they make of themselves. Yours too.
+plain_meta:
+  source: G-IW-029
+  status: draft
 ---
 The fourth is *holding*. An invisible form of magic — the silence and stillness a spell needs to gather. There are moments when nothing is happening, and the urge to fill the silence is enormous — a child sitting with grief or confusion, a group whose energy has flattened, an afternoon when the deer does not come. The wizard's work in those moments is to hold. Not to fix. Not to explain. Not to introduce a new activity to break the stillness. The body that stays present when the educator has nothing to offer is doing the most important work of the day. The grief gets to be grief. The confusion gets to be confusion. The flat afternoon gets to be a flat afternoon. And in that allowance, something moves that the educator could not have made happen. The body learns the cost.
 

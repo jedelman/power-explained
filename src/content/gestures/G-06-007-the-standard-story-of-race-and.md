@@ -13,5 +13,19 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Here is the usual story about race and capitalism.
+  Capitalism grew up in Europe. It was built around paid work,
+  private property, and buying and selling. It did not care
+  about skin color. It cared about money and labor, not the
+  bodies doing the work. Then European powers spread out. They
+  met people they wanted to use for work. Then they made up
+  race ideas to excuse that use after the fact. In this story,
+  race was just the excuse. The money system was the real
+  engine. The two could be pulled apart. But that split is not
+  real.
+plain_meta:
+  source: G-06-007
+  status: draft
 ---
 The standard story of race and capitalism: capitalism developed in Europe as an economic system organized around wage labor, private property, and market exchange — functionally color-blind, concerned with capital and labor rather than the bodies carrying them. Then European powers expanded outward, encountered peoples they wanted to exploit, and developed racial ideology to justify that exploitation after the fact. Race was the cover story. The economic system was the engine. The two were, in principle, separable. The separability is the illusion.

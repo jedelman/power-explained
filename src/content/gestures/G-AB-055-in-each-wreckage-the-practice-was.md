@@ -26,5 +26,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  In each wreckage the practice was the same. Turn around. Face it. Hold
+  the piece long enough to see what it has always been saying.
+plain_meta:
+  source: G-AB-055
+  status: draft
 ---
 In each wreckage the practice was the same. Turn around. Face it. Hold the fragment long enough to see what it has always been saying.

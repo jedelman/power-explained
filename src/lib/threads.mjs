@@ -166,19 +166,3 @@ export function threadCrossings() {
   }
   return map
 }
-
-// gestureId -> [{ slug, h1 }] for gestures that sit on more than one thread
-// (the true rhizome nodes — used for inline "also on" markers).
-export function sharedGestureThreads() {
-  const threads = loadThreads()
-  const m = {}
-  for (const t of threads) {
-    for (const id of t.gestures) {
-      ;(m[id] ||= []).push({ slug: t.slug, h1: t.h1 || t.title })
-    }
-  }
-  for (const id of Object.keys(m)) {
-    if (m[id].length < 2) delete m[id]
-  }
-  return m
-}

@@ -14,5 +14,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The commons was used to build the fence around the commons.
+plain_meta:
+  source: G-16-066
+  status: draft
 ---
 The commons was used to build the enclosure of the commons.

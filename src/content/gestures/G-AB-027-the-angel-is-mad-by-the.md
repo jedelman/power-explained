@@ -24,5 +24,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  By the rules of progress, the angel is called mad.
+plain_meta:
+  source: G-AB-027
+  status: draft
 ---
 The angel is mad by the logic of progress.

@@ -12,5 +12,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The choice to stay unfinished. To keep changing.
+plain_meta:
+  source: G-16-029
+  status: draft
 ---
 The insistence on remaining in process.

@@ -30,5 +30,17 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Sometimes people form a line to stand and block something.
+  Zuccotti Park in October 2011. The prayer camp at Standing Rock
+  all through the winter of 2016. A camp at the start of any river
+  someone loves. The line is held by people whose gift is to hold
+  it. Their bodies stand in the cold. Their faces face the water
+  cannons and the rubber bullets. Their refusal is made real with
+  their bodies. That kind of brave is its own way of seeing. The
+  chapter does not treat it as small.
+plain_meta:
+  source: G-AB-038
+  status: draft
 ---
 The line, when it forms — Zuccotti Park in October 2011, the prayer camp at Standing Rock through the winter of 2016, the encampment at the headwaters of any river anyone has ever loved — is held by people whose gift is to hold the line. Their bodies in the cold. Their faces in the water cannons and the rubber bullets. Their refusal made physical. That courage is its own form of sight, and the chapter does not count it cheaply.

@@ -18,5 +18,19 @@ notes: |-
   Jason 2026-06-12. The chapter's existing counter-image (the
   unmetabolizable singularity) seated into the lawn the prior gesture
   laid down.
+plain: >
+  Your grandmother's strange lamp breaks the system. Not because it
+  is ugly. It might be pretty. It breaks the system because it is
+  one of a kind. The system cannot use it or sort it. The lamp
+  points to something outside the system. It points to one history,
+  one person, one love. That love was not made to be easy to read.
+
+  The lamp is like a track on a lawn. A track is the one mark that
+  shows someone was here. Someone came through. Someone mattered.
+  A lawn is mowed to wipe such marks away. That is why the owners do
+  not want to see the track.
+plain_meta:
+  source: G-16-015
+  status: draft
 ---
 Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be beautiful. Because it carries a *specificity* the system cannot metabolize. It points somewhere outside the arrangement, toward a particular history, a particular person, a particular love that was not organized around legibility. It is a track on the lawn — the one mark that proves something lived here, came through, mattered. That is exactly what the lawn is mowed to erase, and exactly why the owners don't want to see it.

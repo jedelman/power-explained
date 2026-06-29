@@ -1,0 +1,159 @@
+---
+id: spine-concept-enclosure
+slug: spine-concept-enclosure
+label: Spine
+kind: spine
+axis: theme
+title: Enclosure
+h1: Enclosure
+kicker: What the book is about
+spine_tag: concept/enclosure
+description: >-
+  Every gesture the book tags with the idea of enclosure, in the order the river meets them. 72
+  stops.
+gestures:
+  - G-PR-015
+  - G-PR-018
+  - G-PR-022
+  - G-PR-028
+  - G-PR-030
+  - G-PR-036
+  - G-02-017
+  - G-03-027
+  - G-03-042
+  - G-03-046
+  - G-04-002
+  - G-04-014
+  - G-GC-016
+  - G-GC-018
+  - G-GC-025
+  - G-GC-026
+  - G-CC-001
+  - G-CC-002
+  - G-CC-003
+  - G-GC-043
+  - G-05-011
+  - G-07-019a
+  - G-08-007
+  - G-08-019
+  - G-10-032
+  - G-11-011
+  - G-11-016
+  - G-11-020
+  - G-12-036
+  - G-13-013
+  - G-13-019
+  - G-13-036
+  - G-13-038
+  - G-AB-006
+  - G-AB-013
+  - G-AB-053
+  - G-AB-054
+  - G-AB-057
+  - G-AB-062
+  - G-14-005
+  - G-14-013
+  - G-14-022
+  - G-14-029
+  - G-14-029a
+  - G-14-034
+  - G-15-008a
+  - G-15-011
+  - G-15-018
+  - G-15-027
+  - G-15-028
+  - G-RE-001
+  - G-RE-004
+  - G-RE-018
+  - G-RE-024
+  - G-RE-028
+  - G-RE-038
+  - G-16-018
+  - G-16-026
+  - G-16-053
+  - G-16-064
+  - G-16-066
+  - G-16-067
+  - G-16b-017
+  - G-16b-039
+  - G-17-015
+  - G-17-036
+  - G-18-028
+  - G-WW-004
+  - G-EP-001
+  - G-EP-008
+  - G-EP-012
+  - G-EP-013
+separators:
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - paragraph
+  - section
+  - section
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+---

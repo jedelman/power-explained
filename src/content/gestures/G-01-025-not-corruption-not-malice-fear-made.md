@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  It was not corruption. It was not spite. It was fear. The structure made that
+  fear win.
+plain_meta:
+  source: G-01-025
+  status: draft
 ---
 Not corruption. Not malice. Fear made decisive by structure.

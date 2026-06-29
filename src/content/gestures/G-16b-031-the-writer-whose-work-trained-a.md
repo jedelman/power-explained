@@ -13,5 +13,14 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  A writer's work was used to teach a language model. That
+  writer faces the same deal in a new shape. The shared work
+  goes in. A privately owned thing comes out. The people who
+  made up that shared work get no say in what is built from
+  them.
+plain_meta:
+  source: G-16b-031
+  status: draft
 ---
 The writer whose work trained a language model is receiving the same structural argument in a different form. The commons goes in. The proprietary artifact comes out. The people who constituted the commons have no say in what is made from them.

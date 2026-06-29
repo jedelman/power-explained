@@ -32,5 +32,22 @@ beauty_check:
 notes: |
   Direction E — the social east, the room. Place tag: norfolk-va.
   Hold the scene loose; the action lives in the next two gestures.
+plain: >
+  The last guest had left. We locked the doors. We turned the lights
+  down low. Low enough to feel calm. Bright enough to still see.
+
+  A few regulars sat at the bar. They liked to stay late. Late at
+  night, the room feels like it is theirs.
+
+  Some of the staff were still there too. They were done with work.
+  They had their free end-of-shift drinks. They sat with the
+  regulars, not apart from them. That mix is a kind of sharing. It
+  is a small commons. I did not call it that back then.
+
+  I stood behind the bar. I was cleaning glasses. People were
+  talking.
+plain_meta:
+  source: G-WW-012
+  status: draft
 ---
 The doors had been locked behind the last guest. The lights had been turned down to the after-hours level — bright enough to count, dim enough to talk. A few regulars were at the bar, the way regulars stay after hours when the room belongs to them as much as to anyone. The staff who were still around were clocked out, shift drinks in hand, sitting in among the regulars — which is the commons before any of us would have called it that. I was behind the bar, polishing glasses. There was a conversation going.

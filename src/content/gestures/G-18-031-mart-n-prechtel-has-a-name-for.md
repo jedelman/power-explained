@@ -13,5 +13,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Martín Prechtel has a name for what all of this is for.
+plain_meta:
+  source: G-18-031
+  status: draft
 ---
 Martín Prechtel has a name for what it's all for.

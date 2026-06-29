@@ -13,5 +13,10 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  In May 1968, students in Paris took this idea into the streets.
+plain_meta:
+  source: G-16-020
+  status: draft
 ---
 In May 1968, students in Paris took this argument into the streets.

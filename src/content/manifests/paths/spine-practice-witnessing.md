@@ -1,0 +1,81 @@
+---
+id: spine-practice-witnessing
+slug: spine-practice-witnessing
+label: Practice
+kind: spine
+axis: practice
+title: Witnessing
+h1: Witnessing
+kicker: What the book does
+spine_tag: practice/witnessing
+description: >-
+  Every gesture the book marks as the practice of witnessing — one of the things the wizard does,
+  gathered in the river's order. 33 stops.
+gestures:
+  - G-PR-009
+  - G-PR-036
+  - G-IW-001
+  - G-IW-003
+  - G-IW-009
+  - G-IW-012
+  - G-OA-008c
+  - G-OA-011
+  - G-OA-011b
+  - G-12-001
+  - G-12-008
+  - G-12-035
+  - G-AB-000
+  - G-AB-019
+  - G-AB-026
+  - G-AB-036
+  - G-AB-037
+  - G-AB-050
+  - G-AB-055
+  - G-14-018
+  - G-14-019
+  - G-14-036
+  - G-RE-009
+  - G-RE-010
+  - G-RE-010b
+  - G-RE-020
+  - G-RE-023
+  - G-RE-034a
+  - G-RE-037
+  - G-RE-038
+  - G-17-003
+  - G-17-053
+  - G-WW-019
+separators:
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
+  - section
+---

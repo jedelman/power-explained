@@ -17,5 +17,19 @@ notes: |
   summer; the educator will be there to not orchestrate it; the book
   ends, the work doesn't. Mirrors the lexicon doc's: "You were initiated
   once already — into the spell. This is the second initiation."
+plain: >
+  What happened in the forest that morning was small and complete.
+  It was the children's first body-knowing of what the world is. It
+  was the educator's twentieth or two-hundredth time seeing what she
+  does. It was the reader's first sight of the work named. The book
+  has a word for this too. Initiation. The walk of becoming a
+  wizard. It changes what you can stand to see. It has no
+  graduation. You were initiated once already, into the spell. This
+  is the second initiation. The deer will walk through camp next
+  summer. The educator will be there to not arrange it. The book
+  ends. The work does not.
+plain_meta:
+  source: G-IW-027
+  status: draft
 ---
 What happened in the forest that morning was small and complete — the children's first body-knowing of what the world is, the educator's twentieth or two-hundredth recognition of what she does, the reader's first sight of the work named. The book has a word for this too. *Initiation.* The walk of becoming a wizard. It changes what you can bear to see. It has no graduation. You were initiated once already — into the spell. This is the second initiation. The deer will walk through camp next summer. The educator will be there to not orchestrate it. The book ends; the work doesn't.

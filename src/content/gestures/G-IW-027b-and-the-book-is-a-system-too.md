@@ -17,5 +17,13 @@ notes: |-
   (this pass) + the three live threads (the pact; "the reading that reveals" =
   divination; "the road the birds route around" = the night herons) + G-IW-027a
   ("a working system").
+plain: >
+  The book is a system too. You can read it as one straight line. Or you
+  can walk it as a field. Follow one force across the chapters: the promise
+  people make to each other, or the reading that reveals, or the road the
+  birds go around. Watch it grow heavier each time it comes back.
+plain_meta:
+  source: G-IW-027b
+  status: draft
 ---
 And the book is a system too. Read it as a line, or walk it as a field — follow one force across the chapters: the pact, or the reading that reveals, or the road the birds route around, and watch it gather weight each time it returns.

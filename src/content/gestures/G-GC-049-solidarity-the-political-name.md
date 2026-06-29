@@ -34,5 +34,11 @@ notes: |-
   The reveal. Connection is the intimate name; solidarity is the political
   name. Same act, different scale. The chapter has been building to this
   speaking for forty-eight gestures.
+plain: >
+  Solidarity. That is the public name for it. It is the name working people have
+  always used. It is the one act the demons have never been able to run.
+plain_meta:
+  source: G-GC-049
+  status: draft
 ---
 *Solidarity.* The political name. The one working people have always used. The one act the demons have never been able to administer.

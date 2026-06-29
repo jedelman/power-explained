@@ -14,5 +14,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  Burnout is not your wanting running out. It is your wanting hitting a
+  structure too small to hold it.
+plain_meta:
+  source: G-18-019
+  status: draft
 ---
 Burnout is not the failure of desire. It is desire meeting a structure too small for it.

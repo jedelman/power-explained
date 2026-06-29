@@ -13,5 +13,11 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The pattern is one. Once you see it, you can't unsee it. What you do with
+  it is up to you.
+plain_meta:
+  source: G-PR-038
+  status: draft
 ---
 The pattern is one. Once you see it, you can't unsee it. What you do with it is up to you.

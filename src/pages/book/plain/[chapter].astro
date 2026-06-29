@@ -1,0 +1,147 @@
+---
+import Base from '../../../layouts/Base.astro'
+import fs from 'node:fs'
+import { resolve } from 'path'
+import yaml from 'js-yaml'
+import { composePlainUnits } from '../../../lib/composePlainBody.mjs'
+import { md } from '../../../lib/markdown.mjs'
+
+// Staged parallel artifact — "the plain river." The 5th-grade-reading-level
+// translation of the canonical river. It reuses each chapter's manifest
+// (order + separators) but renders each gesture's `plain:` block instead of
+// its canonical body. NOT linked from main nav; NOT part of the canonical
+// river. The river itself is never touched. See the plain-book initiative.
+
+const BOOK = resolve('src/content/book')
+
+export function getStaticPaths() {
+  return fs
+    .readdirSync(resolve('src/content/book'))
+    .filter(f => f.endsWith('.md'))
+    .map(f => ({ params: { chapter: f.replace(/\.md$/, '') } }))
+}
+
+const { chapter } = Astro.params
+const file = `${BOOK}/${chapter}.md`
+const fm = yaml.load(fs.readFileSync(file, 'utf8').split('\n---\n')[0].slice(4)) || {}
+const { units, coverage } = composePlainUnits(file)
+const pct = coverage.total ? Math.round((100 * coverage.translated) / coverage.total) : 0
+---
+<Base
+  title={`${fm.title || chapter} — plain edition`}
+  description={fm.description || ''}
+>
+  <div class="article-wrap">
+    <p class="book-nav">
+      <a href="/book">← The Book</a>
+      <span class="book-nav-sep">·</span>
+      <a href="/book/plain">Plain edition</a>
+      <span class="book-nav-sep">·</span>
+      <span>5th-grade reading level · experimental</span>
+    </p>
+
+    <header class="plain-head">
+      <p class="plain-label">{fm.label || 'Plain edition'}</p>
+      <h1>{fm.h1 || fm.title || chapter}</h1>
+      <p class="plain-dek">
+        A plain-language translation of this chapter, sentence by sentence.
+        The same book, in the simplest words it can be told in.
+        <a href={`/book/${chapter}`}>Read the original →</a>
+      </p>
+      <p class="plain-counts">
+        {coverage.translated} / {coverage.total} gestures translated ({pct}%)
+      </p>
+    </header>
+
+    <div class="body-text plain-body" data-pagefind-body>
+      {units.map(u => (
+        <div class="p-unit">
+          <a class="g-origin" href={`/book/${chapter}#${u.id}`} title={`${u.id} in the river`}>{u.id}</a>
+          {u.plain ? (
+            <div set:html={md(u.plain)} />
+          ) : (
+            <p class="p-untranslated">
+              <span>Not yet translated.</span>
+              <a href={`/book/${chapter}#${u.id}`}>Read the original</a>
+            </p>
+          )}
+          {u.plain && (
+            <details class="p-original">
+              <summary>Original</summary>
+              <div set:html={md(u.body)} />
+            </details>
+          )}
+          {u.sepAfter === 'section' && <hr class="section-break" />}
+        </div>
+      ))}
+    </div>
+
+    <p class="plain-foot">
+      The plain edition is a faithful translation of the river, never a separate
+      argument. Every plain passage is built from one gesture of the original.
+      <a href="/book">Back to the book</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .book-nav {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em;
+    text-transform: uppercase; opacity: 0.4; margin-bottom: 2rem;
+    display: flex; gap: 0.5rem; align-items: center;
+  }
+  .book-nav a { color: inherit; text-decoration: none; }
+  .book-nav a:hover { color: var(--red); }
+  .book-nav-sep { opacity: 0.4; }
+
+  .plain-head { margin: 0 0 3rem; }
+  .plain-label {
+    font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em;
+    text-transform: uppercase; opacity: 0.45; margin-bottom: 0.75rem;
+  }
+  .plain-dek {
+    font-size: 1.05rem; line-height: 1.6; margin: 1rem 0 0.5rem;
+    max-width: 34rem; opacity: 0.8;
+  }
+  .plain-dek a, .plain-foot a { color: var(--red); text-decoration: none; }
+  .plain-dek a:hover, .plain-foot a:hover { text-decoration: underline; }
+  .plain-counts {
+    font-family: var(--mono); font-size: 0.7rem; opacity: 0.5; margin-top: 0.75rem;
+  }
+
+  .p-unit { position: relative; margin-bottom: 1.25rem; }
+  .g-origin {
+    position: absolute; left: -5.5rem; top: 0.35rem; width: 5rem;
+    text-align: right;
+    font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.04em;
+    color: var(--ink); opacity: 0.18; text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .p-unit:hover .g-origin { opacity: 0.45; }
+  .g-origin:hover { opacity: 0.9 !important; color: var(--red); }
+  @media (max-width: 72rem) {
+    .g-origin { position: static; display: block; width: auto; text-align: left; margin-bottom: 0.2rem; opacity: 0.3; }
+  }
+
+  .p-untranslated {
+    font-family: var(--mono); font-size: 0.75rem; opacity: 0.5;
+    display: flex; gap: 0.75rem; align-items: baseline;
+  }
+  .p-untranslated a { color: var(--red); text-decoration: none; }
+
+  .p-original { margin: 0.5rem 0 0; }
+  .p-original summary {
+    font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em;
+    text-transform: uppercase; opacity: 0.35; cursor: pointer;
+  }
+  .p-original[open] summary { opacity: 0.5; margin-bottom: 0.5rem; }
+  .p-original :global(p) { opacity: 0.6; font-style: italic; }
+
+  .plain-body :global(hr.section-break) {
+    border: none; border-top: 1px solid var(--rule); margin: 3rem 0;
+  }
+  .plain-foot {
+    margin: 4rem 0 2rem;
+    font-family: var(--mono); font-size: 0.7rem; opacity: 0.5; line-height: 1.7;
+  }
+</style>

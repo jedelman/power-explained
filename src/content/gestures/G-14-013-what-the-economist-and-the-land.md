@@ -14,5 +14,12 @@ notes: |-
   First-pass paragraph-split (mechanical). Title and slug derived
   from leading words; tags are minimal-lint-clean. Subdivision or
   merging with adjacent gestures is expected on plateau-level revision.
+plain: >
+  The economist and the land trust director and the policy analyst
+  can not quite say this one thing. Taking land does more than take a
+  resource. It also cuts off a way of thinking and feeling.
+plain_meta:
+  source: G-14-013
+  status: draft
 ---
 What the economist and the land trust director and the policy analyst cannot quite say is this: the enclosure of land doesn't only take a resource. It severs a mode of consciousness.

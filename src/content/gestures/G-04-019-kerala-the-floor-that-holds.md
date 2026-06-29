@@ -37,6 +37,39 @@ notes: |
   stats the alchemical witness received as data; left governance = the
   agroforest's kept soil vs. the monocrop dust bowl. The protected "A floor
   that holds" landing kept, now seated on "The floor is the kept soil."
+plain: >
+  Kerala is a state in India. About 35 million people live there. They
+  earn much less than the average Indian. Yet people there live about 77
+  years (men 75, women 80, by 2023 estimates). That is the highest in
+  India. It matches countries where people earn three to four times more.
+  Fewer babies die there than anywhere else in India. In the 2011 census,
+  94 percent of people could read. That was the highest in the country.
+  Later surveys put it even higher.
+
+  The reason is not a mystery. For decades, communist-led governments
+  ran the state. They broke up the class of big landlords. They put money
+  into public health and public schools. They treated government as a way
+  to help everyone live well, not as a way to help a few people get rich.
+  Strong unions kept wages above the national level. Over many years, the
+  people held their leaders to account through the organized working class.
+
+  Kerala grows its wealth the way Kerala grows pepper: in layers. The
+  homegarden is the state's main kind of farm. Coconut and areca trees
+  grow on top. Pepper vines climb them. Banana and coffee grow in the
+  shade below. Ginger, turmeric, and root crops grow on the ground. Every
+  layer gives food, and no layer is stripped bare. You harvest from all of
+  it, again and again, for many years. Nothing is cut down at once, and the
+  soil is never carried away. The other way to farm a hillside is to clear
+  it for one crop. You take all the ground can give and then move on when
+  the dust blows. You get two good harvests, then a desert. Seventy years
+  of left government is the first kind of farming, but done to a people.
+  The big landlords were broken up so the top could not hog all the light.
+  Health and schools were fed back into the ground each season. Wages were
+  kept high enough for a family to put down roots. The floor is the kept
+  soil. A floor that holds.
+plain_meta:
+  source: G-04-019
+  status: draft
 ---
 Kerala is an Indian state of approximately 35 million people with a per-capita income significantly below the national average. Its life expectancy is roughly 77 years (men 75, women 80, per 2023 estimates) — the highest in India, matching countries with incomes three to four times higher. Infant mortality is India's lowest. Literacy was recorded at 94 percent in the 2011 census, the highest in the country; subsequent surveys put it higher still.
 

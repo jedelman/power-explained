@@ -15,5 +15,12 @@ notes: |-
   2026-06-12 — woven by the image-weave pass; the six levels mapped onto
   the six stages of ancient body awareness; condensation per Jason's row-1
   license ("this can be condensed").
+plain: >
+  The book moves on six levels. The order is not a class plan. It is the
+  oldest order the body knows — the one that runs every time a person
+  picks up a trail.
+plain_meta:
+  source: G-PR-025
+  status: draft
 ---
 The book moves on six levels. The sequence is not a syllabus — it is the oldest sequence the body knows, the one that runs every time a human picks up a trail.
