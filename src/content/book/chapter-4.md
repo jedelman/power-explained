@@ -4,7 +4,7 @@ title: 'Chapter 4: Nobody Asked Him To'
 description: Arizmendi on his bike. Eight farmers in black blouses. A fridge on a Brooklyn sidewalk. The commons is present tense.
 h1: Nobody Asked Him To
 label: Chapter 4
-part: 'Part II: The Proof'
+part: 'Part II: Learning to See'
 showDoors: true
 plateau:
   id: P-04

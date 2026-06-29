@@ -4,7 +4,7 @@ title: 'Chapter 13: We''re Canceling It'
 description: Credit is older than money. Mutual obligation is the original economy. What the commons of credit looks like, and what's already being built.
 h1: We're Canceling It
 label: Chapter 13
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 plateau:
   id: P-13
   status: draft

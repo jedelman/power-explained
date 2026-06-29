@@ -4,7 +4,7 @@ title: 'Chapter 15: Still Meeting'
 description: Silvia Federici showed that the witch hunts were enclosure. The care commons is being rebuilt by people who have decided not to wait.
 h1: Still Meeting
 label: Chapter 15
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 plateau:
   id: P-15
   status: draft

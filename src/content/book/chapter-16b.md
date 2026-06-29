@@ -4,7 +4,7 @@ title: 'Chapter 16, Part 2: The Hollow Book'
 description: The Wachowskis hid Baudrillard inside The Matrix. The AI moment is the loop closing. The window to govern the commons of human expression is open — briefly.
 h1: The Hollow Book
 label: Chapter 16 · Part 2
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 plateau:
   id: P-16b
   status: draft

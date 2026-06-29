@@ -4,7 +4,7 @@ title: The Wizard's Walk
 description: The reader takes the walk. The six capacities gathered into one motion. The crossing from seeker to guide. The work named — psychic architecture, ethically fraught, done anyway. The quest handed back.
 h1: The Wizard's Walk
 label: Initiation
-part: Part VI — What to Build
+part: 'Part VI: When You Wake'
 type: initiation
 order: 18.5
 plateau:

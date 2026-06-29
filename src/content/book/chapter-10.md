@@ -4,7 +4,7 @@ title: 'Chapter 10: The Birds She Fed Through the Bars'
 description: Rosa Luxemburg praised the Bolshevik revolution and predicted its failure in the same essay, written from a German prison cell while the revolution was happening.
 h1: The Birds She Fed Through the Bars
 label: Chapter 10
-part: 'Part IV: Why the Obvious Fixes Failed'
+part: 'Part IV: Learning from Those Who Walked Before'
 plateau:
   id: P-10
   status: draft

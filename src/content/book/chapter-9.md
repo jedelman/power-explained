@@ -4,7 +4,7 @@ title: 'Chapter 9: He Built It Anyway'
 description: Antonio Gramsci watched the factory councils of Turin build a different world inside the old one — and then watched them fail. He spent eleven years in prison understanding why.
 h1: He Built It Anyway
 label: Chapter 9
-part: 'Part IV: Why the Obvious Fixes Failed'
+part: 'Part IV: Learning from Those Who Walked Before'
 plateau:
   id: P-09
   status: draft

@@ -4,7 +4,7 @@ title: 'Chapter 3: The Cook'
 description: In the northern Philippines, a governance structure writes feeding each other into law. In Norfolk, a Filipino cook is running the same practice a thousand years later.
 h1: The Cook
 label: Chapter 3
-part: 'Part II: The Proof'
+part: 'Part II: Learning to See'
 plateau:
   id: P-03
   status: draft

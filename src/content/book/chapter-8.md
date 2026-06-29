@@ -4,7 +4,7 @@ title: 'Chapter 8: No Name for It'
 description: Sylvia Wynter asked what made the classification possible. Kimberlé Crenshaw named the gap. Angela Davis showed that the prison was the outside made into an institution.
 h1: No Name for It
 label: Chapter 8
-part: 'Part III: Why the System Is the Way It Is'
+part: 'Part III: Taking It Apart'
 plateau:
   id: P-08
   status: draft

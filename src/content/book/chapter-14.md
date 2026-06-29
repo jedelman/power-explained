@@ -4,7 +4,7 @@ title: 'Chapter 14: I Became the Land'
 description: The housing crisis is a land problem. The extinction crisis is a land problem. What the land commons looks like, and what's already being built.
 h1: I Became the Land
 label: Chapter 14
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 plateau:
   id: P-14
   status: draft

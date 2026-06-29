@@ -4,7 +4,7 @@ title: 'Chapter 16: Even That Part'
 description: 'Turing, Berners-Lee, Linux, and the language model: knowledge as commons, and what it looks like when the enclosure can be refused.'
 h1: Even That Part
 label: Chapter 16
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 plateau:
   id: P-16
   status: draft

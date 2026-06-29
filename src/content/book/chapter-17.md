@@ -4,7 +4,7 @@ title: 'Chapter 17: The Owl at the Edge of the Circle'
 description: Every culture that survived long enough developed practices for initiation. Plotkin, Prechtel, Sorenson, McKenna — and the felt knowledge they are pointing toward.
 h1: The Owl at the Edge of the Circle
 label: Chapter 17
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 plateau:
   id: P-17
   status: draft

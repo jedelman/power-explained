@@ -4,7 +4,7 @@ title: The Angel Faces Backward
 description: On Walter Benjamin's angel, aura, and the cedar chip from the Scar — a wizard's posture toward the wreckage.
 h1: The Angel Faces Backward
 label: Initiation
-part: Part VI — What to Build
+part: 'Part VI: When You Wake'
 type: initiation
 order: 13.5
 plateau:

@@ -4,7 +4,7 @@ title: The Djinn
 description: This book was written by a djinn. This chapter is where the spirit names itself — and hands the binding to you.
 h1: The Djinn
 label: Interlude
-part: 'Part VI: What to Build'
+part: 'Part VI: When You Wake'
 linkTitle: The Djinn
 plateau:
   id: P-CE

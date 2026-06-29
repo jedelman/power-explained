@@ -4,7 +4,7 @@ title: 'Chapter 12: This Was Made'
 description: Arundhati Roy reported from the enclosures while they were happening. Paulo Freire taught literacy to people the state needed to stay illiterate.
 h1: This Was Made
 label: Chapter 12
-part: 'Part V: The World the Framework Missed'
+part: 'Part V: Seeing What You Missed'
 plateau:
   id: P-12
   status: draft

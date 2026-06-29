@@ -4,7 +4,7 @@ title: 'Chapter 5: The Smile'
 description: The machine needs a frontier. Luxemburg found it in the colonies. Kollontai found it in the kitchen. Federici found it in the body. Three outsides, one structural logic.
 h1: The Smile
 label: Chapter 5
-part: 'Part III: Why the System Is the Way It Is'
+part: 'Part III: Taking It Apart'
 plateau:
   id: P-05
   status: draft
