@@ -36,6 +36,10 @@ function plain(h1) {
 }
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
+// Clear stale renders first so a reorder (changed NN- prefixes) leaves no orphans.
+for (const f of fs.readdirSync(OUT_DIR)) {
+  if (f.endsWith(".md")) fs.rmSync(path.join(OUT_DIR, f));
+}
 
 man.sources.forEach((slug, i) => {
   const fm = frontmatter(slug);

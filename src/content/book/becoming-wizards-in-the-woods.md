@@ -4,6 +4,7 @@ title: Becoming Wizards in the Woods
 description: Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the lexicon for what just happened.
 h1: Becoming Wizards in the Woods
 label: Initiation
+part: 'Part II: Learning to See'
 order: 3.5
 plateau:
   id: P-IW

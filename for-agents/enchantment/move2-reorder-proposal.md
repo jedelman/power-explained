@@ -1,8 +1,14 @@
-# Move 2 — reorder so each method chapter OPENS its Part (proposal for Jason's nod)
+# Move 2 — reorder so each method chapter OPENS its Part (APPLIED 2026-06-29)
 
-**Status:** proposal only. The canonical `sources:` order in
-`src/content/manifests/the-river.manifest.yml` is **unchanged**. Nothing moves until
-you nod — per relocation. This doc is the map.
+**Status:** applied. The canonical `sources:` order in
+`src/content/manifests/the-river.manifest.yml` is reordered; every relocation was
+nodded by Jason via AskUserQuestion. `index.astro` was taught to let a wizard
+initiation OPEN a Part (carry its own `part:`) instead of always inheriting the
+previous chapter's Part. Build green; index + river both group into six clean Parts.
+
+Final placements (last two confirmed by Jason): **Angel opens Part V**; **ch16 + ch16b
+lead into Goetia** at the end of Part II ("the demons are simulacra"), so Goetia still
+opens Part III.
 
 ## The principle (your deepening, 2026-06-29)
 
@@ -13,7 +19,16 @@ Re-Enchanting **pulls forward** (the collapse): from there on the world reads
 re-enchanted, and the chapters after it become inheritance, not grief. The end
 cluster holds the Return and the confirmation-reveal.
 
-## Proposed order (relocations marked ▸)
+## Your decisions (2026-06-29, AskUserQuestion)
+
+- Re-Enchanting opens **Part IV** (the bigger collapse — re-enchanted register from IV on).
+- **Goetia opens III; Orgone stays mid-III** (body-beat).
+- Also **bring Even That Part (ch16) and The Hollow Book (ch16b) forward.**
+
+These displace the Angel from Part IV and pull ch16/16b out of the Part VI tail.
+Reconciled order below; the two placements they force are marked **TO CONFIRM**.
+
+## Proposed order (relocations marked ▸; reconciled with your decisions)
 
 ```
    overture
@@ -22,30 +37,30 @@ cluster holds the Return and the confirmation-reveal.
    chapter-1
    chapter-2
 ── Part II — Learning to See ──
- ▸ becoming-wizards-in-the-woods      taken into the woods to learn to see — the body knowing before the mind
+ ▸ becoming-wizards-in-the-woods      taken into the woods to learn to see — body knowing before mind
    chapter-3
    chapter-4
 ── Part III — Taking It Apart ──
- ▸ goetia (The Speaking of Names)     names the demons of the maintenance system — naming IS taking it apart; teaches the method the chapters then practice
+ ▸ goetia (The Speaking of Names)     name the demons of the maintenance system — naming IS taking it apart
    chapter-5
    the-colony
    chapter-8
-   orgone-accumulator                 ⚠ OPEN QUESTION (see below)
+   orgone-accumulator                 body-beat inside the Part (your call: stays mid-III)
 ── Part IV — Learning from Those Who Walked Before ──
- ▸ angel-faces-backward               Benjamin's Angel faces backward at the wreckage and the dead — the literal image of the buried tradition this Part recovers (Gramsci, Luxemburg, Kropotkin)
+ ▸ reenchanting (PULLED FORWARD)      recovering legibility frames the buried tradition (Gramsci, Luxemburg, Kropotkin) as inheritance recovered, not loss — principle B
    chapter-9
    chapter-10
    chapter-11
 ── Part V — Seeing What You Missed ──
- ▸ reenchanting (PULLED FORWARD)      re-enchantment = recovering legibility = seeing what was always there but missed; lands at the pivot, flips everything after into re-enchanted register
+ ▸ angel-faces-backward  ★TO CONFIRM  the Angel sees the wreckage history made — "seeing what you missed"; rehomed here now that Re-Enchanting took IV
    chapter-12
+ ▸ chapter-16  (Even That Part) ★TO CONFIRM   brought forward: even the captured part, seen
+ ▸ chapter-16b (The Hollow Book) ★TO CONFIRM  brought forward: the singular is the one commons it cannot take (G-16b-039a)
 ── Part VI — When You Wake ──
- ▸ wizards-walk                       "Enter the Territory That Was Supposed to Be Empty" — waking, walking back into the world to build
+ ▸ wizards-walk                       "Enter the Territory That Was Supposed to Be Empty" — waking, walking back to build
    chapter-13
    chapter-14
    chapter-15
-   chapter-16
-   chapter-16b
    chapter-17
    chapter-18
    the-centaur-chapter (The Djinn)    closes — the confirmation-reveal
@@ -54,29 +69,17 @@ cluster holds the Return and the confirmation-reveal.
 
 ## Relocations (each needs your nod)
 
-| chapter | from | → to | size of move |
+| chapter | from | → to | status |
 |---|---|---|---|
-| becoming-wizards | II, pos 2 | head of II | small |
-| goetia | end of II | head of III | one Part forward |
-| angel-faces-backward | VI (after ch13) | head of IV | **large — forward** |
-| reenchanting | VI (pos 21) | head of V | **large — forward (the collapse)** |
-| wizards-walk | late VI | head of VI | within Part |
+| becoming-wizards | II, pos 2 | head of II | nodded |
+| goetia | end of II | head of III | nodded |
+| reenchanting | VI (pos 21) | head of IV | nodded (the collapse) |
+| wizards-walk | late VI | head of VI | nodded |
+| angel-faces-backward | VI (after ch13) | head of V | ★ forced by RE→IV — confirm |
+| chapter-16 (Even That Part) | VI | into V | ★ your "bring forward" — confirm slot |
+| chapter-16b (The Hollow Book) | VI | into V | ★ your "bring forward" — confirm slot |
 
 The Djinn and the Epilogue do not move — the reveal stays at the very end (principle C).
-
-## Open questions for you
-
-1. **Orgone Accumulator** is the one wizard chapter that doesn't cleanly open a Part.
-   It's the body/armor (Reich) and currently sits inside Part III. Options:
-   (a) leave it as a mid-Part-III beat (a small break from the open-only rule);
-   (b) make it open Part III and move Goetia to open Part II (then Becoming-Wizards
-   opens Part I); (c) relocate it elsewhere. **My bid: (a)** — keep it in III as a
-   body-beat — but this is your call.
-2. **Re-Enchanting → Part V vs Part IV?** V ("Seeing What You Missed") is the cleaner
-   name-fit; IV pulls the re-enchanted register even earlier. My bid: **V**.
-3. **Goetia timing.** It teaches the naming method; opening Part III means the method
-   is taught as the dissection begins. If you'd rather teach it earlier (open Part II),
-   Becoming-Wizards shifts to frame Part I. My bid: **Goetia opens III**.
 
 ## On your nod
 

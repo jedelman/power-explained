@@ -4,7 +4,7 @@ title: The Speaking of Names
 description: An incantation. Names for some of the demons you will meet on the journey, and at the end, a powerful aid summoned to support you.
 h1: The Speaking of Names
 label: Initiation
-part: 'Part II: Learning to See'
+part: 'Part III: Taking It Apart'
 showDoors: true
 type: initiation
 order: 4.5

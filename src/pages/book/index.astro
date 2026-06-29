@@ -33,9 +33,12 @@ function chapterMeta(slug) {
   const display = /^(Chapter [^:]+|Prologue|Epilogue):\s/.test(title)
     ? title.replace(/^[^:]+:\s*/, '')
     : title
+  // A wizard initiation can OPEN a Part (it carries an explicit `part:`); only
+  // initiations with no `part:` inherit the Part of the chapter before them.
+  const normalizePart = p => (p || '').replace(/^Part ([^:—]+):\s*/, 'Part $1 — ').trim()
   const part = interlude
-    ? null // inherit from the chapter before it
-    : (fm.part || '').replace(/^Part ([^:—]+):\s*/, 'Part $1 — ').trim()
+    ? (fm.part ? normalizePart(fm.part) : null) // explicit → opens its Part; empty → inherit
+    : normalizePart(fm.part)
   const words = composePlateauBody(resolve(`src/content/book/${slug}.md`))
     .trim()
     .split(/\s+/)
