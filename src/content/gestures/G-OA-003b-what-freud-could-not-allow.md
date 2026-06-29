@@ -76,8 +76,8 @@ plain: >
 
   Reich said no. In his book *Character Analysis* he said it plainly: there
   is no death drive. What looks like a pull toward death is something else.
-  It is a *bad form of wanting to hurt yourself*. And it is learned, not
-  born. He showed it is made in a certain kind of childhood. It is the
+  It is a *reaching for your own pain* — learned, not born. He showed it is
+  made in a certain kind of childhood. It is the
   strict, controlling family. There, love and praise come only if you
   obey. The child learns that pain is the price of being held. So the child
   starts to seek pain. The pain is where the love was.
