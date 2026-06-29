@@ -34,7 +34,7 @@ plain: >
   This is why the land must be defended. To see it this way is to defend it.
   What changes is how big the action is.
 
-  The land trust in the next chapter draws the line at the deed. The Standing
+  The land trust draws the line at the deed. The Standing
   Rock camp draws it with bodies in the river. The cedar chip on the shelf
   draws it at the level of one household that knows. Two neighbors talking
   about a tree on a walk draw it with a talk. The actions are different sizes.
@@ -43,4 +43,4 @@ plain_meta:
   source: G-AB-063
   status: draft
 ---
-This is why the land must be defended. The defense is the recognition. What varies is the scale of the action. The land trust in the next chapter draws the line at the level of the deed. The Standing Rock encampment draws it at the level of the body in the river. The cedar chip on the shelf draws it at the level of a household that knows. Two neighbors talking about a tree on a walk draw it at the level of a conversation. Different scales of action. Same recognition. Same line.
+This is why the land must be defended. The defense is the recognition. What varies is the scale of the action. The land trust draws the line at the level of the deed. The Standing Rock encampment draws it at the level of the body in the river. The cedar chip on the shelf draws it at the level of a household that knows. Two neighbors talking about a tree on a walk draw it at the level of a conversation. Different scales of action. Same recognition. Same line.

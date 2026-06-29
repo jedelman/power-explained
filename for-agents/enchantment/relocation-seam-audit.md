@@ -1,4 +1,20 @@
-# Relocation seam audit — broken cross-chapter handoffs (needs Jason's nod)
+# Relocation seam audit — broken cross-chapter handoffs (RESOLVED 2026-06-29)
+
+**Resolution (Jason: "fix the seams"):**
+- #1 **becoming-wizards** (G-IW-031): "The next chapter is…" → "What follows is… in a
+  mountain town in northern Spain, **and more**" — now frames Part II, not just Mondragón.
+- #2 **the-circle** (G-11-039): **re-examined — left as-is.** Its handoff is generic
+  ("what looking looks like, when looking is the work"), which angel-faces (the
+  backward-looking angel opening "Seeing What You Missed") satisfies; not a dangling
+  specific. A false alarm, like the-smile.
+- #3 **angel-faces** (G-AB-063): pure-deletion of "in the next chapter" (beauty_check
+  gesture) — "The land trust draws the line at the deed" stays as an example.
+- #4 **the-hollow-book** (G-16b-057): "The next chapter is the practice." → "The next
+  chapter is **the naming**." — accurately points at Goetia (*The Speaking of Names*).
+
+Build green; rendered chapters updated. Original analysis below.
+
+---
 
 Move 2 put a wizard chapter at the head of each Part. That displaced several
 analytical chapters' **forward handoff lines** ("the next chapter is…"), which were

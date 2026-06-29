@@ -121,7 +121,10 @@ principle C.
 The confirmation-reveal arc (principle C) was verified intact and deliberate across the
 whole river — see `for-agents/enchantment/confirmation-reveal-tracker.md`.
 
-**Outstanding for Jason (not blocking):**
-1. Relocation seam audit — 4 broken forward-handoffs (`relocation-seam-audit.md`).
-2. Chapter-1 witness flags on existing prose — the "Gramsci called this" citation
-   (over-explaining) and the brewery "went out of business" vindication note.
+**Resolved (Jason, 2026-06-29):**
+1. Relocation seam audit — fixed (3 edits + 1 re-examined-as-fine); see
+   `relocation-seam-audit.md` Resolution.
+2. Chapter-1: **Gramsci citation dropped** (G-01-013, "Gramsci called this common
+   sense:" → "This is common sense:"; trail/tracker image kept; file renamed off
+   "gramsci", person/gramsci tag removed). The brewery "went out of business" note
+   is **kept as-is** (Jason: leave it).

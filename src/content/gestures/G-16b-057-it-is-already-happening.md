@@ -15,11 +15,11 @@ notes: |-
 plain: >
   It is already happening.
 
-  The next chapter is the practice.
+  The next chapter is the naming.
 plain_meta:
   source: G-16b-057
   status: draft
 ---
 It is already happening.
 
-The next chapter is the practice.
+The next chapter is the naming.

@@ -1,13 +1,12 @@
 ---
 id: G-01-013
 plateau: P-01
-title: 'Gramsci called this common sense: the'
-slug: gramsci-called-this-common-sense-the
+title: Common sense is the trail
+slug: common-sense-is-the-trail
 tags:
   - plateau/P-01
   - voice/jason
   - status/draft
-  - person/gramsci
   - image/the-operating-system
   - emotion/clear-eyed
   - practice/naming
@@ -20,7 +19,7 @@ notes: |-
   witness) replaced by the trail (body-reaching); G-01-014 re-landed off
   the same image.
 plain: >
-  Gramsci called this common sense. It is the leftover of old ideas that
+  This is common sense. It is the leftover of old ideas that
   tells you what is normal, what can be done, and what a smart person
   thinks. It does not mean people are tricked or fooled. It means the
   ideas built into our roads, our schools, and our daily life wear in like
@@ -34,4 +33,4 @@ plain_meta:
   source: G-01-013
   status: draft
 ---
-Gramsci called this common sense: the sediment of prior thought that tells you what's natural, what's possible, what a realistic person thinks. Common sense is not false consciousness — it's not that people are fooled. It's that the assumptions built into the infrastructure, the institutions, the daily texture of life wear in like trails — pressed by every passage until the ground holds the route, and the body follows automatically. Common sense is the trail, not the decision. A tracker reads the same ground differently: reads the signs, and compiles in the body a map of the terrain — including the pressures that pressed the trail into it.
+This is common sense: the sediment of prior thought that tells you what's natural, what's possible, what a realistic person thinks. Common sense is not false consciousness — it's not that people are fooled. It's that the assumptions built into the infrastructure, the institutions, the daily texture of life wear in like trails — pressed by every passage until the ground holds the route, and the body follows automatically. Common sense is the trail, not the decision. A tracker reads the same ground differently: reads the signs, and compiles in the body a map of the terrain — including the pressures that pressed the trail into it.

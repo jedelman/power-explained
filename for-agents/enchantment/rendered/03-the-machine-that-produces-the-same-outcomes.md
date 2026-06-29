@@ -50,7 +50,7 @@ I've been to cities where planners made different assumptions — where pedestri
 
 It's easy not to see Hampton Boulevard as a choice, and that's not a failure. It is the nature of hegemony — the way that existing arrangements sink into the category of the inevitable, the natural. It takes the experience of an alternative to make the existing arrangement visible as an arrangement.
 
-Gramsci called this common sense: the sediment of prior thought that tells you what's natural, what's possible, what a realistic person thinks. Common sense is not false consciousness — it's not that people are fooled. It's that the assumptions built into the infrastructure, the institutions, the daily texture of life wear in like trails — pressed by every passage until the ground holds the route, and the body follows automatically. Common sense is the trail, not the decision. A tracker reads the same ground differently: reads the signs, and compiles in the body a map of the terrain — including the pressures that pressed the trail into it.
+This is common sense: the sediment of prior thought that tells you what's natural, what's possible, what a realistic person thinks. Common sense is not false consciousness — it's not that people are fooled. It's that the assumptions built into the infrastructure, the institutions, the daily texture of life wear in like trails — pressed by every passage until the ground holds the route, and the body follows automatically. Common sense is the trail, not the decision. A tracker reads the same ground differently: reads the signs, and compiles in the body a map of the terrain — including the pressures that pressed the trail into it.
 
 Hampton Boulevard is that trail, poured permanent. It doesn't fail. It functions. That's the problem.
 

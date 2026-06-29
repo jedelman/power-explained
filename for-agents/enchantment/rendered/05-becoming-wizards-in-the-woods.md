@@ -82,4 +82,4 @@ This is what building the commons looks like at its slowest and most durable. No
 
 The first practice is small. Once today, when you walk into a room — workplace, store, train car — let your body register the room before your mind decides what to do. Notice what you already knew before words touched it. Try to name it, privately, silently, just for yourself. *That is what this is.* That naming is the wizard, beginning. Begin a private list. That list is the first page of your spellbook. You are crafting the wizard you will be.
 
-Walk back into the world with the names. The next chapter is what the commons looks like when the work has had time to set, and to bear weight, and to be inherited. Eighty years' worth, in a mountain town in northern Spain.
+Walk back into the world with the names. What follows is what the commons looks like when the work has had time to set, and to bear weight, and to be inherited — eighty years of it in a mountain town in northern Spain, and more.

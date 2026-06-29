@@ -134,4 +134,4 @@ Not waiting to be invented. Waiting to be remembered.
 
 It is already happening.
 
-The next chapter is the practice.
+The next chapter is the naming.
