@@ -65,8 +65,7 @@ It's extremely difficult to say what medicine is, much less what any person's me
 **Hits if:** it's instant and across difference (recognition, not introduction). **Misses if:** it's a slow getting-to-know-you.
 
 
-
-JASON:
+JASON: 
 
 
 ### M5 — (optional) Giving your medicine
@@ -154,6 +153,6 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDkzNzQ3MCwxOTEwNjM1MjI1LC05OT
-M1MDExOTNdfQ==
+eyJoaXN0b3J5IjpbLTMzNjU5MjE5NCwxODQ0OTM3NDcwLDE5MT
+A2MzUyMjUsLTk5MzUwMTE5M119
 -->
