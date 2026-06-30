@@ -1487,3 +1487,25 @@ of contribute, and "the magic was gone."
 - Two spots both gates lightly flagged but said to KEEP (Jason's authentic details): "Little
   did we know" (faint wink) and the real-estate-broker as the one who kills the commons
   ("reads as remembered, not constructed — which is what saves it"). Left as-is.
+
+## Move 5 · Tubman tracker-spine weave · 2026-06-30 · G-08-019a (expand)
+Jason directive: "make the line as hard as possible — she's a legend in a social-justice
+way but ALSO a raw-skills way," so the Combahee Collective's eponym pays off the book's
+tracker-as-wizard spine doubly. Expanded the bare "named for Harriet Tubman's Combahee
+River raid of 1863" clause into a hard biographical beat (the raid she planned and led,
+the Underground Railroad decade, the scout network, the river mines), landing on
+"This is the tracker, in the flesh — the craft turned against the men who thought they
+owned the ground." Backward callback safe (terrain/tracker frame set in Becoming Wizards,
+Part II, before this Part III chapter). Added person/tubman, motif/the-tracker, year/1863.
+- FACTS verified via WebSearch (NMAAHC, NPS, History.com, Zinn, Army.mil): planned/guided
+  the raid ✅; "first woman ... to plan and lead an armed raid" (corrected from drafted
+  "armed assault," which over-narrowed the sourced "plan and lead a military raid/operation"
+  framing) ✅; 700+ freed in a single overnight river operation ✅; Underground Railroad
+  decade, "never lost a passenger" (her own 1896 claim) ✅; ran a scout/spy network whose
+  intel mapped the Confederate river torpedoes ✅.
+- Gate: fact-check craft-critic — all claims ✅ except the one "armed assault" fix (applied).
+  Blind witness PASS — "wins by specificity instead of worship; 'never lost one' and 'mapped
+  the Confederate mines' reframed her as an operator, not a saint; both legends fuse in
+  'moved unseen and brought the unseen out behind her.'" Witness REVISE on the meta line:
+  "the whole book has been describing" announced a click the reader had already made →
+  trimmed to "This is the tracker, in the flesh —" (lands harder; trusts the reader).
