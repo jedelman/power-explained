@@ -36,7 +36,7 @@ scenes plug into The Orgone Accumulator (P-OA) and the told-not-shown belonging 
 
 JASON:
 
-During my wilderness intensive, song was a big part of culture-making. Songs had lineages, ways they were offered to the group and passed down. Many were the kinds of songs you would expect - campfire songs, folk songs, even protest songs from earlier environmental movements. Song is a powerful way to literally harmonize a group, and each song had a purpose. As a metalhead, I wasn't sure if my songs would be welcome. But over time, I found a place in our group for them, and I came to understand what they meant to me on a much deeper level. Over the year I offered acoustic renditions of Electric Wizard, Windhand, and Bathory. If you've never heard "Mother Earth, Father Thunder" as a sing-along - it's far more powerful than you might expect. And it offered to all of us a new way of seeing the dark, the grief and 
+During my wilderness intensive, song was a big part of culture-making. Songs had lineages, ways they were offered to the group and passed down. Many were the kinds of songs you would expect - campfire songs, folk songs, even protest songs from earlier environmental movements. Song is a powerful way to literally harmonize a group, and each song had a purpose. As a metalhead, I wasn't sure if my songs would be welcome. But over time, I found a place in our group for them, and I came to understand what they meant to me on a much deeper level. Over the year I offered acoustic renditions of Electric Wizard, Windhand, and Bathory. If you've never heard "Mother Earth, Father Thunder" as a sing-along - it's far more powerful than you might expect. And it offered to all of us a new way of seeing the dark, the grief and the pain that comes with the work. New paths to joy and strength were opened by these songs - not the songs themselves but us, collectively making a new home for them.
 
 
 ### M2 — The armor comes off in the room
@@ -45,6 +45,8 @@ During my wilderness intensive, song was a big part of culture-making. Songs had
 **Hits if:** it's bodily and specific (what your body actually did), and shows the *before* (the armor) and the *release*. **Misses if:** it's a feeling-report ("I felt safe").
 
 JASON:
+
+The 
 
 
 ### M3 — What a medicine actually *is*
@@ -148,5 +150,5 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDQzMzQxN119
+eyJoaXN0b3J5IjpbLTE1OTUyMTUzMTNdfQ==
 -->
