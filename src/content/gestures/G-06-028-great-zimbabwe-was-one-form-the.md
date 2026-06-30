@@ -20,7 +20,9 @@ notes: |-
   was on the continent before Europe arrived; Ostrom would later
   describe what was already there.
 plain: >
-  Palmares was one form. The continent it remembered held many more.
+  Palmares was one form. The continent it remembered held many more —
+  too many to name here, each ruling itself in its own way. A few, to
+  show the range.
 
   The Igbo live in what is now southeastern Nigeria. They ruled
   themselves for hundreds of years with no central state. They used
@@ -44,7 +46,7 @@ plain_meta:
   source: G-06-028
   status: draft
 ---
-Palmares was one form. The continent it remembered held many.
+Palmares was one form. The continent it remembered held many more — too many to name here, each governing itself in its own shape. A few, to show the range.
 
 The Igbo, in what is now southeastern Nigeria, governed themselves for centuries without a centralized state — village councils, age-grade societies, women's market authorities, dispute resolution distributed by design. The Akan polities of West Africa held land matrilineally, the wealth attaching to the lineage rather than the individual. The Kingdom of Kongo administered an extended polity through a layered council system that predated Portuguese contact in 1483 and outlived the early disruption by generations. The Mbuti of the Ituri forest lived by gift exchange and consensus. No chiefs. No enclosure. The refusal that protects the commoning.
 

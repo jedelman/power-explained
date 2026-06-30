@@ -74,7 +74,7 @@ In 1694, Portuguese colonial forces destroyed Palmares — a quilombo in northea
 
 Palmares is not a footnote to the Black radical tradition. It is a demonstration of what that tradition is: people classified as outside the human, building rigorous collective governance because their position forced clarity about what collective self-governance required.
 
-Palmares was one form. The continent it remembered held many.
+Palmares was one form. The continent it remembered held many more — too many to name here, each governing itself in its own shape. A few, to show the range.
 
 The Igbo, in what is now southeastern Nigeria, governed themselves for centuries without a centralized state — village councils, age-grade societies, women's market authorities, dispute resolution distributed by design. The Akan polities of West Africa held land matrilineally, the wealth attaching to the lineage rather than the individual. The Kingdom of Kongo administered an extended polity through a layered council system that predated Portuguese contact in 1483 and outlived the early disruption by generations. The Mbuti of the Ituri forest lived by gift exchange and consensus. No chiefs. No enclosure. The refusal that protects the commoning.
 
@@ -148,7 +148,7 @@ Robinson's book was kept out of print. Rodney was killed. The argument survived 
 
 I grew up in Richmond, Virginia. Not the Richmond of history — the Richmond of afterward, the city history had already happened to and moved on from. The people around me had given up on participating in it. History was something that was over. There were no more victories for anyone. The posture of the people I grew up around was the shrug — a physical vocabulary of diminished expectation, learned and then taught, generation to generation. The same shrug that appeared earlier in this chapter, in the meeting rooms and the city officials who ran out of language. Same gesture. It just starts earlier than you think — in the yanked arm, in the slap on the back of the head, in everything that teaches a child what is possible before the child has thought to ask.
 
-The shrug takes many forms. There's the passive kind — the turned shoulder, the eyes that don't quite meet yours when you're proposing something. There's the active kind — the people who punish the ones who don't shrug, especially children, especially when children refuse the diminishment. Yanked arms. Slaps on the back of the head. When people say the foundation of America is child abuse, I know what they're talking about. I've seen the learning happen in real time. The colony doesn't only live in the oppressed — it lives in the people who administer the shrug, who pass it down, who enforce it on those who won't perform it.
+The shrug takes many forms. There's the passive kind — the turned shoulder, the eyes that don't quite meet yours when you're proposing something. There's the active kind — the people who punish the ones who don't shrug, especially children, especially when children refuse the diminishment. Yanked arms. Slaps on the back of the head. I've seen the learning happen in real time — close enough to understand why someone would call the foundation of this country child abuse. The colony doesn't only live in the oppressed — it lives in the people who administer the shrug, who pass it down, who enforce it on those who won't perform it.
 
 ---
 

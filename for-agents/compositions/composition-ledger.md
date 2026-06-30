@@ -1387,3 +1387,18 @@ But that kind of power sits on an older base.").
   specifics — story-ifying needs verified detail or Jason's nod to trim/reframe; (2) The
   Smile G-05-014 concept-burst ("racial capitalism / necropolitics") still a mild wobble
   post-demotion, but concepts are cashed out next chapter — judged acceptable.
+
+## Move 5 · African-polities reframe + Fix 2 micro-fix · 2026-06-30 (Jason-directed)
+- **G-06-028 (African-polities catalog, The Colony):** witness skimmed it as "names as
+  inventory." Jason: light reframe (no fabrication). Added a framing beat — "too many to
+  name here, each governing itself in its own shape. A few, to show the range." — so the
+  four polities read as a deliberate sample, not a quiz. No new historical claims (true
+  statement that the examples are a partial set; the gesture's own notes say it names
+  broad patterns without fabricating specifics). Both editions.
+- **G-07-002 (the shrug, The Colony) — Fix 2 micro-fix:** witness flagged "When people say
+  the foundation of America is child abuse, I know what they're talking about" as
+  assuming a consensus the reader hasn't joined. Jason: micro-fix only (witness cleared
+  the broader guilt risk). Reframed to Jason's own conclusion from what he witnessed —
+  "I've seen the learning happen in real time — close enough to understand why someone
+  would call the foundation of this country child abuse." Invitation, not presumed
+  agreement. Both editions. No claim added; the assertion is now owned, not assumed.
