@@ -1,5 +1,24 @@
 # Move 5 — the audience pass (win the reader in for-agents/audience.md)
 
+## STATUS: COMPLETE (2026-06-30) — all five fixes shipped on PR #12, each gated.
+- **Fix 1 — Part III de-wall:** aggressive thinning (Jason: protect nothing). Demoted the
+  bare-citation pile-ups — Fanon/Robinson/Mbembe (The Smile, storied next chapter), CLR
+  James/Claudia Jones + Nyerere (The Colony), 3 Combahee founders + Foucault-callback +
+  Gilmore (No Name for It). Kept Tubman (recognizable, storied eponym; Jason: "killer scout
+  and tracker too"). Craft-critic + blind witness PASS ("overwhelmingly a welcome"). Commit 0ed5d3b.
+- **Foucault intro-order (witness-surfaced):** glossed biopower on contact in The Colony
+  (G-07-022) + de-duped the later gloss (G-07-028). Critic PASS. Commit 0b9bb71.
+- **Fix 3 — jargon:** witness found nothing goes cold; one de-jargon edit (the Centaur
+  sentence, G-16b-050). Commit 9793555.
+- **Fix 5 — naming shown not told:** NEW gesture G-IW-009a from Jason's old-growth scene
+  (feeling first, then the name). Critic "ship it" + re-witness "it earns it." Commit cfeae7d.
+- **Fix 4 — Part VI case trim:** cut Story County + Henry George (I Became the Land),
+  Ginzburg (Still Meeting), Alexander (The Owl); roll-calls trimmed. Critic: all 4 seams
+  PASS, two stronger. Commit 35a3f86.
+- **Open flag for Jason:** *Still Meeting* has no first-person beat at all — the one Part VI
+  chapter with no lived moment to skim toward (likely why it reads flattest). Fixing it
+  needs a lived moment only Jason can supply.
+
 Driven by a full-book blind read-through cast as the target reader (Hasan/Stancil/Mamdani
 span, anti-authoritarian, not theory-literate, "not normal"). **Verdict: the book works
 on this reader** — the protect-the-weird spine builds and lands, guilt is mostly handled,
