@@ -138,7 +138,7 @@ Four years. Stallman, Berners-Lee, Torvalds — working in different countries o
 
 What they built became the infrastructure of the digital world. None of them became billionaires. The people who built platforms on top of their gift did.
 
-The commons is not a noun, not a thing you finish and possess. The Törbel community didn't write their governance charter in 1483 and consider the matter resolved — five centuries of practice before anyone had named the design principles it was running on. They governed, actively, in perpetuity, by ongoing collective choice. The gift is never secured once and for all. The field must be held.
+The commons is not a noun, not a thing you finish and possess. The Törbel community — the Alpine commons Ostrom studied — didn't write their governance charter in 1483 and consider the matter resolved: five centuries of practice before anyone had named the design principles it was running on. They governed, actively, in perpetuity, by ongoing collective choice. The gift is never secured once and for all. The field must be held.
 
 This book exists because that is true.
 

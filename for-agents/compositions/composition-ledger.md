@@ -1306,3 +1306,30 @@ shamanism placements into one walk. Connections all Jason-endorsed (the placemen
 - Notes: witness bounced off two EXISTING beats (the "Gramsci called this common
   sense" citation as over-explaining; the brewery "went out of business" vindication
   note) — flagged to Jason, not edited in this commit.
+
+---
+
+## G-16-061 (even-that-part) · Enchantment Move 4 forward-ref gloss · shipped (PASS)
+- Composed: a one-line gloss identifying Törbel, which the book names 3× but never
+  introduces — "The Törbel community **— the Alpine commons Ostrom studied —** didn't
+  write their governance charter in 1483…" (em-dash→colon at "resolved:" to avoid a
+  dash pile-up).
+- Sources: VERIFIED fact — Törbel is the Alpine village (Valais, Switzerland) whose
+  1483 communal governance is the first case study in Ostrom's *Governing the Commons*
+  (supersummary.com/governing-the-commons; houseofswitzerland.org). Ostrom is already
+  established at the-cook (G-03-020 "Elinor Ostrom…") and nearby (G-18-035). The gloss
+  also sets up the existing "before anyone had named the design principles" = Ostrom.
+- Critique (fresh craft-critic, 2026-06-30): PASS — colon lands "five centuries" as a
+  verdict; no redundancy; reads as thought, not a bolt-on gloss.
+- Also tagged `place/torbel` + `person/ostrom` so the Tapestry/atlas sees it.
+
+## G-AB-025 (angel-faces) · Rolling Jubilee gloss · TRIED → REVERTED
+- Tried: appositive "the campaign that bought up strangers' debt and abolished it"
+  (sourced to G-13-003) to pre-introduce the Rolling Jubilee (named pos 18, established
+  pos 21).
+- Critique (fresh craft-critic, 2026-06-30): **REVERT** — G-AB-025 is `beauty_check:
+  passed` and a parallel triplet ("The arcade flashed up… The Rolling Jubilee flashed
+  up… The chip flashed up…"); the uniform bareness IS the cadence ("the arcade" and
+  "the chip" are also unglossed). The appositive makes the middle limb lopsided and
+  over-explains in a gesture arguing for legibility-on-need. The forward-ref is mild
+  (reader meets it in full 3 chapters later). Left bare; flagged to Jason.
