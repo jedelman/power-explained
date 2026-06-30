@@ -29,6 +29,7 @@ gestures:
   - G-15-026
   - G-15-027
   - G-15-028
+  - G-15-028a
   - G-15-029
 separators:
   - paragraph
@@ -50,6 +51,7 @@ separators:
   - paragraph
   - paragraph
   - paragraph
+  - section
   - section
   - paragraph
 ---

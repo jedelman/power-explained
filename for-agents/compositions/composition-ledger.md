@@ -1464,3 +1464,26 @@ manifests); roll-calls trimmed to match.
   Jacobs/Moses→"The community reconstitutes itself" thesis (stronger after cut).
 - Gate: craft-critic all four seams PASS; two arguably stronger; no load-bearing loss;
   no dangling references (book-wide grep clean); build green; tag-lint no new errors.
+
+## Move 5 · Still Meeting lived beat · 2026-06-30 · G-15-028a NEW
+Still Meeting was the only Part VI chapter with no first-person beat (the reader skims
+cases toward the lived payoff; this one gave none — witnessed as "flattest"). Jason
+supplied a true scene (his words, 2026-06-30): the Wednesday potluck before the restaurant
+— contribution by capacity (a dish, or watching kids / washing dishes), surplus (days of
+leftovers) cheaper than the market, the seed of the restaurant ("we should start a
+restaurant — little did we know") — then the corruption-of-the-commons demon, lived: the
+guest who came to extract (a handle of liquor, pitching his real estate brokerage) instead
+of contribute, and "the magic was gone."
+- **NEW gesture G-15-028a** ("Before we ran the restaurant"), placed between G-15-028 (the
+  commons "makes it visible — communities that intend to sustain themselves") and G-15-029
+  ("It only works if people care about each other. That is not a weakness. That is the
+  point."). Section break before, paragraph into 029 — so the potluck's life-and-death is
+  the lived proof the close reflects on. Manifest 22→23 gestures, 21→22 separators.
+  Source: Jason directive (lived material).
+- Gate: craft-critic PASS (provenance clean; shows both the commons and its enclosure with
+  zero gloss; the 028→scene→029 seam "the single biggest gain — 029 now has a corpse to
+  point at"). Blind witness PASS ("the one beat with a pulse… gives the chapter the lived
+  landing it was missing… earns the closing line that would otherwise be pure uplift").
+- Two spots both gates lightly flagged but said to KEEP (Jason's authentic details): "Little
+  did we know" (faint wink) and the real-estate-broker as the one who kills the commons
+  ("reads as remembered, not constructed — which is what saves it"). Left as-is.

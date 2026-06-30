@@ -78,6 +78,12 @@ That network is the care commons: the accumulated relational intelligence — wh
 
 The enclosure made care invisible — a private problem, a personal obligation, the natural duty of women who love. The commons makes it visible — shared, social, the organizing principle of communities that intend to sustain themselves.
 
+---
+
+Before we ran the restaurant, there was the Wednesday potluck. A group of us, every week. Everyone brought a dish and we dug in. There were always days of leftovers, and all of us together spent less than any one of us would have spent eating out alone. We used to joke that we should start a restaurant. Little did we know. And on the weeks someone couldn't cook, they brought what they had instead — they watched the kids, they washed the dishes. Everyone arrived with something. The table held for years.
+
+Then someone brought friends whose idea of a dish was a handle of liquor, and whose idea of conversation was pitching their real estate brokerage. That was all it took. The magic was gone.
+
 The work is local, intimate, and unglamorous. It doesn't scale to infinity or generate returns. It only works if people care about each other.
 
 That is not a weakness. That is the point.
