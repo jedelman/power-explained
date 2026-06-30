@@ -12,6 +12,7 @@ gestures:
   - G-EP-001
   - G-EP-004
   - G-EP-006
+  - G-EP-006a
   - G-EP-007
   - G-EP-008
   - G-EP-009
@@ -28,6 +29,7 @@ gestures:
 separators:
   - section
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

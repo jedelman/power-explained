@@ -16,7 +16,7 @@ This is the thing the book kept circling without quite landing on: the commons i
 
 ---
 
-Last winter, during a storm, I watched a tiny kinglet taking shelter in the tall grass of a managed meadow six blocks from our house. A kinglet is one of the smallest birds in North America — barely four inches, burning calories against the cold at a rate that requires almost constant feeding. This one was tucked into the grass, out of the wind, exactly where a meadow should be. The parks department management plan says to cut that meadow. They haven't cut it in two years. I walk past it every morning expecting the mowers. Every morning it's still there is a small triumph.
+Last winter, during a storm, I watched a tiny kinglet taking shelter in the tall grass of a managed meadow six blocks from our house. A kinglet is one of the smallest birds in North America — barely four inches, burning calories against the cold at a rate that requires almost constant feeding. This one was tucked into the grass, out of the wind, exactly where a meadow should be. It's the meadow I gave the parks department hell over two years ago — their plan called for mowing it, and they haven't cut it since. I walk past it every morning expecting the mowers. Every morning it's still there is a small triumph.
 
 The night herons will return to the willow oaks in a few weeks. Every spring, up from Central America, to raise their young in the same trees. We find the nests. We tell them we love them and wish them good luck. They hear us — they talk to each other about it, in ways we can only begin to understand. They know about the road too, in ways we can't imagine. They've been navigating it for years.
 
@@ -24,7 +24,9 @@ The night herons will return to the willow oaks in a few weeks. Every spring, up
 
 Six weeks after closing the restaurant and two burnouts in, I don't have faith in humanity. Not the sweeping kind — the kind that says *people will rise to meet the moment* and *the arc bends toward justice*. I've spent enough time in the rooms where things don't bend to say that plainly.
 
-What I have instead: faith in the wisdom traditions. Faith in the indigenous elders who are quietly saving their corners of the world, who never needed the theory of the commons because they were living it. Faith in the awareness practices that let you see the trickle when the catastrophe has trained you to expect the flood.
+The young man who was waiting for the clipboard I would not lift — that room did not bend. And still, the work is even for him, and for everyone still waiting for a clipboard that is never coming. I am not going to pick it up. But I will lure them into the woods if I can, and let the woods make the offer I never could.
+
+What I have instead: faith in the wisdom traditions. Faith in the indigenous elders who are quietly saving their corners of the world, who never needed the theory of the commons because they were living it. Faith in the cocinero in Ilocos, feeding his community while they rebuild what the storm took, the way someone has in that village for centuries — there will always be Filipinos out there feeding people. Faith in the awareness practices that let you see the trickle when the catastrophe has trained you to expect the flood.
 
 Enclosure arrives like a catastrophe — sudden, total, a betrayal. Recovery doesn't come back the same way. It comes as a trickle. The farmers market is back and not bad. There's a music gig next week. The open protocols still running underneath the platforms that tried to enclose them — doing things the enclosures can't, because they were built to give away. The Airbnb guests who sit at the kitchen table in the morning and don't want to leave. The meadow not cut. The muskrats last year, first time I'd seen them here. The black-and-white warbler that just arrived in the park down the street.
 

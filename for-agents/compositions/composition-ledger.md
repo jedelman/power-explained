@@ -1533,3 +1533,29 @@ off the meeting onto it.
   exactly where the prologue promised, image for image"; meeting reads as ordinary work; "Come
   find us" lands as the wound closing) + flagged the trailing over-explain ("that has been trying
   to tell us the whole time") → cut. Both gate fixes applied.
+
+## Move 6 · epilogue callbacks (reward attention) · 2026-06-30
+Jason: the epilogue should pay back recurring threads for attentive readers. Three woven:
+- **Meadow (G-EP-004):** the kinglet's meadow named as the SAME one from Ch 1 (G-01-017,
+  "I gave them hell"). "It's the meadow I gave the parks department hell over two years ago —
+  their plan called for mowing it, and they haven't cut it since." So "The meadow hasn't been
+  cut" (close) pays off the Ch-1 fight. Critic REVISE applied: cut the middle clause that
+  re-litigated the Ch-1 argument ("plan built to quiet complaints, not to serve the land") —
+  reward, don't re-explain. Witness: "I felt caught up with… 'The meadow hasn't been cut'
+  wrecked me a bit."
+- **Cook (G-EP-007, faith list):** "Faith in the cocinero in Ilocos, feeding his community
+  while they rebuild what the storm took, the way someone has in that village for centuries —
+  there will always be Filipinos out there feeding people." Source: G-03-043/006 (the zanjera
+  cocinero; the Filipino cook in Norfolk = Jason) + Jason directive. Witness caught both levels
+  (the cocinero AND Jason, who closed the restaurant). List holds at 4 (graded, not parallel —
+  ceiling; don't add a 5th).
+- **Young man (NEW G-EP-006a):** the Goetia young man ("waiting for the clipboard I would not
+  lift," "produced for an enclosure," G-GC-016/018) returns after G-EP-006 ("rooms where things
+  don't bend") — "that room did not bend." Jason directive: "this work is even for the ones
+  still waiting for that clipboard… I'll lure them into the woods if I can." Grief→hope; ties
+  the failed offer to the re-pointed wild-nature close ("the woods make the offer I never
+  could"). Critic: "the standout"; witness: "deepens the close rather than darkening it… the
+  truest version of hope this book could offer." Companion to Batch-B Goetia setup + WW echo.
+- Witness pre-existing nits (NOT these beats, flagged to Jason): the herons-and-doves-and-deer
+  roll-call (G-EP-011) at its over-naming ceiling; "this book is trying to be an awareness
+  practice" (G-EP-009) explains itself. Left for Jason.
