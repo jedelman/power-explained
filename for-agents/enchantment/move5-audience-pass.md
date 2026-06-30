@@ -15,9 +15,11 @@
 - **Fix 4 — Part VI case trim:** cut Story County + Henry George (I Became the Land),
   Ginzburg (Still Meeting), Alexander (The Owl); roll-calls trimmed. Critic: all 4 seams
   PASS, two stronger. Commit 35a3f86.
-- **Open flag for Jason:** *Still Meeting* has no first-person beat at all — the one Part VI
-  chapter with no lived moment to skim toward (likely why it reads flattest). Fixing it
-  needs a lived moment only Jason can supply.
+- **Still Meeting lived beat — RESOLVED (3065e36).** Was the one Part VI chapter with no
+  first-person moment (witnessed flattest). Jason supplied the Wednesday-potluck scene
+  (care commons + its corruption in one lived vignette); composed as G-15-028a before the
+  close. Critic + witness PASS ("the one beat with a pulse — the lived landing it was
+  missing"). Still Meeting now has its floor.
 
 Driven by a full-book blind read-through cast as the target reader (Hasan/Stancil/Mamdani
 span, anti-authoritarian, not theory-literate, "not normal"). **Verdict: the book works
