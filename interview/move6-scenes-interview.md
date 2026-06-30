@@ -46,7 +46,7 @@ During my wilderness intensive, song was a big part of culture-making. Songs had
 
 JASON:
 
-The first week of my wilderness intensive, we were camping out on the land, getting to know each other. By intention and form it's a pretty safe and welcoming space, and that inclusion means that people can choose how they engage and at what level. Some of us dove in and some of us hung back, in different ways for different activities, and that's all as it should be. One of us was particularly quiet, even though it was obvious to me that he was happy to be there - classic stoic mountain man, just enjoying the vibes. He was okay and I knew he was okay. But it seemed to me that he needed a hug. Not a conscious thought
+The first week of my wilderness intensive, we were camping out on the land, getting to know each other. By intention and form it's a pretty safe and welcoming space, and that inclusion means that people can choose how they engage and at what level. Some of us dove in and some of us hung back, in different ways for different activities, and that's all as it should be. One of us was particularly quiet, even though it was obvious to me that he was happy to be there - classic stoic mountain man, just enjoying the vibes. He was okay and I knew he was okay. But it seemed to me that he needed a hug. Not a conscious thought, just a feeling - so one morning when we were gathering for the day, I opened my arms and he came in for a bear hug. Just two guys happy to see each other. Weeks later, he told me that was the first time anyone had hugged him in years, and he didn't know how much he needed that. He had forgotten. And he had been surrounded by 
 
 
 ### M3 — What a medicine actually *is*
@@ -150,5 +150,5 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTAyMDUxMV19
+eyJoaXN0b3J5IjpbMTg3MTE5MDIxXX0=
 -->
