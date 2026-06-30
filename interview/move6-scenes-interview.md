@@ -56,6 +56,8 @@ The first week of my wilderness intensive, we were camping out on the land, gett
 
 JASON:
 
+It's extremely difficult to say what medicine is, much less what any person's medicine is. It's a living thing so it's hard to nail down. But just like tracking living things you can r
+
 
 ### M4 — Recognition across the fire
 **Target:** you knew, wordless and instant, that someone was your kind — or they knew it about you — across a dojo / fire / cushion / kitchen.
@@ -150,5 +152,5 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzUwMTE5M119
+eyJoaXN0b3J5IjpbMTU1OTUwNDcwMCwtOTkzNTAxMTkzXX0=
 -->
