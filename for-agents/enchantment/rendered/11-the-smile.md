@@ -40,7 +40,7 @@ The German Social Democrats found this irritating. She argued with them at lengt
 
 She was shot in the head by government-backed paramilitaries in January 1919. Her body was thrown into the Landwehr Canal. They found her on May 31.
 
-Her argument resurfaced in the second half of the twentieth century when economists studying development kept running into something the models couldn't explain: why do the regions most integrated into global markets keep staying poor? Countries exporting raw materials, manufacturing goods, receiving investment — and the wealth was flowing the wrong direction. Dependency theorists called it underdevelopment, structural adjustment, the resource curse. Fanon traced it in the colonized body. Robinson named it racial capitalism. Mbembe extended it into necropolitics. The mechanism is Luxemburg's. The outside is where the extraction happens. Integration doesn't close the gap. It is the gap.
+Her argument resurfaced in the second half of the twentieth century when economists studying development kept running into something the models couldn't explain: why do the regions most integrated into global markets keep staying poor? Countries exporting raw materials, manufacturing goods, receiving investment — and the wealth was flowing the wrong direction. Dependency theorists called it underdevelopment, structural adjustment, the resource curse. The same mechanism would later be traced in the colonized body, named racial capitalism, extended into necropolitics. The mechanism is Luxemburg's. The outside is where the extraction happens. Integration doesn't close the gap. It is the gap.
 
 ---
 

@@ -1333,3 +1333,34 @@ shamanism placements into one walk. Connections all Jason-endorsed (the placemen
   "the chip" are also unglossed). The appositive makes the middle limb lopsided and
   over-explains in a gesture arguing for legibility-on-need. The forward-ref is mild
   (reader meets it in full 3 chapters later). Left bare; flagged to Jason.
+
+## Move 5 · Part III roster de-wall (audience pass) · 2026-06-30 · 5 demotions
+Driven by the full-book persona read-through (audience: not theory-literate). Rule:
+"name + life + stakes carries; name + bare claim shuts out." Jason: aggressive,
+protect nothing. All five are DELETIONS/DEMOTIONS of bare secondary names — the
+claim/concept is preserved as plain prose; the fully-storied load-bearing thinkers
+are untouched. No new claims. Connective recombinations noted below.
+- **G-05-014 (The Smile):** dropped "Fanon traced it… Robinson named it… Mbembe
+  extended it…" → "The same mechanism would later be traced in the colonized body,
+  named racial capitalism, extended into necropolitics." Concepts kept; all three get
+  full scenes in the very next chapter (The Colony). Connective = recombination of the
+  three existing predicates.
+- **G-06-023 (The Colony):** "So was CLR James, who… So was Claudia Jones, who…" →
+  "So were the thinkers who read the Haitian Revolution as a class revolution…, who
+  named the triple oppression…" Both claims preserved verbatim; only the two proper
+  names removed. Du Bois kept (load-bearing). Fits the chapter's "lineage" motif
+  (the tradition is larger than its famous names).
+- **G-06-032 (The Colony):** "Julius Nyerere's *ujamaa*" → "the *ujamaa* program."
+  Concrete example kept; head-of-state proper name dropped.
+- **G-08-019a (No Name for It):** dropped "by Barbara Smith, Beverly Smith, and Demita
+  Frazier" (three bare founder names → the collective). Removed `person/smith-barbara`
+  tag. KEPT Harriet Tubman (recognizable storied eponym; the naming-lineage beat rhymes
+  with the chapter's theme) — flagged to Jason as a deliberate hold vs. literal scope.
+- **G-08-020 (No Name for It):** (a) "Mbembe was reading Davis, not only Foucault." →
+  "Mbembe was reading Davis." (bare Foucault tag cut; Mbembe callback kept — it does
+  real work). (b) "Ruth Wilson Gilmore's *Abolition Geography* (2022) traces…" → "There
+  is a name for this: *abolition geography* — trace…" (concept kept; bare author/title
+  drop demoted; Davis owns the abolition argument in-scene). Removed orphaned
+  `person/foucault` + `year/2022` tags.
+- Gate: craft-critic (fresh context) in flight; blind reader-witness to follow. Build
+  green; tag-lint clean on all five (14 pre-existing errors are in untouched files).

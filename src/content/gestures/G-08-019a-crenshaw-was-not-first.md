@@ -8,7 +8,6 @@ tags:
   - voice/jason
   - status/draft
   - person/combahee-river-collective
-  - person/smith-barbara
   - concept/intersectionality
   - concept/interlocking-oppressions
   - concept/deterritorialization
@@ -42,8 +41,7 @@ plain: >
   different way.
 
   They were a group of Black feminist lesbian socialist women. They started
-  in Boston in 1974. The founders were Barbara Smith, Beverly Smith, and
-  Demita Frazier. They named the group after Harriet Tubman's Combahee River
+  in Boston in 1974. They named the group after Harriet Tubman's Combahee River
   raid in 1863. The name itself carried their history. Their 1977 statement
   said it plainly: the big systems that hold people down are linked together.
   If Black women were free, then all the other systems would have to fall
@@ -59,6 +57,6 @@ plain_meta:
 ---
 Crenshaw was not first. The Combahee River Collective had named the same structure twelve years earlier, in a different register.
 
-A Black feminist lesbian socialist collective, founded in Boston in 1974 by Barbara Smith, Beverly Smith, and Demita Frazier — named for Harriet Tubman's Combahee River raid of 1863, the lineage carried in the naming itself. Their 1977 statement said it plainly: *the major systems of oppression are interlocking.* If Black women were free, the destruction of all the other systems of oppression would have to follow — because the freedom of those at the intersection of every excluded category cannot be partial.
+A Black feminist lesbian socialist collective, founded in Boston in 1974 — named for Harriet Tubman's Combahee River raid of 1863, the lineage carried in the naming itself. Their 1977 statement said it plainly: *the major systems of oppression are interlocking.* If Black women were free, the destruction of all the other systems of oppression would have to follow — because the freedom of those at the intersection of every excluded category cannot be partial.
 
 They were not arguing for a place in the existing categories. They were rupturing the categories so something else could be. The reading was collective. The wizard work was the practice itself — consciousness-raising circles, mutual aid, political education — before there was a theoretical name.

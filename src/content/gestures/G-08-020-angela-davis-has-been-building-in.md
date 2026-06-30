@@ -10,9 +10,7 @@ tags:
   - person/mbembe
   - concept/necropolitics
   - person/reagan
-  - person/foucault
   - person/wynter
-  - year/2022
   - concept/community
   - concept/the-outside
   - image/the-prison-cell
@@ -37,8 +35,8 @@ plain: >
   aside. These people are pushed out, and the prison makes that permanent. It
   runs them, and it pays for it. Davis made this point many years before
   Mbembe gave it the name necropolitics. Black radical thinkers got there
-  first. The European thinkers were still on their way. Mbembe read Davis,
-  not just Foucault. The path was already there. Here are the numbers. In
+  first. The European thinkers were still on their way. Mbembe read Davis.
+  The path was already there. Here are the numbers. In
   1971 about 200,000 people were in U.S. state and federal prisons. By 2008
   there were 2.3 million. That was the highest rate in the world. Clear
   choices made it happen. Laws forced long set sentences, and they were used
@@ -54,16 +52,15 @@ plain: >
   does not mean close every prison tomorrow. It means build a world that
   does not need them. Stable homes. Mental health care in the community. An
   economy people share in. Ways to repair harm that do not cut a person off
-  from others. Ruth Wilson Gilmore's book Abolition Geography, from 2022,
-  follows the chain of choices to pull money away from people. She says: change
-  the choice at every link. Move resources to where people live, and the
-  prison is no longer needed.
+  from others. There is a name for this: abolition geography. Follow the chain
+  of choices that pull money away from people, and change the choice at every
+  link. Move resources to where people live, and the prison is no longer needed.
 plain_meta:
   source: G-08-020
   status: draft
 ---
 Angela Davis has been building in exactly that direction longer than most people have been thinking about it.
 
-Her argument is structural: the prison is not a response to crime. It is an institution for managing the people capitalism has made surplus — the outside made permanent, administered, funded. Davis was making this argument decades before Mbembe named it necropolitics. The Black radical tradition had already arrived where the European theoretical tradition was still heading. Mbembe was reading Davis, not only Foucault. The lineage was already there: the wizard before the wizard's name. In 1971 there were roughly 200,000 people in U.S. state and federal prisons; by 2008 there were 2.3 million — the highest rate in the world, produced by traceable decisions: mandatory minimum laws applied with documented racial disparity, the defunding of public mental health care that moved people from hospitals to jails, the destruction of public housing that produced homelessness and then criminalized the homeless. Each decision followed the same logic — instead of addressing the material conditions producing surplus people, enclose them. The prison is cheaper than housing, cheaper than mental health care, cheaper than economic opportunity, if you don't count the people inside it as costs.
+Her argument is structural: the prison is not a response to crime. It is an institution for managing the people capitalism has made surplus — the outside made permanent, administered, funded. Davis was making this argument decades before Mbembe named it necropolitics. The Black radical tradition had already arrived where the European theoretical tradition was still heading. Mbembe was reading Davis. The lineage was already there: the wizard before the wizard's name. In 1971 there were roughly 200,000 people in U.S. state and federal prisons; by 2008 there were 2.3 million — the highest rate in the world, produced by traceable decisions: mandatory minimum laws applied with documented racial disparity, the defunding of public mental health care that moved people from hospitals to jails, the destruction of public housing that produced homelessness and then criminalized the homeless. Each decision followed the same logic — instead of addressing the material conditions producing surplus people, enclose them. The prison is cheaper than housing, cheaper than mental health care, cheaper than economic opportunity, if you don't count the people inside it as costs.
 
-Davis's political conclusion is also Wynter's and Crenshaw's, stated in material terms: abolition is not the demand to close prisons overnight. It is the demand to build the world that doesn't need them. Housing stability. Community mental health infrastructure. Economic democracy. Restorative justice processes that address harm without severing community bonds. Ruth Wilson Gilmore's *Abolition Geography* (2022) traces the chain of disinvestment decisions that produce incarcerable surplus people and argues for changing the investment decisions at every link: change the geographic organization of resources, and the prison becomes structurally unnecessary.
+Davis's political conclusion is also Wynter's and Crenshaw's, stated in material terms: abolition is not the demand to close prisons overnight. It is the demand to build the world that doesn't need them. Housing stability. Community mental health infrastructure. Economic democracy. Restorative justice processes that address harm without severing community bonds. There is a name for this: *abolition geography* — trace the chain of disinvestment decisions that produces incarcerable surplus people, and change the investment decisions at every link. Change the geographic organization of resources, and the prison becomes structurally unnecessary.

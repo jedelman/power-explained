@@ -24,13 +24,13 @@ plain: >
   them. But the wealth flows the wrong way, out of them.
 
   Some thinkers called this underdevelopment. Some called it structural
-  adjustment. Some called it the resource curse. Fanon saw it in the bodies
-  of colonized people. Robinson called it racial capitalism. Mbembe took it
-  further and called it necropolitics. The way it works is Luxemburg's idea.
-  The outside is where the taking happens. Joining the world market does not
-  close the gap between rich and poor. It is the gap.
+  adjustment. Some called it the resource curse. The same pattern would show
+  up later in the bodies of colonized people, in what came to be called
+  racial capitalism, in what came to be called necropolitics. The way it
+  works is Luxemburg's idea. The outside is where the taking happens. Joining
+  the world market does not close the gap between rich and poor. It is the gap.
 plain_meta:
   source: G-05-014
   status: draft
 ---
-Her argument resurfaced in the second half of the twentieth century when economists studying development kept running into something the models couldn't explain: why do the regions most integrated into global markets keep staying poor? Countries exporting raw materials, manufacturing goods, receiving investment — and the wealth was flowing the wrong direction. Dependency theorists called it underdevelopment, structural adjustment, the resource curse. Fanon traced it in the colonized body. Robinson named it racial capitalism. Mbembe extended it into necropolitics. The mechanism is Luxemburg's. The outside is where the extraction happens. Integration doesn't close the gap. It is the gap.
+Her argument resurfaced in the second half of the twentieth century when economists studying development kept running into something the models couldn't explain: why do the regions most integrated into global markets keep staying poor? Countries exporting raw materials, manufacturing goods, receiving investment — and the wealth was flowing the wrong direction. Dependency theorists called it underdevelopment, structural adjustment, the resource curse. The same mechanism would later be traced in the colonized body, named racial capitalism, extended into necropolitics. The mechanism is Luxemburg's. The outside is where the extraction happens. Integration doesn't close the gap. It is the gap.
