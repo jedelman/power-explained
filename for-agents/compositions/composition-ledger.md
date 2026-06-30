@@ -1364,3 +1364,26 @@ are untouched. No new claims. Connective recombinations noted below.
   `person/foucault` + `year/2022` tags.
 - Gate: craft-critic (fresh context) in flight; blind reader-witness to follow. Build
   green; tag-lint clean on all five (14 pre-existing errors are in untouched files).
+
+## Move 5 · Foucault intro-order fix (audience pass, witness-driven) · 2026-06-30
+Blind reader-witness (persona) flagged the single clearest shut-out across Part III:
+The Colony's "The question Foucault couldn't ask…" asserts the biopower contrast
+BEFORE biopower is explained (full gloss arrived later, G-07-028). Fix = relocate a
+compact gloss to first-contact, de-dup the later one. LITERARY edition only — the
+plain edition already glossed on contact ("Foucault described how power manages life.
+But that kind of power sits on an older base.").
+- **G-07-022 (rich body):** added at first contact — "Foucault had described how modern
+  power rules less by killing than by managing life — regulating bodies, administering
+  whole populations. What he never examined was the prior foundation that apparatus is
+  built on." Source = recombined verbatim from G-07-028's existing gloss (relocation,
+  no new claim).
+- **G-07-028 (rich body):** trimmed the now-duplicate opening to a callback — "That
+  apparatus — the management of life Foucault described, real and important as it was —
+  he developed almost entirely through the European experience." Question-contrast and
+  Necropolitics payoff (G-07-030) untouched.
+- Gate: craft-critic in flight. Build green; render clean (gloss appears once).
+- Residual witness flags (NOT fixed — routed to Jason): (1) African-polities catalog
+  G-06-028 reads as "names as inventory," but the gesture deliberately avoids fabricated
+  specifics — story-ifying needs verified detail or Jason's nod to trim/reframe; (2) The
+  Smile G-05-014 concept-burst ("racial capitalism / necropolitics") still a mild wobble
+  post-demotion, but concepts are cashed out next chapter — judged acceptable.
