@@ -30,12 +30,6 @@ Two hundred and sixty-three community land trusts operate in the United States t
 
 ---
 
-The same governance choice applies to agriculture. In Story County, Iowa, a farmland trust holds land at permanently affordable prices for beginning farmers who could not compete with investment funds — which had been buying farmland in the region faster than individual farmers could. A beginning farmer works sixty trust acres growing vegetables for a CSA and farmers market at rates that make farming financially viable. What he builds there — the knowledge of those specific soils, the seasonal patterns, the farming relationships — is his. The land is a commons.
-
-Forty percent of American farmland will change hands in the next two decades as aging farmers retire. Most of it will be bought by investment funds and consolidated into industrial agriculture. Farmland trusts are the institutional mechanism for passing that land to the next generation of farmers — holding land permanently in agricultural use, preserving both the ecological capacity of specific soils and the farming knowledge embedded in the communities that have worked them.
-
----
-
 What the economist and the land trust director and the policy analyst cannot quite say is this: the enclosure of land doesn't only take a resource. It severs a mode of consciousness.
 
 E. Richard Sorenson spent decades in contact with preconquest peoples across New Guinea, Micronesia, the Andaman Sea, and South America, and documented something that defies easy summary in the language of Western social science. In communities that had not been enclosed — that still operated on open territory, without private property, without the cognitive apparatus of boundaries and ownership — sense of space itself was different. People navigated by *affect*, not by coordinates. A place had meaning through emotional relationship to it — the excitement of good hunting, the comfort of a particular clearing, the pleasure of a stream. Boundaries were hazy, overlapping, felt rather than drawn. Names for places were improvised, multiple, shared differently by different people. There was no single map. There was a living, distributed, relational intelligence woven between people and land over generations.
@@ -55,14 +49,6 @@ I've studied with students of the ecopsychologist Bill Plotkin, who has spent de
 What I know is this: the capacity for this relationship is still in us. It has not been destroyed, only suppressed. It reasserts itself — in the stalker's gait, in the moment you stop and listen to what the forest is saying, in the grief that rises when a place you love is paved over. That grief is not sentiment. It is information. It is the consciousness Sorenson documented, still alive in us, recognizing a loss that the language of property and market price cannot name.
 
 When Graeber observed in *Debt* that the idea of owing the earth repayment is absurd — that the earth gave everything, that framing our relationship to the living world in terms of debt and repayment just extends the enclosure logic into nature itself — he was touching this same truth from a different angle. The earth is not a creditor. It is not even a commons in the usual sense. It is the condition of possibility for everything the commons produces. The relationship that preconquest peoples maintained with land was not governance in our sense. It was kinship.
-
----
-
-The economist Henry George saw the mechanism in 1879 and proposed a precise response: tax the value of land itself — not buildings, not improvements, not the labor of people who developed the land — but the value created by the surrounding community's investment. Every hospital built with public funds increases the value of the private land adjacent to it. Every school, every transit line, every neighborhood improvement creates value for adjacent landholders who did nothing to create it. George's argument: that value belongs to the community that created it.
-
-A land value tax is the only tax that cannot be passed on to anyone else, because land cannot be moved or hidden and its value is created by others. His analysis has never been refuted. Most jurisdictions haven't implemented it, because the people with political power are overwhelmingly the people who own land.
-
-The community land trust doesn't wait for the tax. It removes land from the speculation market directly — buying it, holding it in trust, governing it for the community's long-term benefit. George's analysis made into an institution that doesn't require political permission to function.
 
 ---
 
@@ -90,7 +76,7 @@ The institutions built on the displaced community are now the anchor institution
 
 A woman who grew up in the neighborhood that replaced Atlantic City's residents said it plainly in Chapter 2: they're saying it's for us, but really they're just sprinkling us in there to make us feel welcome. She knew the structure before this chapter existed. She was describing the completion of a process she was living inside — the enclosure made visible to the people it enclosed, decades before any analyst named it.
 
-The Champlain trust. The Kayapó territory. The Story County farmland. The Forest Rights Act. Standing Rock. Weelaunee. The season I spent becoming the land for a community learning to remember. These are the same foundational recognition in different conditions: that land is not a commodity, that the relationship between consciousness and place is not a luxury but a necessity, that the governance structures we build either honor that relationship or destroy it.
+The Champlain trust. The Kayapó territory. The Forest Rights Act. Standing Rock. Weelaunee. The season I spent becoming the land for a community learning to remember. These are the same foundational recognition in different conditions: that land is not a commodity, that the relationship between consciousness and place is not a luxury but a necessity, that the governance structures we build either honor that relationship or destroy it.
 
 To some, land is an asset. A balance sheet entry. A speculation vehicle. To others, land is life itself. The ground under your feet is not raw material. It is the oldest commons, the one the whole of the rest of this book depends on, the one we have been enclosed from longest, the one we most need to find our way back to.
 

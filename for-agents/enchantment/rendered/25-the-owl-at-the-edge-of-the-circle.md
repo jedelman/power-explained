@@ -100,17 +100,11 @@ Jacobs defended Greenwich Village against Robert Moses — first the 1958 plan t
 
 What Moses built instead — the housing projects organized for legibility and management, the streets designed for cars rather than ballet — produced different people. Not worse people. People shaped by different conditions. People who had fewer occasions to practice the form of attending. People who, when the return came, had no practiced form to receive it with.
 
-Christopher Alexander spent his career trying to understand what Jacobs had seen and generalize it into something buildable. His *Pattern Language* identified 253 recurring patterns in human environments — each one a solution to a problem in how people actually live together, encoded from centuries of accumulated wisdom. Not rules. Living patterns: forms that, when present, tend to support human flourishing, and whose absence tends to suppress it.
-
-The pattern language is a commons. Nobody designed it. It emerged from millions of people across centuries building places that worked, or didn't, and whose bodies registered the difference. It is available to anyone. Like language itself, it belongs to no one and everyone. And, unlike a patent, it cannot survive displacement, because it is specific to the place.
-
-Alexander's deeper claim: living environments have an objective quality — not merely an aesthetic one — that either supports or suppresses the wholeness of the people who inhabit them. The quality is the same one found in living organisms, in the patterns of a flourishing forest. It is the same quality the speaking circle was generating, and the owl recognized.
-
 ---
 
 The community reconstitutes itself through the singular journeys of its members. Initiation is the mechanism. The return is the hinge.
 
-Every practice described in this chapter — the speaking circle, the tracking walk, the grief ritual, the annual roof repair, the sidewalk ballet, the pattern language — is a form of the same thing: the community practicing the capacity to receive the return. Ritual cast for commons: the form repeated until the form holds. To attend to what arrives from the underworld. To recognize the gift, name it, give it a home in the weave of what is being built together.
+Every practice described in this chapter — the speaking circle, the tracking walk, the grief ritual, the annual roof repair, the sidewalk ballet — is a form of the same thing: the community practicing the capacity to receive the return. Ritual cast for commons: the form repeated until the form holds. To attend to what arrives from the underworld. To recognize the gift, name it, give it a home in the weave of what is being built together.
 
 This is what Hardt and Negri mean by the collective production of subjectivity. The community doesn't just provide a context for individuals. It produces, through its practices and occasions and forms, the kinds of selves that are possible within it. A community that practices the form of attending produces people who can attend. A community that has replaced the roof with metal, the street with a project, the speaking circle with a scroll — produces people shaped by absence. Not bad people. People without the occasion to develop the capacity.
 

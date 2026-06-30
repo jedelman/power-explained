@@ -1441,3 +1441,26 @@ present."
   strong, seam improved both directions). Blind persona re-witness: "It earns it" —
   watched naming change people before being told it matters; lexicon gut-drop
   ("shoulders drop, oh in the gut") now reads as a callback to this scene.
+
+## Move 5 · Fix 4 (trim Part VI case rhythm) · 2026-06-30 · 11 gestures retired (deletion-only)
+By Part VI the reader has internalized the pattern (thinker → commons example → parallel)
+and skims cases to reach the personal beats. Jason approved cutting the most-redundant
+case per chapter (each restated an immediately adjacent case) + Henry George. Pure
+deletions — no new prose. Cut gesture files remain on disk (no longer in chapter
+manifests); roll-calls trimmed to match.
+- **I Became the Land:** cut the Story County farmland-trust case (G-14-011, G-14-012 —
+  repeats Champlain's housing-trust move in agriculture); cut the Henry George / LVT block
+  (G-14-023, G-14-024, G-14-025 — tax digression after the emotional peak; its CLT-callback
+  already earned by Champlain). Roll-call G-14-036: dropped "The Story County farmland."
+  Seams: Champlain→"What the economist… cannot quite say" (clean); Graeber "It was
+  kinship"→Indigenous "22 percent" (stronger after cut). Sections 6→4 (collapsed brackets).
+- **Still Meeting:** cut Carlo Ginzburg / benandanti (G-15-008a — restated Federici's
+  rename-folk-knowledge point). Seam: Federici "Divination…"→"Not a centralized
+  conspiracy…" (clean); "enclosed knower" survives in "women who hold knowledge that
+  makes communities self-sufficient."
+- **The Owl:** cut Christopher Alexander / A Pattern Language (G-17-045, G-17-046,
+  G-17-047 — the abstraction of the Jacobs case that already landed). Roll-call G-17-049:
+  dropped "the pattern language" (6→5 items, all now concrete practices). Seam:
+  Jacobs/Moses→"The community reconstitutes itself" thesis (stronger after cut).
+- Gate: craft-critic all four seams PASS; two arguably stronger; no load-bearing loss;
+  no dangling references (book-wide grep clean); build green; tag-lint no new errors.
