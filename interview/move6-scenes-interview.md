@@ -37,6 +37,8 @@ scenes plug into The Orgone Accumulator (P-OA) and the told-not-shown belonging 
 JASON:
 
 
+
+
 ### M2 — The armor comes off in the room
 **Target:** being held — singing/moving/sitting/laughing together — physically loosened the armor (the held jaw, the raised shoulder, the breath that won't go all the way down). The body knew before the mind.
 **Lands at:** a second woods scene right after "what is your medicine?" (G-OA-007b → G-OA-007c) — 007b carries the whole woods-community load alone right now.
@@ -145,3 +147,6 @@ JASON:
 ## When you've written some
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk5MjU5NzY4N119
+-->
