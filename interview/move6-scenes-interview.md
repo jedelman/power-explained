@@ -56,7 +56,7 @@ The first week of my wilderness intensive, we were camping out on the land, gett
 
 JASON:
 
-It's extremely difficult to say what medicine is, much less what any person's medicine is. It's a living thing so it's hard to nail down. But just like tracking living things you can r
+It's extremely difficult to say what medicine is, much less what any person's medicine is. It's a living thing so it's hard to nail down, and if you try to hard to cage it it starts to die. But just like living things you can recognize medicine by its tracks. One 
 
 
 ### M4 — Recognition across the fire
@@ -152,5 +152,5 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTUwNDcwMCwtOTkzNTAxMTkzXX0=
+eyJoaXN0b3J5IjpbLTE3Mzk2NDM3OTUsLTk5MzUwMTE5M119
 -->
