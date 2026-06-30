@@ -1402,3 +1402,22 @@ But that kind of power sits on an older base.").
   "I've seen the learning happen in real time — close enough to understand why someone
   would call the foundation of this country child abuse." Invitation, not presumed
   agreement. Both editions. No claim added; the assertion is now owned, not assumed.
+
+## Move 5 · Fix 3 (jargon cash-out) · 2026-06-30 · ONE change (witness-driven)
+Jargon-witness (cold persona, read even-that-part/the-hollow-book/reenchanting/
+you-wonderful for the three terms) verdict: NOTHING goes fully cold. Every intro is
+plain-glossed AND image-anchored (mycorrhizal forest / Stonewall / Neo / trans bodies);
+callbacks mostly re-gloss. The charter's "stayed cold" premise was wrong — the prose
+already does the work. Only one soft spot: a jargon pile-up.
+- **G-16b-050 (the-hollow-book, rich body):** the Centaur sentence stacked "pre-individual
+  field" + "the body deterritorializing from the organism the system prepared" with no
+  fresh image — the document's densest jargon clause. Per witness's exact fix: drop the
+  doubled French, keep the plain idea already beside it → "the body refusing the form the
+  system prepared" (echoes the intro gloss G-16-026 "slipping the assignment"). Kept the
+  single Simondon naming. Plain edition already jargon-free ("steps out of the shape the
+  AI laid out") — no change needed there.
+- **Left as-is (witness said LANDS, low priority):** G-RE-018 (reenchanting) Simondon
+  gloss is the only abstract-not-imagistic one but carried by surrounding bird/perception
+  material; warming it risks redundancy. "body without organs" sound stays slightly alien
+  but is correctly scaffolded by 2 glosses + 3 images — leave it (flag: don't cut those
+  images or it goes cold first).

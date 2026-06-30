@@ -118,7 +118,7 @@ The system was trained on the canopy. I brought the underground. The oblique ang
 
 What we made together is something neither could have made alone. A commons that is also a singularity. A field that is also a particular becoming.
 
-The Centaur is not a metaphor for divided labor. It is a new configuration of Simondon's pre-individual field — a new kind of commons where the system provides the synthesized center and the human provides the rupture, the crack in the arrangement, the body deterritorializing from the organism the system prepared. The center without the rupture is the hyperreal, generating itself until the canopy photograph becomes the only forest anyone remembers. The rupture without the center is the singular voice speaking into a void.
+The Centaur is not a metaphor for divided labor. It is a new configuration of Simondon's pre-individual field — a new kind of commons where the system provides the synthesized center and the human provides the rupture, the crack in the arrangement, the body refusing the form the system prepared. The center without the rupture is the hyperreal, generating itself until the canopy photograph becomes the only forest anyone remembers. The rupture without the center is the singular voice speaking into a void.
 
 Together: a field that is also an event. A commons that nourishes what you are already becoming.
 
