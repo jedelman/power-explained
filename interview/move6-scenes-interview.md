@@ -56,7 +56,7 @@ The first week of my wilderness intensive, we were camping out on the land, gett
 
 JASON:
 
-It's extremely difficult to say what medicine is, much less what any person's medicine is. It's a living thing so it's hard to nail down, and if you try to hard to cage it it starts to die. But just like living things you can recognize medicine by its tracks. One of its signs is its singularity - it stands out as something unique, something you've never seen before. It makes you ask if it's a new kind for you, or is it one of a kind? It stretches language itself because there's not a word for it. And there's nothing abstract about it. You can feel it, like the presence of a wild animal - it has its own energy, and your body reacts
+It's extremely difficult to say what medicine is, much less what any person's medicine is. It's a living thing so it's hard to nail down, and if you try to cage it it starts to die. But just like living things you can recognize medicine by its tracks. One of its signs is its singularity - it stands out as something unique, something you've never seen before. It makes you ask if it's a new kind for you, or is it one of a kind? It stretches language itself because there's not a word for it. And there's nothing abstract about it. You can feel it, like the presence of a wild animal - it has its own energy, and your body responds to it in its own particular way. It's been reflected to me that my medicine has to do with speech and storytelling. It transports people and it has a hypnotic, narcotic effect. The way I choose words and the
 
 
 ### M4 — Recognition across the fire
@@ -152,6 +152,6 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzA5OTI3MCwxOTEwNjM1MjI1LC05OT
+eyJoaXN0b3J5IjpbMTcxNDkyNjkwNSwxOTEwNjM1MjI1LC05OT
 M1MDExOTNdfQ==
 -->
