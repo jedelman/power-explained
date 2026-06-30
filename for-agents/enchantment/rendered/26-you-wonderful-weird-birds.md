@@ -94,7 +94,7 @@ The herd of centaurs — each one carrying what the underworld gave them, each o
 
 The governance meeting at seven-fifteen. The eleven people. The unread agenda. The conflict that's been running for six months.
 
-This is where the earth flowers.
+This too is the work. You tend the ground here, and the earth flowers wherever she can.
 
 You wonderful weird birds.
 

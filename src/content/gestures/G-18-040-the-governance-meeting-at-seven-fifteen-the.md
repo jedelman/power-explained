@@ -20,11 +20,12 @@ plain: >
   The group meeting at seven-fifteen. The eleven people. The
   agenda no one read. The fight that has gone on for six months.
 
-  This is where the earth flowers.
+  This too is the work. You tend the ground here, and the earth
+  flowers wherever she can.
 plain_meta:
   source: G-18-040
   status: draft
 ---
 The governance meeting at seven-fifteen. The eleven people. The unread agenda. The conflict that's been running for six months.
 
-This is where the earth flowers.
+This too is the work. You tend the ground here, and the earth flowers wherever she can.

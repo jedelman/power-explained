@@ -1509,3 +1509,27 @@ Part II, before this Part III chapter). Added person/tubman, motif/the-tracker, 
   'moved unseen and brought the unseen out behind her.'" Witness REVISE on the meta line:
   "the whole book has been describing" announced a click the reader had already made →
   trimmed to "This is the tracker, in the flesh —" (lands harder; trusts the reader).
+
+## Move 6 · Batch A — destination re-point (meeting → wild nature) · 2026-06-30
+Jason's directive: "the book ends up where every wizard does, eventually: face to face with
+wild nature, receiving wisdom"; "earth flowers" RETIRED ("the Earth flowers wherever She can").
+The book already enacted the wild-nature close (Doves epilogue); moved the STATED destination
+off the meeting onto it.
+- **G-PR-031 (intro promise):** "…a room at seven-fifteen… That's where the earth flowers." →
+  "…it ends the way the wizard's road always ends: face to face with the living world. On the
+  ground beside the doves. The herons back in the willow oaks, who know things about this place
+  we are still learning to understand." Dropped motif/flowering tag, added image/night-herons +
+  image/the-doves. Imagery recombined from G-EP-001/011 + prologue herons.
+- **G-18-040 (Ch-18 meeting):** "This is where the earth flowers." → "This too is the work. You
+  tend the ground here, and the earth flowers wherever she can." (demoted to one ordinary site;
+  "earth flowers" survives only in its distributed form, per Jason).
+- **G-EP-015a (NEW, epilogue):** the stated destination, between G-EP-015 ("For now, that's
+  enough.") and the final triad. Final wording after gate: "The wizard's road ends here, the way
+  it always does — on the ground, the body finally quiet enough that the wild comes close. Face
+  to face with the life that was here first, that knows what we are still learning to understand."
+- Gate: craft-critic PASS on Edits 1 & 2; REVISE on Edit 3 (the grand "This is where the wizard's
+  road was always going" over-declared on the humble "For now, that's enough" — took critic's
+  Option B: quiet recognition "ends here, the way it always does"). Blind witness PASS ("ends
+  exactly where the prologue promised, image for image"; meeting reads as ordinary work; "Come
+  find us" lands as the wound closing) + flagged the trailing over-explain ("that has been trying
+  to tell us the whole time") → cut. Both gate fixes applied.

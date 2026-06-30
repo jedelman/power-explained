@@ -46,6 +46,8 @@ The commons is not a project to be completed. It is a practice to be continued. 
 
 I'm helping out where I can. For now, that's enough.
 
+The wizard's road ends here, the way it always does — on the ground, the body finally quiet enough that the wild comes close. Face to face with the life that was here first, that knows what we are still learning to understand.
+
 The doves are still on the ground. The herons are back. The meadow hasn't been cut.
 
 *Go find the nests. Tell them you love them. They're listening.*
