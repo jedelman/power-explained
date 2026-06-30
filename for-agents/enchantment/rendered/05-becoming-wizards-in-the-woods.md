@@ -26,6 +26,10 @@ That's the whole thing. That's what the work is actually for.
 
 The educators who do this work understand something that most policy advocates don't: that you can't protect what people can't imagine losing, and you can't imagine losing what you've never met. The intellectual argument for old-growth preservation is overwhelming. It hasn't been sufficient. The emotional and bodily argument — standing in the presence of a tree that was already old when your country was founded, breathing the air that the canopy produces — is different in kind, not degree.
 
+Before any of the naming, there was this. We would take friends who knew the words *old-growth forest* but had never stood inside one — friends accustomed to logged forest, which was all most of them had ever walked — and hike them from the cut land into the old. I watched their faces change. The breathing slow. The pace drop without their deciding it. Eventually they would stop, and ask — not always in these words — *why is this different? What am I feeling?*
+
+Only then would I give them the name. *This is what old-growth means.* You could watch it land: the word falling into the place the feeling had already opened. That illumination is unmistakable, and it is irreplaceable. The name has no power without the feeling beneath it. The body first, then the word. Reverse the order and you have only what the world already handed them — a name for a thing they had never met.
+
 I won't give you their names. They work on margins, and margins are vulnerable.
 
 ---

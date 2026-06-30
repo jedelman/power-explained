@@ -1421,3 +1421,23 @@ already does the work. Only one soft spot: a jargon pile-up.
   material; warming it risks redundancy. "body without organs" sound stays slightly alien
   but is correctly scaffolded by 2 glosses + 3 images — leave it (flag: don't cut those
   images or it goes cold first).
+
+## Move 5 · Fix 5 (naming shown, not told) · 2026-06-30 · G-IW-009a NEW
+Becoming Wizards asserted naming as "the first move of any casting" but never SHOWED
+it — the deer story proves the opposite (wordless body-knowing). Witness flagged it as
+the chapter's one unearned claim. Jason supplied a true fieldwork scene (his words,
+2026-06-30): friends who knew the term "old-growth forest" but had never stood in one,
+hiked from logged forest into old growth; faces/breathing/pace change; they stop and
+ask "why is this different? what am I feeling?"; only then the name — illumination
+unmistakable, irreplaceable. Principle: "the naming only has power if the feeling is
+present."
+- **NEW gesture G-IW-009a** ("Before any of the naming"), inserted between G-IW-009
+  (the felt argument is "different in kind") and G-IW-010 (the protection note), before
+  the lexicon block. Source: Jason directive (lived material). SHOWS naming working +
+  the precondition ("the name has no power without the feeling beneath it. The body
+  first, then the word."). Manifest: gestures 29→30, separators 28→29 (added one
+  paragraph in the deer-movement run; section break stays at 010→028).
+- Gate: craft-critic PASS ("ship it" — provenance clean, shows-not-tells, cadence
+  strong, seam improved both directions). Blind persona re-witness: "It earns it" —
+  watched naming change people before being told it matters; lexicon gut-drop
+  ("shoulders drop, oh in the gut") now reads as a callback to this scene.

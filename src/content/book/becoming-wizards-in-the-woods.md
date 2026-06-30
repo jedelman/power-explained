@@ -18,6 +18,7 @@ gestures:
   - G-IW-006
   - G-IW-007
   - G-IW-009
+  - G-IW-009a
   - G-IW-010
   - G-IW-028
   - G-IW-022
@@ -40,6 +41,7 @@ gestures:
   - G-IW-030
   - G-IW-031
 separators:
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
