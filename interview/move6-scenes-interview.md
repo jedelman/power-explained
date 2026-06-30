@@ -46,7 +46,7 @@ During my wilderness intensive, song was a big part of culture-making. Songs had
 
 JASON:
 
-The first week of my wilderness intensive, we were camping out on the land, getting to know each other. By intention and form it's a pretty safe and welcoming space, and that inclusion means that people can choose how they engage and at what level. Some of us dove in and some of us hung back, in different ways for different activities, and that's all as it should be. One of us was particularly quiet, even though it was obvious to me that he was happy to be there - classic stoic mountain man, just enjoying the vibes. Arms crossed, chin down, a half smile instead of a full grin. I grew up around lots of guys like him - he was okay and I knew he was okay. But it seemed to me that he needed a hug. Not a conscious thought, just a feeling - so one morning when we were gathering for the day, I opened my arms and he came in for a bear hug. Just two guys happy to see each other. After that, he seemed a little lighter - hands in pockets instead of crossed arms, head a little higher, and Weeks later, he told me that was the first time anyone had hugged him in years, and he didn't know how much he needed that. He had forgotten. And he had been surrounded by people casually hugging! 
+The first week of my wilderness intensive, we were camping out on the land, getting to know each other. By intention and form it's a pretty safe and welcoming space, and that inclusion means that people can choose how they engage and at what level. Some of us dove in and some of us hung back, in different ways for different activities, and that's all as it should be. One of us was particularly quiet, even though it was obvious to me that he was happy to be there - classic stoic mountain man, just enjoying the vibes. Arms crossed, chin down, a half smile. I grew up around lots of guys like him - he was okay and I knew he was okay. But it seemed to me that he needed a hug. Not a conscious thought, just a feeling - so one morning when we were gathering for the day, I opened my arms and he came in for a bear hug. Just two guys happy to see each other. After that, he seemed a little lighter - hands in pockets instead of crossed arms, head a little higher, and a full grin every so often. Weeks later, he told me that was the first time anyone had hugged him in years, and he didn't know how much he needed that. He had forgotten. And he had been surrounded by people casually hugging! I didn't realize it meant that much to him because it was happening to all of us. That breakthrough was happening in small ways all the time. But it stuck with me that he remembered and shared it with me. 
 
 
 ### M3 — What a medicine actually *is*
@@ -150,5 +150,5 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwMTg2NjcyXX0=
+eyJoaXN0b3J5IjpbLTk5MzUwMTE5M119
 -->
