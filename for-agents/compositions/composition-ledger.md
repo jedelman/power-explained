@@ -1559,3 +1559,28 @@ Jason: the epilogue should pay back recurring threads for attentive readers. Thr
 - Witness pre-existing nits (NOT these beats, flagged to Jason): the herons-and-doves-and-deer
   roll-call (G-EP-011) at its over-naming ceiling; "this book is trying to be an awareness
   practice" (G-EP-009) explains itself. Left for Jason.
+
+## Move 6 · medicine scenes (Jason's wilderness intensive) · 2026-06-30 · G-OA-007a, G-OA-007d
+Jason wrote two true scenes (StackEdit), Claude tightened to P-OA register + placed each to
+concretize the abstract beat before it. Both voice/jason lived testimony.
+- **G-OA-007a (bear hug, M2 "armor comes off"):** after G-OA-007 ("safe enough to set the
+  holding down"). The stoic man's crossed arms → hands in pockets, chin up, grin; weeks later
+  "the first time anyone had hugged him in years… he had forgotten he could"; "happening to
+  all of us… which is exactly why I almost missed it landing on him." Shows what 007 states;
+  the crossed-arms-over-the-chest rhymes forward to 007c "The chest has been held."
+- **G-OA-007d (metal songs, M1 bullseye "they sang me toward my gift"):** after G-OA-007b
+  ("you have to sing them there / what is your medicine?"). The metalhead unsure his songs are
+  welcome; acoustic Electric Wizard / Windhand / Bathory; Bathory's "Mother Earth, Father
+  Thunder" as a sing-along; the weird NEEDED not tolerated — "Not the songs. Us, collectively
+  making a home for them… welcoming the grief and the agony by singing it together, turning it
+  into something like strength." The protect-the-weird differentiator in the flesh.
+- Facts WebSearch-verified: "Mother Earth, Father Thunder" = Bathory (Nordland I, 2002); bands
+  real; no album named (no attribution risk). Electric Wizard / wizard-book resonance left
+  unglossed by design.
+- Gate: craft-critic PASS/PASS (provenance clean; show-not-tell; placement "deepens rather than
+  deflates"). Blind witness PASS — "the only place the community becomes a place instead of a
+  thesis… where I'd actually want to be." One flag (Jason's call): "Until they did." reads
+  slightly buttony to the cold reader (his own phrasing — kept). Meta-validation: witness found
+  the surrounding abstract "quality of regard / what is your medicine" connective tissue
+  retreat-brochure-y and the CONCRETE scenes the gold — i.e., more lived scenes like these is
+  exactly the right move.

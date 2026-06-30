@@ -298,7 +298,9 @@ gestures:
   - G-OA-005c
   - G-OA-006
   - G-OA-007
+  - G-OA-007a
   - G-OA-007b
+  - G-OA-007d
   - G-OA-007c
   - G-OA-008
   - G-OA-008b
@@ -321,6 +323,8 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
