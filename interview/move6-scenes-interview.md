@@ -36,7 +36,7 @@ scenes plug into The Orgone Accumulator (P-OA) and the told-not-shown belonging 
 
 JASON:
 
-During my wilderness intensive, song was a big part of culture-making. Songs had lineages, ways they were offered to the group and passed down. Many we
+During my wilderness intensive, song was a big part of culture-making. Songs had lineages, ways they were offered to the group and passed down. Many were the kinds of songs you would expect - campfire songs, folk songs, even protest songs from earlier environmental movements. Song is a powerful way to literally harmonize a group of bodies as they find their place in the 
 
 
 ### M2 — The armor comes off in the room
@@ -148,5 +148,5 @@ JASON:
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg0OTg5NDJdfQ==
+eyJoaXN0b3J5IjpbNjg1MDQwOTZdfQ==
 -->
