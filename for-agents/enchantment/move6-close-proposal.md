@@ -17,10 +17,10 @@ Read each BEFORE/AFTER aloud. Move a word, kill a beat, or hand me different wor
 **BEFORE** (final sentences):
 > …This part ends in Zuccotti Park in 2011, where everything the book describes happened briefly and imperfectly and pointed somewhere. And then in a room at seven-fifteen in the evening, with eleven people and an unread agenda. **That's where the earth flowers.**
 
-**AFTER (proposed):**
-> …This part ends in Zuccotti Park in 2011, where everything the book describes happened briefly and imperfectly and pointed somewhere. And then it ends the way the wizard's road always ends: face to face with the living world. On the ground beside the doves. The herons back in the willow oaks, who know things about this place we are still learning to understand. **That's where the earth flowers.**
+**AFTER (proposed — "earth flowers" RETIRED per Jason):**
+> …This part ends in Zuccotti Park in 2011, where everything the book describes happened briefly and imperfectly and pointed somewhere. And then it ends the way the wizard's road always ends: face to face with the living world. On the ground beside the doves. The herons back in the willow oaks, who know things about this place we are still learning to understand.
 
-*Keeps the phrase, moves its referent to where the book actually lands.*
+*The destination is now the wild-nature face-to-face; the "earth flowers" climactic phrase is gone.*
 
 ---
 
@@ -34,11 +34,12 @@ Read each BEFORE/AFTER aloud. Move a word, kill a beat, or hand me different wor
 **AFTER (proposed):**
 > The governance meeting at seven-fifteen. The eleven people. The unread agenda. The conflict that's been running for six months.
 >
-> **This too is the work. You tend the ground here. It flowers elsewhere.**
+> **This too is the work. You tend the ground here, and the earth flowers wherever she can.**
 
-*Demotes the meeting to one true site of the work (where G-18-034/G-18-020 already place it),
-and points the flowering forward to the wild-nature close. Lands cleanly into the next line,
-"You wonderful weird birds." Ties to G-WW-029 ("there is no station last").*
+*Demotes the meeting to one true site of the work (where G-18-034/G-18-020 already place it).
+Uses Jason's line ("the Earth flowers wherever She can") to retire the singular-destination
+claim — the flowering is distributed, not located at the meeting. Lands cleanly into the next
+line, "You wonderful weird birds."*
 
 ---
 
@@ -48,11 +49,12 @@ Proposed new micro-gesture **G-EP-011a**, between G-EP-011 ("Life is what we hav
 and G-EP-016 ("The doves are still on the ground…").
 
 **NEW (proposed):**
-> This is where the wizard's road was always going. Not the meeting — though the meeting matters. Here: the body finally quiet enough that the wild comes close. Face to face with the life that was here first, that knows things we are still learning to understand, that has been trying to tell us the whole time. This is where the earth flowers.
+> This is where the wizard's road was always going. Not the meeting — though the meeting matters. Here: the body finally quiet enough that the wild comes close. Face to face with the life that was here first, that knows things we are still learning to understand, that has been trying to tell us the whole time.
 
-*The destination, stated at the true place. "Knows things we are still learning to understand"
-echoes G-EP-011. Then G-EP-016 → G-EP-017 ("Go find the nests… They're listening.") → G-EP-018
-("Come find us.") land as before.*
+*The destination, stated at the true place (Jason: "naming is okay — the outro is the place for
+callbacks and refrains"). "Knows things we are still learning to understand" echoes G-EP-011. No
+"earth flowers" line. Then G-EP-016 → G-EP-017 ("Go find the nests… They're listening.") →
+G-EP-018 ("Come find us.") land as before.*
 
 ---
 
@@ -94,10 +96,14 @@ established — the shrug you couldn't reach there becomes the recognition you c
 - **Recognition plants:** G-OV-003 (overture, "it is your magic" → + the social half), G-IW-028/025
   (Becoming Wizards, name recognition + "stay alert"), G-GC-043 (recognition is the counter-spell).
 
-## Open questions for Jason
-1. The **epilogue install (#3)** is the most delicate — it's the book's last breath. Is the new
-   beat right, or should the destination stay *enacted* (doves/herons) without being *stated*?
-2. The medicine landing (#4) names "what is your medicine?" at the very end — does that land, or
-   is it too much to add a refrain at the terminus? (Alternative: plant it earlier and let the
-   close only *imply* it.)
-3. Keep "That's where the earth flowers" as the relocated phrase, or retire it entirely?
+## Jason's answers (2026-06-30) — RESOLVED
+1. **Epilogue naming: YES.** "Naming is okay! If anything is a place for callbacks and refrains
+   it's the outro!" → keep the stated destination beat.
+2. **Medicine landing at the terminus: KEEP.** "It's perfect."
+3. **"That's where the earth flowers": RETIRE.** "The Earth flowers wherever She can." → phrase
+   removed from the intro + epilogue; transformed into "the earth flowers wherever she can" at
+   the demoted meeting (distributed flowering, not a single destination).
+
+**Status: APPROVED in shape. Apply → craft-critic + blind-witness gate → commit. The young-man
+echo (G-WW-028) ships with its companion Goetia grief setup (G-GC-018a). Recognition plants
+(G-OV-003, G-IW-028/025, G-GC-043) are the upstream batch that feeds the close.**
