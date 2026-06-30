@@ -20,6 +20,14 @@
   (care commons + its corruption in one lived vignette); composed as G-15-028a before the
   close. Critic + witness PASS ("the one beat with a pulse — the lived landing it was
   missing"). Still Meeting now has its floor.
+- **Tubman → tracker-spine — DONE (1fd7b4a).** Jason: "make the line as hard as possible."
+  Expanded the Combahee namesake in G-08-019a into a hard biographical beat (the raid she
+  planned/led, the Underground Railroad decade, the scout network, the river mines), landing
+  on "This is the tracker, in the flesh." Facts WebSearch-verified (one fix: "armed assault"
+  → "plan and lead an armed raid"); witness "wins by specificity instead of worship"; trimmed
+  one over-tell. The eponym now pays off the tracker-as-wizard spine.
+- **Rolling Jubilee gloss — CLOSED (Jason, 2026-06-30):** "don't worry about it — less worried
+  about activist lore than French academia." Stays bare. No open items remain.
 
 Driven by a full-book blind read-through cast as the target reader (Hasan/Stancil/Mamdani
 span, anti-authoritarian, not theory-literate, "not normal"). **Verdict: the book works
