@@ -1584,3 +1584,27 @@ concretize the abstract beat before it. Both voice/jason lived testimony.
   the surrounding abstract "quality of regard / what is your medicine" connective tissue
   retreat-brochure-y and the CONCRETE scenes the gold — i.e., more lived scenes like these is
   exactly the right move.
+
+## Move 6 · medicine scene M3 ("what a medicine actually is") · 2026-06-30 · G-OA-007e
+Jason wrote the reflection that answers the chapter's own question ("what is your medicine?",
+G-OA-007b) with his own; Claude tightened to P-OA register and placed it after G-OA-007d (the
+metal songs, the community drawing his gift out) and before G-OA-007c (the turn to discipline).
+voice/jason lived testimony. Source: Jason directive 2026-06-30 (his words, StackEdit).
+- **The beat:** medicine is "a living thing; try to cage it and it starts to die," recognized
+  "by its tracks" (activates the tracker spine, motif/the-tracker); singular, "stretches
+  language," felt "the way you feel the presence of a wild animal in the brush." Then Jason
+  names HIS — speech / storytelling, "words that carry aura" (Jason's phrase + the book's aura
+  motif, G-AB-060) — WITH the honest shadow ("used it unconsciously, and often badly — talking
+  over people… flooding a conversation… I still fight that; it is too easy for me"), which keeps
+  it un-self-aggrandizing; framed passively ("It has been reflected back to me that mine…"),
+  reporting others' mirror, not self-coronating. Lands on teaching children to hold their own
+  councils and "the words to speak the council itself into being" — the power located in the
+  FORM of the council (the collective listening), not in himself.
+- Provenance: every detail traces to Jason's raw; no invention. Applied critic's one optional
+  cadence trim ("a power I can only point at, not describe" → "a power I can only point at").
+- Gate: craft-critic PASS (provenance clean; shadow load-bearing; tracker-tie real not
+  decoration; seam lands — 007c "what holds it when the woods end" turns cleanly off the council
+  peak). Blind witness PASS — tracks/wild-animal make the abstraction concrete; present-tense
+  shadow + give-it-to-the-children council save it from self-regard. One standing flag (Jason's
+  call, his own raw): "hypnotic, narcotic pull" still flirts with self-regard to the cold reader
+  — kept because it's lived self-description and the shadow neutralizes it.
