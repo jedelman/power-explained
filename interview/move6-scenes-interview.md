@@ -149,6 +149,37 @@ JASON:
 
 ---
 
+## D. THE GIFT GETS A HOME — *Seam 2: the book's thesis, shown not told*
+
+The close **states** the payoff twice and never shows it: *"The community reconstitutes itself
+through the singular journeys of its members"* (G-17-048) and *"…the annual return to the
+threshold where the community reconstitutes itself through the singular journeys of its members"*
+(G-18-034). This is the whole book's promise — the commons is the belonging *built on* the
+singular (protects the weird, doesn't purge it) — asserted as a claim. It wants one lived scene
+where a gift is **recognized, named, and given a home** by a community, so the thesis lands in
+the body instead of the argument. (M1's metal-songs scene was *your* gift getting a home; Seam 2
+is ideally *someone else's* gift recognized and homed — or a communal moment of it — so the
+"reconstitutes through the singular" claim is shown from the outside, as a pattern, not only as
+your own story.)
+
+### S2 — a gift recognized and given a home
+**Target:** the reader *sees* the reconstitution-through-the-singular happen — a specific person's
+specific gift named by the community, and a place made for it (a role, a rite, a standing
+invitation) — so belonging-built-on-the-singular stops being a slogan.
+**Lands at:** new gesture before **G-17-048** (*I Became the Land*, the Owl chapter) or at the
+**G-18-034** threshold (*You Wonderful Weird Birds*) — wherever the true scene sits. I'll place it
+at whichever the scene fits; both are the "reconstitutes through the singular" claim.
+**Hits if:** it's one person, one gift, one specific home made for it (named, structural — "and
+after that, X was the one who…"), witnessed by the group. **Misses if:** it's "everyone was
+included / the community valued everyone's contributions" (the abstraction the book already has).
+**Facts:** any name → your call to keep or veil (Erin stays a mystery; others as you prefer);
+Claude fact-checks anything datable.
+
+JASON:
+
+
+---
+
 ## When you've written some
 Drop them here (or paste in chat / a PR comment) and tell me which rows are ready. I'll place
 each at its seam, draft both editions, gate, and check it off the arrow tracker.
