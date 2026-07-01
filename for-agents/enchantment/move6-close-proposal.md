@@ -66,8 +66,11 @@ and lands the medicine question — answering the opening loneliness-spell.
 
 Proposed new gesture **G-WW-031a**, after G-WW-031:
 
-**NEW (proposed — refined 2026-07-01, gating):**
-> We are everywhere. You were taught not to see us — the same way you were taught not to see your own magic, to feel the one angle that is yours alone as a defect instead of a gift. The loneliness was the spell. Recognition is the counter-spell. So stay alert. You will know your own kind by the awake thing in them that wakes the awake thing in you. And when we find each other, we will not ask where you went to school or what you believe. We will ask the only question that matters — the one the woods were always asking: *what is your medicine?*
+**NEW (proposed — GATED 2026-07-01; craft-critic REVISE + blind-witness "lands," reconciled):**
+> We are everywhere. You were taught not to see us — the same way you were taught to feel the one angle that is yours alone as a defect. The loneliness was the spell. Recognition is the counter-spell. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
+
+**Plain edition:**
+> We are everywhere. You were taught not to see us — the same way you were taught to feel the one thing that is yours alone as a flaw. The loneliness was the spell. Recognition is the counter-spell. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
 
 *Pays off "we are everywhere / recognition / stay alert" (#3), bookends the Ch-3 loneliness-spell
 (G-03-046a "The loneliness was the spell"), echoes the medicine community (G-OA-007b "the awake
@@ -75,13 +78,33 @@ part gets recognized, and recognizes the same awake part in someone else"), and 
 medicine question (#5). Then G-WW-032 ("Carry it as you walk. Whatever the* it *is for you…")
 answers it, and G-EP-018 "Come find us" is the bare final line, fully loaded.*
 
-**Refinements from the approved-in-shape draft (2026-07-01):** (1) cut "the way a room changes
-when they walk into it" — it duplicated G-WW-031's "recognizes the room when they walk into it"
-directly above; (2) "the one that community was always already asking" → "the one the woods were
-always asking" (fixes the dangling referent, drops the "always already" theory-tic per
-audience.md, ties OA's woods). Landing seam confirmed: NEW gesture **G-WW-031a** between G-WW-031
-and G-WW-032 (the chapter's true last beat). **Staged, not applied — awaiting Jason's nod on the
-exact words + the craft-critic/blind-witness gate.**
+**Gate (2026-07-01) — craft-critic REVISE + blind-witness "it lands," reconciled into the text above:**
+- **"the woods keep asking"** (was "were always asking"): both gates flagged the past-tense form
+  as *assigning the reader a memory they don't have* — the OA question (G-OA-007b) was asked of
+  Jason; the reader was witness, not asked. Present tense hands it over instead of seizing it.
+- **Cut the "So stay alert. You will know your own kind by the awake thing…" sentence:** critic —
+  it duplicated G-WW-031's recognition imagery directly above *and* blunted G-WW-032 (posed the
+  question as an external/social test, so "Carry it" no longer answered it); witness — the "we are
+  everywhere / stay alert / know your own kind" stack "grazes culty." Removing it un-crowds 031,
+  de-cults the beat, and lets G-WW-032 land as the answer. Recognition is still carried (G-WW-031
+  above; "your own magic" below).
+- **Cut "instead of a gift":** witness *loved* "as a defect" (reads as diagnosis, not flattery);
+  critic — the "instead of a gift" gloss *tells* the feeling. Kept the diagnosis, cut the gloss.
+- **Kept the chiasm** "The loneliness was the spell. Recognition is the counter-spell." — the
+  load-bearing bookend to Ch-3 (G-03-046a); critic "earned," witness "not wrong."
+- Witness on the landing: *"the question makes the last paragraph land harder… 'like a tool you
+  have learned the use of' is the best line on the page… it lands."*
+
+**⚑ ONE FLAG FOR JASON:** the gated cut **drops your direction-#3 word "stay alert"** (both the
+craft-critic and the audience-proxy witness read "we are everywhere / stay alert / know your own
+kind" as faintly culty at the close). The #3 intent survives via "We are everywhere" (refrain) +
+"your own magic" + "Recognition is the counter-spell." If you want "stay alert" reinstated, say so
+and I'll fold a de-culted version back in. Otherwise this is the recommended beat.
+
+Landing seam confirmed: NEW gesture **G-WW-031a** between G-WW-031 ("recognize on sight") and
+G-WW-032 ("carry it — whatever the *it* is for you", the chapter's true last beat, which answers
+the question). **STAGED, not applied — the sacred close waits for your nod; on the word I weave
+G-WW-031a into `wizards-walk.md` (both editions), re-render, gate the live seam, commit.**
 
 ---
 
