@@ -94,6 +94,8 @@ yet"). Tag any new bird gesture `image/songbirds` to auto-join the spine.
 
 JASON:
 
+When I'm in a new place, the way the birds and animals respond to me tells me how the humans there treat them. In Virginia and most of the United States, crows are aloof, distant, evasive - they've been hunted for generations as pests. When I moved to Seattle, where they are regarded with some respect, I was both shocked and delighted to see how they love to play - in the wind, in dumpsters, with each other, with other birds. When I went to Vancouver, I held out my hand - a gesture of greeting I use for birds all the time - and a chickadee just landed on it! In Montreal and Denver, the squirrels come right up to me and talk to me. I talk right back. But when I go to Dallas, the birds stick to the parks. They keep to themselves. In DC, only the pigeons feel safe in the open, and that's because they were bred to be comfortable around humans. The deep patterns are also visible if you know how to pay attention.
+
 
 ### B2 — Becoming Wizards: pay off G-IW-012
 **Target:** actually reading the birds *with a group* in the field — the moment "the birds commenting on our collective energy" became legible.
