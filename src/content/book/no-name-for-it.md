@@ -8,6 +8,7 @@ plateau:
   id: P-08
   status: draft
 gestures:
+  - G-08-000a
   - G-08-001
   - G-08-002
   - G-08-003
@@ -31,6 +32,7 @@ gestures:
   - G-08-028
   - G-08-029
 separators:
+  - section
   - paragraph
   - paragraph
   - paragraph

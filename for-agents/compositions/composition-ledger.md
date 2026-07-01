@@ -1648,3 +1648,21 @@ voice/jason, kind/naturalist.
   sparrows needing shrubs, woodpeckers needing snags), no named-person/date/figure risk. Tag
   image/songbirds joins the bird-language spine; motif/the-tracker (reading a place by its signs).
 - **Gate:** craft-critic PASS (provenance/register/seam clean; "do not move after RE-012 — breaks the event→place→network escalation"; natural history sound, no VERIFY) + blind non-birder witness "it lands" ("I see my own too-quiet street differently… the eeriness is real and in my body"; confirmed it FEEDS RE-012, "the sensory proof the later line cashes in"). One convergent nit → trimmed Claude's added flourish "the whole place speaking at once" so Jason's quieter landing ("the absences become presences") stands. Build green, 35 gestures / 34 separators.
+
+## Move 6 · bird-language spine · B1 "Part III reading cold-open" · 2026-07-01 · G-08-000a
+NEW gesture as the COLD-OPEN of "No Name for It" (P-08, Part III), before G-08-001 with a section
+break — breaks the book's longest bird-silence at the most abstract stretch. Source: Jason
+directive 2026-07-01 (lived, his words — the Seattle crow). Reading craft: how the animals answer
+you reads how the people there have treated them (VA crows hunted/wary vs. Seattle crows left in
+peace/at play), landing on the singular encounter — a crow holding his gaze, a braced part
+letting go, the community's decency making it possible, "beyond imagining — until it actually
+happens."
+- **Placement link (Jason 2026-07-01):** "the absence of connection and openness to the singular
+  renders the intersections inconceivable." The crow = openness to the singular made real; then
+  G-08-001's framework "that decides which experiences count and which fall through" is the
+  inverse, and the GM/Crenshaw case is the intersection that "fell through the gap between the
+  legally recognized categories." Bridge carried by juxtaposition + Jason's landing, not stated
+  (show, don't tell). GM narrative (G-08-001→002→003→004) intact below the cold-open.
+- **Provenance:** Jason's raw; general natural history (crows-as-pests / Seattle habituation), no
+  named-date-figure risk. Tag image/songbirds joins the bird-language spine; motif/the-tracker
+  (reading a place by its signs); motif/the-singular (Jason's link). Build green, 23/22.
