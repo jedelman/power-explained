@@ -110,6 +110,7 @@ JASON:
 
 JASON:
 
+Reading bird language isn't just about noticing bird calls and interpreting them. Patterns in bird behavior, and even their presence - or absence - can tell you everything about a place. Something that always creeps me out in the suburbs is the absence of woodpeckers. I can tell where the neighborhood's attitude towards and understanding of nature is at by the presence and absence of birds - no woodpeckers tells me the residents kill trees when they start to die, leaving no habitat for insects or woodpeckers. That means no nests for owls (who use old woodpecker holes) and no chickadees (who find cavities in decaying wood and eat insects). Grass and no shrubs means no sparrows. So most suburbs feel eerie to me, like speaking to a friend who can only repeat the same few phrases - robotic. When I return to the forest it's like coming home - the absences become presences.
 
 ### B4 — Early Part VI: "they read you" before the owl
 **Target:** the channel now habitual — the doves/finches recognizing *you*; you and the birds reading each other. Sets up the council-owl (Ch 17) as the culmination, and rhymes the two barred owls (G-RE-010b ↔ G-17-007).
