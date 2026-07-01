@@ -24,9 +24,13 @@ notes: |-
   a singular life is recognized…") so the weird-lamp-as-track rings the
   earlier medicine-recognized-by-its-tracks (G-OA-007e) and the Owl's
   "you learn to read the language" (G-17-002). Swapped the flat "don't
-  want to see it" for the tracker's verb (read/recognize). "followed
-  home" threads forward to the gift-given-a-home thesis (G-17-048/
-  G-18-034). No new claim — the tracker's reading is the book's own skill.
+  want to see it" for the tracker's verb (read/recognize). No new claim —
+  the tracker's reading is the book's own skill. Blind witness cut the
+  trailing "followed home" clause: over-neat aphorism that spent momentum
+  right before the "You… doing the same thing" turn. Ended plainer on "a
+  singular life is recognized" (keeps the OA rhyme verbs read/recognize,
+  primes the reader-as-track turn). The gift-given-a-home forward-thread
+  moves to Seam 2 (G-17-048/G-18-034), where it is native.
 plain: >
   Your grandmother's strange lamp breaks the system. Not because it
   is ugly. It might be pretty. It breaks the system because it is
@@ -38,9 +42,9 @@ plain: >
   shows someone was here. Someone came through. Someone mattered.
   A lawn is mowed to wipe such marks away. The owners keep the grass
   cut too short to read a track. A track is how you know a singular
-  life was here. What you can recognize, you can follow home.
+  life was here.
 plain_meta:
   source: G-16-015
   status: draft
 ---
-Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be beautiful. Because it carries a *specificity* the system cannot metabolize. It points somewhere outside the arrangement, toward a particular history, a particular person, a particular love that was not organized around legibility. It is a track on the lawn — the one mark that proves something lived here, came through, mattered. That is exactly what the lawn is mowed to erase, and exactly why the owners keep it cut too short to read: a track is how a singular life is recognized, and what can be recognized can be followed home.
+Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be beautiful. Because it carries a *specificity* the system cannot metabolize. It points somewhere outside the arrangement, toward a particular history, a particular person, a particular love that was not organized around legibility. It is a track on the lawn — the one mark that proves something lived here, came through, mattered. That is exactly what the lawn is mowed to erase, and exactly why the owners keep it cut too short to read: a track is how a singular life is recognized.

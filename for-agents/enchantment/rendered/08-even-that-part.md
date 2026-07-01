@@ -38,7 +38,7 @@ The French philosopher Jean Baudrillard, writing in 1968, called this the *syste
 
 This is objectification working in both directions. The objects are stripped of history and specificity — the couch means *modern*, not the forest the wood came from, not the hands that shaped it. And the person is stripped of the same things: your history, your specificity, your irreducible weirdness — stripped in favor of the legible signal you emit. Not a person individuating in a field. An object completing an arrangement.
 
-Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be beautiful. Because it carries a *specificity* the system cannot metabolize. It points somewhere outside the arrangement, toward a particular history, a particular person, a particular love that was not organized around legibility. It is a track on the lawn — the one mark that proves something lived here, came through, mattered. That is exactly what the lawn is mowed to erase, and exactly why the owners keep it cut too short to read: a track is how a singular life is recognized, and what can be recognized can be followed home.
+Your grandmother's weird lamp ruptures the system. Not because it's ugly — it might be beautiful. Because it carries a *specificity* the system cannot metabolize. It points somewhere outside the arrangement, toward a particular history, a particular person, a particular love that was not organized around legibility. It is a track on the lawn — the one mark that proves something lived here, came through, mattered. That is exactly what the lawn is mowed to erase, and exactly why the owners keep it cut too short to read: a track is how a singular life is recognized.
 
 You, when you don't fit the room, are doing the same thing.
 
