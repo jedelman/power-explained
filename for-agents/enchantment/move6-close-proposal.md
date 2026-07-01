@@ -66,11 +66,22 @@ and lands the medicine question — answering the opening loneliness-spell.
 
 Proposed new gesture **G-WW-031a**, after G-WW-031:
 
-**NEW (proposed — GATED 2026-07-01; craft-critic REVISE + blind-witness "lands," reconciled):**
-> We are everywhere. You were taught not to see us — the same way you were taught to feel the one angle that is yours alone as a defect. The loneliness was the spell. Recognition is the counter-spell. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
+**NEW (proposed — JASON'S ANTI-CULT FIX 2026-07-01, re-gating):**
+> We are everywhere because everyone is singular. Every person alive carries an angle that is theirs alone — a gift no average can hold. That is not a faction. It is everyone. You were taught to feel your own angle as a defect, and to look straight past everyone else's. The loneliness was the spell. Recognition is the counter-spell — and it runs both ways: no one claims the singular in themselves without first seeing it in someone else. So stay alert — not for your own kind, because everyone is your own kind. None of us is free until all of us are free — *todo para todos*, everything for everyone, or it is not freedom. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
 
 **Plain edition:**
-> We are everywhere. You were taught not to see us — the same way you were taught to feel the one thing that is yours alone as a flaw. The loneliness was the spell. Recognition is the counter-spell. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
+> We are everywhere because everyone is singular. Every person alive carries one angle that is theirs alone — a gift no average can hold. That is not a faction. It is everyone. You were taught to feel your own angle as a flaw, and to look right past everyone else's. The loneliness was the spell. Recognition is the counter-spell — and it goes both ways: no one can claim the singular thing in themselves without first seeing it in someone else. So stay alert — not for your own kind, because everyone is your own kind. None of us is free until all of us are free — todo para todos, everything for everyone, or it is not freedom. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
+
+**Jason's fix (2026-07-01) — defuses the culty read at the source (Hardt/Negri).** The gate read
+"we are everywhere / stay alert" as faction-scanning. Jason: it's the opposite — "we are
+everywhere" is TRUE *because* everyone is singular (G-18-025, the multitude = a composition of
+irreducible singularities), everyone has a gift (G-AB-007, "the gesture is universal"), and no
+one can embrace their own singularity without recognizing it in others (G-RE-017, "our
+singularities are the condition of the shared thing"). So "stay alert" comes back, de-culted by
+"not for your own kind — everyone is your own kind," and the solidarity refrains close the door
+on enclosure: "none of us is free until all of us are free" (the Luxemburg/Wynter point,
+G-10-009, singularity as the political condition of freedom) + the Zapatista "todo para todos"
+(EZLN established at G-04-021). Provenance clean — recombination of on-page material.
 
 *Pays off "we are everywhere / recognition / stay alert" (#3), bookends the Ch-3 loneliness-spell
 (G-03-046a "The loneliness was the spell"), echoes the medicine community (G-OA-007b "the awake
