@@ -1647,5 +1647,4 @@ voice/jason, kind/naturalist.
   knowledge — general natural history (owls in old woodpecker holes, chickadees in rotting wood,
   sparrows needing shrubs, woodpeckers needing snags), no named-person/date/figure risk. Tag
   image/songbirds joins the bird-language spine; motif/the-tracker (reading a place by its signs).
-- **Gate:** craft-critic + blind non-birder witness (in flight at commit; revision folds next).
-  Build green, 35 gestures / 34 separators.
+- **Gate:** craft-critic PASS (provenance/register/seam clean; "do not move after RE-012 — breaks the event→place→network escalation"; natural history sound, no VERIFY) + blind non-birder witness "it lands" ("I see my own too-quiet street differently… the eeriness is real and in my body"; confirmed it FEEDS RE-012, "the sensory proof the later line cashes in"). One convergent nit → trimmed Claude's added flourish "the whole place speaking at once" so Jason's quieter landing ("the absences become presences") stands. Build green, 35 gestures / 34 separators.

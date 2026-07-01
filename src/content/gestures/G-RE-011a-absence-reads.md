@@ -35,9 +35,9 @@ plain: >
   no sparrows. The whole web shows up in one missing bird. So the suburbs feel
   eerie to me — like talking to someone who can only say the same few phrases,
   again and again. Step back into the forest and it feels like coming home. Every
-  absence becomes a presence. The whole place is speaking at once.
+  absence becomes a presence.
 plain_meta:
   source: G-RE-011a
   status: draft
 ---
-Reading the birds was never only about the calls. Their patterns — even their presence, even their absence — tell you what a place is. What unsettles me in the suburbs is the silence where the woodpeckers should be. Absence reads. No woodpeckers means the residents cut their trees the moment they begin to die — and a dying tree is where the life is, the insects, the soft wood. No snags, no woodpeckers. No old woodpecker holes, no owls to nest in them. No rotting wood, no chickadees working it. Lawn where the shrubs should be, no sparrows. The whole web reads from a single absence. So the suburbs feel eerie to me — like talking to someone who can only say the same few phrases, worn down to a loop. Step back into the forest and it is like coming home: every absence turned back to a presence, the whole place speaking at once.
+Reading the birds was never only about the calls. Their patterns — even their presence, even their absence — tell you what a place is. What unsettles me in the suburbs is the silence where the woodpeckers should be. Absence reads. No woodpeckers means the residents cut their trees the moment they begin to die — and a dying tree is where the life is, the insects, the soft wood. No snags, no woodpeckers. No old woodpecker holes, no owls to nest in them. No rotting wood, no chickadees working it. Lawn where the shrubs should be, no sparrows. The whole web reads from a single absence. So the suburbs feel eerie to me — like talking to someone who can only say the same few phrases, worn down to a loop. Step back into the forest and it is like coming home: every absence turned back into a presence.
