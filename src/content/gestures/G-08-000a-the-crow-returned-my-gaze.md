@@ -36,7 +36,7 @@ plain: >
   alone, they play: in the wind, in the dumpsters, with each other. The first
   time I looked one of those Seattle crows in the eye, it held my gaze, unafraid.
   Something in me let go that I had not known I was holding — the part that stays
-  careful around a wild animal, so I do not trigger the fear we have taught it.
+  careful around a wild animal, so I do not stir the fear it has learned to expect.
   Because people there had shown these crows plain decency for generations, I got
   a chance I had never had: to just be with a half-wild bird, both of us at ease,
   sharing a minute. No big deal. Two creatures, side by side. And hard to imagine
@@ -45,4 +45,4 @@ plain_meta:
   source: G-08-000a
   status: draft
 ---
-In a new place, the first thing I read is the animals. The way the birds answer me tells me how the people there have treated them. In Virginia, and most of the country, the crows are aloof, evasive, gone before you finish looking — hunted as pests for generations, and they remember. In Seattle, where they are left in peace, they play: in the wind, in the dumpsters, with each other. The first time I met the eye of one of those Seattle crows, it held my gaze, unafraid. Something in me let go that I had not known I was gripping — the part that holds itself back around any wild thing, to spare it the fear we have trained into it. Generations of ordinary decency toward these crows had opened a door I had never found on my own: to simply be with a half-wild bird, each of us easy in our own skin, sharing a minute. No big deal. Two creatures, coexisting. And beyond imagining — until it actually happens.
+In a new place, the first thing I read is the animals. The way the birds answer me tells me how the people there have treated them. In Virginia, and most of the country, the crows are aloof, evasive, gone before you finish looking — hunted as pests for generations, and they remember. In Seattle, where they are left in peace, they play: in the wind, in the dumpsters, with each other. The first time I met the eye of one of those Seattle crows, it held my gaze, unafraid. Something in me let go that I had not known I was gripping — the part that holds itself back around any wild thing, to spare it the fear it has learned to expect. Generations of ordinary decency toward these crows had given me a chance I had never had: to simply be with a half-wild bird, each of us easy in our own skin, sharing a minute. No big deal. Two creatures, coexisting. And beyond imagining — until it actually happens.
