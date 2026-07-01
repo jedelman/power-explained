@@ -67,10 +67,10 @@ and lands the medicine question — answering the opening loneliness-spell.
 Proposed new gesture **G-WW-031a**, after G-WW-031:
 
 **NEW (proposed — JASON'S ANTI-CULT FIX 2026-07-01, re-gating):**
-> We are everywhere because everyone is singular. Every person alive carries an angle that is theirs alone — a gift no average can hold. That is not a faction. It is everyone. You were taught to feel your own angle as a defect, and to look straight past everyone else's. The loneliness was the spell. Recognition is the counter-spell — and it runs both ways: no one claims the singular in themselves without first seeing it in someone else. So stay alert — not for your own kind, because everyone is your own kind. None of us is free until all of us are free — *todo para todos*, everything for everyone, or it is not freedom. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
+> We are everywhere because everyone is singular. Every person alive carries an angle that is theirs alone — a gift no average can hold. That is not a faction. It is everyone. You were taught to feel your own angle as a defect, and to look straight past everyone else's. The loneliness was the spell. Recognition is the counter-spell: no one claims the singular in themselves without first seeing it in someone else. So stay alert — not for your own kind, because everyone is your own kind. None of us is free until all of us are free — *todo para todos*, everything for everyone, or it is not freedom. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
 
 **Plain edition:**
-> We are everywhere because everyone is singular. Every person alive carries one angle that is theirs alone — a gift no average can hold. That is not a faction. It is everyone. You were taught to feel your own angle as a flaw, and to look right past everyone else's. The loneliness was the spell. Recognition is the counter-spell — and it goes both ways: no one can claim the singular thing in themselves without first seeing it in someone else. So stay alert — not for your own kind, because everyone is your own kind. None of us is free until all of us are free — todo para todos, everything for everyone, or it is not freedom. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
+> We are everywhere because everyone is singular. Every person alive carries one angle that is theirs alone — a gift no average can hold. That is not a faction. It is everyone. You were taught to feel your own angle as a flaw, and to look right past everyone else's. The loneliness was the spell. Recognition is the counter-spell: no one can claim the singular thing in themselves without first seeing it in someone else. So stay alert — not for your own kind, because everyone is your own kind. None of us is free until all of us are free — todo para todos, everything for everyone, or it is not freedom. And when we find each other, we will not ask where you went to school or what you believe. We will ask the one question the woods keep asking: *what is your medicine?*
 
 **Jason's fix (2026-07-01) — defuses the culty read at the source (Hardt/Negri).** The gate read
 "we are everywhere / stay alert" as faction-scanning. Jason: it's the opposite — "we are
@@ -82,6 +82,31 @@ singularities are the condition of the shared thing"). So "stay alert" comes bac
 on enclosure: "none of us is free until all of us are free" (the Luxemburg/Wynter point,
 G-10-009, singularity as the political condition of freedom) + the Zapatista "todo para todos"
 (EZLN established at G-04-021). Provenance clean — recombination of on-page material.
+
+**Re-gate (2026-07-01) — blind-witness PASS, craft-critic REVISE, reconciled.** The witness's
+cult-radar *flipped*: "the exact word where it flips: *because*… 'That is not a faction. It is
+everyone.' names the exact thing I was about to flinch at and refuses it. You can't build a cult
+with no outside." The both-ways recognition landed as "the load-bearing sentence… solidarity is
+the *mechanism* of self-acceptance, not a nice add-on." The question→"carry it" close "hands me
+my own gift instead of asking for my allegiance."
+- **APPLIED (both gates, show-don't-tell):** cut "and it runs both ways —" (it announced the
+  structure the next clause enacts). Now: "Recognition is the counter-spell: no one claims the
+  singular in themselves without first seeing it in someone else."
+- **⚑ JASON-CALL 1 — "stay alert":** critic wants "stay open" (says "alert" keeps a sentry
+  posture); witness says the fix DEFUSES it ("it quotes the phrase to disarm it"). Kept your
+  "stay alert." Say the word if you want "stay open."
+- **⚑ JASON-CALL 2 — "todo para todos":** both gates' softest beat. Critic: genuine EZLN slogan
+  but NOT in G-04-021 (that gesture has *mandar obedeciendo*, not this phrase), so it arrives
+  unattributed at the crescendo and doubles the English refrain; per fact-check protocol, either
+  tie it ("the Zapatista cry") or cut and keep the English line alone. Witness: "the one spot
+  where I feel a little bit sold to." Kept your line bare pending your call: keep bare / attribute
+  / cut.
+- **Structural note (critic):** G-WW-032's whisper must arrive into quiet; "what is your
+  medicine?" should fall *softer* than the freedom refrain before it. Cutting "and it runs both
+  ways" helps; trimming one refrain is the lever if you want the quietest possible landing.
+- **Pronoun watch (critic):** "You were taught to… look straight past everyone else's" is the
+  closest the beat comes to accusation-You, but the passive "were taught" (enclosers = implied
+  agent) keeps it wound-You. Holds; add no second-person imperative near it.
 
 *Pays off "we are everywhere / recognition / stay alert" (#3), bookends the Ch-3 loneliness-spell
 (G-03-046a "The loneliness was the spell"), echoes the medicine community (G-OA-007b "the awake
