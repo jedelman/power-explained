@@ -66,13 +66,22 @@ and lands the medicine question — answering the opening loneliness-spell.
 
 Proposed new gesture **G-WW-031a**, after G-WW-031:
 
-**NEW (proposed):**
-> We are everywhere. You were taught not to see us — the same way you were taught not to see your own magic, to feel the one angle that is yours alone as a defect. The loneliness was the spell. Recognition is the counter-spell. So stay alert: you will know your own kind by the way a room changes when they walk into it, by the awake thing in them that wakes the awake thing in you. And when you find us, we will not ask where you went to school or what you believe. We will ask the only question that matters — the one that community was always already asking: *what is your medicine?*
+**NEW (proposed — refined 2026-07-01, gating):**
+> We are everywhere. You were taught not to see us — the same way you were taught not to see your own magic, to feel the one angle that is yours alone as a defect instead of a gift. The loneliness was the spell. Recognition is the counter-spell. So stay alert. You will know your own kind by the awake thing in them that wakes the awake thing in you. And when we find each other, we will not ask where you went to school or what you believe. We will ask the only question that matters — the one the woods were always asking: *what is your medicine?*
 
 *Pays off "we are everywhere / recognition / stay alert" (#3), bookends the Ch-3 loneliness-spell
 (G-03-046a "The loneliness was the spell"), echoes the medicine community (G-OA-007b "the awake
 part gets recognized, and recognizes the same awake part in someone else"), and lands on the
-medicine question (#5). Then G-EP-018 "Come find us" is the bare final line, fully loaded.*
+medicine question (#5). Then G-WW-032 ("Carry it as you walk. Whatever the* it *is for you…")
+answers it, and G-EP-018 "Come find us" is the bare final line, fully loaded.*
+
+**Refinements from the approved-in-shape draft (2026-07-01):** (1) cut "the way a room changes
+when they walk into it" — it duplicated G-WW-031's "recognizes the room when they walk into it"
+directly above; (2) "the one that community was always already asking" → "the one the woods were
+always asking" (fixes the dangling referent, drops the "always already" theory-tic per
+audience.md, ties OA's woods). Landing seam confirmed: NEW gesture **G-WW-031a** between G-WW-031
+and G-WW-032 (the chapter's true last beat). **Staged, not applied — awaiting Jason's nod on the
+exact words + the craft-critic/blind-witness gate.**
 
 ---
 
