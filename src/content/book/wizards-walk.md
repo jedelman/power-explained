@@ -300,6 +300,7 @@ gestures:
   - G-WW-029
   - G-WW-030
   - G-WW-031
+  - G-WW-031a
   - G-WW-032
 separators:
   - paragraph
@@ -330,6 +331,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

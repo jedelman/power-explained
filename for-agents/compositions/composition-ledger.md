@@ -1608,3 +1608,25 @@ voice/jason lived testimony. Source: Jason directive 2026-06-30 (his words, Stac
   shadow + give-it-to-the-children council save it from self-regard. One standing flag (Jason's
   call, his own raw): "hypnotic, narcotic pull" still flirts with self-regard to the cold reader
   — kept because it's lived self-description and the shadow neutralizes it.
+
+## Move 6 · Seam 3 · the medicine question turned on the reader · 2026-07-01 · G-WW-031a
+NEW gesture at the book's close, between G-WW-031 ("you find us by becoming someone we recognize
+on sight") and G-WW-032 ("Carry it as you walk. Whatever the *it* is for you…", which answers it).
+Turns the woods-question (G-OA-007b "what is your medicine?") onto the reader — the confirmation-
+reveal (you have a singular gift; we need it; the question was always yours) — and bookends the
+Ch-3 opening spell (G-03-046a "The loneliness was the spell").
+- **Provenance (recombination, no invention):** "everyone is singular / not a faction / it is
+  everyone" = G-18-025 (Hardt/Negri, the multitude = composition of irreducible singularities);
+  "a gift no average can hold" = G-08-009 / G-AB-007; both-ways recognition = G-RE-017 ("our
+  singularities are the condition of the shared thing") + G-OA-007b; "none of us is free until
+  all of us are free" = G-10-009 (Luxemburg/Wynter, singularity as the political condition of
+  freedom); "The loneliness was the spell. Recognition is the counter-spell" = G-03-046a + the
+  master spell→counter-spell move.
+- **Jason's anti-cult fix (2026-07-01):** "we are everywhere" is true BECAUSE everyone is singular
+  (not a faction) — the boundary a cult needs is dissolved. Witness cult-radar "flips at the word
+  *because*". Jason's two calls: "stay alert"→"stay open" (de-sentry); dropped "todo para todos"
+  ("it's not mine" — an EZLN slogan, not Jason's, arriving unattributed at the crescendo).
+- **Gate:** blind-witness PASS (anti-cult framing holds; both-ways recognition "the load-bearing
+  sentence… solidarity is the mechanism of self-acceptance"); craft-critic REVISE → reconciled
+  (cut "and it runs both ways —" show-don't-tell; the two Jason-calls). Live seam verified: WW-032's
+  "Carry it… whatever the *it* is" lands as the answer. Build green, 33 gestures / 32 separators.
