@@ -18,8 +18,6 @@ The disenchantment of the world is the enclosure of that knowing.
 
 The re-enchantment of the world is its recovery.
 
----
-
 *We thought we were making up silly little voices for the birds.*
 
 We had always loved them. Watching was easy to drop into — an endless puzzle of cute little fluffs, never work, always a game. So when Jon Young suggested, on a CD, that we listen as if they were actually talking, we did. We filled the gaps in our knowledge with hypotheses — little phrases that crystallized our guesses about what was going on. Narrative weaves the thread of awareness; the silly voices held the practice open.
@@ -27,6 +25,8 @@ We had always loved them. Watching was easy to drop into — an endless puzzle o
 The silliness was the protection. Take it too seriously and you go heavy. If you're heavy, you cannot keep up with the birds.
 
 Then the guesses began to fit.
+
+---
 
 You do this when you're learning to birdwatch. You hear a sound you can't identify, and you reach for language, and what comes out is faintly ridiculous — the Carolina wren sounds like it's saying *teakettle teakettle teakettle*, or the Eastern towhee is calling *drink your teaaaa*. You feel slightly embarrassed about this. Mnemonics for children. Training wheels.
 
@@ -45,6 +45,8 @@ We decided to look.
 There was a cloud of them — many crows, hanging in trees, swooping and diving and calling, making a sustained ruckus. And at the center of it was an owl. A barred owl. The first owl we had ever seen in daylight.
 
 I do not know exactly when the shift happened from hearing and analyzing to reading the feeling. The crow cloud over the barred owl was one moment — the discovery that a feeling could be transmitted across species, amplified and broadcast, as legible across the gap as a shout. The robin a few months later was the confirmation: nothing like a crow acoustically, but the same quality of excitement and agitation and upset. The feeling was the same. The channel was the same. The owl was in the same direction the robin was looking.
+
+Reading the birds was never only about the calls. Their patterns — even their presence, even their absence — tell you what a place is. What unsettles me in the suburbs is the silence where the woodpeckers should be. Absence reads. No woodpeckers means the residents cut their trees the moment they begin to die — and a dying tree is where the life is, the insects, the soft wood. No snags, no woodpeckers. No old woodpecker holes, no owls to nest in them. No rotting wood, no chickadees working it. Lawn where the shrubs should be, no sparrows. The whole web reads from a single absence. So the suburbs feel eerie to me — like talking to someone who can only say the same few phrases, worn down to a loop. Step back into the forest and it is like coming home: every absence turned back to a presence, the whole place speaking at once.
 
 We had not been taught this. We had practiced our way into it.
 

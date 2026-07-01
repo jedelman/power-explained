@@ -1630,3 +1630,22 @@ Ch-3 opening spell (G-03-046a "The loneliness was the spell").
   sentence… solidarity is the mechanism of self-acceptance"); craft-critic REVISE → reconciled
   (cut "and it runs both ways —" show-don't-tell; the two Jason-calls). Live seam verified: WW-032's
   "Carry it… whatever the *it* is" lands as the answer. Build green, 33 gestures / 32 separators.
+
+## Move 6 · bird-language spine · B3 "absence reads" · 2026-07-01 · G-RE-011a
+NEW gesture in Re-Enchanting, between G-RE-011 (the robin/owl confirmation — bird feeling points
+to a hidden event) and G-RE-012 (the crescendo: "a network of attention that was always there…
+about a place you cannot see"). B3 extends the reading craft from a hidden event to the standing
+state of a whole place, and to its ABSENCES. Source: Jason directive 2026-07-01 (lived, his words).
+voice/jason, kind/naturalist.
+- **The beat:** presence/absence reads a place — no woodpeckers (residents cut dying trees) →
+  no snags → no owls (old woodpecker holes) → no chickadees (rotting wood) → no sparrows (no
+  shrubs); the whole web from one absence. The suburb "worn down to a loop" = the disenchanted/
+  averaged world (rhymes G-08-009 / G-16b-034, the averaging machine's smoothed repetition); the
+  forest = re-enchantment ("the absences become presences", Jason's landing). Feeds G-RE-012's
+  "network of attention that was always there."
+- **Provenance:** every move traces to Jason's raw; the ecological cascade is his naturalist
+  knowledge — general natural history (owls in old woodpecker holes, chickadees in rotting wood,
+  sparrows needing shrubs, woodpeckers needing snags), no named-person/date/figure risk. Tag
+  image/songbirds joins the bird-language spine; motif/the-tracker (reading a place by its signs).
+- **Gate:** craft-critic + blind non-birder witness (in flight at commit; revision folds next).
+  Build green, 35 gestures / 34 separators.
