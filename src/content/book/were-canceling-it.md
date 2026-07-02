@@ -38,6 +38,7 @@ gestures:
   - G-13-036
   - G-13-037
   - G-13-038
+  - G-13-038a
   - G-13-039
 separators:
   - paragraph
@@ -63,6 +64,7 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
