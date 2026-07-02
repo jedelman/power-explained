@@ -1666,3 +1666,28 @@ happens."
 - **Provenance:** Jason's raw; general natural history (crows-as-pests / Seattle habituation), no
   named-date-figure risk. Tag image/songbirds joins the bird-language spine; motif/the-tracker
   (reading a place by its signs); motif/the-singular (Jason's link). Build green, 23/22.
+
+## Move 6 · C1 · debt-shame given a body (the restaurant refinance) · 2026-07-01 · G-13-038a
+NEW gesture in "We're Canceling It" (P-13), between G-13-038 (the confession: "I cannot deprogram
+debt calculation… the hardest thing to actually feel in your body as true") and G-13-039 ("the
+credit commons is already running"). Source: Jason directive 2026-07-01 (lived — the restaurant
+refinance saga). Jason submits to his own diagnosis: named the spell, still carries it. The
+body-beat — banks rejecting like "tearing off a piece of myself," hair going gray in the photos,
+two years of begging, the father who co-signed then quietly lent the whole amount, the shame that
+"lives in my shoulders: a stoop, a bowed posture" — CARRIES debt-shame rather than re-explaining
+it (037/038 do the analysis). Ties to the shrug/stoop motif (the body accepting the weight) and
+inscription ("my body carries the mark of capital"). Provenance: Jason's lived experience; no
+amounts/banks/dates beyond "two years" and "just after the pandemic"; no verification risk.
+Enclosers = the banks (They); no guilt-"we". Build green, 32/31.
+
+## Move 6 · bird-language spine · B2 "pay off G-IW-012" · 2026-07-01 · G-IW-012a
+NEW gesture in "Becoming Wizards in the Woods" (P-IW), between G-IW-012 (the READING faculty: "the
+birds… commenting on our collective energy… what human beings are built to do. We've just been
+trained out of it.") and G-IW-013 (NAMING: "the moment when someone notices something they haven't
+noticed before and gets curious"). Source: Jason directive 2026-07-01 (lived — the summer-camp
+group sit). SHOWS the reading skill in the field: a body/mind gone calm reads to a bird as safe, so
+the chickadees close in and decide the group is "safe, or weird and interesting" (a quiet rhyme
+with the protect-the-weird thesis); the kids' NOTICING then feeds directly into G-IW-013's naming.
+Plants the skill before Re-Enchanting (return-and-deepen). Provenance: Jason's lived; bird
+comfort-distance + chickadee boldness are general natural history, no risk. Tag image/songbirds
+joins the spine. Build green, 31/30.
