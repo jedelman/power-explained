@@ -4,7 +4,7 @@ title: The Orgone Accumulator
 description: 'Reich built a box to hold a body that capitalism had emptied. The box was wrong. The need was real. On the floor, the woods, the armor that fails, and the thing the enclosure cannot use: an un-armored body in community.'
 h1: The Orgone Accumulator
 label: Initiation
-part: Part III — The Body
+part: 'Part III: Taking It Apart'
 showDoors: true
 type: initiation
 order: 8.5
@@ -298,7 +298,10 @@ gestures:
   - G-OA-005c
   - G-OA-006
   - G-OA-007
+  - G-OA-007a
   - G-OA-007b
+  - G-OA-007d
+  - G-OA-007e
   - G-OA-007c
   - G-OA-008
   - G-OA-008b
@@ -321,6 +324,9 @@ separators:
   - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
+  - paragraph
   - paragraph
   - paragraph
   - paragraph

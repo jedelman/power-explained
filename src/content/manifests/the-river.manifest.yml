@@ -43,31 +43,37 @@ notes: |
 sources:
   - overture
   - prologue
-  - chapter-1
-  - chapter-2
-  - chapter-3
+  # Part I — The Feeling
+  - the-machine-that-produces-the-same-outcomes
+  - two-cities
+  # Part II — Learning to See (becoming-wizards opens; ch16/16b lead into Goetia)
   - becoming-wizards-in-the-woods
-  - chapter-4
+  - the-cook
+  - nobody-asked-him-to
+  - even-that-part
+  - the-hollow-book
+  # Part III — Taking It Apart (Goetia opens; Orgone mid-Part)
   - goetia
-  - chapter-5
+  - the-smile
   - the-colony
-  - chapter-8
+  - no-name-for-it
   - orgone-accumulator
-  - chapter-9
-  - chapter-10
-  - chapter-11
-  - chapter-12
-  - chapter-13
-  - angel-faces-backward
-  - chapter-14
-  - chapter-15
+  # Part IV — Learning from Those Who Walked Before (Re-Enchanting opens — pulled forward)
   - reenchanting
-  - chapter-16
-  - chapter-16b
-  - chapter-17
-  - chapter-18
+  - he-built-it-anyway
+  - the-birds-she-fed-through-the-bars
+  - the-circle-in-the-blizzard
+  # Part V — Seeing What You Missed (Angel opens)
+  - angel-faces-backward
+  - this-was-made
+  # Part VI — When You Wake (Wizard's Walk opens; Djinn + Doves close)
   - wizards-walk
-  - the-centaur-chapter
+  - were-canceling-it
+  - i-became-the-land
+  - still-meeting
+  - the-owl-at-the-edge-of-the-circle
+  - you-wonderful-weird-birds
+  - the-djinn
   - epilogue
 
 inter_chapter_separator: section

@@ -1273,3 +1273,421 @@ shamanism placements into one walk. Connections all Jason-endorsed (the placemen
   Matched the Eliade clause to its gesture ("disenchanted world was the strange one").
   Ordering judged optimal. KEEP otherwise.
 - Status: staged at /book/path/the-sacred-and-its-keepers. Not in nav, not in the river.
+
+---
+
+## G-01-030a (the-machine… ch1) · Enchantment-pass Move 3 · staged (PASS)
+- Composed: one wizard-register bridge between G-01-030 and G-01-033 — the wizard
+  turn that names the demon's nature and weakness (the counter-spell) without
+  re-explaining the machine.
+  "A machine like that has no driver to vote out, no villain to expose. It runs on
+  a worn path, and on the belief that the path is the ground. But belief can be seen
+  through — and what can be seen through can be undone. Name the path as a path, and
+  it is a choice again: something someone made, that someone can unmake."
+- Sources:
+  - "no driver to vote out, no villain to expose" ← G-01-030 ("the people operating
+    the system are not, mostly, malicious") + the ignored-vote scene (G-01-022/024)
+    + G-01-033 ("Some assign blame").
+  - "runs on a worn path / belief that the path is the ground" ← G-01-013 ("Common
+    sense is the trail, not the decision"; "wear in like trails… the body follows
+    automatically") + G-01-010 ("It feels like reality").
+  - "belief can be seen through… name the path as a path… a choice again" ← G-01-012
+    ("make the existing arrangement visible as an arrangement") + lexicon §Incantation
+    (the counter-spell "names a thing so you see it coming, and the room changes") +
+    lexicon §Grimoire (a demon = "a power with a nature, a weakness, a use").
+- Critique (fresh-context craft critic, 2026-06-29): PASS on all 8 checks. Fills a
+  real gap — the chapter's old "can be removed" beat (G-01-032) is status: stashed,
+  so the made-thing/choice-again turn was absent at this seam; the insert also repairs
+  the 030→033 join (cause→consequence). No pre-emption (pays off G-01-013's dropped
+  trail image). No new claims/names/dates.
+- Witness (fresh-context blind reader, 2026-06-29): the line landed as the reader's
+  OWN realization ("the machine is just a worn path that someone could choose to
+  unmake") and read as invitation, not conscription — principle C confirmed.
+- Notes: witness bounced off two EXISTING beats (the "Gramsci called this common
+  sense" citation as over-explaining; the brewery "went out of business" vindication
+  note) — flagged to Jason, not edited in this commit.
+
+---
+
+## G-16-061 (even-that-part) · Enchantment Move 4 forward-ref gloss · shipped (PASS)
+- Composed: a one-line gloss identifying Törbel, which the book names 3× but never
+  introduces — "The Törbel community **— the Alpine commons Ostrom studied —** didn't
+  write their governance charter in 1483…" (em-dash→colon at "resolved:" to avoid a
+  dash pile-up).
+- Sources: VERIFIED fact — Törbel is the Alpine village (Valais, Switzerland) whose
+  1483 communal governance is the first case study in Ostrom's *Governing the Commons*
+  (supersummary.com/governing-the-commons; houseofswitzerland.org). Ostrom is already
+  established at the-cook (G-03-020 "Elinor Ostrom…") and nearby (G-18-035). The gloss
+  also sets up the existing "before anyone had named the design principles" = Ostrom.
+- Critique (fresh craft-critic, 2026-06-30): PASS — colon lands "five centuries" as a
+  verdict; no redundancy; reads as thought, not a bolt-on gloss.
+- Also tagged `place/torbel` + `person/ostrom` so the Tapestry/atlas sees it.
+
+## G-AB-025 (angel-faces) · Rolling Jubilee gloss · TRIED → REVERTED
+- Tried: appositive "the campaign that bought up strangers' debt and abolished it"
+  (sourced to G-13-003) to pre-introduce the Rolling Jubilee (named pos 18, established
+  pos 21).
+- Critique (fresh craft-critic, 2026-06-30): **REVERT** — G-AB-025 is `beauty_check:
+  passed` and a parallel triplet ("The arcade flashed up… The Rolling Jubilee flashed
+  up… The chip flashed up…"); the uniform bareness IS the cadence ("the arcade" and
+  "the chip" are also unglossed). The appositive makes the middle limb lopsided and
+  over-explains in a gesture arguing for legibility-on-need. The forward-ref is mild
+  (reader meets it in full 3 chapters later). Left bare; flagged to Jason.
+
+## Move 5 · Part III roster de-wall (audience pass) · 2026-06-30 · 5 demotions
+Driven by the full-book persona read-through (audience: not theory-literate). Rule:
+"name + life + stakes carries; name + bare claim shuts out." Jason: aggressive,
+protect nothing. All five are DELETIONS/DEMOTIONS of bare secondary names — the
+claim/concept is preserved as plain prose; the fully-storied load-bearing thinkers
+are untouched. No new claims. Connective recombinations noted below.
+- **G-05-014 (The Smile):** dropped "Fanon traced it… Robinson named it… Mbembe
+  extended it…" → "The same mechanism would later be traced in the colonized body,
+  named racial capitalism, extended into necropolitics." Concepts kept; all three get
+  full scenes in the very next chapter (The Colony). Connective = recombination of the
+  three existing predicates.
+- **G-06-023 (The Colony):** "So was CLR James, who… So was Claudia Jones, who…" →
+  "So were the thinkers who read the Haitian Revolution as a class revolution…, who
+  named the triple oppression…" Both claims preserved verbatim; only the two proper
+  names removed. Du Bois kept (load-bearing). Fits the chapter's "lineage" motif
+  (the tradition is larger than its famous names).
+- **G-06-032 (The Colony):** "Julius Nyerere's *ujamaa*" → "the *ujamaa* program."
+  Concrete example kept; head-of-state proper name dropped.
+- **G-08-019a (No Name for It):** dropped "by Barbara Smith, Beverly Smith, and Demita
+  Frazier" (three bare founder names → the collective). Removed `person/smith-barbara`
+  tag. KEPT Harriet Tubman (recognizable storied eponym; the naming-lineage beat rhymes
+  with the chapter's theme) — flagged to Jason as a deliberate hold vs. literal scope.
+- **G-08-020 (No Name for It):** (a) "Mbembe was reading Davis, not only Foucault." →
+  "Mbembe was reading Davis." (bare Foucault tag cut; Mbembe callback kept — it does
+  real work). (b) "Ruth Wilson Gilmore's *Abolition Geography* (2022) traces…" → "There
+  is a name for this: *abolition geography* — trace…" (concept kept; bare author/title
+  drop demoted; Davis owns the abolition argument in-scene). Removed orphaned
+  `person/foucault` + `year/2022` tags.
+- Gate: craft-critic (fresh context) in flight; blind reader-witness to follow. Build
+  green; tag-lint clean on all five (14 pre-existing errors are in untouched files).
+
+## Move 5 · Foucault intro-order fix (audience pass, witness-driven) · 2026-06-30
+Blind reader-witness (persona) flagged the single clearest shut-out across Part III:
+The Colony's "The question Foucault couldn't ask…" asserts the biopower contrast
+BEFORE biopower is explained (full gloss arrived later, G-07-028). Fix = relocate a
+compact gloss to first-contact, de-dup the later one. LITERARY edition only — the
+plain edition already glossed on contact ("Foucault described how power manages life.
+But that kind of power sits on an older base.").
+- **G-07-022 (rich body):** added at first contact — "Foucault had described how modern
+  power rules less by killing than by managing life — regulating bodies, administering
+  whole populations. What he never examined was the prior foundation that apparatus is
+  built on." Source = recombined verbatim from G-07-028's existing gloss (relocation,
+  no new claim).
+- **G-07-028 (rich body):** trimmed the now-duplicate opening to a callback — "That
+  apparatus — the management of life Foucault described, real and important as it was —
+  he developed almost entirely through the European experience." Question-contrast and
+  Necropolitics payoff (G-07-030) untouched.
+- Gate: craft-critic in flight. Build green; render clean (gloss appears once).
+- Residual witness flags (NOT fixed — routed to Jason): (1) African-polities catalog
+  G-06-028 reads as "names as inventory," but the gesture deliberately avoids fabricated
+  specifics — story-ifying needs verified detail or Jason's nod to trim/reframe; (2) The
+  Smile G-05-014 concept-burst ("racial capitalism / necropolitics") still a mild wobble
+  post-demotion, but concepts are cashed out next chapter — judged acceptable.
+
+## Move 5 · African-polities reframe + Fix 2 micro-fix · 2026-06-30 (Jason-directed)
+- **G-06-028 (African-polities catalog, The Colony):** witness skimmed it as "names as
+  inventory." Jason: light reframe (no fabrication). Added a framing beat — "too many to
+  name here, each governing itself in its own shape. A few, to show the range." — so the
+  four polities read as a deliberate sample, not a quiz. No new historical claims (true
+  statement that the examples are a partial set; the gesture's own notes say it names
+  broad patterns without fabricating specifics). Both editions.
+- **G-07-002 (the shrug, The Colony) — Fix 2 micro-fix:** witness flagged "When people say
+  the foundation of America is child abuse, I know what they're talking about" as
+  assuming a consensus the reader hasn't joined. Jason: micro-fix only (witness cleared
+  the broader guilt risk). Reframed to Jason's own conclusion from what he witnessed —
+  "I've seen the learning happen in real time — close enough to understand why someone
+  would call the foundation of this country child abuse." Invitation, not presumed
+  agreement. Both editions. No claim added; the assertion is now owned, not assumed.
+
+## Move 5 · Fix 3 (jargon cash-out) · 2026-06-30 · ONE change (witness-driven)
+Jargon-witness (cold persona, read even-that-part/the-hollow-book/reenchanting/
+you-wonderful for the three terms) verdict: NOTHING goes fully cold. Every intro is
+plain-glossed AND image-anchored (mycorrhizal forest / Stonewall / Neo / trans bodies);
+callbacks mostly re-gloss. The charter's "stayed cold" premise was wrong — the prose
+already does the work. Only one soft spot: a jargon pile-up.
+- **G-16b-050 (the-hollow-book, rich body):** the Centaur sentence stacked "pre-individual
+  field" + "the body deterritorializing from the organism the system prepared" with no
+  fresh image — the document's densest jargon clause. Per witness's exact fix: drop the
+  doubled French, keep the plain idea already beside it → "the body refusing the form the
+  system prepared" (echoes the intro gloss G-16-026 "slipping the assignment"). Kept the
+  single Simondon naming. Plain edition already jargon-free ("steps out of the shape the
+  AI laid out") — no change needed there.
+- **Left as-is (witness said LANDS, low priority):** G-RE-018 (reenchanting) Simondon
+  gloss is the only abstract-not-imagistic one but carried by surrounding bird/perception
+  material; warming it risks redundancy. "body without organs" sound stays slightly alien
+  but is correctly scaffolded by 2 glosses + 3 images — leave it (flag: don't cut those
+  images or it goes cold first).
+
+## Move 5 · Fix 5 (naming shown, not told) · 2026-06-30 · G-IW-009a NEW
+Becoming Wizards asserted naming as "the first move of any casting" but never SHOWED
+it — the deer story proves the opposite (wordless body-knowing). Witness flagged it as
+the chapter's one unearned claim. Jason supplied a true fieldwork scene (his words,
+2026-06-30): friends who knew the term "old-growth forest" but had never stood in one,
+hiked from logged forest into old growth; faces/breathing/pace change; they stop and
+ask "why is this different? what am I feeling?"; only then the name — illumination
+unmistakable, irreplaceable. Principle: "the naming only has power if the feeling is
+present."
+- **NEW gesture G-IW-009a** ("Before any of the naming"), inserted between G-IW-009
+  (the felt argument is "different in kind") and G-IW-010 (the protection note), before
+  the lexicon block. Source: Jason directive (lived material). SHOWS naming working +
+  the precondition ("the name has no power without the feeling beneath it. The body
+  first, then the word."). Manifest: gestures 29→30, separators 28→29 (added one
+  paragraph in the deer-movement run; section break stays at 010→028).
+- Gate: craft-critic PASS ("ship it" — provenance clean, shows-not-tells, cadence
+  strong, seam improved both directions). Blind persona re-witness: "It earns it" —
+  watched naming change people before being told it matters; lexicon gut-drop
+  ("shoulders drop, oh in the gut") now reads as a callback to this scene.
+
+## Move 5 · Fix 4 (trim Part VI case rhythm) · 2026-06-30 · 11 gestures retired (deletion-only)
+By Part VI the reader has internalized the pattern (thinker → commons example → parallel)
+and skims cases to reach the personal beats. Jason approved cutting the most-redundant
+case per chapter (each restated an immediately adjacent case) + Henry George. Pure
+deletions — no new prose. Cut gesture files remain on disk (no longer in chapter
+manifests); roll-calls trimmed to match.
+- **I Became the Land:** cut the Story County farmland-trust case (G-14-011, G-14-012 —
+  repeats Champlain's housing-trust move in agriculture); cut the Henry George / LVT block
+  (G-14-023, G-14-024, G-14-025 — tax digression after the emotional peak; its CLT-callback
+  already earned by Champlain). Roll-call G-14-036: dropped "The Story County farmland."
+  Seams: Champlain→"What the economist… cannot quite say" (clean); Graeber "It was
+  kinship"→Indigenous "22 percent" (stronger after cut). Sections 6→4 (collapsed brackets).
+- **Still Meeting:** cut Carlo Ginzburg / benandanti (G-15-008a — restated Federici's
+  rename-folk-knowledge point). Seam: Federici "Divination…"→"Not a centralized
+  conspiracy…" (clean); "enclosed knower" survives in "women who hold knowledge that
+  makes communities self-sufficient."
+- **The Owl:** cut Christopher Alexander / A Pattern Language (G-17-045, G-17-046,
+  G-17-047 — the abstraction of the Jacobs case that already landed). Roll-call G-17-049:
+  dropped "the pattern language" (6→5 items, all now concrete practices). Seam:
+  Jacobs/Moses→"The community reconstitutes itself" thesis (stronger after cut).
+- Gate: craft-critic all four seams PASS; two arguably stronger; no load-bearing loss;
+  no dangling references (book-wide grep clean); build green; tag-lint no new errors.
+
+## Move 5 · Still Meeting lived beat · 2026-06-30 · G-15-028a NEW
+Still Meeting was the only Part VI chapter with no first-person beat (the reader skims
+cases toward the lived payoff; this one gave none — witnessed as "flattest"). Jason
+supplied a true scene (his words, 2026-06-30): the Wednesday potluck before the restaurant
+— contribution by capacity (a dish, or watching kids / washing dishes), surplus (days of
+leftovers) cheaper than the market, the seed of the restaurant ("we should start a
+restaurant — little did we know") — then the corruption-of-the-commons demon, lived: the
+guest who came to extract (a handle of liquor, pitching his real estate brokerage) instead
+of contribute, and "the magic was gone."
+- **NEW gesture G-15-028a** ("Before we ran the restaurant"), placed between G-15-028 (the
+  commons "makes it visible — communities that intend to sustain themselves") and G-15-029
+  ("It only works if people care about each other. That is not a weakness. That is the
+  point."). Section break before, paragraph into 029 — so the potluck's life-and-death is
+  the lived proof the close reflects on. Manifest 22→23 gestures, 21→22 separators.
+  Source: Jason directive (lived material).
+- Gate: craft-critic PASS (provenance clean; shows both the commons and its enclosure with
+  zero gloss; the 028→scene→029 seam "the single biggest gain — 029 now has a corpse to
+  point at"). Blind witness PASS ("the one beat with a pulse… gives the chapter the lived
+  landing it was missing… earns the closing line that would otherwise be pure uplift").
+- Two spots both gates lightly flagged but said to KEEP (Jason's authentic details): "Little
+  did we know" (faint wink) and the real-estate-broker as the one who kills the commons
+  ("reads as remembered, not constructed — which is what saves it"). Left as-is.
+
+## Move 5 · Tubman tracker-spine weave · 2026-06-30 · G-08-019a (expand)
+Jason directive: "make the line as hard as possible — she's a legend in a social-justice
+way but ALSO a raw-skills way," so the Combahee Collective's eponym pays off the book's
+tracker-as-wizard spine doubly. Expanded the bare "named for Harriet Tubman's Combahee
+River raid of 1863" clause into a hard biographical beat (the raid she planned and led,
+the Underground Railroad decade, the scout network, the river mines), landing on
+"This is the tracker, in the flesh — the craft turned against the men who thought they
+owned the ground." Backward callback safe (terrain/tracker frame set in Becoming Wizards,
+Part II, before this Part III chapter). Added person/tubman, motif/the-tracker, year/1863.
+- FACTS verified via WebSearch (NMAAHC, NPS, History.com, Zinn, Army.mil): planned/guided
+  the raid ✅; "first woman ... to plan and lead an armed raid" (corrected from drafted
+  "armed assault," which over-narrowed the sourced "plan and lead a military raid/operation"
+  framing) ✅; 700+ freed in a single overnight river operation ✅; Underground Railroad
+  decade, "never lost a passenger" (her own 1896 claim) ✅; ran a scout/spy network whose
+  intel mapped the Confederate river torpedoes ✅.
+- Gate: fact-check craft-critic — all claims ✅ except the one "armed assault" fix (applied).
+  Blind witness PASS — "wins by specificity instead of worship; 'never lost one' and 'mapped
+  the Confederate mines' reframed her as an operator, not a saint; both legends fuse in
+  'moved unseen and brought the unseen out behind her.'" Witness REVISE on the meta line:
+  "the whole book has been describing" announced a click the reader had already made →
+  trimmed to "This is the tracker, in the flesh —" (lands harder; trusts the reader).
+
+## Move 6 · Batch A — destination re-point (meeting → wild nature) · 2026-06-30
+Jason's directive: "the book ends up where every wizard does, eventually: face to face with
+wild nature, receiving wisdom"; "earth flowers" RETIRED ("the Earth flowers wherever She can").
+The book already enacted the wild-nature close (Doves epilogue); moved the STATED destination
+off the meeting onto it.
+- **G-PR-031 (intro promise):** "…a room at seven-fifteen… That's where the earth flowers." →
+  "…it ends the way the wizard's road always ends: face to face with the living world. On the
+  ground beside the doves. The herons back in the willow oaks, who know things about this place
+  we are still learning to understand." Dropped motif/flowering tag, added image/night-herons +
+  image/the-doves. Imagery recombined from G-EP-001/011 + prologue herons.
+- **G-18-040 (Ch-18 meeting):** "This is where the earth flowers." → "This too is the work. You
+  tend the ground here, and the earth flowers wherever she can." (demoted to one ordinary site;
+  "earth flowers" survives only in its distributed form, per Jason).
+- **G-EP-015a (NEW, epilogue):** the stated destination, between G-EP-015 ("For now, that's
+  enough.") and the final triad. Final wording after gate: "The wizard's road ends here, the way
+  it always does — on the ground, the body finally quiet enough that the wild comes close. Face
+  to face with the life that was here first, that knows what we are still learning to understand."
+- Gate: craft-critic PASS on Edits 1 & 2; REVISE on Edit 3 (the grand "This is where the wizard's
+  road was always going" over-declared on the humble "For now, that's enough" — took critic's
+  Option B: quiet recognition "ends here, the way it always does"). Blind witness PASS ("ends
+  exactly where the prologue promised, image for image"; meeting reads as ordinary work; "Come
+  find us" lands as the wound closing) + flagged the trailing over-explain ("that has been trying
+  to tell us the whole time") → cut. Both gate fixes applied.
+
+## Move 6 · epilogue callbacks (reward attention) · 2026-06-30
+Jason: the epilogue should pay back recurring threads for attentive readers. Three woven:
+- **Meadow (G-EP-004):** the kinglet's meadow named as the SAME one from Ch 1 (G-01-017,
+  "I gave them hell"). "It's the meadow I gave the parks department hell over two years ago —
+  their plan called for mowing it, and they haven't cut it since." So "The meadow hasn't been
+  cut" (close) pays off the Ch-1 fight. Critic REVISE applied: cut the middle clause that
+  re-litigated the Ch-1 argument ("plan built to quiet complaints, not to serve the land") —
+  reward, don't re-explain. Witness: "I felt caught up with… 'The meadow hasn't been cut'
+  wrecked me a bit."
+- **Cook (G-EP-007, faith list):** "Faith in the cocinero in Ilocos, feeding his community
+  while they rebuild what the storm took, the way someone has in that village for centuries —
+  there will always be Filipinos out there feeding people." Source: G-03-043/006 (the zanjera
+  cocinero; the Filipino cook in Norfolk = Jason) + Jason directive. Witness caught both levels
+  (the cocinero AND Jason, who closed the restaurant). List holds at 4 (graded, not parallel —
+  ceiling; don't add a 5th).
+- **Young man (NEW G-EP-006a):** the Goetia young man ("waiting for the clipboard I would not
+  lift," "produced for an enclosure," G-GC-016/018) returns after G-EP-006 ("rooms where things
+  don't bend") — "that room did not bend." Jason directive: "this work is even for the ones
+  still waiting for that clipboard… I'll lure them into the woods if I can." Grief→hope; ties
+  the failed offer to the re-pointed wild-nature close ("the woods make the offer I never
+  could"). Critic: "the standout"; witness: "deepens the close rather than darkening it… the
+  truest version of hope this book could offer." Companion to Batch-B Goetia setup + WW echo.
+- Witness pre-existing nits (NOT these beats, flagged to Jason): the herons-and-doves-and-deer
+  roll-call (G-EP-011) at its over-naming ceiling; "this book is trying to be an awareness
+  practice" (G-EP-009) explains itself. Left for Jason.
+
+## Move 6 · medicine scenes (Jason's wilderness intensive) · 2026-06-30 · G-OA-007a, G-OA-007d
+Jason wrote two true scenes (StackEdit), Claude tightened to P-OA register + placed each to
+concretize the abstract beat before it. Both voice/jason lived testimony.
+- **G-OA-007a (bear hug, M2 "armor comes off"):** after G-OA-007 ("safe enough to set the
+  holding down"). The stoic man's crossed arms → hands in pockets, chin up, grin; weeks later
+  "the first time anyone had hugged him in years… he had forgotten he could"; "happening to
+  all of us… which is exactly why I almost missed it landing on him." Shows what 007 states;
+  the crossed-arms-over-the-chest rhymes forward to 007c "The chest has been held."
+- **G-OA-007d (metal songs, M1 bullseye "they sang me toward my gift"):** after G-OA-007b
+  ("you have to sing them there / what is your medicine?"). The metalhead unsure his songs are
+  welcome; acoustic Electric Wizard / Windhand / Bathory; Bathory's "Mother Earth, Father
+  Thunder" as a sing-along; the weird NEEDED not tolerated — "Not the songs. Us, collectively
+  making a home for them… welcoming the grief and the agony by singing it together, turning it
+  into something like strength." The protect-the-weird differentiator in the flesh.
+- Facts WebSearch-verified: "Mother Earth, Father Thunder" = Bathory (Nordland I, 2002); bands
+  real; no album named (no attribution risk). Electric Wizard / wizard-book resonance left
+  unglossed by design.
+- Gate: craft-critic PASS/PASS (provenance clean; show-not-tell; placement "deepens rather than
+  deflates"). Blind witness PASS — "the only place the community becomes a place instead of a
+  thesis… where I'd actually want to be." One flag (Jason's call): "Until they did." reads
+  slightly buttony to the cold reader (his own phrasing — kept). Meta-validation: witness found
+  the surrounding abstract "quality of regard / what is your medicine" connective tissue
+  retreat-brochure-y and the CONCRETE scenes the gold — i.e., more lived scenes like these is
+  exactly the right move.
+
+## Move 6 · medicine scene M3 ("what a medicine actually is") · 2026-06-30 · G-OA-007e
+Jason wrote the reflection that answers the chapter's own question ("what is your medicine?",
+G-OA-007b) with his own; Claude tightened to P-OA register and placed it after G-OA-007d (the
+metal songs, the community drawing his gift out) and before G-OA-007c (the turn to discipline).
+voice/jason lived testimony. Source: Jason directive 2026-06-30 (his words, StackEdit).
+- **The beat:** medicine is "a living thing; try to cage it and it starts to die," recognized
+  "by its tracks" (activates the tracker spine, motif/the-tracker); singular, "stretches
+  language," felt "the way you feel the presence of a wild animal in the brush." Then Jason
+  names HIS — speech / storytelling, "words that carry aura" (Jason's phrase + the book's aura
+  motif, G-AB-060) — WITH the honest shadow ("used it unconsciously, and often badly — talking
+  over people… flooding a conversation… I still fight that; it is too easy for me"), which keeps
+  it un-self-aggrandizing; framed passively ("It has been reflected back to me that mine…"),
+  reporting others' mirror, not self-coronating. Lands on teaching children to hold their own
+  councils and "the words to speak the council itself into being" — the power located in the
+  FORM of the council (the collective listening), not in himself.
+- Provenance: every detail traces to Jason's raw; no invention. Applied critic's one optional
+  cadence trim ("a power I can only point at, not describe" → "a power I can only point at").
+- Gate: craft-critic PASS (provenance clean; shadow load-bearing; tracker-tie real not
+  decoration; seam lands — 007c "what holds it when the woods end" turns cleanly off the council
+  peak). Blind witness PASS — tracks/wild-animal make the abstraction concrete; present-tense
+  shadow + give-it-to-the-children council save it from self-regard. One standing flag (Jason's
+  call, his own raw): "hypnotic, narcotic pull" still flirts with self-regard to the cold reader
+  — kept because it's lived self-description and the shadow neutralizes it.
+
+## Move 6 · Seam 3 · the medicine question turned on the reader · 2026-07-01 · G-WW-031a
+NEW gesture at the book's close, between G-WW-031 ("you find us by becoming someone we recognize
+on sight") and G-WW-032 ("Carry it as you walk. Whatever the *it* is for you…", which answers it).
+Turns the woods-question (G-OA-007b "what is your medicine?") onto the reader — the confirmation-
+reveal (you have a singular gift; we need it; the question was always yours) — and bookends the
+Ch-3 opening spell (G-03-046a "The loneliness was the spell").
+- **Provenance (recombination, no invention):** "everyone is singular / not a faction / it is
+  everyone" = G-18-025 (Hardt/Negri, the multitude = composition of irreducible singularities);
+  "a gift no average can hold" = G-08-009 / G-AB-007; both-ways recognition = G-RE-017 ("our
+  singularities are the condition of the shared thing") + G-OA-007b; "none of us is free until
+  all of us are free" = G-10-009 (Luxemburg/Wynter, singularity as the political condition of
+  freedom); "The loneliness was the spell. Recognition is the counter-spell" = G-03-046a + the
+  master spell→counter-spell move.
+- **Jason's anti-cult fix (2026-07-01):** "we are everywhere" is true BECAUSE everyone is singular
+  (not a faction) — the boundary a cult needs is dissolved. Witness cult-radar "flips at the word
+  *because*". Jason's two calls: "stay alert"→"stay open" (de-sentry); dropped "todo para todos"
+  ("it's not mine" — an EZLN slogan, not Jason's, arriving unattributed at the crescendo).
+- **Gate:** blind-witness PASS (anti-cult framing holds; both-ways recognition "the load-bearing
+  sentence… solidarity is the mechanism of self-acceptance"); craft-critic REVISE → reconciled
+  (cut "and it runs both ways —" show-don't-tell; the two Jason-calls). Live seam verified: WW-032's
+  "Carry it… whatever the *it* is" lands as the answer. Build green, 33 gestures / 32 separators.
+
+## Move 6 · bird-language spine · B3 "absence reads" · 2026-07-01 · G-RE-011a
+NEW gesture in Re-Enchanting, between G-RE-011 (the robin/owl confirmation — bird feeling points
+to a hidden event) and G-RE-012 (the crescendo: "a network of attention that was always there…
+about a place you cannot see"). B3 extends the reading craft from a hidden event to the standing
+state of a whole place, and to its ABSENCES. Source: Jason directive 2026-07-01 (lived, his words).
+voice/jason, kind/naturalist.
+- **The beat:** presence/absence reads a place — no woodpeckers (residents cut dying trees) →
+  no snags → no owls (old woodpecker holes) → no chickadees (rotting wood) → no sparrows (no
+  shrubs); the whole web from one absence. The suburb "worn down to a loop" = the disenchanted/
+  averaged world (rhymes G-08-009 / G-16b-034, the averaging machine's smoothed repetition); the
+  forest = re-enchantment ("the absences become presences", Jason's landing). Feeds G-RE-012's
+  "network of attention that was always there."
+- **Provenance:** every move traces to Jason's raw; the ecological cascade is his naturalist
+  knowledge — general natural history (owls in old woodpecker holes, chickadees in rotting wood,
+  sparrows needing shrubs, woodpeckers needing snags), no named-person/date/figure risk. Tag
+  image/songbirds joins the bird-language spine; motif/the-tracker (reading a place by its signs).
+- **Gate:** craft-critic PASS (provenance/register/seam clean; "do not move after RE-012 — breaks the event→place→network escalation"; natural history sound, no VERIFY) + blind non-birder witness "it lands" ("I see my own too-quiet street differently… the eeriness is real and in my body"; confirmed it FEEDS RE-012, "the sensory proof the later line cashes in"). One convergent nit → trimmed Claude's added flourish "the whole place speaking at once" so Jason's quieter landing ("the absences become presences") stands. Build green, 35 gestures / 34 separators.
+
+## Move 6 · bird-language spine · B1 "Part III reading cold-open" · 2026-07-01 · G-08-000a
+NEW gesture as the COLD-OPEN of "No Name for It" (P-08, Part III), before G-08-001 with a section
+break — breaks the book's longest bird-silence at the most abstract stretch. Source: Jason
+directive 2026-07-01 (lived, his words — the Seattle crow). Reading craft: how the animals answer
+you reads how the people there have treated them (VA crows hunted/wary vs. Seattle crows left in
+peace/at play), landing on the singular encounter — a crow holding his gaze, a braced part
+letting go, the community's decency making it possible, "beyond imagining — until it actually
+happens."
+- **Placement link (Jason 2026-07-01):** "the absence of connection and openness to the singular
+  renders the intersections inconceivable." The crow = openness to the singular made real; then
+  G-08-001's framework "that decides which experiences count and which fall through" is the
+  inverse, and the GM/Crenshaw case is the intersection that "fell through the gap between the
+  legally recognized categories." Bridge carried by juxtaposition + Jason's landing, not stated
+  (show, don't tell). GM narrative (G-08-001→002→003→004) intact below the cold-open.
+- **Provenance:** Jason's raw; general natural history (crows-as-pests / Seattle habituation), no
+  named-date-figure risk. Tag image/songbirds joins the bird-language spine; motif/the-tracker
+  (reading a place by its signs); motif/the-singular (Jason's link). Build green, 23/22.
+
+## Move 6 · C1 · debt-shame given a body (the restaurant refinance) · 2026-07-01 · G-13-038a
+NEW gesture in "We're Canceling It" (P-13), between G-13-038 (the confession: "I cannot deprogram
+debt calculation… the hardest thing to actually feel in your body as true") and G-13-039 ("the
+credit commons is already running"). Source: Jason directive 2026-07-01 (lived — the restaurant
+refinance saga). Jason submits to his own diagnosis: named the spell, still carries it. The
+body-beat — banks rejecting like "tearing off a piece of myself," hair going gray in the photos,
+two years of begging, the father who co-signed then quietly lent the whole amount, the shame that
+"lives in my shoulders: a stoop, a bowed posture" — CARRIES debt-shame rather than re-explaining
+it (037/038 do the analysis). Ties to the shrug/stoop motif (the body accepting the weight) and
+inscription ("my body carries the mark of capital"). Provenance: Jason's lived experience; no
+amounts/banks/dates beyond "two years" and "just after the pandemic"; no verification risk.
+Enclosers = the banks (They); no guilt-"we". Build green, 32/31.
+
+## Move 6 · bird-language spine · B2 "pay off G-IW-012" · 2026-07-01 · G-IW-012a
+NEW gesture in "Becoming Wizards in the Woods" (P-IW), between G-IW-012 (the READING faculty: "the
+birds… commenting on our collective energy… what human beings are built to do. We've just been
+trained out of it.") and G-IW-013 (NAMING: "the moment when someone notices something they haven't
+noticed before and gets curious"). Source: Jason directive 2026-07-01 (lived — the summer-camp
+group sit). SHOWS the reading skill in the field: a body/mind gone calm reads to a bird as safe, so
+the chickadees close in and decide the group is "safe, or weird and interesting" (a quiet rhyme
+with the protect-the-weird thesis); the kids' NOTICING then feeds directly into G-IW-013's naming.
+Plants the skill before Re-Enchanting (return-and-deepen). Provenance: Jason's lived; bird
+comfort-distance + chickadee boldness are general natural history, no risk. Tag image/songbirds
+joins the spine. Build green, 31/30.

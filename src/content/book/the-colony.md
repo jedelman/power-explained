@@ -1,10 +1,9 @@
 ---
 slug: the-colony
-title: 'Chapter 6: The Colony'
+title: 'The Colony'
 description: Four wizards — Robinson, Rodney, Fanon, Mbembe — reading one structure from four sides. Race in the mechanism, the outside engineered into underdevelopment, the colony in the body and the mind, and the postcolony where the flag comes down but the inscription continues.
 h1: The Colony
-label: Chapter 6
-part: 'Part III: Why the System Is the Way It Is'
+part: 'Part III: Taking It Apart'
 plateau:
   id: P-06
   status: draft

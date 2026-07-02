@@ -177,6 +177,18 @@ wields it), initiation (the becoming). Master principle: every concept is a tool
 turned against us that can be taken back — the spell becomes the counter-spell.
 Hold the same register for the same idea in every chapter.
 
+### Audience — who we're writing for (governs voice + onboarding)
+
+The reader the book is for: **`for-agents/audience.md`**. Countercultural,
+online-left-adjacent, anti-authoritarian, often "not normal" (queer/weird/neurodivergent)
+— the Hasan/Stancil/Mamdani span. They feel liberalism's hyperindividualist hollowness;
+only the right (post-liberalism, which enforces normativity) and the tankies (authority)
+currently offer them more-than-individual belonging. The book offers the third path: the
+commons — collective, anti-authoritarian, **built on the singular** (protects the weird,
+doesn't purge it). Implication for prose: the framework is right, the risk is *texture* —
+left-theory names must arrive through concrete experience, never as insider citations the
+reader is assumed to know. Never guilt, never lecture. Test with a persona reader-witness.
+
 ### Front-loaded overture (in draft)
 
 Decision: the book opens with a short wizard-register **overture** before the

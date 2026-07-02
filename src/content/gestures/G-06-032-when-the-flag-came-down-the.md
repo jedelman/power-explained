@@ -26,8 +26,8 @@ plain: >
   the place of the system that took from Africa? Or what would even be
   allowed to?
 
-  People tried some answers. In Tanzania, Julius Nyerere set up
-  *ujamaa*. It built farming around the big-family village. The land was
+  People tried some answers. In Tanzania, a program called
+  *ujamaa* built farming around the big-family village. The land was
   shared. The work was shared. The people in the village ran it. But
   there were conditions tied to the loans. Rodney was tracing those
   conditions. The villages fell apart. The same thing keeps happening.
@@ -49,6 +49,6 @@ plain_meta:
 ---
 When the flag came down, the question stayed: what would replace the extraction architecture, or be allowed to.
 
-Some answers were tried. In Tanzania, Julius Nyerere's *ujamaa* organized agricultural production around the extended-family village — collective land, shared work, locally accountable governance. The structural adjustment Rodney was tracing put the conditions on the financing. The villages broke apart. The pattern recurs: African food sovereignty movements, smallholder cooperatives, pastoralist commons in the Sahel — all built around shared use of land, water, herds — squeezed by debt conditions written in Washington, by land deals financed elsewhere, by the structure he was naming. The Alliance for Food Sovereignty in Africa now operates across the continent, defending seed commons against patented monoculture and the trade frameworks designed to require it.
+Some answers were tried. In Tanzania, the *ujamaa* program organized agricultural production around the extended-family village — collective land, shared work, locally accountable governance. The structural adjustment Rodney was tracing put the conditions on the financing. The villages broke apart. The pattern recurs: African food sovereignty movements, smallholder cooperatives, pastoralist commons in the Sahel — all built around shared use of land, water, herds — squeezed by debt conditions written in Washington, by land deals financed elsewhere, by the structure he was naming. The Alliance for Food Sovereignty in Africa now operates across the continent, defending seed commons against patented monoculture and the trade frameworks designed to require it.
 
 The pattern is the one Federici read into the demolished commons of European peasants. Prefiguration under siege, at every scale. Every commons rebuilt has to be defended against the same engineered emptying.

@@ -4,7 +4,7 @@ title: Re-Enchanting the World
 description: On the animated world that the enclosure tried to silence — and the practice of learning to hear it again.
 h1: Re-Enchanting the World
 label: Initiation
-part: Part V — The World the Framework Missed
+part: 'Part IV: Learning from Those Who Walked Before'
 showDoors: true
 type: initiation
 order: 15.5
@@ -21,6 +21,7 @@ gestures:
   - G-RE-010
   - G-RE-010b
   - G-RE-011
+  - G-RE-011a
   - G-RE-012
   - G-RE-014
   - G-RE-015
@@ -47,6 +48,7 @@ gestures:
   - G-RE-039
   - G-RE-040
 separators:
+  - paragraph
   - paragraph
   - paragraph
   - section

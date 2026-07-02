@@ -21,12 +21,11 @@ plain: >
   Robinson called this the Black radical tradition. It is the thinking,
   the politics, and the culture that grew up under slavery and under
   colonial rule. People built ideas from a spot where the system never
-  meant ideas to come from. Du Bois was part of it. So was CLR James.
-  He studied the Haitian Revolution. He saw it as a class revolution.
-  And he saw this before left-wing thinkers in Europe had the words for
-  it. So was Claudia Jones. She named the three-way load of race,
-  gender, and class. She did this many years before the word
-  intersectionality existed. The tradition kept going and kept growing.
+  meant ideas to come from. Du Bois was part of it. So were the thinkers
+  who studied the Haitian Revolution and saw it as a class revolution —
+  before left-wing thinkers in Europe had the words for it. So were the
+  ones who named the three-way load of race, gender, and class, many years
+  before the word intersectionality existed. The tradition kept going and kept growing.
   From the outside, it built the case. The case was that the system
   needed to keep them outside. Over many years, the line held. Each
   thinker's work was picked up by the next.
@@ -34,4 +33,4 @@ plain_meta:
   source: G-06-023
   status: draft
 ---
-This is what Robinson called the *Black radical tradition*: the intellectual and political and cultural work that developed inside the conditions of slavery and colonialism, building theory from a position the system did not intend to produce theory. Du Bois was part of it. So was CLR James, who analyzed the Haitian Revolution as a class revolution before European leftists had the framework to see it. So was Claudia Jones, who named the triple oppression of race, gender, and class decades before intersectionality had a name. The tradition was ongoing, cumulative — building the argument, from the outside, that the system needed to keep them on the outside. Across generations, the lineage held — each wizard's reading taken up by the next.
+This is what Robinson called the *Black radical tradition*: the intellectual and political and cultural work that developed inside the conditions of slavery and colonialism, building theory from a position the system did not intend to produce theory. Du Bois was part of it. So were the thinkers who read the Haitian Revolution as a class revolution before European leftists had the framework to see it, who named the triple oppression of race, gender, and class decades before intersectionality had a name. The tradition was ongoing, cumulative — building the argument, from the outside, that the system needed to keep them on the outside. Across generations, the lineage held — each wizard's reading taken up by the next.

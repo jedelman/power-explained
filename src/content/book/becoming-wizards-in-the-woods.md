@@ -4,6 +4,7 @@ title: Becoming Wizards in the Woods
 description: Old-growth forest, a deer through camp, five-year-olds dropping into a stalking gait — and the lexicon for what just happened.
 h1: Becoming Wizards in the Woods
 label: Initiation
+part: 'Part II: Learning to See'
 order: 3.5
 plateau:
   id: P-IW
@@ -17,6 +18,7 @@ gestures:
   - G-IW-006
   - G-IW-007
   - G-IW-009
+  - G-IW-009a
   - G-IW-010
   - G-IW-028
   - G-IW-022
@@ -32,6 +34,7 @@ gestures:
   - G-IW-027c
   - G-IW-011
   - G-IW-012
+  - G-IW-012a
   - G-IW-013
   - G-IW-014
   - G-IW-029
@@ -47,19 +50,21 @@ separators:
   - paragraph
   - paragraph
   - paragraph
-  - section
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
-  - paragraph
   - paragraph
   - section
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - paragraph
+  - section
+  - paragraph
   - paragraph
   - paragraph
   - paragraph
