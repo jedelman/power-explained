@@ -131,6 +131,10 @@ Short reading-beats to keep the thread alive across the gaps. Any of:
 
 JASON (note which, write the scene):
 
+prologue: the herons peer down at me in curiosity, wondering why a human has stopped to admire their nest. not alarm or concern - just curious.
+
+two cities: the wetland is dense enough that the green herons can comfortably ignore us and the joggers going past while they concentrate on fishing.
+
 
 ---
 
