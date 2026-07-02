@@ -35,12 +35,13 @@ plain: >
   asking and being turned down. Two years of checking my numbers again and again,
   until I understood the banks had just been lying about what they required. In
   the end one lender said yes — if my father would co-sign. He read the loan and
-  quietly lent me the whole amount himself. I have paid him back. And the shame
-  lives in my shoulders still: a stoop, a bowed back, an invisible weight I carry. My body carries the mark of it — the greed that grows by deciding, over
-  and over, who is worthy. I miss the easy breathing of a self-worth no one had
+  quietly lent me the whole amount himself. Not to be generous — to protect the
+  family. And because I had given him a chance, maybe for the first time in his
+  life, to put his money into something with soul. I have paid him back. And the shame
+  lives in my shoulders still: a stoop, a bowed back, an invisible weight I carry. I miss the easy breathing of a self-worth no one had
   questioned. It has been years.
 plain_meta:
   source: G-13-038a
   status: draft
 ---
-I know, because I could not deprogram it in myself. A year in, the restaurant finally earned enough to carry its own debt — a real accomplishment — and I went to the banks to refinance, to relieve the previous owner of the loan she had carried for us. A simple thing. But it was just after the pandemic; we had no history yet, and they did not want us. Every application felt like tearing off a piece of myself and holding it out to someone who looked at it with disdain and handed it back. My hair began to fall out. You can watch it in the photos from those years — the face aging, the gray coming in. Two years of begging and rejection, of checking and re-checking the numbers, before I understood the banks had simply been lying about what they required. In the end one lender said yes — if my father would co-sign. He read the loan and quietly lent me the whole amount himself. I have paid him back. And the shame lives in my shoulders still: a stoop, a bowed posture, an invisible weight I carry. My body carries the mark of capital — the greed that grows by deciding, over and over, who is worthy. I miss the easy breathing of unquestioned self-worth. It has been years.
+I know, because I could not deprogram it in myself. A year in, the restaurant finally earned enough to carry its own debt — a real accomplishment — and I went to the banks to refinance, to relieve the previous owner of the loan she had carried for us. A simple thing. But it was just after the pandemic; we had no history yet, and they did not want us. Every application felt like tearing off a piece of myself and holding it out to someone who looked at it with disdain and handed it back. My hair began to fall out. You can watch it in the photos from those years — the face aging, the gray coming in. Two years of begging and rejection, of checking and re-checking the numbers, before I understood the banks had simply been lying about what they required. In the end one lender said yes — if my father would co-sign. He read the loan and quietly lent me the whole amount himself. Not to be generous — to protect the family. And because I gave him a chance, maybe for the first time in his life, to make a direct financial investment in something with soul. I have paid him back. And the shame lives in my shoulders still: a stoop, a bowed posture, an invisible weight I carry. I miss the easy breathing of unquestioned self-worth. It has been years.
