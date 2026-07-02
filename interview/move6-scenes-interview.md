@@ -151,7 +151,7 @@ treatment. Your direction: connect it to **selling the restaurant to pay off you
 **Hits if:** it's the lived texture — what you sold, the felt (not counted) weight, the relationship, the thing that still presses. **Misses if:** it explains debt-shame instead of *carrying* it.
 **Facts:** any name/amount/date → Claude fact-checks per protocol; or keep it un-numbered (the weight, not the ledger).
 
-JASON:
+JASON: Once the restaurant was generating enough income to carry its own debt - a year in, a accomplishment - I started applying to banks to relieve the previous owner of the debt she had extended to us. A simple refinance. But this was after the pandemic, and while banks were eager to lend again, we didn't have the history. They didn't want us. Every loan application felt like tearing a piece of myself off and offering it to someone who disdainfully rejected it. My hair started falling out. The stress is still visible on my body. You can look at photos of me during this time and watch me age, watch my hair go gray. After two years - two years of begging and rejections, two years of checking and re-checking my numbers and finally realizing the banks were just lying to me about their lending requirements - I found a lender that was willing to do the loan, as long as my dad would co-sign the loan. My dad read the loan and decided to just lend me the full amount. Even though I've paid him off now, the shame still lives in my shoulders as a stoop, a bowed posture, an invisible weight I still carry. My body carries the mark of capital, of the greed that accumulates through determination of worthiness. I miss the easy breathing of unquestioned self worth. It's been years.
 
 
 ---
